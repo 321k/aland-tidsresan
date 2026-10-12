@@ -12,3 +12,15 @@ test('1860 comparison stays explicitly a plan when viewing today and has indepen
  assert.match(status.textContent,/planerade hus/);assert.match(status.textContent,/2026/);assert.ok(calls.some(c=>c[0]==='drawImage'));
  o.enabled=false;calls.length=0;o.draw(ctx,{});assert.equal(calls.length,0);
 });
+test('museum map preserves decade dating and source when compared with today',()=>{
+ const o=new Overlay(()=>{}),calls=[];o.enabled=true;o.mode='1920';o.museumReady=true;o.museumImage={};
+ const ctx=new Proxy({}, {get:(_,key)=>(...args)=>calls.push([key,...args]),set:()=>true});
+ o.draw(ctx,{year:2026,width:800,height:600,panX:0,panY:0,scale:1,meta:{world:100000,width:800,height:600,x0:0,y0:0}});
+ assert.match(status.textContent,/1920-talet/);assert.match(status.textContent,/inte en uppmätning från exakt 1920/);assert.match(status.textContent,/vitriner/);assert.match(status.textContent,/2026/);assert.match(status.textContent,/Nybyggarne/);assert.ok(calls.some(c=>c[0]==='drawImage'&&c[1]===o.museumImage));
+ const matrix=Overlay.affine(Overlay.museum.anchors,(lon,lat)=>[lon,-lat]);assert.ok(matrix.every(Number.isFinite));assert.ok(matrix[0]*matrix[3]-matrix[1]*matrix[2]>0);
+});
+test('failed remote museum image keeps source guidance and does not replace the 1860 image',async()=>{
+ const localBox={document:{querySelector:()=>status},Image:class{async decode(){throw Error('offline')}}};vm.createContext(localBox);vm.runInContext(fs.readFileSync('dist/historical-overlay.js','utf8')+'\nthis.Overlay=HistoricalOverlay;',localBox);
+ const o=new localBox.Overlay(()=>{});o.enabled=true;o.mode='1920';o.cityReady=true;o.cityImage={id:'1860'};await o.loadMuseumMap();assert.equal(o.museumFailed,true);assert.equal(o.museumLoading,false);assert.equal(o.cityImage.id,'1860');
+ o.draw({},{});assert.match(status.textContent,/kunde inte laddas/);assert.match(status.textContent,/originalets sida/);
+});

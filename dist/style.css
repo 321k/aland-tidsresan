@@ -29,3 +29,5 @@ header{gap:15px}.headernote{font-size:12px}header #openArchive{background:#e7ece
 
 #cityPlanActions[hidden]{display:none}.city-plan-view .maptitle{padding:10px 14px}.city-plan-view .maptitle h1{font-size:24px;margin:4px 0}.city-plan-view .quickplaces{top:115px}.city-plan-view #overlayBadge{top:156px}
 @media(max-width:800px){.city-plan-view .maptitle h1{font-size:20px}.city-plan-view .quickplaces{top:109px}.city-plan-view #overlayBadge{top:180px}}
+
+.vitrine-links{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}.vitrine-links a{display:inline-flex;align-items:center;justify-content:center;min-width:42px;min-height:36px;background:#f8f7f1;border:1px solid var(--line);border-radius:5px;font-size:13px;text-decoration:none}.vitrine-links a:hover,.vitrine-links a:focus-visible{background:#e7ece1;outline:2px solid var(--green)}

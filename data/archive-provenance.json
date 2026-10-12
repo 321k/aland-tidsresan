@@ -276,5 +276,75 @@
       ],
       "usage": "Optional comparative overlay, clearly labeled even when timeline is changed; original available independently."
     }
+  },
+  "mariehamn_museum_1920s": {
+    "source": "https://mpf.spfpension.fi/verksamhet/nybyggarne/mariehamn/",
+    "image": "https://mpf.spfpension.fi/Site/Data/2693/Images/VitrinindelningenS_N.png",
+    "title": "Mariehamn på 1920-talet – vitrinerna",
+    "attribution": "Mariehamns Pensionärsförening / Nybyggarne",
+    "represented_period": [
+      1920,
+      1929
+    ],
+    "timeline_stop": 1920,
+    "date_note": "Retrospective museum-model overview, not a map made or surveyed in 1920. Property-owner labels in associated descriptions can span the decade. No inferred exact map production date.",
+    "red_lines": "Museum display-case divisions, not historic boundaries.",
+    "reuse": "Remote image embedded from original host; no open redistribution licence verified. Local research copy is not shipped. Source links remain available if remote image fails.",
+    "building_lifetimes": "No standalone building date/footprint records inferred from this overview. Individual building descriptions require their own dates.",
+    "alignment": {
+      "method": "Affine transform, interpreted street intersections. Approximate and not surveyed.",
+      "reference_view_pixels": [
+        1888,
+        1334
+      ],
+      "controls": [
+        {
+          "pixel": [
+            1228,
+            637
+          ],
+          "geo": [
+            19.942466,
+            60.097336
+          ],
+          "name": "Torggatan / Storagatan"
+        },
+        {
+          "pixel": [
+            875,
+            637
+          ],
+          "geo": [
+            19.93527,
+            60.096889
+          ],
+          "name": "Östra Esplanadgatan / Storagatan"
+        },
+        {
+          "pixel": [
+            875,
+            471
+          ],
+          "geo": [
+            19.934845,
+            60.098505
+          ],
+          "name": "Östra Esplanadgatan / Norragatan"
+        }
+      ]
+    },
+    "vitrine_links": [
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin1/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin2/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin3/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin4/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin5/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin6/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin7/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin8/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin9/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin10/",
+      "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin11/"
+    ]
   }
 }
