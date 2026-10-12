@@ -1,0 +1,14 @@
+{
+  "id": "osm-2025",
+  "year": 2025,
+  "snapshot": "2025-01-01T21:21:00Z",
+  "name": "OSM:s vägkarta 2025",
+  "source": "https://download.geofabrik.de/europe/finland.html",
+  "license": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors / Geofabrik",
+  "note": "Historisk databasbild. Skillnader mellan uttag kan vara förbättrad kartläggning och betyder inte automatiskt att en väg byggts eller rivits. Kartlagda namn gäller källans år.",
+  "count": 18286,
+  "archive_sha256": "10726cb2a04f9b3c219d1e18fa38269d77743f367e2115b5c9c966b4869b46c2",
+  "method": "Road ways intersecting the historical Åland administrative boundary in the same PBF. Whole ways retained. No current geometry used.",
+  "archiveUrl": "https://download.geofabrik.de/europe/finland-250101.osm.pbf"
+}

@@ -39,6 +39,7 @@ class ExplorerLayers {
  render(ctx,view){if(!this.prepared)return;this.hits=[];this.drawn=[];this.viewList=[];this.view=view;
   if(view.year>=2026)this.drawCoast(ctx,view);
   view.overlay?.draw(ctx,view);
+  view.historicalRoads?.draw(ctx,view,this.project);
   if(view.year>=2026&&this.flags.modern)this.drawModern(ctx,view);
   if(ExplorerLayers.postalVisible(view.year)&&this.flags.postal)this.drawPostal(ctx,view);
   if(this.flags.heritage||this.flags.historic)this.drawHeritage(ctx,view);
@@ -108,7 +109,7 @@ class ExplorerLayers {
  }
  updateList(v){
   const status=document.querySelector('#modernStatus');const buildings=this.modernCounts.building;
-  if(this.modern.length)status.textContent=v.year>=2026?`${buildings.toLocaleString('sv-SE')} byggnadskonturer · ${(this.modern.length-buildings).toLocaleString('sv-SE')} väg- och stigsegment. Hela Åland, OSM ${this.sourceDate}. Zooma in för hus, småvägar och stigar. Täckningen varierar mellan orter.`:'Nutida byggnader och vägar visas vid 2026. Äldre år kan jämföras med flygfoton i kartarkivet.';
+  if(this.modern.length)status.textContent=v.year>=2026?`${buildings.toLocaleString('sv-SE')} byggnadskonturer · ${(this.modern.length-buildings).toLocaleString('sv-SE')} väg- och stigsegment. Hela Åland, OSM ${this.sourceDate}. Zooma in för hus, småvägar och stigar. Täckningen varierar mellan orter.`:'Nutida byggnadskonturer visas vid 2026. Äldre vägar har ett eget daterat kartlager; flygfoton finns i kartarkivet.';
   document.querySelector('#postalStatus').textContent=v.year>1911?'Postvägen är dold: sista användningen var vintern 1910–1911.':v.year<1700?'Postförbindelsen inrättades 1638. Den kartlagda sträckningen visas från 1700, eftersom underlaget är en 1700-talskarta.':this.flags.postal?'Postvägen · aktiv period till 1911. Schematisk sträckning enligt 1700-talskartan; trafiken förändrades under perioden.':'Postvägens kartlager är avstängt.';
   if(this.historic.length)document.querySelector('#historicStatus').textContent=this.historic.length+' källbelagda byggnader och byggnadsplatser · lägen är punkter, inte historiska konturer.';
   const list=document.querySelector('#registerPlaces');const key=this.viewList.map(f=>f.id).join('|')+this.query+v.year;if(key===this.listKey)return;this.listKey=key;

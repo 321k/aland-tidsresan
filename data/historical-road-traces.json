@@ -1,0 +1,2101 @@
+{
+  "preparedOn": "2026-10-12",
+  "policy": "Latest source at or before the selected year. Display years are source-selection intervals, NOT construction/demolition dates. Sea gaps are deliberately not bridged. No 1860 planned street is assumed to exist.",
+  "sets": [
+    {
+      "id": "alvin-1800",
+      "year": 1800,
+      "name": "Vägförbindelser · cirka 1800",
+      "source": "https://www.alvin-portal.org/alvin/imageViewer.jsf?dsId=ATTACHMENT-0001&pid=alvin-record%3A82661",
+      "reference": {
+        "asset": "dist/assets/aland-ca1800-alvin.jpg",
+        "viewSize": [
+          1427,
+          1760
+        ]
+      },
+      "method": "Interpreted red road lines; thin-plate interpolation between ten church symbols and registry reference points. No exact historical survey geometry.",
+      "note": "Kartan är daterad cirka 1800. Ett urval röda vägförbindelser har tolkats och passats in ungefärligt. Linjerna visar vägars samband mellan orter, inte exakta vägkanter. Småvägar och skärgården är ofullständigt täckta.",
+      "features": [
+        {
+          "id": "alvin-1800-1",
+          "name": "Eckerö–Hammarland–Emkarby",
+          "pixels": [
+            [
+              70,
+              794
+            ],
+            [
+              98,
+              813
+            ],
+            [
+              146,
+              806
+            ],
+            [
+              197,
+              860
+            ],
+            [
+              239,
+              878
+            ],
+            [
+              314,
+              902
+            ],
+            [
+              380,
+              889
+            ],
+            [
+              437,
+              881
+            ],
+            [
+              488,
+              881
+            ],
+            [
+              560,
+              893
+            ],
+            [
+              604,
+              884
+            ],
+            [
+              640,
+              875
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-2",
+          "name": "Finström–Godby",
+          "pixels": [
+            [
+              550,
+              657
+            ],
+            [
+              581,
+              660
+            ],
+            [
+              599,
+              713
+            ],
+            [
+              627,
+              746
+            ],
+            [
+              658,
+              744
+            ],
+            [
+              688,
+              756
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-3",
+          "name": "Jomala–Godby",
+          "pixels": [
+            [
+              595,
+              1074
+            ],
+            [
+              589,
+              1018
+            ],
+            [
+              585,
+              957
+            ],
+            [
+              582,
+              932
+            ],
+            [
+              583,
+              911
+            ],
+            [
+              560,
+              893
+            ],
+            [
+              604,
+              884
+            ],
+            [
+              640,
+              875
+            ],
+            [
+              649,
+              840
+            ],
+            [
+              648,
+              815
+            ],
+            [
+              676,
+              785
+            ],
+            [
+              688,
+              756
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-4",
+          "name": "Godby–Kastelholm–Sund",
+          "pixels": [
+            [
+              688,
+              756
+            ],
+            [
+              716,
+              749
+            ],
+            [
+              744,
+              701
+            ],
+            [
+              759,
+              702
+            ],
+            [
+              790,
+              727
+            ],
+            [
+              828,
+              744
+            ],
+            [
+              847,
+              767
+            ],
+            [
+              856,
+              744
+            ],
+            [
+              883,
+              717
+            ],
+            [
+              887,
+              681
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-5",
+          "name": "Kastelholm mot Bomarsund",
+          "pixels": [
+            [
+              847,
+              767
+            ],
+            [
+              913,
+              778
+            ],
+            [
+              971,
+              777
+            ],
+            [
+              1022,
+              792
+            ],
+            [
+              1080,
+              811
+            ],
+            [
+              1150,
+              816
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-6",
+          "name": "Geta–Finström",
+          "pixels": [
+            [
+              355,
+              247
+            ],
+            [
+              398,
+              222
+            ],
+            [
+              424,
+              222
+            ],
+            [
+              464,
+              251
+            ],
+            [
+              493,
+              258
+            ],
+            [
+              516,
+              305
+            ],
+            [
+              526,
+              358
+            ],
+            [
+              515,
+              401
+            ],
+            [
+              531,
+              446
+            ],
+            [
+              549,
+              470
+            ],
+            [
+              574,
+              508
+            ],
+            [
+              584,
+              533
+            ],
+            [
+              576,
+              568
+            ],
+            [
+              550,
+              615
+            ],
+            [
+              550,
+              657
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-7",
+          "name": "Godby–Saltvik",
+          "pixels": [
+            [
+              688,
+              756
+            ],
+            [
+              724,
+              706
+            ],
+            [
+              737,
+              638
+            ],
+            [
+              782,
+              611
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-8",
+          "name": "Norra vägen mot Saltvik",
+          "pixels": [
+            [
+              526,
+              358
+            ],
+            [
+              581,
+              364
+            ],
+            [
+              598,
+              322
+            ],
+            [
+              629,
+              304
+            ],
+            [
+              650,
+              318
+            ],
+            [
+              667,
+              345
+            ],
+            [
+              699,
+              349
+            ],
+            [
+              729,
+              356
+            ],
+            [
+              730,
+              401
+            ],
+            [
+              729,
+              444
+            ],
+            [
+              764,
+              468
+            ],
+            [
+              779,
+              515
+            ],
+            [
+              779,
+              560
+            ],
+            [
+              782,
+              611
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "alvin-1800-9",
+          "name": "Hammarland–Jomala",
+          "pixels": [
+            [
+              595,
+              1074
+            ],
+            [
+              555,
+              1061
+            ],
+            [
+              480,
+              1074
+            ],
+            [
+              438,
+              1061
+            ],
+            [
+              408,
+              1048
+            ],
+            [
+              375,
+              1031
+            ],
+            [
+              340,
+              1007
+            ],
+            [
+              312,
+              977
+            ],
+            [
+              287,
+              950
+            ],
+            [
+              254,
+              921
+            ],
+            [
+              239,
+              878
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "alvin-1800-10",
+          "name": "Jomala–Övernäs",
+          "pixels": [
+            [
+              595,
+              1074
+            ],
+            [
+              599,
+              1093
+            ],
+            [
+              575,
+              1138
+            ],
+            [
+              558,
+              1173
+            ],
+            [
+              555,
+              1225
+            ],
+            [
+              580,
+              1275
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "alvin-1800-11",
+          "name": "Jomala mot Lemström, norra stranden",
+          "pixels": [
+            [
+              599,
+              1093
+            ],
+            [
+              626,
+              1112
+            ],
+            [
+              653,
+              1136
+            ],
+            [
+              666,
+              1159
+            ],
+            [
+              695,
+              1179
+            ],
+            [
+              714,
+              1222
+            ],
+            [
+              717,
+              1267
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "alvin-1800-12",
+          "name": "Lemström–Lemlands kyrka, södra sidan",
+          "pixels": [
+            [
+              737,
+              1291
+            ],
+            [
+              748,
+              1332
+            ],
+            [
+              787,
+              1391
+            ],
+            [
+              827,
+              1404
+            ],
+            [
+              850,
+              1383
+            ],
+            [
+              851,
+              1362
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-13",
+          "name": "Lemland mot Lumparsund, västra stranden",
+          "pixels": [
+            [
+              851,
+              1362
+            ],
+            [
+              905,
+              1368
+            ],
+            [
+              938,
+              1360
+            ],
+            [
+              968,
+              1368
+            ],
+            [
+              1000,
+              1385
+            ],
+            [
+              1038,
+              1368
+            ],
+            [
+              1062,
+              1346
+            ],
+            [
+              1104,
+              1351
+            ],
+            [
+              1140,
+              1337
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-14",
+          "name": "Lumparland mot Lumparsund, östra stranden",
+          "pixels": [
+            [
+              1179,
+              1314
+            ],
+            [
+              1204,
+              1271
+            ],
+            [
+              1194,
+              1210
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "alvin-1800-15",
+          "name": "Vägen mot Hammarudda",
+          "pixels": [
+            [
+              438,
+              1061
+            ],
+            [
+              421,
+              1104
+            ],
+            [
+              409,
+              1136
+            ],
+            [
+              365,
+              1151
+            ],
+            [
+              323,
+              1190
+            ],
+            [
+              306,
+              1221
+            ],
+            [
+              272,
+              1239
+            ],
+            [
+              238,
+              1274
+            ],
+            [
+              272,
+              1293
+            ]
+          ],
+          "class": "tertiary"
+        }
+      ],
+      "region": "regional",
+      "anchors": [
+        {
+          "pixel": [
+            70,
+            794
+          ],
+          "code": "Ec 3.6"
+        },
+        {
+          "pixel": [
+            199,
+            860
+          ],
+          "code": "Ha 18.8"
+        },
+        {
+          "pixel": [
+            550,
+            657
+          ],
+          "code": "Fi 12.2"
+        },
+        {
+          "pixel": [
+            355,
+            247
+          ],
+          "code": "Ge 15.8"
+        },
+        {
+          "pixel": [
+            595,
+            1074
+          ],
+          "code": "Jo 22.7"
+        },
+        {
+          "pixel": [
+            782,
+            611
+          ],
+          "code": "Sa 22.3"
+        },
+        {
+          "pixel": [
+            887,
+            681
+          ],
+          "code": "Su 18.3"
+        },
+        {
+          "pixel": [
+            851,
+            1362
+          ],
+          "code": "Le 14.4"
+        },
+        {
+          "pixel": [
+            1194,
+            1210
+          ],
+          "code": "Lu 1.1"
+        },
+        {
+          "pixel": [
+            1392,
+            684
+          ],
+          "code": "Vå 13.1"
+        }
+      ]
+    },
+    {
+      "id": "atlas-1894",
+      "year": 1894,
+      "name": "Landsvägar och byvägar · 1894",
+      "source": "https://commons.wikimedia.org/wiki/File:(1894)_MAP_OF_THE_%C3%85LAND_ISLANDS.jpg",
+      "reference": {
+        "asset": "dist/assets/aland-1894.jpg",
+        "crop": [
+          250,
+          450,
+          1100,
+          1300
+        ],
+        "viewSize": [
+          1275,
+          1275
+        ]
+      },
+      "method": "Hand-read yellow road lines and selected thin village roads; inverse of existing printed-graticule calibration. Sea crossings split, no straight postal itinerary used.",
+      "note": "Ett urval vägar avritade från 1894 års karta i skala 1:700 000. Inpassningen har avvikelser på hundratals meter eller mer. Tjockare linjer visar kartans landsvägar; tunnare linjer visar ett urval byvägar.",
+      "features": [
+        {
+          "id": "atlas-1894-1",
+          "name": "Storby–Hammarland–Godby",
+          "pixels": [
+            [
+              112,
+              537
+            ],
+            [
+              136,
+              523
+            ],
+            [
+              147,
+              557
+            ],
+            [
+              177,
+              589
+            ],
+            [
+              190,
+              599
+            ],
+            [
+              222,
+              608
+            ],
+            [
+              245,
+              619
+            ],
+            [
+              267,
+              612
+            ],
+            [
+              282,
+              591
+            ],
+            [
+              317,
+              597
+            ],
+            [
+              351,
+              590
+            ],
+            [
+              373,
+              601
+            ],
+            [
+              395,
+              620
+            ],
+            [
+              406,
+              648
+            ],
+            [
+              432,
+              652
+            ],
+            [
+              468,
+              649
+            ],
+            [
+              492,
+              641
+            ],
+            [
+              513,
+              620
+            ],
+            [
+              527,
+              615
+            ],
+            [
+              540,
+              625
+            ],
+            [
+              565,
+              624
+            ],
+            [
+              587,
+              633
+            ],
+            [
+              600,
+              653
+            ],
+            [
+              619,
+              667
+            ],
+            [
+              633,
+              673
+            ],
+            [
+              649,
+              657
+            ],
+            [
+              654,
+              626
+            ],
+            [
+              661,
+              606
+            ],
+            [
+              678,
+              578
+            ],
+            [
+              681,
+              565
+            ],
+            [
+              701,
+              558
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "atlas-1894-2",
+          "name": "Godby–Kastelholm–Sund",
+          "pixels": [
+            [
+              701,
+              558
+            ],
+            [
+              722,
+              562
+            ],
+            [
+              736,
+              544
+            ],
+            [
+              742,
+              529
+            ],
+            [
+              758,
+              526
+            ],
+            [
+              776,
+              534
+            ],
+            [
+              791,
+              555
+            ],
+            [
+              798,
+              568
+            ],
+            [
+              828,
+              580
+            ],
+            [
+              853,
+              599
+            ],
+            [
+              878,
+              609
+            ],
+            [
+              907,
+              602
+            ],
+            [
+              936,
+              590
+            ],
+            [
+              960,
+              574
+            ],
+            [
+              967,
+              558
+            ],
+            [
+              994,
+              546
+            ],
+            [
+              1007,
+              536
+            ],
+            [
+              1018,
+              549
+            ],
+            [
+              1025,
+              565
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "atlas-1894-3",
+          "name": "Kastelholm mot Bomarsund",
+          "pixels": [
+            [
+              936,
+              590
+            ],
+            [
+              949,
+              609
+            ],
+            [
+              971,
+              619
+            ],
+            [
+              986,
+              632
+            ],
+            [
+              1027,
+              641
+            ],
+            [
+              1063,
+              643
+            ],
+            [
+              1092,
+              648
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "atlas-1894-4",
+          "name": "Töftö, vägen norrut",
+          "pixels": [
+            [
+              1136,
+              640
+            ],
+            [
+              1146,
+              618
+            ],
+            [
+              1158,
+              600
+            ],
+            [
+              1155,
+              574
+            ],
+            [
+              1167,
+              559
+            ],
+            [
+              1191,
+              562
+            ],
+            [
+              1218,
+              572
+            ],
+            [
+              1236,
+              565
+            ],
+            [
+              1255,
+              546
+            ],
+            [
+              1274,
+              529
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "atlas-1894-5",
+          "name": "Godby–Jomala–Mariehamn",
+          "pixels": [
+            [
+              633,
+              673
+            ],
+            [
+              641,
+              703
+            ],
+            [
+              665,
+              744
+            ],
+            [
+              683,
+              771
+            ],
+            [
+              668,
+              781
+            ],
+            [
+              630,
+              793
+            ],
+            [
+              621,
+              817
+            ],
+            [
+              627,
+              844
+            ],
+            [
+              625,
+              877
+            ],
+            [
+              615,
+              905
+            ],
+            [
+              620,
+              930
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "atlas-1894-6",
+          "name": "Jomala–Lemström, norra stranden",
+          "pixels": [
+            [
+              683,
+              771
+            ],
+            [
+              709,
+              810
+            ],
+            [
+              724,
+              850
+            ],
+            [
+              728,
+              890
+            ],
+            [
+              738,
+              940
+            ],
+            [
+              744,
+              966
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "atlas-1894-7",
+          "name": "Lemström–Lemland–Lumparsund",
+          "pixels": [
+            [
+              747,
+              981
+            ],
+            [
+              751,
+              1001
+            ],
+            [
+              775,
+              1020
+            ],
+            [
+              811,
+              1021
+            ],
+            [
+              842,
+              1017
+            ],
+            [
+              877,
+              1020
+            ],
+            [
+              910,
+              1032
+            ],
+            [
+              938,
+              1038
+            ],
+            [
+              977,
+              1033
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "atlas-1894-8",
+          "name": "Finströms kyrka–Godby",
+          "pixels": [
+            [
+              591,
+              460
+            ],
+            [
+              608,
+              466
+            ],
+            [
+              628,
+              491
+            ],
+            [
+              648,
+              505
+            ],
+            [
+              668,
+              520
+            ],
+            [
+              692,
+              531
+            ],
+            [
+              701,
+              558
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "atlas-1894-9",
+          "name": "Geta–Finström",
+          "pixels": [
+            [
+              488,
+              170
+            ],
+            [
+              522,
+              179
+            ],
+            [
+              550,
+              197
+            ],
+            [
+              568,
+              222
+            ],
+            [
+              582,
+              251
+            ],
+            [
+              594,
+              294
+            ],
+            [
+              596,
+              334
+            ],
+            [
+              601,
+              370
+            ],
+            [
+              595,
+              410
+            ],
+            [
+              591,
+              460
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "atlas-1894-10",
+          "name": "Godby–Saltvik",
+          "pixels": [
+            [
+              701,
+              558
+            ],
+            [
+              705,
+              518
+            ],
+            [
+              697,
+              483
+            ],
+            [
+              717,
+              478
+            ],
+            [
+              740,
+              462
+            ],
+            [
+              762,
+              447
+            ],
+            [
+              770,
+              423
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "atlas-1894-11",
+          "name": "Saltvik–Sund",
+          "pixels": [
+            [
+              770,
+              423
+            ],
+            [
+              815,
+              444
+            ],
+            [
+              850,
+              453
+            ],
+            [
+              892,
+              487
+            ],
+            [
+              908,
+              509
+            ],
+            [
+              938,
+              531
+            ],
+            [
+              967,
+              558
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "atlas-1894-12",
+          "name": "Jomala–Gottby",
+          "pixels": [
+            [
+              630,
+              793
+            ],
+            [
+              593,
+              789
+            ],
+            [
+              566,
+              790
+            ],
+            [
+              536,
+              801
+            ],
+            [
+              512,
+              810
+            ],
+            [
+              482,
+              813
+            ],
+            [
+              452,
+              840
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "atlas-1894-13",
+          "name": "Hammarland–Gottby",
+          "pixels": [
+            [
+              351,
+              590
+            ],
+            [
+              352,
+              642
+            ],
+            [
+              351,
+              682
+            ],
+            [
+              350,
+              723
+            ],
+            [
+              365,
+              754
+            ],
+            [
+              393,
+              786
+            ],
+            [
+              417,
+              813
+            ],
+            [
+              452,
+              840
+            ]
+          ],
+          "class": "tertiary"
+        }
+      ],
+      "region": "regional"
+    },
+    {
+      "id": "museum-1920",
+      "year": 1920,
+      "name": "Mariehamns gator · 1920-talet",
+      "source": "https://mpf.spfpension.fi/verksamhet/nybyggarne/mariehamn/",
+      "reference": {
+        "image": "https://mpf.spfpension.fi/Site/Data/2693/Images/VitrinindelningenS_N.png",
+        "viewSize": [
+          1888,
+          1334
+        ]
+      },
+      "method": "Street centre lines interpreted from museum reconstruction, transformed using the existing three street-intersection correspondences.",
+      "note": "Museikartan beskriver 1920-talet, inte exakt år 1920. Gatorna är ungefärligt avritade. Röda vitriner, gårdsgränser och planerade gator i 1860 års stadsplan ingår inte. Gatunamn anges bara där läget är identifierat.",
+      "features": [
+        {
+          "id": "museum-1920-1",
+          "name": "Torggatan",
+          "pixels": [
+            [
+              1228,
+              350
+            ],
+            [
+              1228,
+              637
+            ],
+            [
+              1218,
+              810
+            ],
+            [
+              1230,
+              891
+            ],
+            [
+              1209,
+              970
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-2",
+          "name": "Östra Esplanadgatan",
+          "pixels": [
+            [
+              875,
+              406
+            ],
+            [
+              875,
+              637
+            ],
+            [
+              875,
+              874
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-3",
+          "name": "Västra Esplanadgatan",
+          "pixels": [
+            [
+              834,
+              406
+            ],
+            [
+              834,
+              637
+            ],
+            [
+              834,
+              874
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-4",
+          "name": "Norragatan",
+          "pixels": [
+            [
+              468,
+              471
+            ],
+            [
+              1320,
+              471
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-5",
+          "name": "Norra esplanadens gata",
+          "pixels": [
+            [
+              468,
+              596
+            ],
+            [
+              1320,
+              596
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-6",
+          "name": "Södra esplanadens gata",
+          "pixels": [
+            [
+              468,
+              637
+            ],
+            [
+              1320,
+              637
+            ],
+            [
+              1393,
+              638
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-7",
+          "name": "Södragatan",
+          "pixels": [
+            [
+              468,
+              689
+            ],
+            [
+              833,
+              689
+            ],
+            [
+              1055,
+              689
+            ],
+            [
+              1226,
+              688
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-8",
+          "name": "Gata väster om esplanaden",
+          "pixels": [
+            [
+              664,
+              406
+            ],
+            [
+              664,
+              995
+            ],
+            [
+              662,
+              1093
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-9",
+          "name": "Gata mellan esplanaden och Torggatan",
+          "pixels": [
+            [
+              1055,
+              350
+            ],
+            [
+              1055,
+              995
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-10",
+          "name": "Strandgatan",
+          "pixels": [
+            [
+              1298,
+              145
+            ],
+            [
+              1298,
+              314
+            ],
+            [
+              1320,
+              355
+            ],
+            [
+              1320,
+              637
+            ],
+            [
+              1373,
+              661
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-11",
+          "name": "Västra strandens gata",
+          "pixels": [
+            [
+              332,
+              205
+            ],
+            [
+              340,
+              300
+            ],
+            [
+              376,
+              396
+            ],
+            [
+              398,
+              487
+            ],
+            [
+              432,
+              609
+            ],
+            [
+              450,
+              653
+            ],
+            [
+              468,
+              675
+            ],
+            [
+              468,
+              829
+            ],
+            [
+              500,
+              973
+            ],
+            [
+              508,
+              1087
+            ],
+            [
+              539,
+              1180
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-12",
+          "name": "Gata längs västra kvarteren",
+          "pixels": [
+            [
+              468,
+              460
+            ],
+            [
+              468,
+              689
+            ],
+            [
+              491,
+              832
+            ],
+            [
+              501,
+              973
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-13",
+          "name": "Tvärgata vid stadens norra kvarter",
+          "pixels": [
+            [
+              875,
+              350
+            ],
+            [
+              1320,
+              355
+            ],
+            [
+              1400,
+              349
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-14",
+          "name": "Tvärgata norr om Norragatan",
+          "pixels": [
+            [
+              664,
+              406
+            ],
+            [
+              1320,
+              407
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-15",
+          "name": "Tvärgata söder om Södragatan",
+          "pixels": [
+            [
+              664,
+              758
+            ],
+            [
+              1218,
+              758
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-16",
+          "name": "Tvärgata genom södra kvarteren",
+          "pixels": [
+            [
+              664,
+              814
+            ],
+            [
+              1218,
+              814
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-17",
+          "name": "Tvärgata vid södra esplanadänden",
+          "pixels": [
+            [
+              664,
+              884
+            ],
+            [
+              1230,
+              891
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-18",
+          "name": "Gata vid stadens södra kvarter",
+          "pixels": [
+            [
+              501,
+              995
+            ],
+            [
+              1368,
+              995
+            ]
+          ],
+          "class": "residential"
+        },
+        {
+          "id": "museum-1920-19",
+          "name": "Gata söderut vid östra stranden",
+          "pixels": [
+            [
+              1373,
+              661
+            ],
+            [
+              1373,
+              995
+            ],
+            [
+              1356,
+              1019
+            ],
+            [
+              1391,
+              1075
+            ],
+            [
+              1459,
+              1156
+            ]
+          ],
+          "class": "residential"
+        }
+      ],
+      "region": "city",
+      "anchors": [
+        {
+          "pixel": [
+            1228,
+            637
+          ],
+          "geo": [
+            19.942466,
+            60.097336
+          ]
+        },
+        {
+          "pixel": [
+            875,
+            637
+          ],
+          "geo": [
+            19.93527,
+            60.096889
+          ]
+        },
+        {
+          "pixel": [
+            875,
+            471
+          ],
+          "geo": [
+            19.934845,
+            60.098505
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photo-1942",
+      "year": 1942,
+      "name": "Mariehamns infartsvägar · flygfoto 1942",
+      "source": "https://karta.mariehamn.ax/IMS/?layers=Baskarta&lon=Flygfoto%201942&cp=6664855,20496370&z=2",
+      "reference": {
+        "tileTemplate": "https://karta.mariehamn.ax/IMS/Tile/Layer?layer=Ortofoto%201942&x={x}&y={y}&z=14",
+        "tilesX": [
+          10007,
+          10008
+        ],
+        "tilesY": [
+          3253,
+          3254,
+          3255
+        ],
+        "viewSize": [
+          1024,
+          1536
+        ],
+        "crs": "EPSG:3874",
+        "metersPerViewPixel": 4,
+        "west": 20494336,
+        "north": 6668288
+      },
+      "method": "Manual centre-line interpretation of visible road corridors in the official 25 July 1942 orthophoto. Raster not redistributed. Supplements the city core, rather than treating every pale field boundary as a road.",
+      "note": "Utvalda tydliga vägstråk utanför stadskärnan, tolkade från flygfotot den 25 juli 1942. Små avtagsvägar saknas. Bildtolkningen är förenklad; vägbredd och beläggning är inte rekonstruerade. Stadskärnan visas med 1920-talets underlag.",
+      "features": [
+        {
+          "id": "photo-1942-1",
+          "name": "Västra infarten norrifrån, 1942",
+          "pixels": [
+            [
+              315,
+              150
+            ],
+            [
+              370,
+              155
+            ],
+            [
+              382,
+              175
+            ],
+            [
+              409,
+              291
+            ],
+            [
+              437,
+              385
+            ],
+            [
+              476,
+              471
+            ],
+            [
+              486,
+              511
+            ],
+            [
+              492,
+              552
+            ],
+            [
+              502,
+              601
+            ],
+            [
+              535,
+              633
+            ],
+            [
+              552,
+              668
+            ],
+            [
+              560,
+              705
+            ],
+            [
+              568,
+              752
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "photo-1942-2",
+          "name": "Östra infarten norrifrån, 1942",
+          "pixels": [
+            [
+              623,
+              72
+            ],
+            [
+              620,
+              175
+            ],
+            [
+              614,
+              250
+            ],
+            [
+              590,
+              305
+            ],
+            [
+              565,
+              350
+            ],
+            [
+              565,
+              382
+            ],
+            [
+              577,
+              457
+            ],
+            [
+              583,
+              517
+            ],
+            [
+              595,
+              592
+            ],
+            [
+              610,
+              662
+            ],
+            [
+              624,
+              730
+            ],
+            [
+              635,
+              798
+            ]
+          ],
+          "class": "secondary"
+        },
+        {
+          "id": "photo-1942-3",
+          "name": "Förbindelse mellan infartsvägarna, 1942",
+          "pixels": [
+            [
+              368,
+              599
+            ],
+            [
+              417,
+              584
+            ],
+            [
+              451,
+              580
+            ],
+            [
+              482,
+              566
+            ],
+            [
+              520,
+              540
+            ],
+            [
+              561,
+              484
+            ],
+            [
+              577,
+              457
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "photo-1942-4",
+          "name": "Väg till västra stadskanten, 1942",
+          "pixels": [
+            [
+              368,
+              599
+            ],
+            [
+              377,
+              656
+            ],
+            [
+              386,
+              683
+            ],
+            [
+              404,
+              715
+            ],
+            [
+              405,
+              768
+            ]
+          ],
+          "class": "tertiary"
+        },
+        {
+          "id": "photo-1942-5",
+          "name": "Södra vägen på halvön, 1942",
+          "pixels": [
+            [
+              621,
+              994
+            ],
+            [
+              641,
+              1054
+            ],
+            [
+              656,
+              1088
+            ],
+            [
+              654,
+              1125
+            ],
+            [
+              650,
+              1149
+            ],
+            [
+              644,
+              1178
+            ],
+            [
+              658,
+              1243
+            ],
+            [
+              674,
+              1291
+            ],
+            [
+              695,
+              1316
+            ],
+            [
+              710,
+              1347
+            ],
+            [
+              728,
+              1390
+            ],
+            [
+              738,
+              1420
+            ],
+            [
+              744,
+              1448
+            ]
+          ],
+          "class": "tertiary"
+        }
+      ],
+      "region": "city-approaches"
+    }
+  ]
+}

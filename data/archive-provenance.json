@@ -376,6 +376,7 @@
     "original_tiff": "https://www.alvin-portal.org/alvin/attachment/download/alvin-record:82661/ATTACHMENT-0001.tiff",
     "coverage": "Visual inspection: mainly mainland Åland with Lemland, Lumparland and parts of nearby archipelago; not complete present-day Åland extent.",
     "georeferencing": "None. Original displayed independently and side by side with 1894; no invented road or building lifetimes or geographic alignment.",
-    "verified_on": "2026-10-12"
+    "verified_on": "2026-10-12",
+    "separate_road_layer": "A separate, explicitly schematic road interpretation was added. It uses hand-read pixel traces and church reference correspondences, with leave-one-out error around 3 km. See historical-road-traces.json and build_historical_roads.py. The original image remains reference-only; source years are not construction dates."
   }
 }
