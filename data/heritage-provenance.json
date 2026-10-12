@@ -1,0 +1,20 @@
+{
+  "retrieved": "2026-10-12",
+  "attribution": "© Ålands landskapsregering, CC BY 4.0. Koordinatpunkter delvis via historia.pdc.ax; originalpolygoner hämtade direkt från landskapets tjänst.",
+  "licenseUrl": "https://www.arcgis.com/sharing/rest/content/items/5e1725b01c994196b97436b335841bb1?f=json",
+  "source": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer",
+  "datingTable": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/2",
+  "datingCodesSource": "https://www.arcgis.com/sharing/rest/content/items/26f40622fa3b45df8a0c5235658f2ee3/data?f=json",
+  "periodRangesSource": "https://www.regeringen.ax/sites/default/files/attachments/page/underlagsrapport-den-fysiska-strukturen-pa-aland.pdf",
+  "periodRangeNotes": "Stenålder breddad till 5500 f.Kr. för att omfatta tidigaste bosättning enligt aktuell forskning; officiell översikt anger ca 5000–1500 f.Kr. Bronsålder 1500–400 f.Kr. och järnålder 400 f.Kr.–1100 e.Kr. följer landskapets rapport. Medeltid 1100–1520 och sentid 1500–nutid är breda överlappande navigeringsintervall, inte registerdefinitioner. Historisk tid hålls brett från 1100. Inga periodgränser får visas som exakt ålder för enskild lämning.",
+  "notes": [
+    "Regist betyder registreringsdatum, inte lämningens historiska datering. Inventeringsår och last_edited_date är heller inte byggår.",
+    "Dateringstabellens FornID kan ha flera rader: bevara alla kategorier.",
+    "Datering huvudkategori Typ_1 har verifierats i officiella kartans Arcade popup, inte gissats utifrån kodvärden.",
+    "Ett fåtal motsägelsefulla underperioder finns; registryConflict flaggar tydliga sekelfel.",
+    "1870 originalpolygoner; referenskartan har 1887 fornminnespunkter och vissa dubbletter. Använd gärna originalfilens 1870 som bas.",
+    "Nuvarande fornlämningar är fyndplatser, inte belägg för att byggnaden står kvar i senare år.",
+    "Alla polygoner finns separat i research-fornminnen-authoritative.geojson.",
+    "Motstridiga huvud-/underkategorier utesluts från dating och sparas i datingConflicts (t.ex. gammal fyrgrund kodad stenålder + 1800-tal)."
+  ]
+}

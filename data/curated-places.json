@@ -1,0 +1,517 @@
+{
+  "attribution": "© Ålands landskapsregering, CC BY 4.0; korta beskrivningar bearbetade för lärande",
+  "retrieved": "2026-10-12",
+  "notes": [
+    "Alla koordinater är hämtade från dokumenterade registerområden; punkterna är inte verifierade byggnadsfotavtryck. Använd områdesmarkör där detta spelar roll.",
+    "Årtal i källornas arkeologiska inventeringar kan vara äldre, okalibrerade bedömningar. Visa ca och original dateringsetikett.",
+    "För ursprungliga byggnadsformer saknas ofta belägg; markören får inte bli en påstådd exakt rekonstruktion.",
+    "Jettböle svensk Wikipedia har en uppenbart felaktig koordinat 50.14194 N. Använd officiellt register istället.",
+    "Glamilders register anger 2000–600 f.Kr. men modern radiokoldatering för korn ger äldre resultat; har därför inte getts en förenklad handskriven tidsrad. Ingår i fullständigt register.",
+    "Källornas kulturmiljöinventeringar är äldre ögonblicksbilder; formuleringar som idag eller nyligen i sourceText gäller inventeringsåret.",
+    "Espskär 1857 är beslut om lotsstuga. Presskälla anger 1877 som byggår, så undvik exakt byggår för befintlig stuga."
+  ],
+  "places": [
+    {
+      "id": "heritage-1653",
+      "registryId": "Sa 2.21",
+      "name": "Bertby – tidig stenåldersboplats",
+      "category": "archaeology",
+      "lat": 60.31809031185011,
+      "lon": 20.11076777109897,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -5000,
+      "toYear": null,
+      "dateLabel": "omkring 5000 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "Här bodde människor på en av Ålands tidigaste kända boplatser. Arkeologer har hittat eldstäder och mängder av små stenbitar från tillverkning av redskap.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+2.21%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1653"
+        }
+      ],
+      "sourceText": "En av de äldsta boplatserna på Åland med äldre tidig kamkeramisk kultur ca 5000 f.Kr. Norra delen gränsbestämdes 2007 och den södra delen gränsbestämdes 2016.\r Under den första undersökningen påträffades två härdanläggningar samt stora mängder stenavslag av främst kvartskeratofyr men även av kvarts. En liten mängd kermaik hittades. Under den andra undersökningen hittades stenavslag av huvudsakligen kvartskeratofyr men även av enstaka kvarts. Ingen keramik förekom under denna undersökning."
+    },
+    {
+      "id": "heritage-1109",
+      "registryId": "Sa 20.10",
+      "name": "Vargstensslätten",
+      "category": "archaeology",
+      "lat": 60.30688361171396,
+      "lon": 20.146967797845097,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -4200,
+      "toYear": null,
+      "dateLabel": "omkring 4200 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "Här har arkeologer hittat keramik och spår av människors liv under stenåldern. Fynden hör till den tidiga kamkeramiska kulturen.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.10%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1109"
+        }
+      ],
+      "sourceText": "Tidig kamkeramisk kultur ca 4200 f Kr. Delvis undersökt 1939. Ca 3100 fynd har tillvaratagits i samband med inventeringsundersökningar åren 1973-75. Skadat av sandtäkt. Vetenskapligt värdefullt. Boplatsen är sedan 1991 i landskapets ägo. \r"
+    },
+    {
+      "id": "heritage-1814",
+      "registryId": "Sa 20.2",
+      "name": "Västra och Östra Jansmyra",
+      "category": "archaeology",
+      "lat": 60.31768111385214,
+      "lon": 20.143162679007823,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -4000,
+      "toYear": null,
+      "dateLabel": "omkring 4000 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "Två stenåldersboplatser ligger nära varandra här. Krukskärvor, redskap och stenbitar efter redskapstillverkning berättar om livet på öarna.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.2%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1814"
+        }
+      ],
+      "sourceText": "Två skilda boplatser. Tidig kamkeramisk kultur ca 4000 f Kr. Delvis undersökt 1938-39 och sedan gränsbestämd 2021. Föremålsfynden i samband med inventeringsundersökningen 1975 var ca 3600, omfattande keramik, redskap samt avslag efter redskapstillverkning. Skadat av grustäkt och vägdragning. Vetenskapligt värdefullt. Arkeologiska undersökningar inom boplatskomplexet har gjorts 1989, Östra Jansmyra är sedan 1991 i landskapets ägo.\r"
+    },
+    {
+      "id": "heritage-1732",
+      "registryId": "Sa 20.1",
+      "name": "Orrdalskärret",
+      "category": "archaeology",
+      "lat": 60.32630824495469,
+      "lon": 20.12633733889923,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -4000,
+      "toYear": null,
+      "dateLabel": "omkring 4000 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "Keramik och stenredskap visar att människor levde här under stenåldern. Boplatsen ligger nära Orrdalsklint, högt över dagens hav.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1732"
+        }
+      ],
+      "sourceText": "Tidig kamkeramisk kultur ca 4000 f Kr. Föremålsfynden i samband med inventeringsundersökningen 1975 var ca 100, omfattande keramik, redskap samt avslag efter redskapstillverkning. Liknande fynd gjordes i samband med undersökning år 2019. Skadat av vägdragningen. Vetenskapligt värdefullt."
+    },
+    {
+      "id": "heritage-1733",
+      "registryId": "Sa 20.3",
+      "name": "Rödmyrshägnaden",
+      "category": "archaeology",
+      "lat": 60.31711112110997,
+      "lon": 20.129472720142022,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -4000,
+      "toYear": null,
+      "dateLabel": "omkring 4000 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "Här har man hittat stenredskap, krukskärvor och avslag. Avslag är små bitar som lossnar när en människa gör ett redskap av sten.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.3%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1733"
+        }
+      ],
+      "sourceText": "Tidig kamkeramisk kultur ca 4000 f Kr. Delvis undersökt 1938-39. Ca 700 fynd framkom i samband med inventeringsundersökningen 1975. År 2019 gränsbestämdes boplatsen genom arkeologisk undersökning. Fynden utgörs av stenredskap, avslag av redskapstillverkning samt keramik. Skadat av vägdragning och sandtäkt. Vetenskapligt värdefullt."
+    },
+    {
+      "id": "heritage-1586",
+      "registryId": "Sa 20.7",
+      "name": "Alkärr och Tisdal",
+      "category": "archaeology",
+      "lat": 60.3047703876924,
+      "lon": 20.137160483295336,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -3900,
+      "toYear": -2890,
+      "dateLabel": "Tisdal ca 3900–3400; Alkärr ca 3040–2890 f.Kr.",
+      "datingNote": "Tre separata boplatsområden med olika dateringar. Det betyder inte att människor bodde här oavbrutet mellan 3900 och 2890 f.Kr.",
+      "description": "Människor bodde på olika höjder vid olika tider. Tisdal ligger högre och är äldre. Alkärr ligger längre ned och hör till en senare del av stenåldern.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.7%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1586"
+        }
+      ],
+      "sourceText": "Utgörs av tre topografiskt och kronologiskt skilda platser, belägna i sandig sluttning mot söder i skogsterräng och gammal åkermark. Längst norrut ovanför 44,5 meters höjdkurvan ligger den kamkeramiska boplatsen Tisdal, från perioden ca 3900–3400 f. Kr. Mot väster utgör berg en naturlig avgränsning och mot öster avtar fynden innan berget tar vid, så att boplatsen begränsas till området kring en terrassering i skogsmarken. Tisdal har delvis undersökts år 1939, 1975 och 2017. Den gropkeramiska boplatsen Alkärr ligger söder om Tisdal på en höjd mellan 35,5 - 43 meter över havet. Från den forna stranden i söder, som mot öster och väster begränsas av berg eller bergsbundet område, fortsätter boplatsen norrut och mot nordväst. I den nordöstra avgränsningen är delar av fornlämningen sedan tidigare bortgrävd. Alkärr har C-14-daterats till 3040–2890 f. Kr. Delar av Alkärr har undersökts år 1934, 1975, 1992, 1999, 2005 samt 2017. Ett tredje område med fornlämning ligger i åkermarken ovanför Källsvedsvägen. Området utgör en begränsad yta mellan 31–34 meter över havet. Boplatsen är yngre än Tisdal och Alkärr och utgör en mindre plats som delvis skadats av åkerbruk. Delar av boplatsen har berörts av undersökningar år 1975 och 2017. I samband med undersökningen 2017 ändrades fornlämningsområdet för Sa 20.7 från en sammanhängande yta till tre separata fornlämningsområden."
+    },
+    {
+      "id": "heritage-1813",
+      "registryId": "Sa 20.4",
+      "name": "Nedre Rödmyra",
+      "category": "archaeology",
+      "lat": 60.31415211485504,
+      "lon": 20.133143894275477,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -3500,
+      "toYear": null,
+      "dateLabel": "omkring 3500 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "Här finns spår efter en stenåldersboplats. Arkeologerna har hittat små stenbitar av kvarts och kvartskeratofyr samt slitna bitar av lerkrukor.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.4%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1813"
+        }
+      ],
+      "sourceText": "Tidig kamkeramisk kultur ca 3500 f Kr. Delvis undersökt 1939 och sedan gränsbestämd år 2021. Från den gränsbestämmande undersökningen kom fynd såsom stenavslag av både kvartskeratofyr och kvarts. Keramikfrakmenten är vittrade och lermassan är magrad med grovt krossad bergart. Skadat av sandtäkt. Vetenskapligt värdefullt. Delar av boplatsen är sedan 1991 i landskapets ägo.\r"
+    },
+    {
+      "id": "heritage-1803",
+      "registryId": "Sa 20.6",
+      "name": "Nygård i Långbergsöda",
+      "category": "archaeology",
+      "lat": 60.306208280183746,
+      "lon": 20.13225017808469,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -3300,
+      "toYear": -3000,
+      "dateLabel": "omkring 3300–3000 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "Här bodde människor när krukornas former och mönster förändrades. Fynden och den gamla strandlinjen hjälper arkeologerna att uppskatta boplatsens ålder.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.6%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1803"
+        }
+      ],
+      "sourceText": "Gränsbestämd boplats vilken utifrån fyndmaterial och strandlinjeförskutning kan dateras till övergångsperioden mellan kam- och gropkeramik, ca 3300-3000 f Kr. Boplatsen är skadad av vägsträckningen och ett genomgående dike. Vetenskapligt värdefullt."
+    },
+    {
+      "id": "heritage-1122",
+      "registryId": "Sa 20.5",
+      "name": "Södra Rödmyra",
+      "category": "archaeology",
+      "lat": 60.31099725002646,
+      "lon": 20.132919044717383,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -3000,
+      "toYear": null,
+      "dateLabel": "omkring 3000 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "På den här boplatsen har man hittat krukskärvor, redskap och spår av hur redskapen tillverkades. Krukorna hör till den kamkeramiska traditionen.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.5%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1122"
+        }
+      ],
+      "sourceText": "Boplaltsen ligger inom område som år 1991 inlösts av landskapet Åland. Typisk kamkeramisk kultur ca 3000 f Kr. Delvis undersökt 1939. Fynden vid inventeringsgrävningen 1975 utgjordes av ca 550 föremål. Dessa omfattande keramik, redskap samt avslag efter redskapstillverkning. Skadat av vägdragningen. Vetenskapligt värdefullt. \r"
+    },
+    {
+      "id": "heritage-1681",
+      "registryId": "Sa 20.9",
+      "name": "Källsveden",
+      "category": "archaeology",
+      "lat": 60.30257595695014,
+      "lon": 20.124807577711476,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -2500,
+      "toYear": null,
+      "dateLabel": "omkring 2500 f.Kr.",
+      "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår.",
+      "description": "Den gamla stranden ligger idag ungefär 32 meter över havet. Här har arkeologer hittat keramik med gropar i mönstret från en stenåldersboplats.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.9%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1681"
+        }
+      ],
+      "sourceText": "Källsveden utgör en boplats från stenålder innehållande gropkeramik som dateras till ca 2500 f. kr. Källsveden ligger i skogs-, gårds- samt åker- och betesmark situerad ovanför 32 meters höjdkurvan som utgjort den forna stranden. Från den forna stranden, som begränsas i öster av ett flackt bergsbundet område och i väster avtar i dagens odlingsmark mot ett större bergsmassiv, fortsätter boplatsen norrut i skogsmark till höjder mellan 38–40, 5 meter över havet. Boplatsen är delvis bortgrävd eller skadad av byggnation och odling. Källsveden har undersökts 1906, 1957, 1975 samt 2018, då fornlämningens gränser justerades."
+    },
+    {
+      "id": "heritage-509",
+      "registryId": "Jo 14.1",
+      "name": "Jettböle",
+      "category": "archaeology",
+      "lat": 60.13843794391127,
+      "lon": 19.974463874855964,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -3400,
+      "toYear": -2300,
+      "dateLabel": "yngre stenåldern, flera bosättningsskeden",
+      "datingNote": "Jettböle har flera bosättningsskeden. Jettböle I har daterats till ungefär 3400–2800 f.Kr. (Mannermaa 2002). Det är en ungefärlig period, inte exakta år för när människor kom och lämnade platsen.",
+      "description": "I Jettböle har man hittat bitar av lerkrukor och små människofigurer av lera. Ben och andra fynd berättar om människor som fiskade och jagade säl.",
+      "wikipedia": "https://sv.wikipedia.org/wiki/Jettb%C3%B6le",
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Jo+14.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/509"
+        },
+        {
+          "title": "Vanhanen m.fl. 2019, odling hos maritima jägare och samlare",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6426860/"
+        }
+      ],
+      "sourceText": "Avgränsningarna ej fastställda. Gropkeramisk kultur. Två bosättningsskeden, Jettböle I och II. Utsatt läge, svår skadegörel-se i sen tid. Vetenskapligt värdefullt. Undersökningar företagna 1905 06, 1908 och 1911. I samband med det inköp av fastighet som gjordes för att skydda hotade delar av fornlämningsområdet gjordes nya provundersökningar i boplatsen under åren 1999 och 2000. Syftet var bl.a. att fastställa fornlämningens utbredning, få en bild av fyndmaterialets bevaringsgrad och geografiskt redovisa vilka delar av boplatsen som under-sökts genom att fastställa läget för de äldre undersökningsområdena.\r"
+    },
+    {
+      "id": "heritage-1545",
+      "registryId": "Ge 15.1",
+      "name": "Smikärr och Bredmossen",
+      "category": "archaeology",
+      "lat": 60.38637917499174,
+      "lon": 19.861225566079874,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": -5000,
+      "toYear": -1500,
+      "dateLabel": "stenålder, flera bosättningsskeden",
+      "datingNote": "Registret beskriver kamkeramiska och gropkeramiska skeden utan exakta årtal. Placeringen på tidslinjen är därför ungefärlig.",
+      "description": "De äldsta spåren finns högre upp, vid Bredmossen. Vid Övre och Nedre Smikärr finns yngre lämningar. Människorna tycks ha valt skyddade havsvikar.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ge+15.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/1545"
+        }
+      ],
+      "sourceText": "Bosättningen har troligen varit bunden till väl skyddade havsvikar. De äldsta bosättningarna återfinns på 55 meters nivån (Bredmossen) och representerar ett kamkeramiskt skede. Gropkeramiska kulturlämningar har påträffats vid arkeologiska undersökningar 1941 och 1955 vid Övre och Nedre Smikärr. Provundersökningar för att fastställa fornlämningens storlek gjordes 1982 och 1983.\r"
+    },
+    {
+      "id": "heritage-3133",
+      "registryId": "Jo 33.1",
+      "name": "Kobba Klintars lotsstation",
+      "category": "pilot",
+      "lat": 60.03037326275121,
+      "lon": 19.88194824879477,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": 1862,
+      "toYear": 1972,
+      "dateLabel": "lotsstation 1862–1972",
+      "datingNote": "Stationen och den gamla lotsstugan är från 1862. Det större lotshuset tillkom 1910. Lotsverksamheten slutade 1972, men byggnaderna finns kvar.",
+      "description": "Lotsarna hjälpte fartyg att hitta säkert in till Mariehamn. Här fanns lotsstuga och senare ett större hus med en kraftig mistlur.",
+      "wikipedia": "https://sv.wikipedia.org/wiki/Kobba_Klintar",
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Jo+33.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/3133"
+        },
+        {
+          "title": "Föreningen Kobba Klintars Vänner",
+          "url": "https://www.kobbaklintarsvanner.ax/sv/kobba-klintar"
+        }
+      ],
+      "sourceText": "— Lotsstationen på Kobbaklintar 1, belägen på ett skär vid inloppet till Västerhamn i Mariehamn, anlades i samband med stadens grundande. På skäret finns följande byggnader: gamla lotsstationen från 1862, ett lågt tinmerhus med åstak. Den senare lotsstationen, uppförd 1910, är byggd i tre våningar plus utkikstorn och inrymmer bostadsutrymmen och sirén. Dessutom finns lider, oljemagasin och avträde. En liten naturhamn och en större, anlagd hamn finns.<br>Lotsstationen är numera nedlagd."
+    },
+    {
+      "id": "heritage-3164",
+      "registryId": "Le 15.1",
+      "name": "Rödhamns lotsstuga",
+      "category": "pilot",
+      "lat": 59.984061003954515,
+      "lon": 20.103711844996347,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": 1857,
+      "toYear": 1935,
+      "dateLabel": "lotsstuga från 1857; verksamhet till början av 1930-talet",
+      "datingNote": "Registret anger att lotsverksamheten slutade i början av 1930-talet. Något exakt slutår anges inte.",
+      "description": "Rödhamn var en viktig hamn före resan över Ålands hav. Lotsstugan byggdes 1857. Här fanns också en radiofyr som hjälpte sjöfarare fram till 1971.",
+      "wikipedia": "https://sv.wikipedia.org/wiki/R%C3%B6dhamn",
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Le+15.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/3164"
+        }
+      ],
+      "sourceText": "Rödhamn var tidigare, då galeaser och småskutor seglade mellan Finland och Sverige, en viktig hamn före Ålands hav. Platsen har sedan långt tillbaka nyttjats som hamn, det visar bl a rester av ett kapell, inhuggna inskriptioner i berget och en jungfrudans (se fornminnesinventeringen). Rödhamn har betydelse än idag som hamn för fritidsseglare.<br>På Rödhamn fanns lotsstuga och radiofyr, lotsstationen drogs in i början på 1930-talet och radiofyren upphörde 1971. Lotsstugan är uppförd 1857 och används numera av en seglarförening som klubblokal. Båthus, sjöbodar och ladugård, vilka nyttjades av den f d lots- och fyrpersonalen, ligger nere vid stranden.<br>På holmen intill, Gloskär, fanns tills slutet av 1930 en krog, Rödhamns sjökrog. Det finns uppgifter från 1600-1700-talet att en krog med utskänkningsrättigheter låg på denna plats. Av ”Krogen” återstår idag endast husgrunder och en större stenkällare.<br>Båda holmarna saknar fritidsbebyggelse."
+    },
+    {
+      "id": "heritage-3144",
+      "registryId": "Kö 4.3",
+      "name": "Espskärs lotsstation",
+      "category": "pilot",
+      "lat": 59.89618741591695,
+      "lon": 20.89707583022374,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": 1857,
+      "toYear": 1961,
+      "dateLabel": "beslut om lotsstuga 1857; stationen stängde 1961",
+      "datingNote": "Beslutet om en lotsstuga fattades 1857. En annan källa anger 1877 som byggår, så dagens hus kan inte säkert dateras till 1857.",
+      "description": "Från berget spanade lotsarna efter fartyg på väg mot Kökar. Lotsarna skötte också sjömärken och sjöräddning. Stationen stängde 1961.",
+      "wikipedia": null,
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27K%C3%B6+4.3%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/3144"
+        }
+      ],
+      "sourceText": "På Espskär i Karlby södra skärgård ligger Kökars f.d. lotsstation. Längre tillbaka fanns ingen särskild station på Kökar utan de lokala lotsarna skötte sysslan hemifrån. I mitten av 1800-talet beslöts att en ny farled skulle utprickas från Kökar till Sottunga och 1857 bestämdes att en lotsstuga skulle uppföras på Espskär. Platsen ligger strategiskt på en höjd invid farleden mot Utö och leden vid inloppet till Kökarfjärden från havet söderifrån.<br>Kökars lotsplats var en vanlig liten skärgårdsstation med tre lotsar. Till deras uppgifter hörde även remmarutläggningen i farlederna kring Kökar och under de sista åren skötte de också underhållet av fyrarna. Dessutom ansvarade de för den lokala sjöräddningsstationen. Vid stranden står fortfarande en bod där sjöräddningen förvarade sin utrustning. Efter 1940-talet började fartygen att trafikera andra leder och trafiken förbi Espskär minskade undan för undan. Kökars lotsstation drogs in 1961 och lotsarna förflyttades till Sottunga.<br>Lotsstugan är belägen högst uppe på berget, väl synlig från alla väderstreck. Vid klar sikt kunde lotsarna med kikare se flera sjömil ut mot havet när fartygen närmade sig. Timmerbyggnaden, som är klädd med liggande panel, består enbart av ett rum med murad spis, samt en liten farstu. Huset har nyligen renoverats. Från stranden leder en stenlagd stig med järnlejdare upp till stugan."
+    },
+    {
+      "id": "heritage-3075",
+      "registryId": "Fö 6.1",
+      "name": "Degerby – lots- och tullsamhälle",
+      "category": "pilot",
+      "lat": 60.030779277217334,
+      "lon": 20.390082502164535,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": 1850,
+      "toYear": null,
+      "dateLabel": "lotsstation från 1850",
+      "datingNote": "Markeringen avser Degerbys kulturmiljö och inte den exakta lotsstationsbyggnaden. När lotsverksamheten slutade är inte fastställt i detta underlag.",
+      "description": "Tullen flyttade till Degerby 1820 och lotsstationen följde efter 1850. Sjöfarten gjorde att byn växte med bostäder, packhus och andra byggnader.",
+      "wikipedia": "https://sv.wikipedia.org/wiki/Degerby,_F%C3%B6gl%C3%B6",
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27F%C3%B6+6.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/3075"
+        }
+      ],
+      "sourceText": "Den första bebyggelsen i Degerby låg längre upp på land, vid ändan av den s.k. byviken. Där fanns gårdarna Södergård, Norrgård och Mellangård. Senare togs nya marker upp närmare stranden och farleden. Gårdarna Utgård, Utjord och senare Enigheten tillkom. Dessa tre hemman bildade Nederbyn medan de gamla hemmanen bildade Oppbyn.<br>Sjötullkammaren i Flisöberg flyttade 1820 till Degerby och längre fram, 1850, följde lotstationen efter. Samtidigt expanderade byn då tjänstemän och andra yrkesutövare bosatte sig här. Ett flertal byggnader uppfördes vid det nuvarande färjfästet.<br>I slutet av 1800-talet hade flera av byinnevånarna andelar i fartyg och vid sekelskiftet uppfördes stora skeppar- och redargårdar i byn. Senare i början av 1900-talet anlades båtvarv och verkstäder i byn. Vid den tiden var Degerby vid sidan av Mariehamn den mest stadsliknande bebyggelsen i landskapet.<br>En stor del av bebyggelsen som uppkom under 1800-talet är fortfarande bevarad. Många av husen används emellertid idag enbart under sommarhalvåret. Byn uppvisar varierande byggnadsstilar med inslag från flera olika tidsepoker; nyklassicismen, jugend, schweitserstil m.m.<br>Bebyggelse i Degerby av kulturhistoriskt intresse, från norr till söder:<br>- Längst norr i byn vid sidan av den egentliga bykärnan i en backsluttning mot vattnet ligger Skansbacka. Namnet härör sig från den försvarsskans som svenskarna lät uppföra 1743. Manbyggnaden är uppförd omkring 1920. Huvudbyggnaden och även uthusen är ritade av arkitekt Bruno Gunell från Åbo. Fasaden är<br>utsmyckad med flera detaljer som är utmärkande förjugendstilen. En lillstuga och en bastu vid stranden är uppförd i samma stil som manbyggnaden. Byggnadsmaterialet till husen härör från den ryska kasemen vid Kasberget i Stentorpa.<br>- Tallbacka. Byggnaden, en kaptensgård, ligger intill Skansbacka och är uppförd 1922. En bastu i samma stil vid stranden. - Enigheten utgör en välbevarad gårdshelhet. Byggnaderna är sannolikt uppförda under andra hälften av 1700-talet. Enigheten består av en mindre och större manbyggnad, lillstuga, bodlänga, stall med avträde samt en stor stenkällare. Huvudbyggnaden fungerade tidigare som både gästgiveri och tingsplats. Tingen hölls i den stora salen i mitten av huset. I rummen närmast salen bodde tjänstemännen. Den stora öppna verandan är ovanlig och användes förmodligen som ett slags väntsal. Gården är fortfarande kringbyggd på tre sidor. Samtliga byggnader har under senare tid renoverats och är i bra skick. Gården ägs idag av Föglö hembygdsförening och används under sommaren som gästhem.<br>- Invid Enigheten ovanför stranden ligger Utgård. Manbyggnaden är uppförd som länsmansboställe i början av 1800-talet. På en sten i spisen är årtalet 1804 inristat. Norra vindskammaren användes som häkte; den sista som avrättades på Åland, Gustava Johansdotter, satt 1822 de sista femton dygnen av sitt liv häktad i kammaren. Äldre uthusbyggnader hör till gården; lillstuga, timrad sjöbod och timrat visthus. På det släta berget ovanför vattnet hittade gårdsägaren på 1980-talet en ristning från 1628.<br>- Österut inne i skogen finns ett f.d. torpställe, Asplunda,som idag hör till Utgård. Den rödmyllade enkelstugan är från slutet av 1920-talet. Den äldre bebyggelsen utmed byvägen, mellan Enigheten och<br>affären:<br>- Skogströms. Manbyggnaden är från 1909. Den rödmålade exteriören är tämligen i ursprungligt skick.<br>- På andra sidan vägen liggerHögberg med rödmålad manbyggnad från 1907.<br>- Hemmet. Manbyggnadens stomme är från omkring 1890, huset har sedan dess tillbyggts under flera etapper. Välgjorda stengärdesgårdar omger gården.<br>- Stenbacka. Husets äldsta delar är från 1870-talet, senare till och ombyggt.<br>- I direkt anslutning till vattnet ligger Strandgård, uppfört 1940 med ljusmålad fasad klädd med omväxlande liggande och stående panel.<br>- Ovanför vägen ligger Sjöbergs, uppfört omkring 1910.<br>- Degerby före dettabrandkårshus är uppfört 1925 efter ritning av arkitekt Lars Sonck. Huset är byggt av virke från den ryska flygstationen i Granboda, från verkstadsbyggnaden. Flera inredningsdetaljer är bevarade från den ryska tiden. Husets exteriör har nyligen renoverats. Interiören har i stort sätt samma utformning som på 1920-talet. På berget intill står byns midsommarstång.<br>Invid vägen står den s.k. ”Kejsarstenen”. Stenen har två olika inristningar; överst är namnet Konstantin Nokolajevits och datumet 17.7.1838 och under är ristat Konstantin Kostantinovitsoch datumet 27.7.1865. Den sistnämnda hänför sig till storfurst Konstantin Kostatinovits uppehåll i Degerby det året. I Degerby samlades då den ryska s.k. Monitorexpeditionen som var led i en större sjökampanj. Den tidigare ristningen kan förmodligen förknippas med storfurst Konstantin Nokolajevits besök. I juni det året gjorde nämligen det kejserliga ångfartyget Alexandra ett uppehåll i Degerby för påfyllning av kollager. Vid ryska revolutionens utbrott målade ryska soldater över de kejserliga namnen med ”Swaboda 1917” (frihet).<br>- Uppe på berget ovanför stranden ligger Holmströms, ett jugendhus uppfört 1903 av handelsman Björkman. Byggnaden har inrymt många olika funktioner: affärer, gästgiveri, länsmanskontor, tingssal och senare bankkontor. Husets västra fasad mot vattnet är framträdande med många olika snickeridetaljer. Ett<br>magasin hör till gården.<br>- Söder om Holmströms ligger Berghäll med manbyggnad från början av 1900-talet. In mot gården finns en öppen veranda med flera snickeridetaljer. En liten timrad lillstuga och lider hör till gården. - På andra sidan vägen i en backsluttning mot väster ligger Södergård. Stor manbyggnad uppförd 1904-05, senare tillbyggd. En lillstuga hör bl.a. till gården.<br>- Oskarsberg. Huset är från 1912, byggt i samma stil som Södergård. Fasaden klädd med stående pärlspontpanel och liggande fasspontpanel. Mot söder finns en öppen veranda med många snickeridetaljer.<br>- Enlunds. Ljusmålad manbyggnad uppförd 1913 i den tidens typiska byggnadsstil. Huset flankeras av timrad lillstuga och lider.<br>På området mellan den s.k. Tulludden och affären finns en mängd äldre byggnader som tidigare hörde ihop med Degerby tullstation:<br>- Invid vägen ligger det nuvarande kommunalkansliet. Den stora byggnaden är uppförd 1821 som tullvaktmästarbostad. Huset är en av de få bevarade ryska träempirebyggnaderna på Åland. Fasaden är klädd med en bred liggande panel. Byggnaden hade troligen tidigare, under 1800-talet, valmat tak. Vid stranden finns en u-formad förrådsbyggnad från 1870-talet, ursprungligen avsedd som uthus och fähus för tullvaktmästama. - Invid färjfästet finns två s.k. packhus uppförda under 1820-30-talet av liggande timmer. Det mindre packhuset kallas för ”våg- hus” på en ritning från 1833. Idag fungerar båda byggnaderna som museum.<br>- Det stora skjulet invid stranden, mellan packhusen och väntsalen, inrymmer den f.d. livräddningskryssaren r/k Ledsund. Byggnaden uppfördes 1938 och ägs av Finlands sjöräddningssällskap. Under den tid båten var i bruk bemannades den av frivillig besättning från orten.<br>- På planen invid den gamla ångbåtsbryggan står väntsalsbyggnaden från 1903. Byggnaden uppfördes som väntsal för resanden med skärgårds- och Stockholmsbåtarna. Under första världskriget fungerade huset som dejourrum för tullpersonalen. Efter kriget återfick väntsalen sin ursprungliga funktion. Vänsalen stängdes<br>1962 då Stockholmsbåtarna upphörde att trafikera Degerby.<br>- Ute på Tulludden ligger det ståtliga Tullhuset, uppfört 1905 i jugendstil. Arkitekt var Alex Nyström. Redan 1821 fanns här en äldre ”tullkammar-åbyggnad”, som revs då den nya uppfördes. Den nuvarande byggnaden uppvisar många typiska jugend snickeridetaljer, särskilt de oppna verandorna på södra och norra fasaden. Till stället hör även en gammal ekonomiebyggnad från 1818. På en ritning från 1833 kallas den ”Tullkammaren tillhörig uthusbyggnad och tullförvaltarens enskilda fähusbyggnad”.<br>- Norr om Tulludden ligger Degerby f.d. lotsstuga. Byggnaden är från 1869. Tornet på taket har troligen tillkommit senare.Lotsstationen i Degerby drogs in 1968 och verksamheten flyttades till Långnäs. Stugan genomgick på 1980-talet en omfattande renovering.<br>Utmed bygatan, som sträcker sig från landsvägen söderut, ligger ett flertal kulturhistoriskt intressanta byggnader:<br>- Blomstergården. Den långa manbyggnaden är från 1890-talet, senare tillbyggd. I huset bodde en tid den ryske kommendanten Bjelov som var chef för de ryska trupperna i Föglö under första världskriget. Mot landsvägen står en stor stenkällare.<br>- Strandells. Bostadshus med mansardtak från 1938.<br>- Hemgården eller villa Peron. Manbyggnaden är från 1920-talet. Fasaden är utsmyckad med olika snickeridetaljer utmärkande för jugendstilen. På gårdstunet en timrad lillstuga som är äldre än<br>huvudbyggnaden. Lillstugan liksom manbyggnaden fungerade en tid som postkontor.<br>- På andra sidan vägen ligger Carlsro. Den stora manbyggnaden är uppförd 1912 efter ritning av arkitekt K-J Dahlberg från Åbo. I tillbyggnaden på södra sidan inrymdes tidigare lanthandel. Bredvid finns en magasinbyggnad. Lekstugan med tandad list längs takfoten är flyttad från Tulludden där huset användes som lusthus.<br>- Ovanför Carlsro ligger missionshusetBethel. Föglö var vid sidan av Mariehamn huvudort för den fria missionen på Åland. På samma plats låg tidigare ett mindre missionshus från 1886. Verksamheten växte och 1913 invigde man den nuvarande byggnaden.<br>- Mittemot Bethel ligger Södermans. Bostadshus från 1920-talet. Fasaden klädd med omväxlande liggande och stående panel. - Österut, avskilt från den övriga bebyggelsen ligger Västergård. Manbyggnaden är en liten parstuga uppförd 1909, senare tillbyggd med en veranda.<br>- Grönalund. Manbyggnadens äldsta del är från mitten av 1800-talet, tillbyggd under flera etapper. Under första världskriget hade gårdsägarinnan café i manbyggnaden. Huset flankeras av en uthuslänga. Till gården hör även en stenkällare.<br>Bebyggelsen väster om byvägen, fram till lotstugan:<br>- Invid vattnet, omgärdat av ett rödmålat spjälstaket, ligger Strandkulla. Den grönmålade manbyggnaden är från 1877. Huset har mot gårdsidan en anslående veranda med vackert spröjsverk i fönster och ytterdörr.<br>- Gunnarsborg. Huset är uppfört 1932.<br>- Kallas eller Sjötorpet. En liten parstuga, troligen ett av de äldsta husen i byn. En fångförare bodde tidigare i huset. Fångarna satt i en provisorisk butka i östra kammaren i väntan på vidare transport till Åbo. Huset är omsorgsfullt byggt, bl.a. har stockarna under ytterpanelen klätts med näver för att hindra rötangrepp.<br>- ”Petter-Gustavs”. Ett gammalt lotsboställe uppfört troligen i början av 1800-talet. Huset har tillbyggts under senare tid. Till stället hör ett gammalt lider under nävertak.<br>Bebyggelsen av kulturhistoriskt intresse i södra Degerby, från norr till söder:<br>- Invid vägen ligger Bergbacka. Den rödmålade manbyggnaden är från andra hälften av 1800-talet, senare tillbyggd med en veranda mot söder. - På andra sidan vägen ligger Fridhem. Bostadshus från slutet av<br>1800-talet, under senare tid till- och ombyggt både på södra och norra sidan.<br>- Hallings. En liten enkel stuga uppförd på 1860-talet. Till stället hör äldre uthusbyggnader; källare i sten och timmer och timrat fähus. Välbevarad gårdsmiljö.<br>- Längre österut ligger Björkhagen med bostadshus uppfört på 1800-talet.<br>- Invid vägen ligger Solhem. Bostadshuset är uppfört 1925 och totalrenoverat på 1980-talet.<br>- Nordas. Manbyggnadens stomme lär vara från 1830-talet, senare tillbyggt i flera etapper.<br>- Nere vid stranden ligger Sjölunds, ett gammalt lotsboställe. Den ljusmålade manbyggnaden är från på 1890-talet. Stället kallades tidigare för ”Garvars”, efter garvaren William Danielsson.<br>- Stenvall. Bostadshus från 1939.<br>- Evertsberg. Bostadshus i en och en halv plan från 1920-talet.<br>- Flodins båtvarv. Varvsbyggnaden uppfördes 1932 efter att den gamla totalförstörts i en brand. Den nya anläggningen inrymde förutom båtbyggeri även en mekanisk verkstad där bl.a. båtmotorer tillverkades. 1932 tillkom också ett elverk, som försåg byn med elström ända till krigsutbrottet. Vid varvet fanns också en slip för sumpar, jakter och galeaser."
+    },
+    {
+      "id": "heritage-3085",
+      "registryId": "Ge 3.1",
+      "name": "Dånö – lotsarnas by",
+      "category": "pilot",
+      "lat": 60.400503209447216,
+      "lon": 19.773149402582764,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": 1850,
+      "toYear": 1929,
+      "dateLabel": "lotsstuga från senare delen av 1800-talet; stängd på 1920-talet",
+      "datingNote": "Lotsstugan uppfördes under senare delen av 1800-talet. Tidslinjens start vid 1850 är ungefärlig. Markeringen avser Dånös kulturmiljö.",
+      "description": "Lotsar bodde i Dånö och höll utkik från en stuga på berget. Ett äldre lotshem i byn blev senare hembygdsmuseum.",
+      "wikipedia": "https://sv.wikipedia.org/wiki/D%C3%A5n%C3%B6",
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Ge+3.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/3085"
+        }
+      ],
+      "sourceText": "Bebyggelsen på Dånö ligger samlad på ett näs med vattenförbindelse både i norr och söder. Den äldsta bebyggelsen är från 1700-talet, i övrigt är mangårdsbyggnaderna från 1800-talet och början av 1900-talet. I byn finns representerade både stora parstugor och mindre enkelstugor. Till flera av gårdarna hör äldre uthusbyggnader.<br>Området söder om byn, mot Idnäs, utgörs av odlingar, beteshagar, lundar och lövängsfragment. Här finns hamlade björkar och flera olika slags lövträd som oxel, hassel, ask, alm m.m (Jmf. naturvårdsinventeringen 11.1)<br>Kulturhistoriskt värdefulla objekt i byn, från öster till väster:<br>- Invid vägen ligger ett mindre torp som numera inrymmer Dånö Hembygdsmuseum 2:37. Initiativtagare till detta museum var bl.a. professor Emil Johnsson och Lydia Holmberg. Den första som man vet att bodde i huset var lotsen vid Dånö lotsplats Johan Erik Sjöblom. Det var på 1820-talet, men möjligt är att huset är<br>ännu äldre. Huset är en rödmyllad enkelstuga, vars exteriör och interiör har bevarat en ålderdomlig karaktär. Inne i stugan finns öppen spis och hög- och lågsäng. Museets samlingar innehåller en mängd unika bruksföremål.<br>- Ovanför hembygdsmuseet ligger torpet i Ljungbacka 2:30. Huset, en mindre parstuga som senare har tillbyggts med veranda, är byggt i två etapper. Den äldsta delen är från 1840-talet. Huset har nyligen genomgått en pietetsfull renovering. - Manbyggnaden vid Grönkulla 1:1 är uppförd omkring sekelskiftet. Till gården hör en lillstuga från slutet av 1800-talet, ladugård från 1904, båthus och ett avträde som lär vara byggt i \"rysk stil”.<br>- I en södersluttning mot vattnet ligger Södergård 1:14. Manbyggnaden, en typisk parstuga med tillbyggd veranda, lär vara uppförd i slutet av 1700-talet. verandan är försedd med tätt spröjsade fönster. Till gården hör flera äldre uthusbyggnader. Manbyggnaden flankeras av ett timrat hårbre, möjligen från 1700-talet att dömma av dörren med inskurna snedrutor. Ytterligare finns på gården timrad ria, bastu, ladugård från 1906 och stenkällare Samtliga hus är målade i rött och bildar en harmonisk helhet.<br>- Mangårdsbyggnaden vid Norrgård 2:38 lär vara uppförd under andra hälften av 1800-talet. Huset har under de senaste åren till- och ombyggts. Till gården hör bl.a. en timrad bastu och smedja.<br>- Längst mot väster i byn ligger Västerhagen 2:902. Huset lär vara uppfört 1832, men har dock under senare tid tillbyggts och försetts med nya fönster. På gårdstunet står ett timrat härbre.<br>- ”Holmbergs” manbvggnad är troligen från slutet av 1800-talet. Veranda med spröisade fönster och tandad list längs takfoten. Lillstuga och stenkällare hör till gården.<br>- Dånö f.d. lotsstuga står på berget öster om bebyggelsen. Lotsstugan är uppförd under andra hälften av 1800-talet. Den drogs in på 1920-talet.<br>- Intill lotsstugan ligger Sten-Inge 2:20, en sommarvilla byggd i början på 1930-talet efter ritning av arkitekt Jung."
+    },
+    {
+      "id": "heritage-3149",
+      "registryId": "So 4.1",
+      "name": "Mosshaga lotsplats",
+      "category": "pilot",
+      "lat": 60.16295931295027,
+      "lon": 20.593596418289874,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": 1740,
+      "toYear": 1918,
+      "dateLabel": "lotsplats från 1740-talet till 1918",
+      "datingNote": "Lotsplatsen etablerades under 1740-talet; exakt år är inte känt. Markeringen avser den historiska bymiljön.",
+      "description": "Mosshaga låg vid en viktig farled. Lotsarna hjälpte fartygen förbi och öborna förde också post genom skärgården. Lotsplatsen lades ned 1918.",
+      "wikipedia": "https://sv.wikipedia.org/wiki/Mosshaga",
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27So+4.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/3149"
+        }
+      ],
+      "sourceText": "I Delet nordväst om Sottungalandet ligger Mosshaga, en holme som mäter ungefär två och en halv kilometer på längden och drygt en kilometer på bredden. Ön är bevuxen med lövskog dominerad av al och krypande en.<br>Mosshaga befolkades sannolikt redan under medeltiden. Både Sottunga och Mosshaga hörde då under Kumlinge och öborna hade skyldighet att föra resande över Delet. Enligt skattlängderna från 1537, fanns det två hemman på Mosshaga. Den gamla farleden mellan Stockholm och Björneborg strök förbi söder om landet och från 1740-talet fungerade Mosshaga som lotsplats.<br>Före turbåtstrafiken inleddes kring sekelskiftet 1900 anstod det mosshaga- och sottungaborna att föra posten mellan Vårdö och Kumlinge i menförestider. I Mosshaga fanns två postrotar. I början av 1900-talet var närmare fyrtio personer bosatta på ön, men i och med nedläggningen av lotsplatsen 1918 och den allmänna avfolkningen av skärgården,minskade innevånarnas antal undan för undan. År 1945 bodde endast åtta personer kvar och 1957 flyttade de sista åretruntboende från Mosshaga.<br>Av den äldre bebyggelsen återstår idag två gårdar, båda belägna på Mosshagas södra strand:<br>- På hemmanet Gårdsens finns manbyggnad, lillstuga och ett antal uthusbyggnader. Manbyggnaden uppfördes på 1850-talet efter att det gamla huset förstörts i en brand. Byggnaden är målad i en ljusgrön oljefärg och försedd med veranda, som pryds av ett halvmånformat fönster ovanför dörren. Till gården hör ladugård från 1920, byggd av röd granit och trä, lillstuga av tegel, stenkällare, avträde och en bodlänga, vars äldsta del består av timmer. Nere vid stranden ligger sjövistet med sjöbod, båthus och brygga. - Torpet Kallas är placerad alldeles invid södra stranden, väl synlig från farleden. Det äldre husbeståndet på gården omfattar manbyggnad och en bod. Bostadshuset, vars äldsta delar kan härstamma från 1700-talet, har tillbyggts i flera omgångar och på 1950-talet renoverades köket eller stugan. Huset är rödmyllat och verandan målad i en ljus oljefärg."
+    },
+    {
+      "id": "heritage-3105",
+      "registryId": "Ha 45.1",
+      "name": "Sälskärs fyrplats",
+      "category": "lighthouse",
+      "lat": 60.41103588874849,
+      "lon": 19.59760657422837,
+      "locationPrecision": "representativ punkt i registerområdet, inte inmätt husläge",
+      "fromYear": 1868,
+      "toYear": null,
+      "dateLabel": "fyr från 1868; bemannad till 1949",
+      "datingNote": "Markeringen avser fyrplatsens kulturmiljö. Bemanningen upphörde 1949, men fyren finns kvar.",
+      "description": "Fyren hjälpte fartyg ute vid Bottenhavet. På ön bodde fyrvaktare med sina familjer. År 1949 blev fyren automatisk och personalen flyttade.",
+      "wikipedia": "https://sv.wikipedia.org/wiki/S%C3%A4lsk%C3%A4r",
+      "sources": [
+        {
+          "title": "Ålands landskapsregerings kulturarvsregister",
+          "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Ha+45.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+        },
+        {
+          "title": "Ålands historiska karta – registerdata",
+          "url": "https://historia.pdc.ax/api/heritage/3105"
+        }
+      ],
+      "sourceText": "Sälskär, som ligger ut mot Bottenhavet, hör till Hammarland trots att ön verkar vara lika naturligt ansluten till Geta skärgård. Fyren vars höjd är 32 m uppfördes 1868 i tegel, men långt tidigare fanns här ett kummel. Sälskär var också tidigare ett fiskeläge som besöktes av fiskare ända från Roslagen.<br>I början av 1900-talet bodde fyra familjer på Sälskär, en fyrmästare och tre fyrvaktare. Fyren automatiserades 1949 och samtidigt flyttade personalen bort.<br>På Sälskär fanns tidigare ett stort antal byggnader med olika funktioner, som fyrpersonalen hade uppfört; två fyrvaktarbostäder, lillstuga, ladugård, magasin, båtbyggeri, vedlider m.m. Idag återstår ladugården, som byggts om till övernattningsstuga, avträdet och två saltmagasin.<br>De två s.k. saltmagasinen uppges vara från 1700-talet. Fiskare från Roslagen lär ha bott i husen då de vistades på Sälskär. Om dessa fiskare uppförde bodarna är däremot inte känt. Byggnadernas konstruktion skiljer sig i alla fall helt från andra åländska fiskehus. Sälskärsbodarna är byggda av stenar som travats på varandra, s.k. kallmur, och tak samt övre delen av gavlarna är gjorda av bräden. Bodarna har nyligen restaurerats på ett föredömligt sätt.<br>På Sälskär finns dessutom andra lämningar; olika ristningar i berget, ett dansarberg, lämningar efter båtslipen m.m."
+    }
+  ]
+}

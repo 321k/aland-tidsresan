@@ -1,0 +1,223 @@
+{
+  "verified_on": "2026-10-12",
+  "mariehamn": {
+    "source": "https://karta.mariehamn.ax/IMS/",
+    "attribution": "© Mariehamns stad",
+    "reuse_status": "Public web map explicitly provides iframe embed generation. No open data redistribution licence found in published terms. Prefer official embedded maps; direct tile service technically works but do not infer permission to rehost or redistribute.",
+    "terms_url": "https://karta.mariehamn.ax/IMS/sv/Account/TermsOfUse",
+    "terms_summary": "Published 29.5.2012; disclaimers of precision, continuity and damage liability. No licence grant for map data.",
+    "crs": "EPSG:3874 (ETRS89 / GK20FIN, ETRS-GK20)",
+    "crs_source": "https://www.mariehamn.ax/bygga-och-bo/kartor-och-fastighetsbildning/stadens-hojd-och-kordinatsystem",
+    "height_crs": "N2000 EPSG:3900",
+    "embedding": {
+      "1942": "https://karta.mariehamn.ax/IMS/sv/embed?layers=Baskarta&lon=Flygfoto%201942&cp=6664855,20496370&z=2&ui=z!o!b",
+      "2021": "https://karta.mariehamn.ax/IMS/sv/embed?layers=Flygfoto%202021&cp=6664912,20496369&z=1&ui=z!o!b",
+      "status": "Both HTTP 200 verified; no X-Frame-Options or CSP frame ancestor restriction in response headers. Derived from actual public EmbedMap._getValues code in imssite bundle.",
+      "parameters": "cp=northing,easting in EPSG:3874; z=metres per pixel; ui=z!o!b enables zoom, open full map, basemap selector. layers=basemap label; repeated lon=overlay label.",
+      "verification_caveat": "Subagent UI access became unavailable before rendered embedded page check; main agent should verify."
+    },
+    "tiles": {
+      "type": "Trimble IMS raster PNG, custom projected grid (not XYZ WebMercator)",
+      "size": 256,
+      "basemap_template": "https://karta.mariehamn.ax/IMS/Tile?basemap={key}&x={x}&y={y}&z={z}",
+      "overlay_template": "https://karta.mariehamn.ax/IMS/Tile/Layer?layer={key}&x={x}&y={y}&z={z}",
+      "2021_key": "Ortofoto_iks21",
+      "1942_key": "Ortofoto 1942",
+      "baskarta_key": "Baskarta_iks",
+      "2021_verified_sample": "https://karta.mariehamn.ax/IMS/Tile?basemap=Ortofoto_iks21&x=20015&y=6508&z=15",
+      "1942_verified_sample": "https://karta.mariehamn.ax/IMS/Tile/Layer?layer=Ortofoto%201942&x=20015&y=6508&z=15",
+      "grid_formula": "groundSpan=256*2^(17-z); x=floor(E/groundSpan); y=floor(N/groundSpan); tile bbox [x*span,y*span,(x+1)*span,(y+1)*span] in EPSG:3874. Tile images north-up.",
+      "zoom_range": [
+        13,
+        19
+      ],
+      "2021_meters_per_pixel": [
+        16,
+        8,
+        4,
+        2,
+        1,
+        0.5,
+        0.25
+      ],
+      "sample_bbox_epsg3874": [
+        20495360,
+        6664192,
+        20496384,
+        6665216
+      ],
+      "cors": "No Access-Control-Allow-Origin header observed. Direct HTML img works cross-origin; reading via canvas requires permission/CORS.",
+      "bounds": "Service does not publish global layer bounds in retrieved config; outside imagery extent white/transparent tiles may occur."
+    },
+    "photo_dates": {
+      "Ortofoto 1952": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 11.7.1952",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 1962": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 5.6.1962",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 1975": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 9.5.1975",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 1982": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 12.5.1982",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 1991": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 6.5.1991",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 1999": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 10.6.1999",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 2007": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 4.6.2007",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 2015": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 20.5.2015",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 2021": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 6.6.2021",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      },
+      "Ortofoto 1942": {
+        "Type": "content",
+        "Value": "Fotograferingsdag: 25.7.1942",
+        "Copyright": null,
+        "LegendType": null,
+        "LegendValue": null
+      }
+    },
+    "metadata_template": "https://karta.mariehamn.ax/IMS/sv/api/MetaData/v1/MetaData/Ortofoto%20{year}"
+  },
+  "postal_map": {
+    "url": "https://digitaltmuseum.se/011024626117/karta",
+    "title": "Postkarta över postvägen via Åland, mellan Sverige och Finland",
+    "author": "C J Carlsson",
+    "owner": "Postmuseum",
+    "object_id": "POST.044851",
+    "date_description": "Mitten av 1700-talet according to object description; accession note also says probably late 1700s. Avoid inventing an exact year.",
+    "images": [
+      {
+        "url": "https://ems.dimu.org/image/0231uxuv1Zcy?dimension=4000x4000",
+        "width": 4000,
+        "height": 2688,
+        "verified_mime": "image/webp"
+      },
+      {
+        "url": "https://ems.dimu.org/image/0231uxuv1Zmr?dimension=4000x4000",
+        "width": 4000,
+        "height": 2688
+      }
+    ],
+    "licenses": [
+      "Public Domain Mark 1.0",
+      "CC0 1.0"
+    ],
+    "license_urls": [
+      "https://creativecommons.org/publicdomain/mark/1.0/",
+      "https://creativecommons.org/publicdomain/zero/1.0/"
+    ],
+    "attribution": "C. J. Carlsson / Postmuseum, POST.044851, via DigitaltMuseum (Public Domain / CC0)",
+    "georeferencing": "Historic hand-drawn schematic map; no CRS or georeference provided. Do not present a traced line as exact road geometry.",
+    "stops_visual_transcription": [
+      "Gamla Grisslehamn",
+      "Byholma Post Contoir",
+      "Signills skär",
+      "Eckerö Post Contoir",
+      "Marsund",
+      "Frebbenby Postgård",
+      "Boda by",
+      "Bjärnström bro",
+      "Gölby Postgård",
+      "Emnäs bro",
+      "Färgsundet",
+      "Castelholms bro",
+      "Castelholms Post Contoir",
+      "Finby Postgård",
+      "Bomarsund",
+      "Wargata Postgård",
+      "Wårdö Postgård",
+      "Kumlinge",
+      "Brändö",
+      "Wartsala",
+      "Taivais"
+    ],
+    "transcription_note": "Visual reading of period handwriting; spelling is not modern normalized. Route order broadly west to east. Some small-print names may need palaeographic confirmation."
+  },
+  "atlas_1894": {
+    "atlas_url": "https://commons.wikimedia.org/wiki/Atlas_of_%C3%85land",
+    "file_url": "https://commons.wikimedia.org/wiki/File:(1894)_MAP_OF_THE_%C3%85LAND_ISLANDS.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/%281894%29_MAP_OF_THE_%C3%85LAND_ISLANDS.jpg",
+    "width": 3381,
+    "height": 2297,
+    "license": "Public Domain Mark 1.0, PD-old-70-expired",
+    "source": "Page 015 of Finland in the Nineteenth Century, by Finnish authors; edited by Leopold Henrik Stanislaus Mechelin. British Library HMNTS 10290.i.4.",
+    "attribution": "British Library / Wikimedia Commons, Finland in the Nineteenth Century (1894), Public Domain",
+    "caveat": "Colours/contrast altered by machine-interpretation scanning process. Not a precise cadastral map.",
+    "georeferencer_url": "https://britishlibrary.georeferencer.com/id/11225394714",
+    "georeferencer_status": "Redirects to britishlibrary.oldmapsonline.org; service not accessible through web fetch, so no bounds/tiles verified."
+  },
+  "historia_pdc": {
+    "url": "https://historia.pdc.ax/",
+    "ui_verified": true,
+    "ui_sources": [
+      "Ålands landskapsregering / kartor.ax (CC BY 4.0)",
+      "maannousu.info (CC BY 4.0)",
+      "OpenFreeMap / OpenStreetMap"
+    ],
+    "historical_layer_labels": [
+      "1863",
+      "1865+1872",
+      "1893+1897",
+      "1916+1917"
+    ],
+    "layer_types": [
+      "Fornminnen",
+      "Maritima",
+      "Krigstida",
+      "Skyddsområden",
+      "Vrak",
+      "Byggnadsminnen",
+      "Kyrkliga",
+      "Kulturmiljöer",
+      "Landskapsintr."
+    ],
+    "heritage_note": "Sibling agent historical_places verified /api/heritage?limit=5000 (3420 records) and is saving research-heritage.json. Avoid duplicating or scraping markers.",
+    "historical_map_metadata_url": "https://historia.pdc.ax/data/historical-maps.json",
+    "historical_map_metadata_status": "Found by sibling in public app source; direct Python request returned403 in this agent. No bypass attempted; parent may have already retrieved accessible source."
+  }
+}
