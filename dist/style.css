@@ -2,3 +2,5 @@
 .ticks{position:relative;height:23px}.ticks button{position:absolute;transform:translateX(-50%);white-space:nowrap}.ticks button:nth-child(1){left:0;transform:none}.ticks button:nth-child(2){left:15.3846%}.ticks button:nth-child(3){left:30.7692%}.ticks button:nth-child(4){left:46.1538%}.ticks button:nth-child(5){left:69.2308%}.ticks button:nth-child(6){right:0;transform:none}
 
 #detailStatus{position:absolute;right:18px;bottom:43px;max-width:250px;background:#f8f7f1ee;padding:5px 9px;border-radius:4px;font-size:10px;color:#51665c;pointer-events:none}#detailStatus:empty{display:none}@media(max-width:800px){#detailStatus{bottom:74px;right:12px;max-width:230px}}
+
+article .wikipedia-link{font-size:12px;line-height:1.5;margin:10px 0 16px}article .wikipedia-link a{text-decoration-thickness:1px;text-underline-offset:3px}

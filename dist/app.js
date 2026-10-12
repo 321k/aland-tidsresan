@@ -48,9 +48,30 @@ function visible(){return buildings.filter(b=>year>=b.start&&year<=(b.end??9999)
 function symbol(type,recon=false,ruin=false){const common=`fill="${ruin?'#c5c2ab':recon?'#b9a271':'#aa7962'}" stroke="#5b5946" stroke-width="1.5"`;let shape=type==='castle'?`<path ${common} d="M5 5H31V30H5Z M12 12V23H24V12Z" fill-rule="evenodd"/><path d="M5 5H12V12H5Z M24 23H31V30H24Z" ${common}/>`:type==='church'?`<path ${common} d="M7 11H28V25H7Z M2 13H10V23H2Z"/><path d="M10 18H28" stroke="#705c4d"/>`:type==='fortress'?`<path ${common} d="M3 4H32V30H3V23H24V11H3Z" ${ruin?'stroke-dasharray="3 2"':''}/>`:type==='farm'?`<rect x="3" y="4" width="11" height="26" ${common}/><rect x="21" y="5" width="11" height="9" ${common}/><rect x="21" y="21" width="11" height="9" ${common}/><path d="M8 4V30" stroke="#786343"/>`:type==='hut'?`<ellipse cx="18" cy="18" rx="13" ry="10" ${common}/><path d="M6 18H30" stroke="#79633e"/>`:`<rect x="4" y="8" width="28" height="20" ${common}/><path d="M4 18H32M4 8L11 18L4 28M32 8L25 18L32 28" fill="none" stroke="#79634e"/>`;return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">${recon?'<rect x="1" y="1" width="34" height="34" rx="3" fill="none" stroke="#806640" stroke-dasharray="3 3"/>':''}${shape}</svg>`}
 const iconCache=new Map();function iconFor(b){let ruin=b.id==='bomarsund'&&year>=1854,key=b.type+b.recon+ruin;if(!iconCache.has(key)){let im=new Image();im.onload=draw;im.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(symbol(b.type,b.recon,ruin));iconCache.set(key,im)}return iconCache.get(key)}
 function sourceLink(k){return `<a href="${sources[k][1]}" target="_blank" rel="noreferrer">${sources[k][0]} ↗</a>`}
+// Article titles verified against Swedish Wikipedia on 2026-10-12.
+// Reconstructed homes link to background reading, never to a fictitious building.
+const buildingWikipedia={
+ hut:'Ålands historia',bronze:'Ålands historia',farm:'Ålands historia',
+ jomala:'Jomala kyrka',kastelholm:'Kastelholms slott',rural:'Ålands historia',
+ vita:'Vita Björn',bomarsund:'Bomarsunds fästning',townhouse:'Mariehamn',
+ townhall:'Mariehamns stadshus',library:'Mariehamns stadsbibliotek'
+};
+const eraWikipedia={
+ '-12000':'Istid','-8000':'Landhöjning','-4000':'Ålands historia',
+ '-1500':'Ålands historia','800':'Ålands historia','1280':'Jomala kyrka',
+ '1388':'Kastelholms slott','1784':'Vita Björn','1832':'Bomarsunds fästning',
+ '1854':'Bomarsunds fästning','1861':'Mariehamn','1939':'Mariehamns stadshus',
+ '1989':'Mariehamns stadsbibliotek','2026':'Ålands historia'
+};
+function wikipediaLink(building,period){
+ const title=building?buildingWikipedia[building.id]:eraWikipedia[period.y];
+ if(!title)return '';
+ const href='https://sv.wikipedia.org/wiki/'+encodeURIComponent(title.replaceAll(' ','_'));
+ return `<p class="wikipedia-link"><a href="${href}" target="_blank" rel="noopener noreferrer" aria-label="${building?.recon?'Bakgrund på Wikipedia':'Wikipedia'}: ${title} (öppnas i ny flik)">${building?.recon?'Bakgrund på Wikipedia':'Wikipedia'}: ${title} ↗</a></p>`;
+}
 function updateUI(){let e=eras[era],b=buildings.find(b=>b.id===selected&&visible().includes(b));if(!b)selected=null;$('#eraTitle').textContent=e.tag;$('#mapDate').textContent=date(year);$('#yearLabel').textContent=date(year);$('#eraIndex').textContent=`${era+1} / ${eras.length}`;
 const body=b?{...b,title:b.name,tag:b.recon?'Rekonstruktion':b.id==='bomarsund'&&year>=1854?'Ruin sedan 1854':b.id==='bomarsund'&&year<1843?'Under byggnad':'Historisk byggnad'}:e;
-$('#story').innerHTML=`${b?'<button class="back" id="back">← Till tidsperioden</button><br>':''}<span class="storytag">${body.tag}</span><h2>${body.title}</h2><p>${b?.id==='bomarsund'&&year>=1854?'Här står resterna av den stora fästningen. Den förstördes 1854.':body.text}</p><div class="question"><strong>Fundera tillsammans</strong>${body.q}</div><details><summary>Läs mer tillsammans</summary><p>${body.more}</p>${sourceLink(body.src)}</details>`;
+$('#story').innerHTML=`${b?'<button class="back" id="back">← Till tidsperioden</button><br>':''}<span class="storytag">${body.tag}</span><h2>${body.title}</h2><p>${b?.id==='bomarsund'&&year>=1854?'Här står resterna av den stora fästningen. Den förstördes 1854.':body.text}</p>${wikipediaLink(b,e)}<div class="question"><strong>Fundera tillsammans</strong>${body.q}</div><details><summary>Läs mer tillsammans</summary><p>${body.more}</p>${sourceLink(body.src)}</details>`;
 if($('#back'))$('#back').onclick=()=>{selected=null;updateUI();draw()};
 $('#placeCount').textContent=visible().length;$('#places').innerHTML=visible().map(b=>`<button class="place ${b.id===selected?'active':''}" data-id="${b.id}"><span class="icon">${symbol(b.type,b.recon,b.id==='bomarsund'&&year>=1854)}</span><span>${b.id==='bomarsund'&&year>=1854?'Bomarsunds ruiner':b.name}<small>${b.loc}${b.recon?' · rekonstruktion':''}</small></span><span class="arrow">›</span></button>`).join('')||'<p class="asidehint">Inga byggnader visas under den här perioden. Följ hur landet förändras.</p>';
 $('#places').querySelectorAll('button').forEach(el=>el.onclick=()=>selectBuilding(el.dataset.id,true));$('#previous').disabled=pos<=0;$('#next').disabled=pos>=1300;
