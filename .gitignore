@@ -1,2 +1,4 @@
 .venv-geo/
 __pycache__/
+.wrangler/
+node_modules/
