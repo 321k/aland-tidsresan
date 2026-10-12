@@ -219,5 +219,62 @@
     "heritage_note": "Sibling agent historical_places verified /api/heritage?limit=5000 (3420 records) and is saving research-heritage.json. Avoid duplicating or scraping markers.",
     "historical_map_metadata_url": "https://historia.pdc.ax/data/historical-maps.json",
     "historical_map_metadata_status": "Found by sibling in public app source; direct Python request returned403 in this agent. No bypass attempted; parent may have already retrieved accessible source."
+  },
+  "mariehamn_plan_1860": {
+    "asset": "assets/mariehamn-plan-1860.png",
+    "origin": "User-supplied image, copied without modification. No archive accession identifier supplied.",
+    "title": "Plan till reglering af staden Mariehamn på Åland",
+    "author": "Georg Theodor Chiewitz",
+    "drawing_date": "November 1859, inscription on image",
+    "plan_year": 1860,
+    "city_founded": 1861,
+    "meaning": "Proposed layout, not an as-built survey. Planned buildings must not enter the dated standing-building dataset.",
+    "corroboration": [
+      "https://www.mariehamn.ax/sites/default/files/attachments/guidedocument/generalplan_del2_03_plan.pdf",
+      "https://visitaland.com/upplev/historia/arkitektur-i-mariehamn/"
+    ],
+    "alignment": {
+      "method": "Affine, three interpreted street intersections; not surveyed or independently accuracy-validated. Planned street correspondences may differ from realized layouts.",
+      "reference_view_pixels": [
+        1824,
+        1368
+      ],
+      "controls": [
+        {
+          "pixel": [
+            1265,
+            697
+          ],
+          "geo": [
+            19.942466,
+            60.097336
+          ],
+          "name": "Torggatan / Storagatan"
+        },
+        {
+          "pixel": [
+            777,
+            657
+          ],
+          "geo": [
+            19.93527,
+            60.096889
+          ],
+          "name": "East esplanade / Storagatan"
+        },
+        {
+          "pixel": [
+            803,
+            452
+          ],
+          "geo": [
+            19.934845,
+            60.098505
+          ],
+          "name": "East esplanade / Norragatan"
+        }
+      ],
+      "usage": "Optional comparative overlay, clearly labeled even when timeline is changed; original available independently."
+    }
   }
 }

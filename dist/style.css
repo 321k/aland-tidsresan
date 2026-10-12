@@ -26,3 +26,6 @@ header{gap:15px}.headernote{font-size:12px}header #openArchive{background:#e7ece
 
 .fortress-view .maptitle{padding:12px 16px}.fortress-view .maptitle h1{font-size:25px;margin:4px 0}.fortress-view .quickplaces{top:18px;left:245px;max-width:calc(100% - 320px)}.fortress-view .quickplaces button,.fortress-view .quickplaces select{font-size:10px;padding:6px}
 @media(max-width:800px){.fortress-view .maptitle{top:12px;left:12px}.fortress-view .maptitle h1{font-size:21px}.fortress-view .quickplaces{top:105px;left:12px;max-width:calc(100% - 75px)}}
+
+#cityPlanActions[hidden]{display:none}.city-plan-view .maptitle{padding:10px 14px}.city-plan-view .maptitle h1{font-size:24px;margin:4px 0}.city-plan-view .quickplaces{top:115px}.city-plan-view #overlayBadge{top:156px}
+@media(max-width:800px){.city-plan-view .maptitle h1{font-size:20px}.city-plan-view .quickplaces{top:109px}.city-plan-view #overlayBadge{top:180px}}
