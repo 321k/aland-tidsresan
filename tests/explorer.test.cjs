@@ -38,7 +38,7 @@ test('expired sites disappear at period boundaries and gaps, with older traces o
 test('searching an expired settlement jumps to its period without enabling old traces',()=>{
  const layer=new sandbox.ExplorerLayers(()=>{},()=>{}),jett=data.find(f=>f.name==='Jettböle');layer.heritage=[jett];
  const elements=new Map(),element=id=>{if(!elements.has(id))elements.set(id,{value:id==='#placeSearch'?'Jettböle':''});return elements.get(id)};
- const s={explorer:layer,year:2026,$:element,EvidenceTime:sandbox.EvidenceTime,goToYear:y=>{s.year=y},selectFeature:f=>{s.selected=f}};vm.createContext(s);
+ const s={window:{WRECKS:[]},explorer:layer,year:2026,$:element,EvidenceTime:sandbox.EvidenceTime,goToYear:y=>{s.year=y},selectFeature:f=>{s.selected=f}};vm.createContext(s);
  const source=fs.readFileSync('dist/app.js','utf8');vm.runInContext(source.slice(source.indexOf('function jumpToSearch()'),source.indexOf("$('#searchPlace').onclick")),s);
  s.jumpToSearch();assert.equal(s.selected.id,jett.id);assert.ok(s.year<2026);assert.equal(layer.available(jett,s.year),true);assert.equal(layer.flags.traces,false);assert.equal(layer.available(jett,2026),false);
 });

@@ -1,0 +1,77 @@
+{
+  "retrieved": "2026-10-12",
+  "source": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/MaritimtKulturarv/MapServer/0",
+  "metadata": "https://www.arcgis.com/home/item.html?id=0ff2d4f3d8024d878ec17375e94206e1",
+  "license": "CC BY 4.0",
+  "attribution": "© Ålands landskapsregering",
+  "coordinateSystem": "EPSG:4326 (ArcGIS outSR=4326)",
+  "positionNote": "Service metadata: average accuracy approximately ±100 m; newer GPS measurements approximately ±15 m. No per-record accuracy inferred from Precision_ codes. Symbols are not wreck outlines or headings.",
+  "champagneIdentificationSource": "https://www.lagtinget.ax/plenum/plenum-20-september-2010-kl-1300-44252",
+  "champagneIdentificationNote": "Plenum names champagne wreck M1FÖ403.3, matching registry M1 Fö 403.3. Registry finding date range 1841–1848 is not converted to an exact sinking year.",
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 279,
+        "FornID": "M1 Le 413.1",
+        "Text": "PLUS",
+        "Beskriv": "<div>Plus byggdes 1885 på Blohm &amp; Woss-varvet i Hamburg, Tyskland som en järnbark. Det sjönk 14.12.1933 i stormen. Endast fyra män överlevde av besättningen av tolv människor. Till minne av de drunknade har en namnskylt satts upp på platsen.<br /></div><div><br /></div>Vraket lutar mot styrbordssida och ligger med förskeppet neråt i en sluttning. På styrbordssida ligger de fallna master och på babordssida ligger många lös fynd.",
+        "Socken": 417,
+        "By_": "Nåtö",
+        "Precision_": 2,
+        "Lagrum": null
+      },
+      "geometry": {
+        "x": 19.89776581085561,
+        "y": 60.04416670386296
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 455,
+        "FornID": "M1 Ha 443.7",
+        "Text": "HINDENBURG",
+        "Beskriv": "Särskilda restriktioner finns för dykning till vraket. <div><br /></div><div>Isbrytare tillhörig till den tyska interventionseskadern 1918. Minsprängd den 9 mars 1918 på utgående från Eckerö. Fartyget var byggt 1916 i Stettin som hamnisbrytare för staden Stettin. Vraket påträffades 1986.</div>",
+        "Socken": 76,
+        "By_": "Signilskär och Märket",
+        "Precision_": 3,
+        "Lagrum": "2007:19"
+      },
+      "geometry": {
+        "x": 19.416666661141207,
+        "y": 60.18333333385847
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 461,
+        "FornID": "M1 Fö 403.3",
+        "Text": "Okänt",
+        "Beskriv": "Undersökning inte slutförd -11,  vraket daterad med fynd till tiden mellan 1841-1848.",
+        "Socken": 62,
+        "By_": "Bråttö",
+        "Precision_": 3,
+        "Lagrum": "2007:19"
+      },
+      "geometry": {
+        "x": 20.432058880840522,
+        "y": 59.88639705480058
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 472,
+        "FornID": "M1 Le 404.2",
+        "Text": "SKIFTET",
+        "Beskriv": "Ångfartyg, tillverkat 1908 vid Chrichton-Vulcans varv i Åbo. Fartyget ansvarade för passagerartrafiken mellan Åbo och Mariehamn. <div><br /></div><div>Skiftet lämnade Mariehamn tidigt på morgonen 21.12.1916 med passagerare. På Rödhamnsleden fartyget körde in i en mina, nedlagd av en tysk UC 27. Skiftets egen ångpanna exploderade en stund senare och fartyget sjönk på några sekunder. Endast tre personer kunde räddas ombord på bogserbåten som kom första till platsen.</div><div><br /></div><div>Vraket ligger på botten på babordssidan. Fören har helt försvunnit av explosionens kraft.<br /></div>",
+        "Socken": 417,
+        "By_": "Flaka",
+        "Precision_": 2,
+        "Lagrum": "2007:19"
+      },
+      "geometry": {
+        "x": 20.127066666395894,
+        "y": 59.969566666921224
+      }
+    }
+  ]
+}

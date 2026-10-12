@@ -17,3 +17,7 @@ header{gap:15px}.headernote{font-size:12px}header #openArchive{background:#e7ece
 #overlayBadge{position:absolute;top:193px;left:24px;background:#f8f7f1ed;padding:6px 9px;border-radius:4px;font-size:11px;color:#605738;pointer-events:none}@media(max-width:800px){#overlayBadge{top:164px;left:12px;font-size:10px;max-width:65%}}
 
 .quickplaces select{min-width:155px;max-width:210px;font:inherit;font-size:11px;color:var(--ink);padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:#f8f7f1f2;box-shadow:0 2px 7px #31483a14}select:focus-visible{outline:3px solid #bd7b2c;outline-offset:3px}
+
+.maplegend .wreckkey{background:#376778;width:10px;height:16px;border-radius:60% 60% 20% 20%;border:1px solid #faf7e8;transform:rotate(25deg)}
+
+.ticks{height:38px}.ticks button[data-year="1750"]{top:16px}
