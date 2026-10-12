@@ -1,0 +1,252 @@
+{
+  "verified_on": "2026-10-12",
+  "postal": {
+    "operationStart": 1638,
+    "lastUsedWinter": "1910–1911",
+    "renderFrom": 1700,
+    "renderThrough": 1911,
+    "note": "Displayed geometry is based on a 1700s map, so it is not backdated to the 1638 establishment. 1911 is included at annual resolution; from 1912 the line is hidden, including with older traces enabled.",
+    "sources": [
+      "https://www.postmuseum.se/bocker/1966/1966_5-19-52_Naucl%C3%A9r.pdf",
+      "https://www.uppslagsverket.fi/sv/view-170045-Postvaegen",
+      "https://digitaltmuseum.se/011024626117/karta"
+    ]
+  },
+  "shipping": {
+    "geometry": "Manually drawn schematic connections, not measured navigation tracks. Port coordinates approximate except Eckerö and Grisslehamn taken from operator contact page. Historical terminal layouts are not reconstructed.",
+    "coverage": "Initial selection, not an exhaustive history. Current Turku route is an observation for 2026, not a 2026 start date. Viking 1959 Gräddö variant disappears when the Swedish port changes in 1960.",
+    "routes": [
+      {
+        "id": "viking-1959",
+        "recordType": "shipRoute",
+        "name": "Viking · Gräddö–Mariehamn–Galtby",
+        "from": 1959,
+        "to": 1959,
+        "dateLabel": "1959 års rutt",
+        "color": "#356d88",
+        "text": "Bilarna kan följa med över havet. Den 1 juni 1959 börjar Viking trafikera Gräddö, Mariehamn och Galtby.",
+        "dateNote": "Den här sträckningen visas för 1959. År 1960 flyttades den svenska anlöpshamnen från Gräddö till Kapellskär. Det är rutten via Gräddö som upphör, inte färjetrafiken.",
+        "ports": [
+          {
+            "name": "Gräddö",
+            "lon": 19.04,
+            "lat": 59.77
+          },
+          {
+            "name": "Mariehamn",
+            "lon": 19.927,
+            "lat": 60.089
+          },
+          {
+            "name": "Galtby",
+            "lon": 21.59,
+            "lat": 60.135
+          }
+        ],
+        "path": [
+          [
+            19.04,
+            59.77
+          ],
+          [
+            19.2,
+            59.84
+          ],
+          [
+            19.7,
+            59.95
+          ],
+          [
+            19.9,
+            60.02
+          ],
+          [
+            19.927,
+            60.089
+          ],
+          [
+            19.9,
+            60.02
+          ],
+          [
+            20.03,
+            59.96
+          ],
+          [
+            20.4,
+            59.99
+          ],
+          [
+            20.9,
+            60.07
+          ],
+          [
+            21.3,
+            60.1
+          ],
+          [
+            21.59,
+            60.135
+          ]
+        ],
+        "sources": [
+          [
+            "Viking Line · färjetrafikens historia",
+            "https://www.vikingline.com/et/kontsern/ajalugu/farjetrafik/"
+          ],
+          [
+            "Museiverket · bilfärjan 1959",
+            "https://www.finna.fi/Record/museovirasto.985d38d2-8b39-42e1-91ca-bfe821219852"
+          ]
+        ]
+      },
+      {
+        "id": "eckero-1961",
+        "recordType": "shipRoute",
+        "name": "Eckerö Linjen · Grisslehamn–Eckerö",
+        "from": 1961,
+        "to": 2026,
+        "dateLabel": "1961–idag",
+        "color": "#287e83",
+        "text": "Färjan binder ihop Grisslehamn i Sverige med Berghamn på Eckerö. Passagerare, bilar och gods reser över Ålands hav.",
+        "dateNote": "Eckerö Linjens trafik startade 1961. Samma hamnförbindelse trafikeras 2026. Linjen visar förbindelsens period, inte ett visst fartyg eller oavbruten daglig trafik.",
+        "ports": [
+          {
+            "name": "Grisslehamn",
+            "lon": 18.813516,
+            "lat": 60.09955
+          },
+          {
+            "name": "Berghamn · Eckerö",
+            "lon": 19.536363,
+            "lat": 60.225366
+          }
+        ],
+        "path": [
+          [
+            18.813516,
+            60.09955
+          ],
+          [
+            18.9,
+            60.12
+          ],
+          [
+            19.12,
+            60.16
+          ],
+          [
+            19.4,
+            60.21
+          ],
+          [
+            19.536363,
+            60.225366
+          ]
+        ],
+        "sources": [
+          [
+            "Mariehamns stads historia · Eckerölinjen sedan 1961",
+            "https://bibliotek.mariehamn.ax/fulltext/MariehamnsHistoria_1961-1986.pdf?dl=0"
+          ],
+          [
+            "Eckerö Linjen · dagens hamnar och förbindelse",
+            "https://www.eckerolinjen.se/kontaktuppgifter"
+          ]
+        ]
+      },
+      {
+        "id": "viking-turku-2026",
+        "recordType": "shipRoute",
+        "name": "Stockholm–Mariehamn–Åbo",
+        "from": 2026,
+        "to": 2026,
+        "dateLabel": "Nutida rutt · belagd 2026",
+        "color": "#51659a",
+        "text": "Stora färjor knyter ihop Stockholm, Mariehamn och Åbo. Åland är en plats där resenärer både stiger av och fortsätter vidare.",
+        "dateNote": "Detta är ett urval av Viking Lines förbindelser 2026, inte ruttens startår. Åbolinjen anlöper Mariehamn eller Långnäs; här visas varianten via Mariehamn. Äldre sträckningar är inte daterade i detta lager.",
+        "ports": [
+          {
+            "name": "Stockholm",
+            "lon": 18.116,
+            "lat": 59.315
+          },
+          {
+            "name": "Mariehamn",
+            "lon": 19.927,
+            "lat": 60.089
+          },
+          {
+            "name": "Åbo",
+            "lon": 22.22,
+            "lat": 60.435
+          }
+        ],
+        "path": [
+          [
+            18.116,
+            59.315
+          ],
+          [
+            18.4,
+            59.4
+          ],
+          [
+            18.8,
+            59.7
+          ],
+          [
+            19.4,
+            59.9
+          ],
+          [
+            19.9,
+            60.02
+          ],
+          [
+            19.927,
+            60.089
+          ],
+          [
+            19.9,
+            60.02
+          ],
+          [
+            20.03,
+            59.96
+          ],
+          [
+            20.4,
+            59.99
+          ],
+          [
+            20.9,
+            60.07
+          ],
+          [
+            21.3,
+            60.16
+          ],
+          [
+            21.7,
+            60.28
+          ],
+          [
+            22,
+            60.36
+          ],
+          [
+            22.22,
+            60.435
+          ]
+        ],
+        "sources": [
+          [
+            "Viking Line · nuvarande förbindelser",
+            "https://www.vikingline.com/the-group/viking-line/services/"
+          ]
+        ]
+      }
+    ]
+  }
+}

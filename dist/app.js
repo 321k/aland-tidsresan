@@ -1,6 +1,9 @@
 'use strict';
 const $=s=>document.querySelector(s);
 const sources={
+ eckeroRoute:['Eckerölinjen · Mariehamns stads historia','https://bibliotek.mariehamn.ax/fulltext/MariehamnsHistoria_1961-1986.pdf?dl=0'],
+ postalEnd:['Postvägens sista år · Postmuseum','https://www.postmuseum.se/bocker/1966/1966_5-19-52_Naucl%C3%A9r.pdf'],
+ shipRoutes:['Färjetrafikens början · Viking Line','https://www.vikingline.com/globalassets/documents/market_specific/corporate/group/the_ships_2026.pdf'],
  earlyMap:['Karta öfver Åland · cirka 1800 · Uppsala universitetsbibliotek / Alvin','https://www.alvin-portal.org/alvin/imageViewer.jsf?dsId=ATTACHMENT-0001&pid=alvin-record%3A82661'],
  cityMuseum:['Mariehamn på 1920-talet · Nybyggarne','https://mpf.spfpension.fi/verksamhet/nybyggarne/mariehamn/'],
  cityPlan:['Mariehamns första stadsplan · Mariehamns stad','https://www.mariehamn.ax/sites/default/files/attachments/guidedocument/generalplan_del2_03_plan.pdf'],
@@ -55,7 +58,7 @@ const buildings=[
 ];
 eras.push(
  {y:-5000,title:'Tidiga spår i Saltvik',tag:'De första boplatserna',text:'Små stenbitar och eldstäder berättar att människor har bott här. I Bertby finns en av de tidiga boplatserna.',q:'Vad kan en liten stenbit berätta?',more:'Registret anger omkring 5000 f.Kr. för Bertby. Dateringar är ungefärliga och kan omprövas.',src:'heritage'},
- {y:1750,title:'Brev över land och hav',tag:'Postvägen',text:'Brev färdas med människor, hästar och båtar genom Åland. Postförarna hjälps åt från ort till ort.',q:'Hur skulle du skicka ett brev utan bilar och flygplan?',more:'Postförbindelsen över Åland inrättades 1638. Kartlagret bygger på en karta från 1700-talet och dateras inte tillbaka till grundandet; se Carlssons 1700-talskarta i kartarkivet.',src:'postal'},
+ {y:1750,title:'Brev över land och hav',tag:'Postvägen',text:'Brev färdas med människor, hästar och båtar genom Åland. Postförarna hjälps åt från ort till ort.',q:'Hur skulle du skicka ett brev utan bilar och flygplan?',more:'Postförbindelsen över Åland inrättades 1638 och användes sista gången vintern 1910–1911. Kartlagret bygger på en karta från 1700-talet och dateras inte tillbaka till grundandet; se Carlssons 1700-talskarta i kartarkivet.',src:'postal'},
  {y:1894,title:'Åland på en gammal karta',tag:'Åland 1894',text:'På en gammal karta kan du känna igen öar och ortnamn. Vad är annorlunda jämfört med idag?',q:'Kan du hitta en plats som du känner igen?',more:'Originalkartan från 1894 finns i kartarkivet, via British Library och Wikimedia Commons.',src:'atlas'},
  {y:1942,title:'Mariehamn från luften',tag:'Flygfoto 1942',text:'Ett flygfoto fångar staden som den såg ut en viss dag. Öppna kartarkivet för att se husen och gatorna från 1942.',q:'Vilka gator och hus känner du igen?',more:'Mariehamns stads flygfoto togs den 25 juli 1942. Vi daterar inte dagens byggnader bakåt utifrån deras nutida konturer.',src:'photo'},
  {y:2021,title:'En stad att jämföra',tag:'Flygfoto 2021',text:'Staden har vuxit. Jämför flygfotot från 2021 med bilden från 1942 och leta efter hus, gator och stränder som förändrats.',q:'Var har det kommit flest nya hus?',more:'Mariehamns stads flygfoto togs den 6 juni 2021. Nutida vektordata i vår karta är hämtade 2026 och visas vid det årtalet.',src:'photo'}
@@ -63,6 +66,7 @@ eras.push(
 Object.assign(buildings.find(b=>b.id==='bomarsund'),window.BOMARSUND_PLACES[0]);
 buildings.push(...window.BOMARSUND_PLACES.slice(1));
 eras.push({y:1853,title:'Ett helt samhälle vid fästningen',tag:'Bomarsund före förstörelsen',text:'Huvudfästet, tornen, butikerna och sjukhuset hörde ihop. Utforska området som det såg ut före förstörelsen. Några stora byggen hann aldrig bli färdiga.',q:'Vilka platser behövde människorna i Bomarsund varje dag?',more:'1853 är översiktens jämförelseår, inte alla byggnaders byggår. Kartan är en tolkad plan, med ungefärliga lägen och former. Den 1854-hållpunkt som följer visar läget efter förstörelsen.',src:'bomarsundPlan'});
+eras.push({y:1959,routeId:'viking-1959',title:'Bilarna följer med över havet',tag:'Bilfärjan Viking',text:'Viking börjar segla mellan Gräddö, Mariehamn och Galtby. Nu kan resenärerna ta med bilen på färjan.',q:'Vad behöver en hamn ha för att bilar ska kunna köra ombord?',more:'Premiärturen gick den 1 juni 1959. År 1960 flyttade Vikinglinjen från Gräddö till Kapellskär. Linjen på kartan visar 1959 års hamnförbindelse.',src:'shipRoutes'},{y:1961,routeId:'eckero-1961',title:'En färjeförbindelse till Eckerö',tag:'Eckerö Linjen',text:'Eckerö Linjen börjar trafikera mellan Grisslehamn och Eckerö. Havet binder ihop orterna på varsin sida.',q:'Vilka saker skulle ni ta med på en färjeresa?',more:'Eckerö Linjens förbindelse är belagd från 1961 och trafikeras fortfarande 2026. Läs ruttens källor för mer om trafiken.',src:'eckeroRoute'});
 eras.push(...WreckTimeline.events(window.WRECKS));
 eras.sort((a,b)=>a.y-b.y);buildings.push(...window.EXTRA_PLACES,...window.WRECKS);
 const LAST=eras.length-1,MAX_TIME=LAST*100;
@@ -73,6 +77,7 @@ const canvas=$('#map'),ctx=canvas.getContext('2d');
 const explorer=new ExplorerLayers(()=>{if(meta)explorer.prepare(project);draw()},selectFeature);
 const shorelines=new ShorelineModel(draw,$('#detailStatus'));
 const historicalOverlay=new HistoricalOverlay(draw);
+let shipRouteHits=[];
 function date(y){return y<0?`${Math.abs(y).toLocaleString('sv-SE')} f.Kr.`:y===2026?'2026 · idag':`${y} e.Kr.`}
 function visible(){return buildings.filter(b=>(b.category!=='fortress'||BomarsundPlan.visible(b,year,$('#layerFortress').checked,$('#layerTraces').checked))&&(b.category!=='wreck'||WreckTimeline.visible(b,year,$('#layerWrecks').checked))&&year>=b.start&&year<=(b.end??9999)&&(!b.recon||$('#layerRecon').checked)&&(!(b.category==='marine')||$('#layerMarine').checked)&&(b.recordType!=='marine'||explorer.available(b,year)))}
 // Only explicitly enabled reconstructions use illustrative house shapes.
@@ -119,15 +124,18 @@ function wikipediaLink(building,period){
  const href='https://sv.wikipedia.org/wiki/'+encodeURIComponent(title.replaceAll(' ','_'));
  return `<p class="wikipedia-link"><a href="${href}" target="_blank" rel="noopener noreferrer" aria-label="${building?.recon?'Bakgrund på Wikipedia':'Wikipedia'}: ${title} (öppnas i ny flik)">${building?.recon?'Bakgrund på Wikipedia':'Wikipedia'}: ${title} ↗</a></p>`;
 }
-function updateUI(){let e=eras[era],b=buildings.find(b=>b.id===selected&&visible().includes(b));if(!b)selected=null;$('.maparea').classList.toggle('fortress-view',b?.category==='fortress');$('#eraTitle').textContent=b?.category==='fortress'?'Bomarsund':e.tag;$('#mapDate').textContent=date(year);$('#yearLabel').textContent=date(year);$('#eraIndex').textContent=`${era+1} / ${eras.length}`;
+function updateUI(){let e=eras[era],b=buildings.find(b=>b.id===selected&&visible().includes(b));if(!b)selected=null;$('.maparea').classList.toggle('fortress-view',b?.category==='fortress');$('.maparea').classList.toggle('ship-route-view',selectedFeature?.recordType==='shipRoute');$('#eraTitle').textContent=b?.category==='fortress'?'Bomarsund':selectedFeature?.recordType==='shipRoute'?'Fartygsrutter':e.tag;$('#mapDate').textContent=date(year);$('#yearLabel').textContent=date(year);$('#eraIndex').textContent=`${era+1} / ${eras.length}`;
 const body=b?{...b,title:b.name,tag:b.category==='fortress'?BomarsundPlan.tag(b,year):b.category==='wreck'?WreckTimeline.tag(b,year):b.category==='marine'?(EvidenceTime.state(b,year)==='trace'?'Tidigare lots- eller fyrplats':'Lots- eller fyrplats'):b.recon?'Rekonstruktion':b.id==='bomarsund'&&year>=1854?'Ruin sedan 1854':b.id==='bomarsund'&&year<1843?'Under byggnad':'Historisk byggnad'}:e;
 const wreck=wreckForStory(b,e);
 if(b?.category==='wreck')body.text=WreckTimeline.text(b,year);
 if(b?.category==='fortress'){body.text=year>=1854?b.ruinText:b.text;body.title=year>=1854&&b.kind!=='cemetery'?b.name+' · äldre plats':b.name}
-$('#story').innerHTML=`${b?'<button class="back" id="back">← Till tidsperioden</button><br>':''}<span class="storytag">${body.tag}</span><h2>${body.title}</h2><p>${body.text}</p>${wikipediaLink(b||wreck,e)}${!b&&e.cityPlan?cityPlanControls():''}${!b&&e.cityMuseum?cityMuseumControls():''}${!b&&e.earlyMap?earlyMapControls():''}${b?.category==='fortress'?`<div class="dating"><p>${htmlEscape(b.dateNote)}</p><small>${htmlEscape(b.geometrySource)} · Lägen och former är ungefärliga.</small></div>`:''}${b?.category==='fortress'||[1832,1853,1854].includes(e.y)?fortressControls():''}${wreck?wreckDetails(wreck):''}${wreck&&!b?`<button id="focusWreckEvent">Visa ${htmlEscape(wreck.name)} på kartan</button>`:''}${b?.temporal?`<p class="evidence-badge">${EvidenceTime.label(EvidenceTime.state(b,year))}</p><p class="asidehint">${htmlEscape(EvidenceTime.phase(b,year)?.label||b.temporal.dateLabel)}</p>`:''}<div class="question"><strong>Fundera tillsammans</strong>${body.q}</div><details><summary>Läs mer tillsammans</summary><p>${body.more}</p>${body.sourceUrl?`<a href="${safeURL(body.sourceUrl)}" target="_blank" rel="noreferrer">Ålands landskapsregering · platsens registeruppgifter ↗</a>`:sourceLink(body.src)}${b?.category==='fortress'?b.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}${wreck?wreck.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}</details>`;
+$('#story').innerHTML=`${b?'<button class="back" id="back">← Till tidsperioden</button><br>':''}<span class="storytag">${body.tag}</span><h2>${body.title}</h2><p>${body.text}</p>${wikipediaLink(b||wreck,e)}${!b&&e.cityPlan?cityPlanControls():''}${!b&&e.cityMuseum?cityMuseumControls():''}${!b&&e.earlyMap?earlyMapControls():''}${!b&&e.routeId?'<button id=focusRouteEvent>Visa fartygsrutten</button>':''}${b?.category==='fortress'?`<div class="dating"><p>${htmlEscape(b.dateNote)}</p><small>${htmlEscape(b.geometrySource)} · Lägen och former är ungefärliga.</small></div>`:''}${b?.category==='fortress'||[1832,1853,1854].includes(e.y)?fortressControls():''}${wreck?wreckDetails(wreck):''}${wreck&&!b?`<button id="focusWreckEvent">Visa ${htmlEscape(wreck.name)} på kartan</button>`:''}${b?.temporal?`<p class="evidence-badge">${EvidenceTime.label(EvidenceTime.state(b,year))}</p><p class="asidehint">${htmlEscape(EvidenceTime.phase(b,year)?.label||b.temporal.dateLabel)}</p>`:''}<div class="question"><strong>Fundera tillsammans</strong>${body.q}</div><details><summary>Läs mer tillsammans</summary><p>${body.more}</p>${body.sourceUrl?`<a href="${safeURL(body.sourceUrl)}" target="_blank" rel="noreferrer">Ålands landskapsregering · platsens registeruppgifter ↗</a>`:sourceLink(body.src)}${b?.category==='fortress'?b.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}${wreck?wreck.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}</details>`;
 $('#story').querySelectorAll('[data-city-plan]').forEach(el=>el.onclick=()=>el.dataset.cityPlan==='original'?window.openCityPlanArchive():window.openCityPlan(Number(el.dataset.cityPlan)));
 $('#story').querySelectorAll('[data-city-museum]').forEach(el=>el.onclick=()=>el.dataset.cityMuseum==='original'?window.openCityMapArchive('1920'):window.openCityMap('1920',Number(el.dataset.cityMuseum)));
 $('#story').querySelectorAll('[data-early-map]').forEach(el=>el.onclick=()=>window.openEarlyMapArchive(el.dataset.earlyMap==='compare'));
+if($('#focusRouteEvent'))$('#focusRouteEvent').onclick=()=>openShipRoute(e.routeId);
+if(!b&&e.y===1750)$('#story details').insertAdjacentHTML('beforeend','<p>'+sourceLink('postalEnd')+'</p>');
+updateRouteList();
 if($('#fortressClose'))$('#fortressClose').onclick=()=>{const main=window.BOMARSUND_PLACES[0];focusMap(main.lon,main.lat,100);selectBuilding(main.id,false)};
 $('#story').querySelectorAll('[data-fortress-year]').forEach(el=>el.onclick=()=>openBomarsund(Number(el.dataset.fortressYear)));
 if($('#focusWreckEvent'))$('#focusWreckEvent').onclick=()=>openWreck(wreck, e.y);
@@ -141,7 +149,7 @@ function project(lon,lat){return [(lon+180)/360*meta.world-meta.x0,(1-Math.asinh
 function screen(lon,lat){let [x,y]=project(lon,lat);return[(x-meta.width/2)*fit*zoom+W/2+panX,(y-meta.height/2)*fit*zoom+H/2+panY]}
 function draw(){if(!meta)return;ctx.clearRect(0,0,W,H);let s=fit*zoom;const view={width:W,height:H,zoom,scale:s,panX,panY,meta,year};shorelines.draw(ctx,view);view.overlay=historicalOverlay;
 const fortressCenter=screen(20.238,60.215);view.fortressDetail=$('#layerFortress').checked&&year>=1832&&zoom>=12&&fortressCenter[0]>=0&&fortressCenter[0]<=W&&fortressCenter[1]>=0&&fortressCenter[1]<=H;
-explorer.prepare(project);explorer.render(ctx,view);
+explorer.prepare(project);explorer.render(ctx,view);shipRouteHits=TransportRoutes.draw(ctx,view,screen,$('#layerShipRoutes').checked,selectedFeature?.recordType==='shipRoute'?selectedFeature.id:null);
 ctx.save();ctx.fillStyle='#54797c';ctx.font='italic 17px Georgia';ctx.textAlign='center';[['Ålands hav',19.42,60.08],['Skärgårdshavet',20.95,60.32]].forEach(([n,x,y])=>{let p=screen(x,y);ctx.fillText(n,...p)});ctx.restore();
 if(year>=-4000){ctx.font='10px -apple-system,sans-serif';ctx.textAlign='center';ctx.fillStyle='#65775c';[['GETA',19.84,60.38],['SALT VIK',20.12,60.34],['ECKERÖ',19.57,60.22],['JOMALA',19.90,60.18],['FÖGLÖ',20.46,60.02],['KUMLINGE',20.75,60.25],['KÖKAR',20.90,59.91],['BRÄNDÖ',21.03,60.42]].forEach(([n,x,y])=>{let p=screen(x,y);ctx.fillText(n==='SALT VIK'?'SALTVIK':n,...p)})}
 drawStoryPlaces();hits.push(...BomarsundPlan.draw(ctx,visible().filter(b=>b.category==='fortress'),screen,year,zoom,selected,W,H));let mpp=Math.cos(60.2*Math.PI/180)*40075016.7/meta.world/s;$('#scale').textContent=mpp*60<1000?Math.round(mpp*60/10)*10+' m':(mpp*60/1000).toFixed(zoom>5?1:0)+' km';$('#scale').style.width='60px'}
@@ -169,7 +177,7 @@ $('#zoomIn').onclick=()=>zoomAt(1.6);$('#zoomOut').onclick=()=>zoomAt(1/1.6);$('
 function cancelMapGesture(){pointers.clear();gesture=null;dragged=false}
 canvas.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});gesture={x:e.clientX,y:e.clientY,panX,panY};dragged=false;if(pointers.size===2){let [a,b]=[...pointers.values()];gesture={distance:Math.hypot(a.x-b.x,a.y-b.y),zoom};dragged=true}});
 canvas.addEventListener('pointermove',e=>{if(e.pointerType==='mouse'&&e.buttons===0){cancelMapGesture();return}if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2){let [a,b]=[...pointers.values()],r=canvas.getBoundingClientRect();if(gesture.distance)zoomAt((Math.hypot(a.x-b.x,a.y-b.y)/gesture.distance*gesture.zoom)/zoom,(a.x+b.x)/2-r.left,(a.y+b.y)/2-r.top);return}if(!gesture||gesture.distance)return;let dx=e.clientX-gesture.x,dy=e.clientY-gesture.y;if(Math.abs(dx)+Math.abs(dy)>5)dragged=true;if(!dragged)return;panX=gesture.panX+dx;panY=gesture.panY+dy;draw()});
-canvas.addEventListener('pointerup',e=>{if(!dragged&&pointers.size===1){let r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,h=hits.filter(h=>storyHit(h,x,y)).sort((a,b)=>Math.hypot(x-a.x,y-a.y)-Math.hypot(x-b.x,y-b.y))[0];if(h)selectBuilding(h.id,false);else{const f=explorer.hit(x,y,ctx);if(f?.cluster){const lon=f.cluster.reduce((s,f)=>s+f.lon,0)/f.cluster.length,lat=f.cluster.reduce((s,f)=>s+f.lat,0)/f.cluster.length;focusMap(lon,lat,Math.min(256,zoom*2))}else if(f)selectFeature(f,false)}}pointers.delete(e.pointerId);gesture=null;if(pointers.size===1){let a=[...pointers.values()][0];gesture={x:a.x,y:a.y,panX,panY};dragged=true}});canvas.addEventListener('pointercancel',cancelMapGesture);
+canvas.addEventListener('pointerup',e=>{if(!dragged&&pointers.size===1){let r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,h=hits.filter(h=>storyHit(h,x,y)).sort((a,b)=>Math.hypot(x-a.x,y-a.y)-Math.hypot(x-b.x,y-b.y))[0];if(h)selectBuilding(h.id,false);else{const f=explorer.hit(x,y,ctx)||TransportRoutes.hit(shipRouteHits,x,y);if(f?.cluster){const lon=f.cluster.reduce((s,f)=>s+f.lon,0)/f.cluster.length,lat=f.cluster.reduce((s,f)=>s+f.lat,0)/f.cluster.length;focusMap(lon,lat,Math.min(256,zoom*2))}else if(f)selectFeature(f,false)}}pointers.delete(e.pointerId);gesture=null;if(pointers.size===1){let a=[...pointers.values()][0];gesture={x:a.x,y:a.y,panX,panY};dragged=true}});canvas.addEventListener('pointercancel',cancelMapGesture);
 canvas.addEventListener('lostpointercapture',e=>{if(pointers.has(e.pointerId))cancelMapGesture()});
 window.addEventListener('blur',cancelMapGesture);
 canvas.addEventListener('keydown',e=>{if(['+','=','-','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Home'].includes(e.key)){e.preventDefault();if(e.key==='+'||e.key==='=')zoomAt(1.5);if(e.key==='-')zoomAt(1/1.5);if(e.key==='ArrowUp')panY+=50;if(e.key==='ArrowDown')panY-=50;if(e.key==='ArrowLeft')panX+=50;if(e.key==='ArrowRight')panX-=50;if(e.key==='Home'){zoom=1;panX=panY=0}draw()}});
@@ -177,8 +185,8 @@ $('#sources').innerHTML=Object.keys(sources).map(k=>`<li>${sourceLink(k)}</li>`)
 function positionForYear(y){let i=Math.max(0,eras.findLastIndex(e=>y>=e.y));if(i>=LAST)return MAX_TIME;return i*100+(y-eras[i].y)/(eras[i+1].y-eras[i].y)*100}
 function goToYear(y){setTime(positionForYear(Math.max(-12000,Math.min(2026,y))))}
 function focusMap(lon,lat,targetZoom=24){if(!meta)return;zoom=targetZoom;let[x,y]=project(lon,lat);panX=-(x-meta.width/2)*fit*zoom;panY=-(y-meta.height/2)*fit*zoom;draw()}
-function showFeatureStory(){$('#story').innerHTML=explorer.story(selectedFeature);$('#backFeature').onclick=()=>{selectedFeature=null;explorer.selected=null;updateUI();draw()}}
-function selectFeature(f,focus){const story=visible().find(b=>b.osmId===f.id);if(story){selectBuilding(story.id,focus);return}pause();selected=null;selectedFeature=f;explorer.selected=f.id;if(focus&&!f.kind)focusMap(f.lon,f.lat,Math.max(zoom,16));showFeatureStory();draw();$('#story').scrollIntoView({block:'nearest'})}
+function showFeatureStory(){$('#story').innerHTML=selectedFeature.recordType==='shipRoute'?TransportRoutes.story(selectedFeature):explorer.story(selectedFeature);$('#backFeature').onclick=()=>{selectedFeature=null;explorer.selected=null;updateUI();draw()}}
+function selectFeature(f,focus){if(f.recordType==='shipRoute'){openShipRoute(f.id,focus);return}const story=visible().find(b=>b.osmId===f.id);if(story){selectBuilding(story.id,focus);return}pause();selected=null;selectedFeature=f;explorer.selected=f.id;if(focus&&!f.kind)focusMap(f.lon,f.lat,Math.max(zoom,16));showFeatureStory();draw();$('#story').scrollIntoView({block:'nearest'})}
 $('#time').max=MAX_TIME;
 function applyYearInput(){const input=$('#jumpYear');if(input.value.trim()===''||!Number.isFinite(Number(input.value)))return;pause();goToYear(Number(input.value))}
 $('#jumpYear').onchange=applyYearInput;$('#jumpYear').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();applyYearInput()}};
@@ -188,7 +196,7 @@ $('#focusMariehamn').onclick=()=>{pause();clearSearch();goToYear(2026);focusMap(
 $('#focusStone').onclick=()=>{pause();clearSearch();goToYear(-4000);focusMap(20.130,60.316,16)};
 $('#focusFortress').onclick=()=>openBomarsund(1853);
 $('#layerFortress').onchange=()=>{updateUI();draw()};
-$('#focusPostal').onclick=()=>{pause();goToYear(1750);focusMap(20.05,60.25,1.4)};
+$('#focusPostal').onclick=()=>{pause();$('#layerPostal').checked=true;explorer.flags.postal=true;goToYear(1750);focusMap(20.05,60.25,1.4)};
 for(const[id,key]of [['layerHeritage','heritage'],['layerUndated','undated'],['layerModern','modern'],['layerPostal','postal'],['layerUncertain','uncertain'],['layerTraces','traces'],['layerHistoric','historic'],['layerBoundaries','boundaries']])$("#"+id).onchange=e=>{explorer.flags[key]=e.target.checked;explorer.listKey=null;selectedFeature=null;updateUI();draw()};
 $('#categoryFilter').onchange=e=>{explorer.category=e.target.value;explorer.listKey=null;draw()};
 $('#layerRecon').onchange=()=>{updateUI();draw()};
@@ -220,6 +228,9 @@ function wreckDetails(wreck){
  return `<div class="dating"><strong>${dates.join(' · ')}</strong>${wreck.uncertainty?`<p>${htmlEscape(wreck.uncertainty)}</p>`:''}<small>${htmlEscape(wreck.registryCode)} · Registerpunkt med varierande lägesnoggrannhet. Symbolen visar inte vrakets form, storlek eller riktning.</small></div>`;
 }
 
+$('#routeChoice').innerHTML='<option value="">Välj en fartygsrutt…</option>'+TransportRoutes.routes.map(r=>`<option value="${r.id}">${r.name} · ${r.dateLabel}</option>`).join('');
+$('#routeChoice').onchange=e=>{if(e.target.value)openShipRoute(e.target.value);e.target.value=''};
+$('#layerShipRoutes').onchange=()=>{if(!$('#layerShipRoutes').checked&&selectedFeature?.recordType==='shipRoute'){selectedFeature=null;explorer.selected=null}updateUI();draw()};
 window.openEarlyMapYear=()=>{pause();clearSearch();selected=null;chooseMapBackground('model',false);goToYear(1800);focusMap(20.02,60.23,2);$('#story').scrollIntoView({block:'nearest'})};
 window.openCityMap=(mode,y)=>{pause();clearSearch();selected=null;goToYear(y);chooseMapBackground(mode);$('.layers').open=true;$('#mapBackground').scrollIntoView({block:'nearest'})};
 window.openCityPlan=y=>window.openCityMap('1860',y);
@@ -254,3 +265,18 @@ const a=project(19.923,60.103),b=project(19.949,60.092);
 function cityMuseumControls(){return '<div class="fortress-controls"><button data-city-museum="1920">Visa museikartan på kartan</button><button data-city-museum="original">Förstora och läs om husen</button><button data-city-museum="2026">Jämför med idag</button></div><p class="layernote">Översikt över 1920-talet · ungefärlig inpassning. Välj 1860 under Kartlager för att jämföra med den första stadsplanen.</p>'}
 
 function earlyMapControls(){return '<div class="fortress-controls"><button data-early-map="original">Förstora kartan från cirka 1800</button><button data-early-map="compare">Jämför med 1894</button></div><p class="layernote">Daterad cirka 1800 · kartbilden finns i kartarkivet. Huvudkartans strandlinjer kommer från en separat modell.</p>'}
+
+function updateRouteList(){
+ const active=TransportRoutes.active(year,$('#layerShipRoutes').checked);
+ $('#routeStatus').textContent=!$('#layerShipRoutes').checked?'Fartygslagret är avstängt.':active.length?active.length+' daterade rutter visas under valt år.':'Inga fartygsrutter är kartlagda för valt år ännu.';
+ $('#activeRoutes').innerHTML=active.map(r=>`<button class="register-place" data-route="${r.id}">${htmlEscape(r.name)}<small>${htmlEscape(r.dateLabel)}</small></button>`).join('');
+ $('#activeRoutes').querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>openShipRoute(b.dataset.route));
+}
+function openShipRoute(id,focus=true){
+ const route=TransportRoutes.routes.find(r=>r.id===id);if(!route)return;
+ pause();clearSearch();$('#layerShipRoutes').checked=true;
+ if(!TransportRoutes.visible(route,year))goToYear(route.from);
+ selected=null;selectedFeature=route;explorer.selected=null;updateUI();
+ if(focus&&meta){const pts=route.path.map(p=>project(...p)),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);zoom=Math.max(.65,Math.min(24,Math.min((W-160)/((right-left)*fit),(H-170)/((bottom-top)*fit))));panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom+25}
+ draw();$('#story').scrollIntoView({block:'nearest'});
+}
