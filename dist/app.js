@@ -277,6 +277,6 @@ function openShipRoute(id,focus=true){
  pause();clearSearch();$('#layerShipRoutes').checked=true;
  if(!TransportRoutes.visible(route,year))goToYear(route.from);
  selected=null;selectedFeature=route;explorer.selected=null;updateUI();
- if(focus&&meta){const pts=route.path.map(p=>project(...p)),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);zoom=Math.max(.65,Math.min(24,Math.min((W-160)/((right-left)*fit),(H-170)/((bottom-top)*fit))));panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom+25}
+ if(focus&&meta){const pts=route.path.map(p=>project(...p)),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);zoom=Math.max(.65,Math.min(24,Math.min((W-240)/((right-left)*fit),(H-220)/((bottom-top)*fit))));panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom}
  draw();$('#story').scrollIntoView({block:'nearest'});
 }
