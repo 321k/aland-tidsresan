@@ -1,0 +1,12 @@
+{
+  "area": "Åland",
+  "boundary": "relation/1650407",
+  "url": "https://download.geofabrik.de/europe/finland.html",
+  "license": "ODbL 1.0",
+  "source": "© OpenStreetMap contributors / Geofabrik",
+  "method": "Objects intersecting the Åland administrative boundary",
+  "snapshot": "2026-10-11T20:21:06Z",
+  "downloaded": "2026-10-12",
+  "archive": "finland-261011.osm.pbf",
+  "archive_md5": "7cf95d5129264325205e2e2dd4fea640"
+}

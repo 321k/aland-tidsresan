@@ -7,7 +7,7 @@ class ShorelineModel {
   const target=EvidenceTime.modelYear(year,this.manifest.years);this.target=target;
   const label=y=>y<0?Math.abs(y).toLocaleString('sv-SE')+' f.Kr.':y===0?'omkring vår tideräknings början':y+' e.Kr.';
   const note=year===target?'Strandlinjemodell '+label(target):'Valt år '+label(year)+' · strandlinjemodell '+label(target);
-  this.status.textContent=this.cache.has(target)?note+(year===2026?' · Mariehamns kust: OSM 2026':year>1900?' · senare strandbyggnation ingår inte':''):this.failed.has(target)?'Strandlinjen kunde inte laddas för modellåret.':'Laddar strandlinjemodell '+label(target)+'…';
+  this.status.textContent=this.cache.has(target)?note+(year===2026?' · Ålands kust: OSM 2026':year>1900?' · senare strandbyggnation ingår inte':''):this.failed.has(target)?'Strandlinjen kunde inte laddas för modellåret.':'Laddar strandlinjemodell '+label(target)+'…';
   if(this.cache.has(target)||this.pending.has(target)||this.failed.has(target))return;
   const task=fetch(`assets/shorelines/${target}.json.gz`).then(async r=>{if(!r.ok)throw Error();const bytes=new Uint8Array(await r.arrayBuffer());if(bytes[0]===31&&bytes[1]===139)return new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).json();return JSON.parse(new TextDecoder().decode(bytes))}).then(data=>{this.cache.set(target,this.paths(data));while(this.cache.size>8)this.cache.delete(this.cache.keys().next().value)}).catch(()=>this.failed.add(target)).finally(()=>{this.pending.delete(target);if(this.target===target)this.change()});this.pending.set(target,task);
  }

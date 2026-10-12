@@ -17,7 +17,7 @@ test('modern geometry never renders at historical dates',()=>{
 test('published datasets have unique objects, real geometry and expected counts',()=>{
  assert.equal(data.length,1868);assert.equal(new Set(data.map(f=>f.id)).size,1868);
  for(const f of data){assert.ok(f.lon>19&&f.lon<22&&f.lat>59&&f.lat<61);assert.ok(f.sourceUrl.startsWith('https://'));}
- const modern=JSON.parse(fs.readFileSync('dist/assets/modern.json')).features;
- assert.equal(modern.filter(f=>f.kind==='building').length,8837);assert.equal(modern.filter(f=>f.kind==='road').length,6996);assert.equal(new Set(modern.map(f=>f.id)).size,modern.length);
+ const dataset=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync('dist/assets/modern.json.gz'))),modern=dataset.features;
+ assert.equal(modern.filter(f=>f.kind==='building').length,dataset.counts.building);assert.ok(dataset.counts.building>30000);assert.equal(modern.filter(f=>f.kind==='road').length,dataset.counts.road);assert.ok(dataset.counts.road>20000);assert.equal(new Set(modern.map(f=>f.id)).size,modern.length);
  for(const f of modern)for(const path of f.paths){assert.ok(path.length>=2);for(const coord of path)assert.ok(coord.every(Number.isFinite));}
 });
