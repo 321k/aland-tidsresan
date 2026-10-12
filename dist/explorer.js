@@ -83,7 +83,7 @@ class ExplorerLayers {
  }
  drawHeritage(ctx,v){const buckets=new Map(),size=v.zoom<8?34:20;
   const features=[...(this.flags.heritage?this.heritage:[]),...(this.flags.historic?this.historic:[])];
-  for(const f of features){if(!this.available(f,v.year)||!this.matches(f)||(this.category!=='all'&&f.category!==this.category))continue;// Anchor buckets to map coordinates, not the moving viewport. Include offscreen
+  for(const f of features){if((v.fortressDetail&&f.code==='Su 3.3')||!this.available(f,v.year)||!this.matches(f)||(this.category!=='all'&&f.category!==this.category))continue;// Anchor buckets to map coordinates, not the moving viewport. Include offscreen
    // members before clipping so a cluster keeps its identity at the map's edge.
    const key=`${Math.floor(f.point[0]*v.scale/size)},${Math.floor(f.point[1]*v.scale/size)}`;
    const [x,y]=this.screen(f.point,v);if(!buckets.has(key))buckets.set(key,[]);buckets.get(key).push({f,x,y});
@@ -99,7 +99,7 @@ class ExplorerLayers {
   }
  }
 
- drawPostal(ctx,v){const stops=window.POSTAL_ROUTE||[];if(!stops.length)return;ctx.save();ctx.strokeStyle='#b4783f';ctx.lineWidth=3;ctx.setLineDash([8,6]);ctx.beginPath();stops.forEach((p,i)=>{const [x,y]=this.screen(this.project(p.lon,p.lat),v);i?ctx.lineTo(x,y):ctx.moveTo(x,y)});ctx.stroke();ctx.setLineDash([]);ctx.font='11px sans-serif';ctx.textAlign='center';for(const p of stops){const[x,y]=this.screen(this.project(p.lon,p.lat),v);ctx.fillStyle='#fff2d8';ctx.strokeStyle='#aa7437';ctx.beginPath();ctx.arc(x,y,4,0,7);ctx.fill();ctx.stroke();if(v.zoom>1.8){ctx.lineWidth=3;ctx.strokeStyle='#faf7e8';ctx.strokeText(p.name,x,y-9);ctx.fillStyle='#7c562b';ctx.fillText(p.name,x,y-9)}}ctx.restore()}
+ drawPostal(ctx,v){if(v.fortressDetail)return;const stops=window.POSTAL_ROUTE||[];if(!stops.length)return;ctx.save();ctx.strokeStyle='#b4783f';ctx.lineWidth=3;ctx.setLineDash([8,6]);ctx.beginPath();stops.forEach((p,i)=>{const [x,y]=this.screen(this.project(p.lon,p.lat),v);i?ctx.lineTo(x,y):ctx.moveTo(x,y)});ctx.stroke();ctx.setLineDash([]);ctx.font='11px sans-serif';ctx.textAlign='center';for(const p of stops){const[x,y]=this.screen(this.project(p.lon,p.lat),v);ctx.fillStyle='#fff2d8';ctx.strokeStyle='#aa7437';ctx.beginPath();ctx.arc(x,y,4,0,7);ctx.fill();ctx.stroke();if(v.zoom>1.8){ctx.lineWidth=3;ctx.strokeStyle='#faf7e8';ctx.strokeText(p.name,x,y-9);ctx.fillStyle='#7c562b';ctx.fillText(p.name,x,y-9)}}ctx.restore()}
  hit(x,y,ctx){const h=this.hits.filter(h=>Math.hypot(x-h.x,y-h.y)<h.r).sort((a,b)=>Math.hypot(x-a.x,y-a.y)-Math.hypot(x-b.x,y-b.y))[0];if(h)return h.entries.length>1?{cluster:h.entries}:h.entries[0];
   const v=this.view;if(!v||v.year<2026||!this.flags.modern)return null;const wx=(x-v.width/2-v.panX)/v.scale+v.meta.width/2,wy=(y-v.height/2-v.panY)/v.scale+v.meta.height/2;
   ctx.save();ctx.setTransform(1,0,0,1,0,0);const candidates=this.drawn.filter(f=>wx>=f.bounds[0]-5/v.scale&&wx<=f.bounds[2]+5/v.scale&&wy>=f.bounds[1]-5/v.scale&&wy<=f.bounds[3]+5/v.scale);let found=candidates.find(f=>f.kind==='building'&&ctx.isPointInPath(f.path,wx,wy,'evenodd'));
