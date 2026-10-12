@@ -1,0 +1,872 @@
+{
+  "Sa 2.21": {
+    "registryCode": "Sa 2.21",
+    "recordType": "archaeology",
+    "name": "Bertby – tidig stenåldersboplats",
+    "startEarliest": -5000,
+    "startLatest": -5000,
+    "dateLabel": "omkring 5000 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Här bodde människor på en av Ålands tidigaste kända boplatser. Arkeologer har hittat eldstäder och mängder av små stenbitar från tillverkning av redskap.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+2.21%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -5000,
+        "label": "Ungefärligt daterade bosättningsspår"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Sa 20.10": {
+    "registryCode": "Sa 20.10",
+    "recordType": "archaeology",
+    "name": "Vargstensslätten",
+    "startEarliest": -4200,
+    "startLatest": -4200,
+    "dateLabel": "omkring 4200 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Här har arkeologer hittat keramik och spår av människors liv under stenåldern. Fynden hör till den tidiga kamkeramiska kulturen.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.10%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -4200,
+        "label": "Ungefärligt daterade bosättningsspår"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Sa 20.2": {
+    "registryCode": "Sa 20.2",
+    "recordType": "archaeology",
+    "name": "Västra och Östra Jansmyra",
+    "startEarliest": -4000,
+    "startLatest": -4000,
+    "dateLabel": "omkring 4000 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Två stenåldersboplatser ligger nära varandra här. Krukskärvor, redskap och stenbitar efter redskapstillverkning berättar om livet på öarna.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.2%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -4000,
+        "label": "Ungefärligt daterade bosättningsspår"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Sa 20.1": {
+    "registryCode": "Sa 20.1",
+    "recordType": "archaeology",
+    "name": "Orrdalskärret",
+    "startEarliest": -4000,
+    "startLatest": -4000,
+    "dateLabel": "omkring 4000 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Keramik och stenredskap visar att människor levde här under stenåldern. Boplatsen ligger nära Orrdalsklint, högt över dagens hav.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -4000,
+        "label": "Ungefärligt daterade bosättningsspår"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Sa 20.3": {
+    "registryCode": "Sa 20.3",
+    "recordType": "archaeology",
+    "name": "Rödmyrshägnaden",
+    "startEarliest": -4000,
+    "startLatest": -4000,
+    "dateLabel": "omkring 4000 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Här har man hittat stenredskap, krukskärvor och avslag. Avslag är små bitar som lossnar när en människa gör ett redskap av sten.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.3%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -4000,
+        "label": "Ungefärligt daterade bosättningsspår"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Sa 20.7": {
+    "registryCode": "Sa 20.7",
+    "recordType": "archaeology",
+    "name": "Alkärr och Tisdal",
+    "startEarliest": -3900,
+    "startLatest": -3400,
+    "dateLabel": "Tisdal ca 3900–3400; Alkärr ca 3040–2890 f.Kr.",
+    "datingNote": "Tre separata boplatsområden med olika dateringar. Det betyder inte att människor bodde här oavbrutet mellan 3900 och 2890 f.Kr. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Människor bodde på olika höjder vid olika tider. Tisdal ligger högre och är äldre. Alkärr ligger längre ned och hör till en senare del av stenåldern.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.7%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -3900,
+        "to": -3400,
+        "label": "Tisdal: ungefärligt daterat boplatsområde"
+      },
+      {
+        "from": -3040,
+        "to": -2890,
+        "label": "Alkärr: ett senare boplatsområde"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence",
+    "endEarliest": -3040,
+    "endLatest": -2890
+  },
+  "Sa 20.4": {
+    "registryCode": "Sa 20.4",
+    "recordType": "archaeology",
+    "name": "Nedre Rödmyra",
+    "startEarliest": -3500,
+    "startLatest": -3500,
+    "dateLabel": "omkring 3500 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Här finns spår efter en stenåldersboplats. Arkeologerna har hittat små stenbitar av kvarts och kvartskeratofyr samt slitna bitar av lerkrukor.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.4%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -3500,
+        "label": "Ungefärligt daterade bosättningsspår"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Sa 20.6": {
+    "registryCode": "Sa 20.6",
+    "recordType": "archaeology",
+    "name": "Nygård i Långbergsöda",
+    "startEarliest": -3300,
+    "startLatest": -3000,
+    "dateLabel": "omkring 3300–3000 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Här bodde människor när krukornas former och mönster förändrades. Fynden och den gamla strandlinjen hjälper arkeologerna att uppskatta boplatsens ålder.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.6%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -3300,
+        "to": -3000,
+        "label": "Boplatsens ungefärliga dateringsintervall"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Sa 20.5": {
+    "registryCode": "Sa 20.5",
+    "recordType": "archaeology",
+    "name": "Södra Rödmyra",
+    "startEarliest": -3000,
+    "startLatest": -3000,
+    "dateLabel": "omkring 3000 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "På den här boplatsen har man hittat krukskärvor, redskap och spår av hur redskapen tillverkades. Krukorna hör till den kamkeramiska traditionen.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.5%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -3000,
+        "label": "Ungefärligt daterade bosättningsspår"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Sa 20.9": {
+    "registryCode": "Sa 20.9",
+    "recordType": "archaeology",
+    "name": "Källsveden",
+    "startEarliest": -2500,
+    "startLatest": -2500,
+    "dateLabel": "omkring 2500 f.Kr.",
+    "datingNote": "Ungefärlig datering enligt registret; ingen uppgift om exakt första eller sista bosättningsår. Ett ungefärligt årtal är ett dateringsriktmärke, inte ett känt anläggningsår.",
+    "childText": "Den gamla stranden ligger idag ungefär 32 meter över havet. Här har arkeologer hittat keramik med gropar i mönstret från en stenåldersboplats.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.9%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -2500,
+        "label": "Ungefärligt daterade bosättningsspår"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Jo 14.1": {
+    "registryCode": "Jo 14.1",
+    "recordType": "archaeology",
+    "name": "Jettböle",
+    "startEarliest": -3400,
+    "startLatest": -3300,
+    "dateLabel": "yngre stenåldern, flera bosättningsskeden",
+    "datingNote": "Äldre forskning daterar Jettböle I ungefär 3400–2800 f.Kr. Vanhanen med flera (2019) beskriver bosättning från omkring 3300 kalibrerade f.Kr. och daterar ett sädeskorn till 3324–2923 kalibrerade f.Kr. Olika material och dateringsmetoder ger olika intervall; inget exakt första bosättningsår är känt.",
+    "childText": "I Jettböle har man hittat bitar av lerkrukor och små människofigurer av lera. Ben och andra fynd berättar om människor som fiskade och jagade säl.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Jo+14.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": -3400,
+        "to": -2800,
+        "label": "Jettböle I: ungefärligt bosättningsskede"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence",
+    "sourceUrls": [
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Jo+14.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+      "https://doi.org/10.1038/s41598-019-41293-z"
+    ]
+  },
+  "Ge 15.1": {
+    "registryCode": "Ge 15.1",
+    "recordType": "archaeology",
+    "name": "Smikärr och Bredmossen",
+    "startEarliest": -5500,
+    "startLatest": -1500,
+    "dateLabel": "Stenålder; flera skeden utan närmare årtal",
+    "datingNote": "Registret beskriver flera stenåldersskeden men anger inga kalenderår. Intervallet 5500–1500 f.Kr. är en bred navigeringsperiod, inte en lokal datering eller ett påstående om oavbruten bosättning.",
+    "childText": "De äldsta spåren finns högre upp, vid Bredmossen. Vid Övre och Nedre Smikärr finns yngre lämningar. Människorna tycks ha valt skyddade havsvikar.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ge+15.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [],
+    "confidence": "approximate",
+    "dateBasis": "broad_period"
+  },
+  "Sa 20.8": {
+    "registryCode": "Sa 20.8",
+    "recordType": "archaeology",
+    "name": "Glamilders, Svinvallen och Myrbacka",
+    "startEarliest": -2881,
+    "startLatest": -2503,
+    "dateLabel": "Glamilders: korn daterat till 2881–2503 kalibrerade f.Kr.; området har flera skeden",
+    "datingNote": "Vanhanen med flera (2019) anger bosättning vid Glamilders och Svinvallen omkring 2800 kalibrerade f.Kr. Korn från Glamilders har daterats till 2881–2503 kalibrerade f.Kr. Dessa provdateringar är inte exakta år för när boplatsen grundades eller övergavs. Registertextens äldre uppskattning ca 2000–600 f.Kr. bevaras som en separat uppgift och omfattar ett större komplex.",
+    "childText": "Här har forskare hittat små, förkolnade sädeskorn. De visar att människor använde korn och vete under stenåldern. På samma plats finns också spår från senare tider.",
+    "sourceUrl": "https://doi.org/10.1038/s41598-019-41293-z",
+    "sourceUrls": [
+      "https://doi.org/10.1038/s41598-019-41293-z",
+      "https://helda.helsinki.fi/server/api/core/bitstreams/2483a446-1723-40ae-8737-806a0b3345fc/content",
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Sa+20.8%27&outFields=%2A&returnGeometry=false&f=pjson"
+    ],
+    "phases": [
+      {
+        "from": -2881,
+        "to": -2503,
+        "label": "Glamilders: radiokoldaterade korn; inte hela platsens brukstid"
+      },
+      {
+        "from": -2000,
+        "to": -600,
+        "label": "Äldre registeruppgift för det större boplatskomplexet"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Ku 3.6": {
+    "registryCode": "Ku 3.6",
+    "recordType": "archaeology",
+    "name": "Fälberg",
+    "startEarliest": 1920,
+    "startLatest": 1920,
+    "dateLabel": "Minnesstenen restes 1920",
+    "datingNote": "1920 är uppförandeåret. Årtalet 1808 är den händelse stenen hedrar, inte stenens byggår.",
+    "childText": "Stenen berättar om en händelse år 1808, men själva minnesstenen restes 1920. Två årtal kan alltså handla om olika saker!",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ku+3.6%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Minnesstenen reses",
+        "from": 1920
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Vå 12.2": {
+    "registryCode": "Vå 12.2",
+    "recordType": "archaeology",
+    "name": "Industrilämning – Töftö",
+    "startEarliest": 1830,
+    "startLatest": 1830,
+    "dateLabel": "Töftö tegelbruk: uppfört 1830, avvecklat efter 1854",
+    "datingNote": "Bruket uppfördes 1830. Efter Bomarsunds fall 1854 avvecklades det; kvarvarande byggnader såldes 1855. Exakt dag för sista produktion är okänd.",
+    "childText": "Här tillverkades tegel när Bomarsunds fästning byggdes. Ugnen och andra spår hjälper oss att förstå hur byggmaterial gjordes.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27V%C3%A5+12.2%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "to": 1854,
+        "label": "Tegelbruk knutet till Bomarsunds byggande",
+        "from": 1830
+      },
+      {
+        "to": 1855,
+        "label": "Avveckling; kvarvarande byggnader säljs 1855",
+        "from": 1854
+      },
+      {
+        "label": "Bruket avvecklat; lämningar berättar om tillverkningen",
+        "from": 1855
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence",
+    "endEarliest": 1854,
+    "endLatest": 1855
+  },
+  "Jo 18.5": {
+    "registryCode": "Jo 18.5",
+    "recordType": "archaeology",
+    "name": "Burskatan",
+    "startEarliest": 1857,
+    "startLatest": 1857,
+    "dateLabel": "Vattenståndsmärke från 1857",
+    "datingNote": "Registret daterar själva vattenståndsmärket till 1857. Det är inte en fullständig havsnivåmätserie.",
+    "childText": "Ett märke i berget hjälpte människor att hålla reda på vattennivån. Gamla mätmärken kan berätta om hur stranden har förändrats.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Jo+18.5%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Daterat vattenståndsmärke",
+        "from": 1857
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Jo 20.1": {
+    "registryCode": "Jo 20.1",
+    "recordType": "archaeology",
+    "name": "Bollarvik",
+    "startEarliest": 1857,
+    "startLatest": 1857,
+    "dateLabel": "Tsar Alexander II:s namnchiffer från 1857",
+    "datingNote": "1857 daterar namnchiffret. Registret beskriver också en annan ristning utan säkert årtal; detta år gäller inte automatiskt hela området.",
+    "childText": "Här högg någon in ett särskilt tecken för tsar Alexander II i berget. Sten kan bevara bokstäver och siffror i många generationer.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Jo+20.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Daterat namnchiffer",
+        "from": 1857
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Br 1.1": {
+    "registryCode": "Br 1.1",
+    "recordType": "archaeology",
+    "name": "Nötholm",
+    "startEarliest": 1805,
+    "startLatest": 1805,
+    "dateLabel": "Ristningar från 1805 och 1821",
+    "datingNote": "Starten avser den äldsta uttryckligen daterade ristningen, 1805. Fiskeplatsen kan vara äldre; dess anläggningsår är okänt.",
+    "childText": "Vid den gamla fiskeplatsen finns bokstäver och årtal i berget. Människor lämnade små spår efter sina besök.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Br+1.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Ristning daterad 1805",
+        "from": 1805
+      },
+      {
+        "label": "Ytterligare ristning daterad 1821",
+        "from": 1821
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Br 3.1": {
+    "registryCode": "Br 3.1",
+    "recordType": "archaeology",
+    "name": "Skarpnäs",
+    "startEarliest": 1816,
+    "startLatest": 1816,
+    "dateLabel": "Ristning daterad 1816",
+    "datingNote": "1816 är en ristningsdatering. Den daterar inte den gamla notdragningsplatsens början.",
+    "childText": "Här drog människor fisknät. Bokstäver och ett årtal i stenen berättar att platsen användes förr.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Br+3.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Daterad ristning vid fiskeplats",
+        "from": 1816
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Br 4.1": {
+    "registryCode": "Br 4.1",
+    "recordType": "archaeology",
+    "name": "Ödholm",
+    "startEarliest": 1803,
+    "startLatest": 1803,
+    "dateLabel": "Ristningar daterade 1803 och 1837",
+    "datingNote": "1803 är den äldsta årtalsristning som nämns i registerbeskrivningen; fiskeplatsens början är okänd.",
+    "childText": "Fiskare lämnade årtal, bokstäver och märken i berget. Kan ett märke fungera som en namnteckning?",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Br+4.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Ristning daterad 1803",
+        "from": 1803
+      },
+      {
+        "label": "Ytterligare ristning daterad 1837",
+        "from": 1837
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Br 4.2": {
+    "registryCode": "Br 4.2",
+    "recordType": "archaeology",
+    "name": "Roklobbb",
+    "startEarliest": 1803,
+    "startLatest": 1803,
+    "dateLabel": "Ristningar daterade 1803 och 1832",
+    "datingNote": "1803 är den äldsta uttryckligen nämnda ristningen, inte ett säkert startår för fisket.",
+    "childText": "Vid den gamla fiskeplatsen finns årtal och bokstäver i berget. Några liknande märken finns även på en annan ö.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Br+4.2%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Ristning daterad 1803",
+        "from": 1803
+      },
+      {
+        "label": "Ytterligare ristning daterad 1832",
+        "from": 1832
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Br 7.5": {
+    "registryCode": "Br 7.5",
+    "recordType": "archaeology",
+    "name": "Lillklyndan",
+    "startEarliest": 1898,
+    "startLatest": 1898,
+    "dateLabel": "Ristningar daterade 1898, 1906 och 1916",
+    "datingNote": "Dateringen gäller ristningarna, inte lotsstugans byggår eller platsens äldsta användning.",
+    "childText": "Nära lotsstugan finns tre gamla årtal och bokstäver i berget. De är små meddelanden från människor som var här.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Br+7.5%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Äldsta nämnda årtalsristningen",
+        "from": 1898
+      },
+      {
+        "label": "Ny årtalsristning",
+        "from": 1906
+      },
+      {
+        "label": "Ny årtalsristning",
+        "from": 1916
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Jo 18.11": {
+    "registryCode": "Jo 18.11",
+    "recordType": "archaeology",
+    "name": "Väglämning – Kungsö",
+    "startEarliest": 1916,
+    "startLatest": 1916,
+    "dateLabel": "Vägen till Kungsöbatteriet anlades 1916",
+    "datingNote": "Registret anger att ryska trupper anlade vägen 1916. Dateringen gäller vägbygget, inte ett modernt inventeringsår.",
+    "childText": "Soldater byggde en väg av sten upp till batteriet på berget. Vägen gjorde det lättare att ta sig fram med utrustning.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Jo+18.11%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Stenlagd militärväg anläggs",
+        "from": 1916
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Ma 37": {
+    "registryCode": "Ma 37",
+    "recordType": "archaeology",
+    "name": "Väglämning – Ma 37",
+    "startEarliest": 1914,
+    "startLatest": 1918,
+    "dateLabel": "Väg från första världskriget, 1914–1918",
+    "datingNote": "Registret anger endast första världskriget. 1914–1918 är krigets intervall, inte dokumenterade bygg- och slutår för denna väg.",
+    "childText": "Här byggdes en väg under första världskriget. På några ställen sprängdes vägen fram genom berget.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ma+37%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "to": 1918,
+        "label": "Anläggning någon gång under första världskriget",
+        "from": 1914
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Ma 47": {
+    "registryCode": "Ma 47",
+    "recordType": "archaeology",
+    "name": "Väglämning – Ma 47",
+    "startEarliest": 1914,
+    "startLatest": 1918,
+    "dateLabel": "Väg från första världskriget, 1914–1918",
+    "datingNote": "Registret anger första världskriget men saknar exakt anläggningsår. Intervallets slut betyder inte att vägen övergavs 1918.",
+    "childText": "En gammal väg är byggd av sten, bland annat utsprängda bitar av berg. Delar av vägen har senare försvunnit vid industritomter.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ma+47%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "to": 1918,
+        "label": "Anläggning någon gång under första världskriget",
+        "from": 1914
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "Ma 33": {
+    "registryCode": "Ma 33",
+    "recordType": "archaeology",
+    "name": "Väglämning – Ma 33",
+    "startEarliest": 1100,
+    "startLatest": 1764,
+    "dateLabel": "Väg belagd på karta 1764; äldre ursprung möjligt",
+    "datingNote": "1764 är ett kartbelägg, inte byggår. Registret säger åtminstone historisk tid. Den breda tidigaste gränsen 1100 är endast periodnavigering; början är okänd.",
+    "childText": "Den här gamla vägen syns på en karta från 1764. Kartor kan hjälpa oss hitta vägar som är äldre än husen runt omkring.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ma+33%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Vägen finns belagd på karta",
+        "from": 1764
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "first_map_evidence_unknown_start"
+  },
+  "Le 16.16": {
+    "registryCode": "Le 16.16",
+    "recordType": "archaeology",
+    "name": "Väglämning – Rörstorp",
+    "startEarliest": 1700,
+    "startLatest": 1799,
+    "dateLabel": "Vägavsnitt från 1700-talets landsväg",
+    "datingNote": "Registertexten anger 1700-talet. Exakt anläggningsår och året när vägen övergavs är okända.",
+    "childText": "Här finns en bit av en gammal landsväg. Människor tog sig fram längs den långt innan det fanns bilar.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Le+16.16%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "to": 1799,
+        "label": "Vägavsnitt knutet till 1700-talets landsväg",
+        "from": 1700
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "dated_evidence"
+  },
+  "So 5.13": {
+    "registryCode": "So 5.13",
+    "recordType": "archaeology",
+    "name": "Gruvlämning – Sottunga",
+    "startEarliest": 1839,
+    "startLatest": 1839,
+    "dateLabel": "Gruvdrift från 1839; störst verksamhet 1843–1847",
+    "datingNote": "Fyndigheten upptäcktes 1835; gruvdriften började 1839. Dessa är skilda händelser. Något säkert nedläggningsår anges inte i registret.",
+    "childText": "Här bröt människor järnmalm ur berget. Groparna är spår efter arbetet med att få fram metallen.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27So+5.13%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Järnfyndigheten upptäcks",
+        "from": 1835
+      },
+      {
+        "label": "Gruvdriften öppnas",
+        "from": 1839
+      },
+      {
+        "to": 1847,
+        "label": "Verksamhetens största omfattning enligt registret",
+        "from": 1843
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Su 12.27": {
+    "registryCode": "Su 12.27",
+    "recordType": "archaeology",
+    "name": "Husgrund – Kastelholm",
+    "startEarliest": 1824,
+    "startLatest": 1824,
+    "dateLabel": "Magasingrunder som kan härledas till 1824",
+    "datingNote": "Registret härleder grunderna till 1824 men beskriver inte en fullständig byggnadshistoria.",
+    "childText": "Här låg ryska magasin där saker kunde förvaras. Grunderna visar var byggnaderna stod.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Su+12.27%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Ryska magasin belagda enligt registret",
+        "from": 1824
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Fi 8.17": {
+    "registryCode": "Fi 8.17",
+    "recordType": "archaeology",
+    "name": "Väglämning – Godby",
+    "startEarliest": 1500,
+    "startLatest": 1761,
+    "dateLabel": "Gamla färjvägen: i bruk till 1761; början okänd",
+    "datingNote": "1761 är ett belagt slutår för denna sträckas användning. 1500 är bara den breda registerperiodens början, inte ett byggår. Den bevarade vägbanken är verklig väggeometri i registerområdet.",
+    "childText": "Vägen slingrar sig brant ned mot det gamla färjstället. År 1761 flyttades färjstället och den här vägsträckan övergavs.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Fi+8.17%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "label": "Vägsträckan överges när färjstället flyttas",
+        "from": 1761
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "documented_end_unknown_start",
+    "endEarliest": 1761,
+    "endLatest": 1761
+  },
+  "culture:Jo 33.1": {
+    "registryCode": "Jo 33.1",
+    "recordType": "cultural_environment",
+    "name": "Kobba Klintars lotsstation",
+    "startEarliest": 1862,
+    "startLatest": 1862,
+    "dateLabel": "lotsstation 1862–1972",
+    "datingNote": "Stationen och den gamla lotsstugan är från 1862. Det större lotshuset tillkom 1910. Lotsverksamheten slutade 1972, men byggnaderna finns kvar.",
+    "childText": "Lotsarna hjälpte fartyg att hitta säkert in till Mariehamn. Här fanns lotsstuga och senare ett större hus med en kraftig mistlur.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Jo+33.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "sourceUrls": [
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Jo+33.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+      "https://historia.pdc.ax/api/heritage/3133",
+      "https://www.kobbaklintarsvanner.ax/sv/kobba-klintar",
+      "https://www.kobbaklintarsvanner.ax/sv/kobba-klintar",
+      "https://www.kobbaklintarsvanner.ax/sv/kobba-klintar/byggnader"
+    ],
+    "phases": [
+      {
+        "from": 1862,
+        "to": 1909,
+        "label": "Lotsstation med äldre lotsstuga"
+      },
+      {
+        "from": 1910,
+        "to": 1972,
+        "label": "Det större lotshuset har tillkommit; stationen är i drift"
+      },
+      {
+        "from": 1972,
+        "label": "Lotsverksamheten har upphört; byggnaderna finns kvar"
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "building_or_operation",
+    "endEarliest": 1972,
+    "endLatest": 1972
+  },
+  "culture:Le 15.1": {
+    "registryCode": "Le 15.1",
+    "recordType": "cultural_environment",
+    "name": "Rödhamns lotsstuga",
+    "startEarliest": 1857,
+    "startLatest": 1857,
+    "dateLabel": "lotsstuga från 1857; verksamhet till början av 1930-talet",
+    "datingNote": "Lotsstugan byggdes 1857. Registret säger att lotsstationen drogs in i början av 1930-talet. Intervallet 1930–1939 bevarar årtiondets osäkerhet; etiketten anger början av årtiondet och inget exakt slutår påstås. Radiofyrens drift upphörde 1971. Byggnadernas fortlevnad är skild från verksamheten.",
+    "childText": "Rödhamn var en viktig hamn före resan över Ålands hav. Lotsstugan byggdes 1857. Här fanns också en radiofyr som hjälpte sjöfarare fram till 1971.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Le+15.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "sourceUrls": [
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Le+15.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+      "https://historia.pdc.ax/api/heritage/3164"
+    ],
+    "phases": [
+      {
+        "from": 1857,
+        "label": "Lotsstugan uppförs"
+      },
+      {
+        "from": 1930,
+        "to": 1939,
+        "label": "Lotsstationen stängs i början av 1930-talet; exakt år okänt"
+      },
+      {
+        "from": 1971,
+        "label": "Radiofyren upphör"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "building_or_operation",
+    "endEarliest": 1930,
+    "endLatest": 1939
+  },
+  "culture:Kö 4.3": {
+    "registryCode": "Kö 4.3",
+    "recordType": "cultural_environment",
+    "name": "Espskärs lotsstation",
+    "startEarliest": 1857,
+    "startLatest": 1877,
+    "dateLabel": "Beslut 1857; lotsstugans byggår osäkert; stationen stängde 1961",
+    "datingNote": "1857 är ett beslut om en lotsstuga, inte bevis för att dagens byggnad stod färdig. Nya Ålands artikel 10 augusti 2006 anger 1877 som byggår (kompletterande pressuppgift, inte primär byggnadsdokumentation). Intervallet 1857–1877 markerar osäkerheten mellan beslut och uppgivet byggår och är inte ett belagt byggskede.",
+    "childText": "Från berget spanade lotsarna efter fartyg på väg mot Kökar. Lotsarna skötte också sjömärken och sjöräddning. Stationen stängde 1961.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27K%C3%B6+4.3%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "sourceUrls": [
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27K%C3%B6+4.3%27&outFields=%2A&returnGeometry=false&f=pjson",
+      "https://historia.pdc.ax/api/heritage/3144",
+      "https://epaper.nyan.ax/earkiv/2006/08-10/page17.pdf"
+    ],
+    "phases": [
+      {
+        "from": 1857,
+        "label": "Beslut att uppföra lotsstuga, inte säkert färdigbyggd"
+      },
+      {
+        "from": 1877,
+        "label": "Möjligt byggår enligt kompletterande uppgift; behöver verifieras"
+      },
+      {
+        "from": 1961,
+        "label": "Lotsstationen stängs; lotsarna flyttas till Sottunga"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "building_or_operation",
+    "endEarliest": 1961,
+    "endLatest": 1961
+  },
+  "culture:Fö 6.1": {
+    "registryCode": "Fö 6.1",
+    "recordType": "cultural_environment",
+    "name": "Degerby – lots- och tullsamhälle",
+    "startEarliest": 1850,
+    "startLatest": 1850,
+    "dateLabel": "Lotsstation från 1850; lotsstuga från 1869; verksamheten flyttade 1968",
+    "datingNote": "Kulturmiljöregistret anger tullflytt 1820, lotsstationens flytt till Degerby 1850, lotsstuga uppförd 1869 och stationsnedläggning/flytt till Långnäs 1968. Markören avser hela kulturmiljön, inte en inmätt husgrund.",
+    "childText": "I Degerby arbetade både tullare och lotsar. Lotsarna hjälpte fartyg genom farlederna. Deras lotsstuga byggdes 1869; 1968 flyttade verksamheten till Långnäs.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27F%C3%B6+6.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "sourceUrls": [
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27F%C3%B6+6.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+      "https://historia.pdc.ax/api/heritage/3075"
+    ],
+    "phases": [
+      {
+        "from": 1820,
+        "label": "Tullen flyttar till Degerby"
+      },
+      {
+        "from": 1850,
+        "to": 1868,
+        "label": "Lotsstationen finns i Degerby"
+      },
+      {
+        "from": 1869,
+        "to": 1968,
+        "label": "Den beskrivna lotsstugan finns; stationen är i drift"
+      },
+      {
+        "from": 1968,
+        "label": "Lotsverksamheten flyttas till Långnäs"
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "building_or_operation",
+    "endEarliest": 1968,
+    "endLatest": 1968
+  },
+  "culture:Ge 3.1": {
+    "registryCode": "Ge 3.1",
+    "recordType": "cultural_environment",
+    "name": "Dånö – lotsarnas by",
+    "startEarliest": 1850,
+    "startLatest": 1899,
+    "dateLabel": "lotsstuga från senare delen av 1800-talet; stängd på 1920-talet",
+    "datingNote": "Stugan anges vara uppförd under andra hälften av 1800-talet; 1850–1899 är därför ett osäkert byggintervall. Lotsplatsen drogs in någon gång under 1920-talet, inte nödvändigtvis 1920. Lotsar bodde i byn redan tidigare.",
+    "childText": "Lotsar bodde i Dånö och höll utkik från en stuga på berget. Ett äldre lotshem i byn blev senare hembygdsmuseum.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Ge+3.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "sourceUrls": [
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Ge+3.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+      "https://historia.pdc.ax/api/heritage/3085"
+    ],
+    "phases": [
+      {
+        "from": 1850,
+        "to": 1899,
+        "label": "Lotsstugan uppförs någon gång under seklets senare hälft"
+      },
+      {
+        "from": 1920,
+        "to": 1929,
+        "label": "Lotsstationen stängs någon gång under 1920-talet"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "building_or_operation",
+    "endEarliest": 1920,
+    "endLatest": 1929
+  },
+  "culture:So 4.1": {
+    "registryCode": "So 4.1",
+    "recordType": "cultural_environment",
+    "name": "Mosshaga lotsplats",
+    "startEarliest": 1740,
+    "startLatest": 1749,
+    "dateLabel": "lotsplats från 1740-talet till 1918",
+    "datingNote": "Lotsplatsen etablerades under 1740-talet; exakt år är inte känt. Markeringen avser den historiska bymiljön.",
+    "childText": "Mosshaga låg vid en viktig farled. Lotsarna hjälpte fartygen förbi och öborna förde också post genom skärgården. Lotsplatsen lades ned 1918.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27So+4.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "sourceUrls": [
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27So+4.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+      "https://historia.pdc.ax/api/heritage/3149"
+    ],
+    "phases": [
+      {
+        "from": 1740,
+        "to": 1749,
+        "label": "Lotsplats etableras någon gång under 1740-talet"
+      },
+      {
+        "from": 1918,
+        "label": "Lotsplatsen läggs ned"
+      }
+    ],
+    "confidence": "approximate",
+    "dateBasis": "building_or_operation",
+    "endEarliest": 1918,
+    "endLatest": 1918
+  },
+  "culture:Ha 45.1": {
+    "registryCode": "Ha 45.1",
+    "recordType": "cultural_environment",
+    "name": "Sälskärs fyrplats",
+    "startEarliest": 1868,
+    "startLatest": 1868,
+    "dateLabel": "fyr från 1868; bemannad till 1949",
+    "datingNote": "Fyren uppfördes 1868 och automatiserades 1949. År 1949 är slutet på bemanningen, inte fyrens existens. Kulturmiljön omfattar också äldre saltmagasin och andra lämningar.",
+    "childText": "Fyren hjälpte fartyg ute vid Bottenhavet. På ön bodde fyrvaktare med sina familjer. År 1949 blev fyren automatisk och personalen flyttade.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Ha+45.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "sourceUrls": [
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27Ha+45.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+      "https://historia.pdc.ax/api/heritage/3105"
+    ],
+    "phases": [
+      {
+        "from": 1868,
+        "to": 1949,
+        "label": "Bemannad fyrplats"
+      },
+      {
+        "from": 1949,
+        "label": "Fyren automatiseras; personalen flyttar"
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "building_or_operation"
+  }
+}

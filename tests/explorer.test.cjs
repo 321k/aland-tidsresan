@@ -1,5 +1,5 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs');
-const sandbox={URL,console};vm.createContext(sandbox);vm.runInContext(fs.readFileSync('dist/explorer.js','utf8')+'\nthis.ExplorerLayers=ExplorerLayers;',sandbox);
+const sandbox={URL,console};vm.createContext(sandbox);vm.runInContext(fs.readFileSync('dist/timeline-model.js','utf8'),sandbox);vm.runInContext(fs.readFileSync('dist/explorer.js','utf8')+'\nthis.ExplorerLayers=ExplorerLayers;',sandbox);
 const data=JSON.parse(fs.readFileSync('dist/assets/heritage.json')).features;
 test('dated, curated and uncertain archaeology are filtered separately',()=>{
  const layer=new sandbox.ExplorerLayers(()=>{},()=>{});
