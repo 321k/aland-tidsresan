@@ -4,7 +4,7 @@ async function readCompressedJSON(response){if(!response.ok)throw Error('Kartdat
 const categoryLabels={settlement:'Boplats',grave:'Grav / röse',foundation:'Husgrund',road:'Historisk väg',maritime:'Sjöfartsspår',fortification:'Befästning',other:'Övrig lämning',building:'Historisk byggnad'};
 const safeURL=value=>{try{const u=new URL(value);return ['http:','https:'].includes(u.protocol)?u.href:'#'}catch{return '#'}};
 class ExplorerLayers {
- constructor(change,select){this.change=change;this.select=select;this.heritage=[];this.historic=[];this.boundaries=[];this.modern=[];this.modernById=new Map();this.drawn=[];this.hits=[];this.flags={heritage:true,modern:true,postal:true,undated:false,uncertain:true,traces:true,historic:true,boundaries:true};this.category='all';this.ready=false;this.viewList=[];this.selected=null;this.query='';this.sourceDate='2026-10-12';this.coast=null;this.modernGrid=new Map();this.modernCounts={building:0,road:0};this.modernPlaces=[];}
+ constructor(change,select){this.change=change;this.select=select;this.heritage=[];this.historic=[];this.boundaries=[];this.modern=[];this.modernById=new Map();this.drawn=[];this.hits=[];this.flags={heritage:true,modern:true,postal:true,undated:false,uncertain:true,traces:false,historic:true,boundaries:true};this.category='all';this.ready=false;this.viewList=[];this.selected=null;this.query='';this.sourceDate='2026-10-12';this.coast=null;this.modernGrid=new Map();this.modernCounts={building:0,road:0};this.modernPlaces=[];}
  async load(){
   const results=await Promise.allSettled([fetch('assets/heritage.json?v=23e800887684').then(r=>{if(!r.ok)throw Error();return r.json()}),fetch('assets/modern.json.gz?v=f13777840b4c').then(readCompressedJSON),fetch('assets/coast.json.gz?v=abe5780c1075').then(readCompressedJSON),fetch('assets/historic-buildings.json?v=35881d45dd18').then(r=>{if(!r.ok)throw Error();return r.json()}),fetch('assets/heritage-boundaries.geojson?v=94bddcf5764a').then(r=>{if(!r.ok)throw Error();return r.json()})]);
   if(results[0].status==='fulfilled')this.heritage=results[0].value.features;else document.querySelector('#registerStatus').textContent='Fornminnesregistret kunde inte laddas. Prova att ladda om sidan.';
@@ -30,7 +30,10 @@ class ExplorerLayers {
   }
  
  }
- available(feature,year){const state=EvidenceTime.state(feature,year);return state!=='future'&&(state!=='undated'||this.flags.undated)&&(state!=='possible'||this.flags.uncertain)&&(state!=='trace'||this.flags.traces)}
+ available(feature,year){const state=EvidenceTime.state(feature,year);
+  // A broad registry period such as 'Sentid' does not establish present-day use.
+  if(year>=2026&&feature.recordType==='archaeology'&&state==='possible'&&!this.flags.traces)return false;
+  return state!=='future'&&(state!=='undated'||this.flags.undated)&&(state!=='possible'||this.flags.uncertain)&&(state!=='trace'||this.flags.traces)}
  screen(point,view){return[(point[0]-view.meta.width/2)*view.scale+view.width/2+view.panX,(point[1]-view.meta.height/2)*view.scale+view.height/2+view.panY]}
  matches(feature){return !this.query||[feature.name,feature.code,feature.village,feature.description,...(feature.periodLabels||[])].join(' ').toLocaleLowerCase('sv').includes(this.query)}
  render(ctx,view){if(!this.prepared)return;this.hits=[];this.drawn=[];this.viewList=[];this.view=view;

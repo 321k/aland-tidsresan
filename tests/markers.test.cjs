@@ -20,3 +20,12 @@ const mouse=(extra={})=>({pointerType:'mouse',pointerId:1,button:0,buttons:1,cli
 test('hover and small click movements do not move or redraw the map',()=>{const{s,events}=gestures();events.pointermove(mouse({buttons:0,clientX:120}));assert.equal(s.draws,0);events.pointerdown(mouse());events.pointermove(mouse({clientX:102}));assert.equal(s.panX,0);assert.equal(s.draws,0);events.pointermove(mouse({clientX:110}));assert.equal(s.panX,10);assert.equal(s.draws,1);});
 test('a missed mouse release cannot leave the map dragging on hover',()=>{const{s,events}=gestures();events.pointerdown(mouse());events.pointermove(mouse({clientX:115}));events.pointermove(mouse({buttons:0,clientX:160}));events.pointermove(mouse({buttons:0,clientX:180}));assert.equal(s.panX,15);assert.equal(s.draws,1);assert.equal(s.pointers.size,0);});
 test('capture loss, cancellation and window blur end an interrupted drag',()=>{for(const end of ['lostpointercapture','pointercancel','blur']){const{s,events,win}=gestures();events.pointerdown(mouse());(end==='blur'?win.blur:events[end])(mouse());events.pointermove(mouse({clientX:150}));assert.equal(s.draws,0);assert.equal(s.pointers.size,0);}});
+
+test('expired markers, clusters, boundaries and list entries disappear together',()=>{
+ const l=layer([[501,400],[508,400]]);l.prepared=true;l.flags.modern=false;l.drawCoast=l.drawPostal=l.updateList=()=>{};
+ let boundaries=0;const canvas=new Proxy({fill:()=>boundaries++},{get:(o,k)=>o[k]||(()=>{}),set:()=>true});
+ l.heritage.forEach(f=>f.boundaryPath={});
+ l.render(canvas,{...view,year:1000});assert.equal(l.hits.length,1);assert.equal(l.viewList.length,2);assert.ok(boundaries>0);
+ boundaries=0;l.render(canvas,{...view,year:2026});assert.equal(l.hits.length,0);assert.equal(l.viewList.length,0);assert.equal(boundaries,0);assert.equal(l.hit(501,400,canvas),null);
+ l.flags.traces=true;l.render(canvas,{...view,year:2026});assert.equal(l.hits.length,1);assert.equal(l.viewList.length,2);
+});
