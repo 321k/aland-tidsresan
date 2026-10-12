@@ -106,3 +106,5 @@ header{gap:15px}.headernote{font-size:12px}header #openArchive{background:#e7ece
  .timeheading{grid-template-columns:minmax(0,1fr) auto}.yearjump{justify-content:flex-start}
  .yearjump,.timeheading .stoplabel{min-height:32px}.yearjump input{height:32px}
 }
+
+.route-single{display:flex;align-items:center;gap:8px;min-height:44px;font-size:13px}.route-single input{width:18px;height:18px;accent-color:var(--ink)}.route-overview{width:100%;min-height:44px;margin:8px 0}.route-ports{font-size:13px;line-height:1.7}#activeRoutes{max-height:310px;overflow-y:auto;overscroll-behavior:contain}#activeRoutes .register-place{min-height:48px}

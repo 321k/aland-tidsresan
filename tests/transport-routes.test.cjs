@@ -10,11 +10,42 @@ test('postal line ends after 1911 and is not restored by older-traces mode',()=>
 });
 test('shipping routes obey their individual evidence intervals and layer switch',()=>{
  for(const route of routes.routes){assert.equal(routes.visible(route,route.from-1),false);assert.equal(routes.visible(route,route.from),true);assert.equal(routes.visible(route,route.to),true);assert.equal(routes.visible(route,route.to+1),false);assert.equal(routes.visible(route,route.from,false),false)}
- assert.deepEqual(Array.from(routes.active(1959),r=>r.id),['viking-1959']);assert.equal(routes.active(1960).length,0);assert.equal(routes.active(1961).length,1);assert.equal(routes.active(2026).length,2);
+ assert.deepEqual(Array.from(routes.active(1959),r=>r.id),['viking-1959','slite-1959']);assert.equal(routes.active(1960).length,1);assert.equal(routes.active(1961).length,1);assert.equal(routes.active(2026).length,23);
 });
 test('hidden routes leave no clickable line; visible line supports clicks and distant misses',()=>{
- const ctx=new Proxy({},{get:()=>()=>{},set:()=>true}),screen=(lon,lat)=>[lon*10,lat*10],view={year:1959,width:1000,height:1000};
+ const ctx=new Proxy({},{get:(_,key)=>key==='measureText'?text=>({width:text.length*6}):()=>{},set:()=>true}),screen=(lon,lat)=>[lon*10,lat*10],view={year:1959,width:1000,height:1000};
  assert.equal(routes.draw(ctx,view,screen,false).length,0);
- const hits=routes.draw(ctx,view,screen,true),p=hits[0].path[0];assert.equal(routes.hit(hits,...p).id,'viking-1959');assert.equal(routes.hit(hits,900,100),null);
- view.year=1960;assert.equal(routes.draw(ctx,view,screen,true).length,0);
+ const hits=routes.draw(ctx,view,screen,true),p=hits[0].path[0];assert.equal(routes.hit(hits,...p).id,hits[0].route.id);assert.equal(routes.hit(hits,900,100),null);
+ view.year=1958;assert.equal(routes.draw(ctx,view,screen,true).length,0);
+});
+
+test('discontinued services disappear, Birka gap is preserved and cable filters work',()=>{
+ const ids=y=>Array.from(routes.active(y),r=>r.id);
+ assert.ok(ids(2025).includes('tvargaende-2025'));assert.ok(!ids(2026).includes('tvargaende-2025'));
+ assert.ok(ids(2023).includes('rosella-2008'));assert.ok(!ids(2024).includes('rosella-2008'));
+ assert.ok(ids(2020).includes('birka-1971'));for(const y of [2021,2022,2023])assert.ok(!ids(y).some(id=>id.startsWith('birka')));
+ assert.ok(ids(2024).includes('birka-gotland-2024'));
+ assert.equal(routes.active(2026,true,'cable').length,6);assert.equal(routes.active(2026,true,'historical').length,0);
+ assert.equal(routes.active(2026,false,'cable').length,0);assert.equal(routes.active(2026,true,'all','norra-2026').length,1);
+ assert.equal(routes.active(2026,true,'cable','norra-2026').length,0);
+});
+test('selected overlapping route wins hit testing and filtered routes leave no hits',()=>{
+ const ctx=new Proxy({},{get:(_,key)=>key==='measureText'?text=>({width:text.length*6}):()=>{},set:()=>true});
+ const screen=(lon,lat)=>[lon*10,lat*10],view={year:2026,width:1000,height:1000};
+ const hits=routes.draw(ctx,view,screen,true,'birka-gotland-2024');
+ assert.equal(routes.hit(hits,...screen(18.116,59.315)).id,'birka-gotland-2024');
+ view.onlyRoute=true;const solo=routes.draw(ctx,view,screen,true,'norra-2026');assert.deepEqual(Array.from(solo,h=>h.route.id),['norra-2026']);
+ view.routeGroup='cable';assert.equal(routes.draw(ctx,view,screen,true,'norra-2026').length,0);
+});
+test('curated route data has evidence, finite geometry and ports close to the mapped line',()=>{
+ const source=JSON.parse(fs.readFileSync('data/transport-routes.json','utf8'));
+ assert.deepEqual(JSON.parse(JSON.stringify(routes.routes)),source);
+ assert.equal(new Set(source.map(r=>r.id)).size,source.length);
+ for(const r of source){
+  assert.ok(r.sources.length&&r.dateNote&&r.dateLabel&&r.from<=r.to,r.id);
+  assert.ok(r.group in routes.groups,r.id);assert.ok(r.path.length>=2);
+  for(const [name,url] of r.sources){assert.ok(name);assert.equal(new URL(url).protocol,'https:')}
+  for(const p of r.path)assert.ok(p.length===2&&p.every(Number.isFinite),r.id);
+  for(const p of r.ports)assert.ok(r.path.some(([lon,lat])=>Math.hypot((p.lon-lon)*.5,p.lat-lat)<.001),r.id+' '+p.name);
+ }
 });

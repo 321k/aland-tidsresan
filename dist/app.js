@@ -147,7 +147,7 @@ function yearAtPosition(p){const i=Math.min(LAST-1,Math.floor(p/100)),t=(p-i*100
 function setTime(p){selectedFeature=null;explorer.selected=null;pos=Math.max(0,Math.min(MAX_TIME,Number(p)));year=yearAtPosition(pos);era=Math.max(0,eras.findLastIndex(e=>year>=e.y));$('#jumpYear').value=year;$('#time').value=pos;$('#time').setAttribute('aria-valuetext',date(year));updateUI();draw()}
 function project(lon,lat){return [(lon+180)/360*meta.world-meta.x0,(1-Math.asinh(Math.tan(lat*Math.PI/180))/Math.PI)/2*meta.world-meta.y0]}
 function screen(lon,lat){let [x,y]=project(lon,lat);return[(x-meta.width/2)*fit*zoom+W/2+panX,(y-meta.height/2)*fit*zoom+H/2+panY]}
-function draw(){if(!meta)return;ctx.clearRect(0,0,W,H);let s=fit*zoom;const view={width:W,height:H,zoom,scale:s,panX,panY,meta,year};shorelines.draw(ctx,view);view.overlay=historicalOverlay;
+function draw(){if(!meta)return;ctx.clearRect(0,0,W,H);let s=fit*zoom;const view={width:W,height:H,zoom,scale:s,panX,panY,meta,year,routeGroup:$('#routeGroup').value,onlyRoute:$('#onlyRoute').checked};shorelines.draw(ctx,view);view.overlay=historicalOverlay;
 const fortressCenter=screen(20.238,60.215);view.fortressDetail=$('#layerFortress').checked&&year>=1832&&zoom>=12&&fortressCenter[0]>=0&&fortressCenter[0]<=W&&fortressCenter[1]>=0&&fortressCenter[1]<=H;
 explorer.prepare(project);explorer.render(ctx,view);shipRouteHits=TransportRoutes.draw(ctx,view,screen,$('#layerShipRoutes').checked,selectedFeature?.recordType==='shipRoute'?selectedFeature.id:null);
 ctx.save();ctx.fillStyle='#54797c';ctx.font='italic 17px Georgia';ctx.textAlign='center';[['Ålands hav',19.42,60.08],['Skärgårdshavet',20.95,60.32]].forEach(([n,x,y])=>{let p=screen(x,y);ctx.fillText(n,...p)});ctx.restore();
@@ -228,8 +228,11 @@ function wreckDetails(wreck){
  return `<div class="dating"><strong>${dates.join(' · ')}</strong>${wreck.uncertainty?`<p>${htmlEscape(wreck.uncertainty)}</p>`:''}<small>${htmlEscape(wreck.registryCode)} · Registerpunkt med varierande lägesnoggrannhet. Symbolen visar inte vrakets form, storlek eller riktning.</small></div>`;
 }
 
-$('#routeChoice').innerHTML='<option value="">Välj en fartygsrutt…</option>'+TransportRoutes.routes.map(r=>`<option value="${r.id}">${r.name} · ${r.dateLabel}</option>`).join('');
+$('#routeChoice').innerHTML='<option value="">Välj en färjerutt…</option>'+Object.entries(TransportRoutes.groups).map(([group,label])=>`<optgroup label="${label}">${TransportRoutes.routes.filter(r=>r.group===group).map(r=>`<option value="${r.id}">${htmlEscape(r.name)} · ${htmlEscape(r.dateLabel)}</option>`).join('')}</optgroup>`).join('');
 $('#routeChoice').onchange=e=>{if(e.target.value)openShipRoute(e.target.value);e.target.value=''};
+$('#routeGroup').onchange=()=>{if(selectedFeature?.recordType==='shipRoute'&&$('#routeGroup').value!=='all'&&selectedFeature.group!==$('#routeGroup').value){selectedFeature=null;explorer.selected=null}updateUI();draw()};
+$('#onlyRoute').onchange=()=>{updateUI();draw()};
+$('#routeOverview').onclick=()=>{pause();clearSearch();selected=null;selectedFeature=null;$('#layerShipRoutes').checked=true;$('#routeGroup').value='all';goToYear(2026);focusMap(20.35,60.23,1.1);if(window.MobileMapUI?.isMobile())window.MobileMapUI.showMap()};
 $('#layerShipRoutes').onchange=()=>{if(!$('#layerShipRoutes').checked&&selectedFeature?.recordType==='shipRoute'){selectedFeature=null;explorer.selected=null}updateUI();draw()};
 window.openEarlyMapYear=()=>{pause();clearSearch();selected=null;chooseMapBackground('model',false);goToYear(1800);focusMap(20.02,60.23,2);if(window.MobileMapUI?.isMobile())window.MobileMapUI.showMap();else $('#story').scrollIntoView({block:'nearest'})};
 window.openCityMap=(mode,y)=>{pause();clearSearch();selected=null;goToYear(y);chooseMapBackground(mode);$('.layers').open=true;if(window.MobileMapUI?.isMobile())window.MobileMapUI.showMap();else $('#mapBackground').scrollIntoView({block:'nearest'})};
@@ -267,16 +270,19 @@ function cityMuseumControls(){return '<div class="fortress-controls"><button dat
 function earlyMapControls(){return '<div class="fortress-controls"><button data-early-map="original">Förstora kartan från cirka 1800</button><button data-early-map="compare">Jämför med 1894</button></div><p class="layernote">Daterad cirka 1800 · kartbilden finns i kartarkivet. Huvudkartans strandlinjer kommer från en separat modell.</p>'}
 
 function updateRouteList(){
- const active=TransportRoutes.active(year,$('#layerShipRoutes').checked);
- $('#routeStatus').textContent=!$('#layerShipRoutes').checked?'Fartygslagret är avstängt.':active.length?active.length+' daterade rutter visas under valt år.':'Inga fartygsrutter är kartlagda för valt år ännu.';
+ const selectedRoute=selectedFeature?.recordType==='shipRoute'?selectedFeature.id:null;
+ $('#onlyRoute').disabled=!selectedRoute;if(!selectedRoute)$('#onlyRoute').checked=false;
+ const active=TransportRoutes.active(year,$('#layerShipRoutes').checked,$('#routeGroup').value,$('#onlyRoute').checked?selectedRoute:null);
+ $('#routeStatus').textContent=!$('#layerShipRoutes').checked?'Fartygslagret är avstängt.':active.length?active.length+(active.length===1?' daterad rutt visas under valt år.':' daterade rutter visas under valt år.'):'Inga rutter i detta urval är belagda för valt år. Välj en rutt ovan för att besöka dess tid.';
  $('#activeRoutes').innerHTML=active.map(r=>`<button class="register-place" data-route="${r.id}">${htmlEscape(r.name)}<small>${htmlEscape(r.dateLabel)}</small></button>`).join('');
  $('#activeRoutes').querySelectorAll('[data-route]').forEach(b=>b.onclick=()=>openShipRoute(b.dataset.route));
 }
 function openShipRoute(id,focus=true){
  const route=TransportRoutes.routes.find(r=>r.id===id);if(!route)return;
  pause();clearSearch();$('#layerShipRoutes').checked=true;
+ if($('#routeGroup').value!=='all')$('#routeGroup').value=route.group;
  if(!TransportRoutes.visible(route,year))goToYear(route.from);
  selected=null;selectedFeature=route;explorer.selected=null;updateUI();
- if(focus&&meta){const pts=route.path.map(p=>project(...p)),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);zoom=Math.max(.65,Math.min(24,Math.min((W-Math.min(240,W*.3))/((right-left)*fit),(H-Math.min(220,H*.45))/((bottom-top)*fit))));panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom}
+ if(focus&&meta){const pts=route.path.map(p=>project(...p)),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);zoom=Math.max(.65,Math.min(100,Math.min((W-Math.min(240,W*.3))/((right-left)*fit),(H-Math.min(220,H*.45))/((bottom-top)*fit))));panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom}
  draw();if(window.MobileMapUI?.isMobile())window.MobileMapUI.showStory();else $('#story').scrollIntoView({block:'nearest'});
 }
