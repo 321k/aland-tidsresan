@@ -37,3 +37,72 @@ header{gap:15px}.headernote{font-size:12px}header #openArchive{background:#e7ece
 .shiproutekey{width:18px!important;height:0!important;border-top:2px dashed #356d88;background:none!important}.route-picker{margin:14px 0 20px;border-block:1px solid var(--line);padding:12px 0}.route-picker summary{font-size:13px;font-weight:600}.route-picker label{margin-top:12px}#activeRoutes{display:grid;gap:5px}
 
 .ship-route-view .maptitle{padding:10px 14px}.ship-route-view .maptitle h1{font-size:24px;margin:4px 0}.ship-route-view .quickplaces{top:18px;left:245px;max-width:calc(100% - 320px)}.ship-route-view .quickplaces button,.ship-route-view .quickplaces select{font-size:10px;padding:6px}@media(max-width:800px){.ship-route-view .quickplaces{top:109px;left:12px;max-width:calc(100% - 75px)}}
+
+/* Phone workspace: persistent map + timeline, with an optional reading panel. */
+.mobile-map-actions,.mobile-panel-head{display:none}.panel-content{display:contents}
+@media(max-width:800px), (max-width:950px) and (max-height:500px){
+ html,body{height:100%;overflow:hidden}
+ .headernote,.brandmark,.timehint{display:none}
+ .photocompare,.early-map-comparison{grid-template-columns:1fr}
+ body{height:100dvh;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top);padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+ header{height:62px;min-height:62px;padding:6px 12px;gap:8px}
+ .brand{font-size:20px;line-height:1.1;margin-right:auto}.brand em{font-size:13px;margin-top:2px}
+ header #openArchive,header #about{min-height:44px;font-size:11px;padding:5px 8px;line-height:1.3}
+ header #openArchive{max-width:96px}header #about{max-width:76px}
+ main{position:relative;flex:1;min-height:0;height:auto;display:block}
+ .maparea{height:100%;min-height:0}
+ .maparea .maptitle{top:10px;left:10px;padding:7px 10px;max-width:calc(100% - 80px)}
+ .maptitle .eyebrow{display:none}.maparea .maptitle h1{font-size:22px;margin:0 0 2px}#mapDate{font-size:12px}
+ .maparea .quickplaces{top:80px;left:10px;right:68px;width:auto;max-width:none;display:flex;flex-wrap:nowrap;overflow-x:auto;gap:6px;padding-bottom:5px;scrollbar-width:none;overscroll-behavior-x:contain}
+ .maparea .quickplaces button,.maparea .quickplaces select{flex-shrink:0;min-height:44px;padding:7px 10px;font-size:12px;white-space:nowrap}
+ .quickplaces select{max-width:180px;min-width:160px}
+ .mapcontrols{right:10px;top:10px;gap:6px}.mapcontrols button{width:44px;height:44px}.north{display:none}
+ .maparea #overlayBadge{left:10px;top:136px;max-width:calc(100% - 80px);font-size:10px;padding:5px 7px}
+ .mobile-map-actions{display:flex;position:absolute;bottom:39px;left:10px;right:10px;justify-content:space-between;gap:10px}
+ .mobile-map-actions button{min-height:44px;background:var(--paper);font-size:13px;box-shadow:0 2px 9px #263e3820}
+ #openExplore{background:var(--green);color:white;border-color:var(--green)}
+ .maplegend{display:none;left:10px;right:10px;bottom:130px;max-width:none;padding:10px;gap:10px 14px;font-size:11px;pointer-events:none}
+ .mobile-legend-open .maplegend{display:flex}
+ #detailStatus{right:10px;left:10px;bottom:89px;max-width:none;width:fit-content;font-size:9px;padding:4px 6px;line-height:1.35}
+ .mapfooter{bottom:4px;left:10px;right:10px;font-size:8px;gap:8px;line-height:1.4;align-items:flex-end}.mapfooter>span:last-child{text-align:right;max-width:calc(100% - 70px)}
+ #explorePanel{display:none;position:absolute;inset:12% 0 0;z-index:3;max-height:none;padding:0;border:1px solid var(--line);border-radius:16px 16px 0 0;background:var(--paper);box-shadow:0 -6px 30px #263e3833;overflow:hidden}
+ .explore-open #explorePanel{display:flex;flex-direction:column}
+ .mobile-panel-head{display:flex;align-items:center;gap:6px;padding:8px 12px;border-bottom:1px solid var(--line);flex-shrink:0;background:var(--paper)}
+ .mobile-panel-head button{min-height:44px;font-size:12px;padding:8px 10px}.mobile-panel-head #closeExplore{margin-left:auto;min-width:44px;font-size:26px;padding:0}
+ .panel-content{display:block;position:relative;overflow-y:auto;overscroll-behavior:contain;min-height:0;padding:16px 18px 24px;scroll-padding-top:16px}
+ .panel-content .layers{margin-top:0}.panel-content summary{min-height:44px;padding:11px 0}.panel-content button{min-height:44px}
+ .panel-content input:not([type=checkbox]):not([type=range]),.panel-content select{font-size:16px;min-height:44px;width:100%;max-width:100%}
+ .layerchecks{gap:0}.layerchecks label,.layerchecks label:nth-child(2){min-height:44px;font-size:13px;line-height:1.35}.layerchecks input{width:20px;height:20px;flex-shrink:0}
+ .back{min-height:44px}.panel-content p,.panel-content a{overflow-wrap:anywhere}
+ .timepanel{position:relative;flex-shrink:0;height:auto;padding:8px 12px calc(5px + env(safe-area-inset-bottom));z-index:4;box-shadow:0 -3px 12px #263e3810}
+ .timeheading{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 8px;align-items:center}
+ .timeheading>div:first-child{min-width:0}.timeheading .eyebrow{font-size:8px;letter-spacing:1.5px}#yearLabel{font-size:22px;white-space:nowrap}
+ .playgroup{gap:4px}.playgroup button{height:44px;min-width:44px;padding:4px}.playgroup #play{min-width:78px;font-size:13px}
+ .yearjump{font-size:11px;gap:6px;min-height:44px}.yearjump input{font-size:16px;width:80px;height:40px;padding:5px}
+ .timeheading .stoplabel{font-size:11px;min-height:44px;gap:5px;width:auto}.stoplabel input{width:20px;height:20px;margin:0}
+ #time{height:30px;margin:0;touch-action:pan-y}
+ #time::-webkit-slider-thumb{min-width:24px;min-height:24px}#time::-moz-range-thumb{width:24px;height:24px}
+ .ticks{height:28px}.ticks button{display:none!important;min-height:28px;font-size:10px;padding:2px 0;top:0!important}
+ .ticks button:first-child,.ticks button[data-year="1750"],.ticks button:last-child{display:block!important}
+ dialog,#archive{padding:16px;width:calc(100% - 16px);max-height:calc(100dvh - 24px);overflow:auto;overscroll-behavior:contain}
+ dialog h2,.archivehead h2{font-size:25px}dialog button{min-height:44px}.dialogclose{min-width:44px}#info h2{padding-right:25px}
+ .archivehead{gap:8px}.archivehead>div{min-width:0}.archivehead button{min-width:44px}.archivetabs{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain}.archivetabs button{flex-shrink:0;font-size:12px}
+ .photochooser select{font-size:16px}.scanheading label{max-width:100%;flex-wrap:wrap}.scanheading input{min-width:0;max-width:130px}.photo iframe{min-height:230px}.scanviewport{min-height:220px}
+}
+@media(max-width:360px){
+ header{padding-inline:8px;gap:5px}.brand{font-size:18px}.brand em{font-size:12px}header #openArchive,header #about{font-size:10px;padding:5px;max-width:82px}
+ .timepanel{padding-inline:8px}#yearLabel{font-size:19px}.playgroup #play{min-width:65px}.yearjump{font-size:10px;gap:4px}.yearjump input{width:72px}.timeheading .stoplabel{font-size:10px}
+}
+@media(max-width:950px) and (max-height:500px){
+ header{height:48px;min-height:48px}.brand em{display:none}
+ .timeheading{grid-template-columns:minmax(110px,1fr) auto auto auto}.yearjump{justify-content:flex-end}.timeheading .stoplabel{display:flex;font-size:10px}
+ .timeheading .eyebrow,.ticks{display:none}.timepanel{padding-top:4px;padding-bottom:4px}#time{height:24px}
+ .maparea .quickplaces{display:none}.maparea .maptitle{padding:5px 8px}.maparea .maptitle h1{font-size:18px}
+ .mapcontrols{flex-direction:row}.maparea .maptitle{max-width:calc(100% - 175px)}
+ #detailStatus{display:none}.maparea #overlayBadge{top:64px}.maplegend{bottom:90px}#explorePanel{inset:0}
+}
+
+@media(max-width:560px) and (max-height:500px){
+ .timeheading{grid-template-columns:minmax(0,1fr) auto}.yearjump{justify-content:flex-start}
+ .yearjump,.timeheading .stoplabel{min-height:32px}.yearjump input{height:32px}
+}

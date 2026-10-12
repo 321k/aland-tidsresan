@@ -155,7 +155,7 @@ if(year>=-4000){ctx.font='10px -apple-system,sans-serif';ctx.textAlign='center';
 drawStoryPlaces();hits.push(...BomarsundPlan.draw(ctx,visible().filter(b=>b.category==='fortress'),screen,year,zoom,selected,W,H));let mpp=Math.cos(60.2*Math.PI/180)*40075016.7/meta.world/s;$('#scale').textContent=mpp*60<1000?Math.round(mpp*60/10)*10+' m':(mpp*60/1000).toFixed(zoom>5?1:0)+' km';$('#scale').style.width='60px'}
 function resize(){let r=canvas.getBoundingClientRect();W=r.width;H=r.height;let d=window.devicePixelRatio||1;canvas.width=Math.round(W*d);canvas.height=Math.round(H*d);ctx.setTransform(d,0,0,d,0,0);if(meta){const oldFit=fit;fit=Math.min(W/meta.width,H/meta.height)*1.28;panX*=fit/oldFit;panY*=fit/oldFit}draw()}
 function zoomAt(f,x=W/2,y=H/2){let old=zoom;zoom=Math.max(.65,Math.min(256,zoom*f));panX=x-W/2-(x-W/2-panX)*zoom/old;panY=y-H/2-(y-H/2-panY)*zoom/old;draw()}
-function selectBuilding(id,focus){selectedFeature=null;explorer.selected=null;selected=id;const b=buildings.find(x=>x.id===id);explorer.selected=b.osmId||null;if(focus&&b.category==='fortress'){fitBomarsund();focus=false}if(focus&&meta){zoom=Math.max(zoom,5);let [x,y]=project(b.lon,b.lat);panX=-(x-meta.width/2)*fit*zoom;panY=-(y-meta.height/2)*fit*zoom}pause();updateUI();draw()}
+function selectBuilding(id,focus){selectedFeature=null;explorer.selected=null;selected=id;const b=buildings.find(x=>x.id===id);explorer.selected=b.osmId||null;if(focus&&b.category==='fortress'){fitBomarsund();focus=false}if(focus&&meta){zoom=Math.max(zoom,5);let [x,y]=project(b.lon,b.lat);panX=-(x-meta.width/2)*fit*zoom;panY=-(y-meta.height/2)*fit*zoom}pause();updateUI();draw();window.MobileMapUI?.showStory()}
 function pause(){playing=false;cancelAnimationFrame(timer);$('#play').innerHTML='▶ <span>Spela</span>';$('#play').setAttribute('aria-label','Spela tidsresan')}
 function playbackFrame(now){
  if(!playing)return;
@@ -175,8 +175,8 @@ $('#play').onclick=()=>{if(playing){pause();return}if(pos>=MAX_TIME)setTime(0);p
 $('#time').oninput=e=>{pause();setTime(e.target.value)};$('#previous').onclick=()=>{pause();setTime(Math.max(0,Math.ceil(pos/100)-1)*100)};$('#next').onclick=()=>{pause();setTime(Math.min(LAST,Math.floor(pos/100)+1)*100)};document.querySelectorAll('[data-year]').forEach(b=>{b.style.left=(positionForYear(Number(b.dataset.year))/MAX_TIME*100)+'%';b.onclick=()=>{pause();selected=null;goToYear(Number(b.dataset.year))}});
 $('#zoomIn').onclick=()=>zoomAt(1.6);$('#zoomOut').onclick=()=>zoomAt(1/1.6);$('#reset').onclick=()=>{zoom=1;panX=panY=0;draw()};canvas.addEventListener('wheel',e=>{e.preventDefault();const r=canvas.getBoundingClientRect();zoomAt(e.deltaY>0?.88:1.14,e.clientX-r.left,e.clientY-r.top)},{passive:false});
 function cancelMapGesture(){pointers.clear();gesture=null;dragged=false}
-canvas.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});gesture={x:e.clientX,y:e.clientY,panX,panY};dragged=false;if(pointers.size===2){let [a,b]=[...pointers.values()];gesture={distance:Math.hypot(a.x-b.x,a.y-b.y),zoom};dragged=true}});
-canvas.addEventListener('pointermove',e=>{if(e.pointerType==='mouse'&&e.buttons===0){cancelMapGesture();return}if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2){let [a,b]=[...pointers.values()],r=canvas.getBoundingClientRect();if(gesture.distance)zoomAt((Math.hypot(a.x-b.x,a.y-b.y)/gesture.distance*gesture.zoom)/zoom,(a.x+b.x)/2-r.left,(a.y+b.y)/2-r.top);return}if(!gesture||gesture.distance)return;let dx=e.clientX-gesture.x,dy=e.clientY-gesture.y;if(Math.abs(dx)+Math.abs(dy)>5)dragged=true;if(!dragged)return;panX=gesture.panX+dx;panY=gesture.panY+dy;draw()});
+canvas.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});gesture={x:e.clientX,y:e.clientY,panX,panY};dragged=false;if(pointers.size===2){let [a,b]=[...pointers.values()];gesture={distance:Math.hypot(a.x-b.x,a.y-b.y),cx:(a.x+b.x)/2,cy:(a.y+b.y)/2};dragged=true}});
+canvas.addEventListener('pointermove',e=>{if(e.pointerType==='mouse'&&e.buttons===0){cancelMapGesture();return}if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pointers.size===2){let [a,b]=[...pointers.values()],r=canvas.getBoundingClientRect();const distance=Math.hypot(a.x-b.x,a.y-b.y),cx=(a.x+b.x)/2,cy=(a.y+b.y)/2;if(gesture?.distance>0){panX+=cx-gesture.cx;panY+=cy-gesture.cy;zoomAt(distance/gesture.distance,cx-r.left,cy-r.top)}gesture={distance,cx,cy};return}if(!gesture||gesture.distance)return;let dx=e.clientX-gesture.x,dy=e.clientY-gesture.y;if(Math.abs(dx)+Math.abs(dy)>5)dragged=true;if(!dragged)return;panX=gesture.panX+dx;panY=gesture.panY+dy;draw()});
 canvas.addEventListener('pointerup',e=>{if(!dragged&&pointers.size===1){let r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,h=hits.filter(h=>storyHit(h,x,y)).sort((a,b)=>Math.hypot(x-a.x,y-a.y)-Math.hypot(x-b.x,y-b.y))[0];if(h)selectBuilding(h.id,false);else{const f=explorer.hit(x,y,ctx)||TransportRoutes.hit(shipRouteHits,x,y);if(f?.cluster){const lon=f.cluster.reduce((s,f)=>s+f.lon,0)/f.cluster.length,lat=f.cluster.reduce((s,f)=>s+f.lat,0)/f.cluster.length;focusMap(lon,lat,Math.min(256,zoom*2))}else if(f)selectFeature(f,false)}}pointers.delete(e.pointerId);gesture=null;if(pointers.size===1){let a=[...pointers.values()][0];gesture={x:a.x,y:a.y,panX,panY};dragged=true}});canvas.addEventListener('pointercancel',cancelMapGesture);
 canvas.addEventListener('lostpointercapture',e=>{if(pointers.has(e.pointerId))cancelMapGesture()});
 window.addEventListener('blur',cancelMapGesture);
@@ -186,7 +186,7 @@ function positionForYear(y){let i=Math.max(0,eras.findLastIndex(e=>y>=e.y));if(i
 function goToYear(y){setTime(positionForYear(Math.max(-12000,Math.min(2026,y))))}
 function focusMap(lon,lat,targetZoom=24){if(!meta)return;zoom=targetZoom;let[x,y]=project(lon,lat);panX=-(x-meta.width/2)*fit*zoom;panY=-(y-meta.height/2)*fit*zoom;draw()}
 function showFeatureStory(){$('#story').innerHTML=selectedFeature.recordType==='shipRoute'?TransportRoutes.story(selectedFeature):explorer.story(selectedFeature);$('#backFeature').onclick=()=>{selectedFeature=null;explorer.selected=null;updateUI();draw()}}
-function selectFeature(f,focus){if(f.recordType==='shipRoute'){openShipRoute(f.id,focus);return}const story=visible().find(b=>b.osmId===f.id);if(story){selectBuilding(story.id,focus);return}pause();selected=null;selectedFeature=f;explorer.selected=f.id;if(focus&&!f.kind)focusMap(f.lon,f.lat,Math.max(zoom,16));showFeatureStory();draw();$('#story').scrollIntoView({block:'nearest'})}
+function selectFeature(f,focus){if(f.recordType==='shipRoute'){openShipRoute(f.id,focus);return}const story=visible().find(b=>b.osmId===f.id);if(story){selectBuilding(story.id,focus);return}pause();selected=null;selectedFeature=f;explorer.selected=f.id;if(focus&&!f.kind)focusMap(f.lon,f.lat,Math.max(zoom,16));showFeatureStory();draw();if(window.MobileMapUI?.isMobile())window.MobileMapUI.showStory();else $('#story').scrollIntoView({block:'nearest'})}
 $('#time').max=MAX_TIME;
 function applyYearInput(){const input=$('#jumpYear');if(input.value.trim()===''||!Number.isFinite(Number(input.value)))return;pause();goToYear(Number(input.value))}
 $('#jumpYear').onchange=applyYearInput;$('#jumpYear').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();applyYearInput()}};
@@ -221,7 +221,7 @@ setTime(MAX_TIME);explorer.load();shorelines.load();historicalOverlay.load();
 window.currentMapContext=()=>{if(!meta)return {year,lon:19.941,lat:60.103};const x=meta.x0+meta.width/2-panX/(fit*zoom),y=meta.y0+meta.height/2-panY/(fit*zoom);return{year,lon:x/meta.world*360-180,lat:Math.atan(Math.sinh(Math.PI*(1-2*y/meta.world)))*180/Math.PI,zoom}};
 
 function openWreck(wreck, eventYear=wreck.sinkingYear??wreck.discoveryYear){
- pause();clearSearch();goToYear(eventYear);focusMap(wreck.lon,wreck.lat,5);selectBuilding(wreck.id,false);$('#story').scrollIntoView({block:'start'});
+ pause();clearSearch();goToYear(eventYear);focusMap(wreck.lon,wreck.lat,5);selectBuilding(wreck.id,false);if(!window.MobileMapUI?.isMobile())$('#story').scrollIntoView({block:'start'});
 }
 function wreckDetails(wreck){
  const dates=[wreck.sinkingYear?`Förlisning: ${wreck.sinkingYear}`:'Förlisning: osäkert år',...(wreck.discoveryYear?[`Upptäckt: ${wreck.discoveryYear}${wreck.id==='wreck-hindenburg'?' enligt vrakregistret':''}`]:[])];
@@ -231,8 +231,8 @@ function wreckDetails(wreck){
 $('#routeChoice').innerHTML='<option value="">Välj en fartygsrutt…</option>'+TransportRoutes.routes.map(r=>`<option value="${r.id}">${r.name} · ${r.dateLabel}</option>`).join('');
 $('#routeChoice').onchange=e=>{if(e.target.value)openShipRoute(e.target.value);e.target.value=''};
 $('#layerShipRoutes').onchange=()=>{if(!$('#layerShipRoutes').checked&&selectedFeature?.recordType==='shipRoute'){selectedFeature=null;explorer.selected=null}updateUI();draw()};
-window.openEarlyMapYear=()=>{pause();clearSearch();selected=null;chooseMapBackground('model',false);goToYear(1800);focusMap(20.02,60.23,2);$('#story').scrollIntoView({block:'nearest'})};
-window.openCityMap=(mode,y)=>{pause();clearSearch();selected=null;goToYear(y);chooseMapBackground(mode);$('.layers').open=true;$('#mapBackground').scrollIntoView({block:'nearest'})};
+window.openEarlyMapYear=()=>{pause();clearSearch();selected=null;chooseMapBackground('model',false);goToYear(1800);focusMap(20.02,60.23,2);if(window.MobileMapUI?.isMobile())window.MobileMapUI.showMap();else $('#story').scrollIntoView({block:'nearest'})};
+window.openCityMap=(mode,y)=>{pause();clearSearch();selected=null;goToYear(y);chooseMapBackground(mode);$('.layers').open=true;if(window.MobileMapUI?.isMobile())window.MobileMapUI.showMap();else $('#mapBackground').scrollIntoView({block:'nearest'})};
 window.openCityPlan=y=>window.openCityMap('1860',y);
 $('#overlayOriginal').onclick=()=>window.openCityMapArchive(historicalOverlay.mode);
 $('#overlayPlanYear').onclick=()=>window.openCityPlan(1860);
@@ -245,7 +245,7 @@ function fortressControls(){return '<div class="fortress-controls" aria-label="J
 function fitBomarsund(){
  if(!meta)return;const a=project(20.202,60.224),b=project(20.276,60.205);const z=Math.min((W-170)/((b[0]-a[0])*fit),(H-125)/((b[1]-a[1])*fit));focusMap(20.239,60.2145,Math.max(12,Math.min(80,z)));
 }
-function openBomarsund(y){pause();clearSearch();$('#layerFortress').checked=true;goToYear(y);fitBomarsund();selectBuilding('bomarsund',false);$('#story').scrollIntoView({block:'start'})}
+function openBomarsund(y){pause();clearSearch();$('#layerFortress').checked=true;goToYear(y);fitBomarsund();selectBuilding('bomarsund',false);if(!window.MobileMapUI?.isMobile())$('#story').scrollIntoView({block:'start'})}
 function storyHit(h,x,y){if(h.labelRect){const r=h.labelRect;return x>=r.x&&x<=r.x+r.w&&y>=r.y&&y<=r.y+r.h}return h.rings?.some(r=>BomarsundPlan.contains(r,x,y))||Math.hypot(x-h.x,y-h.y)<Math.max(22,h.size)}
 
 function cityPlanControls(){return '<div class="fortress-controls"><button data-city-plan="1860">Visa stadsplanen på kartan</button><button data-city-plan="original">Förstora originalet</button><button data-city-plan="2026">Jämför med idag</button></div><p class="layernote">Planerade hus och gator · inte färdig bebyggelse 1860. Överlägget ligger kvar när du byter år; ändra täckningen under Kartlager för att jämföra.</p>'}
@@ -277,6 +277,6 @@ function openShipRoute(id,focus=true){
  pause();clearSearch();$('#layerShipRoutes').checked=true;
  if(!TransportRoutes.visible(route,year))goToYear(route.from);
  selected=null;selectedFeature=route;explorer.selected=null;updateUI();
- if(focus&&meta){const pts=route.path.map(p=>project(...p)),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);zoom=Math.max(.65,Math.min(24,Math.min((W-240)/((right-left)*fit),(H-220)/((bottom-top)*fit))));panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom}
- draw();$('#story').scrollIntoView({block:'nearest'});
+ if(focus&&meta){const pts=route.path.map(p=>project(...p)),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);zoom=Math.max(.65,Math.min(24,Math.min((W-Math.min(240,W*.3))/((right-left)*fit),(H-Math.min(220,H*.45))/((bottom-top)*fit))));panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom}
+ draw();if(window.MobileMapUI?.isMobile())window.MobileMapUI.showStory();else $('#story').scrollIntoView({block:'nearest'});
 }
