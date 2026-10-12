@@ -54,10 +54,14 @@ class ExplorerLayers {
  }
  drawHeritage(ctx,v){const buckets=new Map(),size=v.zoom<8?34:20;
   const features=[...(this.flags.heritage?this.heritage:[]),...(this.flags.historic?this.historic:[])];
-  for(const f of features){if(!this.available(f,v.year)||!this.matches(f)||(this.category!=='all'&&f.category!==this.category))continue;const [x,y]=this.screen(f.point,v);if(x<-30||x>v.width+30||y<-30||y>v.height+30)continue;this.viewList.push(f);const key=`${Math.floor(x/size)},${Math.floor(y/size)}`;if(!buckets.has(key))buckets.set(key,[]);buckets.get(key).push({f,x,y});
+  for(const f of features){if(!this.available(f,v.year)||!this.matches(f)||(this.category!=='all'&&f.category!==this.category))continue;// Anchor buckets to map coordinates, not the moving viewport. Include offscreen
+   // members before clipping so a cluster keeps its identity at the map's edge.
+   const key=`${Math.floor(f.point[0]*v.scale/size)},${Math.floor(f.point[1]*v.scale/size)}`;
+   const [x,y]=this.screen(f.point,v);if(!buckets.has(key))buckets.set(key,[]);buckets.get(key).push({f,x,y});
+   if(x<-30||x>v.width+30||y<-30||y>v.height+30)continue;this.viewList.push(f);
    if(f.boundaryPath&&v.zoom>=8&&(this.flags.boundaries||this.selected===f.id)){ctx.save();const s=v.scale;ctx.translate(v.width/2+v.panX-v.meta.width/2*s,v.height/2+v.panY-v.meta.height/2*s);ctx.scale(s,s);ctx.fillStyle='#a4644420';ctx.strokeStyle=this.selected===f.id?'#b16c27':'#925f49';ctx.lineWidth=1/s;ctx.setLineDash([4/s,3/s]);ctx.fill(f.boundaryPath,'evenodd');ctx.stroke(f.boundaryPath);ctx.restore()}
   }
-  for(const entries of buckets.values()){const x=entries.reduce((s,e)=>s+e.x,0)/entries.length,y=entries.reduce((s,e)=>s+e.y,0)/entries.length,f=entries[0].f,state=EvidenceTime.state(f,v.year),cluster=entries.length>1;ctx.save();
+  for(const entries of buckets.values()){const x=entries.reduce((s,e)=>s+e.x,0)/entries.length,y=entries.reduce((s,e)=>s+e.y,0)/entries.length,f=entries[0].f,state=EvidenceTime.state(f,v.year),cluster=entries.length>1;if(x<-30||x>v.width+30||y<-30||y>v.height+30)continue;ctx.save();
    const color=entries.some(e=>e.f.id===this.selected)?'#ae681e':state==='trace'?'#797d70':f.category==='building'?'#886b51':'#854f44';
    ctx.strokeStyle=color;ctx.fillStyle=state==='possible'||state==='undated'?'#faf7e8':color;ctx.lineWidth=1.8;if(state==='undated')ctx.setLineDash([2,2]);
    ctx.beginPath();if(cluster)ctx.arc(x,y,12,0,Math.PI*2);else if(f.category==='building'||f.category==='foundation')ctx.rect(x-7,y-5,14,10);else if(f.category==='grave'){ctx.moveTo(x,y-7);ctx.lineTo(x+7,y+5);ctx.lineTo(x-7,y+5);ctx.closePath()}else if(f.category==='road'){ctx.moveTo(x-7,y+5);ctx.lineTo(x+7,y-5)}else ctx.arc(x,y,5.5,0,Math.PI*2);ctx.fill();ctx.stroke();
