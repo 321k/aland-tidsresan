@@ -1,6 +1,7 @@
 'use strict';
 const $=s=>document.querySelector(s);
 const sources={
+ earlyMap:['Karta öfver Åland · cirka 1800 · Uppsala universitetsbibliotek / Alvin','https://www.alvin-portal.org/alvin/imageViewer.jsf?dsId=ATTACHMENT-0001&pid=alvin-record%3A82661'],
  cityMuseum:['Mariehamn på 1920-talet · Nybyggarne','https://mpf.spfpension.fi/verksamhet/nybyggarne/mariehamn/'],
  cityPlan:['Mariehamns första stadsplan · Mariehamns stad','https://www.mariehamn.ax/sites/default/files/attachments/guidedocument/generalplan_del2_03_plan.pdf'],
  bomarsundPlan:['Bomarsunds översiktsskiss · Fredriks betraktelser','https://mskfredrik.blogspot.com/2009/08/fastningen-bomarsund-pa-aland.html'],
@@ -28,6 +29,7 @@ const eras=[
  {y:1280,title:'Kyrkor av sten',tag:'Medeltiden',text:'En stor kyrka byggs i Jomala. Stenhus kan stå kvar länge. Den här kyrkan finns fortfarande!',q:'Vad är annorlunda med att bygga i sten och i trä?',more:'Analyser daterar Jomala kyrkas torn till 1280-talet. Årtalet på reglaget är ungefärligt.',src:'church'},
  {y:1388,title:'Ett slott vid vattnet',tag:'Medeltiden',text:'Kastelholm blir en viktig borg. Innanför de tjocka murarna finns rum, förråd och en gård.',q:'Varför kan det vara bra att ha ett slott nära vattnet?',more:'Slottet grundades på 1380-talet. Kartans punkt visar platsen, inte slottets form vid ett visst år.',src:'castle'},
  {y:1784,title:'Gårdar och ett häkte',tag:'1700-talet',text:'På gårdarna behövs flera hus: ett att bo i och andra för djur och mat. Vid Kastelholm byggs häktet Vita Björn.',q:'Varför hade man många små hus på en gård?',more:'Vita Björn uppfördes 1784. Den visade bondgården är en rekonstruktion.',src:'castle'},
+ {y:1800,earlyMap:true,title:'Vägar mellan byar och kyrkor',tag:'Åland kring 1800',text:'På den gamla kartan slingrar sig vägar mellan byar, kyrkor och vatten. Förstora och leta efter namn ni känner igen!',q:'Vilken väg skulle ni följa mellan Jomala och Kastelholm?',more:'Uppsala universitetsbibliotek daterar den handritade, delvis färglagda kartan till cirka 1800. Årtalet är ungefärligt. Bilden täcker främst fasta Åland och delar av skärgården. Kartarkivet låter er jämföra den med 1894 års karta.',src:'earlyMap'},
  {y:1832,title:'En fästning växer fram',tag:'1800-talet',text:'Vid Bomarsund börjar ett enormt hus av sten ta form. Här ska soldater bo och arbeta.',q:'Hur många olika rum kan ett så stort hus behöva?',more:'Huvudfästet byggdes 1832–1843. Delar togs i bruk från 1839.',src:'fortress'},
  {y:1854,title:'Fästningen blir ruin',tag:'En stor förändring',text:'Det blir krig vid Bomarsund. Fästningen förstörs. Murarnas rester finns kvar och hjälper oss att förstå vad som hände.',q:'Vad kan en gammal mur berätta?',more:'Bomarsund förstördes 1854. Platsens berättelse övergår till ruinen vid denna hållpunkt.',src:'ruin'},
  {y:1860,cityPlan:true,title:'En stad på ritbordet',tag:'Mariehamns stadsplan',text:'Innan staden byggs ritar arkitekten gator, torg och parker. Här finns plats för en kyrka, en skola och ett sjukhus. Öppna planen och leta tillsammans!',q:'Vad skulle du rita in om du fick planera en ny stad?',more:'G. Th. Chiewitz ritade planen 1859; den första stadsplanen är från 1860. Mariehamn grundades 1861. Ritningen visar avsikter, inte färdiga byggnader. Planen ändrades när staden växte fram. De breda esplanaderna och rutnätet blev viktiga delar av staden.',src:'cityPlan'},
@@ -103,7 +105,7 @@ const buildingWikipedia={
  library:'Mariehamns stadsbibliotek'
 };
 const eraWikipedia={
- '-5000':'Ålands historia','1750':'Ålands historia','1894':'Åland','1942':'Mariehamn','2021':'Mariehamn',
+ '-5000':'Ålands historia','1750':'Ålands historia','1800':'Åland','1894':'Åland','1942':'Mariehamn','2021':'Mariehamn',
  '-12000':'Istid','-8000':'Landhöjning','-4000':'Ålands historia',
  '-1500':'Ålands historia','800':'Ålands historia','1280':'Jomala kyrka',
  '1388':'Kastelholms slott','1784':'Vita Björn','1832':'Bomarsunds fästning',
@@ -122,9 +124,10 @@ const body=b?{...b,title:b.name,tag:b.category==='fortress'?BomarsundPlan.tag(b,
 const wreck=wreckForStory(b,e);
 if(b?.category==='wreck')body.text=WreckTimeline.text(b,year);
 if(b?.category==='fortress'){body.text=year>=1854?b.ruinText:b.text;body.title=year>=1854&&b.kind!=='cemetery'?b.name+' · äldre plats':b.name}
-$('#story').innerHTML=`${b?'<button class="back" id="back">← Till tidsperioden</button><br>':''}<span class="storytag">${body.tag}</span><h2>${body.title}</h2><p>${body.text}</p>${wikipediaLink(b||wreck,e)}${!b&&e.cityPlan?cityPlanControls():''}${!b&&e.cityMuseum?cityMuseumControls():''}${b?.category==='fortress'?`<div class="dating"><p>${htmlEscape(b.dateNote)}</p><small>${htmlEscape(b.geometrySource)} · Lägen och former är ungefärliga.</small></div>`:''}${b?.category==='fortress'||[1832,1853,1854].includes(e.y)?fortressControls():''}${wreck?wreckDetails(wreck):''}${wreck&&!b?`<button id="focusWreckEvent">Visa ${htmlEscape(wreck.name)} på kartan</button>`:''}${b?.temporal?`<p class="evidence-badge">${EvidenceTime.label(EvidenceTime.state(b,year))}</p><p class="asidehint">${htmlEscape(EvidenceTime.phase(b,year)?.label||b.temporal.dateLabel)}</p>`:''}<div class="question"><strong>Fundera tillsammans</strong>${body.q}</div><details><summary>Läs mer tillsammans</summary><p>${body.more}</p>${body.sourceUrl?`<a href="${safeURL(body.sourceUrl)}" target="_blank" rel="noreferrer">Ålands landskapsregering · platsens registeruppgifter ↗</a>`:sourceLink(body.src)}${b?.category==='fortress'?b.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}${wreck?wreck.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}</details>`;
+$('#story').innerHTML=`${b?'<button class="back" id="back">← Till tidsperioden</button><br>':''}<span class="storytag">${body.tag}</span><h2>${body.title}</h2><p>${body.text}</p>${wikipediaLink(b||wreck,e)}${!b&&e.cityPlan?cityPlanControls():''}${!b&&e.cityMuseum?cityMuseumControls():''}${!b&&e.earlyMap?earlyMapControls():''}${b?.category==='fortress'?`<div class="dating"><p>${htmlEscape(b.dateNote)}</p><small>${htmlEscape(b.geometrySource)} · Lägen och former är ungefärliga.</small></div>`:''}${b?.category==='fortress'||[1832,1853,1854].includes(e.y)?fortressControls():''}${wreck?wreckDetails(wreck):''}${wreck&&!b?`<button id="focusWreckEvent">Visa ${htmlEscape(wreck.name)} på kartan</button>`:''}${b?.temporal?`<p class="evidence-badge">${EvidenceTime.label(EvidenceTime.state(b,year))}</p><p class="asidehint">${htmlEscape(EvidenceTime.phase(b,year)?.label||b.temporal.dateLabel)}</p>`:''}<div class="question"><strong>Fundera tillsammans</strong>${body.q}</div><details><summary>Läs mer tillsammans</summary><p>${body.more}</p>${body.sourceUrl?`<a href="${safeURL(body.sourceUrl)}" target="_blank" rel="noreferrer">Ålands landskapsregering · platsens registeruppgifter ↗</a>`:sourceLink(body.src)}${b?.category==='fortress'?b.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}${wreck?wreck.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}</details>`;
 $('#story').querySelectorAll('[data-city-plan]').forEach(el=>el.onclick=()=>el.dataset.cityPlan==='original'?window.openCityPlanArchive():window.openCityPlan(Number(el.dataset.cityPlan)));
 $('#story').querySelectorAll('[data-city-museum]').forEach(el=>el.onclick=()=>el.dataset.cityMuseum==='original'?window.openCityMapArchive('1920'):window.openCityMap('1920',Number(el.dataset.cityMuseum)));
+$('#story').querySelectorAll('[data-early-map]').forEach(el=>el.onclick=()=>window.openEarlyMapArchive(el.dataset.earlyMap==='compare'));
 if($('#fortressClose'))$('#fortressClose').onclick=()=>{const main=window.BOMARSUND_PLACES[0];focusMap(main.lon,main.lat,100);selectBuilding(main.id,false)};
 $('#story').querySelectorAll('[data-fortress-year]').forEach(el=>el.onclick=()=>openBomarsund(Number(el.dataset.fortressYear)));
 if($('#focusWreckEvent'))$('#focusWreckEvent').onclick=()=>openWreck(wreck, e.y);
@@ -217,6 +220,7 @@ function wreckDetails(wreck){
  return `<div class="dating"><strong>${dates.join(' · ')}</strong>${wreck.uncertainty?`<p>${htmlEscape(wreck.uncertainty)}</p>`:''}<small>${htmlEscape(wreck.registryCode)} · Registerpunkt med varierande lägesnoggrannhet. Symbolen visar inte vrakets form, storlek eller riktning.</small></div>`;
 }
 
+window.openEarlyMapYear=()=>{pause();clearSearch();selected=null;chooseMapBackground('model',false);goToYear(1800);focusMap(20.02,60.23,2);$('#story').scrollIntoView({block:'nearest'})};
 window.openCityMap=(mode,y)=>{pause();clearSearch();selected=null;goToYear(y);chooseMapBackground(mode);$('.layers').open=true;$('#mapBackground').scrollIntoView({block:'nearest'})};
 window.openCityPlan=y=>window.openCityMap('1860',y);
 $('#overlayOriginal').onclick=()=>window.openCityMapArchive(historicalOverlay.mode);
@@ -248,3 +252,5 @@ const a=project(19.923,60.103),b=project(19.949,60.092);
 }
 
 function cityMuseumControls(){return '<div class="fortress-controls"><button data-city-museum="1920">Visa museikartan på kartan</button><button data-city-museum="original">Förstora och läs om husen</button><button data-city-museum="2026">Jämför med idag</button></div><p class="layernote">Översikt över 1920-talet · ungefärlig inpassning. Välj 1860 under Kartlager för att jämföra med den första stadsplanen.</p>'}
+
+function earlyMapControls(){return '<div class="fortress-controls"><button data-early-map="original">Förstora kartan från cirka 1800</button><button data-early-map="compare">Jämför med 1894</button></div><p class="layernote">Daterad cirka 1800 · kartbilden finns i kartarkivet. Huvudkartans strandlinjer kommer från en separat modell.</p>'}

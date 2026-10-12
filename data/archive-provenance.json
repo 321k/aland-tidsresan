@@ -346,5 +346,36 @@
       "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin10/",
       "https://mpf.spfpension.fi/verksamhet/nybyggarne/vitriner/vitrin11/"
     ]
+  },
+  "aland_ca1800": {
+    "title": "Karta öfver Åland",
+    "record_id": "alvin-record:82661",
+    "source": "https://www.alvin-portal.org/alvin/imageViewer.jsf?dsId=ATTACHMENT-0001&pid=alvin-record%3A82661",
+    "persistent_identifier": "urn:nbn:se:alvin:portal:record-82661",
+    "institution": "Uppsala universitetsbibliotek, Kart- och bildsamlingarna",
+    "shelfmark": "Handritade kartor, Finland",
+    "local_id": "41 (Davidssonnummer : Finsk handritad karta)",
+    "date_verbatim": "ca 1800",
+    "timeline_stop": 1800,
+    "date_note": "Approximate catalog date, not a precise survey year. No creator named in retrieved record.",
+    "physical_description": "Delvis färglagd; 48 x 39 cm; papper",
+    "license": "Public Domain Mark (No Known Copyright)",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "asset": "assets/aland-ca1800-alvin.jpg",
+    "asset_dimensions": [
+      4054,
+      5000
+    ],
+    "asset_sha256": "29a61bdbaa61270c2db94fe2cda3fbd6deb528f021d886c23283bca20036e5d5",
+    "image_service_original_dimensions": [
+      6206,
+      7655
+    ],
+    "image_download": "https://www.alvin-portal.org/iipsrv/iipsrv.fcgi?FIF=/mnt/data/alvin/jp2/82000/600/alvin-record_82661-ATTACHMENT-0001.jp2&WID=6206&QLT=90&CVT=jpeg",
+    "download_note": "JPEG supplied by Alvin image service; request for full width capped by service at 5000px height. File copied without local image edits.",
+    "original_tiff": "https://www.alvin-portal.org/alvin/attachment/download/alvin-record:82661/ATTACHMENT-0001.tiff",
+    "coverage": "Visual inspection: mainly mainland Åland with Lemland, Lumparland and parts of nearby archipelago; not complete present-day Åland extent.",
+    "georeferencing": "None. Original displayed independently and side by side with 1894; no invented road or building lifetimes or geographic alignment.",
+    "verified_on": "2026-10-12"
   }
 }
