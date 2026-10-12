@@ -22,7 +22,7 @@ test('prehistoric evidence does not imply uninterrupted occupation',()=>{
 test('every shoreline model year resolves to a real geometry asset; nearest model is explicit',()=>{
  const manifest=JSON.parse(fs.readFileSync('dist/assets/shorelines/manifest.json'));
  assert.ok(manifest.years.length>=68);assert.equal(time.modelYear(2026,manifest.years),1900);assert.equal(time.modelYear(-4100,manifest.years),-4000);
- for(const year of manifest.years){const data=JSON.parse(fs.readFileSync(`dist/assets/shorelines/${year}.json`));assert.equal(data.year,year);assert.ok(Array.isArray(data.classes.land));assert.ok(Array.isArray(data.classes.noData));}
+ for(const year of manifest.years){const data=JSON.parse(require('node:zlib').gunzipSync(fs.readFileSync(`dist/assets/shorelines/${year}.json.gz`)));assert.equal(data.year,year);assert.ok(Array.isArray(data.classes.land));assert.ok(Array.isArray(data.classes.noData));}
 });
 test('archive map centre uses the official Finnish grid, within 1 metre of independent pyproj controls',()=>{
  for(const [lon,lat,n,e]of [[19.941,60.103,6665549.83998,20496718.03923],[19.9268313,60.0958139,6664749.99642,20495928.99855],[19.86,59.98,6651852.84582,20492183.28895],[20.12,60.15,6670790.90770,20506665.66258]]){const result=box.grid(lon,lat);assert.ok(Math.abs(result[0]-n)<1);assert.ok(Math.abs(result[1]-e)<1);}

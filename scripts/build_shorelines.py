@@ -2,7 +2,7 @@
 No chronological interpolation. Simplified vector outlines on a ~19 m ground grid.
 Dependencies: rasterio, numpy, shapely. Remote reads use COG range requests.
 """
-import json,math,time,sys
+import json,math,time,sys,gzip
 from pathlib import Path
 import numpy as np
 import rasterio
@@ -30,7 +30,7 @@ def round_coords(obj):
  return obj
 
 def build(year):
- p=out/f'{year}.json'
+ p=out/f'{year}.json.gz'
  if p.exists():return year
  start=time.time();url=f'https://maannousu.info/api/v2/{year}'
  with rasterio.Env(GDAL_DISABLE_READDIR_ON_OPEN='EMPTY_DIR',GDAL_HTTP_TIMEOUT='45',GDAL_HTTP_MAX_RETRY='2',GDAL_HTTP_RETRY_DELAY='2',GDAL_CACHEMAX=128):
@@ -45,12 +45,12 @@ def build(year):
    g=shape(geom).simplify(.22,preserve_topology=True)
    if g.area>.02:geoms.append(g)
   result['classes'][name]=[round_coords(mapping(g)['coordinates']) for g in geoms]
- p.write_text(json.dumps(result,separators=(',',':')))
+ p.write_bytes(gzip.compress(json.dumps(result,separators=(',',':')).encode(),compresslevel=9,mtime=0))
  print(year,'classes',dict(zip(*np.unique(arr,return_counts=True))), 'bytes',p.stat().st_size,'secs',round(time.time()-start),flush=True)
  return year
 def try_build(year):
  try:return build(year)
  except Exception as e:print('FAILED',year,str(e),flush=True);return None
 with ThreadPoolExecutor(max_workers=3) as pool:list(pool.map(try_build,selected))
-manifest={'years':sorted(int(p.stem) for p in out.glob('*.json') if p.stem.lstrip('-').isdigit()),'source':'https://maannousu.info/index_sv','attribution':'Antti Kekki / maannousu.info · Glare 2.2, Aki Hakonen · MML höjdmodell 2 m (2023)','license':'CC BY 4.0','derived':'Ålandsutsnitt omprojicerade till Web Mercator och förenklade till vektorkonturer; cirka 19 m beräkningsrutnät vid 60°N. Ingen interpolation mellan år.','unavailableYears':[y for y in years if not (out/f'{y}.json').exists()],'model':'Glare 2.2','meta':m,'downloaded':'2026-10-12'}
+manifest={'years':sorted(int(p.name.removesuffix('.json.gz')) for p in out.glob('*.json.gz')),'source':'https://maannousu.info/index_sv','attribution':'Antti Kekki / maannousu.info · Glare 2.2, Aki Hakonen · MML höjdmodell 2 m (2023)','license':'CC BY 4.0','derived':'Ålandsutsnitt omprojicerade till Web Mercator och förenklade till vektorkonturer; cirka 19 m beräkningsrutnät vid 60°N. Ingen interpolation mellan år.','unavailableYears':[y for y in years if not (out/f'{y}.json.gz').exists()],'model':'Glare 2.2','meta':m,'downloaded':'2026-10-12'}
 (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,separators=(',',':')))

@@ -9,7 +9,7 @@ class ShorelineModel {
   const note=year===target?'Strandlinjemodell '+label(target):'Valt år '+label(year)+' · strandlinjemodell '+label(target);
   this.status.textContent=this.cache.has(target)?note+(year===2026?' · Mariehamns kust: OSM 2026':year>1900?' · senare strandbyggnation ingår inte':''):this.failed.has(target)?'Strandlinjen kunde inte laddas för modellåret.':'Laddar strandlinjemodell '+label(target)+'…';
   if(this.cache.has(target)||this.pending.has(target)||this.failed.has(target))return;
-  const task=fetch(`assets/shorelines/${target}.json`).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{this.cache.set(target,this.paths(data));while(this.cache.size>8)this.cache.delete(this.cache.keys().next().value)}).catch(()=>this.failed.add(target)).finally(()=>{this.pending.delete(target);if(this.target===target)this.change()});this.pending.set(target,task);
+  const task=fetch(`assets/shorelines/${target}.json.gz`).then(async r=>{if(!r.ok)throw Error();const bytes=new Uint8Array(await r.arrayBuffer());if(bytes[0]===31&&bytes[1]===139)return new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).json();return JSON.parse(new TextDecoder().decode(bytes))}).then(data=>{this.cache.set(target,this.paths(data));while(this.cache.size>8)this.cache.delete(this.cache.keys().next().value)}).catch(()=>this.failed.add(target)).finally(()=>{this.pending.delete(target);if(this.target===target)this.change()});this.pending.set(target,task);
  }
  draw(ctx,v){this.update(v.year);if(v.year<(this.manifest?.years[0]??-9750)){ctx.fillStyle='#e3eeec';ctx.fillRect(0,0,v.width,v.height);return}
   const paths=this.cache.get(this.target);ctx.fillStyle='#b8d7da';ctx.fillRect(0,0,v.width,v.height);if(!paths)return;
