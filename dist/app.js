@@ -112,7 +112,8 @@ if($('#back'))$('#back').onclick=()=>{selected=null;explorer.selected=null;updat
 $('#placeCount').textContent=visible().length;$('#places').innerHTML=visible().map(b=>`<button class="place ${b.id===selected?'active':''}" data-id="${b.id}"><span class="icon">${symbol(b.type,b.recon)}</span><span>${b.id==='bomarsund'&&year>=1854?'Bomarsunds ruiner':b.name}<small>${b.loc}${b.recon?' · rekonstruktion':''}</small></span><span class="arrow">›</span></button>`).join('')||'<p class="asidehint">Inga byggnader visas under den här perioden. Följ hur landet förändras.</p>';
 $('#places').querySelectorAll('button').forEach(el=>el.onclick=()=>selectBuilding(el.dataset.id,true));$('#previous').disabled=pos<=0;$('#next').disabled=pos>=MAX_TIME;if(selectedFeature)showFeatureStory();
 }
-function setTime(p){selectedFeature=null;explorer.selected=null;pos=Math.max(0,Math.min(MAX_TIME,Number(p)));let i=Math.min(LAST-1,Math.floor(pos/100)),t=(pos-i*100)/100;year=Math.round(eras[i].y+(eras[i+1].y-eras[i].y)*t);if(year===0)year=1;era=Math.max(0,eras.findLastIndex(e=>year>=e.y));$('#jumpYear').value=year;$('#time').value=pos;$('#time').setAttribute('aria-valuetext',date(year));updateUI();draw()}
+function yearAtPosition(p){const i=Math.min(LAST-1,Math.floor(p/100)),t=(p-i*100)/100;return Math.round(eras[i].y+(eras[i+1].y-eras[i].y)*t)||1}
+function setTime(p){selectedFeature=null;explorer.selected=null;pos=Math.max(0,Math.min(MAX_TIME,Number(p)));year=yearAtPosition(pos);era=Math.max(0,eras.findLastIndex(e=>year>=e.y));$('#jumpYear').value=year;$('#time').value=pos;$('#time').setAttribute('aria-valuetext',date(year));updateUI();draw()}
 function project(lon,lat){return [(lon+180)/360*meta.world-meta.x0,(1-Math.asinh(Math.tan(lat*Math.PI/180))/Math.PI)/2*meta.world-meta.y0]}
 function screen(lon,lat){let [x,y]=project(lon,lat);return[(x-meta.width/2)*fit*zoom+W/2+panX,(y-meta.height/2)*fit*zoom+H/2+panY]}
 function draw(){if(!meta)return;ctx.clearRect(0,0,W,H);let s=fit*zoom;const view={width:W,height:H,zoom,scale:s,panX,panY,meta,year};shorelines.draw(ctx,view);view.overlay=historicalOverlay;
@@ -123,8 +124,22 @@ drawStoryPlaces();let mpp=Math.cos(60.2*Math.PI/180)*40075016.7/meta.world/s;$('
 function resize(){let r=canvas.getBoundingClientRect();W=r.width;H=r.height;let d=window.devicePixelRatio||1;canvas.width=Math.round(W*d);canvas.height=Math.round(H*d);ctx.setTransform(d,0,0,d,0,0);if(meta){const oldFit=fit;fit=Math.min(W/meta.width,H/meta.height)*1.28;panX*=fit/oldFit;panY*=fit/oldFit}draw()}
 function zoomAt(f,x=W/2,y=H/2){let old=zoom;zoom=Math.max(.65,Math.min(256,zoom*f));panX=x-W/2-(x-W/2-panX)*zoom/old;panY=y-H/2-(y-H/2-panY)*zoom/old;draw()}
 function selectBuilding(id,focus){selectedFeature=null;explorer.selected=null;selected=id;const b=buildings.find(x=>x.id===id);explorer.selected=b.osmId||null;if(focus&&meta){zoom=Math.max(zoom,5);let [x,y]=project(b.lon,b.lat);panX=-(x-meta.width/2)*fit*zoom;panY=-(y-meta.height/2)*fit*zoom}pause();updateUI();draw()}
-function pause(){playing=false;clearInterval(timer);$('#play').innerHTML='▶ <span>Spela</span>';$('#play').setAttribute('aria-label','Spela tidsresan')}
-$('#play').onclick=()=>{if(playing){pause();return}if(pos>=MAX_TIME)setTime(0);playing=true;$('#play').innerHTML='Ⅱ <span>Pausa</span>';$('#play').setAttribute('aria-label','Pausa tidsresan');lastTick=performance.now();timer=setInterval(()=>{let now=performance.now(),newPos=pos+(now-lastTick)/60;lastTick=now;const stop=(Math.floor(pos/100)+1)*100;if($('#autostop').checked&&newPos>=stop){setTime(stop);pause()}else{setTime(newPos);if(pos>=MAX_TIME)pause()}},100)};
+function pause(){playing=false;cancelAnimationFrame(timer);$('#play').innerHTML='▶ <span>Spela</span>';$('#play').setAttribute('aria-label','Spela tidsresan')}
+function playbackFrame(now){
+ if(!playing)return;
+ // A slow download or a busy/background tab must never cause a jump through time.
+ const elapsed=Math.min(100,Math.max(0,now-lastTick));
+ if(elapsed<32){timer=requestAnimationFrame(playbackFrame);return}lastTick=now;
+ const stop=(Math.floor(pos/100)+1)*100;
+ const nextPos=Math.min(MAX_TIME,$('#autostop').checked?stop:MAX_TIME,pos+elapsed/60);
+ if(shorelines.prepare(yearAtPosition(nextPos))){
+  if(yearAtPosition(nextPos)!==year)setTime(nextPos);
+  else{pos=nextPos;$('#time').value=pos}
+  if(pos>=MAX_TIME||($('#autostop').checked&&pos>=stop)){pause();return}
+ }
+ timer=requestAnimationFrame(playbackFrame);
+}
+$('#play').onclick=()=>{if(playing){pause();return}if(pos>=MAX_TIME)setTime(0);playing=true;$('#play').innerHTML='Ⅱ <span>Pausa</span>';$('#play').setAttribute('aria-label','Pausa tidsresan');lastTick=performance.now();shorelines.prepare(year);timer=requestAnimationFrame(playbackFrame)};
 $('#time').oninput=e=>{pause();setTime(e.target.value)};$('#previous').onclick=()=>{pause();setTime(Math.max(0,Math.ceil(pos/100)-1)*100)};$('#next').onclick=()=>{pause();setTime(Math.min(LAST,Math.floor(pos/100)+1)*100)};document.querySelectorAll('[data-year]').forEach(b=>{b.style.left=(positionForYear(Number(b.dataset.year))/MAX_TIME*100)+'%';b.onclick=()=>{pause();selected=null;goToYear(Number(b.dataset.year))}});
 $('#zoomIn').onclick=()=>zoomAt(1.6);$('#zoomOut').onclick=()=>zoomAt(1/1.6);$('#reset').onclick=()=>{zoom=1;panX=panY=0;draw()};canvas.addEventListener('wheel',e=>{e.preventDefault();const r=canvas.getBoundingClientRect();zoomAt(e.deltaY>0?.88:1.14,e.clientX-r.left,e.clientY-r.top)},{passive:false});
 function cancelMapGesture(){pointers.clear();gesture=null;dragged=false}
