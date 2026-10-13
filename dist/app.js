@@ -59,7 +59,7 @@ const buildings=[
 ];
 eras.push(
  {y:-5000,title:'Tidiga spår i Saltvik',tag:'De första boplatserna',text:'Små stenbitar och eldstäder berättar att människor har bott här. I Bertby finns en av de tidiga boplatserna.',q:'Vad kan en liten stenbit berätta?',more:'Registret anger omkring 5000 f.Kr. för Bertby. Dateringar är ungefärliga och kan omprövas.',src:'heritage'},
- {y:1750,title:'Brev över land och hav',tag:'Postvägen',text:'Brev färdas med människor, hästar och båtar genom Åland. Postförarna hjälps åt från ort till ort.',q:'Hur skulle du skicka ett brev utan bilar och flygplan?',more:'Postförbindelsen över Åland inrättades 1638 och användes sista gången vintern 1910–1911. Kartlagret bygger på en karta från 1700-talet och dateras inte tillbaka till grundandet; se Carlssons 1700-talskarta i kartarkivet.',src:'postal'},
+ {y:1750,title:'Brev över land och hav',tag:'Postvägen',text:'Brev färdas från Sverige över Åland till Finland. Postförarna går, rider och ror mellan Grisslehamn, Eckerö, Vårdö, Kumlinge, Brändö och den finska kusten.',q:'Hur skulle du skicka ett brev utan bilar och flygplan?',more:'Postförbindelsen över Åland inrättades 1638 och användes sista gången vintern 1910–1911. Linjen går från Grisslehamn via Signilskär och Åland till Vartsala och Tuomois i Töfsala. Den är schematisk och bygger på Carlssons 1700-talskarta. Från 1756 visas den nya hamnen i Grisslehamn. Den större förbindelsen gick mellan Stockholm och Åbo; dessa landsträckor ligger utanför vårt ruttutsnitt. Kartlagret dateras inte tillbaka till grundandet. Sveriges kust är en förenklad nutida referens, inte en daterad strandlinje.',src:'postal'},
  {y:1894,title:'Åland på en gammal karta',tag:'Åland 1894',text:'På en gammal karta kan du känna igen öar och ortnamn. Vad är annorlunda jämfört med idag?',q:'Kan du hitta en plats som du känner igen?',more:'Originalkartan från 1894 finns i kartarkivet, via British Library och Wikimedia Commons.',src:'atlas'},
  {y:1942,title:'Mariehamn från luften',tag:'Flygfoto 1942',text:'Ett flygfoto fångar staden som den såg ut en viss dag. Öppna kartarkivet för att se husen och gatorna från 1942.',q:'Vilka gator och hus känner du igen?',more:'Mariehamns stads flygfoto togs den 25 juli 1942. Vi daterar inte dagens byggnader bakåt utifrån deras nutida konturer.',src:'photo'},
  {y:2021,title:'En stad att jämföra',tag:'Flygfoto 2021',text:'Staden har vuxit. Jämför flygfotot från 2021 med bilden från 1942 och leta efter hus, gator och stränder som förändrats.',q:'Var har det kommit flest nya hus?',more:'Mariehamns stads flygfoto togs den 6 juni 2021. Nutida vektordata i vår karta är hämtade 2026 och visas vid det årtalet.',src:'photo'}
@@ -137,7 +137,7 @@ $('#story').querySelectorAll('[data-city-plan]').forEach(el=>el.onclick=()=>el.d
 $('#story').querySelectorAll('[data-city-museum]').forEach(el=>el.onclick=()=>el.dataset.cityMuseum==='original'?window.openCityMapArchive('1920'):window.openCityMap('1920',Number(el.dataset.cityMuseum)));
 $('#story').querySelectorAll('[data-early-map]').forEach(el=>el.onclick=()=>window.openEarlyMapArchive(el.dataset.earlyMap==='compare'));
 if($('#focusRouteEvent'))$('#focusRouteEvent').onclick=()=>openShipRoute(e.routeId);
-if(!b&&e.y===1750)$('#story details').insertAdjacentHTML('beforeend','<p>'+sourceLink('postalEnd')+'</p>');
+if(!b&&e.y===1750){$('#story details').insertAdjacentHTML('beforeend','<p>'+sourceLink('postalEnd')+'</p><p><a href="https://www.sjofartsmuseet.se/Postrodden/Postroddens-historia.html" target="_blank" rel="noopener noreferrer">Roslagens sjöfartsmuseum · flytten 1756 ↗</a></p><p><a href="https://visitkustavi.fi/en/kohde/suuri-postitie/" target="_blank" rel="noopener noreferrer">Gustavs · postvägen till Vartsala ↗</a></p>');$('#story').insertAdjacentHTML('beforeend','<button id="showPostalRoute">Visa postvägen Sverige–Finland</button>');$('#showPostalRoute').onclick=()=>{explorer.flags.postal=true;$('#layerPostal').checked=true;focusPostalRoute();window.MapUI?.showMap()}}
 updateRouteList();
 if($('#fortressClose'))$('#fortressClose').onclick=()=>{const main=window.BOMARSUND_PLACES[0];focusMap(main.lon,main.lat,100);selectBuilding(main.id,false)};
 $('#story').querySelectorAll('[data-fortress-year]').forEach(el=>el.onclick=()=>openBomarsund(Number(el.dataset.fortressYear)));
@@ -157,7 +157,7 @@ ctx.save();ctx.fillStyle='#54797c';ctx.font='italic 17px Georgia';ctx.textAlign=
 if(year>=-4000){ctx.font='10px -apple-system,sans-serif';ctx.textAlign='center';ctx.fillStyle='#65775c';[['GETA',19.84,60.38],['SALT VIK',20.12,60.34],['ECKERÖ',19.57,60.22],['JOMALA',19.90,60.18],['FÖGLÖ',20.46,60.02],['KUMLINGE',20.75,60.25],['KÖKAR',20.90,59.91],['BRÄNDÖ',21.03,60.42]].forEach(([n,x,y])=>{let p=screen(x,y);ctx.fillText(n==='SALT VIK'?'SALTVIK':n,...p)})}
 drawStoryPlaces();hits.push(...BomarsundPlan.draw(ctx,visible().filter(b=>b.category==='fortress'),screen,year,zoom,selected,W,H));let mpp=Math.cos(60.2*Math.PI/180)*40075016.7/meta.world/s;$('#scale').textContent=mpp*60<1000?Math.round(mpp*60/10)*10+' m':(mpp*60/1000).toFixed(zoom>5?1:0)+' km';$('#scale').style.width='60px'}
 function resize(){let r=canvas.getBoundingClientRect();W=r.width;H=r.height;let d=window.devicePixelRatio||1;canvas.width=Math.round(W*d);canvas.height=Math.round(H*d);ctx.setTransform(d,0,0,d,0,0);if(meta){const oldFit=fit;fit=Math.min(W/meta.width,H/meta.height)*1.28;panX*=fit/oldFit;panY*=fit/oldFit}draw()}
-function zoomAt(f,x=W/2,y=H/2){let old=zoom;zoom=Math.max(.65,Math.min(256,zoom*f));panX=x-W/2-(x-W/2-panX)*zoom/old;panY=y-H/2-(y-H/2-panY)*zoom/old;draw()}
+function zoomAt(f,x=W/2,y=H/2){let old=zoom;zoom=Math.max(.3,Math.min(256,zoom*f));panX=x-W/2-(x-W/2-panX)*zoom/old;panY=y-H/2-(y-H/2-panY)*zoom/old;draw()}
 function selectBuilding(id,focus){selectedFeature=null;explorer.selected=null;selected=id;const b=buildings.find(x=>x.id===id);explorer.selected=b.osmId||null;if(focus&&b.category==='fortress'){fitBomarsund();focus=false}if(focus&&meta){zoom=Math.max(zoom,5);let [x,y]=project(b.lon,b.lat);panX=-(x-meta.width/2)*fit*zoom;panY=-(y-meta.height/2)*fit*zoom}pause();updateUI();draw();window.MapUI?.showStory(true)}
 function pause(){const wasPlaying=playing;playing=false;cancelAnimationFrame(timer);$('#play').innerHTML='▶ <span>Spela</span>';$('#play').setAttribute('aria-label','Spela tidsresan');if(wasPlaying)window.MapUI?.playbackStopped()}
 function playbackFrame(now){
@@ -188,6 +188,14 @@ $('#sources').innerHTML=Object.keys(sources).map(k=>`<li>${sourceLink(k)}</li>`)
 function positionForYear(y){let i=Math.max(0,eras.findLastIndex(e=>y>=e.y));if(i>=LAST)return MAX_TIME;return i*100+(y-eras[i].y)/(eras[i+1].y-eras[i].y)*100}
 function goToYear(y){setTime(positionForYear(Math.max(-12000,Math.min(2026,y))))}
 function focusMap(lon,lat,targetZoom=24){if(!meta)return;zoom=targetZoom;let[x,y]=project(lon,lat);panX=-(x-meta.width/2)*fit*zoom;panY=-(y-meta.height/2)*fit*zoom;draw()}
+function focusPostalRoute(){
+ if(!meta)return;
+ const points=window.postalRouteForYear(year).map(p=>project(p.lon,p.lat));if(!points.length)return;
+ const xs=points.map(p=>p[0]),ys=points.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);
+ // Fit both endpoints even on narrow phones; labels face into the viewport.
+ zoom=Math.max(.3,Math.min(2,(W-64)/((right-left)*fit),(H-100)/((bottom-top)*fit)));
+ panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom;draw();
+}
 function showFeatureStory(){$('#story').innerHTML=selectedFeature.recordType==='shipRoute'?TransportRoutes.story(selectedFeature):selectedFeature.recordType==='historicalRoad'?historicalRoads.story(selectedFeature):explorer.story(selectedFeature);$('#backFeature').onclick=()=>{selectedFeature=null;explorer.selected=null;updateUI();draw()};window.MapUI?.refreshStory()}
 function selectFeature(f,focus){if(f.recordType==='shipRoute'){openShipRoute(f.id,focus);return}const story=visible().find(b=>b.osmId===f.id);if(story){selectBuilding(story.id,focus);return}pause();selected=null;selectedFeature=f;explorer.selected=f.id;if(focus&&!f.kind)focusMap(f.lon,f.lat,Math.max(zoom,16));showFeatureStory();draw();window.MapUI?.showStory(true)}
 $('#time').max=MAX_TIME;
@@ -199,7 +207,7 @@ $('#focusMariehamn').onclick=()=>{pause();clearSearch();goToYear(2026);focusMap(
 $('#focusStone').onclick=()=>{pause();clearSearch();goToYear(-4000);focusMap(20.130,60.316,16)};
 $('#focusFortress').onclick=()=>openBomarsund(1853);
 $('#layerFortress').onchange=()=>{updateUI();draw()};
-$('#focusPostal').onclick=()=>{pause();$('#layerPostal').checked=true;explorer.flags.postal=true;goToYear(1750);focusMap(20.05,60.25,1.4)};
+$('#focusPostal').onclick=()=>{pause();$('#layerPostal').checked=true;explorer.flags.postal=true;goToYear(1750);focusPostalRoute()};
 for(const[id,key]of [['layerHeritage','heritage'],['layerUndated','undated'],['layerModern','modern'],['layerPostal','postal'],['layerUncertain','uncertain'],['layerTraces','traces'],['layerHistoric','historic'],['layerBoundaries','boundaries']])$("#"+id).onchange=e=>{explorer.flags[key]=e.target.checked;explorer.listKey=null;selectedFeature=null;updateUI();draw()};
 $('#categoryFilter').onchange=e=>{explorer.category=e.target.value;explorer.listKey=null;draw()};
 $('#layerRecon').onchange=()=>{updateUI();draw()};

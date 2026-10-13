@@ -77,3 +77,22 @@ test('medieval line is clickable only inside its period and matching filter',()=
  assert.equal(routes.draw(ctx,{...v,year:2026},screen,true).length,0);
  assert.equal(routes.draw(ctx,{...v,routeGroup:'archipelago'},screen,true).length,0);
 });
+
+test('postal route reaches Sweden and mainland Finland and switches harbour in 1756',()=>{
+ const postal={window:{}};vm.createContext(postal);
+ vm.runInContext(fs.readFileSync('dist/archive.js','utf8').split('(()=>{')[0],postal);
+ for(const y of [1700,1755,1756,1911]){
+  const stops=postal.window.postalRouteForYear(y);
+  assert.equal(stops[0].country,'Sverige');assert.equal(stops.at(-1).country,'Finland');
+  assert.ok(stops[0].lon<19);assert.ok(stops.at(-1).lon>21.4);
+  assert.equal(stops[0].name,y<1756?'Gamla Grisslehamn':'Grisslehamn');
+  for(const name of ['Signilskär','Eckerö','Kumlinge','Brändö','Vartsala Söderby'])assert.ok(stops.some(p=>p.name===name));
+  assert.ok(stops.every(p=>Number.isFinite(p.lon)&&Number.isFinite(p.lat)));
+ }
+ for(const y of [1638,1699,1912,2026])assert.equal(postal.window.postalRouteForYear(y).length,0);
+ const l=new box.Layers(()=>{},()=>{}),labels=[];
+ box.window=postal.window;l.project=(lon,lat)=>[lon,lat];l.screen=p=>p;
+ const ctx=new Proxy({},{get:(_,key)=>key==='fillText'?(label)=>labels.push(label):()=>{},set:()=>true});
+ l.drawPostal(ctx,{year:1750,zoom:.5});assert.ok(labels.includes('Sverige'));assert.ok(labels.includes('Finland'));assert.ok(labels.includes('Gamla Grisslehamn'));
+ labels.length=0;l.drawPostal(ctx,{year:1756,zoom:.5});assert.ok(labels.includes('Grisslehamn'));assert.ok(!labels.includes('Gamla Grisslehamn'));
+});

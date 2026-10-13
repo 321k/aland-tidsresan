@@ -9,8 +9,29 @@
     "sources": [
       "https://www.postmuseum.se/bocker/1966/1966_5-19-52_Naucl%C3%A9r.pdf",
       "https://www.uppslagsverket.fi/sv/view-170045-Postvaegen",
-      "https://digitaltmuseum.se/011024626117/karta"
-    ]
+      "https://digitaltmuseum.se/011024626117/karta",
+      "https://www.sjofartsmuseet.se/Postrodden/Postroddens-historia.html",
+      "https://www.postmuseum.se/bocker/2020/2020_4-26-48_Heijtz.pdf",
+      "https://visitkustavi.fi/en/kohde/suuri-postitie/",
+      "https://mapcarta.com/17771690",
+      "https://mapcarta.com/13665860",
+      "https://mapcarta.com/13613174"
+    ],
+    "extent": "Grisslehamn, Sweden — Signilskär — Eckerö — Vårdö — Kumlinge — Brändö — Vartsala Söderby — Tuomois (Tuomoinen), Töfsala, Finland. Stockholm and Åbo land approaches are outside this excerpt.",
+    "geometry": "Schematic connections between representative places, not surveyed road alignments, exact post-farm locations or navigation tracks. Coordinates rounded/located using OSM place points; interpretation of Carlsson map. No claim of unchanging route throughout 1700–1911.",
+    "swedishEndpointChange": {
+      "year": 1756,
+      "before": "Gamla Grisslehamn",
+      "after": "Grisslehamn",
+      "note": "Move represented at annual resolution; fire was in 1754."
+    },
+    "verifiedOn": "2026-10-13",
+    "contextCoast": {
+      "source": "https://www.naturalearthdata.com/",
+      "asset": "assets/postal-context.json",
+      "license": "Public Domain",
+      "note": "Modern 1:10m Swedish coast for orientation alongside the active route, not a reconstruction of historical shorelines."
+    }
   },
   "shipping": {
     "geometry": "OSM ferry ways and port nodes for local Åland geometry; international connections outside Åland and historical routes partly schematic. OSM is not evidence that a service operates or when it began. See per-route geometryNote.",
