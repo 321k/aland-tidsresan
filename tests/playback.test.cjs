@@ -30,7 +30,7 @@ test('returning to the ice age clears the later shoreline fallback',()=>{
  const {model}=shore();model.cache.set(-4000,{land:-4000});model.update(-4000);model.update(-12000);assert.equal(model.displayed,null);
 });
 function playback(){
- const elements=new Map(),s={playing:true,pos:0,year:-4000,LAST:1,MAX_TIME:100,lastTick:0,eras:[{y:-4000},{y:-3000}],timer:null,ready:false,frames:[],updates:[],shorelines:{prepare:()=>s.ready},$:id=>{if(!elements.has(id))elements.set(id,{checked:false,setAttribute(){}});return elements.get(id)},requestAnimationFrame:f=>{s.frames.push(f);return s.frames.length},cancelAnimationFrame(){},setTime:p=>{s.pos=p;s.year=s.yearAtPosition(p);s.updates.push(p)}};
+ const elements=new Map(),s={window:{},playing:true,pos:0,year:-4000,LAST:1,MAX_TIME:100,lastTick:0,eras:[{y:-4000},{y:-3000}],timer:null,ready:false,frames:[],updates:[],shorelines:{prepare:()=>s.ready},$:id=>{if(!elements.has(id))elements.set(id,{checked:false,setAttribute(){}});return elements.get(id)},requestAnimationFrame:f=>{s.frames.push(f);return s.frames.length},cancelAnimationFrame(){},setTime:p=>{s.pos=p;s.year=s.yearAtPosition(p);s.updates.push(p)}};
  vm.createContext(s);const source=fs.readFileSync('dist/app.js','utf8');vm.runInContext(source.slice(source.indexOf('function yearAtPosition('),source.indexOf('function setTime('))+source.slice(source.indexOf('function pause()'),source.indexOf("$('#play').onclick=")),s);return s;
 }
 test('buffering freezes time and resumes without catching up or skipping a stop',()=>{

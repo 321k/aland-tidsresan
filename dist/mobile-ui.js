@@ -1,29 +1,44 @@
-/* Keep the map and time controls in view on phones; reuse the desktop content. */
+/* One map workspace on every screen: menu dialog and nonmodal story card. */
 (()=>{
- const media=matchMedia('(max-width:800px), (max-width:950px) and (max-height:500px)'),panel=document.querySelector('#explorePanel'),content=panel.querySelector('.panel-content'),open=document.querySelector('#openExplore'),close=document.querySelector('#closeExplore'),legend=document.querySelector('#toggleLegend');
- function setOpen(value,target){
-  if(!media.matches)return;
-  document.body.classList.toggle('explore-open',value);panel.inert=!value;open.setAttribute('aria-expanded',String(value));
-  if(value){
-   if(typeof pause==='function')pause();
-   content.scrollTop=target==='story'?document.querySelector('#story').offsetTop-16:0;
-   close.focus({preventScroll:true});
-  }else open.focus({preventScroll:true});
+ const $=s=>document.querySelector(s),menu=$('#explorePanel'),popup=$('#storyPopup'),open=$('#openExplore'),reopen=$('#reopenStory');
+ let lastEra=null,lastYear=null;
+ function closeMenu(){if(menu.open)menu.close();open.setAttribute('aria-expanded','false')}
+ function hideStory(restoreFocus=false){
+  const inside=popup.contains(document.activeElement);popup.hidden=true;reopen.setAttribute('aria-expanded','false');
+  if(restoreFocus&&inside)reopen.focus({preventScroll:true});
  }
- function sync(){
-  const active=document.activeElement;
-  document.body.classList.remove('explore-open','mobile-legend-open');
-  panel.inert=media.matches;open.setAttribute('aria-expanded','false');legend.setAttribute('aria-expanded','false');
-  if(media.matches&&panel.contains(active))open.focus({preventScroll:true});
-  else if(!media.matches&&active?.closest('.mobile-map-actions,.mobile-panel-head'))document.querySelector('#map').focus({preventScroll:true});
+ function refreshStory(){
+  const story=$('#story'),heading=story.querySelector('h2'),more=story.querySelector('details');
+  if(heading){heading.id='storyHeading';popup.setAttribute('aria-labelledby','storyHeading')}
+  if(more)for(const extra of story.querySelectorAll(':scope > .question, :scope > .wikipedia-link'))more.append(extra);
  }
- open.onclick=()=>setOpen(true,'explore');close.onclick=()=>setOpen(false);
- document.querySelector('#panelStory').onclick=()=>{content.scrollTop=document.querySelector('#story').offsetTop-16};
- document.querySelector('#panelExplore').onclick=()=>{content.scrollTop=0};
- legend.onclick=()=>{const visible=document.body.classList.toggle('mobile-legend-open');legend.setAttribute('aria-expanded',String(visible))};
- document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!document.querySelector('dialog[open]')&&document.body.classList.contains('explore-open')){setOpen(false);e.preventDefault()}});
- // Starting playback returns to the map, where changes can be watched.
- document.querySelector('#play').addEventListener('click',()=>{if(media.matches&&document.body.classList.contains('explore-open'))setOpen(false)});
- window.MobileMapUI={isMobile:()=>media.matches,showStory:()=>setOpen(true,'story'),showMap:()=>setOpen(false)};
- media.addEventListener('change',sync);sync();
+ function showStory(focus=false){
+  refreshStory();
+  closeMenu();popup.hidden=false;reopen.setAttribute('aria-expanded','true');popup.scrollTop=0;
+  if(focus)$('#closeStory').focus({preventScroll:true});
+ }
+ function timeChanged(state){
+  $('#storyDate').textContent=state.date;$('#stopTitle').textContent=state.title;
+  const newStop=state.era!==lastEra||(state.atStop&&state.year!==lastYear);
+  lastEra=state.era;lastYear=state.year;
+  if(state.playing)hideStory();else if(newStop)showStory();
+ }
+ open.onclick=()=>{pause();hideStory();menu.showModal();open.setAttribute('aria-expanded','true');$('#closeExplore').focus({preventScroll:true})};
+ $('#closeExplore').onclick=closeMenu;
+ menu.addEventListener('close',()=>{open.setAttribute('aria-expanded','false');if(document.activeElement===document.body||menu.contains(document.activeElement))open.focus({preventScroll:true})});
+ menu.addEventListener('click',e=>{if(e.target===menu){const b=menu.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)closeMenu()}});
+ $('#closeStory').onclick=()=>hideStory(true);reopen.onclick=()=>{pause();showStory(true)};
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!document.querySelector('dialog[open]')&&!popup.hidden){hideStory(true);e.preventDefault()}});
+ // Close the menu before opening an archive/source dialog or visiting a place.
+ for(const id of ['openArchive','about'])$('#'+id).addEventListener('click',closeMenu,{capture:true});
+ for(const id of ['archive','info'])$('#'+id).addEventListener('close',()=>{if(popup.hidden)open.focus({preventScroll:true})});
+ for(const id of ['focusMariehamn','focusStone','focusPostal','focusFortress','zoomIn','zoomOut','reset'])$('#'+id).addEventListener('click',()=>{closeMenu();if(['zoomIn','zoomOut','reset'].includes(id))hideStory()});
+ $('#modernPlace').addEventListener('change',closeMenu);
+ $('#jumpYear').addEventListener('change',()=>{closeMenu();showStory()});
+ $('#jumpYear').addEventListener('keydown',e=>{if(e.key==='Enter'){closeMenu();showStory()}});
+ $('#mapBackground').addEventListener('change',()=>{closeMenu();hideStory()});
+ $('#time').addEventListener('change',()=>{if(!playing)showStory()});
+ window.MapUI={showStory,refreshStory,showMap:()=>{closeMenu();hideStory()},timeChanged,playbackStarted:()=>{closeMenu();hideStory()},playbackStopped:()=>showStory()};
+ // app.js renders the initial story before this controller loads.
+ timeChanged({era,year,date:date(year),title:eras[era].title,atStop:true,playing});
 })();
