@@ -41,6 +41,7 @@ class ExplorerLayers {
  render(ctx,view){if(!this.prepared)return;this.hits=[];this.drawn=[];this.viewList=[];this.view=view;
   if(view.year>=2026)this.drawCoast(ctx,view);
   view.overlay?.draw(ctx,view);
+  view.cityGrid?.draw(ctx,view,this.project);
   view.historicalRoads?.draw(ctx,view,this.project);
   if(view.year>=2026&&this.flags.modern)this.drawModern(ctx,view);
   if(ExplorerLayers.postalVisible(view.year)&&this.flags.postal)this.drawPostal(ctx,view);
@@ -98,7 +99,7 @@ class ExplorerLayers {
    ctx.strokeStyle=color;ctx.fillStyle=state==='possible'||state==='undated'?'#faf7e8':color;ctx.lineWidth=1.8;if(state==='undated')ctx.setLineDash([2,2]);
    ctx.beginPath();if(cluster)ctx.arc(x,y,12,0,Math.PI*2);else if(f.category==='building'||f.category==='foundation')ctx.rect(x-7,y-5,14,10);else if(f.category==='grave'){ctx.moveTo(x,y-7);ctx.lineTo(x+7,y+5);ctx.lineTo(x-7,y+5);ctx.closePath()}else if(f.category==='road'){ctx.moveTo(x-7,y+5);ctx.lineTo(x+7,y-5)}else ctx.arc(x,y,5.5,0,Math.PI*2);ctx.fill();ctx.stroke();
    if(cluster){ctx.textAlign='center';ctx.textBaseline='middle';ctx.font='bold 10px sans-serif';ctx.fillStyle=state==='possible'?'#5d5144':'#fff';ctx.fillText(entries.length,x,y)}else if(f.category==='building'){ctx.beginPath();ctx.moveTo(x-7,y);ctx.lineTo(x+7,y);ctx.strokeStyle=state==='possible'?color:'#eee5d5';ctx.stroke();if(state==='trace'){ctx.beginPath();ctx.moveTo(x-9,y-7);ctx.lineTo(x+9,y+7);ctx.strokeStyle=color;ctx.stroke()}}
-   if(!cluster&&(this.selected===f.id||(f.category==='building'&&v.zoom>=32))){ctx.font='11px -apple-system,sans-serif';ctx.textAlign='center';ctx.lineWidth=3;ctx.strokeStyle='#faf7e8';ctx.strokeText(f.name,x,y+21);ctx.fillStyle='#435445';ctx.fillText(f.name,x,y+21)}ctx.restore();this.hits.push({x,y,r:cluster?16:12,entries:entries.map(e=>e.f)});
+   if(!cluster&&(this.selected===f.id||(f.category==='building'&&v.zoom>=(v.cityGrid?.stage(v.year)?90:32)))){ctx.font='11px -apple-system,sans-serif';ctx.textAlign='center';ctx.lineWidth=3;ctx.strokeStyle='#faf7e8';ctx.strokeText(f.name,x,y+21);ctx.fillStyle='#435445';ctx.fillText(f.name,x,y+21)}ctx.restore();this.hits.push({x,y,r:cluster?16:12,entries:entries.map(e=>e.f)});
   }
  }
 

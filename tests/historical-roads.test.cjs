@@ -43,3 +43,9 @@ test('prebuilt spatial index returns the same features as a full scan',()=>{
   const expected=d.features.filter(f=>f.bounds[0]<=b[2]&&f.bounds[2]>=b[0]&&f.bounds[1]<=b[3]&&f.bounds[3]>=b[1]).map(f=>f.id).sort();assert.deepEqual(Array.from(roads.inView(d,b),f=>f.id).sort(),expected)
  }
 });
+test('city grid replaces old city lines without losing the fallback layer',()=>{
+ const roads=new Roads(()=>{});roads.sets=structuredClone(curated.sets);roads.manifestReady=true;
+ const ctx=new Proxy({},{get:()=>()=>{},set:()=>true}),view={year:1942,width:1000,height:600,scale:100,meta:{width:40,height:120,world:262144},panX:0,panY:0,cityGrid:{replacesRoads:()=>true,stage:()=>({name:'Gatunät 1942'})}};
+ roads.draw(ctx,view,(lon,lat)=>[lon,lat]);assert.ok(roads.drawn.every(f=>!['museum-1920','photo-1942'].includes(f.sourceSet.id)));assert.ok(roads.drawn.length>0);
+ view.cityGrid.replacesRoads=()=>false;roads.draw(ctx,view,(lon,lat)=>[lon,lat]);assert.ok(roads.drawn.some(f=>f.sourceSet.id==='museum-1920'));assert.ok(roads.drawn.some(f=>f.sourceSet.id==='photo-1942'));
+});

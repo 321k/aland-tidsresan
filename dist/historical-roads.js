@@ -3,7 +3,7 @@ class HistoricalRoads {
  constructor(change){this.change=change;this.enabled=true;this.sets=[];this.cache=new Map();this.loading=new Set();this.failed=new Set();this.drawn=[];this.selected=null;this.manifestReady=false}
  static snapshotYear(year){return year>=2026?null:year>=2025?2025:year>=2021?2021:year>=2014?2014:null}
  static sourceIds(year){if(year<1800||year>=2026)return [];const snapshot=this.snapshotYear(year);if(snapshot)return ['osm-'+snapshot];return [year>=1894?'atlas-1894':'alvin-1800',...(year>=1920?['museum-1920']:[]),...(year>=1942?['photo-1942']:[])]}
- async load(){try{const r=await fetch('assets/historical-roads.json?v=f9222e0082a6');if(!r.ok)throw Error();this.sets=(await r.json()).sets;this.manifestReady=true}catch{this.failed.add('curated')}this.change()}
+ async load(){try{const r=await fetch('assets/historical-roads.json?v=eb6056f20a3a');if(!r.ok)throw Error();this.sets=(await r.json()).sets;this.manifestReady=true}catch{this.failed.add('curated')}this.change()}
  async loadSnapshot(year){if(this.cache.has(year)||this.loading.has(year)||this.failed.has(year))return;this.loading.add(year);try{const response=await fetch(HistoricalRoads.snapshotFiles[year]);const data=await readCompressedJSON(response);if(data.year!==year||!Array.isArray(data.features))throw Error();this.cache.set(year,data)}catch{this.failed.add(year)}this.loading.delete(year);this.change()}
  static snapshotFiles={2014:'assets/roads-2014.json.gz?v=74cbe5e3c340',2021:'assets/roads-2021.json.gz?v=a4f6eaa5be29',2025:'assets/roads-2025.json.gz?v=2e3305d14dd6'};
  sources(year){const ids=HistoricalRoads.sourceIds(year),snapshot=HistoricalRoads.snapshotYear(year);return snapshot?(this.cache.has(snapshot)?[this.cache.get(snapshot)]:[]):this.sets.filter(d=>ids.includes(d.id))}
@@ -32,14 +32,14 @@ class HistoricalRoads {
  }
  draw(ctx,v,project){this.view=v;this.drawn=[];
   const snapshot=HistoricalRoads.snapshotYear(v.year);if(this.enabled&&snapshot)this.loadSnapshot(snapshot);
-  const text=this.status(v.year);for(const id of ['roadStatus']){const el=document.getElementById(id);if(el&&el.textContent!==text)el.textContent=text}
-  const badge=document.getElementById('roadMapStatus');if(badge){badge.hidden=v.year>=2026||v.year<1800||!this.enabled;const label=snapshot?(this.cache.has(snapshot)?'Vägar: OSM '+snapshot+' · kartläggningsår':text):v.year<1894?'Vägar: cirka 1800 · schematiska lägen':'Vägar: 1894'+(v.year>=1920?' / Mariehamn: 1920-tal':'')+(v.year>=1942?' + infarter 1942':'');if(badge.textContent!==label)badge.textContent=label;}
+  const text=v.cityGrid?.replacesRoads(v.year)&&this.enabled?'Regionala vägar: '+(v.year>=1894?'1894':'cirka 1800')+'. Mariehamn: '+v.cityGrid.stage(v.year).name+'. Källåren anger inte byggår.':this.status(v.year);for(const id of ['roadStatus']){const el=document.getElementById(id);if(el&&el.textContent!==text)el.textContent=text}
+  const badge=document.getElementById('roadMapStatus');if(badge){badge.hidden=v.year>=2026||v.year<1800||!this.enabled;const label=v.cityGrid?.replacesRoads(v.year)?'Mariehamn: '+v.cityGrid.stage(v.year).name:snapshot?(this.cache.has(snapshot)?'Vägar: OSM '+snapshot+' · kartläggningsår':text):v.year<1894?'Vägar: cirka 1800 · schematiska lägen':'Vägar: 1894'+(v.year>=1920?' / Mariehamn: 1920-tal':'')+(v.year>=1942?' + infarter 1942':'');if(badge.textContent!==label)badge.textContent=label;}
   if(!this.enabled||v.year>=2026)return;
   const s=v.scale,left=v.meta.width/2+(-v.width/2-v.panX)/s,top=v.meta.height/2+(-v.height/2-v.panY)/s,mpp=Math.cos(60.1*Math.PI/180)*40075016.7/v.meta.world/s;
   const b=[left-10/s,top-10/s,left+v.width/s+10/s,top+v.height/s+10/s];
-  for(const dataset of this.sources(v.year)){this.prepare(dataset,project);this.drawn.push(...this.inView(dataset,b).filter(f=>HistoricalRoads.visibleClass(f.class,mpp)))}
+  for(const dataset of this.sources(v.year)){if(v.cityGrid?.replacesRoads(v.year)&&['museum-1920','photo-1942'].includes(dataset.id))continue;this.prepare(dataset,project);this.drawn.push(...this.inView(dataset,b).filter(f=>HistoricalRoads.visibleClass(f.class,mpp)))}
   ctx.save();ctx.translate(v.width/2+v.panX-v.meta.width/2*s,v.height/2+v.panY-v.meta.height/2*s);ctx.scale(s,s);ctx.lineCap='round';ctx.lineJoin='round';
-  for(const f of this.drawn){f.renderPath=v.year>=1920&&f.pathOutsideCity?f.pathOutsideCity:f.path;const selected=this.selected===f.id,minor=['footway','path','steps','cycleway','track','bridleway'].includes(f.class),approx=f.sourceSet.year<1900,width=selected?4:minor?1.1:['primary','secondary'].includes(f.class)?2.3:1.6;
+  for(const f of this.drawn){f.renderPath=(v.year>=1920||v.cityGrid?.replacesRoads(v.year))&&f.pathOutsideCity?f.pathOutsideCity:f.path;const selected=this.selected===f.id,minor=['footway','path','steps','cycleway','track','bridleway'].includes(f.class),approx=f.sourceSet.year<1900,width=selected?4:minor?1.1:['primary','secondary'].includes(f.class)?2.3:1.6;
    ctx.setLineDash([]);ctx.strokeStyle=approx?'#b59b74':'#9eaa96';ctx.lineWidth=(width+1.2)/s;ctx.stroke(f.renderPath);
    ctx.lineWidth=width/s;ctx.strokeStyle=selected?'#a66b2d':approx?'#f1dba3':'#faf7e7';ctx.setLineDash(minor?[3/s,3/s]:[]);ctx.stroke(f.renderPath);
   }ctx.restore();

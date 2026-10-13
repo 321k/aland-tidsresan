@@ -1,0 +1,134 @@
+{
+  "verifiedOn": "2026-10-13",
+  "traceFile": "data/mariehamn-city-traces.json",
+  "buildScript": "scripts/build_city_grid.py",
+  "policy": "Source snapshots, not inferred construction dates. 1860 remains explicitly a plan through 1919; 1920 denotes a decade. No interpolation of undocumented construction. Derived blocks are street enclosures, not parcels. Museum roof symbols are shown only with the 1920s snapshot (1920–1941), not assumed to survive into later sources. OSM changes may reflect mapping completeness.",
+  "coverage": [
+    19.912,
+    60.079,
+    19.962,
+    60.139
+  ],
+  "interpretation": "Manual source-pixel street centre lines and selected roof symbols. Three inherited street-junction controls for each drawn map, not independently surveyed georeferencing. 1942 uses official EPSG:3874 tile coordinates. Widths are cartographic estimates. Block polygons are generated from street enclosures, inset 4 metres; they are not cadastral parcels. No raster artwork is generated or republished by this workflow.",
+  "knownLimitations": [
+    "1860 remains a plan, not an assertion about built streets in 1861–1919.",
+    "Museum date is a whole decade. Roof rectangles are simplified and are only shown in the 1920–1941 source-selection window; disappearance at 1942 is not a demolition date.",
+    "1942 is a selected street inventory, not a full building reconstruction.",
+    "Different map sources have alignment differences; line shifts need not mean street relocation.",
+    "OSM changes can represent improved mapping as well as physical changes. Modern buildings are not backdated."
+  ],
+  "sources": [
+    {
+      "name": "Stadsplanen 1860",
+      "year": 1860,
+      "url": "assets/mariehamn-plan-1860.png",
+      "counts": {
+        "streets": 16,
+        "blocks": 39,
+        "buildings": 0,
+        "parks": 2
+      },
+      "topology": {
+        "nodes": 77,
+        "edges": 115,
+        "components": 1
+      }
+    },
+    {
+      "name": "Trästaden på 1920-talet",
+      "year": 1920,
+      "url": "https://mpf.spfpension.fi/verksamhet/nybyggarne/mariehamn/",
+      "counts": {
+        "streets": 20,
+        "blocks": 41,
+        "buildings": 216,
+        "parks": 6
+      },
+      "topology": {
+        "nodes": 79,
+        "edges": 116,
+        "components": 1
+      }
+    },
+    {
+      "name": "Gatunätet växer · 1942",
+      "year": 1942,
+      "url": "https://karta.mariehamn.ax/IMS/?layers=Baskarta&lon=Flygfoto%201942&cp=6664855,20496370&z=2",
+      "counts": {
+        "streets": 25,
+        "blocks": 39,
+        "buildings": 0,
+        "parks": 3
+      },
+      "topology": {
+        "nodes": 104,
+        "edges": 141,
+        "components": 1
+      }
+    },
+    {
+      "name": "Mariehamns gatunät · 2014",
+      "year": 2014,
+      "url": "https://www.openstreetmap.org/copyright",
+      "counts": {
+        "streets": 653,
+        "blocks": 124,
+        "buildings": 0,
+        "parks": 0
+      },
+      "topology": {
+        "nodes": 830,
+        "edges": 990,
+        "components": 9
+      }
+    },
+    {
+      "name": "Mariehamns gatunät · 2021",
+      "year": 2021,
+      "url": "https://www.openstreetmap.org/copyright",
+      "counts": {
+        "streets": 840,
+        "blocks": 125,
+        "buildings": 0,
+        "parks": 0
+      },
+      "topology": {
+        "nodes": 1012,
+        "edges": 1188,
+        "components": 9
+      }
+    },
+    {
+      "name": "Mariehamns gatunät · 2025",
+      "year": 2025,
+      "url": "https://www.openstreetmap.org/copyright",
+      "counts": {
+        "streets": 943,
+        "blocks": 120,
+        "buildings": 0,
+        "parks": 0
+      },
+      "topology": {
+        "nodes": 1043,
+        "edges": 1211,
+        "components": 11
+      }
+    },
+    {
+      "name": "Mariehamns gatunät · 2026",
+      "year": 2026,
+      "url": "https://www.openstreetmap.org/copyright",
+      "counts": {
+        "streets": 944,
+        "blocks": 121,
+        "buildings": 0,
+        "parks": 0
+      },
+      "topology": {
+        "nodes": 1046,
+        "edges": 1213,
+        "components": 13
+      }
+    }
+  ]
+}

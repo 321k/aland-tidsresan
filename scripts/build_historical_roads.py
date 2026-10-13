@@ -46,7 +46,7 @@ museum=next(d for d in output if d['id']=='museum-1920')
 points=[p for f in museum['features'] for path in f['paths'] for p in path]
 city=box(min(p[0] for p in points)-.0005,min(p[1] for p in points)-.0003,max(p[0] for p in points)+.0005,max(p[1] for p in points)+.0003)
 for d in output:
- if d['id']!='atlas-1894':continue
+ if d['id'] not in ['alvin-1800','atlas-1894']:continue
  for f in d['features']:
   clipped=LineString(f['paths'][0]).difference(city)
   lines=[] if clipped.is_empty else [clipped] if clipped.geom_type=='LineString' else list(clipped.geoms)
