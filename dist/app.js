@@ -1,6 +1,7 @@
 'use strict';
 const $=s=>document.querySelector(s);
 const sources={
+ itinerary:['Danska itinerariet · Uppslagsverket Finland','https://www.uppslagsverket.fi/sv/view-170045-DanskaItinerariet'],
  eckeroRoute:['Eckerölinjen · Mariehamns stads historia','https://bibliotek.mariehamn.ax/fulltext/MariehamnsHistoria_1961-1986.pdf?dl=0'],
  postalEnd:['Postvägens sista år · Postmuseum','https://www.postmuseum.se/bocker/1966/1966_5-19-52_Naucl%C3%A9r.pdf'],
  shipRoutes:['Färjetrafikens början · Viking Line','https://www.vikingline.com/globalassets/documents/market_specific/corporate/group/the_ships_2026.pdf'],
@@ -67,6 +68,7 @@ Object.assign(buildings.find(b=>b.id==='bomarsund'),window.BOMARSUND_PLACES[0]);
 buildings.push(...window.BOMARSUND_PLACES.slice(1));
 eras.push({y:1853,title:'Ett helt samhälle vid fästningen',tag:'Bomarsund före förstörelsen',text:'Huvudfästet, tornen, butikerna och sjukhuset hörde ihop. Utforska området som det såg ut före förstörelsen. Några stora byggen hann aldrig bli färdiga.',q:'Vilka platser behövde människorna i Bomarsund varje dag?',more:'1853 är översiktens jämförelseår, inte alla byggnaders byggår. Kartan är en tolkad plan, med ungefärliga lägen och former. Den 1854-hållpunkt som följer visar läget efter förstörelsen.',src:'bomarsundPlan'});
 eras.push({y:1959,routeId:'viking-1959',title:'Bilarna följer med över havet',tag:'Bilfärjan Viking',text:'Viking börjar segla mellan Gräddö, Mariehamn och Galtby. Nu kan resenärerna ta med bilen på färjan.',q:'Vad behöver en hamn ha för att bilar ska kunna köra ombord?',more:'Premiärturen gick den 1 juni 1959. År 1960 flyttade Vikinglinjen från Gräddö till Kapellskär. Linjen på kartan visar 1959 års hamnförbindelse.',src:'shipRoutes'},{y:1961,routeId:'eckero-1961',title:'En färjeförbindelse till Eckerö',tag:'Eckerö Linjen',text:'Eckerö Linjen börjar trafikera mellan Grisslehamn och Eckerö. Havet binder ihop orterna på varsin sida.',q:'Vilka saker skulle ni ta med på en färjeresa?',more:'Eckerö Linjens förbindelse är belagd från 1961 och trafikeras fortfarande 2026. Läs ruttens källor för mer om trafiken.',src:'eckeroRoute'});
+eras.push({y:1300,routeId:'danska-itinerariet',title:'En vägbeskrivning över havet',tag:'Danska itinerariet',text:'En medeltida text beskriver en sjöväg genom Ålands skärgård. Sjöfarare hittar fram med hjälp av öar, sund och platser att gå i land på.',q:'Hur hittar man vägen över havet utan en telefon?',more:'Hållpunkten ligger ungefär kring 1300. Beskrivningens datering varierar mellan källorna: 1200-tal eller tidigt 1300-tal. Den kallas också Kung Valdemars segelled. Här kan ni följa Ålandsdelen från Arholma till Aspö. Linjen är en schematisk tolkning, inte en säker historisk farled.',src:'itinerary'});
 eras.push(...WreckTimeline.events(window.WRECKS));
 eras.sort((a,b)=>a.y-b.y);buildings.push(...window.EXTRA_PLACES,...window.WRECKS);
 const LAST=eras.length-1,MAX_TIME=LAST*100;
@@ -114,7 +116,7 @@ const eraWikipedia={
  '-5000':'Ålands historia','1750':'Ålands historia','1800':'Åland','1894':'Åland','1942':'Mariehamn','2021':'Mariehamn',
  '-12000':'Istid','-8000':'Landhöjning','-4000':'Ålands historia',
  '-1500':'Ålands historia','800':'Ålands historia','1280':'Jomala kyrka',
- '1388':'Kastelholms slott','1784':'Vita Björn','1832':'Bomarsunds fästning',
+ '1300':'Kung Valdemars segelled','1388':'Kastelholms slott','1784':'Vita Björn','1832':'Bomarsunds fästning',
  '1854':'Bomarsunds fästning','1860':'Mariehamn','1861':'Mariehamn','1920':'Mariehamn','1939':'Mariehamns stadshus',
  '1989':'Mariehamns stadsbibliotek','2026':'Ålands historia'
 };
@@ -233,7 +235,7 @@ function wreckDetails(wreck){
 $('#layerRoadHistory').onchange=e=>{historicalRoads.enabled=e.target.checked;if(selectedFeature?.recordType==='historicalRoad')selectedFeature=null;updateUI();draw()};
 $('#roadYear').onchange=e=>{if(!e.target.value)return;const y=Number(e.target.value);pause();clearSearch();historicalRoads.enabled=true;$('#layerRoadHistory').checked=true;if(y===2026){explorer.flags.modern=true;$('#layerModern').checked=true}goToYear(y);if(y===1920||y===1942)focusMap(19.937, y===1920?60.0968:60.115,y===1920?28:10);else focusMap(20.02,60.22,1.6);e.target.value='';if(window.MobileMapUI?.isMobile())window.MobileMapUI.showMap()};
 $('#roadsMariehamn').onclick=()=>{pause();clearSearch();focusMap(19.937,60.098,28);if(window.MobileMapUI?.isMobile())window.MobileMapUI.showMap()};
-$('#routeChoice').innerHTML='<option value="">Välj en färjerutt…</option>'+Object.entries(TransportRoutes.groups).map(([group,label])=>`<optgroup label="${label}">${TransportRoutes.routes.filter(r=>r.group===group).map(r=>`<option value="${r.id}">${htmlEscape(r.name)} · ${htmlEscape(r.dateLabel)}</option>`).join('')}</optgroup>`).join('');
+$('#routeChoice').innerHTML='<option value="">Välj en sjörutt…</option>'+Object.entries(TransportRoutes.groups).map(([group,label])=>`<optgroup label="${label}">${TransportRoutes.routes.filter(r=>r.group===group).map(r=>`<option value="${r.id}">${htmlEscape(r.name)} · ${htmlEscape(r.dateLabel)}</option>`).join('')}</optgroup>`).join('');
 $('#routeChoice').onchange=e=>{if(e.target.value)openShipRoute(e.target.value);e.target.value=''};
 $('#routeGroup').onchange=()=>{if(selectedFeature?.recordType==='shipRoute'&&$('#routeGroup').value!=='all'&&selectedFeature.group!==$('#routeGroup').value){selectedFeature=null;explorer.selected=null}updateUI();draw()};
 $('#onlyRoute').onchange=()=>{updateUI();draw()};
@@ -286,7 +288,7 @@ function openShipRoute(id,focus=true){
  const route=TransportRoutes.routes.find(r=>r.id===id);if(!route)return;
  pause();clearSearch();$('#layerShipRoutes').checked=true;
  if($('#routeGroup').value!=='all')$('#routeGroup').value=route.group;
- if(!TransportRoutes.visible(route,year))goToYear(route.from);
+ if(!TransportRoutes.visible(route,year))goToYear(route.focusYear??route.from);
  selected=null;selectedFeature=route;explorer.selected=null;updateUI();
  if(focus&&meta){const pts=route.path.map(p=>project(...p)),xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]),left=Math.min(...xs),right=Math.max(...xs),top=Math.min(...ys),bottom=Math.max(...ys);zoom=Math.max(.65,Math.min(100,Math.min((W-Math.min(240,W*.3))/((right-left)*fit),(H-Math.min(220,H*.45))/((bottom-top)*fit))));panX=-((left+right)/2-meta.width/2)*fit*zoom;panY=-((top+bottom)/2-meta.height/2)*fit*zoom}
  draw();if(window.MobileMapUI?.isMobile())window.MobileMapUI.showStory();else $('#story').scrollIntoView({block:'nearest'});

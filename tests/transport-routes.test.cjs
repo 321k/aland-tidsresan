@@ -49,3 +49,31 @@ test('curated route data has evidence, finite geometry and ports close to the ma
   for(const p of r.ports)assert.ok(r.path.some(([lon,lat])=>Math.hypot((p.lon-lon)*.5,p.lat-lat)<.001),r.id+' '+p.name);
  }
 });
+
+test('Danish itinerary has an approximate source period, not an invented service lifetime',()=>{
+ const r=routes.routes.find(r=>r.id==='danska-itinerariet');
+ assert.equal(r.group,'medieval');assert.equal(r.dateKind,'source-window');assert.equal(r.focusYear,1300);
+ assert.match(r.dateLabel,/osäker/);assert.match(r.dateNote,/inte som fastställd brukstid/);
+ assert.equal(routes.active(1300,true,'medieval')[0].id,r.id);
+ for(const year of [1199,1350,1959,2026])assert.ok(!routes.active(year).some(x=>x.id===r.id));
+ assert.ok(r.sources.some(([,url])=>url==='https://www.uppslagsverket.fi/sv/view-170045-DanskaItinerariet'));
+ assert.deepEqual(Array.from(r.ports,p=>p.name),['Arholma','Lemböte','Föglö · Kyrksundet?','Kökar · Hamnö','Aspö / Aspösund?']);
+ assert.match(r.geometryNote,/Jurmo.*inte som ett belagt anlöp/);
+});
+test('medieval route story uses places and a sailing question instead of modern ferry ports',()=>{
+ box.htmlEscape=s=>String(s);box.safeURL=s=>s;
+ const r=routes.routes.find(r=>r.id==='danska-itinerariet'),story=routes.story(r);
+ assert.match(story,/Platser i ruttutsnittet/);assert.match(story,/dricksvatten/);
+ assert.match(story,/Wikipedia: Kung Valdemars segelled/);
+ assert.doesNotMatch(story,/Hamnar i kartan|nå med färjorna/);
+ const ferry=routes.story(routes.routes.find(r=>r.id==='eckero-1961'));
+ assert.match(ferry,/Hamnar i kartan/);assert.match(ferry,/nå med färjorna/);
+});
+test('medieval line is clickable only inside its period and matching filter',()=>{
+ const ctx=new Proxy({},{get:(_,k)=>k==='measureText'?s=>({width:s.length*6}):()=>{},set:()=>true});
+ const screen=(lon,lat)=>[(lon-19)*200,(61-lat)*200],v={year:1300,width:1000,height:500,routeGroup:'medieval'};
+ const hits=routes.draw(ctx,v,screen,true);assert.equal(hits.length,1);
+ assert.equal(routes.hit(hits,...hits[0].path[0]).id,'danska-itinerariet');
+ assert.equal(routes.draw(ctx,{...v,year:2026},screen,true).length,0);
+ assert.equal(routes.draw(ctx,{...v,routeGroup:'archipelago'},screen,true).length,0);
+});

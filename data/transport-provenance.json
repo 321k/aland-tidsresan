@@ -14,8 +14,157 @@
   },
   "shipping": {
     "geometry": "OSM ferry ways and port nodes for local Åland geometry; international connections outside Åland and historical routes partly schematic. OSM is not evidence that a service operates or when it began. See per-route geometryNote.",
-    "coverage": "30 Åland-linked ferry routes and dated variants, including 23 current connections, 6 cable ferries and conservative historical snapshots. Not an exhaustive historical network. Current observations are not backdated to invented opening years. Seasonal/ordered calls do not imply daily or year-round service.",
+    "coverage": "31 routes: one schematic medieval Åland excerpt plus 30 ferry connections and historical variants; 23 present-day routes. Not an exhaustive historical network.",
     "routes": [
+      {
+        "id": "danska-itinerariet",
+        "recordType": "shipRoute",
+        "name": "Danska itinerariet · Ålandsdelen",
+        "group": "medieval",
+        "from": 1200,
+        "to": 1349,
+        "focusYear": 1300,
+        "dateKind": "source-window",
+        "dateLabel": "Kring 1300 · osäker källdatering",
+        "color": "#80609a",
+        "text": "Följ en medeltida vägbeskrivning över havet! Sjöfarare färdas mellan öar och skyddade vikar. Här visas delen från Arholma via Lemböte, Föglö och Kökar mot Aspö. Den längre leden gick från Blekinge till Reval, dagens Tallinn.",
+        "dateNote": "Kökars kommun daterar beskrivningen till 1200-talet; Uppslagsverket Finland anger troligen tidigt 1300-tal. Hållpunkten 1300 är ungefärlig. Kartan visar rutten 1200–1349 för att rymma dessa dateringar, inte som fastställd brukstid. Åren är varken invigning eller nedläggning. Delar av leden kan vara äldre och ha använts långt senare.",
+        "geometryNote": "Egen schematisk tolkning av Ålandsdelen. Punkten vid Föglö visar det föreslagna Kyrksundet, vid Kökar Hamnö. Både farled och landningsplatser är osäkra; Aspösunds läge är omdiskuterat och Aspö-punkten är ungefärlig. Linjen visar samband mellan platser, inte en uppmätt seglingsväg. Fortsättningen via Hitis, Hangö och Porkala till Reval ligger utanför detta ruttutsnitt. Jurmo nämns som orientering söder om Aspösund och visas inte som ett belagt anlöp.",
+        "portsLabel": "Platser i ruttutsnittet · ungefärliga lägen",
+        "question": "Var skulle ni gå i land för att vila och hitta dricksvatten?",
+        "wiki": "https://sv.wikipedia.org/wiki/Kung_Valdemars_segelled",
+        "ports": [
+          {
+            "name": "Arholma",
+            "lon": 19.12,
+            "lat": 59.85
+          },
+          {
+            "name": "Lemböte",
+            "lon": 19.984,
+            "lat": 60.077
+          },
+          {
+            "name": "Föglö · Kyrksundet?",
+            "lon": 20.426,
+            "lat": 60.016
+          },
+          {
+            "name": "Kökar · Hamnö",
+            "lon": 20.879,
+            "lat": 59.947
+          },
+          {
+            "name": "Aspö / Aspösund?",
+            "lon": 21.595,
+            "lat": 59.953
+          }
+        ],
+        "path": [
+          [
+            19.12,
+            59.85
+          ],
+          [
+            19.25,
+            59.9
+          ],
+          [
+            19.48,
+            59.963
+          ],
+          [
+            19.7,
+            60.015
+          ],
+          [
+            19.845,
+            60.025
+          ],
+          [
+            19.9,
+            60.04
+          ],
+          [
+            19.95,
+            60.057
+          ],
+          [
+            19.984,
+            60.077
+          ],
+          [
+            19.965,
+            60.05
+          ],
+          [
+            19.99,
+            60.013
+          ],
+          [
+            20.05,
+            59.98
+          ],
+          [
+            20.2,
+            59.982
+          ],
+          [
+            20.34,
+            60.005
+          ],
+          [
+            20.426,
+            60.016
+          ],
+          [
+            20.49,
+            60.001
+          ],
+          [
+            20.64,
+            59.982
+          ],
+          [
+            20.8,
+            59.965
+          ],
+          [
+            20.879,
+            59.947
+          ],
+          [
+            21.08,
+            59.965
+          ],
+          [
+            21.3,
+            59.96
+          ],
+          [
+            21.595,
+            59.953
+          ]
+        ],
+        "sources": [
+          [
+            "Uppslagsverket Finland · Danska itinerariet (Torsten Edgren)",
+            "https://www.uppslagsverket.fi/sv/view-170045-DanskaItinerariet"
+          ],
+          [
+            "Kökars kommun · medeltida farled och osäkra lägen",
+            "https://www.kokar.ax/historia"
+          ],
+          [
+            "Kökars kommun · Kung Valdemars segelled",
+            "https://www.kokar.ax/kopia-pa-historia"
+          ],
+          [
+            "Skärgård 3/2015 · Aspösund och ortnamnstolkningen, s. 27",
+            "https://www.doria.fi/bitstream/handle/10024/185896/Sk%C3%A4rg%C3%A5rd_2015_03_arkiv%20%281%29.pdf?isAllowed=y&sequence=1"
+          ]
+        ]
+      },
       {
         "id": "viking-1959",
         "recordType": "shipRoute",
@@ -5559,6 +5708,31 @@
       "query": "[out:json][timeout:90];(way[\"route\"=\"ferry\"](59.6,19.3,60.7,21.7);node[\"amenity\"=\"ferry_terminal\"](59.6,19.3,60.7,21.7););out tags geom;",
       "role": "Geometry only; discontinued Tvärgående was explicitly excluded from 2026 despite existing OSM ways."
     },
-    "exclusions": "Unverified excursion-boat routes and Finnish domestic routes without Åland calls omitted. Multi-stop demand routes simplified with caveats. Different operators on the same city connection generally combined."
+    "exclusions": "Unverified excursion-boat routes and Finnish domestic routes without Åland calls omitted. Multi-stop demand routes simplified with caveats. Different operators on the same city connection generally combined.",
+    "medievalReview": {
+      "verifiedOn": "2026-10-13",
+      "routeId": "danska-itinerariet",
+      "datePolicy": "1200–1349 is a display envelope covering the conflicting source datings (13th century / early 14th century), not verified service dates; focus year 1300 is approximate. Hidden outside this source period, including today.",
+      "geometryPolicy": "Own schematic Arholma–Aspö excerpt using named regions and approximate modern locations. Lemböte and Hamnö oriented with ÅLR heritage records; Föglö Kyrksundet is a hypothesis. Aspösund identification disputed. Jurmo is a reference island, not added as a stop. No contemporary ferry geometry used as medieval evidence.",
+      "scope": "Full itinerary Blekinge–Reval described in story, only Åland-adjacent excerpt drawn.",
+      "sources": [
+        [
+          "Uppslagsverket Finland · Danska itinerariet (Torsten Edgren)",
+          "https://www.uppslagsverket.fi/sv/view-170045-DanskaItinerariet"
+        ],
+        [
+          "Kökars kommun · medeltida farled och osäkra lägen",
+          "https://www.kokar.ax/historia"
+        ],
+        [
+          "Kökars kommun · Kung Valdemars segelled",
+          "https://www.kokar.ax/kopia-pa-historia"
+        ],
+        [
+          "Skärgård 3/2015 · Aspösund och ortnamnstolkningen, s. 27",
+          "https://www.doria.fi/bitstream/handle/10024/185896/Sk%C3%A4rg%C3%A5rd_2015_03_arkiv%20%281%29.pdf?isAllowed=y&sequence=1"
+        ]
+      ]
+    }
   }
 }
