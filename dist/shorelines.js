@@ -1,6 +1,6 @@
 'use strict';
 class ShorelineModel {
- constructor(change,status){this.change=change;this.status=status;this.cache=new Map();this.pending=new Map();this.year=null;this.failed=new Set();this.displayed=null;}
+ constructor(change,status){this.change=change;this.status=status;this.cache=new Map();this.pending=new Map();this.year=null;this.failed=new Set();this.displayed=null;this.showCoverageGaps=false;}
  async load(){try{const r=await fetch('assets/shorelines/manifest.json?v=1425d2c2bbec');if(!r.ok)throw Error();this.manifest=await r.json();this.change()}catch{this.unavailable=true;this.status.textContent='Strandlinjemodellen kunde inte laddas.'}}
  paths(data){const result={};for(const[k,polygons]of Object.entries(data.classes)){const path=new Path2D();for(const polygon of polygons)for(const ring of polygon){ring.forEach(([x,y],i)=>i?path.lineTo(x,y):path.moveTo(x,y));path.closePath()}result[k]=path}return result}
  request(target){
@@ -33,6 +33,8 @@ class ShorelineModel {
   ctx.save();const s=v.scale;ctx.translate(v.width/2+v.panX-v.meta.width/2*s,v.height/2+v.panY-v.meta.height/2*s);ctx.scale(s,s);
   ctx.fillStyle='#c8d2ae';ctx.fill(paths.land,'evenodd');ctx.strokeStyle='#8ca89b';ctx.lineWidth=.65/s;ctx.stroke(paths.land);
   ctx.fillStyle='#e9f0ef';ctx.fill(paths.ice,'evenodd');ctx.strokeStyle='#cadbdc';ctx.stroke(paths.ice);
-  ctx.fillStyle='#e0e5dc';ctx.fill(paths.noData,'evenodd');ctx.restore();
+  // Missing model coverage is not land. Keep the sea background unless the
+  // reader explicitly asks to inspect the coverage mask.
+  if(this.showCoverageGaps){ctx.fillStyle='#e0e5dc';ctx.fill(paths.noData,'evenodd')}ctx.restore();
  }
 }

@@ -41,3 +41,24 @@ test('buffering freezes time and resumes without catching up or skipping a stop'
 test('pausing during buffering prevents a queued frame from advancing',()=>{
  const s=playback();s.playbackFrame(100);s.pause();s.ready=true;s.playbackFrame(200);assert.equal(s.pos,0);assert.equal(s.updates.length,0);
 });
+
+test('coverage gaps leave the sea background visible by default at historical and modern years',()=>{
+ const {model}=shore(),filled=[],backgrounds=[];
+ const canvas=new Proxy({fill:p=>filled.push(p),fillRect:()=>backgrounds.push(canvas.fillStyle)},{get:(o,k)=>o[k]??(()=>{})});
+ for(const year of [-4000,1900,2025,2026]){
+  filled.length=0;const sourceYear=year>=1900?1900:year;
+  model.cache.set(sourceYear,{land:'islands',ice:'ice',noData:'coverage gaps'});
+  model.draw(canvas,{...view,year});
+  assert.deepEqual(filled,['islands','ice']);
+  assert.equal(backgrounds.at(-1),'#b8d7da');
+ }
+});
+test('coverage gaps remain available as an optional inspection layer',()=>{
+ const {model}=shore(),filled=[];
+ const canvas=new Proxy({fill:p=>filled.push(p)},{get:(o,k)=>o[k]??(()=>{})});
+ model.cache.set(-4000,{land:'islands',ice:'ice',noData:'coverage gaps'});
+ model.showCoverageGaps=true;model.draw(canvas,view);
+ assert.deepEqual(filled,['islands','ice','coverage gaps']);
+ filled.length=0;model.showCoverageGaps=false;model.draw(canvas,view);
+ assert.deepEqual(filled,['islands','ice']);
+});

@@ -201,6 +201,7 @@ $('#focusPostal').onclick=()=>{pause();$('#layerPostal').checked=true;explorer.f
 for(const[id,key]of [['layerHeritage','heritage'],['layerUndated','undated'],['layerModern','modern'],['layerPostal','postal'],['layerUncertain','uncertain'],['layerTraces','traces'],['layerHistoric','historic'],['layerBoundaries','boundaries']])$("#"+id).onchange=e=>{explorer.flags[key]=e.target.checked;explorer.listKey=null;selectedFeature=null;updateUI();draw()};
 $('#categoryFilter').onchange=e=>{explorer.category=e.target.value;explorer.listKey=null;draw()};
 $('#layerRecon').onchange=()=>{updateUI();draw()};
+$('#layerCoverageGaps').onchange=e=>{shorelines.showCoverageGaps=e.target.checked;draw()};
 function chooseMapBackground(value,focus=true){
  const cityMap=['1860','1920'].includes(value);$('.maparea').classList.toggle('city-plan-view',cityMap);historicalOverlay.enabled=value!=='model';historicalOverlay.mode=value;historicalOverlay.loadCityPlan();historicalOverlay.loadMuseumMap();$('#mapBackground').value=value;
  $('#cityPlanActions').hidden=!cityMap;$('#overlayControls').hidden=!historicalOverlay.enabled;$('#overlayBadge').hidden=!historicalOverlay.enabled;
