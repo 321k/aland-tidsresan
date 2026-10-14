@@ -6,7 +6,7 @@ const safeURL=value=>{try{const u=new URL(value);return ['http:','https:'].inclu
 class ExplorerLayers {
  constructor(change,select){this.change=change;this.select=select;this.heritage=[];this.historic=[];this.boundaries=[];this.modern=[];this.modernById=new Map();this.drawn=[];this.hits=[];this.flags={heritage:true,modern:true,postal:true,undated:false,uncertain:true,traces:false,historic:true,boundaries:true};this.category='all';this.ready=false;this.viewList=[];this.selected=null;this.query='';this.sourceDate='2026-10-12';this.coast=null;this.modernGrid=new Map();this.modernCounts={building:0,road:0};this.modernPlaces=[];}
  async load(){
-  const results=await Promise.allSettled([fetch('assets/heritage.json?v=23e800887684').then(r=>{if(!r.ok)throw Error();return r.json()}),fetch('assets/modern.json.gz?v=f13777840b4c').then(readCompressedJSON),fetch('assets/coast.json.gz?v=abe5780c1075').then(readCompressedJSON),fetch('assets/historic-buildings.json?v=35881d45dd18').then(r=>{if(!r.ok)throw Error();return r.json()}),fetch('assets/heritage-boundaries.geojson?v=94bddcf5764a').then(r=>{if(!r.ok)throw Error();return r.json()}),fetch('assets/postal-context.json?v=d0e29f4b5ea9').then(r=>{if(!r.ok)throw Error();return r.json()})]);
+  const results=await Promise.allSettled([fetch('assets/heritage.json?v=96a0c1e762f5').then(r=>{if(!r.ok)throw Error();return r.json()}),fetch('assets/modern.json.gz?v=f13777840b4c').then(readCompressedJSON),fetch('assets/coast.json.gz?v=abe5780c1075').then(readCompressedJSON),fetch('assets/historic-buildings.json?v=35881d45dd18').then(r=>{if(!r.ok)throw Error();return r.json()}),fetch('assets/heritage-boundaries.geojson?v=94bddcf5764a').then(r=>{if(!r.ok)throw Error();return r.json()}),fetch('assets/postal-context.json?v=d0e29f4b5ea9').then(r=>{if(!r.ok)throw Error();return r.json()})]);
   if(results[5].status==='fulfilled')this.postalContext=results[5].value.geometry;
   if(results[0].status==='fulfilled')this.heritage=results[0].value.features;else document.querySelector('#registerStatus').textContent='Fornminnesregistret kunde inte laddas. Prova att ladda om sidan.';
   if(results[1].status==='fulfilled'){this.modern=results[1].value.features;this.modernById=new Map(this.modern.map(f=>[f.id,f]));this.sourceDate=results[1].value.snapshot.slice(0,10);this.modernCounts=results[1].value.counts;this.modernPlaces=results[1].value.places;const chooser=document.querySelector('#modernPlace');for(const [i,p]of this.modernPlaces.entries()){const option=document.createElement('option');option.value=i;option.textContent=p.name+(this.modernPlaces.filter(o=>o.name===p.name).length>1?' · '+({town:'tätort',village:'by',hamlet:'mindre by'}[p.type]||'ort'):'');chooser.append(option)}chooser.disabled=false}else document.querySelector('#modernStatus').textContent='Byggnader och vägar kunde inte laddas. Prova att ladda om sidan.';
@@ -33,6 +33,8 @@ class ExplorerLayers {
  
  }
  available(feature,year){const state=EvidenceTime.state(feature,year);
+  // The curated event represents these records during the attested period.
+  if(this.flags.ofreden&&this.storyPlaces?.some(p=>p.registryCodes.includes(feature.code)&&year>=p.start&&year<=p.end))return false;
   // A broad registry period such as 'Sentid' does not establish present-day use.
   if(year>=2026&&feature.recordType==='archaeology'&&state==='possible'&&!this.flags.traces)return false;
   return state!=='future'&&(state!=='undated'||this.flags.undated)&&(state!=='possible'||this.flags.uncertain)&&(state!=='trace'||this.flags.traces)}

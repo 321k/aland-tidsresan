@@ -21,6 +21,7 @@ python3 -m http.server 4173 --directory dist
 - Zoom- och flyttbar karta med tidslinje, uppspelning och berättelser.
 - Historiska strandlinjer, bosättningar, fornlämningar och byggnader med tidsstyrd synlighet.
 - Mariehamns stadsnät från stadsplanen 1860, museikartan över 1920-talet, flygfotot 1942 och senare OpenStreetMap-utdrag.
+- Stora och lilla ofreden: Lövös fredskongress, Flaka flottbas, sjöslaget vid Flisö/Ledsund, Degerby skans samt flykt och återkomst.
 - Historiska landsvägar, postvägen mellan Sverige och Finland, färjerutter och andra sjöleder.
 - Källhänvisningar, historiska kartbilder och länkar för vidare läsning.
 
@@ -65,6 +66,8 @@ python3 -m venv .venv-geo
 python3 scripts/cache_versions.py
 node --test tests/*.test.cjs
 ```
+
+Ofredernas berättelser och källor redigeras i `data/ofreden.json` och paketeras med `python3 scripts/build_ofreden.py`. Registerdateringar ligger separat i `data/temporal-enrichment.json` och uppdateras med `python3 scripts/build_heritage.py`.
 
 Andra importskript kan behöva fler bibliotek, externa källdata eller nätåtkomst. Läs respektive skript innan det körs; en fullständig nyimport behövs inte för vanliga ändringar.
 

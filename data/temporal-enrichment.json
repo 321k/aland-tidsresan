@@ -868,5 +868,71 @@
     ],
     "confidence": "documented",
     "dateBasis": "building_or_operation"
+  },
+  "Vå 8.1": {
+    "registryCode": "Vå 8.1",
+    "recordType": "archaeology",
+    "name": "Fredskongressen i Lövö",
+    "startEarliest": 1718,
+    "startLatest": 1718,
+    "endEarliest": 1719,
+    "endLatest": 1719,
+    "dateLabel": "1718–1719",
+    "datingNote": "Fredskongressen pågick 1718–1719 men ledde inte till fred. Registret beskriver ett svenskt läger i söder och ett ryskt i norr, med bostäder, matsalar, vaktrum och en rysk kyrka. Delar av det svenska lägret undersöktes 1973–1974. De båda lägrens exakta lägen och yttergränser är inte fastställda. Markören använder registerområdets representativa punkt. Visningsåren gäller kongressen, inte säkra bygg- eller rivningsår.",
+    "childText": "I Lövö byggs hus för människor som ska försöka få slut på kriget. Här finns rum att bo i, kansli att skriva i och stora salar att äta i. Svenska och ryska förhandlare har var sitt läger.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27V%C3%A5+8.1%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": 1718,
+        "to": 1719,
+        "label": "Fredskongressen i Lövö · belagd verksamhet"
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Le 4.5": {
+    "registryCode": "Le 4.5",
+    "recordType": "archaeology",
+    "name": "Flottbasen vid Flaka",
+    "startEarliest": 1719,
+    "startLatest": 1719,
+    "endEarliest": 1719,
+    "endLatest": 1719,
+    "dateLabel": "1719",
+    "datingNote": "Kulturarvsregistret knyter Flaka hamn till flottans högkvarter 1719. Lämningarna sträcker sig över ett område från Nätskär till Herrön; gränserna är inte fastställda. Husgrunder och förvaringsgropar finns också i registerpost Le 4.23. Markören visar en representativ registerpunkt, inte en viss kaj eller byggnad. År 1719 är ett belägg för funktionen, inte hela anläggningens kända livslängd.",
+    "childText": "År 1719 har den ryska flottan sitt högkvarter vid Flaka hamn. Vid stranden finns spår av hus och stenugnar. Många människor behöver mat och värme medan fartygen ligger här.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Le+4.5%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": 1719,
+        "to": 1719,
+        "label": "Flottbasen vid Flaka · belagd verksamhet"
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
+  },
+  "Le 4.23": {
+    "registryCode": "Le 4.23",
+    "recordType": "archaeology",
+    "name": "Flaka hamn – hus och förråd",
+    "startEarliest": 1719,
+    "startLatest": 1719,
+    "endEarliest": 1719,
+    "endLatest": 1719,
+    "dateLabel": "1719",
+    "datingNote": "Kulturarvsregistret knyter Flaka hamn till flottans högkvarter 1719. Lämningarna sträcker sig över ett område från Nätskär till Herrön; gränserna är inte fastställda. Husgrunder och förvaringsgropar finns också i registerpost Le 4.23. Markören visar en representativ registerpunkt, inte en viss kaj eller byggnad. År 1719 är ett belägg för funktionen, inte hela anläggningens kända livslängd.",
+    "childText": "År 1719 har den ryska flottan sitt högkvarter vid Flaka hamn. Vid stranden finns spår av hus och stenugnar. Många människor behöver mat och värme medan fartygen ligger här.",
+    "sourceUrl": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Le+4.23%27&outFields=%2A&returnGeometry=false&f=pjson",
+    "phases": [
+      {
+        "from": 1719,
+        "to": 1719,
+        "label": "Flottbasen vid Flaka · belagd verksamhet"
+      }
+    ],
+    "confidence": "documented",
+    "dateBasis": "dated_evidence"
   }
 }

@@ -72,6 +72,8 @@ eras.push({y:1853,title:'Ett helt samhälle vid fästningen',tag:'Bomarsund för
 eras.push({y:1959,routeId:'viking-1959',title:'Bilarna följer med över havet',tag:'Bilfärjan Viking',text:'Viking börjar segla mellan Gräddö, Mariehamn och Galtby. Nu kan resenärerna ta med bilen på färjan.',q:'Vad behöver en hamn ha för att bilar ska kunna köra ombord?',more:'Premiärturen gick den 1 juni 1959. År 1960 flyttade Vikinglinjen från Gräddö till Kapellskär. Linjen på kartan visar 1959 års hamnförbindelse.',src:'shipRoutes'},{y:1961,routeId:'eckero-1961',title:'En färjeförbindelse till Eckerö',tag:'Eckerö Linjen',text:'Eckerö Linjen börjar trafikera mellan Grisslehamn och Eckerö. Havet binder ihop orterna på varsin sida.',q:'Vilka saker skulle ni ta med på en färjeresa?',more:'Eckerö Linjens förbindelse är belagd från 1961 och trafikeras fortfarande 2026. Läs ruttens källor för mer om trafiken.',src:'eckeroRoute'});
 eras.push({y:1300,routeId:'danska-itinerariet',title:'En vägbeskrivning över havet',tag:'Danska itinerariet',text:'En medeltida text beskriver en sjöväg genom Ålands skärgård. Sjöfarare hittar fram med hjälp av öar, sund och platser att gå i land på.',q:'Hur hittar man vägen över havet utan en telefon?',more:'Hållpunkten ligger ungefär kring 1300. Beskrivningens datering varierar mellan källorna: 1200-tal eller tidigt 1300-tal. Den kallas också Kung Valdemars segelled. Här kan ni följa Ålandsdelen från Arholma till Aspö. Linjen är en schematisk tolkning, inte en säker historisk farled.',src:'itinerary'});
 eras.push(...WreckTimeline.events(window.WRECKS));
+Object.assign(sources,window.OFREDEN.sources);
+eras.push(...window.OFREDEN.events);buildings.push(...window.OFREDEN.places);
 eras.sort((a,b)=>a.y-b.y);buildings.push(...window.EXTRA_PLACES,...window.WRECKS);
 const LAST=eras.length-1,MAX_TIME=LAST*100;
 let selectedFeature=null;
@@ -79,20 +81,22 @@ let pos=MAX_TIME,year=2026,era=LAST,selected=null,playing=false,timer,lastTick=0
 let zoom=1,panX=0,panY=0,W=0,H=0,fit=1,hits=[],pointers=new Map(),gesture=null,dragged=false;
 const canvas=$('#map'),ctx=canvas.getContext('2d');
 const explorer=new ExplorerLayers(()=>{if(meta)explorer.prepare(project);draw()},selectFeature);
+explorer.storyPlaces=window.OFREDEN.places;explorer.flags.ofreden=true;
 const shorelines=new ShorelineModel(draw,$('#detailStatus'));
 const historicalOverlay=new HistoricalOverlay(draw);
 const historicalRoads=new HistoricalRoads(draw);
 const cityGrid=new CityGrid(draw);
 let shipRouteHits=[];
 function date(y){return y<0?`${Math.abs(y).toLocaleString('sv-SE')} f.Kr.`:y===2026?'2026 · idag':`${y} e.Kr.`}
-function visible(){return buildings.filter(b=>(b.category!=='fortress'||BomarsundPlan.visible(b,year,$('#layerFortress').checked,$('#layerTraces').checked))&&(b.category!=='wreck'||WreckTimeline.visible(b,year,$('#layerWrecks').checked))&&year>=b.start&&year<=(b.end??9999)&&(!b.recon||$('#layerRecon').checked)&&(!(b.category==='marine')||$('#layerMarine').checked)&&(b.recordType!=='marine'||explorer.available(b,year)))}
+function visible(){return buildings.filter(b=>(b.category!=='ofreden'||$('#layerOfreden').checked)&&(b.category!=='fortress'||BomarsundPlan.visible(b,year,$('#layerFortress').checked,$('#layerTraces').checked))&&(b.category!=='wreck'||WreckTimeline.visible(b,year,$('#layerWrecks').checked))&&year>=b.start&&year<=(b.end??9999)&&(!b.recon||$('#layerRecon').checked)&&(!(b.category==='marine')||$('#layerMarine').checked)&&(b.recordType!=='marine'||explorer.available(b,year)))}
 // Only explicitly enabled reconstructions use illustrative house shapes.
-function symbol(type,recon=false){if(type==='wreck')return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 3Q8 11 9 27L13 32H23L27 27Q28 11 18 3Z" fill="#376778" stroke="#faf7e8" stroke-width="2"/><path d="M18 9V27M12 19H24" fill="none" stroke="#faf7e8" stroke-width="1.5"/></svg>';if(!recon)return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><circle cx="18" cy="18" r="5" fill="${type==='pilot'?'#406b76':'#886b51'}" stroke="#faf7e8" stroke-width="2"/></svg>`;
+function symbol(type,recon=false){if(type.startsWith('ofred-'))return ofredenSymbol(type);if(type==='wreck')return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><path d="M18 3Q8 11 9 27L13 32H23L27 27Q28 11 18 3Z" fill="#376778" stroke="#faf7e8" stroke-width="2"/><path d="M18 9V27M12 19H24" fill="none" stroke="#faf7e8" stroke-width="1.5"/></svg>';if(!recon)return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><circle cx="18" cy="18" r="5" fill="${type==='pilot'?'#406b76':'#886b51'}" stroke="#faf7e8" stroke-width="2"/></svg>`;
  const common='fill="#b9a271" stroke="#5b5946" stroke-width="1.5"';const shape=type==='farm'?`<rect x="3" y="4" width="11" height="26" ${common}/><rect x="21" y="5" width="11" height="9" ${common}/><rect x="21" y="21" width="11" height="9" ${common}/>`:type==='hut'?`<ellipse cx="18" cy="18" rx="13" ry="10" ${common}/><path d="M6 18H30" stroke="#79633e"/>`:`<rect x="4" y="8" width="28" height="20" ${common}/><path d="M4 18H32" stroke="#79634e"/>`;
  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><rect x="1" y="1" width="34" height="34" rx="3" fill="none" stroke="#806640" stroke-dasharray="3 3"/>${shape}</svg>`;
 }
 const iconCache=new Map();function iconFor(b){const key=b.type+b.recon;if(!iconCache.has(key)){const im=new Image();im.onload=draw;im.src='data:image/svg+xml;charset=utf-8,'+encodeURIComponent(symbol(b.type,b.recon));iconCache.set(key,im)}return iconCache.get(key)}
 function storyMarkerMode(b){
+ if(b.category==='ofreden')return 'ofreden';
  if(b.category==='fortress')return 'site-plan';
  if(b.category==='wreck')return 'wreck';
  if(b.recon)return 'reconstruction';
@@ -101,13 +105,13 @@ function storyMarkerMode(b){
 }
 function drawStoryPlaces(){hits=[];for(const b of visible()){
  const mode=storyMarkerMode(b);if(mode==='footprint'||mode==='site-plan')continue;
- const[x,y]=screen(b.lon,b.lat),size=mode==='wreck'?26:mode==='reconstruction'?Math.min(48,25+zoom*2):12;if(x<-40||x>W+40||y<-40||y>H+40)continue;
+ const[x,y]=screen(b.lon,b.lat),size=mode==='ofreden'?30:mode==='wreck'?26:mode==='reconstruction'?Math.min(48,25+zoom*2):12;if(x<-40||x>W+40||y<-40||y>H+40)continue;
  ctx.save();if(selected===b.id){ctx.fillStyle='#faf8eaca';ctx.beginPath();ctx.arc(x,y,size*.8,0,7);ctx.fill();ctx.strokeStyle='#6c8660';ctx.lineWidth=2;ctx.stroke()}
- if(mode==='reconstruction'||mode==='wreck'){const im=iconFor(b);if(im.complete)ctx.drawImage(im,x-size/2,y-size/2,size,size)}else{ctx.beginPath();ctx.arc(x,y,4.5,0,7);ctx.fillStyle=b.category==='marine'?'#406b76':'#886b51';ctx.fill();ctx.strokeStyle='#faf7e8';ctx.lineWidth=1.5;ctx.stroke()}
- if(selected===b.id||(mode==='reconstruction'&&zoom>2)){ctx.font='11px -apple-system,sans-serif';ctx.textAlign='center';const name=b.id==='bomarsund'&&year>=1854?'Bomarsunds ruiner':b.name,m=ctx.measureText(name);ctx.fillStyle='#f8f7f1ee';ctx.fillRect(x-m.width/2-5,y+size/2+2,m.width+10,18);ctx.fillStyle='#354d40';ctx.fillText(name,x,y+size/2+15)}ctx.restore();hits.push({id:b.id,x,y,size});
+ if(mode==='reconstruction'||mode==='wreck'||mode==='ofreden'){const im=iconFor(b);if(im.complete)ctx.drawImage(im,x-size/2,y-size/2,size,size)}else{ctx.beginPath();ctx.arc(x,y,4.5,0,7);ctx.fillStyle=b.category==='marine'?'#406b76':'#886b51';ctx.fill();ctx.strokeStyle='#faf7e8';ctx.lineWidth=1.5;ctx.stroke()}
+ if(selected===b.id||(mode==='ofreden'&&zoom>3)||(mode==='reconstruction'&&zoom>2)){ctx.font='11px -apple-system,sans-serif';ctx.textAlign='center';const name=b.id==='bomarsund'&&year>=1854?'Bomarsunds ruiner':b.name,m=ctx.measureText(name);ctx.fillStyle='#f8f7f1ee';ctx.fillRect(x-m.width/2-5,y+size/2+2,m.width+10,18);ctx.fillStyle='#354d40';ctx.fillText(name,x,y+size/2+15)}ctx.restore();hits.push({id:b.id,x,y,size});
 }}
 function sourceLink(k){return `<a href="${sources[k][1]}" target="_blank" rel="noreferrer">${sources[k][0]} ↗</a>`}
-// Article titles verified against Swedish Wikipedia on 2026-10-12.
+// Article titles checked against Swedish Wikipedia; Ofreden additions 2026-10-14.
 // Reconstructed homes link to background reading, never to a fictitious building.
 const buildingWikipedia={
  hut:'Ålands historia',bronze:'Ålands historia',farm:'Ålands historia',
@@ -116,6 +120,7 @@ const buildingWikipedia={
  library:'Mariehamns stadsbibliotek'
 };
 const eraWikipedia={
+ '1714':'Stora ofreden','1718':'Ålandskongressen','1719':'Stora ofreden','1720':'Slaget vid Föglöfjärden','1721':'Ålands historia','1742':'Ålands historia','1743':'Ålands historia',
  '-5000':'Ålands historia','1750':'Ålands historia','1800':'Åland','1894':'Åland','1942':'Mariehamn','2021':'Mariehamn',
  '-12000':'Istid','-8000':'Landhöjning','-4000':'Ålands historia',
  '-1500':'Ålands historia','800':'Ålands historia','1280':'Jomala kyrka',
@@ -131,14 +136,15 @@ function wikipediaLink(building,period){
  return `<p class="wikipedia-link"><a href="${href}" target="_blank" rel="noopener noreferrer" aria-label="${building?.recon?'Bakgrund på Wikipedia':'Wikipedia'}: ${title} (öppnas i ny flik)">${building?.recon?'Bakgrund på Wikipedia':'Wikipedia'}: ${title} ↗</a></p>`;
 }
 function updateUI(){let e=eras[era],b=buildings.find(b=>b.id===selected&&visible().includes(b));if(!b)selected=null;$('.maparea').classList.toggle('fortress-view',b?.category==='fortress');$('.maparea').classList.toggle('ship-route-view',selectedFeature?.recordType==='shipRoute');$('#eraTitle').textContent=b?.category==='fortress'?'Bomarsund':selectedFeature?.recordType==='shipRoute'?'Fartygsrutter':e.tag;$('#mapDate').textContent=date(year);$('#yearLabel').textContent=date(year);$('#eraIndex').textContent=`${era+1} / ${eras.length}`;
-const body=b?{...b,title:b.name,tag:b.category==='fortress'?BomarsundPlan.tag(b,year):b.category==='wreck'?WreckTimeline.tag(b,year):b.category==='marine'?(EvidenceTime.state(b,year)==='trace'?'Tidigare lots- eller fyrplats':'Lots- eller fyrplats'):b.recon?'Rekonstruktion':b.id==='bomarsund'&&year>=1854?'Ruin sedan 1854':b.id==='bomarsund'&&year<1843?'Under byggnad':'Historisk byggnad'}:e;
+const body=b?{...b,title:b.name,tag:b.category==='ofreden'?'Händelseplats · '+b.dateLabel:b.category==='fortress'?BomarsundPlan.tag(b,year):b.category==='wreck'?WreckTimeline.tag(b,year):b.category==='marine'?(EvidenceTime.state(b,year)==='trace'?'Tidigare lots- eller fyrplats':'Lots- eller fyrplats'):b.recon?'Rekonstruktion':b.id==='bomarsund'&&year>=1854?'Ruin sedan 1854':b.id==='bomarsund'&&year<1843?'Under byggnad':'Historisk byggnad'}:e;
 const wreck=wreckForStory(b,e);
 if(b?.category==='wreck')body.text=WreckTimeline.text(b,year);
 if(b?.category==='fortress'){body.text=year>=1854?b.ruinText:b.text;body.title=year>=1854&&b.kind!=='cemetery'?b.name+' · äldre plats':b.name}
-$('#story').innerHTML=`${b?'<button class="back" id="back">← Till tidsperioden</button><br>':''}<span class="storytag">${body.tag}</span><h2>${body.title}</h2><p>${body.text}</p>${wikipediaLink(b||wreck,e)}${!b&&e.cityPlan?cityPlanControls():''}${!b&&e.cityMuseum?cityMuseumControls():''}${!b&&e.earlyMap?earlyMapControls():''}${!b&&e.routeId?'<button id=focusRouteEvent>Visa fartygsrutten</button>':''}${b?.category==='fortress'?`<div class="dating"><p>${htmlEscape(b.dateNote)}</p><small>${htmlEscape(b.geometrySource)} · Lägen och former är ungefärliga.</small></div>`:''}${b?.category==='fortress'||[1832,1853,1854].includes(e.y)?fortressControls():''}${wreck?wreckDetails(wreck):''}${wreck&&!b?`<button id="focusWreckEvent">Visa ${htmlEscape(wreck.name)} på kartan</button>`:''}${b?.temporal?`<p class="evidence-badge">${EvidenceTime.label(EvidenceTime.state(b,year))}</p><p class="asidehint">${htmlEscape(EvidenceTime.phase(b,year)?.label||b.temporal.dateLabel)}</p>`:''}<div class="question"><strong>Fundera tillsammans</strong>${body.q}</div><details><summary>Läs mer tillsammans</summary><p>${body.more}</p>${body.sourceUrl?`<a href="${safeURL(body.sourceUrl)}" target="_blank" rel="noreferrer">Ålands landskapsregering · platsens registeruppgifter ↗</a>`:sourceLink(body.src)}${b?.category==='fortress'?b.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}${wreck?wreck.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}</details>`;
+$('#story').innerHTML=`${b?'<button class="back" id="back">← Till tidsperioden</button><br>':''}<span class="storytag">${body.tag}</span><h2>${body.title}</h2><p>${body.text}</p>${wikipediaLink(b||wreck,e)}${b?.category==='ofreden'?ofredenDetails(b):''}${!b&&e.ofredenPlace?'<button id=focusOfredenEvent>Visa platsen på kartan</button>':''}${!b&&e.cityPlan?cityPlanControls():''}${!b&&e.cityMuseum?cityMuseumControls():''}${!b&&e.earlyMap?earlyMapControls():''}${!b&&e.routeId?'<button id=focusRouteEvent>Visa fartygsrutten</button>':''}${b?.category==='fortress'?`<div class="dating"><p>${htmlEscape(b.dateNote)}</p><small>${htmlEscape(b.geometrySource)} · Lägen och former är ungefärliga.</small></div>`:''}${b?.category==='fortress'||[1832,1853,1854].includes(e.y)?fortressControls():''}${wreck?wreckDetails(wreck):''}${wreck&&!b?`<button id="focusWreckEvent">Visa ${htmlEscape(wreck.name)} på kartan</button>`:''}${b?.temporal?`<p class="evidence-badge">${EvidenceTime.label(EvidenceTime.state(b,year))}</p><p class="asidehint">${htmlEscape(EvidenceTime.phase(b,year)?.label||b.temporal.dateLabel)}</p>`:''}<div class="question"><strong>Fundera tillsammans</strong>${body.q}</div><details><summary>Läs mer tillsammans</summary><p>${body.more}</p>${body.sourceUrl?`<a href="${safeURL(body.sourceUrl)}" target="_blank" rel="noreferrer">Ålands landskapsregering · platsens registeruppgifter ↗</a>`:sourceLink(body.src)}${b?.category==='fortress'?b.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}${(body.links||[]).map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noopener noreferrer">${htmlEscape(label)} ↗</a></p>`).join('')}${wreck?wreck.links.map(([label,url])=>`<p><a href="${safeURL(url)}" target="_blank" rel="noreferrer">${htmlEscape(label)} ↗</a></p>`).join(''):''}</details>`;
 $('#story').querySelectorAll('[data-city-plan]').forEach(el=>el.onclick=()=>el.dataset.cityPlan==='original'?window.openCityPlanArchive():window.openCityPlan(Number(el.dataset.cityPlan)));
 $('#story').querySelectorAll('[data-city-museum]').forEach(el=>el.onclick=()=>el.dataset.cityMuseum==='original'?window.openCityMapArchive('1920'):window.openCityMap('1920',Number(el.dataset.cityMuseum)));
 $('#story').querySelectorAll('[data-early-map]').forEach(el=>el.onclick=()=>window.openEarlyMapArchive(el.dataset.earlyMap==='compare'));
+if($('#focusOfredenEvent'))$('#focusOfredenEvent').onclick=()=>openOfreden(e.y,true);
 if($('#focusRouteEvent'))$('#focusRouteEvent').onclick=()=>openShipRoute(e.routeId);
 if(!b&&e.y===1750){$('#story details').insertAdjacentHTML('beforeend','<p>'+sourceLink('postalEnd')+'</p><p><a href="https://www.sjofartsmuseet.se/Postrodden/Postroddens-historia.html" target="_blank" rel="noopener noreferrer">Roslagens sjöfartsmuseum · flytten 1756 ↗</a></p><p><a href="https://visitkustavi.fi/en/kohde/suuri-postitie/" target="_blank" rel="noopener noreferrer">Gustavs · postvägen till Vartsala ↗</a></p>');$('#story').insertAdjacentHTML('beforeend','<button id="showPostalRoute">Visa postvägen Sverige–Finland</button>');$('#showPostalRoute').onclick=()=>{explorer.flags.postal=true;$('#layerPostal').checked=true;focusPostalRoute();window.MapUI?.showMap()}}
 if(!b&&year>=1860){$('#story').insertAdjacentHTML('beforeend',`<p id="cityStageNote" class="asidehint">${htmlEscape(cityGrid.status(year))}</p>${e.cityPlan||e.cityMuseum?'':`<button data-city-grid-year="${year}">Utforska Mariehamns stadsnät</button>`}`);bindCityGridButtons()}
@@ -227,9 +233,12 @@ $('#overlayOpacity').oninput=e=>{historicalOverlay.opacity=Number(e.target.value
 $('#layerWrecks').onchange=()=>{updateUI();draw()};
 $('#wreckChoice').innerHTML='<option value="">Välj ett fartyg…</option>'+window.WRECKS.map(w=>`<option value="${w.id}">${w.name} · ${w.sinkingYear??w.discoveryYear}${w.sinkingYear==null?' (hittas)':''}</option>`).join('');
 $('#wreckChoice').onchange=e=>{const w=window.WRECKS.find(w=>w.id===e.target.value);if(w)openWreck(w);e.target.value=''};
+$('#ofredenYear').innerHTML='<option value="">Välj en berättelse…</option>'+window.OFREDEN.events.map(e=>`<option value="${e.y}">${e.y} · ${htmlEscape(e.title)}</option>`).join('');
+$('#ofredenYear').onchange=e=>{if(e.target.value)openOfreden(Number(e.target.value));e.target.value=''};
+$('#layerOfreden').onchange=e=>{explorer.flags.ofreden=e.target.checked;explorer.listKey=null;updateUI();draw()};
 $('#layerMarine').onchange=()=>{updateUI();draw()};
 $('#placeSearch').oninput=e=>explorer.search(e.target.value);
-function jumpToSearch(){const query=$('#placeSearch').value.trim().toLocaleLowerCase('sv'),wreck=query&&window.WRECKS.find(w=>w.name.toLocaleLowerCase('sv').includes(query)||w.registryCode.toLocaleLowerCase('sv')===query);if(wreck){openWreck(wreck);return}const found=explorer.search($('#placeSearch').value),q=explorer.query;const rank=f=>f.name.toLocaleLowerCase('sv')===q||f.code.toLocaleLowerCase('sv')===q?0:f.name.toLocaleLowerCase('sv').startsWith(q)?1:2;found.sort((a,b)=>rank(a)-rank(b));const f=found[0];if(f){$('#registerStatus').textContent=found.length+' sökträffar i hela registret';if(!explorer.available(f,year)){if(EvidenceTime.firstYear(f)!=null){explorer.flags.uncertain=true;$('#layerUncertain').checked=true;goToYear(EvidenceTime.firstYear(f))}else{$('#layerUndated').checked=true;explorer.flags.undated=true}}explorer.flags.heritage=true;$('#layerHeritage').checked=true;explorer.flags.historic=true;$('#layerHistoric').checked=true;explorer.category='all';$('#categoryFilter').value='all';selectFeature(f,true)}else $('#registerStatus').textContent='Inga fyndplatser matchar sökningen.'}
+function jumpToSearch(){const query=$('#placeSearch').value.trim().toLocaleLowerCase('sv'),wreck=query&&window.WRECKS.find(w=>w.name.toLocaleLowerCase('sv').includes(query)||w.registryCode.toLocaleLowerCase('sv')===query);if(wreck){openWreck(wreck);return}const ofreden=query&&window.OFREDEN?.places.find(p=>[p.name,p.loc,...p.registryCodes].join(' ').toLocaleLowerCase('sv').includes(query));if(ofreden){openOfreden(ofreden.start,true);return}const found=explorer.search($('#placeSearch').value),q=explorer.query;const rank=f=>f.name.toLocaleLowerCase('sv')===q||f.code.toLocaleLowerCase('sv')===q?0:f.name.toLocaleLowerCase('sv').startsWith(q)?1:2;found.sort((a,b)=>rank(a)-rank(b));const f=found[0];if(f){$('#registerStatus').textContent=found.length+' sökträffar i hela registret';if(!explorer.available(f,year)){if(EvidenceTime.firstYear(f)!=null){explorer.flags.uncertain=true;$('#layerUncertain').checked=true;goToYear(EvidenceTime.firstYear(f))}else{$('#layerUndated').checked=true;explorer.flags.undated=true}}explorer.flags.heritage=true;$('#layerHeritage').checked=true;explorer.flags.historic=true;$('#layerHistoric').checked=true;explorer.category='all';$('#categoryFilter').value='all';selectFeature(f,true)}else $('#registerStatus').textContent='Inga fyndplatser matchar sökningen.'}
 $('#searchPlace').onclick=jumpToSearch;$('#placeSearch').onkeydown=e=>{if(e.key==='Enter')jumpToSearch()};
 if(matchMedia('(max-width:800px)').matches)$('.layers').open=false;
 setTime(MAX_TIME);explorer.load();shorelines.load();historicalOverlay.load();historicalRoads.load();cityGrid.load();
@@ -315,4 +324,28 @@ function openCityGrid(targetYear){
  chooseMapBackground('model',false);goToYear(targetYear);
  if(meta){const a=project(19.922,60.103),b=project(19.951,60.090);zoom=Math.max(8,Math.min(70,(W-48)/((b[0]-a[0])*fit),(H-50)/((b[1]-a[1])*fit)));panX=-((a[0]+b[0])/2-meta.width/2)*fit*zoom;panY=-((a[1]+b[1])/2-meta.height/2)*fit*zoom;draw()}
  window.MapUI?.showMap();
+}
+
+
+// Event symbols stay the same size on screen; they are not building footprints.
+function ofredenSymbol(type){
+ const shapes={
+  'ofred-congress':'<path d="M9 10H17L19 12H27V25H19L17 23H9Z M18 12V24"/>',
+  'ofred-fleet':'<path d="M8 23H28L24 28H12Z M18 8V23 M18 10L26 20H18Z M8 31Q13 28 18 31T28 31"/>',
+  'ofred-battle':'<path d="M8 22H26L22 27H12Z M17 8V22 M17 10L25 19H17Z M7 30Q12 28 17 30T28 30 M27 6V12 M24 9H30"/>',
+  'ofred-skans':'<path d="M8 26V14H12V10H16V14H20V10H24V14H28V26 M8 26H28 M16 26V20H20V26"/>'
+ };
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="#faf7e8" stroke="#8b6954" stroke-dasharray="3 2"/><g fill="none" stroke="#72533f" stroke-width="1.5" stroke-linejoin="round">${shapes[type]||shapes['ofred-congress']}</g></svg>`;
+}
+function ofredenDetails(place){
+ return `<p class="asidehint">${htmlEscape(place.precision)} Symbolen visar typen av plats, inte dess form eller storlek.</p>${(place.details||[]).map(d=>`<details><summary>${htmlEscape(d.title)}</summary><p>${htmlEscape(d.text)}</p></details>`).join('')}`;
+}
+function openOfreden(targetYear,selectPlace=false){
+ const event=window.OFREDEN.events.find(e=>e.y===targetYear);if(!event)return;
+ pause();clearSearch();$('#layerOfreden').checked=true;explorer.flags.ofreden=true;explorer.listKey=null;
+ chooseMapBackground('model',false);goToYear(targetYear);
+ const place=window.OFREDEN.places.find(p=>p.id===event.ofredenPlace);
+ if(place){focusMap(place.lon,place.lat,8);if(W<600){panY-=H*.25;draw()}if(selectPlace){selectBuilding(place.id,false);return}}
+ else focusMap(20.12,60.19,1.4);
+ window.MapUI?.showStory(true);
 }

@@ -1,0 +1,258 @@
+{
+  "verifiedOn": "2026-10-14",
+  "policy": "Års- och intervallbelägg. Händelsemarkörer är symboler, inte inmätta hus, fartyg eller försvarsvallar. Slut på visning innebär inte rivning. Flykt och återkomst har inga rekonstruerade färdvägar.",
+  "sources": {
+    "ofredenHistory": [
+      "Ålands historia · Visit Åland",
+      "https://visitaland.com/upplev/historia/alands-historia/"
+    ],
+    "ofredenFlight": [
+      "Såsom agnar för vinden · Krister Björklund",
+      "https://www.doria.fi/bitstream/handle/10024/188254/J-48%20ISBN%20978-952-7399-34-7%20Krister%20Bj%C3%B6rklund%20-%20S%C3%A5som%20agnar%20f%C3%B6r%20vinden.pdf?isAllowed=y&sequence=2"
+    ],
+    "ofredenCongress": [
+      "Fredskongressens lämningar · Ålands kulturarvsregister",
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27V%C3%A5+8.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+    ],
+    "ofredenFlaka": [
+      "Flaka hamn · Ålands kulturarvsregister",
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Le+4.5%27&outFields=%2A&returnGeometry=false&f=pjson"
+    ],
+    "ofredenBattle": [
+      "Sjöslaget 1720 · Kungl. Örlogsmannasällskapet",
+      "https://www.koms.se/konst/1700-talet/slaget-vid-ledsund-den-27-juli-1720-2/"
+    ],
+    "ofredenSkans": [
+      "Degerby och Skansbacka · Ålands kulturmiljöregister",
+      "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/ByggnadsarvKulturmiljo/MapServer/4/query?where=KmID+%3D+%27F%C3%B6+6.1%27&outFields=%2A&returnGeometry=false&f=pjson"
+    ]
+  },
+  "places": [
+    {
+      "id": "ofreden-lovo",
+      "name": "Fredskongressen i Lövö",
+      "loc": "Lövö, Vårdö · ungefärligt område",
+      "lon": 20.37067950812297,
+      "lat": 60.26159786733136,
+      "start": 1718,
+      "end": 1719,
+      "type": "ofred-congress",
+      "category": "ofreden",
+      "text": "I Lövö byggs hus för människor som ska försöka få slut på kriget. Här finns rum att bo i, kansli att skriva i och stora salar att äta i. Svenska och ryska förhandlare har var sitt läger.",
+      "more": "Fredskongressen pågick 1718–1719 men ledde inte till fred. Registret beskriver ett svenskt läger i söder och ett ryskt i norr, med bostäder, matsalar, vaktrum och en rysk kyrka. Delar av det svenska lägret undersöktes 1973–1974. De båda lägrens exakta lägen och yttergränser är inte fastställda. Markören använder registerområdets representativa punkt. Visningsåren gäller kongressen, inte säkra bygg- eller rivningsår.",
+      "q": "Vad kan hjälpa människor att komma överens?",
+      "src": "ofredenCongress",
+      "registryCodes": [
+        "Vå 8.1"
+      ],
+      "dateLabel": "1718–1719",
+      "wiki": "https://sv.wikipedia.org/wiki/%C3%85landskongressen",
+      "precision": "Registerpunkt för kongressområdet. Husens lägen och former är inte rekonstruerade.",
+      "details": [
+        {
+          "title": "Två läger i samma by",
+          "text": "Det svenska lägret beskrivs med kansli, predikosal, matsalar och vaktrum. Det ryska hade bostäder och en separat kyrka. Uppgifterna hjälper oss att förstå hur platsen användes, men räcker inte för en exakt husplan."
+        },
+        {
+          "title": "Spår av vardagen",
+          "text": "Vid utgrävningar hittades bland annat mynt, glas, porslin och djurben. Även när människor förhandlade om fred behövde de mat, värme och någonstans att sova."
+        }
+      ]
+    },
+    {
+      "id": "ofreden-flaka",
+      "name": "Flottbasen vid Flaka",
+      "loc": "Flaka, Lemland · ungefärligt område",
+      "lon": 20.198433882129457,
+      "lat": 59.9892380050189,
+      "start": 1719,
+      "end": 1719,
+      "type": "ofred-fleet",
+      "category": "ofreden",
+      "text": "År 1719 har den ryska flottan sitt högkvarter vid Flaka hamn. Vid stranden finns spår av hus och stenugnar. Många människor behöver mat och värme medan fartygen ligger här.",
+      "more": "Kulturarvsregistret knyter Flaka hamn till flottans högkvarter 1719. Lämningarna sträcker sig över ett område från Nätskär till Herrön; gränserna är inte fastställda. Husgrunder och förvaringsgropar finns också i registerpost Le 4.23. Markören visar en representativ registerpunkt, inte en viss kaj eller byggnad. År 1719 är ett belägg för funktionen, inte hela anläggningens kända livslängd.",
+      "q": "Hur skulle ni laga mat åt många människor utan elektricitet?",
+      "src": "ofredenFlaka",
+      "registryCodes": [
+        "Le 4.5",
+        "Le 4.23"
+      ],
+      "dateLabel": "1719",
+      "precision": "Registerpunkt för ett större hamn- och lägerområde. Fartygssymbolen visar ingen bestämd fartygsposition.",
+      "details": [
+        {
+          "title": "Hus, förråd och ugnar",
+          "text": "I området finns husgrunder, stenugnar och förvaringsgropar. En registrering på Björkö beskriver dessutom möjliga bastugrunder. Tolkningen som bastur är osäker."
+        }
+      ],
+      "links": [
+        [
+          "Husgrunder och förvaringsgropar · Le 4.23",
+          "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Le+4.23%27&outFields=%2A&returnGeometry=false&f=pjson"
+        ],
+        [
+          "Möjliga bastugrunder på Björkö · Le 4.8",
+          "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Le+4.8%27&outFields=%2A&returnGeometry=false&f=pjson"
+        ]
+      ]
+    },
+    {
+      "id": "ofreden-ledsund",
+      "name": "Sjöslaget vid Flisö / Ledsund",
+      "loc": "Vattnen vid Flisö · ungefärligt läge",
+      "lon": 20.3,
+      "lat": 60.0,
+      "start": 1720,
+      "end": 1720,
+      "type": "ofred-battle",
+      "category": "ofreden",
+      "text": "Svenska och ryska fartyg möts i strid här år 1720. Mellan öarna finns smala sund och grunda vatten. Sådant som hjälper en liten båt kan göra det svårt för ett stort skepp.",
+      "more": "Slaget kallas också slaget vid Föglöfjärden eller Grengam. Kungl. Örlogsmannasällskapets avbildning namnger fartyg, sjömärken och platser. Olika historieskrivningar värderar utgången olika, och därför anger vi ingen entydig segrare. Årsmarkeringen återger en händelse under 1720, inte ett helt års strider. Punkten är en översiktlig placering vid Flisö och Granhamn; stridsförlopp, fartygslägen och vrakplatser är inte inmätta här.",
+      "q": "Varför är det viktigt att känna till var grunden finns?",
+      "src": "ofredenBattle",
+      "registryCodes": [],
+      "dateLabel": "1720",
+      "precision": "Översiktlig händelsemarkör vid Flisö och Granhamn. Ingen avgränsning av slagfältet eller plats för ett visst fartyg.",
+      "wiki": "https://sv.wikipedia.org/wiki/Slaget_vid_F%C3%B6gl%C3%B6fj%C3%A4rden",
+      "links": [
+        [
+          "Lägesbeskrivning · Battle of Grengam",
+          "https://en.wikipedia.org/wiki/Battle_of_Grengam"
+        ]
+      ],
+      "details": [
+        {
+          "title": "Ett slag med flera namn",
+          "text": "Flisö, Ledsund, Föglöfjärden och Grengam används om samma sjöslag. Äldre datum behöver också läsas med hänsyn till den kalender som källan använder."
+        }
+      ]
+    },
+    {
+      "id": "ofreden-degerby",
+      "name": "Skansen vid Degerby",
+      "loc": "Degerby, Föglö · bymarkör, exakt skansläge saknas",
+      "lon": 20.390082502164535,
+      "lat": 60.030779277217334,
+      "start": 1743,
+      "end": 1743,
+      "type": "ofred-skans",
+      "category": "ofreden",
+      "text": "Under lilla ofreden bygger svenska soldater en försvarsskans vid Degerby. En skans är en befäst plats där man kan ta skydd. Namnet Skansbacka påminner om den.",
+      "more": "Kulturmiljöregistret anger att en svensk försvarsskans uppfördes 1743 vid Skansbacka i norra delen av Degerby. Markören står vid Degerby kulturmiljös representativa registerpunkt, inte vid en inmätt skans. Skansens exakta form och sista användningsår är inte fastställda här. Den visas därför bara vid det belagda året 1743; försvinnandet på tidslinjen betyder inte att den revs 1744. Skansbackas nuvarande huvudbyggnad är från omkring 1920 och visas inte som en byggnad från kriget.",
+      "q": "Vad är skillnaden mellan ett hus att bo i och en plats att ta skydd på?",
+      "src": "ofredenSkans",
+      "registryCodes": [],
+      "dateLabel": "1743",
+      "precision": "Bymarkör för Degerby. Skansen låg vid Skansbacka i norra byn; exakt läge och form behöver utredas.",
+      "links": [
+        [
+          "Karthänvisning: Fliseberg och Degerby 1743 · s. 96",
+          "https://www.regeringen.ax/sites/default/files/attachments/page/miljokonsekvensbedomning_vfoglo_160826_slutlig_0.pdf"
+        ]
+      ]
+    }
+  ],
+  "events": [
+    {
+      "y": 1714,
+      "title": "Familjer lämnar sina hem",
+      "tag": "Stora ofreden",
+      "text": "Kriget når Åland. Många familjer flyr över havet till Sverige för att söka trygghet. Hem, djur och åkrar måste lämnas kvar.",
+      "q": "Vad skulle vara viktigast att ta med om ni snabbt måste lämna hemmet?",
+      "more": "Åland ockuperades 1714. Största delen av befolkningen flydde till Sverige. Händelsen gäller hela landskapet. Vi ritar inga bestämda flyktvägar eller påstår att varje gård övergavs eller förstördes.",
+      "src": "ofredenHistory",
+      "ofreden": true
+    },
+    {
+      "y": 1718,
+      "title": "Hus för fredssamtal",
+      "tag": "Lövö 1718–1719",
+      "text": "I Lövö byggs hus för människor som ska försöka få slut på kriget. Här finns rum att bo i, kansli att skriva i och stora salar att äta i. Svenska och ryska förhandlare har var sitt läger.",
+      "q": "Vad kan hjälpa människor att komma överens?",
+      "more": "Fredskongressen pågick 1718–1719 men ledde inte till fred. Registret beskriver ett svenskt läger i söder och ett ryskt i norr, med bostäder, matsalar, vaktrum och en rysk kyrka. Delar av det svenska lägret undersöktes 1973–1974. De båda lägrens exakta lägen och yttergränser är inte fastställda. Markören använder registerområdets representativa punkt. Visningsåren gäller kongressen, inte säkra bygg- eller rivningsår.",
+      "src": "ofredenCongress",
+      "ofreden": true,
+      "ofredenPlace": "ofreden-lovo"
+    },
+    {
+      "y": 1719,
+      "title": "En flottbas vid stranden",
+      "tag": "Flaka 1719",
+      "text": "År 1719 har den ryska flottan sitt högkvarter vid Flaka hamn. Vid stranden finns spår av hus och stenugnar. Många människor behöver mat och värme medan fartygen ligger här.",
+      "q": "Hur skulle ni laga mat åt många människor utan elektricitet?",
+      "more": "Kulturarvsregistret knyter Flaka hamn till flottans högkvarter 1719. Lämningarna sträcker sig över ett område från Nätskär till Herrön; gränserna är inte fastställda. Husgrunder och förvaringsgropar finns också i registerpost Le 4.23. Markören visar en representativ registerpunkt, inte en viss kaj eller byggnad. År 1719 är ett belägg för funktionen, inte hela anläggningens kända livslängd.",
+      "src": "ofredenFlaka",
+      "ofreden": true,
+      "ofredenPlace": "ofreden-flaka"
+    },
+    {
+      "y": 1720,
+      "title": "Fartyg möts i skärgården",
+      "tag": "Sjöslaget 1720",
+      "text": "Svenska och ryska fartyg möts i strid här år 1720. Mellan öarna finns smala sund och grunda vatten. Sådant som hjälper en liten båt kan göra det svårt för ett stort skepp.",
+      "q": "Varför är det viktigt att känna till var grunden finns?",
+      "more": "Slaget kallas också slaget vid Föglöfjärden eller Grengam. Kungl. Örlogsmannasällskapets avbildning namnger fartyg, sjömärken och platser. Olika historieskrivningar värderar utgången olika, och därför anger vi ingen entydig segrare. Årsmarkeringen återger en händelse under 1720, inte ett helt års strider. Punkten är en översiktlig placering vid Flisö och Granhamn; stridsförlopp, fartygslägen och vrakplatser är inte inmätta här.",
+      "src": "ofredenBattle",
+      "ofreden": true,
+      "ofredenPlace": "ofreden-ledsund"
+    },
+    {
+      "y": 1721,
+      "title": "Äntligen på väg hem",
+      "tag": "Fred och återkomst",
+      "text": "Det blir fred. Familjer börjar återvända till Åland och ta hand om sina hem och åkrar igen. Alla kommer inte tillbaka samtidigt.",
+      "q": "Vad skulle ni vilja ordna först när ni kom hem?",
+      "more": "Efter freden i Nystad 1721 återvände invånare successivt; Visit Åland anger 1721–1723. Hållpunkten markerar början på återkomsten, inte att hela landskapet var återuppbyggt 1721.",
+      "src": "ofredenHistory",
+      "ofreden": true
+    },
+    {
+      "y": 1742,
+      "title": "Kriget kommer tillbaka",
+      "tag": "Lilla ofreden",
+      "text": "En generation senare kommer kriget tillbaka. Många familjer på Åland söker åter trygghet i Sverige. Havet blir ännu en gång vägen bort från kriget.",
+      "q": "Hur kan man hjälpa en familj som har behövt lämna sitt hem?",
+      "more": "Lilla ofreden omfattar ockupationen 1742–1743. Migrationsforskningen beskriver flykt från Åland och Åbolands kust till Sverige och återkomst efter freden. Exakta resvägar och enskilda gårdars öden är inte kartlagda här.",
+      "src": "ofredenFlight",
+      "ofreden": true
+    },
+    {
+      "y": 1743,
+      "title": "En skans byggs – och kriget tar slut",
+      "tag": "Degerby och freden 1743",
+      "text": "I Degerby byggs en skans för försvaret. Senare under året blir det fred, och människor som flytt kan börja återvända hem.",
+      "q": "Vad behöver människor för att känna sig trygga igen?",
+      "more": "Skansbygget i Degerby är belagt 1743. Freden i Åbo avslutade kriget samma år. Årssteget samlar händelser under året; det betyder inte att skansbygget och freden skedde samtidigt. Flyktingar återvände i regel efter freden.",
+      "src": "ofredenSkans",
+      "ofreden": true,
+      "ofredenPlace": "ofreden-degerby",
+      "links": [
+        [
+          "Såsom agnar för vinden · Krister Björklund",
+          "https://www.doria.fi/bitstream/handle/10024/188254/J-48%20ISBN%20978-952-7399-34-7%20Krister%20Bj%C3%B6rklund%20-%20S%C3%A5som%20agnar%20f%C3%B6r%20vinden.pdf?isAllowed=y&sequence=2"
+        ],
+        [
+          "Lilla ofreden · Uppslagsverket Finland",
+          "https://uppslagsverket.fi/sv/sok/view-170045-LillaOfreden"
+        ]
+      ]
+    }
+  ],
+  "followUp": [
+    {
+      "subject": "Lövös ryska karta",
+      "status": "Hänvisning funnen; originalet inte granskat",
+      "url": "https://www.regeringen.ax/sites/default/files/attachments/page/arsredovisning_2019_2020-06-15_slutlig_164353_v21.pdf"
+    },
+    {
+      "subject": "Fliseberg och Degerby 1743",
+      "status": "Krigsarkivets karta omnämns på s. 96; originalet inte granskat",
+      "url": "https://www.regeringen.ax/sites/default/files/attachments/page/miljokonsekvensbedomning_vfoglo_160826_slutlig_0.pdf"
+    },
+    {
+      "subject": "Sottunga kyrka",
+      "status": "Inte införd som säker krigsbrand. Registret och församlingen anger olika brand- och byggår.",
+      "url": "https://www.alandssodra.fi/kyrkor-och-lokaler/sottunga-kyrka"
+    }
+  ]
+}
