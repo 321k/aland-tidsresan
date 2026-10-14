@@ -31,3 +31,22 @@ test('feature stories distinguish planned streets, inferred blocks and undated r
  assert.match(grid.story(grid.stage(1920).features.find(f=>f.kind==='block')),/inte en fastighetsgräns/);
  const house=grid.story(grid.stage(1920).features.find(f=>f.kind==='building'));assert.match(house,/betyder inte att huset revs/);assert.match(house,/data-city-grid-year="1942"/);
 });
+
+test('established modern city streets retain identical geometry between 2014 and 2023',()=>{
+ const recent=data.sets.filter(d=>d.year>=2014),grid=new Grid(()=>{});grid.sets=structuredClone(data.sets);
+ assert.equal(grid.stage(2023).year,2021);
+ const paths=(d,name)=>d.features.filter(f=>f.kind==='street'&&f.name===name).map(f=>JSON.stringify(f.paths)).sort();
+ for(const name of ['Storagatan','Norragatan','Södragatan','Torggatan']){
+  const reference=paths(recent[0],name);assert.ok(reference.length>0,name);
+  for(const d of recent.slice(1))assert.deepEqual(paths(d,name),reference,name+' '+d.year);
+ }
+ for(const d of recent){assert.equal(d.geometryYear,2026);assert.equal(d.normalizedStreets,true);assert.match(d.note,/inte antaget byggår/)}
+});
+test('unified recent streets only replace underlying roads within the city and at visible zoom',()=>{
+ const grid=new Grid(()=>{});grid.sets=structuredClone(data.sets);grid.coverage=data.coverage;
+ const v={year:2023,zoom:20},project=(lon,lat)=>[lon,-lat];
+ assert.equal(grid.ownsRecentPoint(project(19.94,60.10),v,project),true);
+ assert.equal(grid.ownsRecentPoint(project(20.0,60.24),v,project),false);
+ assert.equal(grid.ownsRecentPoint(project(19.94,60.10),{...v,zoom:1},project),false);
+ grid.enabled=false;assert.equal(grid.ownsRecentPoint(project(19.94,60.10),v,project),false);
+});

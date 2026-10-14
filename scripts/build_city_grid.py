@@ -21,7 +21,7 @@ def parts(g,typ):
  if g.geom_type==typ:return [g]
  return [p for p in getattr(g,'geoms',[]) if p.geom_type==typ]
 def build(ds,roads,areas,buildings):
- features=[];lines=[r[1] for r in roads]
+ features=[];lines=[line for f,line in roads if ds['kind']!='modern' or f.get('class') in ['residential','living_street','unclassified','tertiary','secondary','primary','road','pedestrian']]
  # Noding intersections makes the street grid a connected planar network.
  network=unary_union(lines);edges=parts(network,'LineString')
  nodes=set();adj={}
@@ -44,8 +44,8 @@ def build(ds,roads,areas,buildings):
  for f,p in areas:features.append({'id':ds['id']+'-area-'+str(len(features)),**f,'paths':polygon_paths(p)})
  for i,p in enumerate(buildings):features.append({'id':ds['id']+'-house-'+str(i),'kind':'building','name':'Hussymbol på museikartan','paths':polygon_paths(p)})
  # Render source polylines, keep their IDs and names; noded graph is diagnostics.
- if ds['kind']!='modern':
-  for i,(f,line) in enumerate(roads):features.append({'id':ds['id']+'-street-'+str(i),'kind':'street','name':f['name'],'width':f.get('width',9),'paths':[coords(line.coords)]})
+ if ds['kind']!='modern' or ds.get('normalizedStreets'):
+  for i,(f,line) in enumerate(roads):features.append({'id':ds['id']+'-street-'+str(i),'kind':'street','name':f['name'],'width':f.get('width',9),**({'class':f['class']} if 'class' in f else {}),'paths':[coords(line.coords)]})
  ds['features']=features;ds['counts']={'streets':len(roads),'blocks':sum(f['kind']=='block' for f in features),'buildings':len(buildings),'parks':len(areas)}
  ds['topology']={'nodes':len(nodes),'edges':len(edges),'components':components}
  return ds
@@ -62,17 +62,36 @@ for raw in doc['sets']:
  areas=[({k:v for k,v in a.items() if k!='pixels'},Polygon(convert(a['pixels']))) for a in raw['areas']]
  buildings=[Polygon(convert(b['pixels'])) for b in raw.get('buildings',[])]
  sets.append(build(ds,roads,areas,buildings))
+# Align the recent city maps to one street geometry. Earlier snapshots establish
+# corridor presence, not exact survey accuracy. New corridors retain a first
+# attested snapshot; small footpaths do not redefine street blocks.
+classes=['residential','living_street','unclassified','tertiary','secondary','primary','road','pedestrian']
+recent={}
 for year in [2014,2021,2025,2026]:
  file=root/f'dist/assets/roads-{year}.json.gz' if year<2026 else root/'dist/assets/modern.json.gz'
  data=json.loads(gzip.decompress(file.read_bytes()));roads=[]
  for f in data['features']:
   if year==2026 and f.get('kind')!='road':continue
-  if f.get('class') not in ['residential','living_street','unclassified','tertiary','secondary','primary','road','pedestrian']:continue
+  if not f.get('class'):continue
   for path in f['paths']:
-   line=LineString([fwd(*p) for p in path]);
+   line=LineString([fwd(*p) for p in path])
    if not line.intersects(clip):continue
    for part in parts(line.intersection(clip),'LineString'):roads.append((f,part))
- ds={'id':'city-'+str(year),'year':year,'kind':'modern','name':'Mariehamns gatunät · '+str(year),'source':'https://www.openstreetmap.org/copyright','note':'Gator från OpenStreetMap '+str(year)+'. Kvarteren har härletts mellan kartlagda gator och är inte fastighetsgränser. Skillnader mellan källåren kan bero på både ombyggnad och bättre kartläggning. Huslagret använder separata, daterade kartuttag och källbelagda husplatser.','snapshot':data.get('snapshot')}
+ recent[year]=(data,roads)
+# A 20 m corridor absorbs minor survey shifts and changed segmentation.
+coverage={y:unary_union([line for _,line in roads]).buffer(20) for y,(_,roads) in recent.items()}
+canonical=[]
+for f,line in recent[2026][1]:
+ first=next(y for y in recent if line.intersection(coverage[y]).length>=line.length*.85)
+ canonical.append(({**f,'firstSnapshot':first,'width':8 if f['class'] in ['primary','secondary'] else 5 if f['class'] in classes else 2},line))
+for year,(data,old_roads) in recent.items():
+ roads=[(f,line) for f,line in canonical if f['firstSnapshot']<=year]
+ # Preserve substantial older alignments that are absent from the current map.
+ if year<2026:
+  for f,line in old_roads:
+   for old in parts(line.difference(coverage[2026]),'LineString'):
+    if old.length>=30:roads.append(({**f,'width':5},old))
+ ds={'id':'city-'+str(year),'year':year,'kind':'modern','normalizedStreets':True,'geometryYear':2026,'name':'Mariehamns gatunät · '+str(year),'source':'https://www.openstreetmap.org/copyright','note':'Gemensam gatulinjering från OSM 2026 för jämförelsen 2014–idag. Äldre kartuttag används för att avgöra vilka gatustråk som var kartlagda: minst 85 procent av stråket ska ligga inom 20 meter från det äldre nätet. Mindre läges- och indelningsskillnader jämnas ut. Nytillkomna stråk visas från första kartbelägg, inte antaget byggår. Tydligt avvikande äldre sträckor behålls. Kvarter är härledda ytor, inte fastighetsgränser. Husens daterade konturer följer sina egna källår.','snapshot':data.get('snapshot')}
  sets.append(build(ds,roads,[],[]))
 for i,d in enumerate(sets):d['from']=d['year'];d['through']=sets[i+1]['year']-1 if i<len(sets)-1 else 2026
 out={'policy':doc['policy'],'coverage':doc['coverage'],'sets':sets}

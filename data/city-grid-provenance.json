@@ -1,5 +1,5 @@
 {
-  "verifiedOn": "2026-10-13",
+  "verifiedOn": "2026-10-14",
   "traceFile": "data/mariehamn-city-traces.json",
   "buildScript": "scripts/build_city_grid.py",
   "policy": "Source snapshots, not inferred construction dates. 1860 remains explicitly a plan through 1919; 1920 denotes a decade. No interpolation of undocumented construction. Derived blocks are street enclosures, not parcels. Museum roof symbols are shown only with the 1920s snapshot (1920–1941), not assumed to survive into later sources. OSM changes may reflect mapping completeness.",
@@ -71,15 +71,15 @@
       "year": 2014,
       "url": "https://www.openstreetmap.org/copyright",
       "counts": {
-        "streets": 653,
-        "blocks": 124,
+        "streets": 3366,
+        "blocks": 115,
         "buildings": 0,
         "parks": 0
       },
       "topology": {
-        "nodes": 830,
-        "edges": 990,
-        "components": 9
+        "nodes": 970,
+        "edges": 1134,
+        "components": 10
       }
     },
     {
@@ -87,15 +87,15 @@
       "year": 2021,
       "url": "https://www.openstreetmap.org/copyright",
       "counts": {
-        "streets": 840,
-        "blocks": 125,
+        "streets": 3968,
+        "blocks": 120,
         "buildings": 0,
         "parks": 0
       },
       "topology": {
-        "nodes": 1012,
-        "edges": 1188,
-        "components": 9
+        "nodes": 1041,
+        "edges": 1207,
+        "components": 13
       }
     },
     {
@@ -103,15 +103,15 @@
       "year": 2025,
       "url": "https://www.openstreetmap.org/copyright",
       "counts": {
-        "streets": 943,
-        "blocks": 120,
+        "streets": 4127,
+        "blocks": 121,
         "buildings": 0,
         "parks": 0
       },
       "topology": {
-        "nodes": 1043,
-        "edges": 1211,
-        "components": 11
+        "nodes": 1044,
+        "edges": 1212,
+        "components": 12
       }
     },
     {
@@ -119,7 +119,7 @@
       "year": 2026,
       "url": "https://www.openstreetmap.org/copyright",
       "counts": {
-        "streets": 944,
+        "streets": 4168,
         "blocks": 121,
         "buildings": 0,
         "parks": 0
@@ -131,5 +131,11 @@
       }
     }
   ],
-  "buildingLayer": "City roofs are now rendered by dist/city-buildings.js. Historical OSM building snapshots and documented place stories are described separately in data/city-building-provenance.json. Street and block source policy is unchanged."
+  "buildingLayer": "City roofs are now rendered by dist/city-buildings.js. Historical OSM building snapshots and documented place stories are described separately in data/city-building-provenance.json. Street and block source policy is unchanged.",
+  "recentStreetAlignment": {
+    "geometryYear": 2026,
+    "from": 2014,
+    "method": "Use canonical 2026 street geometry where at least 85% of a segment lies within 20 metres of a source-year road corridor. Keep substantial older deviations absent from 2026. Derive street blocks from the normalized main street network, excluding paths and service roads.",
+    "limitation": "Cartographic continuity assumption requested for the modern city. Not a claim that every road was unchanged, or a construction-date inventory."
+  }
 }

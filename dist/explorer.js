@@ -81,12 +81,13 @@ class ExplorerLayers {
   const roads=features.filter(f=>f.kind==='road');
   const minor=f=>['footway','path','steps','cycleway','bridleway','track'].includes(f.class);
   const roadWidth=f=>['motorway','trunk','primary','secondary'].includes(f.class)?Math.max(mpp>60?1.1:2.3,8/mpp):['tertiary','residential','unclassified','living_street'].includes(f.class)?Math.max(1.2,5/mpp):Math.max(.7,2/mpp);
+  ctx.save();v.cityGrid?.clipOutsideRecent?.(ctx,v,this.project);
   for(const f of roads){if(minor(f))continue;ctx.lineWidth=(roadWidth(f)+.9)/s;ctx.strokeStyle='#9eaa96';ctx.stroke(f.path)}
-  for(const f of roads){ctx.lineWidth=roadWidth(f)/s;ctx.strokeStyle=minor(f)?'#b19c77':'#faf7e7';ctx.setLineDash(minor(f)?[3/s,3/s]:[]);ctx.stroke(f.path)}ctx.setLineDash([]);
+  for(const f of roads){ctx.lineWidth=roadWidth(f)/s;ctx.strokeStyle=minor(f)?'#b19c77':'#faf7e7';ctx.setLineDash(minor(f)?[3/s,3/s]:[]);ctx.stroke(f.path)}ctx.restore();ctx.setLineDash([]);
   for(const f of features.filter(f=>f.kind==='building')){ctx.fillStyle=this.selected===f.id?'#b67747':'#a9917d';ctx.strokeStyle=this.selected===f.id?'#624125':'#706a5c';ctx.lineWidth=.7/s;ctx.fill(f.path,'evenodd');ctx.stroke(f.path)}
   ctx.restore();
   if(mpp<8){const used=new Set(),occupied=[];ctx.font='11px -apple-system,sans-serif';ctx.textAlign='center';
-   for(const f of roads){if(f.name==='Väg eller stig'||used.has(f.name)||f.class==='service')continue;const ring=f.paths[0],point=ring[Math.floor(ring.length/2)],[x,y]=this.screen(this.project(...point),v),w=ctx.measureText(f.name).width;if(x<50||y<30||x>v.width-50||y>v.height-30||occupied.some(p=>Math.abs(p[0]-x)<(p[2]+w)/2+14&&Math.abs(p[1]-y)<25))continue;used.add(f.name);occupied.push([x,y,w]);ctx.lineWidth=3;ctx.strokeStyle='#faf7e8';ctx.strokeText(f.name,x,y);ctx.fillStyle='#4d594d';ctx.fillText(f.name,x,y)}
+   for(const f of roads){if(f.name==='Väg eller stig'||used.has(f.name)||f.class==='service')continue;const ring=f.paths[0],point=ring[Math.floor(ring.length/2)],[x,y]=this.screen(this.project(...point),v),w=ctx.measureText(f.name).width;if(v.cityGrid?.ownsRecentPoint?.(this.project(...point),v,this.project))continue;if(x<50||y<30||x>v.width-50||y>v.height-30||occupied.some(p=>Math.abs(p[0]-x)<(p[2]+w)/2+14&&Math.abs(p[1]-y)<25))continue;used.add(f.name);occupied.push([x,y,w]);ctx.lineWidth=3;ctx.strokeStyle='#faf7e8';ctx.strokeText(f.name,x,y);ctx.fillStyle='#4d594d';ctx.fillText(f.name,x,y)}
   }
  }
  drawHeritage(ctx,v){const buckets=new Map(),size=v.zoom<8?34:20;
@@ -112,7 +113,7 @@ class ExplorerLayers {
  hit(x,y,ctx){const h=this.hits.filter(h=>Math.hypot(x-h.x,y-h.y)<h.r).sort((a,b)=>Math.hypot(x-a.x,y-a.y)-Math.hypot(x-b.x,y-b.y))[0];if(h)return h.entries.length>1?{cluster:h.entries}:h.entries[0];
   const v=this.view;if(!v||v.year<2026||!this.flags.modern)return null;const wx=(x-v.width/2-v.panX)/v.scale+v.meta.width/2,wy=(y-v.height/2-v.panY)/v.scale+v.meta.height/2;
   ctx.save();ctx.setTransform(1,0,0,1,0,0);const candidates=this.drawn.filter(f=>wx>=f.bounds[0]-5/v.scale&&wx<=f.bounds[2]+5/v.scale&&wy>=f.bounds[1]-5/v.scale&&wy<=f.bounds[3]+5/v.scale);let found=candidates.find(f=>f.kind==='building'&&ctx.isPointInPath(f.path,wx,wy,'evenodd'));
-  if(!found){ctx.lineWidth=10/v.scale;found=candidates.find(f=>f.kind==='road'&&ctx.isPointInStroke(f.path,wx,wy))}ctx.restore();return found;
+  if(!found&&!v.cityGrid?.ownsRecentPoint?.([wx,wy],v,this.project)){ctx.lineWidth=10/v.scale;found=candidates.find(f=>f.kind==='road'&&ctx.isPointInStroke(f.path,wx,wy))}ctx.restore();return found;
  }
  updateList(v){
   const status=document.querySelector('#modernStatus');const buildings=this.modernCounts.building;

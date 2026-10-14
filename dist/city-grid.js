@@ -2,10 +2,14 @@
 class CityGrid {
  constructor(change){this.change=change;this.enabled=true;this.sets=[];this.drawn=[];this.selected=null}
  static yearFor(year){return year<1860?null:year<1920?1860:year<1942?1920:year<2014?1942:year<2021?2014:year<2025?2021:year<2026?2025:2026}
- async load(){try{const r=await fetch('assets/mariehamn-city-grid.json?v=231e22a138ff');if(!r.ok)throw Error();const data=await r.json();this.sets=data.sets;this.coverage=data.coverage;this.ready=true}catch{this.failed=true}this.change()}
+ async load(){try{const r=await fetch('assets/mariehamn-city-grid.json?v=e32f612f31b0');if(!r.ok)throw Error();const data=await r.json();this.sets=data.sets;this.coverage=data.coverage;this.ready=true}catch{this.failed=true}this.change()}
  stage(year){return this.enabled?this.sets.find(d=>d.year===CityGrid.yearFor(year)):null}
+ replacesRecentRoads(v){return v.zoom>=8&&!v.fortressDetail&&!!this.stage(v.year)?.normalizedStreets}
+ recentBounds(project){const b=this.coverage,a=project(b[0],b[3]),z=project(b[2],b[1]);return [a[0],a[1],z[0],z[1]]}
+ clipOutsideRecent(ctx,v,project){if(!this.replacesRecentRoads(v))return;const b=this.recentBounds(project),path=new Path2D();path.rect(-1e7,-1e7,2e7,2e7);path.rect(b[0],b[1],b[2]-b[0],b[3]-b[1]);ctx.clip(path,'evenodd')}
+ ownsRecentPoint(point,v,project){if(!this.replacesRecentRoads(v))return false;const b=this.recentBounds(project);return point[0]>=b[0]&&point[0]<=b[2]&&point[1]>=b[1]&&point[1]<=b[3]}
  replacesRoads(year){return !!this.stage(year)&&year<2014}
- status(year){const d=this.stage(year);return !this.enabled?'Mariehamns stadsnät är avstängt.':year<1860?'Stadsnätet börjar med planen från 1860.':!d?this.failed?'Stadsnätet kunde inte laddas.':'Laddar Mariehamns stadsnät…':`${d.name} · ${d.counts.blocks} kvarter${d.counts.buildings?' · '+d.counts.buildings+' hussymboler':''}. ${d.kind==='plan'?'Streckat = planerat, inte byggt.':d.year===1920?'Museets årtiondesbild, inte exakt år 1920.':'Källår, inte byggår.'}`}
+ status(year){const d=this.stage(year);return !this.enabled?'Mariehamns stadsnät är avstängt.':year<1860?'Stadsnätet börjar med planen från 1860.':!d?this.failed?'Stadsnätet kunde inte laddas.':'Laddar Mariehamns stadsnät…':`${d.name} · ${d.counts.blocks} kvarter${d.counts.buildings?' · '+d.counts.buildings+' hussymboler':''}. ${d.kind==='plan'?'Streckat = planerat, inte byggt.':d.year===1920?'Museets årtiondesbild, inte exakt år 1920.':d.normalizedStreets?'Gemensam gatulinjering 2014–idag; gatustråk efter kartbelägg.':'Källår, inte byggår.'}`}
  prepare(d,project){if(d.prepared)return;
   for(const f of d.features){f.recordType='cityGrid';f.sourceSet=d;f.path=new Path2D();f.bounds=[Infinity,Infinity,-Infinity,-Infinity];
    for(const ring of f.paths){ring.forEach((p,i)=>{const[x,y]=project(...p);f.bounds[0]=Math.min(f.bounds[0],x);f.bounds[1]=Math.min(f.bounds[1],y);f.bounds[2]=Math.max(f.bounds[2],x);f.bounds[3]=Math.max(f.bounds[3],y);i?f.path.lineTo(x,y):f.path.moveTo(x,y)});if(f.kind!=='street')f.path.closePath()}
@@ -15,13 +19,13 @@ class CityGrid {
  draw(ctx,v,project){this.view=v;this.drawn=[];for(const id of ['cityGridStatus','cityStageNote']){const status=document.getElementById(id);if(status&&status.textContent!==this.status(v.year))status.textContent=this.status(v.year)}
   const d=this.stage(v.year);if(!d||v.zoom<8||v.fortressDetail)return;this.prepare(d,project);
   const s=v.scale,left=v.meta.width/2+(-v.width/2-v.panX)/s,top=v.meta.height/2+(-v.height/2-v.panY)/s,b=[left,top,left+v.width/s,top+v.height/s];
-  this.drawn=d.features.filter(f=>!(v.cityBuildings&&f.kind==='building')&&f.bounds[0]<=b[2]&&f.bounds[2]>=b[0]&&f.bounds[1]<=b[3]&&f.bounds[3]>=b[1]&&(f.kind!=='building'||v.zoom>=16));
   const mpp=Math.cos(60.1*Math.PI/180)*40075016.7/v.meta.world/s,planned=d.kind==='plan';
+  this.drawn=d.features.filter(f=>!(v.cityBuildings&&f.kind==='building')&&f.bounds[0]<=b[2]&&f.bounds[2]>=b[0]&&f.bounds[1]<=b[3]&&f.bounds[3]>=b[1]&&(f.kind!=='building'||v.zoom>=16)&&(f.kind!=='street'||!d.normalizedStreets||(['footway','path','steps','cycleway','track','bridleway'].includes(f.class)?mpp<8:f.class==='service'?mpp<18:true)));
   ctx.save();ctx.translate(v.width/2+v.panX-v.meta.width/2*s,v.height/2+v.panY-v.meta.height/2*s);ctx.scale(s,s);ctx.lineJoin='round';ctx.lineCap='round';
   for(const f of this.drawn){const selected=f.id===this.selected;ctx.setLineDash([]);
    if(f.kind==='street'){
-    const width=Math.max(1.5,Math.min(18,f.width/mpp));ctx.lineWidth=(width+1.3)/s;ctx.strokeStyle=planned?'#a48b6688':'#929e8b';if(planned)ctx.setLineDash([6/s,5/s]);ctx.stroke(f.path);
-    ctx.lineWidth=(planned?1.4:width)/s;ctx.strokeStyle=selected?'#ba773c':planned?'#a9773f':'#fff9e8';ctx.stroke(f.path);
+    const minor=d.normalizedStreets&&['footway','path','steps','cycleway','track','bridleway'].includes(f.class),width=Math.max(minor?.7:1.5,Math.min(18,f.width/mpp));ctx.lineWidth=(width+1.3)/s;ctx.strokeStyle=planned?'#a48b6688':'#929e8b';if(planned||minor)ctx.setLineDash([planned?6/s:3/s,planned?5/s:3/s]);ctx.stroke(f.path);
+    ctx.lineWidth=(planned?1.4:width)/s;ctx.strokeStyle=selected?'#ba773c':planned?'#a9773f':minor?'#b19c77':'#fff9e8';ctx.stroke(f.path);
    }else{
     ctx.fillStyle=selected?'#e5c793':f.kind==='park'?(planned?'#b5c79b88':'#aebe93'):f.kind==='square'?'#eee1c5':f.kind==='building'?'#b07d60':planned?'#ecdebd55':'#e8e1cb';
     ctx.strokeStyle=f.kind==='building'?'#785d4b':planned?'#ac966f':'#c5bda5';ctx.lineWidth=(selected?2:f.kind==='building'?.7:.55)/s;
@@ -29,8 +33,8 @@ class CityGrid {
    }
   }ctx.restore();
   // Label only clear, named streets and parks, with screen-space collision checks.
-  if(v.zoom>=22){const occupied=[];ctx.save();ctx.font='11px -apple-system,sans-serif';ctx.textAlign='center';ctx.lineWidth=3;
-   for(const f of this.drawn.filter(f=>f.kind==='park'||f.kind==='street'&&/^(Torggatan|Norragatan|Storagatan|Södragatan|Strandgatan|Östra Esplanadgatan|Västra Esplanadgatan)/.test(f.name))){const p=project(f.lon,f.lat),x=(p[0]-v.meta.width/2)*s+v.width/2+v.panX,y=(p[1]-v.meta.height/2)*s+v.height/2+v.panY,label=f.name.replace(' · 1942',''),w=ctx.measureText(label).width;if(x<w/2+8||x>v.width-w/2-8||y<18||y>v.height-18||occupied.some(o=>Math.abs(o.x-x)<(o.w+w)/2+12&&Math.abs(o.y-y)<22))continue;occupied.push({x,y,w});ctx.strokeStyle='#faf7ed';ctx.strokeText(label,x,y);ctx.fillStyle='#566650';ctx.fillText(label,x,y)}ctx.restore();}
+  if(v.zoom>=22){const occupied=[],named=new Set();ctx.save();ctx.font='11px -apple-system,sans-serif';ctx.textAlign='center';ctx.lineWidth=3;
+   for(const f of this.drawn.filter(f=>f.kind==='park'||f.kind==='street'&&/^(Torggatan|Norragatan|Storagatan|Södragatan|Strandgatan|Östra Esplanadgatan|Västra Esplanadgatan)/.test(f.name))){const p=project(f.lon,f.lat),x=(p[0]-v.meta.width/2)*s+v.width/2+v.panX,y=(p[1]-v.meta.height/2)*s+v.height/2+v.panY,label=f.name.replace(' · 1942',''),w=ctx.measureText(label).width;if(named.has(label))continue;if(x<w/2+8||x>v.width-w/2-8||y<18||y>v.height-18||occupied.some(o=>Math.abs(o.x-x)<(o.w+w)/2+12&&Math.abs(o.y-y)<22))continue;named.add(label);occupied.push({x,y,w});ctx.strokeStyle='#faf7ed';ctx.strokeText(label,x,y);ctx.fillStyle='#566650';ctx.fillText(label,x,y)}ctx.restore();}
  }
  hit(x,y,ctx){const v=this.view;if(!v||!this.enabled||!this.drawn.length)return null;const wx=(x-v.width/2-v.panX)/v.scale+v.meta.width/2,wy=(y-v.height/2-v.panY)/v.scale+v.meta.height/2,t=5/v.scale;
   ctx.save();ctx.setTransform(1,0,0,1,0,0);ctx.lineWidth=t*2;
