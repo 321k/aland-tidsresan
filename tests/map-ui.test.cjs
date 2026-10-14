@@ -46,7 +46,7 @@ test('secondary controls are retained in one menu and story lives over the map',
  assert.ok(main.includes('id="storyPopup"'));assert.ok(main.includes('id="story"'));assert.ok(!main.includes('id="explorePanel"'));assert.ok(!html.includes('<aside'));
 });
 test('changing time clears a selected place and opens the stop story instead',()=>{
- const source=fs.readFileSync('dist/app.js','utf8'),notified=[],s={selected:'jomala',selectedFeature:{id:'a-road'},explorer:{selected:'jomala'},MAX_TIME:100,LAST:1,pos:0,era:0,year:1280,playing:false,eras:[{y:1280,title:'Kyrkor'},{y:1388,title:'Slott'}],window:{MapUI:{timeChanged:x=>notified.push(x)}},$:()=>({setAttribute(){}}),date:y=>String(y),updateUI(){assert.equal(s.selected,null);assert.equal(s.selectedFeature,null)},draw(){}};
+ const source=fs.readFileSync('dist/app.js','utf8'),notified=[],s={cityJourney:false,selected:'jomala',selectedFeature:{id:'a-road'},explorer:{selected:'jomala'},MAX_TIME:100,LAST:1,pos:0,era:0,year:1280,playing:false,eras:[{y:1280,title:'Kyrkor'},{y:1388,title:'Slott'}],window:{MapUI:{timeChanged:x=>notified.push(x)}},$:()=>({setAttribute(){}}),date:y=>String(y),updateUI(){assert.equal(s.selected,null);assert.equal(s.selectedFeature,null)},draw(){}};
  vm.createContext(s);vm.runInContext(source.slice(source.indexOf('function yearAtPosition('),source.indexOf('function project(')),s);
  s.setTime(100);assert.equal(s.explorer.selected,null);assert.equal(notified[0].title,'Slott');assert.equal(notified[0].atStop,true);
 });

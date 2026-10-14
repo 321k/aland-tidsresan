@@ -47,7 +47,9 @@ class ExplorerLayers {
   view.historicalRoads?.draw(ctx,view,this.project);
   if(view.year>=2026&&this.flags.modern)this.drawModern(ctx,view);
   if(ExplorerLayers.postalVisible(view.year)&&this.flags.postal)this.drawPostal(ctx,view);
+  this.cityBuildings?.draw(ctx,view,this,view.cityGrid,this.cityLibrary);
   if(this.flags.heritage||this.flags.historic)this.drawHeritage(ctx,view);
+  this.viewList.push(...(this.cityBuildings?.historyInView||[]).filter(f=>f.recordType==='building'));
   this.updateList(view);
  }
  drawCoast(ctx,v){if(!this.coastPaths)return;const s=v.scale,left=v.meta.width/2+(-v.width/2-v.panX)/s,top=v.meta.height/2+(-v.height/2-v.panY)/s,right=left+v.width/s,bottom=top+v.height/s;
@@ -73,7 +75,7 @@ class ExplorerLayers {
  drawModern(ctx,v){
   const s=v.scale,left=v.meta.width/2+(-v.width/2-v.panX)/s,top=v.meta.height/2+(-v.height/2-v.panY)/s,right=left+v.width/s,bottom=top+v.height/s;
   const mpp=Math.cos(60.1*Math.PI/180)*40075016.7/v.meta.world/s;
-  const features=this.modernInView(left-12/s,top-12/s,right+12/s,bottom+12/s).filter(f=>this.modernVisible(f,mpp));
+  const features=this.modernInView(left-12/s,top-12/s,right+12/s,bottom+12/s).filter(f=>this.modernVisible(f,mpp)&&!(this.cityBuildings?.owns(f)));
   this.drawn=features;
   ctx.save();ctx.translate(v.width/2+v.panX-v.meta.width/2*s,v.height/2+v.panY-v.meta.height/2*s);ctx.scale(s,s);ctx.lineCap='round';ctx.lineJoin='round';
   const roads=features.filter(f=>f.kind==='road');
@@ -88,7 +90,7 @@ class ExplorerLayers {
   }
  }
  drawHeritage(ctx,v){const buckets=new Map(),size=v.zoom<8?34:20;
-  const features=[...(this.flags.heritage?this.heritage:[]),...(this.flags.historic?this.historic:[])];
+  const features=[...(this.flags.heritage?this.heritage:[]),...(this.flags.historic&&!this.cityBuildings?this.historic:[])];
   for(const f of features){if((v.fortressDetail&&f.code==='Su 3.3')||!this.available(f,v.year)||!this.matches(f)||(this.category!=='all'&&f.category!==this.category))continue;// Anchor buckets to map coordinates, not the moving viewport. Include offscreen
    // members before clipping so a cluster keeps its identity at the map's edge.
    const key=`${Math.floor(f.point[0]*v.scale/size)},${Math.floor(f.point[1]*v.scale/size)}`;
@@ -116,7 +118,7 @@ class ExplorerLayers {
   const status=document.querySelector('#modernStatus');const buildings=this.modernCounts.building;
   if(this.modern.length)status.textContent=v.year>=2026?`${buildings.toLocaleString('sv-SE')} byggnadskonturer · ${(this.modern.length-buildings).toLocaleString('sv-SE')} väg- och stigsegment. Hela Åland, OSM ${this.sourceDate}. Zooma in för hus, småvägar och stigar. Täckningen varierar mellan orter.`:'Nutida byggnadskonturer visas vid 2026. Äldre vägar har ett eget daterat kartlager; flygfoton finns i kartarkivet.';
   document.querySelector('#postalStatus').textContent=v.year>1911?'Postvägen är dold: sista användningen var vintern 1910–1911.':v.year<1700?'Postförbindelsen inrättades 1638. Den kartlagda sträckningen visas från 1700, eftersom underlaget är en 1700-talskarta.':this.flags.postal?'Postvägen · Grisslehamn–Åland–Tuomois i Töfsala. Schematisk sträckning, synlig 1700–1911. Grisslehamns ändpunkt flyttas 1756. Trafiken förändrades under perioden.':'Postvägens kartlager är avstängt.';
-  if(this.historic.length)document.querySelector('#historicStatus').textContent=this.historic.length+' källbelagda byggnader och byggnadsplatser · lägen är punkter, inte historiska konturer.';
+  if(this.historic.length)document.querySelector('#historicStatus').textContent=this.historic.length+' källbelagda byggnader och byggnadsplatser · ett gemensamt huslager. Streckad kontur betyder schematiskt husläge.';
   const list=document.querySelector('#registerPlaces');const key=this.viewList.map(f=>f.id).join('|')+this.query+v.year;if(key===this.listKey)return;this.listKey=key;
   document.querySelector('#registerCount').textContent=this.viewList.length+' i kartvyn';
   list.replaceChildren();const ordered=[...this.viewList].sort((a,b)=>(b.recordType==='building')-(a.recordType==='building'));for(const f of ordered.slice(0,35)){const b=document.createElement('button');b.className='register-place';b.innerHTML=`<span>${htmlEscape(f.name||'Namnlös lämning')}</span><small>${htmlEscape(categoryLabels[f.category]||'Plats')} · ${htmlEscape(f.dateLabel||f.periodLabels?.join(' / ')||'Odaterad')}</small>`;b.onclick=()=>this.select(f,true);list.append(b)}
@@ -128,7 +130,7 @@ class ExplorerLayers {
   const datingBadge=`<span class="evidence-badge ${state}">${htmlEscape(EvidenceTime.label(state))}</span>`;
   if(f.recordType==='building'){
    const y=this.view?.year??2026,fmt=y=>y<0?Math.abs(y)+' f.Kr.':y;
-   return `<button class="back" id="backFeature">← Till tidsperioden</button><br><span class="storytag">${state==='trace'?'Historisk byggnadsplats':'Historisk byggnad'}</span><h2>${htmlEscape(f.name)}</h2><p class="register-id">${htmlEscape(f.address)}</p>${datingBadge}<p>${htmlEscape(f.text)}</p>${state==='trace'?'<p>Huset finns inte längre kvar. Symbolen visar platsen där det stod.</p>':''}<div class="dating"><strong>${htmlEscape(f.dateLabel)}</strong><p>${htmlEscape(f.accuracyNote||'Byggår enligt den angivna källan.')}</p></div><h3>Husets historia</h3><ol class="building-phases">${f.phases.map(p=>`<li class="${p.from>y?'later-phase':''}"><strong>${p.from==null?'År saknas':fmt(p.from)}${p.to?'–'+fmt(p.to):''}</strong><span>${htmlEscape(p.label)}</span>${p.from>y?'<small>Efter valt år</small>':''}</li>`).join('')}</ol>${f.relatedEvents?.length?`<details><summary>Andra händelser kring huset</summary>${f.relatedEvents.map(e=>`<p>${htmlEscape(e.year||e.from||'')} ${htmlEscape(e.label||e.text||'')}</p>`).join('')}</details>`:''}<p class="asidehint">${htmlEscape(f.precision)} Symbolen är schematisk och visar inte husets exakta form eller storlek.</p>${f.wiki?`<p class="wikipedia-link"><a href="${safeURL(f.wiki)}" target="_blank" rel="noopener noreferrer">Läs mer på Wikipedia ↗</a></p>`:''}<details><summary>Källor till byggnadens historia</summary><ul>${f.sources.map(s=>`<li><a href="${safeURL(s.url)}" target="_blank" rel="noopener noreferrer">${htmlEscape(s.title)} ↗</a></li>`).join('')}</ul></details>`;
+   return `<button class="back" id="backFeature">← Till tidsperioden</button><br><span class="storytag">${state==='trace'?'Historisk byggnadsplats':'Historisk byggnad'}</span><h2>${htmlEscape(f.name)}</h2><p class="register-id">${htmlEscape(f.address)}</p>${datingBadge}<p>${htmlEscape(f.text)}</p>${state==='trace'?'<p>Huset finns inte längre kvar. Symbolen visar platsen där det stod.</p>':''}<div class="dating"><strong>${htmlEscape(f.dateLabel)}</strong><p>${htmlEscape(f.accuracyNote||'Byggår enligt den angivna källan.')}</p></div><h3>Husets historia</h3><ol class="building-phases">${f.phases.map(p=>`<li class="${p.from>y?'later-phase':''}"><strong>${p.from==null?'År saknas':fmt(p.from)}${p.to?'–'+fmt(p.to):''}</strong><span>${htmlEscape(p.label)}</span>${p.from>y?'<small>Efter valt år</small>':''}</li>`).join('')}</ol>${f.relatedEvents?.length?`<details><summary>Andra händelser kring huset</summary>${f.relatedEvents.map(e=>`<p>${htmlEscape(e.year||e.from||'')} ${htmlEscape(e.label||e.text||'')}</p>`).join('')}</details>`:''}<p class="asidehint">${htmlEscape(f.precision)} Streckad hussymbol visar ett schematiskt läge, inte exakt form eller storlek. Fyllda konturer kommer från kartunderlaget för den valda tiden; kopplingen gäller platsens berättelse, inte alla tillbyggnaders ålder.</p>${f.wiki?`<p class="wikipedia-link"><a href="${safeURL(f.wiki)}" target="_blank" rel="noopener noreferrer">Läs mer på Wikipedia ↗</a></p>`:''}<details><summary>Källor till byggnadens historia</summary><ul>${f.sources.map(s=>`<li><a href="${safeURL(s.url)}" target="_blank" rel="noopener noreferrer">${htmlEscape(s.title)} ↗</a></li>`).join('')}</ul></details>`;
   }
 
   if(f.kind){const actual='Nutida kartkontur. Kartpostens datum kan avse verksamheten och används inte som byggår. För källbelagd byggnadshistoria, välj det historiska byggnadslagret.';

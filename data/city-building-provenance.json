@@ -1,0 +1,33 @@
+{
+  "verifiedOn": "2026-10-14",
+  "sources": [
+    {
+      "year": 2014,
+      "snapshot": "2014-01-01T20:55:02Z",
+      "endpoint": "https://download.geofabrik.de/europe/finland.html",
+      "query": "Buildings intersecting Mariehamn coverage in historical Finland PBF; full rings retained.",
+      "archiveUrl": "https://download.geofabrik.de/europe/finland-140101.osm.pbf",
+      "sha256": "6a5f6ab63bc32b5c9b2a4b3d09bd364c633034933564e18cb46ca0c3d42ecc69"
+    },
+    {
+      "year": 2021,
+      "snapshot": "2021-01-01T21:42:03Z",
+      "endpoint": "https://download.geofabrik.de/europe/finland.html",
+      "query": "Buildings intersecting Mariehamn coverage in historical Finland PBF; full rings retained.",
+      "archiveUrl": "https://download.geofabrik.de/europe/finland-210101.osm.pbf",
+      "sha256": "c93d27e7521df63a0828e0847b7e285cd354e8994ec656ab9ac032ce17f08870"
+    },
+    {
+      "year": 2025,
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "query": "[out:json][timeout:90][date:\"2025-01-01T00:00:00Z\"];(way[\"building\"](60.079,19.912,60.139,19.962);relation[\"building\"][\"type\"=\"multipolygon\"](60.079,19.912,60.139,19.962););out tags geom;",
+      "snapshot": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "method": "One city renderer. Documented places use schematic map-space rectangles until a source-dated contour is available. Point containment attaches a place story without dating all wings of the footprint. Demolished sites are excluded from current footprint links. Museum roof symbols are source-specific and never interpolated to 1942.",
+  "limitations": [
+    "Not a complete historic building inventory.",
+    "OSM completeness varies between snapshots; first mapped is not built.",
+    "1942 has traced roads and individually dated house places, not a full roof inventory."
+  ]
+}

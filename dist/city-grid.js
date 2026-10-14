@@ -2,7 +2,7 @@
 class CityGrid {
  constructor(change){this.change=change;this.enabled=true;this.sets=[];this.drawn=[];this.selected=null}
  static yearFor(year){return year<1860?null:year<1920?1860:year<1942?1920:year<2014?1942:year<2021?2014:year<2025?2021:year<2026?2025:2026}
- async load(){try{const r=await fetch('assets/mariehamn-city-grid.json?v=748fc7aa96fc');if(!r.ok)throw Error();const data=await r.json();this.sets=data.sets;this.coverage=data.coverage;this.ready=true}catch{this.failed=true}this.change()}
+ async load(){try{const r=await fetch('assets/mariehamn-city-grid.json?v=231e22a138ff');if(!r.ok)throw Error();const data=await r.json();this.sets=data.sets;this.coverage=data.coverage;this.ready=true}catch{this.failed=true}this.change()}
  stage(year){return this.enabled?this.sets.find(d=>d.year===CityGrid.yearFor(year)):null}
  replacesRoads(year){return !!this.stage(year)&&year<2014}
  status(year){const d=this.stage(year);return !this.enabled?'Mariehamns stadsnät är avstängt.':year<1860?'Stadsnätet börjar med planen från 1860.':!d?this.failed?'Stadsnätet kunde inte laddas.':'Laddar Mariehamns stadsnät…':`${d.name} · ${d.counts.blocks} kvarter${d.counts.buildings?' · '+d.counts.buildings+' hussymboler':''}. ${d.kind==='plan'?'Streckat = planerat, inte byggt.':d.year===1920?'Museets årtiondesbild, inte exakt år 1920.':'Källår, inte byggår.'}`}
@@ -15,7 +15,7 @@ class CityGrid {
  draw(ctx,v,project){this.view=v;this.drawn=[];for(const id of ['cityGridStatus','cityStageNote']){const status=document.getElementById(id);if(status&&status.textContent!==this.status(v.year))status.textContent=this.status(v.year)}
   const d=this.stage(v.year);if(!d||v.zoom<8||v.fortressDetail)return;this.prepare(d,project);
   const s=v.scale,left=v.meta.width/2+(-v.width/2-v.panX)/s,top=v.meta.height/2+(-v.height/2-v.panY)/s,b=[left,top,left+v.width/s,top+v.height/s];
-  this.drawn=d.features.filter(f=>f.bounds[0]<=b[2]&&f.bounds[2]>=b[0]&&f.bounds[1]<=b[3]&&f.bounds[3]>=b[1]&&(f.kind!=='building'||v.zoom>=16));
+  this.drawn=d.features.filter(f=>!(v.cityBuildings&&f.kind==='building')&&f.bounds[0]<=b[2]&&f.bounds[2]>=b[0]&&f.bounds[1]<=b[3]&&f.bounds[3]>=b[1]&&(f.kind!=='building'||v.zoom>=16));
   const mpp=Math.cos(60.1*Math.PI/180)*40075016.7/v.meta.world/s,planned=d.kind==='plan';
   ctx.save();ctx.translate(v.width/2+v.panX-v.meta.width/2*s,v.height/2+v.panY-v.meta.height/2*s);ctx.scale(s,s);ctx.lineJoin='round';ctx.lineCap='round';
   for(const f of this.drawn){const selected=f.id===this.selected;ctx.setLineDash([]);

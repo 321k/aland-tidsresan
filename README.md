@@ -89,3 +89,7 @@ Kartdata, arkivbilder och inkluderade bibliotek har sina respektive rättigheter
 ## Publicering
 
 Webbplatsen publiceras på Cloudflare Workers Static Assets. Se [DEPLOYMENT.md](DEPLOYMENT.md) för kommandon och efterkontroll. GitHub-repot är inte kopplat till automatisk publicering.
+
+Mariehamns hus ritas av `dist/city-buildings.js` i ett gemensamt lager. Daterade husplatser använder streckade symboler när källbelagda konturer saknas. Historiska kartkonturer och nutida konturer har samma stil, och ett namngivet hus öppnar sin berättelse direkt från konturen. Rivna hus kopplas inte till dagens ersättningsbyggnader. Mariehamnsläget använder den vanliga tidslinjen med intervallet 1860–2026 och egna hållpunkter.
+
+`data/city-building-provenance.json` beskriver källorna. Råuttag från 2014, 2021 och 2025 ligger komprimerade i `data/city-buildings-*.json.gz`; kör `python3 scripts/build_city_buildings.py` och därefter `python3 scripts/cache_versions.py`. För att återskapa Geofabrik-uttag: `.venv-geo/bin/python scripts/import_city_buildings.py /path/to/finland-140101.osm.pbf 2014`. OSM-år är kartläggningsår, inte byggår. 1942 saknar fortfarande en fullständig inventering av huskonturer; den visar daterade husplatser tillsammans med det historiska gatunätet.

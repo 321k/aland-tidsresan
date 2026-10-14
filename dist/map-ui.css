@@ -65,3 +65,6 @@ main{display:block;position:relative;height:auto;min-height:0;grid-template-colu
 
 .city-grid-picker select,#ofredenYear{display:block;width:100%;margin:10px 0;min-height:44px;padding:8px;font:inherit;border:1px solid var(--line);border-radius:6px;background:#fffdf5;color:var(--ink)}
 .city-stage-buttons{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}.city-stage-buttons button{min-height:40px;padding:7px 11px;font-size:12px}.city-stage-buttons button[aria-pressed=true]{background:#3c6659;color:white}
+
+/* Focused city timeline uses the same controls and leaves the map in place. */
+.city-time-ticks{display:flex;justify-content:space-between;gap:8px;margin:8px 0 0}.city-time-ticks[hidden]{display:none}.city-time-ticks button{border:0;background:transparent;color:#667364;font-size:11px;padding:8px;cursor:pointer}footer.city-journey .ticks{display:none}

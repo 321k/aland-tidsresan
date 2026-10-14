@@ -130,5 +130,6 @@
         "components": 13
       }
     }
-  ]
+  ],
+  "buildingLayer": "City roofs are now rendered by dist/city-buildings.js. Historical OSM building snapshots and documented place stories are described separately in data/city-building-provenance.json. Street and block source policy is unchanged."
 }

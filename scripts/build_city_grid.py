@@ -72,7 +72,7 @@ for year in [2014,2021,2025,2026]:
    line=LineString([fwd(*p) for p in path]);
    if not line.intersects(clip):continue
    for part in parts(line.intersection(clip),'LineString'):roads.append((f,part))
- ds={'id':'city-'+str(year),'year':year,'kind':'modern','name':'Mariehamns gatunät · '+str(year),'source':'https://www.openstreetmap.org/copyright','note':'Gator från OpenStreetMap '+str(year)+'. Kvarteren har härletts mellan kartlagda gator och är inte fastighetsgränser. Skillnader mellan källåren kan bero på både ombyggnad och bättre kartläggning. Huslagret visas endast i nutid.','snapshot':data.get('snapshot')}
+ ds={'id':'city-'+str(year),'year':year,'kind':'modern','name':'Mariehamns gatunät · '+str(year),'source':'https://www.openstreetmap.org/copyright','note':'Gator från OpenStreetMap '+str(year)+'. Kvarteren har härletts mellan kartlagda gator och är inte fastighetsgränser. Skillnader mellan källåren kan bero på både ombyggnad och bättre kartläggning. Huslagret använder separata, daterade kartuttag och källbelagda husplatser.','snapshot':data.get('snapshot')}
  sets.append(build(ds,roads,[],[]))
 for i,d in enumerate(sets):d['from']=d['year'];d['through']=sets[i+1]['year']-1 if i<len(sets)-1 else 2026
 out={'policy':doc['policy'],'coverage':doc['coverage'],'sets':sets}
