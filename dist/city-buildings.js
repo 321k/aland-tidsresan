@@ -6,6 +6,18 @@ class CityBuildings {
  contains(lon,lat){const b=this.coverage;return lon>=b[0]&&lon<=b[2]&&lat>=b[1]&&lat<=b[3]}
  owns(f){if(f.kind!=='building')return false;const p=f.paths[0];return this.contains(p.reduce((s,p)=>s+p[0],0)/p.length,p.reduce((s,p)=>s+p[1],0)/p.length)}
  static inside(lon,lat,paths){let yes=false;for(const ring of paths)for(let i=1;i<ring.length;i++){const a=ring[i-1],b=ring[i];if((a[1]>lat)!==(b[1]>lat)&&lon<(b[0]-a[0])*(lat-a[1])/(b[1]-a[1])+a[0])yes=!yes}return yes}
+ // Match a nearby source roof, falling back to a street in the selected map.
+ // This is a cartographic alignment, not evidence of the historic roof's bearing.
+ static alignment(h,roofs,stage){
+  const cos=Math.cos(h.lat*Math.PI/180),metric=p=>[(p[0]-h.lon)*cos,p[1]-h.lat];
+  let nearest=null,distance=Infinity;
+  for(const f of roofs){const ring=f.paths[0],p=metric([ring.reduce((s,p)=>s+p[0],0)/ring.length,ring.reduce((s,p)=>s+p[1],0)/ring.length]),d=Math.hypot(...p);if(d<distance){distance=d;nearest=f}}
+  let direction=null;
+  if(nearest&&distance<250/111320){let longest=0;const ring=nearest.paths[0];for(let i=1;i<ring.length;i++){const dx=(ring[i][0]-ring[i-1][0])*cos,dy=ring[i][1]-ring[i-1][1],length=Math.hypot(dx,dy);if(length>longest){longest=length;direction=[dx,dy]}}}
+  if(!direction){let best=Infinity;for(const f of stage?.features||[]){if(f.kind!=='street')continue;for(const ring of f.paths)for(let i=1;i<ring.length;i++){const a=metric(ring[i-1]),b=metric(ring[i]),dx=b[0]-a[0],dy=b[1]-a[1],length=dx*dx+dy*dy;if(!length)continue;const t=Math.max(0,Math.min(1,-(a[0]*dx+a[1]*dy)/length)),d=Math.hypot(a[0]+t*dx,a[1]+t*dy);if(d<best){best=d;direction=[dx,dy]}}}}
+  const angle=direction?Math.atan2(direction[1],direction[0]):0,quarter=Math.PI/2;
+  return ((angle+quarter/2)%quarter+quarter)%quarter-quarter/2;
+ }
  snapshot(year){return this.sets.filter(s=>s.year<=year).at(-1)}
  geometry(f,project){if(f.cityPath)return;f.cityPath=new Path2D();f.cityBounds=[Infinity,Infinity,-Infinity,-Infinity];for(const ring of f.paths){ring.forEach((p,i)=>{const[x,y]=project(...p),b=f.cityBounds;b[0]=Math.min(b[0],x);b[1]=Math.min(b[1],y);b[2]=Math.max(b[2],x);b[3]=Math.max(b[3],y);i?f.cityPath.lineTo(x,y):f.cityPath.moveTo(x,y)});f.cityPath.closePath()}}
  records(year,explorer,grid,library){
@@ -26,8 +38,8 @@ class CityBuildings {
    const nearby=!linked&&!h.end?records.find(r=>CityBuildings.inside(h.lon,h.lat,r.shape.paths)):null;
    if(linked||nearby){const r=linked||nearby;r.target=h;r.history=h;continue}
    // A schematic symbol in map space, not a claim about measured dimensions.
-   const dx=.000108,dy=.000036;
-   const shape={paths:[[[h.lon-dx,h.lat-dy],[h.lon+dx,h.lat-dy],[h.lon+dx,h.lat+dy],[h.lon-dx,h.lat+dy],[h.lon-dx,h.lat-dy]]]};
+   const angle=year>=1920?CityBuildings.alignment(h,roofs,stage):0,cos=Math.cos(h.lat*Math.PI/180),dx=.000108*cos,dy=.000036;
+   const shape={paths:[[[-dx,-dy],[dx,-dy],[dx,dy],[-dx,dy],[-dx,-dy]].map(([x,y])=>[h.lon+(x*Math.cos(angle)-y*Math.sin(angle))/cos,h.lat+x*Math.sin(angle)+y*Math.cos(angle)])]};
    records.push({id:h.id,shape,target:h,history:h,schematic:true,trace:EvidenceTime.state(h,year)==='trace'});
   }
   this.cache={key,records,sourceYear};return records;
@@ -40,7 +52,12 @@ class CityBuildings {
   ctx.save();ctx.translate(v.width/2+v.panX-v.meta.width/2*s,v.height/2+v.panY-v.meta.height/2*s);ctx.scale(s,s);
   for(const r of records){const f=r.shape;this.geometry(f,explorer.project);const b=f.cityBounds;if(b[2]<left||b[0]>left+v.width/s||b[3]<top||b[1]>top+v.height/s)continue;
    const selected=[r.id,r.target.id,r.history?.osmId].includes(explorer.selected)||r.target.id===this.selected;
-   r.renderPath=f.cityPath;r.renderBounds=b;if(r.schematic){const cx=(b[0]+b[2])/2,cy=(b[1]+b[3])/2,hw=Math.max((b[2]-b[0])/2,2.5/s),hh=Math.max((b[3]-b[1])/2,1.7/s);r.renderBounds=[cx-hw,cy-hh,cx+hw,cy+hh];r.renderPath=new Path2D();r.renderPath.rect(cx-hw,cy-hh,hw*2,hh*2)}
+   r.renderPath=f.cityPath;r.renderBounds=b;if(r.schematic){
+    const points=f.paths[0].map(p=>explorer.project(...p)),cx=(b[0]+b[2])/2,cy=(b[1]+b[3])/2;
+    const width=Math.hypot(points[1][0]-points[0][0],points[1][1]-points[0][1]),height=Math.hypot(points[2][0]-points[1][0],points[2][1]-points[1][1]);
+    const enlarge=Math.max(1,5/(width*s),3.4/(height*s));r.renderPath=new Path2D();r.renderBounds=[Infinity,Infinity,-Infinity,-Infinity];
+    points.forEach((p,i)=>{const x=cx+(p[0]-cx)*enlarge,y=cy+(p[1]-cy)*enlarge,rb=r.renderBounds;rb[0]=Math.min(rb[0],x);rb[1]=Math.min(rb[1],y);rb[2]=Math.max(rb[2],x);rb[3]=Math.max(rb[3],y);i?r.renderPath.lineTo(x,y):r.renderPath.moveTo(x,y)});r.renderPath.closePath();
+   }
    ctx.fillStyle=selected?'#d59e69':r.trace?'#c8c7ba':r.schematic?'#b49270aa':'#ad8a6d';ctx.strokeStyle=selected?'#65442f':r.trace?'#797d70':'#725d49';ctx.lineWidth=(selected?2:.75)/s;ctx.setLineDash(r.schematic?[2/s,2/s]:[]);ctx.fill(r.renderPath,'evenodd');ctx.stroke(r.renderPath);this.drawn.push(r);if(r.history)this.historyInView.push(r.history);
   }ctx.restore();
   // Labels appear on selection, never as a second marker over a roof.
