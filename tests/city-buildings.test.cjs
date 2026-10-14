@@ -2,7 +2,7 @@ const {test}=require('node:test'),assert=require('node:assert/strict'),vm=requir
 const data=JSON.parse(fs.readFileSync('dist/assets/city-buildings.json')),modern=JSON.parse(zlib.gunzipSync(fs.readFileSync('dist/assets/modern.json.gz'))),history=JSON.parse(fs.readFileSync('dist/assets/historic-buildings.json')).features;
 class Path{moveTo(){}lineTo(){}closePath(){}rect(){}}
 const box={Path2D:Path,document:{getElementById:()=>null},htmlEscape:String,safeURL:String};vm.createContext(box);vm.runInContext(fs.readFileSync('dist/timeline-model.js','utf8')+fs.readFileSync('dist/city-buildings.js','utf8')+';this.City=CityBuildings;this.Time=EvidenceTime;',box);
-function setup(){const layer=new box.City(()=>{});Object.assign(layer,structuredClone(data));const e={flags:{historic:true,modern:true,uncertain:true,traces:false},category:'all',query:'',historic:structuredClone(history).map(f=>({...f,recordType:'building'})),modern:structuredClone(modern.features),matches:()=>true,available(f,y){return !['future','trace'].includes(box.Time.state(f,y))},prepared:true,project:(x,y)=>[x*10000,y*10000]};const grid={enabled:true,ready:true,stage(y){return y>=1920&&y<1942?JSON.parse(fs.readFileSync('dist/assets/mariehamn-city-grid.json')).sets.find(s=>s.year===1920):null}};return{layer,e,grid}}
+function setup(){const layer=new box.City(()=>{});Object.assign(layer,structuredClone(data));const e={flags:{historic:true,modern:true,uncertain:true,traces:false},category:'all',query:'',historic:structuredClone(history).map(f=>({...f,recordType:'building'})),modern:structuredClone(modern.features),matches:()=>true,available(f,y){return !['future','trace'].includes(box.Time.state(f,y))},prepared:true,project:(x,y)=>[x*10000,y*10000]};const grid={enabled:true,ready:true,sets:JSON.parse(fs.readFileSync('dist/assets/mariehamn-city-grid.json')).sets,stage(y){return this.enabled?this.sets.find(s=>s.year===(y<1920?1860:y<1942?1920:y<2014?1942:2014)):null}};return{layer,e,grid}}
 test('historical outlines use archived dates, not current footprints or construction dates',()=>{
  const{layer,e,grid}=setup();assert.deepEqual(data.sets.map(s=>s.year),[2014,2021,2025]);
  for(const s of data.sets){assert.ok(s.features.length>900);assert.ok(s.snapshot.startsWith(String(s.year)));for(const f of s.features){assert.equal(f.kind,'building');for(const ring of f.paths)assert.deepEqual(ring[0],ring.at(-1))}}
@@ -25,8 +25,32 @@ test('dated houses grow at their source years, and building visibility follows f
  e.flags.historic=false;assert.equal(layer.records(1900,e,grid).length,0);assert.ok(layer.records(2026,e,grid).every(r=>!r.history));
  e.flags.modern=false;assert.equal(layer.records(2026,e,grid).length,0);
 });
-test('museum source symbols do not become undocumented surviving houses in 1942',()=>{
- const{layer,e,grid}=setup();assert.equal(layer.records(1920,e,grid).filter(r=>!r.schematic).length,216);assert.ok(layer.records(1942,e,grid).every(r=>r.schematic));
+test('road-only 1942 source preserves the earlier houses and their geometry',()=>{
+ const{layer,e,grid}=setup();const before=layer.records(1941,e,grid),after=layer.records(1942,e,grid);
+ assert.equal(before.filter(r=>!r.schematic).length,216);
+ assert.deepEqual(after.map(r=>[r.id,r.target.id]),before.map(r=>[r.id,r.target.id]));
+ assert.deepEqual(after.filter(r=>!r.schematic).map(r=>r.shape.paths),before.filter(r=>!r.schematic).map(r=>r.shape.paths));
+ assert.ok(after.filter(r=>!r.schematic).every(r=>r.sourceYear===1920));
+ assert.equal(layer.records(1957,e,grid).filter(r=>!r.schematic).length,216);
+ assert.ok(layer.records(2014,e,grid).filter(r=>!r.schematic).every(r=>r.sourceYear===2014));
+ grid.enabled=false;assert.ok(layer.records(1942,e,grid).every(r=>r.schematic));
+});
+test('direct jump to 1942 retains clickable museum attribution and explains uncertain survival',()=>{
+ const{layer,e,grid}=setup();e.ready=true;
+ const v={year:1942,zoom:40,width:800,height:600,scale:1,panX:0,panY:0,meta:{width:399000,height:1202000}},ctx=new Proxy({isPointInPath:()=>true},{get:(o,k)=>o[k]||(()=>{}),set:(o,k,v)=>(o[k]=v,true)});
+ layer.draw(ctx,v,e,grid);const r=layer.drawn.find(r=>!r.history&&!r.schematic),b=r.renderBounds;
+ // Isolate the source roof to verify its hit result without overlapping neighbours.
+ layer.drawn=[r];const hit=layer.hit((b[0]+b[2])/2-v.meta.width/2+400,(b[1]+b[3])/2-v.meta.height/2+300,ctx);
+ assert.equal(hit.recordType,'cityBuilding');assert.equal(hit.sourceYear,1920);
+ assert.match(layer.story(hit),/Vi vet inte om huset fortfarande fanns/);assert.match(layer.story(hit),/mpf.spfpension.fi/);
+ assert.doesNotMatch(layer.story(hit,1941),/Vi vet inte om huset fortfarande fanns/);
+ assert.match(layer.status(1942),/fortsatt existens är inte verifierad/);
+});
+test('known demolition also removes a carried museum contour regardless of story filters',()=>{
+ const{layer,e,grid}=setup(),roof=grid.sets.find(s=>s.year===1920).features.find(f=>f.kind==='building'),ring=roof.paths[0];
+ e.historic.push({id:'known-demolition',start:1900,end:1943,lon:ring.reduce((s,p)=>s+p[0],0)/ring.length,lat:ring.reduce((s,p)=>s+p[1],0)/ring.length});e.flags.historic=false;
+ assert.ok(layer.records(1942,e,grid).some(r=>r.id===roof.id));
+ assert.ok(!layer.records(1943,e,grid).some(r=>r.id===roof.id));
 });
 test('hit targets select the named story and are removed when zoomed out',()=>{
  const{layer,e,grid}=setup();const v={year:2026,zoom:40,width:800,height:600,scale:1,panX:0,panY:0,meta:{width:399000,height:1202000}},ctx=new Proxy({isPointInPath:()=>true},{get:(o,k)=>o[k]||(()=>{}),set:(o,k,v)=>(o[k]=v,true)});

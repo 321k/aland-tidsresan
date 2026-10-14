@@ -76,7 +76,7 @@ Andra importskript kan behöva fler bibliotek, externa källdata eller nätåtko
 Kartan är ett pedagogiskt projekt och innehåller förenklade rekonstruktioner. Källornas årtal är inte automatiskt byggnadsår:
 
 - Stadsplanen 1860 visas som en **plan**, inte som bevis för färdigbyggda gator och hus.
-- Museikartan beskriver **1920-talet**. Hussymbolerna är förenklade och visas tillsammans med den källan; när de försvinner vid nästa kartsteg betyder det inte att husen revs då.
+- Museikartan beskriver **1920-talet**. Hussymbolerna är förenklade och behålls även 1942–2013, eftersom 1942 års underlag bara ger gator. Fortsatt existens är uttryckligen osäker; kända rivningar tar bort berörda konturer. Från 2014 tar OSM:s byggnadsunderlag över.
 - Flygfotot 1942 ger ett urval tolkade gator, inte en fullständig byggnadsinventering.
 - Kvarter som beräknas mellan gator är inte fastighetsgränser.
 - Skillnader mellan OpenStreetMap-utdrag kan bero både på verkliga förändringar och på förbättrad kartläggning.
@@ -92,6 +92,6 @@ Webbplatsen publiceras på Cloudflare Workers Static Assets. Se [DEPLOYMENT.md](
 
 Mariehamns hus ritas av `dist/city-buildings.js` i ett gemensamt lager. Daterade husplatser använder streckade symboler när källbelagda konturer saknas. Historiska kartkonturer och nutida konturer har samma stil, och ett namngivet hus öppnar sin berättelse direkt från konturen. Rivna hus kopplas inte till dagens ersättningsbyggnader. Mariehamnsläget använder den vanliga tidslinjen med intervallet 1860–2026 och egna hållpunkter.
 
-`data/city-building-provenance.json` beskriver källorna. Råuttag från 2014, 2021 och 2025 ligger komprimerade i `data/city-buildings-*.json.gz`; kör `python3 scripts/build_city_buildings.py` och därefter `python3 scripts/cache_versions.py`. För att återskapa Geofabrik-uttag: `.venv-geo/bin/python scripts/import_city_buildings.py /path/to/finland-140101.osm.pbf 2014`. OSM-år är kartläggningsår, inte byggår. 1942 saknar fortfarande en fullständig inventering av huskonturer; den visar daterade husplatser tillsammans med det historiska gatunätet.
+`data/city-building-provenance.json` beskriver källorna. Råuttag från 2014, 2021 och 2025 ligger komprimerade i `data/city-buildings-*.json.gz`; kör `python3 scripts/build_city_buildings.py` och därefter `python3 scripts/cache_versions.py`. För att återskapa Geofabrik-uttag: `.venv-geo/bin/python scripts/import_city_buildings.py /path/to/finland-140101.osm.pbf 2014`. OSM-år är kartläggningsår, inte byggår. 1942 saknar fortfarande en fullständig inventering av huskonturer; den visar daterade husplatser och kvarhållna huskonturer från 1920-talet tillsammans med det historiska gatunätet.
 
 Mariehamns gatunät från 2014 och framåt använder gemensam linjering från 2026 för stabila stråk. `build_city_grid.py` jämför med varje äldre kartuttags vägkorridorer (20 m, minst 85 % överlapp) och låter nya stråk tillkomma från sitt första kartbelägg. Tydligt avvikande äldre sträckor behålls. Kvarteren beräknas från detta jämkade nät; gångstigar delar inte upp gatukvarteren. Det är en kartografisk förenkling, inte en rekonstruktion av varje gatas exakta historiska läge eller byggår.

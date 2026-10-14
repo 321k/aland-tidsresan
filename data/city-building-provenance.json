@@ -24,10 +24,11 @@
       "snapshot": "2025-01-01T00:00:00Z"
     }
   ],
-  "method": "One city renderer. Documented places use schematic map-space rectangles until a source-dated contour is available. Point containment attaches a place story without dating all wings of the footprint. Demolished sites are excluded from current footprint links. Museum roof symbols are source-specific and never interpolated to 1942.",
+  "method": "One city renderer. Documented places use schematic map-space rectangles until a source-dated contour is available. Point containment attaches a place story without dating all wings of the footprint. Demolished sites are excluded from current footprint links. Museum roof symbols retain their 1920s source date and geometry through 1942–2013, where the later road-only source supplies no replacement roof inventory. Continued existence is explicitly unverified. Known demolished pre-1930 house places suppress containing museum contours at the exclusive end year, independently of display filters. Archived OSM building snapshots take over from 2014.",
   "limitations": [
     "Not a complete historic building inventory.",
     "OSM completeness varies between snapshots; first mapped is not built.",
-    "1942 has traced roads and individually dated house places, not a full roof inventory."
+    "1942 has traced roads and individually dated house places, not a full roof inventory.",
+    "Carried museum contours are a continuity assumption, not evidence that all depicted houses survived until 2013."
   ]
 }

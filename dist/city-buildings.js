@@ -27,7 +27,12 @@ class CityBuildings {
   const stage=grid.stage(year),snapshot=this.snapshot(year);
   if(year>=2026&&explorer.flags.modern){roofs=explorer.modern.filter(f=>this.owns(f));sourceYear=2026}
   else if(year>=2014&&year<2026&&grid.enabled&&snapshot){roofs=snapshot.features;sourceYear=snapshot.year}
-  else if(stage?.year===1920){roofs=stage.features.filter(f=>f.kind==='building');sourceYear=1920}
+  else if(grid.enabled&&year>=1920&&year<2014){
+   // Road-only sources (1942) cannot establish that earlier houses disappeared.
+   const museum=grid.sets.find(s=>s.year===1920);
+   const demolished=explorer.historic.filter(h=>h.start<=1929&&Number.isFinite(h.end)&&year>=h.end);
+   roofs=(museum?.features||[]).filter(f=>f.kind==='building'&&!demolished.some(h=>CityBuildings.inside(h.lon,h.lat,f.paths)));sourceYear=1920;
+  }
   const records=roofs.map(f=>({id:f.id,shape:f,target:f,sourceYear,schematic:false})),byId=new Map(records.map(r=>[r.id,r]));
   const histories=explorer.flags.historic?explorer.historic.filter(f=>explorer.available(f,year)&&explorer.matches(f)&&(explorer.category==='all'||explorer.category==='building')):[];
   if(library&&year>=library.start&&explorer.flags.historic)histories.push(library);
@@ -63,12 +68,12 @@ class CityBuildings {
   // Labels appear on selection, never as a second marker over a roof.
   for(const r of this.drawn.filter(r=>r.target.id===explorer.selected||r.target.id===this.selected)){const b=r.shape.cityBounds,x=((b[0]+b[2])/2-v.meta.width/2)*s+v.width/2+v.panX,y=(b[3]-v.meta.height/2)*s+v.height/2+v.panY+15;ctx.save();ctx.font='12px -apple-system,sans-serif';ctx.textAlign='center';ctx.lineWidth=3;ctx.strokeStyle='#faf7e8';ctx.strokeText(r.target.name,x,y);ctx.fillStyle='#435445';ctx.fillText(r.target.name,x,y);ctx.restore()}
  }
- status(year,records=this.currentRecords||[]){if(!this.catalogReady)return 'Laddar Mariehamns hus…';const known=records.filter(r=>r.history).length,roofs=records.filter(r=>!r.schematic).length;return `${known} ${known===1?'daterad husplats':'daterade husplatser'} · ${roofs.toLocaleString('sv-SE')} kartlagda huskonturer. ${year>=2014?'OSM:s källår är inte byggår.':year>=1942?'Äldre hus utan belagd kontur visas schematiskt.':year>=1920?'Huskonturerna kommer från 1920-talets museikarta.':'Stadsplanen visar planerade kvarter; hus visas från sina belagda år.'}`}
+ status(year,records=this.currentRecords||[]){if(!this.catalogReady)return 'Laddar Mariehamns hus…';const known=records.filter(r=>r.history).length,roofs=records.filter(r=>!r.schematic).length;return `${known} ${known===1?'daterad husplats':'daterade husplatser'} · ${roofs.toLocaleString('sv-SE')} kartlagda huskonturer. ${year>=2014?'OSM:s källår är inte byggår.':year>=1942?'1920-talets huskonturer behålls där nyare byggnadsunderlag saknas; fortsatt existens är inte verifierad.':year>=1920?'Huskonturerna kommer från 1920-talets museikarta.':'Stadsplanen visar planerade kvarter; hus visas från sina belagda år.'}`}
  hit(x,y,ctx){const v=this.view;if(!v||!this.drawn.length)return null;const wx=(x-v.width/2-v.panX)/v.scale+v.meta.width/2,wy=(y-v.height/2-v.panY)/v.scale+v.meta.height/2,t=4/v.scale;
   const candidates=this.drawn.filter(r=>{const b=r.renderBounds;return wx>=b[0]-t&&wx<=b[2]+t&&wy>=b[1]-t&&wy<=b[3]+t});ctx.save();ctx.setTransform(1,0,0,1,0,0);const r=candidates.find(r=>ctx.isPointInPath(r.renderPath,wx,wy,'evenodd'))||candidates.filter(r=>r.schematic).sort((a,b)=>{const distance=r=>Math.hypot(wx-(r.shape.cityBounds[0]+r.shape.cityBounds[2])/2,wy-(r.shape.cityBounds[1]+r.shape.cityBounds[3])/2);return distance(a)-distance(b)})[0];ctx.restore();if(!r)return null;
   if(r.history)return r.history;
-  if(r.sourceYear===1920)return r.target;
   return {...r.target,recordType:'cityBuilding',sourceYear:r.sourceYear};
  }
- story(f){return `<button class="back" id="backFeature">← Till tidsperioden</button><br><span class="storytag">Kartlagd byggnad · ${f.sourceYear}</span><h2>${htmlEscape(f.name)}</h2><p>Här ser du husets kontur ovanifrån i kartunderlaget från ${f.sourceYear}. Tryck framåt i tiden och se hur kartbilden förändras.</p><p class="asidehint">Källåret är inte husets byggår. Skillnader mellan kartår kan bero på bättre kartläggning. Ett hus som saknas i en äldre karta kan ändå ha funnits då.</p><a href="https://www.openstreetmap.org/${f.id}" target="_blank" rel="noopener noreferrer">Se kartobjektet i OpenStreetMap ↗</a>`}
+ story(f,year=this.view?.year){if(f.sourceYear===1920){const carried=year>=1942;return `<button class="back" id="backFeature">← Till tidsperioden</button><br><span class="storytag">Hus på museikartan · 1920-tal</span><h2>${htmlEscape(f.name)}</h2><p>På museikartan finns ett litet hus här. Konturen är en förenklad tolkning av kartans hussymbol.</p>${carried?'<p class="asidehint">Den äldre konturen ligger kvar eftersom nyare byggnadsunderlag saknas. Vi vet inte om huset fortfarande fanns vid det valda året eller om det hade förändrats.</p>':''}<p>Adress, byggår och rivningsår har inte fastställts för just denna symbol. Byte av gatukarta betyder inte att huset revs.</p><a href="https://mpf.spfpension.fi/verksamhet/nybyggarne/mariehamn/" target="_blank" rel="noopener noreferrer">Öppna museikartans källa ↗</a>`}
+  return `<button class="back" id="backFeature">← Till tidsperioden</button><br><span class="storytag">Kartlagd byggnad · ${f.sourceYear}</span><h2>${htmlEscape(f.name)}</h2><p>Här ser du husets kontur ovanifrån i kartunderlaget från ${f.sourceYear}. Tryck framåt i tiden och se hur kartbilden förändras.</p><p class="asidehint">Källåret är inte husets byggår. Skillnader mellan kartår kan bero på bättre kartläggning. Ett hus som saknas i en äldre karta kan ändå ha funnits då.</p><a href="https://www.openstreetmap.org/${f.id}" target="_blank" rel="noopener noreferrer">Se kartobjektet i OpenStreetMap ↗</a>`}
 }
