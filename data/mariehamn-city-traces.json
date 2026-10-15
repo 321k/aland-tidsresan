@@ -1,5 +1,5 @@
 {
-  "policy": "Source snapshots, not inferred construction dates. 1860 remains explicitly a plan through 1919; 1920 denotes a decade. No interpolation of undocumented construction. Derived blocks are street enclosures, not parcels. Museum roof symbols are shown only with the 1920s snapshot (1920–1941), not assumed to survive into later sources. OSM changes may reflect mapping completeness.",
+  "policy": "Source snapshots, not inferred construction dates. 1860 remains explicitly a plan through 1919; 1920 denotes a decade. No interpolation of undocumented construction. Derived blocks are street enclosures, not parcels. The building layer retains 1920s roof symbols through the road-only 1942 source until 2013, with explicit uncertainty about continued existence and known demolitions respected. OSM changes may reflect mapping completeness.",
   "coverage": [
     19.912,
     60.079,

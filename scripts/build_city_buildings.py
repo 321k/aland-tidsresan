@@ -6,6 +6,7 @@ linked to buildings currently occupying the same location.
 import json,gzip
 from pathlib import Path
 from build_modern import build
+from city_continuity import reconcile
 root=Path(__file__).resolve().parents[1]
 def inside(point,paths):
  x,y=point;yes=False
@@ -24,12 +25,14 @@ for year in [2014,2021,2025]:
  raw=json.loads(gzip.decompress(path.read_bytes()));features=[f for f in build(raw)['features'] if f['kind']=='building' and within(f)]
  sets.append({'year':year,'snapshot':raw['extract']['snapshot'],'source':'https://www.openstreetmap.org/copyright','query':raw['extract']['query'],'endpoint':raw['extract']['endpoint'],'features':features})
 modern=json.loads(gzip.decompress((root/'dist/assets/modern.json.gz').read_bytes()))
+continuity=reconcile(sets+[{'year':2026,'features':[f for f in modern['features'] if f['kind']=='building' and within(f)]}])
 history=json.loads((root/'dist/assets/historic-buildings.json').read_text())['features']
 links={}
 for h in history:
  if h.get('end') is not None:continue
  candidates=[f for f in modern['features'] if f['kind']=='building' and inside([h['lon'],h['lat']],f['paths'])]
  if len(candidates)==1:links[h['id']]=candidates[0]['id']
-result={'coverage':coverage,'sets':sets,'links':links,'policy':'Links attach a documented place story to the present map object containing its source point. They do not establish historic building shape, continuity of every wing, or construction dates. Historical snapshots show mapping coverage, not a complete census. A missing outline is not evidence of demolition.'}
+result={'coverage':coverage,'sets':sets,'links':links,'continuity':continuity,'policy':'Links attach a documented place story to the present map object containing its source point. They do not establish historic building shape, continuity of every wing, or construction dates. Historical snapshots show mapping coverage, not a complete census. Small survey corrections for the same OSM identity use a common outline; larger changes remain source-specific. An intermediate omission is bridged only between equivalent observations, never beyond the last observation or before the first. A missing outline is not evidence of demolition.'}
 (root/'dist/assets/city-buildings.json').write_text(json.dumps(result,ensure_ascii=False,separators=(',',':'))+'\n')
 print([(d['year'],len(d['features'])) for d in sets],len(links),'place links')
+print(continuity)

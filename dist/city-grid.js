@@ -2,7 +2,7 @@
 class CityGrid {
  constructor(change){this.change=change;this.enabled=true;this.sets=[];this.drawn=[];this.selected=null}
  static yearFor(year){return year<1860?null:year<1920?1860:year<1942?1920:year<2014?1942:year<2021?2014:year<2025?2021:year<2026?2025:2026}
- async load(){try{const r=await fetch('assets/mariehamn-city-grid.json?v=e32f612f31b0');if(!r.ok)throw Error();const data=await r.json();this.sets=data.sets;this.coverage=data.coverage;this.ready=true}catch{this.failed=true}this.change()}
+ async load(){try{const r=await fetch('assets/mariehamn-city-grid.json?v=fb2e147356da');if(!r.ok)throw Error();const data=await r.json();this.sets=data.sets;this.coverage=data.coverage;this.ready=true}catch{this.failed=true}this.change()}
  stage(year){return this.enabled?this.sets.find(d=>d.year===CityGrid.yearFor(year)):null}
  replacesRecentRoads(v){return v.zoom>=8&&!v.fortressDetail&&!!this.stage(v.year)?.normalizedStreets}
  recentBounds(project){const b=this.coverage,a=project(b[0],b[3]),z=project(b[2],b[1]);return [a[0],a[1],z[0],z[1]]}

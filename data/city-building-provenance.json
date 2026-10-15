@@ -1,5 +1,5 @@
 {
-  "verifiedOn": "2026-10-14",
+  "verifiedOn": "2026-10-15",
   "sources": [
     {
       "year": 2014,
@@ -29,6 +29,16 @@
     "Not a complete historic building inventory.",
     "OSM completeness varies between snapshots; first mapped is not built.",
     "1942 has traced roads and individually dated house places, not a full roof inventory.",
-    "Carried museum contours are a continuity assumption, not evidence that all depicted houses survived until 2013."
-  ]
+    "Carried museum contours are a continuity assumption, not evidence that all depicted houses survived until 2013.",
+    "Small normalized outline differences are treated as cartographic corrections, not proof that the physical building was unchanged. The large 2014–2021 coverage increase is retained rather than assigned invented construction years."
+  ],
+  "cartographicContinuity": {
+    "script": "scripts/city_continuity.py",
+    "method": "For the same OSM object only: normalize a run to its latest geometry if every pair has at least 70% area overlap, area ratio 0.85–1.18, centroid separation <=4 m and Hausdorff distance <=6 m. Keep larger changes. Bridge intermediate missing objects only between equivalent observations and without a conflicting footprint (>20% overlap). Never extrapolate before first or after last observation. Raw snapshots remain unchanged in data/.",
+    "counts": {
+      "minorGeometryCorrections": 329,
+      "bridgedSnapshotGaps": 7
+    },
+    "schematicOrientation": "Fixed 1920s map reference from 1920 onward, independent of the selected street or roof source. Approximate cartographic bearing, not surveyed geometry."
+  }
 }

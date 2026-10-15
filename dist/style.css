@@ -113,3 +113,5 @@ header{gap:15px}.headernote{font-size:12px}header #openArchive{background:#e7ece
 @media(max-width:800px), (max-width:950px) and (max-height:500px){#roadMapStatus{left:10px;right:10px;bottom:118px;max-width:none;width:fit-content;font-size:9px;padding:4px 6px}}@media(max-width:950px) and (max-height:500px){#roadMapStatus{bottom:89px}}
 
 .maplegend .roadkey{width:18px;height:4px;background:#faf7e7;border:1px solid #a99573}
+
+#mapTransition{position:absolute;inset:0;pointer-events:none}#mapTransition[hidden]{display:none}

@@ -60,3 +60,21 @@ test('city playback stops at its own next milestone and never resets to the ice 
  const source=fs.readFileSync('dist/app.js','utf8'),s={year:1900,cityPlaybackYear:1919.99,cityStops:[1860,1900,1920,2026],lastTick:0,timer:null,playing:true,$:()=>({checked:true}),shorelines:{prepare:()=>true},goToYear:y=>s.year=y,pause:()=>s.playing=false,requestAnimationFrame:()=>1,playbackFrame(){}};
  vm.createContext(s);vm.runInContext(source.slice(source.indexOf('function cityPlaybackFrame(')),s);s.cityPlaybackFrame(100);assert.equal(s.year,1920);assert.equal(s.playing,false);
 });
+test('schematic houses keep their orientation across every later source boundary',()=>{
+ const{layer,e,grid}=setup(),reference=new Map(layer.records(1941,e,grid).filter(r=>r.schematic).map(r=>[r.id,r.shape.paths]));
+ for(const year of [1942,2013,2014,2020,2021,2024,2025,2026])for(const r of layer.records(year,e,grid)){
+  if(r.schematic&&reference.has(r.id))assert.deepEqual(r.shape.paths,reference.get(r.id),`${r.id} in ${year}`);
+ }
+});
+test('intermediate mapping gaps retain both bounding observations and honest popup attribution',()=>{
+ const{layer,e,grid}=setup();const records=layer.records(2025,e,grid).filter(r=>r.shape.continuity);assert.ok(records.length>0);
+ for(const r of records){assert.equal(r.sourceYear,2021);assert.ok(layer.records(2026,e,grid).some(f=>f.id===r.id));assert.match(layer.story({...r.shape,sourceYear:r.sourceYear}),/luckan mellan dem/)}
+});
+
+test('every documented house remains a single selectable place throughout its lifespan',()=>{
+ const{layer,e,grid}=setup(),years=new Set([1860,1919,1920,1941,1942,2013,2014,2020,2021,2024,2025,2026]);
+ for(const h of e.historic)for(const y of [h.start-1,h.start,h.end-1,h.end])if(Number.isFinite(y)&&y>=1860&&y<=2026)years.add(y);
+ for(const year of years){const records=layer.records(year,e,grid);for(const h of e.historic){
+  assert.equal(records.filter(r=>r.target.id===h.id).length,e.available(h,year)?1:0,`${h.id} in ${year}`);
+ }}
+});

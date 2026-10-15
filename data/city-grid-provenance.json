@@ -2,7 +2,7 @@
   "verifiedOn": "2026-10-14",
   "traceFile": "data/mariehamn-city-traces.json",
   "buildScript": "scripts/build_city_grid.py",
-  "policy": "Source snapshots, not inferred construction dates. 1860 remains explicitly a plan through 1919; 1920 denotes a decade. No interpolation of undocumented construction. Derived blocks are street enclosures, not parcels. Museum roof symbols are shown only with the 1920s snapshot (1920–1941), not assumed to survive into later sources. OSM changes may reflect mapping completeness.",
+  "policy": "Source snapshots, not inferred construction dates. 1860 remains explicitly a plan through 1919; 1920 denotes a decade. No interpolation of undocumented construction. Derived blocks are street enclosures, not parcels. The building layer retains 1920s roof symbols through the road-only 1942 source until 2013, with explicit uncertainty about continued existence and known demolitions respected. OSM changes may reflect mapping completeness.",
   "coverage": [
     19.912,
     60.079,
@@ -12,7 +12,7 @@
   "interpretation": "Manual source-pixel street centre lines and selected roof symbols. Three inherited street-junction controls for each drawn map, not independently surveyed georeferencing. 1942 uses official EPSG:3874 tile coordinates. Widths are cartographic estimates. Block polygons are generated from street enclosures, inset 4 metres; they are not cadastral parcels. No raster artwork is generated or republished by this workflow.",
   "knownLimitations": [
     "1860 remains a plan, not an assertion about built streets in 1861–1919.",
-    "Museum date is a whole decade. Roof rectangles are simplified and are only shown in the 1920–1941 source-selection window; disappearance at 1942 is not a demolition date.",
+    "Museum date is a whole decade. Simplified roofs are carried through 1942–2013 with unverified survival; separate building data takes over in 2014.",
     "1942 is a selected street inventory, not a full building reconstruction.",
     "Different map sources have alignment differences; line shifts need not mean street relocation.",
     "OSM changes can represent improved mapping as well as physical changes. Modern buildings are not backdated."
