@@ -1,0 +1,32 @@
+{
+  "baselineVersion": "1baae6c6-0228-4794-bd63-263d99ad7f50",
+  "changedFiles": [
+    "index.html",
+    "object.html",
+    "temporal-objects.js",
+    "rural-review.html",
+    "assets/rural-map-review.json",
+    "assets/rural-sector-coverage.json",
+    "assets/temporal-objects.json.gz"
+  ],
+  "objects": 35812,
+  "changedObjects": [
+    "building:osm:way-1030562631",
+    "building:osm:way-1284291122",
+    "building:osm:way-1328629401",
+    "building:osm:way-1436669815",
+    "building:osm:way-1475060919",
+    "building:osm:way-1475202137",
+    "building:osm:way-451942586",
+    "building:osm:way-453608881",
+    "building:osm:way-455336255",
+    "building:osm:way-577587968",
+    "building:osm:way-577587969",
+    "building:osm:way-577587970",
+    "building:osm:way-614782681"
+  ],
+  "newObjects": 0,
+  "newGeometries": 52,
+  "excludedUnrelatedLocalObjects": 164,
+  "unchangedWorker": true
+}

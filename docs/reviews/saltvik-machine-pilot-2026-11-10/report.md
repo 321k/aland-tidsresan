@@ -1,6 +1,6 @@
 # Saltvik 102107: pilot för maskinföreslagna byggnadsbelägg
 
-Granskad 2026-11-10. Endast blad 102107; inget publicerat, pushat eller sammanslaget.
+Granskad 2026-11-10. Endast blad 102107. Därefter publicerad på användarens begäran; se [publiceringskvittot](publication/README.md). Inget pushat eller sammanslaget.
 
 ## Urval och resultat
 

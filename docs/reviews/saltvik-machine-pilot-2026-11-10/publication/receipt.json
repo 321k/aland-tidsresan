@@ -1,0 +1,40 @@
+{
+  "publishedAt": "2026-11-10T18:08:52.276306+00:00",
+  "versionId": "42001622-199e-4ed8-9ca1-b19f6c0ff891",
+  "previousVersionId": "1baae6c6-0228-4794-bd63-263d99ad7f50",
+  "verifiedFiles": 276,
+  "changedFiles": [
+    "index.html",
+    "object.html",
+    "temporal-objects.js",
+    "rural-review.html",
+    "assets/rural-map-review.json",
+    "assets/rural-sector-coverage.json",
+    "assets/temporal-objects.json.gz"
+  ],
+  "changedObjects": [
+    "building:osm:way-1030562631",
+    "building:osm:way-1284291122",
+    "building:osm:way-1328629401",
+    "building:osm:way-1436669815",
+    "building:osm:way-1475060919",
+    "building:osm:way-1475202137",
+    "building:osm:way-451942586",
+    "building:osm:way-453608881",
+    "building:osm:way-455336255",
+    "building:osm:way-577587968",
+    "building:osm:way-577587969",
+    "building:osm:way-577587970",
+    "building:osm:way-614782681"
+  ],
+  "newStartYears": {
+    "1968": 13
+  },
+  "newObjects": 0,
+  "newObservationGeometries": 52,
+  "excludedUnrelatedLocalObjects": 164,
+  "unchangedWorker": true,
+  "stagedTestsPassed": 143,
+  "browserVerification": "unavailable: local browser use disabled in Work settings",
+  "liveCatalogueSha256": "aaa270ee8378b40e13dba825ebe45240596127925e2182ebbb2425538a04515b"
+}

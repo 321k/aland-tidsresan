@@ -1,0 +1,15 @@
+
+ ⛅️ wrangler 4.149.0
+────────────────────
+
+Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+✨ Read 280 files from the assets directory /private/tmp/saltvik-deploy/release/dist
+Total Upload: 18.04 KiB / gzip: 5.77 KiB
+Your Worker has access to the following bindings:
+Binding                                                        Resource          
+env.LIVE_VESSELS (605a333e6df5434daad0e00cd3e2b341)            KV Namespace      
+env.ISSUE_RATE_LIMIT (3 requests/60s)                          Rate Limit        
+env.ISSUE_GLOBAL_LIMIT (20 requests/60s)                       Rate Limit        
+env.ASSETS                                                     Assets            
+
+--dry-run: exiting now.
