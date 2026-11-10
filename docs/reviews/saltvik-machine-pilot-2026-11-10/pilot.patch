@@ -1,0 +1,695 @@
+--- a/data/rural-map-review.json
++++ b/data/rural-map-review.json
+@@ -30267,6 +30267,513 @@
+         }
+       ],
+       "reviewedAt": "2026-11-02"
++    },
++    {
++      "objectId": "building:osm:way-451942586",
++      "input": "7bee77082ad8c0a5c63e48cacff5101bd4f499ca2fcbc5b4526860e0713c427c",
++      "referenceGeometryId": "geometry:af2b737af4e84853f71f",
++      "basis": "En liten fylld, ungefär nord–sydlig hussymbol ligger vid åkerns södra hörn, öster om gårdsvägen och norr om ett separat ihåligt uthus. Läget, riktningen och gårdssambandet återkommer i alla fyra utgåvor och stämmer med den lilla nutida konturen. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            1747,
++            3106
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            1714,
++            3124
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            3838,
++            2995
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            2922,
++            2733
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-453608881",
++      "input": "42f1faf1771bd2e0b22065f583723852c606e8af4b0a805d1b949cef3ea94a99",
++      "referenceGeometryId": "geometry:a8ab2ad12ace9c9e38c2",
++      "basis": "Den södra av två fyllda, ungefär öst–västliga hussymboler ligger längs åkerkanten, väster om gårdsvägen. Den norra grannen och det ihåliga uthuset på östra sidan skiljs tydligt från kandidaten. Samma ordning, riktning och rimliga symbolstorlek finns i alla fyra utgåvor. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            2959,
++            759
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            2925,
++            777
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            5052,
++            649
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            4186,
++            416
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-455336255",
++      "input": "1b1b75069cdb7e3005c52d3e886eb31bdbcb009992cb9d8e766c08165902a4a8",
++      "referenceGeometryId": "geometry:0c0d5c9c8b79c787431d",
++      "basis": "Den stora fyllda T-formade skolbyggnaden har samma tvärgående huvuddel och nordliga flygel i alla fyra utgåvor. Det separata långsmala huset söderut och gårdsinfarten återkommer. T-formens läge, storlek och riktning motsvarar dagens byggnad. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            5564,
++            3264
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            5531,
++            3280
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            7664,
++            3150
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            6758,
++            2967
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-577587968",
++      "input": "334e531f689dcc0463b60f2d590393fd6cb7e5b60120990acfac601edc88cb39",
++      "referenceGeometryId": "geometry:28f20d03629b4cf2f858",
++      "basis": "Den mellersta fristående byggnaden i gruppen vid karttexten Sjukhuset/Sjukhus har en snedställd långsmal huvudkropp med mindre utsprång. Den ligger mellan det västra rektangulära huset och det östra vinkelhuset i alla fyra utgåvor. Form, storlek, riktning och gårdsvägar stöder samma identitet. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            2233,
++            6116
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            2199,
++            6131
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            4329,
++            6007
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            3356,
++            5752
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-577587969",
++      "input": "7491b11aa40d70bccae68affaa1d26a9a9e918742976dbf4b0cf6154b285ca52",
++      "referenceGeometryId": "geometry:ab9eff4c85741b438726",
++      "basis": "Det västra av sjukhusgruppens hus är en fristående långsmal rektangel i nordväst–sydostlig riktning, närmast stranden. Samma form och läge i förhållande till strand, gårdsväg och de två östra grannhusen syns i alla fyra utgåvor. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            2216,
++            6130
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            2182,
++            6146
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            4314,
++            6022
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            3339,
++            5766
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-577587970",
++      "input": "15688660c44fb5fd7662cb03ed5565b9001ae7c96d124171db953d37ea4f1ba5",
++      "referenceGeometryId": "geometry:9c8c282e42e37c4c2b08",
++      "basis": "Sjukhusgruppens östra byggnad har en tydlig vinkel med en indragen sydsida i alla fyra utgåvor. Storlek och riktning motsvarar den nutida vinkelkonturen; västgrannen och de små husen söderut är separata. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            2264,
++            6115
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            2232,
++            6131
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            4362,
++            6006
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            3388,
++            5752
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-614782681",
++      "input": "8df47517ed9066910ecc1ed00d3f30e88c2d9be456e352933159b9b4389825f9",
++      "referenceGeometryId": "geometry:d7f37c0facb59778e295",
++      "basis": "En liten fylld nord–sydlig hussymbol står öster om det större västliga huset och omedelbart nordost om ett separat ihåligt uthus. Alla fyra utgåvor behåller samma gårdsordning och ungefärliga storlek och riktning som dagens smala kontur. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            5455,
++            4246
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            5422,
++            4263
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            7555,
++            4135
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            6629,
++            3949
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-1030562631",
++      "input": "ce2608281cccd674279894099a42304f6f3f248184f1d584a40654febda23f93",
++      "referenceGeometryId": "geometry:81a473081e776d79afa9",
++      "basis": "En liten fylld snedställd hussymbol ligger i gårdens sydöstra del, omedelbart norr om den diagonala tillfarten. Det större huset åt nordväst och uthusen vid östra vägen skiljer platsen från grannarna. Samma läge och förenliga storlek och riktning återkommer i alla fyra utgåvor. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            5251,
++            5729
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            5219,
++            5745
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            7355,
++            5620
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            6398,
++            5423
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-1284291122",
++      "input": "a2d83542ebffd2f467b8846fd0cb9f4df17bbeaf2f9e94b40fbd8de5e203405b",
++      "referenceGeometryId": "geometry:ea2cd33639ad24d97d58",
++      "basis": "En fristående fylld rektangel i nordväst–sydostlig riktning ligger norr om landsvägen, längs samma gårdsstig och väster om ett separat hus. Storlek, riktning och grannordning stämmer i alla fyra utgåvor. De äldre kartornas mindre lägesförskjutningar följer gårdssambandet. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            1180,
++            4251
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            1147,
++            4269
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            3269,
++            4145
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            2332,
++            3865
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-1328629401",
++      "input": "a8673cc0424a3ee1d3bfc8823fc8dc4c38a851efff4cebadba0acc1fcb9b286e",
++      "referenceGeometryId": "geometry:e05c0c5f77b9050f1851",
++      "basis": "Gårdens södra huvudbyggnad är en fylld långsmal rektangel i västnordväst–ostsydostlig riktning. Den ligger söder om uthusen, väster om landsvägen och inom samma åkerkant i alla fyra utgåvor. Formen och storleken är förenliga med dagens kontur. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            5269,
++            3688
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            5236,
++            3705
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            7368,
++            3579
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            6453,
++            3388
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-1436669815",
++      "input": "27f5abdd1c9e050473ff0ba3bc39cf81eafdea064eac6095e9c48ddf7065c227",
++      "referenceGeometryId": "geometry:3d25feabe5bc87df0c47",
++      "basis": "Ett separat långsmalt nord–sydligt hus ligger direkt söder om den T-formade skolan och väster om den prickade gårdsgången. Symbolens storlek, riktning och placering mellan skola och södra tillfart överensstämmer i alla fyra utgåvor. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            5550,
++            3288
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            5517,
++            3304
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            7652,
++            3174
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            6743,
++            2991
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-1475060919",
++      "input": "4949bbf0717fe3a8b61e8369789719141b28a4c9fe2d60766700296859ed9777",
++      "referenceGeometryId": "geometry:b6ae7d3bad692a1f140e",
++      "basis": "En fristående fylld långsmal symbol i nordnordost–sydsydvästlig riktning ligger öster om det smala stråket och norr om den större gårdsbyggnaden. Alla fyra utgåvor visar samma riktning, rimliga storlek och grannordning utan konkurrerande hus på kandidatens plats. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            3426,
++            3276
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            3393,
++            3293
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            5525,
++            3166
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            4609,
++            2940
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
++    },
++    {
++      "objectId": "building:osm:way-1475202137",
++      "input": "08f40aefc7338d2d6d527fb4fc324d96ed8f0f4340182090fd4242380ae2c1f3",
++      "referenceGeometryId": "geometry:da0f94a9cb3519a91a07",
++      "basis": "En liten fylld ungefär öst–västlig byggnad ligger längst in i den smala gårdsfickan öster om tillfarten. Samma åkeromslutning och västliga grannläge syns i alla fyra utgåvor; symbolens mindre lägesförskjutning byter inte gårdsplats. Storlek och riktning är förenliga med dagens lilla kontur. Hussymbolerna tolkas som samma beständiga byggnad; kontinuitet mellan beläggen och fram till det senare kartunderlaget antas. Den nutida inmätta konturen behålls som antagen representation; kartornas generaliserade symboler fastställer inte varje äldre takdetalj. Byggnaden är belagd senast 1968; tillkomstens nedre tidsgräns är okänd. Utgivningsåret 1968 används som konservativ visningsstart, inte byggår. 1978 återger äldre byggnadsunderlag med vägkomplettering och räknas inte som en oberoende ny byggnadsinventering. 1985 bygger på revidering 1981–1983; utgåvan 1993 bygger på flygfotografering 1990 och komplettering 1991 och trycktes 1994. Underlagsåren används inte som byggår. Ingen frånvaro eller rivning härleds ur maskinresultat.",
++      "maxSymbolDistanceMeters": 25,
++      "observations": [
++        {
++          "sourceId": "nls:102107:1968",
++          "pixel": [
++            2921,
++            3172
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1978",
++          "pixel": [
++            2888,
++            3189
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1985",
++          "pixel": [
++            5013,
++            3062
++          ]
++        },
++        {
++          "sourceId": "nls:102107:1993",
++          "pixel": [
++            4105,
++            2825
++          ]
++        }
++      ],
++      "reviewedAt": "2026-11-10",
++      "reviewBatch": "saltvik-machine-evidence-pilot-2026-11-10"
+     }
+   ],
+   "roads": [
+@@ -221876,7 +222383,7 @@
+       ]
+     }
+   ],
+-  "latestBatchReviewedAt": "2026-11-02",
++  "latestBatchReviewedAt": "2026-11-10",
+   "roadPresenceExtensions": [
+     {
+       "id": "road:rural:hammarland-torpvagen-hellesby-south:presence-r3c1",
+--- a/data/rural-map-batches.json
++++ b/data/rural-map-batches.json
+@@ -25418,6 +25418,134 @@
+         "catalogueSha256": "3fc4a2a24d2f8a3addb8b40275a6d496731d738192c20143ec70df954c611bd7",
+         "isolatedReleaseDirectory": "/tmp/hammarland-r1c5-release"
+       }
++    },
++    {
++      "id": "saltvik-machine-evidence-pilot-2026-11-10",
++      "sheet": "102107",
++      "reviewedAt": "2026-11-10",
++      "sourceIds": [
++        "nls:102107:1968",
++        "nls:102107:1978",
++        "nls:102107:1985",
++        "nls:102107:1993"
++      ],
++      "method": "Visuell granskning av de första 24 tidigare obehandlade kandidaterna i maskinfilens ordning, med symbol på minst två Saltvikutgåvor. Alla 24 har fyra föreslagna träffar; originalutsnitt i samtliga fyra utgåvor har granskats med nutida konturer och grannar. Maskinfilen är endast en söklista. 1978 är inte en oberoende byggnadsinventering. 13 accepterade, 11 uppskjutna, 0 förkastade. Ingen helbladsgranskning eller massimport.",
++      "accepted": [
++        {
++          "objectId": "building:osm:way-451942586",
++          "candidateIndex": 1588
++        },
++        {
++          "objectId": "building:osm:way-453608881",
++          "candidateIndex": 1589
++        },
++        {
++          "objectId": "building:osm:way-455336255",
++          "candidateIndex": 1591
++        },
++        {
++          "objectId": "building:osm:way-577587968",
++          "candidateIndex": 1592
++        },
++        {
++          "objectId": "building:osm:way-577587969",
++          "candidateIndex": 1593
++        },
++        {
++          "objectId": "building:osm:way-577587970",
++          "candidateIndex": 1594
++        },
++        {
++          "objectId": "building:osm:way-614782681",
++          "candidateIndex": 1596
++        },
++        {
++          "objectId": "building:osm:way-1030562631",
++          "candidateIndex": 1600
++        },
++        {
++          "objectId": "building:osm:way-1284291122",
++          "candidateIndex": 1603
++        },
++        {
++          "objectId": "building:osm:way-1328629401",
++          "candidateIndex": 1604
++        },
++        {
++          "objectId": "building:osm:way-1436669815",
++          "candidateIndex": 1605
++        },
++        {
++          "objectId": "building:osm:way-1475060919",
++          "candidateIndex": 1607
++        },
++        {
++          "objectId": "building:osm:way-1475202137",
++          "candidateIndex": 1609
++        }
++      ],
++      "pending": [
++        {
++          "objectId": "building:osm:way-306475879",
++          "candidateIndex": 1587,
++          "reason": "Flera små fyllda och ihåliga hussymboler samt en gårdsväg ligger inom dagens stora sammansatta kontur. Den moderna byggnaden kan inte identifieras med något enskilt äldre hus; möjlig föregångarbebyggelse. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-453609548",
++          "candidateIndex": 1590,
++          "reason": "1968, 1978 och 1985 visar en oregelbunden mindre byggnadsfigur intill vägen; 1993 visar en betydligt större rektangel närmare dagens kontur. Ombyggnad, tillbyggnad eller ersättningshus kan inte skiljas åt. Dagens hela hus backdateras inte. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-614782662",
++          "candidateIndex": 1595,
++          "reason": "De tre äldre utgåvorna visar en markant längre och bredare fylld byggnad vid vägkröken än den nutida konturen. 1993 års symbol är mindre. Samma plats och riktning räcker inte för att avgöra generalisering, ändring eller ersättningshus. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-626785243",
++          "candidateIndex": 1597,
++          "reason": "Alla fyra utgåvor visar en mindre U-liknande skolbyggnad. Dagens betydligt större sammansatta kontur sträcker sig långt åt nordväst utanför symbolen och har annan form. Tillbyggnader eller ersättningshus behöver utredas före backdatering. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-844736909",
++          "candidateIndex": 1598,
++          "reason": "Den fyllda, närmast kvadratiska symbolen ligger vid södra delen av dagens längre kontur intill stranden i alla fyra utgåvor. Den nordliga delen saknar motsvarande form. Äldre hus, senare tillbyggnad och ersättningshus kan inte skiljas åt. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-1030562627",
++          "candidateIndex": 1599,
++          "reason": "1968 och 1978 visar en långsmal snedställd symbol förskjuten norr om den lilla nutida vinkelkonturen; 1985 är symbolen större och förskjuten åt öster. 1993 ligger en mindre symbol närmare dagens läge. Riktning och form ger inte tillräckligt säker kontinuitet. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-1030562633",
++          "candidateIndex": 1601,
++          "reason": "1968, 1978 och 1985 visar en fylld hussymbol söder om landsvägen. 1993 är symbolen mindre och ligger vid den nutida konturens västra kant, nära ett separat ihåligt uthus. Källgeneralisering och identitetsbyte kan inte säkert skiljas åt. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-1041618518",
++          "candidateIndex": 1602,
++          "reason": "En fylld symbol återkommer söder om gårdsgruppen, men de äldre symbolerna är förskjutna åt sydväst och 1993 motsvarar främst den nutida konturens sydliga del. Den nordliga delen och kontinuiteten är otillräckligt belagda. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-1469019854",
++          "candidateIndex": 1606,
++          "reason": "Alla fyra utgåvor visar en fylld symbol vid gårdens västra kant, men den är avsevärt större än den mycket lilla nutida konturen; 1985 framträder en tydligare vinkel. Symbolgeneralisering, föregångare och del av större hus kan inte avgöras. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-1475201387",
++          "candidateIndex": 1608,
++          "reason": "Den fyllda symbolen intill landsvägen sammanfaller med två tätt liggande nutida konturer, kandidaten och grannen direkt söderut. I 1993 års utgåva är figuren dessutom större och oregelbunden. Ingen enskild beständig byggnad kan säkert väljas. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        },
++        {
++          "objectId": "building:osm:way-1476347301",
++          "candidateIndex": 1610,
++          "reason": "Den äldre fyllda byggnadssymbolen är större än kandidaten och ligger nära mellanrummet mot den lilla nutida grannen norrut; förskjutningen ändras mellan utgåvorna. Kartsymbolens byggnadsägare och en eventuell förändring av byggnaden kan inte säkerställas. Uppskjuten. Originalutgåvorna 1968, 1978, 1985 och 1993 granskade 2026-11-10. Ingen dateringsändring."
++        }
++      ],
++      "reviewArtifacts": {
++        "directory": "docs/reviews/saltvik-machine-pilot-2026-11-10",
++        "validation": "report.md"
++      },
++      "publicationStatus": "not-published"
+     }
+   ]
+ }
+--- a/tests/test_rural_map_review.py
++++ b/tests/test_rural_map_review.py
+@@ -30,7 +30,7 @@
+     def test_only_reviewed_objects_change_and_original_sources_stay_intact(self):
+         ids = {d['objectId'] for d in self.review['buildings']}
+         roads = {d['objectId'] for d in self.review['roads']}
+-        self.assertEqual(len(ids), 569)
++        self.assertEqual(len(ids), 582)
+         self.assertEqual(len(roads), 718)
+         historical_roads = {d['objectId'] for d in self.review.get('sourceOnlyRoads', [])}
+         self.assertEqual(len(historical_roads), 15)
+--- a/tests/rural-map-review.test.cjs
++++ b/tests/rural-map-review.test.cjs
+@@ -21,7 +21,7 @@
+  assert.equal(layer.records(1967,explorer,grid).filter(r=>ids.has(r.id)).length,0);
+  for(const year of [1968,1978,1984,1985,1992,1993,1994,1995,2013,2014,2020,2021,2025,2026]){
+   const rows=layer.records(year,explorer,grid).filter(r=>ids.has(r.id));
+-  assert.equal(rows.length,year<1985?472:year<1993?537:year<1995?543:567);
++  assert.equal(rows.length,year<1985?485:year<1993?550:year<1995?556:580);
+   for(const d of farms){
+    const r=model.resolveObject(d.objectId,year),row=rows.find(r=>r.id===d.objectId);
+    if(sourceYears.get(d.observations[0].sourceId)>year){assert.equal(r.geometry,null);assert.equal(row,undefined);continue;}
+--- a/tests/test_rural_sectors.py
++++ b/tests/test_rural_sectors.py
+@@ -64,7 +64,7 @@
+         accepted = {x['objectId'] for b in batches for x in b['accepted']}
+         actual = {d['objectId'] for d in review['buildings'] + review['sourceOnlyBuildings'] if d.get('reviewBatch')}
+         self.assertEqual(accepted, actual)
+-        self.assertEqual(len(accepted), 724)
++        self.assertEqual(len(accepted), 737)
+         pending = {x['objectId'] for b in batches for x in b['pending'] if x.get('objectId')}
+         self.assertFalse(pending & actual)
+         catalogue = {o['id']: o for o in read('dist/assets/temporal-objects.json.gz')['objects']}

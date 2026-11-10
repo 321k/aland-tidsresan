@@ -1,0 +1,3 @@
+PASS: git apply --check and git apply against copies of the exact pre-pilot working sources.
+PASS: the two registries and three expected-count updates match the final integrated working tree byte for byte.
+Generated assets are reproduced with build_rural_sectors.py, build_rural_coverage_page.py, build_temporal_objects.py and cache_versions.py.

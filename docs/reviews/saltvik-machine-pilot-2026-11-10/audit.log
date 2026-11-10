@@ -1,0 +1,11 @@
+PASS: exactly 13 existing object identities change; 0 added or removed.
+PASS: all 11 deferred objects remain byte-for-byte equal as JSON records.
+PASS: new starts by year: 1968 = 13 (all previously 2026).
+PASS: modern geometry IDs/coordinates and previous geometry periods preserved.
+PASS: all previous source records, geometry records, evidence and decisions preserved.
+PASS: 52 manually reviewed printed-map point observations, four editions per accepted object.
+PASS: city stages unchanged; no road objects changed.
+PASS: final audit includes the reviewBatch repair; final focused tests cover the batch link, refreshed ledger and catalogue.
+PASS: all other pre-existing working-tree files have their original SHA-256, including DEPLOYMENT.md and wrangler.jsonc.
+Catalogue: 35976 objects, 45509 geometries.
+Maximum manually read symbol-to-reference-centroid distance: 12.97 m.

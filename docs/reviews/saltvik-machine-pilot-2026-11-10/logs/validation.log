@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/review_historical_maps.py", line 34, in <module>
+    print(json.dumps(check(), ensure_ascii=False, indent=2))
+                     ~~~~~^^
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/review_historical_maps.py", line 20, in check
+    'postwarStages': [{k: s[k] for k in ['id', 'from', 'through', 'counts', 'symbolCount']} for s in catalog['cityStages']],
+                          ~^^^
+KeyError: 'symbolCount'

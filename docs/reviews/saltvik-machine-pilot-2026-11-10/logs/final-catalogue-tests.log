@@ -1,0 +1,19 @@
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/city_continuity.py:14: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  result = result.symmetric_difference(transform(project, Polygon(ring)).buffer(0))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/building_continuity_review.py:36: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  merged = transform(unproject, unary_union([shape(geometries[p['geometryId']]) for p in records]))
+./Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/building_followups.py:18: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  geographic = transform(unproject, polygon)
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/museum_street_alignment.py:43: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  old = transform(project, Polygon(geometries[gid]['paths'][0], geometries[gid]['paths'][1:]))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/museum_street_alignment.py:44: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  new = transform(project, Polygon(d['paths'][0], d['paths'][1:]))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/museum_street_alignment.py:63: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  ref = transform(project, Polygon(geometries[d['matchedGeometryId']]['paths'][0]))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/museum_street_alignment.py:64: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  registered = transform(project, Polygon(d['paths'][0]))
+.....
+----------------------------------------------------------------------
+Ran 6 tests in 140.058s
+
+OK
