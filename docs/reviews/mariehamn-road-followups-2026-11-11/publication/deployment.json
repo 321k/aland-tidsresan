@@ -1,0 +1,26 @@
+{
+ "deployedAt": "2026-11-11",
+ "versionId": "82982643-8c44-41dd-8842-a69babacd39c",
+ "tool": "wrangler@4.149.0",
+ "domain": "https://åland.erikedin.com/",
+ "uploaded": [
+  "/object.html",
+  "/assets/mariehamn-major-road-followups.json",
+  "/temporal-objects.js",
+  "/assets/temporal-objects.json.gz",
+  "/index.html"
+ ],
+ "jsTests": "455/455 passed before publication",
+ "dryRun": "ok",
+ "liveSha256Match": {
+  "index.html": "99c95507b16a10424d9a4dbc913b972fe1988b02954125e8bbf016731169e03f",
+  "object.html": "c207860fa19dc5e29cb6039f8d1a71eaa412ccd35c4a71efa324d5d60319383b",
+  "assets/temporal-objects.json.gz": "89a52c50c3230945fe5b744ad80632eabd83270b3e9e01f61c607bb31727803e",
+  "assets/mariehamn-major-road-followups.json": "fa6f01d9158f2e7ff4cd5dd8c659717565532dc94ee887b3e6f67db60af54f06",
+  "assets/mariehamn-major-roads.json": "4fad9ef70e850b602f775515d2fce789ff6f77362669fe43871cebe89f1b0d4a",
+  "temporal-objects.js": "31ea476a1800244983d800b5927b05aad6b4dd52602c9d92ec9e21d108639c72",
+  "city-grid.js": "dd2db92e2844dc58408b6f9c3f0f1279ff54b1370507c9e3d4049e7e54bba16a"
+ },
+ "liveChecks": "All listed files match local SHA-256 (index.html via / since /index.html redirects). Live catalogue: 36,071 objects, 37 follow-up objects; Strandnäs crossing abandoned 1985, Rökerirondellen from 1978, Nya Godbyvägen 1985 curve abandoned 1995. /api/vessels 200.",
+ "includesUnrelatedWork": "Catalogue also contains the unbuilt data/rural-map-review.json changes (nine Yttern 1968 building decisions, 19 changed buildings) present in the workspace at build time."
+}

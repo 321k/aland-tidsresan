@@ -1,0 +1,8 @@
+patch -p1 --dry-run < batch.patch against reconstructed pre-edit copies: OK
+applied forward; result identical to working-tree files (diff -r): OK
+patch -p1 -R --dry-run from the working tree: OK
+6b2f6e97c244583908b9754e5e94680004ad142962769a127de28491c5240059  batch.patch
+post-patch e18f5e94ed63ca09b88b77d1acb2d6d2c3fc7370876627dc1b6c5f4826aba09b  scripts/build_temporal_objects.py
+post-patch a8ced817e3bfbd8b05af471dc472a16d2b4ac42141fe884850e4619bb71c9f38  tests/temporal-objects.test.cjs
+post-patch 99c95507b16a10424d9a4dbc913b972fe1988b02954125e8bbf016731169e03f  dist/index.html
+post-patch b387cb63ff513371656a821fe697beaca0d01e175c567901a5e1658faccd29a7  docs/mariehamn-major-roads.md

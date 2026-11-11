@@ -1,0 +1,77 @@
+{
+ "unrelatedToThisPass": {
+  "note": "Snapshot to baseline: other uncommitted source changes, not part of this pass.",
+  "addedObjects": [
+   "building:rural:yttern-s-decisions-1012-08-1968-01",
+   "building:rural:yttern-s-decisions-1012-08-1968-02",
+   "building:rural:yttern-s-decisions-1012-08-1968-03",
+   "building:rural:yttern-s-decisions-1012-08-1968-04",
+   "building:rural:yttern-s-decisions-1012-08-1968-05",
+   "building:rural:yttern-s-decisions-1012-08-1968-06",
+   "building:rural:yttern-s-decisions-1012-08-1968-07",
+   "building:rural:yttern-s-decisions-1012-08-1968-08",
+   "building:rural:yttern-s-decisions-1012-08-1968-09"
+  ],
+  "removedObjects": [],
+  "changedObjects": [
+   "building:osm:way-1555827768",
+   "building:osm:way-1555827788",
+   "building:osm:way-165234966",
+   "building:osm:way-165234996",
+   "building:osm:way-523341856",
+   "building:osm:way-523341863",
+   "building:osm:way-525991518",
+   "building:osm:way-525991519",
+   "building:osm:way-525991520",
+   "building:osm:way-525991525",
+   "building:osm:way-549551035",
+   "building:osm:way-549551058",
+   "building:osm:way-549580893",
+   "building:osm:way-550281092",
+   "building:osm:way-550281147",
+   "building:osm:way-550281151",
+   "building:osm:way-550281155",
+   "building:osm:way-550670570",
+   "building:osm:way-631888592"
+  ],
+  "geometries": [
+   45788,
+   45816
+  ]
+ },
+ "snapshotSha256": "5492aed501c227c8ce7d9afc36cc4e6a9f43b69a26f2b60bf7730d321ac59ac6",
+ "baselineObjects": 36034,
+ "afterSha256": "89a52c50c3230945fe5b744ad80632eabd83270b3e9e01f61c607bb31727803e",
+ "objects": [
+  36034,
+  36071
+ ],
+ "geometries": [
+  45816,
+  46157
+ ],
+ "addedObjects": 37,
+ "addedAreReviewed": true,
+ "changedObjects": [],
+ "removedObjects": [],
+ "changedGeometries": [],
+ "removedGeometries": [],
+ "addedGeometriesPrefixed": true,
+ "addedGeometries": 341,
+ "sourcesAdded": [
+  "review:mariehamn-major-road-followups"
+ ],
+ "cityStagesUnchanged": true,
+ "newDuplicateSourceOwners": [],
+ "newMetres": 7641.79,
+ "byGroup": {
+  "strandnas": 917.82,
+  "ngv-north": 1327.2,
+  "asvagen": 773.98,
+  "alandsvagen": 175.77,
+  "west": 1847.19,
+  "central": 1129.25,
+  "southwest": 1281.13,
+  "godbyvagen": 189.45
+ }
+}

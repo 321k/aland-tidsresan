@@ -1,0 +1,30 @@
+
+ ⛅️ wrangler 4.149.0 (update available 4.160.0)
+───────────────────────────────────────────────
+🌀 Building list of assets...
+✨ Read 287 files from the assets directory /Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/dist
+🌀 Starting asset upload...
+🌀 Found 5 new or modified static assets to upload. Proceeding with upload...
++ /object.html
++ /assets/mariehamn-major-road-followups.json
++ /temporal-objects.js
++ /assets/temporal-objects.json.gz
++ /index.html
+Uploaded 1 of 5 assets
+Uploaded 3 of 5 assets
+Uploaded 5 of 5 assets
+✨ Success! Uploaded 5 files (278 already uploaded) (5.98 sec)
+
+Total Upload: 18.04 KiB / gzip: 5.77 KiB
+Worker Startup Time: 1 ms
+Your Worker has access to the following bindings:
+Binding                                                        Resource          
+env.LIVE_VESSELS (605a333e6df5434daad0e00cd3e2b341)            KV Namespace      
+env.ISSUE_RATE_LIMIT (3 requests/60s)                          Rate Limit        
+env.ISSUE_GLOBAL_LIMIT (20 requests/60s)                       Rate Limit        
+env.ASSETS                                                     Assets            
+
+Uploaded aland-tidsresan (14.92 sec)
+Deployed aland-tidsresan triggers (4.29 sec)
+  xn--land-poa.erikedin.com (custom domain)
+Current Version ID: 82982643-8c44-41dd-8842-a69babacd39c
