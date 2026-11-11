@@ -1,0 +1,28 @@
+{
+ "deployedAt": "2026-11-11",
+ "versionId": "074f8450-e6bd-4e6b-ba4a-50420ecfdb4a",
+ "tool": "wrangler@4.149.0",
+ "domain": "https://åland.erikedin.com/",
+ "deployedBy": "user ran wrangler deploy from a release tree prepared from the live version",
+ "baseLiveVersion": "e29d5e26-d0e9-4511-ad05-9723d0acb78f (live catalogue dd3b80…: previous follow-up deploy plus two reported-building fixes)",
+ "changedFiles": [
+  "/assets/temporal-objects.json.gz",
+  "/assets/mariehamn-lemlandsvagen-split.json",
+  "/index.html",
+  "/temporal-objects.js",
+  "/object.html"
+ ],
+ "excluded": "Unrelated unpublished local work, including a comment-only change in temporal-objects.js; that file differs from live only in the catalogue ?v= stamp.",
+ "jsTests": "94 relevant tests passed (concurrency 2) before publication",
+ "dryRun": "ok",
+ "liveSha256Match": {
+  "assets/temporal-objects.json.gz": "2d6993f84b89db8f00bb0f89f9d013ef29684dd129a11834da717d2dcf8fe62b",
+  "assets/mariehamn-lemlandsvagen-split.json": "b3b8f51bba8e8da8c3430bc56e1ce500a6beee5760d513c7512abd581b565a68",
+  "index.html": "76a80f598bcaeb9242d7af5aad8ff0a730e7687f3a66208b5bf2c5f356d3edb9",
+  "temporal-objects.js": "c23f0ee7ba7b22e343eb703212393d8f4ded1e119ec0998770f65705be705a70",
+  "object.html": "77a89be79d5b6099b2a086d2c48e7ad12a5a7738ec6d2e130c924a36b9498991",
+  "city-grid.js": "dd2db92e2844dc58408b6f9c3f0f1279ff54b1370507c9e3d4049e7e54bba16a",
+  "assets/mariehamn-city-grid.json": "cef1734cb18726616a146e4c5eb4d14b3abec5e084bcb483bf436e232bb5a40d"
+ },
+ "liveChecks": "All listed files fetched from the live domain match the release byte for byte."
+}

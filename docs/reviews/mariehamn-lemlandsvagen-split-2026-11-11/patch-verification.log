@@ -1,0 +1,10 @@
+patch -p1 --dry-run < batch.patch against reconstructed pre-edit copies: OK
+applied forward; result identical to working-tree files (diff -r): OK
+patch -p1 -R --dry-run from the working tree: OK
+550c38a82e055a553c7497c5b11c63c0022c59792107f96d96f0a1cd6aa6b9be  batch.patch
+post-patch a72eacea448506ca0c39bbec0ae869d2155bb4d7de47044eeb5d293e8ca908a2  scripts/build_temporal_objects.py
+post-patch 891aef9807d1e83f0aebdfca584f79236b036dc6c9b8a02c7951e9879fef5ee7  tests/temporal-objects.test.cjs
+post-patch 76913f61b99b24c2fc312bc027f6411dbacff4403b8a9729b4d313f978a1f2b1  tests/qgis-roads.test.cjs
+post-patch 438d0e99f3b486adfee920b504442f46097310094bf65aab4cfdf21778ebf1e5  tests/test_qgis_road_reconciliation.py
+post-patch 9e48a0c4095a960943aa2758bf2637272b613c961652f912609b466ed7f168ce  dist/index.html
+post-patch 638cdb2f4dc90c755087b874432fdb0b1cf55719bd559338e2d4990663188b39  docs/mariehamn-major-roads.md

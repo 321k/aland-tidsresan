@@ -1,0 +1,10 @@
+  merged = transform(unproject, unary_union([shape(geometries[p['geometryId']]) for p in records]))
+  geographic = transform(unproject, polygon)
+  old = transform(project, Polygon(geometries[gid]['paths'][0], geometries[gid]['paths'][1:]))
+  new = transform(project, Polygon(d['paths'][0], d['paths'][1:]))
+.
+----------------------------------------------------------------------
+Ran 38 tests in 158.289s
+
+OK
+.venv-geo/bin/python -m unittest tests.test_mariehamn_lemlandsvagen_split   157.14s user 3.09s system 99% cpu 2:41.13 total

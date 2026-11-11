@@ -1,0 +1,49 @@
+{
+ "snapshotEqualsBaseline": true,
+ "objects": [
+  36071,
+  36073
+ ],
+ "geometries": [
+  46157,
+  46160
+ ],
+ "addedObjects": [
+  "road:mariehamn:lemlandsvagen:rokeri-approach",
+  "road:mariehamn:lemlandsvagen:strandnas-sodergard"
+ ],
+ "changedObjects": [
+  "road:qgis:mariehamn:lemlandsvagen-2-100km3",
+  "road:qgis:mariehamn:lemlandsvagen-3-100km3"
+ ],
+ "removedObjects": [],
+ "changedGeometries": [],
+ "addedGeometries": [
+  "geometry:lemlandsvagen-split:approach",
+  "geometry:lemlandsvagen-split:remainder",
+  "geometry:lemlandsvagen-split:west"
+ ],
+ "sourcesAdded": [
+  "review:mariehamn-lemlandsvagen-split"
+ ],
+ "cityStagesUnchanged": true,
+ "target": {
+  "otherFieldsChanged": [],
+  "statesUnchanged": true,
+  "priorEvidenceKept": true,
+  "periodsOnlyGeometryIdChanged": true,
+  "originalGeometryKept": true,
+  "links": [
+   51,
+   12
+  ]
+ },
+ "pairedLane": {
+  "otherFieldsChanged": [],
+  "laterPeriodsKept": true,
+  "priorEvidenceKept": true,
+  "priorLinksKept": true
+ },
+ "afterSha256": "cee9f79aefd7c888d9053125bb3526eae3b15dfb66a2ac0272507b3958a8ce8e",
+ "newWholeLinkDuplicates": []
+}
