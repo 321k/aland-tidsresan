@@ -30,8 +30,17 @@ def merged(paths):
     return line
 
 
+FOLLOWUPS = dict(path='data/mariehamn-major-road-followups.json', idPrefix='road:mariehamn:major-followup:',
+                 geometryPrefix='geometry:city-major-followup:', marker='majorRoadFollowup', requires='majorRoadReview')
+
+
 def apply_major_road_followups(read, catalog):
-    review = read('data/mariehamn-major-road-followups.json')
+    apply_reviewed_streets(read, catalog, FOLLOWUPS)
+
+
+def apply_reviewed_streets(read, catalog, cfg):
+    """Shared validator and writer for the reviewed Mariehamn street passes (second pass and later)."""
+    review = read(cfg['path'])
     first_pass = read('data/mariehamn-major-roads.json')
     modern = {f['id']: f for f in read('dist/assets/modern.json.gz')['features']}
     stages = read('dist/assets/mariehamn-city-grid.json')['sets']
@@ -42,13 +51,13 @@ def apply_major_road_followups(read, catalog):
     occupied = {(l['datasetId'], l['featureId']) for o in objects.values() for l in o['sourceLinks']}
     if review['schemaVersion'] != 1 or review['sheets'] != first_pass['sheets'] or any(s['sourceId'] not in sources for s in review['sheets']):
         raise ValueError('Follow-up review must use the verified first-pass map sheets')
-    if not any(o.get('majorRoadReview') for o in objects.values()):
-        raise ValueError('First larger-road pass must be applied first')
+    if not any(o.get(cfg['requires']) for o in objects.values()):
+        raise ValueError('Earlier larger-road pass must be applied first')
     sheet_ids = {s['year']: s['sourceId'] for s in review['sheets']}
     _, registrations = load_review(read)
     used, owned_modern, total = set(objects), set(), 0
     for d in review['decisions']:
-        if d['id'] in used or not d['id'].startswith('road:mariehamn:major-followup:') or d['kind'] not in KINDS or not d['basis']:
+        if d['id'] in used or not d['id'].startswith(cfg['idPrefix']) or d['kind'] not in KINDS or not d['basis']:
             raise ValueError('Duplicate or unclassified follow-up road')
         used.add(d['id'])
         ids = [m['feature']['id'] for m in d['members']]
@@ -162,7 +171,7 @@ def apply_major_road_followups(read, catalog):
     catalog['sources'].append(deepcopy(review['source']))
     src = review['source']['id']
     for d in review['decisions']:
-        oid = d['id']; prefix = 'geometry:city-major-followup:' + oid.rsplit(':', 1)[1]
+        oid = d['id']; prefix = cfg['geometryPrefix'] + oid.rsplit(':', 1)[1]
         interp = oid + ':interpretation'
         evidence = [dict(id=interp, sourceId=src, describes={'from': d['firstYear'], 'to': None}, supports=['identity', 'state'], observationType='interpretation', interpretation=True, constructionYear=None, note=d['basis'])]
         geometry_ids = {}
@@ -206,7 +215,7 @@ def apply_major_road_followups(read, catalog):
                                 note=d['basis'] if s['state'] == 'open' else 'Första granskade utgåva utan sträckningen. Inget exakt rivningsår antas.') for s in d['states']],
                    geometryPeriods=[dict(geometryId=geometry_ids[i], **{'from': p['from'], 'to': p['to']}, certainty='inferred', evidenceIds=refs(p['from']), coverage='partial' if 'range' in p else 'full', canonicalRange=p.get('range', [0, 1]), basis=p['basis']) for i, p in enumerate(d['phases'])],
                    evidence=evidence, sourceLinks=[dict(datasetId=l['datasetId'], featureId=l['featureId']) for l in d['modernLinks']],
-                   majorRoadFollowup=dict(reviewedAt=review['reviewedAt'], constructionYear=None, group=d['group'], kind=d['kind'], lengthMeters=d['lengthMeters'], countRule=d['countRule'], modernMembers=[m['feature']['id'] for m in d['members']]))
+                   **{cfg['marker']: dict(reviewedAt=review['reviewedAt'], constructionYear=None, group=d['group'], kind=d['kind'], lengthMeters=d['lengthMeters'], countRule=d['countRule'], modernMembers=[m['feature']['id'] for m in d['members']])})
         catalog['objects'].append(obj)
     catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])
 

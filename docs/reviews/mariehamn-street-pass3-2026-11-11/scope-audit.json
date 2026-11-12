@@ -1,0 +1,39 @@
+{
+ "snapshotEqualsBaseline": true,
+ "objects": [
+  36073,
+  36126
+ ],
+ "geometries": [
+  46161,
+  46450
+ ],
+ "addedObjects": 53,
+ "changedObjects": [],
+ "removedObjects": [],
+ "changedGeometries": [],
+ "addedGeometries": 289,
+ "addedGeometriesOutsidePrefix": [],
+ "sourcesAdded": [
+  "review:mariehamn-street-pass3"
+ ],
+ "cityStagesUnchanged": true,
+ "otherTopLevelChanged": [],
+ "newObjectsOwningSharedLinks": [],
+ "newMeters": 10702.47,
+ "byFirstYear": {
+  "1968": 4742.89,
+  "1978": 192.1,
+  "1985": 5086.41,
+  "1995": 681.07
+ },
+ "byGroup": {
+  "johannebo": 2739.27,
+  "stenliden": 141.43,
+  "hindersbole": 4442.96,
+  "norrbole": 1545.89,
+  "vasternas": 446.06,
+  "skarpans": 1386.86
+ },
+ "afterSha256": "8c14173178e6f8c594bcab96e2d43a2abdc83ee09ea332877b9d7cfab6aa683f"
+}
