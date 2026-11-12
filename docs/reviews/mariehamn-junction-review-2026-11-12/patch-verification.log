@@ -1,0 +1,8 @@
+patch -p1 < batch.patch applied to the pass-5 post-patch copies of the four shared files: OK
+result identical to the post-junction copies (diff -r check b): OK, except the generated loadingPreview bins and startup-loader cache-stamp line in dist/index.html, which are left out
+The working tree also carries the later 1942 approach review on top of this state; docs/reviews/mariehamn-approaches-1942-2026-11-12/batch.patch takes these files from here to the working tree, so this patch is not reverse-checked against the working tree.
+a2520e4ad7020eadfa9d94114a77495d7e913bd0e7123f6567942185895a701b  batch.patch
+post-patch bda3720fdbf5fa75a45871d348a3f24b3799b9e53c76532192a38e02b12ecbe9  scripts/build_temporal_objects.py
+post-patch 3ddb637def1f06983ca343c278f35d149e038368e30efb2af3403d1f5d7bca40  tests/temporal-objects.test.cjs
+post-patch 14ef99b07e7c417c3cc95b798889337013c0d525aa403dc1a8702b6a59b4a4f6  dist/index.html
+post-patch 87fce209b3007fecf6ce2953fc131325137d46a2edd5cb5bc3a610a2c5160b9d  docs/mariehamn-major-roads.md

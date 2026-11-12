@@ -1,0 +1,5826 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-12",
+ "source": {
+  "id": "review:mariehamn-junction-review",
+  "title": "Mariehamns korsningar · granskning mot kartorna 1968–1995",
+  "url": "assets/mariehamn-junction-review.json"
+ },
+ "method": "Varje modern gatudel jämfördes visuellt med originalkartornas utsnitt för 1968, 1978, 1985 och 1995 över samma markyta (kontaktark per gata med den moderna linjen inritad endast på 1968). Överlägg är hjälpmedel, inte belägg. Tunna röda linjer i kompletteringen 1978 och enkla heldragna linjer 1968 räknas inte som gator; svarta linjer 1995 är gångväg eller mindre väg. Kartår är första granskade belägg, inte byggår. Parallella körbanor räknas en gång.",
+ "sheets": [
+  {
+   "year": 1968,
+   "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+   "registrationId": "nls-mariehamn-1968",
+   "sourceSha256": "64daa2707728a338e1b1acea0bccef2a68ecd0164f26668ef87762252a4e59f1"
+  },
+  {
+   "year": 1978,
+   "sourceId": "nls:91fde6e8-05a0-4888-bfd9-c13a94936b18",
+   "registrationId": "nls-mariehamn-1978",
+   "sourceSha256": "e2faef022ed517e40ce5079cf67991e42a20e2ac341d1e7a44dc9aefc451e2f0"
+  },
+  {
+   "year": 1985,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "registrationId": "nls-mariehamn-1985",
+   "sourceSha256": "865d637f740f562565d3f1cabaaa2caaa49c0140aa55119f74b5362ff3d07023"
+  },
+  {
+   "year": 1995,
+   "sourceId": "nls:101208:1995",
+   "registrationId": "nls:101208:1995",
+   "sourceSha256": "4c6145a43b1dff70a4547c0fcbbb82b118ff315cec6d62e928018ae056cd2e8b"
+  }
+ ],
+ "decisions": [
+  {
+   "id": "road:mariehamn:junction-review:godbyvagen-bolstavagen",
+   "name": "Godbyvägen",
+   "routeId": "road:Godbyvägen",
+   "group": "godbyvagen-bolstavagen",
+   "kind": "approach",
+   "members": [
+    {
+     "feature": {
+      "id": "way/165358622",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943108,
+         60.124429
+        ],
+        [
+         19.943096,
+         60.124364
+        ],
+        [
+         19.943064,
+         60.124203
+        ],
+        [
+         19.942983,
+         60.1241
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "2fcdec0b47fb754a168db1bce41850a8e8d6793b825903d58a768c8df0d2c5d0"
+    },
+    {
+     "feature": {
+      "id": "way/158304927",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943158,
+         60.124099
+        ],
+        [
+         19.943057,
+         60.124108
+        ],
+        [
+         19.942983,
+         60.1241
+        ],
+        [
+         19.942968,
+         60.124099
+        ],
+        [
+         19.942889,
+         60.124075
+        ],
+        [
+         19.942859,
+         60.124059
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "b52999eeb668a737cde91f057b6c5949ce98e2a8473767f13c02e3dc781f372f"
+    },
+    {
+     "feature": {
+      "id": "way/165358620",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942859,
+         60.124059
+        ],
+        [
+         19.942804,
+         60.123996
+        ],
+        [
+         19.942802,
+         60.123966
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "23418a16b965539bd4e9bc6f89ae55737a73df54ba4729943888f049d092fbea"
+    },
+    {
+     "feature": {
+      "id": "way/34972009",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942802,
+         60.123966
+        ],
+        [
+         19.942826,
+         60.123922
+        ],
+        [
+         19.942836,
+         60.123915
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "e5dd3ed8139125fa09e7268f93bd54675c58401151e0a9bfcc9f1b97ff2bf476"
+    },
+    {
+     "feature": {
+      "id": "way/165358625",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942836,
+         60.123915
+        ],
+        [
+         19.942881,
+         60.123883
+        ],
+        [
+         19.942957,
+         60.123858
+        ],
+        [
+         19.943057,
+         60.123847
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "cc538beb78872020e01434380c1cc676650fb73325d020c34b5c11929eabd2b3"
+    },
+    {
+     "feature": {
+      "id": "way/165358624",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942881,
+         60.123883
+        ],
+        [
+         19.942907,
+         60.123831
+        ],
+        [
+         19.942938,
+         60.123754
+        ],
+        [
+         19.943013,
+         60.123496
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "f17e9092ab9a5d14ea0f6a187cf106c3aab8979d55e3a4376ac111e289a6bbeb"
+    },
+    {
+     "feature": {
+      "id": "way/165358621",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943192,
+         60.124183
+        ],
+        [
+         19.94313,
+         60.124364
+        ],
+        [
+         19.943108,
+         60.124429
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "51f7459bc71584bb20fdf142c64ac5debaa0595bcd40a8721ba1c5227d9727c2"
+    },
+    {
+     "feature": {
+      "id": "way/1298839735",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943235,
+         60.124075
+        ],
+        [
+         19.943192,
+         60.124183
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "19941437717138a0b0592e56b17e5646e5c7d9ddfe757d338bea4ee5aebb0d8d"
+    },
+    {
+     "feature": {
+      "id": "way/165358623",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943307,
+         60.124023
+        ],
+        [
+         19.943292,
+         60.124041
+        ],
+        [
+         19.943235,
+         60.124075
+        ],
+        [
+         19.943158,
+         60.124099
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "bb0cc3221a40a063737c404898f4f00c60718f1c81237986b425c7f3cd4b7a85"
+    },
+    {
+     "feature": {
+      "id": "way/158304929",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943315,
+         60.123951
+        ],
+        [
+         19.943307,
+         60.124023
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "5900f224a8154fdb57ab89887f3f779d581e81a94e848c41e2c7709ca28ee636"
+    },
+    {
+     "feature": {
+      "id": "way/165358619",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943226,
+         60.123875
+        ],
+        [
+         19.943286,
+         60.123909
+        ],
+        [
+         19.943315,
+         60.123951
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "cf50d7c1864ecd3f3b6bdc4cdf0c2685d3558e14f10b64916466496523d5bbeb"
+    },
+    {
+     "feature": {
+      "id": "way/165358618",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943147,
+         60.123854
+        ],
+        [
+         19.943226,
+         60.123875
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "f9a1a38b2fea991020707be59e337884c3afc81b9b80b7832bcbfac36ae6a59d"
+    },
+    {
+     "feature": {
+      "id": "way/158304928",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943057,
+         60.123847
+        ],
+        [
+         19.943147,
+         60.123854
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "c62287e819284301fd70b4c5f7e4eae57de60d59703d7bc9cbd0d9cb717bb460"
+    },
+    {
+     "feature": {
+      "id": "way/165358626",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943059,
+         60.12375
+        ],
+        [
+         19.943089,
+         60.123795
+        ],
+        [
+         19.943117,
+         60.123825
+        ],
+        [
+         19.943147,
+         60.123854
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "7f6f75a62197f75349af8bb3544d206036f01e21e5d6ae73bce367d1c57ba043"
+    },
+    {
+     "feature": {
+      "id": "way/1298839909",
+      "kind": "road",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943013,
+         60.123496
+        ],
+        [
+         19.943059,
+         60.12375
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "1a41815c601717e11fe5e8dd93264840a1c923f9285332a511a018a07d918e32"
+    },
+    {
+     "feature": {
+      "id": "way/165358629",
+      "kind": "road",
+      "name": "Bolstavägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943955,
+         60.123925
+        ],
+        [
+         19.943833,
+         60.123937
+        ],
+        [
+         19.943492,
+         60.12397
+        ],
+        [
+         19.943403,
+         60.123984
+        ],
+        [
+         19.943307,
+         60.124023
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "87c90d60a62aa0eb709dcfc80c367284a328cb837cce832ee1b4ac3cb0ac0ecb"
+    },
+    {
+     "feature": {
+      "id": "way/165358630",
+      "kind": "road",
+      "name": "Bolstavägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943226,
+         60.123875
+        ],
+        [
+         19.943351,
+         60.12391
+        ],
+        [
+         19.943496,
+         60.123936
+        ],
+        [
+         19.943833,
+         60.123928
+        ],
+        [
+         19.943955,
+         60.123925
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "d0a3b9234580e342dfebb8deda8c34c77e4ccd216e967dfe6a9fe1ebe44229d5"
+    }
+   ],
+   "display": [
+    "way/165358622",
+    "way/158304927",
+    "way/165358620",
+    "way/34972009",
+    "way/165358625",
+    "way/165358624",
+    "way/165358621",
+    "way/1298839735",
+    "way/165358623",
+    "way/158304929",
+    "way/165358619",
+    "way/165358618",
+    "way/158304928",
+    "way/165358626",
+    "way/1298839909",
+    "way/165358629",
+    "way/165358630"
+   ],
+   "modernLinks": [
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1057",
+     "inputHash": "881cc1b88e26f5d01eb733d8e3820b1e04c2b037685c19fad4e3df72da971408",
+     "modernFeatureId": "way/165358622"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1066",
+     "inputHash": "44ee626f9347ab04087062f475218d4e53a61f3116a48122946e61bf7c445f0b",
+     "modernFeatureId": "way/165358622"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1075",
+     "inputHash": "cf961895327df1d3a7ee91b30b0b5025d9b9e1a8ad30b80bd78934d0b59142c7",
+     "modernFeatureId": "way/165358622"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1075",
+     "inputHash": "b592fe001bd737a125cfd0a9f7e7cc4dc3999be1e074e8408aeb573c7aebc88e",
+     "modernFeatureId": "way/165358622"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-801",
+     "inputHash": "a787ead9133af18bc8ce17c51cecfeebde1f42821f4874efa6afcf73fd40b4f0",
+     "modernFeatureId": "way/158304927"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-806",
+     "inputHash": "af76a40ad823b602c028bec1bc42f59f7d14919ae3266dcd4f38642095ee8119",
+     "modernFeatureId": "way/158304927"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-814",
+     "inputHash": "9559690e8599f98a505f81161b40dc8b0fff7ece553fb79f8c5cfd2a9b225169",
+     "modernFeatureId": "way/158304927"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-814",
+     "inputHash": "96388246ab447061e2ae9163042ab13a7c979c8d6e8d02d8b71933c8b35ff64f",
+     "modernFeatureId": "way/158304927"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1055",
+     "inputHash": "7d8f3521984fc76a287bad7f61a9e87a3bf288ae16d2d79c98f33000ceae6951",
+     "modernFeatureId": "way/165358620"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1064",
+     "inputHash": "a618df013d703534cc3a4251f1d2118bf593595396eda31dcc9c1c64e188f364",
+     "modernFeatureId": "way/165358620"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1073",
+     "inputHash": "edc583538037f5b75c1d942741176328b96d4b2ceea27dbbf3efd4765b81d757",
+     "modernFeatureId": "way/165358620"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1073",
+     "inputHash": "3991710bd536eb7d4ac07d6f853df2bfaa88522fe36c2f63765b0ffef010664a",
+     "modernFeatureId": "way/165358620"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-7",
+     "inputHash": "9db23aee3a304a523b6fe978c0323945700332c0e86c5b0f8dc0d0c47d086fc8",
+     "modernFeatureId": "way/34972009"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-7",
+     "inputHash": "c812246daa0ccf95b5da66812da0ddb390092eb140b3a27172f03f7fc9c71c44",
+     "modernFeatureId": "way/34972009"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-7",
+     "inputHash": "dbe21e066180e872f78509189bbd4eb3cb6c967e08c73fcc05693a2d3a4d19b4",
+     "modernFeatureId": "way/34972009"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-7",
+     "inputHash": "62a999e0cfdff756f8a3a36d867230f5ac45cb7a090deb7cfd02954694f968ee",
+     "modernFeatureId": "way/34972009"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1060",
+     "inputHash": "1c044de4c09704fd74b4edc8ba356a88e4f566d4962af95699b90296bf6fc31d",
+     "modernFeatureId": "way/165358625"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1069",
+     "inputHash": "bfa67ab55765c6c4c6bd9235da493c4f6c342264c88d081059b36470c0912613",
+     "modernFeatureId": "way/165358625"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1078",
+     "inputHash": "0221ceba77f091649716de7b5968658a3c7cb6145ddc8d11fffcd1a69e17587a",
+     "modernFeatureId": "way/165358625"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1078",
+     "inputHash": "3daa1bdd1001699ff7ceaf5f44856e3126eb791dc4479be384c4004cc9e79ecd",
+     "modernFeatureId": "way/165358625"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1059",
+     "inputHash": "93ab9f1c082af76c25a42d198cae5cd9c5696ddcf7573c1969bb3517736d3f61",
+     "modernFeatureId": "way/165358624"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1068",
+     "inputHash": "b889f0d8b14670daac490a5537776a05f7d06ecdf37f2439d107aabacf715826",
+     "modernFeatureId": "way/165358624"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1077",
+     "inputHash": "d914934a84c60817bdf2afb90857b5b801d522130ac070840283a6e3e487bab8",
+     "modernFeatureId": "way/165358624"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1077",
+     "inputHash": "403ffe28c587bf26ca91e18e5aa4b694f0d976550785a81fedac92b004374744",
+     "modernFeatureId": "way/165358624"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1056",
+     "inputHash": "61e9a3c0d78919d4c5868ca69f451ed232d5aa77bc81a37ddda8fb94f33575ae",
+     "modernFeatureId": "way/165358621"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1065",
+     "inputHash": "0ca88c0eee02a83ce1290df5253b6903f7d5c0f6e6fdda511a57ca76af40948c",
+     "modernFeatureId": "way/165358621"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1074",
+     "inputHash": "b9d63e7a27616edb5f15bb4e405e224c4d3480e8e5f89dfd50c568ca52bd7237",
+     "modernFeatureId": "way/165358621"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1074",
+     "inputHash": "e66abef4c9761c0c4c4566f1f2198bf32add36b97756916a09670f47ae284493",
+     "modernFeatureId": "way/165358621"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-3258",
+     "inputHash": "0bf9393235bac68d64878338fd7b52d2dbca2db76c9bc81188f571ecad5d73c2",
+     "modernFeatureId": "way/1298839735"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-3849",
+     "inputHash": "4e93b75eef9861c07121fe15c8a7bc01f9ea8e8c0cec241e59309dd708930758",
+     "modernFeatureId": "way/1298839735"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-4009",
+     "inputHash": "61ebe3ee2c9248724bc24361de72598973442ab048649e61f7fd1e82a25bd6e2",
+     "modernFeatureId": "way/1298839735"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-4019",
+     "inputHash": "f79d9fc2cf32ee4eb748e65cc09cd7394c5918484f15cbad113f8cbe5d303ce6",
+     "modernFeatureId": "way/1298839735"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1058",
+     "inputHash": "ea8c9cef7f0a08b15a43902bd2242d0d3a4f9951d0f83cacfcde22d934d8285a",
+     "modernFeatureId": "way/165358623"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1067",
+     "inputHash": "3166c07043dfd2b5f3ae70249162dc5579bcdc30b28c07fd90fc92d7489c6014",
+     "modernFeatureId": "way/165358623"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1076",
+     "inputHash": "927404e2dd3cca4b008817370b333c77d2cccc5d44c9d3e83c71b866df7ea10f",
+     "modernFeatureId": "way/165358623"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1076",
+     "inputHash": "7ee93bab251626c7eda6c8161313ba1bc5081ebd4ab2aae120397d2b0a20ed81",
+     "modernFeatureId": "way/165358623"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-803",
+     "inputHash": "264a35c4476e283d8eeb060e5f678f562d70a0f688d74178a1a0d895181de952",
+     "modernFeatureId": "way/158304929"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-808",
+     "inputHash": "9c0c3483936be5147edcb25d4c55f0269e12857b1f0f8e46c0030eef3ca9787f",
+     "modernFeatureId": "way/158304929"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-816",
+     "inputHash": "142e8714252c0d046be1e2051139fd5d0e029ad9005a4306bbd715e1c472f081",
+     "modernFeatureId": "way/158304929"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-816",
+     "inputHash": "d6cc2f69a958d64796381ef67068dbefb4fb99ab26be0ad7ba99cdaf113c4c71",
+     "modernFeatureId": "way/158304929"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1054",
+     "inputHash": "4517fec7c4db50036e08250812c07f1e6b3baa39be1bdfe638ebed96350457c0",
+     "modernFeatureId": "way/165358619"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1063",
+     "inputHash": "5924c7a8faeeaf3a105f405086ec931f3ba78f123b2eb05dcac3e7d37bb3fe82",
+     "modernFeatureId": "way/165358619"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1072",
+     "inputHash": "87934bb38325b446fc544a3c9ae5cd393df54355cd1afbffc9d90ac81642a152",
+     "modernFeatureId": "way/165358619"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1072",
+     "inputHash": "94e08406b60e89ba904b2a21b2a02dd344da3da0c2327cbee6a51355cf1cd686",
+     "modernFeatureId": "way/165358619"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1053",
+     "inputHash": "2c9daeb7c378a9d61783309896402b086b2fb7d7fc00d0eb217368db43fc36f0",
+     "modernFeatureId": "way/165358618"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1062",
+     "inputHash": "afcee6d8cc1c2132a61c68cde22c9441fd80cf5938cb4f63076b6235afb9ee6e",
+     "modernFeatureId": "way/165358618"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1071",
+     "inputHash": "5deeb58fcdad44d5662a023fa15b1c77a5f8be35bc2c068315c2f7ce0d92c571",
+     "modernFeatureId": "way/165358618"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1071",
+     "inputHash": "c9d1a1fa79cafd5908ac07375b19a44be265c6740b98d772d1351362e44dc6c9",
+     "modernFeatureId": "way/165358618"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-802",
+     "inputHash": "ffc42969b7b11bcd21da34e8ca0edc9e95d167e0b8f3b91304a49f87bd187f12",
+     "modernFeatureId": "way/158304928"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-807",
+     "inputHash": "a543d155e62255427a83fbc6b7b48005e3b3d2eea220652c99a30215c2592319",
+     "modernFeatureId": "way/158304928"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-815",
+     "inputHash": "6952a6282263b25000c931affc0cd9f54ecf855742166b803d499873fb861130",
+     "modernFeatureId": "way/158304928"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-815",
+     "inputHash": "193e952bbacdf3589431882019aa5ea7bfc26675bfce9ee05dfb28484c1418ee",
+     "modernFeatureId": "way/158304928"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1061",
+     "inputHash": "fe47851745b4f85f6cdca9ab349d2b526456b76fffe6512258da2bef389099bc",
+     "modernFeatureId": "way/165358626"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1070",
+     "inputHash": "57b56a4ec04d2874eacaf0a99636e247f8645415b294eeb4c69e9f4285e7b854",
+     "modernFeatureId": "way/165358626"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1079",
+     "inputHash": "c559e68100b5b5747846678924067d7b14480e8ed7a1481e7fb3ef9365d985c6",
+     "modernFeatureId": "way/165358626"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1079",
+     "inputHash": "a765c639ffe2c0dcf3f2fee165f87b9fb731a916e63e1648ca900d0fe9f404e9",
+     "modernFeatureId": "way/165358626"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-3259",
+     "inputHash": "94b22ff93301d75c32302e71e76814310876fa4524aea05b0ab9ecd2588342ee",
+     "modernFeatureId": "way/1298839909"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-3850",
+     "inputHash": "9b0e9c6c0c97afe2304861abd0b1c3a832dffd9d50a433adcc53da45ee691570",
+     "modernFeatureId": "way/1298839909"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-4010",
+     "inputHash": "6d16fd372ade392c249ccbe05e83c92efd8ab9bfd8a5bd7f0aa9ff6fd1b68455",
+     "modernFeatureId": "way/1298839909"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-4020",
+     "inputHash": "d917918a8e8ed853a790e4f161d3594e8a8dcb0277352e74b22277e7fd1a3397",
+     "modernFeatureId": "way/1298839909"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1064",
+     "inputHash": "2f707516df1554bd4cf6a42862e9afb57b2d5cf78377651a24fbb3e6feb02e24",
+     "modernFeatureId": "way/165358629"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1073",
+     "inputHash": "a93429f2beda7b60651749dbcc9385efa58a28bb53bb0405c70d98e7552b3a91",
+     "modernFeatureId": "way/165358629"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1082",
+     "inputHash": "0871dfe173135d66232f80ccee889a7198a337f3366a2ced9e7fff7a521e34af",
+     "modernFeatureId": "way/165358629"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1082",
+     "inputHash": "eee209058a7bd591db67ee9e924d15bec11454557339387cdf288c5ce07a3e5d",
+     "modernFeatureId": "way/165358629"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1065",
+     "inputHash": "820a449457536da2840d979b0a42559a952b802bb330f7a888497ff2e4c79f3e",
+     "modernFeatureId": "way/165358630"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1074",
+     "inputHash": "aafb15a497c05e8082a52a6de853d24eca7383f12b097d71d3e39c402bdce08d",
+     "modernFeatureId": "way/165358630"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1083",
+     "inputHash": "228fa8e6a99e3967493d6a630f35b142cef2b731621e534b52b7c755ab58d777",
+     "modernFeatureId": "way/165358630"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1083",
+     "inputHash": "7908eaef8acb9ea56a5f460c1a364ea4f164b89b0a3a6e10fdf16f17a6af727a",
+     "modernFeatureId": "way/165358630"
+    }
+   ],
+   "originals": [
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358622",
+      "osmId": "way/165358622",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943108,
+         60.124434
+        ],
+        [
+         19.943075,
+         60.124247
+        ],
+        [
+         19.94304,
+         60.12419
+        ],
+        [
+         19.942975,
+         60.124147
+        ]
+       ]
+      ]
+     },
+     "inputHash": "140bb2b7d480a3b7111a9cb074289a9f3b3b37a5bbc7fd11d23b22e8e8199da4"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358622",
+      "osmId": "way/165358622",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943108,
+         60.124429
+        ],
+        [
+         19.943096,
+         60.124364
+        ],
+        [
+         19.943064,
+         60.124203
+        ],
+        [
+         19.942983,
+         60.1241
+        ]
+       ]
+      ]
+     },
+     "inputHash": "e65d6897e128b50cbacdf51d6cab2cb5d699750d2963cf95250676267300f14a"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358622",
+      "osmId": "way/165358622",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943108,
+         60.124429
+        ],
+        [
+         19.943096,
+         60.124364
+        ],
+        [
+         19.943064,
+         60.124203
+        ],
+        [
+         19.942983,
+         60.1241
+        ]
+       ]
+      ]
+     },
+     "inputHash": "c87809dc4df767703b8d1e6a3b99f30cbcdc7d78781728c32957a9a08efb5ebd"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-158304927",
+      "osmId": "way/158304927",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.94315,
+         60.124145
+        ],
+        [
+         19.943049,
+         60.124154
+        ],
+        [
+         19.942975,
+         60.124147
+        ],
+        [
+         19.94296,
+         60.124145
+        ],
+        [
+         19.942881,
+         60.124122
+        ],
+        [
+         19.942824,
+         60.124086
+        ]
+       ]
+      ]
+     },
+     "inputHash": "270181b2e5296a7edec1b18ac550b647e3f7c88c02ae45d48373ec0e8de81899"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-158304927",
+      "osmId": "way/158304927",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943158,
+         60.124099
+        ],
+        [
+         19.943057,
+         60.124108
+        ],
+        [
+         19.942983,
+         60.1241
+        ],
+        [
+         19.942968,
+         60.124099
+        ],
+        [
+         19.942889,
+         60.124075
+        ],
+        [
+         19.942859,
+         60.124059
+        ]
+       ]
+      ]
+     },
+     "inputHash": "82efdc5043f7968cbc5df66d4873d9c050158afa1a2266a49e164ce008b2cfc9"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-158304927",
+      "osmId": "way/158304927",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943158,
+         60.124099
+        ],
+        [
+         19.943057,
+         60.124108
+        ],
+        [
+         19.942983,
+         60.1241
+        ],
+        [
+         19.942968,
+         60.124099
+        ],
+        [
+         19.942889,
+         60.124075
+        ],
+        [
+         19.942859,
+         60.124059
+        ]
+       ]
+      ]
+     },
+     "inputHash": "f8f0733e5e51d6e914fd07bd236d70d9d7b37838f9e2c6b4cb3fba2819513d43"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358620",
+      "osmId": "way/165358620",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.942824,
+         60.124086
+        ],
+        [
+         19.942796,
+         60.124043
+        ],
+        [
+         19.942794,
+         60.124012
+        ]
+       ]
+      ]
+     },
+     "inputHash": "d7bfe6fc43f67b98b590af9c49278b89c3eb49b2e6bd93597bb71f67b7a5f27c"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358620",
+      "osmId": "way/165358620",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942859,
+         60.124059
+        ],
+        [
+         19.942804,
+         60.123996
+        ],
+        [
+         19.942802,
+         60.123966
+        ]
+       ]
+      ]
+     },
+     "inputHash": "63962cdce40f507f3d9ba3b880c8af2f41047299676cfbcc4160b469b15b0b7c"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358620",
+      "osmId": "way/165358620",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942859,
+         60.124059
+        ],
+        [
+         19.942804,
+         60.123996
+        ],
+        [
+         19.942802,
+         60.123966
+        ]
+       ]
+      ]
+     },
+     "inputHash": "26f818bf56acc0747576bae6c2a1b38bf9506eb9c1ae1828534c115114afcf9d"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-34972009",
+      "osmId": "way/34972009",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.942794,
+         60.124012
+        ],
+        [
+         19.942818,
+         60.123969
+        ],
+        [
+         19.942828,
+         60.123962
+        ]
+       ]
+      ]
+     },
+     "inputHash": "40e20cbfee05c043493e4a8c1932da1b61f10e94efc20048ddfc1728841fed6d"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-34972009",
+      "osmId": "way/34972009",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942802,
+         60.123966
+        ],
+        [
+         19.942826,
+         60.123922
+        ],
+        [
+         19.942836,
+         60.123915
+        ]
+       ]
+      ]
+     },
+     "inputHash": "69a7e738f1f7c5417345e0f5cc832c6ed4e0a76b9317cb0672396524473d5785"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-34972009",
+      "osmId": "way/34972009",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942802,
+         60.123966
+        ],
+        [
+         19.942826,
+         60.123922
+        ],
+        [
+         19.942836,
+         60.123915
+        ]
+       ]
+      ]
+     },
+     "inputHash": "2aaea0060148c51b40a01da10da5cd68a0f286c7ace0cd244da742e1167f8ecd"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358625",
+      "osmId": "way/165358625",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.942828,
+         60.123962
+        ],
+        [
+         19.942873,
+         60.12393
+        ],
+        [
+         19.942949,
+         60.123905
+        ],
+        [
+         19.943049,
+         60.123894
+        ]
+       ]
+      ]
+     },
+     "inputHash": "3aec042b32ea943cb034a226424aa5e42fc18380949d3d5795b5ba954af19ec4"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358625",
+      "osmId": "way/165358625",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942836,
+         60.123915
+        ],
+        [
+         19.942881,
+         60.123883
+        ],
+        [
+         19.942957,
+         60.123858
+        ],
+        [
+         19.943057,
+         60.123847
+        ]
+       ]
+      ]
+     },
+     "inputHash": "906876f71799020c139e80c06d7ae9bfb436048fa31254668856c633bb103310"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358625",
+      "osmId": "way/165358625",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942836,
+         60.123915
+        ],
+        [
+         19.942881,
+         60.123883
+        ],
+        [
+         19.942957,
+         60.123858
+        ],
+        [
+         19.943057,
+         60.123847
+        ]
+       ]
+      ]
+     },
+     "inputHash": "a95690681994e480e03007ea81ce1aa553b4a98de1cef2d1f5ba628d166ec9ea"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358624",
+      "osmId": "way/165358624",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.942873,
+         60.12393
+        ],
+        [
+         19.942907,
+         60.123887
+        ],
+        [
+         19.942937,
+         60.123799
+        ],
+        [
+         19.943001,
+         60.123494
+        ]
+       ]
+      ]
+     },
+     "inputHash": "25040b8d372e98ac4fb4309020d2a69abf5f3c0eb93a12a55d18ce8080b8ec0c"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358624",
+      "osmId": "way/165358624",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942881,
+         60.123883
+        ],
+        [
+         19.942907,
+         60.123831
+        ],
+        [
+         19.942938,
+         60.123754
+        ],
+        [
+         19.943013,
+         60.123496
+        ]
+       ]
+      ]
+     },
+     "inputHash": "61a14026baf479dfeac11ab8c25b5a7eb1eb2cda5221d3fe869736ecc897a5bb"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358624",
+      "osmId": "way/165358624",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942881,
+         60.123883
+        ],
+        [
+         19.942907,
+         60.123831
+        ],
+        [
+         19.942938,
+         60.123754
+        ],
+        [
+         19.943013,
+         60.123496
+        ]
+       ]
+      ]
+     },
+     "inputHash": "0c832bff60ac36874e07f51631effed3799d9daea996e5f075eeb15df49a94d9"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358621",
+      "osmId": "way/165358621",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943227,
+         60.124122
+        ],
+        [
+         19.943206,
+         60.124226
+        ],
+        [
+         19.943108,
+         60.124434
+        ]
+       ]
+      ]
+     },
+     "inputHash": "259ae0f6c102751cd19c164af2d142caab950f5d660bde0dd0d354459bc9f13e"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358621",
+      "osmId": "way/165358621",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943235,
+         60.124075
+        ],
+        [
+         19.943192,
+         60.124183
+        ],
+        [
+         19.94313,
+         60.124364
+        ],
+        [
+         19.943108,
+         60.124429
+        ]
+       ]
+      ]
+     },
+     "inputHash": "aeff3453195f1213bcc742e468c09adf5763bd7fc01b2a8082e5f2f23146b780"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358621",
+      "osmId": "way/165358621",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943192,
+         60.124183
+        ],
+        [
+         19.94313,
+         60.124364
+        ],
+        [
+         19.943108,
+         60.124429
+        ]
+       ]
+      ]
+     },
+     "inputHash": "eadc1b2fa5984efebb6074592e8be2fcffc4112324e72a7121758e232bace68a"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-1298839735",
+      "osmId": "way/1298839735",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943235,
+         60.124075
+        ],
+        [
+         19.943192,
+         60.124183
+        ]
+       ]
+      ]
+     },
+     "inputHash": "fd9b5609bd2ce21328f5f2863a0f49e0bd6c026f8bcc7bb689b37b3ebc90e6fa"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358623",
+      "osmId": "way/165358623",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943299,
+         60.12407
+        ],
+        [
+         19.943284,
+         60.124088
+        ],
+        [
+         19.943227,
+         60.124122
+        ],
+        [
+         19.94315,
+         60.124145
+        ]
+       ]
+      ]
+     },
+     "inputHash": "7a708fcf0fa38d8e598091bc5c68b744caff552a7b39155bc3b72834cca48844"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358623",
+      "osmId": "way/165358623",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943307,
+         60.124023
+        ],
+        [
+         19.943292,
+         60.124041
+        ],
+        [
+         19.943235,
+         60.124075
+        ],
+        [
+         19.943158,
+         60.124099
+        ]
+       ]
+      ]
+     },
+     "inputHash": "e360056c7af18a5d38ebf781864fa6bfeb2c0999a055e6b205dec5ed6a581440"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358623",
+      "osmId": "way/165358623",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943307,
+         60.124023
+        ],
+        [
+         19.943292,
+         60.124041
+        ],
+        [
+         19.943235,
+         60.124075
+        ],
+        [
+         19.943158,
+         60.124099
+        ]
+       ]
+      ]
+     },
+     "inputHash": "a0608af46a81fb0eb56c04e5adbe9f7ec61be16e5cdb527cfe0d7c3f47173a23"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-158304929",
+      "osmId": "way/158304929",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943307,
+         60.123998
+        ],
+        [
+         19.943299,
+         60.12407
+        ]
+       ]
+      ]
+     },
+     "inputHash": "510ef370e79639c8241d1ed535cd6f430d5410fff572ba66f9217bfbe538bad1"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-158304929",
+      "osmId": "way/158304929",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943315,
+         60.123951
+        ],
+        [
+         19.943307,
+         60.124023
+        ]
+       ]
+      ]
+     },
+     "inputHash": "1059f44649507cdde7be382b52ac5fbe8ec463f68d290a64ed6ac85ff1b9cc29"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-158304929",
+      "osmId": "way/158304929",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943315,
+         60.123951
+        ],
+        [
+         19.943307,
+         60.124023
+        ]
+       ]
+      ]
+     },
+     "inputHash": "0f579a3c706bd1b66d86fa06b58788e9b3e78fab9b578b9a3f890d58d2969dcd"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358619",
+      "osmId": "way/165358619",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943218,
+         60.123922
+        ],
+        [
+         19.943278,
+         60.123955
+        ],
+        [
+         19.943307,
+         60.123998
+        ]
+       ]
+      ]
+     },
+     "inputHash": "1f6e08b35bf84ffd477b34f807c4fa3ca3b4218cf89706394f77650dda4bef52"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358619",
+      "osmId": "way/165358619",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943226,
+         60.123875
+        ],
+        [
+         19.943286,
+         60.123909
+        ],
+        [
+         19.943315,
+         60.123951
+        ]
+       ]
+      ]
+     },
+     "inputHash": "74ff8d9faea9954cd23a5857455858b3922ce7c0d259228fe4664719b9c32963"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358619",
+      "osmId": "way/165358619",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943226,
+         60.123875
+        ],
+        [
+         19.943286,
+         60.123909
+        ],
+        [
+         19.943315,
+         60.123951
+        ]
+       ]
+      ]
+     },
+     "inputHash": "294fbef6bcfd6cc44b86850b794494e846f72293c2ff80f43215e798192a7781"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358618",
+      "osmId": "way/165358618",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943139,
+         60.1239
+        ],
+        [
+         19.943218,
+         60.123922
+        ]
+       ]
+      ]
+     },
+     "inputHash": "b233720373fd22e1d9990d73a275ce578cec3d35277e2e209b3b9cef99e5ed68"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358618",
+      "osmId": "way/165358618",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943147,
+         60.123854
+        ],
+        [
+         19.943226,
+         60.123875
+        ]
+       ]
+      ]
+     },
+     "inputHash": "55c32a61e5bbca4471fba78d3ddf242e009fbe80e54df0bdced253e494851979"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358618",
+      "osmId": "way/165358618",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943147,
+         60.123854
+        ],
+        [
+         19.943226,
+         60.123875
+        ]
+       ]
+      ]
+     },
+     "inputHash": "992dfb5ad4a3a8d9e72cc80e6a68789e67ed69eefeb3a96079ad04dafe71c6c5"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-158304928",
+      "osmId": "way/158304928",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943049,
+         60.123894
+        ],
+        [
+         19.943139,
+         60.1239
+        ]
+       ]
+      ]
+     },
+     "inputHash": "6cd87e537a07c652c8f33c5aa67ce2f21a54a8f240571ee5d24d455785ee0885"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-158304928",
+      "osmId": "way/158304928",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943057,
+         60.123847
+        ],
+        [
+         19.943147,
+         60.123854
+        ]
+       ]
+      ]
+     },
+     "inputHash": "9e2c62782c6a44e9a87916b2b2cb06e10c98bf01f7f0ee4a76a549140aeadc61"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-158304928",
+      "osmId": "way/158304928",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943057,
+         60.123847
+        ],
+        [
+         19.943147,
+         60.123854
+        ]
+       ]
+      ]
+     },
+     "inputHash": "e40dce712cfae33fed91f53fbde497f4198430577fb1d611e792a6fc80ebffb0"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358626",
+      "osmId": "way/165358626",
+      "name": "Godbyvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943001,
+         60.123494
+        ],
+        [
+         19.943047,
+         60.123795
+        ],
+        [
+         19.943062,
+         60.123829
+        ],
+        [
+         19.943093,
+         60.123866
+        ],
+        [
+         19.943139,
+         60.1239
+        ]
+       ]
+      ]
+     },
+     "inputHash": "d3cf3f656954093bdff6ca96b098518ae31deca5712a3a32b5349bb6010184a3"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358626",
+      "osmId": "way/165358626",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943013,
+         60.123496
+        ],
+        [
+         19.943059,
+         60.12375
+        ],
+        [
+         19.943089,
+         60.123795
+        ],
+        [
+         19.943117,
+         60.123825
+        ],
+        [
+         19.943147,
+         60.123854
+        ]
+       ]
+      ]
+     },
+     "inputHash": "8f7888cb60b7b204c045bae7b38dd4e200dd1f33c29010e78746c5cd4963203c"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358626",
+      "osmId": "way/165358626",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943059,
+         60.12375
+        ],
+        [
+         19.943089,
+         60.123795
+        ],
+        [
+         19.943117,
+         60.123825
+        ],
+        [
+         19.943147,
+         60.123854
+        ]
+       ]
+      ]
+     },
+     "inputHash": "d715bce5cd4299b3264b23ef3312821c8b563d32ce58a61451eb560ad29160f7"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-1298839909",
+      "osmId": "way/1298839909",
+      "name": "Godbyvägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.943013,
+         60.123496
+        ],
+        [
+         19.943059,
+         60.12375
+        ]
+       ]
+      ]
+     },
+     "inputHash": "f24ac3fa7a3dba9618f61aa4c59f28bc14bb81c2edf88cac86f8795505bedaa9"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358629",
+      "osmId": "way/165358629",
+      "name": "Väg eller stig",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943931,
+         60.123968
+        ],
+        [
+         19.943498,
+         60.124005
+        ],
+        [
+         19.94338,
+         60.12403
+        ],
+        [
+         19.943299,
+         60.12407
+        ]
+       ]
+      ]
+     },
+     "inputHash": "36f178fb31412dfd9036b87d1d52dcec2539ecc0b3e1e5c6f787a31108024404"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358629",
+      "osmId": "way/165358629",
+      "name": "Bolstavägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943955,
+         60.123925
+        ],
+        [
+         19.943833,
+         60.123937
+        ],
+        [
+         19.943492,
+         60.12397
+        ],
+        [
+         19.943403,
+         60.123984
+        ],
+        [
+         19.943307,
+         60.124023
+        ]
+       ]
+      ]
+     },
+     "inputHash": "cdb4f421f1cb6a75d8e183bce245f6352aa4aff35a4ae893135165fc16a4af4a"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358629",
+      "osmId": "way/165358629",
+      "name": "Bolstavägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943955,
+         60.123925
+        ],
+        [
+         19.943833,
+         60.123937
+        ],
+        [
+         19.943492,
+         60.12397
+        ],
+        [
+         19.943403,
+         60.123984
+        ],
+        [
+         19.943307,
+         60.124023
+        ]
+       ]
+      ]
+     },
+     "inputHash": "c939ae92ed5f5791975ce7a91eee6086b717376073c49c6e0c50d888e70461a1"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358630",
+      "osmId": "way/165358630",
+      "name": "Väg eller stig",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943218,
+         60.123922
+        ],
+        [
+         19.943332,
+         60.123943
+        ],
+        [
+         19.943484,
+         60.123959
+        ],
+        [
+         19.943931,
+         60.123968
+        ]
+       ]
+      ]
+     },
+     "inputHash": "a9707e82f972dc6de1bcb578dc323993b9e472d1770aa2ba14243f3701305d74"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358630",
+      "osmId": "way/165358630",
+      "name": "Bolstavägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943226,
+         60.123875
+        ],
+        [
+         19.943351,
+         60.12391
+        ],
+        [
+         19.943496,
+         60.123936
+        ],
+        [
+         19.943833,
+         60.123928
+        ],
+        [
+         19.943955,
+         60.123925
+        ]
+       ]
+      ]
+     },
+     "inputHash": "47ba8a6c4f3de54a39512fd239a4736595cf02cb0570d12f1f3493d85d65b81f"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358630",
+      "osmId": "way/165358630",
+      "name": "Bolstavägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.943226,
+         60.123875
+        ],
+        [
+         19.943351,
+         60.12391
+        ],
+        [
+         19.943496,
+         60.123936
+        ],
+        [
+         19.943833,
+         60.123928
+        ],
+        [
+         19.943955,
+         60.123925
+        ]
+       ]
+      ]
+     },
+     "inputHash": "df48b9590fb1da8b190e59ee47dd4028c39d396bfff2551fb95c4515adb3a830"
+    }
+   ],
+   "unobservedOriginals": [
+    {
+     "modernFeatureId": "way/1298839735",
+     "years": [
+      2014,
+      2021
+     ]
+    },
+    {
+     "modernFeatureId": "way/1298839909",
+     "years": [
+      2014,
+      2021
+     ]
+    }
+   ],
+   "firstYear": 1968,
+   "states": [
+    {
+     "state": "open",
+     "from": 1968,
+     "to": null
+    }
+   ],
+   "phases": [
+    {
+     "from": 1968,
+     "to": null,
+     "geometry": "modern",
+     "basis": "Körbanor och svängfält där Godbyvägen korsar Bolstavägen, mellan Godbyvägens redan daterade delar norr och söder om korsningen (1968) och Bolstavägens daterade östra del (1968). Kartorna visar korsningen med en enda vägsignatur från 1968; de moderna delarna ligger inom den. Korsningsdelarna räknas inte som ny väglängd. Kartåret är första granskade belägg, inte byggår."
+    }
+   ],
+   "observations": [
+    {
+     "year": 1968,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Godbyvägen ritad som röd väg genom korsningen; Bolstavägens östra gren ansluter som dubbellinjerad gata."
+    },
+    {
+     "year": 1978,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Som 1968."
+    },
+    {
+     "year": 1985,
+     "outcome": "present",
+     "coverage": "full",
+     "note": ""
+    },
+    {
+     "year": 1995,
+     "outcome": "present",
+     "coverage": "full",
+     "note": ""
+    }
+   ],
+   "countRule": "parallel",
+   "basis": "Körbanor och svängfält där Godbyvägen korsar Bolstavägen, mellan Godbyvägens redan daterade delar norr och söder om korsningen (1968) och Bolstavägens daterade östra del (1968). Kartorna visar korsningen med en enda vägsignatur från 1968; de moderna delarna ligger inom den. Korsningsdelarna räknas inte som ny väglängd. Kartåret är första granskade belägg, inte byggår.",
+   "lengthMeters": 0
+  },
+  {
+   "id": "road:mariehamn:junction-review:bolstavagen-west-approach",
+   "name": "Bolstavägen",
+   "routeId": "road:Bolstavägen",
+   "group": "godbyvagen-bolstavagen",
+   "kind": "approach",
+   "members": [
+    {
+     "feature": {
+      "id": "way/165358617",
+      "kind": "road",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942859,
+         60.124059
+        ],
+        [
+         19.942751,
+         60.124012
+        ],
+        [
+         19.942617,
+         60.12398
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "d3616e54625792a2f87001b5bea619b22fbe486a8dc7ac4d76bda5b931958493"
+    },
+    {
+     "feature": {
+      "id": "way/1298822075",
+      "kind": "road",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942617,
+         60.12398
+        ],
+        [
+         19.942481,
+         60.123955
+        ],
+        [
+         19.942097,
+         60.123879
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "f606d4cf1a2af7b54f71b3c07208046a8fc37de26b8e59a2ad21bef5c889cdca"
+    },
+    {
+     "feature": {
+      "id": "way/165358616",
+      "kind": "road",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942097,
+         60.123879
+        ],
+        [
+         19.942489,
+         60.123914
+        ],
+        [
+         19.942629,
+         60.123922
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "7bcb90114320f699fdea5d88091cfe9ef556417a21f795c66ae5e85d5f9ab174"
+    },
+    {
+     "feature": {
+      "id": "way/244377191",
+      "kind": "road",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942629,
+         60.123922
+        ],
+        [
+         19.942836,
+         60.123915
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "854f60c03f9095d22cb64b99b907e3dee84a28a3ce453a7c171cf2d5959e8fe3"
+    }
+   ],
+   "display": [
+    "way/165358617",
+    "way/1298822075",
+    "way/165358616",
+    "way/244377191"
+   ],
+   "modernLinks": [
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1052",
+     "inputHash": "6d9465d72434cb5f828c18738d5783f0da644b7ee458386018a1d8845afedd28",
+     "modernFeatureId": "way/165358617"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1061",
+     "inputHash": "6008e0a2dd7161935b810e602cf8d84de08267a52236653b59afa2763abdd1ae",
+     "modernFeatureId": "way/165358617"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1070",
+     "inputHash": "789546c4401de40ac73eb96e675b80afe9d38833abeeeb053a60cd1c9e1c996a",
+     "modernFeatureId": "way/165358617"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1070",
+     "inputHash": "e2eb1a30737e310b6b017b627194255a1927c702cc0832c7e408dc61067b2388",
+     "modernFeatureId": "way/165358617"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-3255",
+     "inputHash": "e9b442f28e6d190ac74efbef2b08f549ca1f5f99f4fbbf751fe7af18a70faf44",
+     "modernFeatureId": "way/1298822075"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-3846",
+     "inputHash": "80ebc234c7eaa209d7ff266bc5b40c7bc2ce3186856375acf5d10fb2865f75f2",
+     "modernFeatureId": "way/1298822075"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-4006",
+     "inputHash": "e9cb2240724d044493acde8cb7347e6d3d2257a3e1e1bb3123707a63b299d48d",
+     "modernFeatureId": "way/1298822075"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-4016",
+     "inputHash": "43f1a25a6f710f18e5dd9eb3d8113ce5a6287c7c183ab02f341cbd876c08087c",
+     "modernFeatureId": "way/1298822075"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1051",
+     "inputHash": "c3a0f6f0c23bbb572963dc6d493283bd63bc14f9bdc4e9cd3f69dbced3e07618",
+     "modernFeatureId": "way/165358616"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1060",
+     "inputHash": "138f8026ae12407b9d712525458034aab7d3f5e46314fc5a8cd59e7540bcefb3",
+     "modernFeatureId": "way/165358616"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1069",
+     "inputHash": "d1e2738c540d63dce671dd88200fd73b7c867a168e2b057b683c22d2c8d52a6c",
+     "modernFeatureId": "way/165358616"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1069",
+     "inputHash": "a6a300a119ce53d05fbae78b19da7fa783216f9d5694aa7e5dfbfeffaecf506a",
+     "modernFeatureId": "way/165358616"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1615",
+     "inputHash": "7e8f5c048cd5d4932c98951465073336757524145b14f9ced2cd510d5eb7d15d",
+     "modernFeatureId": "way/244377191"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1645",
+     "inputHash": "fdab761b63a1e977e78d7e9cecda497af18b42720e26f1a0523520aab7c25b72",
+     "modernFeatureId": "way/244377191"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1656",
+     "inputHash": "8b7ae7587e782332d1f4c757036b946e02282598d7246ca7d8f569f69c424439",
+     "modernFeatureId": "way/244377191"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1660",
+     "inputHash": "be75d62e21f93a04b585d47b320c0e80005b28f45ec6f1d6d6e469f0f177a4b2",
+     "modernFeatureId": "way/244377191"
+    }
+   ],
+   "originals": [
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358617",
+      "osmId": "way/165358617",
+      "name": "Bolstvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.942824,
+         60.124086
+        ],
+        [
+         19.94271,
+         60.124054
+        ],
+        [
+         19.942617,
+         60.123992
+        ],
+        [
+         19.942508,
+         60.124013
+        ],
+        [
+         19.942078,
+         60.123938
+        ]
+       ]
+      ]
+     },
+     "inputHash": "76bf1d629e741572716e1735e10ebaf47597cd9556b70b93a7d475193a9ea447"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358617",
+      "osmId": "way/165358617",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942859,
+         60.124059
+        ],
+        [
+         19.942751,
+         60.124012
+        ],
+        [
+         19.942617,
+         60.12398
+        ],
+        [
+         19.942481,
+         60.123955
+        ],
+        [
+         19.942097,
+         60.123879
+        ]
+       ]
+      ]
+     },
+     "inputHash": "dfe4d74c5fd20a3ab3156296fe38fd2b2ca8b496d77a37ad1bdf0ea660172aaa"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358617",
+      "osmId": "way/165358617",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942859,
+         60.124059
+        ],
+        [
+         19.942751,
+         60.124012
+        ],
+        [
+         19.942617,
+         60.12398
+        ]
+       ]
+      ]
+     },
+     "inputHash": "cc018bb1f3719e6e00f3c024e2d0a6f095b860c3b3ae2728b37caa72fcfc4959"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-1298822075",
+      "osmId": "way/1298822075",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942617,
+         60.12398
+        ],
+        [
+         19.942481,
+         60.123955
+        ],
+        [
+         19.942097,
+         60.123879
+        ]
+       ]
+      ]
+     },
+     "inputHash": "3b06be4422f6d5d74183f85dc88726823d7df558126af0b4d8928ddff94f7661"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-165358616",
+      "osmId": "way/165358616",
+      "name": "Bolstvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.942078,
+         60.123938
+        ],
+        [
+         19.942506,
+         60.123968
+        ],
+        [
+         19.942623,
+         60.123927
+        ]
+       ]
+      ]
+     },
+     "inputHash": "c06fccdb88e98ca69d5adb2a263eaceb884633c5afd3238092ef557974f12e56"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-165358616",
+      "osmId": "way/165358616",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942097,
+         60.123879
+        ],
+        [
+         19.942489,
+         60.123914
+        ],
+        [
+         19.942629,
+         60.123922
+        ]
+       ]
+      ]
+     },
+     "inputHash": "a694278652809f017298b510a83467a27df26cc1df05932cd7b31a31c4b4a610"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-165358616",
+      "osmId": "way/165358616",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942097,
+         60.123879
+        ],
+        [
+         19.942489,
+         60.123914
+        ],
+        [
+         19.942629,
+         60.123922
+        ]
+       ]
+      ]
+     },
+     "inputHash": "d4f4bb4e23c7d9cf30e3a276198c0c930217e172d7cbdf26589d7534374cf954"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-244377191",
+      "osmId": "way/244377191",
+      "name": "Bolstvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.942623,
+         60.123927
+        ],
+        [
+         19.942828,
+         60.123962
+        ]
+       ]
+      ]
+     },
+     "inputHash": "3b4ab13adcbd1dda699c93732fef67f4ecf4c6bd749737acfe3ea33373fa2614"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-244377191",
+      "osmId": "way/244377191",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942629,
+         60.123922
+        ],
+        [
+         19.942836,
+         60.123915
+        ]
+       ]
+      ]
+     },
+     "inputHash": "8d1f5ec1a2094e98e29cbcec72d1f0cba548fe9311a1f00a5ed31f202c026f2f"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-244377191",
+      "osmId": "way/244377191",
+      "name": "Bolstavägen",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.942629,
+         60.123922
+        ],
+        [
+         19.942836,
+         60.123915
+        ]
+       ]
+      ]
+     },
+     "inputHash": "26372ab2ca7f584df241e00f21fbd29a53a50d92802f54a16bc0467b0415b83a"
+    }
+   ],
+   "unobservedOriginals": [
+    {
+     "modernFeatureId": "way/1298822075",
+     "years": [
+      2014,
+      2021
+     ]
+    }
+   ],
+   "firstYear": 1978,
+   "states": [
+    {
+     "state": "open",
+     "from": 1978,
+     "to": null
+    }
+   ],
+   "phases": [
+    {
+     "from": 1978,
+     "to": null,
+     "geometry": "modern",
+     "basis": "Bolstavägens två körfält mellan den redan daterade västra delen (1978) och Godbyvägen. Saknas 1968; rödtryckt 1978 och kvar 1985 och 1995. Räknas inte som ny väglängd. Kartåret är första granskade belägg, inte byggår."
+    }
+   ],
+   "observations": [
+    {
+     "year": 1968,
+     "outcome": "absent",
+     "coverage": "unknown",
+     "note": "Ingen väg västerut från korsningen."
+    },
+    {
+     "year": 1978,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Tjock rödtryckt väg västerut i kompletteringen 1978."
+    },
+    {
+     "year": 1985,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Röd väg."
+    },
+    {
+     "year": 1995,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Röd gata i samma läge som i dag."
+    }
+   ],
+   "countRule": "parallel",
+   "basis": "Bolstavägens två körfält mellan den redan daterade västra delen (1978) och Godbyvägen. Saknas 1968; rödtryckt 1978 och kvar 1985 och 1995. Räknas inte som ny väglängd. Kartåret är första granskade belägg, inte byggår.",
+   "lengthMeters": 0
+  },
+  {
+   "id": "road:mariehamn:junction-review:alandsplan-ring",
+   "name": "Ålandsplan",
+   "routeId": "road:Ålandsplan",
+   "group": "alandsplan",
+   "kind": "roundabout",
+   "members": [
+    {
+     "feature": {
+      "id": "way/35137575",
+      "kind": "road",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937021,
+         60.104803
+        ],
+        [
+         19.936956,
+         60.10479
+        ],
+        [
+         19.936923,
+         60.104778
+        ],
+        [
+         19.936892,
+         60.104763
+        ],
+        [
+         19.93686,
+         60.104742
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "1210755ee7e8a3cf30cbcefab0f83c82d59911be171be552d6c4ce12ece54ca7"
+    },
+    {
+     "feature": {
+      "id": "way/346799406",
+      "kind": "road",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937363,
+         60.104667
+        ],
+        [
+         19.937356,
+         60.104703
+        ],
+        [
+         19.937335,
+         60.104734
+        ],
+        [
+         19.9373,
+         60.10476
+        ],
+        [
+         19.937261,
+         60.104779
+        ],
+        [
+         19.93725,
+         60.104783
+        ],
+        [
+         19.937191,
+         60.1048
+        ],
+        [
+         19.937152,
+         60.104806
+        ],
+        [
+         19.937119,
+         60.104808
+        ],
+        [
+         19.937088,
+         60.104808
+        ],
+        [
+         19.937021,
+         60.104803
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "8154bc1cb8f2329a83d3685170408e2162f42ba080538fcd019da719d950c42a"
+    },
+    {
+     "feature": {
+      "id": "way/347944803",
+      "kind": "road",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.93686,
+         60.104742
+        ],
+        [
+         19.936852,
+         60.104733
+        ],
+        [
+         19.936831,
+         60.104703
+        ],
+        [
+         19.936825,
+         60.104673
+        ],
+        [
+         19.93683,
+         60.104647
+        ],
+        [
+         19.936844,
+         60.104621
+        ],
+        [
+         19.936868,
+         60.104599
+        ],
+        [
+         19.936877,
+         60.104593
+        ],
+        [
+         19.936896,
+         60.10458
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "22a2c24f9db32be1df8489350167c5909ded47e25b2a5627fbe15c7be4d88eb0"
+    },
+    {
+     "feature": {
+      "id": "way/347944802",
+      "kind": "road",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.936896,
+         60.10458
+        ],
+        [
+         19.93695,
+         60.10456
+        ],
+        [
+         19.937017,
+         60.104545
+        ],
+        [
+         19.937098,
+         60.104539
+        ],
+        [
+         19.937171,
+         60.104543
+        ],
+        [
+         19.937213,
+         60.104552
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "e1d533b91808aed59622f39c604af9968c8e1eaeabb79731f4bd1adc99709890"
+    },
+    {
+     "feature": {
+      "id": "way/612335560",
+      "kind": "road",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937308,
+         60.104591
+        ],
+        [
+         19.937324,
+         60.104602
+        ],
+        [
+         19.937336,
+         60.104615
+        ],
+        [
+         19.93735,
+         60.104632
+        ],
+        [
+         19.937359,
+         60.104648
+        ],
+        [
+         19.937363,
+         60.104667
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "6fa841cfabf3fca02b5700b9a45b699079d7f482050bb0f84c6e31e8f13be63f"
+    },
+    {
+     "feature": {
+      "id": "way/612335561",
+      "kind": "road",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937213,
+         60.104552
+        ],
+        [
+         19.937308,
+         60.104591
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "aff37e4164171e6047280b563580d2b1e9917075b24753f41feb77271f12cbb6"
+    }
+   ],
+   "display": [
+    "way/35137575",
+    "way/346799406",
+    "way/347944803",
+    "way/347944802",
+    "way/612335560",
+    "way/612335561"
+   ],
+   "modernLinks": [
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-51",
+     "inputHash": "45f7667f0b5fa8b405547ba217c51784060c5e4354c16e72590eda79ed898249",
+     "modernFeatureId": "way/35137575"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-51",
+     "inputHash": "0af8c0d3fd07564ddf0f43ea7ccb0347d9de31c707afae076e07d4fcb0bc0cf6",
+     "modernFeatureId": "way/35137575"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-51",
+     "inputHash": "ad20e65131829dd13bbe15c0651d3eba7adcb67cbb0d5073867868b2b711e2ee",
+     "modernFeatureId": "way/35137575"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-51",
+     "inputHash": "b302e7a01a96b1c42acfe931034b1dc98b65116b211bfaf282acdee4fa69d902",
+     "modernFeatureId": "way/35137575"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1713",
+     "inputHash": "5ceb49501a5fd3c513b99a201b16a26da3d7ad36cc0139864bf899381128081e",
+     "modernFeatureId": "way/346799406"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1783",
+     "inputHash": "0382fe97b7636d53386f5ed419eb4b8061e9e621132f93dfa049f0ccc008d25d",
+     "modernFeatureId": "way/346799406"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1794",
+     "inputHash": "a4e5b511d058c58a87238aab555e2986308620b97dd2630181ccf5aba0ec9a46",
+     "modernFeatureId": "way/346799406"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1798",
+     "inputHash": "0aa5754543d00cff09c1f9ba4b45b6ff3c4a166381e4ad1aa3a2044726ea00ed",
+     "modernFeatureId": "way/346799406"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1732",
+     "inputHash": "aa449fc790b4eed69dd8b97af79d90777019a1571b0ad08d30b205f539e1477d",
+     "modernFeatureId": "way/347944803"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1817",
+     "inputHash": "882c8f22df65453c4c9eb7d558b085fe92ce8ad7d30c0c990c5c6f15bbf3c062",
+     "modernFeatureId": "way/347944803"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1828",
+     "inputHash": "89fd3bcec4435414739687b14d946c05a7e3f0dfc1f31a947a8a6d333db6fe09",
+     "modernFeatureId": "way/347944803"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1832",
+     "inputHash": "4db28701f9e8919b166ece5dfe46aabfeb86d87a4704f228e7941cf651c0604f",
+     "modernFeatureId": "way/347944803"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-1731",
+     "inputHash": "4597b2264af4972b98fdb0cce52841ba2aa407e0ce3a1b070adefda9d379e981",
+     "modernFeatureId": "way/347944802"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-1816",
+     "inputHash": "3b70c2e93ebfc3f0d9d8d84d78b3365029be69f49365b6c174495b9da506069c",
+     "modernFeatureId": "way/347944802"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-1827",
+     "inputHash": "e1b39436637c8ccb70c147628e8b88f9551de5ce6a7b19945c669e8407d3674c",
+     "modernFeatureId": "way/347944802"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-1831",
+     "inputHash": "7daec2c89ebe36cf1f2846aef74178cffac09140cefa11f884ad05af01ec7ab9",
+     "modernFeatureId": "way/347944802"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-2188",
+     "inputHash": "f896fcf93c9e23237815a4c015a73a0bb272f439a60084b47494a6199b7aa1e8",
+     "modernFeatureId": "way/612335560"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-2613",
+     "inputHash": "ba55f86d30005b1d35f986d6746a86cf6c375558c84f7c1da01fd0d5704e332e",
+     "modernFeatureId": "way/612335560"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-2628",
+     "inputHash": "cd8120c1e16ef726df91183393d655f0d78dd14d4e3980b0281df84b306ce0f2",
+     "modernFeatureId": "way/612335560"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-2636",
+     "inputHash": "4f3e3e8faba4e9779858632c776b9cd713ddcf9bce59486a59b7513c31ba1f62",
+     "modernFeatureId": "way/612335560"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-2189",
+     "inputHash": "8cc871d8672019602f6a379a68b3305fa8ae1ae44b1b3789ffd07ca6fe233c7e",
+     "modernFeatureId": "way/612335561"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-2614",
+     "inputHash": "24f50531375c354c7722f72fa07aed9b854eccc5e7d4a36619e8defb32a8da25",
+     "modernFeatureId": "way/612335561"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-2629",
+     "inputHash": "b96b2239f606a70a4e02f55646f3d37a71becdc6324610e06f9ed2a7a53c7eff",
+     "modernFeatureId": "way/612335561"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-2637",
+     "inputHash": "a546e53143599dc46b90d510be34f59c6ea1008ab385ef2dd1653b0165b2b0d9",
+     "modernFeatureId": "way/612335561"
+    }
+   ],
+   "originals": [
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-35137575",
+      "osmId": "way/35137575",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.936622,
+         60.104783
+        ],
+        [
+         19.936651,
+         60.104717
+        ],
+        [
+         19.936679,
+         60.104655
+        ],
+        [
+         19.936868,
+         60.104551
+        ],
+        [
+         19.9371,
+         60.104513
+        ],
+        [
+         19.937329,
+         60.104508
+        ],
+        [
+         19.937423,
+         60.104594
+        ],
+        [
+         19.937443,
+         60.104707
+        ],
+        [
+         19.937369,
+         60.104816
+        ],
+        [
+         19.937225,
+         60.104897
+        ],
+        [
+         19.93706,
+         60.104929
+        ],
+        [
+         19.936843,
+         60.104959
+        ],
+        [
+         19.936688,
+         60.104872
+        ],
+        [
+         19.936622,
+         60.104783
+        ]
+       ]
+      ]
+     },
+     "inputHash": "f4412d518328a1a0e639b68e3498b3cce37b05cf484d20268f4f2af3df2014ff"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-35137575",
+      "osmId": "way/35137575",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937021,
+         60.104803
+        ],
+        [
+         19.936956,
+         60.10479
+        ],
+        [
+         19.936923,
+         60.104778
+        ],
+        [
+         19.936892,
+         60.104763
+        ],
+        [
+         19.93686,
+         60.104742
+        ]
+       ]
+      ]
+     },
+     "inputHash": "1ca9046fb95552d26635f1a6619e79f0c078213c9ff9040911bb3169fe4f38f7"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-35137575",
+      "osmId": "way/35137575",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937021,
+         60.104803
+        ],
+        [
+         19.936956,
+         60.10479
+        ],
+        [
+         19.936923,
+         60.104778
+        ],
+        [
+         19.936892,
+         60.104763
+        ],
+        [
+         19.93686,
+         60.104742
+        ]
+       ]
+      ]
+     },
+     "inputHash": "b7705153ef1e5506669ee9002db5c2d0b445e5523f6a32c986528cb154c395ef"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-346799406",
+      "osmId": "way/346799406",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937363,
+         60.104667
+        ],
+        [
+         19.937362,
+         60.104675
+        ],
+        [
+         19.937356,
+         60.104703
+        ],
+        [
+         19.937335,
+         60.104734
+        ],
+        [
+         19.9373,
+         60.10476
+        ],
+        [
+         19.937261,
+         60.104779
+        ],
+        [
+         19.93725,
+         60.104783
+        ],
+        [
+         19.937191,
+         60.1048
+        ],
+        [
+         19.937152,
+         60.104806
+        ],
+        [
+         19.937119,
+         60.104808
+        ],
+        [
+         19.937088,
+         60.104808
+        ],
+        [
+         19.937021,
+         60.104803
+        ]
+       ]
+      ]
+     },
+     "inputHash": "d24f5a5a564d2121d04851aaac4ee01e169cfa7ae70d8b82c1cd1a0a47f29859"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-346799406",
+      "osmId": "way/346799406",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937363,
+         60.104667
+        ],
+        [
+         19.937362,
+         60.104675
+        ],
+        [
+         19.937356,
+         60.104703
+        ],
+        [
+         19.937335,
+         60.104734
+        ],
+        [
+         19.9373,
+         60.10476
+        ],
+        [
+         19.937261,
+         60.104779
+        ],
+        [
+         19.93725,
+         60.104783
+        ],
+        [
+         19.937191,
+         60.1048
+        ],
+        [
+         19.937152,
+         60.104806
+        ],
+        [
+         19.937119,
+         60.104808
+        ],
+        [
+         19.937088,
+         60.104808
+        ],
+        [
+         19.937021,
+         60.104803
+        ]
+       ]
+      ]
+     },
+     "inputHash": "56dd841bd08a4777f6357bc7e183caec1e86c98eaf3d6be0b373f9a15dccf16f"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-347944803",
+      "osmId": "way/347944803",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.93686,
+         60.104742
+        ],
+        [
+         19.936852,
+         60.104733
+        ],
+        [
+         19.936831,
+         60.104703
+        ],
+        [
+         19.936825,
+         60.104673
+        ],
+        [
+         19.93683,
+         60.104647
+        ],
+        [
+         19.936844,
+         60.104621
+        ],
+        [
+         19.936868,
+         60.104599
+        ],
+        [
+         19.936877,
+         60.104593
+        ],
+        [
+         19.936896,
+         60.10458
+        ]
+       ]
+      ]
+     },
+     "inputHash": "67e9765913abd53c9875da4f791a9c8745b76ee8e3e2cd9539103d528d4bd6bc"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-347944803",
+      "osmId": "way/347944803",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.93686,
+         60.104742
+        ],
+        [
+         19.936852,
+         60.104733
+        ],
+        [
+         19.936831,
+         60.104703
+        ],
+        [
+         19.936825,
+         60.104673
+        ],
+        [
+         19.93683,
+         60.104647
+        ],
+        [
+         19.936844,
+         60.104621
+        ],
+        [
+         19.936868,
+         60.104599
+        ],
+        [
+         19.936877,
+         60.104593
+        ],
+        [
+         19.936896,
+         60.10458
+        ]
+       ]
+      ]
+     },
+     "inputHash": "5207c7a3252e3ad79071e67c3a667302f9fd16751a2d2e609259e35715d3b770"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-347944802",
+      "osmId": "way/347944802",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.936896,
+         60.10458
+        ],
+        [
+         19.93695,
+         60.10456
+        ],
+        [
+         19.937017,
+         60.104545
+        ],
+        [
+         19.937098,
+         60.104539
+        ],
+        [
+         19.937171,
+         60.104543
+        ],
+        [
+         19.937213,
+         60.104552
+        ]
+       ]
+      ]
+     },
+     "inputHash": "508fb1f6160bc83b086b772176b50a5be16a6515035f94c3b883840fb01450a5"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-347944802",
+      "osmId": "way/347944802",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.936896,
+         60.10458
+        ],
+        [
+         19.93695,
+         60.10456
+        ],
+        [
+         19.937017,
+         60.104545
+        ],
+        [
+         19.937098,
+         60.104539
+        ],
+        [
+         19.937171,
+         60.104543
+        ],
+        [
+         19.937213,
+         60.104552
+        ]
+       ]
+      ]
+     },
+     "inputHash": "c6efb901302c9b024b6a2a20096449730ecbd877adf2994e8be19d358fc4b944"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-612335560",
+      "osmId": "way/612335560",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937308,
+         60.104591
+        ],
+        [
+         19.937324,
+         60.104602
+        ],
+        [
+         19.937336,
+         60.104615
+        ],
+        [
+         19.93735,
+         60.104632
+        ],
+        [
+         19.937359,
+         60.104648
+        ],
+        [
+         19.937363,
+         60.104667
+        ]
+       ]
+      ]
+     },
+     "inputHash": "f22e496b482f350af96321bfe0067167b0d900e4916a2add5ee92cc7c4a0d615"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-612335560",
+      "osmId": "way/612335560",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937308,
+         60.104591
+        ],
+        [
+         19.937324,
+         60.104602
+        ],
+        [
+         19.937336,
+         60.104615
+        ],
+        [
+         19.93735,
+         60.104632
+        ],
+        [
+         19.937359,
+         60.104648
+        ],
+        [
+         19.937363,
+         60.104667
+        ]
+       ]
+      ]
+     },
+     "inputHash": "c93ca104ffd69ed537b4b6bde956fa1590f1ce5898389a01131e3ce8a6de2b53"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-612335561",
+      "osmId": "way/612335561",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937213,
+         60.104552
+        ],
+        [
+         19.937308,
+         60.104591
+        ]
+       ]
+      ]
+     },
+     "inputHash": "ef65b019085489e931b94b727e180ec5ca33a9b8b6a09f640104802e6bade8cd"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-612335561",
+      "osmId": "way/612335561",
+      "name": "Ålandsplan",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.937213,
+         60.104552
+        ],
+        [
+         19.937308,
+         60.104591
+        ]
+       ]
+      ]
+     },
+     "inputHash": "df0c5ffd873da1c6483dc42c1294fa70769c9c943962b42aa5bbcf2760a694c1"
+    }
+   ],
+   "unobservedOriginals": [
+    {
+     "modernFeatureId": "way/346799406",
+     "years": [
+      2014
+     ]
+    },
+    {
+     "modernFeatureId": "way/347944803",
+     "years": [
+      2014
+     ]
+    },
+    {
+     "modernFeatureId": "way/347944802",
+     "years": [
+      2014
+     ]
+    },
+    {
+     "modernFeatureId": "way/612335560",
+     "years": [
+      2014
+     ]
+    },
+    {
+     "modernFeatureId": "way/612335561",
+     "years": [
+      2014
+     ]
+    }
+   ],
+   "firstYear": 1968,
+   "states": [
+    {
+     "state": "open",
+     "from": 1968,
+     "to": null
+    }
+   ],
+   "phases": [
+    {
+     "from": 1968,
+     "to": null,
+     "geometry": "modern",
+     "basis": "Den södra halvan av rondellen vid Ålandsplan, mellan ringens redan daterade delar (1968). Rondellen ritad 1968, 1978, 1985 och 1995 i samma läge. Kartåret är första granskade belägg, inte byggår."
+    }
+   ],
+   "observations": [
+    {
+     "year": 1968,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Röd rondell med rund mittö, i samma läge som i dag."
+    },
+    {
+     "year": 1978,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Som 1968."
+    },
+    {
+     "year": 1985,
+     "outcome": "present",
+     "coverage": "full",
+     "note": ""
+    },
+    {
+     "year": 1995,
+     "outcome": "present",
+     "coverage": "full",
+     "note": ""
+    }
+   ],
+   "countRule": "display",
+   "basis": "Den södra halvan av rondellen vid Ålandsplan, mellan ringens redan daterade delar (1968). Rondellen ritad 1968, 1978, 1985 och 1995 i samma läge. Kartåret är första granskade belägg, inte byggår.",
+   "lengthMeters": 94.17
+  },
+  {
+   "id": "road:mariehamn:junction-review:skarpansvagen-alandsplan",
+   "name": "Skarpansvägen",
+   "routeId": "road:Skarpansvägen",
+   "group": "alandsplan",
+   "kind": "approach",
+   "members": [
+    {
+     "feature": {
+      "id": "way/35038764",
+      "kind": "road",
+      "name": "Skarpansvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.937308,
+         60.104591
+        ],
+        [
+         19.937349,
+         60.104593
+        ],
+        [
+         19.937411,
+         60.104591
+        ],
+        [
+         19.937493,
+         60.104588
+        ],
+        [
+         19.937544,
+         60.104584
+        ],
+        [
+         19.937578,
+         60.10458
+        ],
+        [
+         19.937609,
+         60.104577
+        ],
+        [
+         19.937648,
+         60.104573
+        ],
+        [
+         19.937722,
+         60.104567
+        ],
+        [
+         19.937803,
+         60.104565
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "456d6a2ca726cd6032d667f83eeeccf1bb11fd726b054e1c561f32c541f836a7"
+    },
+    {
+     "feature": {
+      "id": "way/43519503",
+      "kind": "road",
+      "name": "Skarpansvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.937803,
+         60.104565
+        ],
+        [
+         19.937747,
+         60.104575
+        ],
+        [
+         19.937669,
+         60.104587
+        ],
+        [
+         19.937625,
+         60.104594
+        ],
+        [
+         19.937594,
+         60.1046
+        ],
+        [
+         19.937562,
+         60.104606
+        ],
+        [
+         19.937511,
+         60.104617
+        ],
+        [
+         19.937431,
+         60.104636
+        ],
+        [
+         19.937363,
+         60.104667
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "2adc9a0aef0c31ead8f2a6d71ba5a2986ae5fd0f34f8584aa43e1cec36af5e9c"
+    }
+   ],
+   "display": [
+    "way/35038764",
+    "way/43519503"
+   ],
+   "modernLinks": [
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-21",
+     "inputHash": "ccc3a6769313d34fd0ff26e63ca2dd2ecf5c121cce76175ab6bd66ab410e5ecf",
+     "modernFeatureId": "way/35038764"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-21",
+     "inputHash": "6c5a9cdd27c03d1cea45e6e2312a9d32f02a32b9a236779b1698aa3e895b26ed",
+     "modernFeatureId": "way/35038764"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-21",
+     "inputHash": "a07a8dcb9d6368843b4365a27e706ca556bf39903bb45a6917a8cba8bf6a2a5d",
+     "modernFeatureId": "way/35038764"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-21",
+     "inputHash": "dd93869a7448ce5980fa860af9db5b21a778e9f14a1894740bed9b58ad712860",
+     "modernFeatureId": "way/35038764"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-246",
+     "inputHash": "b0065be675c03b14c114900973aa68e7fa3dbe2b142a1b6379f48f11eafaf1b6",
+     "modernFeatureId": "way/43519503"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-246",
+     "inputHash": "77c7de2abdb37eadb54de52e8a808e405f967ad0ccd2b8ef3c549c8adf7d32e2",
+     "modernFeatureId": "way/43519503"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-248",
+     "inputHash": "abd58983673d1cc55308eb379f414c137a9f580c72e10829b4beaaf0c8ac98b4",
+     "modernFeatureId": "way/43519503"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-248",
+     "inputHash": "85f9f68258ec68eda7cfcf13dbb0d70fa4fabe39b157d2cf34268579f9a2b6c9",
+     "modernFeatureId": "way/43519503"
+    }
+   ],
+   "originals": [
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-35038764",
+      "osmId": "way/35038764",
+      "name": "Skarpansvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.937329,
+         60.104508
+        ],
+        [
+         19.937604,
+         60.10451
+        ],
+        [
+         19.937891,
+         60.10449
+        ],
+        [
+         19.938202,
+         60.104378
+        ]
+       ]
+      ]
+     },
+     "inputHash": "019b1186d4455e6aa3f40a655cc6071b43a4a22a0175631ff30cd96039ce7bb0"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-35038764",
+      "osmId": "way/35038764",
+      "name": "Skarpansvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.937308,
+         60.104591
+        ],
+        [
+         19.937349,
+         60.104593
+        ],
+        [
+         19.937411,
+         60.104591
+        ],
+        [
+         19.937493,
+         60.104588
+        ],
+        [
+         19.937544,
+         60.104584
+        ],
+        [
+         19.937578,
+         60.10458
+        ],
+        [
+         19.937609,
+         60.104577
+        ],
+        [
+         19.937648,
+         60.104573
+        ],
+        [
+         19.937722,
+         60.104567
+        ],
+        [
+         19.937803,
+         60.104565
+        ]
+       ]
+      ]
+     },
+     "inputHash": "0e503870f60d10a060d774053af729616a0862e2b696ffacb7155e002e7f023b"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-35038764",
+      "osmId": "way/35038764",
+      "name": "Skarpansvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.937308,
+         60.104591
+        ],
+        [
+         19.937349,
+         60.104593
+        ],
+        [
+         19.937411,
+         60.104591
+        ],
+        [
+         19.937493,
+         60.104588
+        ],
+        [
+         19.937544,
+         60.104584
+        ],
+        [
+         19.937578,
+         60.10458
+        ],
+        [
+         19.937609,
+         60.104577
+        ],
+        [
+         19.937648,
+         60.104573
+        ],
+        [
+         19.937722,
+         60.104567
+        ],
+        [
+         19.937803,
+         60.104565
+        ]
+       ]
+      ]
+     },
+     "inputHash": "e0655825a6b898ce38aa050e95d1b62c8dda315252f3c3997b9219c0ea506b59"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-43519503",
+      "osmId": "way/43519503",
+      "name": "Skarpansvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.938202,
+         60.104378
+        ],
+        [
+         19.937674,
+         60.104676
+        ],
+        [
+         19.937544,
+         60.10475
+        ],
+        [
+         19.937369,
+         60.104816
+        ]
+       ]
+      ]
+     },
+     "inputHash": "21372124276c02f2889e46d619fc98ef3fae23052efa8e1459fb3990d9f3e5d7"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-43519503",
+      "osmId": "way/43519503",
+      "name": "Skarpansvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.937803,
+         60.104565
+        ],
+        [
+         19.937747,
+         60.104575
+        ],
+        [
+         19.937669,
+         60.104587
+        ],
+        [
+         19.937625,
+         60.104594
+        ],
+        [
+         19.937594,
+         60.1046
+        ],
+        [
+         19.937562,
+         60.104606
+        ],
+        [
+         19.937511,
+         60.104617
+        ],
+        [
+         19.937431,
+         60.104636
+        ],
+        [
+         19.937382,
+         60.104653
+        ],
+        [
+         19.937363,
+         60.104667
+        ]
+       ]
+      ]
+     },
+     "inputHash": "25aba467214cef16eb27ab68d071617b758f8f9fee9ee6d2dc1074c923c1e78b"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-43519503",
+      "osmId": "way/43519503",
+      "name": "Skarpansvägen",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.937803,
+         60.104565
+        ],
+        [
+         19.937747,
+         60.104575
+        ],
+        [
+         19.937669,
+         60.104587
+        ],
+        [
+         19.937625,
+         60.104594
+        ],
+        [
+         19.937594,
+         60.1046
+        ],
+        [
+         19.937562,
+         60.104606
+        ],
+        [
+         19.937511,
+         60.104617
+        ],
+        [
+         19.937431,
+         60.104636
+        ],
+        [
+         19.937382,
+         60.104653
+        ],
+        [
+         19.937363,
+         60.104667
+        ]
+       ]
+      ]
+     },
+     "inputHash": "5a46e1949cac6d4ec5c63190e9b6223d8d15e5bf9a5e547770f3ad3ddd2bccc9"
+    }
+   ],
+   "unobservedOriginals": [],
+   "firstYear": 1968,
+   "states": [
+    {
+     "state": "open",
+     "from": 1968,
+     "to": null
+    }
+   ],
+   "phases": [
+    {
+     "from": 1968,
+     "to": null,
+     "geometry": "modern",
+     "basis": "Skarpansvägens två körfält kring en refug vid rondellen, mellan rondellen och den redan daterade Skarpansvägen (1968). Refugen syns 1985; vägen ligger i samma läge från 1968. Räknas en gång, som det längsta körfältet. Kartåret är första granskade belägg, inte byggår."
+    }
+   ],
+   "observations": [
+    {
+     "year": 1968,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Röd väg från rondellen mot sydost."
+    },
+    {
+     "year": 1978,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Som 1968."
+    },
+    {
+     "year": 1985,
+     "outcome": "present",
+     "coverage": "full",
+     "note": ""
+    },
+    {
+     "year": 1995,
+     "outcome": "present",
+     "coverage": "full",
+     "note": ""
+    }
+   ],
+   "countRule": "longest",
+   "basis": "Skarpansvägens två körfält kring en refug vid rondellen, mellan rondellen och den redan daterade Skarpansvägen (1968). Refugen syns 1985; vägen ligger i samma läge från 1968. Räknas en gång, som det längsta körfältet. Kartåret är första granskade belägg, inte byggår.",
+   "lengthMeters": 27.79
+  },
+  {
+   "id": "road:mariehamn:junction-review:gesallgatan-alandsplan",
+   "name": "Gesällgatan",
+   "routeId": "road:Gesällgatan",
+   "group": "alandsplan",
+   "kind": "approach",
+   "members": [
+    {
+     "feature": {
+      "id": "way/56133994",
+      "kind": "road",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936614,
+         60.104574
+        ],
+        [
+         19.936662,
+         60.104581
+        ],
+        [
+         19.936698,
+         60.104586
+        ],
+        [
+         19.936775,
+         60.104595
+        ],
+        [
+         19.936877,
+         60.104593
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "63260cc38d95afcac641e052d5d42aeceb059b0c75fa4c5dd676e2ed24ef0609"
+    },
+    {
+     "feature": {
+      "id": "way/1095723065",
+      "kind": "road",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936468,
+         60.104547
+        ],
+        [
+         19.936553,
+         60.104563
+        ],
+        [
+         19.936614,
+         60.104574
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "529b68c8f2b1537f8ef056240ad2f44208df5f3fd40694d4d21ffe20b09f695f"
+    },
+    {
+     "feature": {
+      "id": "way/643036390",
+      "kind": "road",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936825,
+         60.104673
+        ],
+        [
+         19.936793,
+         60.104645
+        ],
+        [
+         19.936752,
+         60.104629
+        ],
+        [
+         19.936677,
+         60.10461
+        ],
+        [
+         19.93663,
+         60.1046
+        ],
+        [
+         19.936597,
+         60.104592
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "258a0c97471513739f308a13cf55da5a75ee9abf8a539f68cde54ed677487168"
+    },
+    {
+     "feature": {
+      "id": "way/944013591",
+      "kind": "road",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936597,
+         60.104592
+        ],
+        [
+         19.93657,
+         60.104585
+        ],
+        [
+         19.93654,
+         60.104577
+        ],
+        [
+         19.936468,
+         60.104547
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "bfcf0d5a379c1853a7d9829fe2daa32a6ba4e7175091d5d732f44ab50a7b0ee6"
+    },
+    {
+     "feature": {
+      "id": "way/643036389",
+      "kind": "road",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936468,
+         60.104547
+        ],
+        [
+         19.936403,
+         60.104527
+        ],
+        [
+         19.9363,
+         60.10449
+        ],
+        [
+         19.936214,
+         60.104453
+        ],
+        [
+         19.936139,
+         60.104417
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "968880abc9a53e42986f86a2b9d286dff568a04db6941aa91b82e249cc0fcde0"
+    },
+    {
+     "feature": {
+      "id": "way/652159168",
+      "kind": "road",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936139,
+         60.104417
+        ],
+        [
+         19.936117,
+         60.104407
+        ],
+        [
+         19.93602,
+         60.104361
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "c6e668e1854ac2a872a35473bbb3812c8609cf472b99af7b46d65bb371a59e53"
+    }
+   ],
+   "display": [
+    "way/56133994",
+    "way/1095723065",
+    "way/643036390",
+    "way/944013591",
+    "way/643036389",
+    "way/652159168"
+   ],
+   "modernLinks": [
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-403",
+     "inputHash": "56c9622fc64aa7525b25373aad0f5b7ed0146cfacf5712db07507bbaa33a5906",
+     "modernFeatureId": "way/56133994"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-403",
+     "inputHash": "6e6f0bbfec919419e2e995f6cf5b9d6100d05ed2eb203b72e101264df63d0704",
+     "modernFeatureId": "way/56133994"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-405",
+     "inputHash": "45fb57bcd23bc6ca2d57b4d7496fbb6deb925c15f42df2f705eb19f2f8543f8c",
+     "modernFeatureId": "way/56133994"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-405",
+     "inputHash": "9de3db59c45904eb6bb65fcb2337f4594bc368640362e021fd31ea083f45f545",
+     "modernFeatureId": "way/56133994"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-3013",
+     "inputHash": "f50f850059e71ede7e8059b056e421a33ce3ecc22b8db5c66a3b068e30d4b041",
+     "modernFeatureId": "way/1095723065"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-3588",
+     "inputHash": "0210c72ce45f76e5d1ba5882f189517d4a7c489d69003a432493696629c8e27c",
+     "modernFeatureId": "way/1095723065"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-3700",
+     "inputHash": "e068187bc59ab7248b4a719efcea17ffe05f996facee7ce27a7117bc50ba8c1a",
+     "modernFeatureId": "way/1095723065"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-3709",
+     "inputHash": "ef5db69394c27abc7a9381326fce591120b07c0dd0c63064af65f1c3a7e6782f",
+     "modernFeatureId": "way/1095723065"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-2248",
+     "inputHash": "77c2592ed5a3b42c24651a0723d13effa09465109285b4eb12f521753c67bba7",
+     "modernFeatureId": "way/643036390"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-2694",
+     "inputHash": "d32450f2005d71140185e069673776c991a2971890a49168326af0791988b002",
+     "modernFeatureId": "way/643036390"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-2709",
+     "inputHash": "c99927f080a07f4867517333afbc24affbe5d328a17f4a155abdc7347b992061",
+     "modernFeatureId": "way/643036390"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-2717",
+     "inputHash": "889a05bd9ae2ddd1b6d691f5cc88808963fd8e79fe4acab96060c3d892cd527c",
+     "modernFeatureId": "way/643036390"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-2611",
+     "inputHash": "268b1c9bfd0d0b00262c8d6294c8dc36cd42ab6f535865bf871e2a3f352f6366",
+     "modernFeatureId": "way/944013591"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-3170",
+     "inputHash": "91cedb6be6d0caa05993da4cbf5c63c010f9d4f402d6c9af1c00841d7a123f5e",
+     "modernFeatureId": "way/944013591"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-3217",
+     "inputHash": "fef44599b52b099b8126afc8c47ae5cd5c0958b757cad730f3bc349d6935aade",
+     "modernFeatureId": "way/944013591"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-3225",
+     "inputHash": "4f84b199e88a585cfc67fab4c1ca9bad342f36e7f8882f4be08f65250e5bd2a3",
+     "modernFeatureId": "way/944013591"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-2247",
+     "inputHash": "12f821afa4e3ffdc94471c7047f0349e60356114006985a2f2b2d86d41f9f31c",
+     "modernFeatureId": "way/643036389"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-2693",
+     "inputHash": "9c1309b8c3ca4ab18eb8a4eef5ef6c4eb1ae13eb803f2bcf016b5902327ac9a1",
+     "modernFeatureId": "way/643036389"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-2708",
+     "inputHash": "535b564ae7e1492129ecef44d116b1c48aaf529770d844a47ca4b2299bb96bbf",
+     "modernFeatureId": "way/643036389"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-2716",
+     "inputHash": "efaeef03ed9403a474cd014a7920595d4e411f3755e14833d66b039c1bc3118a",
+     "modernFeatureId": "way/643036389"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-2281",
+     "inputHash": "af4c36395d285f2fef9321832815e0abe7075ef19be206da241bcd88dce1fb1c",
+     "modernFeatureId": "way/652159168"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-2729",
+     "inputHash": "305ebe98a2bf49eeefaf4d044650526ce1b33b410f099c11b109d1258eb0d009",
+     "modernFeatureId": "way/652159168"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-2744",
+     "inputHash": "c4946e8598e6f47fb995af4bbf6b44f276d0034da59108f190d0208aef6f0fa6",
+     "modernFeatureId": "way/652159168"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-2752",
+     "inputHash": "f072c521e170631558c243bc9df032b9b4f862a1f4330ce495bcb3846fc9bcc9",
+     "modernFeatureId": "way/652159168"
+    }
+   ],
+   "originals": [
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-56133994",
+      "osmId": "way/56133994",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936679,
+         60.104655
+        ],
+        [
+         19.936569,
+         60.104614
+        ],
+        [
+         19.935987,
+         60.104379
+        ],
+        [
+         19.934999,
+         60.103894
+        ],
+        [
+         19.93492,
+         60.103856
+        ]
+       ]
+      ]
+     },
+     "inputHash": "ba9e1c608f01835f288de919a79171ae59d323e6942f78b899908d3979fb9065"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-56133994",
+      "osmId": "way/56133994",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936468,
+         60.104547
+        ],
+        [
+         19.936553,
+         60.104563
+        ],
+        [
+         19.936614,
+         60.104574
+        ],
+        [
+         19.936662,
+         60.104581
+        ],
+        [
+         19.936698,
+         60.104586
+        ],
+        [
+         19.936775,
+         60.104595
+        ],
+        [
+         19.936816,
+         60.104597
+        ],
+        [
+         19.936877,
+         60.104593
+        ]
+       ]
+      ]
+     },
+     "inputHash": "306d831762664979a41bd3371a7b7142e1ad72089a4ba86ed8c3bfd1e3067dc6"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-56133994",
+      "osmId": "way/56133994",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936614,
+         60.104574
+        ],
+        [
+         19.936662,
+         60.104581
+        ],
+        [
+         19.936698,
+         60.104586
+        ],
+        [
+         19.936775,
+         60.104595
+        ],
+        [
+         19.936816,
+         60.104597
+        ],
+        [
+         19.936877,
+         60.104593
+        ]
+       ]
+      ]
+     },
+     "inputHash": "0c91acdbbb674fd4d0356bb5975c45faaf8941cde49fd69bb44010a7fa0cf4be"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-1095723065",
+      "osmId": "way/1095723065",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936468,
+         60.104547
+        ],
+        [
+         19.936553,
+         60.104563
+        ],
+        [
+         19.936614,
+         60.104574
+        ]
+       ]
+      ]
+     },
+     "inputHash": "f23a0bdd6f2e74efa858eed7615831a096a62ac7ede0736ba8f0e2747e791caf"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-643036390",
+      "osmId": "way/643036390",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936825,
+         60.104673
+        ],
+        [
+         19.936793,
+         60.104645
+        ],
+        [
+         19.936752,
+         60.104629
+        ],
+        [
+         19.936677,
+         60.10461
+        ],
+        [
+         19.93663,
+         60.1046
+        ],
+        [
+         19.936597,
+         60.104592
+        ],
+        [
+         19.93657,
+         60.104585
+        ],
+        [
+         19.93654,
+         60.104577
+        ],
+        [
+         19.936468,
+         60.104547
+        ]
+       ]
+      ]
+     },
+     "inputHash": "7ef26d5d30ea7aeacccbcf2562937c1da3dbc34485231e89480457ecfcb14ce9"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-643036390",
+      "osmId": "way/643036390",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936825,
+         60.104673
+        ],
+        [
+         19.936793,
+         60.104645
+        ],
+        [
+         19.936752,
+         60.104629
+        ],
+        [
+         19.936677,
+         60.10461
+        ],
+        [
+         19.93663,
+         60.1046
+        ],
+        [
+         19.936597,
+         60.104592
+        ]
+       ]
+      ]
+     },
+     "inputHash": "005234c3a18785c65036a26bd658c9aa4195150829650159da25097f3649a8f2"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-944013591",
+      "osmId": "way/944013591",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936597,
+         60.104592
+        ],
+        [
+         19.93657,
+         60.104585
+        ],
+        [
+         19.93654,
+         60.104577
+        ],
+        [
+         19.936468,
+         60.104547
+        ]
+       ]
+      ]
+     },
+     "inputHash": "7f16aec9af4845e4152b6b6721d5704fa9d149dece9614675d4644796492c8d3"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-643036389",
+      "osmId": "way/643036389",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936468,
+         60.104547
+        ],
+        [
+         19.936403,
+         60.104527
+        ],
+        [
+         19.9363,
+         60.10449
+        ],
+        [
+         19.936214,
+         60.104453
+        ],
+        [
+         19.936139,
+         60.104417
+        ]
+       ]
+      ]
+     },
+     "inputHash": "435f4c113ba3777f8e6ba348042edce53b70cee1d9e881a989eaf86e51104749"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-643036389",
+      "osmId": "way/643036389",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936468,
+         60.104547
+        ],
+        [
+         19.936403,
+         60.104527
+        ],
+        [
+         19.9363,
+         60.10449
+        ],
+        [
+         19.936214,
+         60.104453
+        ],
+        [
+         19.936139,
+         60.104417
+        ]
+       ]
+      ]
+     },
+     "inputHash": "7b02a50ff0a0d6b406b15c81052ad5b77dae5784b47a65014f5b93feb03088e0"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-652159168",
+      "osmId": "way/652159168",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936139,
+         60.104417
+        ],
+        [
+         19.936117,
+         60.104407
+        ],
+        [
+         19.93602,
+         60.104361
+        ]
+       ]
+      ]
+     },
+     "inputHash": "485beb0fae7e7f16574b2326a136059207f548add4d2f8bd6ba3223ff273ce94"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-652159168",
+      "osmId": "way/652159168",
+      "name": "Gesällgatan",
+      "class": "residential",
+      "paths": [
+       [
+        [
+         19.936139,
+         60.104417
+        ],
+        [
+         19.936117,
+         60.104407
+        ],
+        [
+         19.93602,
+         60.104361
+        ]
+       ]
+      ]
+     },
+     "inputHash": "c720fe81a9d2a3c504ddadc3e6d6b410dda94dbf985c1b6565dd82fcc79aff45"
+    }
+   ],
+   "unobservedOriginals": [
+    {
+     "modernFeatureId": "way/1095723065",
+     "years": [
+      2014,
+      2021
+     ]
+    },
+    {
+     "modernFeatureId": "way/643036390",
+     "years": [
+      2014
+     ]
+    },
+    {
+     "modernFeatureId": "way/944013591",
+     "years": [
+      2014,
+      2021
+     ]
+    },
+    {
+     "modernFeatureId": "way/643036389",
+     "years": [
+      2014
+     ]
+    },
+    {
+     "modernFeatureId": "way/652159168",
+     "years": [
+      2014
+     ]
+    }
+   ],
+   "firstYear": 1968,
+   "states": [
+    {
+     "state": "open",
+     "from": 1968,
+     "to": null
+    }
+   ],
+   "phases": [
+    {
+     "from": 1968,
+     "to": null,
+     "geometry": "modern",
+     "basis": "Gesällgatans anslutning till rondellen, med två körfält närmast ringen, mellan rondellen och den redan daterade Gesällgatan (1968). Ritad i samma läge 1968–1995. Räknas en gång, som den längsta delen. Kartåret är första granskade belägg, inte byggår."
+    }
+   ],
+   "observations": [
+    {
+     "year": 1968,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Dubbellinjerad gata från rondellen mot sydväst."
+    },
+    {
+     "year": 1978,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Som 1968."
+    },
+    {
+     "year": 1985,
+     "outcome": "present",
+     "coverage": "full",
+     "note": ""
+    },
+    {
+     "year": 1995,
+     "outcome": "present",
+     "coverage": "full",
+     "note": ""
+    }
+   ],
+   "countRule": "longest",
+   "basis": "Gesällgatans anslutning till rondellen, med två körfält närmast ringen, mellan rondellen och den redan daterade Gesällgatan (1968). Ritad i samma läge 1968–1995. Räknas en gång, som den längsta delen. Kartåret är första granskade belägg, inte byggår.",
+   "lengthMeters": 23.41
+  },
+  {
+   "id": "road:mariehamn:junction-review:vastra-utfarten-crossing-east",
+   "name": "Västra Utfarten",
+   "routeId": "road:Västra Utfarten",
+   "group": "vastra-utfarten",
+   "kind": "carriageways",
+   "members": [
+    {
+     "feature": {
+      "id": "way/56396449",
+      "kind": "road",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.931975,
+         60.107111
+        ],
+        [
+         19.931469,
+         60.107365
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "b9d8e018043b4876c1074fa80753edf943affa4ff47b67003e6166569c75cd26"
+    },
+    {
+     "feature": {
+      "id": "way/56396447",
+      "kind": "road",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.931469,
+         60.107365
+        ],
+        [
+         19.931734,
+         60.10709
+        ],
+        [
+         19.931766,
+         60.107049
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "bc7b303f68304eb32bbb26f2c770666e53fb69374b9f37e96878208a1285afb3"
+    },
+    {
+     "feature": {
+      "id": "way/56396442",
+      "kind": "road",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.932793,
+         60.106567
+        ],
+        [
+         19.932356,
+         60.106834
+        ],
+        [
+         19.932313,
+         60.106867
+        ],
+        [
+         19.93229,
+         60.106892
+        ]
+       ]
+      ],
+      "start_date": null,
+      "wiki": null
+     },
+     "inputHash": "2eeaf0b839d555afc7833479b8572adb12e1ca4599247a98cc571a739d270ee8"
+    }
+   ],
+   "display": [
+    "way/56396449",
+    "way/56396447",
+    "way/56396442"
+   ],
+   "modernLinks": [
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-414",
+     "inputHash": "28c64225eb7f770f6c553d79698cc678b809494d03829f7f4badb6661ca0be62",
+     "modernFeatureId": "way/56396449"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-414",
+     "inputHash": "5723eed1b87b5c27917b85c41ef6a45fdb3fc83276bf9840e035638582170459",
+     "modernFeatureId": "way/56396449"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-416",
+     "inputHash": "50fc86867be77dea0108fd9b80f5cbcae8ed245e314c7e16e78e962d81a47d93",
+     "modernFeatureId": "way/56396449"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-416",
+     "inputHash": "089355ddea4e3f9c6a04b384a00a1794a9b461c8605bdcbeebff82be3f9b7479",
+     "modernFeatureId": "way/56396449"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-412",
+     "inputHash": "c8d889025b19c11db4859ca55a5308ab0f7946b4ad42f59215e8c9ed2ebc54ca",
+     "modernFeatureId": "way/56396447"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-412",
+     "inputHash": "b71182fe73dbba76631141f03b6d84d253f9241e4722cacb15b4c354d9699397",
+     "modernFeatureId": "way/56396447"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-414",
+     "inputHash": "332e2c27557afc99d793e3c46651406d093760cd1397309e37f465c7ca2f02df",
+     "modernFeatureId": "way/56396447"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-414",
+     "inputHash": "10b54556a7437cd17c2a73baf6b10b619267d13ef643bf76fd4934ee0b460620",
+     "modernFeatureId": "way/56396447"
+    },
+    {
+     "datasetId": "city-2014",
+     "featureId": "city-2014-street-407",
+     "inputHash": "29dbf5b2b515e0030b5e7e644660e44924bcfd1a2fda98bbdfad289b253a9f76",
+     "modernFeatureId": "way/56396442"
+    },
+    {
+     "datasetId": "city-2021",
+     "featureId": "city-2021-street-407",
+     "inputHash": "de50f8713b8823ae7292eceb58b3ab57c24c109a5d7bad0b894fbe715c6b766e",
+     "modernFeatureId": "way/56396442"
+    },
+    {
+     "datasetId": "city-2025",
+     "featureId": "city-2025-street-409",
+     "inputHash": "e6e4318f8d4247a1d4db3fcaa801abb5e8ae3cd472a05022ae6f41955558efe6",
+     "modernFeatureId": "way/56396442"
+    },
+    {
+     "datasetId": "city-2026",
+     "featureId": "city-2026-street-409",
+     "inputHash": "6835f8ef964f57cce4ec8fedd7d9292a03f28eef3d8f024788c7d42e6e103c9b",
+     "modernFeatureId": "way/56396442"
+    }
+   ],
+   "originals": [
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-56396449",
+      "osmId": "way/56396449",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.931975,
+         60.107111
+        ],
+        [
+         19.931469,
+         60.107365
+        ]
+       ]
+      ]
+     },
+     "inputHash": "1e7546f1660b051a8570a8b9719270e950edbe072d589c56c5cd67e35c946100"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-56396449",
+      "osmId": "way/56396449",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.931975,
+         60.107111
+        ],
+        [
+         19.931469,
+         60.107365
+        ]
+       ]
+      ]
+     },
+     "inputHash": "a92efa29ed3c7072529b5e116d42f40ec8aadcae862238357d5f349f185d8f93"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-56396449",
+      "osmId": "way/56396449",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.931975,
+         60.107111
+        ],
+        [
+         19.931469,
+         60.107365
+        ]
+       ]
+      ]
+     },
+     "inputHash": "180f585f80a6cc384f7cb3e084c4d1fa39dbf42e90ef658172e6e23fbf13b091"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-56396447",
+      "osmId": "way/56396447",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.931469,
+         60.107365
+        ],
+        [
+         19.931766,
+         60.107049
+        ]
+       ]
+      ]
+     },
+     "inputHash": "c3826cd8d4a843a452801df426adbd2d42558c09b37707f11062d32d8b46e861"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-56396447",
+      "osmId": "way/56396447",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.931469,
+         60.107365
+        ],
+        [
+         19.931766,
+         60.107049
+        ]
+       ]
+      ]
+     },
+     "inputHash": "2b545d219e2c02fb1b2cb750c2a3601cbec5a92ee2195806d0d861c8e0683f18"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-56396447",
+      "osmId": "way/56396447",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.931469,
+         60.107365
+        ],
+        [
+         19.931766,
+         60.107049
+        ]
+       ]
+      ]
+     },
+     "inputHash": "33361923fcedb1db89b17428b8b44f0b28cfdcc028b8b5facbde7f6c4a11575c"
+    },
+    {
+     "year": 2014,
+     "datasetId": "city-2014",
+     "feature": {
+      "id": "road-2014-56396442",
+      "osmId": "way/56396442",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.932793,
+         60.106567
+        ],
+        [
+         19.932356,
+         60.106834
+        ],
+        [
+         19.93229,
+         60.106892
+        ]
+       ]
+      ]
+     },
+     "inputHash": "f54c58726354555ef30e37a8f7af893805761ce4241fa11318ff721876ee9270"
+    },
+    {
+     "year": 2021,
+     "datasetId": "city-2021",
+     "feature": {
+      "id": "road-2021-56396442",
+      "osmId": "way/56396442",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.932793,
+         60.106567
+        ],
+        [
+         19.932356,
+         60.106834
+        ],
+        [
+         19.93229,
+         60.106892
+        ]
+       ]
+      ]
+     },
+     "inputHash": "bd308023b768433b089dd05f80c53f26ced2b28cfec631ba61269ee2cc641e5a"
+    },
+    {
+     "year": 2025,
+     "datasetId": "city-2025",
+     "feature": {
+      "id": "road-2025-56396442",
+      "osmId": "way/56396442",
+      "name": "Västra Utfarten",
+      "class": "secondary",
+      "paths": [
+       [
+        [
+         19.932793,
+         60.106567
+        ],
+        [
+         19.932356,
+         60.106834
+        ],
+        [
+         19.93229,
+         60.106892
+        ]
+       ]
+      ]
+     },
+     "inputHash": "dbfa245b97a1a98e46fca416e3a2ebf7eb77154722352d02d6080388485b7cc8"
+    }
+   ],
+   "unobservedOriginals": [],
+   "firstYear": 1995,
+   "states": [
+    {
+     "state": "open",
+     "from": 1995,
+     "to": null
+    }
+   ],
+   "phases": [
+    {
+     "from": 1995,
+     "to": null,
+     "geometry": "modern",
+     "basis": "Västra Utfartens andra körbana vid korsningen söder om Klintvägen, parallell med de redan daterade delarna. Visas först 1995, då kartan ritar två körbanor, som den västra körbanan längre norrut. Räknas inte som ny väglängd."
+    }
+   ],
+   "observations": [
+    {
+     "year": 1968,
+     "outcome": "unclear",
+     "coverage": "unknown",
+     "note": "En enda röd vägsignatur genom korsningen; den andra körbanan kan inte skiljas ut."
+    },
+    {
+     "year": 1978,
+     "outcome": "unclear",
+     "coverage": "unknown",
+     "note": "Som 1968."
+    },
+    {
+     "year": 1985,
+     "outcome": "unclear",
+     "coverage": "unknown",
+     "note": "Som 1968."
+    },
+    {
+     "year": 1995,
+     "outcome": "present",
+     "coverage": "full",
+     "note": "Ritad som två körbanor."
+    }
+   ],
+   "countRule": "parallel",
+   "basis": "Västra Utfartens andra körbana vid korsningen söder om Klintvägen, parallell med de redan daterade delarna. Visas först 1995, då kartan ritar två körbanor, som den västra körbanan längre norrut. Räknas inte som ny väglängd.",
+   "lengthMeters": 0
+  }
+ ],
+ "deferred": [
+  {
+   "name": "Framnäsvägen och Varvsvägen",
+   "basis": "Ritade som gator 1985 men ansluter till Västra Utfartens västra körbana, som kartorna skiljer ut först 1995; daterade från 1985 skulle de sluta 6–9 m från vägnätet under 1985–1994."
+  },
+  {
+   "name": "Doktorsvägens servicedel (way 77082300)",
+   "basis": "Svart streckad stig 1995, inte röd gata; Uppgårdsvägen ansluter i stället norrut via Nya Godbyvägen."
+  },
+  {
+   "name": "Kråkbärsstigens västra del och Hjortronstigens förbindelse",
+   "basis": "Ansluter i dag bara via gång- och cykelvägar; väntar på en modell för väg som blir gångväg."
+  },
+  {
+   "name": "Mästargränd och Ekogränd",
+   "basis": "Slingan från 1968 följer inte dagens Ekogränd, och Mästargrändens östra anslutning är i dag gångväg."
+  },
+  {
+   "name": "Michaelsvägens rondell vid Nya Godbyvägen",
+   "basis": "Rondellen är senare än 1995."
+  }
+ ],
+ "reviewSheets": [
+  {
+   "file": "junctions/jA-seq.jpg",
+   "sha256": "4ad4ed3a8fc10854537a0b9cbb3490966439323778723d26f0d7a079df16d711"
+  },
+  {
+   "file": "junctions/jB-seq.jpg",
+   "sha256": "ec86a32a84f9eed7b2ef3723e69baab7e63e917406d2769ac9fe39ed548bebb1"
+  },
+  {
+   "file": "junctions/jC-seq.jpg",
+   "sha256": "8e304ef768672852462142dc934f95c6aba6c1592d6d0ed67231be0f5b64a5c0"
+  },
+  {
+   "file": "junctions/jD-seq.jpg",
+   "sha256": "c5ee590ed72859ae8ec0a1b20c0a3571ecd891676b1404d939173a6662561525"
+  }
+ ],
+ "totals": {
+  "newPersistentMeters": 145.37,
+  "confirmedExistingMeters": 0,
+  "reviewedMeters": 145.37,
+  "byGroup": {
+   "godbyvagen-bolstavagen": 0,
+   "alandsplan": 145.37,
+   "vastra-utfarten": 0
+  },
+  "byFirstYear": {
+   "1968": 145.37,
+   "1978": 0,
+   "1995": 0
+  }
+ }
+}

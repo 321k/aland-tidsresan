@@ -1,0 +1,35 @@
+{
+ "snapshotEqualsBaseline": true,
+ "objects": [
+  36215,
+  36221
+ ],
+ "geometries": [
+  47060,
+  47200
+ ],
+ "addedObjects": 6,
+ "changedObjects": [],
+ "removedObjects": [],
+ "changedGeometries": [],
+ "addedGeometries": 140,
+ "addedGeometriesOutsidePrefix": [],
+ "sourcesAdded": [
+  "review:mariehamn-junction-review"
+ ],
+ "cityStagesUnchanged": true,
+ "otherTopLevelChanged": [],
+ "newObjectsOwningSharedLinks": [],
+ "newMeters": 145.37,
+ "byFirstYear": {
+  "1968": 145.37,
+  "1978": 0,
+  "1995": 0
+ },
+ "byGroup": {
+  "godbyvagen-bolstavagen": 0,
+  "alandsplan": 145.37,
+  "vastra-utfarten": 0
+ },
+ "afterSha256": "a6f3e6badd96cd3700c6858494949c0adf5b6bd49eef84e030b12fef4353d3ec"
+}
