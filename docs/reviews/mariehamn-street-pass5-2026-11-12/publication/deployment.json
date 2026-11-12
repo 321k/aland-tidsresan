@@ -1,0 +1,21 @@
+{
+ "deployedAt": "2026-11-12",
+ "versionId": "04f931de-8670-4551-b2e2-ab331cb34d07",
+ "tool": "wrangler@4.149.0",
+ "domain": "https://åland.erikedin.com/",
+ "baseLiveVersion": "e9000b11-534f-4a4e-b00a-8a86403cec36 (all 287 live files matched the previous release before building)",
+ "changedFiles": ["/assets/temporal-objects.json.gz", "/assets/mariehamn-street-pass5.json", "/index.html", "/temporal-objects.js", "/object.html"],
+ "uploaded": "5 new or modified assets, 283 already uploaded",
+ "excluded": "Other unpublished workspace changes; temporal-objects.js and object.html differ from live only in ?v= stamps.",
+ "catalogueDiffAgainstLive": "26 objects, 221 geometries and 1 source added, all with the pass-5 prefixes; nothing removed or changed.",
+ "jsTests": "143 relevant tests passed against the release tree; full local suite 480/480",
+ "dryRun": "ok",
+ "liveSha256Match": {
+  "assets/temporal-objects.json.gz": "b6183619a6dcf716b7ad784252bc24d9a127fcc1df7c02d9b53963648e2675f2",
+  "assets/mariehamn-street-pass5.json": "51a1368e89dccf3fe708cb171c1e2bc44492fcb9d4eec917e1b189aadb071741",
+  "index.html": "b980d5e65f20ad61d146fd99321e49e8abb41c5b5b0b54cc30a67417ddf502f3",
+  "temporal-objects.js": "31c6f6bc51cbc26f2f7590aa45c643587a475b68b0b38004c18986b4a862b18d",
+  "object.html": "08d2557b07afd5fda165814fb45feec2c4283fcce32f16edfd25fce57d21313b"
+ },
+ "liveChecks": "All 288 release files fetched from the live domain match byte for byte. /api/vessels 200."
+}

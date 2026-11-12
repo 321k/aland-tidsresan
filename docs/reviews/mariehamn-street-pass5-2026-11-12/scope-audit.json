@@ -1,0 +1,36 @@
+{
+ "snapshotEqualsBaseline": true,
+ "objects": [
+  36189,
+  36215
+ ],
+ "geometries": [
+  46839,
+  47060
+ ],
+ "addedObjects": 26,
+ "changedObjects": [],
+ "removedObjects": [],
+ "changedGeometries": [],
+ "addedGeometries": 221,
+ "addedGeometriesOutsidePrefix": [],
+ "sourcesAdded": [
+  "review:mariehamn-street-pass5"
+ ],
+ "cityStagesUnchanged": true,
+ "otherTopLevelChanged": [],
+ "newObjectsOwningSharedLinks": [],
+ "newMeters": 3034.94,
+ "byFirstYear": {
+  "1968": 896.21,
+  "1978": 0,
+  "1985": 970.46,
+  "1995": 1168.27
+ },
+ "byGroup": {
+  "luckor": 980.78,
+  "stenliden": 1208.02,
+  "lotsby": 846.14
+ },
+ "afterSha256": "b6183619a6dcf716b7ad784252bc24d9a127fcc1df7c02d9b53963648e2675f2"
+}
