@@ -1,0 +1,14 @@
+{
+ "deployedAt": "2026-11-12",
+ "cloudflareVersion": "1354d66c-3a86-4a2e-94c5-341679f6ad9a",
+ "baseRelease": "7c730ce9-4a66-4379-b989-eeb38575c641",
+ "changedFiles": [
+  "assets/temporal-objects.json.gz",
+  "assets/mariehamn-building-maps.json",
+  "index.html",
+  "temporal-objects.js (cache stamp only)",
+  "object.html (cache stamp only)"
+ ],
+ "liveCheck": "291 files compared byte for byte, 0 mismatches",
+ "wrangler": "4.149.0"
+}

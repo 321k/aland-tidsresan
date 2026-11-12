@@ -1,0 +1,14 @@
+{
+ "snapshotSha256": "6948f533c37f88786104cc8b1a8c3c543bd4f68c8a25daf328834b34665b20a0",
+ "catalogueSha256": "ae758552bf7819c71e0ea7ccc8567b0ad6076993778bc13a5eb1277145761f8a",
+ "objectsBefore": 36221,
+ "objectsAfter": 36221,
+ "changedObjects": 444,
+ "changedEqualsReviewed": true,
+ "geometriesUnchanged": true,
+ "addedSources": [
+  "review:mariehamn-building-maps"
+ ],
+ "otherTopLevelKeysUnchanged": true,
+ "laterStatesPeriodsEvidenceAndSourceYearsKept": true
+}
