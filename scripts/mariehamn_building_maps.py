@@ -20,8 +20,8 @@ from rural_registration import registration_pair
 TO_METRIC = Transformer.from_crs(4326, 3874, always_xy=True).transform
 FROM_MERCATOR = Transformer.from_crs(3857, 4326, always_xy=True).transform
 YEARS = [1968, 1985, 1995]
-# A curated history, museum or printed-symbol review decides these buildings' dates; the map review never overrides it.
-CURATED = ['historicalReview', 'museumReview', 'printedMapSymbol']
+# A curated history, museum, printed-symbol or neighbourhood (merge) review decides these buildings' dates; the map review never overrides it.
+CURATED = ['historicalReview', 'museumReview', 'printedMapSymbol', 'neighborhoodReviews']
 # The provisional first-source wording no longer applies once a map gives an earlier date.
 PROVISIONAL = 'Första kartbelägget används tills en tidigare datering kan uppskattas; det är inte ett fastställt byggår.'
 

@@ -1,0 +1,42 @@
+{
+ "building:osm:way-1003896680": {
+  "reason": "shoreline-or-pier: the match is a shoreline, jetty, quay or pier line, not a house",
+  "contactSheet": "b5-contact-later",
+  "cell": 0
+ },
+ "building:osm:way-1003896681": {
+  "reason": "shoreline-or-pier: the match is a shoreline, jetty, quay or pier line, not a house",
+  "contactSheet": "b5-contact-later",
+  "cell": 1
+ },
+ "building:osm:way-1555823943": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b5-contact-later",
+  "cell": 2
+ },
+ "building:osm:way-165439485": {
+  "reason": "shoreline-or-pier: the match is a shoreline, jetty, quay or pier line, not a house",
+  "contactSheet": "b5-contact-later",
+  "cell": 3
+ },
+ "building:osm:way-1003896688": {
+  "reason": "lettering: the match is black map lettering, not a house",
+  "contactSheet": "b5-contact-1968",
+  "cell": 0
+ },
+ "building:osm:way-1274527758": {
+  "reason": "shoreline-or-pier: the match is a shoreline, jetty, quay or pier line, not a house",
+  "contactSheet": "b5-contact-1968",
+  "cell": 1
+ },
+ "building:osm:way-717185703": {
+  "reason": "shoreline-or-pier: the match is a shoreline, jetty, quay or pier line, not a house",
+  "contactSheet": "b5-contact-1968",
+  "cell": 2
+ },
+ "building:osm:way-717185706": {
+  "reason": "shoreline-or-pier: the match is a shoreline, jetty, quay or pier line, not a house",
+  "contactSheet": "b5-contact-1968",
+  "cell": 3
+ }
+}
