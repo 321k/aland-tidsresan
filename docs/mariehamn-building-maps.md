@@ -11,23 +11,37 @@ where the house is clearly drawn on the 1968, 1985 and 1995 base maps. This batc
 reviewed map evidence. The map year is first evidence, never the construction year, and the shape shown is still
 the earliest measured outline: the map symbols date existence, not form.
 
-## Batch b1: Johannebo, Stenliden, Hindersböle, Norrböle
+## Batches
 
-The areas whose streets were dated in street passes 3–5. There are no `printedMapSymbol` objects here, so dating an
-outline cannot duplicate a building that already exists as a map symbol (Västernäs and Södra need that check in a
-later batch).
+All three areas have no `printedMapSymbol` objects, so dating an outline cannot duplicate a building that already
+exists as a map symbol (those reach 60.1078° N between 19.927° and 19.946° E; Västernäs and Södra need that check in
+a later batch). Sheet 101208's 1995 registration starts at about 19.917° E, so nothing further west is reviewed.
 
-| | buildings |
-|---|---|
-| dated from 1968 | 152 (45 of them with 1985 recorded as *unclear*) |
-| dated from 1985 | 199 |
-| dated from 1995 | 93 |
-| **dated** | **444** |
-| deferred: no symbol in any edition | 491 |
-| deferred: earlier edition shows hatched/stippled drawing (`earlier-unclear`) | 85 |
-| deferred: symbol missing in a later edition (`inconsistent`) | 47 |
-| deferred: start already earlier than the maps | 4 |
-| deferred: earliest outline differs from the matched one (`outline-changed`) | 1 |
+- **b1**, 19.930–19.958° E × 60.114–60.127° N: Johannebo, Stenliden, Hindersböle, Norrböle (the areas dated in
+  street passes 3–5).
+- **b2**, 19.918–19.930° E × 60.109–60.127° N: the western strip from Klinten and the yard (Varv) past Notgrundet
+  to Möckelbybäcken.
+- **b3**, 19.930–19.958° E × 60.109–60.114° N: the blocks just south of b1.
+
+| | b1 | b2 | b3 | total |
+|---|---|---|---|---|
+| dated from 1968 | 107 (28 with 1985 *unclear*) | 26 (1) | 81 (19) | 214 |
+| dated from 1985 | 179 | 65 | 25 | 269 |
+| dated from 1995 | 75 | 4 | 13 | 92 |
+| **dated** | **361** | **95** | **119** | **575** |
+| rejected on the contact sheets (`visual-reject`) | 83 | 13 | 17 | 113 |
+| no symbol in any edition (`absent`) | 491 | 180 | 118 | 789 |
+| earlier edition shows hatched or stippled drawing (`earlier-unclear`) | 85 | 16 | 14 | 115 |
+| symbol missing in a later edition (`inconsistent`) | 47 | 19 | 15 | 81 |
+| start already earlier than the maps | 4 | – | 1 | 5 |
+| a curated review decides the dates (`curated-review`, a church) | – | – | 1 | 1 |
+| earliest outline differs from the matched one (`outline-changed`) | 1 | – | – | 1 |
+
+b1 was first published with 444 dated houses after the tile review alone. The contact-sheet review below then
+withdrew 83 of them, which keep their previous start: 27 ambiguous partial overlaps, 18 empty outlines matched to a
+neighbour, 16 in a run of 1968 symbols offset by about one house width (registration offset or absence cannot be told
+apart), 15 where the previous edition already draws something at the outline (hollow, hatched or offset), 3 under
+lettering, 3 matched to black place-name lettering on the 1995 map and 1 matched to a line.
 
 ## Method
 
@@ -44,10 +58,16 @@ later batch).
    - a later start is deferred if the previous edition shows dark drawing inside the outline (hatched or stippled
      buildings, which the detector does not pick up), so that no house gets a too-late date.
 4. Every tile was checked on the review sheets (1968 | 1985 | 1995 side by side, outlines coloured by verdict).
-   Detection is only a proposal; the remaining errors leave buildings undated rather than dating them wrongly.
+5. Every proposal was then checked on its own on contact sheets (`contact.py`): the building at high zoom with its
+   shifted outline, in the previous and the first edition for later starts, and in 1985 and 1968 for 1968 starts.
+   The tile sheets are too coarse to see hollow building outlines (which the ink guard does not count), symbols that
+   only touch the outline, or matches on shorelines, piers and lettering. Each rejection is recorded with a reason
+   and its sheet and cell in the review's `visualRejections`. Detection is only a proposal; the remaining errors
+   leave buildings undated rather than dating them wrongly.
 
 The review tooling and sheets are kept in the git-ignored cache `data/map-scan-cache/review/mariehamn-buildings/`
-(`match.py`, `verdict.py`, `sheets.py`, `prepare.py`, `before.json.gz`).
+(`match.py`, `verdict.py`, `sheets.py`, `contact.py`, `prepare.py`, the per-batch `KEY-overrides.json`, and
+`before.json.gz`).
 
 ## Model changes per building
 
@@ -69,14 +89,19 @@ The review tooling and sheets are kept in the git-ignored cache `data/map-scan-c
 The review is rejected as a whole, leaving the catalogue unchanged, if a building's input fingerprint changed, a
 building repeats, its start is not the first edition with a symbol, a later edition lacks the symbol (other than the
 1985 *unclear* case), a 1978 observation is used, or a recorded symbol pixel, converted through the sheet's
-registration, lies more than 30 m from the outline or beyond the match limit after the recorded shift.
+registration, lies more than 30 m from the outline or beyond the match limit after the recorded shift. Buildings with a
+`historicalReview`, `museumReview` or `printedMapSymbol` are refused: those reviews decide their dates.
 
 Tests: `tests/mariehamn-building-maps.test.cjs`, `tests/test_mariehamn_building_maps.py`. The scope audit against
-the pre-review snapshot found exactly the 444 reviewed objects changed, one new source, and no geometry changes.
+the pre-review snapshot finds exactly the 575 reviewed objects changed, one new source, and no geometry changes.
+Against the first b1 publication, the 83 withdrawn houses are byte-identical to the snapshot again, the 361 kept
+are unchanged and 214 are newly dated.
 
 ## Next batches
 
 - Västernäs and Södra: must first reconcile with the `map-building:nls-symbol-*` printed-symbol objects so a dated
   outline and a symbol object never show the same house twice.
-- The 85 `earlier-unclear` and 47 `inconsistent` buildings in b1 need a closer look (often hatched public buildings,
-  replaced houses or houses under map lettering).
+- East of b1 (19.958–19.98° E) and the southern districts (60.08–60.09° N) have many undated houses and no symbol
+  objects.
+- The `earlier-unclear`, `inconsistent` and `visual-reject` buildings need a closer look (often hatched public
+  buildings, replaced houses, houses under map lettering, or a local registration offset).

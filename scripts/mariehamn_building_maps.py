@@ -20,6 +20,8 @@ from rural_registration import registration_pair
 TO_METRIC = Transformer.from_crs(4326, 3874, always_xy=True).transform
 FROM_MERCATOR = Transformer.from_crs(3857, 4326, always_xy=True).transform
 YEARS = [1968, 1985, 1995]
+# A curated history, museum or printed-symbol review decides these buildings' dates; the map review never overrides it.
+CURATED = ['historicalReview', 'museumReview', 'printedMapSymbol']
 # The provisional first-source wording no longer applies once a map gives an earlier date.
 PROVISIONAL = 'Första kartbelägget används tills en tidigare datering kan uppskattas; det är inte ett fastställt byggår.'
 
@@ -63,6 +65,8 @@ def apply_building_maps(read, catalog):
         o = objects.get(d['objectId'])
         if o is None or d['objectId'] in seen or fingerprint(o) != d['input'] or o.get('kind') != 'building' or not d['basis']:
             raise ValueError('Changed or repeated building: ' + d['objectId'])
+        if any(o.get(k) for k in CURATED):
+            raise ValueError('Building has a curated review that decides its dates: ' + d['objectId'])
         seen.add(d['objectId'])
         states, periods = o['states'], o['geometryPeriods']
         if (len(states) != 1 or states[0]['state'] != 'standing' or states[0]['from'] != d['originalFrom']

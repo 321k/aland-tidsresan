@@ -54,6 +54,15 @@ class BuildingMapTests(unittest.TestCase):
         # 1985 may be unclear only between 1968 and 1995 symbols.
         self.run_with(lambda r: self.decision(r, 1968, unclear=True)['observations'][2].update(outcome='unclear'))
 
+    def test_curated_building_rejected(self):
+        church = next(o for o in self.pristine['objects'] if o['id'] == 'building:osm:way-163034529')
+        self.assertTrue(church.get('historicalReview'))
+        def add(r):
+            d = dict(r['decisions'][0]); d['objectId'] = church['id']
+            from mariehamn_building_maps import fingerprint
+            d['input'] = fingerprint(church); r['decisions'].append(d)
+        self.run_with(add)
+
     def test_1978_road_revision_is_not_building_evidence(self):
         def use_1978(r):
             d = self.decision(r, 1985); d['observations'][1]['year'] = 1978

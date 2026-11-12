@@ -1,0 +1,7 @@
+patch -p1 --dry-run < batch.patch against the pre-edit copy: OK
+  (dist/index.html starts from exactly the state the b1 review's batch.patch produces, 711e4950…)
+applied forward; result identical to the working-tree file (diff -r): OK, except the generated loadingPreview bins
+  and startup-loader cache-stamp line, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+bdd30ca50a6043e48ee744ce989535a9466088675c7078f0480d8af2c45da708  batch.patch
+post-patch 15e3c5bcde4b278a69f4d50705c23efdc56a847a2fecb6a853141b1e6f9d5943  dist/index.html

@@ -1,0 +1,67 @@
+{
+ "building:osm:way-1066019953": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow or offset symbol), so the later start could be too late",
+  "contactSheet": "b2-contact-later",
+  "cell": 3
+ },
+ "building:osm:way-1555822876": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b2-contact-later",
+  "cell": 7
+ },
+ "building:osm:way-165914207": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b2-contact-later",
+  "cell": 12
+ },
+ "building:osm:way-165914220": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b2-contact-later",
+  "cell": 14
+ },
+ "building:osm:way-584481414": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b2-contact-later",
+  "cell": 26
+ },
+ "building:osm:way-632929543": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b2-contact-later",
+  "cell": 31
+ },
+ "building:osm:way-632929545": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b2-contact-later",
+  "cell": 32
+ },
+ "building:osm:way-632929554": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow or offset symbol), so the later start could be too late",
+  "contactSheet": "b2-contact-later",
+  "cell": 35
+ },
+ "building:osm:way-632991640": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow or offset symbol), so the later start could be too late",
+  "contactSheet": "b2-contact-later",
+  "cell": 50
+ },
+ "building:osm:way-1064220587": {
+  "reason": "shoreline-or-pier: the match is a shoreline, jetty or pier line, not a house",
+  "contactSheet": "b2-contact-1968",
+  "cell": 0
+ },
+ "building:osm:way-584481418": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b2-contact-1968",
+  "cell": 5
+ },
+ "building:osm:way-584481419": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b2-contact-1968",
+  "cell": 6
+ },
+ "building:osm:way-632929565": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b2-contact-1968",
+  "cell": 16
+ }
+}
