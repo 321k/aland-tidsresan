@@ -25,7 +25,7 @@ test('pass totals are reported once by first edition; parallel lanes add nothing
 
 test('each street starts at its first reviewed edition and keeps one stable geometry to 2026',()=>{
  for(const d of review.decisions){
-  assert.equal(at(d.id,d.firstYear-1).geometry,null,d.id);assert.equal(at(d.id,d.firstYear).state,'open',d.id);
+  assert.equal(at(d.id,(model.objects.get(d.id).approach1942?1942:d.firstYear)-1).geometry,null,d.id); /* the 1942 approach review may add earlier photo evidence */ assert.equal(at(d.id,d.firstYear).state,'open',d.id);
   // Unclear and absent editions before the start never move the start earlier.
   assert.ok(d.observations.filter(o=>o.year<d.firstYear).every(o=>o.outcome!=='present'),d.id);
   for(const o of d.observations){const r=at(d.id,o.year);assert.equal(Boolean(r.geometry),o.outcome==='present',`${d.id} ${o.year}`);

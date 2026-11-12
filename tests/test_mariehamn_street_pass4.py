@@ -32,6 +32,11 @@ class StreetPass4Tests(unittest.TestCase):
         self.assertEqual(len(catalog['objects']) - len(self.base['objects']), 63)
         built = {o['id']: o for o in json.loads(json.dumps(catalog, ensure_ascii=False))['objects'] if o['id'].startswith(PREFIX)}
         published = {o['id']: o for o in self.read('dist/assets/temporal-objects.json.gz')['objects'] if o['id'].startswith(PREFIX)}
+        for o in published.values():
+            if o.pop('approach1942', None):  # later 1942 approach review: undo its additions before comparing
+                o['states'].pop(0); o['geometryPeriods'].pop(0)
+                o['evidence'] = [e for e in o['evidence'] if not e['id'].endswith(':approach-photo-1942')]
+                o['sourceLinks'] = [l for l in o['sourceLinks'] if ':approach-1942:' not in l['featureId']]
         self.assertEqual(sorted(i for i in set(built) | set(published) if built.get(i) != published.get(i)), [])
         with self.assertRaises(ValueError):
             apply_street_pass4(self.read, catalog)

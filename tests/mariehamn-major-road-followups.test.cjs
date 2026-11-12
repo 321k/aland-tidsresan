@@ -14,7 +14,7 @@ test('follow-up roads start at their first reviewed edition and keep one stable 
  assert.equal(review.decisions.length,37);assert.equal(review.totals.newPersistentMeters,7641.79);assert.equal(review.totals.confirmedExistingMeters,0);
  assert.equal(Math.round(review.decisions.reduce((s,d)=>s+d.lengthMeters,0)*100)/100,7641.79);
  for(const d of review.decisions){
-  assert.equal(at(d.id,d.firstYear-1).geometry,null,d.id);
+  assert.equal(at(d.id,(model.objects.get(d.id).approach1942?1942:d.firstYear)-1).geometry,null,d.id); /* the 1942 approach review may add earlier photo evidence */ 
   assert.equal(at(d.id,d.firstYear).state,'open',d.id);
   for(const o of d.observations){const r=at(d.id,o.year);assert.equal(Boolean(r.geometry),o.outcome==='present',`${d.id} ${o.year}`);
    const e=r.object.evidence.find(e=>e.id===`${d.id}:map-${o.year}`);assert.equal(e.outcome,o.outcome);assert.equal(e.coverage,o.coverage)}

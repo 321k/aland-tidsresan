@@ -1,0 +1,77 @@
+{
+ "snapshotEqualsBaseline": true,
+ "objects": [
+  36221,
+  36221
+ ],
+ "geometries": [
+  47200,
+  47200
+ ],
+ "changedObjects": 30,
+ "changedObjectsAreMembers": true,
+ "earlierRecordsKept": true,
+ "geometriesUnchanged": true,
+ "sourcesAdded": [
+  "review:mariehamn-approaches-1942"
+ ],
+ "stageChanges": {
+  "city-reconstruction-1942": {
+   "removed": [
+    "city-reconstruction-1942:city-1942-street-0",
+    "city-reconstruction-1942:city-1942-street-1",
+    "city-reconstruction-1942:city-1942-street-4"
+   ],
+   "added": 37,
+   "modified": []
+  },
+  "city-reconstruction-1952": {
+   "removed": [
+    "city-reconstruction-1942:city-1942-street-0",
+    "city-reconstruction-1942:city-1942-street-1",
+    "city-reconstruction-1942:city-1942-street-4"
+   ],
+   "added": 37,
+   "modified": []
+  },
+  "city-nls-1968": {
+   "removed": [
+    "city-nls-1968:city-1942-street-0:outside:0",
+    "city-nls-1968:city-1942-street-1:outside:0",
+    "city-nls-1968:city-1942-street-4:outside:0"
+   ],
+   "added": 0,
+   "modified": []
+  },
+  "city-nls-1978": {
+   "removed": [
+    "city-nls-1978:city-1942-street-0:outside:0",
+    "city-nls-1978:city-1942-street-1:outside:0",
+    "city-nls-1978:city-1942-street-4:outside:0"
+   ],
+   "added": 0,
+   "modified": []
+  },
+  "city-nls-1982": {
+   "removed": [
+    "city-nls-1982:city-1942-street-0:outside:0",
+    "city-nls-1982:city-1942-street-1:outside:0",
+    "city-nls-1982:city-1942-street-4:outside:0"
+   ],
+   "added": 0,
+   "modified": []
+  },
+  "city-nls-1985": {
+   "removed": [
+    "city-nls-1985:city-1942-street-0:outside:0",
+    "city-nls-1985:city-1942-street-1:outside:0",
+    "city-nls-1985:city-1942-street-4:outside:0"
+   ],
+   "added": 0,
+   "modified": []
+  }
+ },
+ "removedStageFeaturesAreTraces": true,
+ "otherTopLevelChanged": [],
+ "afterSha256": "6948f533c37f88786104cc8b1a8c3c543bd4f68c8a25daf328834b34665b20a0"
+}

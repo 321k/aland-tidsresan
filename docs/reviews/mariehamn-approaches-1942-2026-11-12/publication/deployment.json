@@ -1,0 +1,37 @@
+{
+ "deployedAt": "2026-11-12",
+ "versionId": "7c730ce9-4a66-4379-b989-eeb38575c641",
+ "tool": "wrangler@4.149.0",
+ "domain": "https://åland.erikedin.com/",
+ "baseLiveVersion": "04f931de-8670-4551-b2e2-ab331cb34d07 (all 288 live files matched the previous release before building)",
+ "contents": "Mariehamn junction review and the 1942 approach-trace review, released together because the 1942 step runs after the junction review in the same build.",
+ "changedFiles": [
+  "/assets/temporal-objects.json.gz",
+  "/assets/mariehamn-junction-review.json",
+  "/assets/mariehamn-approaches-1942.json",
+  "/assets/historical-roads.json",
+  "/index.html",
+  "/temporal-objects.js",
+  "/object.html",
+  "/historical-roads.js",
+  "/object-page.js"
+ ],
+ "uploaded": "9 new or modified assets, 281 already uploaded",
+ "excluded": "Other unpublished workspace changes; temporal-objects.js, object.html, historical-roads.js and object-page.js differ from live only in ?v= stamps.",
+ "catalogueDiffAgainstLive": "Junction review: 6 objects, 140 geometries and 1 source added, all with its prefixes. 1942 review: 30 objects changed (a 1942 state, period and photo evidence prepended; earlier records unchanged), 1 source added, no geometry added or changed; in each city stage only the three 1942 trace features removed, and 37 features added to the 1942 and 1952 stages. Nothing else changed.",
+ "historicalRoadsDiffAgainstLive": "Only photo-1942-5 (Södra vägen på halvön, 1942) removed.",
+ "jsTests": "226 relevant tests passed against the release tree; full local suite 490/490",
+ "dryRun": "ok",
+ "liveSha256Match": {
+  "assets/temporal-objects.json.gz": "6948f533c37f88786104cc8b1a8c3c543bd4f68c8a25daf328834b34665b20a0",
+  "assets/mariehamn-junction-review.json": "cdf25f5a12d42f7f11ada65f6f0f00bb526170986ee4563cb1fc699185abc946",
+  "assets/mariehamn-approaches-1942.json": "29df6a1ea49494139a20d46dfca7743c5b38508b049a33d830039d785f1f97d9",
+  "assets/historical-roads.json": "30460bdab8482e08bfe063c3c467b59e42052d34f7ae337d644efe283ee4a64e",
+  "index.html": "88c3887c4306de3f5cc7331f16e255efccb132433e58c6a632302fb27fe9f4ff",
+  "temporal-objects.js": "49875cf8dda90dfb38e5b03c7626d977254dc8c6abd54243dae5ec44b8a37da9",
+  "object.html": "8afd39bcae8ae501ca59efb8459e1b0542075e1a6f689a625d555bd3d697a59f",
+  "historical-roads.js": "39afbb45c28ac220eb0fa8eb1b522938f60b7c83db651974c5c2d874c7dd351d",
+  "object-page.js": "d391547409bdc9ab94712167e342d52b49c64862aea0d4476292ea3daa049fc5"
+ },
+ "liveChecks": "All 290 release files fetched from the live domain match byte for byte. /api/vessels 200."
+}

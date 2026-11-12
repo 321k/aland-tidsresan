@@ -1,0 +1,779 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-12",
+ "source": {
+  "id": "review:mariehamn-approaches-1942",
+  "title": "Infartsvägarna på flygfotot 1942 · granskning",
+  "url": "assets/mariehamn-approaches-1942.json"
+ },
+ "aerialSourceId": "mariehamn-aerial-1942",
+ "method": "De tre förenklade 1942-spåren (12–13 punkter vardera, ritade på en vy med 4 m/pixel) jämfördes med originalfotot den 25 juli 1942 som georefererade rutor med 2 m/pixel, med kartbladet 101208 från 1968 och med dagens vägar. Där fotot visar vägen i samma läge som ett beständigt vägobjekt får objektet fotot som belägg från 1942 och visas med sin egen mittlinje. Spåret visas bara i korta luckor där inget objekt motsvarar vägen, och bara 1942–1967. Från 1968 visar de daterade objekten vägarna.",
+ "rejected": [
+  {
+   "traceId": "city-1942-trace-4",
+   "photoFeatureId": "photo-1942-5",
+   "name": "Södra vägen på halvön, 1942",
+   "pixels": [
+    [
+     621,
+     994
+    ],
+    [
+     641,
+     1054
+    ],
+    [
+     656,
+     1088
+    ],
+    [
+     654,
+     1125
+    ],
+    [
+     650,
+     1149
+    ],
+    [
+     644,
+     1178
+    ],
+    [
+     658,
+     1243
+    ],
+    [
+     674,
+     1291
+    ],
+    [
+     695,
+     1316
+    ],
+    [
+     710,
+     1347
+    ],
+    [
+     728,
+     1390
+    ],
+    [
+     738,
+     1420
+    ],
+    [
+     744,
+     1448
+    ]
+   ],
+   "inputHash": "e676c5d8b3135c40f9a9096635b0e4e2bf22d6ac95b221be28397e7c32f54b1b",
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-4",
+     "inputHash": "dad43aa83c37a2629c2b01a73a19e43a20177dca7b80bc6771ebd6d8d1e4b727",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-4",
+     "inputHash": "dad43aa83c37a2629c2b01a73a19e43a20177dca7b80bc6771ebd6d8d1e4b727",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-4:outside:0",
+     "inputHash": "a1523131194cd5b9c7ed57b0b09a0e64b0198ce566a2bf7e37bd18a8a35bfe15",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-4:outside:0",
+     "inputHash": "abf1b9cb2e573d1e36b2707e2d1650b3f52bd1b3df130fb602383a93cd7e779a",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-4:outside:0",
+     "inputHash": "645eae2b65274a75c437583455001f9aad6a41eef2bf13d05d43aa8be0b0452c",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-4:outside:0",
+     "inputHash": "6936747ed4c2783b5942a8e0567375980cd83c74b91b75fbf5fa6938952ddc47",
+     "outside": true
+    }
+   ],
+   "basis": "Ingen väg syns på originalfotot 1942 längs spåret: söder om stadskanten går det genom sammanhängande skog och bergig mark, och längst i norr över mark som 1968 är bebyggda kvarter. Kartan 1968 visar ingen väg i läget. Halvöns verkliga väg 1942 är huvudvägen (Västra Ytternäsvägen) 100–330 m längre västerut. Spåret visas inte längre; originalpunkterna finns kvar i källfilen."
+  }
+ ],
+ "approaches": [
+  {
+   "traceId": "city-1942-trace-1",
+   "photoFeatureId": "photo-1942-2",
+   "name": "Östra infarten norrifrån, 1942",
+   "pixels": [
+    [
+     623,
+     72
+    ],
+    [
+     620,
+     175
+    ],
+    [
+     614,
+     250
+    ],
+    [
+     590,
+     305
+    ],
+    [
+     565,
+     350
+    ],
+    [
+     565,
+     382
+    ],
+    [
+     577,
+     457
+    ],
+    [
+     583,
+     517
+    ],
+    [
+     595,
+     592
+    ],
+    [
+     610,
+     662
+    ],
+    [
+     624,
+     730
+    ],
+    [
+     635,
+     798
+    ]
+   ],
+   "inputHash": "f74485f9d4e45037ed306e80659e70043f74b22ac3f8a26a48cd3c89aa8beecb",
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-1",
+     "inputHash": "2e039521eaa4dce489e53bc4e5a191d6d86bc34068c19112fb8a00aaa6dbbd2f",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-1",
+     "inputHash": "2e039521eaa4dce489e53bc4e5a191d6d86bc34068c19112fb8a00aaa6dbbd2f",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-1:outside:0",
+     "inputHash": "69f277bd1b397a541c8a0d27e493235ee0fb9722a78d721d4b576caa3fba2690",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-1:outside:0",
+     "inputHash": "adeaa698d004a1eac428c858f53264eea92ada1dee38663c9cf0f8f93a058d5c",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-1:outside:0",
+     "inputHash": "1c77f6ab9f568b1a4c15e3d678036e433a340c6c76d1f1484dc9b9b08bba2f48",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-1:outside:0",
+     "inputHash": "b3d51ba0f22797568ade3d9fa8b7ddd851c765bf016753dcaaf8265da514d527",
+     "outside": true
+    }
+   ],
+   "key": "ostra",
+   "maxDeviationMeters": 65,
+   "snapMeters": 65,
+   "dropTail": true,
+   "basis": "Den östra infarten syns tydligt på fotot 1942: Godbyvägen söderut, kurvan vid Johannebo, sträckan förbi dagens Grindmattesvägen och Strandgatan in mot staden. Spårets sista del följer Strandgatan, som redan visas från 1861, och visas därför inte. Spåret är en grov korda som skär av kurvorna med upp till 20–60 m mot objektens mittlinjer; avståndsgränsen mot spåret (65 m) är bara en identitetskontroll, belägget är den visuella granskningen.",
+   "members": [
+    {
+     "objectId": "road:mariehamn:major-followup:godbyvagen-south-of-bolstavagen",
+     "inputHash": "82692f56daebbafe0898825d20e36eb62ac726b0babb7f6c6575eb78ae6088ca",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:major:way-930505693",
+     "inputHash": "450b18ca2cd750019cb0fe2f685716bbb52671f829c09ee15616955b90db4c58",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:major-followup:godbyvagen-dual-north-of-158304921",
+     "inputHash": "5d553ef62209ff0b959df4d511176a521b271e74ce7452041be7d0346db9031e",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:major:way-158304921",
+     "inputHash": "1d63219070766e4e6fd5d915ebebef80a636e532591b3c0408970337902ca9c0",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:major:way-612701769",
+     "inputHash": "7b40c24415391d29294692e4c062d8ea62bbf434c316587edef48c79adbbccb9",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:major:way-1298787834",
+     "inputHash": "35b3895fff21c3f3c868375fcd51da5e7a7bbeb5411b3f4543c1688394486356",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:street-pass3:johannebovagen",
+     "inputHash": "94a077a6067ac4886b7ff18c336ac8c3d5cfbc07f212cbd81ca6583c761df3f0",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:major-followup:grindmattesvagen",
+     "inputHash": "c3341642240da9cb95bde93b19d0ff4db82110c42b7cce5f78cc0c9f7577943a",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-949213328",
+     "inputHash": "cb426ce2e2862aef0d862d04fceb967a78627f0fc1bb9c96301788c490a8c120",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-44950148",
+     "inputHash": "3ca5051483f33a098dbe1e8cb63b5b44a3efce78e77cceb73701076fbf5c7c92",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-1057521575",
+     "inputHash": "3e8edfd1c21c1c9a2f5f3a9ce4f0816266d8983c431a2e2703112d646ed94f79",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-345678687",
+     "inputHash": "7ad6fdab04b28cd7d89d84c0cfd2fee23be19261a3a86eb836705e8b14ad0fae",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-35052767",
+     "inputHash": "d3d3b1a8925b0157252ec81e3bbaae6704d93b1d6da145bc75eac86f535ce40c",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-1082959128",
+     "inputHash": "845ec7687611d24f5a140eaf91ad7f18c4af11f1b75dd7d923f67dec58f73459",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-1097579040",
+     "inputHash": "32863bfea957095f0962f1c9649031b60aef44ed28c5a4e1aacfed6914a4a180",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-1097579039",
+     "inputHash": "2215cc0401199257e5c00f75d7e492a9f42239ddc7e013fc4ca9cb9f7a3669d1",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-44950092",
+     "inputHash": "5b7503a5ad1983c50b6b6e0809cf1bc49d47b969fec57ff0f9765b17bf241a74",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    }
+   ],
+   "retracedGaps": [
+    {
+     "fromObjectId": "road:mariehamn:major-followup:grindmattesvagen",
+     "toObjectId": "road:postwar:way-949213328",
+     "epsg3874": [
+      [
+       20496685.0,
+       6666388.3
+      ],
+      [
+       20496664.0,
+       6666370.0
+      ],
+      [
+       20496664.0,
+       6666356.0
+      ],
+      [
+       20496652.0,
+       6666334.0
+      ],
+      [
+       20496646.0,
+       6666302.0
+      ],
+      [
+       20496642.0,
+       6666298.0
+      ],
+      [
+       20496642.0,
+       6666272.0
+      ],
+      [
+       20496664.0,
+       6666196.0
+      ],
+      [
+       20496676.0,
+       6666178.0
+      ],
+      [
+       20496682.0,
+       6666156.0
+      ],
+      [
+       20496714.0,
+       6666096.0
+      ],
+      [
+       20496748.0,
+       6665994.0
+      ],
+      [
+       20496756.0,
+       6665940.0
+      ],
+      [
+       20496756.0,
+       6665904.0
+      ],
+      [
+       20496750.5,
+       6665900.1
+      ]
+     ],
+     "method": "Least-cost path over local relative brightness of the 1942 orthophoto at 2 m/px, simplified to 2 m.",
+     "corridorMeters": 60.0,
+     "sha256": "729f283ca59ec1b70b6552788d963dbc78a364f24db760f99edd26d06c84bef4",
+     "basis": "Mellan Grindmattesvägen och Strandgatan går 1942 års väg i en båge väster om dagens gator; spåret avviker där 30–40 m. Mittlinjen följer den ljusa vägytan på originalfotot (2 m/pixel) som en minsta-kostnadsväg mellan de två objektändarna, förenklad till 2 m och granskad visuellt (retrace-*.jpg)."
+    }
+   ],
+   "excluded": [
+    {
+     "objectId": "road:mariehamn:major:way-165358627",
+     "reason": "Den norra änden ligger utanför fotots täckning."
+    },
+    {
+     "objectId": "road:mariehamn:junction-review:godbyvagen-bolstavagen",
+     "reason": "Korsningsdelar; korsningen 1942 granskas inte här."
+    },
+    {
+     "objectId": "road:mariehamn:street-pass3:skiljevagen",
+     "reason": "Bara den norra halvan följer 1942 års väg; den södra halvan saknas på fotot."
+    },
+    {
+     "objectId": "road:postwar:way-35011592",
+     "reason": "Ritas redan 1942 av stadskartans eget Strandgatans spår (Strandgatan · 1942); att förtidigarelägga objektet skulle ge en dubbel linje."
+    },
+    {
+     "objectId": "road:mariehamn:major:way-40103454",
+     "reason": "Nya Godbyvägen dateras från 1978; 1942 års väg vid Rökerirondellen motsvaras inte av ett eget objekt."
+    }
+   ]
+  },
+  {
+   "traceId": "city-1942-trace-0",
+   "photoFeatureId": "photo-1942-1",
+   "name": "Västra infarten norrifrån, 1942",
+   "pixels": [
+    [
+     315,
+     150
+    ],
+    [
+     370,
+     155
+    ],
+    [
+     382,
+     175
+    ],
+    [
+     409,
+     291
+    ],
+    [
+     437,
+     385
+    ],
+    [
+     476,
+     471
+    ],
+    [
+     486,
+     511
+    ],
+    [
+     492,
+     552
+    ],
+    [
+     502,
+     601
+    ],
+    [
+     535,
+     633
+    ],
+    [
+     552,
+     668
+    ],
+    [
+     560,
+     705
+    ],
+    [
+     568,
+     752
+    ]
+   ],
+   "inputHash": "6549301d9c0e93bf1e14eacef736d144c2412afd9d64f22724db5b645a124bea",
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-0",
+     "inputHash": "a68e534096d5fa97949ea8c6ceb10e8674e6a6cd211e9abd7eff6adb0b01484f",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-0",
+     "inputHash": "a68e534096d5fa97949ea8c6ceb10e8674e6a6cd211e9abd7eff6adb0b01484f",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-0:outside:0",
+     "inputHash": "bd5f2c93063527776da0e937aa18c62e7547303c2260b9e5b8c6bba3f8c3beb6",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-0:outside:0",
+     "inputHash": "e1056873c19ffcd5c75a961106e37a70f0fbfa68c477ef3133e86ebce6c191e2",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-0:outside:0",
+     "inputHash": "9aaf0b65c4bd37f73905f3bfabc8407ea2750910e28e57fe1fe75e9a65a0d6fd",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-0:outside:0",
+     "inputHash": "5b00866c46fb95dfc767e869ac1eeab13f491ed00a1b063707b8fd3174c535b8",
+     "outside": true
+    }
+   ],
+   "key": "vastra",
+   "maxDeviationMeters": 90,
+   "snapMeters": 90,
+   "dropTail": true,
+   "basis": "Den västra infarten syns tydligt på fotot 1942: från västra kanten österut till kröken, Svibyvägen söderut, diagonalen ned till Klintvägens raka norra del och Klintgränd, Västra Utfartens diagonal och Ålandsvägen söderut mot staden. Spårets sista del in i staden avviker 30–50 m och visas inte. Spåret är en grov korda; avståndsgränsen mot spåret (90 m) är bara en identitetskontroll, belägget är den visuella granskningen.",
+   "members": [
+    {
+     "objectId": "road:qgis:mariehamn:svibyvagen-1-200km2",
+     "inputHash": "1fa474ed09692b134a474f75081c31d4de39b19e94c53bc7df5ae7c90003bf1e",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:street-pass4:klintvagen",
+     "inputHash": "5b74d1132c26133ca4f44b4936ab23c5348624ccb3a08cbc2dea3359e7fe9f1e",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:mariehamn:street-pass4:klintgrand",
+     "inputHash": "98ff48faf32a7724dc96b7b2d736210679956f314da02e05f71e82aba41d30c4",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-43518012",
+     "inputHash": "22aa1efd7a5823b5fe5b26069ecfe0ca472e65135115c1afd2dd87697655e661",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-935167645",
+     "inputHash": "3facaa6f3da4b566ade388982c6b94291d82265dbd6f15ba117c51fb72d1d5db",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-77039253",
+     "inputHash": "fcbc53e18029c5b1037731a9b7472fbc59af72146aaba3b24f9a881e97602a83",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-346833252",
+     "inputHash": "53d199fa0ef1ea21967e0c509871d19c5113e469769e8db674458386515e6f39",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-652150733",
+     "inputHash": "16a635e0fe3bf41a2deec6403b583e90c626e288432243f7b19a77e8f03a4d7c",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-652150732",
+     "inputHash": "5b1465aa8f9b963fc6218b60bbc4039cc03be96433c843a1cc01ab4b675417a8",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-652150731",
+     "inputHash": "9d208c199dab11b7d26fb424a6cfd633f02aafd52da642300f3f1559022fc23f",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-652150737",
+     "inputHash": "9866c334c692fb399cbbf948c227f12c7a5707d32e0ba8b842b3a5144655fd52",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-652158694",
+     "inputHash": "b452a6d8c919733c0175fa3dda47c69269c68d473411fbbaf1d621e8c00fe88f",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    },
+    {
+     "objectId": "road:postwar:way-652158695",
+     "inputHash": "3f3dab5c6d10ee124c008d09ae0a09f3b341d62583ee695433eea79246aef701",
+     "originalFrom": 1968,
+     "note": "Vägkorridoren syns på originalfotot den 25 juli 1942 i samma läge som objektets mittlinje. Fotot daterar inte byggår, bredd eller beläggning."
+    }
+   ],
+   "retracedGaps": [
+    {
+     "fromObjectId": "road:qgis:mariehamn:svibyvagen-1-200km2",
+     "toObjectId": "road:mariehamn:street-pass4:klintvagen",
+     "epsg3874": [
+      [
+       20496088.4,
+       6666755.6
+      ],
+      [
+       20496086.0,
+       6666746.0
+      ],
+      [
+       20496124.0,
+       6666604.0
+      ],
+      [
+       20496154.0,
+       6666514.0
+      ],
+      [
+       20496170.0,
+       6666480.0
+      ],
+      [
+       20496176.0,
+       6666470.0
+      ],
+      [
+       20496202.0,
+       6666444.0
+      ],
+      [
+       20496242.0,
+       6666416.0
+      ],
+      [
+       20496256.0,
+       6666402.0
+      ],
+      [
+       20496284.0,
+       6666386.0
+      ],
+      [
+       20496317.8,
+       6666351.4
+      ]
+     ],
+     "method": "Least-cost path over local relative brightness of the 1942 orthophoto at 2 m/px, simplified to 2 m.",
+     "corridorMeters": 70.0,
+     "sha256": "d8e679245d3f4a4b04d5a91bdcf5bb5372a14dda8299d309454fdd72c95d87f4",
+     "basis": "Från Svibyvägen till Klintvägen går 1942 års väg som en jämn diagonal; inget objekt följer hela sträckan. Mittlinjen följer den ljusa vägytan på originalfotot (2 m/pixel) som en minsta-kostnadsväg mellan de två objektändarna, förenklad till 2 m och granskad visuellt (retrace-*.jpg)."
+    }
+   ],
+   "excluded": [
+    {
+     "objectId": "road:qgis:mariehamn:svibyvagen-2-200km2",
+     "reason": "Kort anslutningsdel vid den senare Västra rondellen."
+    },
+    {
+     "objectId": "road:mariehamn:street-pass3:stenhuggarvagen",
+     "reason": "Diagonalen följer 1942 års väg, men den norra änden kröker västerut där fotot inte visar någon väg; sträckan visas i stället med en ny mittlinje ritad efter fotot."
+    },
+    {
+     "objectId": "road:postwar:way-345139187",
+     "reason": "Västra Utfartens nordvästra stump vid Klintgränd syns inte på fotot; 1942 går vägen rakt söderut från Klintgränd och svänger sedan in i diagonalen."
+    },
+    {
+     "objectId": "road:postwar:way-35432034",
+     "reason": "Kort korsningsdel vid samma stump."
+    },
+    {
+     "objectId": "road:postwar:way-1095723009",
+     "reason": "Kort delad korsningsdel vid Ålandsplan."
+    },
+    {
+     "objectId": "road:postwar:way-43519502",
+     "reason": "Kort delad korsningsdel vid Ålandsplan."
+    },
+    {
+     "objectId": "road:postwar:way-43519494",
+     "reason": "Kort delad korsningsdel vid Ålandsplan."
+    },
+    {
+     "objectId": "road:mariehamn:major-followup:vastra-rondellen",
+     "reason": "Rondellen dateras från 1995."
+    }
+   ]
+  }
+ ],
+ "reviewImages": [
+  {
+   "file": "trace-1942/chk-alandsplan.jpg",
+   "sha256": "eea10705c0085255db0f68c0288c8ea3993e4526bd51f234b4c12a7c5f8598b6"
+  },
+  {
+   "file": "trace-1942/chk-stenhuggar.jpg",
+   "sha256": "9351a4e845806e52802f498935f8f2443307ebdd7c8bcb7cd1a6bad105447084"
+  },
+  {
+   "file": "trace-1942/ostra-1942-pair.jpg",
+   "sha256": "963b93b9dd4a350ac50cee6e254d47642f520c9982cb414168e15705f29f4d47"
+  },
+  {
+   "file": "trace-1942/ostra-1968.jpg",
+   "sha256": "4e277af5aa84605b24f321bfc7436cb9128efc9eb7cba42b85defa70427b82b9"
+  },
+  {
+   "file": "trace-1942/ostra-label-0.jpg",
+   "sha256": "e1b1b0a253953976beac18c5361384015f145fcf27ea6706ad313b862bcb9d91"
+  },
+  {
+   "file": "trace-1942/ostra-label-1.jpg",
+   "sha256": "dd8d707e05dd62df61cc40000396f7cb7c8ccd56a0584dc6fca20e6bf2e0f8d6"
+  },
+  {
+   "file": "trace-1942/ostra-label-2.jpg",
+   "sha256": "047ab411aef8193cf06d6851df8d615741979bfb5c8eee25c092c53cdf398454"
+  },
+  {
+   "file": "trace-1942/ostra-label-3.jpg",
+   "sha256": "756ba4fff6b9c823fcedcc81188d53399ac046dc81d9fcdf2aa44c981160ebd6"
+  },
+  {
+   "file": "trace-1942/ostra-zoom.jpg",
+   "sha256": "c0dc90f4efa7a687064f942bb35d4911a97c5146265343d9f779cf2a89d169e7"
+  },
+  {
+   "file": "trace-1942/result-1945.jpg",
+   "sha256": "6c5d3bdfafc25fe338e87509279e4389c989944495009cfd7d9c71f8e91c108e"
+  },
+  {
+   "file": "trace-1942/result-1970.jpg",
+   "sha256": "a0d3e78bbf6005964508b4679adb9d8a8eee6fd57d40722e034475aa3a9e9b6b"
+  },
+  {
+   "file": "trace-1942/retrace-ostra-ridge.jpg",
+   "sha256": "a306214ddb32f9175f51421aaaaf46e9c4f6d51c0d5aaa1eed1599ead90fde68"
+  },
+  {
+   "file": "trace-1942/retrace-ostra.jpg",
+   "sha256": "788d183a2f788633250fa51476601c36419d23c3b531bf6ae15f1a92d49eeb35"
+  },
+  {
+   "file": "trace-1942/retrace-vastra.jpg",
+   "sha256": "2e6940a448bca9f86c70d04fddd6be482b65e5fbe333177666eda499646c5069"
+  },
+  {
+   "file": "trace-1942/sodra-1942-pair.jpg",
+   "sha256": "f227fd8c57da041f0219818fce24060041ad4e63c056a7a3af7206105c36cbf0"
+  },
+  {
+   "file": "trace-1942/sodra-1968.jpg",
+   "sha256": "1a09ae45df91514a9a31bed4cf9c8185a84523275d31faeeb05040a263f71248"
+  },
+  {
+   "file": "trace-1942/sodra-zoom0.jpg",
+   "sha256": "7bd9e895f3a9fde9f12d81964440cedb8a5f421b901bd6659ac05bbebde48f65"
+  },
+  {
+   "file": "trace-1942/sodra-zoom1.jpg",
+   "sha256": "c91ebebc57812d8b1a02531c174b388dadd3ded1544d148af10d58b87e44904c"
+  },
+  {
+   "file": "trace-1942/vastra-1942-pair.jpg",
+   "sha256": "fb7cead30b57da8a9df751f4766ee6ec02e2303d6bc0a766ac8a27c57dab21b7"
+  },
+  {
+   "file": "trace-1942/vastra-label-0.jpg",
+   "sha256": "7ce9cf63af80f538ce4455e1ce627040c2b247f559841a6660fa06b04e86a50e"
+  },
+  {
+   "file": "trace-1942/vastra-label-1.jpg",
+   "sha256": "13453eeffb31f65e6f1c32ee59db0cfd20171f0dc8f87c2bf3166e1981a2185f"
+  },
+  {
+   "file": "trace-1942/vastra-label-2.jpg",
+   "sha256": "d432359e9eeb08bb0fdd5b6cc4ff41328d09a28df073d08ef7e2978574f3fde4"
+  },
+  {
+   "file": "trace-1942/vastra-label-3.jpg",
+   "sha256": "10cbe4c238b65fb405709dd270c58bc0865ff1b31ba4c1895eb7673f68fa75f1"
+  }
+ ],
+ "tileManifestSha256": "d8274af142341552244b0bfd12188b273cfe7e691e76e9d6870bf178cdeb887b"
+}

@@ -1,0 +1,366 @@
+[
+ {
+  "n": 0,
+  "objectId": "road:mariehamn:major:way-165358627",
+  "name": "Godbyvägen",
+  "firstOpen": 1968,
+  "alongMeters": 0
+ },
+ {
+  "n": 1,
+  "objectId": "road:mariehamn:junction-review:godbyvagen-bolstavagen",
+  "name": "Godbyvägen",
+  "firstOpen": 1968,
+  "alongMeters": 81
+ },
+ {
+  "n": 2,
+  "objectId": "road:mariehamn:junction-review:bolstavagen-west-approach",
+  "name": "Bolstavägen",
+  "firstOpen": 1978,
+  "alongMeters": 124
+ },
+ {
+  "n": 3,
+  "objectId": "road:mariehamn:major-followup:godbyvagen-south-of-bolstavagen",
+  "name": "Godbyvägen",
+  "firstOpen": 1968,
+  "alongMeters": 190
+ },
+ {
+  "n": 4,
+  "objectId": "road:mariehamn:major:way-930505693",
+  "name": "Godbyvägen",
+  "firstOpen": 1968,
+  "alongMeters": 246
+ },
+ {
+  "n": 5,
+  "objectId": "road:mariehamn:major-followup:knappelstensvagen",
+  "name": "Knappelstensvägen",
+  "firstOpen": 1985,
+  "alongMeters": 311
+ },
+ {
+  "n": 6,
+  "objectId": "road:mariehamn:major-followup:godbyvagen-dual-north-of-158304921",
+  "name": "Godbyvägen",
+  "firstOpen": 1968,
+  "alongMeters": 351
+ },
+ {
+  "n": 7,
+  "objectId": "road:mariehamn:major:way-158304921",
+  "name": "Godbyvägen",
+  "firstOpen": 1968,
+  "alongMeters": 514
+ },
+ {
+  "n": 8,
+  "objectId": "road:mariehamn:street-pass3:mellangardsvagen",
+  "name": "Mellangårdsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 622
+ },
+ {
+  "n": 9,
+  "objectId": "road:mariehamn:major:way-612701769",
+  "name": "Godbyvägen",
+  "firstOpen": 1968,
+  "alongMeters": 679
+ },
+ {
+  "n": 10,
+  "objectId": "road:mariehamn:major-followup:bastuvagen",
+  "name": "Bastuvägen",
+  "firstOpen": 1985,
+  "alongMeters": 688
+ },
+ {
+  "n": 11,
+  "objectId": "road:mariehamn:street-pass3:krokensvagen",
+  "name": "Krokensvägen",
+  "firstOpen": 1968,
+  "alongMeters": 788
+ },
+ {
+  "n": 12,
+  "objectId": "road:mariehamn:major:way-1298787834",
+  "name": "Godbyvägen",
+  "firstOpen": 1968,
+  "alongMeters": 801
+ },
+ {
+  "n": 13,
+  "objectId": "road:mariehamn:street-pass3:grantorpsvagen",
+  "name": "Grantorpsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 856
+ },
+ {
+  "n": 14,
+  "objectId": "road:mariehamn:major:way-40103454",
+  "name": "Nya Godbyvägen",
+  "firstOpen": 1978,
+  "alongMeters": 864
+ },
+ {
+  "n": 15,
+  "objectId": "road:mariehamn:street-pass3:johannebovagen",
+  "name": "Johannebovägen",
+  "firstOpen": 1968,
+  "alongMeters": 913
+ },
+ {
+  "n": 16,
+  "objectId": "road:mariehamn:street-pass3:dalgrand",
+  "name": "Dalgränd",
+  "firstOpen": 1985,
+  "alongMeters": 968
+ },
+ {
+  "n": 17,
+  "objectId": "road:mariehamn:major-followup:nya-godbyvagen-rokeri-approach",
+  "name": "Nya Godbyvägen · tillfart till Rökerirondellen",
+  "firstOpen": 1978,
+  "alongMeters": 1128
+ },
+ {
+  "n": 18,
+  "objectId": "road:mariehamn:street-pass3:sanatorievagen",
+  "name": "Sanatorievägen",
+  "firstOpen": 1968,
+  "alongMeters": 1159
+ },
+ {
+  "n": 19,
+  "objectId": "road:mariehamn:major-followup:rokerirondellen",
+  "name": "Rökerirondellen",
+  "firstOpen": 1978,
+  "alongMeters": 1229
+ },
+ {
+  "n": 20,
+  "objectId": "road:mariehamn:major-followup:sjukhusvagen-rokeri-lane",
+  "name": "Sjukhusvägen · norra körfältet mot Rökerirondellen",
+  "firstOpen": 1978,
+  "alongMeters": 1234
+ },
+ {
+  "n": 21,
+  "objectId": "road:mariehamn:major:way-44108106",
+  "name": "Sjukhusvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1242
+ },
+ {
+  "n": 22,
+  "objectId": "road:mariehamn:street-pass5:grindmattesvagen-link",
+  "name": "Grindmattesvägen",
+  "firstOpen": 1985,
+  "alongMeters": 1279
+ },
+ {
+  "n": 23,
+  "objectId": "road:mariehamn:street-pass4:grindmattesvagen",
+  "name": "Grindmattesvägen",
+  "firstOpen": 1985,
+  "alongMeters": 1284
+ },
+ {
+  "n": 24,
+  "objectId": "road:mariehamn:major-followup:vedhuggsvagen-east",
+  "name": "Vedhuggsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1356
+ },
+ {
+  "n": 25,
+  "objectId": "road:mariehamn:major-followup:grindmattesvagen",
+  "name": "Grindmattesvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1481
+ },
+ {
+  "n": 26,
+  "objectId": "road:mariehamn:street-pass4:kapellvagen",
+  "name": "Kapellvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1667
+ },
+ {
+  "n": 27,
+  "objectId": "road:mariehamn:major:way-209112215",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 1928
+ },
+ {
+  "n": 28,
+  "objectId": "road:mariehamn:street-pass4:gustaf-eriksonsgrand",
+  "name": "Gustaf Eriksonsgränd",
+  "firstOpen": 1985,
+  "alongMeters": 1976
+ },
+ {
+  "n": 29,
+  "objectId": "road:mariehamn:street-pass4:bjorkmansgrand",
+  "name": "Björkmansgränd",
+  "firstOpen": 1968,
+  "alongMeters": 2049
+ },
+ {
+  "n": 30,
+  "objectId": "road:mariehamn:street-pass4:sundblomsgrand",
+  "name": "Sundblomsgränd",
+  "firstOpen": 1968,
+  "alongMeters": 2122
+ },
+ {
+  "n": 31,
+  "objectId": "road:mariehamn:street-pass4:knorringsgrand",
+  "name": "Knorringsgränd",
+  "firstOpen": 1968,
+  "alongMeters": 2195
+ },
+ {
+  "n": 32,
+  "objectId": "road:mariehamn:street-pass3:skiljevagen",
+  "name": "Skiljevägen",
+  "firstOpen": 1968,
+  "alongMeters": 2204
+ },
+ {
+  "n": 33,
+  "objectId": "road:postwar:way-949213328",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2261
+ },
+ {
+  "n": 34,
+  "objectId": "road:mariehamn:street-pass4:gummerusgrand",
+  "name": "Gummerusgränd",
+  "firstOpen": 1968,
+  "alongMeters": 2267
+ },
+ {
+  "n": 35,
+  "objectId": "road:mariehamn:street-pass4:arensgrand",
+  "name": "Arensgränd",
+  "firstOpen": 1968,
+  "alongMeters": 2337
+ },
+ {
+  "n": 36,
+  "objectId": "road:postwar:way-44950148",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2398
+ },
+ {
+  "n": 37,
+  "objectId": "road:mariehamn:street-pass5:skeppargatan-gap",
+  "name": "Skeppargatan",
+  "firstOpen": 1968,
+  "alongMeters": 2435
+ },
+ {
+  "n": 38,
+  "objectId": "road:postwar:way-1057521575",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2498
+ },
+ {
+  "n": 39,
+  "objectId": "road:postwar:way-345678687",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2566
+ },
+ {
+  "n": 40,
+  "objectId": "road:postwar:way-35052767",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2596
+ },
+ {
+  "n": 41,
+  "objectId": "road:postwar:way-346774781",
+  "name": "Styrmansgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2618
+ },
+ {
+  "n": 42,
+  "objectId": "road:postwar:way-44108093",
+  "name": "Styrmansgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2619
+ },
+ {
+  "n": 43,
+  "objectId": "road:styrmansgatan:strandgatan-osterleden",
+  "name": "Styrmansgatan · Strandgatan–Österleden",
+  "firstOpen": 1978,
+  "alongMeters": 2621
+ },
+ {
+  "n": 44,
+  "objectId": "road:postwar:way-1082959128",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2624
+ },
+ {
+  "n": 45,
+  "objectId": "road:postwar:way-1097579040",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2644
+ },
+ {
+  "n": 46,
+  "objectId": "road:postwar:way-1097579039",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2672
+ },
+ {
+  "n": 47,
+  "objectId": "road:postwar:way-44950092",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2695
+ },
+ {
+  "n": 48,
+  "objectId": "road:postwar:way-626549150",
+  "name": "Köpmansgatan",
+  "firstOpen": 1952,
+  "alongMeters": 2706
+ },
+ {
+  "n": 49,
+  "objectId": "road:postwar:way-35011592",
+  "name": "Strandgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2763
+ },
+ {
+  "n": 50,
+  "objectId": "road:nygatan",
+  "name": "Nygatan",
+  "firstOpen": 1871,
+  "alongMeters": 2820
+ },
+ {
+  "n": 51,
+  "objectId": "road:postwar:way-78489469",
+  "name": "Strandgatan",
+  "firstOpen": 1861,
+  "alongMeters": 2976
+ }
+]

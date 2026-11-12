@@ -1,0 +1,7 @@
+........................................................................................../Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_reconciliation.py:422: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  rr,cc=np.mgrid[row:row+15,col:col+15];xy=[ds.transform*(float(c)+.5,float(r)+.5) for r,c in zip(rr.ravel(),cc.ravel())];pix=np.array([inverse(p) for p in xy]);sample=np.stack([map_coordinates(src[:,:,b].astype(float),[pix[:,1]-.5,pix[:,0]-.5],order=1) for b in range(3)])
+.
+----------------------------------------------------------------------
+Ran 91 tests in 336.888s
+
+OK

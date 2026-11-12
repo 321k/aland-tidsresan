@@ -1,0 +1,15 @@
+patch -p1 --dry-run < batch.patch against the pre-edit copies: OK
+  (scripts/build_temporal_objects.py, tests/temporal-objects.test.cjs, dist/index.html, docs/mariehamn-major-roads.md start from the state the junction review's batch.patch produces; the other six start from copies taken just before this review's edits)
+applied forward; result identical to the working-tree files (diff -r): OK, except the generated loadingPreview bins and startup-loader cache-stamp line in dist/index.html, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+5492fcfc2198a21c1d52914e6af21b27c9586e8e1969665783c48a81a69ef9d8  batch.patch
+post-patch d0f7bf9786d7a404cb7824a49403579c67f777a965284fb08a1e4556c3274f46  dist/index.html
+post-patch cde76684dc8341f90fe1f6e06efd82739c94aee99366ea89c86b4a6c5ee4a7bb  docs/mariehamn-major-roads.md
+post-patch d1caf3cea75e613cdb0bcd0218f496b7e609b81535525fe62ef88c1da22f166e  scripts/build_historical_roads.py
+post-patch 330acdf8ea75341b88f55121bf98ef036ecfbfb7e017a411763411a04654f0d5  scripts/build_temporal_objects.py
+post-patch f2af8fd774750ef11a85c04e86f5360ec1a1727182b44b599e46c4494379bc03  tests/historical-roads.test.cjs
+post-patch d45fba019dd693aa18ccdf63b8e01d9a642f1d21323ccbe8112997da9b5c57b8  tests/mariehamn-core.test.cjs
+post-patch 39dbaee0f2fba829348b2602c4ef00cb19bf7e24fea436f2c215c181961a55bf  tests/mariehamn-major-roads.test.cjs
+post-patch b1ded70fa1f88c1507a290bc248003f3458b75f79bf996c15abd0717c620b854  tests/qgis-roads.test.cjs
+post-patch f7c2d81056323146995f46466723f74d739987061b42b9c8683d7649c6888f85  tests/rural-map-review.test.cjs
+post-patch c63201f36764fd6fe57c81ed05c472ba1ef4a66fe24a29eda87933b254b14935  tests/temporal-objects.test.cjs

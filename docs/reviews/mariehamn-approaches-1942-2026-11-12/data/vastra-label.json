@@ -1,0 +1,275 @@
+[
+ {
+  "n": 0,
+  "objectId": "road:mariehamn:major-followup:asvagen-north",
+  "name": "Åsvägen",
+  "firstOpen": 1985,
+  "alongMeters": 684
+ },
+ {
+  "n": 1,
+  "objectId": "road:qgis:mariehamn:svibyvagen-1-200km2",
+  "name": "Svibyvägen · del 1",
+  "firstOpen": 1968,
+  "alongMeters": 710
+ },
+ {
+  "n": 2,
+  "objectId": "road:mariehamn:major-followup:hammarlandsvagen-rondell-approach",
+  "name": "Hammarlandsvägen · tillfart till Västra rondellen",
+  "firstOpen": 1995,
+  "alongMeters": 1155
+ },
+ {
+  "n": 3,
+  "objectId": "road:qgis:mariehamn:svibyvagen-2-200km2",
+  "name": "Svibyvägen · del 2",
+  "firstOpen": 1968,
+  "alongMeters": 1158
+ },
+ {
+  "n": 4,
+  "objectId": "road:mariehamn:major:way-44108107",
+  "name": "Sjukhusvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1212
+ },
+ {
+  "n": 5,
+  "objectId": "road:mariehamn:major-followup:vastra-rondellen",
+  "name": "Västra rondellen",
+  "firstOpen": 1995,
+  "alongMeters": 1217
+ },
+ {
+  "n": 6,
+  "objectId": "road:mariehamn:major-followup:sjukhusvagen-vastra-lane",
+  "name": "Sjukhusvägen · körfält vid Västra rondellen",
+  "firstOpen": 1995,
+  "alongMeters": 1220
+ },
+ {
+  "n": 7,
+  "objectId": "road:mariehamn:street-pass4:hagnasgrand",
+  "name": "Hagnäsgränd",
+  "firstOpen": 1985,
+  "alongMeters": 1312
+ },
+ {
+  "n": 8,
+  "objectId": "road:mariehamn:street-pass4:stenhuggarvagen-north",
+  "name": "Stenhuggarvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1397
+ },
+ {
+  "n": 9,
+  "objectId": "road:mariehamn:street-pass4:backgatan",
+  "name": "Backgatan",
+  "firstOpen": 1968,
+  "alongMeters": 1431
+ },
+ {
+  "n": 10,
+  "objectId": "road:mariehamn:major-followup:vedhuggsvagen-west",
+  "name": "Vedhuggsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1512
+ },
+ {
+  "n": 11,
+  "objectId": "road:mariehamn:street-pass3:stenhuggarvagen",
+  "name": "Stenhuggarvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1524
+ },
+ {
+  "n": 12,
+  "objectId": "road:mariehamn:street-pass4:cedersvagen",
+  "name": "Cedersvägen",
+  "firstOpen": 1985,
+  "alongMeters": 1720
+ },
+ {
+  "n": 13,
+  "objectId": "road:mariehamn:street-pass4:klintvagen",
+  "name": "Klintvägen",
+  "firstOpen": 1968,
+  "alongMeters": 1805
+ },
+ {
+  "n": 14,
+  "objectId": "road:mariehamn:street-pass4:klintgrand",
+  "name": "Klintgränd",
+  "firstOpen": 1968,
+  "alongMeters": 1941
+ },
+ {
+  "n": 15,
+  "objectId": "road:postwar:way-345139187",
+  "name": "Västra Utfarten",
+  "firstOpen": 1968,
+  "alongMeters": 2053
+ },
+ {
+  "n": 16,
+  "objectId": "road:postwar:way-35432034",
+  "name": "Västra Utfarten",
+  "firstOpen": 1968,
+  "alongMeters": 2079
+ },
+ {
+  "n": 17,
+  "objectId": "road:postwar:way-43518012",
+  "name": "Västra Utfarten",
+  "firstOpen": 1968,
+  "alongMeters": 2154
+ },
+ {
+  "n": 18,
+  "objectId": "road:postwar:way-935167645",
+  "name": "Västra Utfarten",
+  "firstOpen": 1968,
+  "alongMeters": 2247
+ },
+ {
+  "n": 19,
+  "objectId": "road:postwar:way-1095723009",
+  "name": "Västra Utfarten",
+  "firstOpen": 1968,
+  "alongMeters": 2272
+ },
+ {
+  "n": 20,
+  "objectId": "road:postwar:way-43519502",
+  "name": "Västra Utfarten",
+  "firstOpen": 1968,
+  "alongMeters": 2279
+ },
+ {
+  "n": 21,
+  "objectId": "road:mariehamn:major-followup:alandsvagen-roundabout-approach",
+  "name": "Ålandsvägen · tillfart till rondellen",
+  "firstOpen": 1968,
+  "alongMeters": 2280
+ },
+ {
+  "n": 22,
+  "objectId": "road:postwar:way-43519494",
+  "name": "Västra Utfarten",
+  "firstOpen": 1968,
+  "alongMeters": 2283
+ },
+ {
+  "n": 23,
+  "objectId": "road:mariehamn:junction-review:gesallgatan-alandsplan",
+  "name": "Gesällgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2303
+ },
+ {
+  "n": 24,
+  "objectId": "road:mariehamn:junction-review:alandsplan-ring",
+  "name": "Ålandsplan",
+  "firstOpen": 1968,
+  "alongMeters": 2316
+ },
+ {
+  "n": 25,
+  "objectId": "road:postwar:way-43519491",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2323
+ },
+ {
+  "n": 26,
+  "objectId": "road:postwar:way-43519499",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2327
+ },
+ {
+  "n": 27,
+  "objectId": "road:mariehamn:junction-review:skarpansvagen-alandsplan",
+  "name": "Skarpansvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2332
+ },
+ {
+  "n": 28,
+  "objectId": "road:postwar:way-77039253",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2357
+ },
+ {
+  "n": 29,
+  "objectId": "road:postwar:way-346833252",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2383
+ },
+ {
+  "n": 30,
+  "objectId": "road:postwar:way-652150733",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2406
+ },
+ {
+  "n": 31,
+  "objectId": "road:postwar:way-652150732",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2437
+ },
+ {
+  "n": 32,
+  "objectId": "road:postwar:way-652150731",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2460
+ },
+ {
+  "n": 33,
+  "objectId": "road:postwar:way-652150737",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2494
+ },
+ {
+  "n": 34,
+  "objectId": "road:mariehamn:street-pass3:skeppargatan",
+  "name": "Skeppargatan",
+  "firstOpen": 1968,
+  "alongMeters": 2506
+ },
+ {
+  "n": 35,
+  "objectId": "road:postwar:way-652158694",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2529
+ },
+ {
+  "n": 36,
+  "objectId": "road:postwar:way-652158695",
+  "name": "Ålandsvägen",
+  "firstOpen": 1968,
+  "alongMeters": 2545
+ },
+ {
+  "n": 37,
+  "objectId": "road:postwar:way-652150725",
+  "name": "Styrmansgatan",
+  "firstOpen": 1968,
+  "alongMeters": 2634
+ },
+ {
+  "n": 38,
+  "objectId": "road:postwar:way-1057534808",
+  "name": "Köpmansgatan",
+  "firstOpen": 1952,
+  "alongMeters": 2721
+ }
+]
