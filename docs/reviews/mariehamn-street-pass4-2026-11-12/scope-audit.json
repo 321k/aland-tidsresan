@@ -1,0 +1,37 @@
+{
+ "snapshotEqualsBaseline": true,
+ "objects": [
+  36126,
+  36189
+ ],
+ "geometries": [
+  46450,
+  46839
+ ],
+ "addedObjects": 63,
+ "changedObjects": [],
+ "removedObjects": [],
+ "changedGeometries": [],
+ "addedGeometries": 389,
+ "addedGeometriesOutsidePrefix": [],
+ "sourcesAdded": [
+  "review:mariehamn-street-pass4"
+ ],
+ "cityStagesUnchanged": true,
+ "otherTopLevelChanged": [],
+ "newObjectsOwningSharedLinks": [],
+ "newMeters": 10696.1,
+ "byFirstYear": {
+  "1968": 3431.26,
+  "1978": 36.63,
+  "1985": 4906.59,
+  "1995": 2321.62
+ },
+ "byGroup": {
+  "vasternas": 3196.84,
+  "sodra": 2245.65,
+  "ytternas": 3094.67,
+  "norr": 2158.94
+ },
+ "afterSha256": "86de1fe7183d620a4f49ffa84991ca8cff68bbc4a3da5149e3817deac34e14e1"
+}

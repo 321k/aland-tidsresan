@@ -1,0 +1,8 @@
+patch -p1 --dry-run < batch.patch against pre-edit copies (the third pass's post-patch files): OK
+applied forward; result identical to the working-tree files (diff -r): OK, except the generated loadingPreview bins and startup-loader cache-stamp line in dist/index.html, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+52a4ba0f1b395d10a36d836e4f8b1e2f37d5c6335ff95f826b7db845b77813af  batch.patch
+post-patch a656bf5f734e29af06a692d5c803951852ab9512db3e457018ba08336200ec0e  scripts/build_temporal_objects.py
+post-patch b794e6c800e297e3b600a6ec3b5ae87034b1183fbb0485e6320ad8e97481a29e  tests/temporal-objects.test.cjs
+post-patch bc9ffe5f4a31c8428f224d956825257153667ca5d5c5431731a28e38693e0ce7  dist/index.html
+post-patch 3a01c13c344e54bbba3d65a96a2e748b0a3fac99b06b936de72cad3bba40c7a7  docs/mariehamn-major-roads.md
