@@ -1,0 +1,167 @@
+{
+ "map-building:nls-symbol-339": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 2,
+  "sheetFile": "sym-contact-0.jpg"
+ },
+ "map-building:nls-symbol-354": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 3,
+  "sheetFile": "sym-contact-0.jpg"
+ },
+ "map-building:nls-symbol-423": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 8,
+  "sheetFile": "sym-contact-0.jpg"
+ },
+ "map-building:nls-symbol-480": {
+  "reason": "outline-empty: the 1968 outline is empty; the match is the edge of a neighbouring symbol",
+  "cell": 9,
+  "sheetFile": "sym-contact-0.jpg"
+ },
+ "map-building:nls-symbol-547": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 11,
+  "sheetFile": "sym-contact-0.jpg"
+ },
+ "map-building:nls-symbol-594": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 15,
+  "sheetFile": "sym-contact-0.jpg"
+ },
+ "map-building:nls-symbol-721": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 21,
+  "sheetFile": "sym-contact-1.jpg"
+ },
+ "map-building:nls-symbol-725": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 22,
+  "sheetFile": "sym-contact-1.jpg"
+ },
+ "map-building:nls-symbol-738": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 25,
+  "sheetFile": "sym-contact-1.jpg"
+ },
+ "map-building:nls-symbol-779": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 44,
+  "sheetFile": "sym-contact-2.jpg"
+ },
+ "map-building:nls-symbol-785": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 46,
+  "sheetFile": "sym-contact-2.jpg"
+ },
+ "map-building:nls-symbol-788": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 48,
+  "sheetFile": "sym-contact-2.jpg"
+ },
+ "map-building:nls-symbol-790": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 49,
+  "sheetFile": "sym-contact-2.jpg"
+ },
+ "map-building:nls-symbol-017": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 54,
+  "sheetFile": "sym-contact-3.jpg"
+ },
+ "map-building:nls-symbol-022": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 57,
+  "sheetFile": "sym-contact-3.jpg"
+ },
+ "map-building:nls-symbol-059": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 71,
+  "sheetFile": "sym-contact-3.jpg"
+ },
+ "map-building:nls-symbol-086": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 86,
+  "sheetFile": "sym-contact-4.jpg"
+ },
+ "map-building:nls-symbol-106": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 98,
+  "sheetFile": "sym-contact-5.jpg"
+ },
+ "map-building:nls-symbol-118": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 107,
+  "sheetFile": "sym-contact-5.jpg"
+ },
+ "map-building:nls-symbol-124": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 112,
+  "sheetFile": "sym-contact-6.jpg"
+ },
+ "map-building:nls-symbol-135": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 118,
+  "sheetFile": "sym-contact-6.jpg"
+ },
+ "map-building:nls-symbol-142": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 122,
+  "sheetFile": "sym-contact-6.jpg"
+ },
+ "map-building:nls-symbol-168": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 129,
+  "sheetFile": "sym-contact-7.jpg"
+ },
+ "map-building:nls-symbol-176": {
+  "reason": "hatched-block: the 1968 symbol sits in a hatched built-up block",
+  "cell": 131,
+  "sheetFile": "sym-contact-7.jpg"
+ },
+ "map-building:nls-symbol-187": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 133,
+  "sheetFile": "sym-contact-7.jpg"
+ },
+ "map-building:nls-symbol-199": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 136,
+  "sheetFile": "sym-contact-7.jpg"
+ },
+ "map-building:nls-symbol-208": {
+  "reason": "hatched-block: the 1968 symbol sits in a hatched built-up block",
+  "cell": 138,
+  "sheetFile": "sym-contact-7.jpg"
+ },
+ "map-building:nls-symbol-209": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 139,
+  "sheetFile": "sym-contact-7.jpg"
+ },
+ "map-building:nls-symbol-221": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 141,
+  "sheetFile": "sym-contact-7.jpg"
+ },
+ "map-building:nls-symbol-227": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 143,
+  "sheetFile": "sym-contact-7.jpg"
+ },
+ "map-building:nls-symbol-233": {
+  "reason": "lettering: the 1968 match is black place-name lettering, not a house",
+  "cell": 144,
+  "sheetFile": "sym-contact-8.jpg"
+ },
+ "map-building:nls-symbol-265": {
+  "reason": "hatched-block: the 1968 symbol sits in a hatched built-up block",
+  "cell": 147,
+  "sheetFile": "sym-contact-8.jpg"
+ },
+ "map-building:nls-symbol-771": {
+  "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+  "cell": 157,
+  "sheetFile": "sym-contact-8.jpg"
+ }
+}

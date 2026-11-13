@@ -2,6 +2,7 @@ import copy, gzip, json, sys, unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from mariehamn_frame_1942 import apply_frame_1942
+from mariehamn_symbols_1968 import apply_symbols_1968
 
 REVIEW = 'data/mariehamn-frame-1942.json'
 
@@ -32,6 +33,8 @@ class Frame1942Tests(unittest.TestCase):
 
     def test_review_applies_once_and_matches_the_build(self):
         catalog = copy.deepcopy(self.pristine); apply_frame_1942(self.read, catalog)
+        # The 1968 symbol review runs after this step and touches only printed-map symbol objects.
+        frame_only = copy.deepcopy(catalog); apply_symbols_1968(self.read, catalog)
         catalog = json.loads(json.dumps(catalog, ensure_ascii=False))
         self.assertEqual(catalog['cityStages'], self.built['cityStages'])
         # Building-map batches added after the snapshot (b6–b10: the centre and Ytternäs) change only buildings the
@@ -41,7 +44,7 @@ class Frame1942Tests(unittest.TestCase):
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):
-            apply_frame_1942(self.read, catalog)
+            apply_frame_1942(self.read, frame_only)
 
     def test_changed_trace_or_object_rejected(self):
         self.run_with(lambda r: self.trace(r, 'Södra stadsgatan · 1942')['pixels'][0].__setitem__(0, 0))

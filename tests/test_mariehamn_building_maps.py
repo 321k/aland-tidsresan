@@ -3,6 +3,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from mariehamn_building_maps import apply_building_maps
 from mariehamn_frame_1942 import apply_frame_1942
+from mariehamn_symbols_1968 import apply_symbols_1968
 
 REVIEW = 'data/mariehamn-building-maps.json'
 
@@ -36,6 +37,8 @@ class BuildingMapTests(unittest.TestCase):
         catalog = copy.deepcopy(self.pristine); apply_building_maps(self.read, catalog)
         # The later 1942 frame review changes 43 road objects; apply it to compare with the build.
         frame = copy.deepcopy(catalog); apply_frame_1942(self.read, frame)
+        # The 1968 symbol review then changes 125 printed-map symbol objects.
+        apply_symbols_1968(self.read, frame)
         self.assertEqual(json.loads(json.dumps(frame, ensure_ascii=False))['objects'], self.built['objects'])
         with self.assertRaises(ValueError):
             apply_building_maps(self.read, catalog)

@@ -1,0 +1,14 @@
+{
+ "snapshotSha256": "67f9656c54ca47b974babf8ec68fbc231323b192bebbf7753acd8b256c0dac66",
+ "catalogueSha256": "179a532306c9631a7020d6bdad00e75377a40be2a22388d4404ef630d5312235",
+ "vsPreviousPublication": {
+  "objectIdsUnchanged": true,
+  "changedObjects": 125,
+  "changedEqualsDecisions": true,
+  "geometriesUnchanged": true,
+  "cityStagesUnchanged": true,
+  "addedSources": ["review:mariehamn-symbols-1968"],
+  "otherTopLevelKeysChanged": ["recordedAt"]
+ },
+ "selection": {"matched1968": 412, "outsideBuiltUpAreaObjects": 244, "hatchedSurroundings": 86, "reviewed": 158, "rejected": 33, "dated": 125}
+}

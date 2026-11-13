@@ -142,7 +142,8 @@ are unchanged and 214 are newly dated.
 
 - The centre's hatched 1968 blocks: houses there could be dated from 1985 only with a closer look at whether the
   hatching already includes them.
-- The 615 printed-symbol objects start at their 1985 symbol (mostly 1983); many also stand on the 1968 sheet.
+- The 615 printed-symbol objects start at their 1985 symbol (mostly 1983). 125 of them outside the hatched blocks are
+  now dated from the 1968 edition by a separate review (`docs/mariehamn-symbols-1968.md`).
 - The 93 `external-modern` Ytternäs houses that the maps show from 1968–1995: they need a reconstruction first.
 - Ytternäs south of Lervik (Dalen), the area north of b1 and east of Slemmern were not reviewed; whether they belong
   to Mariehamn was not checked against the town boundary.

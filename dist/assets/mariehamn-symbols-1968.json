@@ -1,0 +1,2312 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-13",
+ "source": {
+  "id": "review:mariehamn-symbols-1968",
+  "title": "Mariehamns hussymboler 1985 · granskade mot grundkartan 1968",
+  "url": "assets/mariehamn-symbols-1968.json"
+ },
+ "sheet1968": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+ "rules": {
+  "matchLimitMeters": 9,
+  "maxRawSymbolDistanceMeters": 30,
+  "hatchDarkShare": 0.4,
+  "hatchStripeDensity": 0.22
+ },
+ "method": "Writes data/mariehamn-symbols-1968.json: printed-map symbol objects dated back to the 1968 edition of sheet 101208.\n\nRetained for audit; it fingerprints the catalogue as it was before this step (before.json.gz in this folder).\nCandidates come from sym_prepare.py (1968 symbol matched one-to-one in the b6–b8 matching, outside the hatched\nbuilt-up areas and hatched surroundings); every candidate was then checked on sym-contact-*.jpg (1968 | 1985 | 1995,\nthe object's first outline shifted by the local 1968 registration, the matched 1968 symbol circled) and rejections\nare recorded in sym-overrides.json. The 1985 panel is unshifted and often offset; the object itself already rests on\nthe 1985 symbol, so only the 1968 drawing was judged. The 1968 map year is first evidence, not a construction year.",
+ "decisions": [
+  {
+   "objectId": "map-building:nls-symbol-320",
+   "input": "05caa6c4e57fdb3d97817290793273f0c80e02f697111b0fe920f55bad585c40",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    833.63,
+    3155.92
+   ],
+   "shiftMeters": [
+    0.4,
+    -4.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-322",
+   "input": "09a25ffc6820106512dfeab14bb1ed91a57334d67703dafb19dfcb2c73608c80",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    852.28,
+    3155.77
+   ],
+   "shiftMeters": [
+    0.2,
+    -4.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-363",
+   "input": "5b77d31559a7631deeff6e8c9b87760eb6ae6996b3cdfa43fcde0df4a14f72b4",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    833.0,
+    3201.28
+   ],
+   "shiftMeters": [
+    1.1,
+    -2.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-374",
+   "input": "66c1bb2a4aa54e074d97d66a136721976ea6d9df8d2a720770ef9e45b1175f2b",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    836.84,
+    3212.1
+   ],
+   "shiftMeters": [
+    1.0,
+    -1.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-388",
+   "input": "746a1cae79f1911ed3b4d68782f2814ab28a9871e119a29e55f6c60a141b3f4e",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    837.5,
+    3226.5
+   ],
+   "shiftMeters": [
+    1.1,
+    -1.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-404",
+   "input": "5eb74e445109cdea8c1458307d281837c312d8493a318bffecbd31aaddd6a08e",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    845.18,
+    3237.53
+   ],
+   "shiftMeters": [
+    1.1,
+    -1.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-515",
+   "input": "1937d39a2e542ca0776a3f36371db9bb2da464a52071fb59d599f79b12b134a0",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1368.37,
+    3384.68
+   ],
+   "shiftMeters": [
+    -2.1,
+    2.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-566",
+   "input": "480c67a7878d242985f800f7e7dd4b5f618fcbca4b73abc6aefb05ac375a3535",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1362.04,
+    3443.25
+   ],
+   "shiftMeters": [
+    -3.8,
+    4.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-584",
+   "input": "9a35d7bbe7e65f7221c32e8e4cb3a35db5fd2e97ec26af3ed0cdc5d4987e3207",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1341.0,
+    3451.41
+   ],
+   "shiftMeters": [
+    -3.5,
+    4.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-591",
+   "input": "69768f368840a97928a0b1d5845c375616b7f22599d1d89c8c43d16d8d7fcbdc",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1303.1,
+    3459.46
+   ],
+   "shiftMeters": [
+    -1.0,
+    3.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-607",
+   "input": "8bff6e82e6784e33fe5b3af6365d71f8c3192a551220f61c4ded927318444256",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1324.26,
+    3476.03
+   ],
+   "shiftMeters": [
+    -2.8,
+    3.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-609",
+   "input": "6454eb8bd3d9cba55cdc58f7f97b1a17e79ebeb1f81c802818d5f5872526e91b",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1339.24,
+    3475.68
+   ],
+   "shiftMeters": [
+    -2.2,
+    3.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-611",
+   "input": "1742a5c7d9cc1d0b1e6a168c5be51c7af3e193b5ba4da271a200c4af2290b7d6",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1362.78,
+    3481.98
+   ],
+   "shiftMeters": [
+    -4.7,
+    1.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-622",
+   "input": "1ae6b47c166f52ee76ae6149e7f5da887d6a76c8790b064a39651fce706bd8c7",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1365.09,
+    3493.71
+   ],
+   "shiftMeters": [
+    -4.4,
+    1.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-623",
+   "input": "10eb09729c4e6d956043a7ae4691a1b77bf04b1851c4e5d6633d11d85bd52d6b",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1381.11,
+    3493.34
+   ],
+   "shiftMeters": [
+    -5.6,
+    2.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-729",
+   "input": "77069d6bd72a66c2fa3d5444bd60112a2d6da53fa7695758e14f11cdf45219e6",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1320.67,
+    3580.33
+   ],
+   "shiftMeters": [
+    -3.2,
+    2.4
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-736",
+   "input": "861da7c1e63613446b6323a2b5b65d6e591c6e34bc30103cd55a6fe45236f89f",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1282.75,
+    3585.32
+   ],
+   "shiftMeters": [
+    -3.0,
+    1.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-740",
+   "input": "0d90a5239c44766c8b7fcf4e1d2bfe5b92f3b2e08db2cdf50767ef692b8cafeb",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1255.82,
+    3588.58
+   ],
+   "shiftMeters": [
+    -2.9,
+    1.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-741",
+   "input": "582297daf7c40ee59b88abf3d6692079c12954b7dad89aaf1d81fab9aedc6ac5",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1242.13,
+    3589.0
+   ],
+   "shiftMeters": [
+    -0.7,
+    1.7
+   ],
+   "distanceAfterShiftMeters": 0.9,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-744",
+   "input": "04b8872d5b97b95a9cb5962c6b2447c84476774ba102c3b1030a202c8547b882",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1359.12,
+    3592.52
+   ],
+   "shiftMeters": [
+    -3.5,
+    2.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-747",
+   "input": "ea1579656d254ee0d3f6526067dba53c4a759748160333eaf3e131f0105096b2",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1201.25,
+    3594.22
+   ],
+   "shiftMeters": [
+    -0.1,
+    1.4
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-748",
+   "input": "501f4ed48cad52fe65eb41d6201902149ebcb476ce404464294301734fd37a0c",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1324.67,
+    3596.89
+   ],
+   "shiftMeters": [
+    -3.3,
+    2.4
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-749",
+   "input": "96dfe508ffeab088973d469e73d4a919b1f389a066ab73e1281941570459ba80",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1179.16,
+    3598.32
+   ],
+   "shiftMeters": [
+    0.2,
+    1.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-751",
+   "input": "546ccb7cb627f0cc5e99b26ac999e591952c59a0ea967966c087cfdcf8746c53",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1162.43,
+    3600.5
+   ],
+   "shiftMeters": [
+    0.2,
+    1.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-753",
+   "input": "41a8544c3e8725f2425cbff889c263917fad6d7a8debfdaef3d12723fecbb6a1",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1149.92,
+    3603.36
+   ],
+   "shiftMeters": [
+    0.2,
+    1.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-754",
+   "input": "e26f02229f7a397aba656c6deb3f5c892fe96b7f8576f1a1c35523985d7fb2a9",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1134.73,
+    3603.08
+   ],
+   "shiftMeters": [
+    0.1,
+    1.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-756",
+   "input": "2e0e65e479aa8b90a44dceb4e532f12fbff3b6ec4b02c3b480cd8cedd716ba2d",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1121.13,
+    3604.6
+   ],
+   "shiftMeters": [
+    0.1,
+    1.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-761",
+   "input": "0cee6d87712aa3adb666adbd4e689a3d7eb0ca58ab6e0e6925e78527cf01c9fb",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1377.16,
+    3608.85
+   ],
+   "shiftMeters": [
+    -3.9,
+    3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-762",
+   "input": "2f0af456ac2ba62e8e4a116f62721c949edc4f0d92de88a924604d380b938263",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1109.62,
+    3607.23
+   ],
+   "shiftMeters": [
+    -0.1,
+    0.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-763",
+   "input": "a144ad464cdfe143ab4a2deebaac680cc9e1293887f705d31dab9e0e61b0671f",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1336.08,
+    3608.68
+   ],
+   "shiftMeters": [
+    -3.5,
+    2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-766",
+   "input": "1e3e26594893430da83d030d9a9ad8c928e90511940f95c9553e641adb4bf982",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1094.29,
+    3609.91
+   ],
+   "shiftMeters": [
+    0.1,
+    0.4
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-767",
+   "input": "0d6c75eecf93f9ebc4ec4ca6cc8da9a2d2bb73d94a5b2b62b6991f4b33b6b7a7",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1325.88,
+    3610.48
+   ],
+   "shiftMeters": [
+    -3.3,
+    2.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-769",
+   "input": "66a480d66f47e3014bbda92fa4283dcef9c5fab80b5f044fa835791c1b89d933",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1078.57,
+    3610.29
+   ],
+   "shiftMeters": [
+    0.1,
+    -0.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-772",
+   "input": "7d11b1e0fef11ffac05b74b5c5471f31a0a11cfaff4a7bdd62601e170a731df2",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1237.86,
+    3619.76
+   ],
+   "shiftMeters": [
+    -0.8,
+    2.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-775",
+   "input": "9e2adac03cc4ebec0bb6698d5577fc3135cde2a73ef84e5ac5475722d02698a6",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1307.0,
+    3619.5
+   ],
+   "shiftMeters": [
+    -3.2,
+    3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-781",
+   "input": "3ce60d3744330f804d1c49fbc3ba4569f0406fd1d04b70ea379f366c0632e261",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1203.38,
+    3623.62
+   ],
+   "shiftMeters": [
+    0.2,
+    1.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-787",
+   "input": "14639ec5907c343e404d6c57deb983b5cc10c3926d58c9a6a9386bdd91c822b1",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1167.04,
+    3625.69
+   ],
+   "shiftMeters": [
+    0.7,
+    1.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-794",
+   "input": "e449c402554828863bea0177342bf800ab79abc1d6b3458d658d2c8f7697ffae",
+   "originalFrom": 1983,
+   "batch": "b6",
+   "pixel": [
+    1364.17,
+    3630.3
+   ],
+   "shiftMeters": [
+    -3.6,
+    2.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-012",
+   "input": "b207d5ccfd623311cab48d4a0c9fb66a715a0871d033323d6420e5d64ed9af86",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1049.94,
+    2634.75
+   ],
+   "shiftMeters": [
+    -1.9,
+    -2.4
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-014",
+   "input": "d6a8cba7080bff47b11bed40f0ab53c5a1d45c78b2f4a4386ebe9ee4a76606ed",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    892.83,
+    2644.55
+   ],
+   "shiftMeters": [
+    1.7,
+    1.0
+   ],
+   "distanceAfterShiftMeters": 0.5,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-016",
+   "input": "5258c66228ab8102c9259344b050f717103f6b1c569d90b2409e4f365e6c82c6",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    862.62,
+    2649.55
+   ],
+   "shiftMeters": [
+    1.5,
+    0.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-018",
+   "input": "b83272806a921a5c60282ee3719f1ce56731014e6f8092bbe0d70c7729a4daa8",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1214.0,
+    2651.1
+   ],
+   "shiftMeters": [
+    -0.9,
+    -3.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-019",
+   "input": "5a1d65416905e462883136c957f26412d4ead1ae4837c9aea6e314cd3d8f37ac",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1229.95,
+    2652.05
+   ],
+   "shiftMeters": [
+    -1.4,
+    -4.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-026",
+   "input": "eb222ddad18a7a726a854e7bdb9be9792330c5088b3de31893cd4a63ce7736b7",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1231.98,
+    2668.7
+   ],
+   "shiftMeters": [
+    -1.4,
+    -3.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-029",
+   "input": "c6cbcc2855f8d3a84c653dc8c60ec35678fbbc19f2ee0b200da59a779e3e1e42",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1216.79,
+    2669.98
+   ],
+   "shiftMeters": [
+    -1.3,
+    -4.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-030",
+   "input": "e13ef4f40a515c87d5dc5fcebea9b0dc8ed76a9247d9cbd9e6a1f6c78296b914",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1201.55,
+    2672.92
+   ],
+   "shiftMeters": [
+    -1.2,
+    -3.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-039",
+   "input": "49acc56a6ebab6d38028703d90da38e816714376bd2d981f9e78e2d7d93e499f",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1233.54,
+    2693.61
+   ],
+   "shiftMeters": [
+    -1.5,
+    -3.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-040",
+   "input": "ade59185f0bb3e833d046a6ea17b83aac5b85dda7efbe44e4225327a71e72184",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1202.41,
+    2695.1
+   ],
+   "shiftMeters": [
+    -1.3,
+    -4.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-041",
+   "input": "1396a51108e16c7f920a903c23d8cef9b03f955c9dbc1eaba2f90c78b9df6e70",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1218.46,
+    2694.79
+   ],
+   "shiftMeters": [
+    -1.4,
+    -4.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-044",
+   "input": "f0d426d52f80b594da8d185466d685147423f19947ef58039f465f225722778f",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1234.15,
+    2713.85
+   ],
+   "shiftMeters": [
+    -2.3,
+    -3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-045",
+   "input": "1d94f13f42032bcfe2e6988b4c291c2071bd7e184bc1edeed271b6cb9b78f4f5",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1204.2,
+    2715.08
+   ],
+   "shiftMeters": [
+    -1.5,
+    -4.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-046",
+   "input": "b296962030f07afb5b67709b5681660395f938a1a9f381030f4b33a2acaf9d3f",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1220.34,
+    2714.43
+   ],
+   "shiftMeters": [
+    -1.8,
+    -3.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-047",
+   "input": "9d88003a326958daf2296e1cedde9d767812cdb5a87bfbe076ed118dec220a04",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    827.23,
+    2718.32
+   ],
+   "shiftMeters": [
+    -0.3,
+    0.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-054",
+   "input": "a848ccdf9bff7602cb79991fd81392975ac783a3869ee8d93aa6675fc3630495",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1208.11,
+    2738.08
+   ],
+   "shiftMeters": [
+    -2.3,
+    -3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-057",
+   "input": "6577d11bf920a45dcb1cdf66741cf0b4835e51c7bceee31cb1d0a76510f8fb2a",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1222.49,
+    2738.15
+   ],
+   "shiftMeters": [
+    -2.9,
+    -3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-058",
+   "input": "8baa8d2387c9d26b44fd4faedda28dcf740bdf5cfca526d49ee2938a7958f286",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1124.0,
+    2746.11
+   ],
+   "shiftMeters": [
+    -1.2,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-060",
+   "input": "9748aa2c3d99f2eaefc674653fd134df46df988dfbdd84152f90f49f30b63e0a",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    861.57,
+    2751.66
+   ],
+   "shiftMeters": [
+    -0.6,
+    3.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-064",
+   "input": "157c26fd040d825cfa2d0465e78d3556fc6f1aa9d8b460a95da0d71922b0f2cd",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1210.45,
+    2757.68
+   ],
+   "shiftMeters": [
+    -2.9,
+    -3.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-066",
+   "input": "052b6af145db121b4a39b5d0d95d75a95c9404b5be0e2fcaf32e680eeabba71a",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1225.64,
+    2758.38
+   ],
+   "shiftMeters": [
+    -3.1,
+    -3.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-067",
+   "input": "c44839ac61eca75fb4c20780780393a43aac959d92a8f73e70a63a0a834a65ab",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1283.06,
+    2765.53
+   ],
+   "shiftMeters": [
+    -3.9,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-068",
+   "input": "f5e7fb295be00fcfba508e9a39bb1f7a05b30cff0dafc23f708087ea0c2adde1",
+   "originalFrom": 1982,
+   "batch": "b7",
+   "pixel": [
+    948.0,
+    2773.62
+   ],
+   "shiftMeters": [
+    -1.2,
+    1.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-069",
+   "input": "0ca24c69ca0c101486316d9c768c8ec4ace0efcbf8a67f93de0fcb0b01662d8a",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1268.03,
+    2767.68
+   ],
+   "shiftMeters": [
+    -3.8,
+    -3.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-071",
+   "input": "db8a19c506663e18fd38d794bb5ee5cc4e35a0901616f5074af396e4c19ab595",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1125.36,
+    2782.5
+   ],
+   "shiftMeters": [
+    -1.2,
+    -3.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-074",
+   "input": "b2f9cbcfcb9948480ebca6131c7b5b767aee216731ec9508661b2c8feace407d",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1285.83,
+    2773.88
+   ],
+   "shiftMeters": [
+    -3.9,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-077",
+   "input": "1c52f816f89acf6303bc694a02b54760d6607360a6cbb6b44316d14632347355",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1019.58,
+    2780.84
+   ],
+   "shiftMeters": [
+    -1.0,
+    -3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-078",
+   "input": "891416274ca0a4ed4822ae8029238886b5a46e99b49958729d4e345ec12399a0",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1241.66,
+    2781.25
+   ],
+   "shiftMeters": [
+    -3.6,
+    -3.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-080",
+   "input": "27cec9b26e4e4e9ec000a42b648650f353db81c99d55c9a260acf47b46e6ae45",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1213.0,
+    2781.12
+   ],
+   "shiftMeters": [
+    -3.3,
+    -3.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-081",
+   "input": "0de44dace4ff25765028c4c118944dea6df020be7b079a162106a614e61f9031",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1226.81,
+    2780.62
+   ],
+   "shiftMeters": [
+    -3.6,
+    -3.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-084",
+   "input": "7c83ca7a19d9fe7b6f6ef3000268ef6d5defb374d6616642218cc3cfecfa77fc",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1271.37,
+    2788.18
+   ],
+   "shiftMeters": [
+    -3.8,
+    -3.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-085",
+   "input": "9dfb43611ce384ce219148b21568f223366caa253ab40f4c18014a4b03448988",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1033.61,
+    2793.62
+   ],
+   "shiftMeters": [
+    -1.0,
+    -3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-088",
+   "input": "b4f9b1c6fbde2d71b81f8cd17381abaea0b51e24a247780ee291a4359c5cef4c",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1243.5,
+    2798.36
+   ],
+   "shiftMeters": [
+    -3.8,
+    -3.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-090",
+   "input": "a44808614c80338d2adc525adddf0480f442e2d5bf7a00f48817008660f4e35b",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1229.0,
+    2800.0
+   ],
+   "shiftMeters": [
+    -3.7,
+    -3.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-091",
+   "input": "e83369468acacf57fb53b9549ea376f80c559b635c660322aa1eaadb17b58aa3",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    937.96,
+    2803.99
+   ],
+   "shiftMeters": [
+    -1.4,
+    0.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-092",
+   "input": "b4db0619da16015a677b714020f6cb6e6f7c3d349b6b62a374034e9f4729cd28",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1214.0,
+    2801.5
+   ],
+   "shiftMeters": [
+    -3.3,
+    -3.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-093",
+   "input": "6964ab13bd0317cc0730850aa1645ecd5cfecd6f1fc6edf4479e6bce6f570887",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    994.47,
+    2801.76
+   ],
+   "shiftMeters": [
+    -0.7,
+    -2.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-094",
+   "input": "a89af384fcdf7e9e62ba289b6a1e092f9b01b85dd63f1f2aee335d838d59b3e9",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1048.17,
+    2806.83
+   ],
+   "shiftMeters": [
+    -1.0,
+    -3.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-095",
+   "input": "4bfc53fa70dcad02d77da56e08b29f0d1e956af0c01a8ff86cbf52476e552678",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1274.8,
+    2804.77
+   ],
+   "shiftMeters": [
+    -3.8,
+    -3.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-099",
+   "input": "177c6d0811426ac259e38c7f2b0a4ed19351b9ea6c006fe3b1cc3d7cdf5316fb",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1003.97,
+    2811.05
+   ],
+   "shiftMeters": [
+    -1.0,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-100",
+   "input": "8bca7d0879eb933bd2140b4fee1b12c28c402466137272309423188c872cdc2a",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1141.84,
+    2823.83
+   ],
+   "shiftMeters": [
+    -2.0,
+    -4.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-103",
+   "input": "8d9059104ca6518b40066c5ed9d7e3583f68d5e2e57983dda8f3989e6bd3ac29",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1064.08,
+    2821.7
+   ],
+   "shiftMeters": [
+    -1.0,
+    -3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-104",
+   "input": "3fbafc62268a8d21fb4ae16b7a971a4bab68f9b47035da6c0a6b10b66dff8e03",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    977.3,
+    2818.58
+   ],
+   "shiftMeters": [
+    -1.0,
+    -2.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-107",
+   "input": "80f5eba47fe2a4167d59581a458cf1f809b78fe3260d69eb670825ff9c511acb",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1014.12,
+    2821.2
+   ],
+   "shiftMeters": [
+    -0.7,
+    -2.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-109",
+   "input": "583c0220008e00ae2bca1bcd8c7bfd4d783c06ec9d4b69320c38d6be39a5fbc9",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1230.92,
+    2821.91
+   ],
+   "shiftMeters": [
+    -3.6,
+    -3.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-110",
+   "input": "868879b1627258b993b63404aaee0dbb29eada12225b3b9efb69e9a0e8383f33",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1245.6,
+    2822.87
+   ],
+   "shiftMeters": [
+    -3.6,
+    -3.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-111",
+   "input": "d54f381d735e75666046d9d394863000083dd67fc757177e1905fb7336c688ee",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1215.5,
+    2823.0
+   ],
+   "shiftMeters": [
+    -3.2,
+    -3.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-113",
+   "input": "caa4719632a5948385ec256efdf79a0c6ddc8802856a45d789792a33fb981637",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    986.98,
+    2829.1
+   ],
+   "shiftMeters": [
+    -1.0,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-114",
+   "input": "6340a062ecf6577f5ddcc70aa17ffde53eaeea1d8dbc6f66dec7cda52b914c14",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1025.84,
+    2832.1
+   ],
+   "shiftMeters": [
+    -0.7,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-115",
+   "input": "bb31ea26f8d9cdc21674aa36502efc81e370eea8e07404d1690260df8e325f3c",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1075.54,
+    2836.94
+   ],
+   "shiftMeters": [
+    -1.1,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-117",
+   "input": "d0a00dbf2bb35dcffc7993421a39a33356fba76d69ca609375adac781ead1c90",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    995.35,
+    2837.65
+   ],
+   "shiftMeters": [
+    -0.7,
+    -2.5
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-119",
+   "input": "e77463bea08597aea111e4b164457fc5760c73a57eb093a7f07188b7c07364ad",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1163.54,
+    2846.63
+   ],
+   "shiftMeters": [
+    -2.1,
+    -3.3
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-120",
+   "input": "c8c6e75a72649ab96b2ca8b0a53e1993cab79ebc89c3dacd4349023b788d3082",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1247.73,
+    2841.27
+   ],
+   "shiftMeters": [
+    -3.5,
+    -2.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-121",
+   "input": "b6368913de9d6b9280b04d660c6ebf3f711c68fbaa5909a52b371d5bfb532d9f",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1035.29,
+    2841.69
+   ],
+   "shiftMeters": [
+    -1.0,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-123",
+   "input": "91a7f869c948f3041a839ada607fbad0a46cfed9f24d4597c06a5198eab14c73",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1233.36,
+    2843.55
+   ],
+   "shiftMeters": [
+    -3.4,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-125",
+   "input": "e3932535430f75c28ad145398f99f721225305f7fa5b04e1c7065cee5162b560",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1005.6,
+    2848.4
+   ],
+   "shiftMeters": [
+    -1.0,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-128",
+   "input": "e28a76aae7f3a498549d69318561e641ec7c75a3b2ee6d43b8ab0fc6fe3e6721",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1047.25,
+    2851.37
+   ],
+   "shiftMeters": [
+    -1.0,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-132",
+   "input": "fc3d8a43cd057ff700f62125f43055580194de6cfdb7b93c975d18ad4dad3fda",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1015.48,
+    2858.31
+   ],
+   "shiftMeters": [
+    -1.0,
+    -3.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-133",
+   "input": "99bd662eb10a9feabdac796662d4b081ca727be5586b94b660db0a2f0be96095",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1181.53,
+    2867.54
+   ],
+   "shiftMeters": [
+    -2.4,
+    -3.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-134",
+   "input": "6a14301864022e1d682d1e97635aa942dca9099cc72c48d361879ab64ba38b23",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1055.81,
+    2861.81
+   ],
+   "shiftMeters": [
+    -1.1,
+    -2.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-136",
+   "input": "9260c829a8d2ea2c3a1a1a94e62ab6f95b69f0d65e2ba43f1145d3c42f97912f",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1229.54,
+    2865.44
+   ],
+   "shiftMeters": [
+    -2.9,
+    -2.9
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-137",
+   "input": "139486b85413116447d02525eca94dda59aa8f7ee2fb2b60191b49064a6f0ccd",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1249.26,
+    2865.15
+   ],
+   "shiftMeters": [
+    -2.9,
+    -2.4
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-140",
+   "input": "258e016a7c9c6f829f8d635a5ef4cf836dc8a2b2cfe02b72668a418d0b7e3580",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1025.95,
+    2869.04
+   ],
+   "shiftMeters": [
+    -1.1,
+    -2.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-144",
+   "input": "088a3d18703ff471bfa4a6db1bd57582d4a0eb4be967bdced5dfba9d033cb13c",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1282.74,
+    2874.95
+   ],
+   "shiftMeters": [
+    -3.1,
+    -1.3
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-150",
+   "input": "8f4eb4405ca1f944314415864878e3d4fd8736714aaae0c5cb132a317646137a",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1200.86,
+    2888.38
+   ],
+   "shiftMeters": [
+    -1.5,
+    -3.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-158",
+   "input": "84dd5304b1e3ea38e562588a2b6c8d9828ddbdfc4fb30ec210be233b6469674f",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1049.12,
+    2895.96
+   ],
+   "shiftMeters": [
+    -0.9,
+    -2.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-162",
+   "input": "f09a4dbf4443bc2fd2a36240aaebe76b8674611c7c8f599ff42c2d376e6c6399",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1219.92,
+    2906.25
+   ],
+   "shiftMeters": [
+    -1.7,
+    -3.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-163",
+   "input": "fcfa75a149884c7dab54514c63b0df3090005c33207d09fb2c80465830a8b162",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1286.1,
+    2899.53
+   ],
+   "shiftMeters": [
+    -2.2,
+    -1.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-166",
+   "input": "2d67e77244cfca42c82cc8d683cd0223928d73c8fa00c265f4ffee1e85b2a9e5",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1061.27,
+    2908.93
+   ],
+   "shiftMeters": [
+    -0.2,
+    -2.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-172",
+   "input": "1feeab686533a8920a81882d2db943d2cd16f67c4c0fe580c39e2c3be9dafc45",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1076.14,
+    2915.51
+   ],
+   "shiftMeters": [
+    -0.2,
+    -2.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-179",
+   "input": "fc020a95a0aab67cb6f5b12a4f979bf2c43e336058eb3028dea7c5850c0726af",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1293.5,
+    2933.08
+   ],
+   "shiftMeters": [
+    -1.4,
+    -0.0
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-189",
+   "input": "a49ceffcafbb3e2242425bbf00eef0fc1b31689d0c946ec045fdb528c17be3ee",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1075.89,
+    2943.69
+   ],
+   "shiftMeters": [
+    -0.2,
+    -2.1
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-195",
+   "input": "e0d9bb160eee9aa6089bf90d2be3f02ea2a58fe3b89b688b58e436bb81301c2f",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1110.12,
+    2952.32
+   ],
+   "shiftMeters": [
+    -0.3,
+    -2.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-206",
+   "input": "6d412a33b6e2f489eb8f094647ac96127963f83d5b73e1af2b79ac60bb9fa15c",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1111.5,
+    2968.57
+   ],
+   "shiftMeters": [
+    -1.6,
+    -2.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-218",
+   "input": "d29be9bd91f0e1d2c5d38fe0ab55c15aa6b0272bc6fca5e6260341975e2e8ea1",
+   "originalFrom": 1982,
+   "batch": "b7",
+   "pixel": [
+    1308.12,
+    2986.96
+   ],
+   "shiftMeters": [
+    -1.0,
+    -0.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-226",
+   "input": "c9a76cd56981c6f818c24949560f3a00b560db55e7e36ec4e956833eab4e17ee",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1114.95,
+    3013.56
+   ],
+   "shiftMeters": [
+    -1.7,
+    -3.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-235",
+   "input": "cc483882de481747c17942f9489011ccce4bc8d81b6935cb6d5948f3735ec9e6",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    1101.38,
+    3024.97
+   ],
+   "shiftMeters": [
+    -1.7,
+    -3.8
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-263",
+   "input": "d902f760c33f085ddcae2d38c18e8ad4bcee0ac91d01602c9522d9f96bcabb8d",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    856.7,
+    3073.85
+   ],
+   "shiftMeters": [
+    -0.3,
+    -6.6
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-273",
+   "input": "82a777457b1a9f94804cc1f9ca8864470c105fc76cf081fa46278cc251616eae",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    851.02,
+    3084.43
+   ],
+   "shiftMeters": [
+    -0.3,
+    -6.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-279",
+   "input": "5b3b67458c4957421e8a5533f9537f342d414681d9af400cac022c3174de181e",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    849.18,
+    3100.85
+   ],
+   "shiftMeters": [
+    -0.3,
+    -6.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-285",
+   "input": "4419ef83859e47dd979ebe28736c6ecd127b3f65d51ca83aa23cad65aed2ef15",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    860.95,
+    3105.45
+   ],
+   "shiftMeters": [
+    -1.2,
+    -6.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-293",
+   "input": "e5862f83d2fbc01dbef26c8a20ecd18655ac56c136063bfafb3cb58d285292e4",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    843.71,
+    3114.29
+   ],
+   "shiftMeters": [
+    -0.3,
+    -6.2
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-294",
+   "input": "1b32a25c42977c0b45b0ea3b92dd082b0923d75ae276f4eefb22687ae2b5ed9d",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    855.23,
+    3119.61
+   ],
+   "shiftMeters": [
+    -1.2,
+    -6.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-299",
+   "input": "27014594fcd972d9b8beaff7b1741ff5269de6a894f99572d68430f382ee6036",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    836.06,
+    3126.78
+   ],
+   "shiftMeters": [
+    -1.2,
+    -6.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-303",
+   "input": "051e8ebf89c9a8007a802a0707fb80312adff6affa1d0c7293d3cd85f9731b7b",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    854.08,
+    3132.54
+   ],
+   "shiftMeters": [
+    -1.2,
+    -6.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-308",
+   "input": "df5597168ade4a8ed5e6134039be29aee8ce61e4d037d8dfe0680f9e8c98d624",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    833.46,
+    3140.08
+   ],
+   "shiftMeters": [
+    -1.2,
+    -6.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  },
+  {
+   "objectId": "map-building:nls-symbol-311",
+   "input": "e3ebbdcbb27a1d9ab6808018a8eeb6ddda6d65577e5236d6e2075b93ef7ab273",
+   "originalFrom": 1983,
+   "batch": "b7",
+   "pixel": [
+    853.0,
+    3144.0
+   ],
+   "shiftMeters": [
+    -1.2,
+    -6.7
+   ],
+   "distanceAfterShiftMeters": 0.0,
+   "note": "Samma hussymbol finns redan på grundkartan 1968, i samma läge efter lokal registreringsjustering och utanför de streckade bebyggelseområdena. Kartåret är första belägg, inte byggår."
+  }
+ ],
+ "hatched": [
+  "map-building:nls-symbol-055",
+  "map-building:nls-symbol-065",
+  "map-building:nls-symbol-105",
+  "map-building:nls-symbol-122",
+  "map-building:nls-symbol-148",
+  "map-building:nls-symbol-177",
+  "map-building:nls-symbol-181",
+  "map-building:nls-symbol-182",
+  "map-building:nls-symbol-184",
+  "map-building:nls-symbol-194",
+  "map-building:nls-symbol-220",
+  "map-building:nls-symbol-241",
+  "map-building:nls-symbol-243",
+  "map-building:nls-symbol-246",
+  "map-building:nls-symbol-248",
+  "map-building:nls-symbol-249",
+  "map-building:nls-symbol-271",
+  "map-building:nls-symbol-275",
+  "map-building:nls-symbol-280",
+  "map-building:nls-symbol-284",
+  "map-building:nls-symbol-286",
+  "map-building:nls-symbol-295",
+  "map-building:nls-symbol-298",
+  "map-building:nls-symbol-304",
+  "map-building:nls-symbol-307",
+  "map-building:nls-symbol-310",
+  "map-building:nls-symbol-319",
+  "map-building:nls-symbol-335",
+  "map-building:nls-symbol-337",
+  "map-building:nls-symbol-348",
+  "map-building:nls-symbol-350",
+  "map-building:nls-symbol-353",
+  "map-building:nls-symbol-358",
+  "map-building:nls-symbol-359",
+  "map-building:nls-symbol-361",
+  "map-building:nls-symbol-362",
+  "map-building:nls-symbol-367",
+  "map-building:nls-symbol-375",
+  "map-building:nls-symbol-379",
+  "map-building:nls-symbol-382",
+  "map-building:nls-symbol-384",
+  "map-building:nls-symbol-385",
+  "map-building:nls-symbol-386",
+  "map-building:nls-symbol-403",
+  "map-building:nls-symbol-405",
+  "map-building:nls-symbol-417",
+  "map-building:nls-symbol-420",
+  "map-building:nls-symbol-436",
+  "map-building:nls-symbol-438",
+  "map-building:nls-symbol-439",
+  "map-building:nls-symbol-445",
+  "map-building:nls-symbol-451",
+  "map-building:nls-symbol-471",
+  "map-building:nls-symbol-520",
+  "map-building:nls-symbol-528",
+  "map-building:nls-symbol-539",
+  "map-building:nls-symbol-540",
+  "map-building:nls-symbol-552",
+  "map-building:nls-symbol-559",
+  "map-building:nls-symbol-564",
+  "map-building:nls-symbol-581",
+  "map-building:nls-symbol-593",
+  "map-building:nls-symbol-599",
+  "map-building:nls-symbol-613",
+  "map-building:nls-symbol-614",
+  "map-building:nls-symbol-621",
+  "map-building:nls-symbol-630",
+  "map-building:nls-symbol-639",
+  "map-building:nls-symbol-640",
+  "map-building:nls-symbol-641",
+  "map-building:nls-symbol-651",
+  "map-building:nls-symbol-660",
+  "map-building:nls-symbol-666",
+  "map-building:nls-symbol-682",
+  "map-building:nls-symbol-692",
+  "map-building:nls-symbol-694",
+  "map-building:nls-symbol-695",
+  "map-building:nls-symbol-732",
+  "map-building:nls-symbol-737",
+  "map-building:nls-symbol-757",
+  "map-building:nls-symbol-759",
+  "map-building:nls-symbol-778",
+  "map-building:nls-symbol-782",
+  "map-building:nls-symbol-786",
+  "map-building:nls-symbol-789",
+  "map-building:nls-symbol-792"
+ ],
+ "visualRejections": {
+  "map-building:nls-symbol-017": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 54,
+   "sheetFile": "sym-contact-3.jpg"
+  },
+  "map-building:nls-symbol-022": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 57,
+   "sheetFile": "sym-contact-3.jpg"
+  },
+  "map-building:nls-symbol-059": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 71,
+   "sheetFile": "sym-contact-3.jpg"
+  },
+  "map-building:nls-symbol-086": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 86,
+   "sheetFile": "sym-contact-4.jpg"
+  },
+  "map-building:nls-symbol-106": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 98,
+   "sheetFile": "sym-contact-5.jpg"
+  },
+  "map-building:nls-symbol-118": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 107,
+   "sheetFile": "sym-contact-5.jpg"
+  },
+  "map-building:nls-symbol-124": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 112,
+   "sheetFile": "sym-contact-6.jpg"
+  },
+  "map-building:nls-symbol-135": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 118,
+   "sheetFile": "sym-contact-6.jpg"
+  },
+  "map-building:nls-symbol-142": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 122,
+   "sheetFile": "sym-contact-6.jpg"
+  },
+  "map-building:nls-symbol-168": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 129,
+   "sheetFile": "sym-contact-7.jpg"
+  },
+  "map-building:nls-symbol-176": {
+   "reason": "hatched-block: the 1968 symbol sits in a hatched built-up block",
+   "cell": 131,
+   "sheetFile": "sym-contact-7.jpg"
+  },
+  "map-building:nls-symbol-187": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 133,
+   "sheetFile": "sym-contact-7.jpg"
+  },
+  "map-building:nls-symbol-199": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 136,
+   "sheetFile": "sym-contact-7.jpg"
+  },
+  "map-building:nls-symbol-208": {
+   "reason": "hatched-block: the 1968 symbol sits in a hatched built-up block",
+   "cell": 138,
+   "sheetFile": "sym-contact-7.jpg"
+  },
+  "map-building:nls-symbol-209": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 139,
+   "sheetFile": "sym-contact-7.jpg"
+  },
+  "map-building:nls-symbol-221": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 141,
+   "sheetFile": "sym-contact-7.jpg"
+  },
+  "map-building:nls-symbol-227": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 143,
+   "sheetFile": "sym-contact-7.jpg"
+  },
+  "map-building:nls-symbol-233": {
+   "reason": "lettering: the 1968 match is black place-name lettering, not a house",
+   "cell": 144,
+   "sheetFile": "sym-contact-8.jpg"
+  },
+  "map-building:nls-symbol-265": {
+   "reason": "hatched-block: the 1968 symbol sits in a hatched built-up block",
+   "cell": 147,
+   "sheetFile": "sym-contact-8.jpg"
+  },
+  "map-building:nls-symbol-339": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 2,
+   "sheetFile": "sym-contact-0.jpg"
+  },
+  "map-building:nls-symbol-354": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 3,
+   "sheetFile": "sym-contact-0.jpg"
+  },
+  "map-building:nls-symbol-423": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 8,
+   "sheetFile": "sym-contact-0.jpg"
+  },
+  "map-building:nls-symbol-480": {
+   "reason": "outline-empty: the 1968 outline is empty; the match is the edge of a neighbouring symbol",
+   "cell": 9,
+   "sheetFile": "sym-contact-0.jpg"
+  },
+  "map-building:nls-symbol-547": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 11,
+   "sheetFile": "sym-contact-0.jpg"
+  },
+  "map-building:nls-symbol-594": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 15,
+   "sheetFile": "sym-contact-0.jpg"
+  },
+  "map-building:nls-symbol-721": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 21,
+   "sheetFile": "sym-contact-1.jpg"
+  },
+  "map-building:nls-symbol-725": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 22,
+   "sheetFile": "sym-contact-1.jpg"
+  },
+  "map-building:nls-symbol-738": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 25,
+   "sheetFile": "sym-contact-1.jpg"
+  },
+  "map-building:nls-symbol-771": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 157,
+   "sheetFile": "sym-contact-8.jpg"
+  },
+  "map-building:nls-symbol-779": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 44,
+   "sheetFile": "sym-contact-2.jpg"
+  },
+  "map-building:nls-symbol-785": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 46,
+   "sheetFile": "sym-contact-2.jpg"
+  },
+  "map-building:nls-symbol-788": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 48,
+   "sheetFile": "sym-contact-2.jpg"
+  },
+  "map-building:nls-symbol-790": {
+   "reason": "ambiguous-overlap: the 1968 symbol covers only part of the outline (an extension, a longer building or a neighbour)",
+   "cell": 49,
+   "sheetFile": "sym-contact-2.jpg"
+  }
+ },
+ "reviewSheets": [
+  {
+   "file": "sym-contact-0.jpg",
+   "sha256": "b535d23c3975ba6609539e9d272b1e9eb76b1e9a18189a9d09b7640a8fc8d1f3"
+  },
+  {
+   "file": "sym-contact-1.jpg",
+   "sha256": "e42ee36b7699fab54d2ea83c2c784c5a605a8b6e53ea543d8651e3c08cafc3c5"
+  },
+  {
+   "file": "sym-contact-2.jpg",
+   "sha256": "5b9b8cf11d8eecef0f41e195e8224ad9f3b98ff8b27aaa6112e21c5032c12439"
+  },
+  {
+   "file": "sym-contact-3.jpg",
+   "sha256": "5a9a3264bb98aa3cddfb470f22261a4753e5caea7e0ba412e894ccf0076367f7"
+  },
+  {
+   "file": "sym-contact-4.jpg",
+   "sha256": "365617f340868f0970274a512a85aea7b8b17a3d8b9910e1b48a9e3d4d1a8ca0"
+  },
+  {
+   "file": "sym-contact-5.jpg",
+   "sha256": "9ee39baa52cad381eafb5cc2920e337c40f16b0f08b45d7538a3e28741ab6fdc"
+  },
+  {
+   "file": "sym-contact-6.jpg",
+   "sha256": "9724192769143a752ac8972a6f7993d04c90fda200d5d9d0400f410befc17539"
+  },
+  {
+   "file": "sym-contact-7.jpg",
+   "sha256": "8664277ec55be8f779cc32443d3c97d8bc6c1db64a3af0ac22eb3ebb06beecfb"
+  },
+  {
+   "file": "sym-contact-8.jpg",
+   "sha256": "fe983760cb827060c73d04263a4e45d6e939cf0b5951d91d7b0e8e3230a33214"
+  }
+ ]
+}
