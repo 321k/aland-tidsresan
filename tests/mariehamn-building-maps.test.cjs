@@ -8,8 +8,8 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),sheets=review.sheets;
 
 test('the review is complete, sourced and keeps 1978 out of the building evidence',()=>{
- assert.equal(review.decisions.length,1281);assert.deepEqual(review.totals.byFirstYear,{1968:403,1985:592,1995:286});
- assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','r1','r2'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:124,b10:144,r1:180,r2:81});
+ assert.equal(review.decisions.length,1284);assert.deepEqual(review.totals.byFirstYear,{1968:403,1985:594,1995:287});
+ assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','b11','r1','r2'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:124,b10:144,b11:3,r1:180,r2:81});
  for(const y of ['1968','1985','1995'])assert.ok(catalog.sources.some(s=>s.id===sheets[y]),y);
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  assert.match(review.rules.roadRevision1978,/inte som eget byggnadsbelägg/);
@@ -57,7 +57,7 @@ test('the city layer draws dated houses in their map years and never before',()=
 });
 
 test('houses rejected on the contact sheets are never dated, and each rejection has a reason and a sheet',()=>{
- const rejected=Object.entries(review.visualRejections);assert.equal(rejected.length,325);
+ const rejected=Object.entries(review.visualRejections);assert.equal(rejected.length,341);
  // Every b5 proposal was a shoreline, quay or lettering match; the strip dates nothing.
  assert.equal(rejected.filter(([,r])=>r.batch==='b5').length,8);
  assert.deepEqual(review.deferred['visual-reject'],rejected.map(([id])=>id).sort());
@@ -67,7 +67,7 @@ test('houses rejected on the contact sheets are never dated, and each rejection 
   assert.match(r.reason,/^(outline-empty|shoreline-or-pier|earlier-drawing|obscured|lettering|line|ambiguous-overlap|ambiguous-offset|hatched-block):/);
   assert.ok(sheets.has(r.sheetFile),id);assert.ok([1968,1985,1995].includes(r.proposedFirstYear))}
  // Every batch was reviewed on tile sheets and on contact sheets.
- for(const k of ['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10'])for(const kind of ['sheet','contact'])assert.ok([...sheets].some(f=>f.startsWith(`${k}-${kind}-`)),k+kind);
+ for(const k of ['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','b11'])for(const kind of ['sheet','contact'])assert.ok([...sheets].some(f=>f.startsWith(`${k}-${kind}-`)),k+kind);
 });
 
 test('in the centre, a dated house never overlaps a printed-map symbol object, and hatched 1968 blocks date nothing',()=>{
@@ -86,13 +86,13 @@ test('in the centre, a dated house never overlaps a printed-map symbol object, a
  for(const r of hatched){assert.equal(r.proposedFirstYear,1968);assert.ok(['b6','b7'].includes(r.batch))}
 });
 
-test('modern-only outlines in Ytternäs get a reconstruction that starts at their map year',()=>{
+test('modern-only outlines in Ytternäs and Dalen get a reconstruction that starts at their map year',()=>{
  assert.equal(review.deferred['external-modern'],undefined);
- const created=review.decisions.filter(d=>d.createReconstruction);assert.equal(created.length,93);
+ const created=review.decisions.filter(d=>d.createReconstruction);assert.equal(created.length,96);
  for(const d of created){const o=model.objects.get(d.objectId);
   assert.ok(o.externalModern&&o.reconstruction.createdByBuildingMapReview,d.objectId);assert.equal(d.originalFrom,2026);
   assert.equal(o.reconstruction.from,d.firstYear);assert.equal(o.reconstruction.firstObserved,2026);assert.equal(o.reconstruction.previous.from,2026);
-  assert.ok(['b9','b10'].includes(d.batch))}
+  assert.ok(['b9','b10','b11'].includes(d.batch))}
  for(const d of review.decisions)assert.ok(model.objects.get(d.objectId).reconstruction,d.objectId);
 });
 
@@ -103,7 +103,7 @@ test('the r1 recheck dates earlier-unclear buildings only where the earlier draw
   if(d.recheck.code==='P')assert.ok(!d.observations.some(x=>x.visualReview),d.objectId);
   else assert.equal(d.firstYear,+d.recheck.code.slice(1));
   for(const x of d.observations.filter(x=>x.visualReview)){const e=o.evidence.find(e=>e.id===`${d.objectId}:map-101208-${x.year}`);assert.equal(e.visualReview,true);assert.ok(x.year>=d.firstYear)}}
- assert.equal(review.deferred['earlier-unclear'].length,79);
+ assert.equal(review.deferred['earlier-unclear'].length,88);
 });
 
 test('the r2 recheck dates inconsistent buildings only where every later edition draws the same building',()=>{
@@ -111,5 +111,5 @@ test('the r2 recheck dates inconsistent buildings only where every later edition
  const codes={};for(const d of r2)codes[d.recheck.code]=(codes[d.recheck.code]||0)+1;assert.deepEqual(codes,{E1968:41,E1985:40});
  for(const d of r2){assert.equal(d.recheck.verdict,'inconsistent');assert.equal(d.firstYear,+d.recheck.code.slice(1));
   for(const x of d.observations)if(x.year>=d.firstYear)assert.equal(x.outcome,'present',d.objectId)}
- assert.equal(review.deferred.inconsistent.length,108);
+ assert.equal(review.deferred.inconsistent.length,113);
 });

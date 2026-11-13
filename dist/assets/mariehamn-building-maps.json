@@ -51517,6 +51517,149 @@
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
   },
   {
+   "objectId": "building:osm:way-346669286",
+   "input": "9f997f219dde17bdddea4619825ff113d4ac49ab236bcd51a680f6a8e4a2fccb",
+   "referenceGeometryId": "geometry:31bff1901f3d2fc79ff4",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 183.7,
+   "batch": "b11",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2565.89,
+      5001.0
+     ],
+     "shiftMeters": [
+      0.0,
+      0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-346669313",
+   "input": "ef43dcaf9fdfce6b38e16d773f2d750e8a3bc4d5a773d86a8f95812bf207769b",
+   "referenceGeometryId": "geometry:1a1f235fa1127d72536c",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 65.1,
+   "batch": "b11",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3508.29,
+      5336.29
+     ],
+     "shiftMeters": [
+      -4.0,
+      -11.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2432.91,
+      5090.06
+     ],
+     "shiftMeters": [
+      -4.0,
+      -1.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-522951856",
+   "input": "68edc5849a792abb14914c9a4193549ef74b860588f93b5660cb12716c54d7d8",
+   "referenceGeometryId": "geometry:d929f96169d38ff63830",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 282.1,
+   "batch": "b11",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3918.82,
+      5601.34
+     ],
+     "shiftMeters": [
+      -5.2,
+      -6.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2842.65,
+      5362.25
+     ],
+     "shiftMeters": [
+      -3.2,
+      0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
    "objectId": "building:osm:way-1005887851",
    "input": "1eec83b38ff3d4f09d8b0e9af1b8e5818aab83e9755478136a80f0f516b43b98",
    "referenceGeometryId": "geometry:267040630e2b0c54f069",
@@ -65900,6 +66043,7 @@
    "building:osm:way-1008404892",
    "building:osm:way-1008404895",
    "building:osm:way-1012885496",
+   "building:osm:way-1075912434",
    "building:osm:way-111858371",
    "building:osm:way-1133398863",
    "building:osm:way-1133518219",
@@ -65932,8 +66076,12 @@
    "building:osm:way-1277759379",
    "building:osm:way-1277759380",
    "building:osm:way-1277759383",
+   "building:osm:way-1277764047",
+   "building:osm:way-1277764049",
+   "building:osm:way-1277764053",
    "building:osm:way-1277800055",
    "building:osm:way-1280029886",
+   "building:osm:way-1280238725",
    "building:osm:way-1281082300",
    "building:osm:way-1281082301",
    "building:osm:way-1281082302",
@@ -66038,11 +66186,29 @@
    "building:osm:way-1555828635",
    "building:osm:way-1555829181",
    "building:osm:way-1555829212",
+   "building:osm:way-1555829373",
+   "building:osm:way-1555829408",
+   "building:osm:way-1555829410",
+   "building:osm:way-1555829446",
+   "building:osm:way-1555829471",
+   "building:osm:way-1555829497",
+   "building:osm:way-1555829505",
+   "building:osm:way-1555829509",
+   "building:osm:way-1555829529",
+   "building:osm:way-1555829537",
+   "building:osm:way-1555829565",
+   "building:osm:way-1555829586",
+   "building:osm:way-1555830761",
    "building:osm:way-1555878641",
    "building:osm:way-1555878642",
    "building:osm:way-1555878643",
    "building:osm:way-1555878697",
+   "building:osm:way-1555878756",
+   "building:osm:way-1555878757",
+   "building:osm:way-1555878758",
    "building:osm:way-1555878759",
+   "building:osm:way-1555878760",
+   "building:osm:way-1555878761",
    "building:osm:way-1555878762",
    "building:osm:way-1555878763",
    "building:osm:way-1555878764",
@@ -66076,6 +66242,9 @@
    "building:osm:way-162990845",
    "building:osm:way-162990846",
    "building:osm:way-162992757",
+   "building:osm:way-162997264",
+   "building:osm:way-162997265",
+   "building:osm:way-162997267",
    "building:osm:way-163008912",
    "building:osm:way-163025288",
    "building:osm:way-163025291",
@@ -66332,6 +66501,38 @@
    "building:osm:way-345813235",
    "building:osm:way-345813393",
    "building:osm:way-345813397",
+   "building:osm:way-346407513",
+   "building:osm:way-346669281",
+   "building:osm:way-346669282",
+   "building:osm:way-346669284",
+   "building:osm:way-346669285",
+   "building:osm:way-346669287",
+   "building:osm:way-346669288",
+   "building:osm:way-346669289",
+   "building:osm:way-346669290",
+   "building:osm:way-346669291",
+   "building:osm:way-346669292",
+   "building:osm:way-346669294",
+   "building:osm:way-346669295",
+   "building:osm:way-346669297",
+   "building:osm:way-346669298",
+   "building:osm:way-346669299",
+   "building:osm:way-346669301",
+   "building:osm:way-346669304",
+   "building:osm:way-346669306",
+   "building:osm:way-346669307",
+   "building:osm:way-346669308",
+   "building:osm:way-346669309",
+   "building:osm:way-346669310",
+   "building:osm:way-346669311",
+   "building:osm:way-346669312",
+   "building:osm:way-346669314",
+   "building:osm:way-346669315",
+   "building:osm:way-346669316",
+   "building:osm:way-346669317",
+   "building:osm:way-346669318",
+   "building:osm:way-346669319",
+   "building:osm:way-346669510",
    "building:osm:way-35304979",
    "building:osm:way-369182776",
    "building:osm:way-369246774",
@@ -66544,6 +66745,8 @@
    "building:osm:way-505610373",
    "building:osm:way-505610374",
    "building:osm:way-505610379",
+   "building:osm:way-522951857",
+   "building:osm:way-522951861",
    "building:osm:way-523341825",
    "building:osm:way-523341827",
    "building:osm:way-523341831",
@@ -67686,6 +67889,8 @@
    "building:osm:way-671355552",
    "building:osm:way-671355553",
    "building:osm:way-706654430",
+   "building:osm:way-712631493",
+   "building:osm:way-712631499",
    "building:osm:way-712635211",
    "building:osm:way-712635212",
    "building:osm:way-712635213",
@@ -67700,6 +67905,7 @@
    "building:osm:way-732611737",
    "building:osm:way-732611738",
    "building:osm:way-732625173",
+   "building:osm:way-751428943",
    "building:osm:way-845003831",
    "building:osm:way-845003832",
    "building:osm:way-877394895",
@@ -68603,8 +68809,12 @@
   "earlier-unclear": [
    "building:osm:way-1006083008",
    "building:osm:way-1008404890",
+   "building:osm:way-1277764048",
+   "building:osm:way-1277764050",
+   "building:osm:way-1277764051",
    "building:osm:way-1555821069",
    "building:osm:way-1555827918",
+   "building:osm:way-1555830499",
    "building:osm:way-1555878799",
    "building:osm:way-162456266",
    "building:osm:way-165234940",
@@ -68625,10 +68835,15 @@
    "building:osm:way-274182772",
    "building:osm:way-319360449",
    "building:osm:way-345813396",
+   "building:osm:way-346407512",
+   "building:osm:way-346407514",
+   "building:osm:way-346669300",
+   "building:osm:way-346669323",
    "building:osm:way-415215781",
    "building:osm:way-496239065",
    "building:osm:way-496790858",
    "building:osm:way-501190352",
+   "building:osm:way-522951859",
    "building:osm:way-523341846",
    "building:osm:way-525991512",
    "building:osm:way-530694533",
@@ -68716,6 +68931,9 @@
    "building:osm:way-329169437",
    "building:osm:way-329169438",
    "building:osm:way-345813398",
+   "building:osm:way-346412042",
+   "building:osm:way-346669305",
+   "building:osm:way-346669320",
    "building:osm:way-379322223",
    "building:osm:way-379322229",
    "building:osm:way-415215787",
@@ -68788,7 +69006,9 @@
    "building:osm:way-669978234",
    "building:osm:way-669978267",
    "building:osm:way-669978282",
+   "building:osm:way-712631492",
    "building:osm:way-717185705",
+   "building:osm:way-751428942",
    "building:osm:way-987395782"
   ],
   "outline-changed": [
@@ -68808,6 +69028,8 @@
    "building:osm:way-1253633914",
    "building:osm:way-1263839923",
    "building:osm:way-1274527758",
+   "building:osm:way-1277764052",
+   "building:osm:way-1279257779",
    "building:osm:way-1555822444",
    "building:osm:way-1555822876",
    "building:osm:way-1555823943",
@@ -68816,6 +69038,9 @@
    "building:osm:way-1555826906",
    "building:osm:way-1555827745",
    "building:osm:way-1555829074",
+   "building:osm:way-1555830368",
+   "building:osm:way-1555830385",
+   "building:osm:way-1555830908",
    "building:osm:way-162297312",
    "building:osm:way-162298848",
    "building:osm:way-162321190",
@@ -68874,6 +69099,15 @@
    "building:osm:way-345813391",
    "building:osm:way-345813392",
    "building:osm:way-345813395",
+   "building:osm:way-346407515",
+   "building:osm:way-346412045",
+   "building:osm:way-346669283",
+   "building:osm:way-346669293",
+   "building:osm:way-346669296",
+   "building:osm:way-346669302",
+   "building:osm:way-346669303",
+   "building:osm:way-346669321",
+   "building:osm:way-346669322",
    "building:osm:way-418380869",
    "building:osm:way-418380886",
    "building:osm:way-453682608",
@@ -69068,6 +69302,8 @@
    "building:osm:way-586408705",
    "building:osm:way-586408706",
    "building:osm:way-589910133",
+   "building:osm:way-589910137",
+   "building:osm:way-589910138",
    "building:osm:way-591003108",
    "building:osm:way-591003152",
    "building:osm:way-591003153",
@@ -69227,6 +69463,22 @@
    "cell": 1,
    "sheetFile": "b5-contact-0-1968.jpg"
   },
+  "building:osm:way-1277764052": {
+   "batch": "b11",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-1968",
+   "cell": 0,
+   "sheetFile": "b11-contact-0-1968.jpg"
+  },
+  "building:osm:way-1279257779": {
+   "batch": "b11",
+   "proposedFirstYear": 1995,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-later",
+   "cell": 0,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
   "building:osm:way-1555822444": {
    "batch": "b1",
    "proposedFirstYear": 1968,
@@ -69290,6 +69542,30 @@
    "contactSheet": "b9-contact-1968",
    "cell": 0,
    "sheetFile": "b9-contact-0-1968.jpg"
+  },
+  "building:osm:way-1555830368": {
+   "batch": "b11",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b11-contact-1968",
+   "cell": 1,
+   "sheetFile": "b11-contact-0-1968.jpg"
+  },
+  "building:osm:way-1555830385": {
+   "batch": "b11",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-1968",
+   "cell": 2,
+   "sheetFile": "b11-contact-0-1968.jpg"
+  },
+  "building:osm:way-1555830908": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b11-contact-later",
+   "cell": 1,
+   "sheetFile": "b11-contact-0-later.jpg"
   },
   "building:osm:way-162297312": {
    "batch": "b7",
@@ -69754,6 +70030,78 @@
    "contactSheet": "b9-contact-later",
    "cell": 34,
    "sheetFile": "b9-contact-1-later.jpg"
+  },
+  "building:osm:way-346407515": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-later",
+   "cell": 2,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
+  "building:osm:way-346412045": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-later",
+   "cell": 3,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
+  "building:osm:way-346669283": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-later",
+   "cell": 4,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
+  "building:osm:way-346669293": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-later",
+   "cell": 6,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
+  "building:osm:way-346669296": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-later",
+   "cell": 7,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
+  "building:osm:way-346669302": {
+   "batch": "b11",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b11-contact-1968",
+   "cell": 3,
+   "sheetFile": "b11-contact-0-1968.jpg"
+  },
+  "building:osm:way-346669303": {
+   "batch": "b11",
+   "proposedFirstYear": 1995,
+   "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+   "contactSheet": "b11-contact-later",
+   "cell": 8,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
+  "building:osm:way-346669321": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-later",
+   "cell": 10,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
+  "building:osm:way-346669322": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b11-contact-later",
+   "cell": 11,
+   "sheetFile": "b11-contact-0-later.jpg"
   },
   "building:osm:way-418380869": {
    "batch": "b7",
@@ -71307,6 +71655,22 @@
    "cell": 138,
    "sheetFile": "b9-contact-6-later.jpg"
   },
+  "building:osm:way-589910137": {
+   "batch": "b11",
+   "proposedFirstYear": 1995,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b11-contact-later",
+   "cell": 13,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
+  "building:osm:way-589910138": {
+   "batch": "b11",
+   "proposedFirstYear": 1985,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b11-contact-later",
+   "cell": 14,
+   "sheetFile": "b11-contact-0-later.jpg"
+  },
   "building:osm:way-591003108": {
    "batch": "b1",
    "proposedFirstYear": 1985,
@@ -71926,6 +72290,30 @@
    "sha256": "c0884509c3ed14a5ac1f94a6132e0a0f0b707305f1968c5222d823e2ca20a694"
   },
   {
+   "file": "b11-contact-0-1968.jpg",
+   "sha256": "56b553c7247200a43bc88f0d0a2660f99bab118109f0069bbcac6c495ca9a289"
+  },
+  {
+   "file": "b11-contact-0-later.jpg",
+   "sha256": "79d201fa467feabf046310c0c1240751d45e2f2a4825c9441c30ec67f92e9594"
+  },
+  {
+   "file": "b11-sheet-00.jpg",
+   "sha256": "ee16dd8faae959fe39d39808486e01a58a7230d1ead8f6a5cf4c14a371d810a7"
+  },
+  {
+   "file": "b11-sheet-01.jpg",
+   "sha256": "f0e6a6186e1625c82d1d738ee601fbf0651c6c2795a71ef917ae07200a01b053"
+  },
+  {
+   "file": "b11-sheet-10.jpg",
+   "sha256": "3514b819d43adf7bdc5e29216e5bac5db39fa82afb9bbe41d0e353aaf3ed5d24"
+  },
+  {
+   "file": "b11-sheet-11.jpg",
+   "sha256": "deb077cfa4960ed570d2db1fd25a83f3ddf57f0b5dc45bec9e4ddba0e9cef05b"
+  },
+  {
    "file": "b2-contact-0-1968.jpg",
    "sha256": "985fba5ebe9a01b8a70cafb8f89bd2e0901b7affe49ad368e0150bb368a0b96c"
   },
@@ -72259,20 +72647,20 @@
   }
  ],
  "totals": {
-  "buildings": 1281,
+  "buildings": 1284,
   "byFirstYear": {
    "1968": 403,
-   "1985": 592,
-   "1995": 286
+   "1985": 594,
+   "1995": 287
   },
   "deferred": {
-   "absent": 1882,
+   "absent": 1945,
    "already-dated": 877,
    "curated-review": 2,
-   "earlier-unclear": 79,
-   "inconsistent": 108,
+   "earlier-unclear": 88,
+   "inconsistent": 113,
    "outline-changed": 1,
-   "visual-reject": 325
+   "visual-reject": 341
   }
  }
 }

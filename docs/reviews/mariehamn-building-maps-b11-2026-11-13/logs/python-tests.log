@@ -1,0 +1,58 @@
+test_1978_road_revision_is_not_building_evidence (tests.test_mariehamn_building_maps.BuildingMapTests.test_1978_road_revision_is_not_building_evidence) ... ok
+test_changed_building_rejected (tests.test_mariehamn_building_maps.BuildingMapTests.test_changed_building_rejected) ... ok
+test_curated_building_rejected (tests.test_mariehamn_building_maps.BuildingMapTests.test_curated_building_rejected) ... ok
+test_overlapping_printed_symbol_object_rejected (tests.test_mariehamn_building_maps.BuildingMapTests.test_overlapping_printed_symbol_object_rejected) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_building_maps.BuildingMapTests.test_review_applies_once_and_matches_the_build) ... ok
+test_start_must_be_first_map_evidence (tests.test_mariehamn_building_maps.BuildingMapTests.test_start_must_be_first_map_evidence) ... ok
+test_symbol_far_from_the_building_rejected (tests.test_mariehamn_building_maps.BuildingMapTests.test_symbol_far_from_the_building_rejected) ... ok
+Ran 7 tests in 25.726s
+OK
+== test_mariehamn_building_maps exit 0
+test_changed_trace_or_object_rejected (tests.test_mariehamn_frame_1942.Frame1942Tests.test_changed_trace_or_object_rejected) ... ok
+test_gap_must_join_its_objects (tests.test_mariehamn_frame_1942.Frame1942Tests.test_gap_must_join_its_objects) ... ok
+test_object_far_from_its_trace_rejected (tests.test_mariehamn_frame_1942.Frame1942Tests.test_object_far_from_its_trace_rejected) ... ok
+test_rejected_trace_cannot_carry_members (tests.test_mariehamn_frame_1942.Frame1942Tests.test_rejected_trace_cannot_carry_members) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_frame_1942.Frame1942Tests.test_review_applies_once_and_matches_the_build) ... ok
+Ran 5 tests in 18.831s
+OK
+== test_mariehamn_frame_1942 exit 0
+test_changed_or_repeated_object_rejected (tests.test_mariehamn_symbols_1968.Symbols1968Tests.test_changed_or_repeated_object_rejected) ... ok
+test_object_without_printed_symbol_rejected (tests.test_mariehamn_symbols_1968.Symbols1968Tests.test_object_without_printed_symbol_rejected) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_symbols_1968.Symbols1968Tests.test_review_applies_once_and_matches_the_build) ... ok
+test_symbol_far_from_the_object_rejected (tests.test_mariehamn_symbols_1968.Symbols1968Tests.test_symbol_far_from_the_object_rejected) ... ok
+test_symbol_in_a_hatched_area_rejected (tests.test_mariehamn_symbols_1968.Symbols1968Tests.test_symbol_in_a_hatched_area_rejected) ... ok
+Ran 5 tests in 16.642s
+OK
+== test_mariehamn_symbols_1968 exit 0
+test_changed_input_rejected (tests.test_mariehamn_museum_duplicates.MuseumDuplicateTests.test_changed_input_rejected) ... ok
+test_one_museum_house_cannot_both_merge_and_end (tests.test_mariehamn_museum_duplicates.MuseumDuplicateTests.test_one_museum_house_cannot_both_merge_and_end) ... ok
+test_partners_must_overlap (tests.test_mariehamn_museum_duplicates.MuseumDuplicateTests.test_partners_must_overlap) ... ok
+test_replacement_must_end_at_the_successor (tests.test_mariehamn_museum_duplicates.MuseumDuplicateTests.test_replacement_must_end_at_the_successor) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_museum_duplicates.MuseumDuplicateTests.test_review_applies_once_and_matches_the_build) ... ok
+test_two_museum_houses_cannot_merge_into_one (tests.test_mariehamn_museum_duplicates.MuseumDuplicateTests.test_two_museum_houses_cannot_merge_into_one) ... ok
+Ran 6 tests in 15.496s
+OK
+== test_mariehamn_museum_duplicates exit 0
+test_changed_input_rejected (tests.test_mariehamn_museum_offsets.MuseumOffsetTests.test_changed_input_rejected) ... ok
+test_ending_cannot_also_merge (tests.test_mariehamn_museum_offsets.MuseumOffsetTests.test_ending_cannot_also_merge) ... ok
+test_ending_needs_an_empty_footprint (tests.test_mariehamn_museum_offsets.MuseumOffsetTests.test_ending_needs_an_empty_footprint) ... ok
+test_merge_partners_must_be_neighbours (tests.test_mariehamn_museum_offsets.MuseumOffsetTests.test_merge_partners_must_be_neighbours) ... ok
+test_no_more_than_two_museum_houses_join_one_building (tests.test_mariehamn_museum_offsets.MuseumOffsetTests.test_no_more_than_two_museum_houses_join_one_building) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_museum_offsets.MuseumOffsetTests.test_review_applies_once_and_matches_the_build) ... ok
+Ran 6 tests in 13.441s
+OK
+== test_mariehamn_museum_offsets exit 0
+test_changed_inputs_fail_before_either_object_is_mutated (tests.test_reported_buildings_17_18.ReportedBuildingsTest.test_changed_inputs_fail_before_either_object_is_mutated) ... ok
+test_reproducible_and_only_two_objects_change (tests.test_reported_buildings_17_18.ReportedBuildingsTest.test_reproducible_and_only_two_objects_change) ... ok
+Ran 2 tests in 4.639s
+OK
+== test_reported_buildings_17_18 exit 0
+test_changed_object_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_changed_object_rejected) ... ok
+test_changed_original_trace_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_changed_original_trace_rejected) ... ok
+test_object_far_from_the_trace_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_object_far_from_the_trace_rejected) ... ok
+test_repeated_object_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_repeated_object_rejected) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_review_applies_once_and_matches_the_build) ... ok
+test_unreviewed_stage_copy_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_unreviewed_stage_copy_rejected) ... ok
+Ran 6 tests in 14.447s
+OK
+== test_mariehamn_approaches_1942 exit 0

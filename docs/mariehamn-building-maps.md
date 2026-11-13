@@ -31,6 +31,11 @@ Sheet 101208's 1995 registration starts at about 19.917° E, so nothing further 
 - **b8**, 19.946–19.962° E × 60.0915–60.109° N: the strip east of the centre along Slemmern.
 - **b9**, 19.928–19.950° E × 60.0725–60.0855° N: Västra Ytternäs, south of Lotsberget to Korrvik and Lervik.
 - **b10**, 19.950–19.972° E × 60.0725–60.0855° N: Östra Ytternäs and the terraced rows of central Ytternäs.
+- **b11**, 19.948–19.966° E × 60.060–60.0725° N: the peninsula south of Lervik, Dalen and Espholm. Espholm is a
+  Mariehamn district on the town's map; Svinö to the west and Nåtö and Järsö to the south belong to Lemland and are
+  not reviewed. Sparsely built: 3 houses dated (2 from 1985, 1 from 1995), 16 of 19 proposals rejected (partial
+  overlaps and empty outlines beside the house); all three are modern-only outlines and get a created reconstruction
+  like those in Ytternäs. Its 9 `earlier-unclear` and 5 `inconsistent` buildings are deferred.
 
 | | b1 | b2 | b3 | b4 | b5 | b6 | b7 | b8 | b9 | b10 | total |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -173,7 +178,7 @@ overlaps a printed-map symbol object (more than 5 m², or containing its centre)
 their dates.
 
 Tests: `tests/mariehamn-building-maps.test.cjs`, `tests/test_mariehamn_building_maps.py`. The scope audit against
-the pre-review snapshot finds exactly the 1281 reviewed objects changed, one new source, and no geometry changes.
+the pre-review snapshot finds exactly the 1284 reviewed objects changed, one new source, and no geometry changes.
 Against the first b1 publication, the 83 withdrawn houses are byte-identical to the snapshot again, the 361 kept
 are unchanged and 214 are newly dated.
 
@@ -183,7 +188,7 @@ are unchanged and 214 are newly dated.
   hatching already includes them.
 - The 615 printed-symbol objects start at their 1985 symbol (mostly 1983). 125 of them outside the hatched blocks are
   now dated from the 1968 edition by a separate review (`docs/mariehamn-symbols-1968.md`).
-- Ytternäs south of Lervik (Dalen), the area north of b1 and east of Slemmern were not reviewed; whether they belong
-  to Mariehamn was not checked against the town boundary.
+- The area north of b1 (Sviby, Dalkarby, Byberg on the 1985 sheet) and east of Slemmern belong to Jomala and Lemland and
+  are not part of this review.
 - The 79 remaining `earlier-unclear` and 108 `inconsistent` buildings, and the `visual-reject` ones, need a closer look (often hatched public
   buildings, replaced houses, houses under map lettering, or a local registration offset).

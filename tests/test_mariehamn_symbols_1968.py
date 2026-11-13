@@ -35,11 +35,11 @@ class Symbols1968Tests(unittest.TestCase):
         catalog = copy.deepcopy(self.pristine); apply_symbols_1968(self.read, catalog)
         # The museum duplicate review runs after this step.
         once = copy.deepcopy(catalog); apply_museum_duplicates(self.read, catalog)
-        # Buildings dated by the later r1/r2 rechecks and the Ytternäs modern-only outlines postdate this snapshot;
+        # Buildings dated by the later r1/r2 rechecks, the Ytternäs modern-only outlines and b11 postdate this snapshot;
         # compare the rest exactly.
-        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('r1', 'r2')
+        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('r1', 'r2', 'b11')
                  or (o.get('reconstruction') or {}).get('createdByBuildingMapReview')}
-        self.assertEqual(len(later), 354)
+        self.assertEqual(len(later), 357)
         self.assertEqual([o for o in json.loads(json.dumps(catalog, ensure_ascii=False))['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):

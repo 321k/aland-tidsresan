@@ -41,8 +41,8 @@ class Frame1942Tests(unittest.TestCase):
         self.assertEqual(catalog['cityStages'], self.built['cityStages'])
         # Building-map batches added after the snapshot (b6–b10: the centre and Ytternäs; r1, r2: the rechecks) change only buildings the
         # frame review never touches; every other object must match the build exactly.
-        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('b6', 'b7', 'b8', 'b9', 'b10', 'r1', 'r2')}
-        self.assertEqual(len(later), 594)
+        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('b6', 'b7', 'b8', 'b9', 'b10', 'b11', 'r1', 'r2')}
+        self.assertEqual(len(later), 597)
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):

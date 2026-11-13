@@ -1,0 +1,17 @@
+{
+ "building:osm:way-1555830368": {
+  "1985": {
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "pixel": [
+    3928.35,
+    5270.85
+   ],
+   "distanceAfterShift": 10.1,
+   "shift": [
+    0.0,
+    0.0
+   ],
+   "filled": true
+  }
+ }
+}
