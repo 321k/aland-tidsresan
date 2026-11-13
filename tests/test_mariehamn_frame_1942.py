@@ -39,10 +39,10 @@ class Frame1942Tests(unittest.TestCase):
         apply_museum_duplicates(self.read, catalog)
         catalog = json.loads(json.dumps(catalog, ensure_ascii=False))
         self.assertEqual(catalog['cityStages'], self.built['cityStages'])
-        # Building-map batches added after the snapshot (b6–b10: the centre and Ytternäs) change only buildings the
+        # Building-map batches added after the snapshot (b6–b10: the centre and Ytternäs; r1: the recheck) change only buildings the
         # frame review never touches; every other object must match the build exactly.
-        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('b6', 'b7', 'b8', 'b9', 'b10')}
-        self.assertEqual(len(later), 240)
+        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('b6', 'b7', 'b8', 'b9', 'b10', 'r1')}
+        self.assertEqual(len(later), 420)
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):

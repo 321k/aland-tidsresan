@@ -8,8 +8,8 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),sheets=review.sheets;
 
 test('the review is complete, sourced and keeps 1978 out of the building evidence',()=>{
- assert.equal(review.decisions.length,927);assert.deepEqual(review.totals.byFirstYear,{1968:344,1985:420,1995:163});
- assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:69,b10:106});
+ assert.equal(review.decisions.length,1107);assert.deepEqual(review.totals.byFirstYear,{1968:360,1985:508,1995:239});
+ assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','r1'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:69,b10:106,r1:180});
  for(const y of ['1968','1985','1995'])assert.ok(catalog.sources.some(s=>s.id===sheets[y]),y);
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  assert.match(review.rules.roadRevision1978,/inte som eget byggnadsbelägg/);
@@ -39,7 +39,7 @@ test('every later edition shows the building; only 1985 may be unclear between 1
  let unclear=0;
  for(const d of review.decisions){const o=model.objects.get(d.objectId);
   for(const x of d.observations){const e=o.evidence.find(e=>e.id===`${d.objectId}:map-101208-${x.year}`);
-   if(x.year<d.firstYear){assert.equal(x.outcome,'absent');assert.equal(e,undefined);continue}
+   if(x.year<d.firstYear){assert.ok(x.outcome==='absent'||x.outcome==='unclear'&&x.reason==='hatched-block'&&x.year===1968,e?.id);assert.equal(e,undefined);continue}
    assert.equal(e.constructionYear,null);assert.equal(e.sourceId,sheets[x.year]);
    if(x.outcome==='unclear'){unclear++;assert.equal(x.year,1985);assert.equal(d.firstYear,1968);assert.deepEqual(e.supports,['assessment']);assert.ok(!o.states[0].evidenceIds.includes(e.id));continue}
    assert.equal(x.outcome,'present');assert.deepEqual(e.sourcePixels.pixel,x.pixel);assert.ok(o.states[0].evidenceIds.includes(e.id));
@@ -90,4 +90,14 @@ test('modern-only outlines in Ytternäs are deferred, never dated: they have no 
  const ext=review.deferred['external-modern'];assert.equal(ext.length,93);
  for(const id of ext){const o=model.objects.get(id);assert.ok(o.externalModern&&!o.reconstruction&&!o.buildingMapReview,id);assert.ok(!review.decisions.some(d=>d.objectId===id),id)}
  for(const d of review.decisions)assert.ok(model.objects.get(d.objectId).reconstruction,d.objectId);
+});
+
+test('the r1 recheck dates earlier-unclear buildings only where the earlier drawing was judged by eye',()=>{
+ const r1=review.decisions.filter(d=>d.batch==='r1');assert.equal(r1.length,180);
+ const codes={};for(const d of r1)codes[d.recheck.code]=(codes[d.recheck.code]||0)+1;assert.deepEqual(codes,{E1968:16,E1985:67,P:97});
+ for(const d of r1){const o=model.objects.get(d.objectId);
+  if(d.recheck.code==='P')assert.ok(!d.observations.some(x=>x.visualReview),d.objectId);
+  else assert.equal(d.firstYear,+d.recheck.code.slice(1));
+  for(const x of d.observations.filter(x=>x.visualReview)){const e=o.evidence.find(e=>e.id===`${d.objectId}:map-101208-${x.year}`);assert.equal(e.visualReview,true);assert.ok(x.year>=d.firstYear)}}
+ assert.equal(review.deferred['earlier-unclear'].length,79);
 });

@@ -1,0 +1,7 @@
+patch -p1 --dry-run < batch.patch against the pre-edit copy: OK
+  (dist/index.html starts from exactly the state the museum offset review's batch.patch produces)
+applied forward; result identical to the working-tree file (diff -r): OK, except the generated loadingPreview bins
+  and startup-loader cache-stamp line, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+7acde9a2786a6d94c1348732a725966039b60b237a29bb29228f9b2d9caf7eff  batch.patch
+post-patch d963ff99693303e70eb1e7e297344d2d45980172822ced6a5b97cff4dfe81ce1  dist/index.html

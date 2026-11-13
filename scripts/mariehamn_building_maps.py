@@ -79,7 +79,9 @@ def apply_building_maps(read, catalog):
         if [x['year'] for x in obs] != YEARS or any(x['sourceId'] != review['sheets'][str(x['year'])] for x in obs):
             raise ValueError('Incomplete building map chronology: ' + d['objectId'])
         present = [x['year'] for x in obs if x['outcome'] == 'present']
-        if not present or present[0] != d['firstYear'] or any(x['outcome'] != 'absent' for x in obs if x['year'] < d['firstYear']):
+        # Before the start an edition is absent, or 'unclear' where the 1968 block is hatched as built-up area.
+        if not present or present[0] != d['firstYear'] or any(x['outcome'] != 'absent' and not (x['outcome'] == 'unclear' and x.get('reason') == 'hatched-block'
+                                                                                                  and x['year'] == 1968) for x in obs if x['year'] < d['firstYear']):
             raise ValueError('Building start is not its first map evidence: ' + d['objectId'])
         for x in obs:
             if x['year'] > d['firstYear'] and x['outcome'] != 'present':
@@ -128,6 +130,8 @@ def apply_building_maps(read, catalog):
             if x['outcome'] == 'present':
                 e.update(sourcePixels=dict(sourceId=x['sourceId'], pixel=x['pixel']), deviationMeters=x.pop('_deviation'),
                          localShiftMeters=x['shiftMeters'], matchedGeometryId=d['referenceGeometryId'])
+                if x.get('visualReview'):
+                    e['visualReview'] = True  # the drawing was confirmed by eye; the pixel is the shifted outline's centre
                 ids.append(eid)
             o['evidence'].append(e)
         note = d['basis']
