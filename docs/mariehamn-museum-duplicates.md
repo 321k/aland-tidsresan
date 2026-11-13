@@ -61,3 +61,34 @@ successors; no geometry or city-stage changes.
   below the 15 % threshold that found the pairs. The edge overlap existed from 2021 before this review and now also
   shows from 1920; it is not treated as a duplicate.
 - 41 OSM-vs-OSM overlaps (mostly new outlines in the 2026 extract) and 10 OSM-vs-symbol overlaps.
+
+## Second pass: offset duplicates and vanished houses
+
+Review: `data/mariehamn-museum-offsets.json` (source `review:mariehamn-museum-offsets`), applied by the same step after
+the overlap review (`apply_museum_offsets`). Reviewed 2026-11-13, after reports of remaining duplicates near
+Storagatan (museum houses 136, 138, 152 and 153).
+
+The overlap check misses museum houses that stand next to their house instead of on it. The museum map is often
+shifted about a house depth, mostly northwards, so museum houses 136, 138, 139, 149, 150, 152 and 155 stood in the
+street or front garden one house depth north of the same building. So every museum house still open after the first
+pass (74) was drawn on the 1942 photo and the 1968 and 1985 maps with all buildings within 40 m numbered
+(`open_sheets.py`, `open-NN.jpg`), and the dark share inside its own footprint was measured on 1968, 1985 and 1995
+(`open_ink.py`).
+
+| decision | museum houses |
+|---|---|
+| **merge** into a directly neighbouring later house (gap at most 6.8 m); the 1942 photo shows the house there and none at the museum spot | 24 (into 22 houses; museum 41 + 42 and 149 + 150 each join one longer building) |
+| **ending**: footprint empty on the 1985 map (dark share at most 0.3) and no neighbour is clearly the same house; ends by 1983, the map's survey year | 33 |
+| deferred: unclear (14), street lines in the footprint (2), neighbour is the curated history building Södragatan 33 without a reconstruction record (1) | 17 |
+
+An ending is a latest boundary: the house may have gone earlier (several stood in what is street or yard on the 1942
+photo) or have been misplaced on the museum map. Museum house 2, in the courtyard of the Lyceum block, is also empty
+on the 1968 map, but every 1920 house shown in 1967 stays at the 1968 stage boundary, so it ends by 1983 like the
+others. `way/201325604` and `way/165436785` next to museum 136/138 are a house and an annex present in every OSM
+extract; they touch but do not overlap and are not a duplicate.
+
+The pass allows at most two museum houses per later house, an adjacency gap of at most 12 m and centroids within 35 m
+(`maxGapMeters`, `maxCentroidMeters`), and an ending only with the recorded dark share at most `maxDarkShare`. The scope
+audit against the first pass finds exactly the 24 merged museum objects removed and 55 objects changed; no geometry
+or city-stage changes. 17 museum houses remain open; the town-wide check finds 11 museum pairs, all among them.
+Tests: `tests/mariehamn-museum-offsets.test.cjs`, `tests/test_mariehamn_museum_offsets.py`.

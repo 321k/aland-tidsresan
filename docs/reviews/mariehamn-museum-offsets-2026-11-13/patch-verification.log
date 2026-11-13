@@ -1,0 +1,11 @@
+patch -p1 --dry-run < batch.patch against the pre-edit copies: OK
+  (every file starts from exactly the state the museum duplicate review's batch.patch produces)
+applied forward; result identical to the working-tree files (diff -r): OK, except the generated loadingPreview bins
+  and startup-loader cache-stamp line of dist/index.html, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+f695ca0f2a78389ff7b3db46f4a701888b457a0c2e85a8e554203d26ac143e95  batch.patch
+post-patch e000ca169f29afe35c0492d6fde1691ea5157c9b7838960f963cdc5fcc1521a7  dist/index.html
+post-patch dbc8729b8f23a9ec5de042c476f8439df42cdce7e9a2c07123f434140607f375  scripts/build_temporal_objects.py
+post-patch 880048615fd34fde814c51be0b52767c59d468d250e18a17e35d343bdb9fddca  tests/city-buildings.test.cjs
+post-patch 8d954039ff4ba12135462586e1da389ba7ccd05fb1f296b7269d9c4dccc4b802  tests/temporal-objects.test.cjs
+post-patch 1ecf690f1a3b761cf2785ca31c91c5b9022b6186ebe35e91f1390d5241ad164c  tests/test_reported_buildings_17_18.py

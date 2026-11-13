@@ -1,0 +1,16 @@
+{
+ "snapshotSha256": "88fa14c620c4530f99c82368bd0dc9040fac8d4cc7b62901243e8bbf196173e1",
+ "catalogueSha256": "479938e5693f8307cc270e6366bd1ba659ea6212a956898b4dd4b8760970f23e",
+ "vsPreviousPublication": {
+  "removedObjects": 24,
+  "removedEqualsMergeDonors": true,
+  "addedObjects": 0,
+  "changedObjects": 55,
+  "changedEqualsKeepsAndEndings": true,
+  "geometriesUnchanged": true,
+  "cityStagesUnchanged": true,
+  "addedSources": ["review:mariehamn-museum-offsets"]
+ },
+ "openMuseumHouses": {"before": 74, "after": 17},
+ "townMuseumOverlapPairs": {"before": 18, "after": 11}
+}

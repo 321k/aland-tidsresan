@@ -1,0 +1,16 @@
+{
+ "deployedAt": "2026-11-13",
+ "cloudflareVersion": "cac264af-2133-450e-af7d-1361fa63c39e",
+ "baseRelease": "5e4fbc44-f238-4bcf-9778-e6a1e3d2c477",
+ "changedFiles": [
+  "assets/temporal-objects.json.gz",
+  "assets/mariehamn-museum-offsets.json (new)",
+  "index.html",
+  "temporal-objects.js (cache stamp only)",
+  "object.html (cache stamp only)"
+ ],
+ "uploaded": "5 files, 290 already uploaded",
+ "liveCheck": "295 files compared byte for byte, 0 mismatches",
+ "releaseTests": "512 JS tests, 512 pass",
+ "wrangler": "4.149.0"
+}

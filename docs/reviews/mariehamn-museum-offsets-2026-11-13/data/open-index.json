@@ -1,0 +1,5984 @@
+{
+ "0": {
+  "museum": "building:museum:2",
+  "area": 150,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-288",
+    "start": 1942,
+    "area": 3425,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-162297295",
+    "start": 2012,
+    "area": 1087,
+    "distance": 5.1,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-523420545",
+    "start": 1995,
+    "area": 124,
+    "distance": 35.7,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-523420547",
+    "start": 2021,
+    "area": 42,
+    "distance": 35.8,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-162297312",
+    "start": 2021,
+    "area": 3030,
+    "distance": 37.4,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-523420543",
+    "start": 2021,
+    "area": 33,
+    "distance": 37.9,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-319",
+    "start": 1983,
+    "area": 125,
+    "distance": 40.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "1": {
+  "museum": "building:museum:5",
+  "area": 220,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-373",
+    "start": 1983,
+    "area": 408,
+    "distance": 2.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-399",
+    "start": 1920,
+    "area": 184,
+    "distance": 12.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-396",
+    "start": 1983,
+    "area": 131,
+    "distance": 18.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-378",
+    "start": 1983,
+    "area": 134,
+    "distance": 20.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-166878166",
+    "start": 1995,
+    "area": 336,
+    "distance": 23.9,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-417",
+    "start": 1983,
+    "area": 204,
+    "distance": 25.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-379",
+    "start": 1983,
+    "area": 244,
+    "distance": 25.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-421",
+    "start": 1920,
+    "area": 162,
+    "distance": 30.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-419",
+    "start": 1983,
+    "area": 1385,
+    "distance": 31.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "2": {
+  "museum": "building:museum:8",
+  "area": 340,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-166878166",
+    "start": 1995,
+    "area": 336,
+    "distance": 0.0,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-523420568",
+    "start": 1920,
+    "area": 288,
+    "distance": 6.8,
+    "tags": [
+     "museumDuplicateReview"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-376",
+    "start": 1983,
+    "area": 590,
+    "distance": 11.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-333",
+    "start": 1983,
+    "area": 631,
+    "distance": 12.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-523420571",
+    "start": 2021,
+    "area": 53,
+    "distance": 14.9,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-396",
+    "start": 1983,
+    "area": 131,
+    "distance": 20.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-523420585",
+    "start": 2021,
+    "area": 64,
+    "distance": 24.8,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-166878169",
+    "start": 2012,
+    "area": 233,
+    "distance": 26.5,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-373",
+    "start": 1983,
+    "area": 408,
+    "distance": 29.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "building:osm:way-523420565",
+    "start": 2021,
+    "area": 254,
+    "distance": 32.1,
+    "tags": []
+   },
+   "11": {
+    "id": "building:osm:way-523420574",
+    "start": 2021,
+    "area": 56,
+    "distance": 33.9,
+    "tags": []
+   },
+   "12": {
+    "id": "building:osm:way-523420588",
+    "start": 2021,
+    "area": 77,
+    "distance": 34.2,
+    "tags": []
+   },
+   "13": {
+    "id": "building:osm:way-274182772",
+    "start": 2021,
+    "area": 433,
+    "distance": 38.7,
+    "tags": []
+   }
+  }
+ },
+ "3": {
+  "museum": "building:museum:11",
+  "area": 170,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-172851916",
+    "start": 2012,
+    "area": 306,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-274182772",
+    "start": 2021,
+    "area": 433,
+    "distance": 0.0,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-172851913",
+    "start": 2012,
+    "area": 53,
+    "distance": 0.9,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-340",
+    "start": 1920,
+    "area": 214,
+    "distance": 7.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-330",
+    "start": 1920,
+    "area": 184,
+    "distance": 16.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-365",
+    "start": 1983,
+    "area": 1237,
+    "distance": 18.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-327",
+    "start": 1920,
+    "area": 184,
+    "distance": 21.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-523420588",
+    "start": 2021,
+    "area": 77,
+    "distance": 25.9,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-523420585",
+    "start": 2021,
+    "area": 64,
+    "distance": 26.1,
+    "tags": []
+   },
+   "10": {
+    "id": "building:osm:way-523420583",
+    "start": 2021,
+    "area": 64,
+    "distance": 26.6,
+    "tags": []
+   },
+   "11": {
+    "id": "map-building:nls-symbol-376",
+    "start": 1983,
+    "area": 590,
+    "distance": 35.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "12": {
+    "id": "mh-history:villa-carita",
+    "start": 1905,
+    "area": 180,
+    "distance": 39.6,
+    "tags": []
+   }
+  }
+ },
+ "4": {
+  "museum": "building:museum:13",
+  "area": 399,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-376",
+    "start": 1983,
+    "area": 590,
+    "distance": 8.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-365",
+    "start": 1983,
+    "area": 1237,
+    "distance": 12.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-523420585",
+    "start": 2021,
+    "area": 64,
+    "distance": 16.0,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-274182772",
+    "start": 2021,
+    "area": 433,
+    "distance": 24.2,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-333",
+    "start": 1983,
+    "area": 631,
+    "distance": 24.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-172851916",
+    "start": 2012,
+    "area": 306,
+    "distance": 29.1,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-523420588",
+    "start": 2021,
+    "area": 77,
+    "distance": 29.9,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-340",
+    "start": 1920,
+    "area": 214,
+    "distance": 30.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-415",
+    "start": 1891,
+    "area": 192,
+    "distance": 34.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-413",
+    "start": 1881,
+    "area": 90,
+    "distance": 37.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "building:osm:way-172851913",
+    "start": 2012,
+    "area": 53,
+    "distance": 38.8,
+    "tags": []
+   },
+   "12": {
+    "id": "map-building:nls-symbol-409",
+    "start": 1920,
+    "area": 612,
+    "distance": 38.9,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   }
+  }
+ },
+ "5": {
+  "museum": "building:museum:16",
+  "area": 193,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-365",
+    "start": 1983,
+    "area": 1237,
+    "distance": 8.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-376",
+    "start": 1983,
+    "area": 590,
+    "distance": 10.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-415",
+    "start": 1891,
+    "area": 192,
+    "distance": 22.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-409",
+    "start": 1920,
+    "area": 612,
+    "distance": 26.1,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-413",
+    "start": 1881,
+    "area": 90,
+    "distance": 27.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-415215788",
+    "start": 2021,
+    "area": 87,
+    "distance": 39.8,
+    "tags": []
+   }
+  }
+ },
+ "6": {
+  "museum": "building:museum:34",
+  "area": 195,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-347",
+    "start": 1983,
+    "area": 388,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-169355112",
+    "start": 1920,
+    "area": 455,
+    "distance": 1.6,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-169355118",
+    "start": 1993,
+    "area": 4084,
+    "distance": 2.5,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-1388901864",
+    "start": 1891,
+    "area": 236,
+    "distance": 7.1,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-1296121965",
+    "start": 1983,
+    "area": 243,
+    "distance": 15.6,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-316",
+    "start": 1983,
+    "area": 392,
+    "distance": 29.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-334",
+    "start": 1920,
+    "area": 191,
+    "distance": 31.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-172844220",
+    "start": 2012,
+    "area": 652,
+    "distance": 31.9,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-346",
+    "start": 1983,
+    "area": 1416,
+    "distance": 32.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "building:osm:way-1280029886",
+    "start": 2021,
+    "area": 2429,
+    "distance": 33.1,
+    "tags": []
+   },
+   "11": {
+    "id": "building:osm:way-1296121967",
+    "start": 1983,
+    "area": 26,
+    "distance": 36.7,
+    "tags": []
+   }
+  }
+ },
+ "7": {
+  "museum": "building:museum:41",
+  "area": 190,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-392",
+    "start": 1983,
+    "area": 473,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-370",
+    "start": 1983,
+    "area": 344,
+    "distance": 9.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-395",
+    "start": 1920,
+    "area": 193,
+    "distance": 16.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-505610359",
+    "start": 1907,
+    "area": 260,
+    "distance": 18.9,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-372",
+    "start": 1983,
+    "area": 189,
+    "distance": 20.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-389",
+    "start": 1983,
+    "area": 165,
+    "distance": 20.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-414",
+    "start": 1983,
+    "area": 158,
+    "distance": 25.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-381",
+    "start": 1983,
+    "area": 134,
+    "distance": 25.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "building:osm:way-505610362",
+    "start": 2021,
+    "area": 75,
+    "distance": 38.2,
+    "tags": []
+   }
+  }
+ },
+ "8": {
+  "museum": "building:museum:42",
+  "area": 191,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-392",
+    "start": 1983,
+    "area": 473,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-389",
+    "start": 1983,
+    "area": 165,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-414",
+    "start": 1983,
+    "area": 158,
+    "distance": 15.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-505610362",
+    "start": 2021,
+    "area": 75,
+    "distance": 18.2,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-372",
+    "start": 1983,
+    "area": 189,
+    "distance": 20.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-370",
+    "start": 1983,
+    "area": 344,
+    "distance": 21.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-369",
+    "start": 1983,
+    "area": 123,
+    "distance": 34.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-584475077",
+    "start": 1920,
+    "area": 100,
+    "distance": 34.3,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-505610359",
+    "start": 1907,
+    "area": 260,
+    "distance": 35.0,
+    "tags": []
+   },
+   "10": {
+    "id": "map-building:nls-symbol-390",
+    "start": 1983,
+    "area": 414,
+    "distance": 35.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "map-building:nls-symbol-395",
+    "start": 1920,
+    "area": 193,
+    "distance": 35.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "9": {
+  "museum": "building:museum:43",
+  "area": 195,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-414",
+    "start": 1983,
+    "area": 158,
+    "distance": 1.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-392",
+    "start": 1983,
+    "area": 473,
+    "distance": 2.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-505610362",
+    "start": 2021,
+    "area": 75,
+    "distance": 18.4,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-436",
+    "start": 1920,
+    "area": 274,
+    "distance": 19.6,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "5": {
+    "id": "mh-history:norragatan29",
+    "start": 1875,
+    "area": 83,
+    "distance": 21.4,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-505610359",
+    "start": 1907,
+    "area": 260,
+    "distance": 25.7,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-584475077",
+    "start": 1920,
+    "area": 100,
+    "distance": 28.6,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-389",
+    "start": 1983,
+    "area": 165,
+    "distance": 29.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-435",
+    "start": 1983,
+    "area": 116,
+    "distance": 34.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-395",
+    "start": 1920,
+    "area": 193,
+    "distance": 35.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "map-building:nls-symbol-390",
+    "start": 1983,
+    "area": 414,
+    "distance": 36.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "10": {
+  "museum": "building:museum:47",
+  "area": 180,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-584475076",
+    "start": 2021,
+    "area": 31,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "map-building:nls-symbol-384",
+    "start": 1983,
+    "area": 248,
+    "distance": 2.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-367",
+    "start": 1983,
+    "area": 158,
+    "distance": 4.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-505610363",
+    "start": 2021,
+    "area": 26,
+    "distance": 11.5,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-390",
+    "start": 1983,
+    "area": 414,
+    "distance": 24.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-172847741",
+    "start": 1983,
+    "area": 281,
+    "distance": 29.3,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-358",
+    "start": 1983,
+    "area": 111,
+    "distance": 29.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-211215510",
+    "start": 1983,
+    "area": 177,
+    "distance": 32.8,
+    "tags": []
+   }
+  }
+ },
+ "11": {
+  "museum": "building:museum:48",
+  "area": 240,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-211215510",
+    "start": 1983,
+    "area": 177,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-172847741",
+    "start": 1983,
+    "area": 281,
+    "distance": 2.2,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-384",
+    "start": 1983,
+    "area": 248,
+    "distance": 18.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-165436773",
+    "start": 1920,
+    "area": 233,
+    "distance": 19.6,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-426",
+    "start": 1983,
+    "area": 137,
+    "distance": 20.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-433",
+    "start": 1983,
+    "area": 509,
+    "distance": 32.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-505610363",
+    "start": 2021,
+    "area": 26,
+    "distance": 36.3,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-390",
+    "start": 1983,
+    "area": 414,
+    "distance": 37.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "building:osm:way-584475076",
+    "start": 2021,
+    "area": 31,
+    "distance": 38.8,
+    "tags": []
+   }
+  }
+ },
+ "12": {
+  "museum": "building:museum:52",
+  "area": 193,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-445",
+    "start": 1920,
+    "area": 201,
+    "distance": 6.6,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-461",
+    "start": 1983,
+    "area": 166,
+    "distance": 11.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-448",
+    "start": 1983,
+    "area": 1403,
+    "distance": 25.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-505610372",
+    "start": 1920,
+    "area": 367,
+    "distance": 32.7,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-439",
+    "start": 1983,
+    "area": 105,
+    "distance": 33.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-505610371",
+    "start": 2021,
+    "area": 58,
+    "distance": 38.6,
+    "tags": []
+   }
+  }
+ },
+ "13": {
+  "museum": "building:museum:54",
+  "area": 165,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-439",
+    "start": 1983,
+    "area": 105,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-505610371",
+    "start": 2021,
+    "area": 58,
+    "distance": 6.0,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-505610372",
+    "start": 1920,
+    "area": 367,
+    "distance": 15.9,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-505610370",
+    "start": 2021,
+    "area": 54,
+    "distance": 16.4,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-445",
+    "start": 1920,
+    "area": 201,
+    "distance": 24.7,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-165436777",
+    "start": 2012,
+    "area": 471,
+    "distance": 30.7,
+    "tags": []
+   },
+   "7": {
+    "id": "mh-history:norragatan37b",
+    "start": 1913,
+    "area": 109,
+    "distance": 33.6,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-423",
+    "start": 1983,
+    "area": 157,
+    "distance": 35.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "building:osm:way-505610353",
+    "start": 2021,
+    "area": 72,
+    "distance": 39.2,
+    "tags": []
+   }
+  }
+ },
+ "14": {
+  "museum": "building:museum:55",
+  "area": 263,
+  "neighbours": {
+   "1": {
+    "id": "mh-history:norragatan37b",
+    "start": 1913,
+    "area": 109,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-505610370",
+    "start": 2021,
+    "area": 54,
+    "distance": 0.0,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-505610371",
+    "start": 2021,
+    "area": 58,
+    "distance": 4.8,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-505610369",
+    "start": 2021,
+    "area": 29,
+    "distance": 7.7,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-439",
+    "start": 1983,
+    "area": 105,
+    "distance": 9.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-505610372",
+    "start": 1920,
+    "area": 367,
+    "distance": 13.3,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-165436777",
+    "start": 2012,
+    "area": 471,
+    "distance": 15.1,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-505610365",
+    "start": 2021,
+    "area": 76,
+    "distance": 17.7,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-438",
+    "start": 1983,
+    "area": 139,
+    "distance": 24.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-423",
+    "start": 1983,
+    "area": 157,
+    "distance": 24.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "building:osm:way-505610353",
+    "start": 2021,
+    "area": 72,
+    "distance": 37.5,
+    "tags": []
+   },
+   "12": {
+    "id": "map-building:nls-symbol-420",
+    "start": 1983,
+    "area": 133,
+    "distance": 38.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "15": {
+  "museum": "building:museum:56",
+  "area": 195,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-438",
+    "start": 1983,
+    "area": 139,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-505610365",
+    "start": 2021,
+    "area": 76,
+    "distance": 0.0,
+    "tags": []
+   },
+   "3": {
+    "id": "mh-history:norragatan37b",
+    "start": 1913,
+    "area": 109,
+    "distance": 2.9,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-505610369",
+    "start": 2021,
+    "area": 29,
+    "distance": 9.0,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-165436777",
+    "start": 2012,
+    "area": 471,
+    "distance": 16.5,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-420",
+    "start": 1983,
+    "area": 133,
+    "distance": 25.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-505610366",
+    "start": 2021,
+    "area": 47,
+    "distance": 25.5,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-505610370",
+    "start": 2021,
+    "area": 54,
+    "distance": 25.6,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-423",
+    "start": 1983,
+    "area": 157,
+    "distance": 26.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "building:osm:way-505610372",
+    "start": 1920,
+    "area": 367,
+    "distance": 31.0,
+    "tags": []
+   },
+   "11": {
+    "id": "building:osm:way-505610371",
+    "start": 2021,
+    "area": 58,
+    "distance": 33.0,
+    "tags": []
+   },
+   "12": {
+    "id": "mh-history:norragatan33",
+    "start": 1890,
+    "area": 163,
+    "distance": 33.7,
+    "tags": []
+   },
+   "13": {
+    "id": "building:osm:way-505610367",
+    "start": 2021,
+    "area": 55,
+    "distance": 35.0,
+    "tags": []
+   },
+   "14": {
+    "id": "map-building:nls-symbol-452",
+    "start": 1983,
+    "area": 204,
+    "distance": 36.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "15": {
+    "id": "map-building:nls-symbol-439",
+    "start": 1983,
+    "area": 105,
+    "distance": 37.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "16": {
+  "museum": "building:museum:58",
+  "area": 385,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-165436777",
+    "start": 2012,
+    "area": 471,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-505610367",
+    "start": 2021,
+    "area": 55,
+    "distance": 0.0,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-452",
+    "start": 1983,
+    "area": 204,
+    "distance": 8.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-469",
+    "start": 1920,
+    "area": 250,
+    "distance": 12.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-505610369",
+    "start": 2021,
+    "area": 29,
+    "distance": 14.2,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-505610365",
+    "start": 2021,
+    "area": 76,
+    "distance": 16.2,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-505610366",
+    "start": 2021,
+    "area": 47,
+    "distance": 22.7,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-438",
+    "start": 1983,
+    "area": 139,
+    "distance": 27.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "mh-history:norragatan33",
+    "start": 1890,
+    "area": 163,
+    "distance": 28.1,
+    "tags": []
+   },
+   "10": {
+    "id": "mh-history:norragatan37b",
+    "start": 1913,
+    "area": 109,
+    "distance": 29.0,
+    "tags": []
+   },
+   "11": {
+    "id": "building:osm:way-505610372",
+    "start": 1920,
+    "area": 367,
+    "distance": 31.9,
+    "tags": []
+   },
+   "12": {
+    "id": "building:osm:way-505610374",
+    "start": 2021,
+    "area": 47,
+    "distance": 33.1,
+    "tags": []
+   },
+   "13": {
+    "id": "building:osm:way-505610370",
+    "start": 2021,
+    "area": 54,
+    "distance": 37.3,
+    "tags": []
+   },
+   "14": {
+    "id": "map-building:nls-symbol-451",
+    "start": 1983,
+    "area": 170,
+    "distance": 38.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "15": {
+    "id": "building:osm:way-345813222",
+    "start": 2021,
+    "area": 97,
+    "distance": 38.5,
+    "tags": []
+   }
+  }
+ },
+ "17": {
+  "museum": "building:museum:59",
+  "area": 578,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-474",
+    "start": 1983,
+    "area": 87,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "mh-history:sjofartsmuseum",
+    "start": 1944,
+    "area": 1040,
+    "distance": 7.1,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-448",
+    "start": 1983,
+    "area": 1403,
+    "distance": 13.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-485",
+    "start": 1920,
+    "area": 281,
+    "distance": 13.1,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-584475078",
+    "start": 2021,
+    "area": 25,
+    "distance": 29.7,
+    "tags": []
+   }
+  }
+ },
+ "18": {
+  "museum": "building:museum:61",
+  "area": 203,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-584475078",
+    "start": 2021,
+    "area": 25,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "map-building:nls-symbol-448",
+    "start": 1983,
+    "area": 1403,
+    "distance": 5.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-461",
+    "start": 1983,
+    "area": 166,
+    "distance": 7.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-474",
+    "start": 1983,
+    "area": 87,
+    "distance": 19.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-485",
+    "start": 1920,
+    "area": 281,
+    "distance": 31.4,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-486",
+    "start": 1920,
+    "area": 166,
+    "distance": 36.0,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   }
+  }
+ },
+ "19": {
+  "museum": "building:museum:68",
+  "area": 203,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-165436763",
+    "start": 2012,
+    "area": 116,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-500182508",
+    "start": 2021,
+    "area": 66,
+    "distance": 6.9,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-451",
+    "start": 1983,
+    "area": 170,
+    "distance": 11.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-463",
+    "start": 1920,
+    "area": 325,
+    "distance": 14.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-500182503",
+    "start": 2021,
+    "area": 527,
+    "distance": 16.3,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-466",
+    "start": 1983,
+    "area": 320,
+    "distance": 17.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-444",
+    "start": 1983,
+    "area": 374,
+    "distance": 22.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-436",
+    "start": 1920,
+    "area": 274,
+    "distance": 29.4,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-435",
+    "start": 1983,
+    "area": 116,
+    "distance": 32.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "20": {
+  "museum": "building:museum:69",
+  "area": 289,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-446",
+    "start": 1920,
+    "area": 201,
+    "distance": 1.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-444",
+    "start": 1983,
+    "area": 374,
+    "distance": 3.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-500182503",
+    "start": 2021,
+    "area": 527,
+    "distance": 12.2,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-500182504",
+    "start": 2021,
+    "area": 548,
+    "distance": 17.2,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-433",
+    "start": 1983,
+    "area": 509,
+    "distance": 21.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-454",
+    "start": 1983,
+    "area": 699,
+    "distance": 21.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-165436763",
+    "start": 2012,
+    "area": 116,
+    "distance": 29.0,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-165436773",
+    "start": 1920,
+    "area": 233,
+    "distance": 33.0,
+    "tags": []
+   },
+   "9": {
+    "id": "mh-history:norragatan29",
+    "start": 1875,
+    "area": 83,
+    "distance": 34.4,
+    "tags": []
+   }
+  }
+ },
+ "21": {
+  "museum": "building:museum:74",
+  "area": 403,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-274182768",
+    "start": 1995,
+    "area": 337,
+    "distance": 0.0,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-274182776",
+    "start": 1920,
+    "area": 501,
+    "distance": 0.0,
+    "tags": [
+     "museumDuplicateReview"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-500182503",
+    "start": 2021,
+    "area": 527,
+    "distance": 2.0,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-463",
+    "start": 1920,
+    "area": 325,
+    "distance": 7.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-466",
+    "start": 1983,
+    "area": 320,
+    "distance": 21.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-500182504",
+    "start": 2021,
+    "area": 548,
+    "distance": 27.8,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-477",
+    "start": 1920,
+    "area": 315,
+    "distance": 28.9,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   }
+  }
+ },
+ "22": {
+  "museum": "building:museum:95",
+  "area": 315,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-166517479",
+    "start": 1983,
+    "area": 334,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-176377061",
+    "start": 1920,
+    "area": 88,
+    "distance": 4.2,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-401",
+    "start": 1983,
+    "area": 349,
+    "distance": 7.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-176377064",
+    "start": 1920,
+    "area": 367,
+    "distance": 8.0,
+    "tags": [
+     "museumDuplicateReview"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-442",
+    "start": 1983,
+    "area": 473,
+    "distance": 8.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-443",
+    "start": 1983,
+    "area": 1016,
+    "distance": 23.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-176377062",
+    "start": 2012,
+    "area": 461,
+    "distance": 23.8,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-166517421",
+    "start": 2012,
+    "area": 46,
+    "distance": 28.8,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-410",
+    "start": 1983,
+    "area": 414,
+    "distance": 33.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-411",
+    "start": 1920,
+    "area": 373,
+    "distance": 35.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "map-building:nls-symbol-429",
+    "start": 1920,
+    "area": 214,
+    "distance": 38.9,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "12": {
+    "id": "building:osm:way-570786567",
+    "start": 1995,
+    "area": 465,
+    "distance": 39.1,
+    "tags": [
+     "buildingMapReview"
+    ]
+   }
+  }
+ },
+ "23": {
+  "museum": "building:museum:96",
+  "area": 360,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-401",
+    "start": 1983,
+    "area": 349,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-410",
+    "start": 1983,
+    "area": 414,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-397",
+    "start": 1983,
+    "area": 390,
+    "distance": 9.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-172844217",
+    "start": 1982,
+    "area": 616,
+    "distance": 18.6,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-570786566",
+    "start": 2015,
+    "area": 373,
+    "distance": 21.5,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-172849795",
+    "start": 1982,
+    "area": 602,
+    "distance": 24.7,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-176377064",
+    "start": 1920,
+    "area": 367,
+    "distance": 29.0,
+    "tags": [
+     "museumDuplicateReview"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-166517479",
+    "start": 1983,
+    "area": 334,
+    "distance": 31.6,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-346",
+    "start": 1983,
+    "area": 1416,
+    "distance": 32.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "building:osm:way-176377061",
+    "start": 1920,
+    "area": 88,
+    "distance": 36.6,
+    "tags": []
+   },
+   "11": {
+    "id": "building:osm:way-172844218",
+    "start": 2012,
+    "area": 224,
+    "distance": 38.2,
+    "tags": []
+   }
+  }
+ },
+ "24": {
+  "museum": "building:museum:103",
+  "area": 255,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-447",
+    "start": 1983,
+    "area": 685,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-442",
+    "start": 1983,
+    "area": 473,
+    "distance": 1.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-429",
+    "start": 1920,
+    "area": 214,
+    "distance": 17.4,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-456",
+    "start": 1983,
+    "area": 365,
+    "distance": 20.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-432",
+    "start": 1920,
+    "area": 200,
+    "distance": 28.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-166517479",
+    "start": 1983,
+    "area": 334,
+    "distance": 28.7,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-166517421",
+    "start": 2012,
+    "area": 46,
+    "distance": 31.7,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-443",
+    "start": 1983,
+    "area": 1016,
+    "distance": 35.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "building:osm:way-176377062",
+    "start": 2012,
+    "area": 461,
+    "distance": 35.2,
+    "tags": []
+   },
+   "10": {
+    "id": "building:osm:way-570763084",
+    "start": 2021,
+    "area": 25,
+    "distance": 37.5,
+    "tags": []
+   },
+   "11": {
+    "id": "map-building:nls-symbol-411",
+    "start": 1920,
+    "area": 373,
+    "distance": 39.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "25": {
+  "museum": "building:museum:104",
+  "area": 225,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-442",
+    "start": 1983,
+    "area": 473,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-443",
+    "start": 1983,
+    "area": 1016,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-176377062",
+    "start": 2012,
+    "area": 461,
+    "distance": 0.0,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-176377061",
+    "start": 1920,
+    "area": 88,
+    "distance": 16.1,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-456",
+    "start": 1983,
+    "area": 365,
+    "distance": 16.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-570786567",
+    "start": 1995,
+    "area": 465,
+    "distance": 19.9,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-166517479",
+    "start": 1983,
+    "area": 334,
+    "distance": 24.0,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-447",
+    "start": 1983,
+    "area": 685,
+    "distance": 29.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-429",
+    "start": 1920,
+    "area": 214,
+    "distance": 39.5,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   }
+  }
+ },
+ "26": {
+  "museum": "building:museum:105",
+  "area": 553,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-570786567",
+    "start": 1995,
+    "area": 465,
+    "distance": 0.0,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-443",
+    "start": 1983,
+    "area": 1016,
+    "distance": 7.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-176377062",
+    "start": 2012,
+    "area": 461,
+    "distance": 7.9,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-176377061",
+    "start": 1920,
+    "area": 88,
+    "distance": 13.6,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-165529214",
+    "start": 1982,
+    "area": 1192,
+    "distance": 15.5,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-458",
+    "start": 1983,
+    "area": 346,
+    "distance": 18.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-570786566",
+    "start": 2015,
+    "area": 373,
+    "distance": 20.0,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-410",
+    "start": 1983,
+    "area": 414,
+    "distance": 21.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-453",
+    "start": 1920,
+    "area": 493,
+    "distance": 26.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-442",
+    "start": 1983,
+    "area": 473,
+    "distance": 32.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "building:osm:way-166517479",
+    "start": 1983,
+    "area": 334,
+    "distance": 35.5,
+    "tags": []
+   },
+   "12": {
+    "id": "map-building:nls-symbol-456",
+    "start": 1983,
+    "area": 365,
+    "distance": 37.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "27": {
+  "museum": "building:museum:109",
+  "area": 247,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-517",
+    "start": 1983,
+    "area": 276,
+    "distance": 3.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "mh-history:packhusmagasin",
+    "start": 1920,
+    "area": 261,
+    "distance": 31.0,
+    "tags": []
+   },
+   "3": {
+    "id": "mh-history:tullpackhuset",
+    "start": 1896,
+    "area": 291,
+    "distance": 37.2,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-533",
+    "start": 1983,
+    "area": 177,
+    "distance": 38.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-518",
+    "start": 1983,
+    "area": 517,
+    "distance": 39.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-529232290",
+    "start": 1892,
+    "area": 152,
+    "distance": 39.8,
+    "tags": []
+   }
+  }
+ },
+ "28": {
+  "museum": "building:museum:113",
+  "area": 124,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-514",
+    "start": 1920,
+    "area": 168,
+    "distance": 6.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-519",
+    "start": 1983,
+    "area": 241,
+    "distance": 9.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-529232291",
+    "start": 2021,
+    "area": 43,
+    "distance": 23.7,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-274188734",
+    "start": 1920,
+    "area": 270,
+    "distance": 35.3,
+    "tags": [
+     "museumDuplicateReview"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-518",
+    "start": 1983,
+    "area": 517,
+    "distance": 38.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "29": {
+  "museum": "building:museum:114",
+  "area": 175,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-519",
+    "start": 1983,
+    "area": 241,
+    "distance": 10.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-523",
+    "start": 1983,
+    "area": 233,
+    "distance": 23.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-511",
+    "start": 1983,
+    "area": 175,
+    "distance": 29.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-529232291",
+    "start": 2021,
+    "area": 43,
+    "distance": 36.5,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-514",
+    "start": 1920,
+    "area": 168,
+    "distance": 37.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-166517408",
+    "start": 2012,
+    "area": 230,
+    "distance": 37.7,
+    "tags": []
+   }
+  }
+ },
+ "30": {
+  "museum": "building:museum:115",
+  "area": 309,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-517",
+    "start": 1983,
+    "area": 276,
+    "distance": 7.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "mh-history:tullpackhuset",
+    "start": 1896,
+    "area": 291,
+    "distance": 15.2,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-533",
+    "start": 1983,
+    "area": 177,
+    "distance": 21.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-529232292",
+    "start": 2021,
+    "area": 59,
+    "distance": 34.6,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-518",
+    "start": 1983,
+    "area": 517,
+    "distance": 36.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "mh-history:packhusmagasin",
+    "start": 1920,
+    "area": 261,
+    "distance": 38.1,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-529232290",
+    "start": 1892,
+    "area": 152,
+    "distance": 40.0,
+    "tags": []
+   }
+  }
+ },
+ "31": {
+  "museum": "building:museum:116",
+  "area": 360,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-517",
+    "start": 1983,
+    "area": 276,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-533",
+    "start": 1983,
+    "area": 177,
+    "distance": 6.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-518",
+    "start": 1983,
+    "area": 517,
+    "distance": 21.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-529232290",
+    "start": 1892,
+    "area": 152,
+    "distance": 23.6,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-529232292",
+    "start": 2021,
+    "area": 59,
+    "distance": 27.7,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-529232295",
+    "start": 2021,
+    "area": 22,
+    "distance": 37.6,
+    "tags": []
+   },
+   "7": {
+    "id": "mh-history:tullpackhuset",
+    "start": 1896,
+    "area": 291,
+    "distance": 37.7,
+    "tags": []
+   }
+  }
+ },
+ "32": {
+  "museum": "building:museum:117",
+  "area": 263,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-533",
+    "start": 1983,
+    "area": 177,
+    "distance": 1.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-518",
+    "start": 1983,
+    "area": 517,
+    "distance": 2.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-517",
+    "start": 1983,
+    "area": 276,
+    "distance": 6.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-529232290",
+    "start": 1892,
+    "area": 152,
+    "distance": 7.6,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-529232295",
+    "start": 2021,
+    "area": 22,
+    "distance": 10.2,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-274188738",
+    "start": 1920,
+    "area": 298,
+    "distance": 18.9,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-274188734",
+    "start": 1920,
+    "area": 270,
+    "distance": 19.0,
+    "tags": [
+     "museumDuplicateReview"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-529232292",
+    "start": 2021,
+    "area": 59,
+    "distance": 26.9,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-537",
+    "start": 1983,
+    "area": 132,
+    "distance": 30.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "33": {
+  "museum": "building:museum:119",
+  "area": 180,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-523",
+    "start": 1983,
+    "area": 233,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-519",
+    "start": 1983,
+    "area": 241,
+    "distance": 9.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-166517408",
+    "start": 2012,
+    "area": 230,
+    "distance": 25.3,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-535",
+    "start": 1983,
+    "area": 250,
+    "distance": 25.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-529232291",
+    "start": 2021,
+    "area": 43,
+    "distance": 26.7,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-511",
+    "start": 1983,
+    "area": 175,
+    "distance": 33.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-545",
+    "start": 1983,
+    "area": 249,
+    "distance": 35.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "34": {
+  "museum": "building:museum:136",
+  "area": 285,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-498",
+    "start": 1896,
+    "area": 278,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-165436785",
+    "start": 1983,
+    "area": 390,
+    "distance": 5.0,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-497",
+    "start": 1983,
+    "area": 278,
+    "distance": 12.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-201325604",
+    "start": 1983,
+    "area": 199,
+    "distance": 16.9,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-166517473",
+    "start": 2012,
+    "area": 121,
+    "distance": 19.9,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-165436753",
+    "start": 2012,
+    "area": 177,
+    "distance": 26.0,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-512",
+    "start": 1983,
+    "area": 465,
+    "distance": 29.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-509",
+    "start": 1983,
+    "area": 368,
+    "distance": 29.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "35": {
+  "museum": "building:museum:138",
+  "area": 195,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-165436732",
+    "start": 1983,
+    "area": 499,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-201325604",
+    "start": 1983,
+    "area": 199,
+    "distance": 7.7,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-165436785",
+    "start": 1983,
+    "area": 390,
+    "distance": 17.6,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-492",
+    "start": 1983,
+    "area": 700,
+    "distance": 20.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-165436736",
+    "start": 2012,
+    "area": 176,
+    "distance": 23.1,
+    "tags": []
+   }
+  }
+ },
+ "36": {
+  "museum": "building:museum:139",
+  "area": 405,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-492",
+    "start": 1983,
+    "area": 700,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-165436732",
+    "start": 1983,
+    "area": 499,
+    "distance": 10.3,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-501",
+    "start": 1983,
+    "area": 338,
+    "distance": 21.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-165436736",
+    "start": 2012,
+    "area": 176,
+    "distance": 29.4,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-510",
+    "start": 1983,
+    "area": 188,
+    "distance": 37.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "37": {
+  "museum": "building:museum:140",
+  "area": 360,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-501",
+    "start": 1983,
+    "area": 338,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-492",
+    "start": 1983,
+    "area": 700,
+    "distance": 0.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-510",
+    "start": 1983,
+    "area": 188,
+    "distance": 3.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-520",
+    "start": 1920,
+    "area": 200,
+    "distance": 27.8,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-499",
+    "start": 1983,
+    "area": 391,
+    "distance": 27.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-165436732",
+    "start": 1983,
+    "area": 499,
+    "distance": 30.5,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-489",
+    "start": 1983,
+    "area": 466,
+    "distance": 34.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-496985051",
+    "start": 2021,
+    "area": 199,
+    "distance": 38.7,
+    "tags": []
+   }
+  }
+ },
+ "38": {
+  "museum": "building:museum:141",
+  "area": 280,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-512",
+    "start": 1983,
+    "area": 465,
+    "distance": 1.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-527",
+    "start": 1983,
+    "area": 129,
+    "distance": 8.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-509",
+    "start": 1983,
+    "area": 368,
+    "distance": 12.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-546",
+    "start": 1983,
+    "area": 63,
+    "distance": 18.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-553",
+    "start": 1920,
+    "area": 102,
+    "distance": 29.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496985034",
+    "start": 2021,
+    "area": 73,
+    "distance": 29.4,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-166517473",
+    "start": 2012,
+    "area": 121,
+    "distance": 34.8,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-554",
+    "start": 1983,
+    "area": 129,
+    "distance": 37.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "39": {
+  "museum": "building:museum:142",
+  "area": 245,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-910556655",
+    "start": 2025,
+    "area": 328,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-165436753",
+    "start": 2012,
+    "area": 177,
+    "distance": 0.4,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-509",
+    "start": 1983,
+    "area": 368,
+    "distance": 17.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-496985034",
+    "start": 2021,
+    "area": 73,
+    "distance": 22.6,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-527",
+    "start": 1983,
+    "area": 129,
+    "distance": 23.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-525",
+    "start": 1983,
+    "area": 390,
+    "distance": 23.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-165436785",
+    "start": 1983,
+    "area": 390,
+    "distance": 30.6,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-165436736",
+    "start": 2012,
+    "area": 176,
+    "distance": 34.7,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-201325604",
+    "start": 1983,
+    "area": 199,
+    "distance": 38.9,
+    "tags": []
+   },
+   "10": {
+    "id": "building:osm:way-165436732",
+    "start": 1983,
+    "area": 499,
+    "distance": 39.6,
+    "tags": []
+   }
+  }
+ },
+ "40": {
+  "museum": "building:museum:143",
+  "area": 245,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-496985040",
+    "start": 2021,
+    "area": 190,
+    "distance": 3.6,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-496985041",
+    "start": 2021,
+    "area": 52,
+    "distance": 6.7,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-510",
+    "start": 1983,
+    "area": 188,
+    "distance": 10.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-165436736",
+    "start": 2012,
+    "area": 176,
+    "distance": 13.9,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-525",
+    "start": 1983,
+    "area": 390,
+    "distance": 16.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-520",
+    "start": 1920,
+    "area": 200,
+    "distance": 26.3,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-501",
+    "start": 1983,
+    "area": 338,
+    "distance": 28.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-543",
+    "start": 1920,
+    "area": 165,
+    "distance": 34.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-548",
+    "start": 1906,
+    "area": 131,
+    "distance": 37.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "41": {
+  "museum": "building:museum:148",
+  "area": 320,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-540",
+    "start": 1983,
+    "area": 127,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-496985041",
+    "start": 2021,
+    "area": 52,
+    "distance": 8.6,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-543",
+    "start": 1920,
+    "area": 165,
+    "distance": 8.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-496985040",
+    "start": 2021,
+    "area": 190,
+    "distance": 10.6,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-520",
+    "start": 1920,
+    "area": 200,
+    "distance": 17.7,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496985039",
+    "start": 1920,
+    "area": 200,
+    "distance": 22.7,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-565",
+    "start": 1983,
+    "area": 112,
+    "distance": 23.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-496985045",
+    "start": 2021,
+    "area": 198,
+    "distance": 29.2,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-496985051",
+    "start": 2021,
+    "area": 199,
+    "distance": 35.2,
+    "tags": []
+   },
+   "10": {
+    "id": "map-building:nls-symbol-563",
+    "start": 1983,
+    "area": 211,
+    "distance": 37.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "42": {
+  "museum": "building:museum:149",
+  "area": 163,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-489",
+    "start": 1983,
+    "area": 466,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-492",
+    "start": 1983,
+    "area": 700,
+    "distance": 18.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-499",
+    "start": 1983,
+    "area": 391,
+    "distance": 23.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-501",
+    "start": 1983,
+    "area": 338,
+    "distance": 25.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "43": {
+  "museum": "building:museum:150",
+  "area": 206,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-489",
+    "start": 1983,
+    "area": 466,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-488",
+    "start": 1920,
+    "area": 419,
+    "distance": 2.2,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-499",
+    "start": 1983,
+    "area": 391,
+    "distance": 30.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "44": {
+  "museum": "building:museum:152",
+  "area": 455,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-487",
+    "start": 1983,
+    "area": 417,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-488",
+    "start": 1920,
+    "area": 419,
+    "distance": 5.6,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-484",
+    "start": 1978,
+    "area": 1794,
+    "distance": 22.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-504",
+    "start": 1983,
+    "area": 241,
+    "distance": 38.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "45": {
+  "museum": "building:museum:153",
+  "area": 211,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-484",
+    "start": 1978,
+    "area": 1794,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-487",
+    "start": 1983,
+    "area": 417,
+    "distance": 12.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "46": {
+  "museum": "building:museum:155",
+  "area": 371,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-504",
+    "start": 1983,
+    "area": 241,
+    "distance": 0.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-487",
+    "start": 1983,
+    "area": 417,
+    "distance": 13.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-488",
+    "start": 1920,
+    "area": 419,
+    "distance": 15.2,
+    "tags": [
+     "printedMapSymbol",
+     "museumDuplicateReview"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-496985049",
+    "start": 2021,
+    "area": 76,
+    "distance": 21.3,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-496985053",
+    "start": 2021,
+    "area": 47,
+    "distance": 23.0,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-489",
+    "start": 1983,
+    "area": 466,
+    "distance": 29.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-496985050",
+    "start": 2021,
+    "area": 101,
+    "distance": 31.4,
+    "tags": []
+   }
+  }
+ },
+ "47": {
+  "museum": "building:museum:156",
+  "area": 390,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-484",
+    "start": 1978,
+    "area": 1794,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-487",
+    "start": 1983,
+    "area": 417,
+    "distance": 17.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-496985053",
+    "start": 2021,
+    "area": 47,
+    "distance": 32.2,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-717913013",
+    "start": 2021,
+    "area": 14,
+    "distance": 39.6,
+    "tags": []
+   }
+  }
+ },
+ "48": {
+  "museum": "building:museum:157",
+  "area": 240,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-593",
+    "start": 1983,
+    "area": 140,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "mh-history:sodragatan33",
+    "start": 1891,
+    "area": 227,
+    "distance": 3.2,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-571",
+    "start": 1875,
+    "area": 113,
+    "distance": 8.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-501190314",
+    "start": 2021,
+    "area": 88,
+    "distance": 17.3,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-165436734",
+    "start": 1920,
+    "area": 185,
+    "distance": 26.5,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-501190355",
+    "start": 2021,
+    "area": 50,
+    "distance": 27.2,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-501190353",
+    "start": 1983,
+    "area": 147,
+    "distance": 28.0,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-542",
+    "start": 1983,
+    "area": 538,
+    "distance": 29.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "49": {
+  "museum": "building:museum:158",
+  "area": 280,
+  "neighbours": {
+   "1": {
+    "id": "mh-history:sodragatan33",
+    "start": 1891,
+    "area": 227,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-165436734",
+    "start": 1920,
+    "area": 185,
+    "distance": 1.4,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-501190314",
+    "start": 2021,
+    "area": 88,
+    "distance": 7.4,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-501190353",
+    "start": 1983,
+    "area": 147,
+    "distance": 19.2,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-501190315",
+    "start": 2021,
+    "area": 88,
+    "distance": 19.7,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-593",
+    "start": 1983,
+    "area": 140,
+    "distance": 21.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-571",
+    "start": 1875,
+    "area": 113,
+    "distance": 21.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-542",
+    "start": 1983,
+    "area": 538,
+    "distance": 26.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "mh-history:skogshyddan",
+    "start": 1896,
+    "area": 138,
+    "distance": 27.0,
+    "tags": []
+   },
+   "10": {
+    "id": "building:osm:way-501190352",
+    "start": 2021,
+    "area": 94,
+    "distance": 27.5,
+    "tags": []
+   },
+   "11": {
+    "id": "map-building:nls-symbol-538",
+    "start": 1983,
+    "area": 536,
+    "distance": 30.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "12": {
+    "id": "building:osm:way-501190355",
+    "start": 2021,
+    "area": 50,
+    "distance": 32.7,
+    "tags": []
+   },
+   "13": {
+    "id": "building:osm:way-501190351",
+    "start": 1983,
+    "area": 175,
+    "distance": 34.2,
+    "tags": []
+   }
+  }
+ },
+ "50": {
+  "museum": "building:museum:163",
+  "area": 228,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-580",
+    "start": 1983,
+    "area": 127,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-553",
+    "start": 1920,
+    "area": 102,
+    "distance": 7.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-573",
+    "start": 1897,
+    "area": 86,
+    "distance": 16.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-554",
+    "start": 1983,
+    "area": 129,
+    "distance": 19.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-546",
+    "start": 1983,
+    "area": 63,
+    "distance": 23.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496961865",
+    "start": 2021,
+    "area": 264,
+    "distance": 30.7,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-599",
+    "start": 1983,
+    "area": 149,
+    "distance": 32.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-496985034",
+    "start": 2021,
+    "area": 73,
+    "distance": 36.4,
+    "tags": []
+   }
+  }
+ },
+ "51": {
+  "museum": "building:museum:165",
+  "area": 263,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-569",
+    "start": 1983,
+    "area": 192,
+    "distance": 1.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-550",
+    "start": 1920,
+    "area": 119,
+    "distance": 6.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-554",
+    "start": 1983,
+    "area": 129,
+    "distance": 9.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-573",
+    "start": 1897,
+    "area": 86,
+    "distance": 9.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-496985034",
+    "start": 2021,
+    "area": 73,
+    "distance": 25.0,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-548",
+    "start": 1906,
+    "area": 131,
+    "distance": 30.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-496961865",
+    "start": 2021,
+    "area": 264,
+    "distance": 30.6,
+    "tags": []
+   },
+   "8": {
+    "id": "mh-history:hultgrenska",
+    "start": 1898,
+    "area": 112,
+    "distance": 33.2,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-910556655",
+    "start": 2025,
+    "area": 328,
+    "distance": 38.3,
+    "tags": []
+   },
+   "10": {
+    "id": "map-building:nls-symbol-525",
+    "start": 1983,
+    "area": 390,
+    "distance": 39.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "52": {
+  "museum": "building:museum:166",
+  "area": 211,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-565",
+    "start": 1983,
+    "area": 112,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-496985030",
+    "start": 2021,
+    "area": 44,
+    "distance": 4.3,
+    "tags": []
+   },
+   "3": {
+    "id": "mh-history:hultgrenska",
+    "start": 1898,
+    "area": 112,
+    "distance": 14.7,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-590",
+    "start": 1983,
+    "area": 274,
+    "distance": 20.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-543",
+    "start": 1920,
+    "area": 165,
+    "distance": 20.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496985039",
+    "start": 1920,
+    "area": 200,
+    "distance": 23.8,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-548",
+    "start": 1906,
+    "area": 131,
+    "distance": 27.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-581",
+    "start": 1983,
+    "area": 227,
+    "distance": 34.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-540",
+    "start": 1983,
+    "area": 127,
+    "distance": 34.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "53": {
+  "museum": "building:museum:168",
+  "area": 220,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-599",
+    "start": 1983,
+    "area": 149,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-496961865",
+    "start": 2021,
+    "area": 264,
+    "distance": 9.1,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-580",
+    "start": 1983,
+    "area": 127,
+    "distance": 10.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-573",
+    "start": 1897,
+    "area": 86,
+    "distance": 22.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-214463544",
+    "start": 2013,
+    "area": 65,
+    "distance": 29.1,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-614",
+    "start": 1983,
+    "area": 169,
+    "distance": 32.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-496961857",
+    "start": 1995,
+    "area": 202,
+    "distance": 33.0,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-496961861",
+    "start": 2021,
+    "area": 11,
+    "distance": 36.2,
+    "tags": []
+   }
+  }
+ },
+ "54": {
+  "museum": "building:museum:169",
+  "area": 240,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-496961863",
+    "start": 2021,
+    "area": 46,
+    "distance": 6.2,
+    "tags": []
+   },
+   "2": {
+    "id": "map-building:nls-symbol-569",
+    "start": 1983,
+    "area": 192,
+    "distance": 9.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-496961861",
+    "start": 2021,
+    "area": 11,
+    "distance": 10.4,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-496961865",
+    "start": 2021,
+    "area": 264,
+    "distance": 14.2,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-573",
+    "start": 1897,
+    "area": 86,
+    "distance": 22.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "mh-history:hultgrenska",
+    "start": 1898,
+    "area": 112,
+    "distance": 26.9,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-496961859",
+    "start": 2021,
+    "area": 74,
+    "distance": 29.2,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-331981628",
+    "start": 2021,
+    "area": 331,
+    "distance": 30.1,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-496961857",
+    "start": 1995,
+    "area": 202,
+    "distance": 37.4,
+    "tags": [
+     "buildingMapReview"
+    ]
+   }
+  }
+ },
+ "55": {
+  "museum": "building:museum:170",
+  "area": 300,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-590",
+    "start": 1983,
+    "area": 274,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-496985030",
+    "start": 2021,
+    "area": 44,
+    "distance": 0.0,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-565",
+    "start": 1983,
+    "area": 112,
+    "distance": 14.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "mh-history:hultgrenska",
+    "start": 1898,
+    "area": 112,
+    "distance": 15.7,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-581",
+    "start": 1983,
+    "area": 227,
+    "distance": 22.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496985039",
+    "start": 1920,
+    "area": 200,
+    "distance": 24.5,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-331981628",
+    "start": 2021,
+    "area": 331,
+    "distance": 31.6,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-331981629",
+    "start": 2021,
+    "area": 818,
+    "distance": 32.2,
+    "tags": []
+   }
+  }
+ },
+ "56": {
+  "museum": "building:museum:173",
+  "area": 244,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-501190349",
+    "start": 1995,
+    "area": 180,
+    "distance": 0.0,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-1241680551",
+    "start": 1995,
+    "area": 70,
+    "distance": 1.3,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-628",
+    "start": 1975,
+    "area": 150,
+    "distance": 6.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-624",
+    "start": 1983,
+    "area": 115,
+    "distance": 8.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-501190337",
+    "start": 1991,
+    "area": 67,
+    "distance": 9.2,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-501190345",
+    "start": 2021,
+    "area": 25,
+    "distance": 13.5,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-501190351",
+    "start": 1983,
+    "area": 175,
+    "distance": 13.7,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-501190352",
+    "start": 2021,
+    "area": 94,
+    "distance": 14.7,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-618",
+    "start": 1983,
+    "area": 161,
+    "distance": 19.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-600",
+    "start": 1983,
+    "area": 153,
+    "distance": 19.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "building:osm:way-501190335",
+    "start": 1920,
+    "area": 343,
+    "distance": 21.9,
+    "tags": []
+   },
+   "12": {
+    "id": "building:osm:way-501137426",
+    "start": 2021,
+    "area": 80,
+    "distance": 29.0,
+    "tags": []
+   },
+   "13": {
+    "id": "mh-history:skogshyddan",
+    "start": 1896,
+    "area": 138,
+    "distance": 29.3,
+    "tags": []
+   },
+   "14": {
+    "id": "building:osm:way-501190353",
+    "start": 1983,
+    "area": 147,
+    "distance": 34.4,
+    "tags": []
+   },
+   "15": {
+    "id": "building:osm:way-501190346",
+    "start": 2021,
+    "area": 64,
+    "distance": 37.9,
+    "tags": []
+   },
+   "16": {
+    "id": "map-building:nls-symbol-617",
+    "start": 1983,
+    "area": 161,
+    "distance": 38.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "17": {
+    "id": "map-building:nls-symbol-601",
+    "start": 1983,
+    "area": 129,
+    "distance": 38.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "18": {
+    "id": "map-building:nls-symbol-652",
+    "start": 1983,
+    "area": 172,
+    "distance": 38.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "19": {
+    "id": "map-building:nls-symbol-587",
+    "start": 1919,
+    "area": 167,
+    "distance": 38.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "20": {
+    "id": "building:osm:way-165436734",
+    "start": 1920,
+    "area": 185,
+    "distance": 39.5,
+    "tags": []
+   }
+  }
+ },
+ "57": {
+  "museum": "building:museum:175",
+  "area": 206,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-650",
+    "start": 1983,
+    "area": 230,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-501137426",
+    "start": 2021,
+    "area": 80,
+    "distance": 1.2,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-653",
+    "start": 1983,
+    "area": 119,
+    "distance": 6.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-618",
+    "start": 1983,
+    "area": 161,
+    "distance": 14.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-624",
+    "start": 1983,
+    "area": 115,
+    "distance": 19.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-617",
+    "start": 1983,
+    "area": 161,
+    "distance": 20.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-501190337",
+    "start": 1991,
+    "area": 67,
+    "distance": 24.2,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-501190338",
+    "start": 2021,
+    "area": 43,
+    "distance": 31.4,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-642",
+    "start": 1897,
+    "area": 179,
+    "distance": 34.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-628",
+    "start": 1975,
+    "area": 150,
+    "distance": 34.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "map-building:nls-symbol-682",
+    "start": 1983,
+    "area": 651,
+    "distance": 36.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "12": {
+    "id": "map-building:nls-symbol-652",
+    "start": 1983,
+    "area": 172,
+    "distance": 36.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "13": {
+    "id": "building:osm:way-501137430",
+    "start": 1995,
+    "area": 151,
+    "distance": 36.7,
+    "tags": [
+     "buildingMapReview"
+    ]
+   }
+  }
+ },
+ "58": {
+  "museum": "building:museum:176",
+  "area": 300,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-599",
+    "start": 1983,
+    "area": 149,
+    "distance": 0.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-496961857",
+    "start": 1995,
+    "area": 202,
+    "distance": 6.9,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-614",
+    "start": 1983,
+    "area": 169,
+    "distance": 7.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-496961865",
+    "start": 2021,
+    "area": 264,
+    "distance": 8.7,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-496961854",
+    "start": 2021,
+    "area": 49,
+    "distance": 18.5,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-496961861",
+    "start": 2021,
+    "area": 11,
+    "distance": 27.3,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-496961850",
+    "start": 1983,
+    "area": 91,
+    "distance": 32.4,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-580",
+    "start": 1983,
+    "area": 127,
+    "distance": 34.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "building:osm:way-214463544",
+    "start": 2013,
+    "area": 65,
+    "distance": 36.1,
+    "tags": []
+   },
+   "10": {
+    "id": "building:osm:way-496961863",
+    "start": 2021,
+    "area": 46,
+    "distance": 37.3,
+    "tags": []
+   },
+   "11": {
+    "id": "map-building:nls-symbol-573",
+    "start": 1897,
+    "area": 86,
+    "distance": 39.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "59": {
+  "museum": "building:museum:177",
+  "area": 280,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-496961859",
+    "start": 2021,
+    "area": 74,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-496961863",
+    "start": 2021,
+    "area": 46,
+    "distance": 2.7,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-496961861",
+    "start": 2021,
+    "area": 11,
+    "distance": 6.2,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-331981628",
+    "start": 2021,
+    "area": 331,
+    "distance": 13.7,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-496961865",
+    "start": 2021,
+    "area": 264,
+    "distance": 15.5,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-496961857",
+    "start": 1995,
+    "area": 202,
+    "distance": 18.1,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-569",
+    "start": 1983,
+    "area": 192,
+    "distance": 37.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-331981629",
+    "start": 2021,
+    "area": 818,
+    "distance": 39.3,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-496961850",
+    "start": 1983,
+    "area": 91,
+    "distance": 39.8,
+    "tags": []
+   }
+  }
+ },
+ "60": {
+  "museum": "building:museum:178",
+  "area": 260,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-331981628",
+    "start": 2021,
+    "area": 331,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-331981629",
+    "start": 2021,
+    "area": 818,
+    "distance": 5.1,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-496961859",
+    "start": 2021,
+    "area": 74,
+    "distance": 21.0,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-590",
+    "start": 1983,
+    "area": 274,
+    "distance": 23.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-496961863",
+    "start": 2021,
+    "area": 46,
+    "distance": 27.2,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-496985030",
+    "start": 2021,
+    "area": 44,
+    "distance": 27.5,
+    "tags": []
+   },
+   "7": {
+    "id": "mh-history:hultgrenska",
+    "start": 1898,
+    "area": 112,
+    "distance": 39.7,
+    "tags": []
+   }
+  }
+ },
+ "61": {
+  "museum": "building:museum:179",
+  "area": 227,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-590",
+    "start": 1983,
+    "area": 274,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-331981629",
+    "start": 2021,
+    "area": 818,
+    "distance": 3.9,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-331981628",
+    "start": 2021,
+    "area": 331,
+    "distance": 17.4,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-496985030",
+    "start": 2021,
+    "area": 44,
+    "distance": 25.7,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-581",
+    "start": 1983,
+    "area": 227,
+    "distance": 28.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-606",
+    "start": 1983,
+    "area": 90,
+    "distance": 32.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-496961837",
+    "start": 2021,
+    "area": 39,
+    "distance": 34.7,
+    "tags": []
+   }
+  }
+ },
+ "62": {
+  "museum": "building:museum:180",
+  "area": 263,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-606",
+    "start": 1983,
+    "area": 90,
+    "distance": 0.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-331981629",
+    "start": 2021,
+    "area": 818,
+    "distance": 1.1,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-581",
+    "start": 1983,
+    "area": 227,
+    "distance": 8.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-590",
+    "start": 1983,
+    "area": 274,
+    "distance": 10.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-496961837",
+    "start": 2021,
+    "area": 39,
+    "distance": 11.0,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-619",
+    "start": 1983,
+    "area": 168,
+    "distance": 16.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-605",
+    "start": 1920,
+    "area": 137,
+    "distance": 25.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-634",
+    "start": 1900,
+    "area": 168,
+    "distance": 29.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-582",
+    "start": 1983,
+    "area": 174,
+    "distance": 34.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-625",
+    "start": 1983,
+    "area": 202,
+    "distance": 36.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "63": {
+  "museum": "building:museum:182",
+  "area": 255,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-641",
+    "start": 1983,
+    "area": 138,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-496961850",
+    "start": 1983,
+    "area": 91,
+    "distance": 0.9,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-496961843",
+    "start": 1983,
+    "area": 172,
+    "distance": 8.6,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-496961854",
+    "start": 2021,
+    "area": 49,
+    "distance": 10.9,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-614",
+    "start": 1983,
+    "area": 169,
+    "distance": 13.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496961857",
+    "start": 1995,
+    "area": 202,
+    "distance": 20.6,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-669",
+    "start": 1899,
+    "area": 212,
+    "distance": 28.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-664",
+    "start": 1920,
+    "area": 222,
+    "distance": 29.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "64": {
+  "museum": "building:museum:186",
+  "area": 333,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-682",
+    "start": 1983,
+    "area": 651,
+    "distance": 0.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "building:osm:way-501137414",
+    "start": 1920,
+    "area": 645,
+    "distance": 7.1,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-700",
+    "start": 1983,
+    "area": 150,
+    "distance": 9.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-677",
+    "start": 1920,
+    "area": 151,
+    "distance": 10.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-501137408",
+    "start": 2021,
+    "area": 193,
+    "distance": 31.9,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-719",
+    "start": 1892,
+    "area": 158,
+    "distance": 33.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-501137411",
+    "start": 2021,
+    "area": 40,
+    "distance": 34.5,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-501137410",
+    "start": 2021,
+    "area": 117,
+    "distance": 35.0,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-501137413",
+    "start": 2021,
+    "area": 54,
+    "distance": 38.7,
+    "tags": []
+   }
+  }
+ },
+ "65": {
+  "museum": "building:museum:192",
+  "area": 309,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-496961812",
+    "start": 2021,
+    "area": 65,
+    "distance": 3.1,
+    "tags": []
+   },
+   "2": {
+    "id": "map-building:nls-symbol-654",
+    "start": 1983,
+    "area": 321,
+    "distance": 4.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-619",
+    "start": 1983,
+    "area": 168,
+    "distance": 10.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-634",
+    "start": 1900,
+    "area": 168,
+    "distance": 13.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-656",
+    "start": 1920,
+    "area": 153,
+    "distance": 14.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-657",
+    "start": 1983,
+    "area": 151,
+    "distance": 18.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-625",
+    "start": 1983,
+    "area": 202,
+    "distance": 19.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-496961837",
+    "start": 2021,
+    "area": 39,
+    "distance": 27.6,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-496961801",
+    "start": 1975,
+    "area": 106,
+    "distance": 29.2,
+    "tags": []
+   },
+   "10": {
+    "id": "map-building:nls-symbol-679",
+    "start": 1983,
+    "area": 527,
+    "distance": 33.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "building:osm:way-331981629",
+    "start": 2021,
+    "area": 818,
+    "distance": 34.5,
+    "tags": []
+   },
+   "12": {
+    "id": "map-building:nls-symbol-659",
+    "start": 1920,
+    "area": 163,
+    "distance": 34.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "13": {
+    "id": "map-building:nls-symbol-676",
+    "start": 1900,
+    "area": 147,
+    "distance": 35.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "66": {
+  "museum": "building:museum:196",
+  "area": 319,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-501137413",
+    "start": 2021,
+    "area": 54,
+    "distance": 2.9,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-166878168",
+    "start": 1920,
+    "area": 150,
+    "distance": 4.8,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-501137414",
+    "start": 1920,
+    "area": 645,
+    "distance": 5.5,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-730",
+    "start": 1983,
+    "area": 242,
+    "distance": 10.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-166878162",
+    "start": 1920,
+    "area": 185,
+    "distance": 11.7,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-682",
+    "start": 1983,
+    "area": 651,
+    "distance": 23.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-688",
+    "start": 1983,
+    "area": 457,
+    "distance": 23.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "map-building:nls-symbol-710",
+    "start": 1920,
+    "area": 251,
+    "distance": 30.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "building:osm:way-501137408",
+    "start": 2021,
+    "area": 193,
+    "distance": 30.2,
+    "tags": []
+   },
+   "10": {
+    "id": "building:osm:way-501137415",
+    "start": 2021,
+    "area": 160,
+    "distance": 30.6,
+    "tags": []
+   },
+   "11": {
+    "id": "map-building:nls-symbol-734",
+    "start": 1983,
+    "area": 209,
+    "distance": 38.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "67": {
+  "museum": "building:museum:205",
+  "area": 245,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-496985065",
+    "start": 2021,
+    "area": 36,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-496985061",
+    "start": 2021,
+    "area": 262,
+    "distance": 3.5,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-496985064",
+    "start": 2021,
+    "area": 107,
+    "distance": 5.0,
+    "tags": []
+   },
+   "4": {
+    "id": "building:osm:way-496985060",
+    "start": 2021,
+    "area": 129,
+    "distance": 9.9,
+    "tags": []
+   },
+   "5": {
+    "id": "building:osm:way-496985066",
+    "start": 2021,
+    "area": 167,
+    "distance": 17.4,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-564",
+    "start": 1983,
+    "area": 574,
+    "distance": 22.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "map-building:nls-symbol-605",
+    "start": 1920,
+    "area": 137,
+    "distance": 24.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-496985063",
+    "start": 2021,
+    "area": 58,
+    "distance": 26.5,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-582",
+    "start": 1983,
+    "area": 174,
+    "distance": 27.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "building:osm:way-496985062",
+    "start": 2021,
+    "area": 61,
+    "distance": 32.1,
+    "tags": []
+   },
+   "11": {
+    "id": "building:osm:way-496985067",
+    "start": 2021,
+    "area": 73,
+    "distance": 34.1,
+    "tags": []
+   },
+   "12": {
+    "id": "map-building:nls-symbol-562",
+    "start": 1897,
+    "area": 177,
+    "distance": 38.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "68": {
+  "museum": "building:museum:206",
+  "area": 244,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-496985066",
+    "start": 2021,
+    "area": 167,
+    "distance": 0.0,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-496985067",
+    "start": 2021,
+    "area": 73,
+    "distance": 0.0,
+    "tags": []
+   },
+   "3": {
+    "id": "building:osm:way-399630810",
+    "start": 2021,
+    "area": 282,
+    "distance": 6.6,
+    "tags": []
+   },
+   "4": {
+    "id": "map-building:nls-symbol-564",
+    "start": 1983,
+    "area": 574,
+    "distance": 7.4,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-578",
+    "start": 1983,
+    "area": 291,
+    "distance": 19.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496985061",
+    "start": 2021,
+    "area": 262,
+    "distance": 21.8,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-496985063",
+    "start": 2021,
+    "area": 58,
+    "distance": 30.7,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-496952302",
+    "start": 2021,
+    "area": 23,
+    "distance": 32.0,
+    "tags": []
+   },
+   "9": {
+    "id": "building:osm:way-496985065",
+    "start": 2021,
+    "area": 36,
+    "distance": 32.1,
+    "tags": []
+   },
+   "10": {
+    "id": "building:osm:way-496985062",
+    "start": 2021,
+    "area": 61,
+    "distance": 32.7,
+    "tags": []
+   },
+   "11": {
+    "id": "building:osm:way-1555825986",
+    "start": 2026,
+    "area": 21,
+    "distance": 33.2,
+    "tags": []
+   },
+   "12": {
+    "id": "map-building:nls-symbol-615",
+    "start": 1898,
+    "area": 200,
+    "distance": 33.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "13": {
+    "id": "building:osm:way-496985069",
+    "start": 2021,
+    "area": 86,
+    "distance": 37.3,
+    "tags": []
+   },
+   "14": {
+    "id": "building:osm:way-496985064",
+    "start": 2021,
+    "area": 107,
+    "distance": 39.3,
+    "tags": []
+   }
+  }
+ },
+ "69": {
+  "museum": "building:museum:207",
+  "area": 319,
+  "neighbours": {
+   "1": {
+    "id": "building:osm:way-496985068",
+    "start": 2021,
+    "area": 126,
+    "distance": 0.4,
+    "tags": []
+   },
+   "2": {
+    "id": "building:osm:way-496985069",
+    "start": 2021,
+    "area": 86,
+    "distance": 1.2,
+    "tags": []
+   },
+   "3": {
+    "id": "map-building:nls-symbol-598",
+    "start": 1983,
+    "area": 141,
+    "distance": 3.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-496985071",
+    "start": 2021,
+    "area": 16,
+    "distance": 5.6,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-616",
+    "start": 1983,
+    "area": 211,
+    "distance": 11.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "map-building:nls-symbol-610",
+    "start": 1983,
+    "area": 367,
+    "distance": 15.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-496952302",
+    "start": 2021,
+    "area": 23,
+    "distance": 20.5,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-399630810",
+    "start": 2021,
+    "area": 282,
+    "distance": 21.1,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-615",
+    "start": 1898,
+    "area": 200,
+    "distance": 22.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "building:osm:way-496985058",
+    "start": 2021,
+    "area": 258,
+    "distance": 23.3,
+    "tags": []
+   },
+   "11": {
+    "id": "map-building:nls-symbol-578",
+    "start": 1983,
+    "area": 291,
+    "distance": 34.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "12": {
+    "id": "map-building:nls-symbol-576",
+    "start": 1983,
+    "area": 115,
+    "distance": 35.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ },
+ "70": {
+  "museum": "building:museum:209",
+  "area": 340,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-643",
+    "start": 1983,
+    "area": 217,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-616",
+    "start": 1983,
+    "area": 211,
+    "distance": 6.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "building:osm:way-496952301",
+    "start": 1995,
+    "area": 221,
+    "distance": 9.9,
+    "tags": [
+     "buildingMapReview"
+    ]
+   },
+   "4": {
+    "id": "building:osm:way-496952300",
+    "start": 2021,
+    "area": 27,
+    "distance": 13.6,
+    "tags": []
+   },
+   "5": {
+    "id": "map-building:nls-symbol-610",
+    "start": 1983,
+    "area": 367,
+    "distance": 13.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496952294",
+    "start": 2021,
+    "area": 31,
+    "distance": 18.9,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-496985068",
+    "start": 2021,
+    "area": 126,
+    "distance": 21.0,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-496952293",
+    "start": 2021,
+    "area": 56,
+    "distance": 24.2,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-645",
+    "start": 1900,
+    "area": 141,
+    "distance": 26.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "building:osm:way-496985071",
+    "start": 2021,
+    "area": 16,
+    "distance": 27.7,
+    "tags": []
+   },
+   "11": {
+    "id": "map-building:nls-symbol-615",
+    "start": 1898,
+    "area": 200,
+    "distance": 29.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "12": {
+    "id": "map-building:nls-symbol-668",
+    "start": 1983,
+    "area": 203,
+    "distance": 30.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "13": {
+    "id": "map-building:nls-symbol-671",
+    "start": 1983,
+    "area": 285,
+    "distance": 33.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "14": {
+    "id": "building:osm:way-496952302",
+    "start": 2021,
+    "area": 23,
+    "distance": 39.9,
+    "tags": []
+   }
+  }
+ },
+ "71": {
+  "museum": "building:museum:210",
+  "area": 211,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-615",
+    "start": 1898,
+    "area": 200,
+    "distance": 5.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-616",
+    "start": 1983,
+    "area": 211,
+    "distance": 7.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-645",
+    "start": 1900,
+    "area": 141,
+    "distance": 11.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-643",
+    "start": 1983,
+    "area": 217,
+    "distance": 12.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-496985068",
+    "start": 2021,
+    "area": 126,
+    "distance": 13.0,
+    "tags": []
+   },
+   "6": {
+    "id": "building:osm:way-496952300",
+    "start": 2021,
+    "area": 27,
+    "distance": 16.7,
+    "tags": []
+   },
+   "7": {
+    "id": "building:osm:way-496952302",
+    "start": 2021,
+    "area": 23,
+    "distance": 23.3,
+    "tags": []
+   },
+   "8": {
+    "id": "building:osm:way-1555825986",
+    "start": 2026,
+    "area": 21,
+    "distance": 26.2,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-620",
+    "start": 1983,
+    "area": 192,
+    "distance": 27.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-647",
+    "start": 1983,
+    "area": 214,
+    "distance": 28.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "building:osm:way-399630810",
+    "start": 2021,
+    "area": 282,
+    "distance": 37.2,
+    "tags": []
+   },
+   "12": {
+    "id": "building:osm:way-496985069",
+    "start": 2021,
+    "area": 86,
+    "distance": 37.9,
+    "tags": []
+   },
+   "13": {
+    "id": "building:osm:way-496985071",
+    "start": 2021,
+    "area": 16,
+    "distance": 38.4,
+    "tags": []
+   },
+   "14": {
+    "id": "building:osm:way-496952294",
+    "start": 2021,
+    "area": 31,
+    "distance": 38.9,
+    "tags": []
+   }
+  }
+ },
+ "72": {
+  "museum": "building:museum:211",
+  "area": 262,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-657",
+    "start": 1983,
+    "area": 151,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-625",
+    "start": 1983,
+    "area": 202,
+    "distance": 4.5,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-626",
+    "start": 1920,
+    "area": 279,
+    "distance": 5.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-651",
+    "start": 1983,
+    "area": 181,
+    "distance": 5.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "map-building:nls-symbol-676",
+    "start": 1900,
+    "area": 147,
+    "distance": 27.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "6": {
+    "id": "building:osm:way-496952307",
+    "start": 2021,
+    "area": 74,
+    "distance": 28.4,
+    "tags": []
+   },
+   "7": {
+    "id": "map-building:nls-symbol-654",
+    "start": 1983,
+    "area": 321,
+    "distance": 29.9,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "8": {
+    "id": "building:osm:way-496985063",
+    "start": 2021,
+    "area": 58,
+    "distance": 33.2,
+    "tags": []
+   },
+   "9": {
+    "id": "map-building:nls-symbol-619",
+    "start": 1983,
+    "area": 168,
+    "distance": 33.8,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-681",
+    "start": 1920,
+    "area": 285,
+    "distance": 37.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "building:osm:way-496985062",
+    "start": 2021,
+    "area": 61,
+    "distance": 37.9,
+    "tags": []
+   },
+   "12": {
+    "id": "building:osm:way-496985061",
+    "start": 2021,
+    "area": 262,
+    "distance": 39.2,
+    "tags": []
+   },
+   "13": {
+    "id": "building:osm:way-496985060",
+    "start": 2021,
+    "area": 129,
+    "distance": 39.6,
+    "tags": []
+   }
+  }
+ },
+ "73": {
+  "museum": "building:museum:213",
+  "area": 404,
+  "neighbours": {
+   "1": {
+    "id": "map-building:nls-symbol-675",
+    "start": 1983,
+    "area": 222,
+    "distance": 0.0,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "2": {
+    "id": "map-building:nls-symbol-670",
+    "start": 1983,
+    "area": 222,
+    "distance": 3.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "3": {
+    "id": "map-building:nls-symbol-698",
+    "start": 1983,
+    "area": 187,
+    "distance": 4.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "4": {
+    "id": "map-building:nls-symbol-699",
+    "start": 1983,
+    "area": 247,
+    "distance": 12.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "5": {
+    "id": "building:osm:way-496952291",
+    "start": 2021,
+    "area": 15,
+    "distance": 22.0,
+    "tags": []
+   },
+   "6": {
+    "id": "map-building:nls-symbol-668",
+    "start": 1983,
+    "area": 203,
+    "distance": 22.1,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "7": {
+    "id": "building:osm:way-496952307",
+    "start": 2021,
+    "area": 74,
+    "distance": 25.2,
+    "tags": []
+   },
+   "8": {
+    "id": "map-building:nls-symbol-681",
+    "start": 1920,
+    "area": 285,
+    "distance": 25.2,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "9": {
+    "id": "map-building:nls-symbol-701",
+    "start": 1920,
+    "area": 204,
+    "distance": 25.6,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "10": {
+    "id": "map-building:nls-symbol-647",
+    "start": 1983,
+    "area": 214,
+    "distance": 29.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "11": {
+    "id": "map-building:nls-symbol-697",
+    "start": 1983,
+    "area": 267,
+    "distance": 30.3,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "12": {
+    "id": "map-building:nls-symbol-645",
+    "start": 1900,
+    "area": 141,
+    "distance": 32.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   },
+   "13": {
+    "id": "map-building:nls-symbol-651",
+    "start": 1983,
+    "area": 181,
+    "distance": 39.7,
+    "tags": [
+     "printedMapSymbol"
+    ]
+   }
+  }
+ }
+}

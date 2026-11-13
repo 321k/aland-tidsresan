@@ -1,0 +1,769 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-13",
+ "source": {
+  "id": "review:mariehamn-museum-offsets",
+  "title": "Mariehamns museikartehus · förskjutna dubbletter och försvunna hus",
+  "url": "assets/mariehamn-museum-offsets.json"
+ },
+ "aerialSourceId": "mariehamn-aerial-1942",
+ "mergeRule": "adjacent",
+ "maxGapMeters": 12,
+ "maxCentroidMeters": 35,
+ "maxDarkShare": 0.3,
+ "marker": "museumOffsetReview",
+ "method": "Writes data/mariehamn-museum-offsets.json: the second pass over every museum-map house still open after the overlap\nreview (open_sheets.py, open-NN.jpg; open-index.json numbers the neighbours; open_ink.py measures each footprint).\n\nThe museum map is often shifted about a house depth, mostly northwards, so a museum house can stand in a street, front\ngarden or yard next to its house without overlapping it. Each house was judged on the 1942 orthophoto and the 1968\nand 1985 editions of sheet 101208:\n- merge: the 1942 photo shows a house at a directly neighbouring later outline and none at the museum spot; the later\n  object takes over the museum record (two museum houses may join one longer building);\n- ending: the museum footprint is empty on the 1985 map (dark share at most 0.3; the 1995 share is recorded; 1968 where that\n  edition draws the spot empty and unhatched) and no neighbour is clearly the same house; the house ends at the map's\n  survey year, the latest boundary, not a demolition year;\n- deferred: the photo and maps do not settle it, a footprint carries street lines, or the neighbour is a curated\n  history building without a reconstruction record.",
+ "merges": [
+  {
+   "id": "museum-41",
+   "keep": "map-building:nls-symbol-392",
+   "donor": "building:museum:41",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    11.9,
+    -4.2
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-42",
+   "keep": "map-building:nls-symbol-392",
+   "donor": "building:museum:42",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    -8.0,
+    -6.6
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-43",
+   "keep": "map-building:nls-symbol-414",
+   "donor": "building:museum:43",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 1.2,
+   "offsetMeters": [
+    15.4,
+    2.1
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gården, 1.2 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-47",
+   "keep": "map-building:nls-symbol-384",
+   "donor": "building:museum:47",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 2.0,
+   "offsetMeters": [
+    21.1,
+    -6.2
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 2.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-54",
+   "keep": "map-building:nls-symbol-439",
+   "donor": "building:museum:54",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    10.7,
+    1.5
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-69",
+   "keep": "map-building:nls-symbol-446",
+   "donor": "building:museum:69",
+   "fromYear": 1920,
+   "keepFrom": 1920,
+   "gapMeters": 1.6,
+   "offsetMeters": [
+    -3.1,
+    15.4
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gården, 1.6 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-95",
+   "keep": "building:osm:way-166517479",
+   "donor": "building:museum:95",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    -10.6,
+    2.9
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-96",
+   "keep": "map-building:nls-symbol-401",
+   "donor": "building:museum:96",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    -21.3,
+    -7.8
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-113",
+   "keep": "map-building:nls-symbol-514",
+   "donor": "building:museum:113",
+   "fromYear": 1920,
+   "keepFrom": 1920,
+   "gapMeters": 6.8,
+   "offsetMeters": [
+    -15.9,
+    -12.7
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 6.8 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-136",
+   "keep": "map-building:nls-symbol-498",
+   "donor": "building:museum:136",
+   "fromYear": 1920,
+   "keepFrom": 1896,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    -5.8,
+    -11.0
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-138",
+   "keep": "building:osm:way-165436732",
+   "donor": "building:museum:138",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    6.9,
+    -13.7
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-139",
+   "keep": "map-building:nls-symbol-492",
+   "donor": "building:museum:139",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    5.5,
+    -12.0
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-140",
+   "keep": "map-building:nls-symbol-501",
+   "donor": "building:museum:140",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    13.8,
+    -10.7
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-143",
+   "keep": "building:osm:way-496985040",
+   "donor": "building:museum:143",
+   "fromYear": 1920,
+   "keepFrom": 2021,
+   "gapMeters": 3.6,
+   "offsetMeters": [
+    7.0,
+    -17.2
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 3.6 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-149",
+   "keep": "map-building:nls-symbol-489",
+   "donor": "building:museum:149",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    21.2,
+    -4.5
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-150",
+   "keep": "map-building:nls-symbol-489",
+   "donor": "building:museum:150",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    -16.1,
+    -11.3
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-152",
+   "keep": "map-building:nls-symbol-487",
+   "donor": "building:museum:152",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    3.8,
+    -11.7
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-155",
+   "keep": "map-building:nls-symbol-504",
+   "donor": "building:museum:155",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.8,
+   "offsetMeters": [
+    -2.7,
+    -12.2
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.8 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-165",
+   "keep": "map-building:nls-symbol-569",
+   "donor": "building:museum:165",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 1.4,
+   "offsetMeters": [
+    10.4,
+    -13.2
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 1.4 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-168",
+   "keep": "map-building:nls-symbol-599",
+   "donor": "building:museum:168",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    -6.8,
+    -11.1
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-170",
+   "keep": "map-building:nls-symbol-590",
+   "donor": "building:museum:170",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    10.7,
+    -13.9
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-175",
+   "keep": "map-building:nls-symbol-650",
+   "donor": "building:museum:175",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    14.3,
+    -7.3
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-178",
+   "keep": "building:osm:way-331981628",
+   "donor": "building:museum:178",
+   "fromYear": 1920,
+   "keepFrom": 2021,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    -3.3,
+    -16.2
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-209",
+   "keep": "map-building:nls-symbol-643",
+   "donor": "building:museum:209",
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "gapMeters": 0.0,
+   "offsetMeters": [
+    -5.1,
+    -15.2
+   ],
+   "basis": "Museikartans hus och den intilliggande senare byggnaden tolkas som samma hus. Museikartan är här förskjuten omkring ett husdjup: museikartans kontur ligger i gatan eller förgården, 0.0 meter från den senare konturen, och flygfotot 1942 visar huset där den senare konturen ligger men inget hus på museikartans plats. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  }
+ ],
+ "replacements": [],
+ "endings": [
+  {
+   "id": "museum-2",
+   "museum": "building:museum:2",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-13",
+   "museum": "building:museum:13",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.04,
+   "darkShare1995": 0.01,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-16",
+   "museum": "building:museum:16",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-52",
+   "museum": "building:museum:52",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.01,
+   "darkShare1995": 0.05,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-58",
+   "museum": "building:museum:58",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.01,
+   "darkShare1995": 0.11,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-59",
+   "museum": "building:museum:59",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.04,
+   "darkShare1995": 0.02,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-61",
+   "museum": "building:museum:61",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.04,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-68",
+   "museum": "building:museum:68",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.04,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-109",
+   "museum": "building:museum:109",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.08,
+   "darkShare1995": 0.18,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-114",
+   "museum": "building:museum:114",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.09,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-115",
+   "museum": "building:museum:115",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.14,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-117",
+   "museum": "building:museum:117",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.01,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-141",
+   "museum": "building:museum:141",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-148",
+   "museum": "building:museum:148",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.1,
+   "darkShare1995": 0.1,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-153",
+   "museum": "building:museum:153",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.26,
+   "darkShare1995": 0.29,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-156",
+   "museum": "building:museum:156",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.09,
+   "darkShare1995": 0.11,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-157",
+   "museum": "building:museum:157",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.09,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-163",
+   "museum": "building:museum:163",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.02,
+   "darkShare1995": 0.01,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-166",
+   "museum": "building:museum:166",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.06,
+   "darkShare1995": 0.45,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-169",
+   "museum": "building:museum:169",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.02,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-173",
+   "museum": "building:museum:173",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.1,
+   "darkShare1995": 0.27,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-176",
+   "museum": "building:museum:176",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.15,
+   "darkShare1995": 0.03,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-177",
+   "museum": "building:museum:177",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.13,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-179",
+   "museum": "building:museum:179",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.16,
+   "darkShare1995": 0.55,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-180",
+   "museum": "building:museum:180",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.28,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-182",
+   "museum": "building:museum:182",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.02,
+   "darkShare1995": 0.1,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-192",
+   "museum": "building:museum:192",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.01,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-196",
+   "museum": "building:museum:196",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-205",
+   "museum": "building:museum:205",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.02,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-206",
+   "museum": "building:museum:206",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-207",
+   "museum": "building:museum:207",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.0,
+   "darkShare1995": 0.06,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-210",
+   "museum": "building:museum:210",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.05,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-211",
+   "museum": "building:museum:211",
+   "mapYear": 1985,
+   "endYear": 1983,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "darkShare": 0.12,
+   "darkShare1995": 0.0,
+   "basis": "Museikartans hus har ingen tydlig motsvarighet bland grannhusen, och grundkartan 1985 visar platsen tom. Husets antagna fortsättning avslutas därför senast 1983, kartans inventeringsår. Huset kan ha rivits tidigare eller vara felplacerat på museikartan; 1983 är den senaste gränsen, inte ett rivningsår."
+  }
+ ],
+ "deferred": {
+  "unclear": [
+   "building:museum:5",
+   "building:museum:8",
+   "building:museum:11",
+   "building:museum:34",
+   "building:museum:48",
+   "building:museum:55",
+   "building:museum:56",
+   "building:museum:74",
+   "building:museum:103",
+   "building:museum:104",
+   "building:museum:105",
+   "building:museum:119",
+   "building:museum:142",
+   "building:museum:213"
+  ],
+  "street-lines-in-footprint": [
+   "building:museum:116",
+   "building:museum:186"
+  ],
+  "history-building-without-reconstruction": [
+   "building:museum:158"
+  ]
+ },
+ "inputs": {
+  "building:museum:109": "f88b1f5bcc210b55e416df494ee51cdbc9e2e37b4c2be4923b0dcd9fd7f7676b",
+  "building:museum:113": "b517051b1a034db5e38f3a099ce891c4b52a4bad916af22e31483cd5b6d946d2",
+  "building:museum:114": "cb49f250c7e6d320e68e86dc99d15ac54cb925c04007ace7a3ae687a9bcd76f2",
+  "building:museum:115": "8aff81df962f4da542c0c5488df87533cb70103991e52b4379ec10f7bbd2f1e0",
+  "building:museum:117": "03196955b426ce1b9665de9659e3725a2cc12afdead0f384cdda923f5cb71f1c",
+  "building:museum:13": "cd4eacbcf18b347c1e65a6cf8b93df193f7e726239a318397e9c8418705a7686",
+  "building:museum:136": "b971ebd55dbccab30c541064a1fbaeddd48d8a4c20ec7ea899d29cdd53555ef2",
+  "building:museum:138": "8980512ae74a300bd4a96b13bbe088321b56f3ee2ee6f853e10645345e7d3643",
+  "building:museum:139": "3d5311f7671dbf539aa3e30b23c3f2245ff0dbcc0a8066c76427d45496cc4849",
+  "building:museum:140": "4a25eb881de6300cf898c49aa1d2841d22ce29e967c885de4b601867ac33f087",
+  "building:museum:141": "3dfc3cc54858ed9151fdfa0a3e65a0b2f938838376f954892456ea4f7aafbe0d",
+  "building:museum:143": "8f5b20eb3fd7250bea5743c240c6583024381815a41d5e6a1d3b7960eaf3626b",
+  "building:museum:148": "1fb78e2625a69247dd93d247fd0a21e7b3d6c66263664ae6eff564d6a5296949",
+  "building:museum:149": "54bfab1f0f7118cafa7afd38c0ddf415ec95aef0b00f50e5e3a5083ff8a3d4fa",
+  "building:museum:150": "e2926e408c42a87b299e1c8f8d90efacd8145dfd9efe6261d7bb8062d968571e",
+  "building:museum:152": "8058a12d4048357c2196dd18a88ffcddb82a654877ed3870e9de83eb2e26e15e",
+  "building:museum:153": "0f43b7a440cb0531d5211d384349bc0aac2f1e7dc15b72e517d4c5e6f2ff4d2f",
+  "building:museum:155": "2ddbd3f3c0d46a4adb3b479e8145e36e2d12ef9fa623b2bb39afd1a72acefc00",
+  "building:museum:156": "9981203e68400a071e87de46b2ac34ebfcd3689d03edecc07cb2624cbcd785cf",
+  "building:museum:157": "6666d2a2dc2ebb1af2edcc4aac335d4703cf1a926b6d3a4ba4be46a4bd8a4130",
+  "building:museum:16": "9349de948502b81340c2a7762d65edde5f3f609e324f9904d6329049ecf35424",
+  "building:museum:163": "94f939e67874d0fad60aa6ff0e210cb412c5083445b76480b3e21ae5f9d919bc",
+  "building:museum:165": "7c4775012b12056451bae42305fa488407bd9f2e245f9859f609fd48db20bda4",
+  "building:museum:166": "827de8f745ebaf6d82ee313df58dc9a63eebd22f836d4834c353c3d3cc914856",
+  "building:museum:168": "854272fd18410254916fae8c65b3efea9ff3af4cdae2c4bce337c2d4fde5e090",
+  "building:museum:169": "6865b649056d16de43c648a3ed49f5698039326883b9fdad05d08de753f8f847",
+  "building:museum:170": "1ff39b8bf76e8e65106320daecdff06c8f02bb415f9303814fc1a71ce77b5a4e",
+  "building:museum:173": "854ba48acc45857881656594a9401b0033fec6cb684a9ccc8b44468d2f943891",
+  "building:museum:175": "1c54b6a807acc0ae3dfdc50b8496deb94dab173dd21d66496566bf0300d21ab4",
+  "building:museum:176": "29ce1ee013b671bc2d7d44ae81427039029f44119ac2cc7ecfe798fa23e1f709",
+  "building:museum:177": "1203b3f6c2da173a44c15ce62553e19fe6b860fcfebe07114fa89718c71cd5ae",
+  "building:museum:178": "d0e6b39aeb672497d61381d96c6918d10bfba60f50b1be4708febee9341c0423",
+  "building:museum:179": "cf439c833dd3df9d9a2f4fa04bcd0234acb9465963915fbfc88ed7b96c8aac5a",
+  "building:museum:180": "3c21cce384a308dcf7591cfbef7d74e09eac5694c855e8d8bb76b7ac7623de8a",
+  "building:museum:182": "6de832fca7c6befc4e2c39341340dad530b840d147f8fce09f7296197437ceac",
+  "building:museum:192": "bba1049260a3032f68debca026a615dc526459305e9c629868f41cc8a32e3eaa",
+  "building:museum:196": "14069cebd629fca446bb7af1d422bd4e5a692d6a31929555361b38acddd64019",
+  "building:museum:2": "8d04aa8e98178fdbb0a16ffde21d5301faf052d9e0f479f61e096b3e2b3b088b",
+  "building:museum:205": "a42e4499668882057d177bf67b8315134e511daba1782df91959119df64809df",
+  "building:museum:206": "607d4246c17bac6da4f84615fb765a69e2ddcd44a26f0f66026bf9999963db11",
+  "building:museum:207": "ca124c92c5ff9655a2f4cadf1ae0b1f3667cc1faf9dba4c6ce108e84a0f9660b",
+  "building:museum:209": "0fbacac2b0483cdfe4e3c290c24bc40f7ed0a7b1a59ad89e1376745009e91f7a",
+  "building:museum:210": "a487b2106a2f4efd7f7a33075290d224c4690e25f6e819fd620f52a368325b36",
+  "building:museum:211": "4e389804ef6742ce8a0c14af6251762f53f0553c4675b07295b834dabbb158f2",
+  "building:museum:41": "e9a2f95f69fa6d40f46e2b5f03cbd884f188c33f4beb482bb934d9860eff417e",
+  "building:museum:42": "6ed6d4c88024b4603b4c3b1cdedb526d3db772fb0fc9454e59e869debb619a68",
+  "building:museum:43": "08444e5e0471308d3deaf79f580268656e9de46f63290c503596ed62942d789f",
+  "building:museum:47": "5f934ec32e55ccd2d75fb9a1e2a6293de9e00ce1db9301185be17cadf75d3ca0",
+  "building:museum:52": "1120199f3b436cad9887b392c330d7d0ccad4b6a5f36a1b00c4cd7b98bfbc3d5",
+  "building:museum:54": "9510bf9811aa454963fc61724dadcf7cc9b0e31094fcceaca758e342c68f1242",
+  "building:museum:58": "b5c49762da4d39df25de5051b2f394650a60121a58eed03fa437e8ae0be01c35",
+  "building:museum:59": "1a4d9aaf9d2190cd0c5bc670d8f4c58e32948ba63bafbd681e7576b18b09062f",
+  "building:museum:61": "04883a63dc17dc5ad7d454af627d81a622fa0117ac32b17dee0fc3204393b169",
+  "building:museum:68": "d13eab0d2b846799038004ee5483ce8f4df994c62122ced991c50ca47d081db1",
+  "building:museum:69": "a2abaf4c90a359ffeeb5f38b3d415c0d2981bc633ba71d0e2f3e0a0d20ec9688",
+  "building:museum:95": "745216b5a7ca38013fa60a84760568a88e2901d2085d8d9699d1a90170280e18",
+  "building:museum:96": "666245f515505204c0fc73799dc9520b138eb517da1c6722b6ed9d3063def02c",
+  "building:osm:way-165436732": "4200f8c830a2bd923e77d06004ad383eaa5970b232b274afb41615ee08cdb6da",
+  "building:osm:way-166517479": "2b567b4c04ccb9cb4af1d34c94acc55b4ce3442a7d832bd51c7d0efb4ceb9a3a",
+  "building:osm:way-331981628": "90013b17a3115dded761e486e5bd1f0877066ca1a2cce34e0f220776966e421f",
+  "building:osm:way-496985040": "cfb4ebd289aab6f63350d51a6da14de330ebecbd1d6e970cc4376bfec009f2e4",
+  "map-building:nls-symbol-384": "bd508bf53135d602f1dc556e29bf2be97fb9db47c74885c090a1dc773bbe1a6b",
+  "map-building:nls-symbol-392": "f5f5029963b9ea94f5f40ade402e18e46dba372cae3c3c3b8710217883e70a22",
+  "map-building:nls-symbol-401": "e01e447da96a7955cecc6dad2238349ea7e8035bda44b26beff06cdfcfaf08b9",
+  "map-building:nls-symbol-414": "e093d3790459dc20daa04fbec8ba63012af494720b50dd4743aa981c021fc9fa",
+  "map-building:nls-symbol-439": "9c62208deaa140f079a04e8c4e7e4fddde7033684673a0d80bdc7952c5fe31ec",
+  "map-building:nls-symbol-446": "5cc597aeb171423905d4d1ae41d16b057c872faab9c35efce43f5a2bce694698",
+  "map-building:nls-symbol-487": "40f8ffce1ec26c387eee3e4384b09e46f64777f26e6540959b3d0e5417ae79fe",
+  "map-building:nls-symbol-489": "b1a83f874d8d5cae4304a26bdac87f9c232835aa407e11c94ad88efd89a6c5a1",
+  "map-building:nls-symbol-492": "a8c71b7edfe440ab2950f2689f46d4d7f12ecab72dac464da1ffa4789e594d0d",
+  "map-building:nls-symbol-498": "b972edb83411c89a90dba09ed502889214b4f31456c592d47652f51476b5581c",
+  "map-building:nls-symbol-501": "3b58c37452c5af64e0460d09568ff395f31cd3212cbaf881468c8f12261ccd8c",
+  "map-building:nls-symbol-504": "149a95ca48d6e17c5349ee6e1f5e12f0129ca48a53124f2ce2dc5433b07669e0",
+  "map-building:nls-symbol-514": "00613e14d94e35a4645cc722a0f31b77477cc883d80f8c7a680370eecbc4d605",
+  "map-building:nls-symbol-569": "4e8c7194ef600aef79b271c52dbea8971f7b2d655fa5d7f676a55558e9a7394f",
+  "map-building:nls-symbol-590": "012f4e3a98bca13f0495b0bb78059268807a67944093aaf4aaa25f8fb548c739",
+  "map-building:nls-symbol-599": "26506b6f8d7d29a811c10b25d26405b03f890c32e34369882a9a12ca1b1f8dfb",
+  "map-building:nls-symbol-643": "b52a0d5ffe4644a2e825c935bf02bf713608e1e1d20b4f74ce705645cb46cb50",
+  "map-building:nls-symbol-650": "162734fca0421878a6c67a91ce6a544d38f37e67e12d84678f3fefa7089748a1"
+ }
+}
