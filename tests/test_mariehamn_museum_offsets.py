@@ -29,9 +29,11 @@ class MuseumOffsetTests(unittest.TestCase):
 
     def test_review_applies_once_and_matches_the_build(self):
         catalog = copy.deepcopy(self.pristine); apply_museum_offsets(self.read, catalog)
-        # Buildings dated by the later r1/r2 rechecks of the building-map review postdate this snapshot; compare the rest exactly.
-        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('r1', 'r2')}
-        self.assertEqual(len(later), 261)
+        # Buildings dated by the later r1/r2 rechecks and the Ytternäs modern-only outlines postdate this snapshot;
+        # compare the rest exactly.
+        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('r1', 'r2')
+                 or (o.get('reconstruction') or {}).get('createdByBuildingMapReview')}
+        self.assertEqual(len(later), 354)
         self.assertEqual([o for o in json.loads(json.dumps(catalog, ensure_ascii=False))['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):

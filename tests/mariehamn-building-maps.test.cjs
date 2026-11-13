@@ -8,8 +8,8 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),sheets=review.sheets;
 
 test('the review is complete, sourced and keeps 1978 out of the building evidence',()=>{
- assert.equal(review.decisions.length,1188);assert.deepEqual(review.totals.byFirstYear,{1968:401,1985:548,1995:239});
- assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','r1','r2'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:69,b10:106,r1:180,r2:81});
+ assert.equal(review.decisions.length,1281);assert.deepEqual(review.totals.byFirstYear,{1968:403,1985:592,1995:286});
+ assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','r1','r2'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:124,b10:144,r1:180,r2:81});
  for(const y of ['1968','1985','1995'])assert.ok(catalog.sources.some(s=>s.id===sheets[y]),y);
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  assert.match(review.rules.roadRevision1978,/inte som eget byggnadsbelägg/);
@@ -86,9 +86,13 @@ test('in the centre, a dated house never overlaps a printed-map symbol object, a
  for(const r of hatched){assert.equal(r.proposedFirstYear,1968);assert.ok(['b6','b7'].includes(r.batch))}
 });
 
-test('modern-only outlines in Ytternäs are deferred, never dated: they have no reconstruction to extend',()=>{
- const ext=review.deferred['external-modern'];assert.equal(ext.length,93);
- for(const id of ext){const o=model.objects.get(id);assert.ok(o.externalModern&&!o.reconstruction&&!o.buildingMapReview,id);assert.ok(!review.decisions.some(d=>d.objectId===id),id)}
+test('modern-only outlines in Ytternäs get a reconstruction that starts at their map year',()=>{
+ assert.equal(review.deferred['external-modern'],undefined);
+ const created=review.decisions.filter(d=>d.createReconstruction);assert.equal(created.length,93);
+ for(const d of created){const o=model.objects.get(d.objectId);
+  assert.ok(o.externalModern&&o.reconstruction.createdByBuildingMapReview,d.objectId);assert.equal(d.originalFrom,2026);
+  assert.equal(o.reconstruction.from,d.firstYear);assert.equal(o.reconstruction.firstObserved,2026);assert.equal(o.reconstruction.previous.from,2026);
+  assert.ok(['b9','b10'].includes(d.batch))}
  for(const d of review.decisions)assert.ok(model.objects.get(d.objectId).reconstruction,d.objectId);
 });
 

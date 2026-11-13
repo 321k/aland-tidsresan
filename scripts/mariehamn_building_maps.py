@@ -61,7 +61,7 @@ def apply_building_maps(read, catalog):
     if not sheet_ids <= sources:
         raise ValueError('Missing building map source')
     to_metric = pixel_converters(read)
-    seen, prepared = set(), []
+    seen, prepared, created = set(), [], []
     for d in review['decisions']:
         o = objects.get(d['objectId'])
         if o is None or d['objectId'] in seen or fingerprint(o) != d['input'] or o.get('kind') != 'building' or not d['basis']:
@@ -70,10 +70,18 @@ def apply_building_maps(read, catalog):
             raise ValueError('Building has a curated review that decides its dates: ' + d['objectId'])
         seen.add(d['objectId'])
         states, periods = o['states'], o['geometryPeriods']
+        if d.get('createReconstruction'):
+            # A modern-only outline (externalModern) with one 2026 phase has no reconstruction yet; it gets one that
+            # starts at its first source, so the map evidence extends it like any other building.
+            if (o.get('reconstruction') or not o.get('externalModern') or o['sourceYears'] != [2026] or len(states) != 1
+                    or len(periods) != 1 or states[0]['from'] != 2026):
+                raise ValueError('Modern-only building cannot take a new reconstruction: ' + d['objectId'])
+            created.append(o)
         if (len(states) != 1 or states[0]['state'] != 'standing' or states[0]['from'] != d['originalFrom']
                 or periods[0]['from'] != d['originalFrom'] or periods[0]['geometryId'] != d['referenceGeometryId']
-                or not d['firstYear'] < d['originalFrom'] or not o.get('reconstruction')
-                or o['reconstruction']['from'] != d['originalFrom'] or o['reconstruction']['firstObserved'] != o['sourceYears'][0]):
+                or not d['firstYear'] < d['originalFrom'] or not (o.get('reconstruction') or d.get('createReconstruction'))
+                or (o.get('reconstruction') and (o['reconstruction']['from'] != d['originalFrom']
+                                                 or o['reconstruction']['firstObserved'] != o['sourceYears'][0]))):
             raise ValueError('Building crosses unreviewed phases: ' + d['objectId'])
         obs = d['observations']
         if [x['year'] for x in obs] != YEARS or any(x['sourceId'] != review['sheets'][str(x['year'])] for x in obs):
@@ -115,6 +123,10 @@ def apply_building_maps(read, catalog):
                 raise ValueError('Building overlaps a printed-map symbol object: ' + d['objectId'])
 
     # All checks passed. Change the catalogue.
+    for o in created:
+        s = o['states'][0]
+        o['reconstruction'] = dict(**{'from': s['from']}, firstObserved=o['sourceYears'][0], basis=s['note'], dateClaims={},
+                                   evidenceIds=list(s['evidenceIds']), createdByBuildingMapReview=True)
     source_id = review['source']['id']
     catalog['sources'].append(dict(review['source']))
     for o, d, _ in prepared:

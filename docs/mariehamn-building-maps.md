@@ -39,7 +39,6 @@ Sheet 101208's 1995 registration starts at about 19.917° E, so nothing further 
 | dated from 1995 | 75 | 4 | 13 | 14 | – | 17 | 5 | – | 9 | 26 | 163 |
 | **dated** | **361** | **95** | **119** | **112** | **0** | **43** | **18** | **4** | **69** | **106** | **927** |
 | rejected on the contact sheets (`visual-reject`) | 83 | 13 | 17 | 32 | 8 | 32 | 13 | 4 | 72 | 51 | 325 |
-| accepted on the contact sheets but modern-only (`external-modern`, no reconstruction) | – | – | – | – | – | – | – | – | 55 | 38 | 93 |
 | no symbol in any edition (`absent`) | 491 | 180 | 118 | 173 | 10 | 175 | 163 | 23 | 305 | 244 | 1882 |
 | earlier edition shows hatched or stippled drawing (`earlier-unclear`) | 85 | 16 | 14 | 26 | 2 | 12 | 9 | 2 | 35 | 58 | 259 |
 | symbol missing in a later edition (`inconsistent`) | 47 | 19 | 15 | 31 | 3 | 19 | 17 | 4 | 23 | 11 | 189 |
@@ -78,9 +77,11 @@ something at the outline or black lettering covers it, 6 matches on black letter
 letters on the 1968 sheet) and 5 on lines. Red lettering and plan figures were not treated as hiding a house: a dark house symbol
 stays visible under them.
 
-93 accepted houses were not dated: they are `externalModern` objects, outlines that exist only in the 2026 OSM extract
-outside the reconstructed city building set and have no reconstruction to extend. The compiler requires one, so
-they are deferred as `external-modern` until that model exists.
+93 accepted houses are `externalModern` objects: outlines that exist only in the 2026 OSM extract, outside the
+reconstructed city building set, with no reconstruction to extend. They were first deferred as `external-modern`;
+since 2026-11-13 the review marks them `createReconstruction`, and the compiler gives each (only if it has a single
+2026 phase and no reconstruction) a reconstruction starting at its first source, marked `createdByBuildingMapReview`,
+before extending it to the map year like any other building. 36 + 8 start in 1985, 17 + 30 in 1995 and 2 in 1968.
 
 ## Recheck r1: earlier drawings (2026-11-13)
 
@@ -172,7 +173,7 @@ overlaps a printed-map symbol object (more than 5 m², or containing its centre)
 their dates.
 
 Tests: `tests/mariehamn-building-maps.test.cjs`, `tests/test_mariehamn_building_maps.py`. The scope audit against
-the pre-review snapshot finds exactly the 1188 reviewed objects changed, one new source, and no geometry changes.
+the pre-review snapshot finds exactly the 1281 reviewed objects changed, one new source, and no geometry changes.
 Against the first b1 publication, the 83 withdrawn houses are byte-identical to the snapshot again, the 361 kept
 are unchanged and 214 are newly dated.
 
@@ -182,7 +183,6 @@ are unchanged and 214 are newly dated.
   hatching already includes them.
 - The 615 printed-symbol objects start at their 1985 symbol (mostly 1983). 125 of them outside the hatched blocks are
   now dated from the 1968 edition by a separate review (`docs/mariehamn-symbols-1968.md`).
-- The 93 `external-modern` Ytternäs houses that the maps show from 1968–1995: they need a reconstruction first.
 - Ytternäs south of Lervik (Dalen), the area north of b1 and east of Slemmern were not reviewed; whether they belong
   to Mariehamn was not checked against the town boundary.
 - The 79 remaining `earlier-unclear` and 108 `inconsistent` buildings, and the `visual-reject` ones, need a closer look (often hatched public

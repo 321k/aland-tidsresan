@@ -39184,6 +39184,220 @@
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
   },
   {
+   "objectId": "building:osm:way-165234955",
+   "input": "00a29d67b3fbf0937da393bcd55f7e124e08743787633e5e2ffce3fdbdfe0786",
+   "referenceGeometryId": "geometry:6d0b7a70526c736c503c",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 216.8,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3201.08,
+      4463.91
+     ],
+     "shiftMeters": [
+      -2.7,
+      -8.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2130.7,
+      4215.8
+     ],
+     "shiftMeters": [
+      -3.0,
+      -0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-165234977",
+   "input": "9aea76f6d9d88d89e30d06def995e6c7b1cc52839ba93c5e198fff6ae88759f7",
+   "referenceGeometryId": "geometry:258d9c823e1c4e51d924",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 439.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3173.57,
+      4411.35
+     ],
+     "shiftMeters": [
+      -2.3,
+      -7.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2105.28,
+      4161.64
+     ],
+     "shiftMeters": [
+      -3.1,
+      -0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-165234984",
+   "input": "ccfb3815fe872b910f3a8e3a8582680795c1db0b518799a93164a7d0e64520a3",
+   "referenceGeometryId": "geometry:6208ef402946873d0eff",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 438.8,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3136.26,
+      4415.55
+     ],
+     "shiftMeters": [
+      -0.7,
+      -8.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2066.37,
+      4165.63
+     ],
+     "shiftMeters": [
+      -3.6,
+      0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-165234991",
+   "input": "ca8014d1b2c5f41ebb13635168f510009235ed6a7bf5d3aa613b7e7d39017ddc",
+   "referenceGeometryId": "geometry:49bd6401e86773d27db7",
+   "originalFrom": 2026,
+   "firstYear": 1968,
+   "areaSquareMeters": 295.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1168.82,
+      4633.8
+     ],
+     "shiftMeters": [
+      5.8,
+      -7.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3187.89,
+      4506.55
+     ],
+     "shiftMeters": [
+      -1.8,
+      -7.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2116.16,
+      4255.26
+     ],
+     "shiftMeters": [
+      -2.6,
+      -0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
    "objectId": "building:osm:way-165235015",
    "input": "3d96921b58d73aa46c8569c97e146d4f438fe4fc132ef2de0308012f5932b39d",
    "referenceGeometryId": "geometry:1676de4167b01194d1d6",
@@ -39334,6 +39548,57 @@
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
   },
   {
+   "objectId": "building:osm:way-165235033",
+   "input": "4662ba1a73ca7a30b1ab09f1b727819464f5a559c2b2c061714216f895f226a7",
+   "referenceGeometryId": "geometry:61e3f28af706ebc84f52",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 360.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3180.26,
+      4460.76
+     ],
+     "shiftMeters": [
+      -1.7,
+      -7.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2109.53,
+      4211.61
+     ],
+     "shiftMeters": [
+      -3.0,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
    "objectId": "building:osm:way-165235050",
    "input": "6a066af5ea9ae4793f036b59e088bcb4d64c71cbcb07a4a8fd3ead5c6da53e61",
    "referenceGeometryId": "geometry:3162472193a73c89294a",
@@ -39432,6 +39697,57 @@
     }
    ],
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-165436740",
+   "input": "25b7bb5db956ea9e678a86713741cb85c530a36a536e541a4531f0b8e2ef03d7",
+   "referenceGeometryId": "geometry:c620aad608b215efa78d",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 238.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3146.55,
+      4460.87
+     ],
+     "shiftMeters": [
+      -0.9,
+      -7.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2077.08,
+      4211.46
+     ],
+     "shiftMeters": [
+      -2.9,
+      0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
   },
   {
    "objectId": "building:osm:way-167140746",
@@ -39772,6 +40088,47 @@
     }
    ],
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-345813390",
+   "input": "fda1c9756e79163038b3e14fad445c157d9a6810b6644ad1c857b76f4f082ef2",
+   "referenceGeometryId": "geometry:b193db7e71aff36128ad",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 176.5,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2310.0,
+      4381.94
+     ],
+     "shiftMeters": [
+      -4.5,
+      -1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
   },
   {
    "objectId": "building:osm:way-465897742",
@@ -40364,6 +40721,363 @@
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
   },
   {
+   "objectId": "building:osm:way-523341829",
+   "input": "f441a96074a4ce8cefdc98db3f9817da37d908ef89fa47a1d8692374c9f590bf",
+   "referenceGeometryId": "geometry:833ec9afd775efaadc68",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 180.2,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3196.12,
+      4423.19
+     ],
+     "shiftMeters": [
+      -2.2,
+      -8.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2129.29,
+      4172.36
+     ],
+     "shiftMeters": [
+      -3.1,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-523341832",
+   "input": "ce1dd6f2c28a5c639574c27051b22352cf681265fe35bcb27dff269017e35cf3",
+   "referenceGeometryId": "geometry:792648c0ef754becf28d",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 157.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3218.76,
+      4412.19
+     ],
+     "shiftMeters": [
+      -2.8,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2152.0,
+      4163.5
+     ],
+     "shiftMeters": [
+      -3.4,
+      -0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-523341833",
+   "input": "c957c4aeb89a7df034b3a0e9052653fb067dc72791861ac46c520c5b1dcf7044",
+   "referenceGeometryId": "geometry:5d56cf7ee5c1d14af79a",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 104.8,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3221.11,
+      4426.84
+     ],
+     "shiftMeters": [
+      -2.8,
+      -8.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2154.05,
+      4176.63
+     ],
+     "shiftMeters": [
+      -3.1,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-523341835",
+   "input": "a3b2844337de95f7f2795d98f9ff82b8cb47406b8625ec13d1bddadcd91d0f33",
+   "referenceGeometryId": "geometry:8f0a1bab846829381ed9",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 174.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3198.41,
+      4436.3
+     ],
+     "shiftMeters": [
+      -2.4,
+      -8.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2131.23,
+      4193.49
+     ],
+     "shiftMeters": [
+      -3.2,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 1.7,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-523341837",
+   "input": "afd2fc3dca5448bec3ddfebc6c0ea244918c0dbccbfb602cf7764c1c564e51fb",
+   "referenceGeometryId": "geometry:f2dac2cac4156564e00f",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 111.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3223.62,
+      4440.25
+     ],
+     "shiftMeters": [
+      -2.8,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2155.29,
+      4190.93
+     ],
+     "shiftMeters": [
+      -3.1,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-523341838",
+   "input": "ab3a376c8dcc51c519ecc94924ba1841ae737457ef1c3f94b9dba6f57c5bc95a",
+   "referenceGeometryId": "geometry:e8002317df5a3ec460af",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 179.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3224.54,
+      4453.41
+     ],
+     "shiftMeters": [
+      -2.4,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2156.22,
+      4204.75
+     ],
+     "shiftMeters": [
+      -3.0,
+      -0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-523341840",
+   "input": "8961a9cbd706b85ee945b1c935cc5071018755a37801b1196080276c8242eb76",
+   "referenceGeometryId": "geometry:b47c640a1f854c4c93e1",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 137.0,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3226.05,
+      4470.0
+     ],
+     "shiftMeters": [
+      -2.8,
+      -8.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2160.5,
+      4220.0
+     ],
+     "shiftMeters": [
+      -2.9,
+      -0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
    "objectId": "building:osm:way-523341849",
    "input": "45052889e84f40b8734d5732f77c2a9e5c988a41dbc3639c38f0cae078a9301b",
    "referenceGeometryId": "geometry:b3877e83a275a99290b3",
@@ -40522,6 +41236,292 @@
     }
    ],
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-523341860",
+   "input": "4d6f6264d67b3f71707f5cff9b1eba583eed6eeeecb7017f45523746e14b69a0",
+   "referenceGeometryId": "geometry:e157d6706ac3e34aa8dd",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 111.5,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3269.4,
+      4468.1
+     ],
+     "shiftMeters": [
+      -3.1,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.3,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2198.56,
+      4217.81
+     ],
+     "shiftMeters": [
+      -3.0,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-525991507",
+   "input": "52c8dab35896bb2a2ce8957f4b610e967c15251c502cffab6f368d69f565b14a",
+   "referenceGeometryId": "geometry:8c6fe50d3a1b455dd5bd",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 147.9,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3244.0,
+      4438.0
+     ],
+     "shiftMeters": [
+      -3.2,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2175.71,
+      4189.98
+     ],
+     "shiftMeters": [
+      -3.1,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-525991508",
+   "input": "6d616359522844f12f210263a027ff9686f7c48ee0b97e1dcb208b828dad03c5",
+   "referenceGeometryId": "geometry:2a0a3abf457d63af2e79",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 151.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3245.48,
+      4452.52
+     ],
+     "shiftMeters": [
+      -2.8,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2178.05,
+      4203.93
+     ],
+     "shiftMeters": [
+      -2.8,
+      -0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-525991509",
+   "input": "7d7f0ee95113e42ebd8d314210b12ec85cd403e95677fb10d6885a356429f02f",
+   "referenceGeometryId": "geometry:e5b673b1e4ab4ced83cc",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 167.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3246.65,
+      4468.08
+     ],
+     "shiftMeters": [
+      -2.8,
+      -8.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2180.45,
+      4218.03
+     ],
+     "shiftMeters": [
+      -2.8,
+      -1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-525991510",
+   "input": "b8c33d139f9c6b2b82927a7ab2fc9f28c2bb50c183d87bc6f230f6ec1912dc72",
+   "referenceGeometryId": "geometry:b59699c4e372fa185381",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 178.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2183.36,
+      4236.74
+     ],
+     "shiftMeters": [
+      -2.6,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-525991521",
+   "input": "333a41640cf879e24f4192e31f79c035af9a2c7327c3008963d79bd4a4c811e1",
+   "referenceGeometryId": "geometry:e30f7eba730a9a765cd1",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 238.4,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2213.64,
+      4308.69
+     ],
+     "shiftMeters": [
+      -1.2,
+      -1.0
+     ],
+     "distanceAfterShiftMeters": 0.5,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
   },
   {
    "objectId": "building:osm:way-530694513",
@@ -40714,6 +41714,47 @@
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
   },
   {
+   "objectId": "building:osm:way-550281093",
+   "input": "1fef843d821bf014e45153905613292918eb7121847151916124539f802017df",
+   "referenceGeometryId": "geometry:c93d6645bb35ab0e3942",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 135.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2337.8,
+      4407.31
+     ],
+     "shiftMeters": [
+      -4.5,
+      -1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
    "objectId": "building:osm:way-550281097",
    "input": "9df7a27a37948d6e7a3439ca38d81dac95faab799fef4b5f26ac9f5dbc4d2528",
    "referenceGeometryId": "geometry:c5f85675ca388aede361",
@@ -40772,6 +41813,67 @@
     }
    ],
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-550281126",
+   "input": "7db945b75848c7f83933bddbfff7b3a9513b2625a5be9078ea25fb78144c5cea",
+   "referenceGeometryId": "geometry:30a8f4a575b44c5ef7e9",
+   "originalFrom": 2026,
+   "firstYear": 1968,
+   "areaSquareMeters": 138.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1253.99,
+      4941.72
+     ],
+     "shiftMeters": [
+      -2.9,
+      -6.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3274.79,
+      4816.3
+     ],
+     "shiftMeters": [
+      3.7,
+      -10.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2199.85,
+      4565.96
+     ],
+     "shiftMeters": [
+      -3.9,
+      1.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
   },
   {
    "objectId": "building:osm:way-550670475",
@@ -41072,6 +42174,894 @@
     }
    ],
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-550670510",
+   "input": "c5236dd094d96070df01c17ca4123fabbf259fb177dc9d01b52451e589dd0cf5",
+   "referenceGeometryId": "geometry:b1a5b32db38fe8e6808d",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 130.4,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3527.55,
+      4451.38
+     ],
+     "shiftMeters": [
+      0.2,
+      -11.1
+     ],
+     "distanceAfterShiftMeters": 0.9,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2453.4,
+      4203.9
+     ],
+     "shiftMeters": [
+      -4.2,
+      0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670513",
+   "input": "6c930e616c9c53c09d872f2bd02b5ea6b0b525c5b3b68ef0ebb0aa2f95d92065",
+   "referenceGeometryId": "geometry:48cdb178f761cc86b5b2",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 206.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3512.5,
+      4455.16
+     ],
+     "shiftMeters": [
+      0.2,
+      -11.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2440.06,
+      4207.59
+     ],
+     "shiftMeters": [
+      -4.1,
+      0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670514",
+   "input": "f2b16187fc660b44a620422bbc953f969752fa2cca8724ace506de9b04d14033",
+   "referenceGeometryId": "geometry:a248facc561f7f995d6d",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 352.2,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3496.65,
+      4457.35
+     ],
+     "shiftMeters": [
+      -0.3,
+      -10.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2428.41,
+      4210.61
+     ],
+     "shiftMeters": [
+      -4.0,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670515",
+   "input": "82e76b46eb38ecfcd5cc5d3a868f15971b9c7af10bac35695650a9bd93ef7b9b",
+   "referenceGeometryId": "geometry:20fb5a1a98db4fced745",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 244.7,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3483.87,
+      4460.3
+     ],
+     "shiftMeters": [
+      0.2,
+      -11.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2413.09,
+      4211.28
+     ],
+     "shiftMeters": [
+      -4.1,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670520",
+   "input": "8a787a653af1e2e41bde33ba2bee426a92c798ffa168ba2f9cedd590bc52e19c",
+   "referenceGeometryId": "geometry:f88a6b72006808ac5f24",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 159.8,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2424.26,
+      4276.83
+     ],
+     "shiftMeters": [
+      -4.4,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670533",
+   "input": "09aac1d007f68f86feacdab5c1669a9eccdc2b1d4cb101e40753d4bcae892462",
+   "referenceGeometryId": "geometry:f2494ddbed09eb175042",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 251.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3527.77,
+      4467.06
+     ],
+     "shiftMeters": [
+      0.0,
+      -11.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2456.49,
+      4220.53
+     ],
+     "shiftMeters": [
+      -4.0,
+      0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670539",
+   "input": "a53c1d421697e0f8ebbe338abdc742b1f924a28a23dc32d66615f2c6b0e68426",
+   "referenceGeometryId": "geometry:fa6275cabbc9fe196e4d",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 226.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3500.4,
+      4474.04
+     ],
+     "shiftMeters": [
+      -1.1,
+      -10.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2428.99,
+      4226.15
+     ],
+     "shiftMeters": [
+      -4.1,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670543",
+   "input": "367f040c6bfe6324334c5aa597d29d7f684f7805bb1f18be2ceaf65839bcac17",
+   "referenceGeometryId": "geometry:7caa50c1efbc9db9e93e",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 179.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3485.12,
+      4479.46
+     ],
+     "shiftMeters": [
+      -1.1,
+      -10.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2415.06,
+      4230.19
+     ],
+     "shiftMeters": [
+      -4.2,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670545",
+   "input": "722acfe8bdeb76add9414731cd1c653a61b1018f6cceb0b734c8649ecec07240",
+   "referenceGeometryId": "geometry:2555e2cbc517de8d8cd7",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 240.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2418.9,
+      4252.99
+     ],
+     "shiftMeters": [
+      -4.2,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670548",
+   "input": "b622c00d4762b56fc41167dc177b6f0545c26d1b7d2227331de733619899c1e4",
+   "referenceGeometryId": "geometry:ab63b86e90807065b416",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 196.4,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2434.4,
+      4249.69
+     ],
+     "shiftMeters": [
+      -4.1,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670551",
+   "input": "967878551f014fe12ab067335a7c39621d780cdfc38e8b9a6827e951d2abe85b",
+   "referenceGeometryId": "geometry:928ada7ca7a70b892318",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 197.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3517.55,
+      4494.26
+     ],
+     "shiftMeters": [
+      -0.8,
+      -10.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2448.48,
+      4246.18
+     ],
+     "shiftMeters": [
+      -3.7,
+      0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550682258",
+   "input": "397ddcc2ee029651fbcff0111baff24b7d7760698e53642c587392c1cda7caed",
+   "referenceGeometryId": "geometry:20dbfdfab6937b4c16ec",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 183.5,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3447.09,
+      4508.45
+     ],
+     "shiftMeters": [
+      -0.0,
+      -11.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2378.73,
+      4261.17
+     ],
+     "shiftMeters": [
+      -4.4,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550682260",
+   "input": "352bb77e6ecccab5e3e5f3b6b703a5b2751b217e6f953870e74427f994ea8b18",
+   "referenceGeometryId": "geometry:2e03e9ee889628c70474",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 204.2,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3414.52,
+      4513.58
+     ],
+     "shiftMeters": [
+      -0.6,
+      -11.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2347.11,
+      4265.56
+     ],
+     "shiftMeters": [
+      -4.5,
+      0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550682261",
+   "input": "074300524515040832f6585282b027c7145533890adfab444ce6e7875ddb6612",
+   "referenceGeometryId": "geometry:4cf91a9d100899199b6d",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 173.2,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3443.03,
+      4485.31
+     ],
+     "shiftMeters": [
+      -0.0,
+      -11.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2375.06,
+      4236.61
+     ],
+     "shiftMeters": [
+      -4.4,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550682262",
+   "input": "933e7153be00e1847a40b3c820971d1a6faecf67706fcf2f9aff73606d265063",
+   "referenceGeometryId": "geometry:f697093e18cc632c7919",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 189.0,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3427.53,
+      4490.89
+     ],
+     "shiftMeters": [
+      0.0,
+      -11.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2358.42,
+      4244.56
+     ],
+     "shiftMeters": [
+      -4.5,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550682263",
+   "input": "0adb2057eab07c8d6b28ff052d9ee2ad391f10ab0cd65493d2563a26eacf700f",
+   "referenceGeometryId": "geometry:1344162c2178ef00b097",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 195.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3414.31,
+      4493.06
+     ],
+     "shiftMeters": [
+      -0.3,
+      -11.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2341.86,
+      4247.48
+     ],
+     "shiftMeters": [
+      -4.6,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550682269",
+   "input": "f2527ad0ff8c916f8dd561af1e9946516d128335c328d8c2f425ed2adb78f333",
+   "referenceGeometryId": "geometry:bae6b27d57e56ebd05dc",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 297.8,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3392.97,
+      4453.45
+     ],
+     "shiftMeters": [
+      -1.0,
+      -10.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2328.7,
+      4202.33
+     ],
+     "shiftMeters": [
+      -3.8,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550682270",
+   "input": "8a13a018a375f2bad9ceb84d5ac6c28cdd7fe03528393f2033586dd4f2c5a484",
+   "referenceGeometryId": "geometry:51b6ce6ad2f2ed3aac99",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 264.0,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3432.93,
+      4447.74
+     ],
+     "shiftMeters": [
+      -0.9,
+      -11.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2363.43,
+      4196.69
+     ],
+     "shiftMeters": [
+      -3.9,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
   },
   {
    "objectId": "building:osm:way-550682277",
@@ -41624,6 +43614,47 @@
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
   },
   {
+   "objectId": "building:osm:way-550696293",
+   "input": "72a455f80d2fb10fab4bc59113a9c4e44725b5527ede2c7c485629d5c8f5c929",
+   "referenceGeometryId": "geometry:b0ee6caab0fe0dc752b6",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 308.5,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2256.69,
+      4179.05
+     ],
+     "shiftMeters": [
+      -3.4,
+      0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
    "objectId": "building:osm:way-550696308",
    "input": "2c933943f6265fb5f18fed3e69139b20777c1b9c2525cb8a776d416cbdd5b445",
    "referenceGeometryId": "geometry:fd46ac868bad4aec7021",
@@ -42172,6 +44203,630 @@
     }
    ],
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-669978249",
+   "input": "bedb2d8a96c7833df87693c490448512c15612d59e26f5d21049dbca3dc2b68b",
+   "referenceGeometryId": "geometry:54d6bfb229e038fd48b2",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 252.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3242.55,
+      4564.94
+     ],
+     "shiftMeters": [
+      -2.6,
+      -6.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2173.58,
+      4315.75
+     ],
+     "shiftMeters": [
+      -1.9,
+      -0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978255",
+   "input": "2a103369b2f339481f248f7c990cc3edcf7306828b66bcf484405802947d6f67",
+   "referenceGeometryId": "geometry:39f19f52f2b8eed8f909",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 151.2,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2126.67,
+      4367.92
+     ],
+     "shiftMeters": [
+      -1.6,
+      0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978257",
+   "input": "a0fd58882faf2895d3dabb38f828fc867481bfbfc166187d11fbea5e3fd9132b",
+   "referenceGeometryId": "geometry:b997d8de0d1458937d47",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 146.5,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2123.84,
+      4355.04
+     ],
+     "shiftMeters": [
+      -1.7,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978258",
+   "input": "4a70d00a4684b7f6dbe2cd1d1e4c45275981a8e832d810310cb337b9900272f0",
+   "referenceGeometryId": "geometry:21650be84de0ec9f0f68",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 258.0,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3221.76,
+      4549.86
+     ],
+     "shiftMeters": [
+      -2.5,
+      -4.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2151.24,
+      4300.89
+     ],
+     "shiftMeters": [
+      -2.0,
+      -0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978259",
+   "input": "39c6e7adb59e130a85cb877f8887d365c923f51288632f3ae9fda8032e614c72",
+   "referenceGeometryId": "geometry:7d5469e83efe69d104ef",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 178.5,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3229.79,
+      4583.15
+     ],
+     "shiftMeters": [
+      -2.6,
+      -6.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2160.44,
+      4340.19
+     ],
+     "shiftMeters": [
+      -1.7,
+      -0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978269",
+   "input": "fc69f8b8e505802a1f1adb43d16915267eb5128cf0cd5589f1ff724f2cbb623b",
+   "referenceGeometryId": "geometry:be7ace47ef722b4d42f3",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 233.7,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3245.55,
+      4577.33
+     ],
+     "shiftMeters": [
+      -2.5,
+      -4.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2180.0,
+      4334.67
+     ],
+     "shiftMeters": [
+      -1.7,
+      -0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978270",
+   "input": "a184d72712e84b6544defc920c19a6df1672130b8542aa08b28a0299bddd09e9",
+   "referenceGeometryId": "geometry:9d5b84f341cc72cc7363",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 203.7,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3225.62,
+      4567.98
+     ],
+     "shiftMeters": [
+      -2.3,
+      -7.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2156.52,
+      4322.07
+     ],
+     "shiftMeters": [
+      -1.7,
+      -0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978271",
+   "input": "eef91e04e507f9fe8c58b34b64d16d91b2e49a08ed8525ffa7e7d7899c340759",
+   "referenceGeometryId": "geometry:23b4a6543b8b095c23ba",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 198.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2128.29,
+      4294.84
+     ],
+     "shiftMeters": [
+      -2.1,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978272",
+   "input": "ab57720aad8d74d28cd4166760af56afba7ad673fdc7c645b7d26c03234145e3",
+   "referenceGeometryId": "geometry:92fa7805fff17b03dc9f",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 214.9,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2130.84,
+      4313.3
+     ],
+     "shiftMeters": [
+      -1.7,
+      -0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978274",
+   "input": "04749cb326540aa765f55b66461fc551905ead954b73cc7d401c652ecf9e8912",
+   "referenceGeometryId": "geometry:d52146244eed130abd06",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 217.5,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2122.85,
+      4324.96
+     ],
+     "shiftMeters": [
+      -1.7,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978276",
+   "input": "fba7e0199bace7d1ce8b87a5922b84f512b3180d3fa4b16022bf427eef8e8f77",
+   "referenceGeometryId": "geometry:222e887dfba572e322dd",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 170.1,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2139.9,
+      4330.71
+     ],
+     "shiftMeters": [
+      -1.7,
+      -0.4
+     ],
+     "distanceAfterShiftMeters": 2.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978279",
+   "input": "038aa49fac26aea929fd146666dacb3cd9e8510a1f8cb190fd9128b60892fcd4",
+   "referenceGeometryId": "geometry:7be05560ab67c3a1ed60",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 314.6,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2104.32,
+      4336.37
+     ],
+     "shiftMeters": [
+      -1.7,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978280",
+   "input": "7b3bc2eac70650b0ddfd99bfa57e4f667c380fe93caa63aef7ad5f424e5489e4",
+   "referenceGeometryId": "geometry:b2cbb2620ed91cdf3110",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 202.4,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2106.6,
+      4302.68
+     ],
+     "shiftMeters": [
+      -2.1,
+      0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-669978281",
+   "input": "ce4ff0d26b675df941cdf4ba4e6b250d50ebc66c4995903901ffa47f10f04d28",
+   "referenceGeometryId": "geometry:3bee5b6d3bc3bfd63039",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 299.4,
+   "batch": "b9",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2104.09,
+      4320.69
+     ],
+     "shiftMeters": [
+      -1.9,
+      -0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
   },
   {
    "objectId": "building:osm:way-525919683",
@@ -45714,6 +48369,1236 @@
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
   },
   {
+   "objectId": "building:osm:way-549432972",
+   "input": "fa1ab3a6667a449d8769693d42b0b423fbeb175c64063a56667a5cd4bb29f504",
+   "referenceGeometryId": "geometry:46c243630aeeb606f602",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 268.5,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2773.59,
+      4265.71
+     ],
+     "shiftMeters": [
+      -3.6,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432974",
+   "input": "2203ef35632d4bc212e4ba328b28c2ec3ac960e8896ba168040f5c13254dc5c4",
+   "referenceGeometryId": "geometry:60619e77d01e0f086884",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 282.8,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2773.32,
+      4282.86
+     ],
+     "shiftMeters": [
+      -3.6,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432981",
+   "input": "ac5d364684a681bada659d60ba75a2b484376e9506ee19884c3b6a95957b4b1e",
+   "referenceGeometryId": "geometry:c4b87121fb0a003f9e7b",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 382.7,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2750.53,
+      4279.01
+     ],
+     "shiftMeters": [
+      -3.7,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432982",
+   "input": "c85dc0e080f563241afbe702363e10dd37e9c37a52011d9777fa57a52488cf50",
+   "referenceGeometryId": "geometry:0e41b21b99799540d472",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 441.9,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2727.29,
+      4276.89
+     ],
+     "shiftMeters": [
+      -3.6,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432983",
+   "input": "aa3e9219551abfb457a953cc07640ab0d6b25e74412418d6ea7d1b1159bdac6f",
+   "referenceGeometryId": "geometry:266c0bbc7d7fe5249c6d",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 480.3,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2698.68,
+      4280.35
+     ],
+     "shiftMeters": [
+      -3.6,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432984",
+   "input": "c457f3b83f99902905abd2523979edbce44c27a22165ef2310d22c76c64e8e80",
+   "referenceGeometryId": "geometry:4baf34d471ae3c28a5cf",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 615.2,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2670.15,
+      4274.3
+     ],
+     "shiftMeters": [
+      -3.5,
+      -0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432985",
+   "input": "2ed26d339284285f5a373ce1771f2cd275a429e70468676c62850904d701ae71",
+   "referenceGeometryId": "geometry:6151953e0bd7a7303aae",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 300.4,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2776.72,
+      4246.18
+     ],
+     "shiftMeters": [
+      -3.7,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432986",
+   "input": "43d80d04f9c2004623ff6d17fab5af43575b344174916163ec7d81b0af509029",
+   "referenceGeometryId": "geometry:52db67a02c677989adc1",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 157.3,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2755.89,
+      4251.23
+     ],
+     "shiftMeters": [
+      -3.6,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432987",
+   "input": "365616a73be8b802c99f9927506f9a4ab556f982b0ad47dae7d4425157aedaba",
+   "referenceGeometryId": "geometry:b6b9f907518955000d6d",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 223.9,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2734.62,
+      4245.8
+     ],
+     "shiftMeters": [
+      -3.6,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432988",
+   "input": "40e04e23c872394bf5337d254fe33430da9fe6172b905e3136dafa4d74146d13",
+   "referenceGeometryId": "geometry:ced5a42aaf4879f7ede2",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 247.6,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2717.53,
+      4233.88
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432989",
+   "input": "184f5d8c0bacedf84578df7bb7baee5316a12e95dddcf91520c10907e7cd28fa",
+   "referenceGeometryId": "geometry:484bfbdb2299efc1d704",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 217.0,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2716.92,
+      4246.69
+     ],
+     "shiftMeters": [
+      -3.6,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432990",
+   "input": "ef8ea915368ac04e830baedd4ebfed4209ecc8dc0526ac778e8733056db2c3ea",
+   "referenceGeometryId": "geometry:820647bee826baa3e7f3",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 144.0,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2693.8,
+      4244.66
+     ],
+     "shiftMeters": [
+      -3.5,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432992",
+   "input": "77ef9d8638186c783dc548568c61d26ca395fed3fc1d02471ec58670b82d57b6",
+   "referenceGeometryId": "geometry:adb4ec3c235c955a5794",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 232.9,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2700.39,
+      4230.1
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432994",
+   "input": "485c31f362e2605ce868c5103878bd9a8c03f2d80981f57f8e6a3d5daa935e68",
+   "referenceGeometryId": "geometry:bdfc4d2871a64dc456f2",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 111.2,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2680.14,
+      4240.71
+     ],
+     "shiftMeters": [
+      -3.5,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549432996",
+   "input": "dc0847d14569ea6867e33b96ce8f84104d07a0ab93ed1e430a2bd9898689899c",
+   "referenceGeometryId": "geometry:1746f909855a8deb2fd6",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 102.2,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2680.94,
+      4228.87
+     ],
+     "shiftMeters": [
+      -3.5,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433000",
+   "input": "b019bcbbc36afe64eab88bc67c83b8639bd19a81ddb9eddae2418cebd599a558",
+   "referenceGeometryId": "geometry:7f085d306c3d0e82ec66",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 120.2,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2687.75,
+      4203.56
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433002",
+   "input": "6423ff2da7b62c0a55504803b91ab485410b1546c6ea30d390b63ab04490c3c7",
+   "referenceGeometryId": "geometry:23c82cde0db55cc240bd",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 118.4,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2692.77,
+      4192.04
+     ],
+     "shiftMeters": [
+      -3.5,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433005",
+   "input": "f61762a4483597e6f7e7b08b7aa3163819575b7996faed6bae412c82be8b1efc",
+   "referenceGeometryId": "geometry:1e1570d1bc98433c80ea",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 132.3,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2704.13,
+      4213.38
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433006",
+   "input": "4961e409bcdf833ced18ca779cf49c2a8fc81df0997fb96e88f8f99ddc78420d",
+   "referenceGeometryId": "geometry:1378dd5c25dfc7a6afc0",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 202.7,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2721.64,
+      4218.87
+     ],
+     "shiftMeters": [
+      -3.6,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433007",
+   "input": "d77ab40090c256ca15a28f7c27326608daae8f90ad1f0a518d47e9c97f51bc89",
+   "referenceGeometryId": "geometry:68c624719beed4986dfb",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 194.7,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2757.58,
+      4235.67
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433008",
+   "input": "d36618521d5ff50f7f3b7a815e9a4c321f5354df2933a02ea0db0439f2068c85",
+   "referenceGeometryId": "geometry:ee3e3d415d8e2b9db3a9",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 227.9,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2737.25,
+      4230.19
+     ],
+     "shiftMeters": [
+      -3.6,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433009",
+   "input": "15d054e647c768ca50f0a778c9647320589b7de2e1b7e6ec1b9f31048e73fef8",
+   "referenceGeometryId": "geometry:a1a16c4ecadde55428d5",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 250.4,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2710.49,
+      4196.01
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433010",
+   "input": "387d8c3af1f0b34ef0cec74875ed5b9e1f521fcdc491c8745650adde8e880524",
+   "referenceGeometryId": "geometry:ef7dfd2bfb298947646b",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 237.5,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2726.71,
+      4204.9
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433011",
+   "input": "9ef9f8b3cd611b82efb04d458a23be2fcc5a296f53b7c942dddbdc0a67adfc7b",
+   "referenceGeometryId": "geometry:0cf2254959087f089aeb",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 203.7,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2743.5,
+      4212.08
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433012",
+   "input": "8701a32d7f7ff1f41509ff424e20f2489f7602426d086addf914e430a331f65d",
+   "referenceGeometryId": "geometry:10a8c39eb687184c9924",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 216.5,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2762.5,
+      4221.06
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433013",
+   "input": "1bfce8a8c445db022c9340d125c300e6555fe715ddc21ee8724579b503a4b744",
+   "referenceGeometryId": "geometry:131f4c76c4cb759185b1",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 206.3,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2794.65,
+      4200.8
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433014",
+   "input": "dd63a09c092fd7330af752ea49ed97fc104d1faab775c7af79e16cf58d3a1b00",
+   "referenceGeometryId": "geometry:2b6d7145274bc4cc5f1a",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 175.7,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2779.27,
+      4230.13
+     ],
+     "shiftMeters": [
+      -3.7,
+      1.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433015",
+   "input": "f0f0363942e2b9e552b5c4e8d637120b9f2e175aa846ac9c6746de7e8c76f6b0",
+   "referenceGeometryId": "geometry:6cf750cbf0063075facf",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 336.4,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2787.24,
+      4213.0
+     ],
+     "shiftMeters": [
+      -3.6,
+      1.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433016",
+   "input": "6fd20eaccb25e576d73c80e72b452d4cc60eb7c4b48172a0fe7f40eef2373510",
+   "referenceGeometryId": "geometry:036edfb02644d6cf169b",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 264.1,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2800.35,
+      4185.36
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-549433022",
+   "input": "038d86703f03c7e2633420cd59b6d9060724c1de97cb8182eb9b217d27c8155c",
+   "referenceGeometryId": "geometry:81bd8a05aeea259d6134",
+   "originalFrom": 2026,
+   "firstYear": 1995,
+   "areaSquareMeters": 536.6,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2770.79,
+      4192.28
+     ],
+     "shiftMeters": [
+      -3.5,
+      1.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
    "objectId": "building:osm:way-549433023",
    "input": "3cbb894856c7828e4de5d3f5564657b1775a24c7ef9c2c143db370b366b0b014",
    "referenceGeometryId": "geometry:df104f57bdb1db466c85",
@@ -46622,6 +50507,414 @@
     }
    ],
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-550670502",
+   "input": "20af5edc322f6ffab2b732df32befaf9ec4e07298f4da3e25d087d045ee2ea81",
+   "referenceGeometryId": "geometry:e71a6b745d064d684b94",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 245.1,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3565.53,
+      4421.1
+     ],
+     "shiftMeters": [
+      0.7,
+      -10.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2499.18,
+      4173.43
+     ],
+     "shiftMeters": [
+      -4.1,
+      0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670516",
+   "input": "e4fb31806d5f406f8f99d55439a62b2ae0fbda17c7117d1cbaa3e9d829abdb13",
+   "referenceGeometryId": "geometry:7c42bc811b6137cbce55",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 146.6,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3577.5,
+      4442.0
+     ],
+     "shiftMeters": [
+      0.3,
+      -9.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2503.51,
+      4194.51
+     ],
+     "shiftMeters": [
+      -3.9,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670518",
+   "input": "3662e8c32ad8971cb43ab11795dc94e14fec923fda484fa2468c93cf77fe69f0",
+   "referenceGeometryId": "geometry:fe9449fca2aa268337fd",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 211.8,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3543.36,
+      4449.29
+     ],
+     "shiftMeters": [
+      0.3,
+      -9.2
+     ],
+     "distanceAfterShiftMeters": 0.7,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2472.5,
+      4200.86
+     ],
+     "shiftMeters": [
+      -3.9,
+      -0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670524",
+   "input": "afb9793fdaa1483d147c51727bf1a74e46793d42be42a2670b86769b59c08fb8",
+   "referenceGeometryId": "geometry:45cd5dfaeeb79aa569d9",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 99.8,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3552.6,
+      4488.4
+     ],
+     "shiftMeters": [
+      0.1,
+      -9.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2481.44,
+      4240.49
+     ],
+     "shiftMeters": [
+      -4.1,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670525",
+   "input": "dd99d4bc4c94f73c394319cf10c21083600c81123b4feba1e20db5eb2429f194",
+   "referenceGeometryId": "geometry:5abb21e1e5e27ef459ab",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 158.6,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3569.89,
+      4486.32
+     ],
+     "shiftMeters": [
+      0.1,
+      -9.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2495.4,
+      4238.76
+     ],
+     "shiftMeters": [
+      -4.1,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670529",
+   "input": "abb8099af7172af32717340e938273036848689c30f0fabce2781803213c1dac",
+   "referenceGeometryId": "geometry:f8e4506dbde077c24955",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 171.8,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3563.17,
+      4459.92
+     ],
+     "shiftMeters": [
+      0.2,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2491.34,
+      4215.72
+     ],
+     "shiftMeters": [
+      -3.9,
+      -0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670531",
+   "input": "d85d605ab276fc4fa069470889380d011a2b428e1a6100da9727ccdb649f323f",
+   "referenceGeometryId": "geometry:52557711399a32f27be4",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 206.8,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3547.6,
+      4462.4
+     ],
+     "shiftMeters": [
+      0.2,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2477.72,
+      4216.93
+     ],
+     "shiftMeters": [
+      -3.9,
+      -0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
+  },
+  {
+   "objectId": "building:osm:way-550670557",
+   "input": "5feb73d7418ca300e4c2748109faecb669b262e75c04d926281f0d0e3001339a",
+   "referenceGeometryId": "geometry:e91c4367afcfe8db643c",
+   "originalFrom": 2026,
+   "firstYear": 1985,
+   "areaSquareMeters": 164.4,
+   "batch": "b10",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3556.5,
+      4506.97
+     ],
+     "shiftMeters": [
+      0.2,
+      -10.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2485.38,
+      4260.75
+     ],
+     "shiftMeters": [
+      -3.9,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda.",
+   "createReconstruction": true
   },
   {
    "objectId": "building:osm:way-584420075",
@@ -64388,101 +68681,6 @@
    "building:osm:way-717185704",
    "building:osm:way-777213894"
   ],
-  "external-modern": [
-   "building:osm:way-165234955",
-   "building:osm:way-165234977",
-   "building:osm:way-165234984",
-   "building:osm:way-165234991",
-   "building:osm:way-165235033",
-   "building:osm:way-165436740",
-   "building:osm:way-345813390",
-   "building:osm:way-523341829",
-   "building:osm:way-523341832",
-   "building:osm:way-523341833",
-   "building:osm:way-523341835",
-   "building:osm:way-523341837",
-   "building:osm:way-523341838",
-   "building:osm:way-523341840",
-   "building:osm:way-523341860",
-   "building:osm:way-525991507",
-   "building:osm:way-525991508",
-   "building:osm:way-525991509",
-   "building:osm:way-525991510",
-   "building:osm:way-525991521",
-   "building:osm:way-549432972",
-   "building:osm:way-549432974",
-   "building:osm:way-549432981",
-   "building:osm:way-549432982",
-   "building:osm:way-549432983",
-   "building:osm:way-549432984",
-   "building:osm:way-549432985",
-   "building:osm:way-549432986",
-   "building:osm:way-549432987",
-   "building:osm:way-549432988",
-   "building:osm:way-549432989",
-   "building:osm:way-549432990",
-   "building:osm:way-549432992",
-   "building:osm:way-549432994",
-   "building:osm:way-549432996",
-   "building:osm:way-549433000",
-   "building:osm:way-549433002",
-   "building:osm:way-549433005",
-   "building:osm:way-549433006",
-   "building:osm:way-549433007",
-   "building:osm:way-549433008",
-   "building:osm:way-549433009",
-   "building:osm:way-549433010",
-   "building:osm:way-549433011",
-   "building:osm:way-549433012",
-   "building:osm:way-549433013",
-   "building:osm:way-549433014",
-   "building:osm:way-549433015",
-   "building:osm:way-549433016",
-   "building:osm:way-549433022",
-   "building:osm:way-550281093",
-   "building:osm:way-550281126",
-   "building:osm:way-550670502",
-   "building:osm:way-550670510",
-   "building:osm:way-550670513",
-   "building:osm:way-550670514",
-   "building:osm:way-550670515",
-   "building:osm:way-550670516",
-   "building:osm:way-550670518",
-   "building:osm:way-550670520",
-   "building:osm:way-550670524",
-   "building:osm:way-550670525",
-   "building:osm:way-550670529",
-   "building:osm:way-550670531",
-   "building:osm:way-550670533",
-   "building:osm:way-550670539",
-   "building:osm:way-550670543",
-   "building:osm:way-550670545",
-   "building:osm:way-550670548",
-   "building:osm:way-550670551",
-   "building:osm:way-550670557",
-   "building:osm:way-550682258",
-   "building:osm:way-550682260",
-   "building:osm:way-550682261",
-   "building:osm:way-550682262",
-   "building:osm:way-550682263",
-   "building:osm:way-550682269",
-   "building:osm:way-550682270",
-   "building:osm:way-550696293",
-   "building:osm:way-669978249",
-   "building:osm:way-669978255",
-   "building:osm:way-669978257",
-   "building:osm:way-669978258",
-   "building:osm:way-669978259",
-   "building:osm:way-669978269",
-   "building:osm:way-669978270",
-   "building:osm:way-669978271",
-   "building:osm:way-669978272",
-   "building:osm:way-669978274",
-   "building:osm:way-669978276",
-   "building:osm:way-669978279",
-   "building:osm:way-669978280",
-   "building:osm:way-669978281"
-  ],
   "inconsistent": [
    "building:osm:way-1003896692",
    "building:osm:way-1006083009",
@@ -68061,18 +72259,17 @@
   }
  ],
  "totals": {
-  "buildings": 1188,
+  "buildings": 1281,
   "byFirstYear": {
-   "1968": 401,
-   "1985": 548,
-   "1995": 239
+   "1968": 403,
+   "1985": 592,
+   "1995": 286
   },
   "deferred": {
    "absent": 1882,
    "already-dated": 877,
    "curated-review": 2,
    "earlier-unclear": 79,
-   "external-modern": 93,
    "inconsistent": 108,
    "outline-changed": 1,
    "visual-reject": 325
