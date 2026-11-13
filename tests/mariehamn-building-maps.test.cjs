@@ -8,8 +8,8 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),sheets=review.sheets;
 
 test('the review is complete, sourced and keeps 1978 out of the building evidence',()=>{
- assert.equal(review.decisions.length,1107);assert.deepEqual(review.totals.byFirstYear,{1968:360,1985:508,1995:239});
- assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','r1'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:69,b10:106,r1:180});
+ assert.equal(review.decisions.length,1188);assert.deepEqual(review.totals.byFirstYear,{1968:401,1985:548,1995:239});
+ assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','r1','r2'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:69,b10:106,r1:180,r2:81});
  for(const y of ['1968','1985','1995'])assert.ok(catalog.sources.some(s=>s.id===sheets[y]),y);
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  assert.match(review.rules.roadRevision1978,/inte som eget byggnadsbelägg/);
@@ -100,4 +100,12 @@ test('the r1 recheck dates earlier-unclear buildings only where the earlier draw
   else assert.equal(d.firstYear,+d.recheck.code.slice(1));
   for(const x of d.observations.filter(x=>x.visualReview)){const e=o.evidence.find(e=>e.id===`${d.objectId}:map-101208-${x.year}`);assert.equal(e.visualReview,true);assert.ok(x.year>=d.firstYear)}}
  assert.equal(review.deferred['earlier-unclear'].length,79);
+});
+
+test('the r2 recheck dates inconsistent buildings only where every later edition draws the same building',()=>{
+ const r2=review.decisions.filter(d=>d.batch==='r2');assert.equal(r2.length,81);
+ const codes={};for(const d of r2)codes[d.recheck.code]=(codes[d.recheck.code]||0)+1;assert.deepEqual(codes,{E1968:41,E1985:40});
+ for(const d of r2){assert.equal(d.recheck.verdict,'inconsistent');assert.equal(d.firstYear,+d.recheck.code.slice(1));
+  for(const x of d.observations)if(x.year>=d.firstYear)assert.equal(x.outcome,'present',d.objectId)}
+ assert.equal(review.deferred.inconsistent.length,108);
 });

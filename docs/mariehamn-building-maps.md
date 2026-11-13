@@ -102,6 +102,24 @@ An earlier 1968 edition whose surroundings are block-hatched (stripe density abo
 recorded as `unclear` with `reason: hatched-block`, not `absent`: the house may be inside the hatching. The compiler
 accepts `unclear` before the start only for that case. 180 buildings are dated in batch `r1`; 1107 in all.
 
+## Recheck r2: symbols missing in a later edition (2026-11-13)
+
+The 171 `inconsistent` buildings of b1–b10 that still exist, are not modern-only and have no curated review (a symbol
+in one edition, none matched in a later one) were drawn in all three editions (`recheck-inconsistent-NN.jpg`) and
+judged by eye (`recheck-inconsistent-decisions.json`):
+
+| decision | buildings |
+|---|---|
+| **E1968**: 1968 and every later edition draw the same building | 41 |
+| **E1985**: 1985 and 1995 draw it | 40 |
+| deferred: a later edition lacks it or shows another building, a 1968 hatched block, quays, unclear | 89 |
+| deferred: the building overlaps a printed-map symbol object (`recheck-inconsistent-symbol-overlaps.json`) | 1 |
+
+The later symbol was usually there but missed by the detector, set aside by the size rule, or drawn hatched or
+hollow (1995 draws many public buildings hatched); such editions are recorded as `visualReview` like r1. 81 buildings
+are dated in batch `r2`; 1188 in all. Each r1/r2 decision records `recheck.verdict` (`earlier-unclear` or
+`inconsistent`).
+
 ## Method
 
 1. Dark filled house symbols were detected on the four scans (`data/map-scan-cache/101208_{1968,1978,1985,1995}.jpg`,
@@ -154,7 +172,7 @@ overlaps a printed-map symbol object (more than 5 m², or containing its centre)
 their dates.
 
 Tests: `tests/mariehamn-building-maps.test.cjs`, `tests/test_mariehamn_building_maps.py`. The scope audit against
-the pre-review snapshot finds exactly the 1107 reviewed objects changed, one new source, and no geometry changes.
+the pre-review snapshot finds exactly the 1188 reviewed objects changed, one new source, and no geometry changes.
 Against the first b1 publication, the 83 withdrawn houses are byte-identical to the snapshot again, the 361 kept
 are unchanged and 214 are newly dated.
 
@@ -167,5 +185,5 @@ are unchanged and 214 are newly dated.
 - The 93 `external-modern` Ytternäs houses that the maps show from 1968–1995: they need a reconstruction first.
 - Ytternäs south of Lervik (Dalen), the area north of b1 and east of Slemmern were not reviewed; whether they belong
   to Mariehamn was not checked against the town boundary.
-- The 79 remaining `earlier-unclear` and the 189 `inconsistent` buildings, and the `visual-reject` ones, need a closer look (often hatched public
+- The 79 remaining `earlier-unclear` and 108 `inconsistent` buildings, and the `visual-reject` ones, need a closer look (often hatched public
   buildings, replaced houses, houses under map lettering, or a local registration offset).
