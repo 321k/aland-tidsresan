@@ -1,0 +1,7 @@
+{
+ "snapshotSha256": "6465a59bedc796a0a9bba260a20bf8041bc834bd73d9f1f34ed4834b168adea0",
+ "catalogueSha256": "d8b4bc484048d3764191bf7e996ca88a061cd961ff71ecc3f341a7c8886fe008",
+ "vsPreviousPublication": {"objectIdsUnchanged": true, "changedObjects": 160, "changedEqualsDecisions": true,
+                           "geometriesUnchanged": true, "cityStagesUnchanged": true, "addedSources": ["review:mariehamn-building-photos"]},
+ "modelCheck": "every decision resolves to nothing the year before its first photo and to a standing building in that year"
+}

@@ -42,7 +42,11 @@ class BuildingMapTests(unittest.TestCase):
         apply_symbols_1968(self.read, frame)
         # And the museum duplicate review merges or ends museum-map houses.
         apply_museum_duplicates(self.read, frame)
-        self.assertEqual(json.loads(json.dumps(frame, ensure_ascii=False))['objects'], self.built['objects'])
+        # The photo review (the last build step) dates buildings with no map symbol; compare everything else exactly.
+        later = {o['id'] for o in self.built['objects'] if o.get('buildingPhotoReview')}
+        self.assertEqual(len(later), 160)
+        self.assertEqual([o for o in json.loads(json.dumps(frame, ensure_ascii=False))['objects'] if o['id'] not in later],
+                         [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):
             apply_building_maps(self.read, catalog)
 

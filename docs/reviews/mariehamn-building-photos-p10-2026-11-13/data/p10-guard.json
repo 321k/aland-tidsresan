@@ -1,0 +1,506 @@
+{
+"8": {
+"objectId": "building:osm:way-165235070",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.082,
+"deferred": false
+},
+"11": {
+"objectId": "building:osm:way-549198648",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.259,
+"deferred": false
+},
+"13": {
+"objectId": "building:osm:way-549198656",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.111,
+"deferred": false
+},
+"15": {
+"objectId": "building:osm:way-549198670",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"16": {
+"objectId": "building:osm:way-549198671",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"17": {
+"objectId": "building:osm:way-549198672",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.125,
+"deferred": false
+},
+"18": {
+"objectId": "building:osm:way-549198673",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.024,
+"deferred": false
+},
+"19": {
+"objectId": "building:osm:way-549198674",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"20": {
+"objectId": "building:osm:way-549198677",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.627,
+"deferred": true
+},
+"23": {
+"objectId": "building:osm:way-549198680",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"27": {
+"objectId": "building:osm:way-549221880",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.021,
+"deferred": false
+},
+"28": {
+"objectId": "building:osm:way-549221882",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"31": {
+"objectId": "building:osm:way-549221897",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"33": {
+"objectId": "building:osm:way-549221899",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"34": {
+"objectId": "building:osm:way-549221900",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"35": {
+"objectId": "building:osm:way-549221901",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"36": {
+"objectId": "building:osm:way-549221902",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"37": {
+"objectId": "building:osm:way-549221903",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"38": {
+"objectId": "building:osm:way-549221904",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"39": {
+"objectId": "building:osm:way-549221905",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"40": {
+"objectId": "building:osm:way-549221908",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.417,
+"deferred": true
+},
+"41": {
+"objectId": "building:osm:way-549221909",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.15,
+"deferred": false
+},
+"42": {
+"objectId": "building:osm:way-549221910",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"43": {
+"objectId": "building:osm:way-549221911",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.619,
+"deferred": true
+},
+"44": {
+"objectId": "building:osm:way-549221912",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"45": {
+"objectId": "building:osm:way-549221913",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"50": {
+"objectId": "building:osm:way-549221973",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.747,
+"deferred": true
+},
+"51": {
+"objectId": "building:osm:way-549221982",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.466,
+"deferred": true
+},
+"52": {
+"objectId": "building:osm:way-549221983",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.534,
+"deferred": true
+},
+"53": {
+"objectId": "building:osm:way-549221985",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.356,
+"deferred": true
+},
+"54": {
+"objectId": "building:osm:way-549221986",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.471,
+"deferred": true
+},
+"55": {
+"objectId": "building:osm:way-549221988",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.433,
+"deferred": true
+},
+"57": {
+"objectId": "building:osm:way-549432975",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"58": {
+"objectId": "building:osm:way-549432976",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"59": {
+"objectId": "building:osm:way-549432977",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"63": {
+"objectId": "building:osm:way-549432991",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"64": {
+"objectId": "building:osm:way-549432993",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"67": {
+"objectId": "building:osm:way-549432998",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"68": {
+"objectId": "building:osm:way-549432999",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"71": {
+"objectId": "building:osm:way-549433017",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"72": {
+"objectId": "building:osm:way-549433018",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"73": {
+"objectId": "building:osm:way-549433019",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"75": {
+"objectId": "building:osm:way-549433027",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"76": {
+"objectId": "building:osm:way-549433028",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"77": {
+"objectId": "building:osm:way-549433031",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"78": {
+"objectId": "building:osm:way-549433033",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"145": {
+"objectId": "building:osm:way-549580871",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.148,
+"deferred": false
+},
+"148": {
+"objectId": "building:osm:way-549580876",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"149": {
+"objectId": "building:osm:way-549580879",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.182,
+"deferred": false
+},
+"150": {
+"objectId": "building:osm:way-549580881",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"159": {
+"objectId": "building:osm:way-549580896",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.148,
+"deferred": false
+},
+"163": {
+"objectId": "building:osm:way-549580900",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.261,
+"deferred": false
+},
+"164": {
+"objectId": "building:osm:way-549580901",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.079,
+"deferred": false
+},
+"169": {
+"objectId": "building:osm:way-549580906",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.136,
+"deferred": false
+},
+"196": {
+"objectId": "building:osm:way-549580940",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"197": {
+"objectId": "building:osm:way-549580942",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"198": {
+"objectId": "building:osm:way-549580943",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"202": {
+"objectId": "building:osm:way-549580959",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"207": {
+"objectId": "building:osm:way-550281142",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"211": {
+"objectId": "building:osm:way-550281148",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"213": {
+"objectId": "building:osm:way-550281152",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.051,
+"deferred": false
+},
+"214": {
+"objectId": "building:osm:way-550281153",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.207,
+"deferred": false
+},
+"221": {
+"objectId": "building:osm:way-550670565",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"224": {
+"objectId": "building:osm:way-584420072",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"229": {
+"objectId": "building:osm:way-584420091",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"230": {
+"objectId": "building:osm:way-584420092",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"231": {
+"objectId": "building:osm:way-584420093",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"232": {
+"objectId": "building:osm:way-584420094",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"233": {
+"objectId": "building:osm:way-584420095",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"234": {
+"objectId": "building:osm:way-584420098",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"239": {
+"objectId": "building:osm:way-584444597",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.043,
+"deferred": false
+},
+"243": {
+"objectId": "building:osm:way-589910134",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+}
+}

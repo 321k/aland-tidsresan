@@ -32,8 +32,8 @@ class MuseumOffsetTests(unittest.TestCase):
         # Buildings dated by the later r1/r2 rechecks, the Ytternäs modern-only outlines and b11 postdate this snapshot;
         # compare the rest exactly.
         later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('r1', 'r2', 'b11')
-                 or (o.get('reconstruction') or {}).get('createdByBuildingMapReview')}
-        self.assertEqual(len(later), 357)
+                 or (o.get('reconstruction') or {}).get('createdByBuildingMapReview') or o.get('buildingPhotoReview')}
+        self.assertEqual(len(later), 517)
         self.assertEqual([o for o in json.loads(json.dumps(catalog, ensure_ascii=False))['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):
