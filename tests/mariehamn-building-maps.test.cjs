@@ -8,8 +8,8 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),sheets=review.sheets;
 
 test('the review is complete, sourced and keeps 1978 out of the building evidence',()=>{
- assert.equal(review.decisions.length,752);assert.deepEqual(review.totals.byFirstYear,{1968:332,1985:292,1995:128});
- assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4});
+ assert.equal(review.decisions.length,927);assert.deepEqual(review.totals.byFirstYear,{1968:344,1985:420,1995:163});
+ assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4,b9:69,b10:106});
  for(const y of ['1968','1985','1995'])assert.ok(catalog.sources.some(s=>s.id===sheets[y]),y);
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  assert.match(review.rules.roadRevision1978,/inte som eget byggnadsbelägg/);
@@ -45,7 +45,7 @@ test('every later edition shows the building; only 1985 may be unclear between 1
    assert.equal(x.outcome,'present');assert.deepEqual(e.sourcePixels.pixel,x.pixel);assert.ok(o.states[0].evidenceIds.includes(e.id));
    assert.ok(e.deviationMeters<=review.rules.maxRawSymbolDistanceMeters,e.id);
    assert.ok(x.distanceAfterShiftMeters<=(x.fillPass?review.rules.fillLimitMeters:review.rules.matchLimitMeters),e.id)}}
- assert.equal(unclear,93);
+ assert.equal(unclear,96);
 });
 
 test('the city layer draws dated houses in their map years and never before',()=>{
@@ -57,7 +57,7 @@ test('the city layer draws dated houses in their map years and never before',()=
 });
 
 test('houses rejected on the contact sheets are never dated, and each rejection has a reason and a sheet',()=>{
- const rejected=Object.entries(review.visualRejections);assert.equal(rejected.length,202);
+ const rejected=Object.entries(review.visualRejections);assert.equal(rejected.length,325);
  // Every b5 proposal was a shoreline, quay or lettering match; the strip dates nothing.
  assert.equal(rejected.filter(([,r])=>r.batch==='b5').length,8);
  assert.deepEqual(review.deferred['visual-reject'],rejected.map(([id])=>id).sort());
@@ -67,7 +67,7 @@ test('houses rejected on the contact sheets are never dated, and each rejection 
   assert.match(r.reason,/^(outline-empty|shoreline-or-pier|earlier-drawing|obscured|lettering|line|ambiguous-overlap|ambiguous-offset|hatched-block):/);
   assert.ok(sheets.has(r.sheetFile),id);assert.ok([1968,1985,1995].includes(r.proposedFirstYear))}
  // Every batch was reviewed on tile sheets and on contact sheets.
- for(const k of ['b1','b2','b3','b4','b5','b6','b7','b8'])for(const kind of ['sheet','contact'])assert.ok([...sheets].some(f=>f.startsWith(`${k}-${kind}-`)),k+kind);
+ for(const k of ['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10'])for(const kind of ['sheet','contact'])assert.ok([...sheets].some(f=>f.startsWith(`${k}-${kind}-`)),k+kind);
 });
 
 test('in the centre, a dated house never overlaps a printed-map symbol object, and hatched 1968 blocks date nothing',()=>{
@@ -84,4 +84,10 @@ test('in the centre, a dated house never overlaps a printed-map symbol object, a
  assert.equal(review.rules.symbolObjectOverlapSquareMeters,5);
  const hatched=Object.values(review.visualRejections).filter(r=>r.reason.startsWith('hatched-block:'));assert.equal(hatched.length,8);
  for(const r of hatched){assert.equal(r.proposedFirstYear,1968);assert.ok(['b6','b7'].includes(r.batch))}
+});
+
+test('modern-only outlines in Ytternäs are deferred, never dated: they have no reconstruction to extend',()=>{
+ const ext=review.deferred['external-modern'];assert.equal(ext.length,93);
+ for(const id of ext){const o=model.objects.get(id);assert.ok(o.externalModern&&!o.reconstruction&&!o.buildingMapReview,id);assert.ok(!review.decisions.some(d=>d.objectId===id),id)}
+ for(const d of review.decisions)assert.ok(model.objects.get(d.objectId).reconstruction,d.objectId);
 });

@@ -1,0 +1,87 @@
+{
+ "building:osm:way-167140747": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-345813236": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-465897743": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-465897744": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-465897746": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-530694516": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-530694517": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-530694534": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-550281095": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-669961082": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-523341845": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-550281096": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-550682272": {
+  "1985": {
+   "unclear": true
+  }
+ },
+ "building:osm:way-550682276": {
+  "1985": {
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+   "pixel": [
+    3416.0,
+    4431.5
+   ],
+   "distanceAfterShift": 0.4,
+   "shift": [
+    -0.85,
+    -10.37
+   ],
+   "filled": true
+  }
+ },
+ "building:osm:way-1555829074": {
+  "1985": {
+   "unclear": true
+  }
+ }
+}

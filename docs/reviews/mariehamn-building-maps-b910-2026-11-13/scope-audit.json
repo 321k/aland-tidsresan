@@ -1,0 +1,20 @@
+{
+ "snapshotSha256": "431ae3982122c7441f32155c9c6a70aeffb2695ca94239d7f0157afc589e0772",
+ "catalogueSha256": "67f9656c54ca47b974babf8ec68fbc231323b192bebbf7753acd8b256c0dac66",
+ "vsPreviousPublication": {
+  "objectIdsUnchanged": true,
+  "changedObjects": 175,
+  "changedEqualsB9B10Decisions": true,
+  "geometriesUnchanged": true,
+  "cityStagesUnchanged": true,
+  "sourcesUnchanged": true,
+  "otherTopLevelKeysUnchanged": true
+ },
+ "reviewFile": {
+  "earlierDecisionsIdentical": 752,
+  "earlierRejectionsIdentical": 202,
+  "newDecisions": 175,
+  "newRejections": 123,
+  "externalModernDeferred": 93
+ }
+}

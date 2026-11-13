@@ -1,0 +1,257 @@
+{
+ "building:osm:way-549198676": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-1968",
+  "cell": 0
+ },
+ "building:osm:way-549221881": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-1968",
+  "cell": 1
+ },
+ "building:osm:way-549221906": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-1968",
+  "cell": 2
+ },
+ "building:osm:way-549221920": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-1968",
+  "cell": 3
+ },
+ "building:osm:way-549221925": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-1968",
+  "cell": 4
+ },
+ "building:osm:way-549221927": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-1968",
+  "cell": 5
+ },
+ "building:osm:way-550281154": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-1968",
+  "cell": 6
+ },
+ "building:osm:way-550670569": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-1968",
+  "cell": 7
+ },
+ "building:osm:way-525919677": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 0
+ },
+ "building:osm:way-549198653": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 18
+ },
+ "building:osm:way-549198682": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 29
+ },
+ "building:osm:way-549198690": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 32
+ },
+ "building:osm:way-549221870": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 35
+ },
+ "building:osm:way-549221885": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 41
+ },
+ "building:osm:way-549221895": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-later",
+  "cell": 49
+ },
+ "building:osm:way-549221915": {
+  "reason": "line: the match is a dark line crossing an empty area",
+  "contactSheet": "b10-contact-later",
+  "cell": 51
+ },
+ "building:osm:way-549221917": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 53
+ },
+ "building:osm:way-549221922": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 56
+ },
+ "building:osm:way-549221924": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 58
+ },
+ "building:osm:way-549221937": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 61
+ },
+ "building:osm:way-549221941": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 63
+ },
+ "building:osm:way-549221946": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 64
+ },
+ "building:osm:way-549221950": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 65
+ },
+ "building:osm:way-549433003": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 105
+ },
+ "building:osm:way-549433046": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 127
+ },
+ "building:osm:way-549551029": {
+  "reason": "line: the match is a dark line crossing an empty area",
+  "contactSheet": "b10-contact-later",
+  "cell": 128
+ },
+ "building:osm:way-549551059": {
+  "reason": "line: the match is a dark line crossing an empty area",
+  "contactSheet": "b10-contact-later",
+  "cell": 129
+ },
+ "building:osm:way-549580946": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 130
+ },
+ "building:osm:way-549580948": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 131
+ },
+ "building:osm:way-549580949": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 132
+ },
+ "building:osm:way-549580951": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-later",
+  "cell": 133
+ },
+ "building:osm:way-549580956": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 135
+ },
+ "building:osm:way-549580975": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 142
+ },
+ "building:osm:way-549580979": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-later",
+  "cell": 143
+ },
+ "building:osm:way-550281146": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 144
+ },
+ "building:osm:way-550281150": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 145
+ },
+ "building:osm:way-550670528": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 156
+ },
+ "building:osm:way-550670555": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 159
+ },
+ "building:osm:way-550670559": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 161
+ },
+ "building:osm:way-550670563": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 162
+ },
+ "building:osm:way-584420067": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 163
+ },
+ "building:osm:way-584420080": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b10-contact-later",
+  "cell": 164
+ },
+ "building:osm:way-584420088": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-later",
+  "cell": 168
+ },
+ "building:osm:way-584420099": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 172
+ },
+ "building:osm:way-584420101": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 173
+ },
+ "building:osm:way-584420102": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 174
+ },
+ "building:osm:way-584420110": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b10-contact-later",
+  "cell": 177
+ },
+ "building:osm:way-584420112": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 178
+ },
+ "building:osm:way-584420113": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 179
+ },
+ "building:osm:way-584420114": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 180
+ },
+ "building:osm:way-584420115": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b10-contact-later",
+  "cell": 181
+ }
+}

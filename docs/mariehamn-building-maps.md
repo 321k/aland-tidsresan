@@ -29,21 +29,24 @@ Sheet 101208's 1995 registration starts at about 19.917° E, so nothing further 
 - **b6**, 19.9255–19.946° E × 60.0915–60.100° N: Södra and the southern centre.
 - **b7**, 19.9255–19.946° E × 60.100–60.109° N: Västernäs and the northern centre.
 - **b8**, 19.946–19.962° E × 60.0915–60.109° N: the strip east of the centre along Slemmern.
+- **b9**, 19.928–19.950° E × 60.0725–60.0855° N: Västra Ytternäs, south of Lotsberget to Korrvik and Lervik.
+- **b10**, 19.950–19.972° E × 60.0725–60.0855° N: Östra Ytternäs and the terraced rows of central Ytternäs.
 
-| | b1 | b2 | b3 | b4 | b5 | b6 | b7 | b8 | total |
-|---|---|---|---|---|---|---|---|---|---|
-| dated from 1968 | 107 (28 with 1985 *unclear*) | 26 (1) | 81 (19) | 78 (34) | – | 26 (9) | 10 (2) | 4 | 332 |
-| dated from 1985 | 179 | 65 | 25 | 20 | – | – | 3 | – | 292 |
-| dated from 1995 | 75 | 4 | 13 | 14 | – | 17 | 5 | – | 128 |
-| **dated** | **361** | **95** | **119** | **112** | **0** | **43** | **18** | **4** | **752** |
-| rejected on the contact sheets (`visual-reject`) | 83 | 13 | 17 | 32 | 8 | 32 | 13 | 4 | 202 |
-| no symbol in any edition (`absent`) | 491 | 180 | 118 | 173 | 10 | 175 | 163 | 23 | 1333 |
-| earlier edition shows hatched or stippled drawing (`earlier-unclear`) | 85 | 16 | 14 | 26 | 2 | 12 | 9 | 2 | 166 |
-| symbol missing in a later edition (`inconsistent`) | 47 | 19 | 15 | 31 | 3 | 19 | 17 | 4 | 155 |
-| start already earlier than the maps | 4 | – | 1 | 2 | 3 | 121 | 20 | 1 | 152 |
-| printed-map symbol objects (matched only so that their symbols are used up) | – | – | – | – | – | 384 | 211 | 1 | 596 |
-| a curated review decides the dates (`curated-review`: a church, the merged Ringvägen 66) | – | – | 1 | 1 | – | – | – | – | 2 |
-| earliest outline differs from the matched one (`outline-changed`) | 1 | – | – | – | – | – | – | – | 1 |
+| | b1 | b2 | b3 | b4 | b5 | b6 | b7 | b8 | b9 | b10 | total |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| dated from 1968 | 107 (28 with 1985 *unclear*) | 26 (1) | 81 (19) | 78 (34) | – | 26 (9) | 10 (2) | 4 | 11 (3) | 1 | 344 |
+| dated from 1985 | 179 | 65 | 25 | 20 | – | – | 3 | – | 49 | 79 | 420 |
+| dated from 1995 | 75 | 4 | 13 | 14 | – | 17 | 5 | – | 9 | 26 | 163 |
+| **dated** | **361** | **95** | **119** | **112** | **0** | **43** | **18** | **4** | **69** | **106** | **927** |
+| rejected on the contact sheets (`visual-reject`) | 83 | 13 | 17 | 32 | 8 | 32 | 13 | 4 | 72 | 51 | 325 |
+| accepted on the contact sheets but modern-only (`external-modern`, no reconstruction) | – | – | – | – | – | – | – | – | 55 | 38 | 93 |
+| no symbol in any edition (`absent`) | 491 | 180 | 118 | 173 | 10 | 175 | 163 | 23 | 305 | 244 | 1882 |
+| earlier edition shows hatched or stippled drawing (`earlier-unclear`) | 85 | 16 | 14 | 26 | 2 | 12 | 9 | 2 | 35 | 58 | 259 |
+| symbol missing in a later edition (`inconsistent`) | 47 | 19 | 15 | 31 | 3 | 19 | 17 | 4 | 23 | 11 | 189 |
+| start already earlier than the maps | 4 | – | 1 | 2 | 3 | 121 | 20 | 1 | 12 | 11 | 175 |
+| printed-map symbol objects (matched only so that their symbols are used up) | – | – | – | – | – | 384 | 211 | 1 | – | – | 596 |
+| a curated review decides the dates (`curated-review`: a church, the merged Ringvägen 66) | – | – | 1 | 1 | – | – | – | – | – | – | 2 |
+| earliest outline differs from the matched one (`outline-changed`) | 1 | – | – | – | – | – | – | – | – | – | 1 |
 
 b1 was first published with 444 dated houses after the tile review alone. The contact-sheet review below then
 withdrew 83 of them, which keep their previous start: 27 ambiguous partial overlaps, 18 empty outlines matched to a
@@ -64,6 +67,20 @@ told from the hatching, so 8 such 1968 proposals were rejected (`hatched-block`)
 start rather than being moved to 1985, because the hatched 1968 drawing could already include them. 41 more were
 rejected on the contact sheets for the usual reasons (partial overlaps, empty outlines, elevation figures or lettering
 over the previous edition, circle symbols, a pier).
+
+## Ytternäs (b9–b10)
+
+Ytternäs, south of Övernäs, is on all four scans. The review stops at Lervik and Ytternäsfjärden; the land further
+south (Dalen, Svinö) was left out because the town boundary was not checked there. Much of Ytternäs was built
+between 1968 and 1985, so most dated houses start in 1985 (128 of 175). Of the 391 proposals, 123 were rejected on
+the contact sheets: 68 partial overlaps, 23 empty outlines, 21 cases where the previous edition already draws
+something at the outline or black lettering covers it, 6 matches on black lettering (5 of them the large place-name
+letters on the 1968 sheet) and 5 on lines. Red lettering and plan figures were not treated as hiding a house: a dark house symbol
+stays visible under them.
+
+93 accepted houses were not dated: they are `externalModern` objects, outlines that exist only in the 2026 OSM extract
+outside the reconstructed city building set and have no reconstruction to extend. The compiler requires one, so
+they are deferred as `external-modern` until that model exists.
 
 ## Method
 
@@ -117,7 +134,7 @@ overlaps a printed-map symbol object (more than 5 m², or containing its centre)
 their dates.
 
 Tests: `tests/mariehamn-building-maps.test.cjs`, `tests/test_mariehamn_building_maps.py`. The scope audit against
-the pre-review snapshot finds exactly the 752 reviewed objects changed, one new source, and no geometry changes.
+the pre-review snapshot finds exactly the 927 reviewed objects changed, one new source, and no geometry changes.
 Against the first b1 publication, the 83 withdrawn houses are byte-identical to the snapshot again, the 361 kept
 are unchanged and 214 are newly dated.
 
@@ -126,7 +143,8 @@ are unchanged and 214 are newly dated.
 - The centre's hatched 1968 blocks: houses there could be dated from 1985 only with a closer look at whether the
   hatching already includes them.
 - The 615 printed-symbol objects start at their 1985 symbol (mostly 1983); many also stand on the 1968 sheet.
-- Houses south of 60.085° N and east of Slemmern were not reviewed; whether they belong to Mariehamn was not
-  checked against the town boundary.
+- The 93 `external-modern` Ytternäs houses that the maps show from 1968–1995: they need a reconstruction first.
+- Ytternäs south of Lervik (Dalen), the area north of b1 and east of Slemmern were not reviewed; whether they belong
+  to Mariehamn was not checked against the town boundary.
 - The `earlier-unclear`, `inconsistent` and `visual-reject` buildings need a closer look (often hatched public
   buildings, replaced houses, houses under map lettering, or a local registration offset).
