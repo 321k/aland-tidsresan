@@ -5294,6 +5294,3702 @@
     }
    ],
    "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-1566562710",
+   "input": "7b933309eea83c9b1b6252d10152673a21c6b87b0ba7014aed1e5d20d5dc345b",
+   "referenceGeometryId": "geometry:a40d3208a4e0fffc7072",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 112,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-1566562711",
+   "input": "945fa2542689ad8cab9163b859af1306bd52bee6d9358dbb67019a097dbf73f5",
+   "referenceGeometryId": "geometry:74c1f9f1b5ffa715667c",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 89,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-1566562712",
+   "input": "61f3560238d344c7dcbd538bc2bd69c9d4bbeb300432a3ede794f85857f8929c",
+   "referenceGeometryId": "geometry:0748414403f55c812507",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 81,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-1566562713",
+   "input": "ce9cfec6a2951ff88479c13b4486d86fa60376c89b2c002983320f2d4ececeeb",
+   "referenceGeometryId": "geometry:03bcd1c1ea83df9bee71",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 115,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-162638402",
+   "input": "c7747a8e4fdf3646123a4d959fd1829d7e8ce443436d1339994eac1dc09a7439",
+   "referenceGeometryId": "geometry:1d5edf7c4415295c28d8",
+   "originalFrom": 2012,
+   "firstYear": 1991,
+   "areaSquareMeters": 1049,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-163008912",
+   "input": "969676cde57af0fae5c1b1fe98bb3c4004494ae75a57064f658286ab673570aa",
+   "referenceGeometryId": "geometry:2d883345cb8a364b339c",
+   "originalFrom": 2026,
+   "firstYear": 2007,
+   "areaSquareMeters": 250,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165235047",
+   "input": "b2d9cd45a693e6be9a2505e382fa3e9250bdcfefa184edc0dced8c41671194e4",
+   "referenceGeometryId": "geometry:e276953b7dae443706fb",
+   "originalFrom": 2026,
+   "firstYear": 1999,
+   "areaSquareMeters": 449,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165436755",
+   "input": "c146df4a8c972966fbe1d5d73c189f183f13df2c977ebbd46ad78e60a883adee",
+   "referenceGeometryId": "geometry:06926e8a6ee809055253",
+   "originalFrom": 2026,
+   "firstYear": 2007,
+   "areaSquareMeters": 92,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165436759",
+   "input": "91dc5adaec985e1c1b0e47ab1ad7d08982d8e6298f5e82120d6759945c55ff56",
+   "referenceGeometryId": "geometry:66bdd1a6524eef04dc8b",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 161,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165436760",
+   "input": "2c15d25725103f110f84c7c3de022c6283ce4f1cf3cd3a0d4b9c998f5147f1cb",
+   "referenceGeometryId": "geometry:995d6651353a4a7539ef",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 66,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-167140749",
+   "input": "47cc4ff3c6a24807cc6e48b8b366b55d3dcf7cce165803c7ac18c3279aca60a8",
+   "referenceGeometryId": "geometry:edc28e71904f40ab805a",
+   "originalFrom": 2012,
+   "firstYear": 1991,
+   "areaSquareMeters": 180,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-167141184",
+   "input": "70c6792cf4bf7385474100e2e43d62c89beddd7ef1db9470915b747a71f909b1",
+   "referenceGeometryId": "geometry:a9cbc2c5b1fafa67e149",
+   "originalFrom": 2012,
+   "firstYear": 1991,
+   "areaSquareMeters": 90,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-167141191",
+   "input": "cb1a2e279b4d6b27b8f4d6d367467f31818cfb4a3684b03732a8b806f2e76ac0",
+   "referenceGeometryId": "geometry:76ff94875e16812fdb35",
+   "originalFrom": 2012,
+   "firstYear": 2007,
+   "areaSquareMeters": 45,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-329306727",
+   "input": "48bf1c636c9b5a700868472f3e29a7adec9db939ecdcabee9ce7f0032603ccc0",
+   "referenceGeometryId": "geometry:dfcd0438ecf10062037f",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 687,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-345813219",
+   "input": "b0773b18b9e3b61dbf1934d3ec3551f57d0e87c056e11a4c2279ee378d5e4efd",
+   "referenceGeometryId": "geometry:fcd3534bacf3ae0a9a8c",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 63,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-345813224",
+   "input": "dc4f360afe4a0497954d4ccfe731b7506a0e0370446364329ed0e49f0cbf8e26",
+   "referenceGeometryId": "geometry:344a5c008348af4e2fb4",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 136,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-345813227",
+   "input": "dbd8487d716ffcbbf2f675cdab4a2fb97149d6d33c538dd88927b09ad033c03c",
+   "referenceGeometryId": "geometry:69c21767a29f539ad84d",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 186,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-345813235",
+   "input": "c7081cc2d7431ac55645db0873bd2a4f39e997f7b46f0244590410031a415a71",
+   "referenceGeometryId": "geometry:b307f79a15c56c00cb64",
+   "originalFrom": 2021,
+   "firstYear": 1999,
+   "areaSquareMeters": 292,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-345813393",
+   "input": "97c1252b465afd50af0decfc874d0c83be5ff12ae6b0432f3b73dea6725da89d",
+   "referenceGeometryId": "geometry:bebab31489f51b4c6bc7",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 158,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-345813397",
+   "input": "424eda56081c3adc0cbaab5e844ad38cd0e47c58d041826e361907dc25969ad6",
+   "referenceGeometryId": "geometry:c7589144c9aed4523702",
+   "originalFrom": 2026,
+   "firstYear": 2007,
+   "areaSquareMeters": 356,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-465897738",
+   "input": "c02c608d4989db70efe90317404da1b01baa7eaced8b24a2d7b15c80e5a4e9e0",
+   "referenceGeometryId": "geometry:b853c25e6d2ba568d71a",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 210,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-465897739",
+   "input": "4abcdbf47f315c2c93a5343de316d0b7fad724f7d8bb1086b235989cb5a2a439",
+   "referenceGeometryId": "geometry:ac673c77e90994e96eff",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 111,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-465897740",
+   "input": "5809876dbd0cbd7ff71eef2fccb1c5b1b90d2e803297bb8fbf5947cba2c1d796",
+   "referenceGeometryId": "geometry:672c10cc4ae2ba8087f0",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 171,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-465897741",
+   "input": "a7c4cd222006e73735232671378ad50ef0a428802c9af2f570efa0da256f8704",
+   "referenceGeometryId": "geometry:01e93c3f593b23547878",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 174,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496239062",
+   "input": "c59e099563df3ead98f4b77b8cc296b3fc3da1ca23e62a4d63c7ae7793285ff2",
+   "referenceGeometryId": "geometry:97b20901b66f0d2894e2",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 296,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496239064",
+   "input": "7c8fca98cd119437deb563a312cf2ad2a578c107f44509294a0c22eb6f70bf37",
+   "referenceGeometryId": "geometry:da82dfc811f99f07f0d7",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 295,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496239066",
+   "input": "668954a85932eb8856b9257818f2e0c32b3d9507413a373d3f4af2e7d0488c27",
+   "referenceGeometryId": "geometry:b34ab6e5a62dc54707f1",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 281,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480943",
+   "input": "7eb386acdc87a8f16e8c59dbff07d98de26cd7bd8153e0dd9db7fe62e1bcc3c6",
+   "referenceGeometryId": "geometry:b3e0c643f15f78ad1f6f",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 296,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480945",
+   "input": "4acefcb28ac5af5c1ba6435c2bcc617d9e00674fa35af8862af9df3f303bc723",
+   "referenceGeometryId": "geometry:a917d42c4f695563d747",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 296,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480947",
+   "input": "1e54eae68f573e79fd292f508b64a171b97296e9eb0348e847486e802c749d58",
+   "referenceGeometryId": "geometry:fd23c27fd09957074976",
+   "originalFrom": 2021,
+   "firstYear": 1999,
+   "areaSquareMeters": 134,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480949",
+   "input": "2616ed5f2ebaf665527a872f33a6e319c31cc821fd1aec7a4d4d6495f19a2c80",
+   "referenceGeometryId": "geometry:c7f743aeeb3b62c1e50d",
+   "originalFrom": 2021,
+   "firstYear": 1999,
+   "areaSquareMeters": 192,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480951",
+   "input": "79b45a14376cc9818476b59ea66b1fac217d9ea72fda563de695bcb96e942096",
+   "referenceGeometryId": "geometry:c60f0f1889f5aaa02aa1",
+   "originalFrom": 2021,
+   "firstYear": 1999,
+   "areaSquareMeters": 174,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480953",
+   "input": "d61eb1703c0dad86ff6d36d7e7d86b52b80c10f65b82bf1d12eb8f3527b7ad5a",
+   "referenceGeometryId": "geometry:22fb7601c525831358f6",
+   "originalFrom": 2021,
+   "firstYear": 1999,
+   "areaSquareMeters": 50,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480955",
+   "input": "b1492528ae41838de5ab45c2e7ac7b3d015f43fa0849641ff5e82248d00ef825",
+   "referenceGeometryId": "geometry:6b74d2a4f209c1e400d6",
+   "originalFrom": 2021,
+   "firstYear": 1999,
+   "areaSquareMeters": 283,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480956",
+   "input": "8d2e0459c81c4ae857141cbaf2359383707793b017ace734d2c05290534e9fa4",
+   "referenceGeometryId": "geometry:b1985f8be4aaf50b12f0",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 194,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-496480957",
+   "input": "8fba5b75361b3d99de118338e4f07de89281e0bd8633eda85c050995f22a95db",
+   "referenceGeometryId": "geometry:9b879eb58b273a5aad1f",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 191,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341825",
+   "input": "ede661c7d58eb3968c8c4277f050306aa95d9e18f2843dfba132d600fbb15b0b",
+   "referenceGeometryId": "geometry:3358de3d0cf9ecac633f",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 139,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341827",
+   "input": "e6ac0b142ef6c525edb1182f38a55408caef5ca18fd33f89004c9db55f452ad1",
+   "referenceGeometryId": "geometry:5a1310528d86a557280e",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 85,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341831",
+   "input": "51a838f85599565e88299ce1e5843db1df6c98eac36fc4cbf5b394e53f90fddc",
+   "referenceGeometryId": "geometry:e6e5e1c745347a6ff249",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 85,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341836",
+   "input": "4da7a4a894eba7a07b71a8833b2c5d982ef608d27e70c3dfbe1a14b813a4f914",
+   "referenceGeometryId": "geometry:4172598776847d1cfcb4",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 47,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341839",
+   "input": "65cdab579d9232f1f7bcf8f786284bfa15585efafb8e2558a7e00af15131a3bf",
+   "referenceGeometryId": "geometry:ff29ff53e292464475ac",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 48,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341842",
+   "input": "8c45b69d4b7febc52862c829202631be0df258ca455ca032626ee74ea4fc0b44",
+   "referenceGeometryId": "geometry:b83c80d863b0abd02ff6",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 118,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341843",
+   "input": "34b7716d7d4f5f516afca3f06a98f27d7bab87f8b0a466f92716172d1da7d434",
+   "referenceGeometryId": "geometry:dd6584e58c45dae7494b",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 84,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341844",
+   "input": "1497661c4ba1325c6eee1965421b56054a6abc9cc91523bac31ec8404f6dce2e",
+   "referenceGeometryId": "geometry:619ef49e844a6085b279",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 133,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-523341859",
+   "input": "9fbac14ccfdfaea90f658bf966d48b75771c4f185ad600e7e8a3540f5f392496",
+   "referenceGeometryId": "geometry:e9934e6d3c199cc1fe10",
+   "originalFrom": 2026,
+   "firstYear": 2007,
+   "areaSquareMeters": 243,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-525991511",
+   "input": "aab657c70ffe7d4b1366e32368ae1f8ee4d38c22c3cd8dc55268fe95197e4c3d",
+   "referenceGeometryId": "geometry:b13195dfbe7150ac484a",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 81,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-525991515",
+   "input": "0fae78dc1138c9b3b193eacc75d6be703078ba6a74df5648804b65d30e3bf644",
+   "referenceGeometryId": "geometry:f796fe212602a6647e30",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 45,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-530694514",
+   "input": "70beef70ef9b1da01bc194a4ef708045ce9c325f623ec65bb9fd004af06603a6",
+   "referenceGeometryId": "geometry:c65b4acb2925e9cdc59a",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 41,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-530694520",
+   "input": "664da6eabb3947d4d465d400e065cfa3a1038c46fd7387bc060c2da3e6355a36",
+   "referenceGeometryId": "geometry:551d9ad0ed842a3c8bad",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 51,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-530694525",
+   "input": "8bd3b916c244d49421a4d3234a3f3bc5e801d10c67500593ce56cf78bbca9f33",
+   "referenceGeometryId": "geometry:e52b0c24e57260731500",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 91,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-530694526",
+   "input": "775d1f51203613433800686cbded505097c1a1f4002fc34e62171bce7b706752",
+   "referenceGeometryId": "geometry:1e59866384830011467b",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 76,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281080",
+   "input": "28c127be60af90b28fb9ef57bfd2dde9f75cc347f1a4cd21bd72932c791d371b",
+   "referenceGeometryId": "geometry:2a3745634b95ea6d0540",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 47,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281085",
+   "input": "ad0152a7ca8a8076fd63df95c2284aaf7f5a094d2c361c289e16a9a726e440cc",
+   "referenceGeometryId": "geometry:b19aa4bbdd6912c0a6d8",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 102,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281086",
+   "input": "e35fc9f87be277711fd87b3866f5c4489828bd09676af14a9c981d9429deb2fa",
+   "referenceGeometryId": "geometry:0c41a6be9884da1bc4ea",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 103,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281087",
+   "input": "e63e784532dbee278b7d6b530d6b954a30bb1979aaf00e6fce7ac8e738291bc1",
+   "referenceGeometryId": "geometry:75fe6d56baabfb946415",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 103,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281088",
+   "input": "604c8e671dc8507da50289acb9c850a2c16387d45bd8913ac2cb1ee199d930db",
+   "referenceGeometryId": "geometry:561f342e31f5a1e54850",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 102,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281089",
+   "input": "6fa22f8e4c4a0b3b5e4ad1ec82880b34078003ace080dc8e3e3d7f314ca7f92e",
+   "referenceGeometryId": "geometry:d1e9cbe1ac7b969f86a2",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 102,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281099",
+   "input": "58fa54358a2e52395b1351e87b65a6b7ea24958f7d47d4b002bf9196c8dd1f7b",
+   "referenceGeometryId": "geometry:465ff07be933094da1ca",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 52,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281102",
+   "input": "0d82366c7697134c4de9921a8d38b9f123dee3dfc264233350f4a6fd26cdacdf",
+   "referenceGeometryId": "geometry:45d8503971c7b5c39faf",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 78,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281104",
+   "input": "3421cb5cdba2dcf42015d96af2545ac3b102bec8b16d16d4748adf8777363fcb",
+   "referenceGeometryId": "geometry:f3afb636e4a2edd82243",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 135,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281124",
+   "input": "4a16054e7337bc9b193b4d36151a005f2d041642c96724eb5c2254d50517ef7d",
+   "referenceGeometryId": "geometry:7deacbdf608f7c32b948",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 41,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281125",
+   "input": "12eb3de97e9119f2669ea34774ec9ab15a9c0bb9f64278b1b6e8ec20a0116048",
+   "referenceGeometryId": "geometry:45bee3b47cf53f338c4a",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 46,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550281134",
+   "input": "d94ce2f4ee957fb6a824653448139206fe7ac216f4276a869dbba4f393c4f006",
+   "referenceGeometryId": "geometry:f61fd48ac78b75ca2e4b",
+   "originalFrom": 2026,
+   "firstYear": 2007,
+   "areaSquareMeters": 57,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550670476",
+   "input": "4ce81943483073c1d810c6be9d6531adc0a7266a98220c1e7ba1bea1514e5fb6",
+   "referenceGeometryId": "geometry:d39fc119421b086ad5ca",
+   "originalFrom": 2021,
+   "firstYear": 1999,
+   "areaSquareMeters": 85,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550670477",
+   "input": "505c6b1c2793f561de863da7e104c077511fc5564df76f599e19603cffe03195",
+   "referenceGeometryId": "geometry:793e6006619e44814728",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 222,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550670512",
+   "input": "a21754981342a35f08a2b1f8bb6e33f6c92bbef9892c8ca9243da97da9fd481e",
+   "referenceGeometryId": "geometry:fce7d3d465059ab8d1c2",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 70,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550670521",
+   "input": "db89f7c6410ecdbb04b34ce19107828495ee5002a6c35225f387d7e983cdef62",
+   "referenceGeometryId": "geometry:8934e8f24cfaa8aab77a",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 208,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550682264",
+   "input": "734c31a15113cb6030c37300c8c015321ad6085aa7360c107cd1858e1e6f5d6f",
+   "referenceGeometryId": "geometry:e5e61effa7d2d84fa56b",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 59,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696278",
+   "input": "6491fe1d62e65e2fde89f3605e2f9983f2faecf8dae2987571f8da182e8dd374",
+   "referenceGeometryId": "geometry:305fc45f92bc6e3b9ce8",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 144,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696279",
+   "input": "836b69f16443334e1ab8f6128fc25e6f016cac6e92ff776b3bc5c259ff31cd60",
+   "referenceGeometryId": "geometry:8a537c11df0379054cf0",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 54,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696280",
+   "input": "b8410b724202ae75f65afcc60cece079585f12ddef7d0d56e06099c010f5c290",
+   "referenceGeometryId": "geometry:69d761a0f6aa1c726053",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 206,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696282",
+   "input": "b0a4d18b9e575fe0c9f9b998ed253e6f96050a4862ad4bb818dcdf97dd4831cd",
+   "referenceGeometryId": "geometry:5c0125341325af815953",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 149,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696284",
+   "input": "5de056d789c1a1140d53c9b49a24b3c27aebacad3d832a4585e615a53a52b497",
+   "referenceGeometryId": "geometry:88f91b3653a08813e26f",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 148,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696286",
+   "input": "b153c8cc65d6c0ecfa872ace0ce1fbcbedea5565badc0daac82ecc3beefa3831",
+   "referenceGeometryId": "geometry:70339d396eb7a103a7c5",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 148,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696289",
+   "input": "a179fb6f9a5091c9aae58f777c9d17382606fba96d9fe9aacf87faea52e1db81",
+   "referenceGeometryId": "geometry:34c9ce6bba9b2299c8cd",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 148,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696291",
+   "input": "e309e4c51fb1d39d67a43cf6059dcafdaf4a6dcc416c677d599ec6f42e343bbd",
+   "referenceGeometryId": "geometry:31e0e92b077fec9404e7",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 148,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696294",
+   "input": "127efdf4370a0261b860093073d874e6e9127ebb717d24675bbcd3698f33e925",
+   "referenceGeometryId": "geometry:c02a280888e918556b5d",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 237,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696297",
+   "input": "fe35cd23091b19f1e45ec8ac910db57c077d2edb5e824df444c25dbf4819b1f2",
+   "referenceGeometryId": "geometry:7350a39b4afdaf53c042",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 54,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696299",
+   "input": "e60cb97493f11b41ebb5ef1ccd6e4cb841fadf952c496f36c3a82ad290255ad0",
+   "referenceGeometryId": "geometry:ad13b7863b80a644f8a7",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 158,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696307",
+   "input": "2b0ddee5283cf0d309065acf55a71e9901c7efc1e5c6423e31a5aa88b94ff94d",
+   "referenceGeometryId": "geometry:1d0895648487061a2a97",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 327,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696323",
+   "input": "d2d81d4787f542e21455a2c77d679e0bd2822eaba2931247e974a55f275e614b",
+   "referenceGeometryId": "geometry:348bddd51107d9b5ad79",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 53,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696324",
+   "input": "6ca765ab80ab0f21485ed3f8f33dc9a0f884f9f98ffd6fdebf0fffbba73fd751",
+   "referenceGeometryId": "geometry:e40b913ffec918715637",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 79,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696325",
+   "input": "b47ed34ef6c84ca603fa8f66f603b17ed1588f2dda0d61b44bf63fc0c90518b8",
+   "referenceGeometryId": "geometry:f538743679b650ae5872",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 79,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696327",
+   "input": "c5c74e6385183a514624cda46ae0f40ccea7aea59fda14603feef873b92dca7a",
+   "referenceGeometryId": "geometry:a644126cb9a3d05cb6f3",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 111,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696328",
+   "input": "efbe0dc4c07ff0e9964ac20fcc2fcaeb9e70e34a8892b0c319b806934c729b16",
+   "referenceGeometryId": "geometry:e4a6bf94db42f7077e05",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 84,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-550696329",
+   "input": "a6fc9b857f13c0d1bf0a3bb362c60ae1de7a109c691950dcf5cfe228c8347400",
+   "referenceGeometryId": "geometry:4b90e51960c5c4e5fe82",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 151,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-631888585",
+   "input": "fa4a891f3f76e15f67a608ca93f8db39ae9cc3397d32a0fda35d06624fe959fa",
+   "referenceGeometryId": "geometry:5045a9e52d7b63df8ad4",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 148,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-631888588",
+   "input": "f9e9d472f42b25f5315166b28229431ef7da4ac1cedccfbdd3e34a62256f4f20",
+   "referenceGeometryId": "geometry:112c7638eb19f3aa30fd",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 149,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-631888589",
+   "input": "e8fd34e887dcd22d628e4d8a8d99ba0b9a3113db2051b04529955ba60238fcbf",
+   "referenceGeometryId": "geometry:1a170266e0fb5898d914",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 103,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-631888591",
+   "input": "11e1ed192b882a30fbdf336146decfb8995598114869899d396bd419c3768da7",
+   "referenceGeometryId": "geometry:527e3c61d67ad98c32f6",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 101,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-631888594",
+   "input": "88fa087e2798450be4f00f4e859cf71d60929040c4ec603f54a4c04ff00f8e0f",
+   "referenceGeometryId": "geometry:b202941370ecaa29c27b",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 104,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961058",
+   "input": "eb451351b22fd648fdaa7ae7cea6e0b3c4c909d21f3f787f15b15015bf1691dc",
+   "referenceGeometryId": "geometry:70f2e8b8bcd418c4fc89",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 154,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961060",
+   "input": "5fecf3414c491a1a8ea3de294b7ba5e170abf03d3640b8f8a0326c2f26b45a5d",
+   "referenceGeometryId": "geometry:eb9b5955cd59babfcaa6",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 175,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961062",
+   "input": "d42544838c936b72543e9de3b4ab379563a7590eb4db473b9af7c53748d27837",
+   "referenceGeometryId": "geometry:795cd8bf3c65bc1ad35a",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 175,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961066",
+   "input": "2284be489ce09b9bd9ba288a6ca0a855a6f270e0a167a7e0e08148d058c489b7",
+   "referenceGeometryId": "geometry:1bebd2d7c3c67bd4d043",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 77,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961067",
+   "input": "03acf79afb48d42aa4e31f36c903a4e3aee8d9d5bcd05051178d61f9f621f49a",
+   "referenceGeometryId": "geometry:c9f140b0192ee4397c94",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 132,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961070",
+   "input": "6edd62b9a3bec6f02fa68a5dadd8c497ad26cf6eb0e815c6ddd9878c3751a6fd",
+   "referenceGeometryId": "geometry:a1529da30b67a2d2e971",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 191,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961072",
+   "input": "8c5b6021b6e0c06ff948b802b59e82d5e3e45ccb2b15f3514b2861638a9c153c",
+   "referenceGeometryId": "geometry:c518f3b9e252f2de81b5",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 196,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961073",
+   "input": "ba54f32f92e1c3a6aac377545924aa30455420d48232f536a3b86fbeae709f3d",
+   "referenceGeometryId": "geometry:4b5864c7859c3f462b78",
+   "originalFrom": 2021,
+   "firstYear": 1999,
+   "areaSquareMeters": 238,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1999, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961077",
+   "input": "f9d51e2f374a7fd076b6822476cd3c79dbb31f35e8c4613af4535421324285d8",
+   "referenceGeometryId": "geometry:792a6d97b98eae149180",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 161,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961078",
+   "input": "cdf75bad83867d9b5eda12f9cf1beb7e09e4fa0034b9fd300a238bc810a16121",
+   "referenceGeometryId": "geometry:632075ca322162fceb4e",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 161,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961079",
+   "input": "1b6fd8085726f9f7118f9b15156fa5d9a8dda5a3bee9bfcecb4dab74f40fc38a",
+   "referenceGeometryId": "geometry:6fa7199fbff9f14d3056",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 162,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961085",
+   "input": "bb4a045921ac0f7819bad8ed4944fbdb9a4f44edc9afc8c2587a76c2aadb6419",
+   "referenceGeometryId": "geometry:60e5045d15cd3f711078",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 63,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961089",
+   "input": "be99c4c2cb12911ca4613213c9400ade4b3ceb7bd82ce16ff60eade05bda98a4",
+   "referenceGeometryId": "geometry:71dec8b11fb1bf0020ee",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 108,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669961100",
+   "input": "f6910c76fc12adbfcce3ad8408b76aa1d2a5aeb6370f9d5a345ebf1cf1fef255",
+   "referenceGeometryId": "geometry:71a03a671aa5ef84e036",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 136,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669978243",
+   "input": "086b6d5a12c1f111bf74510d4c594636549b7b69e8cfeb90840c817f4079372c",
+   "referenceGeometryId": "geometry:f8cb760a9bd4453e16a4",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 47,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669978245",
+   "input": "389218f4b50452bf6d88639b68aba7b8f871bc43b2393b621746dee5f207c14e",
+   "referenceGeometryId": "geometry:b276d05fe6e088deb063",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 62,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669978248",
+   "input": "f261e32a73fe7b0a9ef4982f83c8f10719d21f94e8854729f7ecbd26f57d4837",
+   "referenceGeometryId": "geometry:4e39889657b6ea280ca5",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 141,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669978252",
+   "input": "78f5ae435ee44d039b350547737ccaaf1e70f9a4f9d3cbf977fc7ea58067f9eb",
+   "referenceGeometryId": "geometry:9ab4526f64faf2c6fe44",
+   "originalFrom": 2026,
+   "firstYear": 2015,
+   "areaSquareMeters": 125,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669978254",
+   "input": "026fcd4fce7a482879f2d9516ac3b8d324022904fd65ec7818fb02f2a03c51ec",
+   "referenceGeometryId": "geometry:bd48c4c314ead8a33bff",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 67,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669978265",
+   "input": "9f48666d3f9d538a6a581922835833ebe549115e23af34c567c075c958085711",
+   "referenceGeometryId": "geometry:449358476e9ff5f9beb9",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 211,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-669978273",
+   "input": "cc88f06b03439e9a7494c1a614529f035d342f4e96993bd7ba686d03158d03d5",
+   "referenceGeometryId": "geometry:7e2f4e1422e1bbe3bc1e",
+   "originalFrom": 2026,
+   "firstYear": 1991,
+   "areaSquareMeters": 176,
+   "batch": "p9",
+   "sourceBatch": "b9",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
   }
  ],
  "deferred": {
@@ -5301,6 +8997,9 @@
    "building:osm:way-549221903"
   ],
   "map-ink": [
+   "building:osm:way-165436735",
+   "building:osm:way-167141186",
+   "building:osm:way-523341858",
    "building:osm:way-549198677",
    "building:osm:way-549221908",
    "building:osm:way-549221911",
@@ -5309,16 +9008,78 @@
    "building:osm:way-549221983",
    "building:osm:way-549221985",
    "building:osm:way-549221986",
-   "building:osm:way-549221988"
+   "building:osm:way-549221988",
+   "building:osm:way-669978266"
   ],
   "no-photo-evidence": [
+   "building:osm:way-1260680708",
+   "building:osm:way-1260680710",
+   "building:osm:way-1260680711",
+   "building:osm:way-1268664500",
+   "building:osm:way-1268664501",
+   "building:osm:way-1268664502",
+   "building:osm:way-1268664503",
+   "building:osm:way-1268664504",
    "building:osm:way-1304413008",
+   "building:osm:way-1327297218",
+   "building:osm:way-1327297219",
+   "building:osm:way-1327297220",
+   "building:osm:way-1327297221",
+   "building:osm:way-1327297222",
+   "building:osm:way-1555827557",
+   "building:osm:way-1555827576",
+   "building:osm:way-1555827747",
+   "building:osm:way-1555827753",
+   "building:osm:way-1555827783",
+   "building:osm:way-1555827784",
+   "building:osm:way-1555827807",
+   "building:osm:way-1555827825",
+   "building:osm:way-1555827826",
    "building:osm:way-1555828305",
+   "building:osm:way-1555828346",
+   "building:osm:way-1555828369",
+   "building:osm:way-1555828387",
+   "building:osm:way-1555828448",
+   "building:osm:way-1555828548",
+   "building:osm:way-1555828578",
    "building:osm:way-1555828635",
    "building:osm:way-1555829181",
    "building:osm:way-1555829212",
+   "building:osm:way-1555878641",
+   "building:osm:way-1555878642",
+   "building:osm:way-1555878643",
    "building:osm:way-1555878759",
    "building:osm:way-1555878762",
+   "building:osm:way-1555878763",
+   "building:osm:way-1555878764",
+   "building:osm:way-1555878765",
+   "building:osm:way-167140767",
+   "building:osm:way-167141183",
+   "building:osm:way-167141190",
+   "building:osm:way-465897736",
+   "building:osm:way-496480941",
+   "building:osm:way-496480959",
+   "building:osm:way-496480960",
+   "building:osm:way-496480963",
+   "building:osm:way-496480965",
+   "building:osm:way-496480966",
+   "building:osm:way-496480967",
+   "building:osm:way-496480969",
+   "building:osm:way-523341834",
+   "building:osm:way-523341841",
+   "building:osm:way-523341847",
+   "building:osm:way-523341848",
+   "building:osm:way-523341862",
+   "building:osm:way-525991526",
+   "building:osm:way-530694515",
+   "building:osm:way-530694519",
+   "building:osm:way-530694524",
+   "building:osm:way-530694527",
+   "building:osm:way-530694528",
+   "building:osm:way-530694529",
+   "building:osm:way-530694530",
+   "building:osm:way-530694531",
+   "building:osm:way-530694532",
    "building:osm:way-549198636",
    "building:osm:way-549198637",
    "building:osm:way-549198650",
@@ -5365,16 +9126,73 @@
    "building:osm:way-549580969",
    "building:osm:way-549580977",
    "building:osm:way-549580978",
+   "building:osm:way-550281081",
+   "building:osm:way-550281082",
+   "building:osm:way-550281083",
+   "building:osm:way-550281084",
+   "building:osm:way-550281091",
+   "building:osm:way-550281094",
+   "building:osm:way-550281098",
+   "building:osm:way-550281100",
+   "building:osm:way-550281101",
+   "building:osm:way-550281105",
+   "building:osm:way-550281106",
+   "building:osm:way-550281112",
+   "building:osm:way-550281113",
+   "building:osm:way-550281115",
+   "building:osm:way-550281116",
+   "building:osm:way-550281117",
+   "building:osm:way-550281118",
+   "building:osm:way-550281119",
+   "building:osm:way-550281127",
+   "building:osm:way-550281128",
+   "building:osm:way-550281129",
+   "building:osm:way-550281131",
+   "building:osm:way-550281133",
+   "building:osm:way-550281135",
+   "building:osm:way-550281136",
+   "building:osm:way-550281137",
+   "building:osm:way-550281138",
+   "building:osm:way-550281139",
+   "building:osm:way-550281140",
    "building:osm:way-550281143",
    "building:osm:way-550281144",
    "building:osm:way-550281145",
    "building:osm:way-550281149",
    "building:osm:way-550670494",
+   "building:osm:way-550670499",
+   "building:osm:way-550670507",
    "building:osm:way-550670509",
+   "building:osm:way-550670511",
+   "building:osm:way-550670519",
    "building:osm:way-550670523",
    "building:osm:way-550670527",
+   "building:osm:way-550670535",
+   "building:osm:way-550670541",
    "building:osm:way-550670561",
    "building:osm:way-550670567",
+   "building:osm:way-550682279",
+   "building:osm:way-550682280",
+   "building:osm:way-550682290",
+   "building:osm:way-550682294",
+   "building:osm:way-550682299",
+   "building:osm:way-550696277",
+   "building:osm:way-550696281",
+   "building:osm:way-550696283",
+   "building:osm:way-550696285",
+   "building:osm:way-550696288",
+   "building:osm:way-550696290",
+   "building:osm:way-550696295",
+   "building:osm:way-550696296",
+   "building:osm:way-550696298",
+   "building:osm:way-550696300",
+   "building:osm:way-550696301",
+   "building:osm:way-550696302",
+   "building:osm:way-550696303",
+   "building:osm:way-550696304",
+   "building:osm:way-550696305",
+   "building:osm:way-550696306",
+   "building:osm:way-555549404",
    "building:osm:way-584420071",
    "building:osm:way-584420078",
    "building:osm:way-584420079",
@@ -5385,10 +9203,128 @@
    "building:osm:way-584420116",
    "building:osm:way-584444598",
    "building:osm:way-584444599",
-   "building:osm:way-584444604"
+   "building:osm:way-584444604",
+   "building:osm:way-586741200",
+   "building:osm:way-586741201",
+   "building:osm:way-631888581",
+   "building:osm:way-631888582",
+   "building:osm:way-631888583",
+   "building:osm:way-631888584",
+   "building:osm:way-631888586",
+   "building:osm:way-631888587",
+   "building:osm:way-631888590",
+   "building:osm:way-631888593",
+   "building:osm:way-633076244",
+   "building:osm:way-669961035",
+   "building:osm:way-669961037",
+   "building:osm:way-669961039",
+   "building:osm:way-669961040",
+   "building:osm:way-669961043",
+   "building:osm:way-669961045",
+   "building:osm:way-669961049",
+   "building:osm:way-669961051",
+   "building:osm:way-669961053",
+   "building:osm:way-669961059",
+   "building:osm:way-669961061",
+   "building:osm:way-669961063",
+   "building:osm:way-669961064",
+   "building:osm:way-669961065",
+   "building:osm:way-669961068",
+   "building:osm:way-669961069",
+   "building:osm:way-669961071",
+   "building:osm:way-669961074",
+   "building:osm:way-669961075",
+   "building:osm:way-669961076",
+   "building:osm:way-669961080",
+   "building:osm:way-669961081",
+   "building:osm:way-669961083",
+   "building:osm:way-669961084",
+   "building:osm:way-669961088",
+   "building:osm:way-669961090",
+   "building:osm:way-669961091",
+   "building:osm:way-669961093",
+   "building:osm:way-669961094",
+   "building:osm:way-669961095",
+   "building:osm:way-669961096",
+   "building:osm:way-669961097",
+   "building:osm:way-669961098",
+   "building:osm:way-669961099",
+   "building:osm:way-669961101",
+   "building:osm:way-669961102",
+   "building:osm:way-669961103",
+   "building:osm:way-669961104",
+   "building:osm:way-669961105",
+   "building:osm:way-669978233",
+   "building:osm:way-669978236",
+   "building:osm:way-669978237",
+   "building:osm:way-669978239",
+   "building:osm:way-669978240",
+   "building:osm:way-669978253",
+   "building:osm:way-669978256",
+   "building:osm:way-669978263",
+   "building:osm:way-669978264",
+   "building:osm:way-669978283",
+   "building:osm:way-669978284",
+   "building:osm:way-732610690",
+   "building:osm:way-732610691",
+   "building:osm:way-732610693",
+   "building:osm:way-732611735",
+   "building:osm:way-732611736",
+   "building:osm:way-732611737",
+   "building:osm:way-732611738",
+   "building:osm:way-732625173"
+  ],
+  "not-earlier": [
+   "building:osm:way-165234949",
+   "building:osm:way-165235029"
   ]
  },
  "tiles": {
+  "ortho-1991-17-80061-26022.png": "561e8b857acc922aa6ad13b9aaeaaa27a9f8c7c79ef7c4f6a668e55f95a0cc3f",
+  "ortho-1991-17-80061-26023.png": "48abcbeb7bd210f0862e8a18c29e5b07285887bca1169f1503389e0e7340887a",
+  "ortho-1991-17-80061-26024.png": "4afe183043aba9a28ccf601a7b6321c762117ba43c5305b4924f4bb13f44d6c1",
+  "ortho-1991-17-80061-26025.png": "dfb0dbd13c827e6ebcb6b85be750abf27e8331cb0eea5c2006b41acd90aff2e1",
+  "ortho-1991-17-80061-26026.png": "e4f9a78c360e839cb669a91fc8d859b88f2202794594fd2c299a5e383d30a957",
+  "ortho-1991-17-80061-26027.png": "b8fe99da766add1dc28c435eaf7313b48c82dcd36967db39cb8ffafa23ec6427",
+  "ortho-1991-17-80061-26028.png": "eb1c05a2c3a44d4631050b5e51ba88c1a6c879cec8f8d827eada9e42ff184bd3",
+  "ortho-1991-17-80061-26029.png": "731f0a91249d51b0d9f127f342443331717fa60af72be4e5397784b759ebb0ad",
+  "ortho-1991-17-80061-26030.png": "0897affceb2e8e8130dda31448652c6331166958d57c20a04134d3b19f6e2a5c",
+  "ortho-1991-17-80062-26022.png": "08448f429ca71c06c29ca252eb2ddf6569edc89a52242c691589f2118f1e90c7",
+  "ortho-1991-17-80062-26023.png": "669b33b90523ea1dc0fdc58e54312817f1c246cfe3e8db975e72f71465b2da19",
+  "ortho-1991-17-80062-26024.png": "894abf198ea66c81c02daca74c9664999f36e319e8e143c4fc622a139d69fd83",
+  "ortho-1991-17-80062-26025.png": "482d84206c80d03f7ef9eba936b5afee0043a334365cec5eaced475a7e410e10",
+  "ortho-1991-17-80062-26026.png": "3c91ed78f043d31b315db222092855b7bd785e874d6af28a758c7dc2a1af8ac7",
+  "ortho-1991-17-80062-26027.png": "d413a57f3e42e131f4c6ac306b98611be425af3ae3009343b439d78792c8e1c3",
+  "ortho-1991-17-80062-26028.png": "2f92f728475874ec3a8e7f3ffc4ece60fc5b44a3fb60a64b0c8c08ad81b62c60",
+  "ortho-1991-17-80062-26029.png": "cf0e52c001dd978be9dcceb195297f5eac9ae0777a55a89f4113313eeeddb446",
+  "ortho-1991-17-80062-26030.png": "754e413ceee75b189c070f9fa4a89c1bc5ac7404d61baea0df47c37d21a2ec08",
+  "ortho-1991-17-80063-26022.png": "06b2b917ce4be91c54f677569c7da7078d95e8292c80a04e3f3f0afa7449afbf",
+  "ortho-1991-17-80063-26023.png": "627808d9f2d886e26680f25f9a6525ff628d84b5ea25e550f8b0670c7be030ff",
+  "ortho-1991-17-80063-26024.png": "7546d25191f9f2c33fea4be980c4d1055cb66109261e404d67d0c41917c37dbf",
+  "ortho-1991-17-80063-26025.png": "0a5c95ef30dda20588a87657737cc35aa4e82e05402a4c302101b9a7cdc251e9",
+  "ortho-1991-17-80063-26026.png": "d402dc1a6545876be3ab33fcb789e9bf290266e52ee60911b13016b167772f05",
+  "ortho-1991-17-80063-26027.png": "ae4ca766fb2823f909012f97b0f55376dd219b25b053cb931387700693c14330",
+  "ortho-1991-17-80063-26028.png": "700b197f16b2867d6683deeb4ffa519f577771f5fee2f9cf1201eea6dfa2c111",
+  "ortho-1991-17-80063-26029.png": "793203d023e5b057adf9a7ed4ca89640664ef299bcd9f05542b9ad29a764e82f",
+  "ortho-1991-17-80063-26030.png": "3c262eddc785757b9310e37c14ccf388b69af5173af5e3bc37f8a41860013d70",
+  "ortho-1991-17-80064-26022.png": "c7d623fed5a78cfb9349096b4d560a30c252de9f070beb6172676200f5443639",
+  "ortho-1991-17-80064-26023.png": "a292f968fb6b9632033ac8a48e0164e74dce918464870d4c432625f4f977c1ce",
+  "ortho-1991-17-80064-26024.png": "b940125c271d32ea022d532bcec808d90339af2a19a2d757e64b626d0cca6d0b",
+  "ortho-1991-17-80064-26025.png": "4e507df9c4f95d69ab5ea7bb30e20cc9ade007df35988b0a14decd5a8940e91a",
+  "ortho-1991-17-80064-26026.png": "d7b4028ffb210956271ce48fe07a8d6873e8b63944e3760bba2fb9b0f6ee97f6",
+  "ortho-1991-17-80064-26027.png": "3ab4903c72eb3b96f804bc20011ac7a1d6ce86f59560c035acb6c250966d6bbe",
+  "ortho-1991-17-80064-26028.png": "1d94a2076c49a4212832d855d9ce7732a391fa5b211d8c32acefd22802c61ef8",
+  "ortho-1991-17-80064-26029.png": "86bbd638286d510be79f7a93c2500c1957115ef1ae3ac992ebcc4aff8a79f5d9",
+  "ortho-1991-17-80064-26030.png": "0165c9a70e64fa90b83e93e8779cadb724b83ecd664bd612954841bb78fd9b09",
+  "ortho-1991-17-80065-26022.png": "29930f537b26f853e1ced80279240371af4653f2a9d22e22adfa2308eaf4ba4e",
+  "ortho-1991-17-80065-26023.png": "6418d23fd81419019ff78890c2779855c5aed3230959e816dfb622ffee30c331",
+  "ortho-1991-17-80065-26024.png": "704da87047a68906989a259f8177dc9364072a4d9ec564ec02a231cace9db964",
+  "ortho-1991-17-80065-26025.png": "69d2e49db0a8f7e79cabcc7db5e6f4cd4e061b8932435b2b6d951ae5a2d2b712",
+  "ortho-1991-17-80065-26026.png": "57f4d7b118fff5380c4475bb6cc60f217620ef555ad849a08792211bf43cb54a",
+  "ortho-1991-17-80065-26027.png": "a13c0d271a1b994582d82932919c2e17a8ace86f8edb25b3e19b9312a6880761",
+  "ortho-1991-17-80065-26028.png": "869f47af4b1cffa94c6a4c0ad95cd7539aadf860fe0980476f69391e96970dec",
+  "ortho-1991-17-80065-26029.png": "8c7f9973081663c01f61db36458f8b4a38ea6bfe2e5dc35afdec80d0b94b2718",
+  "ortho-1991-17-80065-26030.png": "e38ec7dd713bd32262fc271875cdb48268b103ceed1bf18d835c93c479e31e34",
   "ortho-1991-17-80066-26022.png": "c6d265f531534bd7ee004adc875e349fc15a1ea4b5bab94848b6993411f7c715",
   "ortho-1991-17-80066-26023.png": "b484288245a7d4c0cb72937f63821cf06938ddb57ae28ea8ad1287e0bb920081",
   "ortho-1991-17-80066-26024.png": "9a92abb276900fd83eb8633bde45ce1cb42b47672b27776eaa1bbb08edda41ac",
@@ -5443,6 +9379,51 @@
   "ortho-1991-17-80071-26028.png": "990066b27f128b1be6081de76926c15dae4527048e5f9009d177158b1d8f1a29",
   "ortho-1991-17-80071-26029.png": "f926542acd50f8d5f27144742275f2df6bda445462226ab0685facf544e7fbf7",
   "ortho-1991-17-80071-26030.png": "68d0b5ef49e906e1a37cddb8a4bfd15a280fd61267d79c6c586672c227f49972",
+  "ortho-1999-17-80061-26022.png": "a2ab57ee335fe924d004fb1d34592e74d29862abbbbb1032b3bef6a53d1a0222",
+  "ortho-1999-17-80061-26023.png": "abd9d3aeaa8a24c41053c0cad47bea49b23f2f70ccb8e105ee1e8238dd6f85be",
+  "ortho-1999-17-80061-26024.png": "9e4a5d656e766c1e980fba26609dc91c279d43861cf7d651fc0f78974f2b5a82",
+  "ortho-1999-17-80061-26025.png": "ba4bb420cea1fd4d9051877552096a89c54305206e4eca2e319eac20e1fad0c9",
+  "ortho-1999-17-80061-26026.png": "d13f07278a307908362292421db5b7597448d0592166d14cc6603cdf74aa2848",
+  "ortho-1999-17-80061-26027.png": "cdaaaebfe630903977db6a52e0ea97dbd24d54204aee2211b083286e493a88ba",
+  "ortho-1999-17-80061-26028.png": "c9a0fb9277560ab4ad4bd735b86e41a9a7c8a169ef469c9cae85f177c524a01f",
+  "ortho-1999-17-80061-26029.png": "bcf274ad9c1a4517cad19f707654a1aebadce020900e1fb8ddebd91a3134e8cf",
+  "ortho-1999-17-80061-26030.png": "27aa9389d6e384540ce65631f4a4ee0fba72b8b3827a4d81b07a672bb62a425e",
+  "ortho-1999-17-80062-26022.png": "7f4b38f48de3025cc02ed30a7e1239bd9d953077137cd74735c4dde25477d163",
+  "ortho-1999-17-80062-26023.png": "a05b4839b5555fc9311d14ba6a149cc133e57a10f617e9792dbfd97d0146aa6c",
+  "ortho-1999-17-80062-26024.png": "8494b5ac3594f8bcbfcd5cb8748032225d3c30deab60338939478ef64f2160c4",
+  "ortho-1999-17-80062-26025.png": "8dbefb4a4415af8904ebeff3e4246b7b6230331f7b9727d1631122ad349c4206",
+  "ortho-1999-17-80062-26026.png": "9dbc0ea679cf4c50a2e9eac3ddf11070779c04867d6720ba656ef47539b44cc5",
+  "ortho-1999-17-80062-26027.png": "736c725a9bc028dd8cc0494def890cf0ca055ec3c54bb80d8a9641318e523451",
+  "ortho-1999-17-80062-26028.png": "c8281ecf2e0afc270e395d2f90a758a8955593cbcce00d6f23a7e5ac19632b3f",
+  "ortho-1999-17-80062-26029.png": "d06781e6cddb32a2ab96a231eb6399d4a423ae081205bd98c82f52d6ff58dcc7",
+  "ortho-1999-17-80062-26030.png": "b32a8e868c17a43881d1dfd76b4f4ad541472468a08ef79400820aeef03b9782",
+  "ortho-1999-17-80063-26022.png": "e98eda4dd25c2328a90e3204b735b99f5cec3eeb82f8195f366eb57f6b5b9c87",
+  "ortho-1999-17-80063-26023.png": "770921fe1d276de5e7465e7b41362c7ff664d5ff79ed0ab60eba2bd850e0a501",
+  "ortho-1999-17-80063-26024.png": "8494c381ce5f97dac59d273bb16a1ae2d18b3522d77b86c4ab6e404fa6980df6",
+  "ortho-1999-17-80063-26025.png": "66093fb4174547dbe92b98e219c1d1aeb967735ed1f76336cd0fd33f833f943d",
+  "ortho-1999-17-80063-26026.png": "097f9615998cdf17892d6c919fd795ef49a0ec32ee9ac7a3b67cc2e5d9242596",
+  "ortho-1999-17-80063-26027.png": "6e2a71f5e19be98296734898102749fa73562ff95aa6e27160b3439c8a6ab130",
+  "ortho-1999-17-80063-26028.png": "098eed3e66c1705010889e7e0b124e001202a74161ef3814f1f4d574a05b01a6",
+  "ortho-1999-17-80063-26029.png": "7d69f945b07119306fd9dedf35eefa943176b871926b4bcccf2b546395eb0101",
+  "ortho-1999-17-80063-26030.png": "bcb83d9527bed5709630931c6383a08113fdfb779118f73a91d9e2174c80422c",
+  "ortho-1999-17-80064-26022.png": "fea8dd2e79ef72eb19461892c9f1de69bd680c315dd07fb59e2865afd7bea204",
+  "ortho-1999-17-80064-26023.png": "af099c7c66c9c76fc99f4da9c8a04f5425a4c4df10c23427e3445bd5c8d44932",
+  "ortho-1999-17-80064-26024.png": "c68c120f4ce03ea20ab93a4add65246ae0fee6cb9cfed8d1be71372d94a55c04",
+  "ortho-1999-17-80064-26025.png": "e8b78383066e1424f3ea7de3d7ad6059335f141eb304a0eeb6f5c6f3830b7c40",
+  "ortho-1999-17-80064-26026.png": "a449354adac53388229e3742610c091546d0b0a710984699ad2833d0016718d5",
+  "ortho-1999-17-80064-26027.png": "1f21c181da1882eb81d904b70d650349cd830c19d7a26774dd9f2c5bcce68405",
+  "ortho-1999-17-80064-26028.png": "50ea2fa06e4ef55f5f22b2283222f292549fb9286be5e2db3de71a4f8f038ba9",
+  "ortho-1999-17-80064-26029.png": "61b7cc00950aae624e9b12e25d64ee5395ef8178713d8f454bd8dcf401d5d071",
+  "ortho-1999-17-80064-26030.png": "309b2e167bb7b09b3876988ae05cf683c59cce7cc84151ebc04db2890068cd06",
+  "ortho-1999-17-80065-26022.png": "e8094c23e7f1a1a982a0481c517635196d6ecd56ba7d1bc1b1940f90ff2617e8",
+  "ortho-1999-17-80065-26023.png": "4b77837f39787586420fdd6379a7f546a49039578a3d2a5ea2d0a18852efb355",
+  "ortho-1999-17-80065-26024.png": "acf9131ff085c3dac727a0d578113b1ec4bc4748b73647b09d2f373ae6044c65",
+  "ortho-1999-17-80065-26025.png": "cd536d34753d8d9c7e63d8a43fa5e8c82cbffda817874f4850c2d7877f50bf66",
+  "ortho-1999-17-80065-26026.png": "7f769375f0306cc6e7fa05d7df8b1e09f32dfe8641aa04bcf8b037e840849eaf",
+  "ortho-1999-17-80065-26027.png": "9088342bff67429e2c4f1b642b08b954617316c882350d1d469d6bc49fd62814",
+  "ortho-1999-17-80065-26028.png": "3bce15756108471eb0a6bfa53d6dced6513473439e7e16e8bb41c48eb1b89470",
+  "ortho-1999-17-80065-26029.png": "5046f5ee14febfce36a9d7e31b9381ef4589882ea7ff67fc0f15e3e93a7fb3de",
+  "ortho-1999-17-80065-26030.png": "7d9a4e33ebaf2f4a3ee6c65ae8c5226bdb6100cfa088e70f61148ba944ecdfc9",
   "ortho-1999-17-80066-26022.png": "340dcf5473f16ee35e564302f2341d41b52c5e633ea33e7b07c28d16070f356a",
   "ortho-1999-17-80066-26023.png": "877c04223b85ae22f8588fbc79b60d4ef5d6dea6270e66b8513ae28a25e7ad36",
   "ortho-1999-17-80066-26024.png": "1326ec3609489b5f36bcee944d7e74545f1ab904e10fd98a5a63a383e9077f86",
@@ -5515,6 +9496,51 @@
   "ortho-1999-17-80073-26028.png": "5bd07bc0bd6890f6509ad8927e5351f0e837a15987a55f9bf7a7296ae1218830",
   "ortho-1999-17-80073-26029.png": "5bd07bc0bd6890f6509ad8927e5351f0e837a15987a55f9bf7a7296ae1218830",
   "ortho-1999-17-80073-26030.png": "5bd07bc0bd6890f6509ad8927e5351f0e837a15987a55f9bf7a7296ae1218830",
+  "ortho-2007-17-80061-26022.png": "af558010957fed3f8878a323dbaf3ee5b6678273b9d6ded8dd1fc91a609d6835",
+  "ortho-2007-17-80061-26023.png": "6df22e873292b2a3aac8d7a2983c3175fe5b253e314c9a80720fde53946d7db4",
+  "ortho-2007-17-80061-26024.png": "f3812fec69637d3d2ca25cce10a3393042abb2d8d522e0ece23a9e1d37d732d1",
+  "ortho-2007-17-80061-26025.png": "01be097ec5dfd973823f0fc92e37a0a0c9dcbe80aebf1c67704f1aeaa3bed427",
+  "ortho-2007-17-80061-26026.png": "ea0ffac35e0b7e7926673ef12ee10e69cc86aaa47f925a1e2b51d6b77dbe9b6b",
+  "ortho-2007-17-80061-26027.png": "ca045ed15e556baa3daffd93a50f628f2d6d527617edd6ca0629c3311540cb35",
+  "ortho-2007-17-80061-26028.png": "e60a51197c16289d3ae6147c0fb67b44544c72b980a839b144e0d12b254f7fd6",
+  "ortho-2007-17-80061-26029.png": "7e96fd77e8bcb12fefd6b97d01515733ef63722a4e220e8232eb5d74a4e7c2bb",
+  "ortho-2007-17-80061-26030.png": "7f1b4c746ad5e05031462651a74e8645124bf53656c1f75f1fc46f6b40e1e288",
+  "ortho-2007-17-80062-26022.png": "b6589762414a66f16e9a0a7668b09bb671f65a38886666a783d57b4bd25e291f",
+  "ortho-2007-17-80062-26023.png": "52541cbdfd3e35a72da07ba5e083f422712a29ef9dbabb56aea9d91a32c28385",
+  "ortho-2007-17-80062-26024.png": "ab5c327495d02176454cc5324b1ed00eb313b71ffab7cead21c662037e4dc18f",
+  "ortho-2007-17-80062-26025.png": "bf4c127af4a50dfccb856642e97768a0c867ba8e618c009f51158af4e2d7c40a",
+  "ortho-2007-17-80062-26026.png": "f76857ea57305bf43239026366f24722f1962d055ef77a9ddaf7d9b609da63a3",
+  "ortho-2007-17-80062-26027.png": "336037365dcaa50615e5629735c30a8ae1875990a4338e3a3295f6e1fdbc3d4c",
+  "ortho-2007-17-80062-26028.png": "df74003b2a55a172d1c9eb3221ca9ff2860fb3c65308cb9b2e2691b500bf1b44",
+  "ortho-2007-17-80062-26029.png": "b0ac140effdd782054b1a9003e6b299bc7126ccbaf2720a0b6b03eca70d0dab0",
+  "ortho-2007-17-80062-26030.png": "c4c5b2fac16496e68d95c438df8ec1c2216cb8011ea36a706c3a4c3105595cb1",
+  "ortho-2007-17-80063-26022.png": "2048c2b9a214485b4f3d3780348b5bbf05d1ba065439a2cf89701a63135a4710",
+  "ortho-2007-17-80063-26023.png": "6ee581d17b3c30f01306a6a41be4484ff32409b053bc30fe1d72070faa619d7c",
+  "ortho-2007-17-80063-26024.png": "ceecf3e5a34e9fff58fe3d3195e7a3be6b089b45ba922d0ccfc0254ba698507c",
+  "ortho-2007-17-80063-26025.png": "a30a2e30c309ae5190acc9f97cc01997318142f38b7cccfd8ae64762387b0135",
+  "ortho-2007-17-80063-26026.png": "41ae889ad14becaa4f3852165f766b7cadb5aad6ce858ac48de2fd4dea4abbc2",
+  "ortho-2007-17-80063-26027.png": "4298ca792b9c8638d9ed74d85ee86d1c53017f94ff5d0a50250127a477aaf148",
+  "ortho-2007-17-80063-26028.png": "fad5897f3ec69b7449cb40bdb01ba6f38cbc33551c43834b56419550609f042b",
+  "ortho-2007-17-80063-26029.png": "12368715308e7b16c4a03b45ba2220a933a5ce19b72bd62558d9be2e7f58184c",
+  "ortho-2007-17-80063-26030.png": "c3beb0623fdd0111749f30f300380ec1344268b5628055c99cb04788cb5e03cf",
+  "ortho-2007-17-80064-26022.png": "50c3d084b9030fc5a81af1750d4665730b3f96376b6eccdfb76037545c3905e3",
+  "ortho-2007-17-80064-26023.png": "151249980618ae52f30c5f6707fa8cb0c65641a08a1058cf0486b43ca68e1316",
+  "ortho-2007-17-80064-26024.png": "8d9b9397f3c463593b42135c0e7334d0059ba7d803e6bd546eb006dd62a76e77",
+  "ortho-2007-17-80064-26025.png": "aba354c0ae13d5b9b8c6f4d3b91cea06b5fd417bb80f7730c60be940e50fef66",
+  "ortho-2007-17-80064-26026.png": "2d54a6c36f9dad2bc7e5658f41a6bf482e71ae9562c50b5083c5f1d7e0d73e4d",
+  "ortho-2007-17-80064-26027.png": "a430110e46957b087b2d21b4ebc518f6955c94372d636127848dbf471615d316",
+  "ortho-2007-17-80064-26028.png": "738734cf77491c9a81d37533eb97e585401d68bfb03f60d8ac71cb7a28535e8b",
+  "ortho-2007-17-80064-26029.png": "da17e1c52629d2ef407b5668b3e49c0c23cfeb5734e01c4cddb2d860d216e9ec",
+  "ortho-2007-17-80064-26030.png": "c4f9edac71d5b3425020cdb77204fbb5297d736fbe04b4fcaef1e2df3dedd0f2",
+  "ortho-2007-17-80065-26022.png": "c18e021cc6ac1031ae110918d01357ba9e6dcb88d39b68e0d674515d5c52a210",
+  "ortho-2007-17-80065-26023.png": "112b7801dd6bd12551de088a99ca373abf7ecbe1d273150e36d871870c395fe6",
+  "ortho-2007-17-80065-26024.png": "2fc6cac574f81fa5dfbabd9695314e288cd51a5df38241b12bb8e921dcfab76c",
+  "ortho-2007-17-80065-26025.png": "ce0eb91e39bae93219d48f057a31e26dab6fb39753f104e68c3e83209643a92b",
+  "ortho-2007-17-80065-26026.png": "812eea457b19749cc2861f11d3c8912395534fad56a6d82696c9dd0da1ddf7eb",
+  "ortho-2007-17-80065-26027.png": "33196c52dd49f5c52c8733b7b192a5ff2843b30e261ed4665e1abb799f495fd2",
+  "ortho-2007-17-80065-26028.png": "db56cb72634814f785ff679dbd12c4cfe33f5cc028c6937e9c19704bb9dded50",
+  "ortho-2007-17-80065-26029.png": "664b2e8ee2d819ad7c48f4b889b40cd1f372672c4f2c57edf92893032c012683",
+  "ortho-2007-17-80065-26030.png": "13e06a34cee747f8c1bf89ca37510b2fea7577a447c9487d8af8539bba0f8514",
   "ortho-2007-17-80066-26022.png": "821b5d086d7b53800112ee838e91a3b2939820e2f81d20f3cd7422d1ec16862c",
   "ortho-2007-17-80066-26023.png": "bd658d4e8a95f0e17453b1314840411d33be25dfcd9aed18ecb8299a407f19a9",
   "ortho-2007-17-80066-26024.png": "db0e07f1af8001888ab7505311b620b6384d2320243acc31f5043111200d9881",
@@ -5587,6 +9613,51 @@
   "ortho-2007-17-80073-26028.png": "5bd07bc0bd6890f6509ad8927e5351f0e837a15987a55f9bf7a7296ae1218830",
   "ortho-2007-17-80073-26029.png": "5bd07bc0bd6890f6509ad8927e5351f0e837a15987a55f9bf7a7296ae1218830",
   "ortho-2007-17-80073-26030.png": "5bd07bc0bd6890f6509ad8927e5351f0e837a15987a55f9bf7a7296ae1218830",
+  "ortho-2015-17-80061-26022.png": "f96414f2b39e5f90241cf52f0ba2c13794a23446123a31e9eb06dc19aa4cba2a",
+  "ortho-2015-17-80061-26023.png": "eb9284555ae8d3a34fe2dd3195930c5eddc584153717e11439e2fc5b993981d3",
+  "ortho-2015-17-80061-26024.png": "38c84d59823353087616d57e8af84dbec9e5165736b6c8ae23e1cc9412b6c01a",
+  "ortho-2015-17-80061-26025.png": "26b00c73c57a670fc313de389e56f783b470a70cfd1d348ed38da00cbcad345c",
+  "ortho-2015-17-80061-26026.png": "ee323206075a98d45bd704fde90ef81c87fef5c73b0b0c21de06f12ef7234fbb",
+  "ortho-2015-17-80061-26027.png": "657d9f7d4ba18d9a32cd361f807ef3b111bad9efae0444d155642a5cfddcf67f",
+  "ortho-2015-17-80061-26028.png": "8e9ce1bf2d6c70a92b86c37d0f3d05083ecf6c2d99ebba52df08766acf9600d5",
+  "ortho-2015-17-80061-26029.png": "355b89f254ce4860f6d78a7a001e0894d2cf598961ccbb772ab58389ca38f79c",
+  "ortho-2015-17-80061-26030.png": "b9ae7da793ea8b735e1a19a5cba7fd69ea2ba5cc0dc4e839a910616415c34253",
+  "ortho-2015-17-80062-26022.png": "17e0cd4b80ea041ac733de215eb79c648bc0ad5e832a46537f3a5e94754fe4ad",
+  "ortho-2015-17-80062-26023.png": "b817d2c70467dfcfb0657a49cced3b9d46e8188b3b5a84a7e3586556871dfe47",
+  "ortho-2015-17-80062-26024.png": "9fd7fe2ce6ba678142bf0b8ced21d8ba105b056035fe8d416ad44177663062ae",
+  "ortho-2015-17-80062-26025.png": "4fa1ac472779d5272814ba1ba4ef3d0d4b888b17faa5976983433d0cc28690c8",
+  "ortho-2015-17-80062-26026.png": "5933394ec59054cb2b37cc86de27ceae433207614cf2eb0cf4d04afa5332a5db",
+  "ortho-2015-17-80062-26027.png": "0a7892a2315d8b3824e58d16829ff931f0b6a2198589ce63d1296267f5662d2c",
+  "ortho-2015-17-80062-26028.png": "4af341143542b3c5bb738803b6b15a2e648c39731c2bff2da978b298229dbf7c",
+  "ortho-2015-17-80062-26029.png": "17c8b95ac2486285f2533d18bc335a60b28adea7398bac4548cf080303d6ec34",
+  "ortho-2015-17-80062-26030.png": "7e4ec7ed106fbdb0998fec1d9dcfa70836e7f2fbdd23747f29e0fdfdfb0aeefb",
+  "ortho-2015-17-80063-26022.png": "2f87ec8a44bd0724a902b19aa437158ced1ecba3c008e773a13f1d22b3021a23",
+  "ortho-2015-17-80063-26023.png": "5c412939c96da5ca3b978784ada33d8a82257294e3cb7d7cd7af40624fc77169",
+  "ortho-2015-17-80063-26024.png": "9cab53967ae73cf7fe31461d569ce19d64ba89e776c68b4a1174cb26b8e8c1b3",
+  "ortho-2015-17-80063-26025.png": "21698168c8a9ff0574fc58bfcb69056af291150b76240bb3d107e5a801b10fab",
+  "ortho-2015-17-80063-26026.png": "ddaefbf4ac0e23955e78d7141f8f4efbd3ebcb767f5e9f0777c3cd760c8a8304",
+  "ortho-2015-17-80063-26027.png": "91d6d43f8ac010c1512e4e7e77f8b4c6268637d4c210e2ae0ee705d3aa18645e",
+  "ortho-2015-17-80063-26028.png": "e68e73c8a88a64d602c0de0fd5cd163b2eccc60c1c28109cec5ab48c64615d41",
+  "ortho-2015-17-80063-26029.png": "00bf9a263f5ab08e6b17492a6cab13a1fc9432efb7a956a865f8788241874286",
+  "ortho-2015-17-80063-26030.png": "a6f0b8548f45a51e3c3d0fcd9b67b7596a4dd992cff705edce1642fc1e112b00",
+  "ortho-2015-17-80064-26022.png": "05c5f661e4dbd09ad166b75d8df7f5035531924a3e3f320d7f3bf767032d4a5c",
+  "ortho-2015-17-80064-26023.png": "e25e849c6f606cac28989e2514b6ec6123646875ec603f28995ca5fc0cc644ff",
+  "ortho-2015-17-80064-26024.png": "191c5b94dde5522c99c8258e8cb4f8fe46ce18d8c4c2d4257d388bfaf182be45",
+  "ortho-2015-17-80064-26025.png": "ca94871907dfe5b30ad10544872e39ccffe52df16ce1e4a19807105c3613bb88",
+  "ortho-2015-17-80064-26026.png": "ec62beed38d60aa6427ac634f00ac73f663ce96f581ff38cb9a4205804efeed2",
+  "ortho-2015-17-80064-26027.png": "0b73e17dc524beed77e0d02311d28bb544fbd13853f7291c61a9deba40e2e818",
+  "ortho-2015-17-80064-26028.png": "b2bf9c5b80a34fea4788e6989f16ec2b8a5a7b0b00e67e35a7dfb4fcc8462d99",
+  "ortho-2015-17-80064-26029.png": "76e360569bde52d5488e3f2bfe986cac325b194178b0764037ba06c860fe3ed4",
+  "ortho-2015-17-80064-26030.png": "7df13d5e5e0728023d91766e34795c584c5f2ea9d8d70f97c14186c9184955c0",
+  "ortho-2015-17-80065-26022.png": "305fcd26a1474cdf824a53ecae7bf42c1e1eee1f69fe2b6bdf8fc48decc651fa",
+  "ortho-2015-17-80065-26023.png": "de7aac03027e7e7a853d6b4444acf793ad5ce93ce7845cdf1b2dd0b292be60da",
+  "ortho-2015-17-80065-26024.png": "785acb060ef742f960f5cfdda28135d2f6b385091a85b2613a4fb90dbe9898ce",
+  "ortho-2015-17-80065-26025.png": "eb91cb6a79c6609c5ee2d542e704f83d5e7dee0ff2b2fc3ac75b09d34253eb47",
+  "ortho-2015-17-80065-26026.png": "0dfe60bca2fc8d2ad42fb7eb3eae2a6e3af454e1f69cc9b9720d59549840257e",
+  "ortho-2015-17-80065-26027.png": "5c8ac8b22f2bc768b2b02b19959096af7ca8cb3416fe73ae25fe10c90961a222",
+  "ortho-2015-17-80065-26028.png": "8bf54e475af2976b47edff48721600f248dd64731a402e96631c0cef7c83d0ab",
+  "ortho-2015-17-80065-26029.png": "e62a8cf032eede4d4fb516ff86cbc00a4014ac8fd3f1c34c57787cb28464543e",
+  "ortho-2015-17-80065-26030.png": "b18b73b2388fcb19ecd6011a4849e71911850aff3240ea3809e05a0fd5e1fd91",
   "ortho-2015-17-80066-26022.png": "b1fb6039bf3d3a7f6bfe8ae16b67a7019b3a3ce00744e937d8f9fa055c614f5a",
   "ortho-2015-17-80066-26023.png": "12ec4c6cb10e20a0b8b6654114be2b30d5a3da2e4c7b633fabaae4883e0d12b3",
   "ortho-2015-17-80066-26024.png": "9a034d9e47484cdd2ac969600b88f5ce30825cc83e819af7afa616a9c88b9fbe",
@@ -5661,17 +9732,18 @@
   "ortho-2015-17-80073-26030.png": "1930ed7255db2c6f62391f8587b75a1a296b191d67dca5b30f5fc34201797374"
  },
  "totals": {
-  "buildings": 160,
+  "buildings": 272,
   "byFirstYear": {
-   "1991": 45,
-   "1999": 17,
-   "2007": 93,
-   "2015": 5
+   "1991": 92,
+   "1999": 26,
+   "2007": 106,
+   "2015": 48
   },
   "deferred": {
    "below-size": 1,
-   "map-ink": 9,
-   "no-photo-evidence": 74
+   "map-ink": 13,
+   "no-photo-evidence": 261,
+   "not-earlier": 2
   }
  }
 }

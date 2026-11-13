@@ -39,7 +39,7 @@ class Symbols1968Tests(unittest.TestCase):
         # compare the rest exactly.
         later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('r1', 'r2', 'b11')
                  or (o.get('reconstruction') or {}).get('createdByBuildingMapReview') or o.get('buildingPhotoReview')}
-        self.assertEqual(len(later), 517)
+        self.assertEqual(len(later), 629)
         self.assertEqual([o for o in json.loads(json.dumps(catalog, ensure_ascii=False))['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):

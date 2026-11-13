@@ -28,6 +28,8 @@ only from their first OpenStreetMap year (2012–2026). The town's orthophotos g
 | batch | area | dated | 1991 | 1999 | 2007 | 2015 | deferred |
 |---|---|---|---|---|---|---|---|
 | p10 | Östra Ytternäs (building-map batch b10) | 160 | 45 | 17 | 93 | 5 | 84: 74 no photo evidence or under 40 m², 9 map ink, 1 earliest outline under 40 m² |
+| p9 | Västra Ytternäs (building-map batch b9) | 112 | 47 | 9 | 13 | 43 | 193: 187 no photo evidence or under 40 m², 4 map ink, 2 start not after the first photo year |
+| total | | 272 | 92 | 26 | 106 | 48 | 277 |
 
 Most of Östra Ytternäs was built between the 1999 and 2007 photos; the 1991 dates are mostly garages and terraced
 rows that the map matching missed.
@@ -50,5 +52,6 @@ inconsistent (the start is not the first `present` photo or a later photo does n
 is under 40 m².
 
 Tests: `tests/mariehamn-building-photos.test.cjs`, `tests/test_mariehamn_building_photos.py` (pre-step snapshot
-`photos-before.json.gz` in the review cache). The scope audit finds exactly the 160 buildings changed, one new
-source and no geometry or city-stage changes.
+`photos-before.json.gz` in the review cache). The scope audit finds exactly the 160 buildings changed (p10), one new
+source and no geometry or city-stage changes; for p9, against the p10 release, exactly the 112 p9 buildings changed
+and nothing else.

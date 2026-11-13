@@ -1,0 +1,8 @@
+{
+ "snapshotSha256": "6465a59bedc796a0a9bba260a20bf8041bc834bd73d9f1f34ed4834b168adea0",
+ "catalogueSha256": "0ac73e574cb40b0c2db48da2846ab8064e830ce88c87b45c3b41b7e7fec007b2",
+ "vsPreviousPublication": {"baseRelease": "317edc02 (p10)", "objectIdsUnchanged": true, "changedObjects": 112,
+                           "changedEqualsP9Decisions": true, "geometriesUnchanged": true, "sourcesUnchanged": true,
+                           "otherTopLevelKeysUnchanged": true},
+ "modelCheck": "every decision resolves to nothing the year before its first photo and to a standing building in that year (tests/mariehamn-building-photos.test.cjs)"
+}

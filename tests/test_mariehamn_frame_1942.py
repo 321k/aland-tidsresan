@@ -43,7 +43,7 @@ class Frame1942Tests(unittest.TestCase):
         # frame review never touches; every other object must match the build exactly.
         later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('b6', 'b7', 'b8', 'b9', 'b10', 'b11', 'r1', 'r2')
                  or o.get('buildingPhotoReview')}
-        self.assertEqual(len(later), 757)
+        self.assertEqual(len(later), 869)
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):
