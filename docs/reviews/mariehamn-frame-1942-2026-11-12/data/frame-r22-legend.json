@@ -1,0 +1,132 @@
+[
+{
+"n": 0,
+"objectId": "road:postwar:way-172865147",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 283,
+"traceDistance": {
+"city-1942-trace-22": 220
+}
+},
+{
+"n": 1,
+"objectId": "road:postwar:way-38822117",
+"name": "Mariegatan",
+"firstOpen": 1968,
+"lengthMeters": 91,
+"traceDistance": {
+"city-1942-trace-22": 79
+}
+},
+{
+"n": 2,
+"objectId": "road:postwar:way-158304930",
+"name": "Skillnadsgatan",
+"firstOpen": 1968,
+"lengthMeters": 146,
+"traceDistance": {
+"city-1942-trace-22": 113
+}
+},
+{
+"n": 3,
+"objectId": "road:mariehamn:postiljonsgrand",
+"name": "Postiljonsgränd · västra gatudelen",
+"firstOpen": 1985,
+"lengthMeters": 158,
+"traceDistance": {
+"city-1942-trace-22": 181
+}
+},
+{
+"n": 4,
+"objectId": "road:mariehamn:vaktargrand",
+"name": "Väktargränd",
+"firstOpen": 1985,
+"lengthMeters": 168,
+"traceDistance": {
+"city-1942-trace-22": 78
+}
+},
+{
+"n": 5,
+"objectId": "road:mariehamn:mek-mattesgrand-west",
+"name": "Mek-Mattesgränd · västra delen",
+"firstOpen": 1985,
+"lengthMeters": 61,
+"traceDistance": {
+"city-1942-trace-22": 102
+}
+},
+{
+"n": 6,
+"objectId": "road:mariehamn:major:way-35979837",
+"name": "Öhbergsvägen",
+"firstOpen": 1968,
+"lengthMeters": 131,
+"traceDistance": {
+"city-1942-trace-22": 279
+}
+},
+{
+"n": 7,
+"objectId": "road:mariehamn:major:way-930499210",
+"name": "Öhbergsvägen",
+"firstOpen": 1968,
+"lengthMeters": 148,
+"traceDistance": {
+"city-1942-trace-22": 80
+}
+},
+{
+"n": 8,
+"objectId": "road:mariehamn:major:way-930499211",
+"name": "Öhbergsvägen",
+"firstOpen": 1968,
+"lengthMeters": 94,
+"traceDistance": {
+"city-1942-trace-22": 168
+}
+},
+{
+"n": 9,
+"objectId": "road:mariehamn:major:way-158304936",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 304,
+"traceDistance": {
+"city-1942-trace-22": 367
+}
+},
+{
+"n": 10,
+"objectId": "road:mariehamn:street-pass4:mockelobrinken",
+"name": "Möckelöbrinken",
+"firstOpen": 1968,
+"lengthMeters": 371,
+"traceDistance": {
+"city-1942-trace-22": 276
+}
+},
+{
+"n": 11,
+"objectId": "road:mariehamn:street-pass4:mangelgrand",
+"name": "Mangelgränd",
+"firstOpen": 1985,
+"lengthMeters": 102,
+"traceDistance": {
+"city-1942-trace-22": 41
+}
+},
+{
+"n": 12,
+"objectId": "road:mariehamn:street-pass4:hellmansgrand",
+"name": "Hellmansgränd",
+"firstOpen": 1985,
+"lengthMeters": 142,
+"traceDistance": {
+"city-1942-trace-22": 76
+}
+}
+]

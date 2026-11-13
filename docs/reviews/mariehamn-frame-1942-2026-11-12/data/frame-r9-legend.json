@@ -1,0 +1,272 @@
+[
+{
+"n": 0,
+"objectId": "road:postwar:way-172865147",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 283,
+"traceDistance": {
+"city-1942-trace-9": 6
+}
+},
+{
+"n": 1,
+"objectId": "road:postwar:way-209112218",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 57,
+"traceDistance": {
+"city-1942-trace-9": 10
+}
+},
+{
+"n": 2,
+"objectId": "road:postwar:way-346833254",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 38,
+"traceDistance": {
+"city-1942-trace-9": 7
+}
+},
+{
+"n": 3,
+"objectId": "road:postwar:way-346833255",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 61,
+"traceDistance": {
+"city-1942-trace-9": 90
+}
+},
+{
+"n": 4,
+"objectId": "road:postwar:way-610024474",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 65,
+"traceDistance": {
+"city-1942-trace-9": 19
+}
+},
+{
+"n": 5,
+"objectId": "road:postwar:way-652144534",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 55,
+"traceDistance": {
+"city-1942-trace-9": 85
+}
+},
+{
+"n": 6,
+"objectId": "road:postwar:way-652158696",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 25,
+"traceDistance": {
+"city-1942-trace-9": 109
+}
+},
+{
+"n": 7,
+"objectId": "road:postwar:way-653434349",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 21,
+"traceDistance": {
+"city-1942-trace-9": 8
+}
+},
+{
+"n": 8,
+"objectId": "road:postwar:way-1077608027",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 14,
+"traceDistance": {
+"city-1942-trace-9": 32
+}
+},
+{
+"n": 9,
+"objectId": "road:postwar:way-1077608078",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 9,
+"traceDistance": {
+"city-1942-trace-9": 11
+}
+},
+{
+"n": 10,
+"objectId": "road:postwar:way-652150725",
+"name": "Styrmansgatan",
+"firstOpen": 1968,
+"lengthMeters": 124,
+"traceDistance": {
+"city-1942-trace-9": 151
+}
+},
+{
+"n": 11,
+"objectId": "road:postwar:way-652150726",
+"name": "Styrmansgatan",
+"firstOpen": 1968,
+"lengthMeters": 59,
+"traceDistance": {
+"city-1942-trace-9": 210
+}
+},
+{
+"n": 12,
+"objectId": "road:postwar:way-944013585",
+"name": "Styrmansgatan",
+"firstOpen": 1968,
+"lengthMeters": 10,
+"traceDistance": {
+"city-1942-trace-9": 38
+}
+},
+{
+"n": 13,
+"objectId": "road:postwar:way-944013586",
+"name": "Styrmansgatan",
+"firstOpen": 1968,
+"lengthMeters": 12,
+"traceDistance": {
+"city-1942-trace-9": 32
+}
+},
+{
+"n": 14,
+"objectId": "road:postwar:way-944288452",
+"name": "Styrmansgatan",
+"firstOpen": 1968,
+"lengthMeters": 35,
+"traceDistance": {
+"city-1942-trace-9": 245
+}
+},
+{
+"n": 15,
+"objectId": "road:postwar:way-1097428367",
+"name": "Styrmansgatan",
+"firstOpen": 1968,
+"lengthMeters": 81,
+"traceDistance": {
+"city-1942-trace-9": 83
+}
+},
+{
+"n": 16,
+"objectId": "road:postwar:way-35432107",
+"name": "Kaptensgatan",
+"firstOpen": 1968,
+"lengthMeters": 136,
+"traceDistance": {
+"city-1942-trace-9": 220
+}
+},
+{
+"n": 17,
+"objectId": "road:postwar:way-1097427985",
+"name": "Kaptensgatan",
+"firstOpen": 1968,
+"lengthMeters": 87,
+"traceDistance": {
+"city-1942-trace-9": 151
+}
+},
+{
+"n": 18,
+"objectId": "road:postwar:way-1097427986",
+"name": "Kaptensgatan",
+"firstOpen": 1968,
+"lengthMeters": 114,
+"traceDistance": {
+"city-1942-trace-9": 147
+}
+},
+{
+"n": 19,
+"objectId": "road:postwar:way-132865122",
+"name": "Idrottsgatan",
+"firstOpen": 1968,
+"lengthMeters": 258,
+"traceDistance": {
+"city-1942-trace-9": 297
+}
+},
+{
+"n": 20,
+"objectId": "road:mariehamn:vaktargrand",
+"name": "Väktargränd",
+"firstOpen": 1985,
+"lengthMeters": 168,
+"traceDistance": {
+"city-1942-trace-9": 165
+}
+},
+{
+"n": 21,
+"objectId": "road:mariehamn:diktargrand-west",
+"name": "Diktargränd · västra återvändsgatan",
+"firstOpen": 1962,
+"lengthMeters": 55,
+"traceDistance": {
+"city-1942-trace-9": 203
+}
+},
+{
+"n": 22,
+"objectId": "road:mariehamn:diktargrand-east",
+"name": "Diktargränd · östra återvändsgatan",
+"firstOpen": 1962,
+"lengthMeters": 99,
+"traceDistance": {
+"city-1942-trace-9": 91
+}
+},
+{
+"n": 23,
+"objectId": "road:mariehamn:klockargrand-east-west",
+"name": "Klockargränd · öst–väst",
+"firstOpen": 1991,
+"lengthMeters": 142,
+"traceDistance": {
+"city-1942-trace-9": 200
+}
+},
+{
+"n": 24,
+"objectId": "road:mariehamn:klockargrand-north",
+"name": "Klockargränd · norra anslutningen",
+"firstOpen": 1962,
+"lengthMeters": 63,
+"traceDistance": {
+"city-1942-trace-9": 65
+}
+},
+{
+"n": 25,
+"objectId": "road:mariehamn:major:way-158304936",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 304,
+"traceDistance": {
+"city-1942-trace-9": 253
+}
+},
+{
+"n": 26,
+"objectId": "road:mariehamn:street-pass4:hellmansgrand",
+"name": "Hellmansgränd",
+"firstOpen": 1985,
+"lengthMeters": 142,
+"traceDistance": {
+"city-1942-trace-9": 133
+}
+}
+]

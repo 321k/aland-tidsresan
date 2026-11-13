@@ -1,0 +1,1398 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-12",
+ "source": {
+  "id": "review:mariehamn-frame-1942",
+  "title": "Mariehamns stadsspår 1942 · granskade mot flygfotot",
+  "url": "assets/mariehamn-frame-1942.json"
+ },
+ "aerialSourceId": "mariehamn-aerial-1942",
+ "method": "Stadsspåren ritades på 1942 års ortofoto i en vy med 4 meter per pixel, två till femton punkter per gata. De fyra första bildar en grov ram runt staden. Alla spår utan objekt har jämförts med originalfotot i 2 meter per pixel, med varje persistent väg märkt ut. Ett spår som inte följer någon väg tas bort. För de övriga får de vägobjekt som fotot visar i spårets ställe fotot som belägg för 1942 och visas med egna mittlinjer; varje objekt måste ligga nära det spår det ersätter. Fotoåret är belägg, inte byggår.",
+ "traces": [
+  {
+   "traceId": "city-1942-trace-23",
+   "name": "Södra stadsgatan · 1942",
+   "pixels": [
+    [
+     454,
+     990
+    ],
+    [
+     670,
+     959
+    ]
+   ],
+   "inputHash": "f6670154dbb62058a6dd523cc461418d86226818239ed8cdd64ff87fb5af823f",
+   "decision": "rejected",
+   "basis": "Spåret är en rak linje med två punkter över 870 meter. Flygfotot 1942 visar stadens södra gata, Skillnadsgatan, 60–70 meter längre norrut; den visas redan från 1871 i dagens läge. Under spåret finns skog och trädgårdstäppor, ingen väg. Restbitarna visas inte längre, varken 1942–1967 eller 1968–1985. Originalpunkterna bevaras i källfilen.",
+   "maxDistanceMeters": null,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-49",
+     "inputHash": "ee97886d8a511c6bd3e792fa3a6293736e94edc15cd92fe66287d857b924dfb3",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-49",
+     "inputHash": "ee97886d8a511c6bd3e792fa3a6293736e94edc15cd92fe66287d857b924dfb3",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-49:outside:0",
+     "inputHash": "f1eb97c48b605e31baf563773fecb713cfee03291be514dfa13a5118082f97c2",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-49:outside:0",
+     "inputHash": "5adc913b0dbcb5c6638a31bfec6fb8d8fbdc977332b574437d19623e6d073073",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-49:outside:0",
+     "inputHash": "04d6aea75d0fda558e0db7934fcf1212ec7b843f39db7dea632582b37955ec00",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-49:outside:0",
+     "inputHash": "8870c0f6da75903fe664166e99e023952178583742911d7561b888e67dad3bb3",
+     "outside": true
+    }
+   ],
+   "members": [],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-5",
+   "name": "Västra strandens gata · 1942",
+   "pixels": [
+    [
+     405,
+     768
+    ],
+    [
+     415,
+     814
+    ],
+    [
+     432,
+     865
+    ],
+    [
+     443,
+     916
+    ],
+    [
+     456,
+     990
+    ],
+    [
+     469,
+     1040
+    ]
+   ],
+   "inputHash": "eeff2cc39ff588f63bf00fbb309a38fe78784910082321e4156266a0ab684cdf",
+   "decision": "replaced",
+   "basis": "Spåret är grovt (sex punkter över 1,1 kilometer) och skär snett genom tomterna; 76 procent ligger mer än 15 meter från en väg och den södra delen går genom skog ned mot Lotsbergets klippa, där fotot inte visar någon väg. Den västra gatan genom kvarteren är Havsgatan, som fotot visar från kvarterens norra kant till Mariegatan. Havsgatans delar visas från 1942 med egna mittlinjer. Söder om Mariegatan följde 1942 års väg ett äldre läge än dagens Havsgatan (den nya sträckningen från 1985 ligger upp till 28 meter österut) och den dateras inte om.",
+   "maxDistanceMeters": 40,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-5",
+     "inputHash": "e76d9ee86fac7ba1b1432f1865615bfff2d9ef4a92357afa75bd3c02e4675254",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-5",
+     "inputHash": "e76d9ee86fac7ba1b1432f1865615bfff2d9ef4a92357afa75bd3c02e4675254",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-5:outside:0",
+     "inputHash": "fb3441d1cc1e147e5f0ef32f7fdd9ccdfa68cc532a23cde7be812075dcfab6da",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-5:outside:0",
+     "inputHash": "96275f95fe0fe6822626ebfe9e9314d349669fa2559e368541a5a942968a2ba0",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-5:outside:0",
+     "inputHash": "9f8b9105bf20c0ef726051d312c442941a7cac179795fb1b3affa93446c65def",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-5:outside:0",
+     "inputHash": "43cc505939aa14d0cf755fe5ea33b1574c5dc242d3accd03c43d5631d4a58215",
+     "outside": true
+    }
+   ],
+   "members": [
+    {
+     "objectId": "road:postwar:way-1081061710",
+     "name": "Havsgatan",
+     "inputHash": "4ae6366b7b55729e67e4a4a7775ed4e5a1fb7b1c5c07d360826f5664094ec10d",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Havsgatans anslutning vid kvarterens norra kant."
+    },
+    {
+     "objectId": "road:postwar:way-59319322",
+     "name": "Havsgatan",
+     "inputHash": "ba668b7c96fd4bcecd5d5fee757c3d6adabc17d0c2dc03c81504df88b3e31e33",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Havsgatan, norra delen."
+    },
+    {
+     "objectId": "road:postwar:way-1081056142",
+     "name": "Havsgatan",
+     "inputHash": "ba9615e4a3e77d2ac684ab4dafb5af6c537175e841ac9ccfd74215776de274db",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Havsgatan vid esplanaden."
+    },
+    {
+     "objectId": "road:postwar:way-685474023",
+     "name": "Havsgatan",
+     "inputHash": "7e604c99ea4c5f1d3355233bc309e5e99a4a47f3a1be67a6e9d78a83cd3a4dbc",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Havsgatan, mellersta delen."
+    },
+    {
+     "objectId": "road:postwar:way-685473994",
+     "name": "Havsgatan",
+     "inputHash": "beb943f0240599320ec8fb59dd3eb81e30535fcdbb9ed813e1735e928d0bf4ce",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Havsgatan fram till Mariegatan."
+    }
+   ],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-13",
+   "name": "Norra kvarterens tvärgata · 1942",
+   "pixels": [
+    [
+     414,
+     767
+    ],
+    [
+     623,
+     737
+    ]
+   ],
+   "inputHash": "fdba5d90e74ba91174e5b8469cdb8f986e98755df0f63c7d8f0051047105a240",
+   "decision": "replaced",
+   "basis": "Spåret är en rak linje med två punkter över 845 meter. Den östra halvan ligger 20–30 meter söder om Köpmansgatan, som flygfotot 1942 visar med hus längs båda sidor. Den västra halvan går genom skog och öppen mark där fotot inte visar någon väg; det fanns alltså ingen genomgående tvärgata som skolan senare bröt. Köpmansgatan visas från 1942 med egna mittlinjer; den tidigare tolkningen från 1952 och senare belägg behålls.",
+   "maxDistanceMeters": 35,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-28",
+     "inputHash": "be4c39b4542c439454e1c7c186f11ebccc64ca23de36b23b8ce03cc65bcf7600",
+     "outside": false
+    }
+   ],
+   "members": [
+    {
+     "objectId": "road:postwar:way-122594160",
+     "name": "Köpmansgatan",
+     "inputHash": "407da37b59338e8ab71f63d2b5fbaada77b11fae9e5a92f569c80431a274ae44",
+     "originalFrom": 1952,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Köpmansgatan, västra delen."
+    },
+    {
+     "objectId": "road:postwar:way-1057534808",
+     "name": "Köpmansgatan",
+     "inputHash": "0ed35f08fdf0898ab40914c26d5b3e131d25af7c37604f24fecb150618edd41a",
+     "originalFrom": 1952,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Köpmansgatan, mellersta delen."
+    },
+    {
+     "objectId": "road:postwar:way-1057534807",
+     "name": "Köpmansgatan",
+     "inputHash": "658a424650fbc0770c5e56d978fb3131f07cf1eaf9037b019b7f8dc6cefe567b",
+     "originalFrom": 1952,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Köpmansgatan, östra delen."
+    },
+    {
+     "objectId": "road:postwar:way-626549150",
+     "name": "Köpmansgatan",
+     "inputHash": "3e49a3db95a451cb38731f39bdbea32a0264d47d239c874d0f9a97f649230dac",
+     "originalFrom": 1952,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Köpmansgatan mot Strandgatan."
+    }
+   ],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-11",
+   "name": "Strandgatan · 1942",
+   "pixels": [
+    [
+     623,
+     730
+    ],
+    [
+     634,
+     778
+    ],
+    [
+     644,
+     831
+    ],
+    [
+     655,
+     880
+    ],
+    [
+     667,
+     957
+    ]
+   ],
+   "inputHash": "6f1afdb67782bb12d90cc4e6207a81596da1939da1332ac02e90fea93e889d58",
+   "decision": "replaced",
+   "basis": "Spårets kärna mellan Stora gatan och Nygatan ersattes tidigare av Strandgatans granskade objekt. Restbitarna följer verkliga gator: den norra delen Strandgatan (cirka 7 meter från spåret) och den södra Parkgatan (cirka 23 meter). Båda visas från 1942 med egna mittlinjer. Mellan kärnans södra ände och Parkgatan går vägen på fotot först österut längs tvärgatan och sedan rakt söderut; spåret skar i stället snett genom husen. Den sträckan har ritats om från fotot och visas bara 1942–1967.",
+   "maxDistanceMeters": 30,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-26",
+     "inputHash": "45ab470cbff03e674883f76ae8ccfb3f411c0eb836afd7647377aaedbec1c4eb",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-26",
+     "inputHash": "45ab470cbff03e674883f76ae8ccfb3f411c0eb836afd7647377aaedbec1c4eb",
+     "outside": false
+    }
+   ],
+   "members": [
+    {
+     "objectId": "road:postwar:way-35011592",
+     "name": "Strandgatan",
+     "inputHash": "58d98495a70c58bdd2031662d0d1527ec59b821382059a89c920b8c6ba3833ce",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Strandgatan norr om den granskade kärnan."
+    },
+    {
+     "objectId": "road:postwar:way-39585442",
+     "name": "Parkgatan",
+     "inputHash": "941a37e2541446558bbbaa64b3d2a2c0a89dcd7c5d85fbf554cdd56eee0488ea",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Den södra fortsättningen längs stranden, i dag Parkgatan."
+    }
+   ],
+   "retracedGaps": [
+    {
+     "fromObjectId": "road:postwar:way-78489469",
+     "toObjectId": "road:postwar:way-39585442",
+     "epsg3874": [
+      [
+       20496902.6,
+       6664930.9
+      ],
+      [
+       20496902.0,
+       6664926.0
+      ],
+      [
+       20496910.0,
+       6664918.0
+      ],
+      [
+       20496940.0,
+       6664918.0
+      ],
+      [
+       20496954.0,
+       6664904.0
+      ],
+      [
+       20496966.8,
+       6664824.7
+      ]
+     ],
+     "basis": "Minsta-kostnadsväg över vägytans ljusare ton på flygfotot 1942 (2 m/pixel), förenklad till 2 meter och kontrollerad visuellt; ingen persistent väg motsvarar sträckan."
+    }
+   ]
+  },
+  {
+   "traceId": "city-1942-trace-2",
+   "name": "Förbindelse mellan infartsvägarna, 1942",
+   "pixels": [
+    [
+     368,
+     599
+    ],
+    [
+     417,
+     584
+    ],
+    [
+     451,
+     580
+    ],
+    [
+     482,
+     566
+    ],
+    [
+     520,
+     540
+    ],
+    [
+     561,
+     484
+    ],
+    [
+     577,
+     457
+    ]
+   ],
+   "inputHash": "4ae2dadcea704c25172e15aca71d0bd939031c8f634feca996c36970029292e4",
+   "decision": "rejected",
+   "basis": "Spåret har sju punkter över 1,1 kilometer. Den nordöstra delen följer en rak gata genom skogen som 1968 års grundkarta visar som kraftledning, inte väg; den västra delen går över åkrar och skog cirka 25 meter norr om huvudvägen. Varken spåret eller dagens Elverksgatan syns som väg på fotot. Spåret visas inte längre, varken 1942–1967 eller 1968–1985.",
+   "maxDistanceMeters": null,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-2",
+     "inputHash": "7598a815d1808f4d0e7ac4b9a29eec353d0cc1fa829f63370ba982806506c206",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-2",
+     "inputHash": "7598a815d1808f4d0e7ac4b9a29eec353d0cc1fa829f63370ba982806506c206",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-2:outside:0",
+     "inputHash": "38a244257ab9a1ff54398bd283b450ac9eb25e1f6e8c1e95cf7de29df4f9e63e",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-2:outside:1",
+     "inputHash": "52685adf3271a55aede6bce13a53cdc4deefe0b6d709f337cdc1f2d9ee62b11f",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-2:outside:0",
+     "inputHash": "d4f584718699507b996ff3de6e46ab4bcafb53cb650855743520d2bdbf1cd847",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-2:outside:1",
+     "inputHash": "18db50bc23389e92fa2fe96a55cb5fa7b7ae868c9203ba9705a7760dc6dabe65",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-2:outside:0",
+     "inputHash": "01a1df3b4ebdc59abfcf295cee26163fb1b7d6b15ab0d523076f3eb08ee29df6",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-2:outside:1",
+     "inputHash": "d2208344aae8bc3525ca5336f35cc5a9770dfa5dd58c4342ed923a27cbec7b8e",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-2:outside:0",
+     "inputHash": "af5d51bf479d61337dedb5ddca83f3e13157830049fd56af9f282b0dcae975c9",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-2:outside:1",
+     "inputHash": "315a83ab109e81a9ca6fdce2e7421fa03c4bdde294f0775cbbb69dbb661928ec",
+     "outside": true
+    }
+   ],
+   "members": [],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-3",
+   "name": "Väg till västra stadskanten, 1942",
+   "pixels": [
+    [
+     368,
+     599
+    ],
+    [
+     377,
+     656
+    ],
+    [
+     386,
+     683
+    ],
+    [
+     404,
+     715
+    ],
+    [
+     405,
+     768
+    ]
+   ],
+   "inputHash": "353c7bb77076acb8064a82a95ee45bc41ada98ec49cb191f0fff3e73d5c592a3",
+   "decision": "rejected",
+   "basis": "Spåret går över industritomten och skogen på Badhusberget. Varken flygfotot 1942 eller grundkartan 1968 visar någon väg där. Spåret visas inte längre.",
+   "maxDistanceMeters": null,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-3",
+     "inputHash": "2bc92e31b953332de3e4747a591e4b58f4a9caa85a5059a0f059e13596063aed",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-3",
+     "inputHash": "2bc92e31b953332de3e4747a591e4b58f4a9caa85a5059a0f059e13596063aed",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-3:outside:0",
+     "inputHash": "67d40aefa5674844dccacf0fac0230c9e887ca53d266bf37fa81d8d66bc091c7",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-3:outside:0",
+     "inputHash": "6f3a6d998788560240109f97c2d8faf6d2be8228eb555e8f52548a6220d1977b",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-3:outside:0",
+     "inputHash": "5224c4d0fbafa647f49a7e11004172d085a2605b7d5bafbe82a0fbf412e481cf",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-3:outside:0",
+     "inputHash": "c7f93954f056a94ff49cf363672812253714c2a7410bd6b1681ca211cd43c6a4",
+     "outside": true
+    }
+   ],
+   "members": [],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-6",
+   "name": "Västra stadsgatan · 1942",
+   "pixels": [
+    [
+     438,
+     712
+    ],
+    [
+     441,
+     748
+    ],
+    [
+     445,
+     780
+    ],
+    [
+     450,
+     815
+    ],
+    [
+     455,
+     858
+    ],
+    [
+     463,
+     898
+    ],
+    [
+     469,
+     933
+    ],
+    [
+     478,
+     978
+    ]
+   ],
+   "inputHash": "5e1cb30a0511c9207e88133c2e0263a0a6cb0da470123803c4762f3f89a3e5a8",
+   "decision": "replaced",
+   "basis": "Spårets mittdel ersattes tidigare av gatans granskade kärna; de kvarvarande grova bitarna ligger 3–17 meter från gatans egna objekt, som flygfotot 1942 visar. De objekten visas från 1942 med egna mittlinjer, och spårbitarna tas bort. Gatan är Neptunigatan; dess nya kurva från 1985 och den långa vägen mot nordväst dateras inte om.",
+   "maxDistanceMeters": 25,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-6",
+     "inputHash": "9d1d1abef10fceca1135b8b9a4dc9df6cf04a53afcf6b8c5e3838ffa0f411345",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-6",
+     "inputHash": "9d1d1abef10fceca1135b8b9a4dc9df6cf04a53afcf6b8c5e3838ffa0f411345",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-6:outside:0",
+     "inputHash": "e77309298bfc920fa6c00ad0f9aeb2e4d44fb376dda1194dae67bebc0b5932ee",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-6:outside:0",
+     "inputHash": "d0f6af5804bb92cdd347b74eae4401f2abc42b48cd1f6064d930a0da110213c7",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-6:outside:0",
+     "inputHash": "06cb490e709db15ec22b4c83aefc2514a29ca2437a4b0fea1d53a35650f16b51",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-6:outside:0",
+     "inputHash": "4278b50d88f893ffdf5de993db88abb204ce4280ee707696663b69c3594a41ef",
+     "outside": true
+    }
+   ],
+   "members": [
+    {
+     "objectId": "road:postwar:way-44108104",
+     "name": "Neptunigatan",
+     "inputHash": "3086f17b5ff9b7a1f9eab06347e241803b3022d2b5851d83132ed64cd69d297f",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Neptunigatan vid Norragatan."
+    },
+    {
+     "objectId": "road:postwar:way-951311473",
+     "name": "Neptunigatan",
+     "inputHash": "05213a5e8aad7172ba0c2c0c012d9912d9277db1c0dba0ce6736b578283eb358",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Neptunigatan norr om kvarteren."
+    },
+    {
+     "objectId": "road:postwar:way-1081062879",
+     "name": "Neptunigatan",
+     "inputHash": "93a01c3d2569ef97648664bfcd2319597bdea9298cd75439f96d93ec51658d94",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Neptunigatan norr om kvarteren."
+    },
+    {
+     "objectId": "road:postwar:way-44108105",
+     "name": "Neptunigatan",
+     "inputHash": "cc75c543a834b2442122c4ef362d6e6b15a78d00fef1b67ed1441144ff86196a",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Neptunigatan fram till Badhusgatan."
+    },
+    {
+     "objectId": "road:postwar:way-889004816",
+     "name": "Neptunigatan",
+     "inputHash": "3bcf6dd70a8952ee3fce60fd3267545a21b47a2e5621ca3400245039f916a82a",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Neptunigatan söder om kärnan."
+    },
+    {
+     "objectId": "road:postwar:way-889004817",
+     "name": "Neptunigatan",
+     "inputHash": "52f8e513f4ed7c77f1c0966162dff59ad394b6496ceba10717f5f0dfe550e1c6",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Neptunigatan söder om kärnan."
+    },
+    {
+     "objectId": "road:postwar:way-889004818",
+     "name": "Neptunigatan",
+     "inputHash": "a7c1bd6b9d11ae7a69fc1087cc54d7a394f85277d654338f823c78fe2ede40e8",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Neptunigatan söder om kärnan."
+    },
+    {
+     "objectId": "road:postwar:way-889004819",
+     "name": "Neptunigatan",
+     "inputHash": "b21a09a5483abb3f9da214f571a11e30eb3d4601e191d2789c78e86bc6770b69",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Neptunigatan fram till Skillnadsgatan."
+    }
+   ],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-9",
+   "name": "Gata öster om esplanaden · 1942",
+   "pixels": [
+    [
+     548,
+     726
+    ],
+    [
+     556,
+     776
+    ],
+    [
+     565,
+     822
+    ],
+    [
+     567,
+     853
+    ],
+    [
+     570,
+     884
+    ],
+    [
+     575,
+     919
+    ],
+    [
+     582,
+     967
+    ]
+   ],
+   "inputHash": "cdd6e7bd3aff63c7204c09e0a725ddb4b622cb34a76ca8b37c8f9dab4e416d87",
+   "decision": "replaced",
+   "basis": "Spårets mittdel ersattes tidigare av gatans granskade kärna; de kvarvarande grova bitarna ligger 6–19 meter från gatans egna objekt, som flygfotot 1942 visar. De objekten visas från 1942 med egna mittlinjer, och spårbitarna tas bort. Gatan är Ålandsvägen.",
+   "maxDistanceMeters": 25,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-9",
+     "inputHash": "8721af0d829f07edfb481d57ec38bef761e42d64338573aa649bebf20ceaad36",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-9",
+     "inputHash": "8721af0d829f07edfb481d57ec38bef761e42d64338573aa649bebf20ceaad36",
+     "outside": false
+    }
+   ],
+   "members": [
+    {
+     "objectId": "road:postwar:way-610024474",
+     "name": "Ålandsvägen",
+     "inputHash": "c658884dff5906f426a07687f7d560e24149bd1307b7e3aa128d780dd2b59086",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Ålandsvägen norr om kärnan."
+    },
+    {
+     "objectId": "road:postwar:way-209112218",
+     "name": "Ålandsvägen",
+     "inputHash": "613e97af8aee62925d681f02c0c5fb0b54ab7fae1cd76ee19d88f97b8964a7bf",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Ålandsvägen norr om kärnan."
+    },
+    {
+     "objectId": "road:postwar:way-653434349",
+     "name": "Ålandsvägen",
+     "inputHash": "ad10f5a494e213a0c2f78129ba304cf688fd99b731f0b811053a1b292f6e9d90",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Ålandsvägen norr om kärnan."
+    },
+    {
+     "objectId": "road:postwar:way-346833254",
+     "name": "Ålandsvägen",
+     "inputHash": "5eec4fd79dbe6ea011765950ec085aca7a6114b458f16d609c06514e05bb4c9e",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Ålandsvägen norr om kärnan."
+    },
+    {
+     "objectId": "road:postwar:way-1077608078",
+     "name": "Ålandsvägen",
+     "inputHash": "29b48dd3306e1bafafeafb9feef4bdc407cb6a7d58e7418e99aec9592aa7de95",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Ålandsvägen vid korsningen."
+    },
+    {
+     "objectId": "road:postwar:way-172865147",
+     "name": "Ålandsvägen",
+     "inputHash": "510ba35126fec2b9b06ce746000345eba214b2f1fa11eaa06e3b9b7f52cbfcdd",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Ålandsvägen söder om kärnan."
+    }
+   ],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-10",
+   "name": "Torggatan · 1942",
+   "pixels": [
+    [
+     616.5,
+     712
+    ],
+    [
+     613.5,
+     722
+    ],
+    [
+     610.5,
+     734
+    ],
+    [
+     610,
+     737
+    ],
+    [
+     606,
+     763
+    ],
+    [
+     611,
+     798
+    ],
+    [
+     613,
+     818
+    ],
+    [
+     614,
+     828
+    ],
+    [
+     616,
+     842
+    ],
+    [
+     620,
+     878.5
+    ],
+    [
+     624,
+     914
+    ],
+    [
+     629,
+     949
+    ],
+    [
+     631.5,
+     962
+    ],
+    [
+     632.5,
+     969
+    ],
+    [
+     633,
+     973
+    ]
+   ],
+   "inputHash": "07f0978da6ea47000f104b4bbf8f3be944f841a4dc542a639cc7a52eeeb8cde5",
+   "decision": "replaced",
+   "basis": "Spårets mittdel ersattes tidigare av gatans granskade kärna; de kvarvarande grova bitarna ligger 0–5 meter från gatans egna objekt, som flygfotot 1942 visar. De objekten visas från 1942 med egna mittlinjer, och spårbitarna tas bort. Bitarna är korta delar av Torggatan vid korsningarna.",
+   "maxDistanceMeters": 10,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-10",
+     "inputHash": "cac2a33ff9faf0b179e65cdefb1dc11d500e1b3549ecbbf88b931326c4c01332",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-12",
+     "inputHash": "81499bd2c3360f264d7f7561a02517057e9cdba7c2603c341818346cb31ec155",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-15",
+     "inputHash": "90dd6adcb26cd4d6d9a0d6e20dbecfef770812ff9f0b6100fffb9ec12f56556f",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-17",
+     "inputHash": "845c3e8e647d896163852ab7eeb0ddcdf7677554ecbac80e526a2fb704173586",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-19",
+     "inputHash": "4563cede5f1d7d5219ccca625f2cdfa057fa3a171d3b0f710888e0cb7edfa547",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-22",
+     "inputHash": "6cd19aa7c79d0ad89903a42e8cf2dd6a5d3508c8527680f0317717d5005ba136",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-25",
+     "inputHash": "254335d5122139cb8d221954fdca660b1b757c3ec2b4ae5702c7cbb1f88fa7bd",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-10",
+     "inputHash": "cac2a33ff9faf0b179e65cdefb1dc11d500e1b3549ecbbf88b931326c4c01332",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-12",
+     "inputHash": "81499bd2c3360f264d7f7561a02517057e9cdba7c2603c341818346cb31ec155",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-15",
+     "inputHash": "90dd6adcb26cd4d6d9a0d6e20dbecfef770812ff9f0b6100fffb9ec12f56556f",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-17",
+     "inputHash": "845c3e8e647d896163852ab7eeb0ddcdf7677554ecbac80e526a2fb704173586",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-19",
+     "inputHash": "4563cede5f1d7d5219ccca625f2cdfa057fa3a171d3b0f710888e0cb7edfa547",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-22",
+     "inputHash": "6cd19aa7c79d0ad89903a42e8cf2dd6a5d3508c8527680f0317717d5005ba136",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-25",
+     "inputHash": "254335d5122139cb8d221954fdca660b1b757c3ec2b4ae5702c7cbb1f88fa7bd",
+     "outside": false
+    }
+   ],
+   "members": [
+    {
+     "objectId": "road:postwar:way-44108087",
+     "name": "Torggatan",
+     "inputHash": "0653405ac9ae2f4b3a27e85b1ea592bec848a74c69ea9d231376fe5f6a19906c",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-392187946",
+     "name": "Torggatan",
+     "inputHash": "3af0dbe85a75483c24a27f694bfc4cdd0823ae3f255aa531ae6fdf9e5ebc8492",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-601830158",
+     "name": "Torggatan",
+     "inputHash": "e9fcadd6befe6f6c33fc5a849872c87d15f1f4ec432ef30e70aebddf143dbba2",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-601830161",
+     "name": "Torggatan",
+     "inputHash": "8c453c33b8754abb054b761d164533755575485ac797e87e3d33b15f193287ac",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-613969827",
+     "name": "Torggatan",
+     "inputHash": "58d24c6f461f564ddd25052da57d6a734ce9eb095bb335b491db97e53519810d",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-862194715",
+     "name": "Torggatan",
+     "inputHash": "a1ff4f85c51a7c909eac04f78c2dacf36bd4d1a7fedb5091089987448f17ac2c",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-862194716",
+     "name": "Torggatan",
+     "inputHash": "ee3b27ce428e157347cc54832dc06629acdd7e6da0dab5d3a24fe7746b551a38",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-1051656049",
+     "name": "Torggatan",
+     "inputHash": "009d092e3d1f5c54e83f2aeeb937d02a2ba1e7605e940fe58b446d2148586562",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-1082966161",
+     "name": "Torggatan",
+     "inputHash": "61ec38dc77d1b30e86a5531807e1ea19f403ac22e35b45702f92a3375a387e04",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Torggatan vid en korsning."
+    }
+   ],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-12",
+   "name": "Tvärgata i norra staden · 1942",
+   "pixels": [
+    [
+     460,
+     736
+    ],
+    [
+     600,
+     716
+    ]
+   ],
+   "inputHash": "dc0a68a78442dfc4d74639ee0fe7eb1064c21de92e83b8f94cb80df5c29b2657",
+   "decision": "replaced",
+   "basis": "Spåret är en rak linje med två punkter över 566 meter. Den östra delen ligger 13–18 meter söder om Styrmansgatan, som flygfotot 1942 visar med hus längs gatan; den västra delen går in i skogen där fotot inte visar någon väg. Styrmansgatans delar visas från 1942 med egna mittlinjer.",
+   "maxDistanceMeters": 25,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-27",
+     "inputHash": "e37649d7bc95a8c315f45cc6f6073bf170e3c974a78321b6651f913aea6d8d51",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-27",
+     "inputHash": "e37649d7bc95a8c315f45cc6f6073bf170e3c974a78321b6651f913aea6d8d51",
+     "outside": false
+    }
+   ],
+   "members": [
+    {
+     "objectId": "road:postwar:way-1097428367",
+     "name": "Styrmansgatan",
+     "inputHash": "42c0108735a6460b213ee54624f713e66b328dd95e9a521b8c29aef38f78c2a4",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Styrmansgatan."
+    },
+    {
+     "objectId": "road:postwar:way-652150725",
+     "name": "Styrmansgatan",
+     "inputHash": "561601395d41cecc62cdc5e326a820309cda9a024576d2d68c011c1ddcb90fb9",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Styrmansgatan."
+    },
+    {
+     "objectId": "road:postwar:way-652150726",
+     "name": "Styrmansgatan",
+     "inputHash": "4cba4daa309ff7fd765d83c09fe240727405e3350b3fc65ca14a06d6f7ea695e",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Styrmansgatan."
+    },
+    {
+     "objectId": "road:postwar:way-944013585",
+     "name": "Styrmansgatan",
+     "inputHash": "5bd0324b2e1f7c734d2fe780492a1a05309eb6c86c2c34883a09989a7bc0da8a",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Styrmansgatan."
+    },
+    {
+     "objectId": "road:postwar:way-944013586",
+     "name": "Styrmansgatan",
+     "inputHash": "f6604959f140ddb372ec6577acf0c8d18692bd3914b2bd53ab59a6fb824fa2c7",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Styrmansgatan."
+    }
+   ],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-15",
+   "name": "Norragatan · 1942",
+   "pixels": [
+    [
+     396,
+     824
+    ],
+    [
+     423,
+     820
+    ],
+    [
+     451,
+     816.5
+    ],
+    [
+     500,
+     811
+    ],
+    [
+     560,
+     803.5
+    ],
+    [
+     608,
+     798
+    ],
+    [
+     643,
+     793
+    ]
+   ],
+   "inputHash": "f2efa8644953b262b0ab1da362d69c3450f50ca15c3add1599db3eb25b1ee6a6",
+   "decision": "replaced",
+   "basis": "Spårets mittdel ersattes tidigare av gatans granskade kärna; de kvarvarande grova bitarna ligger 0–1 meter från gatans egna objekt, som flygfotot 1942 visar. De objekten visas från 1942 med egna mittlinjer, och spårbitarna tas bort. Bitarna är korta delar av Norragatan vid korsningarna.",
+   "maxDistanceMeters": 10,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-30",
+     "inputHash": "633eeb492425adb0b9ee235112d62379631dfda878b6aacb9608f63d6bad81af",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-32",
+     "inputHash": "4d12521226ed359d2788cfcdf0742ead86051dec0f526e957e2ea9b117e2d5c4",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-34",
+     "inputHash": "7f6b65d4479dd9b30ee7c484d4384c90433cf0dc929701536b2fe508ce8d8a75",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-40",
+     "inputHash": "8bfb49fd85b8351be5a25e2956a21f5f60a9a87d29e20551c86055f3e5ba28ac",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-30",
+     "inputHash": "633eeb492425adb0b9ee235112d62379631dfda878b6aacb9608f63d6bad81af",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-32",
+     "inputHash": "4d12521226ed359d2788cfcdf0742ead86051dec0f526e957e2ea9b117e2d5c4",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-34",
+     "inputHash": "7f6b65d4479dd9b30ee7c484d4384c90433cf0dc929701536b2fe508ce8d8a75",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-40",
+     "inputHash": "8bfb49fd85b8351be5a25e2956a21f5f60a9a87d29e20551c86055f3e5ba28ac",
+     "outside": false
+    }
+   ],
+   "members": [
+    {
+     "objectId": "road:postwar:way-1081062022",
+     "name": "Norragatan",
+     "inputHash": "8fe892dbd51559dc09c0e3568100af383f9217954fe7a14c5da84c2e58324f07",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Norragatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-862198311",
+     "name": "Norragatan",
+     "inputHash": "cde760fe553edcb59f0ca7cecb54792094bdc5e03aa9bf7cb99cc3986602c02e",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Norragatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-951311472",
+     "name": "Norragatan",
+     "inputHash": "c1e63c7e49ca38c172059765787e6212a85e6f8bbb01a950f1b2f59c62ff3884",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Norragatan vid en korsning."
+    },
+    {
+     "objectId": "road:postwar:way-951311474",
+     "name": "Norragatan",
+     "inputHash": "2c284b6535093d3f8c686813f0d86abc4eae5b3ccc4e37d1bf25b0c97599c9fe",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan i samma läge som objektets mittlinje. Kort del av Norragatan vid en korsning."
+    }
+   ],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-17",
+   "name": "Storagatan · 1942",
+   "pixels": [
+    [
+     432,
+     865
+    ],
+    [
+     654,
+     837
+    ],
+    [
+     679,
+     828
+    ]
+   ],
+   "inputHash": "8da527080fc0b22e6b2bf452a87a31d95d45f9b0678baf0b555cbb4d8fd9f9b8",
+   "decision": "rejected",
+   "basis": "Bara en kvarlämnad bit på 34 meter visas 1968–1985, bredvid Storagatans granskade kärna. Gatan visas av sina objekt; biten tas bort.",
+   "maxDistanceMeters": null,
+   "stageFeatures": [
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-42:outside:0",
+     "inputHash": "7e94069a50efab40b082941106574419755d0e5aaa6481307cd22af7b540c290",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-42:outside:0",
+     "inputHash": "1a27dbec83a31c893b45e7ee914a16c13c91a081266112462a1787e9ddcbee22",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-42:outside:0",
+     "inputHash": "a17bd60a83b25f7e0a4e12419709f92969be960886f8d4edc2123333dfa4b962",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-42:outside:0",
+     "inputHash": "e53549da57663a7c21aa332ee828085b4fa7673faf521a8740623324b1a6f3ec",
+     "outside": true
+    }
+   ],
+   "members": [],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-22",
+   "name": "Södra kvarterens tvärgata · 1942",
+   "pixels": [
+    [
+     495,
+     950
+    ],
+    [
+     642,
+     930
+    ]
+   ],
+   "inputHash": "5594f843216b5b1cd790911fceca667cde5367beee1b734f91a8041b16b358fe",
+   "decision": "rejected",
+   "basis": "Spåret är en rak linje med två punkter över 593 meter mitt i kvarteren, genom tomterna mellan två gator som redan visas. Flygfotot 1942 visar ingen gata där. Spåret visas inte längre.",
+   "maxDistanceMeters": null,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-48",
+     "inputHash": "0cfb25830cf25b85abac913b6241ed62a79b56ec859bd8e7e302e0d4325e0998",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-48",
+     "inputHash": "0cfb25830cf25b85abac913b6241ed62a79b56ec859bd8e7e302e0d4325e0998",
+     "outside": false
+    }
+   ],
+   "members": [],
+   "retracedGaps": []
+  },
+  {
+   "traceId": "city-1942-trace-24",
+   "name": "Förbindelse till södra vägen · 1942",
+   "pixels": [
+    [
+     618,
+     964
+    ],
+    [
+     621,
+     994
+    ]
+   ],
+   "inputHash": "84acab71afa3af04ceeab8030fecc7618d43a528a7e7e5f0ef8acca6eeaf3261",
+   "decision": "rejected",
+   "basis": "Spåret går genom trädgårdstäppor cirka 35 meter väster om den väg fotot visar, och den vägen visas redan av sina objekt. Spåret visas inte längre, varken 1942–1967 eller 1968–1985.",
+   "maxDistanceMeters": null,
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1942",
+     "featureId": "city-reconstruction-1942:city-1942-street-50",
+     "inputHash": "ee3547ff7fbd4ad52d9420bd9f8771751682aa9ec730b6c48380aab93dfa9809",
+     "outside": false
+    },
+    {
+     "stageId": "city-reconstruction-1952",
+     "featureId": "city-reconstruction-1942:city-1942-street-50",
+     "inputHash": "ee3547ff7fbd4ad52d9420bd9f8771751682aa9ec730b6c48380aab93dfa9809",
+     "outside": false
+    },
+    {
+     "stageId": "city-nls-1968",
+     "featureId": "city-nls-1968:city-1942-street-50:outside:0",
+     "inputHash": "5f54f45b0c0b5860e2fd688d6f3afa905580be4c5c9a2302600d73edade91794",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1978",
+     "featureId": "city-nls-1978:city-1942-street-50:outside:0",
+     "inputHash": "cdee742cef43f862e4d0b507b786c2df5286b504b6def778498d9046875357c7",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1982",
+     "featureId": "city-nls-1982:city-1942-street-50:outside:0",
+     "inputHash": "0b8a09f74290f0e86e75fe7d6542b99af3bdb13092ead7f2666e86e9b4af1edc",
+     "outside": true
+    },
+    {
+     "stageId": "city-nls-1985",
+     "featureId": "city-nls-1985:city-1942-street-50:outside:0",
+     "inputHash": "9c55fe2d155ac29e85e873011c221ce1f87b670746c9a3ce13dfbbe49833902d",
+     "outside": true
+    }
+   ],
+   "members": [],
+   "retracedGaps": []
+  }
+ ],
+ "reviewImages": [
+  {
+   "file": "frame-e-connector.jpg",
+   "sha256": "ba883a98294e1fba6c9761c411b40b7ed654d24fe526e6284c0caf6c48961cf9"
+  },
+  {
+   "file": "frame-e-pair.jpg",
+   "sha256": "b172b3b4f527eb4cf912ad010b11d73d905a8a3de5011ead0449a5b9eb5f4f98"
+  },
+  {
+   "file": "frame-n-pair.jpg",
+   "sha256": "602b5726e5e0a4135d5cf6af5fc6ce3059b0d7dce998d478cb8639eb7854a3dd"
+  },
+  {
+   "file": "frame-r10-pair.jpg",
+   "sha256": "90cf53ebc3221b477ab707ff0ab9d6ca328762f1bbb9938a52889360de6d3cf0"
+  },
+  {
+   "file": "frame-r12-pair.jpg",
+   "sha256": "86c4af0d168ba24ba313a524d8a5880e63662c0c454a976a72a0898b32b27eb2"
+  },
+  {
+   "file": "frame-r15-pair.jpg",
+   "sha256": "41afde353cd85f750bb6ee4e134696962ad071d8530f94a32f54c48e3579c3fe"
+  },
+  {
+   "file": "frame-r17-pair.jpg",
+   "sha256": "cc175166e57e75ec252b6999293b54bd974efeb02bafc098a614f39f54d1f790"
+  },
+  {
+   "file": "frame-r2-pair.jpg",
+   "sha256": "04f92378de3f905d7d69edf1a36ea037e2140c3f633a090a016e69e055af4fb5"
+  },
+  {
+   "file": "frame-r2-west.jpg",
+   "sha256": "eb5afa1057d598c0d6fdd3a485a936aa37cc3f6babfa682eafb760a734a65bbc"
+  },
+  {
+   "file": "frame-r22-pair.jpg",
+   "sha256": "a8fe64d71652f6c356d966dbd1baa2b63f97325b23d7423b5209c0e9121697e4"
+  },
+  {
+   "file": "frame-r24-pair.jpg",
+   "sha256": "18aa6f58404eebbcd9498538f939e2991cabdfdfae13a480264121211acdfcef"
+  },
+  {
+   "file": "frame-r3-pair.jpg",
+   "sha256": "6cd8e8246b717cffa30732279a5823c8dd047dcd440c788eb6a1147389405f3a"
+  },
+  {
+   "file": "frame-r6-pair.jpg",
+   "sha256": "ac5b946c9ab0f63095008a65811146fbaca367fec6f9da74e74597160eb86b8f"
+  },
+  {
+   "file": "frame-r9-pair.jpg",
+   "sha256": "e22600728566066ba79417dbd136ab0a51c03f76ad7750212757d1686034b5d2"
+  },
+  {
+   "file": "frame-s-pair.jpg",
+   "sha256": "153037d8430052379c128838a947fc6d884feb43d982fad9158e16cdc4077e73"
+  },
+  {
+   "file": "frame-w1-pair.jpg",
+   "sha256": "224a3db89c02d2acca89cd2fddf598ddea5edf3f54e205bd6eef0f0a159d8aec"
+  },
+  {
+   "file": "frame-w2-havsgatan.jpg",
+   "sha256": "09f26e783498e3f32f132cd236e37fd1861b782643202091d3a0243af7608a64"
+  },
+  {
+   "file": "frame-w2-pair.jpg",
+   "sha256": "084287853ec4afa1a5b990189438b3b1e2dae09d856e336e0bfe6fede4040d79"
+  },
+  {
+   "file": "map1968-r2.jpg",
+   "sha256": "32f8037d928e2b97133c9f163ee80944c92e9667c71b4419c37e608e46ce44b7"
+  },
+  {
+   "file": "map1968-r3.jpg",
+   "sha256": "f5b7a799fabf39c6ce46d15d919710a53a8b328a746c418bb20dea6b85a606bf"
+  },
+  {
+   "file": "south-overlay-small.jpg",
+   "sha256": "79221ddc7f63ea30b7366834cde9a08e4bc0204105f283da44e6ee20df8e2c59"
+  },
+  {
+   "file": "south-plain-small.jpg",
+   "sha256": "8d0d2aa4081e21f9e2f4394f73fb3092378f2cc305c7f3f92fa0b38a93abb49e"
+  },
+  {
+   "file": "south-sodra.jpg",
+   "sha256": "e7570b1b128a08ba35adf8c791dea400b6efa1afd2ac0aeff89f4d1108853f03"
+  },
+  {
+   "file": "south-vastra-n.jpg",
+   "sha256": "1c52e931798cfd120d87f30f0a6fa2e0df33715b25f2021f6157378ccd60e6da"
+  },
+  {
+   "file": "south-vastra-s.jpg",
+   "sha256": "75aef95bdbd6975fe162348f06d47efb21d31c4b05524eb43b0044eaac00f90a"
+  },
+  {
+   "file": "retrace-strand.jpg",
+   "sha256": "641d339ad7e96419322ac7490dc7f1d62187870e645631279e05f955e2130680"
+  }
+ ]
+}

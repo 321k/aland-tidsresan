@@ -1,0 +1,16 @@
+{
+ "deployedAt": "2026-11-13",
+ "cloudflareVersion": "684870cc-6cfd-40f9-ac5f-a1c935ddc82e",
+ "baseRelease": "a9d4aa22-23d3-4461-809d-33efc7af9273",
+ "changedFiles": [
+  "assets/temporal-objects.json.gz",
+  "assets/mariehamn-frame-1942.json (new)",
+  "index.html",
+  "temporal-objects.js (cache stamp only)",
+  "object.html (cache stamp only)"
+ ],
+ "uploaded": "5 files, 287 already uploaded",
+ "liveCheck": "292 files compared byte for byte, 0 mismatches",
+ "releaseTests": "499 JS tests, 499 pass",
+ "wrangler": "4.149.0"
+}

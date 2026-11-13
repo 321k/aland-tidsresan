@@ -2,6 +2,7 @@ import copy, gzip, json, sys, unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from mariehamn_building_maps import apply_building_maps
+from mariehamn_frame_1942 import apply_frame_1942
 
 REVIEW = 'data/mariehamn-building-maps.json'
 
@@ -33,8 +34,9 @@ class BuildingMapTests(unittest.TestCase):
 
     def test_review_applies_once_and_matches_the_build(self):
         catalog = copy.deepcopy(self.pristine); apply_building_maps(self.read, catalog)
-        catalog = json.loads(json.dumps(catalog, ensure_ascii=False))
-        self.assertEqual(catalog['objects'], self.built['objects'])
+        # The later 1942 frame review changes 11 road objects; apply it to compare with the build.
+        frame = copy.deepcopy(catalog); apply_frame_1942(self.read, frame)
+        self.assertEqual(json.loads(json.dumps(frame, ensure_ascii=False))['objects'], self.built['objects'])
         with self.assertRaises(ValueError):
             apply_building_maps(self.read, catalog)
 

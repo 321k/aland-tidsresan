@@ -1,0 +1,236 @@
+[
+{
+"n": 0,
+"objectId": "road:postwar:way-889004816",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 74,
+"traceDistance": {
+"city-1942-trace-5": 95,
+"city-1942-trace-11": 772,
+"city-1942-trace-13": 619,
+"city-1942-trace-23": 360
+}
+},
+{
+"n": 1,
+"objectId": "road:postwar:way-889004817",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 69,
+"traceDistance": {
+"city-1942-trace-5": 88,
+"city-1942-trace-11": 774,
+"city-1942-trace-13": 688,
+"city-1942-trace-23": 287
+}
+},
+{
+"n": 2,
+"objectId": "road:postwar:way-889004818",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 74,
+"traceDistance": {
+"city-1942-trace-5": 84,
+"city-1942-trace-11": 777,
+"city-1942-trace-13": 762,
+"city-1942-trace-23": 218
+}
+},
+{
+"n": 3,
+"objectId": "road:postwar:way-889004819",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 66,
+"traceDistance": {
+"city-1942-trace-5": 80,
+"city-1942-trace-11": 779,
+"city-1942-trace-13": 828,
+"city-1942-trace-23": 144
+}
+},
+{
+"n": 4,
+"objectId": "road:postwar:way-35556046",
+"name": "Skillnadsgatan",
+"firstOpen": 1968,
+"lengthMeters": 125,
+"traceDistance": {
+"city-1942-trace-5": 76,
+"city-1942-trace-11": 904,
+"city-1942-trace-13": 828,
+"city-1942-trace-23": 91
+}
+},
+{
+"n": 5,
+"objectId": "road:postwar:way-35011941",
+"name": "Hamngatan",
+"firstOpen": 1968,
+"lengthMeters": 302,
+"traceDistance": {
+"city-1942-trace-5": 127,
+"city-1942-trace-11": 985,
+"city-1942-trace-13": 741,
+"city-1942-trace-23": 485
+}
+},
+{
+"n": 6,
+"objectId": "road:postwar:way-392187942",
+"name": "Hamngatan",
+"firstOpen": 1968,
+"lengthMeters": 45,
+"traceDistance": {
+"city-1942-trace-5": 121,
+"city-1942-trace-11": 978,
+"city-1942-trace-13": 452,
+"city-1942-trace-23": 526
+}
+},
+{
+"n": 7,
+"objectId": "road:postwar:way-935611737",
+"name": "Hamngatan",
+"firstOpen": 1968,
+"lengthMeters": 36,
+"traceDistance": {
+"city-1942-trace-5": 105,
+"city-1942-trace-11": 962,
+"city-1942-trace-13": 771,
+"city-1942-trace-23": 197
+}
+},
+{
+"n": 8,
+"objectId": "road:postwar:way-685473994",
+"name": "Havsgatan",
+"firstOpen": 1968,
+"lengthMeters": 140,
+"traceDistance": {
+"city-1942-trace-5": 31,
+"city-1942-trace-11": 890,
+"city-1942-trace-13": 684,
+"city-1942-trace-23": 362
+}
+},
+{
+"n": 9,
+"objectId": "road:postwar:way-685474023",
+"name": "Havsgatan",
+"firstOpen": 1968,
+"lengthMeters": 149,
+"traceDistance": {
+"city-1942-trace-5": 31,
+"city-1942-trace-11": 889,
+"city-1942-trace-13": 546,
+"city-1942-trace-23": 510
+}
+},
+{
+"n": 10,
+"objectId": "road:mariehamn:postiljonsgrand",
+"name": "Postiljonsgränd · västra gatudelen",
+"firstOpen": 1985,
+"lengthMeters": 158,
+"traceDistance": {
+"city-1942-trace-5": 246,
+"city-1942-trace-11": 772,
+"city-1942-trace-13": 619,
+"city-1942-trace-23": 289
+}
+},
+{
+"n": 11,
+"objectId": "road:mariehamn:mek-mattesgrand-west",
+"name": "Mek-Mattesgränd · västra delen",
+"firstOpen": 1985,
+"lengthMeters": 61,
+"traceDistance": {
+"city-1942-trace-5": 141,
+"city-1942-trace-11": 777,
+"city-1942-trace-13": 763,
+"city-1942-trace-23": 144
+}
+},
+{
+"n": 12,
+"objectId": "road:mariehamn:diktargrand-west",
+"name": "Diktargränd · västra återvändsgatan",
+"firstOpen": 1962,
+"lengthMeters": 55,
+"traceDistance": {
+"city-1942-trace-5": 372,
+"city-1942-trace-11": 542,
+"city-1942-trace-13": 618,
+"city-1942-trace-23": 288
+}
+},
+{
+"n": 13,
+"objectId": "road:mariehamn:street-pass4:berggatan",
+"name": "Berggatan",
+"firstOpen": 1968,
+"lengthMeters": 178,
+"traceDistance": {
+"city-1942-trace-5": 182,
+"city-1942-trace-11": 743,
+"city-1942-trace-13": 1072,
+"city-1942-trace-23": 166
+}
+},
+{
+"n": 14,
+"objectId": "road:mariehamn:street-pass4:mockelobrinken",
+"name": "Möckelöbrinken",
+"firstOpen": 1968,
+"lengthMeters": 371,
+"traceDistance": {
+"city-1942-trace-5": 268,
+"city-1942-trace-11": 905,
+"city-1942-trace-13": 929,
+"city-1942-trace-23": 74
+}
+},
+{
+"n": 15,
+"objectId": "road:mariehamn:street-pass5:mariegatan-gap",
+"name": "Mariegatan",
+"firstOpen": 1968,
+"lengthMeters": 106,
+"traceDistance": {
+"city-1942-trace-5": 84,
+"city-1942-trace-11": 880,
+"city-1942-trace-13": 688,
+"city-1942-trace-23": 223
+}
+},
+{
+"n": 16,
+"objectId": "road:mariehamn:street-pass5:havsgatan-new-section",
+"name": "Havsgatan",
+"firstOpen": 1985,
+"lengthMeters": 185,
+"traceDistance": {
+"city-1942-trace-5": 50,
+"city-1942-trace-11": 905,
+"city-1942-trace-13": 866,
+"city-1942-trace-23": 223
+}
+},
+{
+"n": 17,
+"objectId": "road:mariehamn:street-pass5:neptunigatan-curve",
+"name": "Neptunigatan",
+"firstOpen": 1985,
+"lengthMeters": 102,
+"traceDistance": {
+"city-1942-trace-5": 83,
+"city-1942-trace-11": 780,
+"city-1942-trace-13": 928,
+"city-1942-trace-23": 78
+}
+}
+]

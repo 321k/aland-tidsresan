@@ -1,0 +1,110 @@
+{
+ "snapshotSha256": "5091c5789a69caed61c65b12d4d5dfdfd70ae68a9ac2d1d4f6febb953f65ce02",
+ "catalogueSha256": "11d125aae15fbcf30089d4f9c34e56892af691e35e642810d24b742da7139f6e",
+ "previousPublicationSha256": "5091c5789a69caed61c65b12d4d5dfdfd70ae68a9ac2d1d4f6febb953f65ce02",
+ "vsSnapshot": {
+  "changedObjects": 43,
+  "changedEqualsMembers": true,
+  "geometriesUnchanged": true,
+  "otherTopLevelKeysChanged": [],
+  "addedSources": [
+   "review:mariehamn-frame-1942"
+  ],
+  "stages": {
+   "city-reconstruction-1942": {
+    "removed": 22,
+    "removedAllReviewedTraceCopies": true,
+    "added": 44,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-reconstruction-1952": {
+    "removed": 21,
+    "removedAllReviewedTraceCopies": true,
+    "added": 40,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-nls-1968": {
+    "removed": 8,
+    "removedAllReviewedTraceCopies": true,
+    "added": 0,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-nls-1978": {
+    "removed": 8,
+    "removedAllReviewedTraceCopies": true,
+    "added": 0,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-nls-1982": {
+    "removed": 8,
+    "removedAllReviewedTraceCopies": true,
+    "added": 0,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-nls-1985": {
+    "removed": 8,
+    "removedAllReviewedTraceCopies": true,
+    "added": 0,
+    "addedFrameOnly": true,
+    "modified": 0
+   }
+  }
+ },
+ "vsPreviousPublication": {
+  "changedObjects": 43,
+  "changedEqualsMembers": true,
+  "geometriesUnchanged": true,
+  "addedSources": [
+   "review:mariehamn-frame-1942"
+  ],
+  "stages": {
+   "city-reconstruction-1942": {
+    "removed": 22,
+    "removedAllReviewedTraceCopies": true,
+    "added": 44,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-reconstruction-1952": {
+    "removed": 21,
+    "removedAllReviewedTraceCopies": true,
+    "added": 40,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-nls-1968": {
+    "removed": 8,
+    "removedAllReviewedTraceCopies": true,
+    "added": 0,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-nls-1978": {
+    "removed": 8,
+    "removedAllReviewedTraceCopies": true,
+    "added": 0,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-nls-1982": {
+    "removed": 8,
+    "removedAllReviewedTraceCopies": true,
+    "added": 0,
+    "addedFrameOnly": true,
+    "modified": 0
+   },
+   "city-nls-1985": {
+    "removed": 8,
+    "removedAllReviewedTraceCopies": true,
+    "added": 0,
+    "addedFrameOnly": true,
+    "modified": 0
+   }
+  }
+ }
+}

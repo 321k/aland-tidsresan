@@ -1,0 +1,42 @@
+[
+{
+"n": 0,
+"objectId": "road:torggatan:sodra-fortsattningen",
+"name": "Torggatan · södra fortsättningen",
+"firstOpen": 2014,
+"lengthMeters": 164,
+"traceDistance": {
+"city-1942-trace-24": 117
+}
+},
+{
+"n": 1,
+"objectId": "road:postwar:way-158304930",
+"name": "Skillnadsgatan",
+"firstOpen": 1968,
+"lengthMeters": 146,
+"traceDistance": {
+"city-1942-trace-24": 201
+}
+},
+{
+"n": 2,
+"objectId": "road:mariehamn:major:way-930499212",
+"name": "Öhbergsvägen",
+"firstOpen": 1968,
+"lengthMeters": 164,
+"traceDistance": {
+"city-1942-trace-24": 152
+}
+},
+{
+"n": 3,
+"objectId": "road:mariehamn:street-pass4:hantverkargatan",
+"name": "Hantverkargatan",
+"firstOpen": 1968,
+"lengthMeters": 189,
+"traceDistance": {
+"city-1942-trace-24": 194
+}
+}
+]

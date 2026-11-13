@@ -1,0 +1,192 @@
+[
+{
+"n": 0,
+"objectId": "road:postwar:way-44108104",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 11,
+"traceDistance": {
+"city-1942-trace-17": 193
+}
+},
+{
+"n": 1,
+"objectId": "road:postwar:way-951311473",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 124,
+"traceDistance": {
+"city-1942-trace-17": 318
+}
+},
+{
+"n": 2,
+"objectId": "road:postwar:way-172865147",
+"name": "Ålandsvägen",
+"firstOpen": 1968,
+"lengthMeters": 283,
+"traceDistance": {
+"city-1942-trace-17": 429
+}
+},
+{
+"n": 3,
+"objectId": "road:postwar:way-44108087",
+"name": "Torggatan",
+"firstOpen": 1968,
+"lengthMeters": 18,
+"traceDistance": {
+"city-1942-trace-17": 37
+}
+},
+{
+"n": 4,
+"objectId": "road:postwar:way-392187946",
+"name": "Torggatan",
+"firstOpen": 1968,
+"lengthMeters": 22,
+"traceDistance": {
+"city-1942-trace-17": 19
+}
+},
+{
+"n": 5,
+"objectId": "road:postwar:way-601830158",
+"name": "Torggatan",
+"firstOpen": 1968,
+"lengthMeters": 16,
+"traceDistance": {
+"city-1942-trace-17": 35
+}
+},
+{
+"n": 6,
+"objectId": "road:postwar:way-601830161",
+"name": "Torggatan",
+"firstOpen": 1968,
+"lengthMeters": 21,
+"traceDistance": {
+"city-1942-trace-17": 19
+}
+},
+{
+"n": 7,
+"objectId": "road:postwar:way-613969827",
+"name": "Torggatan",
+"firstOpen": 1968,
+"lengthMeters": 5,
+"traceDistance": {
+"city-1942-trace-17": 37
+}
+},
+{
+"n": 8,
+"objectId": "road:postwar:way-862194716",
+"name": "Torggatan",
+"firstOpen": 1968,
+"lengthMeters": 29,
+"traceDistance": {
+"city-1942-trace-17": 125
+}
+},
+{
+"n": 9,
+"objectId": "road:postwar:way-1051656049",
+"name": "Torggatan",
+"firstOpen": 1968,
+"lengthMeters": 18,
+"traceDistance": {
+"city-1942-trace-17": 55
+}
+},
+{
+"n": 10,
+"objectId": "road:postwar:way-1082966161",
+"name": "Torggatan",
+"firstOpen": 1968,
+"lengthMeters": 10,
+"traceDistance": {
+"city-1942-trace-17": 12
+}
+},
+{
+"n": 11,
+"objectId": "road:postwar:way-951311472",
+"name": "Norragatan",
+"firstOpen": 1968,
+"lengthMeters": 8,
+"traceDistance": {
+"city-1942-trace-17": 183
+}
+},
+{
+"n": 12,
+"objectId": "road:postwar:way-951311474",
+"name": "Norragatan",
+"firstOpen": 1968,
+"lengthMeters": 7,
+"traceDistance": {
+"city-1942-trace-17": 183
+}
+},
+{
+"n": 13,
+"objectId": "road:postwar:way-1081062022",
+"name": "Norragatan",
+"firstOpen": 1968,
+"lengthMeters": 6,
+"traceDistance": {
+"city-1942-trace-17": 185
+}
+},
+{
+"n": 14,
+"objectId": "road:postwar:way-102577165",
+"name": "Badhusgatan",
+"firstOpen": 1968,
+"lengthMeters": 339,
+"traceDistance": {
+"city-1942-trace-17": 503
+}
+},
+{
+"n": 15,
+"objectId": "road:mariehamn:diktargrand-east",
+"name": "Diktargränd · östra återvändsgatan",
+"firstOpen": 1962,
+"lengthMeters": 99,
+"traceDistance": {
+"city-1942-trace-17": 215
+}
+},
+{
+"n": 16,
+"objectId": "road:mariehamn:klockargrand-north",
+"name": "Klockargränd · norra anslutningen",
+"firstOpen": 1962,
+"lengthMeters": 63,
+"traceDistance": {
+"city-1942-trace-17": 209
+}
+},
+{
+"n": 17,
+"objectId": "road:mariehamn:street-pass5:ostra-esplanadgatan-gap",
+"name": "Östra Esplanadgatan",
+"firstOpen": 1968,
+"lengthMeters": 69,
+"traceDistance": {
+"city-1942-trace-17": 250
+}
+},
+{
+"n": 18,
+"objectId": "road:mariehamn:street-pass5:vastra-esplanadgatan-gap",
+"name": "Västra Esplanadgatan",
+"firstOpen": 1968,
+"lengthMeters": 70,
+"traceDistance": {
+"city-1942-trace-17": 250
+}
+}
+]

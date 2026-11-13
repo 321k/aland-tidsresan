@@ -51,6 +51,9 @@ test('the two long gaps use centre lines retraced from the photo, joined to thei
 });
 
 test('excluded objects are not backdated and only reviewed objects carry the 1942 photo',()=>{
- for(const a of review.approaches)for(const x of a.excluded){const o=model.objects.get(x.objectId);assert.ok(o.states[0].from>1942,x.objectId);assert.ok(!o.approach1942);assert.ok(x.reason)}
+ for(const a of review.approaches)for(const x of a.excluded){const o=model.objects.get(x.objectId);assert.ok(!o.approach1942);assert.ok(x.reason);
+  // way-35011592 was left to the city map's Strandgatan trace; the 1942 frame review later replaced that trace with it.
+  if(o.frame1942){assert.equal(o.frame1942.traceId,'city-1942-trace-11');continue}
+  assert.ok(o.states[0].from>1942,x.objectId)}
  assert.deepEqual(catalog.objects.filter(o=>o.approach1942).map(o=>o.id).sort(),members.map(m=>m.objectId).sort());
 });

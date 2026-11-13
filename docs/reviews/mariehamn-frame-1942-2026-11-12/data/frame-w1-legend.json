@@ -1,0 +1,327 @@
+[
+{
+"n": 0,
+"objectId": "road:postwar:way-44108104",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 11,
+"traceDistance": {
+"city-1942-trace-5": 146,
+"city-1942-trace-11": 738,
+"city-1942-trace-13": 218,
+"city-1942-trace-23": 699
+}
+},
+{
+"n": 1,
+"objectId": "road:postwar:way-44108105",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 76,
+"traceDistance": {
+"city-1942-trace-5": 172,
+"city-1942-trace-11": 720,
+"city-1942-trace-13": 47,
+"city-1942-trace-23": 935
+}
+},
+{
+"n": 2,
+"objectId": "road:postwar:way-548188325",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 640,
+"traceDistance": {
+"city-1942-trace-5": 654,
+"city-1942-trace-11": 1043,
+"city-1942-trace-13": 653,
+"city-1942-trace-23": 1559
+}
+},
+{
+"n": 3,
+"objectId": "road:postwar:way-889004816",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 74,
+"traceDistance": {
+"city-1942-trace-5": 95,
+"city-1942-trace-11": 772,
+"city-1942-trace-13": 619,
+"city-1942-trace-23": 360
+}
+},
+{
+"n": 4,
+"objectId": "road:postwar:way-951311473",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 124,
+"traceDistance": {
+"city-1942-trace-5": 161,
+"city-1942-trace-11": 737,
+"city-1942-trace-13": 207,
+"city-1942-trace-23": 823
+}
+},
+{
+"n": 5,
+"objectId": "road:postwar:way-1081062879",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 36,
+"traceDistance": {
+"city-1942-trace-5": 165,
+"city-1942-trace-11": 724,
+"city-1942-trace-13": 83,
+"city-1942-trace-23": 859
+}
+},
+{
+"n": 6,
+"objectId": "road:postwar:way-951311472",
+"name": "Norragatan",
+"firstOpen": 1968,
+"lengthMeters": 8,
+"traceDistance": {
+"city-1942-trace-5": 143,
+"city-1942-trace-11": 745,
+"city-1942-trace-13": 218,
+"city-1942-trace-23": 688
+}
+},
+{
+"n": 7,
+"objectId": "road:postwar:way-951311474",
+"name": "Norragatan",
+"firstOpen": 1968,
+"lengthMeters": 7,
+"traceDistance": {
+"city-1942-trace-5": 151,
+"city-1942-trace-11": 738,
+"city-1942-trace-13": 218,
+"city-1942-trace-23": 688
+}
+},
+{
+"n": 8,
+"objectId": "road:postwar:way-1081062022",
+"name": "Norragatan",
+"firstOpen": 1968,
+"lengthMeters": 6,
+"traceDistance": {
+"city-1942-trace-5": 26,
+"city-1942-trace-11": 863,
+"city-1942-trace-13": 214,
+"city-1942-trace-23": 692
+}
+},
+{
+"n": 9,
+"objectId": "road:postwar:way-210251400",
+"name": "Västra Skolgatan",
+"firstOpen": 1968,
+"lengthMeters": 120,
+"traceDistance": {
+"city-1942-trace-5": 281,
+"city-1942-trace-11": 724,
+"city-1942-trace-13": 86,
+"city-1942-trace-23": 823
+}
+},
+{
+"n": 10,
+"objectId": "road:postwar:way-35011941",
+"name": "Hamngatan",
+"firstOpen": 1968,
+"lengthMeters": 302,
+"traceDistance": {
+"city-1942-trace-5": 127,
+"city-1942-trace-11": 985,
+"city-1942-trace-13": 741,
+"city-1942-trace-23": 485
+}
+},
+{
+"n": 11,
+"objectId": "road:postwar:way-37210769",
+"name": "Hamngatan",
+"firstOpen": 1968,
+"lengthMeters": 23,
+"traceDistance": {
+"city-1942-trace-5": 118,
+"city-1942-trace-11": 981,
+"city-1942-trace-13": 407,
+"city-1942-trace-23": 549
+}
+},
+{
+"n": 12,
+"objectId": "road:postwar:way-392187942",
+"name": "Hamngatan",
+"firstOpen": 1968,
+"lengthMeters": 45,
+"traceDistance": {
+"city-1942-trace-5": 121,
+"city-1942-trace-11": 978,
+"city-1942-trace-13": 452,
+"city-1942-trace-23": 526
+}
+},
+{
+"n": 13,
+"objectId": "road:postwar:way-1081060422",
+"name": "Hamngatan",
+"firstOpen": 1968,
+"lengthMeters": 6,
+"traceDistance": {
+"city-1942-trace-5": 118,
+"city-1942-trace-11": 981,
+"city-1942-trace-13": 391,
+"city-1942-trace-23": 555
+}
+},
+{
+"n": 14,
+"objectId": "road:postwar:way-59319322",
+"name": "Havsgatan",
+"firstOpen": 1968,
+"lengthMeters": 127,
+"traceDistance": {
+"city-1942-trace-5": 18,
+"city-1942-trace-11": 871,
+"city-1942-trace-13": 351,
+"city-1942-trace-23": 682
+}
+},
+{
+"n": 15,
+"objectId": "road:postwar:way-685473994",
+"name": "Havsgatan",
+"firstOpen": 1968,
+"lengthMeters": 140,
+"traceDistance": {
+"city-1942-trace-5": 31,
+"city-1942-trace-11": 890,
+"city-1942-trace-13": 684,
+"city-1942-trace-23": 362
+}
+},
+{
+"n": 16,
+"objectId": "road:postwar:way-685474023",
+"name": "Havsgatan",
+"firstOpen": 1968,
+"lengthMeters": 149,
+"traceDistance": {
+"city-1942-trace-5": 31,
+"city-1942-trace-11": 889,
+"city-1942-trace-13": 546,
+"city-1942-trace-23": 510
+}
+},
+{
+"n": 17,
+"objectId": "road:postwar:way-1081056142",
+"name": "Havsgatan",
+"firstOpen": 1968,
+"lengthMeters": 45,
+"traceDistance": {
+"city-1942-trace-5": 15,
+"city-1942-trace-11": 874,
+"city-1942-trace-13": 397,
+"city-1942-trace-23": 555
+}
+},
+{
+"n": 18,
+"objectId": "road:postwar:way-1081061710",
+"name": "Havsgatan",
+"firstOpen": 1968,
+"lengthMeters": 11,
+"traceDistance": {
+"city-1942-trace-5": 20,
+"city-1942-trace-11": 864,
+"city-1942-trace-13": 225,
+"city-1942-trace-23": 692
+}
+},
+{
+"n": 19,
+"objectId": "road:postwar:way-102577165",
+"name": "Badhusgatan",
+"firstOpen": 1968,
+"lengthMeters": 339,
+"traceDistance": {
+"city-1942-trace-5": 195,
+"city-1942-trace-11": 808,
+"city-1942-trace-13": 216,
+"city-1942-trace-23": 1008
+}
+},
+{
+"n": 20,
+"objectId": "road:mariehamn:major:way-77077157",
+"name": "Sjöpromenaden",
+"firstOpen": 1968,
+"lengthMeters": 954,
+"traceDistance": {
+"city-1942-trace-5": 647,
+"city-1942-trace-11": 1110,
+"city-1942-trace-13": 648,
+"city-1942-trace-23": 1554
+}
+},
+{
+"n": 21,
+"objectId": "road:mariehamn:major:way-1415607776",
+"name": "Sjöpromenaden",
+"firstOpen": 1968,
+"lengthMeters": 117,
+"traceDistance": {
+"city-1942-trace-5": 149,
+"city-1942-trace-11": 1034,
+"city-1942-trace-13": 363,
+"city-1942-trace-23": 717
+}
+},
+{
+"n": 22,
+"objectId": "road:mariehamn:street-pass4:vastra-skolgatan",
+"name": "Västra Skolgatan",
+"firstOpen": 1985,
+"lengthMeters": 95,
+"traceDistance": {
+"city-1942-trace-5": 341,
+"city-1942-trace-11": 604,
+"city-1942-trace-13": 153,
+"city-1942-trace-23": 820
+}
+},
+{
+"n": 23,
+"objectId": "road:mariehamn:street-pass5:vastra-esplanadgatan-gap",
+"name": "Västra Esplanadgatan",
+"firstOpen": 1968,
+"lengthMeters": 70,
+"traceDistance": {
+"city-1942-trace-5": 341,
+"city-1942-trace-11": 551,
+"city-1942-trace-13": 223,
+"city-1942-trace-23": 752
+}
+},
+{
+"n": 24,
+"objectId": "road:mariehamn:street-pass5:sjopromenaden-harbour",
+"name": "Sjöpromenaden",
+"firstOpen": 1968,
+"lengthMeters": 98,
+"traceDistance": {
+"city-1942-trace-5": 150,
+"city-1942-trace-11": 1018,
+"city-1942-trace-13": 442,
+"city-1942-trace-23": 601
+}
+}
+]

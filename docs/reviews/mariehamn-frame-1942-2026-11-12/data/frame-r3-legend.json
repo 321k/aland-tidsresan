@@ -1,0 +1,42 @@
+[
+{
+"n": 0,
+"objectId": "road:postwar:way-548188325",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 640,
+"traceDistance": {
+"city-1942-trace-3": 165
+}
+},
+{
+"n": 1,
+"objectId": "road:postwar:way-687284080",
+"name": "Elverksgatan",
+"firstOpen": 1968,
+"lengthMeters": 221,
+"traceDistance": {
+"city-1942-trace-3": 318
+}
+},
+{
+"n": 2,
+"objectId": "road:mariehamn:major:way-77077157",
+"name": "Sjöpromenaden",
+"firstOpen": 1968,
+"lengthMeters": 954,
+"traceDistance": {
+"city-1942-trace-3": 255
+}
+},
+{
+"n": 3,
+"objectId": "road:mariehamn:street-pass5:sjopromenaden-gap",
+"name": "Sjöpromenaden",
+"firstOpen": 1968,
+"lengthMeters": 37,
+"traceDistance": {
+"city-1942-trace-3": 100
+}
+}
+]

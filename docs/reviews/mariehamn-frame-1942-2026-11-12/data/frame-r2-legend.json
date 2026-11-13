@@ -1,0 +1,462 @@
+[
+{
+"n": 0,
+"objectId": "road:postwar:way-548188325",
+"name": "Neptunigatan",
+"firstOpen": 1968,
+"lengthMeters": 640,
+"traceDistance": {
+"city-1942-trace-2": 688
+}
+},
+{
+"n": 1,
+"objectId": "road:postwar:way-35432034",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 18,
+"traceDistance": {
+"city-1942-trace-2": 153
+}
+},
+{
+"n": 2,
+"objectId": "road:postwar:way-43519490",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 28,
+"traceDistance": {
+"city-1942-trace-2": 94
+}
+},
+{
+"n": 3,
+"objectId": "road:postwar:way-43519506",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 48,
+"traceDistance": {
+"city-1942-trace-2": 69
+}
+},
+{
+"n": 4,
+"objectId": "road:postwar:way-56396448",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 14,
+"traceDistance": {
+"city-1942-trace-2": 8
+}
+},
+{
+"n": 5,
+"objectId": "road:postwar:way-56396450",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 13,
+"traceDistance": {
+"city-1942-trace-2": 21
+}
+},
+{
+"n": 6,
+"objectId": "road:postwar:way-77037414",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 12,
+"traceDistance": {
+"city-1942-trace-2": 27
+}
+},
+{
+"n": 7,
+"objectId": "road:postwar:way-345139187",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 46,
+"traceDistance": {
+"city-1942-trace-2": 136
+}
+},
+{
+"n": 8,
+"objectId": "road:postwar:way-43519487",
+"name": "Elverksgatan",
+"firstOpen": 1968,
+"lengthMeters": 34,
+"traceDistance": {
+"city-1942-trace-2": 25
+}
+},
+{
+"n": 9,
+"objectId": "road:postwar:way-44108103",
+"name": "Elverksgatan",
+"firstOpen": 1968,
+"lengthMeters": 33,
+"traceDistance": {
+"city-1942-trace-2": 25
+}
+},
+{
+"n": 10,
+"objectId": "road:postwar:way-56396445",
+"name": "Elverksgatan",
+"firstOpen": 1968,
+"lengthMeters": 45,
+"traceDistance": {
+"city-1942-trace-2": 28
+}
+},
+{
+"n": 11,
+"objectId": "road:postwar:way-687284080",
+"name": "Elverksgatan",
+"firstOpen": 1968,
+"lengthMeters": 221,
+"traceDistance": {
+"city-1942-trace-2": 53
+}
+},
+{
+"n": 12,
+"objectId": "road:postwar:way-687284081",
+"name": "Elverksgatan",
+"firstOpen": 1968,
+"lengthMeters": 22,
+"traceDistance": {
+"city-1942-trace-2": 31
+}
+},
+{
+"n": 13,
+"objectId": "road:postwar:way-56133995",
+"name": "Trobergsgränd",
+"firstOpen": 1968,
+"lengthMeters": 182,
+"traceDistance": {
+"city-1942-trace-2": 368
+}
+},
+{
+"n": 14,
+"objectId": "road:mariehamn:major:way-122072986",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 343,
+"traceDistance": {
+"city-1942-trace-2": 366
+}
+},
+{
+"n": 15,
+"objectId": "road:mariehamn:major:way-678798991",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 68,
+"traceDistance": {
+"city-1942-trace-2": 470
+}
+},
+{
+"n": 16,
+"objectId": "road:mariehamn:major:way-678798995",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 62,
+"traceDistance": {
+"city-1942-trace-2": 420
+}
+},
+{
+"n": 17,
+"objectId": "road:mariehamn:major:way-77077157",
+"name": "Sjöpromenaden",
+"firstOpen": 1968,
+"lengthMeters": 954,
+"traceDistance": {
+"city-1942-trace-2": 912
+}
+},
+{
+"n": 18,
+"objectId": "road:mariehamn:major-followup:alandsvagen-north",
+"name": "Ålandsvägen · norra delen",
+"firstOpen": 1968,
+"lengthMeters": 156,
+"traceDistance": {
+"city-1942-trace-2": 351
+}
+},
+{
+"n": 19,
+"objectId": "road:mariehamn:major-followup:vastra-utfarten-north",
+"name": "Västra Utfarten",
+"firstOpen": 1968,
+"lengthMeters": 203,
+"traceDistance": {
+"city-1942-trace-2": 608
+}
+},
+{
+"n": 20,
+"objectId": "road:mariehamn:major-followup:vedhuggsvagen-west",
+"name": "Vedhuggsvägen",
+"firstOpen": 1968,
+"lengthMeters": 295,
+"traceDistance": {
+"city-1942-trace-2": 379
+}
+},
+{
+"n": 21,
+"objectId": "road:mariehamn:major-followup:klintvagen-north",
+"name": "Klintvägen",
+"firstOpen": 1968,
+"lengthMeters": 151,
+"traceDistance": {
+"city-1942-trace-2": 289
+}
+},
+{
+"n": 22,
+"objectId": "road:mariehamn:street-pass3:stenhuggarvagen",
+"name": "Stenhuggarvägen",
+"firstOpen": 1968,
+"lengthMeters": 263,
+"traceDistance": {
+"city-1942-trace-2": 470
+}
+},
+{
+"n": 23,
+"objectId": "road:mariehamn:street-pass3:smedsgrand",
+"name": "Smedsgränd",
+"firstOpen": 1968,
+"lengthMeters": 183,
+"traceDistance": {
+"city-1942-trace-2": 419
+}
+},
+{
+"n": 24,
+"objectId": "road:mariehamn:street-pass3:skiljevagen",
+"name": "Skiljevägen",
+"firstOpen": 1968,
+"lengthMeters": 474,
+"traceDistance": {
+"city-1942-trace-2": 614
+}
+},
+{
+"n": 25,
+"objectId": "road:mariehamn:street-pass4:parkstigen",
+"name": "Parkstigen",
+"firstOpen": 1968,
+"lengthMeters": 247,
+"traceDistance": {
+"city-1942-trace-2": 386
+}
+},
+{
+"n": 26,
+"objectId": "road:mariehamn:street-pass4:fabriksgatan",
+"name": "Fabriksgatan",
+"firstOpen": 1968,
+"lengthMeters": 186,
+"traceDistance": {
+"city-1942-trace-2": 230
+}
+},
+{
+"n": 27,
+"objectId": "road:mariehamn:street-pass4:kapellvagen",
+"name": "Kapellvägen",
+"firstOpen": 1968,
+"lengthMeters": 168,
+"traceDistance": {
+"city-1942-trace-2": 150
+}
+},
+{
+"n": 28,
+"objectId": "road:mariehamn:street-pass4:backgatan",
+"name": "Backgatan",
+"firstOpen": 1968,
+"lengthMeters": 110,
+"traceDistance": {
+"city-1942-trace-2": 444
+}
+},
+{
+"n": 29,
+"objectId": "road:mariehamn:street-pass4:bjorkmansgrand",
+"name": "Björkmansgränd",
+"firstOpen": 1968,
+"lengthMeters": 52,
+"traceDistance": {
+"city-1942-trace-2": 319
+}
+},
+{
+"n": 30,
+"objectId": "road:mariehamn:street-pass4:sundblomsgrand",
+"name": "Sundblomsgränd",
+"firstOpen": 1968,
+"lengthMeters": 50,
+"traceDistance": {
+"city-1942-trace-2": 370
+}
+},
+{
+"n": 31,
+"objectId": "road:mariehamn:street-pass4:knorringsgrand",
+"name": "Knorringsgränd",
+"firstOpen": 1968,
+"lengthMeters": 49,
+"traceDistance": {
+"city-1942-trace-2": 421
+}
+},
+{
+"n": 32,
+"objectId": "road:mariehamn:street-pass4:stenhuggarvagen-north",
+"name": "Stenhuggarvägen",
+"firstOpen": 1968,
+"lengthMeters": 124,
+"traceDistance": {
+"city-1942-trace-2": 512
+}
+},
+{
+"n": 33,
+"objectId": "road:mariehamn:street-pass4:klintvagen-approach",
+"name": "Klintvägen",
+"firstOpen": 1978,
+"lengthMeters": 37,
+"traceDistance": {
+"city-1942-trace-2": 4
+}
+},
+{
+"n": 34,
+"objectId": "road:mariehamn:street-pass4:mjolnargrand",
+"name": "Mjölnargränd",
+"firstOpen": 1968,
+"lengthMeters": 99,
+"traceDistance": {
+"city-1942-trace-2": 250
+}
+},
+{
+"n": 35,
+"objectId": "road:mariehamn:street-pass4:cedersvagen",
+"name": "Cedersvägen",
+"firstOpen": 1985,
+"lengthMeters": 183,
+"traceDistance": {
+"city-1942-trace-2": 202
+}
+},
+{
+"n": 36,
+"objectId": "road:mariehamn:street-pass4:bagargrand",
+"name": "Bagargränd",
+"firstOpen": 1985,
+"lengthMeters": 130,
+"traceDistance": {
+"city-1942-trace-2": 209
+}
+},
+{
+"n": 37,
+"objectId": "road:mariehamn:street-pass4:murargrand",
+"name": "Murargränd",
+"firstOpen": 1985,
+"lengthMeters": 166,
+"traceDistance": {
+"city-1942-trace-2": 170
+}
+},
+{
+"n": 38,
+"objectId": "road:mariehamn:street-pass4:formansgrand",
+"name": "Formansgränd",
+"firstOpen": 1985,
+"lengthMeters": 125,
+"traceDistance": {
+"city-1942-trace-2": 131
+}
+},
+{
+"n": 39,
+"objectId": "road:mariehamn:street-pass4:gjutargrand",
+"name": "Gjutargränd",
+"firstOpen": 1985,
+"lengthMeters": 121,
+"traceDistance": {
+"city-1942-trace-2": 34
+}
+},
+{
+"n": 40,
+"objectId": "road:mariehamn:street-pass4:timmermansgrand",
+"name": "Timmermansgränd",
+"firstOpen": 1985,
+"lengthMeters": 132,
+"traceDistance": {
+"city-1942-trace-2": 76
+}
+},
+{
+"n": 41,
+"objectId": "road:mariehamn:street-pass4:scheffersgrand",
+"name": "Scheffersgränd",
+"firstOpen": 1985,
+"lengthMeters": 108,
+"traceDistance": {
+"city-1942-trace-2": 252
+}
+},
+{
+"n": 42,
+"objectId": "road:mariehamn:street-pass4:gustaf-eriksonsgrand",
+"name": "Gustaf Eriksonsgränd",
+"firstOpen": 1985,
+"lengthMeters": 52,
+"traceDistance": {
+"city-1942-trace-2": 270
+}
+},
+{
+"n": 43,
+"objectId": "road:mariehamn:street-pass4:vastra-utfarten-west",
+"name": "Västra Utfarten",
+"firstOpen": 1995,
+"lengthMeters": 343,
+"traceDistance": {
+"city-1942-trace-2": 638
+}
+},
+{
+"n": 44,
+"objectId": "road:mariehamn:street-pass5:sjopromenaden-gap",
+"name": "Sjöpromenaden",
+"firstOpen": 1968,
+"lengthMeters": 37,
+"traceDistance": {
+"city-1942-trace-2": 53
+}
+},
+{
+"n": 45,
+"objectId": "road:mariehamn:junction-review:vastra-utfarten-crossing-east",
+"name": "Västra Utfarten",
+"firstOpen": 1995,
+"lengthMeters": 40,
+"traceDistance": {
+"city-1942-trace-2": 43
+}
+}
+]

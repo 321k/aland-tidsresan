@@ -1,0 +1,10 @@
+patch -p1 --dry-run < batch.patch against the pre-edit copies: OK
+  (dist/index.html starts from exactly the state the b4/b5 review's batch.patch produces, 7e61c53c…;
+   scripts/build_temporal_objects.py and tests/temporal-objects.test.cjs, tests/test_reported_buildings_17_18.py start
+   from the states the b1 review's batch.patch produces, c5f6578d…, e5263694…, 130a88af…)
+applied forward; result identical to the working-tree files (diff -r): OK, except the generated loadingPreview bins
+  and startup-loader cache-stamp line of dist/index.html, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+5f5c17fe60ab70255fa348fc0f95feeb544f511a38f2e4d9eaee56ca9d49087e  batch.patch
+post-patch c1adeaf2f9c7b82d4954b2b3343a92b72cf8557f051e27eb5a8a072e650d3971  dist/index.html
+post-patch d4f203a040156b57288f8ae87715b3e3475a3d512da69431b06ce8d7db103ddb  scripts/build_temporal_objects.py
