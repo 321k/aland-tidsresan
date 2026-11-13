@@ -34,7 +34,12 @@ class Frame1942Tests(unittest.TestCase):
         catalog = copy.deepcopy(self.pristine); apply_frame_1942(self.read, catalog)
         catalog = json.loads(json.dumps(catalog, ensure_ascii=False))
         self.assertEqual(catalog['cityStages'], self.built['cityStages'])
-        self.assertEqual(catalog['objects'], self.built['objects'])
+        # Building-map batches added after the snapshot (b6–b8 in the centre) change only buildings the frame
+        # review never touches; every other object must match the build exactly.
+        later = {o['id'] for o in self.built['objects'] if (o.get('buildingMapReview') or {}).get('batch') in ('b6', 'b7', 'b8')}
+        self.assertEqual(len(later), 65)
+        self.assertEqual([o for o in catalog['objects'] if o['id'] not in later],
+                         [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):
             apply_frame_1942(self.read, catalog)
 

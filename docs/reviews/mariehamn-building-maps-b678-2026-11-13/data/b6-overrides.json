@@ -1,0 +1,162 @@
+{
+ "building:osm:way-1253633908": {
+  "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+  "contactSheet": "b6-contact-1968",
+  "cell": 0
+ },
+ "building:osm:way-172847750": {
+  "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+  "contactSheet": "b6-contact-1968",
+  "cell": 1
+ },
+ "building:osm:way-172851916": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-1968",
+  "cell": 2
+ },
+ "building:osm:way-217235942": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 5
+ },
+ "building:osm:way-274182776": {
+  "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+  "contactSheet": "b6-contact-1968",
+  "cell": 7
+ },
+ "building:osm:way-329168564": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-1968",
+  "cell": 9
+ },
+ "building:osm:way-345813209": {
+  "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+  "contactSheet": "b6-contact-1968",
+  "cell": 10
+ },
+ "building:osm:way-345813229": {
+  "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+  "contactSheet": "b6-contact-1968",
+  "cell": 11
+ },
+ "building:osm:way-496240792": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-1968",
+  "cell": 12
+ },
+ "building:osm:way-496240799": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 14
+ },
+ "building:osm:way-496240806": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 19
+ },
+ "building:osm:way-496240811": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-1968",
+  "cell": 20
+ },
+ "building:osm:way-496240819": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 23
+ },
+ "building:osm:way-496240821": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 24
+ },
+ "building:osm:way-496240824": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-1968",
+  "cell": 27
+ },
+ "building:osm:way-496240825": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 28
+ },
+ "building:osm:way-496790828": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 31
+ },
+ "building:osm:way-496790829": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 32
+ },
+ "building:osm:way-496790830": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 33
+ },
+ "building:osm:way-498109467": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 38
+ },
+ "building:osm:way-498109471": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-1968",
+  "cell": 41
+ },
+ "building:osm:way-498109476": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-1968",
+  "cell": 44
+ },
+ "building:osm:way-500926558": {
+  "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+  "contactSheet": "b6-contact-1968",
+  "cell": 47
+ },
+ "building:osm:way-501137397": {
+  "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+  "contactSheet": "b6-contact-1968",
+  "cell": 48
+ },
+ "building:osm:way-501137398": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-1968",
+  "cell": 49
+ },
+ "building:osm:way-501190346": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-1968",
+  "cell": 50
+ },
+ "building:osm:way-1253633910": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-later",
+  "cell": 1
+ },
+ "building:osm:way-1253633914": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-later",
+  "cell": 2
+ },
+ "building:osm:way-165436777": {
+  "reason": "obscured: map lettering covers the outline in the previous edition, so a house could be hidden under it",
+  "contactSheet": "b6-contact-later",
+  "cell": 4
+ },
+ "building:osm:way-496961865": {
+  "reason": "obscured: map lettering covers the outline in the previous edition, so a house could be hidden under it",
+  "contactSheet": "b6-contact-later",
+  "cell": 13
+ },
+ "building:osm:way-496985069": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b6-contact-later",
+  "cell": 14
+ },
+ "building:osm:way-523420571": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b6-contact-later",
+  "cell": 20
+ }
+}

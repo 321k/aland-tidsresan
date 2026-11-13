@@ -1,0 +1,27 @@
+test_1978_road_revision_is_not_building_evidence (tests.test_mariehamn_building_maps.BuildingMapTests.test_1978_road_revision_is_not_building_evidence) ... ok
+test_changed_building_rejected (tests.test_mariehamn_building_maps.BuildingMapTests.test_changed_building_rejected) ... ok
+test_curated_building_rejected (tests.test_mariehamn_building_maps.BuildingMapTests.test_curated_building_rejected) ... ok
+test_overlapping_printed_symbol_object_rejected (tests.test_mariehamn_building_maps.BuildingMapTests.test_overlapping_printed_symbol_object_rejected) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_building_maps.BuildingMapTests.test_review_applies_once_and_matches_the_build) ... ok
+test_start_must_be_first_map_evidence (tests.test_mariehamn_building_maps.BuildingMapTests.test_start_must_be_first_map_evidence) ... ok
+test_symbol_far_from_the_building_rejected (tests.test_mariehamn_building_maps.BuildingMapTests.test_symbol_far_from_the_building_rejected) ... ok
+test_changed_object_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_changed_object_rejected) ... ok
+test_changed_original_trace_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_changed_original_trace_rejected) ... ok
+test_object_far_from_the_trace_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_object_far_from_the_trace_rejected) ... ok
+test_repeated_object_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_repeated_object_rejected) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_review_applies_once_and_matches_the_build) ... ok
+test_unreviewed_stage_copy_rejected (tests.test_mariehamn_approaches_1942.Approaches1942Tests.test_unreviewed_stage_copy_rejected) ... ok
+test_changed_inputs_fail_before_either_object_is_mutated (tests.test_reported_buildings_17_18.ReportedBuildingsTest.test_changed_inputs_fail_before_either_object_is_mutated) ... ok
+test_reproducible_and_only_two_objects_change (tests.test_reported_buildings_17_18.ReportedBuildingsTest.test_reproducible_and_only_two_objects_change) ... ok
+test_changed_trace_or_object_rejected (tests.test_mariehamn_frame_1942.Frame1942Tests.test_changed_trace_or_object_rejected) ... ok
+test_gap_must_join_its_objects (tests.test_mariehamn_frame_1942.Frame1942Tests.test_gap_must_join_its_objects) ... ok
+test_object_far_from_its_trace_rejected (tests.test_mariehamn_frame_1942.Frame1942Tests.test_object_far_from_its_trace_rejected) ... ok
+test_rejected_trace_cannot_carry_members (tests.test_mariehamn_frame_1942.Frame1942Tests.test_rejected_trace_cannot_carry_members) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_mariehamn_frame_1942.Frame1942Tests.test_review_applies_once_and_matches_the_build) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 16.560s
+
+OK
+
+First full run: test_mariehamn_frame_1942.test_review_applies_once_and_matches_the_build failed because its pre-frame snapshot predates b6–b8; the test now leaves out the 65 b6–b8 buildings and compares everything else exactly.

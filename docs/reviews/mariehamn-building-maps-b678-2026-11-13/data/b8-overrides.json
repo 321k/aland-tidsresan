@@ -1,0 +1,22 @@
+{
+ "building:osm:way-1072833222": {
+  "reason": "shoreline-or-pier: the match is a shoreline, jetty, quay or pier line, not a house",
+  "contactSheet": "b8-contact-1968",
+  "cell": 0
+ },
+ "building:osm:way-1263839923": {
+  "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+  "contactSheet": "b8-contact-later",
+  "cell": 0
+ },
+ "building:osm:way-497012858": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b8-contact-later",
+  "cell": 1
+ },
+ "building:osm:way-584444490": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b8-contact-later",
+  "cell": 2
+ }
+}

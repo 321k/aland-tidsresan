@@ -1,0 +1,67 @@
+{
+ "building:osm:way-172846171": {
+  "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+  "contactSheet": "b7-contact-1968",
+  "cell": 0
+ },
+ "building:osm:way-418380886": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b7-contact-1968",
+  "cell": 2
+ },
+ "building:osm:way-584481373": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b7-contact-1968",
+  "cell": 6
+ },
+ "building:osm:way-1555824370": {
+  "reason": "line: the 1995 match is the line of a circle symbol, not a house",
+  "contactSheet": "b7-contact-later",
+  "cell": 0
+ },
+ "building:osm:way-1555824389": {
+  "reason": "line: the 1995 match is the line of a circle symbol, not a house",
+  "contactSheet": "b7-contact-later",
+  "cell": 1
+ },
+ "building:osm:way-162297312": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b7-contact-later",
+  "cell": 2
+ },
+ "building:osm:way-162298848": {
+  "reason": "obscured: map lettering covers the outline in the previous edition, so a house could be hidden under it",
+  "contactSheet": "b7-contact-later",
+  "cell": 3
+ },
+ "building:osm:way-163034629": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b7-contact-later",
+  "cell": 6
+ },
+ "building:osm:way-165434948": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b7-contact-later",
+  "cell": 8
+ },
+ "building:osm:way-166876807": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b7-contact-later",
+  "cell": 9
+ },
+ "building:osm:way-274182766": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b7-contact-later",
+  "cell": 11
+ },
+ "building:osm:way-418380869": {
+  "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+  "contactSheet": "b7-contact-later",
+  "cell": 13
+ },
+ "building:osm:way-584475063": {
+  "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+  "contactSheet": "b7-contact-later",
+  "cell": 17
+ }
+}

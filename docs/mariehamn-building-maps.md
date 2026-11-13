@@ -13,9 +13,9 @@ the earliest measured outline: the map symbols date existence, not form.
 
 ## Batches
 
-None of the areas has `printedMapSymbol` objects, so dating an outline cannot duplicate a building that already
-exists as a map symbol (those reach 60.1078° N between 19.927° and 19.946° E; Västernäs and Södra need that check in
-a later batch). Sheet 101208's 1995 registration starts at about 19.917° E, so nothing further west is reviewed.
+b1–b5 contain no `printedMapSymbol` objects. b6–b8 cover the centre, Västernäs and Södra, where 615 such objects
+(between 19.927° and 19.946° E, up to 60.1078° N) already show houses from the same sheet; see *The centre* below.
+Sheet 101208's 1995 registration starts at about 19.917° E, so nothing further west is reviewed.
 
 - **b1**, 19.930–19.958° E × 60.114–60.127° N: Johannebo, Stenliden, Hindersböle, Norrböle (the areas dated in
   street passes 3–5).
@@ -26,26 +26,44 @@ a later batch). Sheet 101208's 1995 registration starts at about 19.917° E, so 
   Gröna udden on the east shore, at least 110 m south of the southernmost symbol object.
 - **b5**, 19.920–19.9255° E × 60.0925–60.109° N: the Västerhamn shore west of the symbol objects. All 8 proposals
   were shoreline, quay or lettering matches, so it dates nothing.
+- **b6**, 19.9255–19.946° E × 60.0915–60.100° N: Södra and the southern centre.
+- **b7**, 19.9255–19.946° E × 60.100–60.109° N: Västernäs and the northern centre.
+- **b8**, 19.946–19.962° E × 60.0915–60.109° N: the strip east of the centre along Slemmern.
 
-| | b1 | b2 | b3 | b4 | b5 | total |
-|---|---|---|---|---|---|---|
-| dated from 1968 | 107 (28 with 1985 *unclear*) | 26 (1) | 81 (19) | 78 (34) | – | 292 |
-| dated from 1985 | 179 | 65 | 25 | 20 | – | 289 |
-| dated from 1995 | 75 | 4 | 13 | 14 | – | 106 |
-| **dated** | **361** | **95** | **119** | **112** | **0** | **687** |
-| rejected on the contact sheets (`visual-reject`) | 83 | 13 | 17 | 32 | 8 | 153 |
-| no symbol in any edition (`absent`) | 491 | 180 | 118 | 173 | 10 | 972 |
-| earlier edition shows hatched or stippled drawing (`earlier-unclear`) | 85 | 16 | 14 | 26 | 2 | 143 |
-| symbol missing in a later edition (`inconsistent`) | 47 | 19 | 15 | 31 | 3 | 115 |
-| start already earlier than the maps | 4 | – | 1 | 2 | 3 | 10 |
-| a curated review decides the dates (`curated-review`: a church, the merged Ringvägen 66) | – | – | 1 | 1 | – | 2 |
-| earliest outline differs from the matched one (`outline-changed`) | 1 | – | – | – | – | 1 |
+| | b1 | b2 | b3 | b4 | b5 | b6 | b7 | b8 | total |
+|---|---|---|---|---|---|---|---|---|---|
+| dated from 1968 | 107 (28 with 1985 *unclear*) | 26 (1) | 81 (19) | 78 (34) | – | 26 (9) | 10 (2) | 4 | 332 |
+| dated from 1985 | 179 | 65 | 25 | 20 | – | – | 3 | – | 292 |
+| dated from 1995 | 75 | 4 | 13 | 14 | – | 17 | 5 | – | 128 |
+| **dated** | **361** | **95** | **119** | **112** | **0** | **43** | **18** | **4** | **752** |
+| rejected on the contact sheets (`visual-reject`) | 83 | 13 | 17 | 32 | 8 | 32 | 13 | 4 | 202 |
+| no symbol in any edition (`absent`) | 491 | 180 | 118 | 173 | 10 | 175 | 163 | 23 | 1333 |
+| earlier edition shows hatched or stippled drawing (`earlier-unclear`) | 85 | 16 | 14 | 26 | 2 | 12 | 9 | 2 | 166 |
+| symbol missing in a later edition (`inconsistent`) | 47 | 19 | 15 | 31 | 3 | 19 | 17 | 4 | 155 |
+| start already earlier than the maps | 4 | – | 1 | 2 | 3 | 121 | 20 | 1 | 152 |
+| printed-map symbol objects (matched only so that their symbols are used up) | – | – | – | – | – | 384 | 211 | 1 | 596 |
+| a curated review decides the dates (`curated-review`: a church, the merged Ringvägen 66) | – | – | 1 | 1 | – | – | – | – | 2 |
+| earliest outline differs from the matched one (`outline-changed`) | 1 | – | – | – | – | – | – | – | 1 |
 
 b1 was first published with 444 dated houses after the tile review alone. The contact-sheet review below then
 withdrew 83 of them, which keep their previous start: 27 ambiguous partial overlaps, 18 empty outlines matched to a
 neighbour, 16 in a run of 1968 symbols offset by about one house width (registration offset or absence cannot be told
 apart), 15 where the previous edition already draws something at the outline (hollow, hatched or offset), 3 under
 lettering, 3 matched to black place-name lettering on the 1995 map and 1 matched to a line.
+
+## The centre (b6–b8)
+
+In the centre, 615 `map-building:nls-symbol-*` objects already show houses from the 1985 edition of the same sheet,
+most of them linked to their OSM outline. They take part in the matching, so each uses up the symbol it stands on and
+no other outline can be dated from it. As a second guard, the compiler refuses the whole review if a dated outline
+overlaps any period of a symbol object by more than 5 m² or contains its centre (`symbolObjectOverlapSquareMeters`);
+none of the 65 dated houses comes within 3 m of one.
+
+The 1968 edition draws the centre's blocks hatched as built-up area. A symbol detected inside a hatched block cannot be
+told from the hatching, so 8 such 1968 proposals were rejected (`hatched-block`); the houses keep their previous
+start rather than being moved to 1985, because the hatched 1968 drawing could already include them. 41 more were
+rejected on the contact sheets for the usual reasons (partial overlaps, empty outlines, elevation figures or lettering
+over the previous edition, circle symbols, a pier).
 
 ## Method
 
@@ -93,19 +111,21 @@ The review tooling and sheets are kept in the git-ignored cache `data/map-scan-c
 The review is rejected as a whole, leaving the catalogue unchanged, if a building's input fingerprint changed, a
 building repeats, its start is not the first edition with a symbol, a later edition lacks the symbol (other than the
 1985 *unclear* case), a 1978 observation is used, or a recorded symbol pixel, converted through the sheet's
-registration, lies more than 30 m from the outline or beyond the match limit after the recorded shift. Buildings with a
+registration, lies more than 30 m from the outline or beyond the match limit after the recorded shift. It is also rejected if a dated outline
+overlaps a printed-map symbol object (more than 5 m², or containing its centre) in any of its periods. Buildings with a
 `historicalReview`, `museumReview`, `printedMapSymbol` or `neighborhoodReviews` are refused: those reviews decide
 their dates.
 
 Tests: `tests/mariehamn-building-maps.test.cjs`, `tests/test_mariehamn_building_maps.py`. The scope audit against
-the pre-review snapshot finds exactly the 687 reviewed objects changed, one new source, and no geometry changes.
+the pre-review snapshot finds exactly the 752 reviewed objects changed, one new source, and no geometry changes.
 Against the first b1 publication, the 83 withdrawn houses are byte-identical to the snapshot again, the 361 kept
 are unchanged and 214 are newly dated.
 
 ## Next batches
 
-- What remains in Mariehamn is the centre, Västernäs and Södra (19.927–19.946° E, 60.092–60.108° N) and the strips
-  just around them, which must first be reconciled with the `map-building:nls-symbol-*` printed-symbol objects so a dated outline and a symbol object never show the same house twice.
+- The centre's hatched 1968 blocks: houses there could be dated from 1985 only with a closer look at whether the
+  hatching already includes them.
+- The 615 printed-symbol objects start at their 1985 symbol (mostly 1983); many also stand on the 1968 sheet.
 - Houses south of 60.085° N and east of Slemmern were not reviewed; whether they belong to Mariehamn was not
   checked against the town boundary.
 - The `earlier-unclear`, `inconsistent` and `visual-reject` buildings need a closer look (often hatched public

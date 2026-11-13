@@ -18,6 +18,7 @@
   "fillLimitMeters": 14,
   "sizeRatio": 3,
   "maxRawSymbolDistanceMeters": 30,
+  "symbolObjectOverlapSquareMeters": 5,
   "roadRevision1978": "1978 är en vägrevision på 1968 års underlag och används inte som eget byggnadsbelägg."
  },
  "method": "Builds data/mariehamn-building-maps.json: Mariehamn buildings dated from the house symbols on sheet 101208.\n\nRetained for audit; it captures input fingerprints from the pre-review snapshot (before.json.gz), so rerunning it\nafter inputs change silently re-baselines the review. The compiler (scripts/mariehamn_building_maps.py) rejects\nchanged inputs instead.\n\nMethod (match.py, verdict.py, sheets.py in this folder): dark filled house symbols were detected on the 1968, 1978,\n1985 and 1995 scans, each modern outline (at least 40 m²) was matched one-to-one to a symbol within 9 m after a local\nregistration shift, and every tile was then checked visually on the review sheets (KEY-sheet-*.jpg). Dating rules:\n- 1978 is a road revision on the 1968 base and is not independent building evidence;\n- a building starts at the first of 1968/1985/1995 with a matched symbol and must be matched in every later one;\n  a house shown in 1968 and 1995 whose 1985 symbol is not found keeps 1968 with 1985 recorded as unclear;\n- a building much larger than the symbol it sits on (more than 3x the drawn area) is not matched to it;\n- a later start is deferred if the previous edition shows hatched or stippled drawing inside the outline.\nEvery proposal was then checked on contact sheets (contact.py: each building at high zoom in the previous and the\nfirst edition, or 1985 and 1968 for 1968 starts). Rejections are recorded per batch in KEY-overrides.json with a\nreason: an empty outline matched to a neighbour, a shoreline, pier, line or lettering match, an ambiguous partial\noverlap, or an earlier hollow, hatched, offset or text-covered drawing that could make a later start too late.\nMap years are first evidence, never construction years.",
@@ -35411,10 +35412,3331 @@
     }
    ],
    "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-1241680551",
+   "input": "940053ccdaa14d2df7f229d6bf429ce8e9f6699c7ec9436e4bd3c472d6ea7e93",
+   "referenceGeometryId": "geometry:53f62c74dfe26be7df4d",
+   "originalFrom": 2025,
+   "firstYear": 1995,
+   "areaSquareMeters": 69.8,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1943.5,
+      3103.5
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-165234976",
+   "input": "44783eb522ac956a342c2f2e3f6eee55a0f292bfb288b6449940f621e508f8a4",
+   "referenceGeometryId": "geometry:ee762c4515c802554a5e",
+   "originalFrom": 2012,
+   "firstYear": 1995,
+   "areaSquareMeters": 91.7,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1828.0,
+      3276.5
+     ],
+     "shiftMeters": [
+      -3.0,
+      0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-166878166",
+   "input": "9f46a88c9b771372c4ad1c1cc02037f1989582fb638d06ca9a56cb01341f6a6e",
+   "referenceGeometryId": "geometry:5d048100b02963434286",
+   "originalFrom": 2012,
+   "firstYear": 1995,
+   "areaSquareMeters": 336.4,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2036.92,
+      2834.03
+     ],
+     "shiftMeters": [
+      -1.5,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-217235929",
+   "input": "058e84d58009498f77d4a5a19f873f45b427cfbcd614eb63240ef2da1dc88436",
+   "referenceGeometryId": "geometry:e2a2ed99f657fa0bbe9e",
+   "originalFrom": 2013,
+   "firstYear": 1968,
+   "areaSquareMeters": 109.1,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1003.49,
+      3689.72
+     ],
+     "shiftMeters": [
+      4.0,
+      5.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3024.0,
+      3561.5
+     ],
+     "shiftMeters": [
+      1.6,
+      -3.8
+     ],
+     "distanceAfterShiftMeters": 2.1,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1959.5,
+      3317.0
+     ],
+     "shiftMeters": [
+      -1.6,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-217235931",
+   "input": "76e82b06afd3311705e5c7c0289b20d3bd04617d1c9783d9e881a7e9241aeabf",
+   "referenceGeometryId": "geometry:7c7e20955b6b04c5247c",
+   "originalFrom": 2013,
+   "firstYear": 1968,
+   "areaSquareMeters": 115.3,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      990.78,
+      3671.11
+     ],
+     "shiftMeters": [
+      2.6,
+      2.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3012.0,
+      3547.0
+     ],
+     "shiftMeters": [
+      1.5,
+      -3.8
+     ],
+     "distanceAfterShiftMeters": 0.5,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1947.2,
+      3298.87
+     ],
+     "shiftMeters": [
+      -2.2,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-217235943",
+   "input": "73f5d47590c8b3de46e3171aa36f2279f576bc4ff3643a56ed52b7d1224d300b",
+   "referenceGeometryId": "geometry:7e44c2d1e552a5242159",
+   "originalFrom": 2013,
+   "firstYear": 1968,
+   "areaSquareMeters": 132.9,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1011.05,
+      3702.23
+     ],
+     "shiftMeters": [
+      4.2,
+      5.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3032.94,
+      3576.8
+     ],
+     "shiftMeters": [
+      2.4,
+      -2.6
+     ],
+     "distanceAfterShiftMeters": 1.4,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1965.94,
+      3328.94
+     ],
+     "shiftMeters": [
+      -1.5,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-274182768",
+   "input": "b4b1f20eef5ffeae9a052623c1316e214300fa9e1322a01685c76d923a618bfe",
+   "referenceGeometryId": "geometry:cd3c704f563a7f04feb4",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 336.8,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1907.9,
+      2950.7
+     ],
+     "shiftMeters": [
+      -1.2,
+      -0.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-274182774",
+   "input": "a108fe2a4c98e0c3d0fff71bf0da3b5920c53aed7702437bab0c85396d777e1a",
+   "referenceGeometryId": "geometry:e1729342bb82331c6796",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 263.9,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2015.44,
+      2808.53
+     ],
+     "shiftMeters": [
+      -1.4,
+      -0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-274188737",
+   "input": "9393618584c8b756d86303ace4ae4c08fa15086df13e6d1af287ed910481fd57",
+   "referenceGeometryId": "geometry:7f6cd33641d8cc090c78",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 131.3,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1021.8,
+      3644.3
+     ],
+     "shiftMeters": [
+      2.0,
+      1.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3040.91,
+      3517.5
+     ],
+     "shiftMeters": [
+      1.7,
+      -3.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1979.5,
+      3270.0
+     ],
+     "shiftMeters": [
+      -2.1,
+      -0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240798",
+   "input": "b821ca204b9eb800ff25ada2a227be1799a3987db5b364466a88e25e41cc0031",
+   "referenceGeometryId": "geometry:45848cc0a052b81b2bea",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 84.4,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1261.09,
+      3702.67
+     ],
+     "shiftMeters": [
+      -1.1,
+      3.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3274.45,
+      3586.85
+     ],
+     "shiftMeters": [
+      3.44,
+      -3.14
+     ],
+     "distanceAfterShiftMeters": 13.7,
+     "fillPass": true,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2219.95,
+      3332.95
+     ],
+     "shiftMeters": [
+      -2.0,
+      -0.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240800",
+   "input": "ba1c105c86486d622322607e52facce9be1dfa58ed80f3f56a461d1f4564f3ca",
+   "referenceGeometryId": "geometry:143b5ed1439ceb66f67f",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 130.3,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1267.39,
+      3690.93
+     ],
+     "shiftMeters": [
+      -1.4,
+      3.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3288.08,
+      3565.92
+     ],
+     "shiftMeters": [
+      2.6,
+      -2.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2226.25,
+      3320.39
+     ],
+     "shiftMeters": [
+      -1.8,
+      -1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240802",
+   "input": "d103e9a0e80cfb5cdecc4ba452b689904eacfa974ca3010ca1579ef080dc0392",
+   "referenceGeometryId": "geometry:34b61bbcda7453506309",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 90.5,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1279.35,
+      3679.94
+     ],
+     "shiftMeters": [
+      -1.8,
+      2.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2236.5,
+      3312.36
+     ],
+     "shiftMeters": [
+      -1.7,
+      -1.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240804",
+   "input": "c1df97c4f120edd6774de5b23dc1690d713ae18bf9f08d784bed565067553933",
+   "referenceGeometryId": "geometry:19778d809f3e52590ae3",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 113.8,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1283.55,
+      3669.92
+     ],
+     "shiftMeters": [
+      -2.9,
+      3.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3305.0,
+      3543.0
+     ],
+     "shiftMeters": [
+      2.9,
+      0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2243.31,
+      3301.65
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240805",
+   "input": "e2eebe127950b1e680a032c1ea20046a027390a34b739fb9daa37070a4556221",
+   "referenceGeometryId": "geometry:ece0308f9587991c3d67",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 148.7,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1307.88,
+      3673.59
+     ],
+     "shiftMeters": [
+      -3.3,
+      3.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2266.54,
+      3303.06
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240812",
+   "input": "ef6529e1452d493f524b55931c12a12a8a76e3a4ca91cd386b0529a7846abb09",
+   "referenceGeometryId": "geometry:c8985c0ed79cd19ac7f4",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 115.3,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1292.34,
+      3693.19
+     ],
+     "shiftMeters": [
+      -3.0,
+      3.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2248.94,
+      3322.85
+     ],
+     "shiftMeters": [
+      -1.7,
+      -1.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240813",
+   "input": "beaaef515f4e3ad75c95c6c89894f547aead065d49a21e11cb3cfd6272a9176b",
+   "referenceGeometryId": "geometry:4ea4817d7a650e5113cd",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 101.2,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1301.02,
+      3682.57
+     ],
+     "shiftMeters": [
+      -3.2,
+      3.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3324.06,
+      3556.43
+     ],
+     "shiftMeters": [
+      4.4,
+      -0.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2257.03,
+      3313.81
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240822",
+   "input": "730a58109e3c656fad57733d7cb1b2347276159d5c52b513d4fd495b8883465d",
+   "referenceGeometryId": "geometry:65dcce8299d17a07ef88",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 109.4,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1189.5,
+      3674.35
+     ],
+     "shiftMeters": [
+      1.1,
+      2.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3211.6,
+      3546.6
+     ],
+     "shiftMeters": [
+      6.1,
+      0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2144.73,
+      3303.33
+     ],
+     "shiftMeters": [
+      -1.6,
+      -0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240823",
+   "input": "9c0f37156225ce0b07ccd95a7e5f43b32e80e94d8bf1be56510b3203c79089d1",
+   "referenceGeometryId": "geometry:b2dcca705e24374aeab7",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 109.0,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1188.0,
+      3661.5
+     ],
+     "shiftMeters": [
+      0.9,
+      2.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3210.78,
+      3536.67
+     ],
+     "shiftMeters": [
+      4.9,
+      1.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2144.15,
+      3290.59
+     ],
+     "shiftMeters": [
+      -1.6,
+      -0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240827",
+   "input": "d452c537d77ab5ec5b1b36a882d6d84fc48ac300decf941ddef998e26d8e5c51",
+   "referenceGeometryId": "geometry:e3a77a9f74d05611efcf",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 135.7,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1159.8,
+      3651.0
+     ],
+     "shiftMeters": [
+      0.9,
+      1.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3181.68,
+      3525.11
+     ],
+     "shiftMeters": [
+      5.0,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2119.33,
+      3280.33
+     ],
+     "shiftMeters": [
+      -1.6,
+      -0.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496240828",
+   "input": "ee56fdf96e7f702749a21be827852712d345e73908ade18c2a03e0ed3d98e804",
+   "referenceGeometryId": "geometry:a29e901a5f5471b19c15",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 99.9,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1212.56,
+      3684.93
+     ],
+     "shiftMeters": [
+      0.9,
+      3.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3231.68,
+      3560.26
+     ],
+     "shiftMeters": [
+      6.5,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2168.44,
+      3312.93
+     ],
+     "shiftMeters": [
+      -1.9,
+      -0.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496790833",
+   "input": "d7c5aa1fc96489e76324f9f2241667aa98d6566577e1581be81577a84d40d366",
+   "referenceGeometryId": "geometry:f21addcf90c1508f604c",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 96.3,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1326.0,
+      3635.0
+     ],
+     "shiftMeters": [
+      -3.5,
+      3.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2284.09,
+      3265.89
+     ],
+     "shiftMeters": [
+      -2.2,
+      -1.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496790834",
+   "input": "5cff41ca8eb704548d8f0327eb9fb80b95611547bc0b96f2ea78f04273c110d7",
+   "referenceGeometryId": "geometry:a36e2fc9056f67cd3e77",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 91.7,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1309.53,
+      3633.63
+     ],
+     "shiftMeters": [
+      -3.3,
+      3.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2266.12,
+      3265.07
+     ],
+     "shiftMeters": [
+      -2.2,
+      -1.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496790842",
+   "input": "8c07e2e385f7a3a2936c68d764e1bfdd823fb122215f50575843001b661d71a5",
+   "referenceGeometryId": "geometry:424f5a8c19a04102c6c4",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 54.6,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2253.45,
+      3236.36
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496790843",
+   "input": "f66abd36e52698fa03b01d1cd4aeb9091439c8f5644a70d3dc45c52e8816400b",
+   "referenceGeometryId": "geometry:673bb737ba853ba52332",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 75.0,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2265.6,
+      3235.8
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496952301",
+   "input": "f7948c6ec5d3959cd1497b132f9af7103961982a2022e0724e819a93bb584506",
+   "referenceGeometryId": "geometry:e80285572e5ddb19db5a",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 220.7,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2248.53,
+      3136.26
+     ],
+     "shiftMeters": [
+      -2.1,
+      -0.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496961791",
+   "input": "ee32f97ef8bb7b9c08e6f855947b7c940bcfe00b2109072ad9191ae19cb3cfa2",
+   "referenceGeometryId": "geometry:0f5206527c6ebd685886",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 514.8,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2086.4,
+      3192.26
+     ],
+     "shiftMeters": [
+      -2.3,
+      -1.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496961857",
+   "input": "62b4163017a6e3c4ddde5f06cc781fb08e23254ac5b39c3a49bdf42917b216a9",
+   "referenceGeometryId": "geometry:7089bb3748fcbd11e837",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 202.4,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2043.89,
+      3110.09
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496985075",
+   "input": "ecec7616ac193173191115ed3d6215f06896514db7d19ea82c44695fa434e561",
+   "referenceGeometryId": "geometry:9c476a3092f9731538e7",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 216.7,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2264.46,
+      3109.5
+     ],
+     "shiftMeters": [
+      -2.2,
+      -0.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-496985084",
+   "input": "71229191d22429e5a5b99f56c6b0a59159f05ac85a815150948399f42bdbe3ac",
+   "referenceGeometryId": "geometry:b6bf77f4f7400e914425",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 190.7,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2286.64,
+      3151.32
+     ],
+     "shiftMeters": [
+      -2.1,
+      -1.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-497012864",
+   "input": "5ebc06b775abd03f3baa33e0bc97e79d8284be27503599f1f5672b406778db9d",
+   "referenceGeometryId": "geometry:4e8e1a8985b49603334f",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 107.1,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1363.43,
+      3615.43
+     ],
+     "shiftMeters": [
+      -3.6,
+      3.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2321.19,
+      3249.42
+     ],
+     "shiftMeters": [
+      -2.2,
+      -1.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-498109463",
+   "input": "839de6448d143e765d611994e140224e6f563fb28605f235f213be1444cbd070",
+   "referenceGeometryId": "geometry:48df487c0d78e50d6138",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 145.7,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1337.89,
+      3693.66
+     ],
+     "shiftMeters": [
+      -3.2,
+      3.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3360.5,
+      3567.0
+     ],
+     "shiftMeters": [
+      4.6,
+      -0.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2294.57,
+      3325.49
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-498109468",
+   "input": "99c84ca9f51cbb370d1ced6394fc880c2c50d3f92b43c679776c9e2896d30baf",
+   "referenceGeometryId": "geometry:77be08989fd66cc7c4f2",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 165.5,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1344.61,
+      3684.04
+     ],
+     "shiftMeters": [
+      -3.3,
+      3.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2302.76,
+      3313.79
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-498109469",
+   "input": "2c1177161cb04301a27a76dcb26a3a98da43878d11c4192013122fb56f743488",
+   "referenceGeometryId": "geometry:dcb2a788b0f0606b54ca",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 138.4,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1354.03,
+      3667.62
+     ],
+     "shiftMeters": [
+      -3.4,
+      3.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2309.83,
+      3298.67
+     ],
+     "shiftMeters": [
+      -2.1,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-498109474",
+   "input": "b3e1a35451787bfa63062b53afee639b141d25d6eaaec105fca1b0c42f42526d",
+   "referenceGeometryId": "geometry:73e858d19077544984d7",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 119.8,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1380.16,
+      3657.53
+     ],
+     "shiftMeters": [
+      -3.9,
+      3.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3404.0,
+      3532.29
+     ],
+     "shiftMeters": [
+      4.9,
+      1.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2338.21,
+      3290.41
+     ],
+     "shiftMeters": [
+      -2.2,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-498109475",
+   "input": "42adf950d6f88c441e6efee4860ad7c44439dbf37f0d06baa4769884b8a2c3a5",
+   "referenceGeometryId": "geometry:720c65aa90cb69a7c268",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 94.0,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1377.22,
+      3670.83
+     ],
+     "shiftMeters": [
+      -3.9,
+      3.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3400.0,
+      3547.5
+     ],
+     "shiftMeters": [
+      4.0,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2335.56,
+      3301.87
+     ],
+     "shiftMeters": [
+      -2.1,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-498109478",
+   "input": "6cbf68cf0f8c7c8f8e882be036b3a8c0c65882cec0a0ff6ea93eb47b7e79c90a",
+   "referenceGeometryId": "geometry:66fb0a33821d79777d56",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 136.5,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1363.89,
+      3645.58
+     ],
+     "shiftMeters": [
+      -3.9,
+      3.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3385.6,
+      3518.6
+     ],
+     "shiftMeters": [
+      3.5,
+      1.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2322.0,
+      3277.37
+     ],
+     "shiftMeters": [
+      -2.3,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-498109479",
+   "input": "16c8ce28c67aea846e4efe652be3e93dbff84800b461ee568e54dcfedd84bcfd",
+   "referenceGeometryId": "geometry:3144f5c135be45ea4c31",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 114.2,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1382.5,
+      3647.0
+     ],
+     "shiftMeters": [
+      -3.9,
+      3.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2340.77,
+      3276.42
+     ],
+     "shiftMeters": [
+      -2.2,
+      -1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-500926547",
+   "input": "907999afae7433de9bcc0b4b8b676569d13652ddbd054fc69ccda62d2d895972",
+   "referenceGeometryId": "geometry:5b884e6b8eebad4e0eaa",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 176.3,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1864.53,
+      3267.57
+     ],
+     "shiftMeters": [
+      -2.4,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-501137430",
+   "input": "c9498a89b0f66d49792caed7a78f51fa486e5791abfac3723be13179df5aaba1",
+   "referenceGeometryId": "geometry:bc8c77a0461849fd51d5",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 150.5,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1984.76,
+      3117.99
+     ],
+     "shiftMeters": [
+      -2.0,
+      -1.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-501190349",
+   "input": "b95ce4212582a01fc58014ce768d1f558f4143cb5345ece69142a2951b6198e9",
+   "referenceGeometryId": "geometry:9fcb47b01c01ea4ecef5",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 180.1,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1932.37,
+      3105.0
+     ],
+     "shiftMeters": [
+      -1.9,
+      -1.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-531323783",
+   "input": "6fae3cb880acc585aee2e73ba882a0e82cb3649e6bc9a5d41aa3e0090d94f183",
+   "referenceGeometryId": "geometry:ad9c0ee795f1bb2b39e3",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 104.2,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      970.66,
+      3678.64
+     ],
+     "shiftMeters": [
+      3.9,
+      2.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      2990.8,
+      3553.37
+     ],
+     "shiftMeters": [
+      1.4,
+      -2.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1925.88,
+      3308.38
+     ],
+     "shiftMeters": [
+      -2.1,
+      0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-570786567",
+   "input": "e15a3628ce9222ea8a756d39ff79621d3c3c2e5c3cd59332c468b05bf5b0c8b9",
+   "referenceGeometryId": "geometry:b53b0777643b3f7cd805",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 464.9,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2184.48,
+      2907.9
+     ],
+     "shiftMeters": [
+      -0.9,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584475082",
+   "input": "7baf7c181dc4375220298fec871e7dbbb3b39723f81eeddc354958fc825be205",
+   "referenceGeometryId": "geometry:3985186ed6975a27a889",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 71.9,
+   "batch": "b6",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1856.29,
+      3269.91
+     ],
+     "shiftMeters": [
+      -2.6,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-162990843",
+   "input": "0567973f2bf75c71f811c4746f9022de5571f306725119c31e1cb92fcbdaa118",
+   "referenceGeometryId": "geometry:f8c607742c1726092049",
+   "originalFrom": 2012,
+   "firstYear": 1995,
+   "areaSquareMeters": 454.6,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1717.05,
+      2478.17
+     ],
+     "shiftMeters": [
+      0.0,
+      0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-163034626",
+   "input": "c9d76d021e58665241a1c65802dc7885cf15a7020df41bbc4a467b1695427f33",
+   "referenceGeometryId": "geometry:746daf5097f6e8059b4e",
+   "originalFrom": 2012,
+   "firstYear": 1985,
+   "areaSquareMeters": 528.3,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3015.27,
+      2440.83
+     ],
+     "shiftMeters": [
+      -0.9,
+      -9.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1964.44,
+      2185.86
+     ],
+     "shiftMeters": [
+      -1.8,
+      -0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-163034636",
+   "input": "a4bdf9be3c223b20e61dc08504052042bb6d5aab7eb0a6f2283b0ad359b5af36",
+   "referenceGeometryId": "geometry:f26f56950dfabb6944ec",
+   "originalFrom": 2012,
+   "firstYear": 1985,
+   "areaSquareMeters": 485.7,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      2986.97,
+      2505.91
+     ],
+     "shiftMeters": [
+      -1.4,
+      -7.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1936.33,
+      2256.06
+     ],
+     "shiftMeters": [
+      -1.8,
+      0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-166876820",
+   "input": "3ea78eb080aceee8040a1246c83b0005b8b350c4c092127153356c7f5787fb8d",
+   "referenceGeometryId": "geometry:a2832c3a036426121a59",
+   "originalFrom": 2012,
+   "firstYear": 1985,
+   "areaSquareMeters": 372.0,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      2883.46,
+      2436.49
+     ],
+     "shiftMeters": [
+      -0.2,
+      -4.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1832.22,
+      2184.57
+     ],
+     "shiftMeters": [
+      -1.7,
+      2.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-319360479",
+   "input": "c77b1fed208124246c7931591605a78c7ccd06c1359569829b33149b23b503e3",
+   "referenceGeometryId": "geometry:87cd127a96a1ba530359",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 182.9,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2058.78,
+      2185.17
+     ],
+     "shiftMeters": [
+      -1.9,
+      -0.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-418380864",
+   "input": "f94384d6979a2eae90552afaf19a69057b53e88d3217d41006d4c3b30f76d37c",
+   "referenceGeometryId": "geometry:bf064e8dda585ad61cb2",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 104.3,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      919.9,
+      2615.0
+     ],
+     "shiftMeters": [
+      1.7,
+      1.0
+     ],
+     "distanceAfterShiftMeters": 2.2,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      2939.84,
+      2490.18
+     ],
+     "shiftMeters": [
+      -0.7,
+      -8.9
+     ],
+     "distanceAfterShiftMeters": 0.8,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1891.32,
+      2238.36
+     ],
+     "shiftMeters": [
+      -1.7,
+      0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-523420545",
+   "input": "237b0d8869bbc2c1857ac7aa3f19b093280d69c4726ea7a8417962222f0fd632",
+   "referenceGeometryId": "geometry:45ca4c5ba887c5e6bc88",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 123.5,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1999.08,
+      2758.95
+     ],
+     "shiftMeters": [
+      -1.7,
+      0.0
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-574888507",
+   "input": "fb8f32c0b70e860336dd7285ac4ee4569de387c1f4d2bce599759cc8a831e1eb",
+   "referenceGeometryId": "geometry:6a2c2e37ca936d9c98bc",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 126.9,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2026.16,
+      2690.47
+     ],
+     "shiftMeters": [
+      -1.6,
+      -0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-574888521",
+   "input": "1265c1dd751da05166a6cf78f19d00cf5b779a9dccaa49d10bbffb162cfb62f1",
+   "referenceGeometryId": "geometry:c5d42db14f28563387cc",
+   "originalFrom": 2021,
+   "firstYear": 1995,
+   "areaSquareMeters": 709.8,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "absent",
+     "note": "Ingen hussymbol i läget."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2226.14,
+      2680.12
+     ],
+     "shiftMeters": [
+      -1.4,
+      0.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584475017",
+   "input": "bddd1f0b3d1ee0c18726fe401111918163570277b03a78d4e099eed25d22f2b2",
+   "referenceGeometryId": "geometry:86bab4cc95b9c4f8f95e",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 85.6,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1209.93,
+      2626.43
+     ],
+     "shiftMeters": [
+      -0.9,
+      -2.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3231.81,
+      2501.38
+     ],
+     "shiftMeters": [
+      3.2,
+      -10.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2176.0,
+      2251.08
+     ],
+     "shiftMeters": [
+      -1.3,
+      -0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584475019",
+   "input": "71c895a66fb01c470f616a1ea325e70442e3fcfecad48db413dcf95704b74a03",
+   "referenceGeometryId": "geometry:d6d59798752230590ed7",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 152.0,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1198.95,
+      2623.59
+     ],
+     "shiftMeters": [
+      -0.9,
+      -2.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2164.44,
+      2251.58
+     ],
+     "shiftMeters": [
+      -1.3,
+      -0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584481372",
+   "input": "fed0f751b2d36fc01b1cf4e2082effd4161dae0420c7a3da5a79506250b33b47",
+   "referenceGeometryId": "geometry:76509cc1efd9d5615708",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 81.7,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1037.83,
+      2567.83
+     ],
+     "shiftMeters": [
+      -1.9,
+      -2.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3058.67,
+      2442.17
+     ],
+     "shiftMeters": [
+      -1.6,
+      -8.6
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2006.64,
+      2190.36
+     ],
+     "shiftMeters": [
+      -1.8,
+      -0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584481374",
+   "input": "f3bb81c93db0debdf8ed6801bd7f023f3d0d32036af883e03dd4aa3d7703ed17",
+   "referenceGeometryId": "geometry:55140d9c1d86b159b0f2",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 127.9,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1054.04,
+      2590.43
+     ],
+     "shiftMeters": [
+      -2.0,
+      -2.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3075.48,
+      2464.39
+     ],
+     "shiftMeters": [
+      -2.0,
+      -8.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2023.44,
+      2214.03
+     ],
+     "shiftMeters": [
+      -1.9,
+      -0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584481380",
+   "input": "be86ba30b95408ab6325338b3e666abc4ab1e3204605daa89c56a42c2437ac42",
+   "referenceGeometryId": "geometry:eb2061cb5dedc2c6e1f7",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 121.3,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1060.49,
+      2603.46
+     ],
+     "shiftMeters": [
+      -1.9,
+      -2.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3079.93,
+      2477.14
+     ],
+     "shiftMeters": [
+      -2.0,
+      -8.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2028.75,
+      2228.92
+     ],
+     "shiftMeters": [
+      -1.8,
+      0.3
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584481381",
+   "input": "2deaaf2f6b54d1384e355523ee1bd0ece0a0265128182a6059aef4aca350824d",
+   "referenceGeometryId": "geometry:a73cfe724790f7e70df5",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 125.4,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1037.12,
+      2604.73
+     ],
+     "shiftMeters": [
+      -1.9,
+      -2.4
+     ],
+     "distanceAfterShiftMeters": 0.6,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3059.26,
+      2479.19
+     ],
+     "shiftMeters": [
+      -1.3,
+      -8.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2008.0,
+      2229.43
+     ],
+     "shiftMeters": [
+      -1.7,
+      0.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584481382",
+   "input": "7460dad79934c3314c4adb08045b3d5fc82a4fcc3e69fea6f3a0ed71c73a9841",
+   "referenceGeometryId": "geometry:543ae345a21690993eff",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 78.3,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1047.74,
+      2619.95
+     ],
+     "shiftMeters": [
+      -1.9,
+      -2.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3068.0,
+      2494.0
+     ],
+     "shiftMeters": [
+      -1.1,
+      -8.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2017.38,
+      2244.91
+     ],
+     "shiftMeters": [
+      -1.6,
+      0.5
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-584481384",
+   "input": "2d3eec5702924bd7aea9ba54b5a4c059612e288726e5d90e8c5321dca17063d5",
+   "referenceGeometryId": "geometry:b30d8c443c35e686341e",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 94.8,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1030.0,
+      2623.5
+     ],
+     "shiftMeters": [
+      -1.9,
+      -2.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3048.58,
+      2496.89
+     ],
+     "shiftMeters": [
+      -1.3,
+      -8.1
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      1998.0,
+      2247.0
+     ],
+     "shiftMeters": [
+      -1.8,
+      0.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-987395780",
+   "input": "c909a11c57657bcb636dd71bb9d28b060195356b7cf722781f623bdf96a8700e",
+   "referenceGeometryId": "geometry:efbf9f14a05f373ed7e0",
+   "originalFrom": 2025,
+   "firstYear": 1968,
+   "areaSquareMeters": 125.0,
+   "batch": "b7",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1070.56,
+      2626.22
+     ],
+     "shiftMeters": [
+      -1.9,
+      -2.4
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "unclear",
+     "note": "Ingen säker symbol hittades i denna utgåva, men huset finns både 1968 och 1995; kontinuitet antas."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2039.08,
+      2251.76
+     ],
+     "shiftMeters": [
+      -1.5,
+      0.9
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-329121141",
+   "input": "3b0a1858aaee0b758526229e0f8a17ce45674fdc2f099c0a30e740ae79c3deb3",
+   "referenceGeometryId": "geometry:4c8d72f63f8076538e51",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 209.0,
+   "batch": "b8",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1401.37,
+      3589.37
+     ],
+     "shiftMeters": [
+      -6.9,
+      0.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3424.15,
+      3458.81
+     ],
+     "shiftMeters": [
+      4.6,
+      1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2360.21,
+      3214.93
+     ],
+     "shiftMeters": [
+      3.2,
+      1.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-329121501",
+   "input": "de4f01aacfa3077a92c29c0404cdccac9fc5ae9e3c2bf4b14a1daa8425c29279",
+   "referenceGeometryId": "geometry:dea932a607835319843f",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 177.4,
+   "batch": "b8",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1423.43,
+      3611.94
+     ],
+     "shiftMeters": [
+      -6.9,
+      0.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3446.33,
+      3481.28
+     ],
+     "shiftMeters": [
+      4.6,
+      1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2384.82,
+      3238.29
+     ],
+     "shiftMeters": [
+      3.2,
+      1.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-497012870",
+   "input": "09ac1b700cc971ff95dc4a130af6659bca410f5597aa1767eade08cab6184f7c",
+   "referenceGeometryId": "geometry:9c95c26c7b9c7be3f940",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 93.2,
+   "batch": "b8",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1398.82,
+      3628.52
+     ],
+     "shiftMeters": [
+      -6.9,
+      0.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3421.2,
+      3500.26
+     ],
+     "shiftMeters": [
+      4.6,
+      1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2363.6,
+      3256.4
+     ],
+     "shiftMeters": [
+      3.2,
+      1.8
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
+  },
+  {
+   "objectId": "building:osm:way-497012874",
+   "input": "d175920a7479a2d4931d9e54d0db78fa91954fb14eb5bb7f80ec25b1362eaefb",
+   "referenceGeometryId": "geometry:b1a04c5ac56082940b17",
+   "originalFrom": 2021,
+   "firstYear": 1968,
+   "areaSquareMeters": 126.4,
+   "batch": "b8",
+   "observations": [
+    {
+     "year": 1968,
+     "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5",
+     "outcome": "present",
+     "pixel": [
+      1424.06,
+      3627.48
+     ],
+     "shiftMeters": [
+      -6.9,
+      0.7
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1985,
+     "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d",
+     "outcome": "present",
+     "pixel": [
+      3450.54,
+      3498.41
+     ],
+     "shiftMeters": [
+      4.6,
+      1.2
+     ],
+     "distanceAfterShiftMeters": 0.0,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    },
+    {
+     "year": 1995,
+     "sourceId": "nls:101208:1995",
+     "outcome": "present",
+     "pixel": [
+      2383.17,
+      3255.66
+     ],
+     "shiftMeters": [
+      3.2,
+      1.8
+     ],
+     "distanceAfterShiftMeters": 0.2,
+     "fillPass": false,
+     "note": "Hussymbol på grundkartan i samma läge som dagens byggnad (efter lokal registreringsjustering)."
+    }
+   ],
+   "basis": "Hussymbolen på grundkartan 101208 tolkas som samma byggnad som dagens inmätta kontur, utifrån läge efter lokal registreringsjustering, storlek och grannhusen i samma rad. Kartåret är första granskade belägg, inte byggår. Kontinuitet till dagens kontur antas; äldre takform, tillbyggnader och en möjlig ersättning på samma tomt är inte fastställda."
   }
  ],
  "deferred": {
   "absent": [
+   "building:osm:relation-2315517",
    "building:osm:relation-4089856",
    "building:osm:relation-8327053",
    "building:osm:relation-8327054",
@@ -35425,6 +38747,7 @@
    "building:osm:way-1003896683",
    "building:osm:way-1003896684",
    "building:osm:way-1003896686",
+   "building:osm:way-1003896689",
    "building:osm:way-1003896690",
    "building:osm:way-1003896693",
    "building:osm:way-1005882483",
@@ -35478,14 +38801,33 @@
    "building:osm:way-1008404891",
    "building:osm:way-1008404892",
    "building:osm:way-1008404895",
+   "building:osm:way-1012885496",
+   "building:osm:way-111858371",
    "building:osm:way-1133398863",
+   "building:osm:way-1133518219",
+   "building:osm:way-1133518220",
+   "building:osm:way-1207294850",
+   "building:osm:way-1207294851",
+   "building:osm:way-1207294858",
+   "building:osm:way-1207773985",
+   "building:osm:way-1207773986",
+   "building:osm:way-1207773989",
+   "building:osm:way-1207773990",
+   "building:osm:way-1207773992",
+   "building:osm:way-1207773993",
+   "building:osm:way-1207773994",
+   "building:osm:way-1228183873",
    "building:osm:way-1243124185",
+   "building:osm:way-1253633907",
+   "building:osm:way-1253633911",
+   "building:osm:way-1253633912",
    "building:osm:way-1268731270",
    "building:osm:way-1268731271",
    "building:osm:way-1277759379",
    "building:osm:way-1277759380",
    "building:osm:way-1277759383",
    "building:osm:way-1277800055",
+   "building:osm:way-1280029886",
    "building:osm:way-1281082300",
    "building:osm:way-1281082301",
    "building:osm:way-1281082302",
@@ -35510,6 +38852,8 @@
    "building:osm:way-1282209820",
    "building:osm:way-1282209821",
    "building:osm:way-1289137822",
+   "building:osm:way-1304412652",
+   "building:osm:way-132089533",
    "building:osm:way-1327852691",
    "building:osm:way-1332433207",
    "building:osm:way-1332433256",
@@ -35525,10 +38869,13 @@
    "building:osm:way-1365312208",
    "building:osm:way-1365312209",
    "building:osm:way-1365312210",
+   "building:osm:way-1366096356",
+   "building:osm:way-1388907387",
    "building:osm:way-1395601125",
    "building:osm:way-1420971862",
    "building:osm:way-1422853895",
    "building:osm:way-1422853896",
+   "building:osm:way-1460184234",
    "building:osm:way-1490606961",
    "building:osm:way-1490606962",
    "building:osm:way-1555819571",
@@ -35552,6 +38899,11 @@
    "building:osm:way-1555822585",
    "building:osm:way-1555822839",
    "building:osm:way-1555823295",
+   "building:osm:way-1555823633",
+   "building:osm:way-1555824075",
+   "building:osm:way-1555824332",
+   "building:osm:way-1555825986",
+   "building:osm:way-1555826250",
    "building:osm:way-1555826387",
    "building:osm:way-1555826438",
    "building:osm:way-1555827317",
@@ -35560,13 +38912,35 @@
    "building:osm:way-1555878796",
    "building:osm:way-1555878798",
    "building:osm:way-1555878800",
+   "building:osm:way-1562219531",
+   "building:osm:way-1562219532",
+   "building:osm:way-1562219533",
    "building:osm:way-161577061",
    "building:osm:way-161810490",
    "building:osm:way-161813619",
+   "building:osm:way-162297286",
+   "building:osm:way-162297288",
+   "building:osm:way-162297290",
+   "building:osm:way-162297295",
+   "building:osm:way-162297301",
+   "building:osm:way-162297307",
+   "building:osm:way-162297309",
+   "building:osm:way-162298851",
    "building:osm:way-162638027",
+   "building:osm:way-162990840",
+   "building:osm:way-162990844",
+   "building:osm:way-162990845",
    "building:osm:way-162990846",
+   "building:osm:way-162992757",
+   "building:osm:way-163025288",
+   "building:osm:way-163025291",
+   "building:osm:way-163025292",
+   "building:osm:way-163025293",
    "building:osm:way-163034532",
    "building:osm:way-163034534",
+   "building:osm:way-163035056",
+   "building:osm:way-163035294",
+   "building:osm:way-163035295",
    "building:osm:way-163287377",
    "building:osm:way-163287655",
    "building:osm:way-163848700",
@@ -35578,6 +38952,8 @@
    "building:osm:way-163848710",
    "building:osm:way-163848711",
    "building:osm:way-163848712",
+   "building:osm:way-164242796",
+   "building:osm:way-164242797",
    "building:osm:way-165234942",
    "building:osm:way-165234944",
    "building:osm:way-165234946",
@@ -35598,11 +38974,13 @@
    "building:osm:way-165235066",
    "building:osm:way-165235067",
    "building:osm:way-165235069",
+   "building:osm:way-165358632",
    "building:osm:way-165434930",
    "building:osm:way-165434934",
    "building:osm:way-165434936",
    "building:osm:way-165434939",
    "building:osm:way-165434940",
+   "building:osm:way-165434945",
    "building:osm:way-165434950",
    "building:osm:way-165434955",
    "building:osm:way-165434956",
@@ -35615,6 +38993,7 @@
    "building:osm:way-165434982",
    "building:osm:way-165434987",
    "building:osm:way-165434988",
+   "building:osm:way-165434989",
    "building:osm:way-165434990",
    "building:osm:way-165434995",
    "building:osm:way-165435002",
@@ -35623,6 +39002,14 @@
    "building:osm:way-165435011",
    "building:osm:way-165435015",
    "building:osm:way-165435016",
+   "building:osm:way-165436731",
+   "building:osm:way-165436736",
+   "building:osm:way-165436744",
+   "building:osm:way-165436753",
+   "building:osm:way-165436763",
+   "building:osm:way-165436772",
+   "building:osm:way-165436781",
+   "building:osm:way-165436786",
    "building:osm:way-165438905",
    "building:osm:way-165465127",
    "building:osm:way-165465129",
@@ -35645,7 +39032,9 @@
    "building:osm:way-165914224",
    "building:osm:way-165914225",
    "building:osm:way-166292272",
+   "building:osm:way-166517408",
    "building:osm:way-166517410",
+   "building:osm:way-166517421",
    "building:osm:way-166517422",
    "building:osm:way-166517425",
    "building:osm:way-166517430",
@@ -35658,6 +39047,13 @@
    "building:osm:way-166517490",
    "building:osm:way-166517491",
    "building:osm:way-166517492",
+   "building:osm:way-166876803",
+   "building:osm:way-166876804",
+   "building:osm:way-166876805",
+   "building:osm:way-166876822",
+   "building:osm:way-166876824",
+   "building:osm:way-166876826",
+   "building:osm:way-166878169",
    "building:osm:way-167140768",
    "building:osm:way-168766515",
    "building:osm:way-168766518",
@@ -35671,10 +39067,32 @@
    "building:osm:way-168766542",
    "building:osm:way-168766543",
    "building:osm:way-168766544",
+   "building:osm:way-168766545",
+   "building:osm:way-169332118",
+   "building:osm:way-169332119",
+   "building:osm:way-169332120",
+   "building:osm:way-169332121",
+   "building:osm:way-169332123",
+   "building:osm:way-169332124",
+   "building:osm:way-169332125",
+   "building:osm:way-169332126",
+   "building:osm:way-169332127",
+   "building:osm:way-169334900",
+   "building:osm:way-169334907",
+   "building:osm:way-169334908",
    "building:osm:way-171582544",
+   "building:osm:way-172146732",
+   "building:osm:way-172844218",
+   "building:osm:way-172847740",
+   "building:osm:way-172847746",
    "building:osm:way-172848011",
    "building:osm:way-172848012",
    "building:osm:way-172848015",
+   "building:osm:way-172851522",
+   "building:osm:way-172851913",
+   "building:osm:way-176377057",
+   "building:osm:way-176377062",
+   "building:osm:way-178706294",
    "building:osm:way-182287738",
    "building:osm:way-184652263",
    "building:osm:way-184652267",
@@ -35694,13 +39112,34 @@
    "building:osm:way-184688107",
    "building:osm:way-184688108",
    "building:osm:way-184688109",
+   "building:osm:way-191643974",
+   "building:osm:way-191643976",
+   "building:osm:way-191643977",
+   "building:osm:way-191643978",
+   "building:osm:way-191658169",
+   "building:osm:way-191658170",
+   "building:osm:way-191658174",
+   "building:osm:way-193457944",
    "building:osm:way-193457947",
+   "building:osm:way-193457948",
+   "building:osm:way-201325602",
+   "building:osm:way-201325605",
    "building:osm:way-202185118",
+   "building:osm:way-202709080",
+   "building:osm:way-208498217",
+   "building:osm:way-214463544",
    "building:osm:way-214834428",
    "building:osm:way-215507096",
+   "building:osm:way-215510218",
    "building:osm:way-217257123",
    "building:osm:way-217257126",
+   "building:osm:way-222948161",
    "building:osm:way-222948606",
+   "building:osm:way-225513691",
+   "building:osm:way-225558246",
+   "building:osm:way-225558262",
+   "building:osm:way-225753968",
+   "building:osm:way-274182775",
    "building:osm:way-294784134",
    "building:osm:way-294784312",
    "building:osm:way-319360432",
@@ -35722,13 +39161,34 @@
    "building:osm:way-329814268",
    "building:osm:way-329814269",
    "building:osm:way-329838847",
+   "building:osm:way-331981628",
+   "building:osm:way-331981629",
+   "building:osm:way-345813222",
+   "building:osm:way-35304979",
+   "building:osm:way-369182776",
+   "building:osm:way-369246774",
+   "building:osm:way-369261598",
+   "building:osm:way-369774158",
+   "building:osm:way-379390901",
+   "building:osm:way-379390902",
+   "building:osm:way-399630810",
+   "building:osm:way-415215788",
+   "building:osm:way-415215793",
+   "building:osm:way-418369457",
    "building:osm:way-418380865",
+   "building:osm:way-418380867",
    "building:osm:way-418380868",
    "building:osm:way-418380874",
    "building:osm:way-418380881",
    "building:osm:way-418380882",
    "building:osm:way-418380883",
+   "building:osm:way-418380884",
+   "building:osm:way-418380885",
    "building:osm:way-418380887",
+   "building:osm:way-418380891",
+   "building:osm:way-418380893",
+   "building:osm:way-418380895",
+   "building:osm:way-429614052",
    "building:osm:way-452189731",
    "building:osm:way-452189840",
    "building:osm:way-453682606",
@@ -35756,16 +39216,88 @@
    "building:osm:way-496239068",
    "building:osm:way-496240790",
    "building:osm:way-496240791",
+   "building:osm:way-496240801",
+   "building:osm:way-496240803",
    "building:osm:way-496240810",
    "building:osm:way-496240815",
+   "building:osm:way-496240820",
+   "building:osm:way-496240826",
+   "building:osm:way-496240829",
+   "building:osm:way-496240839",
+   "building:osm:way-496428052",
    "building:osm:way-496480938",
+   "building:osm:way-496790831",
+   "building:osm:way-496790835",
+   "building:osm:way-496790859",
+   "building:osm:way-496790861",
+   "building:osm:way-496952291",
+   "building:osm:way-496952293",
+   "building:osm:way-496952294",
+   "building:osm:way-496952300",
+   "building:osm:way-496952302",
+   "building:osm:way-496952307",
+   "building:osm:way-496961775",
+   "building:osm:way-496961790",
+   "building:osm:way-496961795",
+   "building:osm:way-496961812",
+   "building:osm:way-496961819",
+   "building:osm:way-496961823",
+   "building:osm:way-496961837",
+   "building:osm:way-496961854",
+   "building:osm:way-496961859",
+   "building:osm:way-496961861",
+   "building:osm:way-496961863",
    "building:osm:way-496975960",
    "building:osm:way-496975961",
    "building:osm:way-496975962",
    "building:osm:way-496975972",
    "building:osm:way-496975973",
    "building:osm:way-496975974",
+   "building:osm:way-496985030",
+   "building:osm:way-496985034",
+   "building:osm:way-496985040",
+   "building:osm:way-496985041",
+   "building:osm:way-496985045",
+   "building:osm:way-496985049",
+   "building:osm:way-496985050",
+   "building:osm:way-496985051",
+   "building:osm:way-496985053",
+   "building:osm:way-496985057",
+   "building:osm:way-496985058",
+   "building:osm:way-496985060",
+   "building:osm:way-496985061",
+   "building:osm:way-496985062",
+   "building:osm:way-496985063",
+   "building:osm:way-496985064",
+   "building:osm:way-496985065",
+   "building:osm:way-496985066",
+   "building:osm:way-496985067",
+   "building:osm:way-496985071",
+   "building:osm:way-496985076",
+   "building:osm:way-496985077",
+   "building:osm:way-496985078",
+   "building:osm:way-496985087",
+   "building:osm:way-496985093",
+   "building:osm:way-497012839",
+   "building:osm:way-497012841",
+   "building:osm:way-497012842",
+   "building:osm:way-497012843",
+   "building:osm:way-497012844",
+   "building:osm:way-497012845",
+   "building:osm:way-497012849",
+   "building:osm:way-497012850",
+   "building:osm:way-497012855",
+   "building:osm:way-497012856",
+   "building:osm:way-497012861",
+   "building:osm:way-497012867",
+   "building:osm:way-497012869",
+   "building:osm:way-497012871",
+   "building:osm:way-497012873",
    "building:osm:way-498109447",
+   "building:osm:way-498109464",
+   "building:osm:way-498109472",
+   "building:osm:way-498109477",
+   "building:osm:way-498109481",
    "building:osm:way-498109533",
    "building:osm:way-498111429",
    "building:osm:way-498111430",
@@ -35776,7 +39308,61 @@
    "building:osm:way-498111435",
    "building:osm:way-498111436",
    "building:osm:way-498111437",
+   "building:osm:way-500182503",
+   "building:osm:way-500182504",
+   "building:osm:way-500182508",
+   "building:osm:way-500926523",
+   "building:osm:way-500926529",
+   "building:osm:way-500926552",
    "building:osm:way-500926560",
+   "building:osm:way-501137401",
+   "building:osm:way-501137402",
+   "building:osm:way-501137404",
+   "building:osm:way-501137409",
+   "building:osm:way-501137410",
+   "building:osm:way-501137411",
+   "building:osm:way-501137413",
+   "building:osm:way-501137415",
+   "building:osm:way-501137426",
+   "building:osm:way-501137436",
+   "building:osm:way-501137438",
+   "building:osm:way-501137440",
+   "building:osm:way-501137447",
+   "building:osm:way-501190315",
+   "building:osm:way-501190318",
+   "building:osm:way-501190320",
+   "building:osm:way-501190327",
+   "building:osm:way-501190330",
+   "building:osm:way-501190331",
+   "building:osm:way-501190332",
+   "building:osm:way-501190338",
+   "building:osm:way-501190343",
+   "building:osm:way-501190345",
+   "building:osm:way-501190355",
+   "building:osm:way-505610353",
+   "building:osm:way-505610362",
+   "building:osm:way-505610363",
+   "building:osm:way-505610365",
+   "building:osm:way-505610366",
+   "building:osm:way-505610367",
+   "building:osm:way-505610369",
+   "building:osm:way-505610370",
+   "building:osm:way-505610371",
+   "building:osm:way-505610373",
+   "building:osm:way-505610374",
+   "building:osm:way-505610379",
+   "building:osm:way-523420543",
+   "building:osm:way-523420547",
+   "building:osm:way-523420557",
+   "building:osm:way-523420559",
+   "building:osm:way-523420565",
+   "building:osm:way-523420568",
+   "building:osm:way-523420574",
+   "building:osm:way-523420583",
+   "building:osm:way-523420585",
+   "building:osm:way-523420588",
+   "building:osm:way-523420603",
+   "building:osm:way-523420605",
    "building:osm:way-525919638",
    "building:osm:way-525919640",
    "building:osm:way-525919642",
@@ -35795,6 +39381,13 @@
    "building:osm:way-527147992",
    "building:osm:way-527147993",
    "building:osm:way-527147994",
+   "building:osm:way-529232291",
+   "building:osm:way-529232295",
+   "building:osm:way-529232296",
+   "building:osm:way-529232298",
+   "building:osm:way-529232300",
+   "building:osm:way-529232301",
+   "building:osm:way-529232303",
    "building:osm:way-529244196",
    "building:osm:way-529244198",
    "building:osm:way-529244199",
@@ -35808,6 +39401,13 @@
    "building:osm:way-532568780",
    "building:osm:way-532568781",
    "building:osm:way-532568782",
+   "building:osm:way-534765255",
+   "building:osm:way-534769287",
+   "building:osm:way-534769289",
+   "building:osm:way-534769292",
+   "building:osm:way-534769294",
+   "building:osm:way-534769295",
+   "building:osm:way-534769297",
    "building:osm:way-543946548",
    "building:osm:way-543946549",
    "building:osm:way-543946550",
@@ -35826,11 +39426,26 @@
    "building:osm:way-568511689",
    "building:osm:way-568511690",
    "building:osm:way-568511691",
+   "building:osm:way-570763084",
+   "building:osm:way-570786566",
+   "building:osm:way-570786569",
+   "building:osm:way-570786570",
+   "building:osm:way-574888501",
+   "building:osm:way-574888502",
+   "building:osm:way-574888504",
+   "building:osm:way-574888508",
+   "building:osm:way-574888511",
+   "building:osm:way-574888515",
+   "building:osm:way-574888518",
+   "building:osm:way-574888520",
+   "building:osm:way-576459466",
    "building:osm:way-584420065",
    "building:osm:way-584420066",
    "building:osm:way-584420070",
    "building:osm:way-584444486",
    "building:osm:way-584444487",
+   "building:osm:way-584444488",
+   "building:osm:way-584444489",
    "building:osm:way-584444497",
    "building:osm:way-584444499",
    "building:osm:way-584444500",
@@ -35887,6 +39502,32 @@
    "building:osm:way-584444606",
    "building:osm:way-584444609",
    "building:osm:way-584444611",
+   "building:osm:way-584474999",
+   "building:osm:way-584475000",
+   "building:osm:way-584475001",
+   "building:osm:way-584475003",
+   "building:osm:way-584475004",
+   "building:osm:way-584475005",
+   "building:osm:way-584475006",
+   "building:osm:way-584475009",
+   "building:osm:way-584475012",
+   "building:osm:way-584475016",
+   "building:osm:way-584475029",
+   "building:osm:way-584475052",
+   "building:osm:way-584475056",
+   "building:osm:way-584475061",
+   "building:osm:way-584475064",
+   "building:osm:way-584475065",
+   "building:osm:way-584475066",
+   "building:osm:way-584475067",
+   "building:osm:way-584475069",
+   "building:osm:way-584475070",
+   "building:osm:way-584475071",
+   "building:osm:way-584475074",
+   "building:osm:way-584475076",
+   "building:osm:way-584475078",
+   "building:osm:way-584475080",
+   "building:osm:way-584475081",
    "building:osm:way-584481337",
    "building:osm:way-584481339",
    "building:osm:way-584481340",
@@ -35902,6 +39543,13 @@
    "building:osm:way-584481361",
    "building:osm:way-584481364",
    "building:osm:way-584481370",
+   "building:osm:way-584481375",
+   "building:osm:way-584481376",
+   "building:osm:way-584481377",
+   "building:osm:way-584481378",
+   "building:osm:way-584481385",
+   "building:osm:way-584481386",
+   "building:osm:way-584481387",
    "building:osm:way-584481389",
    "building:osm:way-584481395",
    "building:osm:way-584481398",
@@ -35916,8 +39564,25 @@
    "building:osm:way-584481421",
    "building:osm:way-584481422",
    "building:osm:way-584481424",
+   "building:osm:way-584481426",
+   "building:osm:way-584481427",
+   "building:osm:way-584481429",
    "building:osm:way-584481430",
+   "building:osm:way-584481431",
+   "building:osm:way-584481432",
    "building:osm:way-584481434",
+   "building:osm:way-584481435",
+   "building:osm:way-584481436",
+   "building:osm:way-584481437",
+   "building:osm:way-584481438",
+   "building:osm:way-584481439",
+   "building:osm:way-584481441",
+   "building:osm:way-584481442",
+   "building:osm:way-584481445",
+   "building:osm:way-584481446",
+   "building:osm:way-584481450",
+   "building:osm:way-584481451",
+   "building:osm:way-584481452",
    "building:osm:way-585512233",
    "building:osm:way-585512236",
    "building:osm:way-585512237",
@@ -36372,6 +40037,9 @@
    "building:osm:way-632991658",
    "building:osm:way-633003398",
    "building:osm:way-633003401",
+   "building:osm:way-633054851",
+   "building:osm:way-633054852",
+   "building:osm:way-633054854",
    "building:osm:way-671355547",
    "building:osm:way-671355549",
    "building:osm:way-671355550",
@@ -36379,26 +40047,877 @@
    "building:osm:way-671355552",
    "building:osm:way-671355553",
    "building:osm:way-706654430",
+   "building:osm:way-712635211",
+   "building:osm:way-712635212",
+   "building:osm:way-712635213",
+   "building:osm:way-717913013",
    "building:osm:way-718901689",
    "building:osm:way-718901690",
    "building:osm:way-845003831",
    "building:osm:way-845003832",
+   "building:osm:way-877394895",
+   "building:osm:way-910556655",
    "building:osm:way-945647540",
    "building:osm:way-945935746",
+   "building:osm:way-987395764",
+   "building:osm:way-987395765",
+   "building:osm:way-987395766",
+   "building:osm:way-987395767",
+   "building:osm:way-987395768",
+   "building:osm:way-987395769",
    "building:osm:way-987395770",
-   "building:osm:way-987395783"
+   "building:osm:way-987395781",
+   "building:osm:way-987395783",
+   "building:replacement:aii-4a"
   ],
   "already-dated": [
+   "building:museum:0",
+   "building:museum:1",
+   "building:museum:101",
+   "building:museum:102",
+   "building:museum:103",
+   "building:museum:104",
+   "building:museum:105",
+   "building:museum:106",
+   "building:museum:109",
+   "building:museum:11",
+   "building:museum:111",
+   "building:museum:113",
+   "building:museum:114",
+   "building:museum:115",
+   "building:museum:116",
+   "building:museum:117",
+   "building:museum:119",
+   "building:museum:13",
+   "building:museum:135",
+   "building:museum:136",
+   "building:museum:137",
+   "building:museum:138",
+   "building:museum:139",
+   "building:museum:14",
+   "building:museum:140",
+   "building:museum:141",
+   "building:museum:142",
+   "building:museum:143",
+   "building:museum:144",
+   "building:museum:148",
+   "building:museum:149",
+   "building:museum:15",
+   "building:museum:150",
+   "building:museum:151",
+   "building:museum:152",
+   "building:museum:153",
+   "building:museum:154",
+   "building:museum:155",
+   "building:museum:156",
+   "building:museum:157",
+   "building:museum:158",
+   "building:museum:16",
+   "building:museum:163",
+   "building:museum:165",
+   "building:museum:166",
+   "building:museum:168",
+   "building:museum:169",
+   "building:museum:17",
+   "building:museum:170",
+   "building:museum:173",
+   "building:museum:174",
+   "building:museum:175",
+   "building:museum:176",
+   "building:museum:177",
+   "building:museum:178",
+   "building:museum:179",
+   "building:museum:180",
+   "building:museum:182",
+   "building:museum:184",
+   "building:museum:186",
+   "building:museum:192",
+   "building:museum:196",
+   "building:museum:2",
+   "building:museum:20",
+   "building:museum:203",
+   "building:museum:205",
+   "building:museum:206",
+   "building:museum:207",
+   "building:museum:209",
+   "building:museum:21",
+   "building:museum:210",
+   "building:museum:211",
+   "building:museum:213",
+   "building:museum:24",
+   "building:museum:25",
+   "building:museum:26",
+   "building:museum:27",
+   "building:museum:28",
+   "building:museum:3",
+   "building:museum:30",
+   "building:museum:34",
+   "building:museum:37",
+   "building:museum:38",
+   "building:museum:41",
+   "building:museum:42",
+   "building:museum:43",
+   "building:museum:44",
+   "building:museum:45",
+   "building:museum:47",
+   "building:museum:48",
+   "building:museum:49",
+   "building:museum:5",
+   "building:museum:50",
+   "building:museum:51",
+   "building:museum:52",
+   "building:museum:53",
+   "building:museum:54",
+   "building:museum:55",
+   "building:museum:56",
+   "building:museum:58",
+   "building:museum:59",
+   "building:museum:60",
+   "building:museum:61",
+   "building:museum:62",
+   "building:museum:63",
+   "building:museum:66",
+   "building:museum:68",
+   "building:museum:69",
+   "building:museum:7",
+   "building:museum:71",
+   "building:museum:72",
+   "building:museum:74",
+   "building:museum:75",
+   "building:museum:79",
+   "building:museum:8",
+   "building:museum:80",
+   "building:museum:81",
+   "building:museum:83",
+   "building:museum:88",
+   "building:museum:94",
+   "building:museum:95",
+   "building:museum:96",
+   "building:museum:98",
+   "building:museum:99",
+   "building:osm:way-1296121965",
+   "building:osm:way-1296121966",
+   "building:osm:way-1296121967",
+   "building:osm:way-1388901864",
    "building:osm:way-155085207",
+   "building:osm:way-162297296",
+   "building:osm:way-162297306",
+   "building:osm:way-165434925",
+   "building:osm:way-165434947",
+   "building:osm:way-165435008",
+   "building:osm:way-165435010",
+   "building:osm:way-165435012",
+   "building:osm:way-165435017",
+   "building:osm:way-165436732",
+   "building:osm:way-165436734",
+   "building:osm:way-165436773",
+   "building:osm:way-165436785",
+   "building:osm:way-165529209",
+   "building:osm:way-165529214",
+   "building:osm:way-166517479",
+   "building:osm:way-166878162",
+   "building:osm:way-166878164",
+   "building:osm:way-166878168",
+   "building:osm:way-168752830",
+   "building:osm:way-169334904",
+   "building:osm:way-169334905",
+   "building:osm:way-169334909",
+   "building:osm:way-169355112",
+   "building:osm:way-169355118",
+   "building:osm:way-172284433",
+   "building:osm:way-172844217",
+   "building:osm:way-172844219",
+   "building:osm:way-172847738",
+   "building:osm:way-172847741",
+   "building:osm:way-172847742",
+   "building:osm:way-172849371",
+   "building:osm:way-172849795",
+   "building:osm:way-175944452",
+   "building:osm:way-176377061",
+   "building:osm:way-176377064",
+   "building:osm:way-177730142",
+   "building:osm:way-178706293",
+   "building:osm:way-185379579",
+   "building:osm:way-185379580",
+   "building:osm:way-185379581",
+   "building:osm:way-191658172",
+   "building:osm:way-191658180",
+   "building:osm:way-191658184",
+   "building:osm:way-201325604",
+   "building:osm:way-201703170",
+   "building:osm:way-211215510",
+   "building:osm:way-212862593",
+   "building:osm:way-212862595",
    "building:osm:way-215508296",
+   "building:osm:way-274188738",
+   "building:osm:way-35072386",
+   "building:osm:way-369774037",
+   "building:osm:way-379322218",
+   "building:osm:way-379322231",
    "building:osm:way-494277380",
+   "building:osm:way-496240836",
+   "building:osm:way-496240837",
+   "building:osm:way-496790836",
+   "building:osm:way-496790850",
+   "building:osm:way-496790851",
+   "building:osm:way-496961793",
+   "building:osm:way-496961797",
+   "building:osm:way-496961799",
+   "building:osm:way-496961801",
+   "building:osm:way-496961821",
+   "building:osm:way-496961843",
+   "building:osm:way-496961850",
+   "building:osm:way-496985039",
+   "building:osm:way-497012853",
+   "building:osm:way-501137414",
+   "building:osm:way-501190312",
+   "building:osm:way-501190335",
+   "building:osm:way-501190337",
+   "building:osm:way-501190351",
+   "building:osm:way-501190353",
+   "building:osm:way-505610359",
+   "building:osm:way-505610372",
+   "building:osm:way-523420554",
+   "building:osm:way-523420595",
+   "building:osm:way-529232290",
+   "building:osm:way-574882751",
+   "building:osm:way-584475077",
+   "building:osm:way-934887267",
+   "building:replacement:aii-3a",
+   "map-building:nls-symbol-012",
+   "map-building:nls-symbol-014",
+   "map-building:nls-symbol-016",
+   "map-building:nls-symbol-017",
+   "map-building:nls-symbol-018",
+   "map-building:nls-symbol-019",
+   "map-building:nls-symbol-022",
+   "map-building:nls-symbol-026",
+   "map-building:nls-symbol-027",
+   "map-building:nls-symbol-029",
+   "map-building:nls-symbol-030",
+   "map-building:nls-symbol-031",
+   "map-building:nls-symbol-034",
+   "map-building:nls-symbol-037",
+   "map-building:nls-symbol-039",
+   "map-building:nls-symbol-040",
+   "map-building:nls-symbol-041",
+   "map-building:nls-symbol-042",
+   "map-building:nls-symbol-044",
+   "map-building:nls-symbol-045",
+   "map-building:nls-symbol-046",
+   "map-building:nls-symbol-047",
+   "map-building:nls-symbol-052",
+   "map-building:nls-symbol-054",
+   "map-building:nls-symbol-055",
+   "map-building:nls-symbol-057",
+   "map-building:nls-symbol-058",
+   "map-building:nls-symbol-059",
+   "map-building:nls-symbol-060",
+   "map-building:nls-symbol-061",
+   "map-building:nls-symbol-064",
+   "map-building:nls-symbol-065",
+   "map-building:nls-symbol-066",
+   "map-building:nls-symbol-067",
+   "map-building:nls-symbol-068",
+   "map-building:nls-symbol-069",
+   "map-building:nls-symbol-071",
+   "map-building:nls-symbol-073",
+   "map-building:nls-symbol-074",
+   "map-building:nls-symbol-077",
+   "map-building:nls-symbol-078",
+   "map-building:nls-symbol-080",
+   "map-building:nls-symbol-081",
+   "map-building:nls-symbol-084",
+   "map-building:nls-symbol-085",
+   "map-building:nls-symbol-086",
+   "map-building:nls-symbol-088",
+   "map-building:nls-symbol-090",
+   "map-building:nls-symbol-091",
+   "map-building:nls-symbol-092",
+   "map-building:nls-symbol-093",
+   "map-building:nls-symbol-094",
+   "map-building:nls-symbol-095",
+   "map-building:nls-symbol-099",
+   "map-building:nls-symbol-100",
+   "map-building:nls-symbol-102",
+   "map-building:nls-symbol-103",
+   "map-building:nls-symbol-104",
+   "map-building:nls-symbol-105",
+   "map-building:nls-symbol-106",
+   "map-building:nls-symbol-107",
+   "map-building:nls-symbol-109",
+   "map-building:nls-symbol-110",
+   "map-building:nls-symbol-111",
+   "map-building:nls-symbol-113",
+   "map-building:nls-symbol-114",
+   "map-building:nls-symbol-115",
+   "map-building:nls-symbol-117",
+   "map-building:nls-symbol-118",
+   "map-building:nls-symbol-119",
+   "map-building:nls-symbol-120",
+   "map-building:nls-symbol-121",
+   "map-building:nls-symbol-122",
+   "map-building:nls-symbol-123",
+   "map-building:nls-symbol-124",
+   "map-building:nls-symbol-125",
+   "map-building:nls-symbol-128",
+   "map-building:nls-symbol-130",
+   "map-building:nls-symbol-132",
+   "map-building:nls-symbol-133",
+   "map-building:nls-symbol-134",
+   "map-building:nls-symbol-135",
+   "map-building:nls-symbol-136",
+   "map-building:nls-symbol-137",
+   "map-building:nls-symbol-139",
+   "map-building:nls-symbol-140",
+   "map-building:nls-symbol-142",
+   "map-building:nls-symbol-144",
+   "map-building:nls-symbol-145",
+   "map-building:nls-symbol-146",
+   "map-building:nls-symbol-148",
+   "map-building:nls-symbol-150",
+   "map-building:nls-symbol-151",
+   "map-building:nls-symbol-156",
+   "map-building:nls-symbol-158",
+   "map-building:nls-symbol-159",
+   "map-building:nls-symbol-160",
+   "map-building:nls-symbol-162",
+   "map-building:nls-symbol-163",
+   "map-building:nls-symbol-166",
+   "map-building:nls-symbol-168",
+   "map-building:nls-symbol-170",
+   "map-building:nls-symbol-172",
+   "map-building:nls-symbol-174",
+   "map-building:nls-symbol-175",
+   "map-building:nls-symbol-176",
+   "map-building:nls-symbol-177",
+   "map-building:nls-symbol-178",
+   "map-building:nls-symbol-179",
+   "map-building:nls-symbol-181",
+   "map-building:nls-symbol-182",
+   "map-building:nls-symbol-184",
+   "map-building:nls-symbol-186",
+   "map-building:nls-symbol-187",
+   "map-building:nls-symbol-189",
+   "map-building:nls-symbol-191",
+   "map-building:nls-symbol-192",
+   "map-building:nls-symbol-193",
+   "map-building:nls-symbol-194",
+   "map-building:nls-symbol-195",
+   "map-building:nls-symbol-196",
+   "map-building:nls-symbol-197",
+   "map-building:nls-symbol-198",
+   "map-building:nls-symbol-199",
+   "map-building:nls-symbol-200",
+   "map-building:nls-symbol-201",
+   "map-building:nls-symbol-202",
+   "map-building:nls-symbol-205",
+   "map-building:nls-symbol-206",
+   "map-building:nls-symbol-208",
+   "map-building:nls-symbol-209",
+   "map-building:nls-symbol-210",
+   "map-building:nls-symbol-212",
+   "map-building:nls-symbol-213",
+   "map-building:nls-symbol-214",
+   "map-building:nls-symbol-215",
+   "map-building:nls-symbol-216",
+   "map-building:nls-symbol-217",
+   "map-building:nls-symbol-218",
+   "map-building:nls-symbol-220",
+   "map-building:nls-symbol-221",
+   "map-building:nls-symbol-222",
+   "map-building:nls-symbol-225",
+   "map-building:nls-symbol-226",
+   "map-building:nls-symbol-227",
+   "map-building:nls-symbol-228",
+   "map-building:nls-symbol-229",
+   "map-building:nls-symbol-231",
+   "map-building:nls-symbol-232",
+   "map-building:nls-symbol-233",
+   "map-building:nls-symbol-234",
+   "map-building:nls-symbol-235",
+   "map-building:nls-symbol-236",
+   "map-building:nls-symbol-237",
+   "map-building:nls-symbol-238",
+   "map-building:nls-symbol-240",
+   "map-building:nls-symbol-241",
+   "map-building:nls-symbol-243",
+   "map-building:nls-symbol-246",
+   "map-building:nls-symbol-247",
+   "map-building:nls-symbol-248",
+   "map-building:nls-symbol-249",
+   "map-building:nls-symbol-253",
+   "map-building:nls-symbol-256",
+   "map-building:nls-symbol-257",
+   "map-building:nls-symbol-258",
+   "map-building:nls-symbol-259",
+   "map-building:nls-symbol-260",
+   "map-building:nls-symbol-262",
+   "map-building:nls-symbol-263",
+   "map-building:nls-symbol-264",
+   "map-building:nls-symbol-265",
+   "map-building:nls-symbol-267",
+   "map-building:nls-symbol-269",
+   "map-building:nls-symbol-270",
+   "map-building:nls-symbol-271",
+   "map-building:nls-symbol-272",
+   "map-building:nls-symbol-273",
+   "map-building:nls-symbol-275",
+   "map-building:nls-symbol-277",
+   "map-building:nls-symbol-279",
+   "map-building:nls-symbol-280",
+   "map-building:nls-symbol-281",
+   "map-building:nls-symbol-282",
+   "map-building:nls-symbol-283",
+   "map-building:nls-symbol-284",
+   "map-building:nls-symbol-285",
+   "map-building:nls-symbol-286",
+   "map-building:nls-symbol-287",
+   "map-building:nls-symbol-288",
+   "map-building:nls-symbol-289",
+   "map-building:nls-symbol-290",
+   "map-building:nls-symbol-292",
+   "map-building:nls-symbol-293",
+   "map-building:nls-symbol-294",
+   "map-building:nls-symbol-295",
+   "map-building:nls-symbol-296",
+   "map-building:nls-symbol-297",
+   "map-building:nls-symbol-298",
+   "map-building:nls-symbol-299",
+   "map-building:nls-symbol-300",
+   "map-building:nls-symbol-303",
+   "map-building:nls-symbol-304",
+   "map-building:nls-symbol-305",
+   "map-building:nls-symbol-307",
+   "map-building:nls-symbol-308",
+   "map-building:nls-symbol-309",
+   "map-building:nls-symbol-310",
+   "map-building:nls-symbol-311",
+   "map-building:nls-symbol-312",
+   "map-building:nls-symbol-314",
+   "map-building:nls-symbol-315",
+   "map-building:nls-symbol-316",
+   "map-building:nls-symbol-318",
+   "map-building:nls-symbol-319",
+   "map-building:nls-symbol-320",
+   "map-building:nls-symbol-321",
+   "map-building:nls-symbol-322",
+   "map-building:nls-symbol-323",
+   "map-building:nls-symbol-326",
+   "map-building:nls-symbol-327",
+   "map-building:nls-symbol-330",
+   "map-building:nls-symbol-332",
+   "map-building:nls-symbol-333",
+   "map-building:nls-symbol-334",
+   "map-building:nls-symbol-335",
+   "map-building:nls-symbol-337",
+   "map-building:nls-symbol-338",
+   "map-building:nls-symbol-339",
+   "map-building:nls-symbol-340",
+   "map-building:nls-symbol-344",
+   "map-building:nls-symbol-346",
+   "map-building:nls-symbol-347",
+   "map-building:nls-symbol-348",
+   "map-building:nls-symbol-350",
+   "map-building:nls-symbol-351",
+   "map-building:nls-symbol-353",
+   "map-building:nls-symbol-354",
+   "map-building:nls-symbol-356",
+   "map-building:nls-symbol-357",
+   "map-building:nls-symbol-358",
+   "map-building:nls-symbol-359",
+   "map-building:nls-symbol-360",
+   "map-building:nls-symbol-361",
+   "map-building:nls-symbol-362",
+   "map-building:nls-symbol-363",
+   "map-building:nls-symbol-365",
+   "map-building:nls-symbol-366",
+   "map-building:nls-symbol-367",
+   "map-building:nls-symbol-369",
+   "map-building:nls-symbol-370",
+   "map-building:nls-symbol-372",
+   "map-building:nls-symbol-373",
+   "map-building:nls-symbol-374",
+   "map-building:nls-symbol-375",
+   "map-building:nls-symbol-376",
+   "map-building:nls-symbol-377",
+   "map-building:nls-symbol-378",
+   "map-building:nls-symbol-379",
+   "map-building:nls-symbol-381",
+   "map-building:nls-symbol-382",
+   "map-building:nls-symbol-384",
+   "map-building:nls-symbol-385",
+   "map-building:nls-symbol-386",
+   "map-building:nls-symbol-387",
+   "map-building:nls-symbol-388",
+   "map-building:nls-symbol-389",
+   "map-building:nls-symbol-390",
+   "map-building:nls-symbol-392",
+   "map-building:nls-symbol-393",
+   "map-building:nls-symbol-395",
+   "map-building:nls-symbol-396",
+   "map-building:nls-symbol-397",
+   "map-building:nls-symbol-399",
+   "map-building:nls-symbol-401",
+   "map-building:nls-symbol-402",
+   "map-building:nls-symbol-403",
+   "map-building:nls-symbol-404",
+   "map-building:nls-symbol-405",
+   "map-building:nls-symbol-409",
+   "map-building:nls-symbol-410",
+   "map-building:nls-symbol-411",
+   "map-building:nls-symbol-413",
+   "map-building:nls-symbol-414",
+   "map-building:nls-symbol-415",
+   "map-building:nls-symbol-416",
+   "map-building:nls-symbol-417",
+   "map-building:nls-symbol-419",
+   "map-building:nls-symbol-420",
+   "map-building:nls-symbol-421",
+   "map-building:nls-symbol-422",
+   "map-building:nls-symbol-423",
+   "map-building:nls-symbol-426",
+   "map-building:nls-symbol-427",
+   "map-building:nls-symbol-429",
+   "map-building:nls-symbol-432",
+   "map-building:nls-symbol-433",
+   "map-building:nls-symbol-435",
+   "map-building:nls-symbol-436",
+   "map-building:nls-symbol-438",
+   "map-building:nls-symbol-439",
+   "map-building:nls-symbol-441",
+   "map-building:nls-symbol-442",
+   "map-building:nls-symbol-443",
+   "map-building:nls-symbol-444",
+   "map-building:nls-symbol-445",
+   "map-building:nls-symbol-446",
+   "map-building:nls-symbol-447",
+   "map-building:nls-symbol-448",
+   "map-building:nls-symbol-449",
+   "map-building:nls-symbol-450",
+   "map-building:nls-symbol-451",
+   "map-building:nls-symbol-452",
+   "map-building:nls-symbol-453",
+   "map-building:nls-symbol-454",
+   "map-building:nls-symbol-455",
+   "map-building:nls-symbol-456",
+   "map-building:nls-symbol-457",
+   "map-building:nls-symbol-458",
+   "map-building:nls-symbol-461",
+   "map-building:nls-symbol-462",
+   "map-building:nls-symbol-463",
+   "map-building:nls-symbol-464",
+   "map-building:nls-symbol-465",
+   "map-building:nls-symbol-466",
+   "map-building:nls-symbol-468",
+   "map-building:nls-symbol-469",
+   "map-building:nls-symbol-470",
+   "map-building:nls-symbol-471",
+   "map-building:nls-symbol-474",
+   "map-building:nls-symbol-477",
+   "map-building:nls-symbol-478",
+   "map-building:nls-symbol-480",
+   "map-building:nls-symbol-481",
+   "map-building:nls-symbol-482",
+   "map-building:nls-symbol-484",
+   "map-building:nls-symbol-485",
+   "map-building:nls-symbol-486",
+   "map-building:nls-symbol-487",
+   "map-building:nls-symbol-488",
+   "map-building:nls-symbol-489",
+   "map-building:nls-symbol-492",
+   "map-building:nls-symbol-497",
+   "map-building:nls-symbol-498",
+   "map-building:nls-symbol-499",
+   "map-building:nls-symbol-501",
+   "map-building:nls-symbol-502",
+   "map-building:nls-symbol-504",
+   "map-building:nls-symbol-505",
+   "map-building:nls-symbol-506",
+   "map-building:nls-symbol-507",
+   "map-building:nls-symbol-508",
+   "map-building:nls-symbol-509",
+   "map-building:nls-symbol-510",
+   "map-building:nls-symbol-511",
+   "map-building:nls-symbol-512",
+   "map-building:nls-symbol-514",
+   "map-building:nls-symbol-515",
+   "map-building:nls-symbol-516",
+   "map-building:nls-symbol-517",
+   "map-building:nls-symbol-518",
+   "map-building:nls-symbol-519",
+   "map-building:nls-symbol-520",
+   "map-building:nls-symbol-521",
+   "map-building:nls-symbol-523",
+   "map-building:nls-symbol-525",
+   "map-building:nls-symbol-526",
+   "map-building:nls-symbol-527",
+   "map-building:nls-symbol-528",
+   "map-building:nls-symbol-529",
+   "map-building:nls-symbol-530",
+   "map-building:nls-symbol-531",
+   "map-building:nls-symbol-532",
+   "map-building:nls-symbol-533",
+   "map-building:nls-symbol-534",
+   "map-building:nls-symbol-535",
+   "map-building:nls-symbol-536",
+   "map-building:nls-symbol-537",
+   "map-building:nls-symbol-538",
+   "map-building:nls-symbol-539",
+   "map-building:nls-symbol-540",
+   "map-building:nls-symbol-542",
+   "map-building:nls-symbol-543",
+   "map-building:nls-symbol-545",
+   "map-building:nls-symbol-546",
+   "map-building:nls-symbol-547",
+   "map-building:nls-symbol-548",
+   "map-building:nls-symbol-550",
+   "map-building:nls-symbol-551",
+   "map-building:nls-symbol-552",
+   "map-building:nls-symbol-553",
+   "map-building:nls-symbol-554",
+   "map-building:nls-symbol-556",
+   "map-building:nls-symbol-557",
+   "map-building:nls-symbol-559",
+   "map-building:nls-symbol-562",
+   "map-building:nls-symbol-563",
+   "map-building:nls-symbol-564",
+   "map-building:nls-symbol-565",
+   "map-building:nls-symbol-566",
+   "map-building:nls-symbol-567",
+   "map-building:nls-symbol-569",
+   "map-building:nls-symbol-571",
+   "map-building:nls-symbol-572",
+   "map-building:nls-symbol-573",
+   "map-building:nls-symbol-575",
+   "map-building:nls-symbol-576",
+   "map-building:nls-symbol-578",
+   "map-building:nls-symbol-580",
+   "map-building:nls-symbol-581",
+   "map-building:nls-symbol-582",
+   "map-building:nls-symbol-583",
+   "map-building:nls-symbol-584",
+   "map-building:nls-symbol-585",
+   "map-building:nls-symbol-587",
+   "map-building:nls-symbol-588",
+   "map-building:nls-symbol-589",
+   "map-building:nls-symbol-590",
+   "map-building:nls-symbol-591",
+   "map-building:nls-symbol-593",
+   "map-building:nls-symbol-594",
+   "map-building:nls-symbol-597",
+   "map-building:nls-symbol-598",
+   "map-building:nls-symbol-599",
+   "map-building:nls-symbol-600",
+   "map-building:nls-symbol-601",
+   "map-building:nls-symbol-602",
+   "map-building:nls-symbol-605",
+   "map-building:nls-symbol-606",
+   "map-building:nls-symbol-607",
+   "map-building:nls-symbol-608",
+   "map-building:nls-symbol-609",
+   "map-building:nls-symbol-610",
+   "map-building:nls-symbol-611",
+   "map-building:nls-symbol-613",
+   "map-building:nls-symbol-614",
+   "map-building:nls-symbol-615",
+   "map-building:nls-symbol-616",
+   "map-building:nls-symbol-617",
+   "map-building:nls-symbol-618",
+   "map-building:nls-symbol-619",
+   "map-building:nls-symbol-620",
+   "map-building:nls-symbol-621",
+   "map-building:nls-symbol-622",
+   "map-building:nls-symbol-623",
+   "map-building:nls-symbol-624",
+   "map-building:nls-symbol-625",
+   "map-building:nls-symbol-626",
+   "map-building:nls-symbol-627",
+   "map-building:nls-symbol-628",
+   "map-building:nls-symbol-630",
+   "map-building:nls-symbol-631",
+   "map-building:nls-symbol-632",
+   "map-building:nls-symbol-634",
+   "map-building:nls-symbol-635",
+   "map-building:nls-symbol-636",
+   "map-building:nls-symbol-637",
+   "map-building:nls-symbol-638",
+   "map-building:nls-symbol-639",
+   "map-building:nls-symbol-640",
+   "map-building:nls-symbol-641",
+   "map-building:nls-symbol-642",
+   "map-building:nls-symbol-643",
+   "map-building:nls-symbol-644",
+   "map-building:nls-symbol-645",
+   "map-building:nls-symbol-647",
+   "map-building:nls-symbol-648",
+   "map-building:nls-symbol-650",
+   "map-building:nls-symbol-651",
+   "map-building:nls-symbol-652",
+   "map-building:nls-symbol-653",
+   "map-building:nls-symbol-654",
+   "map-building:nls-symbol-655",
+   "map-building:nls-symbol-656",
+   "map-building:nls-symbol-657",
+   "map-building:nls-symbol-658",
+   "map-building:nls-symbol-659",
+   "map-building:nls-symbol-660",
+   "map-building:nls-symbol-661",
+   "map-building:nls-symbol-662",
+   "map-building:nls-symbol-663",
+   "map-building:nls-symbol-664",
+   "map-building:nls-symbol-665",
+   "map-building:nls-symbol-666",
+   "map-building:nls-symbol-667",
+   "map-building:nls-symbol-668",
+   "map-building:nls-symbol-669",
+   "map-building:nls-symbol-670",
+   "map-building:nls-symbol-671",
+   "map-building:nls-symbol-672",
+   "map-building:nls-symbol-673",
+   "map-building:nls-symbol-674",
+   "map-building:nls-symbol-675",
+   "map-building:nls-symbol-676",
+   "map-building:nls-symbol-677",
+   "map-building:nls-symbol-679",
+   "map-building:nls-symbol-680",
+   "map-building:nls-symbol-681",
+   "map-building:nls-symbol-682",
+   "map-building:nls-symbol-683",
+   "map-building:nls-symbol-684",
+   "map-building:nls-symbol-685",
+   "map-building:nls-symbol-686",
+   "map-building:nls-symbol-687",
+   "map-building:nls-symbol-688",
+   "map-building:nls-symbol-689",
+   "map-building:nls-symbol-690",
+   "map-building:nls-symbol-691",
+   "map-building:nls-symbol-692",
+   "map-building:nls-symbol-693",
+   "map-building:nls-symbol-694",
+   "map-building:nls-symbol-695",
+   "map-building:nls-symbol-697",
+   "map-building:nls-symbol-698",
+   "map-building:nls-symbol-699",
+   "map-building:nls-symbol-700",
+   "map-building:nls-symbol-701",
+   "map-building:nls-symbol-702",
+   "map-building:nls-symbol-703",
+   "map-building:nls-symbol-704",
+   "map-building:nls-symbol-706",
+   "map-building:nls-symbol-707",
+   "map-building:nls-symbol-708",
+   "map-building:nls-symbol-709",
+   "map-building:nls-symbol-710",
+   "map-building:nls-symbol-711",
+   "map-building:nls-symbol-712",
+   "map-building:nls-symbol-713",
+   "map-building:nls-symbol-714",
+   "map-building:nls-symbol-716",
+   "map-building:nls-symbol-717",
+   "map-building:nls-symbol-718",
+   "map-building:nls-symbol-719",
+   "map-building:nls-symbol-720",
+   "map-building:nls-symbol-721",
+   "map-building:nls-symbol-722",
+   "map-building:nls-symbol-723",
+   "map-building:nls-symbol-724",
+   "map-building:nls-symbol-725",
+   "map-building:nls-symbol-726",
+   "map-building:nls-symbol-727",
+   "map-building:nls-symbol-728",
+   "map-building:nls-symbol-729",
+   "map-building:nls-symbol-730",
+   "map-building:nls-symbol-731",
+   "map-building:nls-symbol-732",
+   "map-building:nls-symbol-733",
+   "map-building:nls-symbol-734",
+   "map-building:nls-symbol-736",
+   "map-building:nls-symbol-737",
+   "map-building:nls-symbol-738",
+   "map-building:nls-symbol-739",
+   "map-building:nls-symbol-740",
+   "map-building:nls-symbol-741",
+   "map-building:nls-symbol-742",
+   "map-building:nls-symbol-744",
+   "map-building:nls-symbol-745",
+   "map-building:nls-symbol-746",
+   "map-building:nls-symbol-747",
+   "map-building:nls-symbol-748",
+   "map-building:nls-symbol-749",
+   "map-building:nls-symbol-750",
+   "map-building:nls-symbol-751",
+   "map-building:nls-symbol-752",
+   "map-building:nls-symbol-753",
+   "map-building:nls-symbol-754",
+   "map-building:nls-symbol-756",
+   "map-building:nls-symbol-757",
+   "map-building:nls-symbol-758",
+   "map-building:nls-symbol-759",
+   "map-building:nls-symbol-761",
+   "map-building:nls-symbol-762",
+   "map-building:nls-symbol-763",
+   "map-building:nls-symbol-764",
+   "map-building:nls-symbol-765",
+   "map-building:nls-symbol-766",
+   "map-building:nls-symbol-767",
+   "map-building:nls-symbol-768",
+   "map-building:nls-symbol-769",
+   "map-building:nls-symbol-770",
+   "map-building:nls-symbol-771",
+   "map-building:nls-symbol-772",
+   "map-building:nls-symbol-775",
+   "map-building:nls-symbol-778",
+   "map-building:nls-symbol-779",
+   "map-building:nls-symbol-781",
+   "map-building:nls-symbol-782",
+   "map-building:nls-symbol-785",
+   "map-building:nls-symbol-786",
+   "map-building:nls-symbol-787",
+   "map-building:nls-symbol-788",
+   "map-building:nls-symbol-789",
+   "map-building:nls-symbol-790",
+   "map-building:nls-symbol-792",
+   "map-building:nls-symbol-794",
+   "map-building:nls-symbol-796",
    "mh-history:ass",
    "mh-history:bastun",
    "mh-history:begravningskapell",
+   "mh-history:doktorsvillan",
+   "mh-history:forsamlingshem",
+   "mh-history:gamla-radhuset",
+   "mh-history:generalkonsulat",
+   "mh-history:hultgrenska",
    "mh-history:lotsstugan",
    "mh-history:martens",
+   "mh-history:norragatan29",
+   "mh-history:norragatan33",
+   "mh-history:norragatan37b",
+   "mh-history:packhusmagasin",
+   "mh-history:sankt-goran",
+   "mh-history:sjofartsmuseum",
+   "mh-history:skogshyddan",
+   "mh-history:sodragatan33",
+   "mh-history:stadshuset",
    "mh-history:strandnasgard",
-   "mh-history:vikstroms"
+   "mh-history:tullpackhuset",
+   "mh-history:vattentorn",
+   "mh-history:vikstroms",
+   "mh-history:villa-carita",
+   "museum-building:aii-1a-garage",
+   "museum-building:aii-1b",
+   "museum-building:aii-2",
+   "museum-building:aii-2-bake",
+   "museum-building:aii-2-yard",
+   "museum-building:aii-3-yard",
+   "museum-building:aii-5a",
+   "museum-building:aii-5a-yard",
+   "museum-building:aii-5b",
+   "museum-building:aii-5b-yard",
+   "museum-building:aii-6a-yard",
+   "museum-building:aii-6b",
+   "museum-building:aii-6b-yard",
+   "museum-building:aii-radhus-yard"
   ],
   "curated-review": [
    "building:osm:way-163034529",
@@ -36425,13 +40944,22 @@
    "building:osm:way-165235076",
    "building:osm:way-165434943",
    "building:osm:way-165434984",
+   "building:osm:way-165434985",
    "building:osm:way-166517434",
+   "building:osm:way-166517473",
    "building:osm:way-166517501",
+   "building:osm:way-166876825",
    "building:osm:way-168766525",
    "building:osm:way-171582549",
+   "building:osm:way-172844220",
    "building:osm:way-172848016",
    "building:osm:way-184652305",
    "building:osm:way-184688106",
+   "building:osm:way-191658177",
+   "building:osm:way-191658179",
+   "building:osm:way-217235927",
+   "building:osm:way-229021668",
+   "building:osm:way-274182772",
    "building:osm:way-294784131",
    "building:osm:way-294784133",
    "building:osm:way-294784319",
@@ -36440,17 +40968,29 @@
    "building:osm:way-319360472",
    "building:osm:way-319360481",
    "building:osm:way-329289844",
+   "building:osm:way-345813223",
+   "building:osm:way-415215781",
    "building:osm:way-418380863",
+   "building:osm:way-418380871",
    "building:osm:way-418380888",
    "building:osm:way-438207582",
    "building:osm:way-496239048",
    "building:osm:way-496239052",
    "building:osm:way-496240922",
+   "building:osm:way-496790858",
+   "building:osm:way-496961829",
    "building:osm:way-496975976",
+   "building:osm:way-497012872",
    "building:osm:way-498109518",
    "building:osm:way-498109528",
    "building:osm:way-498109530",
    "building:osm:way-498111426",
+   "building:osm:way-501137408",
+   "building:osm:way-501190352",
+   "building:osm:way-523420538",
+   "building:osm:way-523420598",
+   "building:osm:way-534765248",
+   "building:osm:way-574888505",
    "building:osm:way-584420073",
    "building:osm:way-584444491",
    "building:osm:way-584444493",
@@ -36466,7 +41006,9 @@
    "building:osm:way-584444562",
    "building:osm:way-584444596",
    "building:osm:way-584444607",
+   "building:osm:way-584475018",
    "building:osm:way-584481344",
+   "building:osm:way-584481433",
    "building:osm:way-585512235",
    "building:osm:way-585512267",
    "building:osm:way-585512292",
@@ -36555,17 +41097,31 @@
    "building:osm:way-1006083009",
    "building:osm:way-1006083041",
    "building:osm:way-1008404878",
+   "building:osm:way-111858376",
+   "building:osm:way-111858379",
    "building:osm:way-1281082317",
+   "building:osm:way-1296121978",
    "building:osm:way-1364458491",
+   "building:osm:way-1366065711",
+   "building:osm:way-155087370",
+   "building:osm:way-162297300",
    "building:osm:way-162444165",
+   "building:osm:way-162561848",
+   "building:osm:way-162992756",
    "building:osm:way-163009173",
    "building:osm:way-163034533",
+   "building:osm:way-163034631",
+   "building:osm:way-163034633",
+   "building:osm:way-163035073",
+   "building:osm:way-163487829",
    "building:osm:way-163848708",
    "building:osm:way-165234956",
    "building:osm:way-165235014",
    "building:osm:way-165235040",
    "building:osm:way-165435003",
    "building:osm:way-165435006",
+   "building:osm:way-165436741",
+   "building:osm:way-165436750",
    "building:osm:way-165529182",
    "building:osm:way-165914204",
    "building:osm:way-165914221",
@@ -36573,22 +41129,39 @@
    "building:osm:way-166517461",
    "building:osm:way-166517494",
    "building:osm:way-166517500",
+   "building:osm:way-172284432",
+   "building:osm:way-172847736",
    "building:osm:way-172848013",
    "building:osm:way-172848014",
+   "building:osm:way-175944451",
    "building:osm:way-184652283",
    "building:osm:way-184652299",
+   "building:osm:way-191643979",
    "building:osm:way-214834435",
+   "building:osm:way-274188734",
    "building:osm:way-294784128",
    "building:osm:way-294784316",
+   "building:osm:way-329121502",
+   "building:osm:way-379322223",
+   "building:osm:way-379322229",
+   "building:osm:way-415215787",
+   "building:osm:way-415215789",
    "building:osm:way-418380889",
+   "building:osm:way-418380892",
+   "building:osm:way-418380894",
+   "building:osm:way-429614054",
    "building:osm:way-453682607",
    "building:osm:way-465898364",
    "building:osm:way-496239022",
    "building:osm:way-496240793",
    "building:osm:way-496240796",
+   "building:osm:way-496240807",
+   "building:osm:way-496240832",
    "building:osm:way-496975963",
    "building:osm:way-496975965",
    "building:osm:way-496975975",
+   "building:osm:way-496985068",
+   "building:osm:way-497012865",
    "building:osm:way-498109445",
    "building:osm:way-498109448",
    "building:osm:way-498109453",
@@ -36597,9 +41170,13 @@
    "building:osm:way-498109488",
    "building:osm:way-498109511",
    "building:osm:way-498109512",
+   "building:osm:way-501190314",
+   "building:osm:way-501190316",
    "building:osm:way-525919662",
    "building:osm:way-525919679",
    "building:osm:way-527147988",
+   "building:osm:way-529232292",
+   "building:osm:way-529232299",
    "building:osm:way-529244195",
    "building:osm:way-529244209",
    "building:osm:way-529244215",
@@ -36615,7 +41192,11 @@
    "building:osm:way-584444557",
    "building:osm:way-584444608",
    "building:osm:way-584444612",
+   "building:osm:way-584475060",
+   "building:osm:way-584475062",
    "building:osm:way-584481371",
+   "building:osm:way-584481379",
+   "building:osm:way-584481407",
    "building:osm:way-584481410",
    "building:osm:way-584481412",
    "building:osm:way-584481416",
@@ -36664,7 +41245,8 @@
    "building:osm:way-632929610",
    "building:osm:way-632991638",
    "building:osm:way-632991662",
-   "building:osm:way-717185705"
+   "building:osm:way-717185705",
+   "building:osm:way-987395782"
   ],
   "outline-changed": [
    "building:osm:way-165235020"
@@ -36677,43 +41259,67 @@
    "building:osm:way-1008404894",
    "building:osm:way-1064220587",
    "building:osm:way-1066019953",
+   "building:osm:way-1072833222",
+   "building:osm:way-1253633908",
+   "building:osm:way-1253633910",
+   "building:osm:way-1253633914",
+   "building:osm:way-1263839923",
    "building:osm:way-1274527758",
    "building:osm:way-1555822444",
    "building:osm:way-1555822876",
    "building:osm:way-1555823943",
+   "building:osm:way-1555824370",
+   "building:osm:way-1555824389",
    "building:osm:way-1555826906",
+   "building:osm:way-162297312",
+   "building:osm:way-162298848",
    "building:osm:way-162379075",
    "building:osm:way-162427751",
+   "building:osm:way-163034629",
    "building:osm:way-165234961",
    "building:osm:way-165234965",
    "building:osm:way-165234994",
    "building:osm:way-165235002",
    "building:osm:way-165235025",
    "building:osm:way-165235068",
+   "building:osm:way-165434948",
    "building:osm:way-165434977",
    "building:osm:way-165435007",
    "building:osm:way-165435013",
+   "building:osm:way-165436777",
    "building:osm:way-165439485",
    "building:osm:way-165914207",
    "building:osm:way-165914220",
    "building:osm:way-166517413",
    "building:osm:way-166517478",
    "building:osm:way-166517486",
+   "building:osm:way-166876807",
    "building:osm:way-167140754",
    "building:osm:way-167140756",
    "building:osm:way-168766517",
    "building:osm:way-168766538",
    "building:osm:way-171582547",
+   "building:osm:way-172846171",
+   "building:osm:way-172847750",
    "building:osm:way-172847755",
+   "building:osm:way-172851916",
    "building:osm:way-184688111",
    "building:osm:way-214834427",
    "building:osm:way-214834429",
    "building:osm:way-215115721",
+   "building:osm:way-217235942",
+   "building:osm:way-274182766",
+   "building:osm:way-274182776",
    "building:osm:way-294784136",
    "building:osm:way-294784317",
    "building:osm:way-306451205",
    "building:osm:way-319360436",
    "building:osm:way-319360452",
+   "building:osm:way-329168564",
+   "building:osm:way-345813209",
+   "building:osm:way-345813229",
+   "building:osm:way-418380869",
+   "building:osm:way-418380886",
    "building:osm:way-453682608",
    "building:osm:way-465898358",
    "building:osm:way-496239020",
@@ -36721,10 +41327,32 @@
    "building:osm:way-496239051",
    "building:osm:way-496239054",
    "building:osm:way-496239057",
+   "building:osm:way-496240792",
+   "building:osm:way-496240799",
+   "building:osm:way-496240806",
+   "building:osm:way-496240811",
    "building:osm:way-496240816",
    "building:osm:way-496240817",
    "building:osm:way-496240818",
+   "building:osm:way-496240819",
+   "building:osm:way-496240821",
+   "building:osm:way-496240824",
+   "building:osm:way-496240825",
+   "building:osm:way-496790828",
+   "building:osm:way-496790829",
+   "building:osm:way-496790830",
+   "building:osm:way-496961865",
+   "building:osm:way-496985069",
+   "building:osm:way-497012858",
+   "building:osm:way-498109467",
+   "building:osm:way-498109471",
+   "building:osm:way-498109476",
+   "building:osm:way-500926558",
    "building:osm:way-500926561",
+   "building:osm:way-501137397",
+   "building:osm:way-501137398",
+   "building:osm:way-501190346",
+   "building:osm:way-523420571",
    "building:osm:way-525919636",
    "building:osm:way-525919667",
    "building:osm:way-525919681",
@@ -36732,6 +41360,7 @@
    "building:osm:way-568511665",
    "building:osm:way-568511692",
    "building:osm:way-584420063",
+   "building:osm:way-584444490",
    "building:osm:way-584444492",
    "building:osm:way-584444494",
    "building:osm:way-584444511",
@@ -36744,9 +41373,11 @@
    "building:osm:way-584444553",
    "building:osm:way-584444592",
    "building:osm:way-584444610",
+   "building:osm:way-584475063",
    "building:osm:way-584481334",
    "building:osm:way-584481338",
    "building:osm:way-584481341",
+   "building:osm:way-584481373",
    "building:osm:way-584481388",
    "building:osm:way-584481414",
    "building:osm:way-584481418",
@@ -36882,6 +41513,46 @@
    "cell": 3,
    "sheetFile": "b2-contact-0-later.jpg"
   },
+  "building:osm:way-1072833222": {
+   "batch": "b8",
+   "proposedFirstYear": 1968,
+   "reason": "shoreline-or-pier: the match is a shoreline, jetty, quay or pier line, not a house",
+   "contactSheet": "b8-contact-1968",
+   "cell": 0,
+   "sheetFile": "b8-contact-0-1968.jpg"
+  },
+  "building:osm:way-1253633908": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+   "contactSheet": "b6-contact-1968",
+   "cell": 0,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
+  "building:osm:way-1253633910": {
+   "batch": "b6",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-later",
+   "cell": 1,
+   "sheetFile": "b6-contact-0-later.jpg"
+  },
+  "building:osm:way-1253633914": {
+   "batch": "b6",
+   "proposedFirstYear": 1995,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-later",
+   "cell": 2,
+   "sheetFile": "b6-contact-0-later.jpg"
+  },
+  "building:osm:way-1263839923": {
+   "batch": "b8",
+   "proposedFirstYear": 1995,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b8-contact-later",
+   "cell": 0,
+   "sheetFile": "b8-contact-0-later.jpg"
+  },
   "building:osm:way-1274527758": {
    "batch": "b5",
    "proposedFirstYear": 1968,
@@ -36914,6 +41585,22 @@
    "cell": 2,
    "sheetFile": "b5-contact-0-later.jpg"
   },
+  "building:osm:way-1555824370": {
+   "batch": "b7",
+   "proposedFirstYear": 1995,
+   "reason": "line: the 1995 match is the line of a circle symbol, not a house",
+   "contactSheet": "b7-contact-later",
+   "cell": 0,
+   "sheetFile": "b7-contact-0-later.jpg"
+  },
+  "building:osm:way-1555824389": {
+   "batch": "b7",
+   "proposedFirstYear": 1995,
+   "reason": "line: the 1995 match is the line of a circle symbol, not a house",
+   "contactSheet": "b7-contact-later",
+   "cell": 1,
+   "sheetFile": "b7-contact-0-later.jpg"
+  },
   "building:osm:way-1555826906": {
    "batch": "b4",
    "proposedFirstYear": 1968,
@@ -36921,6 +41608,22 @@
    "contactSheet": "b4-contact-1968",
    "cell": 0,
    "sheetFile": "b4-contact-0-1968.jpg"
+  },
+  "building:osm:way-162297312": {
+   "batch": "b7",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b7-contact-later",
+   "cell": 2,
+   "sheetFile": "b7-contact-0-later.jpg"
+  },
+  "building:osm:way-162298848": {
+   "batch": "b7",
+   "proposedFirstYear": 1995,
+   "reason": "obscured: map lettering covers the outline in the previous edition, so a house could be hidden under it",
+   "contactSheet": "b7-contact-later",
+   "cell": 3,
+   "sheetFile": "b7-contact-0-later.jpg"
   },
   "building:osm:way-162379075": {
    "batch": "b1",
@@ -36937,6 +41640,14 @@
    "contactSheet": "b1-contact-1968",
    "cell": 4,
    "sheetFile": "b1-contact-0-1968.jpg"
+  },
+  "building:osm:way-163034629": {
+   "batch": "b7",
+   "proposedFirstYear": 1985,
+   "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+   "contactSheet": "b7-contact-later",
+   "cell": 6,
+   "sheetFile": "b7-contact-0-later.jpg"
   },
   "building:osm:way-165234961": {
    "batch": "b1",
@@ -36986,6 +41697,14 @@
    "cell": 37,
    "sheetFile": "b1-contact-1-later.jpg"
   },
+  "building:osm:way-165434948": {
+   "batch": "b7",
+   "proposedFirstYear": 1985,
+   "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+   "contactSheet": "b7-contact-later",
+   "cell": 8,
+   "sheetFile": "b7-contact-0-later.jpg"
+  },
   "building:osm:way-165434977": {
    "batch": "b3",
    "proposedFirstYear": 1985,
@@ -37009,6 +41728,14 @@
    "contactSheet": "b3-contact-later",
    "cell": 6,
    "sheetFile": "b3-contact-0-later.jpg"
+  },
+  "building:osm:way-165436777": {
+   "batch": "b6",
+   "proposedFirstYear": 1995,
+   "reason": "obscured: map lettering covers the outline in the previous edition, so a house could be hidden under it",
+   "contactSheet": "b6-contact-later",
+   "cell": 4,
+   "sheetFile": "b6-contact-0-later.jpg"
   },
   "building:osm:way-165439485": {
    "batch": "b5",
@@ -37058,6 +41785,14 @@
    "cell": 4,
    "sheetFile": "b4-contact-0-later.jpg"
   },
+  "building:osm:way-166876807": {
+   "batch": "b7",
+   "proposedFirstYear": 1985,
+   "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+   "contactSheet": "b7-contact-later",
+   "cell": 9,
+   "sheetFile": "b7-contact-0-later.jpg"
+  },
   "building:osm:way-167140754": {
    "batch": "b4",
    "proposedFirstYear": 1968,
@@ -37098,6 +41833,22 @@
    "cell": 38,
    "sheetFile": "b1-contact-1-later.jpg"
   },
+  "building:osm:way-172846171": {
+   "batch": "b7",
+   "proposedFirstYear": 1968,
+   "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+   "contactSheet": "b7-contact-1968",
+   "cell": 0,
+   "sheetFile": "b7-contact-0-1968.jpg"
+  },
+  "building:osm:way-172847750": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+   "contactSheet": "b6-contact-1968",
+   "cell": 1,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
   "building:osm:way-172847755": {
    "batch": "b4",
    "proposedFirstYear": 1968,
@@ -37105,6 +41856,14 @@
    "contactSheet": "b4-contact-1968",
    "cell": 13,
    "sheetFile": "b4-contact-0-1968.jpg"
+  },
+  "building:osm:way-172851916": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-1968",
+   "cell": 2,
+   "sheetFile": "b6-contact-0-1968.jpg"
   },
   "building:osm:way-184688111": {
    "batch": "b1",
@@ -37137,6 +41896,30 @@
    "contactSheet": "b1-contact-later",
    "cell": 52,
    "sheetFile": "b1-contact-2-later.jpg"
+  },
+  "building:osm:way-217235942": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 5,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
+  "building:osm:way-274182766": {
+   "batch": "b7",
+   "proposedFirstYear": 1995,
+   "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+   "contactSheet": "b7-contact-later",
+   "cell": 11,
+   "sheetFile": "b7-contact-0-later.jpg"
+  },
+  "building:osm:way-274182776": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+   "contactSheet": "b6-contact-1968",
+   "cell": 7,
+   "sheetFile": "b6-contact-0-1968.jpg"
   },
   "building:osm:way-294784136": {
    "batch": "b1",
@@ -37177,6 +41960,46 @@
    "contactSheet": "b3-contact-1968",
    "cell": 14,
    "sheetFile": "b3-contact-0-1968.jpg"
+  },
+  "building:osm:way-329168564": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-1968",
+   "cell": 9,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
+  "building:osm:way-345813209": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+   "contactSheet": "b6-contact-1968",
+   "cell": 10,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
+  "building:osm:way-345813229": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+   "contactSheet": "b6-contact-1968",
+   "cell": 11,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
+  "building:osm:way-418380869": {
+   "batch": "b7",
+   "proposedFirstYear": 1985,
+   "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+   "contactSheet": "b7-contact-later",
+   "cell": 13,
+   "sheetFile": "b7-contact-0-later.jpg"
+  },
+  "building:osm:way-418380886": {
+   "batch": "b7",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b7-contact-1968",
+   "cell": 2,
+   "sheetFile": "b7-contact-0-1968.jpg"
   },
   "building:osm:way-453682608": {
    "batch": "b3",
@@ -37234,6 +42057,38 @@
    "cell": 30,
    "sheetFile": "b4-contact-1-1968.jpg"
   },
+  "building:osm:way-496240792": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-1968",
+   "cell": 12,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
+  "building:osm:way-496240799": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 14,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
+  "building:osm:way-496240806": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 19,
+   "sheetFile": "b6-contact-0-1968.jpg"
+  },
+  "building:osm:way-496240811": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-1968",
+   "cell": 20,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
   "building:osm:way-496240816": {
    "batch": "b4",
    "proposedFirstYear": 1968,
@@ -37258,6 +42113,118 @@
    "cell": 41,
    "sheetFile": "b4-contact-2-1968.jpg"
   },
+  "building:osm:way-496240819": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 23,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
+  "building:osm:way-496240821": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 24,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
+  "building:osm:way-496240824": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-1968",
+   "cell": 27,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
+  "building:osm:way-496240825": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 28,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
+  "building:osm:way-496790828": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 31,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
+  "building:osm:way-496790829": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 32,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
+  "building:osm:way-496790830": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 33,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
+  "building:osm:way-496961865": {
+   "batch": "b6",
+   "proposedFirstYear": 1995,
+   "reason": "obscured: map lettering covers the outline in the previous edition, so a house could be hidden under it",
+   "contactSheet": "b6-contact-later",
+   "cell": 13,
+   "sheetFile": "b6-contact-0-later.jpg"
+  },
+  "building:osm:way-496985069": {
+   "batch": "b6",
+   "proposedFirstYear": 1995,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-later",
+   "cell": 14,
+   "sheetFile": "b6-contact-0-later.jpg"
+  },
+  "building:osm:way-497012858": {
+   "batch": "b8",
+   "proposedFirstYear": 1985,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b8-contact-later",
+   "cell": 1,
+   "sheetFile": "b8-contact-0-later.jpg"
+  },
+  "building:osm:way-498109467": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 38,
+   "sheetFile": "b6-contact-1-1968.jpg"
+  },
+  "building:osm:way-498109471": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-1968",
+   "cell": 41,
+   "sheetFile": "b6-contact-2-1968.jpg"
+  },
+  "building:osm:way-498109476": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b6-contact-1968",
+   "cell": 44,
+   "sheetFile": "b6-contact-2-1968.jpg"
+  },
+  "building:osm:way-500926558": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+   "contactSheet": "b6-contact-1968",
+   "cell": 47,
+   "sheetFile": "b6-contact-2-1968.jpg"
+  },
   "building:osm:way-500926561": {
    "batch": "b4",
    "proposedFirstYear": 1968,
@@ -37265,6 +42232,38 @@
    "contactSheet": "b4-contact-1968",
    "cell": 90,
    "sheetFile": "b4-contact-4-1968.jpg"
+  },
+  "building:osm:way-501137397": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "hatched-block: in 1968 the block is drawn hatched as built-up area, so a symbol inside it cannot be told from the hatching",
+   "contactSheet": "b6-contact-1968",
+   "cell": 48,
+   "sheetFile": "b6-contact-2-1968.jpg"
+  },
+  "building:osm:way-501137398": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-1968",
+   "cell": 49,
+   "sheetFile": "b6-contact-2-1968.jpg"
+  },
+  "building:osm:way-501190346": {
+   "batch": "b6",
+   "proposedFirstYear": 1968,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-1968",
+   "cell": 50,
+   "sheetFile": "b6-contact-2-1968.jpg"
+  },
+  "building:osm:way-523420571": {
+   "batch": "b6",
+   "proposedFirstYear": 1995,
+   "reason": "outline-empty: the matched symbol belongs to a neighbouring house; the outline itself is empty in that edition",
+   "contactSheet": "b6-contact-later",
+   "cell": 20,
+   "sheetFile": "b6-contact-1-later.jpg"
   },
   "building:osm:way-525919636": {
    "batch": "b4",
@@ -37321,6 +42320,14 @@
    "contactSheet": "b4-contact-1968",
    "cell": 94,
    "sheetFile": "b4-contact-4-1968.jpg"
+  },
+  "building:osm:way-584444490": {
+   "batch": "b8",
+   "proposedFirstYear": 1995,
+   "reason": "earlier-drawing: the previous edition already draws something at the outline (hollow, hatched or offset symbol), so the later start could be too late",
+   "contactSheet": "b8-contact-later",
+   "cell": 2,
+   "sheetFile": "b8-contact-0-later.jpg"
   },
   "building:osm:way-584444492": {
    "batch": "b4",
@@ -37418,6 +42425,14 @@
    "cell": 101,
    "sheetFile": "b4-contact-5-1968.jpg"
   },
+  "building:osm:way-584475063": {
+   "batch": "b7",
+   "proposedFirstYear": 1995,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b7-contact-later",
+   "cell": 17,
+   "sheetFile": "b7-contact-0-later.jpg"
+  },
   "building:osm:way-584481334": {
    "batch": "b3",
    "proposedFirstYear": 1985,
@@ -37441,6 +42456,14 @@
    "contactSheet": "b3-contact-1968",
    "cell": 23,
    "sheetFile": "b3-contact-1-1968.jpg"
+  },
+  "building:osm:way-584481373": {
+   "batch": "b7",
+   "proposedFirstYear": 1968,
+   "reason": "ambiguous-overlap: the symbol only partly overlaps the outline and could be the neighbour",
+   "contactSheet": "b7-contact-1968",
+   "cell": 6,
+   "sheetFile": "b7-contact-0-1968.jpg"
   },
   "building:osm:way-584481388": {
    "batch": "b3",
@@ -38347,23 +43370,139 @@
   {
    "file": "b5-sheet-02.jpg",
    "sha256": "7124d362dc72a63efef23d9292792ca1d7f92dded5ce7b62dda4745531410f11"
+  },
+  {
+   "file": "b6-contact-0-1968.jpg",
+   "sha256": "cc2ca3029fdcf5c8f4279af41ea3a4acd1348952404d004f21bc19d4fb11fa24"
+  },
+  {
+   "file": "b6-contact-0-later.jpg",
+   "sha256": "bbd1e1077efb34b0633265ae0535ce19f81319a95dff24cc9dda2b7d70c86017"
+  },
+  {
+   "file": "b6-contact-1-1968.jpg",
+   "sha256": "b85e323ddf5b0e4e6b137e79cdf68856222a60da43244bf24f8750a898f1e90a"
+  },
+  {
+   "file": "b6-contact-1-later.jpg",
+   "sha256": "0e53c1bc87ff09247d03bef436629a1ef73607e4789d6f0c93c8ee192be2702c"
+  },
+  {
+   "file": "b6-contact-2-1968.jpg",
+   "sha256": "c10deaca486da33f4fe81bacc3f8356c1231254004c480fb5307ffc0319a6cfc"
+  },
+  {
+   "file": "b6-sheet-00.jpg",
+   "sha256": "ab3dedced567539f56b6054cc799ed6e1ce5bb738868410a86c78178d2949ba5"
+  },
+  {
+   "file": "b6-sheet-01.jpg",
+   "sha256": "1a5fefb1de9435a3d4640f5be598d463f3e2853525caacb54cad65472f3ba948"
+  },
+  {
+   "file": "b6-sheet-02.jpg",
+   "sha256": "e0bd0ca3a73d075c83c2575e34aef8385e8011afdfbccc0b7c75f61d5968df5d"
+  },
+  {
+   "file": "b6-sheet-10.jpg",
+   "sha256": "d32baf8f0428dee80b3048eb6129e45c9077880a501e0a0ca6284d128e2813ea"
+  },
+  {
+   "file": "b6-sheet-11.jpg",
+   "sha256": "d5d6041065b5c0213e81b034ccbea92cdea9e587847fb995aa9fb43a2bbaa499"
+  },
+  {
+   "file": "b6-sheet-12.jpg",
+   "sha256": "40fdf34eea6fd02560a8e2cd3108a4999ea52a7c2caad1969c76fcb5df1e348f"
+  },
+  {
+   "file": "b6-sheet-20.jpg",
+   "sha256": "7acebff572d5f98416e468320e8dcb2c7488d08b3285c6aeb2474f12951c647b"
+  },
+  {
+   "file": "b6-sheet-21.jpg",
+   "sha256": "79baf51ae2c7145fec016cae0eb4d56ca429939d195dc4f02df1e96735d7cdd7"
+  },
+  {
+   "file": "b6-sheet-22.jpg",
+   "sha256": "a9661e6f70d9e7cc59d299bd504358302119799af5f42e647735e0f8a1904607"
+  },
+  {
+   "file": "b7-contact-0-1968.jpg",
+   "sha256": "9f6fd17ea645ec2cfa3861c609a2a6eb695f6e468cbac6e1925334345ab13d8a"
+  },
+  {
+   "file": "b7-contact-0-later.jpg",
+   "sha256": "f679562bc061e380ed1d021898400a9c261a6107aee0098ba7f8117614a61865"
+  },
+  {
+   "file": "b7-sheet-00.jpg",
+   "sha256": "978a01f7b4619dc4b5d7ba564ceed3e77e6883172d263643186441fbc52bcaee"
+  },
+  {
+   "file": "b7-sheet-01.jpg",
+   "sha256": "ca720cdc912161a86dc5d6288a7404ec6777df38732840f6bfd7a1e6e253752b"
+  },
+  {
+   "file": "b7-sheet-02.jpg",
+   "sha256": "1fd8d0478567758698ce884d4997b0addec38fb00808c0650ddf29cdcf4c5922"
+  },
+  {
+   "file": "b7-sheet-10.jpg",
+   "sha256": "26471bc70da441ffa965298367f6e9b4de2ea7a9357a0aba23caa429f571513f"
+  },
+  {
+   "file": "b7-sheet-11.jpg",
+   "sha256": "d132184f422080c50c8649bb18f29b165ff460abef5b9d800268f580a9f13f8e"
+  },
+  {
+   "file": "b7-sheet-12.jpg",
+   "sha256": "0e4b32e52faff60cffa980f4e809b065adc62fb8e63f87063b223a4144241675"
+  },
+  {
+   "file": "b7-sheet-20.jpg",
+   "sha256": "35eca42e5e3ec15ec76b27bab3781c3b9347a4270d240fd2c8726696c1c5f340"
+  },
+  {
+   "file": "b7-sheet-21.jpg",
+   "sha256": "d58e7431ba9af707fe80c685bbcdd6b9f8a5d996c8144f8c4e876812033df6c4"
+  },
+  {
+   "file": "b7-sheet-22.jpg",
+   "sha256": "2425881be365568335848c385aecd666e299d9e40a2c9fbb94065d219a2bc475"
+  },
+  {
+   "file": "b8-contact-0-1968.jpg",
+   "sha256": "42385d1181e64a458beb3b469259dd14de0b097f96846a5da608fdb24657ffd8"
+  },
+  {
+   "file": "b8-contact-0-later.jpg",
+   "sha256": "d662b89a23480eac709911a5cbf8a2748708a32085b25a1f721b3cee1e45973d"
+  },
+  {
+   "file": "b8-sheet-00.jpg",
+   "sha256": "bb098fdd38c7fa224ab8a285ac5f9f038abe3ea9ea471651ee88b84e150b9ea1"
+  },
+  {
+   "file": "b8-sheet-01.jpg",
+   "sha256": "f16953b8417dc30ea200bf6f478ceefa52389c44725e593bb55ffb4f724add3c"
   }
  ],
  "totals": {
-  "buildings": 687,
+  "buildings": 752,
   "byFirstYear": {
-   "1968": 292,
-   "1985": 289,
-   "1995": 106
+   "1968": 332,
+   "1985": 292,
+   "1995": 128
   },
   "deferred": {
-   "absent": 972,
-   "already-dated": 10,
+   "absent": 1333,
+   "already-dated": 847,
    "curated-review": 2,
-   "earlier-unclear": 143,
-   "inconsistent": 115,
+   "earlier-unclear": 166,
+   "inconsistent": 155,
    "outline-changed": 1,
-   "visual-reject": 153
+   "visual-reject": 202
   }
  }
 }

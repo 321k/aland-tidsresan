@@ -8,8 +8,8 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),sheets=review.sheets;
 
 test('the review is complete, sourced and keeps 1978 out of the building evidence',()=>{
- assert.equal(review.decisions.length,687);assert.deepEqual(review.totals.byFirstYear,{1968:292,1985:289,1995:106});
- assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0});
+ assert.equal(review.decisions.length,752);assert.deepEqual(review.totals.byFirstYear,{1968:332,1985:292,1995:128});
+ assert.deepEqual(Object.fromEntries(['b1','b2','b3','b4','b5','b6','b7','b8'].map(k=>[k,review.decisions.filter(d=>d.batch===k).length])),{b1:361,b2:95,b3:119,b4:112,b5:0,b6:43,b7:18,b8:4});
  for(const y of ['1968','1985','1995'])assert.ok(catalog.sources.some(s=>s.id===sheets[y]),y);
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  assert.match(review.rules.roadRevision1978,/inte som eget byggnadsbelägg/);
@@ -45,7 +45,7 @@ test('every later edition shows the building; only 1985 may be unclear between 1
    assert.equal(x.outcome,'present');assert.deepEqual(e.sourcePixels.pixel,x.pixel);assert.ok(o.states[0].evidenceIds.includes(e.id));
    assert.ok(e.deviationMeters<=review.rules.maxRawSymbolDistanceMeters,e.id);
    assert.ok(x.distanceAfterShiftMeters<=(x.fillPass?review.rules.fillLimitMeters:review.rules.matchLimitMeters),e.id)}}
- assert.equal(unclear,82);
+ assert.equal(unclear,93);
 });
 
 test('the city layer draws dated houses in their map years and never before',()=>{
@@ -57,15 +57,31 @@ test('the city layer draws dated houses in their map years and never before',()=
 });
 
 test('houses rejected on the contact sheets are never dated, and each rejection has a reason and a sheet',()=>{
- const rejected=Object.entries(review.visualRejections);assert.equal(rejected.length,153);
+ const rejected=Object.entries(review.visualRejections);assert.equal(rejected.length,202);
  // Every b5 proposal was a shoreline, quay or lettering match; the strip dates nothing.
  assert.equal(rejected.filter(([,r])=>r.batch==='b5').length,8);
  assert.deepEqual(review.deferred['visual-reject'],rejected.map(([id])=>id).sort());
  const sheets=new Set(review.reviewSheets.map(s=>s.file));
  for(const [id,r] of rejected){
   assert.ok(!model.objects.get(id).buildingMapReview,id);assert.ok(!review.decisions.some(d=>d.objectId===id),id);
-  assert.match(r.reason,/^(outline-empty|shoreline-or-pier|earlier-drawing|obscured|lettering|line|ambiguous-overlap|ambiguous-offset):/);
+  assert.match(r.reason,/^(outline-empty|shoreline-or-pier|earlier-drawing|obscured|lettering|line|ambiguous-overlap|ambiguous-offset|hatched-block):/);
   assert.ok(sheets.has(r.sheetFile),id);assert.ok([1968,1985,1995].includes(r.proposedFirstYear))}
  // Every batch was reviewed on tile sheets and on contact sheets.
- for(const k of ['b1','b2','b3','b4','b5'])for(const kind of ['sheet','contact'])assert.ok([...sheets].some(f=>f.startsWith(`${k}-${kind}-`)),k+kind);
+ for(const k of ['b1','b2','b3','b4','b5','b6','b7','b8'])for(const kind of ['sheet','contact'])assert.ok([...sheets].some(f=>f.startsWith(`${k}-${kind}-`)),k+kind);
+});
+
+test('in the centre, a dated house never overlaps a printed-map symbol object, and hatched 1968 blocks date nothing',()=>{
+ const ring=g=>g.paths[0].map(([x,y])=>[x*55600,y*111320]);
+ const area=r=>Math.abs(r.reduce((a,p,i)=>{const q=r[(i+1)%r.length];return a+p[0]*q[1]-q[0]*p[1]},0))/2;
+ const inside=(p,r)=>{let c=false;for(let i=0,j=r.length-1;i<r.length;j=i++){const [xi,yi]=r[i],[xj,yj]=r[j];if((yi>p[1])!==(yj>p[1])&&p[0]<(xj-xi)*(p[1]-yi)/(yj-yi)+xi)c=!c}return c};
+ const geom=new Map(catalog.geometries.map(g=>[g.id,g]));
+ const symbols=catalog.objects.filter(o=>o.printedMapSymbol).flatMap(o=>o.geometryPeriods.map(p=>geom.get(p.geometryId)).filter(g=>g&&g.paths[0].length>=4).map(ring));
+ const centre=review.decisions.filter(d=>['b6','b7','b8'].includes(d.batch));assert.equal(centre.length,65);
+ for(const d of centre){const r=ring(geom.get(d.referenceGeometryId)),xs=r.map(p=>p[0]),ys=r.map(p=>p[1]);
+  for(const s of symbols){const c=[s.reduce((a,p)=>a+p[0],0)/s.length,s.reduce((a,p)=>a+p[1],0)/s.length];
+   if(c[0]<Math.min(...xs)-60||c[0]>Math.max(...xs)+60||c[1]<Math.min(...ys)-60||c[1]>Math.max(...ys)+60)continue;
+   assert.ok(!inside(c,r),d.objectId);assert.ok(!s.some(p=>inside(p,r))&&!r.some(p=>inside(p,s)),d.objectId)}}
+ assert.equal(review.rules.symbolObjectOverlapSquareMeters,5);
+ const hatched=Object.values(review.visualRejections).filter(r=>r.reason.startsWith('hatched-block:'));assert.equal(hatched.length,8);
+ for(const r of hatched){assert.equal(r.proposedFirstYear,1968);assert.ok(['b6','b7'].includes(r.batch))}
 });

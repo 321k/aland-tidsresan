@@ -34,7 +34,7 @@ class BuildingMapTests(unittest.TestCase):
 
     def test_review_applies_once_and_matches_the_build(self):
         catalog = copy.deepcopy(self.pristine); apply_building_maps(self.read, catalog)
-        # The later 1942 frame review changes 11 road objects; apply it to compare with the build.
+        # The later 1942 frame review changes 43 road objects; apply it to compare with the build.
         frame = copy.deepcopy(catalog); apply_frame_1942(self.read, frame)
         self.assertEqual(json.loads(json.dumps(frame, ensure_ascii=False))['objects'], self.built['objects'])
         with self.assertRaises(ValueError):
@@ -64,6 +64,17 @@ class BuildingMapTests(unittest.TestCase):
             from mariehamn_building_maps import fingerprint
             d['input'] = fingerprint(church); r['decisions'].append(d)
         self.run_with(add)
+
+    def test_overlapping_printed_symbol_object_rejected(self):
+        # A printed-map symbol object drawn on a dated outline would show the same house twice.
+        review = self.read(REVIEW); d = next(d for d in review['decisions'] if d['batch'] == 'b6')
+        catalog = copy.deepcopy(self.pristine)
+        catalog['objects'].append(dict(id='map-building:test-symbol', kind='building', printedMapSymbol=True, states=[],
+                                       geometryPeriods=[dict(geometryId=d['referenceGeometryId'], **{'from': 1983, 'to': None})]))
+        before = copy.deepcopy(catalog)
+        with self.assertRaises(ValueError):
+            apply_building_maps(self.read, catalog)
+        self.assertEqual(before, catalog)
 
     def test_1978_road_revision_is_not_building_evidence(self):
         def use_1978(r):

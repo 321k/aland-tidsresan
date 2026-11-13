@@ -14,6 +14,7 @@ import json
 import numpy as np
 from pyproj import Transformer
 from shapely.geometry import Point, Polygon
+from shapely.strtree import STRtree
 from historical_map_observations import load_review, MERCATOR
 from rural_registration import registration_pair
 
@@ -98,12 +99,23 @@ def apply_building_maps(read, catalog):
             if raw > rules['maxRawSymbolDistanceMeters'] or shifted > limit + 0.5:
                 raise ValueError(f"Symbol does not match building {d['objectId']} in {x['year']}")
             x['_deviation'] = round(raw, 1)
-        prepared.append((o, d))
+        prepared.append((o, d, poly))
+    # In the centre, printed-map symbol objects already show houses from the same sheet. A dated outline must not
+    # overlap any of them in any period, or the same house would be drawn twice.
+    symbols = [Polygon([TO_METRIC(*p) for p in geometries[gp['geometryId']]['paths'][0]]).buffer(0)
+               for s in catalog['objects'] if s.get('printedMapSymbol') for gp in s['geometryPeriods']
+               if gp['geometryId'] in geometries and len(geometries[gp['geometryId']]['paths'][0]) >= 4]
+    tree = STRtree(symbols)
+    for o, d, poly in prepared:
+        outline = poly.buffer(0)
+        for i in tree.query(outline):
+            if outline.intersection(symbols[i]).area > rules['symbolObjectOverlapSquareMeters'] or outline.contains(symbols[i].centroid):
+                raise ValueError('Building overlaps a printed-map symbol object: ' + d['objectId'])
 
     # All checks passed. Change the catalogue.
     source_id = review['source']['id']
     catalog['sources'].append(dict(review['source']))
-    for o, d in prepared:
+    for o, d, _ in prepared:
         ids = []
         for x in d['observations']:
             if x['year'] < d['firstYear']:
