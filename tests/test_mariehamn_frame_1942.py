@@ -3,6 +3,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from mariehamn_frame_1942 import apply_frame_1942
 from mariehamn_symbols_1968 import apply_symbols_1968
+from mariehamn_museum_duplicates import apply_museum_duplicates
 
 REVIEW = 'data/mariehamn-frame-1942.json'
 
@@ -35,6 +36,7 @@ class Frame1942Tests(unittest.TestCase):
         catalog = copy.deepcopy(self.pristine); apply_frame_1942(self.read, catalog)
         # The 1968 symbol review runs after this step and touches only printed-map symbol objects.
         frame_only = copy.deepcopy(catalog); apply_symbols_1968(self.read, catalog)
+        apply_museum_duplicates(self.read, catalog)
         catalog = json.loads(json.dumps(catalog, ensure_ascii=False))
         self.assertEqual(catalog['cityStages'], self.built['cityStages'])
         # Building-map batches added after the snapshot (b6–b10: the centre and Ytternäs) change only buildings the

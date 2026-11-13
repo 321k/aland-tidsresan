@@ -1,0 +1,573 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-13",
+ "source": {
+  "id": "review:mariehamn-museum-duplicates",
+  "title": "Mariehamns museikartehus · dubbletter och ersättningar granskade mot flygfotot 1942",
+  "url": "assets/mariehamn-museum-duplicates.json"
+ },
+ "aerialSourceId": "mariehamn-aerial-1942",
+ "method": "Writes data/mariehamn-museum-duplicates.json: museum-map houses that overlap a later house, judged on the 1942 orthophoto\nand the 1968 sheet 101208 (sheets.py, museum-NN.jpg; pair numbers below refer to pairs.json).\n\nThe 1920 museum map's houses were kept as provisional objects with assumed continued existence. Where one overlaps a\nlater house, the same building was drawn twice, or the museum house was replaced:\n- merge: the 1942 photo shows one house where the later outline is, with the museum outline offset by 5–16 m; the later\n  object keeps its identity and outline, takes over the museum record (evidence, links, aliases) and is shown from 1920;\n- replacement: a different, usually much larger later building stands on the plot; the museum house ends at the\n  successor's first reviewed evidence, the latest replacement boundary (demolition may be earlier);\n- deferred: a shed or garage that is not the counterpart, an unclear shape or orientation, or a later house whose\n  building-map review records it absent in 1968/1985.",
+ "merges": [
+  {
+   "id": "museum-83",
+   "keep": "map-building:nls-symbol-409",
+   "donor": "building:museum:83",
+   "pair": 12,
+   "fromYear": 1920,
+   "keepFrom": 1920,
+   "offsetMeters": [
+    -0.5,
+    -5.4
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 5 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-99",
+   "keep": "map-building:nls-symbol-429",
+   "donor": "building:museum:99",
+   "pair": 15,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    -14.1,
+    2.0
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 14 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-66",
+   "keep": "map-building:nls-symbol-436",
+   "donor": "building:museum:66",
+   "pair": 17,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    13.5,
+    1.7
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 14 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-51",
+   "keep": "map-building:nls-symbol-445",
+   "donor": "building:museum:51",
+   "pair": 18,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    12.3,
+    1.9
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 12 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-63",
+   "keep": "map-building:nls-symbol-470",
+   "donor": "building:museum:63",
+   "pair": 22,
+   "fromYear": 1920,
+   "keepFrom": 1920,
+   "offsetMeters": [
+    10.7,
+    1.2
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 11 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-75",
+   "keep": "map-building:nls-symbol-477",
+   "donor": "building:museum:75",
+   "pair": 23,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    4.5,
+    -8.5
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 10 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-60",
+   "keep": "map-building:nls-symbol-485",
+   "donor": "building:museum:60",
+   "pair": 24,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    10.3,
+    -5.9
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 12 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-62",
+   "keep": "map-building:nls-symbol-486",
+   "donor": "building:museum:62",
+   "pair": 26,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    12.8,
+    -6.6
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 14 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår.",
+   "alsoResolvesPairs": [
+    25
+   ]
+  },
+  {
+   "id": "museum-151",
+   "keep": "map-building:nls-symbol-488",
+   "donor": "building:museum:151",
+   "pair": 27,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    -4.5,
+    -11.3
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 12 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-144",
+   "keep": "map-building:nls-symbol-520",
+   "donor": "building:museum:144",
+   "pair": 29,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    12.9,
+    -0.2
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 13 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-94",
+   "keep": "building:osm:way-176377064",
+   "donor": "building:museum:94",
+   "pair": 33,
+   "fromYear": 1920,
+   "keepFrom": 1983,
+   "offsetMeters": [
+    -6.6,
+    -2.4
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 7 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-72",
+   "keep": "building:osm:way-274182776",
+   "donor": "building:museum:72",
+   "pair": 39,
+   "fromYear": 1920,
+   "keepFrom": 2021,
+   "offsetMeters": [
+    6.9,
+    -7.9
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 10 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-111",
+   "keep": "building:osm:way-274188734",
+   "donor": "building:museum:111",
+   "pair": 40,
+   "fromYear": 1920,
+   "keepFrom": 2021,
+   "offsetMeters": [
+    2.7,
+    -11.6
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 12 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-79",
+   "keep": "building:osm:way-415215787",
+   "donor": "building:museum:79",
+   "pair": 41,
+   "fromYear": 1920,
+   "keepFrom": 2021,
+   "offsetMeters": [
+    -5.8,
+    -12.8
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 14 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  },
+  {
+   "id": "museum-7",
+   "keep": "building:osm:way-523420568",
+   "donor": "building:museum:7",
+   "pair": 49,
+   "fromYear": 1920,
+   "keepFrom": 2021,
+   "offsetMeters": [
+    -12.4,
+    -5.6
+   ],
+   "basis": "Museikartans hus och den senare inmätta byggnaden tolkas som samma hus. Flygfotot 1942 visar ett hus där den senare konturen ligger; museikartans schematiska kontur ligger 14 meter därifrån, inom den äldre inpassningens osäkerhet, och inget annat hus på tomten passar bättre. Den senare uppmätta konturen används från museikartans 1920-tal; detta är ett kontinuitetsantagande, inte ett fastställt byggår."
+  }
+ ],
+ "replacements": [
+  {
+   "id": "museum-0",
+   "museum": "building:museum:0",
+   "successors": [
+    "map-building:nls-symbol-288"
+   ],
+   "pairs": [
+    1
+   ],
+   "endYear": 1942,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är det stora kvartershuset som flygfotot 1942 redan visar. Det äldre husets antagna fortsättning avslutas senast 1942, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1942 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-1",
+   "museum": "building:museum:1",
+   "successors": [
+    "map-building:nls-symbol-288"
+   ],
+   "pairs": [
+    2
+   ],
+   "endYear": 1942,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är det stora kvartershuset som flygfotot 1942 redan visar. Det äldre husets antagna fortsättning avslutas senast 1942, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1942 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-17",
+   "museum": "building:museum:17",
+   "successors": [
+    "map-building:nls-symbol-326"
+   ],
+   "pairs": [
+    4
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större och längre byggnad. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-14",
+   "museum": "building:museum:14",
+   "successors": [
+    "map-building:nls-symbol-365"
+   ],
+   "pairs": [
+    5
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större byggnad som täcker flera äldre hus. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-15",
+   "museum": "building:museum:15",
+   "successors": [
+    "map-building:nls-symbol-365"
+   ],
+   "pairs": [
+    6
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större byggnad som täcker flera äldre hus. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-3",
+   "museum": "building:museum:3",
+   "successors": [
+    "map-building:nls-symbol-373",
+    "map-building:nls-symbol-378"
+   ],
+   "pairs": [
+    7,
+    8
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är två hus med annan orientering. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-44",
+   "museum": "building:museum:44",
+   "successors": [
+    "map-building:nls-symbol-390"
+   ],
+   "pairs": [
+    9
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är ett större hus med annan orientering som täcker två äldre hus. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-45",
+   "museum": "building:museum:45",
+   "successors": [
+    "map-building:nls-symbol-390"
+   ],
+   "pairs": [
+    10
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är ett större hus med annan orientering som täcker två äldre hus. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-101",
+   "museum": "building:museum:101",
+   "successors": [
+    "map-building:nls-symbol-410"
+   ],
+   "pairs": [
+    13
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är ett längre hus med annan orientering. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-81",
+   "museum": "building:museum:81",
+   "successors": [
+    "map-building:nls-symbol-419"
+   ],
+   "pairs": [
+    14
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större byggnad. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-71",
+   "museum": "building:museum:71",
+   "successors": [
+    "map-building:nls-symbol-433"
+   ],
+   "pairs": [
+    16
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är ett större hus med annan orientering. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-49",
+   "museum": "building:museum:49",
+   "successors": [
+    "map-building:nls-symbol-448"
+   ],
+   "pairs": [
+    20
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större byggnad som täcker flera äldre hus. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-53",
+   "museum": "building:museum:53",
+   "successors": [
+    "map-building:nls-symbol-448"
+   ],
+   "pairs": [
+    21
+   ],
+   "endYear": 1983,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större byggnad som täcker flera äldre hus. Det äldre husets antagna fortsättning avslutas senast 1983, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1983 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-24",
+   "museum": "building:museum:24",
+   "successors": [
+    "building:osm:way-165529209",
+    "building:osm:way-1280029886"
+   ],
+   "pairs": [
+    31,
+    35
+   ],
+   "endYear": 1975,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större byggnad som redan ersatt grannhuset 1975, och senare den stora byggnaden från 2021. Det äldre husets antagna fortsättning avslutas senast 1975, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 1975 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  },
+  {
+   "id": "museum-80",
+   "museum": "building:museum:80",
+   "successors": [
+    "building:osm:way-415215793"
+   ],
+   "pairs": [
+    42
+   ],
+   "endYear": 2021,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större U-formad byggnad. Det äldre husets antagna fortsättning avslutas senast 2021, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 2021 är den senaste belagda ersättningsgränsen, inte ett rivningsår.",
+   "alsoResolvesPairs": [
+    51
+   ]
+  },
+  {
+   "id": "museum-88",
+   "museum": "building:museum:88",
+   "successors": [
+    "building:osm:way-415215793"
+   ],
+   "pairs": [
+    43
+   ],
+   "endYear": 2021,
+   "basis": "Museikartans hus och den senare byggnaden på tomten tolkas som olika byggnader: den senare är en mycket större U-formad byggnad. Det äldre husets antagna fortsättning avslutas senast 2021, då efterföljaren först är belagd. Rivningen kan ha skett tidigare; 2021 är den senaste belagda ersättningsgränsen, inte ett rivningsår."
+  }
+ ],
+ "deferred": {
+  "shed-not-counterpart": [
+   {
+    "pair": 0,
+    "museum": "building:museum:55",
+    "later": "mh-history:norragatan37b"
+   },
+   {
+    "pair": 44,
+    "museum": "building:museum:205",
+    "later": "building:osm:way-496985065"
+   },
+   {
+    "pair": 46,
+    "museum": "building:museum:56",
+    "later": "building:osm:way-505610365"
+   },
+   {
+    "pair": 47,
+    "museum": "building:museum:58",
+    "later": "building:osm:way-505610367"
+   },
+   {
+    "pair": 48,
+    "museum": "building:museum:55",
+    "later": "building:osm:way-505610370"
+   },
+   {
+    "pair": 52,
+    "museum": "building:museum:61",
+    "later": "building:osm:way-584475078"
+   },
+   {
+    "pair": 36,
+    "museum": "building:museum:68",
+    "later": "building:osm:way-165436763"
+   }
+  ],
+  "unclear-shape-or-orientation": [
+   {
+    "pair": 11,
+    "museum": "building:museum:42",
+    "later": "map-building:nls-symbol-392"
+   },
+   {
+    "pair": 19,
+    "museum": "building:museum:103",
+    "later": "map-building:nls-symbol-447"
+   },
+   {
+    "pair": 28,
+    "museum": "building:museum:116",
+    "later": "map-building:nls-symbol-517"
+   },
+   {
+    "pair": 30,
+    "museum": "building:museum:119",
+    "later": "map-building:nls-symbol-523"
+   },
+   {
+    "pair": 32,
+    "museum": "building:museum:48",
+    "later": "building:osm:way-211215510"
+   },
+   {
+    "pair": 34,
+    "museum": "building:museum:104",
+    "later": "map-building:nls-symbol-442"
+   },
+   {
+    "pair": 38,
+    "museum": "building:museum:11",
+    "later": "building:osm:way-274182772"
+   },
+   {
+    "pair": 45,
+    "museum": "building:museum:206",
+    "later": "building:osm:way-496985066"
+   }
+  ],
+  "map-review-records-absence": [
+   {
+    "pair": 37,
+    "museum": "building:museum:8",
+    "later": "building:osm:way-166878166"
+   },
+   {
+    "pair": 50,
+    "museum": "building:museum:105",
+    "later": "building:osm:way-570786567"
+   }
+  ],
+  "courtyard-not-overlapping": [
+   {
+    "pair": 3,
+    "museum": "building:museum:2",
+    "later": "map-building:nls-symbol-288"
+   }
+  ]
+ },
+ "inputs": {
+  "building:museum:0": "9e1c425d0409ca6c4b5a3cdba63b70b09654f46ca5b5f05f618c213bec9b4763",
+  "building:museum:1": "c4268de12777f1e9ec7be297b43e2f45c0587a521fcfab7590d1d1da80f4b518",
+  "building:museum:101": "201f4274ae72ff2b53c5ed4c21a2c6f524c42386f9ef433de23e43e1e22cddda",
+  "building:museum:111": "cc1ca1e0b8f24c8856f5ba3826a462a0b1261c8c5de9e910f9dac199e75ad51b",
+  "building:museum:14": "5763061779b366b428e074e0859d55dee379c41ecb6cda60dbbba38fec2f318a",
+  "building:museum:144": "224d17ce571bacc7dfac789c83bb54eb99ed9ce06f3c7f22361f06d81e4333b8",
+  "building:museum:15": "427c4bc7c364faa3c7bfe624bfd79c1aca445d586a5cd1e1367e9e33316c82e9",
+  "building:museum:151": "dd94cb333e9da571fa2d31ad83e74cedda3097109fafdbaf505913713cda2d16",
+  "building:museum:17": "c37fd9cffb67b505b7236b758acc429e8a1bb7187cf72ab1bf8ddf265570a329",
+  "building:museum:24": "034d68645494638425025e35479428567f7ec006b1639b673a58a501044c40af",
+  "building:museum:3": "572e96977920f34dd7d67dc344ef5a9e41df22de0c25b981b097006bf1d8fefb",
+  "building:museum:44": "0e68a2ad360e7666db92f995d6fc0bcd111f7d18ca34572a3939aaa78ea3a5db",
+  "building:museum:45": "a33d0796debb00e13cf3f27cc3cb4f9a71bde256fa2cedc85a6616af19d1bfd2",
+  "building:museum:49": "0db1fc24cda4f392ed6fd0b632d696428196423849d5848b7b244b988c248240",
+  "building:museum:51": "034629d93dbaeedffd1e8bfeca8ce9aa5cd1dc3749a388dbafcdc1f69e085ece",
+  "building:museum:53": "54cc4abe6b58a3f1ada9ef0ee6138273fd09de6da7ac7ad750815d1463d9a941",
+  "building:museum:60": "2f189302f8694cd128ba019ccdd538819aee040d36d06f45ad65996238882377",
+  "building:museum:62": "0b644ef6fbd75100618c5f335be36a47476ee2490d7f616010d01428dc5f0d7b",
+  "building:museum:63": "3d795d56f262ba08b0546023a373e6606540ec771729d22d6d5a017a44b0d449",
+  "building:museum:66": "1fd208e111e64d9169a0146b0e2567ed5b968f0d8191936f89344fa6192b3b03",
+  "building:museum:7": "b27a9208d28a2c477ec19159cb96f6f7b21cfb608757e9b4b0677dbf37e884da",
+  "building:museum:71": "a4240e1892e8a80fd009f52bed004db765444c63f9cf5baa6b087b26baff980d",
+  "building:museum:72": "cf6ebb75db501af432813abf26b2a612c8bad370bfbb370d6bb24d7680c946dd",
+  "building:museum:75": "40aa5306a3efe9fc9a4e82c9917971db080dc81582ed692ca5af4ab3b0a38c66",
+  "building:museum:79": "c7f368c8aaa748910bc8355589e020ca48d793523a91dd50c9827e3f621b2707",
+  "building:museum:80": "31d4e7968da84b374c8aebd87f715f4476f4fcdde2323c0540930440a3b8f3ca",
+  "building:museum:81": "933cf2bb3d1b15ce46d0838c9a3d82bee083d2a18f727d7ef20b518731f75a22",
+  "building:museum:83": "21195b73abbd53db95362835c0a219c8d6d94b0c45f8f9675327a907d5d8b3e3",
+  "building:museum:88": "7a8014a6b5822bde684c6cedcc267fb57b5f514317c81619602f28450f62d282",
+  "building:museum:94": "85ba6e89df8a25487815f1e4b47fdddc83655eed5ae243940713e054e1dce063",
+  "building:museum:99": "b3554a2afe21436a0e72436fa677ad9ac0adeb726703887664972027abc50051",
+  "building:osm:way-1280029886": "0285c5ccbcb0e5b5671d87dfdd2c3cd6d240979cb70530829451711bae2f26a0",
+  "building:osm:way-165529209": "7813df29589e6e48c1c642ae49371eaab6797edd55f1fc79d695a2b610c92500",
+  "building:osm:way-176377064": "697c2d83bfa59dd25ca9d6808cf3e16be9c754f8a9263abe0c4ab7b7a401a04a",
+  "building:osm:way-274182776": "576d7b0e09f53a480a6a6b015c72cf2f6a17e78340cf93c40172b6cd0af30108",
+  "building:osm:way-274188734": "7ed1db6cbe03e5f4915a29000cca7f05707322c5c7e027c01e5d86a516089b5e",
+  "building:osm:way-415215787": "32479d5eb96cda524dc99e90b6e38d1bbbcefcda57cc5f99e7bf9d6bb0c8d5f3",
+  "building:osm:way-415215793": "3ab81be6782fc212d472a5ec070c9ce81f12a213037e119aab4ae871512d350c",
+  "building:osm:way-523420568": "83b551ba0d64851200dd5b64a2308b5bf7411b429912709f11b88e0c4190ad81",
+  "map-building:nls-symbol-288": "a24ef512eb732bb6e927b5029e8c76580f12344374c8077b68367a2138e3ebc1",
+  "map-building:nls-symbol-326": "ecaad64340a840de7ba79280eeae96a23058ace128d504afbb2fae6206c6496f",
+  "map-building:nls-symbol-365": "222a53d75d667d7bf9816a973840c43afe65c2c71a1c395bd3e7145f721f22f9",
+  "map-building:nls-symbol-373": "dc21cb3f33bbed444a5dace8ae59e030bd98a6e2aa79f878e083fa8c0f00f297",
+  "map-building:nls-symbol-378": "39cf4efd4720ee873517fd2515f1f1550bdfa4b97f04f7632067366ee070665c",
+  "map-building:nls-symbol-390": "156bdc04163b77c773bc30cef1188891070b22025462c2920838929e3c2f8bb7",
+  "map-building:nls-symbol-409": "429796a7f85e881631a290e4ba21adc502809eeb1fa4d6fcecaa639ee9218fcb",
+  "map-building:nls-symbol-410": "e287017f76bbee2765d089ebd69d0e53d401f5438444b96797763130fe0e83c1",
+  "map-building:nls-symbol-419": "114984f2ce33a9603fe2b58fd137ea1609b35e76a9250d6e852103d73c745d5b",
+  "map-building:nls-symbol-429": "3de85f431d1d225295c6761130ed9cdc500af764ec99545dfda78a60aa9987f1",
+  "map-building:nls-symbol-433": "2da6f9ce2699bc125a729c7bf29d8625cd4a20169962055986ec7d1c8537feff",
+  "map-building:nls-symbol-436": "cb1af594e4a90a84e53b455715702e7dbbfc286cb26c1f75c79538ecd42df155",
+  "map-building:nls-symbol-445": "b53a8644ab37efef1e968cba65543eae8ce83d6fbf539a28b82fb0cc1955de1c",
+  "map-building:nls-symbol-448": "906cdfdf8f2129f9016c762533b1506ce2deaed917fe46fba9baf5aae0e2d544",
+  "map-building:nls-symbol-470": "98531f8e2016714460be33e04d8f9c813e082440a747ca3149c43b8a3340da82",
+  "map-building:nls-symbol-477": "f9f82652f4945fcad6d521b72c700b1cc350f650dba2e2d013954da29a5ab2b3",
+  "map-building:nls-symbol-485": "aa6a619d1a38ea9d0270307cf1562128df8f66309779f72807fb903d49c1ed61",
+  "map-building:nls-symbol-486": "80e08b4eeb3fa70925d6fccedabc4b7ebf426c638a8dd9f9cd6a23ba22c3cb04",
+  "map-building:nls-symbol-488": "815752b30e7be82a375b042e719e57e0cbaca1c0e2d30cea2cfcebb5ef8a26c2",
+  "map-building:nls-symbol-520": "4fc451c8a0578d06a4d60176b4b40c0e782e92afff0116e53a8ac8142c0cbe18"
+ }
+}

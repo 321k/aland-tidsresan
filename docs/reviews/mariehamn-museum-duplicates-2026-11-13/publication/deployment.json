@@ -1,0 +1,16 @@
+{
+ "deployedAt": "2026-11-13",
+ "cloudflareVersion": "5e4fbc44-f238-4bcf-9778-e6a1e3d2c477",
+ "baseRelease": "9f58c3ba-22dc-46cd-99d7-5005f7b94f98",
+ "changedFiles": [
+  "assets/temporal-objects.json.gz",
+  "assets/mariehamn-museum-duplicates.json (new)",
+  "index.html",
+  "temporal-objects.js (cache stamp only)",
+  "object.html (cache stamp only)"
+ ],
+ "uploaded": "5 files, 289 already uploaded",
+ "liveCheck": "294 files compared byte for byte, 0 mismatches",
+ "releaseTests": "508 JS tests, 508 pass",
+ "wrangler": "4.149.0"
+}

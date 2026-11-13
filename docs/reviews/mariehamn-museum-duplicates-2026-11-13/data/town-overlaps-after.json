@@ -1,0 +1,1114 @@
+[
+ {
+  "pair": "building:museum:55 | mh-history:norragatan37b",
+  "years": [
+   1985,
+   2026
+  ],
+  "overlapM2": 28,
+  "fraction": 0.25,
+  "tags": [
+   "-",
+   "aerialReview"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Karl och Hilma Karlssons hus"
+  ]
+ },
+ {
+  "pair": "map-building:nls-symbol-282 | map-building:nls-symbol-292",
+  "years": [
+   1985
+  ],
+  "overlapM2": 32,
+  "fraction": 0.16,
+  "tags": [
+   "printedMapSymbol",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Bebyggelsesymbol på grundkartan",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:museum:2 | map-building:nls-symbol-288",
+  "years": [
+   1985,
+   2026
+  ],
+  "overlapM2": 150,
+  "fraction": 1,
+  "tags": [
+   "-",
+   "printedMapSymbol,aerialReview"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Ålands Lyceum"
+  ]
+ },
+ {
+  "pair": "building:museum:42 | map-building:nls-symbol-392",
+  "years": [
+   1985,
+   2026
+  ],
+  "overlapM2": 67,
+  "fraction": 0.35,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:museum:103 | map-building:nls-symbol-447",
+  "years": [
+   1985,
+   2026
+  ],
+  "overlapM2": 100,
+  "fraction": 0.39,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Norra Esplanadgatan 4"
+  ]
+ },
+ {
+  "pair": "building:museum:116 | map-building:nls-symbol-517",
+  "years": [
+   1985,
+   2026
+  ],
+  "overlapM2": 60,
+  "fraction": 0.22,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Storagatan 23"
+  ]
+ },
+ {
+  "pair": "building:osm:way-274188734 | map-building:nls-symbol-518",
+  "years": [
+   1985,
+   2026
+  ],
+  "overlapM2": 76,
+  "fraction": 0.28,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Storagatan 21",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:museum:119 | map-building:nls-symbol-523",
+  "years": [
+   1985,
+   2026
+  ],
+  "overlapM2": 30,
+  "fraction": 0.16,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Storagatan 19"
+  ]
+ },
+ {
+  "pair": "building:museum:48 | building:osm:way-211215510",
+  "years": [
+   1985,
+   2026
+  ],
+  "overlapM2": 55,
+  "fraction": 0.31,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Västra Esplanadgatan 2"
+  ]
+ },
+ {
+  "pair": "building:osm:way-163035295 | map-building:nls-symbol-060",
+  "years": [
+   2026
+  ],
+  "overlapM2": 609,
+  "fraction": 0.77,
+  "tags": [
+   "-",
+   "printedMapSymbol,symbolMap1968"
+  ],
+  "names": [
+   "Byggnad",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-574888505 | map-building:nls-symbol-227",
+  "years": [
+   2026
+  ],
+  "overlapM2": 86,
+  "fraction": 0.67,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Idrottsgatan 14",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-229021668 | map-building:nls-symbol-321",
+  "years": [
+   2026
+  ],
+  "overlapM2": 117,
+  "fraction": 0.47,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "FPA",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-274182772 | map-building:nls-symbol-340",
+  "years": [
+   2026
+  ],
+  "overlapM2": 153,
+  "fraction": 0.71,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Nygatan",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:museum:104 | map-building:nls-symbol-442",
+  "years": [
+   2026
+  ],
+  "overlapM2": 51,
+  "fraction": 0.23,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Norra Esplanadgatan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-176377062 | map-building:nls-symbol-443",
+  "years": [
+   2026
+  ],
+  "overlapM2": 460,
+  "fraction": 1,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Byggnad",
+   "Norra Esplanadgatan 3"
+  ]
+ },
+ {
+  "pair": "building:osm:way-529232295 | map-building:nls-symbol-518",
+  "years": [
+   2026
+  ],
+  "overlapM2": 8,
+  "fraction": 0.35,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Byggnad",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-496985078 | map-building:nls-symbol-594",
+  "years": [
+   2026
+  ],
+  "overlapM2": 22,
+  "fraction": 0.19,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Byggnad",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-497012843 | map-building:nls-symbol-721",
+  "years": [
+   2026
+  ],
+  "overlapM2": 38,
+  "fraction": 0.35,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Skillnadsgatan 3",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:osm:relation-2315517 | building:osm:way-162298851",
+  "years": [
+   2026
+  ],
+  "overlapM2": 713,
+  "fraction": 1,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Ålands sjömansskola",
+   "Alandica Shipping Academy"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1005882437 | building:osm:way-173634186",
+  "years": [
+   2026
+  ],
+  "overlapM2": 534,
+  "fraction": 0.9,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1005882437 | building:osm:way-173634189",
+  "years": [
+   2026
+  ],
+  "overlapM2": 651,
+  "fraction": 0.94,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1007971355 | building:osm:way-162638056",
+  "years": [
+   2026
+  ],
+  "overlapM2": 28,
+  "fraction": 0.2,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1072833222 | building:osm:way-111858371",
+  "years": [
+   2026
+  ],
+  "overlapM2": 48,
+  "fraction": 0.71,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "RO-NO"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1207294851 | building:osm:way-225753968",
+  "years": [
+   2026
+  ],
+  "overlapM2": 98,
+  "fraction": 1,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1207773985 | building:osm:way-225558262",
+  "years": [
+   2026
+  ],
+  "overlapM2": 46,
+  "fraction": 0.49,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1207773989 | building:osm:way-169332123",
+  "years": [
+   2026
+  ],
+  "overlapM2": 111,
+  "fraction": 0.99,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1207773990 | building:osm:way-169332123",
+  "years": [
+   2026
+  ],
+  "overlapM2": 47,
+  "fraction": 0.85,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1207773993 | building:osm:way-534769287",
+  "years": [
+   2026
+  ],
+  "overlapM2": 39,
+  "fraction": 0.63,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1207773994 | building:osm:way-534769287",
+  "years": [
+   2026
+  ],
+  "overlapM2": 10,
+  "fraction": 0.16,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1273151715 | building:osm:way-496975972",
+  "years": [
+   2026
+  ],
+  "overlapM2": 114,
+  "fraction": 0.8,
+  "tags": [
+   "buildingMapReview",
+   "-"
+  ],
+  "names": [
+   "Framnäsvägen 12",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1273151715 | building:osm:way-496975973",
+  "years": [
+   2026
+  ],
+  "overlapM2": 67,
+  "fraction": 0.83,
+  "tags": [
+   "buildingMapReview",
+   "-"
+  ],
+  "names": [
+   "Framnäsvägen 12",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1280029886 | building:osm:way-574882751",
+  "years": [
+   2026
+  ],
+  "overlapM2": 103,
+  "fraction": 1.01,
+  "tags": [
+   "replacementReview",
+   "replacementReview"
+  ],
+  "names": [
+   "Telegrafen · gallerian",
+   "Telegrafen · förstärkarstationen"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1343189917 | building:osm:way-845003832",
+  "years": [
+   2026
+  ],
+  "overlapM2": 284,
+  "fraction": 0.62,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1343189918 | building:osm:way-845003831",
+  "years": [
+   2026
+  ],
+  "overlapM2": 270,
+  "fraction": 0.61,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1351198363 | building:osm:way-418380874",
+  "years": [
+   2026
+  ],
+  "overlapM2": 126,
+  "fraction": 0.77,
+  "tags": [
+   "buildingMapReview",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1351198363 | building:osm:way-418380881",
+  "years": [
+   2026
+  ],
+  "overlapM2": 94,
+  "fraction": 0.81,
+  "tags": [
+   "buildingMapReview",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1351198364 | building:osm:way-418380868",
+  "years": [
+   2026
+  ],
+  "overlapM2": 93,
+  "fraction": 0.86,
+  "tags": [
+   "buildingMapReview",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1351198364 | building:osm:way-418380882",
+  "years": [
+   2026
+  ],
+  "overlapM2": 125,
+  "fraction": 0.85,
+  "tags": [
+   "buildingMapReview",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-161813619 | building:osm:way-167140768",
+  "years": [
+   2026
+  ],
+  "overlapM2": 80,
+  "fraction": 0.76,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-163035294 | building:osm:way-379390901",
+  "years": [
+   2026
+  ],
+  "overlapM2": 120,
+  "fraction": 0.35,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-165234946 | building:osm:way-165235020",
+  "years": [
+   2026
+  ],
+  "overlapM2": 375,
+  "fraction": 0.87,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Godbyvägen 21c"
+  ]
+ },
+ {
+  "pair": "building:osm:way-165235051 | building:osm:way-165235058",
+  "years": [
+   2026
+  ],
+  "overlapM2": 232,
+  "fraction": 0.8,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Godbyvägen 21A",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-165434948 | building:osm:way-165434989",
+  "years": [
+   2026
+  ],
+  "overlapM2": 85,
+  "fraction": 0.74,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:museum:68 | building:osm:way-165436763",
+  "years": [
+   2026
+  ],
+  "overlapM2": 35,
+  "fraction": 0.31,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-166517425 | building:osm:way-527147988",
+  "years": [
+   2026
+  ],
+  "overlapM2": 17,
+  "fraction": 0.49,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-166517454 | building:osm:way-527147992",
+  "years": [
+   2026
+  ],
+  "overlapM2": 17,
+  "fraction": 0.5,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-166517467 | building:osm:way-527147990",
+  "years": [
+   2026
+  ],
+  "overlapM2": 18,
+  "fraction": 0.53,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-166517470 | building:osm:way-166517486",
+  "years": [
+   2026
+  ],
+  "overlapM2": 49,
+  "fraction": 1.01,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Matrosgatan 8"
+  ]
+ },
+ {
+  "pair": "building:osm:way-166517494 | building:osm:way-527147987",
+  "years": [
+   2026
+  ],
+  "overlapM2": 69,
+  "fraction": 0.63,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Matrosgatan 5"
+  ]
+ },
+ {
+  "pair": "building:osm:way-166517500 | building:osm:way-527147991",
+  "years": [
+   2026
+  ],
+  "overlapM2": 69,
+  "fraction": 0.62,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Matrosgatan 5"
+  ]
+ },
+ {
+  "pair": "building:osm:way-166517500 | building:osm:way-527147992",
+  "years": [
+   2026
+  ],
+  "overlapM2": 13,
+  "fraction": 0.24,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-166517501 | building:osm:way-527147989",
+  "years": [
+   2026
+  ],
+  "overlapM2": 73,
+  "fraction": 0.66,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Matrosgatan 5"
+  ]
+ },
+ {
+  "pair": "building:museum:8 | building:osm:way-166878166",
+  "years": [
+   2026
+  ],
+  "overlapM2": 69,
+  "fraction": 0.2,
+  "tags": [
+   "-",
+   "buildingMapReview"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-173634188 | building:osm:way-173634191",
+  "years": [
+   2026
+  ],
+  "overlapM2": 48,
+  "fraction": 0.42,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-184652287 | building:osm:way-184652296",
+  "years": [
+   2026
+  ],
+  "overlapM2": 270,
+  "fraction": 0.88,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "10"
+  ]
+ },
+ {
+  "pair": "building:osm:way-184652288 | building:osm:way-184652296",
+  "years": [
+   2026
+  ],
+  "overlapM2": 123,
+  "fraction": 0.93,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "10"
+  ]
+ },
+ {
+  "pair": "building:osm:way-225513691 | building:osm:way-369246774",
+  "years": [
+   2026
+  ],
+  "overlapM2": 6,
+  "fraction": 0.19,
+  "tags": [
+   "-",
+   "historicalReview"
+  ],
+  "names": [
+   "Byggnad",
+   "Sjöfararkapellet"
+  ]
+ },
+ {
+  "pair": "building:museum:11 | building:osm:way-274182772",
+  "years": [
+   2026
+  ],
+  "overlapM2": 31,
+  "fraction": 0.18,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Nygatan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-418380873 | building:osm:way-418380883",
+  "years": [
+   2026
+  ],
+  "overlapM2": 121,
+  "fraction": 1,
+  "tags": [
+   "buildingMapReview",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-418380874 | building:osm:way-418380881",
+  "years": [
+   2026
+  ],
+  "overlapM2": 24,
+  "fraction": 0.21,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-453682607 | building:osm:way-453682609",
+  "years": [
+   2026
+  ],
+  "overlapM2": 6,
+  "fraction": 0.32,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-453682608 | building:osm:way-453682609",
+  "years": [
+   2026
+  ],
+  "overlapM2": 6,
+  "fraction": 0.31,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:museum:205 | building:osm:way-496985065",
+  "years": [
+   2026
+  ],
+  "overlapM2": 7,
+  "fraction": 0.18,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:museum:206 | building:osm:way-496985066",
+  "years": [
+   2026
+  ],
+  "overlapM2": 34,
+  "fraction": 0.2,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:museum:56 | building:osm:way-505610365",
+  "years": [
+   2026
+  ],
+  "overlapM2": 24,
+  "fraction": 0.31,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:museum:58 | building:osm:way-505610367",
+  "years": [
+   2026
+  ],
+  "overlapM2": 37,
+  "fraction": 0.67,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:museum:55 | building:osm:way-505610370",
+  "years": [
+   2026
+  ],
+  "overlapM2": 20,
+  "fraction": 0.37,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:museum:105 | building:osm:way-570786567",
+  "years": [
+   2026
+  ],
+  "overlapM2": 73,
+  "fraction": 0.16,
+  "tags": [
+   "-",
+   "buildingMapReview"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Norra Esplanadgatan"
+  ]
+ },
+ {
+  "pair": "building:museum:61 | building:osm:way-584475078",
+  "years": [
+   2026
+  ],
+  "overlapM2": 25,
+  "fraction": 1.01,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ }
+]

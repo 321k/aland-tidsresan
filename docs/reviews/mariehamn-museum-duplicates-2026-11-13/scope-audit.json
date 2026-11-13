@@ -1,0 +1,15 @@
+{
+ "snapshotSha256": "179a532306c9631a7020d6bdad00e75377a40be2a22388d4404ef630d5312235",
+ "catalogueSha256": "88fa14c620c4530f99c82368bd0dc9040fac8d4cc7b62901243e8bbf196173e1",
+ "vsPreviousPublication": {
+  "removedObjects": 15,
+  "removedEqualsMergeDonors": true,
+  "addedObjects": 0,
+  "changedObjects": 44,
+  "changedEqualsKeepsMuseumsAndSuccessors": true,
+  "geometriesUnchanged": true,
+  "cityStagesUnchanged": true,
+  "addedSources": ["review:mariehamn-museum-duplicates"]
+ },
+ "townOverlapPairs": {"before": 104, "after": 69, "museumBefore": 53, "museumAfter": 18, "newPairs": 0}
+}

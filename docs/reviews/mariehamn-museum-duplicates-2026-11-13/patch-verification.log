@@ -1,0 +1,14 @@
+patch -p1 --dry-run < batch.patch against the pre-edit copies: OK
+  (dist/index.html, scripts/build_temporal_objects.py and tests/test_reported_buildings_17_18.py start from exactly
+   the states the 1968 symbol review's batch.patch produces; tests/temporal-objects.test.cjs from the state the 1942
+   frame review's batch.patch produces; tests/city-buildings.test.cjs from its working-tree state before this batch,
+   which carries earlier uncommitted work)
+applied forward; result identical to the working-tree files (diff -r): OK, except the generated loadingPreview bins
+  and startup-loader cache-stamp line of dist/index.html, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+4217ffbca67475324c0dfb2375e5cd011ee1a7308cd24474a8eafab96a86e3e0  batch.patch
+post-patch 040c7836cd56548363bde653184a0af9746b52c8629263ea790cef631f0a46ec  dist/index.html
+post-patch 239c041dd81926f02bf3120c5c242dabacd39ae2cd667c3093b91765d0191530  scripts/build_temporal_objects.py
+post-patch 9636fc15f46c9f392237e31f6c8755ab3d261bf57b97d9f0d2f35a3562caafc7  tests/city-buildings.test.cjs
+post-patch 1e7b85cdd7087e32ab137849ff1dc4ccdce9699eb2343a9fb9855c73dbccb25a  tests/temporal-objects.test.cjs
+post-patch cca3f93ae72b7c3470084c5c04e09611ed41a4fd0acd74d00a4c4a30eef9df11  tests/test_reported_buildings_17_18.py

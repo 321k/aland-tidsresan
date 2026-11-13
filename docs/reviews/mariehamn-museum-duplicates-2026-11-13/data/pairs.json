@@ -1,0 +1,1203 @@
+[
+ {
+  "museum": "building:museum:55",
+  "later": "mh-history:norragatan37b",
+  "dx": 11.2,
+  "dy": 2.5,
+  "am": 263,
+  "al": 109,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1913,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "aerialReview"
+  ]
+ },
+ {
+  "museum": "building:museum:0",
+  "later": "map-building:nls-symbol-288",
+  "dx": 3.6,
+  "dy": 36.6,
+  "am": 689,
+  "al": 3425,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1942,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "aerialReview"
+  ]
+ },
+ {
+  "museum": "building:museum:1",
+  "later": "map-building:nls-symbol-288",
+  "dx": 7.5,
+  "dy": 2.3,
+  "am": 125,
+  "al": 3425,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1942,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "aerialReview"
+  ]
+ },
+ {
+  "museum": "building:museum:2",
+  "later": "map-building:nls-symbol-288",
+  "dx": -6.0,
+  "dy": 8.4,
+  "am": 150,
+  "al": 3425,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1942,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "aerialReview"
+  ]
+ },
+ {
+  "museum": "building:museum:17",
+  "later": "map-building:nls-symbol-326",
+  "dx": 22.0,
+  "dy": 4.3,
+  "am": 146,
+  "al": 855,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "positionReview"
+  ]
+ },
+ {
+  "museum": "building:museum:14",
+  "later": "map-building:nls-symbol-365",
+  "dx": 15.9,
+  "dy": -20.1,
+  "am": 200,
+  "al": 1237,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:15",
+  "later": "map-building:nls-symbol-365",
+  "dx": -5.3,
+  "dy": -12.3,
+  "am": 234,
+  "al": 1237,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:3",
+  "later": "map-building:nls-symbol-373",
+  "dx": 13.9,
+  "dy": -7.4,
+  "am": 420,
+  "al": 408,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:3",
+  "later": "map-building:nls-symbol-378",
+  "dx": -15.5,
+  "dy": -3.1,
+  "am": 420,
+  "al": 134,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "continuityReview"
+  ]
+ },
+ {
+  "museum": "building:museum:44",
+  "later": "map-building:nls-symbol-390",
+  "dx": 10.6,
+  "dy": -8.7,
+  "am": 220,
+  "al": 414,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:45",
+  "later": "map-building:nls-symbol-390",
+  "dx": 9.0,
+  "dy": 8.1,
+  "am": 225,
+  "al": 414,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:42",
+  "later": "map-building:nls-symbol-392",
+  "dx": -8.0,
+  "dy": -6.6,
+  "am": 191,
+  "al": 473,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:83",
+  "later": "map-building:nls-symbol-409",
+  "dx": -0.5,
+  "dy": -5.4,
+  "am": 180,
+  "al": 612,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1920,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:101",
+  "later": "map-building:nls-symbol-410",
+  "dx": -3.6,
+  "dy": 18.0,
+  "am": 259,
+  "al": 414,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:81",
+  "later": "map-building:nls-symbol-419",
+  "dx": -1.4,
+  "dy": -25.3,
+  "am": 276,
+  "al": 1385,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:99",
+  "later": "map-building:nls-symbol-429",
+  "dx": -14.1,
+  "dy": 2.0,
+  "am": 248,
+  "al": 214,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:71",
+  "later": "map-building:nls-symbol-433",
+  "dx": -10.3,
+  "dy": 12.8,
+  "am": 270,
+  "al": 509,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:66",
+  "later": "map-building:nls-symbol-436",
+  "dx": 13.5,
+  "dy": 1.7,
+  "am": 210,
+  "al": 274,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:51",
+  "later": "map-building:nls-symbol-445",
+  "dx": 12.3,
+  "dy": 1.9,
+  "am": 240,
+  "al": 201,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:103",
+  "later": "map-building:nls-symbol-447",
+  "dx": -4.7,
+  "dy": -20.7,
+  "am": 255,
+  "al": 685,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:49",
+  "later": "map-building:nls-symbol-448",
+  "dx": 27.1,
+  "dy": -12.9,
+  "am": 238,
+  "al": 1403,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "relationships"
+  ]
+ },
+ {
+  "museum": "building:museum:53",
+  "later": "map-building:nls-symbol-448",
+  "dx": -20.7,
+  "dy": 17.5,
+  "am": 220,
+  "al": 1403,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "relationships"
+  ]
+ },
+ {
+  "museum": "building:museum:63",
+  "later": "map-building:nls-symbol-470",
+  "dx": 10.7,
+  "dy": 1.2,
+  "am": 228,
+  "al": 246,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1920,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:75",
+  "later": "map-building:nls-symbol-477",
+  "dx": 4.5,
+  "dy": -8.5,
+  "am": 263,
+  "al": 315,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:60",
+  "later": "map-building:nls-symbol-485",
+  "dx": 10.3,
+  "dy": -5.9,
+  "am": 390,
+  "al": 281,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:62",
+  "later": "map-building:nls-symbol-485",
+  "dx": -14.9,
+  "dy": -7.3,
+  "am": 385,
+  "al": 281,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:62",
+  "later": "map-building:nls-symbol-486",
+  "dx": 12.8,
+  "dy": -6.6,
+  "am": 385,
+  "al": 166,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "continuityReview"
+  ]
+ },
+ {
+  "museum": "building:museum:151",
+  "later": "map-building:nls-symbol-488",
+  "dx": -4.5,
+  "dy": -11.3,
+  "am": 244,
+  "al": 419,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:116",
+  "later": "map-building:nls-symbol-517",
+  "dx": 4.1,
+  "dy": 15.0,
+  "am": 360,
+  "al": 276,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:144",
+  "later": "map-building:nls-symbol-520",
+  "dx": 12.9,
+  "dy": -0.2,
+  "am": 260,
+  "al": 200,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration",
+   "streetAlignmentReview"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:119",
+  "later": "map-building:nls-symbol-523",
+  "dx": 12.8,
+  "dy": 0.4,
+  "am": 180,
+  "al": 233,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:24",
+  "later": "building:osm:way-165529209",
+  "dx": 22.0,
+  "dy": 13.1,
+  "am": 275,
+  "al": 966,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1975,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "relationships",
+   "replacementReview"
+  ]
+ },
+ {
+  "museum": "building:museum:48",
+  "later": "building:osm:way-211215510",
+  "dx": 10.2,
+  "dy": 1.8,
+  "am": 240,
+  "al": 177,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "relationships"
+  ]
+ },
+ {
+  "museum": "building:museum:94",
+  "later": "building:osm:way-176377064",
+  "dx": -6.6,
+  "dy": -2.4,
+  "am": 211,
+  "al": 367,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "relationships"
+  ]
+ },
+ {
+  "museum": "building:museum:104",
+  "later": "map-building:nls-symbol-442",
+  "dx": -13.4,
+  "dy": -0.2,
+  "am": 225,
+  "al": 473,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1983,
+  "lKind": "symbol",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:24",
+  "later": "building:osm:way-1280029886",
+  "dx": 22.2,
+  "dy": -21.2,
+  "am": 275,
+  "al": 2429,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "followupReviews",
+   "overlapReview",
+   "relationships",
+   "replacementReview"
+  ]
+ },
+ {
+  "museum": "building:museum:68",
+  "later": "building:osm:way-165436763",
+  "dx": 12.8,
+  "dy": 3.3,
+  "am": 203,
+  "al": 116,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2012,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:8",
+  "later": "building:osm:way-166878166",
+  "dx": -15.9,
+  "dy": -1.7,
+  "am": 340,
+  "al": 336,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1995,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "buildingMapReview"
+  ]
+ },
+ {
+  "museum": "building:museum:11",
+  "later": "building:osm:way-274182772",
+  "dx": -14.3,
+  "dy": 0.7,
+  "am": 170,
+  "al": 433,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:72",
+  "later": "building:osm:way-274182776",
+  "dx": 6.9,
+  "dy": -7.9,
+  "am": 578,
+  "al": 501,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:111",
+  "later": "building:osm:way-274188734",
+  "dx": 2.7,
+  "dy": -11.6,
+  "am": 151,
+  "al": 270,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:79",
+  "later": "building:osm:way-415215787",
+  "dx": -5.8,
+  "dy": -12.8,
+  "am": 303,
+  "al": 312,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:80",
+  "later": "building:osm:way-415215793",
+  "dx": -3.4,
+  "dy": -32.4,
+  "am": 341,
+  "al": 1068,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:88",
+  "later": "building:osm:way-415215793",
+  "dx": -4.6,
+  "dy": 15.9,
+  "am": 375,
+  "al": 1068,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:205",
+  "later": "building:osm:way-496985065",
+  "dx": -9.7,
+  "dy": 6.5,
+  "am": 245,
+  "al": 36,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:206",
+  "later": "building:osm:way-496985066",
+  "dx": -0.7,
+  "dy": -10.7,
+  "am": 244,
+  "al": 167,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:56",
+  "later": "building:osm:way-505610365",
+  "dx": 3.5,
+  "dy": -9.2,
+  "am": 195,
+  "al": 76,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:58",
+  "later": "building:osm:way-505610367",
+  "dx": 11.1,
+  "dy": -3.4,
+  "am": 385,
+  "al": 55,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:55",
+  "later": "building:osm:way-505610370",
+  "dx": -7.9,
+  "dy": -6.4,
+  "am": 263,
+  "al": 54,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:7",
+  "later": "building:osm:way-523420568",
+  "dx": -12.4,
+  "dy": -5.6,
+  "am": 248,
+  "al": 288,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:105",
+  "later": "building:osm:way-570786567",
+  "dx": 1.8,
+  "dy": -11.3,
+  "am": 553,
+  "al": 465,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 1995,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": [
+   "buildingMapReview"
+  ]
+ },
+ {
+  "museum": "building:museum:80",
+  "later": "building:osm:way-570786570",
+  "dx": 5.9,
+  "dy": 10.7,
+  "am": 341,
+  "al": 22,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ },
+ {
+  "museum": "building:museum:61",
+  "later": "building:osm:way-584475078",
+  "dx": -3.7,
+  "dy": -2.7,
+  "am": 203,
+  "al": 25,
+  "mStates": [
+   [
+    "standing",
+    1920,
+    null
+   ]
+  ],
+  "lStart": 2021,
+  "lKind": "osm",
+  "mKeys": [
+   "provisional",
+   "sourceMigration"
+  ],
+  "lKeys": []
+ }
+]

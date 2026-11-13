@@ -1,0 +1,269 @@
+[
+ {
+  "pair": "building:museum:75 | map-building:nls-symbol-477",
+  "years": [
+   1983,
+   1985,
+   1990,
+   1995,
+   2000,
+   2010,
+   2014,
+   2018,
+   2021,
+   2026
+  ],
+  "overlapM2": 96,
+  "fraction": 0.36,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:museum:62 | map-building:nls-symbol-485",
+  "years": [
+   1983,
+   1985,
+   1990,
+   1995,
+   2000,
+   2010,
+   2014,
+   2018,
+   2021,
+   2026
+  ],
+  "overlapM2": 63,
+  "fraction": 0.22,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:museum:62 | map-building:nls-symbol-486",
+  "years": [
+   1983,
+   1985,
+   1990,
+   1995,
+   2000,
+   2010,
+   2014,
+   2018,
+   2021,
+   2026
+  ],
+  "overlapM2": 41,
+  "fraction": 0.25,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Norra Esplanadgatan"
+  ]
+ },
+ {
+  "pair": "building:museum:151 | map-building:nls-symbol-488",
+  "years": [
+   1983,
+   1985,
+   1990,
+   1995,
+   2000,
+   2010,
+   2014,
+   2018,
+   2021,
+   2026
+  ],
+  "overlapM2": 46,
+  "fraction": 0.19,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:museum:116 | map-building:nls-symbol-517",
+  "years": [
+   1983,
+   1985,
+   1990,
+   1995,
+   2000,
+   2010,
+   2014,
+   2018,
+   2021,
+   2026
+  ],
+  "overlapM2": 60,
+  "fraction": 0.22,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Storagatan 23"
+  ]
+ },
+ {
+  "pair": "building:museum:119 | map-building:nls-symbol-523",
+  "years": [
+   1983,
+   1985,
+   1990,
+   1995,
+   2000,
+   2010,
+   2014,
+   2018,
+   2021,
+   2026
+  ],
+  "overlapM2": 30,
+  "fraction": 0.16,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Storagatan 19"
+  ]
+ },
+ {
+  "pair": "building:osm:way-274188734 | map-building:nls-symbol-518",
+  "years": [
+   2021,
+   2026
+  ],
+  "overlapM2": 76,
+  "fraction": 0.28,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Storagatan 21",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-529232295 | map-building:nls-symbol-518",
+  "years": [
+   2021,
+   2026
+  ],
+  "overlapM2": 8,
+  "fraction": 0.35,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Byggnad",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:osm:way-496985078 | map-building:nls-symbol-594",
+  "years": [
+   2021,
+   2026
+  ],
+  "overlapM2": 22,
+  "fraction": 0.19,
+  "tags": [
+   "-",
+   "printedMapSymbol"
+  ],
+  "names": [
+   "Byggnad",
+   "Bebyggelsesymbol på grundkartan"
+  ]
+ },
+ {
+  "pair": "building:museum:72 | building:osm:way-274182776",
+  "years": [
+   2021,
+   2026
+  ],
+  "overlapM2": 171,
+  "fraction": 0.34,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:museum:111 | building:osm:way-274188734",
+  "years": [
+   2021,
+   2026
+  ],
+  "overlapM2": 30,
+  "fraction": 0.2,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Hus på museikartan",
+   "Storagatan 21"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1207294851 | building:osm:way-225753968",
+  "years": [
+   2026
+  ],
+  "overlapM2": 98,
+  "fraction": 1,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ },
+ {
+  "pair": "building:osm:way-1207773985 | building:osm:way-225558262",
+  "years": [
+   2026
+  ],
+  "overlapM2": 46,
+  "fraction": 0.49,
+  "tags": [
+   "-",
+   "-"
+  ],
+  "names": [
+   "Byggnad",
+   "Byggnad"
+  ]
+ }
+]

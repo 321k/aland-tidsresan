@@ -2,6 +2,7 @@ import copy, gzip, json, sys, unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from mariehamn_symbols_1968 import apply_symbols_1968
+from mariehamn_museum_duplicates import apply_museum_duplicates
 
 REVIEW = 'data/mariehamn-symbols-1968.json'
 
@@ -32,9 +33,11 @@ class Symbols1968Tests(unittest.TestCase):
 
     def test_review_applies_once_and_matches_the_build(self):
         catalog = copy.deepcopy(self.pristine); apply_symbols_1968(self.read, catalog)
+        # The museum duplicate review runs after this step.
+        once = copy.deepcopy(catalog); apply_museum_duplicates(self.read, catalog)
         self.assertEqual(json.loads(json.dumps(catalog, ensure_ascii=False))['objects'], self.built['objects'])
         with self.assertRaises(ValueError):
-            apply_symbols_1968(self.read, catalog)
+            apply_symbols_1968(self.read, once)
 
     def test_changed_or_repeated_object_rejected(self):
         self.run_with(lambda r: r['decisions'][0].update(input='changed'))

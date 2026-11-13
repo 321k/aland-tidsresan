@@ -11,7 +11,7 @@ test('125 printed-map symbol houses in the centre are shown from the 1968 editio
  assert.equal(review.decisions.length,125);assert.equal(review.hatched.length,86);assert.equal(Object.keys(review.visualRejections).length,33);
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));assert.ok(catalog.sources.some(s=>s.id===review.sheet1968));
  assert.deepEqual(catalog.objects.filter(o=>o.symbolMap1968).map(o=>o.id).sort(),review.decisions.map(d=>d.objectId).sort());
- for(const id of [...review.hatched,...Object.keys(review.visualRejections)]){const o=model.objects.get(id);assert.ok(o.printedMapSymbol&&!o.symbolMap1968,id);assert.ok(o.states[0].from>1968,id)}
+ for(const id of [...review.hatched,...Object.keys(review.visualRejections)]){const o=model.objects.get(id);assert.ok(o.printedMapSymbol&&!o.symbolMap1968,id);assert.ok(o.states[0].from>1968||o.museumDuplicateReview?.decision==='merge',id)}
  for(const r of Object.values(review.visualRejections))assert.match(r.reason,/^(ambiguous-overlap|hatched-block|outline-empty|lettering):/);
 });
 

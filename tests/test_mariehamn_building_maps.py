@@ -4,6 +4,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from mariehamn_building_maps import apply_building_maps
 from mariehamn_frame_1942 import apply_frame_1942
 from mariehamn_symbols_1968 import apply_symbols_1968
+from mariehamn_museum_duplicates import apply_museum_duplicates
 
 REVIEW = 'data/mariehamn-building-maps.json'
 
@@ -39,6 +40,8 @@ class BuildingMapTests(unittest.TestCase):
         frame = copy.deepcopy(catalog); apply_frame_1942(self.read, frame)
         # The 1968 symbol review then changes 125 printed-map symbol objects.
         apply_symbols_1968(self.read, frame)
+        # And the museum duplicate review merges or ends museum-map houses.
+        apply_museum_duplicates(self.read, frame)
         self.assertEqual(json.loads(json.dumps(frame, ensure_ascii=False))['objects'], self.built['objects'])
         with self.assertRaises(ValueError):
             apply_building_maps(self.read, catalog)
