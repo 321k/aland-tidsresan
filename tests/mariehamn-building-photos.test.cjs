@@ -7,9 +7,9 @@ for(const name of ['temporal-objects','timeline-model','city-buildings','city-gr
 vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=CityGrid;',box);
 const model=new box.Model(catalog),photos=new Map(read('data/mariehamn-aerial-review.json').sources.map(s=>[s.year,s]));
 
-test('Ytternäs buildings with no map symbol are dated from the 1991–2015 photos',()=>{
- assert.equal(review.decisions.length,272);assert.deepEqual(review.totals.byFirstYear,{1991:92,1999:26,2007:106,2015:48});
- assert.deepEqual(review.totals.deferred,{'below-size':1,'map-ink':13,'no-photo-evidence':261,'not-earlier':2});
+test('Ytternäs and Övernäs buildings with no map symbol are dated from the 1991–2015 photos',()=>{
+ assert.equal(review.decisions.length,351);assert.deepEqual(review.totals.byFirstYear,{1991:109,1999:29,2007:116,2015:97});
+ assert.deepEqual(review.totals.deferred,{'below-size':1,'map-ink':43,'no-photo-evidence':323,'not-earlier':4});
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  const maps=read('data/mariehamn-building-maps.json');
  for(const d of review.decisions){assert.ok(maps.deferred.absent.includes(d.objectId),d.objectId);assert.ok(d.areaSquareMeters>=review.minAreaSquareMeters)}

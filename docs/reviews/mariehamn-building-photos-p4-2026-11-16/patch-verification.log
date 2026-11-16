@@ -1,0 +1,9 @@
+patch -p1 --dry-run < batch.patch against the pre-edit copies: OK
+  (dist/index.html starts from exactly the p9 publication's index.html, Cloudflare version 4ab78bca;
+   tests/temporal-objects.test.cjs from the state the p9 review's batch.patch produces)
+applied forward; result identical to the intended files (diff -r): OK, except the generated loadingPreview bins
+  and startup-loader cache-stamp line of dist/index.html, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+4d4303bdf86f1e20b449b9ecd1ae2483b3b44a6bb4ac892a41efa54d82a432a6  batch.patch
+post-patch 899dce138dc665e5ed8b4e770560b81a9842f52f408d2291f220b341a579bd10  dist/index.html
+post-patch 43ccaa594ce5d3a691fd63c87f93444124fdb0d23dcb942b53a8c3ae4fbb5de8  tests/temporal-objects.test.cjs

@@ -1,0 +1,9 @@
+ℹ tests 517
+ℹ suites 0
+ℹ pass 516
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79416.713375
+after the test fix: tests/temporal-objects.test.cjs 53 of 53 pass (the one failing test in the run above)
