@@ -3,6 +3,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from mariehamn_approaches_1942 import apply_approaches_1942
 from mariehamn_frame_1942 import apply_frame_1942
+from mariehamn_shore_road import apply_shore_road
 
 REVIEW = 'data/mariehamn-approaches-1942.json'
 
@@ -32,7 +33,7 @@ class Approaches1942Tests(unittest.TestCase):
     def test_review_applies_once_and_matches_the_build(self):
         catalog = copy.deepcopy(self.pristine); apply_approaches_1942(self.read, catalog)
         # The later 1942 frame review also edits the 1942 stages; apply it to compare with the build.
-        frame = copy.deepcopy(catalog); apply_frame_1942(self.read, frame)
+        frame = copy.deepcopy(catalog); apply_frame_1942(self.read, frame); apply_shore_road(self.read, frame)
         self.assertEqual(json.loads(json.dumps(frame, ensure_ascii=False))['cityStages'], self.built['cityStages'])
         ids = {o['id'] for o in catalog['objects'] if o.get('approach1942')}
         built = {o['id']: o for o in self.built['objects'] if o['id'] in ids}

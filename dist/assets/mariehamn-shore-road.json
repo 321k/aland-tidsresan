@@ -1,0 +1,73 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-16",
+ "source": {
+  "id": "review:mariehamn-shore-road",
+  "title": "Strandvägen vid Västerhamn · granskad mot flygfoton och museikartan",
+  "url": "assets/mariehamn-shore-road.json"
+ },
+ "aerialSourceId": "mariehamn-aerial-1942",
+ "photoYear": 1942,
+ "photoObservedAt": "1942-07-25",
+ "drawInStages": [
+  "city-reconstruction-1920",
+  "city-reconstruction-1927",
+  "city-reconstruction-1942",
+  "city-reconstruction-1952"
+ ],
+ "basis": "Vägen längs Västerhamns strand syns på flygfotona 1942, 1952 och 1962 men saknade objekt före grundkartan 1968. Dagens Sjöpromenaden ligger i samma läge och visas nu med sin inmätta mittlinje från museets 1920-talsbild. Den långa norra delen visas före 1968 bara söder om latitud 60,1004, där fotot 1942 visar vägen. Museets och fotots år är belägg, inte byggår.",
+ "museum": {
+  "datasetId": "city-1920",
+  "featureId": "city-1920-street-36",
+  "traceId": "city-1920-trace-10",
+  "inputHash": "de275002cec531852143eb982d58c908962ecca7d5c020d97e024b5e84cfe80d",
+  "year": 1920,
+  "maxDistanceMeters": 40,
+  "stageFeatures": [
+   {
+    "stageId": "city-reconstruction-1920",
+    "featureId": "city-reconstruction-1920:city-1920-street-36",
+    "inputHash": "83317f2e157c3282bcfec9015c4ec99104a20b94a111849306be4b4c9df93140"
+   },
+   {
+    "stageId": "city-reconstruction-1927",
+    "featureId": "city-reconstruction-1927:city-1920-street-36",
+    "inputHash": "2cf289c1883e94b59a6ff9865a13b646d70c1ccec6fb27d8f638a1495f07c3ff"
+   }
+  ],
+  "basis": "Museets 1920-talsbild visar \"Västra strandens gata\" längs västra stranden. Avritningen är grov: den norra änden ligger upp till 40 meter ute i vattnet och den södra delen fortsätter förbi hamnen mot Lotsberget, där flygfotot 1942 inte visar någon väg. Den tolkas som samma strandväg som fotot 1942 visar och ersätts i världskartan av Sjöpromenadens inmätta mittlinje; originalspåret bevaras som källbelägg. 1920 är visningsår för årtiondet, inte öppningsår."
+ },
+ "members": [
+  {
+   "objectId": "road:mariehamn:major:way-77077157",
+   "inputHash": "1e203ea5ca309abe2b4bbb4a941f21a1ce193031643aeb8dfb82eecd9fd4ecba",
+   "originalFrom": 1968,
+   "canonicalRange": [
+    0.685,
+    1
+   ],
+   "cutLatitude": 60.1004,
+   "note": "Flygfotot 25 juli 1942 visar en väg längs västra stranden från hamnen norrut förbi badstranden och båthusen, i samma läge som dagens Sjöpromenaden; fotona 1952 och 1962 visar samma väg. Norr om latitud 60,1004 går den moderna vägen längs en klippig strand där fotona 1942 och 1952 inte visar någon väg; den delen behåller sitt första belägg 1968."
+  },
+  {
+   "objectId": "road:mariehamn:major:way-1415607776",
+   "inputHash": "91a71bc0cd70086a03bf9cd14065845e436210ee5841204b82ebed5cd8107c2e",
+   "originalFrom": 1968,
+   "canonicalRange": [
+    0,
+    1
+   ],
+   "note": "Flygfotot 25 juli 1942 visar en väg längs västra stranden från hamnen norrut förbi badstranden och båthusen, i samma läge som dagens Sjöpromenaden; fotona 1952 och 1962 visar samma väg."
+  },
+  {
+   "objectId": "road:mariehamn:street-pass5:sjopromenaden-harbour",
+   "inputHash": "b8cfd73d4fb8e26e119c944a7be3f9d21b5a45696d90bc5d686e51d196818b7c",
+   "originalFrom": 1968,
+   "canonicalRange": [
+    0,
+    1
+   ],
+   "note": "Flygfotot 25 juli 1942 visar en väg längs västra stranden från hamnen norrut förbi badstranden och båthusen, i samma läge som dagens Sjöpromenaden; fotona 1952 och 1962 visar samma väg."
+  }
+ ]
+}

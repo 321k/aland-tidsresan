@@ -32,7 +32,10 @@ class StreetPass5Tests(unittest.TestCase):
         self.assertEqual(len(catalog['objects']) - len(self.base['objects']), 26)
         built = {o['id']: o for o in json.loads(json.dumps(catalog, ensure_ascii=False))['objects'] if o['id'].startswith(PREFIX)}
         published = {o['id']: o for o in self.read('dist/assets/temporal-objects.json.gz')['objects'] if o['id'].startswith(PREFIX)}
-        self.assertEqual(sorted(i for i in set(built) | set(published) if built.get(i) != published.get(i)), [])
+        # The later shore road review adds earlier evidence to the harbour part of Sjöpromenaden only.
+        later = {i for i, o in published.items() if o.get('shoreRoadReview')}
+        self.assertEqual(later, {PREFIX + 'sjopromenaden-harbour'})
+        self.assertEqual(sorted(i for i in set(built) | set(published) if i not in later and built.get(i) != published.get(i)), [])
         with self.assertRaises(ValueError):
             apply_street_pass5(self.read, catalog)
 

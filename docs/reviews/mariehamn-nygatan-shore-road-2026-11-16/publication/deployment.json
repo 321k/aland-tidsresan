@@ -1,0 +1,10 @@
+{
+ "deployedAt": "2026-11-16",
+ "cloudflareVersion": "499222f1-b687-4c65-9649-a609092691e9",
+ "baseRelease": "a7d16adc-73c1-4e01-97dc-1c488a0afa94",
+ "changedFiles": ["assets/temporal-objects.json.gz", "assets/mariehamn-shore-road.json (new)", "assets/building-issue-review.json",
+                  "assets/mariehamn-building-photos.json (the p6 Södra batch, deployed together)", "index.html",
+                  "temporal-objects.js (cache stamp only)", "object.html (cache stamp only)"],
+ "liveCheck": "297 files compared byte for byte; assets/building-issue-review.json first matched on a recheck (edge cache), then 0 mismatches",
+ "wrangler": "4.149.0"
+}

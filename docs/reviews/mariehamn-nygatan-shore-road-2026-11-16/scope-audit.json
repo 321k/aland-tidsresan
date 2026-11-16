@@ -1,0 +1,11 @@
+{
+ "against": "the catalogue built immediately before this change (same working tree)",
+ "changedObjects": ["road:nygatan", "road:mariehamn:major:way-77077157", "road:mariehamn:major:way-1415607776",
+                    "road:mariehamn:street-pass5:sjopromenaden-harbour"],
+ "addedGeometries": ["geometry:shore-road:museum-1920", "geometry:shore-road:way-77077157:early", "one content-addressed Nygatan museum-duplicate trace"],
+ "addedSources": ["review:mariehamn-shore-road"],
+ "changedStages": {"city-reconstruction-1920": "street-36 and street-39 removed, 3 shore-road features added, blocks 27 -> 25",
+                   "city-reconstruction-1927": "street-36 and street-39 removed, 3 shore-road features added, blocks 26 -> 24",
+                   "city-reconstruction-1942": "3 shore-road features added", "city-reconstruction-1952": "3 shore-road features added"},
+ "snapshotsRegenerated": "seven review-cache snapshots taken before later steps were regenerated from this build; each differed from its old copy only in road:nygatan, the three Sjöpromenaden objects, the 1920–1952 stages and buildings of batches added after the old snapshot. The old copies are kept as *.pre-streets.json.gz."
+}

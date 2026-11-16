@@ -1,0 +1,6 @@
+patch -p1 < batch.patch applied to the pre-edit copies: OK; result identical to the intended files (diff -r): OK
+  (scripts/build_temporal_objects.py, data/nygatan-review.json and data/building-issue-review.json start from the working
+   tree with this change reverted; dist/index.html from the p7 publication, Cloudflare version a7d16adc, and carries the
+   card block only, which also contains the Södra card of the p6 batch deployed together with this change)
+patch -p1 -R --dry-run from the working tree: OK
+09488e244cacd00c86ea3d44891e51a984b7a4af9eeec083f44c44870f3a5bdb  batch.patch

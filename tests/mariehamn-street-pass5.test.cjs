@@ -20,7 +20,8 @@ test('pass totals are reported once by first edition; junction pieces add nothin
 
 test('each street starts at its first reviewed edition and keeps one stable geometry to 2026',()=>{
  for(const d of review.decisions){
-  assert.equal(at(d.id,d.firstYear-1).geometry,null,d.id);assert.equal(at(d.id,d.firstYear).state,'open',d.id);
+  const early=model.objects.get(d.id).shoreRoadReview?1920:d.firstYear; /* the shore road review adds earlier photo and museum evidence */
+  assert.equal(at(d.id,early-1).geometry,null,d.id);assert.equal(at(d.id,d.firstYear).state,'open',d.id);
   assert.ok(d.observations.filter(o=>o.year<d.firstYear).every(o=>o.outcome!=='present'),d.id);
   for(const o of d.observations){const r=at(d.id,o.year);assert.equal(Boolean(r.geometry),o.outcome==='present',`${d.id} ${o.year}`);
    const e=r.object.evidence.find(e=>e.id===`${d.id}:map-${o.year}`);assert.equal(e.outcome,o.outcome);assert.equal(e.coverage,o.coverage);assert.equal(e.interpretation,true)}

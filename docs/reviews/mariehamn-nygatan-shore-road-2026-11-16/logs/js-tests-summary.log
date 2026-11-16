@@ -1,0 +1,9 @@
+ℹ tests 521
+ℹ suites 0
+ℹ pass 519
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79201.308125
+the two failing tests above (mariehamn-major-roads, mariehamn-street-pass5) were then updated for the shore road's earlier start: 11 of 11 pass

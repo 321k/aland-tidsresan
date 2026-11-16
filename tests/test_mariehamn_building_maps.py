@@ -3,6 +3,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from mariehamn_building_maps import apply_building_maps
 from mariehamn_frame_1942 import apply_frame_1942
+from mariehamn_shore_road import apply_shore_road
 from mariehamn_symbols_1968 import apply_symbols_1968
 from mariehamn_museum_duplicates import apply_museum_duplicates
 
@@ -38,6 +39,8 @@ class BuildingMapTests(unittest.TestCase):
         catalog = copy.deepcopy(self.pristine); apply_building_maps(self.read, catalog)
         # The later 1942 frame review changes 43 road objects; apply it to compare with the build.
         frame = copy.deepcopy(catalog); apply_frame_1942(self.read, frame)
+        # The shore road review (Sjöpromenaden before 1968) runs right after it.
+        apply_shore_road(self.read, frame)
         # The 1968 symbol review then changes 125 printed-map symbol objects.
         apply_symbols_1968(self.read, frame)
         # And the museum duplicate review merges or ends museum-map houses.
