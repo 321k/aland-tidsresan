@@ -31,7 +31,8 @@ only from their first OpenStreetMap year (2012–2026). The town's orthophotos g
 | p9 | Västra Ytternäs (building-map batch b9) | 112 | 47 | 9 | 13 | 43 | 193: 187 no photo evidence or under 40 m², 4 map ink, 2 start not after the first photo year |
 | p4 | Övernäs (building-map batch b4) | 79 | 17 | 3 | 10 | 49 | 94: 62 no photo evidence or under 40 m², 30 map ink, 2 start not after the first photo year |
 | p3 | blocks south of Norrböle and the marina (building-map batch b3) | 37 | 12 | 0 | 16 | 9 | 81: 62 no photo evidence or under 40 m², 5 map ink, 14 dated by an earlier curated review |
-| total | | 388 | 121 | 29 | 132 | 106 | 452 |
+| p7 | Västernäs and the northern centre (building-map batch b7) | 77 | 35 | 5 | 28 | 9 | 86: 77 no photo evidence, unclear, overlapping outlines or under 40 m², 8 map ink, 1 dated by an earlier curated review |
+| total | | 465 | 156 | 34 | 160 | 115 | 538 |
 
 Most of Östra Ytternäs was built between the 1999 and 2007 photos; the 1991 dates are mostly garages and terraced
 rows that the map matching missed.
@@ -59,4 +60,7 @@ is under 40 m².
 Tests: `tests/mariehamn-building-photos.test.cjs`, `tests/test_mariehamn_building_photos.py` (pre-step snapshot
 `photos-before.json.gz` in the review cache). The scope audit finds exactly the 160 buildings changed (p10), one new
 source and no geometry or city-stage changes; for p9, against the p10 release, exactly the 112 p9 buildings changed
-and nothing else; for p4, against the p9 release, exactly the 79 p4 buildings; for p3, against the p4 release, exactly the 37 p3 buildings.
+and nothing else; for p4, against the p9 release, exactly the 79 p4 buildings; for p3, against the p4 release, exactly the 37 p3 buildings; for p7, against the p3 release, exactly the 77 p7 buildings.
+
+Open in p7: `building:osm:relation-2315517` and `building:osm:way-162298851` are two objects for the same 713 m²
+building (identical outlines, starts 2012 and 2025). Both are left undated here; they need a duplicate review.

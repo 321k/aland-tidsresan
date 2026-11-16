@@ -1,0 +1,6 @@
+patch -p1 < batch.patch applied to the p3 publication's index.html (Cloudflare version aa32b9ae): OK
+applied forward; result identical to the intended file (diff -r): OK, except the generated loadingPreview bins
+  and startup-loader cache-stamp line of dist/index.html, which are left out
+patch -p1 -R --dry-run from the working tree: OK
+4f474507ca0415e2e0c16487c5e8a90478e69679445472abe4f544752bd28756  batch.patch
+post-patch 23934def36794d00dac0db04cf0c8ed38f9940b850511188e18c39edeaed162c  dist/index.html
