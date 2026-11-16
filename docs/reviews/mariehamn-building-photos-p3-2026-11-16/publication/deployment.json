@@ -1,0 +1,9 @@
+{
+ "deployedAt": "2026-11-16",
+ "cloudflareVersion": "aa32b9ae-dd2b-4447-8f76-443b0af8a3fd",
+ "baseRelease": "a1c55f91-b4d5-4444-b0a5-74dad8410e25",
+ "changedFiles": ["assets/temporal-objects.json.gz", "assets/mariehamn-building-photos.json", "index.html",
+                  "temporal-objects.js (cache stamp only)", "object.html (cache stamp only)"],
+ "liveCheck": "296 files compared byte for byte, 0 mismatches (a first pass had 2 transient download mismatches, including the unchanged bomarsund.js; the rerun matched all)",
+ "wrangler": "4.149.0"
+}

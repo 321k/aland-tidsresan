@@ -13,7 +13,7 @@
   2015
  ],
  "minAreaSquareMeters": 40,
- "method": "Writes data/mariehamn-building-photos.json: buildings with no symbol on sheet 101208 dated from Mariehamn's\northophotos (1991, 1999, 2007, 2015; 1 m/px tiles from the town's map service, cached with sha256 in tiles.json).\n\nMethod: sheets.py draws every such building of a building-map batch on the four photos with its outline; each was\njudged by eye (KEY-decisions.json): Y<year> = the first photo that shows the building, every later photo shows it;\nN = not shown on any photo (built after 2015), unclear, or under 40 m² (too small to judge at 1 m/px). guard.py then\ndefers a building first seen in 1991 (1999) whose outline is dark on the 1985 (1995) map, where the map may already\ndraw it. An earlier photo that covers the spot without the building is 'absent'; one that does not cover it is\n'not-covered'. The photo year is first evidence, not a construction year.",
+ "method": "Writes data/mariehamn-building-photos.json: buildings with no symbol on sheet 101208 dated from Mariehamn's\northophotos (1991, 1999, 2007, 2015; 1 m/px tiles from the town's map service, cached with sha256 in tiles.json).\n\nMethod: sheets.py draws every such building of a building-map batch on the four photos with its outline; each was\njudged by eye (KEY-decisions.json): Y<year> = the first photo that shows the building, every later photo shows it;\nN = not shown on any photo (built after 2015), unclear, or under 40 m² (too small to judge at 1 m/px). guard.py then\ndefers a building first seen in 1991 (1999) whose outline is dark on the 1985 (1995) map, where the map may already\ndraw it. A building whose dates an earlier curated review decides is deferred too. An earlier photo that covers the spot without the building is 'absent'; one that does not cover it is\n'not-covered'. The photo year is first evidence, not a construction year.",
  "decisions": [
   {
    "objectId": "building:osm:way-165234971",
@@ -11597,13 +11597,1252 @@
     }
    ],
    "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-1281082354",
+   "input": "2afa94e6708c36908f24bf2ce04c8cd9c72c9cf5d3b756cfd8b602c91518b899",
+   "referenceGeometryId": "geometry:b03a587bd2fd02bf668f",
+   "originalFrom": 2025,
+   "firstYear": 2015,
+   "areaSquareMeters": 60,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-163034534",
+   "input": "6f4a344a89e2bfe17404e713d049f83d9bb33b4438b80652c2f9fbc147255a34",
+   "referenceGeometryId": "geometry:372833cbf8fd691889e1",
+   "originalFrom": 2012,
+   "firstYear": 1991,
+   "areaSquareMeters": 1311,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165434973",
+   "input": "bd86ddab571abecea87d3c57f0162c078a0b125bc0cb094c3e8a6446f569ef30",
+   "referenceGeometryId": "geometry:a2ec44df5993a8cbc713",
+   "originalFrom": 2013,
+   "firstYear": 2007,
+   "areaSquareMeters": 70,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165434980",
+   "input": "764c7d3a19f2750a6f10d4f165ceedd5e166298965ad168021cc24b7a8e6a0a3",
+   "referenceGeometryId": "geometry:84ff357c6672f57775b9",
+   "originalFrom": 2013,
+   "firstYear": 2007,
+   "areaSquareMeters": 77,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165434987",
+   "input": "d914f802f5b79049b403a21aeb9736ed332e0283f6ddaa0dcf45189c2963948d",
+   "referenceGeometryId": "geometry:01c89ecfde8d77f29fea",
+   "originalFrom": 2013,
+   "firstYear": 2007,
+   "areaSquareMeters": 70,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165435002",
+   "input": "4775c819fe2c9edcb6b6d5f04d20fb56725b4811105517a725b2324f21ebf753",
+   "referenceGeometryId": "geometry:3ea97ad1ad32d9776034",
+   "originalFrom": 2013,
+   "firstYear": 2007,
+   "areaSquareMeters": 59,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-165435009",
+   "input": "f4cbaabcd8de61e24894985ee20c341aa4b2f4932047ce720b35e5c7d3eec348",
+   "referenceGeometryId": "geometry:941e24a930116781a90d",
+   "originalFrom": 2013,
+   "firstYear": 2007,
+   "areaSquareMeters": 64,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-168766526",
+   "input": "d6eee093d8293f3b5612aa45d53de1ecd1d14c93f6bd74813139013ecde06d2c",
+   "referenceGeometryId": "geometry:bdd1dd6d231131386479",
+   "originalFrom": 2012,
+   "firstYear": 1991,
+   "areaSquareMeters": 304,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-168766529",
+   "input": "759a25620e1c4008238682792aa5865c74bd6852198ed66a853feb1e2ca23aa8",
+   "referenceGeometryId": "geometry:21a6dca3bed9247bddc5",
+   "originalFrom": 2012,
+   "firstYear": 2007,
+   "areaSquareMeters": 69,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-319360432",
+   "input": "cdcf305ae328bbb1aa188c8486338a195d67783950c69d3fa2d52b63464f0716",
+   "referenceGeometryId": "geometry:21d1d5503b173bf57944",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 261,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-584481339",
+   "input": "3fc789c94249aad77732020602125876842586689f0e61e54eda8e0b0c3903c6",
+   "referenceGeometryId": "geometry:065ed8492d222c0de4ac",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 227,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-584481348",
+   "input": "3cd96414bd49d32cf1ee11e64a4f741ffe85e0b214002e0dad2881882e0e2af7",
+   "referenceGeometryId": "geometry:985cdf37d4095129d2ae",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 53,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-584481356",
+   "input": "41393c41364a53ad4bf0de7666b43d57cd7115460c162b091d8b3f39a7c1cdc7",
+   "referenceGeometryId": "geometry:20606ade0660e7aefd03",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 89,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-584481361",
+   "input": "913a494b400dd11f698b9fbb0d9c8c41752a6b3aaa94fa51eda21ddd21aa7722",
+   "referenceGeometryId": "geometry:ac8f729fe75e7066811d",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 128,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-584481370",
+   "input": "d5a9ff0828b257491a8e8b100666495cf4680da7915eff4462b69e6b8ff7d680",
+   "referenceGeometryId": "geometry:e1c3fca1c1d89da0aee4",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 60,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-584481398",
+   "input": "61f2e443bb77b15da5eee65de55f34198b133d35a09baccf65bd75cbd157b6f1",
+   "referenceGeometryId": "geometry:978657bd9ea14ed9c561",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 55,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-584481403",
+   "input": "f2150bac67d40d1e1d3bca1fddef4ed9c32eb392c26c576696674087d5eb938a",
+   "referenceGeometryId": "geometry:4a93bd6003d54032987c",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 92,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-584481404",
+   "input": "8c0196a10c6db69bfb2821883193b9382d8833a7d7313566dab68828e4d0e472",
+   "referenceGeometryId": "geometry:c305c77046ae1d434d8b",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 213,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512236",
+   "input": "2fae1381ef3ad63d5e463974dc7b91f2be74956890a10a07b82b6f33b64c1396",
+   "referenceGeometryId": "geometry:c127e7da5fdd431e8e5f",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 256,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512237",
+   "input": "b9646959077839607758c14ecdfc8f403540391e2eba479c76dc628fefb9d3b6",
+   "referenceGeometryId": "geometry:cbc917a075515da2624b",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 49,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512245",
+   "input": "500d82a4d36dd37fe9f3fdafd716a2031f71d770f771e5a58097706c73ef18ec",
+   "referenceGeometryId": "geometry:d6168d87f1d23a75f84c",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 252,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512247",
+   "input": "aa368193c3937e11b366f532a36f202fb5cb327df70cdd3b83fd6791b32e63ac",
+   "referenceGeometryId": "geometry:c148d0089a44b8daca7e",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 48,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512252",
+   "input": "e7a9b7364baa21a31da232007f5199ffc442086bc064aa4b3108654eed738490",
+   "referenceGeometryId": "geometry:f8bdeb6a613ba59eb7b8",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 147,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512253",
+   "input": "4b0e4df1495130c1a6719424ae4619e2a3eb6b3a7cb68a6debfffd6141abab6c",
+   "referenceGeometryId": "geometry:8ea0ffab278c2ff2698a",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 176,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512256",
+   "input": "d75d72669a7ef5966521f7f057e4780dc0ee1bc3c2bb2d8d39006be4bf0139e1",
+   "referenceGeometryId": "geometry:ee7fd5218cbb1d35f77b",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 297,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512269",
+   "input": "e6426a8949cbb649b660cf6845528da9d8cd86f8d2edb0412c342d61b1cb1559",
+   "referenceGeometryId": "geometry:c654ecda66866a9ea10c",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 78,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512271",
+   "input": "1f1132cd6b4d1bba04bbe9e9558f7e0f1888fe8f6efe6bb4daaa59b94bf6aab9",
+   "referenceGeometryId": "geometry:c177da32f1bff100a7e5",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 204,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512272",
+   "input": "bee7149a56ecdddd8e75b387a0cc39c67a61f71e549a759ca9bcddf2178880fe",
+   "referenceGeometryId": "geometry:f6fcf44ff9e541079f51",
+   "originalFrom": 2021,
+   "firstYear": 1991,
+   "areaSquareMeters": 364,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 1999,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 1991, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512277",
+   "input": "ddd00165dff2f999da1eb7028d8291a4d8d3447435cf7aa17df304b691cbd94d",
+   "referenceGeometryId": "geometry:7cb04f74685136384bc2",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 143,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512278",
+   "input": "f4d37b5465f8d46e8a033d2ec698cb923cf9aef928a70c16bd5b6b09082401cc",
+   "referenceGeometryId": "geometry:a16f1474582bcf1ee678",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 204,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512280",
+   "input": "fbd4025fdefe0b85900489d2ca03e12863e2a3f4493c769be8e0f01c0ab8726c",
+   "referenceGeometryId": "geometry:115aad89086755e0ad87",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 231,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512285",
+   "input": "1b34230ce03e7808fd00023c5224c016ca6c6cb5d5b65c418873156f6727ac1d",
+   "referenceGeometryId": "geometry:4686875c8fd031f6bf1d",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 80,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512301",
+   "input": "2c911497d498435ee8447b213edc8e2c8020c4427d8e1afdcf490fc7613bee29",
+   "referenceGeometryId": "geometry:d194c401d37b4d00fdf7",
+   "originalFrom": 2021,
+   "firstYear": 2015,
+   "areaSquareMeters": 335,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2015, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512306",
+   "input": "7b26f24ae305feca6f09cc5db52210ba811f2c8649f91ab7b59434115074633a",
+   "referenceGeometryId": "geometry:21fbcc7ac732a017a45c",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 70,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512307",
+   "input": "f2f696b2972efd285ac82835a0b0c308344981b9f3e1f49bff35c867adbc7a94",
+   "referenceGeometryId": "geometry:93ba04697d5077ee7e07",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 166,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512309",
+   "input": "3d42a5244b8f9e56eb1bfbdafc146db9a8dcca465db5887e497c3ad1886ff12c",
+   "referenceGeometryId": "geometry:6aa2daefda2bfa922ee5",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 49,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
+  },
+  {
+   "objectId": "building:osm:way-585512310",
+   "input": "1bc75117ae6c909a11962f3386470d87f305457d8daee8f8e4f6683097ce4c02",
+   "referenceGeometryId": "geometry:023d477f88653861aac4",
+   "originalFrom": 2021,
+   "firstYear": 2007,
+   "areaSquareMeters": 157,
+   "batch": "p3",
+   "sourceBatch": "b3",
+   "observations": [
+    {
+     "year": 1991,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 1999,
+     "outcome": "absent",
+     "note": "Flygfotot visar platsen utan byggnaden."
+    },
+    {
+     "year": 2007,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    },
+    {
+     "year": 2015,
+     "outcome": "present",
+     "note": "Byggnaden syns på flygfotot i samma läge som dagens kontur."
+    }
+   ],
+   "basis": "Byggnaden saknas på grundkartorna 1968–1995 och syns första gången på flygfotot 2007, i samma läge som dagens inmätta kontur och på alla senare granskade flygfoton. Fotoåret är första belägg, inte byggår; den senare konturen används med antagen formkontinuitet."
   }
  ],
  "deferred": {
   "below-size": [
    "building:osm:way-549221903"
   ],
+  "curated-review": [
+   "building:osm:way-163034532",
+   "building:osm:way-165434930",
+   "building:osm:way-165434936",
+   "building:osm:way-165434950",
+   "building:osm:way-165434955",
+   "building:osm:way-165434956",
+   "building:osm:way-165434958",
+   "building:osm:way-165434976",
+   "building:osm:way-165434982",
+   "building:osm:way-165434990",
+   "building:osm:way-165435011",
+   "building:osm:way-165435016",
+   "building:osm:way-329814267",
+   "building:osm:way-329814268"
+  ],
   "map-ink": [
+   "building:osm:way-1006083022",
+   "building:osm:way-1281082318",
    "building:osm:way-165436735",
    "building:osm:way-166517410",
    "building:osm:way-166517422",
@@ -11646,9 +12885,23 @@
    "building:osm:way-549221985",
    "building:osm:way-549221986",
    "building:osm:way-549221988",
-   "building:osm:way-669978266"
+   "building:osm:way-585512290",
+   "building:osm:way-614121557",
+   "building:osm:way-669978266",
+   "building:osm:way-987395783"
   ],
   "no-photo-evidence": [
+   "building:osm:way-1005887852",
+   "building:osm:way-1006083019",
+   "building:osm:way-1006083020",
+   "building:osm:way-1006083021",
+   "building:osm:way-1006083031",
+   "building:osm:way-1006083032",
+   "building:osm:way-1006083034",
+   "building:osm:way-1006083035",
+   "building:osm:way-1006083036",
+   "building:osm:way-1006083037",
+   "building:osm:way-1006083038",
    "building:osm:way-1133398863",
    "building:osm:way-1260680708",
    "building:osm:way-1260680710",
@@ -11661,12 +12914,20 @@
    "building:osm:way-1277759379",
    "building:osm:way-1277759380",
    "building:osm:way-1277759383",
+   "building:osm:way-1281082300",
+   "building:osm:way-1281082301",
+   "building:osm:way-1281082302",
+   "building:osm:way-1281082319",
+   "building:osm:way-1281378490",
    "building:osm:way-1304413008",
    "building:osm:way-1327297218",
    "building:osm:way-1327297219",
    "building:osm:way-1327297220",
    "building:osm:way-1327297221",
    "building:osm:way-1327297222",
+   "building:osm:way-1332433611",
+   "building:osm:way-1555822585",
+   "building:osm:way-1555822839",
    "building:osm:way-1555826387",
    "building:osm:way-1555827317",
    "building:osm:way-1555827557",
@@ -11697,6 +12958,15 @@
    "building:osm:way-1555878764",
    "building:osm:way-1555878765",
    "building:osm:way-161813619",
+   "building:osm:way-165434934",
+   "building:osm:way-165434939",
+   "building:osm:way-165434940",
+   "building:osm:way-165434975",
+   "building:osm:way-165434981",
+   "building:osm:way-165434988",
+   "building:osm:way-165434995",
+   "building:osm:way-165435005",
+   "building:osm:way-165435015",
    "building:osm:way-166517425",
    "building:osm:way-166517454",
    "building:osm:way-166517467",
@@ -11704,8 +12974,11 @@
    "building:osm:way-167140767",
    "building:osm:way-167141183",
    "building:osm:way-167141190",
+   "building:osm:way-171582544",
    "building:osm:way-182287738",
    "building:osm:way-329306728",
+   "building:osm:way-453682606",
+   "building:osm:way-453682609",
    "building:osm:way-465897736",
    "building:osm:way-496240790",
    "building:osm:way-496240791",
@@ -11903,8 +13176,38 @@
    "building:osm:way-584444606",
    "building:osm:way-584444609",
    "building:osm:way-584444611",
+   "building:osm:way-584481337",
+   "building:osm:way-584481340",
+   "building:osm:way-584481345",
+   "building:osm:way-584481346",
+   "building:osm:way-584481347",
+   "building:osm:way-584481350",
+   "building:osm:way-584481353",
+   "building:osm:way-584481354",
+   "building:osm:way-584481357",
+   "building:osm:way-584481364",
+   "building:osm:way-584481389",
+   "building:osm:way-584481395",
+   "building:osm:way-584481409",
+   "building:osm:way-585512233",
+   "building:osm:way-585512251",
+   "building:osm:way-585512254",
+   "building:osm:way-585512263",
+   "building:osm:way-585512273",
+   "building:osm:way-585512274",
+   "building:osm:way-585512275",
+   "building:osm:way-585512276",
+   "building:osm:way-585512288",
+   "building:osm:way-585512289",
+   "building:osm:way-585512297",
+   "building:osm:way-585512299",
+   "building:osm:way-585512302",
+   "building:osm:way-585512317",
+   "building:osm:way-585512323",
+   "building:osm:way-585512326",
    "building:osm:way-586741200",
    "building:osm:way-586741201",
+   "building:osm:way-614124523",
    "building:osm:way-631888581",
    "building:osm:way-631888582",
    "building:osm:way-631888583",
@@ -11971,13 +13274,14 @@
    "building:osm:way-732611736",
    "building:osm:way-732611737",
    "building:osm:way-732611738",
-   "building:osm:way-732625173"
+   "building:osm:way-732625173",
+   "building:osm:way-987395770"
   ],
   "not-earlier": [
    "building:osm:way-165234949",
    "building:osm:way-165235029",
-   "building:osm:way-329814267",
-   "building:osm:way-329814268"
+   "building:osm:way-217257123",
+   "building:osm:way-217257126"
   ]
  },
  "tiles": {
@@ -11993,6 +13297,12 @@
   "ortho-1991-17-80061-26031.png": "215213b8d020b7f6c54c181c231fe9307c290bbdef6ffc2713eb61f1973105e6",
   "ortho-1991-17-80061-26032.png": "5d6a6e98cd6603837f02303e3fbea888bd17e3bffae14c2a81e5a7ae0de4c297",
   "ortho-1991-17-80061-26033.png": "24b9e8d776a9c411da17a005fa11597a80ba6888c05530c20b68d293bbe854c4",
+  "ortho-1991-17-80061-26038.png": "09a4c1b2b1a5b524e48d429dacd7f69cbf8d0f250dea8d84fdb769a9da0b1c5e",
+  "ortho-1991-17-80061-26039.png": "b437c7c0ef9309858e91766140ee8e76f62c2676ca52d94a68d4400a0357311e",
+  "ortho-1991-17-80061-26040.png": "d74bb20460d9db0c4132e6de6d7b807100ae2bc011e75e8a3c17db1b68aacac4",
+  "ortho-1991-17-80061-26041.png": "0d7aee972fe0a4ce1cc9a9c5bbbe4ba53eb5df5801baac60e47dff949d596b08",
+  "ortho-1991-17-80061-26042.png": "2c95120ccda82dcd291e351c5b22d8ad23c7b95f2467461e3acfef07b80eb474",
+  "ortho-1991-17-80061-26043.png": "09a0fec36900177be49f660829ce554f467305665f34bae7e22e7a56242a4d4c",
   "ortho-1991-17-80062-26022.png": "08448f429ca71c06c29ca252eb2ddf6569edc89a52242c691589f2118f1e90c7",
   "ortho-1991-17-80062-26023.png": "669b33b90523ea1dc0fdc58e54312817f1c246cfe3e8db975e72f71465b2da19",
   "ortho-1991-17-80062-26024.png": "894abf198ea66c81c02daca74c9664999f36e319e8e143c4fc622a139d69fd83",
@@ -12005,6 +13315,12 @@
   "ortho-1991-17-80062-26031.png": "58bd176bff1b9287ed7683387127d1b3749bc5452b8d5d5ce879ed95cfca983a",
   "ortho-1991-17-80062-26032.png": "2d1d36f085d57dccea7da865cdd3ba82f4df35665f5fe25a0195d5b1a792b193",
   "ortho-1991-17-80062-26033.png": "750eb6f9335bd1ad329b03ed992b1740f4cca673af7f4ffdea56177ead8d24fe",
+  "ortho-1991-17-80062-26038.png": "9dbea338cb178c136aa94c21bac79c5e8948176c7afacd6ac2e82c929381cc72",
+  "ortho-1991-17-80062-26039.png": "f7d3353f66d0ca9a4c87e4eebdc9ea059d71f45deedf0369f8f3d7abaef6aa45",
+  "ortho-1991-17-80062-26040.png": "f75939e927aefc6063268ee86bcdf92bc1425724dd72ce6535f89ed1d0296e17",
+  "ortho-1991-17-80062-26041.png": "83dcea5d18cc73c16ef11f87a3c86a57b4eae1191064838ebdb1cb391598b56b",
+  "ortho-1991-17-80062-26042.png": "223630cdfb5483882b68c881c5f1e43ab66d4cbff650cdeec405e5e86632718b",
+  "ortho-1991-17-80062-26043.png": "bf64317ce142649412c64a62ca887a01e71adcef8ae0e54aa46f3ffe40787be3",
   "ortho-1991-17-80063-26022.png": "06b2b917ce4be91c54f677569c7da7078d95e8292c80a04e3f3f0afa7449afbf",
   "ortho-1991-17-80063-26023.png": "627808d9f2d886e26680f25f9a6525ff628d84b5ea25e550f8b0670c7be030ff",
   "ortho-1991-17-80063-26024.png": "7546d25191f9f2c33fea4be980c4d1055cb66109261e404d67d0c41917c37dbf",
@@ -12017,6 +13333,12 @@
   "ortho-1991-17-80063-26031.png": "0a22dc2e71866029e5a211c2cf4a21baa18603aaa5b175fd4618fa235eee3bb8",
   "ortho-1991-17-80063-26032.png": "31c070d19945f52e39699bd83ac9b88bf75f127dc5b0f769ecceb04cc5ec06e3",
   "ortho-1991-17-80063-26033.png": "a42651fe0bfcdfd88abd25ed5e387b77a8386d984d1c631652fcff151b157c19",
+  "ortho-1991-17-80063-26038.png": "68eb74bfc060101ad63e7315245106506d9fe16a062b0be47571f916849459e9",
+  "ortho-1991-17-80063-26039.png": "f74e1fb9d90a99bf0ecb5190922129292624d04fd73968497871a70086fb542c",
+  "ortho-1991-17-80063-26040.png": "74809050939b002cab4abfb615125acf00df0371efc734a36e4aba5ec7d20a0c",
+  "ortho-1991-17-80063-26041.png": "f11f0fbfd071495882cc346fa4af061b8370c43ac9e05a7bc8aff9fa04d90b1a",
+  "ortho-1991-17-80063-26042.png": "24cb6080524cb40e57f513be608008c343006481cca801dfc711bfa10b979dc8",
+  "ortho-1991-17-80063-26043.png": "b0f324fa5c0651d8697cc86c80405732288737f2bf93a72968f5f423f72d6ff8",
   "ortho-1991-17-80064-26022.png": "c7d623fed5a78cfb9349096b4d560a30c252de9f070beb6172676200f5443639",
   "ortho-1991-17-80064-26023.png": "a292f968fb6b9632033ac8a48e0164e74dce918464870d4c432625f4f977c1ce",
   "ortho-1991-17-80064-26024.png": "b940125c271d32ea022d532bcec808d90339af2a19a2d757e64b626d0cca6d0b",
@@ -12029,6 +13351,12 @@
   "ortho-1991-17-80064-26031.png": "7caee999acaa49bfd8ab8b040f9215559fa793b0e8346d547fd9dfa05d011a13",
   "ortho-1991-17-80064-26032.png": "9e7f6fc15fb63e702a4a5bc7b162e07f820b127697b34a116bd09391874094c9",
   "ortho-1991-17-80064-26033.png": "6b54e152e65146fbea9345ba0458ad1bf1da277f2496da8cd1d4062cc966210d",
+  "ortho-1991-17-80064-26038.png": "57b3f184b360cade1a63f39a5222b830fc065789efa2f0add7ddf8ada7a089e7",
+  "ortho-1991-17-80064-26039.png": "81d683d438ce3d463bac0453d5549d708f3b84dc31a9c1590f86aa4139f28900",
+  "ortho-1991-17-80064-26040.png": "6d9894687ec2bee90af9c5ad11b78390ea1bcacfc4f187442d857d8900aeae40",
+  "ortho-1991-17-80064-26041.png": "23747c7c0e0b01e21d293041427af98aca10477df802fcb86c8a8e2cda418ed3",
+  "ortho-1991-17-80064-26042.png": "61591dbf124a9133354c76855d1eac0fbadc5c48d92b6c101db601a094ecd0fe",
+  "ortho-1991-17-80064-26043.png": "93172db4b40965e987c6958e2cdd792342012c6fa940e8042186446e890a8b01",
   "ortho-1991-17-80065-26022.png": "29930f537b26f853e1ced80279240371af4653f2a9d22e22adfa2308eaf4ba4e",
   "ortho-1991-17-80065-26023.png": "6418d23fd81419019ff78890c2779855c5aed3230959e816dfb622ffee30c331",
   "ortho-1991-17-80065-26024.png": "704da87047a68906989a259f8177dc9364072a4d9ec564ec02a231cace9db964",
@@ -12041,6 +13369,12 @@
   "ortho-1991-17-80065-26031.png": "869ef78e3971ab008e54699f243bf503d53de1e0460bc63cec997e0b8ab2da9c",
   "ortho-1991-17-80065-26032.png": "a4972d63ecd2c5be34dd6b46290c951c900a341412a9bca9f3b02764e407e9f8",
   "ortho-1991-17-80065-26033.png": "12d74fd0aa608f448600dfc398a2e3fbfaef0313563ca7666410b86dec720671",
+  "ortho-1991-17-80065-26038.png": "6649a6f5f85040bb4490cd482c10d409a5382cfd871f5e7ea171b3f58d4758b5",
+  "ortho-1991-17-80065-26039.png": "e68626d7c703f91abf94d98ad9135d6b931156329b8ba7bdca62419f4f4e7066",
+  "ortho-1991-17-80065-26040.png": "4dabebc88ceced26242237ad047537d811e5fcea0c455d4ee426630ece86a9a6",
+  "ortho-1991-17-80065-26041.png": "231f09a8ddcd102daa90e53300e9f46b00c98e51a5445770e3feb83cae7b2cfd",
+  "ortho-1991-17-80065-26042.png": "cf8b3fc1e7ca34084e50919a48c9840c1022f356a67260dad9fb7a985fa5e5d0",
+  "ortho-1991-17-80065-26043.png": "e8d2dcbac5da9e3cec6c027777fc2c99c2ae631f76c2388c402deeaa7fb7ed67",
   "ortho-1991-17-80066-26022.png": "c6d265f531534bd7ee004adc875e349fc15a1ea4b5bab94848b6993411f7c715",
   "ortho-1991-17-80066-26023.png": "b484288245a7d4c0cb72937f63821cf06938ddb57ae28ea8ad1287e0bb920081",
   "ortho-1991-17-80066-26024.png": "9a92abb276900fd83eb8633bde45ce1cb42b47672b27776eaa1bbb08edda41ac",
@@ -12053,6 +13387,12 @@
   "ortho-1991-17-80066-26031.png": "0cc5f8e650889697b67863d285530ebeeee70786a37e1a38a0a2ce74a2b83be1",
   "ortho-1991-17-80066-26032.png": "5c7afa415eee27b8f42ce8e6e00a2443e5dd9184b63fdf1c1a9a757366287cbe",
   "ortho-1991-17-80066-26033.png": "e3b489a4b48127bae909a9a51b2e5136537888d68b526d460aec06fdeb3cd932",
+  "ortho-1991-17-80066-26038.png": "6cd8dbebd77038fa6bf31ef3d1a1bb25340839f0e377b62aadae846e66064254",
+  "ortho-1991-17-80066-26039.png": "64cdb0b7095254cc6d9cd7249d63fe593503d86652476990cc5f7627a355e509",
+  "ortho-1991-17-80066-26040.png": "f4b7343ea5412b8f93b74c4e5e36b9f7b0e8fdd5b7cc17113b85505db8944f5b",
+  "ortho-1991-17-80066-26041.png": "35f5a002d61d944263f58233b60f665e49cc122ed07a5e4762e7ae2dc03e6abe",
+  "ortho-1991-17-80066-26042.png": "55c57aaff09344d0f246850bdddc172610f67f3e1cba99d16ad60213ca73c3bc",
+  "ortho-1991-17-80066-26043.png": "f1714cb295ae1305d1c37c011de2a93a0cbec60f7dcc580d38100e90a1ee2545",
   "ortho-1991-17-80067-26022.png": "180b02ee346f6ac3b5b3adb4f07e1b9f66a6607733343624ea7d8186a4131beb",
   "ortho-1991-17-80067-26023.png": "613ca17c8e0a52fa751bbeb9191b4bf89e3eda1e179c63a1079fb9405e5dd394",
   "ortho-1991-17-80067-26024.png": "93a8404f9b81b888fe01f07869bd777876de8ef66c4436b5ab8b5615de39a8ad",
@@ -12065,6 +13405,12 @@
   "ortho-1991-17-80067-26031.png": "4615f92b6cd94ea427237fbbfbe36e5ed7e0d5b3fbfb23c0de06c2dcd1c81c4b",
   "ortho-1991-17-80067-26032.png": "7139cc328fa3b844629653b364cb0da0dedde3759383e0d197632fc5de02dd51",
   "ortho-1991-17-80067-26033.png": "d0ed263d5ad39a2829773662328249685d6633b9d9c035d2bf9cddf1a0cc6a22",
+  "ortho-1991-17-80067-26038.png": "d7429338eb8901a16d8d3e9931457263295daeac8ce35e6beb835f633dbb4fa9",
+  "ortho-1991-17-80067-26039.png": "7acbdaace5a295f3c9e217bf846eb2e0ccc58fe19f6ec6f6b4e55cb4c2a9f1e8",
+  "ortho-1991-17-80067-26040.png": "008def33d9f1aa8d453883b87be02352728e40e933f79d2cbc16ea7e0d1af4d4",
+  "ortho-1991-17-80067-26041.png": "15446ba5d66f3a1cea5b9d8a5528694410b89516aa431f9fa3af6ba90f556123",
+  "ortho-1991-17-80067-26042.png": "10627547e9bd4f9c6b048d0e684fcb955c56f3df9454f8d109a4240c315ff68a",
+  "ortho-1991-17-80067-26043.png": "daf85944a04cf80435c0cb98007ab2af9c05a2a2fb7827991ae9d99ba99e770a",
   "ortho-1991-17-80068-26022.png": "99d954ae5e707694a9984bf48f6000bfe58963c25ea6e0ac321bf113a195c33b",
   "ortho-1991-17-80068-26023.png": "91c14490be4db2aa65ee4150a5fc4307f66906dfb60bccbba41bc33aa6bc3903",
   "ortho-1991-17-80068-26024.png": "6e9def54393051163febf6022d1f0fb67daf9ab234f33fb05df469c757838f95",
@@ -12077,6 +13423,12 @@
   "ortho-1991-17-80068-26031.png": "797fddda4ad75250f88f23c1b4bf6afb03a3ab1292f4cf429bdf3a2aae82295a",
   "ortho-1991-17-80068-26032.png": "23c90274aeb909e985b2390f4893ea85c27cdbeef49dac7d3f1c94ec21ebc4ea",
   "ortho-1991-17-80068-26033.png": "02df6faf88c07d88aac9736ab467e27bb7ac02b8cb89c9ccd5bea139fc4b0156",
+  "ortho-1991-17-80068-26038.png": "a3b57c4bb514f21ce775233d2c6cd4733a25046a2e6e3e2044ccc8dbdcd4ef39",
+  "ortho-1991-17-80068-26039.png": "b9d7d97370145dfac538245667b916a5deca275b74dc90394da97fa4d718704f",
+  "ortho-1991-17-80068-26040.png": "8077aa5ade2cdf4eacccf1ed1737e79202028aca01da7c81ae52b4584b31939f",
+  "ortho-1991-17-80068-26041.png": "8d841d867cc119e80c47ec305e82d5417013e7de605b56071f870e28f315c4ba",
+  "ortho-1991-17-80068-26042.png": "4091c912b303cf3b4b00157cde1b15cb65d949838764927f9c25580f37e9db30",
+  "ortho-1991-17-80068-26043.png": "583a7b0b8e25b88ee8f30a0c8d56c578e3d8bb03c538aa2e599a9c56e971822b",
   "ortho-1991-17-80069-26022.png": "27815909d68a872e4dde34cb947ee9928dc7c07aa7c05ac6d012eb4a339cc51c",
   "ortho-1991-17-80069-26023.png": "ff1befb45ef39210edfe95d59a1bc4ddd09b5db76c5f8114ab290718f40f91a8",
   "ortho-1991-17-80069-26024.png": "f43ae3a79e0985b7da032b283891e8dc949358d18ac0010d956448857baae022",
@@ -12089,6 +13441,12 @@
   "ortho-1991-17-80069-26031.png": "517e407db29d9741803d96fcf0ed7e65815bbaf7dfba513f4000b888d7700f73",
   "ortho-1991-17-80069-26032.png": "252d41e3f568745c9339691468ddaac49d1f919ff2352b34140263b41c5f9267",
   "ortho-1991-17-80069-26033.png": "0001e7f7598cc939d47daec68275500d55c61809dca1d7e3a24f3e5c1f1c2e0c",
+  "ortho-1991-17-80069-26038.png": "898f7ff687fd967724e7239d09d46de5bda3a11c50dd62017df64ef7f953b8ba",
+  "ortho-1991-17-80069-26039.png": "f48a9f0271d38349f1b3d90814b05f7f7814da49e88ee0265798553739d8d16e",
+  "ortho-1991-17-80069-26040.png": "0080244d919c02b4c89a89c4ecc83c91d2013e9bd6a09f0a132a56872289fc97",
+  "ortho-1991-17-80069-26041.png": "f69c6099afaf2d403724fc2818b1b97ebfa46c7a3451edadc464ffaca9378747",
+  "ortho-1991-17-80069-26042.png": "3cb412e63890692a67687740d3155e2607d19ab64972631da7cac097106bc097",
+  "ortho-1991-17-80069-26043.png": "f72d112c77c729707b1a8d8c72d8bb2796bd2153ed0849b25ea03cb9b778f967",
   "ortho-1991-17-80070-26022.png": "a7aa016b4c92d45289686120a2edcdf7253ce5a276cce036ea68d02fa0eda90f",
   "ortho-1991-17-80070-26023.png": "7e02bef8934a509c2acf0071e36d2fc7dac68d0a692a693102890728065cfc49",
   "ortho-1991-17-80070-26024.png": "f1ffd50ccd2f0b489694660900cf91f415073929ad72314eb9bf18e7046bbb41",
@@ -12101,6 +13459,12 @@
   "ortho-1991-17-80070-26031.png": "4f7bc90ef35fd3e5f26f92dbe8b6efe1bf88b65e84d50e354a77dc62c3203616",
   "ortho-1991-17-80070-26032.png": "828f0f31ff8368801d2f81405d6ba485da5f543a8faa550a4373132abc998cfe",
   "ortho-1991-17-80070-26033.png": "b8e6279f10e54001f3f0063c3a2709e536bfe168b412185e9e34032ebcc93182",
+  "ortho-1991-17-80070-26038.png": "21abb8ee9d52ce4e4f079678321f286be97b0f304355926ec126b328740ded47",
+  "ortho-1991-17-80070-26039.png": "aea48e37b84158cf9d04e7b0a2ec52294c89d8bf1639f62dfd397e117e449bd3",
+  "ortho-1991-17-80070-26040.png": "408fc7e481c64f9ee02bbecb8afb127f8c27f098fa38430c716d5adb9badd459",
+  "ortho-1991-17-80070-26041.png": "016b958d7fcdc9510fbd278d5d1c53309281efdc9b51436ea22ea643703f3201",
+  "ortho-1991-17-80070-26042.png": "829ee9d8a14cb5adaa0fb450f6d53d2510d2ec44f6aedd293bfc0ed4f4dd90c5",
+  "ortho-1991-17-80070-26043.png": "fc908a15cffc95b0b5a79d11242633ac5a5605f9a8f066480a2346dfd4ad5132",
   "ortho-1991-17-80071-26022.png": "acbe01d8301adef2a7474da7ef3dcb8cfb322addf2e588ec5f3d47bfe14c144e",
   "ortho-1991-17-80071-26023.png": "6dc2d0ac4604ad3104a785697736b5fbf9ca3871e1e64691b5542d66942b879d",
   "ortho-1991-17-80071-26024.png": "17c6df0cf1e60b534dd2028713722a3f9225b392c9f40ad0f8b408ff2430e5bb",
@@ -12122,6 +13486,12 @@
   "ortho-1999-17-80061-26031.png": "a8f446bd2faf8b13ae36fb68b0060245472c41b49f5bb549e8135d05d833c024",
   "ortho-1999-17-80061-26032.png": "e4af68b97796237c43f092ca0db618095774fd2654c214a37737b2128542f983",
   "ortho-1999-17-80061-26033.png": "6b9ba887d5aff706d67c739d4fb4fc9f8182bc1a4c39be57ad4384aa31ec58e3",
+  "ortho-1999-17-80061-26038.png": "cb18532a0bac0da57e609131193f9b7f571aa9d94daaec99868ce157d22e96cb",
+  "ortho-1999-17-80061-26039.png": "6e85254440b145586b98d18e166bc214065230562f9b5c7a52783e032d005123",
+  "ortho-1999-17-80061-26040.png": "f6dac32145a604f910dde345dfd9ff9eb64200ea84ea0948356acf7b88559131",
+  "ortho-1999-17-80061-26041.png": "543f95c409564472fc6bc6f1a042104f010a01fadfc77468e62b2003afaff2a2",
+  "ortho-1999-17-80061-26042.png": "bbb470257e4733406699f90f41074de73337e7049816dd93f85ddbf289af043d",
+  "ortho-1999-17-80061-26043.png": "f1872f7c6f5b19e9a89e797c0fcea1603dc8177a553a50cb25039df7267a9464",
   "ortho-1999-17-80062-26022.png": "7f4b38f48de3025cc02ed30a7e1239bd9d953077137cd74735c4dde25477d163",
   "ortho-1999-17-80062-26023.png": "a05b4839b5555fc9311d14ba6a149cc133e57a10f617e9792dbfd97d0146aa6c",
   "ortho-1999-17-80062-26024.png": "8494b5ac3594f8bcbfcd5cb8748032225d3c30deab60338939478ef64f2160c4",
@@ -12134,6 +13504,12 @@
   "ortho-1999-17-80062-26031.png": "d00e7f36c3deb8833633e8bff45d5a22921ca19ffe953b4aba6574037da52367",
   "ortho-1999-17-80062-26032.png": "cf92340596e35322be2d32672f18eea1c81bf6da42a0f0c98b190f4656555e43",
   "ortho-1999-17-80062-26033.png": "6375eb5c7758f31388a0571313f52fc88d418c10583a9cc8258d4672c85141ea",
+  "ortho-1999-17-80062-26038.png": "5ff9e84412acb035fd45561766e5602bf0220dba70f7a452a8dfc0828d78ec0e",
+  "ortho-1999-17-80062-26039.png": "22fad1b35ae9509d113c44d72a2181f8ed5a7ef0e4bc8060517e9e686dd939ef",
+  "ortho-1999-17-80062-26040.png": "835adfadaad11d8c0a91860d11717c9bcbd44c30aa6ad1c5059521c28162c3ac",
+  "ortho-1999-17-80062-26041.png": "60a8fe2dc8d78c38de6f19f9d8424757858abee8b9285f4d5bcf3466ba00f5a1",
+  "ortho-1999-17-80062-26042.png": "65bc875be822e8cd6c458a1bf27909efb4b99ffd9724e65e2b95e606752e4e19",
+  "ortho-1999-17-80062-26043.png": "4122b0b2de21b22f0a7a31a8b9218ff44a037608cfd182f31a6b33380bfca130",
   "ortho-1999-17-80063-26022.png": "e98eda4dd25c2328a90e3204b735b99f5cec3eeb82f8195f366eb57f6b5b9c87",
   "ortho-1999-17-80063-26023.png": "770921fe1d276de5e7465e7b41362c7ff664d5ff79ed0ab60eba2bd850e0a501",
   "ortho-1999-17-80063-26024.png": "8494c381ce5f97dac59d273bb16a1ae2d18b3522d77b86c4ab6e404fa6980df6",
@@ -12146,6 +13522,12 @@
   "ortho-1999-17-80063-26031.png": "1a4b22e8dc7809855063024ae53dff1a9d286ee845b65a27931a8308ea397988",
   "ortho-1999-17-80063-26032.png": "6ebe01e557464a0e0f2f4cf1cd53a4e9447e2fcee0eb191ef4b4ffd6a834827b",
   "ortho-1999-17-80063-26033.png": "ed23c3bb1610852c3bf00c1285a4e654cb3b11e0e25bf537ba24f97416f238c0",
+  "ortho-1999-17-80063-26038.png": "bf56a814ce9d4dd1d77fe4d59f24f94922aecedd8e88cc9d547034be052c2c4d",
+  "ortho-1999-17-80063-26039.png": "776c78e807f93d6d7377a0b6c085b778b1f2d423886284ad66e7311f7eae1a5c",
+  "ortho-1999-17-80063-26040.png": "85381c6e394b01feb48cce6aa401ff1b83ed7b67758f5ca2f9d1690ce4df2cbc",
+  "ortho-1999-17-80063-26041.png": "66ebfb07c842d47f95e7b8cc91217b2f5afe11c57fde5e8c600c5143a85d8663",
+  "ortho-1999-17-80063-26042.png": "da4f6234b09a038c754fccd62c5af1cad3ea1dafc15eaee139bf973685dc371d",
+  "ortho-1999-17-80063-26043.png": "d6dafe2e9e6d03d4eb7beca8ac3af55728b15af1f19dd159a02957cfb154985d",
   "ortho-1999-17-80064-26022.png": "fea8dd2e79ef72eb19461892c9f1de69bd680c315dd07fb59e2865afd7bea204",
   "ortho-1999-17-80064-26023.png": "af099c7c66c9c76fc99f4da9c8a04f5425a4c4df10c23427e3445bd5c8d44932",
   "ortho-1999-17-80064-26024.png": "c68c120f4ce03ea20ab93a4add65246ae0fee6cb9cfed8d1be71372d94a55c04",
@@ -12158,6 +13540,12 @@
   "ortho-1999-17-80064-26031.png": "cf63a06d60c42cfe1cf0dabe2c8f1a2007a824b1c920fa601e46fbf95442bb36",
   "ortho-1999-17-80064-26032.png": "d1152c766aca20a9598b963ed4b5f5a221e5e53bd3fed0c59670dfd5226ad6ec",
   "ortho-1999-17-80064-26033.png": "17a4a03144b5f8616f56976ae9852c1f2d7878ba31a568fa26dd41bc406a0fee",
+  "ortho-1999-17-80064-26038.png": "bf94d63334aecc828bfef55df1dd22f17decc77f689400501a35907984209507",
+  "ortho-1999-17-80064-26039.png": "ef93d973094caa10923c43cc080b618eec2dc40fd089ee29f92103a91505e807",
+  "ortho-1999-17-80064-26040.png": "c025c092fe1df2c254484afc244a2ad045d0248f46952b657d9669e0e9f0e6cc",
+  "ortho-1999-17-80064-26041.png": "be71413a24a8e62e83af62c8c5f7f3a6278350008b6fab35e004ca40f2768f2e",
+  "ortho-1999-17-80064-26042.png": "0e0737fbb161496a5a8d03a05c7f982db374aadc4638f167e4508acb452b9267",
+  "ortho-1999-17-80064-26043.png": "80a0cbcbd46f194dde919145e4cf384ece9b25a9eeb0902a1225e7fcd203021d",
   "ortho-1999-17-80065-26022.png": "e8094c23e7f1a1a982a0481c517635196d6ecd56ba7d1bc1b1940f90ff2617e8",
   "ortho-1999-17-80065-26023.png": "4b77837f39787586420fdd6379a7f546a49039578a3d2a5ea2d0a18852efb355",
   "ortho-1999-17-80065-26024.png": "acf9131ff085c3dac727a0d578113b1ec4bc4748b73647b09d2f373ae6044c65",
@@ -12170,6 +13558,12 @@
   "ortho-1999-17-80065-26031.png": "dcf459bf768bc520f1d5abfbaf21aa3b4a7ca31be66b927a3289df27200f4919",
   "ortho-1999-17-80065-26032.png": "10239dd54da79f6265bc63cb67f40f3df288fafd5b6906813b18e69be21fdd99",
   "ortho-1999-17-80065-26033.png": "368d8e28393465183b0b558d595adc59107cec0f61e344bd2aafc99730c2e05d",
+  "ortho-1999-17-80065-26038.png": "3273442bf1420efaf917ac61ef40dc84eaff1c37d010fb58122e2db4464fddd7",
+  "ortho-1999-17-80065-26039.png": "996edda276089b5633bc3749ae6df4e8b3188e2e1e2ec6b3ba80367ab1ad9969",
+  "ortho-1999-17-80065-26040.png": "6e28f8d6bfe5aa939fa2366847ecf10a3fe4f8e813c00b7a46b25fb36a0c5612",
+  "ortho-1999-17-80065-26041.png": "24ab4ff74f56340bc22a4e1e37450e2d5cb281dd52e2ee69f0e1f89fa1d36731",
+  "ortho-1999-17-80065-26042.png": "c6d86ba3e773e62428f8820f38a0250bf2f8ebddf2022548fd2dc513e2fa7cb4",
+  "ortho-1999-17-80065-26043.png": "2458d2068fb5a34857c0f70f8980e6b38c4033d51a4498f45ac6cfb08f08dd17",
   "ortho-1999-17-80066-26022.png": "340dcf5473f16ee35e564302f2341d41b52c5e633ea33e7b07c28d16070f356a",
   "ortho-1999-17-80066-26023.png": "877c04223b85ae22f8588fbc79b60d4ef5d6dea6270e66b8513ae28a25e7ad36",
   "ortho-1999-17-80066-26024.png": "1326ec3609489b5f36bcee944d7e74545f1ab904e10fd98a5a63a383e9077f86",
@@ -12182,6 +13576,12 @@
   "ortho-1999-17-80066-26031.png": "145877ee63407309777d7c3fc28209e5dfd11868262d6d096742eb0b524db862",
   "ortho-1999-17-80066-26032.png": "6c6364963acf5505422220b086c073115c3c5184453e3b5bf4e2341a368027d2",
   "ortho-1999-17-80066-26033.png": "b5f9bdc9a98ed07695dc92bf2c0eab3355084f0dac4c8c816169d87bf18db7c1",
+  "ortho-1999-17-80066-26038.png": "a5b560ada001f5c5ce06007d3778399ee9600d6ae54f42ef791577cb54d77716",
+  "ortho-1999-17-80066-26039.png": "f3dc3b055aad928854759e6afb79527dd1bc225c67f97d1ba405962189d2a015",
+  "ortho-1999-17-80066-26040.png": "f652370c88a0c7de330e997bbecf52dd30ac581d5b73f9e0dbbf565b1c84f08b",
+  "ortho-1999-17-80066-26041.png": "c8229cd0906dec90f9118334cede557131766e5a6c373677e8b04e0c00c76338",
+  "ortho-1999-17-80066-26042.png": "bd60a59a3563d5d6d2a89b2db6c6eafd4e495c43afba34adea9ca4bff5ebad95",
+  "ortho-1999-17-80066-26043.png": "cc52f15b018919c15ea6f2d91ffec39daa82a2f5956547bce9b18f139e4c4182",
   "ortho-1999-17-80067-26022.png": "a6ac55c7b4caebf47cfa9c3d9c1bf2baf8d1cadc8d30537802bb217bc02c7a97",
   "ortho-1999-17-80067-26023.png": "e5c9daa42789bed361a1594e44d4e4eb48b5ecc740bf970b5006767d6de10298",
   "ortho-1999-17-80067-26024.png": "bde0429eb89bc108d4a4abef95345767ef3c8c33b6f3f46e1b70041ac7df3918",
@@ -12194,6 +13594,12 @@
   "ortho-1999-17-80067-26031.png": "be7f87472b740cb6639da460ea2d97d2f07e2e6a7b5b2a2fd71698bba2c4b37b",
   "ortho-1999-17-80067-26032.png": "8067034dad3a5ac5d8d87fd8687472a868a7771aa15103842ff8c05b1e82dab5",
   "ortho-1999-17-80067-26033.png": "1d269e358a96a78dd59037803f9d68bc6b62ccd1e1c0885a16f7e26e6a118027",
+  "ortho-1999-17-80067-26038.png": "199fcaaa52209e8020211e4a925c0777d743c6a395aa291a79f21fc39012a489",
+  "ortho-1999-17-80067-26039.png": "7770241d54aa8ab717f8646b25d20329d05b49ead80ec3a73afda8ecf3bd85b2",
+  "ortho-1999-17-80067-26040.png": "4b99d080bdc00fcaa12dbc3d3c30200af1a81e5538c88e7ec2903e3f0fb5fc91",
+  "ortho-1999-17-80067-26041.png": "cbcf68c4db17bf0715b9a07aa8b2b2fdc7991a2bed4a8dcef3d64c8862202594",
+  "ortho-1999-17-80067-26042.png": "195ff5e74f1bb08fdf3d86d8fa6af2b44631fc7d630138e56d722ea37e07f409",
+  "ortho-1999-17-80067-26043.png": "54574186679ce170a9d4d25c62022f94e50d2ff6f49c56e6a1c8044bb8c28465",
   "ortho-1999-17-80068-26022.png": "2ba0bff71209e7fa8e3e9f53ddc7e14ccb70c89cb80bc7b3e5882fa105845d21",
   "ortho-1999-17-80068-26023.png": "f84cfc91f18e119a658b0c1dea97adac6c7840455d106f628a717cbe763c090a",
   "ortho-1999-17-80068-26024.png": "14da1d8f3113bcda6ef04b79f52dbae06b5744dfbd870938d1714638094f8c23",
@@ -12206,6 +13612,12 @@
   "ortho-1999-17-80068-26031.png": "05fa4974227245bafde5e1ff418c35e55453e3d816f1de66978ec1326ca039d2",
   "ortho-1999-17-80068-26032.png": "83d12d4374b301ebdccaae5a8eb30e491e1fd22d676d6137b49327c113c9bb85",
   "ortho-1999-17-80068-26033.png": "b1b4f3cc5b4880809cf8b5e02a7749e6139c65f965dcb9ac188bd7515453875e",
+  "ortho-1999-17-80068-26038.png": "7cf0d893c91fb28fec7dd2e3097ea759851f0cac5b33b919405b228366a25bc4",
+  "ortho-1999-17-80068-26039.png": "3722c966f965e56f2d57a82a35600a0fe478128c191efa8e7d596811b6e9894c",
+  "ortho-1999-17-80068-26040.png": "1eff8a09544f7709a27269ebad721b3c5edfb76d289474e93862e3a6c7828886",
+  "ortho-1999-17-80068-26041.png": "c849f54ae51be97e59e009e338a53121e7ca06912c98969a1870d298979d1da0",
+  "ortho-1999-17-80068-26042.png": "cc057c8b72f4e88c7c5049b7969d8ec741ad0d06f1b31bb8b4ddffeb28debeb6",
+  "ortho-1999-17-80068-26043.png": "511f00af089767361696006faa667e7c5a6d1631136bc70596cf6a19d220e621",
   "ortho-1999-17-80069-26022.png": "384574af94fb350dabe89f811a99c896ac47d949975d785224c33b1795f866b9",
   "ortho-1999-17-80069-26023.png": "f210ce2ab776040bea0e523a5b7f5b7d8ea6bd3bee01a76451b23a70c5cff87f",
   "ortho-1999-17-80069-26024.png": "ade4a0e86bff234ac4689cbc772a22fd06a613111dea6088879afbf55ff3d969",
@@ -12218,6 +13630,12 @@
   "ortho-1999-17-80069-26031.png": "48290425c550aea54e5f0312e032b1ed3419155588f802d1ca56126fa96de434",
   "ortho-1999-17-80069-26032.png": "fc0455407d6cb3fe14417e7305b66b7d634541b3fa8079b013e279efedf09eb9",
   "ortho-1999-17-80069-26033.png": "5b001e262ab440921f73d9613e387a3249a20892ae0280c702a29eeb3460dd6b",
+  "ortho-1999-17-80069-26038.png": "61caffcf32b3060fd67af3dbda7448031f87f7dc7f45c390c7804a17e404c556",
+  "ortho-1999-17-80069-26039.png": "ff7b6f1831412b2509c8c4a391f6aec2cec4b820e9e7936ada431dd77bf24481",
+  "ortho-1999-17-80069-26040.png": "2244ca0bb2978b50f3d497e387ab01a5669ff478f2d33e7f2c21202ff111facc",
+  "ortho-1999-17-80069-26041.png": "dc6865554f53e0afefa2656c78bef218f47d78fe21f0767458e286f24b190e99",
+  "ortho-1999-17-80069-26042.png": "f6c6b9cbac27d7eb708d5e145cdbff1fb27a0dc5cb3d0cf4eabb85a9cc80b2b8",
+  "ortho-1999-17-80069-26043.png": "0b3ef7fc9179e6278d43a8fa0e915a77faa45efc2eca693083aafd9828bf9591",
   "ortho-1999-17-80070-26022.png": "9b163cd257c9cfcb8a13935de3e0e641db572922440815603ec7830ced0b97cb",
   "ortho-1999-17-80070-26023.png": "b1795d33fb259d178336b87f0e1d394dbd4c1ddb79e3885a7f5b03bad44bdfaf",
   "ortho-1999-17-80070-26024.png": "a9eea6f175cf1419e3b8d738286f9a90ee65bf1506803903ef563b25995f0093",
@@ -12230,6 +13648,12 @@
   "ortho-1999-17-80070-26031.png": "a9d5a6ae75187b72e990d3618fb1a7155c42fba1dd76ad03cda9b72f47d94772",
   "ortho-1999-17-80070-26032.png": "cd4bf171920b88b5fcf56fcdb832eefd708d8876ed1df95eaf53f7bd1c50e30e",
   "ortho-1999-17-80070-26033.png": "fe335b081e6a6fd9f25941430295e09a8e8313937ab9dbc83ddeab46744d3d8e",
+  "ortho-1999-17-80070-26038.png": "7e90142e161fabbf4e17b1d8d3a4171fc1eb3e279f5314b6ceb46daff36df9f4",
+  "ortho-1999-17-80070-26039.png": "1218f7ac69411f3db9d08419245e6100d7f9940872e6edb92d860b50429c3229",
+  "ortho-1999-17-80070-26040.png": "a330f1276966543638c61998399c2890c57894ea883d06f6fb83aaa01ce348aa",
+  "ortho-1999-17-80070-26041.png": "b55f4be77d9b3dddf9370a69c8ff15c6fa5efad72b85b9ce8a5b3e8a57138bf9",
+  "ortho-1999-17-80070-26042.png": "e4fc3ae60230965dd658a155fa71400de2826f7e7dca3700ac69080a64c48a00",
+  "ortho-1999-17-80070-26043.png": "d213fc10ba446db24188510208acee239eeeb4ea454cb84a215814d35bb06908",
   "ortho-1999-17-80071-26022.png": "41a6216b82cbbdd11601287a8793dcd79aeca2c57ea30eea9b99896c0c173ad5",
   "ortho-1999-17-80071-26023.png": "ddeb8c8996900a93dcd70b714a03f5f0a2a9418a73c8d276f2026fea8af4d603",
   "ortho-1999-17-80071-26024.png": "3d3ae06227a34fb2ab6c14734ddd2288e92b8e8754e68b2150e669e64ea6bb22",
@@ -12269,6 +13693,12 @@
   "ortho-2007-17-80061-26031.png": "80de865d0b4ab931abc08e3f735ae30a5c66379da9ab3f22c8e5b83e79400629",
   "ortho-2007-17-80061-26032.png": "7b11bc93f2b8ae8000d1801e9a5ef3e5e7cfeec59d27fa4499bff0fb94a4fbdc",
   "ortho-2007-17-80061-26033.png": "611f3204f97a5a6df9331ddeec9117d4967d373f4dc21f5181126967eb31e9d9",
+  "ortho-2007-17-80061-26038.png": "c50bcd1a7f45a6fe24c27812b5effa073aebb530c0d31b7bcd3191f13e9de022",
+  "ortho-2007-17-80061-26039.png": "54d233e7a4212d1690f97cc49dbfa45cd6d84c7a110f5415cece2f6ddd2f6b55",
+  "ortho-2007-17-80061-26040.png": "cfb9560aed70a7e4be72fddfb76ac6a57840af0bd5e523cb94aec049b3b7559b",
+  "ortho-2007-17-80061-26041.png": "e477b7eef29fbba0b083ccb3513d9571a7a94fc41bc12b6adaea0d0693718db9",
+  "ortho-2007-17-80061-26042.png": "fee7b38b8642509790bb8f334ccc17c2cb311bbb9416b8bc549109815975c291",
+  "ortho-2007-17-80061-26043.png": "bfd04083a2ae385d474a393be02aa29402e9159c6f18863e8d0dd689c8bbbc87",
   "ortho-2007-17-80062-26022.png": "b6589762414a66f16e9a0a7668b09bb671f65a38886666a783d57b4bd25e291f",
   "ortho-2007-17-80062-26023.png": "52541cbdfd3e35a72da07ba5e083f422712a29ef9dbabb56aea9d91a32c28385",
   "ortho-2007-17-80062-26024.png": "ab5c327495d02176454cc5324b1ed00eb313b71ffab7cead21c662037e4dc18f",
@@ -12281,6 +13711,12 @@
   "ortho-2007-17-80062-26031.png": "9623f78e07a2d80c9ce46944aa1eb1424d4be19361852286d3d4f57def30b1ff",
   "ortho-2007-17-80062-26032.png": "aa187193553579831d28be9012c0c13cf880de704a23059da2d8dd7dbb424941",
   "ortho-2007-17-80062-26033.png": "76509147d5f1e61a489d9f0afdd8b77db6e69f14d99a0156b2ab694526bea8a7",
+  "ortho-2007-17-80062-26038.png": "5698ae62a5b8f0999b93565d2a5656c91ac9f12be5e581e117022b0b72bd4fcb",
+  "ortho-2007-17-80062-26039.png": "8844c29a821aee383443186942ec9b005b575f8783d5273c25b093b972af34ef",
+  "ortho-2007-17-80062-26040.png": "c706c136fe97f2bbafe476ac2ecf7ca5c8ca438d56ad276647915bec4e9dff3b",
+  "ortho-2007-17-80062-26041.png": "0ed575cc20c94d099221fa7d2e74a86aeb33506ffcfbf3a3d589af6a6439f629",
+  "ortho-2007-17-80062-26042.png": "456445dca67ed7e5161a08d2dad8e8060d59a1e8992268e466087584f3934c36",
+  "ortho-2007-17-80062-26043.png": "814dae95cc37e2240b4124c86f5fafab094a603609196c46c742ea5a7dbe2832",
   "ortho-2007-17-80063-26022.png": "2048c2b9a214485b4f3d3780348b5bbf05d1ba065439a2cf89701a63135a4710",
   "ortho-2007-17-80063-26023.png": "6ee581d17b3c30f01306a6a41be4484ff32409b053bc30fe1d72070faa619d7c",
   "ortho-2007-17-80063-26024.png": "ceecf3e5a34e9fff58fe3d3195e7a3be6b089b45ba922d0ccfc0254ba698507c",
@@ -12293,6 +13729,12 @@
   "ortho-2007-17-80063-26031.png": "f9442579a5cf4b2b136fe5fcb6746be86d6af7c2a31201bb0736573e27da1d55",
   "ortho-2007-17-80063-26032.png": "46e8c85b12fa7ab9b87eaab0b5f9c2ce5dc7f2d10267019537db5b947c79bfdd",
   "ortho-2007-17-80063-26033.png": "6c049a2d19a06775da8ddc94dc51abdcc7c70fa5d745dd063d62701acc942512",
+  "ortho-2007-17-80063-26038.png": "f371ef219b7df675e272c61354bfc50568ceb8cf65dab2385da732a9d9f169a7",
+  "ortho-2007-17-80063-26039.png": "d94128f4e26111f63240829f21d63feb4c9ca51cfe072514da45ae36baa7aec8",
+  "ortho-2007-17-80063-26040.png": "0c12068e89133fa3f5a9af1a9093afd870e1acfbf7b15eff648c0d9ebb312f83",
+  "ortho-2007-17-80063-26041.png": "0a8dc3c5b9d07a30778fbfb8efe808d4f33dfed00458f3fb7d41c9e55bb081dd",
+  "ortho-2007-17-80063-26042.png": "152c2228053818f2d03303432a78adbf9b346d0a1288595a36afcfd2d1eef30d",
+  "ortho-2007-17-80063-26043.png": "1bf933a18788fffb2bc0cda8bc24a648cfbed1f8fe86842668469581f8938616",
   "ortho-2007-17-80064-26022.png": "50c3d084b9030fc5a81af1750d4665730b3f96376b6eccdfb76037545c3905e3",
   "ortho-2007-17-80064-26023.png": "151249980618ae52f30c5f6707fa8cb0c65641a08a1058cf0486b43ca68e1316",
   "ortho-2007-17-80064-26024.png": "8d9b9397f3c463593b42135c0e7334d0059ba7d803e6bd546eb006dd62a76e77",
@@ -12305,6 +13747,12 @@
   "ortho-2007-17-80064-26031.png": "a3601b6c934e9004a6ce45375e2af84ff8d8f30273de1335c7fde9300d15ab22",
   "ortho-2007-17-80064-26032.png": "c9796bc4865f86d14dfb74d0acc745f2b4ad2596949adcc24708a0ccca1b3274",
   "ortho-2007-17-80064-26033.png": "c89f2801431f2beabb6e0b937c3ffb79d903f9c4c6fc269674fe1ce07aa77356",
+  "ortho-2007-17-80064-26038.png": "472510dac651dde519ef2eac4b2b70673b63dc071a27fb6827204bad2d6303aa",
+  "ortho-2007-17-80064-26039.png": "c9e05ecf4522faa0330cf352057568dacda5bb91c0484c149c0e91cdb2fa08f2",
+  "ortho-2007-17-80064-26040.png": "24d7566df60e12f344900f12525429ff3eaa9662f7979758210c18de4bbdb705",
+  "ortho-2007-17-80064-26041.png": "c43f3dbe345563fa3d4c984955162b257acdf8e9cb0e72727ee17c69225170a4",
+  "ortho-2007-17-80064-26042.png": "7fa20f30b3ce482e591b5d0a5460114f22c220725d4ad56ba780a9d652c8f381",
+  "ortho-2007-17-80064-26043.png": "d8968da9f4d4cf551e0a9effed5f100864acf0e32256a7d2bfe1fabcb237a8b2",
   "ortho-2007-17-80065-26022.png": "c18e021cc6ac1031ae110918d01357ba9e6dcb88d39b68e0d674515d5c52a210",
   "ortho-2007-17-80065-26023.png": "112b7801dd6bd12551de088a99ca373abf7ecbe1d273150e36d871870c395fe6",
   "ortho-2007-17-80065-26024.png": "2fc6cac574f81fa5dfbabd9695314e288cd51a5df38241b12bb8e921dcfab76c",
@@ -12317,6 +13765,12 @@
   "ortho-2007-17-80065-26031.png": "4cc0646b7f16c73ee890da37008fbfbfb05f8b1aebcfb7c4660f3e1dc1302403",
   "ortho-2007-17-80065-26032.png": "ed9138f6ad1d0bf56af530f04f6ccd65152180cd59fff9c21dcba46a423bcb51",
   "ortho-2007-17-80065-26033.png": "7e584f2902110af70d125763709681bc5ca026cf9d3dab4a2273518d0a7b869f",
+  "ortho-2007-17-80065-26038.png": "bc58f9df530f4ba74508b6a668e84985b477204c3cb90b1895a6abebe1e447d2",
+  "ortho-2007-17-80065-26039.png": "40e5cd8a88197cae09917b87018a912e8410afe8cbb682e3ea4e6a21c442c09b",
+  "ortho-2007-17-80065-26040.png": "c93eaba183ec0befff7425af3cb6dfd51137dd5d3c185d7a41b50c7a5e95f83e",
+  "ortho-2007-17-80065-26041.png": "6436d9f926cb7ec27b7c804a51a2bc30fe4d2d9c3afc0ee501ad19feba5d8ef7",
+  "ortho-2007-17-80065-26042.png": "f8fd77f5968df7379d18ed95c3caf70b76a230284af8973c09f270e758ded1c7",
+  "ortho-2007-17-80065-26043.png": "cc558ef8bfe1f587c1c1be9ac7fd4b2d32a5d1fa518d6ea8705db7fc712d109a",
   "ortho-2007-17-80066-26022.png": "821b5d086d7b53800112ee838e91a3b2939820e2f81d20f3cd7422d1ec16862c",
   "ortho-2007-17-80066-26023.png": "bd658d4e8a95f0e17453b1314840411d33be25dfcd9aed18ecb8299a407f19a9",
   "ortho-2007-17-80066-26024.png": "db0e07f1af8001888ab7505311b620b6384d2320243acc31f5043111200d9881",
@@ -12329,6 +13783,12 @@
   "ortho-2007-17-80066-26031.png": "f2c1d40b953f29a26c3db4987d68f4d94f9a88bcab1e6f32fb16513e4535ef62",
   "ortho-2007-17-80066-26032.png": "2cc9ef66925a1e5f00198d58d83d86b155dc1da085a7c7af61fa2d0df2ea4f51",
   "ortho-2007-17-80066-26033.png": "f7b559884317c50c50b296eba09eae4b512d19854e4e1932bab23fdf04652bf1",
+  "ortho-2007-17-80066-26038.png": "75ab3ee41fa7a26c7631f1c62709740328fe80950a9fea26f4b8e59abb2419c0",
+  "ortho-2007-17-80066-26039.png": "930940d0c2491e7e3be00d0b34eef06f8353640225f59178e23a427f7a8bc640",
+  "ortho-2007-17-80066-26040.png": "c68f3c5f7e9d3602b133b019a811517a8a5a4521c243cc7de7aabb478c1b250f",
+  "ortho-2007-17-80066-26041.png": "6f593150e4b1474bfa5f1eeb2affd7bb3bacb74c269bbb3ba264e62a6c400ce1",
+  "ortho-2007-17-80066-26042.png": "53a893d900a2ad5e97a839f8eb683569675525872ee1e49db71827346399cbaa",
+  "ortho-2007-17-80066-26043.png": "de7833d8dde7778292128453dbe3a1ccb5bc6dc7f6ac10767081c3f50eb57d32",
   "ortho-2007-17-80067-26022.png": "a7c00cd8be93a1f37d7e31e04c649fb759cf25e6971491fbd3fec23a467e8e83",
   "ortho-2007-17-80067-26023.png": "017c06a69995a5c0e6b72b1a3c1759155a33e76ffb77369605600c06c4f625f5",
   "ortho-2007-17-80067-26024.png": "ae4f4f40a6238132cb7cbbec88988ada58be810f9d35351141d70a9330a59c08",
@@ -12341,6 +13801,12 @@
   "ortho-2007-17-80067-26031.png": "78e38df8b05c0606442ab024af05ab4dfea3a1ebaaa6a4d9e5480b497f3d049f",
   "ortho-2007-17-80067-26032.png": "0733119ea31bd46e2a238e041136b28e7575f5a72c88ed44cbf2a3b745bfbc89",
   "ortho-2007-17-80067-26033.png": "c4220ce3a72b68b1d4942621f09117bbcde9e281fffdf611579f65a568528ad3",
+  "ortho-2007-17-80067-26038.png": "431cf6177cccfea54c15a3ef4b88014fb48e6209c4e61ac009922b1ec23d601a",
+  "ortho-2007-17-80067-26039.png": "ccd878543c758ab571712fe4e205329b1d12bd0997346ba31ff81a3ab446e291",
+  "ortho-2007-17-80067-26040.png": "78b22ef60b8ee0416e7f0a5e04b303a8b7f0216b49c9c6cba28b8b80f36a662e",
+  "ortho-2007-17-80067-26041.png": "5098c81455aeafac6bf76f49ef9dc99618a75e9539a45529fe1db2caf776acb0",
+  "ortho-2007-17-80067-26042.png": "f064f7af31adf8943006173a36f8c9fd00bce5abd4714ee895c37a585ea4a46b",
+  "ortho-2007-17-80067-26043.png": "fb0cf5912dd8700c8e010bfdf5c9e9680aefb030861c11c9e91fd3619e6bc48d",
   "ortho-2007-17-80068-26022.png": "f3986b8882a3bc4be9835e13a325f839da8fdfc845ea989363ed830c06e54b0d",
   "ortho-2007-17-80068-26023.png": "b663f0a5079b93143bfefea448f1bb8609cc7dbfab8fab956232aac717e93bd3",
   "ortho-2007-17-80068-26024.png": "cf6e67e530adc347db7f105800854b2ffc6f828e7395bd8801da7aad75ed983b",
@@ -12353,6 +13819,12 @@
   "ortho-2007-17-80068-26031.png": "6da2a0157d7953a2a9ced28a160d6ef6c0c7164552aa43ca67cc5029132bf349",
   "ortho-2007-17-80068-26032.png": "24d79c077255bd5e92603d4af38a2071ef4a4e43625b54f53b95972dac7d28c6",
   "ortho-2007-17-80068-26033.png": "11d4ac37084825fdd007a692e7ec5616dc36cab3de43a61ccc6cb2a980daba77",
+  "ortho-2007-17-80068-26038.png": "2c35459216819ac7cfcb75c2ba6e326eee5ab433a107fda45d77de348b8972cf",
+  "ortho-2007-17-80068-26039.png": "cc925b8ce43d46f7f454cd132a64c87eb026519e002ba547fa458439f03f6056",
+  "ortho-2007-17-80068-26040.png": "0d4583787b291f78657457cbd7f0839e772d58582bec922b7b3e4bdf50057f9a",
+  "ortho-2007-17-80068-26041.png": "5ed7c075896b4df948c6e41b7f9718e150c89226e30f5ad8bb8cbdbaf80fd57f",
+  "ortho-2007-17-80068-26042.png": "3b32cda1d6877cef53d5ec756d027e4e072ca58f000af4a44f087814c1e8328d",
+  "ortho-2007-17-80068-26043.png": "64313207c5d3d34498389e124e2496afc76fd0f39d235d9e227d513b427bb50f",
   "ortho-2007-17-80069-26022.png": "52ae0ff317691b797cb1a814b46ecd171c77db8385ebd8273bedcb6ef5e891c7",
   "ortho-2007-17-80069-26023.png": "bc0aa15e9ee618bfcb028b920a8f786e761184c6838268e0b3247d6276a24ca8",
   "ortho-2007-17-80069-26024.png": "ec47f6e804f6a3bf5ed56a456913e89a2aacf04364f82c5aaefa771596ba8b0f",
@@ -12365,6 +13837,12 @@
   "ortho-2007-17-80069-26031.png": "1903bc52f3feeed088d33829f52650b28e188e154b1a8ebf5ac90ead6e746eb3",
   "ortho-2007-17-80069-26032.png": "b0a23df43ce07d3ae1e600d97557272115b35c334a5d1cba89c02e5c79666316",
   "ortho-2007-17-80069-26033.png": "3d535b411c2561ec6308ec594cc0d7e7824effb4cb68fb16567535eaaf6751de",
+  "ortho-2007-17-80069-26038.png": "54cc8bce24f634dd26ae39fad72f3d8d1a8d22e4ab5f5e9632d82fc9e2021691",
+  "ortho-2007-17-80069-26039.png": "ea07bb38fe8a2ef13418cfc433590fb2f3fa95ed669283f3443e93bbeb416382",
+  "ortho-2007-17-80069-26040.png": "7f518d63c87367bf5eb8a4de9661fee0b4df0835bd431cda7d22c36c28b154dc",
+  "ortho-2007-17-80069-26041.png": "30e24740e781e4e423a00b86b6f28db26288663b7b3a1fb773e2ed6fe848130b",
+  "ortho-2007-17-80069-26042.png": "7265122d551f6cd49207f270a2254978b086343f86abe7e6744a1680ab081fa5",
+  "ortho-2007-17-80069-26043.png": "f8aa906c0e3516b5c5ffd4810b43aad1375b378e44772006314f686f92add378",
   "ortho-2007-17-80070-26022.png": "dddd6cf8973a44162b99e99eb50a8bba4590e75a8414e40aa830d8c80a108950",
   "ortho-2007-17-80070-26023.png": "33857d3c35ff80bf1ba1dac454983bf1a298f1a61ecad5fc7102179043bb4d91",
   "ortho-2007-17-80070-26024.png": "f96fd8205690b8d024a930e3436101f85fc0eb44f135229ce7dc043c4c9a0178",
@@ -12377,6 +13855,12 @@
   "ortho-2007-17-80070-26031.png": "4dfcf88e2c1558650c922184cb0c730e6be46dfe4b693034ae57cf3fd88aa1a9",
   "ortho-2007-17-80070-26032.png": "f863ae4ba2dcf5c953396efee29afa07139c210e907c6370a5fb420944c4b761",
   "ortho-2007-17-80070-26033.png": "f315efaa0b00df90af0c2ae8afd21d7f756e59405a8985ce218d95330682c56c",
+  "ortho-2007-17-80070-26038.png": "4cb1b32e99af7d7088815f7e13805d2e053b162cc1505c154a4c4c8d2293e932",
+  "ortho-2007-17-80070-26039.png": "5464868ff0f4a3ee387571e727adf6e04f94675a33cb8fc36dd27889fbc59249",
+  "ortho-2007-17-80070-26040.png": "baa23d64f6506486d3befe1d992631536f21fa35b8568220ff8c3db47c42074a",
+  "ortho-2007-17-80070-26041.png": "ac0cbbf40ae74985f5f166f804b3027021acce795d0f6e73b52a0d325c36df13",
+  "ortho-2007-17-80070-26042.png": "5ca956d9975e9ef9c0c5bea6e8b8e88fd5a3f23415002159a9a5979a81b92975",
+  "ortho-2007-17-80070-26043.png": "34673ff7a290a30dfcacb9034d3feb8f3e17adcb0b620b7a045338b9359b60c2",
   "ortho-2007-17-80071-26022.png": "f640aab38e44954b51e352748dbaffc8e10dac0253af979a6aae3a51012b74fe",
   "ortho-2007-17-80071-26023.png": "993d9d24def6bcc59401938eec773c235e647f4f96d0f344a936cfe99bcc0525",
   "ortho-2007-17-80071-26024.png": "5579b1e7447b9abebdc31a93a00d2aa661d39bd96cb8f687ee37af163e08668b",
@@ -12416,6 +13900,12 @@
   "ortho-2015-17-80061-26031.png": "c9e97fd568f8c4a97bf6caaab6f085423aaad514ba965120bd9b3e8e10c18a88",
   "ortho-2015-17-80061-26032.png": "d07622e8923e5280a3183be49e0b9e571e9045996471b1bd2513912b1e9286a0",
   "ortho-2015-17-80061-26033.png": "1bdaa885e07ecfd873547af5bc821202651f960c8bcaadac18d661589cd103d9",
+  "ortho-2015-17-80061-26038.png": "d64f26b8303fd069b58ffbbd85702f89ff4e8f9ef1436d68ed3ce48ad6055367",
+  "ortho-2015-17-80061-26039.png": "9f9d8482f9a1b62f48b2a36d991a3454e02a89dd1751ba94f310171af191da78",
+  "ortho-2015-17-80061-26040.png": "52a4951efdc75e4633343c0e20691501e3126d1c1785ba5126d778c13bf57f69",
+  "ortho-2015-17-80061-26041.png": "184bd54a74937c40f807e5f98af854baef48a4f2ff42536e7d05d5854551487a",
+  "ortho-2015-17-80061-26042.png": "ab97adf1bd1f3118024573d5891b3d40e4e874547b099d687029f0c137ed5d05",
+  "ortho-2015-17-80061-26043.png": "15cb051d931dc44addf161c9081dc7826a211dc82f978edf976f4c5d3e06e292",
   "ortho-2015-17-80062-26022.png": "17e0cd4b80ea041ac733de215eb79c648bc0ad5e832a46537f3a5e94754fe4ad",
   "ortho-2015-17-80062-26023.png": "b817d2c70467dfcfb0657a49cced3b9d46e8188b3b5a84a7e3586556871dfe47",
   "ortho-2015-17-80062-26024.png": "9fd7fe2ce6ba678142bf0b8ced21d8ba105b056035fe8d416ad44177663062ae",
@@ -12428,6 +13918,12 @@
   "ortho-2015-17-80062-26031.png": "a4410e9b862f9753f7c5791747b1f81386b42104b15adb4a31f2e441dab4f131",
   "ortho-2015-17-80062-26032.png": "97adcafbf019b5302f25d250d2645121c58b008c280e49e2d65abbfc31859b7d",
   "ortho-2015-17-80062-26033.png": "14b63d47d7d5bcf48b3eac77ab82479dd0e30c08000c20673647bc8ca7d2c3b1",
+  "ortho-2015-17-80062-26038.png": "b6978341a036a6f5a90d14ab0f1acb3ffb8ec5676b3a888d7c476b559c621321",
+  "ortho-2015-17-80062-26039.png": "c088473e7b46f32e80b183dec7eae6ce2028696f93307aec41024bb6415c535b",
+  "ortho-2015-17-80062-26040.png": "fcce9b8236919bc583df77befa265abb98bff12fa82e752d95452886c60afd2c",
+  "ortho-2015-17-80062-26041.png": "8c4ddbc80b7715c186b57f297b3e9a8d27691c5ec7aa7cf055806a68f4aa7a20",
+  "ortho-2015-17-80062-26042.png": "992476836faf0a49f64492e4ce2bee93dfddc7e34b835981ea717da436374093",
+  "ortho-2015-17-80062-26043.png": "73a1bb788e55c34c3e746b8f2364e842f66d807ad96b3b0bd88e3d0af438dbe6",
   "ortho-2015-17-80063-26022.png": "2f87ec8a44bd0724a902b19aa437158ced1ecba3c008e773a13f1d22b3021a23",
   "ortho-2015-17-80063-26023.png": "5c412939c96da5ca3b978784ada33d8a82257294e3cb7d7cd7af40624fc77169",
   "ortho-2015-17-80063-26024.png": "9cab53967ae73cf7fe31461d569ce19d64ba89e776c68b4a1174cb26b8e8c1b3",
@@ -12440,6 +13936,12 @@
   "ortho-2015-17-80063-26031.png": "9588e2d6568f2e6faf544275e1fc573f30c3d6ba4b6053db57f84cc2a49970e5",
   "ortho-2015-17-80063-26032.png": "099361d011e700805fb3adc47c3ba8123879942e1eb23f362d0d4c2e7cb3ccf9",
   "ortho-2015-17-80063-26033.png": "a7349c3b3b9abf78f6ec712c4f010ef89c588596b9d9f74f800e4189b0028ce4",
+  "ortho-2015-17-80063-26038.png": "23103952194ad29bda0a9638745a64f290bbe8b8e9f50d30cd86c21822495824",
+  "ortho-2015-17-80063-26039.png": "e7e0c5a08458eed6b8d0871f5bdf261d2b6f3ed963b6a04621effce1c31a42a9",
+  "ortho-2015-17-80063-26040.png": "85f4861275e1dfb40be386328fc7559337a674c3d370b7387b89acd50d8adc97",
+  "ortho-2015-17-80063-26041.png": "69d3d8f32b731ccdd1544420008008dfbbe40efdb7d6c5295f3e91e2dc6a3e83",
+  "ortho-2015-17-80063-26042.png": "4fd1b115894e4a2baf5d1d4bf12f0aca3f54f8dc5f25d2291a30499e661990f3",
+  "ortho-2015-17-80063-26043.png": "0eeb1b3f852238dd647902501d9313510844f27507d16210fa6233f208bef955",
   "ortho-2015-17-80064-26022.png": "05c5f661e4dbd09ad166b75d8df7f5035531924a3e3f320d7f3bf767032d4a5c",
   "ortho-2015-17-80064-26023.png": "e25e849c6f606cac28989e2514b6ec6123646875ec603f28995ca5fc0cc644ff",
   "ortho-2015-17-80064-26024.png": "191c5b94dde5522c99c8258e8cb4f8fe46ce18d8c4c2d4257d388bfaf182be45",
@@ -12452,6 +13954,12 @@
   "ortho-2015-17-80064-26031.png": "bbb4ff5a10c1b9f200d2484d97354c5084e4ac95f7e3e44ebdf7ff66545f42d5",
   "ortho-2015-17-80064-26032.png": "0aad71dcf3a519ccf5884f67d183156eb706569bf9e4a231f11c37768966c711",
   "ortho-2015-17-80064-26033.png": "984c62c120743035635cf226a2e85afec45c3a6fea814d67fdb687a0a9a68757",
+  "ortho-2015-17-80064-26038.png": "dedb24ccd06f96775dbc37bddbbfd4710d5ecdd3c0990eb6af562092ac5553c0",
+  "ortho-2015-17-80064-26039.png": "d8bba2e5d6b015433f95b8047bb739f527e61e1030dc4d594d998a06cc1c9586",
+  "ortho-2015-17-80064-26040.png": "68ac72361f4c2c4cca23e7ffebc372ca1413009a54b8b0f1d9f813b70641afd8",
+  "ortho-2015-17-80064-26041.png": "5b0b7db03fd07df46c951d3da57c82048f5577854eedaffa30690a0c34000e12",
+  "ortho-2015-17-80064-26042.png": "777a64139c9e2105b57b6e7f8008f7155c685a64ff157115d9a6d30b1b4f42d8",
+  "ortho-2015-17-80064-26043.png": "ba8358d1c4a55a18bbbe89fa17fcbc37f6c1ad2f1434cd1a0a6f2fc8c39611d4",
   "ortho-2015-17-80065-26022.png": "305fcd26a1474cdf824a53ecae7bf42c1e1eee1f69fe2b6bdf8fc48decc651fa",
   "ortho-2015-17-80065-26023.png": "de7aac03027e7e7a853d6b4444acf793ad5ce93ce7845cdf1b2dd0b292be60da",
   "ortho-2015-17-80065-26024.png": "785acb060ef742f960f5cfdda28135d2f6b385091a85b2613a4fb90dbe9898ce",
@@ -12464,6 +13972,12 @@
   "ortho-2015-17-80065-26031.png": "3077802803efaf1e2ac58b226a412d3502d56320c5255899a05005c6b5705a10",
   "ortho-2015-17-80065-26032.png": "bff6185157ab5626d083c5a4cad133e734aee19e0a41a0090a2ff9acf7877a4c",
   "ortho-2015-17-80065-26033.png": "c99cb821e18c633e4ac6f648259066e8271e5f5d2cb059d2981e4183bdf868f8",
+  "ortho-2015-17-80065-26038.png": "20ae619e91eb473b86f17a091a6e0252259d3a8c5fa9228ab35b2f37f226a270",
+  "ortho-2015-17-80065-26039.png": "74941494f8c66a480cc335b7535445ed2811d895eb900c6693920ab1bc2eb15b",
+  "ortho-2015-17-80065-26040.png": "1445c36f09bba0be9aabc5787ad98bfe89b3bc14d9627b7e93db65ff2d45076c",
+  "ortho-2015-17-80065-26041.png": "8a93e9cd96bb0fee2439d0c620920a2e640645d507cef4ea06da83b7e3f04d27",
+  "ortho-2015-17-80065-26042.png": "1718f431388302bcecaf96996806734d3237e36571b0ae199e0ab647d1d27524",
+  "ortho-2015-17-80065-26043.png": "86ff766d9afa57180a3ca82d6baa38e860bcf3a9a50faab7b4b7b13e4d0fef6d",
   "ortho-2015-17-80066-26022.png": "b1fb6039bf3d3a7f6bfe8ae16b67a7019b3a3ce00744e937d8f9fa055c614f5a",
   "ortho-2015-17-80066-26023.png": "12ec4c6cb10e20a0b8b6654114be2b30d5a3da2e4c7b633fabaae4883e0d12b3",
   "ortho-2015-17-80066-26024.png": "9a034d9e47484cdd2ac969600b88f5ce30825cc83e819af7afa616a9c88b9fbe",
@@ -12476,6 +13990,12 @@
   "ortho-2015-17-80066-26031.png": "aa418756b98fb2910b0304a7c508e32423c2ae3992929a464a344062578bed32",
   "ortho-2015-17-80066-26032.png": "18687b9cc0d16c6e8ca617ce0f660f59da7c8d740d9dedb60002782063808aa5",
   "ortho-2015-17-80066-26033.png": "d9865057f6e51e06edd5b583be881d54149076746132c0877bd878d8f4d44344",
+  "ortho-2015-17-80066-26038.png": "fecea584f31e662a818c3c85dc2d5df0f32f7cf93755cd8fdf3113c9536f4b67",
+  "ortho-2015-17-80066-26039.png": "75fdcec2988e2a7beb9ec64d8f98175d08ecdd95e14d85d11ad097fd7acefb48",
+  "ortho-2015-17-80066-26040.png": "cfa8e6d4742b933d76c27d77891f6199acf34cf20f84e729dd2fe30d4e98d187",
+  "ortho-2015-17-80066-26041.png": "5d140b33af2f8932d91c096cf6f2b998c964d84e8b8cc8afff35555cb080b383",
+  "ortho-2015-17-80066-26042.png": "e89c3c80e304c57d60769048bd11efc740de104fcc50a0f71126da7513d813b0",
+  "ortho-2015-17-80066-26043.png": "0dab43eb96a06b5528472a86a55bd378c65e59aba05d503dcf336337e3fe9ba0",
   "ortho-2015-17-80067-26022.png": "e55db5859e5f718580d374530a937d322e33e4cc1df4a2e33e8a172078978d02",
   "ortho-2015-17-80067-26023.png": "70040f60a2bf090f3da08341ed4533eb627818dc711ba11370d2e4e97ead9995",
   "ortho-2015-17-80067-26024.png": "c14a9958c483d9ed971417a3f4940767f59246dbe71235c6f26aa7268fe2867b",
@@ -12488,6 +14008,12 @@
   "ortho-2015-17-80067-26031.png": "4ec57e946c450a27b82a5ff4a3947772fbb4d4af59c6033814d2c9a14c8e5c1c",
   "ortho-2015-17-80067-26032.png": "e5d16758cea09e1ebb92ac088cd72ef6ea3052371feedbd5662f09c4d967cb0f",
   "ortho-2015-17-80067-26033.png": "a9f187a67adde91be13471f7a8f5d9bbd2567bd05946e19487ad2d6ca3dd7dec",
+  "ortho-2015-17-80067-26038.png": "b46a05531c0953011dcd6a19d10ac732b5473d6312ebd310c7de8383c637f3d4",
+  "ortho-2015-17-80067-26039.png": "71d788fa2e3938b7701e11ddbedb7fd26316ee06d93582cd4189a6193de37eed",
+  "ortho-2015-17-80067-26040.png": "ed5a3270d695b7c08893e70c4bccc195968f383fea203a0425fa0bf1694446df",
+  "ortho-2015-17-80067-26041.png": "64dfa74b856a03973445a0314176b28906bc703d2ddbf069666259ee39a1a5bb",
+  "ortho-2015-17-80067-26042.png": "0e7320eb09b5f053a13f3df0ce2c9dd446d2cbd7e7a7a23d7d6ad86644f60d59",
+  "ortho-2015-17-80067-26043.png": "16d7486d8abb1a0322d9c2d85ac8b7c4f7eebb4ca496fee8e4a28842216bf541",
   "ortho-2015-17-80068-26022.png": "3119653383708627c8eefc9b218bc36b85254c202631c2575bac574c696ad413",
   "ortho-2015-17-80068-26023.png": "2754c2277becb73f51feabb75defed85dc547dd4dc47fefe11e6fe680192dd61",
   "ortho-2015-17-80068-26024.png": "5f03cd39d92632574536ca1b633907b3ac79cd8488101f85460abccc0a0c3eba",
@@ -12500,6 +14026,12 @@
   "ortho-2015-17-80068-26031.png": "41dad15e1a86e0fbc99d4dd16d63715d430defc5d878b375d433007ee9185abd",
   "ortho-2015-17-80068-26032.png": "2d91fd54732f87c384fd22fa749957d53e07e6eac06d11f713dd90571da87163",
   "ortho-2015-17-80068-26033.png": "16cb21e997182569ba05c697f9ed5097a30a3bee8cde234963232c9d6a9e6b13",
+  "ortho-2015-17-80068-26038.png": "d7e89b04c6c9a9a53fd9b43068542d2c7c5c3e145b5f541a54eb009f34a9989a",
+  "ortho-2015-17-80068-26039.png": "b530a4d84804cc83e469e922e536e63796eaf25ee0a75342c22aff6d13598c9a",
+  "ortho-2015-17-80068-26040.png": "41889d7fe4ebb83d231fb4b369b212d6d794c55e8f54455e64d84354d18550a3",
+  "ortho-2015-17-80068-26041.png": "db6a1c120891d2dc4294469c7c8b70549ec699af11eeaeee6c01fed5635a1b0b",
+  "ortho-2015-17-80068-26042.png": "90e8547fe7c0df10b0c9ccbd228e1e8b4b7a48571b6fb01f16a6a0626599e748",
+  "ortho-2015-17-80068-26043.png": "3ad0727d603a1b692d5823403761dc1f3fa07139d28f4f825337aa14136a7a3c",
   "ortho-2015-17-80069-26022.png": "5ad60f416ab74cf9094b0d274bd07f48591876f618f6e4b7a1398676e94b611c",
   "ortho-2015-17-80069-26023.png": "c106d5066e26a36ba1a253ee3500cdfee0ca12b6b13031b6175fa2781850d1c7",
   "ortho-2015-17-80069-26024.png": "0f4f58aa95f7b9168a844339956267df9240ad35e1317d7e48e5f9cff3edf773",
@@ -12512,6 +14044,12 @@
   "ortho-2015-17-80069-26031.png": "ae8c4936069481d35e490d44a23fdc7e7d70c331529126a1084da1152218ed7e",
   "ortho-2015-17-80069-26032.png": "dc9d9be913fd1a7046ee19a2deac614d20cebc1571d57ae89d6aef77d0542711",
   "ortho-2015-17-80069-26033.png": "edd1ad1d0717a5894cd423c808644802587d08dce6aded09900ecad3e3443975",
+  "ortho-2015-17-80069-26038.png": "be0c321431441f715a4a2d2f837a2c9ceb5c46d58a030d79d1f0b0f7bbf8a951",
+  "ortho-2015-17-80069-26039.png": "242b9808eac0b09148df7a06c9b17da224fc2c8541f4af2a71cd4f07b6d1deb4",
+  "ortho-2015-17-80069-26040.png": "34fa464cbde65cdc6b3c57c2103ebadd8beb7ab60c2db5d36ed97dd99fe937d8",
+  "ortho-2015-17-80069-26041.png": "7f0a7d0c1afe904ef35f5b7f84a4414ae2d94c48556f63cba91b24047326b45f",
+  "ortho-2015-17-80069-26042.png": "b6e85e70c6d108959d26e8267d1034e55e5e271ded758ef52fdfa1488c69d9a3",
+  "ortho-2015-17-80069-26043.png": "f79ec8ec5dc382b35286677dead22eccdb5a1b64409c0f0e2bf6876dc70aa9b9",
   "ortho-2015-17-80070-26022.png": "bf37532aa5a0e40abb0ba8c1bffc865b6cfc4f0c3c96390a546a3590592f034f",
   "ortho-2015-17-80070-26023.png": "867a8ff10e6ff1e7c668e1253dabf274b36e69c39f6724770da16b5c50f19870",
   "ortho-2015-17-80070-26024.png": "c78393e7ced4c796a6ddc2738172aca868d356677a347b0936d0eb4fbc6defd7",
@@ -12524,6 +14062,12 @@
   "ortho-2015-17-80070-26031.png": "b60eed3277cbf3de9f18ece47f76a2e89d8e7078898ca1b8139ff3c3d1a47927",
   "ortho-2015-17-80070-26032.png": "7cbca5c2cc9b8eec249c8d376bcd019c1c038c8e374435a81b6c580e9c7db322",
   "ortho-2015-17-80070-26033.png": "2eb3f8ed64f7e2a178939130e9e380f671c2882ce55100d3afde4f2f5cdf8817",
+  "ortho-2015-17-80070-26038.png": "7f00299b35f17c887610650f407a0a03f58e1338f0acb7665263540de86703d7",
+  "ortho-2015-17-80070-26039.png": "cc536f86a77f4763c6ebdb73e81729379714560026eeef30219543ef80be0ee1",
+  "ortho-2015-17-80070-26040.png": "50745145a7c86433c375103229cdbe4808d78d2b88cdbd7e15468a28826cf6d9",
+  "ortho-2015-17-80070-26041.png": "7482a06e11fd1ef8f03cf5c66472a004995882e525183027611637e139f9699c",
+  "ortho-2015-17-80070-26042.png": "c06f8de5a893dfee4c699ba3db74840816456ea01383bceca485c421543e90fa",
+  "ortho-2015-17-80070-26043.png": "02636f1aac1adc970e2da1f63a32c2706e62bc2366708fa2d50b86f46484a79b",
   "ortho-2015-17-80071-26022.png": "b8284cefe6cb3c8666f4718d9453053672e0bee6b10425bf9f63cdd3f3400d57",
   "ortho-2015-17-80071-26023.png": "0dc7471ec55439e8f9979144e57ff877b36319070ffb6228e2d46b79c8b8ec80",
   "ortho-2015-17-80071-26024.png": "722cfdea45d88655a1f068d579557f498d4ce5c07d3d3dfd10279811b2c6ee0f",
@@ -12553,17 +14097,18 @@
   "ortho-2015-17-80073-26030.png": "1930ed7255db2c6f62391f8587b75a1a296b191d67dca5b30f5fc34201797374"
  },
  "totals": {
-  "buildings": 351,
+  "buildings": 388,
   "byFirstYear": {
-   "1991": 109,
+   "1991": 121,
    "1999": 29,
-   "2007": 116,
-   "2015": 97
+   "2007": 132,
+   "2015": 106
   },
   "deferred": {
    "below-size": 1,
-   "map-ink": 43,
-   "no-photo-evidence": 323,
+   "curated-review": 14,
+   "map-ink": 48,
+   "no-photo-evidence": 385,
    "not-earlier": 4
   }
  }
