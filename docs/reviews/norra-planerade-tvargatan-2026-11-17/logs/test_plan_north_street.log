@@ -1,7 +1,0 @@
-../Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/city_continuity.py:14: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
-  result = result.symmetric_difference(transform(project, Polygon(ring)).buffer(0))
-..
-----------------------------------------------------------------------
-Ran 4 tests in 41.811s
-
-OK

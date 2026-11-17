@@ -1,7 +1,0 @@
-patching file 'scripts/build_temporal_objects.py'
-patching file 'dist/index.html'
-patching file 'tests/mariehamn-south-streets.test.cjs'
-patch exit 0
-scripts/build_temporal_objects.py identical to working tree
-dist/index.html identical to working tree
-tests/mariehamn-south-streets.test.cjs identical to working tree
