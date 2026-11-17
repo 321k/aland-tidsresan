@@ -1,0 +1,13 @@
+{
+ "snapshotSha256": "a81c3b3477268224b0f22f079d4ad7b2c243ceae72da5cfcfa4e9b4f87fe2271",
+ "catalogueSha256": "f2b10c33eb49a336501671d016f3587540f764ae4ac642ed63668de9593d9f99",
+ "photoReviewSha256": "207df8d65babf33808a70f1a291402882574dba461bef9470e59f53a78c6da10",
+ "vsPreviousPublication": {"baseRelease": "a7d16adc (p7)", "objectIdsUnchanged": true, "changedObjects": 74,
+                           "changedPhotoReview": 70, "changedEqualsP6Decisions": true,
+                           "photoObjectsChangedOnly": ["buildingPhotoReview", "states", "geometryPeriods", "reconstruction"],
+                           "geometriesUnchanged": true,
+                           "otherChangedObjects": ["road:nygatan", "road:mariehamn:major:way-77077157", "road:mariehamn:major:way-1415607776", "road:mariehamn:street-pass5:sjopromenaden-harbour"],
+                           "otherChangedObjectsFrom": "the shore-road review deployed in the same release"},
+ "localAuditBeforeDeploy": "against the p7 release, exactly the 70 p6 buildings changed; geometries and sources unchanged",
+ "modelCheck": "every decision resolves to nothing the year before its first photo and to a standing building in that year (tests/mariehamn-building-photos.test.cjs)"
+}

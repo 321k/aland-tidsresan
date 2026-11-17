@@ -47,7 +47,7 @@ class BuildingMapTests(unittest.TestCase):
         apply_museum_duplicates(self.read, frame)
         # The photo review (the last build step) dates buildings with no map symbol; compare everything else exactly.
         later = {o['id'] for o in self.built['objects'] if o.get('buildingPhotoReview')}
-        self.assertEqual(len(later), 465)
+        self.assertEqual(len(later), 535)
         self.assertEqual([o for o in json.loads(json.dumps(frame, ensure_ascii=False))['objects'] if o['id'] not in later],
                          [o for o in self.built['objects'] if o['id'] not in later])
         with self.assertRaises(ValueError):

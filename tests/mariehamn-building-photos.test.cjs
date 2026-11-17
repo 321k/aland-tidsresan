@@ -8,8 +8,8 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),photos=new Map(read('data/mariehamn-aerial-review.json').sources.map(s=>[s.year,s]));
 
 test('Mariehamn buildings with no map symbol are dated from the 1991–2015 photos',()=>{
- assert.equal(review.decisions.length,465);assert.deepEqual(review.totals.byFirstYear,{1991:156,1999:34,2007:160,2015:115});
- assert.deepEqual(review.totals.deferred,{'below-size':1,'curated-review':15,'map-ink':56,'no-photo-evidence':462,'not-earlier':4});
+ assert.equal(review.decisions.length,535);assert.deepEqual(review.totals.byFirstYear,{1991:195,1999:37,2007:181,2015:122});
+ assert.deepEqual(review.totals.deferred,{'below-size':1,'curated-review':15,'map-ink':60,'no-photo-evidence':563,'not-earlier':4});
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  const maps=read('data/mariehamn-building-maps.json');
  for(const d of review.decisions){assert.ok(maps.deferred.absent.includes(d.objectId),d.objectId);assert.ok(d.areaSquareMeters>=review.minAreaSquareMeters)}

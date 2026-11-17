@@ -1,0 +1,9 @@
+{
+ "deployedAt": "2026-11-16",
+ "cloudflareVersion": "499222f1-b687-4c65-9649-a609092691e9",
+ "baseRelease": "a7d16adc-73c1-4e01-97dc-1c488a0afa94",
+ "deployedWith": "docs/reviews/mariehamn-nygatan-shore-road-2026-11-16 (one release for both batches)",
+ "changedFiles": ["assets/mariehamn-building-photos.json", "assets/temporal-objects.json.gz", "index.html (loader card)"],
+ "liveRecheck2026-11-17": "assets/mariehamn-building-photos.json, assets/temporal-objects.json.gz and index.html on the live site match the 499222f1 release byte for byte",
+ "wrangler": "4.149.0"
+}
