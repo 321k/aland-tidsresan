@@ -1,0 +1,18 @@
+✖ Reviewed roads appear at reviewed dates and keep geometry stable within reviewed phases
+✖ Saltvik modern source fragments are replaced once at every zoom; sheet remainder survives
+✖ a dated building appears in its first map year with its earliest outline and is unchanged later
+✖ a merged house is one object from 1920 with its own outline, the museum evidence and alias, and its later history
+✖ a photo-dated building starts at its first photo with that photo as evidence, keeps its outline and later history
+✖ all named houses and fortress places have persistent identities and independent physical states
+✖ archipelago crossings use their first mapped road evidence and retain stable later geometry
+✖ each street starts at its first reviewed edition and keeps one stable geometry to 2026
+✖ each street starts at its first reviewed edition and keeps one stable geometry to 2026
+✖ every later edition shows the building; only 1985 may be unclear between 1968 and 1995
+✖ excluded objects are not backdated and only reviewed objects carry the 1942 photo
+✖ failing tests:
+✖ follow-up roads start at their first reviewed edition and keep one stable geometry per phase
+✖ objects the 1942 photo shows start in 1942 with their own centre line; later dates are kept
+✖ partial source ownership clips only the reviewed road and preserves clickable remainder and original data
+✖ reviewed farm roads have one clickable line; source ownership follows year and layer visibility
+✖ the city layer draws dated houses in their map years and never before
+✖ the city layer draws photo-dated buildings from their first photo year and never before

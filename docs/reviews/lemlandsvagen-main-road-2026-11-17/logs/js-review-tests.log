@@ -1,0 +1,124 @@
+✔ today's Lemlandsvägen is eight sections that meet end to end; each starts at the first map that draws it (5.324083ms)
+✔ the original object keeps its identity, 1985 start and evidence for the Knutsboda–Dragsvik bypass (3.409458ms)
+✔ in 1929 the main road is the old road: the old pieces join today's unchanged sections (0.704583ms)
+✔ old road pieces stay open until the edition after their last map, then unknown (not abandoned) (0.287958ms)
+✔ Långskata del 2: only its first 300 m are the old road before 1985 (0.190625ms)
+✔ coarse 2014 Södravägen is fully replaced without erasing source history or changing dates (151.896916ms)
+✖ Reviewed roads appear at reviewed dates and keep geometry stable within reviewed phases (28.857459ms)
+✔ Saltvik modern source fragments are replaced once at every zoom; sheet remainder survives (455.906875ms)
+✔ real route changes keep one identity and preserve the older geometry until the evidence boundary (0.964583ms)
+✔ Kavelbro adds the 1978 bypass while the old connected curve stays visible (0.240917ms)
+✔ Haraldsby and Kvarnbovägen change their shared junction together without duplicating objects (550.452666ms)
+✔ Sundsvägen stays connected through Kulla’s realignment; western roads and sheet remainders survive (534.530125ms)
+✔ Gamla Sundsvägen reconnects historically and Kulla branches follow their dated neighbour (435.18825ms)
+✔ 50 km batch preserves dated curves and joins Norra Sundsvägen across map sheets (0.403625ms)
+✔ Sund coastal extensions use their evidence dates and Hultvägen keeps its unreviewed shortcut (518.795583ms)
+✖ archipelago crossings use their first mapped road evidence and retain stable later geometry (0.231167ms)
+✔ renamed Järsö sources share an identity while Geta cycleways remain separate (0.088417ms)
+✔ all named houses and fortress places have persistent identities and independent physical states (5174.758375ms)
+✔ reviewed road observations use a fixed reference line without replacing originals (2850.580625ms)
+✔ a physical rerouting changes geometry at its validity boundary, with the same identity (3298.415167ms)
+✔ missing observations do not demolish an object; missing validity periods remain unknown (3261.126042ms)
+✔ street rendering follows geometry validity even between map snapshot years (4021.94125ms)
+✔ a replacement at the same site has its own identity and explicit relationship (4173.615416ms)
+✔ invalid periods, ambiguous identity links and missing provenance are rejected atomically (3651.538208ms)
+✔ house renderer consumes resolved identity and emits one selectable house through source changes (6053.751708ms)
+✔ OSM metadata is attributed separately and cannot silently replace historical dating (10150.785208ms)
+✔ timeline selection follows a persistent house or road and respects demolition visibility (5752.802542ms)
+✔ relocated houses exist before their current site without acquiring its coordinates (6426.25475ms)
+✔ fortress migration preserves cemeteries, unfinished construction and trace visibility (4421.009209ms)
+✔ Bomarsund comparison buttons retain the selected place when it is still visible (5661.329875ms)
+✔ partial road extents and source gaps never inherit the modern whole segment (2812.331166ms)
+✔ Torggatan keeps the reviewed older bend and its source under one identity (3527.341833ms)
+✔ a known road remains selected through unknown coverage without creating a map feature (3366.024417ms)
+✔ source aliases preserve changed labels and several old records within one identity (4108.54675ms)
+✔ invalid coverage cannot replace a working catalogue (20051.653375ms)
+✔ Österleden uses historical evidence before OSM without inventing construction geometry (3439.636666ms)
+✔ independently dated roads draw once across snapshot boundaries and retain selection (6484.476ms)
+✔ printed-map houses use a trusted footprint while retaining dated original observations (4563.588125ms)
+✔ the separate Styrmansgatan extension has map evidence from 1978, never an invented opening year (3331.169959ms)
+✔ postwar area coverage preserves roofs until individual building coverage is available (4553.015792ms)
+✔ source boundaries never retire provisional buildings or change their identities (3764.660458ms)
+✔ new street identities keep their positions from reviewed 1968 evidence through modern snapshots (3924.864334ms)
+✔ last-known symbols and built-up areas retain their inspector through source gaps without claiming demolition (3579.627834ms)
+✔ invalid postwar stage coverage or identity cannot replace a working catalogue (22513.871583ms)
+✔ reviewed duplicate source identities resolve to one roof through all their source years (6677.484292ms)
+✔ a compound source keeps a selectable history but renders only its two physical buildings (6543.448875ms)
+✔ reviewed external duplicate ways are owned once by the persistent roof layer (6120.544459ms)
+✔ all 2013 properties survive the 2014 boundary with stable identity and appearance (4764.403042ms)
+✔ linked properties consume source records and preserve selection in both timeline directions (4329.772791ms)
+✔ unreviewed later buildings are not backdated and reviewed groups retain all their roofs (3961.981792ms)
+✔ invalid property observation dates cannot replace the current model (7994.285958ms)
+✔ source gaps use the same solid building style in both years (3641.041583ms)
+✔ explicit date estimates allow earlier geometry without inventing observations (9650.923208ms)
+✔ archived mapping dates remove the 2013–2014 building coverage discontinuity (4535.973ms)
+✔ reviewed replacements retire old roofs while preserving their inspectable identities and traces (5704.928083ms)
+✔ Telegrafen construction is distinct from the finished gallery and preserves the old exchange (3948.379708ms)
+✔ merged historical symbols and OSM aliases select a single persistent group (17990.835292ms)
+✔ large landmark roofs remain fixed through every source boundary (8514.839ms)
+✔ museum properties replace coarse symbols once and survive source coverage changes (10298.330333ms)
+✔ museum replacements have separate identities and explicit demolition traces (6201.462625ms)
+✔ museum yards are independent selectable sites and never become roofs (3866.3785ms)
+✔ founding streets change from proposal to inferred use in 1861 without resetting their identities (4586.282917ms)
+✔ Esplanad source traces are preserved but replaced once in the interpreted map (3174.375084ms)
+✔ Norra Esplanadgatan crosses the future church site until the interpreted 1927 closure (3637.471458ms)
+✔ the western Esplanad junction stays connected and consumes its modern cycleway once (3775.608959ms)
+✔ follow-up identities resolve old links and photographed endings control real roofs (7680.81675ms)
+✔ museum street alignment keeps source links on one physical object across time (3677.243458ms)
+✔ connected buildings share identities while photographed extensions replace older neighbours (6992.509ms)
+✔ Sitkoff neighbourhood roofs remain fixed across the 2020–2021 source boundary (5407.73325ms)
+✔ the resolved 1860 plan has stable roads and parks, all visibly planned, before opening in 1861 (2790.465875ms)
+✔ city blocks have one fill in every year: plans and built-up areas differ only by their outline (4256.908083ms)
+✔ Hindersböle gård, Berggård and the fox farms are point-only places that end at their documented or photographed end (4991.075417ms)
+ℹ tests 72
+ℹ suites 0
+ℹ pass 70
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 324840.783667
+
+✖ failing tests:
+
+test at tests/qgis-roads.test.cjs:27:1
+✖ Reviewed roads appear at reviewed dates and keep geometry stable within reviewed phases (28.857459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'open' !== 'unknown'
+  
+      at TestContext.<anonymous> (/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/qgis-roads.test.cjs:32:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:358:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'open',
+    expected: 'unknown',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/qgis-roads.test.cjs:181:1
+✖ archipelago crossings use their first mapped road evidence and retain stable later geometry (0.231167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'open' !== 'unknown'
+  
+      at TestContext.<anonymous> (/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/qgis-roads.test.cjs:184:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'open',
+    expected: 'unknown',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

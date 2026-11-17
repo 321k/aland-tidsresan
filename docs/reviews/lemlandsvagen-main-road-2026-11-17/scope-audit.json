@@ -1,0 +1,50 @@
+{
+ "objects": {
+  "added": [
+   "road:lemland:gamla-lemlandsvagen:johans",
+   "road:lemland:gamla-lemlandsvagen:mangard-soderby",
+   "road:lemland:gamla-lemlandsvagen:ovre-bors-ostergard",
+   "road:lemland:gamla-lemlandsvagen:tomtebo-solstrand",
+   "road:lemland:lemlandsvagen:askelund-lemstrom",
+   "road:lemland:lemlandsvagen:dragsvik-johans",
+   "road:lemland:lemlandsvagen:johans-lindebo",
+   "road:lemland:lemlandsvagen:kalmarnas-askelund",
+   "road:lemland:lemlandsvagen:lindebo-kyrkby",
+   "road:lemland:lemlandsvagen:solstrand-knutsboda",
+   "road:lemland:lemlandsvagen:tomtebo-solstrand"
+  ],
+  "removed": [],
+  "changed": [
+   "road:qgis:mariehamn:langskata-2-100km3",
+   "road:qgis:mariehamn:lemlandsvagen-1-100km3"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:lemland:gamla-lemlandsvagen:johans",
+   "geometry:lemland:gamla-lemlandsvagen:mangard-soderby",
+   "geometry:lemland:gamla-lemlandsvagen:ovre-bors-ostergard",
+   "geometry:lemland:gamla-lemlandsvagen:tomtebo-solstrand",
+   "geometry:lemlandsvagen-main:a",
+   "geometry:lemlandsvagen-main:b",
+   "geometry:lemlandsvagen-main:c",
+   "geometry:lemlandsvagen-main:d",
+   "geometry:lemlandsvagen-main:e",
+   "geometry:lemlandsvagen-main:f1",
+   "geometry:lemlandsvagen-main:f2",
+   "geometry:lemlandsvagen-main:f3"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "nls:92062c61-d68d-43ef-b581-e9bdcdc8e0ba",
+   "review:lemlandsvagen-main-road"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStagesChanged": false,
+ "beforeSha256": "70b5a6a31e5b60ee2defd0e7ccff970ec08b5cfaa21da5c056bf59e670140d6c"
+}

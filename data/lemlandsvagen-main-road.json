@@ -1,0 +1,2379 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-17",
+ "source": {
+  "id": "review:lemlandsvagen-main-road",
+  "title": "Lemlandsvägen på de tidiga kartorna · granskning",
+  "url": "assets/lemlandsvagen-main-road.json"
+ },
+ "method": "Dagens Lemlandsvägen (del 1) jämfördes för hand med Senatens kartverk 1917, sockenkartorna 1929 och 1948 och grundkartorna 1968, 1978 och 1985. Den gamla vägen spårades på sockenkartan 1929 mellan handplacerade stödpunkter. På sträckor där gammal och ny väg sammanfaller ligger 1929 års väg 3–25 m från dagens mittlinje; avvikelser på 30–340 m med annan form räknas som annan väg. Grundkartorna 1968 och 1978 ligger 30–60 m fel i Lemland och används bara för vilka vägar som finns och deras inbördes läge. Kartår är belägg, inte byggår.",
+ "sources": [
+  {
+   "id": "nls:92062c61-d68d-43ef-b581-e9bdcdc8e0ba",
+   "title": "Senatens kartverk · Maarianhamina (V–VI 5–7) · 1917",
+   "url": "https://astia.narc.fi/uusiastia/ws/getFile.php?fileId=5729498678&aineistoId=2388132142",
+   "issuedAt": "1917",
+   "viewer": "https://vanhatkartat.fi/?map=92062c61-d68d-43ef-b581-e9bdcdc8e0ba"
+  }
+ ],
+ "maps": {
+  "1917": "nls:92062c61-d68d-43ef-b581-e9bdcdc8e0ba",
+  "1929": "nls:9c76c492-0456-43c6-9478-b2aa0034b26c",
+  "1948": "nls:9c72a694-1238-40a8-a8ca-33c754332810",
+  "1968": "nls:101208:1968",
+  "1978": "nls:101208:1978",
+  "1985": "nls:101208:1985"
+ },
+ "target": {
+  "objectId": "road:qgis:mariehamn:lemlandsvagen-1-100km3",
+  "inputHash": "42300854d64482b1402d4b2a35b4fb407429526bc609d71d2f275e358d87241c",
+  "geometryId": "geometry:qgis:9830280cd4d79108d86b",
+  "geometryHash": "a5b724c4e97ba774182b0f04ea326ebf77755931228c4d80ccf9e11ca876775e",
+  "lengthMeters": 10619.81
+ },
+ "boundaries": {
+  "askelund": 1526.0,
+  "kanal": 3276.0,
+  "solstrand": 4930.0,
+  "knutsboda": 6290.0,
+  "dragsvik": 7250.0,
+  "johans": 8060.0,
+  "lindebo": 8233.0
+ },
+ "sections": [
+  {
+   "part": "A",
+   "id": "road:lemland:lemlandsvagen:kalmarnas-askelund",
+   "name": "Lemlandsvägen · Kalmarnäs–Askelund",
+   "range": [
+    0,
+    1526.0
+   ],
+   "firstYear": 1968,
+   "maps": {
+    "1917": "absent",
+    "1929": "absent",
+    "1948": "absent",
+    "1968": "present",
+    "1978": "present",
+    "1985": "present"
+   },
+   "basis": "Den raka vägen från Kalmarnäs till Askelund saknas på sockenkartorna 1929 och 1948; den gamla vägen kom norrifrån längs Önningebyvägen till Askelund. Grundkartan 1968 är första karta som ritar dagens sträcka."
+  },
+  {
+   "part": "B",
+   "id": "road:lemland:lemlandsvagen:askelund-lemstrom",
+   "name": "Lemlandsvägen · Askelund–Lemströms kanal",
+   "range": [
+    1526.0,
+    3276.0
+   ],
+   "firstYear": 1917,
+   "maps": {
+    "1917": "present",
+    "1929": "present",
+    "1948": "present",
+    "1968": "present",
+    "1978": "present",
+    "1985": "present"
+   },
+   "basis": "Samma väg på alla kartor från Senatens kartverk 1917. På sockenkartan 1929 ligger vägen 3–10 m från dagens mittlinje vid Askelund och Björkelund och 15–30 m österut närmast norr om kanalen, där den går över bron på samma ställe som i dag. Avvikelsen kan vara kartbladets fel och räcker inte för att skilja ut en annan väg."
+  },
+  {
+   "part": "C",
+   "id": "road:lemland:lemlandsvagen:tomtebo-solstrand",
+   "name": "Lemlandsvägen · Tomtebo–Solstrand",
+   "range": [
+    3276.0,
+    4930.0
+   ],
+   "firstYear": 1968,
+   "maps": {
+    "1917": "unclear",
+    "1929": "absent",
+    "1948": "absent",
+    "1968": "present",
+    "1978": "present",
+    "1985": "present"
+   },
+   "basis": "Ny sträckning väster om den gamla strandvägen. Sockenkartorna 1929 och 1948 ritar vägen från kanalbron österut förbi Tomtebo och längs stranden, 15–90 m från dagens mittlinje; den rör dagens väg bara vid Strömsnäs och vid Långbrinken. Grundkartan 1968 ritar huvudvägen här och den gamla vägen som mindre väg bredvid. Kartbladet 1968 ligger 30–60 m fel här, så bara vägarnas inbördes läge används."
+  },
+  {
+   "part": "D",
+   "id": "road:lemland:lemlandsvagen:solstrand-knutsboda",
+   "name": "Lemlandsvägen · Solstrand–Knutsboda",
+   "range": [
+    4930.0,
+    6290.0
+   ],
+   "firstYear": 1917,
+   "maps": {
+    "1917": "present",
+    "1929": "present",
+    "1948": "present",
+    "1968": "present",
+    "1978": "present",
+    "1985": "present"
+   },
+   "basis": "Samma väg på alla kartor från Senatens kartverk 1917. Sockenkartan 1929 ritar den 5–22 m öster om dagens mittlinje (medianer per 150 m), i samma form; det är kartbladets fel, inte en flytt."
+  },
+  {
+   "part": "F1",
+   "id": "road:lemland:lemlandsvagen:dragsvik-johans",
+   "name": "Lemlandsvägen · Dragsvik–Johans",
+   "range": [
+    7250.0,
+    8060.0
+   ],
+   "firstYear": 1968,
+   "maps": {
+    "1917": "unclear",
+    "1929": "absent",
+    "1948": "absent",
+    "1968": "present",
+    "1978": "present",
+    "1985": "present"
+   },
+   "basis": "Förbifarten norr om Johans. Sockenkartorna 1929 och 1948 ritar vägen söderut förbi Johans; grundkartan 1968 är första karta med dagens raka sträcka."
+  },
+  {
+   "part": "F2",
+   "id": "road:lemland:lemlandsvagen:johans-lindebo",
+   "name": "Lemlandsvägen · vid Lindebo",
+   "range": [
+    8060.0,
+    8233.0
+   ],
+   "firstYear": 1917,
+   "maps": {
+    "1917": "present",
+    "1929": "present",
+    "1948": "present",
+    "1968": "present",
+    "1978": "present",
+    "1985": "present"
+   },
+   "basis": "En kort bit där förbifarten följer den gamla vägen; sockenkartan 1929 ritar vägen inom 5 m från dagens mittlinje."
+  },
+  {
+   "part": "F3",
+   "id": "road:lemland:lemlandsvagen:lindebo-kyrkby",
+   "name": "Lemlandsvägen · Lindebo–kyrkbyn",
+   "range": [
+    8233.0,
+    10619.814929378046
+   ],
+   "firstYear": 1968,
+   "maps": {
+    "1917": "absent",
+    "1929": "absent",
+    "1948": "absent",
+    "1968": "present",
+    "1978": "present",
+    "1985": "present"
+   },
+   "basis": "Förbifarten söder om Lindebo, Mangård och Söderby. Sockenkartorna 1929 och 1948 ritar den gamla vägen 100–340 m norrut genom byarna; grundkartan 1968 är första karta med dagens raka sträcka."
+  }
+ ],
+ "remainder": {
+  "part": "E",
+  "range": [
+   6290.0,
+   7250.0
+  ],
+  "name": "Lemlandsvägen · Knutsboda–Dragsvik",
+  "firstYear": 1985,
+  "maps": {
+   "1917": "unclear",
+   "1929": "absent",
+   "1948": "absent",
+   "1968": "absent",
+   "1978": "unclear",
+   "1985": "present"
+  },
+  "basis": "Förbifarten öster om Övre-Börs. Grundkartorna 1968 och 1978 ritar huvudvägen genom Övre-Börs; 1978 syns dagens sträckning bara som ett ljust rött band (byggs eller planeras). Grundkartan 1985 är första karta med vägen."
+ },
+ "sourceLinks": {
+  "A": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/1183971786",
+    "sourceVertexRange": [
+     0.0,
+     3.00458998
+    ],
+    "sourceVertexCount": 27
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/146899083",
+    "sourceVertexRange": [
+     0.0,
+     30.0
+    ],
+    "sourceVertexCount": 31
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/376582763",
+    "sourceVertexRange": [
+     0.0,
+     3.0
+    ],
+    "sourceVertexCount": 4
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/376582775",
+    "sourceVertexRange": [
+     0.0,
+     3.0
+    ],
+    "sourceVertexCount": 4
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-146899078",
+    "sourceVertexRange": [
+     0.0,
+     4.03574022
+    ],
+    "sourceVertexCount": 16
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-146899081",
+    "sourceVertexRange": [
+     3.1559226,
+     5.0
+    ],
+    "sourceVertexCount": 6
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-146899083",
+    "sourceVertexRange": [
+     0.0,
+     13.0
+    ],
+    "sourceVertexCount": 14
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-146899078",
+    "sourceVertexRange": [
+     0.0,
+     5.00458998
+    ],
+    "sourceVertexCount": 28
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-146899083",
+    "sourceVertexRange": [
+     0.0,
+     23.0
+    ],
+    "sourceVertexCount": 24
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-376582763",
+    "sourceVertexRange": [
+     0.0,
+     2.0
+    ],
+    "sourceVertexCount": 3
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-376582775",
+    "sourceVertexRange": [
+     0.18987506,
+     2.0
+    ],
+    "sourceVertexCount": 3
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-146899078",
+    "sourceVertexRange": [
+     0.0,
+     0.00458998
+    ],
+    "sourceVertexCount": 24
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-146899083",
+    "sourceVertexRange": [
+     0.0,
+     29.0
+    ],
+    "sourceVertexCount": 30
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-376582763",
+    "sourceVertexRange": [
+     0.0,
+     3.0
+    ],
+    "sourceVertexCount": 4
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-376582775",
+    "sourceVertexRange": [
+     0.0,
+     3.0
+    ],
+    "sourceVertexCount": 4
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-376582779",
+    "sourceVertexRange": [
+     0.0,
+     2.15920189
+    ],
+    "sourceVertexCount": 4
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-1183971786",
+    "sourceVertexRange": [
+     0.0,
+     5.0
+    ],
+    "sourceVertexCount": 6
+   }
+  ],
+  "B": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/34675045",
+    "sourceVertexRange": [
+     0.0,
+     0.47539804
+    ],
+    "sourceVertexCount": 2
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/1304456854",
+    "sourceVertexRange": [
+     0.0,
+     8.0
+    ],
+    "sourceVertexCount": 9
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/1304456853",
+    "sourceVertexRange": [
+     0.0,
+     8.0
+    ],
+    "sourceVertexCount": 9
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/165234933",
+    "sourceVertexRange": [
+     0.0,
+     41.0
+    ],
+    "sourceVertexCount": 42
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/1183971786",
+    "sourceVertexRange": [
+     3.00458998,
+     26.0
+    ],
+    "sourceVertexCount": 27
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-34675045",
+    "sourceVertexRange": [
+     0.0,
+     0.47069127
+    ],
+    "sourceVertexCount": 2
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-146899078",
+    "sourceVertexRange": [
+     4.03574022,
+     15.0
+    ],
+    "sourceVertexCount": 16
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-165234933",
+    "sourceVertexRange": [
+     0.0,
+     18.0
+    ],
+    "sourceVertexCount": 19
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-34675045",
+    "sourceVertexRange": [
+     0.0,
+     0.42553571
+    ],
+    "sourceVertexCount": 2
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-146899078",
+    "sourceVertexRange": [
+     5.00458998,
+     27.0
+    ],
+    "sourceVertexCount": 28
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-165234933",
+    "sourceVertexRange": [
+     0.0,
+     52.0
+    ],
+    "sourceVertexCount": 53
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-34675045",
+    "sourceVertexRange": [
+     0.0,
+     0.47539804
+    ],
+    "sourceVertexCount": 2
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-146899078",
+    "sourceVertexRange": [
+     0.00458998,
+     23.0
+    ],
+    "sourceVertexCount": 24
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-165234933",
+    "sourceVertexRange": [
+     0.0,
+     41.0
+    ],
+    "sourceVertexCount": 42
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-1304456853",
+    "sourceVertexRange": [
+     0.0,
+     8.0
+    ],
+    "sourceVertexCount": 9
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-1304456854",
+    "sourceVertexRange": [
+     0.0,
+     8.0
+    ],
+    "sourceVertexCount": 9
+   }
+  ],
+  "C": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/34675045",
+    "sourceVertexRange": [
+     0.47539804,
+     1.0
+    ],
+    "sourceVertexCount": 2
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/1304456855",
+    "sourceVertexRange": [
+     0.0,
+     8.0
+    ],
+    "sourceVertexCount": 9
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/1304456857",
+    "sourceVertexRange": [
+     0.0,
+     14.0
+    ],
+    "sourceVertexCount": 15
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/1304456856",
+    "sourceVertexRange": [
+     0.0,
+     3.0
+    ],
+    "sourceVertexCount": 4
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/34717769",
+    "sourceVertexRange": [
+     0.0,
+     33.83816337
+    ],
+    "sourceVertexCount": 108
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-34675045",
+    "sourceVertexRange": [
+     0.47069127,
+     1.0
+    ],
+    "sourceVertexCount": 2
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-34717769",
+    "sourceVertexRange": [
+     0.0,
+     20.83816337
+    ],
+    "sourceVertexCount": 55
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-34675045",
+    "sourceVertexRange": [
+     0.42553571,
+     1.0
+    ],
+    "sourceVertexCount": 2
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-34717769",
+    "sourceVertexRange": [
+     0.0,
+     50.83816337
+    ],
+    "sourceVertexCount": 115
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-34675045",
+    "sourceVertexRange": [
+     0.47539804,
+     1.0
+    ],
+    "sourceVertexCount": 2
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-34717769",
+    "sourceVertexRange": [
+     0.0,
+     33.83816337
+    ],
+    "sourceVertexCount": 108
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-1304456855",
+    "sourceVertexRange": [
+     0.0,
+     8.0
+    ],
+    "sourceVertexCount": 9
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-1304456856",
+    "sourceVertexRange": [
+     0.0,
+     3.0
+    ],
+    "sourceVertexCount": 4
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-1304456857",
+    "sourceVertexRange": [
+     0.0,
+     14.0
+    ],
+    "sourceVertexCount": 15
+   }
+  ],
+  "D": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/34717769",
+    "sourceVertexRange": [
+     33.83816337,
+     59.62850486
+    ],
+    "sourceVertexCount": 108
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-34717769",
+    "sourceVertexRange": [
+     20.83816337,
+     29.92103228
+    ],
+    "sourceVertexCount": 55
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-34717769",
+    "sourceVertexRange": [
+     50.83816337,
+     73.62850486
+    ],
+    "sourceVertexCount": 115
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-34717769",
+    "sourceVertexRange": [
+     33.83816337,
+     59.62850486
+    ],
+    "sourceVertexCount": 108
+   }
+  ],
+  "E": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/34717769",
+    "sourceVertexRange": [
+     59.62850486,
+     76.15321702
+    ],
+    "sourceVertexCount": 108
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-34717769",
+    "sourceVertexRange": [
+     29.92103228,
+     37.04806711
+    ],
+    "sourceVertexCount": 55
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-34717769",
+    "sourceVertexRange": [
+     73.62850486,
+     86.15321702
+    ],
+    "sourceVertexCount": 115
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-34717769",
+    "sourceVertexRange": [
+     59.62850486,
+     76.15321702
+    ],
+    "sourceVertexCount": 108
+   }
+  ],
+  "F1": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/34717769",
+    "sourceVertexRange": [
+     76.15321702,
+     91.82262297
+    ],
+    "sourceVertexCount": 108
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-34717769",
+    "sourceVertexRange": [
+     37.04806711,
+     44.21267165
+    ],
+    "sourceVertexCount": 55
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-34717769",
+    "sourceVertexRange": [
+     86.15321702,
+     100.35784026
+    ],
+    "sourceVertexCount": 115
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-34717769",
+    "sourceVertexRange": [
+     76.15321702,
+     91.82262297
+    ],
+    "sourceVertexCount": 108
+   }
+  ],
+  "F2": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/34717769",
+    "sourceVertexRange": [
+     91.82262297,
+     92.99790241
+    ],
+    "sourceVertexCount": 108
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-34717769",
+    "sourceVertexRange": [
+     44.21267165,
+     44.55768471
+    ],
+    "sourceVertexCount": 55
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-34717769",
+    "sourceVertexRange": [
+     100.35784026,
+     100.99198227
+    ],
+    "sourceVertexCount": 115
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-34717769",
+    "sourceVertexRange": [
+     91.82262297,
+     92.99790241
+    ],
+    "sourceVertexCount": 108
+   }
+  ],
+  "F3": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/34717769",
+    "sourceVertexRange": [
+     92.99790241,
+     107.0
+    ],
+    "sourceVertexCount": 108
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/611965364",
+    "sourceVertexRange": [
+     0.0,
+     8.0
+    ],
+    "sourceVertexCount": 9
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/179382605",
+    "sourceVertexRange": [
+     0.0,
+     17.0
+    ],
+    "sourceVertexCount": 18
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/517316425",
+    "sourceVertexRange": [
+     0.0,
+     2.4513425
+    ],
+    "sourceVertexCount": 5
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-34717769",
+    "sourceVertexRange": [
+     44.55768471,
+     54.0
+    ],
+    "sourceVertexCount": 55
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-179382605",
+    "sourceVertexRange": [
+     0.0,
+     7.28952978
+    ],
+    "sourceVertexCount": 71
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-34717769",
+    "sourceVertexRange": [
+     100.99198227,
+     114.0
+    ],
+    "sourceVertexCount": 115
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-179382605",
+    "sourceVertexRange": [
+     0.0,
+     14.0
+    ],
+    "sourceVertexCount": 15
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-517316425",
+    "sourceVertexRange": [
+     0.0,
+     2.45134195
+    ],
+    "sourceVertexCount": 5
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-611965364",
+    "sourceVertexRange": [
+     0.0,
+     6.0
+    ],
+    "sourceVertexCount": 7
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-34717769",
+    "sourceVertexRange": [
+     92.99790241,
+     107.0
+    ],
+    "sourceVertexCount": 108
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-179382605",
+    "sourceVertexRange": [
+     0.0,
+     14.0
+    ],
+    "sourceVertexCount": 15
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-517316425",
+    "sourceVertexRange": [
+     0.0,
+     2.45134195
+    ],
+    "sourceVertexCount": 5
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-611965364",
+    "sourceVertexRange": [
+     0.0,
+     8.0
+    ],
+    "sourceVertexCount": 9
+   }
+  ]
+ },
+ "oldRoad": {
+  "routeId": "road:Gamla Lemlandsvägen",
+  "modernRoadClass": "secondary",
+  "roadWidth": 3,
+  "firstYear": 1917,
+  "objects": [
+   {
+    "id": "road:lemland:gamla-lemlandsvagen:tomtebo-solstrand",
+    "name": "Gamla Lemlandsvägen · Tomtebo–Solstrand",
+    "basis": "Den gamla vägen från kanalbron förbi Tomtebo och längs stranden vid Strömsnäs, Långbrinken och Solstrand, öster om dagens väg. Grundkartorna 1968 och 1978 ritar den som mindre väg bredvid den nya huvudvägen; 1985 är den inte säker.",
+    "traceId": "stromsnas",
+    "traceRange": [
+     198.0,
+     2058.0
+    ],
+    "startsOn": null,
+    "todayRange": [
+     3276.0,
+     4930.0
+    ],
+    "endSnapMeters": [
+     20.1,
+     3.2
+    ],
+    "maps": {
+     "1917": "present",
+     "1929": "present",
+     "1948": "present",
+     "1968": "present",
+     "1978": "present",
+     "1985": "unclear"
+    },
+    "lastPresent": 1978,
+    "path": [
+     [
+      20.0155678,
+      60.0967254
+     ],
+     [
+      20.0159263,
+      60.0967054
+     ],
+     [
+      20.0159064,
+      60.0966166
+     ],
+     [
+      20.0159229,
+      60.0964142
+     ],
+     [
+      20.016012,
+      60.0963632
+     ],
+     [
+      20.0161671,
+      60.0963336
+     ],
+     [
+      20.0168109,
+      60.0962941
+     ],
+     [
+      20.0172137,
+      60.0963104
+     ],
+     [
+      20.0173028,
+      60.096294
+     ],
+     [
+      20.0173458,
+      60.0962677
+     ],
+     [
+      20.0173853,
+      60.096215
+     ],
+     [
+      20.0173754,
+      60.0961706
+     ],
+     [
+      20.0172103,
+      60.0960504
+     ],
+     [
+      20.0171873,
+      60.0959961
+     ],
+     [
+      20.0173325,
+      60.0955896
+     ],
+     [
+      20.017382,
+      60.0955139
+     ],
+     [
+      20.0174514,
+      60.0954744
+     ],
+     [
+      20.0177485,
+      60.09543
+     ],
+     [
+      20.0178541,
+      60.0953707
+     ],
+     [
+      20.0178936,
+      60.0952901
+     ],
+     [
+      20.0178871,
+      60.0948622
+     ],
+     [
+      20.0179796,
+      60.0947569
+     ],
+     [
+      20.0180983,
+      60.0947025
+     ],
+     [
+      20.0182272,
+      60.094668
+     ],
+     [
+      20.0186562,
+      60.0946745
+     ],
+     [
+      20.018828,
+      60.0946548
+     ],
+     [
+      20.0192571,
+      60.0945363
+     ],
+     [
+      20.0197852,
+      60.0943487
+     ],
+     [
+      20.020287,
+      60.0942664
+     ],
+     [
+      20.0208449,
+      60.0941281
+     ],
+     [
+      20.0213402,
+      60.0940425
+     ],
+     [
+      20.0217198,
+      60.0938977
+     ],
+     [
+      20.0222149,
+      60.0938466
+     ],
+     [
+      20.0224329,
+      60.0938039
+     ],
+     [
+      20.0225252,
+      60.0937693
+     ],
+     [
+      20.0226242,
+      60.0937002
+     ],
+     [
+      20.0226836,
+      60.093557
+     ],
+     [
+      20.0227366,
+      60.0935076
+     ],
+     [
+      20.0231789,
+      60.0933166
+     ],
+     [
+      20.0234198,
+      60.0931505
+     ],
+     [
+      20.023552,
+      60.0930006
+     ],
+     [
+      20.0238193,
+      60.0925694
+     ],
+     [
+      20.0239183,
+      60.0923374
+     ],
+     [
+      20.0240834,
+      60.0920789
+     ],
+     [
+      20.0243013,
+      60.0916526
+     ],
+     [
+      20.0244037,
+      60.0913317
+     ],
+     [
+      20.0244531,
+      60.0912773
+     ],
+     [
+      20.024681,
+      60.0911291
+     ],
+     [
+      20.0247205,
+      60.0910732
+     ],
+     [
+      20.0247007,
+      60.0910501
+     ],
+     [
+      20.0245224,
+      60.0910386
+     ],
+     [
+      20.024407,
+      60.0909464
+     ],
+     [
+      20.0242782,
+      60.0905712
+     ],
+     [
+      20.024354,
+      60.0905102
+     ],
+     [
+      20.0246117,
+      60.0904658
+     ],
+     [
+      20.0242914,
+      60.0904295
+     ],
+     [
+      20.0241726,
+      60.0903802
+     ],
+     [
+      20.0241064,
+      60.0903259
+     ],
+     [
+      20.0239216,
+      60.0900049
+     ],
+     [
+      20.0239217,
+      60.0898765
+     ],
+     [
+      20.0240075,
+      60.0897481
+     ],
+     [
+      20.0242781,
+      60.0894485
+     ],
+     [
+      20.0245786,
+      60.0892609
+     ],
+     [
+      20.0267243,
+      60.088344
+     ],
+     [
+      20.0270577,
+      60.0881694
+     ],
+     [
+      20.0273681,
+      60.0880789
+     ],
+     [
+      20.0275199,
+      60.0880081
+     ],
+     [
+      20.0277313,
+      60.0878649
+     ],
+     [
+      20.0278467,
+      60.0877579
+     ],
+     [
+      20.0279359,
+      60.0876146
+     ],
+     [
+      20.0281372,
+      60.0874369
+     ],
+     [
+      20.0282396,
+      60.0872442
+     ],
+     [
+      20.0282858,
+      60.0870944
+     ],
+     [
+      20.0283121,
+      60.0869233
+     ],
+     [
+      20.0282891,
+      60.0867306
+     ],
+     [
+      20.0280151,
+      60.0859173
+     ],
+     [
+      20.0275299,
+      60.0847188
+     ],
+     [
+      20.0273845,
+      60.0844373
+     ],
+     [
+      20.0273681,
+      60.0842052
+     ],
+     [
+      20.027472,
+      60.0839307
+     ]
+    ],
+    "until": 1985
+   },
+   {
+    "id": "road:lemland:gamla-lemlandsvagen:ovre-bors-ostergard",
+    "name": "Gamla Lemlandsvägen · Övre-Börs–Östergård",
+    "basis": "Den gamla vägen genom Övre-Börs och längs stranden förbi Östergård. Huvudväg på grundkartorna 1968 och 1978; 1985 går huvudvägen öster om byn. Delar finns kvar som Knutsbodavägen (OpenStreetMap). Grundkartorna 1968–1978 ritar sträckan Fridelund–Dragsvik rakare än 1929; om det är en rätning eller kartgeneralisering är inte avgjort, så 1929 års linje används.",
+    "traceId": "old-main",
+    "traceRange": [
+     168.0,
+     1316.0
+    ],
+    "startsOn": null,
+    "todayRange": [
+     6290.0,
+     7250.0
+    ],
+    "endSnapMeters": [
+     11.8,
+     4.6
+    ],
+    "maps": {
+     "1917": "present",
+     "1929": "present",
+     "1948": "present",
+     "1968": "present",
+     "1978": "present",
+     "1985": "present"
+    },
+    "lastPresent": 1985,
+    "path": [
+     [
+      20.0315446,
+      60.0720106
+     ],
+     [
+      20.031247,
+      60.0718319
+     ],
+     [
+      20.0307122,
+      60.0709327
+     ],
+     [
+      20.0306,
+      60.0706115
+     ],
+     [
+      20.0305801,
+      60.0704402
+     ],
+     [
+      20.0303688,
+      60.0697335
+     ],
+     [
+      20.0302599,
+      60.069498
+     ],
+     [
+      20.0300256,
+      60.0691126
+     ],
+     [
+      20.0300255,
+      60.0690055
+     ],
+     [
+      20.0300948,
+      60.068877
+     ],
+     [
+      20.0303523,
+      60.068625
+     ],
+     [
+      20.0304778,
+      60.0685707
+     ],
+     [
+      20.0306726,
+      60.0685575
+     ],
+     [
+      20.0315308,
+      60.0687288
+     ],
+     [
+      20.0317025,
+      60.0687288
+     ],
+     [
+      20.0318313,
+      60.0687024
+     ],
+     [
+      20.0320293,
+      60.0686201
+     ],
+     [
+      20.0330329,
+      60.0680633
+     ],
+     [
+      20.0339474,
+      60.0675922
+     ],
+     [
+      20.0341057,
+      60.0675231
+     ],
+     [
+      20.0342344,
+      60.0674885
+     ],
+     [
+      20.0344061,
+      60.0674671
+     ],
+     [
+      20.0347065,
+      60.067477
+     ],
+     [
+      20.0359082,
+      60.0675593
+     ],
+     [
+      20.0360798,
+      60.0675379
+     ],
+     [
+      20.0362945,
+      60.0674769
+     ],
+     [
+      20.0366377,
+      60.067332
+     ],
+     [
+      20.0370207,
+      60.0671211
+     ],
+     [
+      20.0384765,
+      60.066141
+     ],
+     [
+      20.0386185,
+      60.0660965
+     ],
+     [
+      20.0390113,
+      60.0660438
+     ],
+     [
+      20.0393645,
+      60.065912
+     ],
+     [
+      20.0394438,
+      60.0658544
+     ],
+     [
+      20.0396782,
+      60.0656007
+     ],
+     [
+      20.0398399,
+      60.0654771
+     ],
+     [
+      20.0403286,
+      60.0652827
+     ],
+     [
+      20.0404675,
+      60.0651363
+     ]
+    ],
+    "until": 1995
+   },
+   {
+    "id": "road:lemland:gamla-lemlandsvagen:johans",
+    "name": "Gamla Lemlandsvägen · Johans",
+    "basis": "Den gamla vägen i en båge söderut förbi Johans. Grundkartorna 1968–1985 ritar den som mindre väg; en del finns kvar som Kockobacka (OpenStreetMap).",
+    "traceId": "old-main",
+    "traceRange": [
+     1316.0,
+     2362.0
+    ],
+    "startsOn": null,
+    "todayRange": [
+     7250.0,
+     8060.0
+    ],
+    "endSnapMeters": [
+     4.6,
+     6.9
+    ],
+    "maps": {
+     "1917": "present",
+     "1929": "present",
+     "1948": "present",
+     "1968": "present",
+     "1978": "present",
+     "1985": "present"
+    },
+    "lastPresent": 1985,
+    "path": [
+     [
+      20.0404675,
+      60.0651363
+     ],
+     [
+      20.0406586,
+      60.0650867
+     ],
+     [
+      20.0409657,
+      60.0648413
+     ],
+     [
+      20.0410019,
+      60.0646617
+     ],
+     [
+      20.0411043,
+      60.0645777
+     ],
+     [
+      20.0413585,
+      60.0644904
+     ],
+     [
+      20.0416588,
+      60.0644245
+     ],
+     [
+      20.0427317,
+      60.0642927
+     ],
+     [
+      20.0435043,
+      60.0642301
+     ],
+     [
+      20.0447455,
+      60.0640868
+     ],
+     [
+      20.044894,
+      60.0640357
+     ],
+     [
+      20.0450591,
+      60.0638726
+     ],
+     [
+      20.0452307,
+      60.0639682
+     ],
+     [
+      20.0453496,
+      60.0639715
+     ],
+     [
+      20.0455212,
+      60.0639369
+     ],
+     [
+      20.04599,
+      60.0637606
+     ],
+     [
+      20.0462541,
+      60.0636288
+     ],
+     [
+      20.0464489,
+      60.063502
+     ],
+     [
+      20.0467195,
+      60.0632663
+     ],
+     [
+      20.0469639,
+      60.0629979
+     ],
+     [
+      20.0473666,
+      60.0626453
+     ],
+     [
+      20.0476043,
+      60.0624871
+     ],
+     [
+      20.0480104,
+      60.0622878
+     ],
+     [
+      20.0482679,
+      60.062184
+     ],
+     [
+      20.0485254,
+      60.0621099
+     ],
+     [
+      20.0487828,
+      60.0620736
+     ],
+     [
+      20.0489545,
+      60.062067
+     ],
+     [
+      20.0491229,
+      60.0620785
+     ],
+     [
+      20.0495983,
+      60.0621741
+     ],
+     [
+      20.0497269,
+      60.0622219
+     ],
+     [
+      20.0507767,
+      60.0627738
+     ],
+     [
+      20.0512785,
+      60.0631807
+     ],
+     [
+      20.0514105,
+      60.0632548
+     ],
+     [
+      20.0515295,
+      60.0632943
+     ],
+     [
+      20.0517439,
+      60.0633405
+     ],
+     [
+      20.0527277,
+      60.0634443
+     ],
+     [
+      20.0529126,
+      60.0635151
+     ],
+     [
+      20.0530083,
+      60.0636123
+     ],
+     [
+      20.0530611,
+      60.0635448
+     ],
+     [
+      20.0531074,
+      60.0635266
+     ],
+     [
+      20.0532063,
+      60.06352
+     ],
+     [
+      20.0533319,
+      60.0635365
+     ],
+     [
+      20.0535893,
+      60.063609
+     ],
+     [
+      20.0540185,
+      60.0637622
+     ],
+     [
+      20.054451,
+      60.0639632
+     ],
+     [
+      20.0544505,
+      60.0640378
+     ]
+    ],
+    "until": 1995
+   },
+   {
+    "id": "road:lemland:gamla-lemlandsvagen:mangard-soderby",
+    "name": "Gamla Lemlandsvägen · Mangård–Söderby",
+    "basis": "Den gamla vägen från Långskatavägen förbi Mangård, Frankby, Nygård och Klockars till kyrkbyn. Grundkartorna 1968–1985 ritar den som byväg; stora delar finns kvar som Kommunrundan och Norra Söderbyvägen (OpenStreetMap), ännu inte sammanförda med denna enhet.",
+    "traceId": "old-main",
+    "traceRange": [
+     2822.1,
+     5998.0
+    ],
+    "startsOn": "road:qgis:mariehamn:langskata-2-100km3",
+    "todayRange": [
+     null,
+     10619.81
+    ],
+    "endSnapMeters": [
+     4.5,
+     12.9
+    ],
+    "maps": {
+     "1917": "present",
+     "1929": "present",
+     "1948": "present",
+     "1968": "present",
+     "1978": "present",
+     "1985": "present"
+    },
+    "lastPresent": 1985,
+    "path": [
+     [
+      20.0589701,
+      60.0668947
+     ],
+     [
+      20.0593764,
+      60.0670998
+     ],
+     [
+      20.0597691,
+      60.0673138
+     ],
+     [
+      20.0599837,
+      60.0674094
+     ],
+     [
+      20.0602412,
+      60.0674983
+     ],
+     [
+      20.0607563,
+      60.0676088
+     ],
+     [
+      20.0610137,
+      60.0676367
+     ],
+     [
+      20.0613999,
+      60.0676384
+     ],
+     [
+      20.0617829,
+      60.0676713
+     ],
+     [
+      20.0618786,
+      60.0676615
+     ],
+     [
+      20.0620305,
+      60.0674572
+     ],
+     [
+      20.0623012,
+      60.0673303
+     ],
+     [
+      20.0625157,
+      60.0672759
+     ],
+     [
+      20.0629746,
+      60.0672249
+     ],
+     [
+      20.0637207,
+      60.0668543
+     ],
+     [
+      20.0638891,
+      60.0668065
+     ],
+     [
+      20.0642291,
+      60.0667702
+     ],
+     [
+      20.0643381,
+      60.0667456
+     ],
+     [
+      20.0646087,
+      60.0665627
+     ],
+     [
+      20.0647474,
+      60.0664969
+     ],
+     [
+      20.0650907,
+      60.0663914
+     ],
+     [
+      20.0655133,
+      60.0663338
+     ],
+     [
+      20.0657146,
+      60.0661888
+     ],
+     [
+      20.0658302,
+      60.0661328
+     ],
+     [
+      20.0659061,
+      60.0661196
+     ],
+     [
+      20.0660778,
+      60.0661213
+     ],
+     [
+      20.0664111,
+      60.0661592
+     ],
+     [
+      20.0665201,
+      60.0661311
+     ],
+     [
+      20.0665794,
+      60.0660883
+     ],
+     [
+      20.0666521,
+      60.0659647
+     ],
+     [
+      20.0667842,
+      60.0658593
+     ],
+     [
+      20.0673123,
+      60.0656633
+     ],
+     [
+      20.0674775,
+      60.065571
+     ],
+     [
+      20.0675434,
+      60.0655117
+     ],
+     [
+      20.0675798,
+      60.0653865
+     ],
+     [
+      20.0676589,
+      60.065258
+     ],
+     [
+      20.0677944,
+      60.0651938
+     ],
+     [
+      20.0680518,
+      60.0651674
+     ],
+     [
+      20.0680353,
+      60.0650851
+     ],
+     [
+      20.0681409,
+      60.0650093
+     ],
+     [
+      20.0683092,
+      60.0649664
+     ],
+     [
+      20.068524,
+      60.0649451
+     ],
+     [
+      20.0687384,
+      60.0649615
+     ],
+     [
+      20.0689067,
+      60.0650044
+     ],
+     [
+      20.0690586,
+      60.0650703
+     ],
+     [
+      20.0692667,
+      60.0652136
+     ],
+     [
+      20.0692931,
+      60.0653042
+     ],
+     [
+      20.0692799,
+      60.0653487
+     ],
+     [
+      20.06927,
+      60.0653569
+     ],
+     [
+      20.0692567,
+      60.0653619
+     ],
+     [
+      20.0692469,
+      60.0653651
+     ],
+     [
+      20.0692402,
+      60.0653651
+     ],
+     [
+      20.0692469,
+      60.0653619
+     ],
+     [
+      20.06926,
+      60.0653602
+     ],
+     [
+      20.0692799,
+      60.0653585
+     ],
+     [
+      20.0692996,
+      60.0653569
+     ],
+     [
+      20.0693724,
+      60.0653552
+     ],
+     [
+      20.0694879,
+      60.0653932
+     ],
+     [
+      20.0699533,
+      60.0658132
+     ],
+     [
+      20.0700359,
+      60.0658609
+     ],
+     [
+      20.0702272,
+      60.0659137
+     ],
+     [
+      20.0702305,
+      60.0660504
+     ],
+     [
+      20.0703197,
+      60.0661575
+     ],
+     [
+      20.0705476,
+      60.0663502
+     ],
+     [
+      20.0712902,
+      60.066907
+     ],
+     [
+      20.0721486,
+      60.0676564
+     ],
+     [
+      20.0723137,
+      60.0678278
+     ],
+     [
+      20.0723863,
+      60.0680419
+     ],
+     [
+      20.0723698,
+      60.0683845
+     ],
+     [
+      20.0719374,
+      60.0694338
+     ],
+     [
+      20.0719141,
+      60.0697335
+     ],
+     [
+      20.071967,
+      60.0699263
+     ],
+     [
+      20.0720892,
+      60.0700548
+     ],
+     [
+      20.0722872,
+      60.0701602
+     ],
+     [
+      20.0724852,
+      60.0702194
+     ],
+     [
+      20.0726866,
+      60.0702574
+     ],
+     [
+      20.0731157,
+      60.0702902
+     ],
+     [
+      20.0736737,
+      60.0702688
+     ],
+     [
+      20.0739742,
+      60.0702787
+     ],
+     [
+      20.0745321,
+      60.070338
+     ],
+     [
+      20.0747895,
+      60.070343
+     ],
+     [
+      20.0760342,
+      60.0702277
+     ],
+     [
+      20.077064,
+      60.0701618
+     ],
+     [
+      20.0775758,
+      60.0701635
+     ],
+     [
+      20.077777,
+      60.070203
+     ],
+     [
+      20.0781368,
+      60.0701634
+     ],
+     [
+      20.0784373,
+      60.070175
+     ],
+     [
+      20.0788235,
+      60.0702128
+     ],
+     [
+      20.0792528,
+      60.0703018
+     ],
+     [
+      20.0797678,
+      60.0704764
+     ],
+     [
+      20.0799163,
+      60.0705506
+     ],
+     [
+      20.0800285,
+      60.0706806
+     ],
+     [
+      20.0802397,
+      60.070702
+     ],
+     [
+      20.0803686,
+      60.0707416
+     ],
+     [
+      20.0813127,
+      60.0712521
+     ],
+     [
+      20.081656,
+      60.071407
+     ],
+     [
+      20.0819136,
+      60.0714959
+     ],
+     [
+      20.0820852,
+      60.0715371
+     ],
+     [
+      20.082643,
+      60.0716211
+     ],
+     [
+      20.0831812,
+      60.0716409
+     ],
+     [
+      20.0835475,
+      60.0717479
+     ],
+     [
+      20.0838842,
+      60.0717397
+     ],
+     [
+      20.0839898,
+      60.0717496
+     ],
+     [
+      20.0840824,
+      60.0717743
+     ],
+     [
+      20.0842408,
+      60.0718533
+     ],
+     [
+      20.0847591,
+      60.0719703
+     ],
+     [
+      20.0848318,
+      60.0719554
+     ],
+     [
+      20.0849175,
+      60.0718945
+     ],
+     [
+      20.0850331,
+      60.0716821
+     ],
+     [
+      20.0851387,
+      60.0716013
+     ],
+     [
+      20.0853071,
+      60.0715684
+     ],
+     [
+      20.0856042,
+      60.0715734
+     ],
+     [
+      20.0857329,
+      60.0715586
+     ],
+     [
+      20.0859047,
+      60.0715157
+     ],
+     [
+      20.0862908,
+      60.0713807
+     ],
+     [
+      20.0865483,
+      60.0713444
+     ],
+     [
+      20.0868058,
+      60.071346
+     ],
+     [
+      20.0869379,
+      60.0713757
+     ],
+     [
+      20.0869973,
+      60.0714317
+     ],
+     [
+      20.0870039,
+      60.0715552
+     ],
+     [
+      20.0870467,
+      60.07158
+     ],
+     [
+      20.087126,
+      60.0715898
+     ],
+     [
+      20.0872317,
+      60.0715832
+     ],
+     [
+      20.0875386,
+      60.0714943
+     ],
+     [
+      20.087707,
+      60.0714712
+     ],
+     [
+      20.0886941,
+      60.0715947
+     ],
+     [
+      20.0895523,
+      60.0716557
+     ],
+     [
+      20.0897967,
+      60.0717018
+     ],
+     [
+      20.0901532,
+      60.0716342
+     ],
+     [
+      20.0910973,
+      60.0715964
+     ],
+     [
+      20.0919557,
+      60.071626
+     ],
+     [
+      20.092256,
+      60.0715898
+     ],
+     [
+      20.0924278,
+      60.0715503
+     ],
+     [
+      20.0949169,
+      60.0708091
+     ],
+     [
+      20.0950521,
+      60.0707448
+     ],
+     [
+      20.0950919,
+      60.0706938
+     ],
+     [
+      20.095072,
+      60.0706543
+     ],
+     [
+      20.0950522,
+      60.0706444
+     ],
+     [
+      20.0949762,
+      60.0706246
+     ],
+     [
+      20.0949564,
+      60.0706181
+     ],
+     [
+      20.0949399,
+      60.0706132
+     ],
+     [
+      20.0949267,
+      60.0706081
+     ],
+     [
+      20.095029,
+      60.0706328
+     ],
+     [
+      20.0953064,
+      60.070651
+     ],
+     [
+      20.0954318,
+      60.0706361
+     ],
+     [
+      20.0955605,
+      60.0705933
+     ],
+     [
+      20.0959469,
+      60.0704286
+     ],
+     [
+      20.0960756,
+      60.0703528
+     ],
+     [
+      20.0961119,
+      60.0702409
+     ],
+     [
+      20.0960657,
+      60.0701585
+     ],
+     [
+      20.0960722,
+      60.0701223
+     ],
+     [
+      20.0962405,
+      60.070007
+     ],
+     [
+      20.0964354,
+      60.069951
+     ],
+     [
+      20.0967886,
+      60.0699246
+     ],
+     [
+      20.0971155,
+      60.0698225
+     ],
+     [
+      20.0975149,
+      60.0697698
+     ],
+     [
+      20.0976436,
+      60.0696957
+     ],
+     [
+      20.0974093,
+      60.0697633
+     ],
+     [
+      20.09732,
+      60.0697583
+     ],
+     [
+      20.0972804,
+      60.0697237
+     ],
+     [
+      20.0973102,
+      60.0696479
+     ],
+     [
+      20.0974885,
+      60.0695194
+     ],
+     [
+      20.0980299,
+      60.0691982
+     ],
+     [
+      20.0981883,
+      60.0691224
+     ],
+     [
+      20.0983038,
+      60.0690928
+     ],
+     [
+      20.0984455,
+      60.069084
+     ],
+     [
+      20.0986985,
+      60.069151
+     ]
+    ],
+    "until": 1995
+   }
+  ],
+  "traceBasis": "Mittlinjen är spårad på sockenkartan 1929 (karttiler 2,4 m/px) och inte flyttad; ändarna är fästa vid dagens väg eller Långskatavägen."
+ },
+ "langskata": {
+  "objectId": "road:qgis:mariehamn:langskata-2-100km3",
+  "inputHash": "a97d4192035b32ea770e24159cdc88b98e2cb8141f8c735e6fc0da3868558472",
+  "canonicalRange": [
+   0,
+   0.122782
+  ],
+  "lengthMeters": 300.0,
+  "firstYear": 1917,
+  "until": 1985,
+  "maps": {
+   "1917": "present",
+   "1929": "present",
+   "1948": "present",
+   "1968": "present",
+   "1978": "present"
+  },
+  "basis": "Långskatavägens första 300 m är den gamla Lemlandsvägen mot Lindebo; sockenkartan 1929 ritar vägen 5–18 m från dagens mittlinje. Resten av Långskatavägen är yngre."
+ }
+}
