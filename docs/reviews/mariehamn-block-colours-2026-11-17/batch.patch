@@ -1,0 +1,59 @@
+--- a/dist/city-grid.js
++++ b/dist/city-grid.js
+@@ -1,5 +1,8 @@
+ 'use strict';
+ class CityGrid {
++ // One fill for every block-like area in every year: planned, reconstructed, mapped or built-up. Plans and built-up
++ // areas differ only by their dashed outline, never by a second shade.
++ static BLOCK_FILL='#e8e1cb';
+  constructor(change){this.change=change;this.enabled=true;this.sets=[];this.drawn=[];this.selected=null}
+  static yearFor(year){return year<1860?null:year<1920?1860:year<1942?1920:year<2014?1942:year<2021?2014:year<2025?2021:year<2026?2025:2026}
+  async load(){try{const r=await fetch('assets/mariehamn-city-grid.json?v=cef1734cb187');if(!r.ok)throw Error();const data=await r.json();this.sets=data.sets;this.coverage=data.coverage;this.ready=true}catch{this.failed=true}this.change()}
+@@ -81,13 +84,15 @@
+   const s=v.scale,left=v.meta.width/2+(-v.width/2-v.panX)/s,top=v.meta.height/2+(-v.height/2-v.panY)/s,b=[left,top,left+v.width/s,top+v.height/s];
+   const mpp=Math.cos(60.1*Math.PI/180)*40075016.7/v.meta.world/s;
+   this.drawn=this.featuresForStage(d).filter(f=>(!f.objectResolution||(this.objects.visible(f.objectResolution,{traces:true})&&f.objectResolution.geometry))&&f.kind!=='building'&&f.bounds[0]<=b[2]&&f.bounds[2]>=b[0]&&f.bounds[1]<=b[3]&&f.bounds[3]>=b[1]&&(f.kind==='street'||v.zoom>=8&&!v.fortressDetail));
++  // Built-up areas share the block fill and lie under the blocks, so block outlines stay visible.
++  this.drawn.sort((a,b)=>(b.kind==='builtUp')-(a.kind==='builtUp'));
+   ctx.save();ctx.translate(v.width/2+v.panX-v.meta.width/2*s,v.height/2+v.panY-v.meta.height/2*s);ctx.scale(s,s);ctx.lineJoin='round';ctx.lineCap='round';
+   for(const f of this.drawn){const selected=f.id===this.selected||f.objectId===this.selected,planned=f.objectResolution?f.objectResolution.state==='planned':(f.planned??d.kind==='plan');ctx.setLineDash([]);
+    if(f.kind==='street'){
+     const minor=d.normalizedStreets&&['footway','path','steps','cycleway','track','bridleway'].includes(f.class),width=Math.max(minor?.7:1.5,Math.min(18,f.width/mpp));ctx.lineWidth=(width+1.3)/s;ctx.strokeStyle=planned?'#a48b6688':'#929e8b';if(planned||minor)ctx.setLineDash([planned?6/s:3/s,planned?5/s:3/s]);ctx.stroke(f.path);
+     ctx.lineWidth=(planned?1.4:width)/s;ctx.strokeStyle=selected?'#ba773c':planned?'#a9773f':minor?'#b19c77':'#fff9e8';ctx.stroke(f.path);
+    }else{
+-    ctx.fillStyle=selected?'#e5c793':f.kind==='yardLane'?'#e9dcbf':f.kind==='yard'?(f.landscape==='orchard'?'#bac796':'#ced1aa'):f.kind==='park'?(planned?'#b5c79b88':'#aebe93'):f.kind==='square'?'#eee1c5':f.kind==='building'?'#b07d60':f.kind==='builtUp'?'#c4ac8e88':planned?'#ecdebd55':'#e8e1cb';
++    ctx.fillStyle=selected?'#e5c793':f.kind==='yardLane'?'#e9dcbf':f.kind==='yard'?(f.landscape==='orchard'?'#bac796':'#ced1aa'):f.kind==='park'?(planned?'#b5c79b88':'#aebe93'):f.kind==='square'?'#eee1c5':f.kind==='building'?'#b07d60':CityGrid.BLOCK_FILL;
+     ctx.strokeStyle=f.kind==='yard'?'#8d9473':f.kind==='yardLane'?'#b7ad92':f.kind==='building'?'#785d4b':planned?'#ac966f':'#c5bda5';ctx.lineWidth=(selected?2:f.kind==='building'?.7:.55)/s;
+     ctx.fill(f.path,'evenodd');if(f.kind==='builtUp')ctx.setLineDash([2/s,3/s]);if(planned)ctx.setLineDash([4/s,4/s]);ctx.stroke(f.path);
+     if(f.treePoints?.length&&v.zoom>=22){ctx.fillStyle='#93a773';ctx.strokeStyle='#7f9461';ctx.lineWidth=.45/s;for(const [x,y] of f.treePoints){ctx.beginPath();ctx.arc(x,y,Math.max(1.5,2.2/mpp)/s,0,Math.PI*2);ctx.fill();ctx.stroke()}}
+--- a/tests/temporal-objects.test.cjs
++++ b/tests/temporal-objects.test.cjs
+@@ -1017,4 +1017,20 @@
+  assert.match(grid.story(park,1860),/assets\/mariehamn-plan-1860.png/);
+  assert.equal(model.resolveObject('road:nygatan',1860).geometry,null);
+  assert.equal(model.resolveObject('road:osterleden:storagatan-strandnas',1860).geometry,null);
++});
++
++test('city blocks have one fill in every year: plans and built-up areas differ only by their outline',()=>{
++ const {box,model}=setup(),grid=new box.Grid(()=>{});
++ Object.assign(grid,read('dist/assets/mariehamn-city-grid.json'));grid.ready=true;grid.objects=model;
++ const fills={},seen={};let owner=new Map();
++ const ctx=new Proxy({measureText:s=>({width:s.length*6}),fill(path){const f=owner.get(path);if(f&&['block','builtUp'].includes(f.kind)){(fills[f.kind]??=new Set()).add(ctx.fillStyle);seen[f.planned||f.objectResolution?.state==='planned'?'planned':f.kind]=1}}},
++  {get:(o,k)=>k in o?o[k]:(()=>{}),set:(o,k,v)=>(o[k]=v,true)});
++ const v={zoom:30,width:4000,height:4000,scale:1,panX:0,panY:0,meta:{width:4000,height:4000,world:262144}},project=(lon,lat)=>[(lon-19.90)*40000,(60.13-lat)*40000];
++ for(const year of [1860,1861,1871,1920,1927,1942,1952,1968,1978,1982,1985,2014,2026]){
++  const d=grid.stage(year);grid.prepare(d,project,year);owner=new Map(grid.featuresForStage(d).map(f=>[f.path,f]));
++  grid.draw(ctx,{...v,year},project);
++  if(year===1968){const order=grid.drawn.filter(f=>['block','builtUp'].includes(f.kind)).map(f=>f.kind);
++   assert.ok(order.lastIndexOf('builtUp')<order.indexOf('block'),'built-up areas lie under the blocks')}}
++ assert.ok(seen.block&&seen.builtUp&&seen.planned,JSON.stringify(seen));
++ assert.deepEqual(Object.fromEntries(Object.entries(fills).map(([k,s])=>[k,[...s]])),{block:['#e8e1cb'],builtUp:['#e8e1cb']});
+ });
+--- a/dist/index.html
++++ b/dist/index.html
+@@ -132,4 +132,4 @@
+ <p id="issueHelp">Inget konto behövs. Ditt förslag publiceras öppet på GitHub med plats, årtal och eventuell objektidentitet. Undvik personuppgifter i texten.</p>
+ <p id="issueError" role="alert"></p><div class="issue-actions"><button id="cancelIssue" type="button">Avbryt</button><button id="submitIssue" type="submit">Skicka förslag</button></div>
+ </form><div id="issueSuccess" hidden><p role="status">Tack! Ditt förslag har skickats.</p><p><a id="issueReceipt" target="_blank" rel="noopener noreferrer"></a></p><button id="doneIssue" type="button">Klart</button></div><p class="issue-list-link"><a href="https://github.com/321k/aland-tidsresan/issues" target="_blank" rel="noopener noreferrer">Se inskickade förslag ↗</a></p></dialog>
+-<script src="startup-loader.js?v=28c52e35c732"></script><script src="ofreden-data.js?v=fef3328fc82d"></script><script src="transport-routes.js?v=f54bd20110ea"></script><script src="bomarsund.js?v=420dc9a169fc"></script><script src="wrecks-data.js?v=2949bd69f63b"></script><script src="places-data.js?v=07c1bcf2dfb8"></script><script src="temporal-objects.js?v=bba5ca25f17d"></script><script src="timeline-model.js?v=09d4460d54c9"></script><script src="shorelines.js?v=64606eaff06c"></script><script src="historical-overlay.js?v=05c970cd9580"></script><script src="explorer.js?v=8f9418223abe"></script><script src="map-coordinates.js?v=ab086a8596cc"></script><script src="archive.js?v=ce93a746597e"></script><script src="city-buildings.js?v=080bf56fe7e0"></script><script src="city-grid.js?v=dd2db92e2844"></script><script src="historical-roads.js?v=39afbb45c28a"></script><script src="event-playback.js?v=440595786e56"></script><script src="landmark-outlines.js?v=f010f78e228e"></script><script src="playback-camera.js?v=88d009faa896"></script><script src="map-transition.js?v=378d3379079e"></script><script src="object-link.js?v=c0beb15fc011"></script><script src="map-view-url.js?v=4e8420542e4b"></script><script src="map-issues.js?v=3de304400cc0"></script><script src="place-names-data.js?v=7e644e0000cd"></script><script src="place-names.js?v=bd40100256c3"></script><script src="live-vessels.js?v=73c28cb4633c"></script><script src="app.js?v=147be2f76e5d"></script><script src="mobile-ui.js?v=75fad09e6022"></script></body></html>
++<script src="startup-loader.js?v=28c52e35c732"></script><script src="ofreden-data.js?v=fef3328fc82d"></script><script src="transport-routes.js?v=f54bd20110ea"></script><script src="bomarsund.js?v=420dc9a169fc"></script><script src="wrecks-data.js?v=2949bd69f63b"></script><script src="places-data.js?v=07c1bcf2dfb8"></script><script src="temporal-objects.js?v=bba5ca25f17d"></script><script src="timeline-model.js?v=09d4460d54c9"></script><script src="shorelines.js?v=64606eaff06c"></script><script src="historical-overlay.js?v=05c970cd9580"></script><script src="explorer.js?v=8f9418223abe"></script><script src="map-coordinates.js?v=ab086a8596cc"></script><script src="archive.js?v=ce93a746597e"></script><script src="city-buildings.js?v=080bf56fe7e0"></script><script src="city-grid.js?v=b1fbddf0ec05"></script><script src="historical-roads.js?v=39afbb45c28a"></script><script src="event-playback.js?v=440595786e56"></script><script src="landmark-outlines.js?v=f010f78e228e"></script><script src="playback-camera.js?v=88d009faa896"></script><script src="map-transition.js?v=378d3379079e"></script><script src="object-link.js?v=c0beb15fc011"></script><script src="map-view-url.js?v=4e8420542e4b"></script><script src="map-issues.js?v=3de304400cc0"></script><script src="place-names-data.js?v=7e644e0000cd"></script><script src="place-names.js?v=bd40100256c3"></script><script src="live-vessels.js?v=73c28cb4633c"></script><script src="app.js?v=147be2f76e5d"></script><script src="mobile-ui.js?v=75fad09e6022"></script></body></html>
