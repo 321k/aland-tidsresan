@@ -28,6 +28,20 @@ test('archive map centre uses the official Finnish grid, within 1 metre of indep
  for(const [lon,lat,n,e]of [[19.941,60.103,6665549.83998,20496718.03923],[19.9268313,60.0958139,6664749.99642,20495928.99855],[19.86,59.98,6651852.84582,20492183.28895],[20.12,60.15,6670790.90770,20506665.66258]]){const result=box.grid(lon,lat);assert.ok(Math.abs(result[0]-n)<1);assert.ok(Math.abs(result[1]-e)<1);}
 });
 test('historical building records have usable attribution and preserve official multi-area boundaries',()=>{
- assert.equal(buildings.length,28);assert.equal(new Set(buildings.map(f=>f.id)).size,28);for(const f of buildings){assert.ok(f.sources.length);assert.ok(f.sources.every(s=>s.url.startsWith('https://')));assert.ok(f.precision);assert.ok(f.phases.length);}
+ assert.equal(buildings.length,33);assert.equal(new Set(buildings.map(f=>f.id)).size,33);for(const f of buildings){assert.ok(f.sources.length);assert.ok(f.sources.every(s=>s.url.startsWith('https://')));assert.ok(f.precision);assert.ok(f.phases.length);}
  const polygons=JSON.parse(fs.readFileSync('dist/assets/heritage-boundaries.geojson')).features;assert.equal(polygons.length,1870);assert.ok(new Set(polygons.map(f=>f.properties.code)).size<polygons.length);
+});
+
+test('Hindersböle gård, Berggård and the fox farms are uncertain dated places at their reviewed points, never construction years',()=>{
+ const by=Object.fromEntries(buildings.map(f=>[f.id,f]));
+ const want={'mh-history:hindersbole-gard':[1925,1961],'mh-history:berggard':[1945,2009],'mh-history:sandas-ravfarm':[1939,1952],'mh-history:askudden-ravfarm':[1939,1962],'mh-history:treans-ravfarm':[1939,1952]};
+ for(const [id,[start,end]] of Object.entries(want)){const f=by[id];assert.ok(f,id);
+  assert.deepEqual([f.start,f.end,f.endExclusive,f.uncertainDate],[start,end,true,true],id);
+  assert.ok(['first_record','approximate_construction'].includes(f.dateType),id);
+  assert.ok(f.sources.some(s=>s.url==='https://www.nyan.ax/kultur/nar-hindersbole-blev-lilla-finland/'),id);
+  assert.match(f.accuracyNote,/inte byggår|ungefärlig startpunkt/,id);assert.ok(!/kontur/.test(f.precision)||/ingen kontur|inte verifierade/.test(f.precision),id);
+  const [n,e]=box.grid(f.lon,f.lat);assert.ok(Math.abs(n-f.coordinateSource.northing)<1&&Math.abs(e-f.coordinateSource.easting)<1,id)}
+ // The article's address is kept; the photo candidate 65 m east is only named in the note.
+ assert.equal(by['mh-history:hindersbole-gard'].address,'Blåsippsgränd 3');assert.match(by['mh-history:hindersbole-gard'].accuracyNote,/trolig kandidat men inte belagd/);
+ assert.match(by['mh-history:treans-ravfarm'].accuracyNote,/Läget är inte belagt/);
 });

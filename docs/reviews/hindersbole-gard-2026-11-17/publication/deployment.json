@@ -1,0 +1,10 @@
+{
+ "deployedAt": "2026-11-17",
+ "cloudflareVersion": "1793b8ac-e960-458e-84c1-0d4ffac85009",
+ "baseRelease": "806d0727-3dd8-4bda-83fc-d57bdb801540",
+ "changedFiles": ["assets/historic-buildings.json", "assets/temporal-objects.json.gz", "assets/object-stories.json", "index.html",
+                  "explorer.js, object-page.js, object.html, temporal-objects.js (cache stamps)",
+                  "deployed together with Norrböle (p1) and the Hamngatan/Parkgatan street review"],
+ "liveCheck": "298 files compared byte for byte, 0 mismatches",
+ "wrangler": "4.149.0"
+}
