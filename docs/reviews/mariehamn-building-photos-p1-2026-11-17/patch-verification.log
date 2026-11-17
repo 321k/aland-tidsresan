@@ -1,0 +1,8 @@
+== forward on the pre-p1 copy
+patching file 'dist/index.html'
+result identical to working tree
+== reverse on working tree
+patching file 'dist/index.html'
+
+== note (after deploy)
+Later loader cards (Hamngatan/Parkgatan, Hindersböle) renumbered the cards in dist/index.html, so the reverse check above no longer applies to the final working tree; the forward check against the pre-p1 copy stands.

@@ -1,0 +1,1072 @@
+{
+"8": {
+"objectId": "building:osm:way-1008404870",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.073,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"10": {
+"objectId": "building:osm:way-1008404872",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"11": {
+"objectId": "building:osm:way-1008404873",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.104,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"14": {
+"objectId": "building:osm:way-1008404876",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.1,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"15": {
+"objectId": "building:osm:way-1008404877",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": true,
+"visual": "Kartan 1978 har en fylld byggnadssymbol i konturen; en tidigare karta kan rita byggnaden."
+},
+"16": {
+"objectId": "building:osm:way-1008404879",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.268,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"17": {
+"objectId": "building:osm:way-1008404880",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.258,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"18": {
+"objectId": "building:osm:way-1008404886",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"19": {
+"objectId": "building:osm:way-1008404887",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.096,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"22": {
+"objectId": "building:osm:way-1008404891",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.105,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"23": {
+"objectId": "building:osm:way-1008404892",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.127,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"53": {
+"objectId": "building:osm:way-1490606962",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.739,
+"deferred": true
+},
+"62": {
+"objectId": "building:osm:way-1555821553",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"67": {
+"objectId": "building:osm:way-162638027",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.35,
+"deferred": true
+},
+"69": {
+"objectId": "building:osm:way-163287655",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.083,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"70": {
+"objectId": "building:osm:way-163848700",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.045,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"72": {
+"objectId": "building:osm:way-163848703",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.318,
+"deferred": true
+},
+"73": {
+"objectId": "building:osm:way-163848704",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"75": {
+"objectId": "building:osm:way-163848706",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"76": {
+"objectId": "building:osm:way-163848710",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.121,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"77": {
+"objectId": "building:osm:way-163848711",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.032,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"78": {
+"objectId": "building:osm:way-163848712",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.473,
+"deferred": true
+},
+"82": {
+"objectId": "building:osm:way-165234957",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"89": {
+"objectId": "building:osm:way-165235035",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.11,
+"deferred": false
+},
+"90": {
+"objectId": "building:osm:way-165235038",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"95": {
+"objectId": "building:osm:way-165235064",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"97": {
+"objectId": "building:osm:way-165235067",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"98": {
+"objectId": "building:osm:way-165235069",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"100": {
+"objectId": "building:osm:way-165465129",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.092,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"102": {
+"objectId": "building:osm:way-168766515",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.436,
+"deferred": true
+},
+"103": {
+"objectId": "building:osm:way-168766518",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.255,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"104": {
+"objectId": "building:osm:way-168766522",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"106": {
+"objectId": "building:osm:way-168766531",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.015,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"107": {
+"objectId": "building:osm:way-168766540",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.157,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"109": {
+"objectId": "building:osm:way-168766543",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.307,
+"deferred": true
+},
+"112": {
+"objectId": "building:osm:way-184652267",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"113": {
+"objectId": "building:osm:way-184652271",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.147,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"114": {
+"objectId": "building:osm:way-184652273",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"115": {
+"objectId": "building:osm:way-184652279",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"116": {
+"objectId": "building:osm:way-184652281",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"117": {
+"objectId": "building:osm:way-184652287",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"119": {
+"objectId": "building:osm:way-184652290",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.022,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"120": {
+"objectId": "building:osm:way-184652292",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"121": {
+"objectId": "building:osm:way-184652294",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.147,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"123": {
+"objectId": "building:osm:way-184652298",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.411,
+"deferred": true
+},
+"125": {
+"objectId": "building:osm:way-184652303",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.06,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"128": {
+"objectId": "building:osm:way-184688109",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.029,
+"deferred": false
+},
+"130": {
+"objectId": "building:osm:way-214834428",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"131": {
+"objectId": "building:osm:way-215507096",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"132": {
+"objectId": "building:osm:way-294784134",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"133": {
+"objectId": "building:osm:way-294784312",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.033,
+"deferred": false
+},
+"134": {
+"objectId": "building:osm:way-329838847",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.103,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"140": {
+"objectId": "building:osm:way-493751674",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.054,
+"deferred": false
+},
+"141": {
+"objectId": "building:osm:way-493776116",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.309,
+"deferred": true
+},
+"144": {
+"objectId": "building:osm:way-529244199",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.038,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"148": {
+"objectId": "building:osm:way-529244208",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.177,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"150": {
+"objectId": "building:osm:way-529244214",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"169": {
+"objectId": "building:osm:way-586395868",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.69,
+"deferred": true
+},
+"176": {
+"objectId": "building:osm:way-586395876",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"178": {
+"objectId": "building:osm:way-586395880",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.233,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"184": {
+"objectId": "building:osm:way-586395903",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.683,
+"deferred": true
+},
+"187": {
+"objectId": "building:osm:way-586395913",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.091,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"188": {
+"objectId": "building:osm:way-586395914",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.147,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"193": {
+"objectId": "building:osm:way-586395932",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"195": {
+"objectId": "building:osm:way-586395940",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"196": {
+"objectId": "building:osm:way-586395942",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"200": {
+"objectId": "building:osm:way-586395955",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"209": {
+"objectId": "building:osm:way-586395985",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"217": {
+"objectId": "building:osm:way-586408583",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.11,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"221": {
+"objectId": "building:osm:way-586408605",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.019,
+"deferred": false
+},
+"222": {
+"objectId": "building:osm:way-586408606",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"223": {
+"objectId": "building:osm:way-586408607",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.402,
+"deferred": true
+},
+"224": {
+"objectId": "building:osm:way-586408609",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.585,
+"deferred": true
+},
+"227": {
+"objectId": "building:osm:way-586408626",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"228": {
+"objectId": "building:osm:way-586408627",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": true,
+"visual": "Kartan 1978 har en fylld byggnadssymbol i konturen; en tidigare karta kan rita byggnaden."
+},
+"240": {
+"objectId": "building:osm:way-586408653",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.651,
+"deferred": true
+},
+"241": {
+"objectId": "building:osm:way-586408656",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.364,
+"deferred": true
+},
+"261": {
+"objectId": "building:osm:way-586408687",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"262": {
+"objectId": "building:osm:way-586408691",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.034,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"263": {
+"objectId": "building:osm:way-586408692",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.219,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"264": {
+"objectId": "building:osm:way-586408695",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.065,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"265": {
+"objectId": "building:osm:way-586408696",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.078,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"269": {
+"objectId": "building:osm:way-586408717",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.368,
+"deferred": true
+},
+"270": {
+"objectId": "building:osm:way-591003104",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.614,
+"deferred": true
+},
+"271": {
+"objectId": "building:osm:way-591003106",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.623,
+"deferred": true
+},
+"273": {
+"objectId": "building:osm:way-591003111",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.167,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"274": {
+"objectId": "building:osm:way-591003113",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 1.0,
+"deferred": true
+},
+"276": {
+"objectId": "building:osm:way-591003119",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.008,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"278": {
+"objectId": "building:osm:way-591003123",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"279": {
+"objectId": "building:osm:way-591003124",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"281": {
+"objectId": "building:osm:way-591003126",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.022,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"283": {
+"objectId": "building:osm:way-591003131",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"284": {
+"objectId": "building:osm:way-591003132",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.409,
+"deferred": true
+},
+"285": {
+"objectId": "building:osm:way-591003133",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"298": {
+"objectId": "building:osm:way-591003218",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.771,
+"deferred": true
+},
+"301": {
+"objectId": "building:osm:way-591003227",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.065,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"302": {
+"objectId": "building:osm:way-591003230",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"313": {
+"objectId": "building:osm:way-591003253",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"315": {
+"objectId": "building:osm:way-591003261",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"323": {
+"objectId": "building:osm:way-591003299",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.485,
+"deferred": true
+},
+"364": {
+"objectId": "building:osm:way-591003353",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.5,
+"deferred": true
+},
+"365": {
+"objectId": "building:osm:way-591003357",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.802,
+"deferred": true
+},
+"379": {
+"objectId": "building:osm:way-591080048",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.075,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"383": {
+"objectId": "building:osm:way-591080067",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"386": {
+"objectId": "building:osm:way-591080075",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.143,
+"deferred": false
+},
+"389": {
+"objectId": "building:osm:way-591080087",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"390": {
+"objectId": "building:osm:way-591080088",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"391": {
+"objectId": "building:osm:way-591080093",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"396": {
+"objectId": "building:osm:way-591084433",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.061,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"397": {
+"objectId": "building:osm:way-591084434",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"398": {
+"objectId": "building:osm:way-591084435",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"399": {
+"objectId": "building:osm:way-591084436",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.528,
+"deferred": true
+},
+"400": {
+"objectId": "building:osm:way-591084437",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"401": {
+"objectId": "building:osm:way-591084439",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"402": {
+"objectId": "building:osm:way-591084443",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.14,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"403": {
+"objectId": "building:osm:way-591084447",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"404": {
+"objectId": "building:osm:way-591084449",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.44,
+"deferred": true
+},
+"405": {
+"objectId": "building:osm:way-591084451",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.035,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"407": {
+"objectId": "building:osm:way-591084453",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"408": {
+"objectId": "building:osm:way-591084456",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"409": {
+"objectId": "building:osm:way-591084457",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"412": {
+"objectId": "building:osm:way-591084461",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.283,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"414": {
+"objectId": "building:osm:way-591084469",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"415": {
+"objectId": "building:osm:way-591084472",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"416": {
+"objectId": "building:osm:way-591084474",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.0,
+"deferred": false
+},
+"417": {
+"objectId": "building:osm:way-591084476",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.32,
+"deferred": true
+},
+"419": {
+"objectId": "building:osm:way-591084478",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.525,
+"deferred": true
+},
+"420": {
+"objectId": "building:osm:way-591084479",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.075,
+"deferred": false
+},
+"421": {
+"objectId": "building:osm:way-591084480",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"422": {
+"objectId": "building:osm:way-591084482",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"423": {
+"objectId": "building:osm:way-591084483",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"424": {
+"objectId": "building:osm:way-591084484",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"425": {
+"objectId": "building:osm:way-591084485",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"426": {
+"objectId": "building:osm:way-591084486",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"427": {
+"objectId": "building:osm:way-591084487",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"432": {
+"objectId": "building:osm:way-591084492",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.081,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"433": {
+"objectId": "building:osm:way-591084493",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.065,
+"deferred": false
+},
+"434": {
+"objectId": "building:osm:way-591084494",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.035,
+"deferred": false
+},
+"440": {
+"objectId": "building:osm:way-591084501",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"448": {
+"objectId": "building:osm:way-591084537",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.075,
+"deferred": false
+},
+"451": {
+"objectId": "building:osm:way-591084540",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"454": {
+"objectId": "building:osm:way-591084543",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"455": {
+"objectId": "building:osm:way-591084544",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"456": {
+"objectId": "building:osm:way-591084545",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"457": {
+"objectId": "building:osm:way-591084546",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"489": {
+"objectId": "building:osm:way-718901690",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.357,
+"deferred": true
+}
+}
