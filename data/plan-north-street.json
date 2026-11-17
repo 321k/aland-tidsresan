@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-17",
+ "source": {
+  "id": "review:plan-north-street",
+  "title": "Norra planerade tvärgatan i 1860 års plan · granskning",
+  "url": "assets/plan-north-street.json"
+ },
+ "basis": "Planen ritar sin norra tvärgata ett kvartersdjup norr om den gata som planens gator har passats in efter (Norragatan). Kvartersraden mellan gatorna är 47 m djup i planens egen inpassning. Gatan visas därför parallellt med den rekonstruerade Norragatan, 47 m norr om den, från västra strandens gata till Strandgatan. Läget är en tolkning av planen, inte belägg för en byggd gata.",
+ "traceId": "plan-1860-trace-8",
+ "featureId": "plan-1860-street-18",
+ "inputHash": "593d7909a0a02c712cb7c2c32c41806824323fc2aa92ee6e5a91400d7bc40444",
+ "stages": [
+  "city-reconstruction-1860",
+  "city-reconstruction-1861",
+  "city-reconstruction-1871"
+ ],
+ "referenceName": "Norragatan",
+ "offsetMeters": 47,
+ "straightnessMeters": 3,
+ "planDepthMeters": [
+  47.0,
+  46.8,
+  46.9
+ ],
+ "maxMoveMeters": 40,
+ "westEndFeatureId": "plan-1860-street-0",
+ "eastEndObjectId": "road:postwar:way-78489469",
+ "attached": [
+  {
+   "featureId": "plan-1860-street-0",
+   "inputHash": "e9381ac0f9cc950a87e96adaa8c50b93ed5d0c271994eed14d1058726b220a21"
+  },
+  {
+   "featureId": "plan-1860-street-1",
+   "inputHash": "af969bb28f67a0a511e8b278fdd64345366bd0464726367eda0bc7c8c5276943"
+  },
+  {
+   "featureId": "plan-1860-street-2",
+   "inputHash": "38d89fe5bc1b6a129433d0bff3e29ad193bdacbc82244bcbd47366d24f7d9cea"
+  },
+  {
+   "featureId": "plan-1860-street-5",
+   "inputHash": "45b4cd314d297cd60a9d950fe07c17201a1ce0a0a36ff8425dfeac43b72f3cbd"
+  }
+ ],
+ "block": {
+  "featureId": "block:17",
+  "inputHash": "f9b919731fefbd0b9915e9e168eabb101d2a179fb82d34a33adaabfd0169e00c",
+  "minArea": 1500,
+  "maxArea": 6000
+ }
+}

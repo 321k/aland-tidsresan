@@ -1,0 +1,49 @@
+{
+ "objectsChanged": [],
+ "geometriesChanged": [
+  "geometry:plan-1860-buildings:lasarett-sw",
+  "geometry:plan-1860-buildings:lasarett-ne",
+  "geometry:plan-1860-buildings:lasarett-nw",
+  "geometry:plan-1860-buildings:lasarett"
+ ],
+ "sourcesChanged": [
+  "review:plan-north-street"
+ ],
+ "cityStagesChanged": {
+  "city-reconstruction-1860": {
+   "features": [
+    "city-reconstruction-1860:block:17",
+    "city-reconstruction-1860:plan-1860-street-0",
+    "city-reconstruction-1860:plan-1860-street-1",
+    "city-reconstruction-1860:plan-1860-street-18",
+    "city-reconstruction-1860:plan-1860-street-2",
+    "city-reconstruction-1860:plan-1860-street-5"
+   ],
+   "otherKeys": []
+  },
+  "city-reconstruction-1861": {
+   "features": [
+    "city-reconstruction-1861:block:17",
+    "city-reconstruction-1861:plan-1860-street-0",
+    "city-reconstruction-1861:plan-1860-street-1",
+    "city-reconstruction-1861:plan-1860-street-18",
+    "city-reconstruction-1861:plan-1860-street-2",
+    "city-reconstruction-1861:plan-1860-street-5"
+   ],
+   "otherKeys": []
+  },
+  "city-reconstruction-1871": {
+   "features": [
+    "city-reconstruction-1871:block:17",
+    "city-reconstruction-1871:plan-1860-street-0",
+    "city-reconstruction-1871:plan-1860-street-1",
+    "city-reconstruction-1871:plan-1860-street-18",
+    "city-reconstruction-1871:plan-1860-street-2",
+    "city-reconstruction-1871:plan-1860-street-5"
+   ],
+   "otherKeys": []
+  }
+ },
+ "plan1860BuildingsIdentical": true,
+ "against": "dist/assets/temporal-objects.json.gz built 2026-11-17 15:01 (after the planned-buildings step, before this step)"
+}
