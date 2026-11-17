@@ -1,0 +1,33 @@
+{
+ "added": [
+  "road:mariehamn:museum-streets:hamngatan-norra"
+ ],
+ "removed": [],
+ "changed": [
+  "road:mariehamn:major:way-35304989",
+  "road:postwar:way-1081060422",
+  "road:postwar:way-35011941",
+  "road:postwar:way-37210769",
+  "road:postwar:way-392187942",
+  "road:postwar:way-39585442",
+  "road:postwar:way-935611737"
+ ],
+ "geometriesAdded": [
+  "geometry:museum-streets:hamngatan-norra",
+  "geometry:museum-streets:hamngatan:museum-1920",
+  "geometry:museum-streets:parkgatan:museum-1920",
+  "geometry:museum-streets:way-35304989:museum-part"
+ ],
+ "geometriesRemoved": [],
+ "sourcesAdded": [
+  "review:mariehamn-museum-streets"
+ ],
+ "stagesChanged": [
+  "city-reconstruction-1920",
+  "city-reconstruction-1927"
+ ],
+ "otherKeys": [
+  "recordedAt"
+ ],
+ "note": "Against the catalogue built just before this change. mh-history:hindersbole-gard changed because the build picked up another session's uncommitted Hindersböle edits; it is not part of this review. tests/test_mariehamn_museum_streets.py repeats the audit from the pre-step snapshot: exactly these 8 objects, the 4 museum-streets geometries and the 4 raw stage copies."
+}

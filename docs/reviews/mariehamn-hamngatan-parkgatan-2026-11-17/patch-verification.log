@@ -1,0 +1,14 @@
+== forward on the pre-change copies
+patching file 'scripts/build_temporal_objects.py'
+patching file 'tests/mariehamn-major-roads.test.cjs'
+patching file 'tests/temporal-objects.test.cjs'
+patching file 'dist/index.html'
+scripts/build_temporal_objects.py identical to working tree
+tests/mariehamn-major-roads.test.cjs identical to working tree
+tests/temporal-objects.test.cjs identical to working tree
+dist/index.html: this patch, then the Hindersböle review's index hunk, gives the working tree exactly
+== reverse on a copy of the working tree (the index after reversing the Hindersböle hunk first)
+patching file 'scripts/build_temporal_objects.py'
+patching file 'tests/mariehamn-major-roads.test.cjs'
+patching file 'tests/temporal-objects.test.cjs'
+patching file 'dist/index.html'

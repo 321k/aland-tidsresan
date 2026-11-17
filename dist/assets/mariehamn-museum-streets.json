@@ -1,0 +1,219 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-17",
+ "source": {
+  "id": "review:mariehamn-museum-streets",
+  "title": "Hamngatan och Parkgatan · museikartans gator granskade mot flygfoton och grundkartor",
+  "url": "assets/mariehamn-museum-streets.json"
+ },
+ "museumDatasetId": "city-1920",
+ "museumYear": 1920,
+ "aerialSourceId": "mariehamn-aerial-1942",
+ "photoYear": 1942,
+ "photoObservedAt": "1942-07-25",
+ "modernSourceId": "city-2026",
+ "mapEvidence": [
+  {
+   "year": 1968,
+   "sourceId": "nls:91fde6e7-f99c-426a-a739-abaef03455b5"
+  },
+  {
+   "year": 1985,
+   "sourceId": "nls:91fde6e8-0a89-46fc-83df-2c984ef34f1d"
+  }
+ ],
+ "streets": [
+  {
+   "key": "hamngatan",
+   "featureId": "city-1920-street-37",
+   "traceId": "city-1920-trace-11",
+   "inputHash": "5b7296529e96a485aa3225c22f17d18e24b89053b828bcdd932423309aa2ef5b",
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1920",
+     "featureId": "city-reconstruction-1920:city-1920-street-37",
+     "inputHash": "3cdb0587a77571f784c03e0f65b549ac693b2b9101b164df406b63c952b974e6"
+    },
+    {
+     "stageId": "city-reconstruction-1927",
+     "featureId": "city-reconstruction-1927:city-1920-street-37",
+     "inputHash": "afec3145764a276b9830413124ad478d1f3b8258c6c0e4d47ca3485db4afa453"
+    }
+   ],
+   "linkObjectId": "road:postwar:way-35011941",
+   "maxDistanceMeters": 35,
+   "basis": "Museets 1920-talsbild visar \"Gata längs västra kvarteren\" längs kvarterens västra sida. Flygfotona 1942, 1952 och 1962 visar där en gata som tomterna vetter mot, i samma läge som grundkartan 1968 och dagens Hamngatan. Avritningen är grov: i norr ligger den 10–15 meter väster om gatan, genom sjöfartsmuseets tomt, och i söder fortsätter den rakt mot stranden där gatan svänger mot sydost. Den tolkas som Hamngatan och ersätts i kartan av Hamngatans inmätta mittlinjer; originalspåret bevaras som källbelägg. 1920 är visningsår för årtiondet, inte öppningsår.",
+   "members": [
+    {
+     "objectId": "road:postwar:way-35011941",
+     "inputHash": "845d28d94487bf1cdc2a7ff402beedd3deec0de1ce1a737e7ed5b27770f76a90",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan längs kvarterens västra sida i samma läge som dagens Hamngatan; fotona 1952 och 1962 visar samma gata."
+    },
+    {
+     "objectId": "road:postwar:way-392187942",
+     "inputHash": "d9eb0043a8350801073d55250b8f6a5d07b215227c53c58385d0d5ccc984a36d",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan längs kvarterens västra sida i samma läge som dagens Hamngatan; fotona 1952 och 1962 visar samma gata."
+    },
+    {
+     "objectId": "road:postwar:way-37210769",
+     "inputHash": "537c3bf4a2546235c74208af39f15e05d21fee9656a8f6930617f6e3d3f8cbd0",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan längs kvarterens västra sida i samma läge som dagens Hamngatan; fotona 1952 och 1962 visar samma gata."
+    },
+    {
+     "objectId": "road:postwar:way-1081060422",
+     "inputHash": "f214e6b1779d31d9210bb0bb446b24fd227656653e0d16ac93d42a7af5d3b918",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan längs kvarterens västra sida i samma läge som dagens Hamngatan; fotona 1952 och 1962 visar samma gata."
+    },
+    {
+     "objectId": "road:postwar:way-935611737",
+     "inputHash": "e03de1f1c9272f6e9dd8d42a7daeeefd0b4c752a04f0d018f7ad8d63300e73e5",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar gatan längs kvarterens västra sida i samma läge som dagens Hamngatan; fotona 1952 och 1962 visar samma gata."
+    }
+   ],
+   "newObjects": [
+    {
+     "id": "road:mariehamn:museum-streets:hamngatan-norra",
+     "name": "Hamngatan",
+     "routeId": "road:Hamngatan",
+     "modernRoadClass": "residential",
+     "roadWidth": 5,
+     "joinsObjectId": "road:postwar:way-1081060422",
+     "pieces": [
+      {
+       "pathHash": "c346d2f5ff5811fa3ace3e84ddda849fcccff574f9d1374c6acba25258281983",
+       "features": [
+        {
+         "datasetId": "city-2014",
+         "featureId": "city-2014-street-2990"
+        },
+        {
+         "datasetId": "city-2021",
+         "featureId": "city-2021-street-3565"
+        },
+        {
+         "datasetId": "city-2025",
+         "featureId": "city-2025-street-3677"
+        },
+        {
+         "datasetId": "city-2026",
+         "featureId": "city-2026-street-3686"
+        }
+       ]
+      },
+      {
+       "pathHash": "34bb9914be190d0526773a65bb12d22460ed72b2e0537ada3112915359273bf9",
+       "features": [
+        {
+         "datasetId": "city-2014",
+         "featureId": "city-2014-street-122"
+        },
+        {
+         "datasetId": "city-2021",
+         "featureId": "city-2021-street-122"
+        },
+        {
+         "datasetId": "city-2025",
+         "featureId": "city-2025-street-123"
+        },
+        {
+         "datasetId": "city-2026",
+         "featureId": "city-2026-street-123"
+        }
+       ]
+      },
+      {
+       "pathHash": "754e0a8162697afa429cd7e903b7f56348ca1f0787048e14ca546d2fe4c5bb54",
+       "features": [
+        {
+         "datasetId": "city-2014",
+         "featureId": "city-2014-street-1200"
+        },
+        {
+         "datasetId": "city-2021",
+         "featureId": "city-2021-street-1211"
+        },
+        {
+         "datasetId": "city-2025",
+         "featureId": "city-2025-street-1221"
+        },
+        {
+         "datasetId": "city-2026",
+         "featureId": "city-2026-street-1221"
+        }
+       ]
+      },
+      {
+       "pathHash": "5ce10b4fa439b43304131531b51bcdbe08a8a4422a003e7741ef1bb1e8ce19be",
+       "features": [
+        {
+         "datasetId": "city-2014",
+         "featureId": "city-2014-street-2984"
+        },
+        {
+         "datasetId": "city-2021",
+         "featureId": "city-2021-street-3559"
+        },
+        {
+         "datasetId": "city-2025",
+         "featureId": "city-2025-street-3671"
+        },
+        {
+         "datasetId": "city-2026",
+         "featureId": "city-2026-street-3680"
+        }
+       ]
+      }
+     ],
+     "photoNote": "Flygfotot 25 juli 1942 visar gatan längs kvarterens västra sida i samma läge som dagens Hamngatan; fotona 1952 och 1962 visar samma gata.",
+     "mapNote": "Grundkartorna 1968 och 1985 ritar gatan från Norragatan längs kvarterens västra sida till Hamngatans korsning. Kartåret är första granskade kartbelägg, inte byggår. Dagens OSM-mittlinje används för hela perioden.",
+     "basis": "Hamngatans norra del, från Norragatan till korsningen, syns på flygfotona 1942–2021 och grundkartorna 1968 och 1985 men saknade objekt; kartan visade gatan först med 2014 års gatunät. Den visas nu från museets 1920-talsbild med dagens mittlinje. Museets, fotots och kartans år är belägg, inte byggår."
+    }
+   ]
+  },
+  {
+   "key": "parkgatan",
+   "featureId": "city-1920-street-42",
+   "traceId": "city-1920-trace-18",
+   "inputHash": "76381ba6ada5578a8a68abd7fc9f70b75d94d8ff6866ecfb1d2d818f1bab2bf4",
+   "stageFeatures": [
+    {
+     "stageId": "city-reconstruction-1920",
+     "featureId": "city-reconstruction-1920:city-1920-street-42",
+     "inputHash": "65336094fc6bde51b245be216e8597c48fcc17ce43af69d24ef55208bc9cfbb5"
+    },
+    {
+     "stageId": "city-reconstruction-1927",
+     "featureId": "city-reconstruction-1927:city-1920-street-42",
+     "inputHash": "4245b3ffb65b5dc5f0037a0c17b9b1fe730cb53d400df38275946eb2299b573e"
+    }
+   ],
+   "linkObjectId": "road:postwar:way-39585442",
+   "maxDistanceMeters": 35,
+   "basis": "Museets 1920-talsbild visar \"Gata söderut vid östra stranden\" längs parkens västra kant och vidare mot sydost. Flygfotona 1942, 1952 och 1962 visar Parkgatan i båda delarna. Avritningen är grov och ligger 10–14 meter öster om gatan, i parkkanten. Den tolkas som Parkgatan och ersätts i kartan av Parkgatans inmätta mittlinjer; originalspåret bevaras som källbelägg. 1920 är visningsår för årtiondet, inte öppningsår.",
+   "members": [
+    {
+     "objectId": "road:postwar:way-39585442",
+     "inputHash": "a5d0188861324b9d696e8d7b82428554fb2cf1148af4254545590172fd3ed318",
+     "originalFrom": 1942,
+     "note": "Redan daterad från flygfotot 1942; museibilden ger ett tidigare belägg."
+    },
+    {
+     "objectId": "road:mariehamn:major:way-35304989",
+     "inputHash": "6d8665dba45d1711a70af08bf1815e72d70b58eaf3684f00b35a0db3370d4f0d",
+     "originalFrom": 1968,
+     "note": "Flygfotot 25 juli 1942 visar Parkgatans sydostliga del genom skogen i samma läge som dagens gata; fotona 1952 och 1962 visar samma gata.",
+     "museumRange": [
+      0,
+      0.637
+     ],
+     "cutLatitude": 60.0925
+    }
+   ]
+  }
+ ]
+}

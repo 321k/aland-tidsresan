@@ -1,0 +1,9 @@
+ℹ tests 529
+ℹ suites 0
+ℹ pass 528
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 97600.441709
+after the count fix: tests/temporal-objects.test.cjs 55/55; the only earlier failure was this review's new object in the named-object count

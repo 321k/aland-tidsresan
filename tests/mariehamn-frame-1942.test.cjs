@@ -33,10 +33,12 @@ test('streets the 1942 photo shows start in 1942 on their own centre lines; thei
  // The power-line clearing is not a street.
  assert.match(byName['Förbindelse mellan infartsvägarna, 1942'].basis,/kraftledning/);
  for(const m of members){const o=model.objects.get(m.objectId);
-  assert.equal(model.resolveObject(m.objectId,1941).geometry,null,m.objectId);
+  // The museum street review (Parkgatan) adds a 1920s state in front of the 1942 photo state.
+  const k=o.museumStreetReview?1:0;
+  assert.equal(model.resolveObject(m.objectId,k?1919:1941).geometry,null,m.objectId);
   const r42=model.resolveObject(m.objectId,1942),rOrig=model.resolveObject(m.objectId,m.originalFrom);
   assert.equal(r42.state,'open');assert.equal(r42.geometry.id,rOrig.geometry.id);
-  assert.deepEqual([o.states[0].from,o.states[0].to,o.states[1].from],[1942,m.originalFrom,m.originalFrom]);
+  assert.deepEqual([o.states[k].from,o.states[k].to,o.states[k+1].from],[1942,m.originalFrom,m.originalFrom]);
   const e=o.evidence.find(e=>e.id===m.objectId+':frame-photo-1942');assert.equal(e.observedAt,'1942-07-25');assert.equal(e.constructionYear,null);assert.equal(e.sourceTraceId,m.traceId);
   for(const y of [1942,1952,1968])assert.equal(grid.featuresForStage(grid.stage(y)).filter(f=>f.objectId===m.objectId).length,1,`${m.objectId} ${y}`);
   assert.equal(o.frame1942.traceId,m.traceId);assert.ok(!o.approach1942)}
