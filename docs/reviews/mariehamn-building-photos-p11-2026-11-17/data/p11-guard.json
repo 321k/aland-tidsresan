@@ -1,0 +1,93 @@
+{
+"23": {
+"objectId": "building:osm:way-162997264",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"24": {
+"objectId": "building:osm:way-162997265",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.003,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"25": {
+"objectId": "building:osm:way-162997267",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.016,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"26": {
+"objectId": "building:osm:way-346407513",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.176,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"28": {
+"objectId": "building:osm:way-346669282",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.037,
+"deferred": true,
+"visual": "Kartan 1978 har en fylld byggnadssymbol i konturen; en tidigare karta kan rita byggnaden."
+},
+"29": {
+"objectId": "building:osm:way-346669284",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": true,
+"visual": "Kartan 1978 har en fylld byggnadssymbol i konturen; en tidigare karta kan rita byggnaden."
+},
+"32": {
+"objectId": "building:osm:way-346669288",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"38": {
+"objectId": "building:osm:way-346669295",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.258,
+"deferred": true,
+"visual": "En byggnadssymbol p\u00e5 kartan gr\u00e4nsar till konturen; registreringen r\u00e4cker inte f\u00f6r att utesluta den."
+},
+"41": {
+"objectId": "building:osm:way-346669299",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"49": {
+"objectId": "building:osm:way-346669311",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+},
+"54": {
+"objectId": "building:osm:way-346669317",
+"code": "Y1991",
+"mapYear": 1985,
+"darkShare": 0.086,
+"deferred": true,
+"visual": "Den \u00f6ppna eller skrafferade byggnadssymbolen p\u00e5 kartan ligger i konturen."
+},
+"57": {
+"objectId": "building:osm:way-346669510",
+"code": "Y1999",
+"mapYear": 1995,
+"darkShare": 0.0,
+"deferred": false
+}
+}

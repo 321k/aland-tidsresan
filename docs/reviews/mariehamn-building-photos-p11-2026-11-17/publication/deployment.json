@@ -1,0 +1,10 @@
+{
+ "deployedAt": "2026-11-17",
+ "cloudflareVersion": "806d0727-3dd8-4bda-83fc-d57bdb801540",
+ "baseRelease": "adebefe4-c04b-4658-81e5-b982edd45461",
+ "changedFiles": ["assets/temporal-objects.json.gz", "assets/mariehamn-building-photos.json", "index.html",
+                  "temporal-objects.js (cache stamp only)", "object.html (cache stamp only)",
+                  "city-grid.js (the block-colour change, deployed together)"],
+ "liveCheck": "297 files compared byte for byte, 0 mismatches",
+ "wrangler": "4.149.0"
+}

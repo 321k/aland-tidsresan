@@ -22,6 +22,7 @@ only from their first OpenStreetMap year (2012–2026). The town's orthophotos g
   map, after the local registration shift, may already be drawn there; it is deferred so that no date is set too late.
   The dark share misses open and hatched symbols (sheds, halls), so since p2 the map crops are also inspected by eye:
   `KEY-visual.json` lists buildings whose outline contains or touches a map symbol, and `guard.py` defers them too.
+  From p11 the enlarged crops include the 1978 map, and a filled symbol there defers the building too.
 - An earlier photo that covers the spot without the building is `absent`; one that does not cover it is
   `not-covered`. The photo year is first evidence, not a construction year.
 
@@ -36,7 +37,8 @@ only from their first OpenStreetMap year (2012–2026). The town's orthophotos g
 | p7 | Västernäs and the northern centre (building-map batch b7) | 77 | 35 | 5 | 28 | 9 | 86: 77 no photo evidence, unclear, overlapping outlines or under 40 m², 8 map ink, 1 dated by an earlier curated review |
 | p6 | Södra and the southern centre (building-map batch b6) | 70 | 39 | 3 | 21 | 7 | 105: 101 no photo evidence, unclear, overlapping outlines or under 40 m², 4 map ink |
 | p2 | the western strip from Klinten and the yard past Notgrundet (building-map batch b2) | 100 | 6 | 6 | 51 | 37 | 80: 69 no photo evidence, unclear, overlapping outlines or under 40 m², 10 map ink (8 by eye: open or hatched symbols), 1 start not after the first photo year |
-| total | | 635 | 201 | 43 | 232 | 159 | 723 |
+| p11 | Dalen and Espholm, the peninsula south of Lervik (building-map batch b11) | 8 | 0 | 5 | 2 | 1 | 55: 48 no photo evidence, unclear or under 40 m² (many allotment cabins), 7 map ink (all by eye: 3 open symbols, 2 touching, 2 with a filled symbol on the 1978 map) |
+| total | | 643 | 201 | 48 | 234 | 160 | 778 |
 
 Most of Östra Ytternäs was built between the 1999 and 2007 photos; the 1991 dates are mostly garages and terraced
 rows that the map matching missed.
@@ -64,7 +66,7 @@ is under 40 m².
 Tests: `tests/mariehamn-building-photos.test.cjs`, `tests/test_mariehamn_building_photos.py` (pre-step snapshot
 `photos-before.json.gz` in the review cache). The scope audit finds exactly the 160 buildings changed (p10), one new
 source and no geometry or city-stage changes; for p9, against the p10 release, exactly the 112 p9 buildings changed
-and nothing else; for p4, against the p9 release, exactly the 79 p4 buildings; for p3, against the p4 release, exactly the 37 p3 buildings; for p7, against the p3 release, exactly the 77 p7 buildings; for p6, against the p7 release, exactly the 70 p6 buildings; for p2, against the p6 and street release, exactly the 100 p2 buildings.
+and nothing else; for p4, against the p9 release, exactly the 79 p4 buildings; for p3, against the p4 release, exactly the 37 p3 buildings; for p7, against the p3 release, exactly the 77 p7 buildings; for p6, against the p7 release, exactly the 70 p6 buildings; for p2, against the p6 and street release, exactly the 100 p2 buildings; for p11, against the p2 release, exactly the 8 p11 buildings.
 
 Open in p2: the yard halls `building:osm:way-165914218` (1,143 m²) and `way-165914225` (2,516 m²) and the shed
 `way-165914206` are `absent` in the building-map review, but the 1985 map draws hatched or open symbols inside their

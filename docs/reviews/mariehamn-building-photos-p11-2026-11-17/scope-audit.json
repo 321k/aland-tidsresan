@@ -1,0 +1,17 @@
+{
+ "idsSame": true,
+ "changed": 8,
+ "changedEqualsP11": true,
+ "p11": 8,
+ "otherKeys": [],
+ "changedIds": [
+  "building:osm:way-1280238725",
+  "building:osm:way-162997264",
+  "building:osm:way-346669281",
+  "building:osm:way-346669288",
+  "building:osm:way-346669299",
+  "building:osm:way-346669309",
+  "building:osm:way-346669311",
+  "building:osm:way-346669510"
+ ]
+}

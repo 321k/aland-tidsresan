@@ -1,0 +1,6 @@
+Base: the pre-p11 index.html with the block-colour session's city-grid.js stamp (b1fbddf0ec05), which is not p11 work.
+== forward on that base
+patching file 'dist/index.html'
+result identical to working tree
+== reverse on working tree
+patching file 'dist/index.html'

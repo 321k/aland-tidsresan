@@ -8,8 +8,8 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),photos=new Map(read('data/mariehamn-aerial-review.json').sources.map(s=>[s.year,s]));
 
 test('Mariehamn buildings with no map symbol are dated from the 1991–2015 photos',()=>{
- assert.equal(review.decisions.length,635);assert.deepEqual(review.totals.byFirstYear,{1991:201,1999:43,2007:232,2015:159});
- assert.deepEqual(review.totals.deferred,{'below-size':1,'curated-review':15,'map-ink':70,'no-photo-evidence':632,'not-earlier':5});
+ assert.equal(review.decisions.length,643);assert.deepEqual(review.totals.byFirstYear,{1991:201,1999:48,2007:234,2015:160});
+ assert.deepEqual(review.totals.deferred,{'below-size':1,'curated-review':15,'map-ink':77,'no-photo-evidence':680,'not-earlier':5});
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  const maps=read('data/mariehamn-building-maps.json');
  for(const d of review.decisions){assert.ok(maps.deferred.absent.includes(d.objectId),d.objectId);assert.ok(d.areaSquareMeters>=review.minAreaSquareMeters)}
@@ -17,10 +17,11 @@ test('Mariehamn buildings with no map symbol are dated from the 1991–2015 phot
 });
 
 test('buildings whose outline meets an open or hatched symbol on the 1985 or 1995 map are not photo-dated',()=>{
- // The dark-share guard misses open and hatched symbols; these western-strip buildings were deferred by eye (p2).
+ // The dark-share guard misses open and hatched symbols; these buildings were deferred by eye (p2 western strip, p11 Dalen/Espholm).
  const dated=new Set(review.decisions.map(d=>d.objectId));
  for(const id of ['building:osm:way-165914206','building:osm:way-165914218','building:osm:way-165914225','building:osm:way-584481413',
-  'building:osm:way-418380865','building:osm:way-584481420','building:osm:way-632929467','building:osm:way-632929497']){
+  'building:osm:way-418380865','building:osm:way-584481420','building:osm:way-632929467','building:osm:way-632929497',
+  'building:osm:way-162997265','building:osm:way-162997267','building:osm:way-346407513','building:osm:way-346669282','building:osm:way-346669284','building:osm:way-346669295','building:osm:way-346669317']){
   assert.ok(review.deferred['map-ink'].includes(id),id);assert.ok(!dated.has(id),id);assert.equal(catalog.objects.find(o=>o.id===id).buildingPhotoReview,undefined,id)}
 });
 
