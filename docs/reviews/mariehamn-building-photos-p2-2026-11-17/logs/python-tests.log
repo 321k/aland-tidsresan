@@ -1,0 +1,36 @@
+== test_mariehamn_building_photos
+Ran 5 tests in 13.707s
+
+OK
+== test_mariehamn_building_maps
+Ran 7 tests in 25.666s
+
+OK
+== test_mariehamn_frame_1942
+Ran 5 tests in 19.841s
+
+OK
+== test_mariehamn_approaches_1942
+Ran 6 tests in 15.155s
+
+OK
+== test_mariehamn_symbols_1968
+Ran 5 tests in 16.717s
+
+OK
+== test_mariehamn_museum_duplicates
+Ran 6 tests in 16.114s
+
+OK
+== test_mariehamn_museum_offsets
+Ran 6 tests in 13.696s
+
+OK
+== test_mariehamn_street_pass5
+Ran 11 tests in 35.079s
+
+OK
+== test_temporal_objects
+Ran 6 tests in 154.271s
+
+OK

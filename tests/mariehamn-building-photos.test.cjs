@@ -8,12 +8,20 @@ vm.runInContext('this.City=CityBuildings;this.Model=TemporalObjects;this.Grid=Ci
 const model=new box.Model(catalog),photos=new Map(read('data/mariehamn-aerial-review.json').sources.map(s=>[s.year,s]));
 
 test('Mariehamn buildings with no map symbol are dated from the 1991–2015 photos',()=>{
- assert.equal(review.decisions.length,535);assert.deepEqual(review.totals.byFirstYear,{1991:195,1999:37,2007:181,2015:122});
- assert.deepEqual(review.totals.deferred,{'below-size':1,'curated-review':15,'map-ink':60,'no-photo-evidence':563,'not-earlier':4});
+ assert.equal(review.decisions.length,635);assert.deepEqual(review.totals.byFirstYear,{1991:201,1999:43,2007:232,2015:159});
+ assert.deepEqual(review.totals.deferred,{'below-size':1,'curated-review':15,'map-ink':70,'no-photo-evidence':632,'not-earlier':5});
  assert.ok(catalog.sources.some(s=>s.id===review.source.id));
  const maps=read('data/mariehamn-building-maps.json');
  for(const d of review.decisions){assert.ok(maps.deferred.absent.includes(d.objectId),d.objectId);assert.ok(d.areaSquareMeters>=review.minAreaSquareMeters)}
  assert.deepEqual(catalog.objects.filter(o=>o.buildingPhotoReview).map(o=>o.id).sort(),review.decisions.map(d=>d.objectId).sort());
+});
+
+test('buildings whose outline meets an open or hatched symbol on the 1985 or 1995 map are not photo-dated',()=>{
+ // The dark-share guard misses open and hatched symbols; these western-strip buildings were deferred by eye (p2).
+ const dated=new Set(review.decisions.map(d=>d.objectId));
+ for(const id of ['building:osm:way-165914206','building:osm:way-165914218','building:osm:way-165914225','building:osm:way-584481413',
+  'building:osm:way-418380865','building:osm:way-584481420','building:osm:way-632929467','building:osm:way-632929497']){
+  assert.ok(review.deferred['map-ink'].includes(id),id);assert.ok(!dated.has(id),id);assert.equal(catalog.objects.find(o=>o.id===id).buildingPhotoReview,undefined,id)}
 });
 
 test('a photo-dated building starts at its first photo with that photo as evidence, keeps its outline and later history',()=>{

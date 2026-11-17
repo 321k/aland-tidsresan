@@ -1,0 +1,11 @@
+4c4,6
+< building is deferred. Usage: guard.py KEY -> KEY-guard.json"""
+---
+> building is deferred. The dark share misses open and hatched building symbols, so the crops are also inspected by eye;
+> KEY-visual.json (optional) lists, by sheet index, buildings whose outline meets a map symbol, and they are deferred too.
+> Usage: guard.py KEY -> KEY-guard.json"""
+34a37,40
+> vis = json.load(open(P / f'{key}-visual.json')) if (P / f'{key}-visual.json').exists() else {}
+> for n, note in vis.items():
+>     assert n in out, ('visual deferral for a building the guard does not check', n)
+>     out[n].update(deferred=True, visual=note)

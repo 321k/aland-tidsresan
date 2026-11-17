@@ -1,0 +1,5 @@
+== forward on pre-p2 copy
+patching file 'dist/index.html'
+result identical to working tree
+== reverse on working tree
+patching file 'dist/index.html'

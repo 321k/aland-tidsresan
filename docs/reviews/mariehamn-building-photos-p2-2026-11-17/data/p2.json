@@ -1,0 +1,1082 @@
+[
+{
+"batch": "b2",
+"objectId": "building:osm:relation-8801536",
+"start": 2021,
+"area": 330
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400011",
+"start": 2025,
+"area": 256
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400012",
+"start": 2025,
+"area": 174
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400013",
+"start": 2025,
+"area": 96
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400014",
+"start": 2025,
+"area": 249
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400015",
+"start": 2025,
+"area": 122
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400016",
+"start": 2025,
+"area": 256
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400017",
+"start": 2025,
+"area": 359
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400018",
+"start": 2025,
+"area": 361
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400019",
+"start": 2025,
+"area": 361
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400020",
+"start": 2025,
+"area": 80
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400023",
+"start": 2025,
+"area": 278
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400024",
+"start": 2025,
+"area": 278
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400025",
+"start": 2025,
+"area": 87
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400026",
+"start": 2025,
+"area": 288
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400027",
+"start": 2025,
+"area": 137
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400028",
+"start": 2025,
+"area": 205
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400029",
+"start": 2025,
+"area": 110
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1008400030",
+"start": 2025,
+"area": 148
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1243124185",
+"start": 2025,
+"area": 63
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1332433207",
+"start": 2025,
+"area": 22
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1332433256",
+"start": 2025,
+"area": 21
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1343189917",
+"start": 2025,
+"area": 455
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1343189918",
+"start": 2025,
+"area": 442
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1343208765",
+"start": 2025,
+"area": 54
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1343208766",
+"start": 2025,
+"area": 58
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1343208767",
+"start": 2025,
+"area": 49
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1343208768",
+"start": 2025,
+"area": 55
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1422853895",
+"start": 2026,
+"area": 45
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1422853896",
+"start": 2026,
+"area": 45
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555819571",
+"start": 2026,
+"area": 201
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555819608",
+"start": 2026,
+"area": 200
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555819886",
+"start": 2026,
+"area": 138
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555819979",
+"start": 2026,
+"area": 115
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555820039",
+"start": 2026,
+"area": 235
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555820626",
+"start": 2026,
+"area": 134
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555823295",
+"start": 2026,
+"area": 18
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555878697",
+"start": 2026,
+"area": 135
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555878795",
+"start": 2026,
+"area": 337
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555878798",
+"start": 2026,
+"area": 191
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-1555878800",
+"start": 2026,
+"area": 119
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914202",
+"start": 2012,
+"area": 301
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914203",
+"start": 2012,
+"area": 82
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914205",
+"start": 2012,
+"area": 300
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914206",
+"start": 2012,
+"area": 125
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914208",
+"start": 2012,
+"area": 76
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914209",
+"start": 2012,
+"area": 45
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914210",
+"start": 2012,
+"area": 71
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914211",
+"start": 2012,
+"area": 73
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914212",
+"start": 2012,
+"area": 73
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914213",
+"start": 2012,
+"area": 83
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914214",
+"start": 2012,
+"area": 84
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914215",
+"start": 2012,
+"area": 79
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914217",
+"start": 2012,
+"area": 103
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914218",
+"start": 2012,
+"area": 1143
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914219",
+"start": 2012,
+"area": 79
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914223",
+"start": 2012,
+"area": 212
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914224",
+"start": 2012,
+"area": 80
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-165914225",
+"start": 2012,
+"area": 2516
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-168766523",
+"start": 2012,
+"area": 136
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-193457947",
+"start": 2012,
+"area": 57
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-418380865",
+"start": 2021,
+"area": 60
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-418380868",
+"start": 2021,
+"area": 109
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-418380874",
+"start": 2021,
+"area": 164
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-418380881",
+"start": 2021,
+"area": 116
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-418380882",
+"start": 2021,
+"area": 146
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-418380883",
+"start": 2021,
+"area": 121
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-418380887",
+"start": 2021,
+"area": 211
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-496975960",
+"start": 2021,
+"area": 617
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-496975961",
+"start": 2021,
+"area": 616
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-496975962",
+"start": 2021,
+"area": 615
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-496975972",
+"start": 2021,
+"area": 143
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-496975973",
+"start": 2021,
+"area": 81
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-496975974",
+"start": 2021,
+"area": 138
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-584481411",
+"start": 2021,
+"area": 187
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-584481413",
+"start": 2021,
+"area": 227
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-584481415",
+"start": 2021,
+"area": 39
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-584481417",
+"start": 2021,
+"area": 104
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-584481420",
+"start": 2021,
+"area": 133
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-584481421",
+"start": 2021,
+"area": 54
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-584481422",
+"start": 2021,
+"area": 82
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-584481424",
+"start": 2021,
+"area": 55
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084506",
+"start": 2021,
+"area": 147
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084507",
+"start": 2021,
+"area": 137
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084509",
+"start": 2021,
+"area": 48
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084510",
+"start": 2021,
+"area": 44
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084512",
+"start": 2021,
+"area": 122
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084513",
+"start": 2021,
+"area": 140
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084514",
+"start": 2021,
+"area": 67
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084515",
+"start": 2021,
+"area": 48
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084516",
+"start": 2021,
+"area": 128
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084517",
+"start": 2021,
+"area": 109
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084518",
+"start": 2021,
+"area": 129
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084519",
+"start": 2021,
+"area": 81
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084520",
+"start": 2021,
+"area": 58
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084522",
+"start": 2021,
+"area": 145
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084523",
+"start": 2021,
+"area": 43
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084524",
+"start": 2021,
+"area": 129
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084527",
+"start": 2021,
+"area": 57
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084528",
+"start": 2021,
+"area": 156
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084529",
+"start": 2021,
+"area": 50
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084530",
+"start": 2021,
+"area": 121
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084531",
+"start": 2021,
+"area": 43
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084532",
+"start": 2021,
+"area": 131
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084533",
+"start": 2021,
+"area": 57
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084534",
+"start": 2021,
+"area": 115
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-591084535",
+"start": 2021,
+"area": 131
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929467",
+"start": 2021,
+"area": 76
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929471",
+"start": 2021,
+"area": 39
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929472",
+"start": 2021,
+"area": 111
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929473",
+"start": 2021,
+"area": 132
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929474",
+"start": 2021,
+"area": 10
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929475",
+"start": 2021,
+"area": 40
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929476",
+"start": 2021,
+"area": 126
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929477",
+"start": 2021,
+"area": 197
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929478",
+"start": 2021,
+"area": 113
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929479",
+"start": 2021,
+"area": 46
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929480",
+"start": 2021,
+"area": 41
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929481",
+"start": 2021,
+"area": 112
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929482",
+"start": 2021,
+"area": 164
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929484",
+"start": 2021,
+"area": 12
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929485",
+"start": 2021,
+"area": 136
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929486",
+"start": 2021,
+"area": 57
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929487",
+"start": 2021,
+"area": 180
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929488",
+"start": 2021,
+"area": 62
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929489",
+"start": 2021,
+"area": 148
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929490",
+"start": 2021,
+"area": 51
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929491",
+"start": 2021,
+"area": 138
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929492",
+"start": 2021,
+"area": 107
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929493",
+"start": 2021,
+"area": 36
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929497",
+"start": 2021,
+"area": 108
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929499",
+"start": 2021,
+"area": 155
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929501",
+"start": 2021,
+"area": 115
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929503",
+"start": 2021,
+"area": 51
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929505",
+"start": 2021,
+"area": 48
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929506",
+"start": 2021,
+"area": 120
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929508",
+"start": 2021,
+"area": 17
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929510",
+"start": 2021,
+"area": 190
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929513",
+"start": 2021,
+"area": 132
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929514",
+"start": 2021,
+"area": 117
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929516",
+"start": 2021,
+"area": 125
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929518",
+"start": 2021,
+"area": 215
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929522",
+"start": 2021,
+"area": 25
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929523",
+"start": 2021,
+"area": 264
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929527",
+"start": 2021,
+"area": 19
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929531",
+"start": 2021,
+"area": 36
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929535",
+"start": 2021,
+"area": 65
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929540",
+"start": 2021,
+"area": 11
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929547",
+"start": 2021,
+"area": 254
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929555",
+"start": 2021,
+"area": 18
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929563",
+"start": 2021,
+"area": 21
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929569",
+"start": 2021,
+"area": 7
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929575",
+"start": 2021,
+"area": 19
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929581",
+"start": 2021,
+"area": 15
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929583",
+"start": 2021,
+"area": 38
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929585",
+"start": 2021,
+"area": 12
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929593",
+"start": 2021,
+"area": 158
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929597",
+"start": 2021,
+"area": 18
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632929599",
+"start": 2021,
+"area": 29
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991610",
+"start": 2021,
+"area": 132
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991611",
+"start": 2021,
+"area": 31
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991621",
+"start": 2021,
+"area": 68
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991626",
+"start": 2021,
+"area": 132
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991627",
+"start": 2021,
+"area": 41
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991628",
+"start": 2021,
+"area": 23
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991629",
+"start": 2021,
+"area": 184
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991630",
+"start": 2021,
+"area": 16
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991631",
+"start": 2021,
+"area": 151
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991632",
+"start": 2021,
+"area": 192
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991633",
+"start": 2021,
+"area": 67
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991634",
+"start": 2021,
+"area": 206
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991641",
+"start": 2021,
+"area": 145
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991644",
+"start": 2021,
+"area": 50
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991646",
+"start": 2021,
+"area": 236
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-632991648",
+"start": 2021,
+"area": 40
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-633003398",
+"start": 2021,
+"area": 55
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-633003401",
+"start": 2021,
+"area": 46
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-845003831",
+"start": 2021,
+"area": 503
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-845003832",
+"start": 2021,
+"area": 501
+},
+{
+"batch": "b2",
+"objectId": "building:osm:way-945935746",
+"start": 2025,
+"area": 406
+}
+]
