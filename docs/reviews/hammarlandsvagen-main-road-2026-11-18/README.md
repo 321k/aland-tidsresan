@@ -59,4 +59,23 @@ main-road and old-road reviews and the QGIS road reconciliation pass (40 tests).
 These files also hold other uncommitted work; see `patch-verification.log`. `scripts/lemlandsvagen_main_road.py`
 (Långskata's own early geometry) has no other uncommitted work and is committed directly.
 
-Not deployed or committed yet.
+Committed as 0d1b396 and deployed (Cloudflare 0af559f2) on 2026-11-18.
+
+## Southern half (second batch, same day)
+
+Method and decisions: `docs/hammarlandsvagen-south.md`.
+- **Dated from 1929:** the old road east from Söderby to Mattas (Östanträskvägen, Furubacksvägen, Brobackavägen
+  and Södersundavägen; 9 existing objects).
+- **Dated from 1928:** Utängsvägen, and Natbacken–Sagalund on today's road.
+- **Unchanged:** the Gottby straight and Ödanböle–Söderby, which are later. The pink Ödanböle line on the 1929 sheet
+  is a hand addition.
+- **Review data:** `data/hammarlandsvagen-south.json`, written by `scripts/prepare_south.py` from
+  `data/map-scan-cache/review/hammarlandsvagen-main-road/before-south.json.gz`.
+- **Scope:** `scope-audit-south.json` lists 11 objects changed and 11 geometries and 4 sources added. Nothing else
+  changed.
+- **Tests:** new `tests/hammarlandsvagen-south.test.cjs` and `tests/test_hammarlandsvagen_south.py`.
+- **`batch-south.patch`:** `scripts/build_temporal_objects.py` (the hook and the asset copy), `dist/index.html`
+  (the card "De äldre vägarna mot Hammarland" and the regenerated preview) and `tests/qgis-roads.test.cjs` (reads the
+  review's earlier start from the object). See `patch-verification-south.log`.
+- **Runs:** all 586 JS tests pass (`logs/js-tests-south.log`). The south, north and QGIS reconciliation Python tests
+  pass (36 tests).

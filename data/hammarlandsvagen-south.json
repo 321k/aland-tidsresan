@@ -1,0 +1,286 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-18",
+ "source": {
+  "id": "review:hammarlandsvagen-south",
+  "title": "Hammarlandsvägens södra del och de äldre vägarna · granskning",
+  "url": "assets/hammarlandsvagen-south.json"
+ },
+ "sources": [
+  {
+   "id": "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "title": "Lantmäteriverket · sockenkarta 1012 05 Hammarudda–Kungsö · 1928",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_vari/map-39092676_500-20000-101205_pitajankartta_1928_karttalehti_101205_hammarudda-kungso_v2.tif",
+   "issuedAt": "1928",
+   "viewer": "https://vanhatkartat.fi/?map=9c76c491-898b-4b0b-9331-7af223831264"
+  },
+  {
+   "id": "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "title": "Lantmäteriverket · sockenkarta 1012 05 Kungsö · 1944 (svartvit utgåva)",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_mv/map-37946321_500-20000-101205_pitajankartta_mv_1944_karttalehti_101205_kungso_v2.tif",
+   "issuedAt": "1944",
+   "viewer": "https://vanhatkartat.fi/?map=9c72a692-458e-4804-af82-e6ac6dbf73fe"
+  },
+  {
+   "id": "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "title": "Lantmäteriverket · sockenkarta 1012 05 Kungsö · 1953",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_mv/map-37946345_500-20000-101205_pitajankartta_mv_1953_karttalehti_101205_kungso_v2.tif",
+   "issuedAt": "1953",
+   "viewer": "https://vanhatkartat.fi/?map=9c72a692-80ff-433c-950e-1cf484176101"
+  }
+ ],
+ "maps": {
+  "1928": {
+   "sourceId": "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "year": 1928
+  },
+  "1929": {
+   "sourceId": "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+   "year": 1929
+  },
+  "1944-kungso": {
+   "sourceId": "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "year": 1944
+  },
+  "1944-nafsby": {
+   "sourceId": "nls:9c72a692-bae4-473d-93bb-7bcdee1222e7",
+   "year": 1944
+  },
+  "1953": {
+   "sourceId": "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "year": 1953
+  }
+ },
+ "geometryPrefix": "geometry:hammarlandsvagen-south:",
+ "method": "Dagens Hammarlandsväg söder om Söderby och de äldre vägarna mot Mariehamn jämförda med Senatens kartverk 1917, sockenkartorna 1928 (Hammarudda–Kungsö) och 1929 (Hammarby), deras utgåvor 1944 och 1953 samt grundkartorna 1968–1985 (renders/). Samma väg: kartans väg har dagens form inom omkring 25–30 m.",
+ "early": [
+  {
+   "objectId": "road:qgis:gottby:hammarlandsvagen-1-100km5",
+   "inputHash": "76f9bc365790a5296e2ccd2930ad587e415d0a9b9057ed221284fd2405a402d7",
+   "geometryId": "geometry:qgis:419956f043ce0f43b158",
+   "geometryHash": "d396b3524ded587803568350c0b20741d071634257d4cf7978d6b804f94adeb4",
+   "lengthMeters": 5696.23,
+   "ranges": [
+    [
+     4108.0,
+     5504.0
+    ]
+   ],
+   "firstYear": 1928,
+   "until": 1978,
+   "maps": {
+    "1928": "present",
+    "1944-kungso": "present",
+    "1953": "present"
+   },
+   "referenceRange": [
+    4108,
+    5504
+   ]
+  },
+  {
+   "objectId": "road:qgis:gottby:utangsvagen-100km5",
+   "inputHash": "9327858ddbfa683c83848ac92e2d208d397bf8d82fae3fa52bac7a810ea4faa8",
+   "geometryId": "geometry:qgis:30f6ce2872650cd1ce83",
+   "geometryHash": "e2f3cdbf1c4ebe366ffbbd25358ff78bd1dae1c38d2cae328b70bf3f3a79552e",
+   "lengthMeters": 2733.0,
+   "ranges": [
+    [
+     0.0,
+     2733.0
+    ]
+   ],
+   "firstYear": 1928,
+   "until": 1978,
+   "maps": {
+    "1928": "present",
+    "1944-kungso": "present",
+    "1953": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-1422997221",
+   "inputHash": "b5b42f8a6e394bbc386ed37f37faddb8d212bc9c892403347413ceb3a756f141",
+   "geometryId": "geometry:852d23c2d6f81cc78663",
+   "geometryHash": "c1c49f0f90dd77362bb1a8816c133b8f1d8e39df1b461286c08d36c39ae9ac66",
+   "lengthMeters": 19.59,
+   "ranges": [
+    [
+     0.0,
+     19.6
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-350329986",
+   "inputHash": "22490c8b9ab7680810a57ecba10bc497a679686f75451269e69feb788768558b",
+   "geometryId": "geometry:0b5417b37a090d6e25eb",
+   "geometryHash": "4ad09ec9e8ea1368f79836363253ea90480eb6c3966a8824a91abefdb3d1cf70",
+   "lengthMeters": 188.3,
+   "ranges": [
+    [
+     0.0,
+     188.3
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-350329985",
+   "inputHash": "7f0f86011e7c33c1b11f6c004218c22d19ccac025c60164a28ff657532f6d87c",
+   "geometryId": "geometry:d8f179e1adfaab4b5691",
+   "geometryHash": "cc2f6d48016977bbc3fcabccfe1bf7bc6a69bbf27beaa6153ca15d84df35531c",
+   "lengthMeters": 378.67,
+   "ranges": [
+    [
+     0.0,
+     378.7
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-350329984",
+   "inputHash": "41c876e3a64a6df352ddd9b9d710c898d7b5428292ad650b285d18d5ceef5777",
+   "geometryId": "geometry:beb20791a50a840bd87b",
+   "geometryHash": "1a9b3a7f881361876b26985f69d22f81c11e22aae55f13c948c6a2bbfe9aebf6",
+   "lengthMeters": 244.92,
+   "ranges": [
+    [
+     0.0,
+     244.9
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-350329848",
+   "inputHash": "41a9792ecb801e3f94148820e40eef43b891e5b59a0eb08da61ef3a0d9309764",
+   "geometryId": "geometry:8c376232c636dbae7379",
+   "geometryHash": "5d4add4fed21fe21b88d8bc4800f5c68b76db8911d81e3c1dce9850fddae2e47",
+   "lengthMeters": 1036.24,
+   "ranges": [
+    [
+     0.0,
+     1036.2
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-1422793394",
+   "inputHash": "433a669c8e14fd0024a369fb92520e014123ea309880ab793862cbbe50238fbd",
+   "geometryId": "geometry:a35c94b3f4764ed01a78",
+   "geometryHash": "c8b2d036470485488cd11f6835d35ad38f1cca9b506ef53b5c7f4bea15bec11c",
+   "lengthMeters": 581.92,
+   "ranges": [
+    [
+     0.0,
+     581.9
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-350329847",
+   "inputHash": "8ca2b9009a17fd7c25cb928cda8be8094eeea1541c04a220b89603448c22c407",
+   "geometryId": "geometry:3d0fab639d3a2244947f",
+   "geometryHash": "86fcc819675d8633d386aa417aa1d253154607cb0b3ac74e3bfce276c4480a2c",
+   "lengthMeters": 459.37,
+   "ranges": [
+    [
+     0.0,
+     459.4
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-160987691",
+   "inputHash": "7e92135012488eb0b170b4fa81bc78c54c0e934aec02968c6c8955d3bf7d88ca",
+   "geometryId": "geometry:46060da598358a654de2",
+   "geometryHash": "e2994f2f36a0de9b60b3fbc7d32b55fce3ef2e7d284f64402506c976bf7240b4",
+   "lengthMeters": 1506.93,
+   "ranges": [
+    [
+     0.0,
+     1506.9
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-1422779920",
+   "inputHash": "d9e669eab2b581ad6489b68d723f9d0eb165bd1d175d5ebf7c347c7ac10c5a25",
+   "geometryId": "geometry:3f7422883fd20bf39a90",
+   "geometryHash": "e6163239774f7113e524be753c3870afc3209766667ecdfba7b3edf13120be3b",
+   "lengthMeters": 237.61,
+   "ranges": [
+    [
+     0.0,
+     237.6
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944-nafsby": "present"
+   }
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:gottby:hammarlandsvagen-1-100km5": "Biten Natbacken–Sagalund (4,1–5,5 km från Mariehamn) är den byväg som sockenkartan 1928 ritar; dagens väg följer den. Resten av del 1 är ny (rakan förbi Gottby, först på grundkartan 1978).",
+  "road:qgis:gottby:utangsvagen-100km5": "Sockenkartan 1928 ritar vägen i hela dess längd, och utgåvorna 1944 och 1953 betecknar den \"Andelsl.\" (andelslagsväg). Den är en del av den äldre förbindelsen från Sviby mot Ödanböle.",
+  "road:rural:hammarland-way-1422997221": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929.",
+  "road:rural:hammarland-way-350329986": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929.",
+  "road:rural:hammarland-way-350329985": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929.",
+  "road:rural:hammarland-way-350329984": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929.",
+  "road:rural:hammarland-way-350329848": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929.",
+  "road:rural:hammarland-way-1422793394": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929.",
+  "road:rural:hammarland-way-350329847": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929.",
+  "road:rural:hammarland-way-160987691": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929.",
+  "road:rural:hammarland-way-1422779920": "Den gamla huvudvägen österut från Söderby, via Östanträsk, Västansunda och Burs till Mattas i Södersunda. Sockenkartan 1929 (och utgåvan 1944) ritar den där dagens väg går, inom kartans lägesfel (10–30 m). Senatens kartverk 1917 ritar en huvudväg Söderby–Västansunda–Södersunda, men dess läge är för grovt för att knytas till en viss nutida väg; därför 1929."
+ }
+}

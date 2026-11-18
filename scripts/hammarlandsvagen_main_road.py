@@ -28,14 +28,26 @@ def metric(path):
 
 
 def apply_hammarlandsvagen_main_road(read, catalog):
-    review = read('data/hammarlandsvagen-main-road.json')
+    _apply(read, catalog, 'data/hammarlandsvagen-main-road.json')
+
+
+def apply_hammarlandsvagen_south(read, catalog):
+    """The southern half: older roads on the route Mariehamn–Söderby (see docs/hammarlandsvagen-south.md)."""
+    _apply(read, catalog, 'data/hammarlandsvagen-south.json')
+
+
+def _apply(read, catalog, path_):
+    review = read(path_)
     objects = {o['id']: o for o in catalog['objects']}; geometries = {g['id']: g for g in catalog['geometries']}
     sources = {s['id'] for s in catalog['sources']}; src = review['source']['id']
     if review['schemaVersion'] != 1 or src in sources:
         raise ValueError('Hammarlandsvägen review already applied')
-    if any(s['id'] in sources for s in review['sources']) or set(review['maps'].values()) != {s['id'] for s in review['sources']}:
+    # maps: label -> source id (the label is the year), or label -> {sourceId, year} when two sheets share a year.
+    labels = {k: (v if isinstance(v, dict) else dict(sourceId=v, year=int(k))) for k, v in review['maps'].items()}
+    if any(s['id'] in sources for s in review['sources']) or any(l['sourceId'] not in sources | {s['id'] for s in review['sources']} for l in labels.values()):
         raise ValueError('Unexpected map sources')
-    maps = {int(y): v for y, v in review['maps'].items()}
+    maps = {int(k): l['sourceId'] for k, l in labels.items() if k.isdigit()}
+    prefix = review.get('geometryPrefix', 'geometry:hammarlandsvagen-1929:')
 
     plans = []
     for e in review['early']:
@@ -51,19 +63,20 @@ def apply_hammarlandsvagen_main_road(read, catalog):
         first = o['states'][0]['from']
         if e['until'] != first or o['geometryPeriods'][0]['from'] != first or e['firstYear'] >= first:
             raise ValueError('The early period must end where the object now begins: ' + e['objectId'])
-        if sorted(e['maps']) != sorted(review['maps']) or min(int(y) for y, v in e['maps'].items() if v == 'present') != e['firstYear']:
+        if not set(e['maps']) <= set(labels) or min(labels[k]['year'] for k, v in e['maps'].items() if v == 'present') != e['firstYear']:
             raise ValueError('First year is not the first map marked present: ' + e['objectId'])
         rs = e['ranges']
-        if not rs or any(a < 0 or b > line.length + 0.05 or b - a < 50 for a, b in rs) or any(x[1] >= y[0] for x, y in zip(rs, rs[1:])):
+        whole = len(rs) == 1 and rs[0][0] == 0 and abs(rs[0][1] - line.length) < 0.1     # a short object may be dated whole
+        if not rs or any(a < 0 or b > line.length + 0.1 or (b - a < 50 and not whole) for a, b in rs) or any(x[1] >= y[0] for x, y in zip(rs, rs[1:])):
             raise ValueError('Invalid same-road ranges ' + e['objectId'])
         parts = [cut(path, line, a, b) for a, b in rs]
-        full = len(rs) == 1 and rs[0][0] == 0 and abs(rs[0][1] - line.length) < 0.05
+        full = whole
         plans.append((e, o, g, parts, full, [[round(a / line.length, 6), round(min(b, line.length) / line.length, 6)] for a, b in rs]))
 
     # The same-road objects follow each other along the road (the reference line) in the reviewed order.
     # Together the cuts cover each reviewed same-road interval of today's road exactly once, without gaps.
-    ref = LineString(review['reference'])
-    for s, e in review['sameRoad']:
+    ref = LineString(review['reference']) if 'sameRoad' in review else None
+    for s, e in review.get('sameRoad', []):
         got = []
         for pl in plans:
             for part in pl[3]:
@@ -79,56 +92,57 @@ def apply_hammarlandsvagen_main_road(read, catalog):
             at = b
         if abs(at - e) > 2:
             raise ValueError(f'Same-road interval {s}-{e} is not covered to its end')
-    for prev, nxt in zip(plans, plans[1:]):
+    for prev, nxt in (zip(plans, plans[1:]) if ref is not None else []):
         if prev[5][-1][1] == 1 and nxt[5][0][0] == 0:        # a stretch runs on across the object boundary
             a, b = metric(prev[3][-1]), metric(nxt[3][0])
             if min(Point(a.coords[i]).distance(Point(b.coords[j])) for i in (0, -1) for j in (0, -1)) > SAME_ROAD_GAP:
                 raise ValueError(f'Same-road stretch breaks between {prev[0]["objectId"]} and {nxt[0]["objectId"]}')
 
     # The old line at Smedens: ends on today's road, not along any road open while it is, and not surviving in OSM.
-    od = review['oldRoad']
-    if od['id'] in objects:
+    od = review.get('oldRoad')
+    if od and od['id'] in objects:
         raise ValueError('Duplicate old-road identity ' + od['id'])
-    old = metric(od['path'])
-    if abs(old.length - od['lengthMeters']) > 0.5 or max(od['endSnapMeters']) > 25:
-        raise ValueError('Changed Smedens old line')
-    if sorted(od['maps']) != sorted(set(od['maps'])) or min(int(y) for y, v in od['maps'].items() if v == 'present') != od['firstYear'] \
-            or od['until'] != min(int(y) for y, v in od['maps'].items() if v == 'absent'):
-        raise ValueError('Old road dates do not follow its maps')
-    today = [metric(p) for oid in ('road:rural:hammarland-way-345142933', 'road:rural:hammarland-way-345143750')
-             for p in geometries[objects[oid]['geometryPeriods'][0]['geometryId']]['paths']]
-    for pt in (Point(old.coords[0]), Point(old.coords[-1])):
-        if min(t.distance(pt) for t in today) > END_LIMIT:
-            raise ValueError('Smedens old line does not end on today\'s road')
-    early_lines = [metric(p) for pl in plans for p in pl[3]]
-    for o in catalog['objects']:
-        if o['kind'] != 'roadSegment': continue
-        for gp in o['geometryPeriods']:
-            if gp['from'] < od['until'] and od['firstYear'] < (gp['to'] or 9999):
-                for p in geometries[gp['geometryId']]['paths']:
-                    hit = metric(p).intersection(old.buffer(OVERLAP_BUFFER)) if len(p) > 1 else None
-                    if hit is not None and max([h.length for h in getattr(hit, 'geoms', [hit])] + [0]) > OVERLAP_LIMIT:
-                        raise ValueError('Smedens old line runs along ' + o['id'])
-    for p in early_lines:
-        hit = p.intersection(old.buffer(OVERLAP_BUFFER))
-        if max([h.length for h in getattr(hit, 'geoms', [hit])] + [0]) > OVERLAP_LIMIT:
-            raise ValueError('Smedens old line repeats a same-road stretch')
-    modern = read('dist/assets/modern.json.gz')['features']
-    for f in modern:
-        if f.get('kind') != 'road' or f.get('name') == 'Hammarlandsvägen' or f.get('class') in ('footway', 'path', 'cycleway', 'steps'):
-            continue
-        for p in f['paths']:
-            if len(p) > 1 and metric(p).intersection(old.buffer(SURVIVOR_BUFFER)).length > SURVIVOR_LIMIT:
-                raise ValueError('The Smedens old line survives as ' + f['id'] + '; reconcile it instead of adding a separate object')
+    if od:
+        old = metric(od['path'])
+        if abs(old.length - od['lengthMeters']) > 0.5 or max(od['endSnapMeters']) > 25:
+            raise ValueError('Changed Smedens old line')
+        if sorted(od['maps']) != sorted(set(od['maps'])) or min(int(y) for y, v in od['maps'].items() if v == 'present') != od['firstYear'] \
+                or od['until'] != min(int(y) for y, v in od['maps'].items() if v == 'absent'):
+            raise ValueError('Old road dates do not follow its maps')
+        today = [metric(p) for oid in ('road:rural:hammarland-way-345142933', 'road:rural:hammarland-way-345143750')
+                 for p in geometries[objects[oid]['geometryPeriods'][0]['geometryId']]['paths']]
+        for pt in (Point(old.coords[0]), Point(old.coords[-1])):
+            if min(t.distance(pt) for t in today) > END_LIMIT:
+                raise ValueError('Smedens old line does not end on today\'s road')
+        early_lines = [metric(p) for pl in plans for p in pl[3]]
+        for o in catalog['objects']:
+            if o['kind'] != 'roadSegment': continue
+            for gp in o['geometryPeriods']:
+                if gp['from'] < od['until'] and od['firstYear'] < (gp['to'] or 9999):
+                    for p in geometries[gp['geometryId']]['paths']:
+                        hit = metric(p).intersection(old.buffer(OVERLAP_BUFFER)) if len(p) > 1 else None
+                        if hit is not None and max([h.length for h in getattr(hit, 'geoms', [hit])] + [0]) > OVERLAP_LIMIT:
+                            raise ValueError('Smedens old line runs along ' + o['id'])
+        for p in early_lines:
+            hit = p.intersection(old.buffer(OVERLAP_BUFFER))
+            if max([h.length for h in getattr(hit, 'geoms', [hit])] + [0]) > OVERLAP_LIMIT:
+                raise ValueError('Smedens old line repeats a same-road stretch')
+        modern = read('dist/assets/modern.json.gz')['features']
+        for f in modern:
+            if f.get('kind') != 'road' or f.get('name') == 'Hammarlandsvägen' or f.get('class') in ('footway', 'path', 'cycleway', 'steps'):
+                continue
+            for p in f['paths']:
+                if len(p) > 1 and metric(p).intersection(old.buffer(SURVIVOR_BUFFER)).length > SURVIVOR_LIMIT:
+                    raise ValueError('The Smedens old line survives as ' + f['id'] + '; reconcile it instead of adding a separate object')
 
     # All checks passed. Change the catalogue.
     catalog['sources'] += [deepcopy(s) for s in review['sources']] + [deepcopy(review['source'])]
 
     def map_evidence(oid, outcomes, gid, note, coverage):
         ev = []
-        for y in sorted(int(k) for k in outcomes):
-            outcome = outcomes[str(y)]
-            e = dict(id=f'{oid}:parish-map-{y}', sourceId=maps.get(y) or f'nls:101206:{y}', describes={'from': y, 'to': y + 1}, observationType='printed-map-review',
+        for k in sorted(outcomes, key=lambda k: (labels[k]['year'] if k in labels else int(k), k)):
+            outcome = outcomes[k]; y = labels[k]['year'] if k in labels else int(k)
+            e = dict(id=f'{oid}:parish-map-{k}', sourceId=labels[k]['sourceId'] if k in labels else f'nls:101206:{y}', describes={'from': y, 'to': y + 1}, observationType='printed-map-review',
                      interpretation=True, outcome=outcome, supports=['geometry', 'identity', 'state'] if outcome == 'present' else ['state'], constructionYear=None, reviewId=src, note=note)
             if outcome == 'present':
                 e.update(matchedGeometryId=gid, **coverage)
@@ -136,7 +150,7 @@ def apply_hammarlandsvagen_main_road(read, catalog):
         return ev
 
     for e, o, g, parts, full, ranges in plans:
-        oid = e['objectId']; gid = 'geometry:hammarlandsvagen-1929:' + oid.rsplit(':', 1)[1]
+        oid = e['objectId']; gid = prefix + oid.rsplit(':', 1)[1]
         cov = dict(coverage='full', canonicalRange=[0, 1]) if full else (dict(coverage='partial', canonicalRange=ranges[0]) if len(ranges) == 1 else dict(coverage='partial', canonicalRanges=ranges))
         catalog['geometries'].append(dict(id=gid, representation='centerline', paths=deepcopy(parts), sourceIds=deepcopy(g['sourceIds']),
                                           note='Del av objektets egen geometri (samma koordinater) där dagens väg är den väg sockenkartan 1929 ritar.'))
@@ -146,20 +160,22 @@ def apply_hammarlandsvagen_main_road(read, catalog):
         o['evidence'] += ev
         o['states'].insert(0, dict(state='open', **{'from': e['firstYear'], 'to': e['until']}, certainty='inferred', evidenceIds=refs, note=basis))
         o['geometryPeriods'].insert(0, dict(geometryId=gid, **{'from': e['firstYear'], 'to': e['until']}, certainty='inferred', evidenceIds=refs, basis=basis, **cov))
-        o['hammarlandsvagenMainRoad'] = dict(reviewedAt=review['reviewedAt'], previousFirstYear=e['until'], ranges=e['ranges'], constructionYear=None)
+        o['hammarlandsvagenMainRoad'] = dict(reviewedAt=review['reviewedAt'], previousFirstYear=e['until'], ranges=e['ranges'], constructionYear=None,
+                                             **({'review': src} if path_ != 'data/hammarlandsvagen-main-road.json' else {}))
 
-    oid = od['id']; gid = 'geometry:' + oid.split(':', 1)[1]
-    catalog['geometries'].append(dict(id=gid, representation='centerline', paths=[deepcopy(od['path'])], sourceIds=[maps[1929]], note=od['traceBasis']))
-    ev = map_evidence(oid, od['maps'], gid, od['basis'], dict(coverage='full', canonicalRange=[0, 1]))
-    refs = [x['id'] for x in ev if x['outcome'] == 'present']
-    later = dict(id=oid + ':after-maps', sourceId=src, describes={'from': od['until'], 'to': None}, supports=['state'], observationType='interpretation', interpretation=True,
-                 constructionYear=None, note='Grundkartan 1968 ritar inte vägen, och den finns inte i OpenStreetMap. Exakt när den togs ur bruk är inte känt.')
-    ev.append(later)
-    catalog['objects'].append(dict(
-        id=oid, name=od['name'], kind='roadSegment', independentRoad=True, ruralRoad=True, modernRoadClass=od['modernRoadClass'], roadWidth=od['roadWidth'], routeId=od['routeId'],
-        states=[dict(state='open', **{'from': od['firstYear'], 'to': od['until']}, certainty='inferred', evidenceIds=refs, note=od['basis']),
-                dict(state='unknown', **{'from': od['until'], 'to': None}, certainty='inferred', evidenceIds=[later['id']], note=later['note'])],
-        geometryPeriods=[dict(geometryId=gid, **{'from': od['firstYear'], 'to': od['until']}, certainty='inferred', evidenceIds=refs, coverage='full', canonicalRange=[0, 1], basis=od['traceBasis'])],
-        evidence=ev, sourceLinks=[],
-        hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], oldRoad=True, referenceRange=od['referenceRange'], endSnapMeters=od['endSnapMeters'], constructionYear=None)))
+    if od:
+        oid = od['id']; gid = 'geometry:' + oid.split(':', 1)[1]
+        catalog['geometries'].append(dict(id=gid, representation='centerline', paths=[deepcopy(od['path'])], sourceIds=[maps[1929]], note=od['traceBasis']))
+        ev = map_evidence(oid, od['maps'], gid, od['basis'], dict(coverage='full', canonicalRange=[0, 1]))
+        refs = [x['id'] for x in ev if x['outcome'] == 'present']
+        later = dict(id=oid + ':after-maps', sourceId=src, describes={'from': od['until'], 'to': None}, supports=['state'], observationType='interpretation', interpretation=True,
+                     constructionYear=None, note='Grundkartan 1968 ritar inte vägen, och den finns inte i OpenStreetMap. Exakt när den togs ur bruk är inte känt.')
+        ev.append(later)
+        catalog['objects'].append(dict(
+            id=oid, name=od['name'], kind='roadSegment', independentRoad=True, ruralRoad=True, modernRoadClass=od['modernRoadClass'], roadWidth=od['roadWidth'], routeId=od['routeId'],
+            states=[dict(state='open', **{'from': od['firstYear'], 'to': od['until']}, certainty='inferred', evidenceIds=refs, note=od['basis']),
+                    dict(state='unknown', **{'from': od['until'], 'to': None}, certainty='inferred', evidenceIds=[later['id']], note=later['note'])],
+            geometryPeriods=[dict(geometryId=gid, **{'from': od['firstYear'], 'to': od['until']}, certainty='inferred', evidenceIds=refs, coverage='full', canonicalRange=[0, 1], basis=od['traceBasis'])],
+            evidence=ev, sourceLinks=[],
+            hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], oldRoad=True, referenceRange=od['referenceRange'], endSnapMeters=od['endSnapMeters'], constructionYear=None)))
     catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])

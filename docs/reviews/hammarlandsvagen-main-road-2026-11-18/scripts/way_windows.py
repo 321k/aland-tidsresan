@@ -1,5 +1,5 @@
 """Windows along given OSM 2026 ways (cyan) with today's Hammarlandsvägen (red): 1917, 1928, 1929H, 1944K, 1953K, the
-1968/1978 and 1985 base maps (first registered sheet that covers). Usage: way_windows.py OUT.jpg STEP HALF WAY[,WAY...]"""
+1968/1978 and 1985 base maps (first registered sheet that covers). Usage: way_windows.py OUT.jpg STEP HALF WAY[,WAY...] [LABELS e.g. 1917,1929H,1968] [PANEL_PX]"""
 import sys, json, gzip
 sys.path.insert(0, __file__.rsplit('/', 1)[0]); sys.path.insert(0, 'scripts')
 from maps import tile_window, scan_window, inside, SHEETS
@@ -16,11 +16,12 @@ mod = {f['id']: f for f in json.load(gzip.open('dist/assets/modern.json.gz'))['f
 W = linemerge([LineString([TO_METRIC(*q) for q in mod[w]['paths'][0]]) for w in ways])
 WL = list(getattr(W, 'geoms', [W]))
 TILES = [('1917', '92062c61-d313-459a-be85-07f876826716', 14), ('1928', '9c76c491-898b-4b0b-9331-7af223831264', 15), ('1929H', '9c72eaa7-cd73-4f92-91b0-dc36524bef08', 15),
-         ('1929M', '9c76c492-0456-43c6-9478-b2aa0034b26c', 15), ('1944K', '9c72a692-458e-4804-af82-e6ac6dbf73fe', 15), ('1953K', '9c72a692-80ff-433c-950e-1cf484176101', 15),
+         ('1929M', '9c76c492-0456-43c6-9478-b2aa0034b26c', 15), ('1944K', '9c72a692-458e-4804-af82-e6ac6dbf73fe', 15), ('1944N', '9c72a692-bae4-473d-93bb-7bcdee1222e7', 15), ('1953K', '9c72a692-80ff-433c-950e-1cf484176101', 15),
          ('1955J', '9c72a694-4f10-4b9f-9c9e-2f3d2a7c8e3a', 15)]
 import json as _j
 ids = {m['id'][:13]: m['id'] for m in _j.load(open('data/historical-map-sources.json'))['maps']}
 TILES = [(n, ids[m[:13]], z) for n, m, z in TILES if m[:13] in ids]
+KEEP = sys.argv[5].split(',') if len(sys.argv) > 5 else None
 
 
 def sheet_for(E, N, years):
@@ -32,12 +33,13 @@ def sheet_for(E, N, years):
         if min(fx) < x < max(fx) and min(fy) < y < max(fy): return sid
 
 
-P = 280; rows = []
+P = int(sys.argv[6]) if len(sys.argv) > 6 else 280; rows = []
 for line in WL:
     d = 0.0
     while d <= line.length:
         rows.append(line.interpolate(d).coords[0]); d += step
-sheet = Image.new('RGB', (P * 9, P * len(rows)), 'white')
+ncol = len(KEEP) if KEEP else 9
+sheet = Image.new('RGB', (P * ncol, P * len(rows)), 'white')
 for i, (cx, cy) in enumerate(rows):
     panels = []
     for n, m, z in TILES:
@@ -48,7 +50,7 @@ for i, (cx, cy) in enumerate(rows):
             panels.append((n, None))
     for yrs in ([1968], [1978], [1985]):
         s = sheet_for(cx, cy, yrs); panels.append((s[4:] if s else str(yrs[0]), scan_window(s, cx, cy, half, P) if s else None))
-    panels = panels[:9]
+    panels = [p for p in panels if KEEP is None or p[0] in KEEP or any(p[0].endswith(':' + k) for k in KEEP)][:9]
     for j, (n, win) in enumerate(panels):
         t, f = win if win else (Image.new('RGB', (P, P), (220, 220, 220)), None)
         dr = ImageDraw.Draw(t)

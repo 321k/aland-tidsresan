@@ -1,0 +1,52 @@
+{
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:qgis:gottby:hammarlandsvagen-1-100km5",
+   "road:qgis:gottby:utangsvagen-100km5",
+   "road:rural:hammarland-way-1422779920",
+   "road:rural:hammarland-way-1422793394",
+   "road:rural:hammarland-way-1422997221",
+   "road:rural:hammarland-way-160987691",
+   "road:rural:hammarland-way-350329847",
+   "road:rural:hammarland-way-350329848",
+   "road:rural:hammarland-way-350329984",
+   "road:rural:hammarland-way-350329985",
+   "road:rural:hammarland-way-350329986"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:hammarlandsvagen-south:hammarland-way-1422779920",
+   "geometry:hammarlandsvagen-south:hammarland-way-1422793394",
+   "geometry:hammarlandsvagen-south:hammarland-way-1422997221",
+   "geometry:hammarlandsvagen-south:hammarland-way-160987691",
+   "geometry:hammarlandsvagen-south:hammarland-way-350329847",
+   "geometry:hammarlandsvagen-south:hammarland-way-350329848",
+   "geometry:hammarlandsvagen-south:hammarland-way-350329984",
+   "geometry:hammarlandsvagen-south:hammarland-way-350329985",
+   "geometry:hammarlandsvagen-south:hammarland-way-350329986",
+   "geometry:hammarlandsvagen-south:hammarlandsvagen-1-100km5",
+   "geometry:hammarlandsvagen-south:utangsvagen-100km5"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "review:hammarlandsvagen-south"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStagesUnchanged": true,
+ "otherTopLevelUnchanged": true,
+ "recordedAt": [
+  "2026-11-18",
+  "2026-11-18"
+ ]
+}
