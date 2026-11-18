@@ -1,0 +1,17 @@
+== forward on copies of the files without this batch's changes
+patching file 'tests/mariehamn-approaches-1942.test.cjs'
+patching file 'tests/mariehamn-major-road-followups.test.cjs'
+patching file 'tests/mariehamn-street-pass3.test.cjs'
+patching file 'tests/qgis-roads.test.cjs'
+patching file 'tests/rural-map-review.test.cjs'
+tests/mariehamn-approaches-1942.test.cjs identical to working tree
+tests/mariehamn-major-road-followups.test.cjs identical to working tree
+tests/mariehamn-street-pass3.test.cjs identical to working tree
+tests/qgis-roads.test.cjs identical to working tree
+tests/rural-map-review.test.cjs identical to working tree
+== reverse on the working tree (dry run)
+patching file 'tests/mariehamn-approaches-1942.test.cjs'
+patching file 'tests/mariehamn-major-road-followups.test.cjs'
+patching file 'tests/mariehamn-street-pass3.test.cjs'
+patching file 'tests/qgis-roads.test.cjs'
+patching file 'tests/rural-map-review.test.cjs'

@@ -1,0 +1,114 @@
+diff --git a/tests/mariehamn-approaches-1942.test.cjs b/tests/mariehamn-approaches-1942.test.cjs
+--- a/tests/mariehamn-approaches-1942.test.cjs
++++ b/tests/mariehamn-approaches-1942.test.cjs
+@@ -29,8 +29,9 @@
+ 
+ test('objects the 1942 photo shows start in 1942 with their own centre line; later dates are kept',()=>{
+  assert.equal(members.length,30);
+- for(const m of members){const o=model.objects.get(m.objectId),c=o.churchRoadReview?1:0; /* the church road review adds an earlier parish-map state */
+-  assert.equal(model.resolveObject(m.objectId,(c?o.churchRoadReview.newFrom:1942)-1).geometry,null,m.objectId);
++ for(const m of members){const o=model.objects.get(m.objectId),c=(o.churchRoadReview?1:0)+(o.historicalDating?1:0); /* the church road and historical-date reviews add an earlier state */
++  if(o.historicalDating)assert.equal(o.historicalDating.previousFirstYear,1942,m.objectId);
++  assert.equal(model.resolveObject(m.objectId,(o.historicalDating?o.states[0].from:o.churchRoadReview?o.churchRoadReview.newFrom:1942)-1).geometry,null,m.objectId);
+   const r42=model.resolveObject(m.objectId,1942),rOrig=model.resolveObject(m.objectId,m.originalFrom);
+   assert.equal(r42.state,'open');assert.equal(r42.geometry.id,rOrig.geometry.id,m.objectId);assert.equal(r42.geometryPeriod.coverage||'full',rOrig.geometryPeriod.coverage||'full');
+   // The earlier first state and period follow unchanged (the full comparison is in the scope audit).
+@@ -54,6 +55,7 @@
+  for(const a of review.approaches)for(const x of a.excluded){const o=model.objects.get(x.objectId);assert.ok(!o.approach1942);assert.ok(x.reason);
+   // way-35011592 was left to the city map's Strandgatan trace; the 1942 frame review later replaced that trace with it.
+   if(o.frame1942){assert.equal(o.frame1942.traceId,'city-1942-trace-11');continue}
++  if(o.historicalDating){assert.ok(o.historicalDating.previousFirstYear>1942,x.objectId);continue} /* the historical-date review may give a sourced earlier start; previousFirstYear keeps this review's year */
+   assert.ok(o.states[0].from>1942,x.objectId)}
+  assert.deepEqual(catalog.objects.filter(o=>o.approach1942).map(o=>o.id).sort(),members.map(m=>m.objectId).sort());
+ });
+diff --git a/tests/mariehamn-major-road-followups.test.cjs b/tests/mariehamn-major-road-followups.test.cjs
+--- a/tests/mariehamn-major-road-followups.test.cjs
++++ b/tests/mariehamn-major-road-followups.test.cjs
+@@ -14,9 +14,10 @@
+  assert.equal(review.decisions.length,37);assert.equal(review.totals.newPersistentMeters,7641.79);assert.equal(review.totals.confirmedExistingMeters,0);
+  assert.equal(Math.round(review.decisions.reduce((s,d)=>s+d.lengthMeters,0)*100)/100,7641.79);
+  for(const d of review.decisions){
+-  assert.equal(at(d.id,(model.objects.get(d.id).churchRoadReview?.newFrom??(model.objects.get(d.id).approach1942?1942:d.firstYear))-1).geometry,null,d.id); /* the 1942 approach and church road reviews may add earlier evidence */ 
++  const hd=model.objects.get(d.id).historicalDating;if(hd)assert.equal(hd.previousFirstYear,model.objects.get(d.id).approach1942?1942:d.firstYear,d.id); /* the historical-date review may give a sourced earlier start; previousFirstYear keeps this review's year */
++  assert.equal(at(d.id,(hd?model.objects.get(d.id).states[0].from:model.objects.get(d.id).churchRoadReview?.newFrom??(model.objects.get(d.id).approach1942?1942:d.firstYear))-1).geometry,null,d.id); /* the 1942 approach and church road reviews may add earlier evidence */ 
+   assert.equal(at(d.id,d.firstYear).state,'open',d.id);
+-  for(const o of d.observations){const r=at(d.id,o.year);if(model.objects.get(d.id).churchRoadReview&&o.year<d.firstYear)continue; /* the church road review reads these editions again */ assert.equal(Boolean(r.geometry),o.outcome==='present',`${d.id} ${o.year}`);
++  for(const o of d.observations){const r=at(d.id,o.year);if((model.objects.get(d.id).churchRoadReview||hd)&&o.year<d.firstYear)continue; /* the church road review reads these editions again */ assert.equal(Boolean(r.geometry),o.outcome==='present',`${d.id} ${o.year}`);
+    const e=r.object.evidence.find(e=>e.id===`${d.id}:map-${o.year}`);assert.equal(e.outcome,o.outcome);assert.equal(e.coverage,o.coverage)}
+   const open=!d.states.some(s=>s.state==='abandoned');
+   for(const y of [2014,2021,2025,2026]){const r=at(d.id,y);
+diff --git a/tests/mariehamn-street-pass3.test.cjs b/tests/mariehamn-street-pass3.test.cjs
+--- a/tests/mariehamn-street-pass3.test.cjs
++++ b/tests/mariehamn-street-pass3.test.cjs
+@@ -20,7 +20,8 @@
+ 
+ test('each street starts at its first reviewed edition and keeps one stable geometry to 2026',()=>{
+  for(const d of review.decisions){
+-  assert.equal(at(d.id,(model.objects.get(d.id).churchRoadReview?.newFrom??(model.objects.get(d.id).approach1942?1942:d.firstYear))-1).geometry,null,d.id); /* the 1942 approach and church road reviews may add earlier evidence */ assert.equal(at(d.id,d.firstYear).state,'open',d.id);
++  const hd=model.objects.get(d.id).historicalDating;if(hd)assert.equal(hd.previousFirstYear,model.objects.get(d.id).approach1942?1942:d.firstYear,d.id); /* the historical-date review may give a sourced earlier start; previousFirstYear keeps this review's year */
++  assert.equal(at(d.id,(hd?model.objects.get(d.id).states[0].from:model.objects.get(d.id).churchRoadReview?.newFrom??(model.objects.get(d.id).approach1942?1942:d.firstYear))-1).geometry,null,d.id); /* the 1942 approach and church road reviews may add earlier evidence */ assert.equal(at(d.id,d.firstYear).state,'open',d.id);
+   // Unclear and absent editions before the start never move the start earlier.
+   assert.ok(d.observations.filter(o=>o.year<d.firstYear).every(o=>o.outcome!=='present'),d.id);
+   for(const o of d.observations){const r=at(d.id,o.year);if(model.objects.get(d.id).churchRoadReview&&o.year<d.firstYear)continue; /* the church road review reads these editions again */ assert.equal(Boolean(r.geometry),o.outcome==='present',`${d.id} ${o.year}`);
+diff --git a/tests/qgis-roads.test.cjs b/tests/qgis-roads.test.cjs
+--- a/tests/qgis-roads.test.cjs
++++ b/tests/qgis-roads.test.cjs
+@@ -27,9 +27,10 @@
+ test('Reviewed roads appear at reviewed dates and keep geometry stable within reviewed phases',()=>{
+  for(const d of review.roads){
+   const detailedFirst=d.history?.[0]?.from??d.from;
+-  // The Strandnäs split dates the roundabout lane from its reviewed 1978 evidence; read that start from the object.
+-  const dated=model.objects.get(d.objectId),first=dated.strandnasSplit?dated.states[0].from:dated.alvinRoadDatingReview?.firstEvidenceYear??dated.atlasDatingReview?.firstEvidenceYear??detailedFirst;
+-  assert.equal(model.resolveObject(d.objectId,(model.objects.get(d.objectId).approach1942?1942:first)-1).state,'unknown'); /* the 1942 approach review may add earlier photo evidence */ 
++  // The Strandnäs split dates the roundabout lane from its reviewed 1978 evidence, the early-map review dates Långskata's first 300 m from 1917,
++  // and the historical-date review gives sourced earlier starts; read those starts from the object.
++  const dated=model.objects.get(d.objectId),first=dated.historicalDating||dated.lemlandsvagenMainRoad?dated.states[0].from:dated.strandnasSplit?dated.states[0].from:dated.alvinRoadDatingReview?.firstEvidenceYear??dated.atlasDatingReview?.firstEvidenceYear??detailedFirst;
++  assert.equal(model.resolveObject(d.objectId,(!dated.historicalDating&&dated.approach1942?1942:first)-1).state,'unknown',d.objectId); /* the 1942 approach review may add earlier photo evidence */ 
+   let geometry;
+   const modernFrom=review.geometryRevisions?.find(r=>r.objectId===d.objectId)?.modernFrom??d.from;
+   for(const year of [modernFrom,1993,2014,2021,2026].filter(y=>y>=modernFrom)){
+@@ -180,8 +181,9 @@
+ 
+ test('archipelago crossings use their first mapped road evidence and retain stable later geometry',()=>{
+  for(const [place,slug,year] of [['jarso','jarsovagen',1978],['kokar','kokarvagen',1971],['ava','brandovagen-1',1991],['brando','brandovagen-1',1984],['eckero','sodra-overbyvagen',1978]]){
+-  const id=`road:qgis:${place}:${slug}-200km2`;
+-  assert.equal(model.resolveObject(id,year-1).state,'unknown');
++  const id=`road:qgis:${place}:${slug}-200km2`,hd=model.objects.get(id).historicalDating,start=hd?model.objects.get(id).states[0].from:year;
++  if(hd)assert.equal(hd.previousFirstYear,year,id); /* the historical-date review may give a sourced earlier start; previousFirstYear keeps this review's year */
++  assert.equal(model.resolveObject(id,start-1).state,'unknown');
+   const first=model.resolveObject(id,year);assert.equal(first.state,'open');
+   for(const later of [2014,2021,2026])assert.equal(model.resolveObject(id,later).geometry.id,first.geometry.id);
+   assert.equal(model.objects.get(id).qgisReconciliation.constructionYear,null);
+diff --git a/tests/rural-map-review.test.cjs b/tests/rural-map-review.test.cjs
+--- a/tests/rural-map-review.test.cjs
++++ b/tests/rural-map-review.test.cjs
+@@ -105,7 +105,8 @@
+   const object=model.resolveObject(d.objectId,2026).object,id=object.id;
+   const extensions=(review.roadPresenceExtensions||[]).filter(e=>e.objectId===d.objectId);
+   const first=(object.alvinRoadDatingReview||object.emkarbyRoadReview||object.roadRouteMembership||object.roadDateAssumption)?object.geometryPeriods[0].from:Math.min(object.atlasRoadReview?.firstEvidenceYear??Infinity,...[...d.observations,...extensions.flatMap(e=>e.observations)].map(o=>review.sources.find(s=>s.id===o.sourceId).year));
+-  assert.equal(model.resolveObject(d.objectId,first-1).geometry,null);
++  const hd=object.historicalDating;if(hd)assert.equal(hd.previousFirstYear,first,d.objectId); /* the historical-date review may give a sourced earlier start; previousFirstYear keeps this review's year */
++  assert.equal(model.resolveObject(d.objectId,(hd?object.states[0].from:first)-1).geometry,null);
+   const gid=model.resolveObject(d.objectId,first).geometry.id;
+   for(const year of [1968,1985,1995,2021,2025,2026]){
+    if(year<first){assert.equal(model.resolveObject(d.objectId,year).geometry,null);grid.draw(ctx,view(year),project);assert.equal(grid.drawn.filter(f=>f.objectId===id).length,0);continue;}
+@@ -119,7 +120,7 @@
+   for(const link of d.sourceLinks){
+    if(link.sourceVertexRange){assert.equal(model.objectForSource(link.datasetId,link.featureId),null);assert.ok(model.roadPartsForSource(link.datasetId,link.featureId).some(p=>p.objectId===id));continue;}
+    assert.equal(model.objectForSource(link.datasetId,link.featureId),id);
+-   assert.equal(grid.ownsRoadSource(link.datasetId,link.featureId,view(1967)),first<=1967);
++   assert.equal(grid.ownsRoadSource(link.datasetId,link.featureId,view(1967)),(hd?object.states[0].from:first)<=1967);
+    assert.equal(grid.ownsRoadSource(link.datasetId,link.featureId,view(2026)),true);
+    assert.equal(grid.ownsRoadSource(link.datasetId,link.featureId,{...view(2026),zoom:7}),true);
+    assert.equal(grid.ownsRoadSource(link.datasetId,link.featureId,{...view(2026),fortressDetail:true}),true);
+@@ -274,7 +275,9 @@
+ 
+ test('partial source ownership clips only the reviewed road and preserves clickable remainder and original data',()=>{
+  const originalModel=grid.objects;
+- const kept=catalog.objects.filter(o=>o.id!=='road:rural:langbergsodavagen-sylloda'&&!o.qgisReconciliation),keptIds=new Set(kept.map(o=>o.id));
++ const keptIds=new Set(catalog.objects.filter(o=>o.id!=='road:rural:langbergsodavagen-sylloda'&&!o.qgisReconciliation).map(o=>o.id));
++ // Relationships (e.g. the historical-date review's replaced-by links) may point at removed objects; drop those links with them.
++ const kept=catalog.objects.filter(o=>keptIds.has(o.id)).map(o=>o.relationships?{...o,relationships:o.relationships.filter(r=>keptIds.has(r.objectId))}:o);
+  // City stages may reference removed objects explicitly (e.g. the 1942 approach review); drop those references with them.
+  grid.objects=new box.Model({...catalog,objects:kept,cityStages:catalog.cityStages.map(s=>({...s,features:s.features.filter(f=>!f.objectId||keptIds.has(f.objectId))}))});
+  try {

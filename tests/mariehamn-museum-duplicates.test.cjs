@@ -18,11 +18,11 @@ test('15 museum-map houses are merged into the later house, 16 end at their succ
 
 test('a merged house is one object from 1920 with its own outline, the museum evidence and alias, and its later history',()=>{
  for(const d of review.merges){const o=model.objects.get(d.keep);
-  assert.equal(o.states[0].from,1920);assert.ok(o.aliases.includes(d.donor));assert.ok(o.evidence.some(e=>e.sourceId==='city-1920'),d.keep);
+  if(o.historicalDating){assert.equal(o.historicalDating.previousFirstYear,1920);assert.ok(o.states[0].from<1920)}else assert.equal(o.states[0].from,1920); /* the historical-date review may give a sourced earlier start; previousFirstYear keeps this review's year */assert.ok(o.aliases.includes(d.donor));assert.ok(o.evidence.some(e=>e.sourceId==='city-1920'),d.keep);
   assert.equal(o.reconstruction.firstObserved,1920);assert.equal(o.museumDuplicateReview.donorId,d.donor);assert.equal(o.museumDuplicateReview.constructionYear,null);
   const early=model.resolveObject(d.keep,1925),later=model.resolveObject(d.keep,Math.max(d.keepFrom,1925));
   assert.equal(early.geometry.id,later.geometry.id);
-  if(d.keepFrom>1920){assert.deepEqual([o.states[0].to,o.states[1].from],[d.keepFrom,d.keepFrom]);assert.equal(o.geometryPeriods[0].previousFrom,d.keepFrom);assert.equal(o.reconstruction.previous.from,d.keepFrom)}}
+  if(d.keepFrom>1920&&!o.historicalDating){assert.deepEqual([o.states[0].to,o.states[1].from],[d.keepFrom,d.keepFrom]);assert.equal(o.geometryPeriods[0].previousFrom,d.keepFrom);assert.equal(o.reconstruction.previous.from,d.keepFrom)}}
 });
 
 test('a replaced museum house ends where its successor is first evidenced and never overlaps it on the map',()=>{

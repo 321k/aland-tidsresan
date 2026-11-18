@@ -28,6 +28,7 @@ test('buildings whose outline meets an open or hatched symbol on the 1985 or 199
 
 test('a photo-dated building starts at its first photo with that photo as evidence, keeps its outline and later history',()=>{
  for(const d of review.decisions){const o=model.objects.get(d.objectId);
+  if(o.historicalDating){assert.equal(o.historicalDating.previousFirstYear,d.firstYear,d.objectId);assert.ok(o.states[0].from<d.firstYear,d.objectId);assert.equal(model.resolveObject(d.objectId,o.states[0].from-1).geometry,null,d.objectId);continue} /* the historical-date review may give a sourced earlier start; previousFirstYear keeps this review's year */
   assert.equal(model.resolveObject(d.objectId,d.firstYear-1).geometry,null,d.objectId);
   const first=model.resolveObject(d.objectId,d.firstYear),orig=model.resolveObject(d.objectId,d.originalFrom);
   assert.equal(first.state,'standing');assert.equal(first.geometry.id,d.referenceGeometryId);assert.equal(orig.geometry.id,d.referenceGeometryId);
@@ -45,5 +46,5 @@ test('the city layer draws photo-dated buildings from their first photo year and
  const e={objects:model,ready:true,flags:{historic:true,modern:true,uncertain:true,traces:false},category:'all',query:'',historic:[],modern:modern.features,matches:()=>true,prepared:true,project:(x,y)=>[x*10000,y*10000]};
  const grid=new box.Grid(()=>{});Object.assign(grid,read('dist/assets/mariehamn-city-grid.json'),{objects:model,ready:true});
  for(const year of [1990,1991,1998,1999,2006,2007,2014,2015]){const ids=new Set(layer.records(year,e,grid).map(r=>r.id));layer.cache=null;
-  for(const d of review.decisions)assert.equal(ids.has(d.objectId),year>=d.firstYear,`${d.objectId} ${year}`)}
+  for(const d of review.decisions)assert.equal(ids.has(d.objectId),year>=(model.objects.get(d.objectId).historicalDating?model.objects.get(d.objectId).states[0].from:d.firstYear),`${d.objectId} ${year}`)}
 });

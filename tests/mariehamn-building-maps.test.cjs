@@ -25,6 +25,7 @@ test('the review is complete, sourced and keeps 1978 out of the building evidenc
 
 test('a dated building appears in its first map year with its earliest outline and is unchanged later',()=>{
  for(const d of review.decisions){const o=model.objects.get(d.objectId);
+  if(o.historicalDating){assert.equal(o.historicalDating.previousFirstYear,d.firstYear,d.objectId);assert.ok(o.states[0].from<d.firstYear,d.objectId);assert.equal(model.resolveObject(d.objectId,o.states[0].from-1).geometry,null,d.objectId);continue} /* the historical-date review may give a sourced earlier start; previousFirstYear keeps this review's year */
   assert.equal(model.resolveObject(d.objectId,d.firstYear-1).geometry,null,d.objectId);
   const first=model.resolveObject(d.objectId,d.firstYear),orig=model.resolveObject(d.objectId,d.originalFrom);
   assert.equal(first.state,'standing');assert.equal(first.geometry.id,d.referenceGeometryId);assert.equal(orig.geometry.id,d.referenceGeometryId);
@@ -42,7 +43,7 @@ test('every later edition shows the building; only 1985 may be unclear between 1
    if(x.year<d.firstYear){assert.ok(x.outcome==='absent'||x.outcome==='unclear'&&x.reason==='hatched-block'&&x.year===1968,e?.id);assert.equal(e,undefined);continue}
    assert.equal(e.constructionYear,null);assert.equal(e.sourceId,sheets[x.year]);
    if(x.outcome==='unclear'){unclear++;assert.equal(x.year,1985);assert.equal(d.firstYear,1968);assert.deepEqual(e.supports,['assessment']);assert.ok(!o.states[0].evidenceIds.includes(e.id));continue}
-   assert.equal(x.outcome,'present');assert.deepEqual(e.sourcePixels.pixel,x.pixel);assert.ok(o.states[0].evidenceIds.includes(e.id));
+   assert.equal(x.outcome,'present');assert.deepEqual(e.sourcePixels.pixel,x.pixel);assert.ok(o.historicalDating||o.states[0].evidenceIds.includes(e.id),e.id); /* a sourced earlier start owns the first state */
    assert.ok(e.deviationMeters<=review.rules.maxRawSymbolDistanceMeters,e.id);
    assert.ok(x.distanceAfterShiftMeters<=(x.fillPass?review.rules.fillLimitMeters:review.rules.matchLimitMeters),e.id)}}
  assert.equal(unclear,96);
@@ -53,7 +54,7 @@ test('the city layer draws dated houses in their map years and never before',()=
  const e={objects:model,ready:true,flags:{historic:true,modern:true,uncertain:true,traces:false},category:'all',query:'',historic:[],modern:modern.features,matches:()=>true,prepared:true,project:(x,y)=>[x*10000,y*10000]};
  const grid=new box.Grid(()=>{});Object.assign(grid,read('dist/assets/mariehamn-city-grid.json'),{objects:model,ready:true});
  for(const year of [1967,1968,1985,1995]){const ids=new Set(layer.records(year,e,grid).map(r=>r.id));layer.cache=null;assert.ok(ids.size>(year<1968?0:1000),year);
-  for(const d of review.decisions)assert.equal(ids.has(d.objectId),year>=d.firstYear,`${d.objectId} ${year}`)}
+  for(const d of review.decisions)assert.equal(ids.has(d.objectId),year>=(model.objects.get(d.objectId).historicalDating?model.objects.get(d.objectId).states[0].from:d.firstYear),`${d.objectId} ${year}`)}
 });
 
 test('houses rejected on the contact sheets are never dated, and each rejection has a reason and a sheet',()=>{
