@@ -72,6 +72,12 @@ result as before. The only change is the moved Näfsby boundary.
 
 ## Open items
 
-- Drygsböle (11.8–12.4 km): the 1929 and 1944 maps do not show a clear through-route between the lake shore and
-  Bolstad. Probably via the Drygsböle farm (today's Drygsbölevägen) and a road east of it, but this needs a closer
-  look.
+- Drygsböle (11.8–12.4 km), looked at again after this batch: `renders/drygsbole-village.jpg`,
+  `drygsbole-farm-1929-1944.jpg`, `drygsbole-wide-1929-1917.jpg` and `drygsbole-east-1929-1944.jpg`.
+  - The 1929 and 1944 maps draw the road from Bolstad to the Drygsböle farm, and from the farm north-east towards
+    Boda.
+  - South of the farm they draw no road to the lake shore at 11.8 km. The only line there runs east along the field
+    edge towards Skamkulla, and it is drawn as a single line, not as a road.
+  - The 1917 Senate sheet has no drawing here.
+  - So the 1929 through-route cannot be read from these maps. Nothing is dated until another source (an aerial photo
+    or a cadastral map) shows it.

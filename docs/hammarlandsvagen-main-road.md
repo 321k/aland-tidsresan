@@ -77,4 +77,4 @@ catalogue.
 - Näfsby: done, see `docs/hammarlandsvagen-nafsby.md`.
 - Drygsböle: the 1929 through-route between the lake shore and Bolstad is not clear on the map. It probably ran by the
   farm (today's Drygsbölevägen); this needs a closer look.
-- Kattby westwards (the 1959 object) lies outside the 1929 Hammarby sheet; check it on the neighbouring sheet.
+- Kattby westwards: done, on the 1929 Eckerö sheet; see `docs/hammarlandsvagen-kattby.md`.

@@ -1,0 +1,28 @@
+{
+ "snapshot": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-kattby.json.gz",
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:rural:hammarland-hammarlandsvagen-kattby-west"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:hammarlandsvagen-kattby:hammarland-hammarlandsvagen-kattby-west"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "nls:map-37971493",
+   "nls:map-39091228",
+   "review:hammarlandsvagen-kattby"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStagesChanged": false,
+ "otherTopLevelChanged": []
+}

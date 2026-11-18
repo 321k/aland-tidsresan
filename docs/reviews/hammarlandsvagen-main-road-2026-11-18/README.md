@@ -118,3 +118,34 @@ Method and decisions: `docs/hammarlandsvagen-nafsby.md`.
   - All 596 JS tests pass (`logs/js-tests-nafsby.log`).
   - The Näfsby, south, north, QGIS reconciliation and rural road phase/replacement Python tests pass, 60 tests
     (`logs/python-tests-nafsby.log`).
+
+## Kattby westwards (fourth batch, same day)
+
+Method and decisions: `docs/hammarlandsvagen-kattby.md`.
+- **Dated from 1929:** "Hammarlandsvägen · Kattby västerut", the whole object. It was shown from 1959 only by the
+  Marsund bridge assumption.
+- **Sources:** the parish maps of sheet 1012 03 Eckerö, 1929 and 1956, are added as the review's sources.
+- **Evidence:**
+  - `renders/kattby-west.jpg`: the Hammarby sheets end west of the church
+  - `renders/kattby-west-eckero.jpg`, `kattby-west-close-*.jpg`: the Eckerö sheets
+  - `renders/result-kattby-1950.jpg`: what the map draws in 1950
+- **Scripts:** `kattby_windows.py`, `prepare_kattby.py`.
+- **Snapshots:**
+  - `before-kattby.json.gz`: the catalogue before this batch; the review data is written from it.
+  - `before-kattby-step.json.gz`: the catalogue built with the step disabled; the Python test replays the step on it.
+- **Scope:** `scope-audit-kattby.json`:
+  - changed: 1 object
+  - added: 1 geometry and 3 sources (the review and the two Eckerö maps)
+  - nothing else changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-kattby.test.cjs` and `tests/test_hammarlandsvagen_kattby.py`. Each rejection was
+    checked to fail for its stated reason.
+  - updated: `tests/marsund-road-continuity.test.cjs` (Kattby west now has its 1929 period before 1959) and
+    `tests/rural-map-review.test.cjs` (for an assumed date, this review's first period is now the second).
+- **`batch-kattby.patch`:** `scripts/build_temporal_objects.py`, `dist/index.html` (the card "Hammarlandsvägen väster
+  om Kattby från 1929" and the preview), `tests/marsund-road-continuity.test.cjs` and `tests/rural-map-review.test.cjs`. See
+  `patch-verification-kattby.log`.
+- **Runs:**
+  - All 599 JS tests pass (`logs/js-tests-kattby.log`).
+  - The Kattby, Näfsby, south, north, Marsund continuity, road date assumption and QGIS reconciliation Python tests
+    pass, 49 tests (`logs/python-tests-kattby.log`).

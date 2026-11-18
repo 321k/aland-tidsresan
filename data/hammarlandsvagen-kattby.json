@@ -1,0 +1,80 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-18",
+ "source": {
+  "id": "review:hammarlandsvagen-kattby",
+  "title": "Hammarlandsvägen väster om Kattby · granskning",
+  "url": "assets/hammarlandsvagen-kattby.json"
+ },
+ "sources": [
+  {
+   "id": "nls:map-39091228",
+   "title": "Lantmäteriverket · sockenkarta 1012 03 Eckerö · 1929",
+   "issuedAt": "1929",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_vari/map-39091228_500-20000-101203_pitajankartta_1929_karttalehti_101203_eckero_v2.tif"
+  },
+  {
+   "id": "nls:map-37971493",
+   "title": "Lantmäteriverket · sockenkarta 1012 03 Eckerö · 1956 (svartvit utgåva)",
+   "issuedAt": "1956",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_mv/map-37971493_500-20000-101203_pitajankartta_mv_1956_karttalehti_101203_eckero_v2.tif"
+  }
+ ],
+ "maps": {
+  "1929-hammarby": {
+   "sourceId": "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+   "year": 1929
+  },
+  "1929-eckero": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1944-nafsby": {
+   "sourceId": "nls:9c72a692-bae4-473d-93bb-7bcdee1222e7",
+   "year": 1944
+  },
+  "1956-eckero": {
+   "sourceId": "nls:map-37971493",
+   "year": 1956
+  }
+ },
+ "geometryPrefix": "geometry:hammarlandsvagen-kattby:",
+ "geometryNote": "Objektets egen geometri (samma koordinater): dagens väg är den väg sockenkartorna 1929 ritar.",
+ "method": "Dagens väg väster om Kattby jämförd med sockenkartorna 1929 för bladen 1012 06 Hammarby och 1012 03 Eckerö (karttiler 2,4 m/px), utgåvorna 1944 och 1956 och OpenStreetMap 2026 (renders/kattby-west*.jpg). Samma väg: kartans väg har dagens form inom omkring 25–30 m.",
+ "early": [
+  {
+   "objectId": "road:rural:hammarland-hammarlandsvagen-kattby-west",
+   "inputHash": "80166e72919fa8c5c551194e9c0c1b79713a20ea88418726ceeb44ad5721e4f0",
+   "geometryId": "geometry:1d37d08756f911d6a939",
+   "geometryHash": "1729dfde260e63860e0ae594145604291bf503beb32f7dbec8d7baa2e1f52c9c",
+   "lengthMeters": 1302.45,
+   "ranges": [
+    [
+     0.0,
+     1302.4
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1959,
+   "maps": {
+    "1929-hammarby": "present",
+    "1929-eckero": "present",
+    "1944-nafsby": "present",
+    "1956-eckero": "present"
+   }
+  }
+ ],
+ "earlyBasis": {
+  "road:rural:hammarland-hammarlandsvagen-kattby-west": "Samma väg som sockenkartorna 1929 ritar från kyrkan väster ut förbi Kockars, på bladen Hammarby och Eckerö; utgåvorna 1944 och 1956 ritar den likadant. Kartorna ritar vägen 9–15 m söder om dagens vid Kockars och 17–29 m söder om den vid bladgränsen, med samma form; det ligger inom kartornas lägesfel. Tidigare visades vägen först från 1959, då bron över Marsund öppnades; det var ett antagande, inte ett kartbelägg."
+ },
+ "route": {
+  "order": [
+   "road:rural:hammarland-hammarlandsvagen-church-corridor",
+   "road:rural:hammarland-hammarlandsvagen-kattby-west"
+  ],
+  "endObjects": [
+   "road:rural:hammarland-hammarlandsvagen-church-corridor"
+  ],
+  "joinMeters": 2.0
+ }
+}

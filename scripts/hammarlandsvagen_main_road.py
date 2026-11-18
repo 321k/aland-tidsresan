@@ -11,7 +11,8 @@ Smedens, Näfsby; first on the 1968 base map). Those stay as they are.
 - The old line at Smedens, 25–70 m west of today's bypass, becomes its own object (open 1929 until 1968, then
   'unknown': the 1968 map does not draw it, and nothing of it survives in OpenStreetMap).
 The same step applies the southern review (data/hammarlandsvagen-south.json) and the old road through Näfsby
-(data/hammarlandsvagen-nafsby.json: the smaller roads it survives as, and its vanished pieces as one old-road object).
+(data/hammarlandsvagen-nafsby.json: the smaller roads it survives as, and its vanished pieces as one old-road object),
+and Kattby westwards (data/hammarlandsvagen-kattby.json).
 All checks run before any change. Map years are first evidence, not construction years.
 """
 from copy import deepcopy
@@ -36,6 +37,11 @@ def apply_hammarlandsvagen_main_road(read, catalog):
 def apply_hammarlandsvagen_south(read, catalog):
     """The southern half: older roads on the route Mariehamn–Söderby (see docs/hammarlandsvagen-south.md)."""
     _apply(read, catalog, 'data/hammarlandsvagen-south.json')
+
+
+def apply_hammarlandsvagen_kattby(read, catalog):
+    """West of Kattby: today's road is the road on the 1929 parish maps (docs/hammarlandsvagen-kattby.md)."""
+    _apply(read, catalog, 'data/hammarlandsvagen-kattby.json')
 
 
 def apply_hammarlandsvagen_nafsby(read, catalog):

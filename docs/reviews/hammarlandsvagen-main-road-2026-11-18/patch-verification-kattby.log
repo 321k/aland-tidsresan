@@ -1,0 +1,17 @@
+batch-kattby.patch verification 2026-11-18T15:32:44Z
+== forward: before-copies + patch == current files
+ok scripts/build_temporal_objects.py
+ok dist/index.html
+ok tests/marsund-road-continuity.test.cjs
+ok tests/rural-map-review.test.cjs
+== reverse dry run on the working tree
+patching file 'dist/index.html'
+patching file 'scripts/build_temporal_objects.py'
+patching file 'tests/marsund-road-continuity.test.cjs'
+patching file 'tests/rural-map-review.test.cjs'
+reverse applies cleanly
+== other uncommitted work in these files stays outside the patch
+scripts/build_temporal_objects.py: git status '??' (other uncommitted work); patch touches 3 lines
+dist/index.html: git status ' M' (other uncommitted work); patch touches 173 lines
+tests/marsund-road-continuity.test.cjs: git status '??' (other uncommitted work); patch touches 5 lines
+tests/rural-map-review.test.cjs: git status '??' (other uncommitted work); patch touches 2 lines
