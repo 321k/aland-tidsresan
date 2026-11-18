@@ -46,12 +46,13 @@ each section, not construction years.
 The old road ("Gamla Lemlandsvägen", route `road:Gamla Lemlandsvägen`) is four objects traced on the 1929 map:
 Tomtebo–Solstrand, Övre-Börs–Östergård, Johans and Mangård–Söderby. Each is open from 1917 until the edition after the
 last base map that draws it (1985 or 1995), then `unknown`: not reviewed later, which does not mean it disappeared.
-Much of it survives as local roads in OpenStreetMap (Knutsbodavägen, Kockobacka, Kommunrundan, Norra Söderbyvägen)
-that are not yet reconciled with these objects. Between the Johans piece and the Mangård piece, the first 300 m of
+Much of it survives as local roads in OpenStreetMap (Knutsbodavägen, Kockobacka, Kommunrundan, Norra Söderbyvägen);
+those parts were reconciled afterwards and stay open to today (`docs/lemland-old-road-osm.md`). Between the Johans piece and the Mangård piece, the first 300 m of
 Långskata del 2 are the old road; that object gets a partial 1917–1985 period, as other partially dated streets do.
 
 The 1968 and 1978 maps draw the old road between Fridelund and Dragsvik straighter than 1929. Whether that is a
-straightening or generalisation is not settled; the 1929 line is kept.
+straightening or generalisation is not settled; the 1929 line is kept. (Settled for the corner at Fridelund itself:
+a straightening, see `docs/lemland-old-road-osm.md`.)
 
 ## Checks in the build step
 
@@ -64,7 +65,8 @@ straightening or generalisation is not settled; the 1929 line is kept.
 
 ## Open items
 
-- Reconcile the surviving old-road stretches with their OpenStreetMap roads (ownership and 1995–2026 states).
+- Done 2026-11-18 (`docs/lemland-old-road-osm.md`): the surviving old-road stretches now own their OpenStreetMap
+  roads and stay open to today; the corner at Fridelund turned out to be straightened between 1948 and 1968.
 - Use the 1929 line to place Lemlandsvägen on the 1894 atlas and the circa-1800 map; both left del 1 deferred
   because of the reroutings found here. Önningebyvägen is already dated from circa 1800, and section B continues it.
 - Repeat for the other main roads (Godbyvägen, Eckerövägen, Getavägen, Saltviksvägen).

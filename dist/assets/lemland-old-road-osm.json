@@ -1,0 +1,453 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-18",
+ "source": {
+  "id": "review:lemland-old-road-osm",
+  "title": "Gamla Lemlandsvägen i dagens vägnät · granskning",
+  "url": "assets/lemland-old-road-osm.json"
+ },
+ "method": "Varje karta och OpenStreetMap-väg är granskad visuellt (docs/reviews/lemland-old-road-osm-2026-11-18/renders). Där den gamla vägen finns kvar används OpenStreetMaps mittlinje genom alla år; sockenkartan 1929 ligger 3–30 m fel här, och det felet ska inte flytta vägen. Mellan de kvarvarande delarna flyttas 1929 års spår linjärt med förskjutningen vid fästpunkterna. Det oflyttade spåret finns kvar som belägg.",
+ "limits": {
+  "traceMeters": 40,
+  "traceP90Meters": 25,
+  "linkMeters": 15,
+  "joinMeters": 0.01,
+  "anchorMeters": 1.0,
+  "overlapBuffer": 12,
+  "overlapMeters": 80
+ },
+ "snapshots": {
+  "osm-2014": "city-2014",
+  "osm-2021": "city-2021",
+  "osm-2025": "city-2025",
+  "osm-2026": "city-2026"
+ },
+ "wayHashes": {
+  "way/1180076498": "5fd22d4ed5e1f694e7c9fe21831570c1b3b839c83d672243883d90622fafa96c",
+  "way/119232836": "c70695a5c5b5a60a1f2ee3df126b2a77912a617fc81c64efd1c949ad2b8b2227",
+  "way/173992646": "edcdd3b684171bee4a18df2f0068c3f5a571c04b23cae9a56dab5629d4dd5f22",
+  "way/179382606": "f8dfbe38e579873cd41220ed67ec33ceb5fc1ae552bdde5e8bc0792909aa4763",
+  "way/179382607": "b3afdd9f16c6ee0f6e37380de38b17ec72d8f61c875e3b855b51fe23e2a94cf0",
+  "way/179382608": "4521c9c472851f80cc2c0db35a8cb8c18cf60c03d36b0458f2ae0715818dc0fe",
+  "way/179382609": "88f8ba49807dd865cbe96a40151c5b44e46341fe5690f741703d5d5b5b0f0d46",
+  "way/349910225": "a0a959448d0286f228932cbb7287253d6066840f1d71077714a47e37e50372f1",
+  "way/551271209": "776c0045e0444fd060c9cde22299219436f386079d462fab63d52d73376eb9e9",
+  "way/611965359": "b9b91c463c492a4a7a80a091c70f29450808dcba81876127c0c64a0cc0e029da",
+  "way/611965360": "ea8ccc4be407ee1f673d0188b5081317453c291df81170cba6bc5b24fc69b4f8",
+  "way/611965361": "f8ecdcb6936174829f2351d74fda50bfc693af2d012cbdf3c3a1afd4c0f11540",
+  "way/611965363": "e9450bdbd6cbc7c3de1c6c42e2662ac38c93375f195c74da170d594c4781e825",
+  "way/932105680": "64fad4c3e870a980f2e7a29286e38f8cbdededd857b0795c981b14e819f351b3"
+ },
+ "snapshotHashes": {
+  "osm-2014": {
+   "road-2014-119232836": "b0262b5d761921e394f3dbd2e41cef7c62faea89f6f616b7966c5759cef1508a",
+   "road-2014-173992646": "c18d3ceb462ef4ef049abd0e2fd42ff5452d8377bd196997dfdc244a463f1f9e",
+   "road-2014-179382606": "5208b98fa04f39b41deda6c76d74663941d6f2856fe4f3bf28c56669fea732ac",
+   "road-2014-179382607": "88afdf28d665ebf6810adcead7726f5a42715078730719af0659cb040e57077f",
+   "road-2014-179382608": "db4e1932c8293c667402b84c39aaf86b5faf1fe4c1e5cea8bdcc7f0248d71faa",
+   "road-2014-179382609": "0d9e951faf1391fd7f6e9d4e4e58e772aba76c55b8c04633560d6dac178b54f4"
+  },
+  "osm-2021": {
+   "road-2021-119232836": "b47795272ac6cde9a3ca39cc8f1ef72c5bbeaeb1f29f6e93efc6799876d32f05",
+   "road-2021-173992646": "830ff2e3d8aef7e9fbb5f3c0995fcad973f9eccd5cabb11f17e18a8b75c9fa50",
+   "road-2021-179382606": "c6aee5b7d79e14bb09d6df9fcda9440fe4a4b6655a17ceed5cb08fe9a145ab12",
+   "road-2021-179382607": "b3afdd9f16c6ee0f6e37380de38b17ec72d8f61c875e3b855b51fe23e2a94cf0",
+   "road-2021-179382608": "4521c9c472851f80cc2c0db35a8cb8c18cf60c03d36b0458f2ae0715818dc0fe",
+   "road-2021-179382609": "3dd217db7628493b5f9ce48c06fa6975d516dbef08fd7c3b102eb3d132260ebe",
+   "road-2021-349910225": "931ddad6b90a64adce23d3ba8642cc485d816d5819a6280cdc982c31985d2dd5",
+   "road-2021-551271209": "4398a7b4c441cd4f589444ebd66198357ad4f371c8d0b36af6ac7fe47d17fbe5",
+   "road-2021-611965359": "90a7c25cfd5daf653923db1c652bc912ca3d89b8b1271ff1d77b3042f651a0a2",
+   "road-2021-611965360": "ea8ccc4be407ee1f673d0188b5081317453c291df81170cba6bc5b24fc69b4f8",
+   "road-2021-611965361": "f8ecdcb6936174829f2351d74fda50bfc693af2d012cbdf3c3a1afd4c0f11540",
+   "road-2021-611965363": "6e0ec104e1d098deb50068e5b1ab5e08057eb3c4f52ad11c322ff8c1d71323a6"
+  },
+  "osm-2025": {
+   "road-2025-1180076498": "5fd22d4ed5e1f694e7c9fe21831570c1b3b839c83d672243883d90622fafa96c",
+   "road-2025-119232836": "c70695a5c5b5a60a1f2ee3df126b2a77912a617fc81c64efd1c949ad2b8b2227",
+   "road-2025-173992646": "edcdd3b684171bee4a18df2f0068c3f5a571c04b23cae9a56dab5629d4dd5f22",
+   "road-2025-179382606": "f8dfbe38e579873cd41220ed67ec33ceb5fc1ae552bdde5e8bc0792909aa4763",
+   "road-2025-179382607": "b3afdd9f16c6ee0f6e37380de38b17ec72d8f61c875e3b855b51fe23e2a94cf0",
+   "road-2025-179382608": "4521c9c472851f80cc2c0db35a8cb8c18cf60c03d36b0458f2ae0715818dc0fe",
+   "road-2025-179382609": "3dd217db7628493b5f9ce48c06fa6975d516dbef08fd7c3b102eb3d132260ebe",
+   "road-2025-349910225": "a0a959448d0286f228932cbb7287253d6066840f1d71077714a47e37e50372f1",
+   "road-2025-551271209": "776c0045e0444fd060c9cde22299219436f386079d462fab63d52d73376eb9e9",
+   "road-2025-611965359": "b9b91c463c492a4a7a80a091c70f29450808dcba81876127c0c64a0cc0e029da",
+   "road-2025-611965360": "ea8ccc4be407ee1f673d0188b5081317453c291df81170cba6bc5b24fc69b4f8",
+   "road-2025-611965361": "f8ecdcb6936174829f2351d74fda50bfc693af2d012cbdf3c3a1afd4c0f11540",
+   "road-2025-611965363": "e9450bdbd6cbc7c3de1c6c42e2662ac38c93375f195c74da170d594c4781e825",
+   "road-2025-932105680": "64fad4c3e870a980f2e7a29286e38f8cbdededd857b0795c981b14e819f351b3"
+  }
+ },
+ "unchanged": [
+  {
+   "id": "road:lemland:gamla-lemlandsvagen:tomtebo-solstrand",
+   "inputHash": "7385c5d784d10fa354a5961be6ff13c0bfc9b2023f40d5465d0f65e97bc168ea",
+   "note": "Inget av den gamla strandvägen Tomtebo–Solstrand finns kvar som väg i OpenStreetMap, bara korta infarter som korsar den."
+  }
+ ],
+ "objects": [
+  {
+   "id": "road:lemland:gamla-lemlandsvagen:ovre-bors-ostergard",
+   "name": "Gamla Lemlandsvägen · Övre-Börs–Östergård (Knutsbodavägen)",
+   "modernNames": [
+    "Knutsbodavägen"
+   ],
+   "phases": [
+    {
+     "from": 1917,
+     "to": 1968,
+     "pieces": [
+      {
+       "trace": true
+      },
+      {
+       "way": "way/119232836",
+       "range": [
+        2,
+        9
+       ],
+       "reverse": false
+      },
+      {
+       "trace": true
+      },
+      {
+       "way": "way/119232836",
+       "range": [
+        13,
+        23
+       ],
+       "reverse": false
+      },
+      {
+       "trace": true
+      }
+     ],
+     "traceCheck": true,
+     "basis": "Vägen genom Övre-Börs med den skarpa kröken vid Fridelund som sockenkartorna 1929 och 1948 ritar. Där Knutsbodavägen finns kvar följer linjen den (OpenStreetMap); kröken och sträckan förbi Östergård är 1929 års spår, flyttat med den uppmätta kartförskjutningen mellan de moderna fästpunkterna."
+    },
+    {
+     "from": 1968,
+     "to": 1995,
+     "pieces": [
+      {
+       "trace": true
+      },
+      {
+       "way": "way/119232836",
+       "range": [
+        2,
+        23
+       ],
+       "reverse": false
+      },
+      {
+       "trace": true
+      }
+     ],
+     "traceCheck": false,
+     "basis": "Grundkartan 1968 ritar en mjuk kurva i stället för kröken vid Fridelund, samma kurva som Knutsbodavägen har i dag; 1978 och 1985 likaså. Kröken är alltså uträtad mellan 1948 och 1968 (1968 är första kartbelägg, inte byggår). Sträckan förbi Östergård är fortfarande 1929 års spår."
+    },
+    {
+     "from": 1995,
+     "to": null,
+     "pieces": [
+      {
+       "way": "way/119232836",
+       "range": [
+        2,
+        23
+       ],
+       "reverse": false
+      }
+     ],
+     "basis": "Delen genom Övre-Börs finns kvar som Knutsbodavägen (OpenStreetMap 2014–2026). Knutsbodavägens första 35 m är den nutida anslutningen till förbifarten (1985) och hör inte till den gamla vägen. Sträckan förbi Östergård är inte granskad efter grundkartan 1985 och saknas i OpenStreetMap; det betyder inte att den försvann just då."
+    }
+   ],
+   "realignment": {
+    "year": 1968,
+    "previousMap": 1948,
+    "map": 1968,
+    "note": "Kröken vid Fridelund (1929, 1948) ersatt av en kurva (1968, 1978, 1985, OpenStreetMap). Rester av kröken finns som en stig och som östra änden av Bolviksvägen; de ägs inte av denna väg."
+   },
+   "inputHash": "811ddde181ee21e624939a99c20b7ef44126bbe662aa3a92347b0a8f1d933022",
+   "traceGeometryId": "geometry:lemland:gamla-lemlandsvagen:ovre-bors-ostergard",
+   "traceGeometryHash": "16050f97a99824fedfb96a595502611198efa4d386ddb51bac8a37c3a6f1e8c4"
+  },
+  {
+   "id": "road:lemland:gamla-lemlandsvagen:johans",
+   "name": "Gamla Lemlandsvägen · Johans (Kockobacka)",
+   "modernNames": [
+    "Kockobacka"
+   ],
+   "phases": [
+    {
+     "from": 1917,
+     "to": 1995,
+     "pieces": [
+      {
+       "trace": true
+      },
+      {
+       "way": "way/349910225",
+       "range": [
+        4,
+        23
+       ],
+       "reverse": true
+      },
+      {
+       "trace": true
+      }
+     ],
+     "traceCheck": true,
+     "basis": "Den gamla vägen i en båge söderut förbi Johans. Bågen följer Kockobacka (OpenStreetMap); ändarna mot dagens väg är 1929 års spår, flyttat med den uppmätta kartförskjutningen."
+    },
+    {
+     "from": 1995,
+     "to": null,
+     "pieces": [
+      {
+       "way": "way/349910225",
+       "range": [
+        4,
+        23
+       ],
+       "reverse": true
+      }
+     ],
+     "basis": "Bågen förbi Johans finns kvar som Kockobacka (OpenStreetMap 2021–2026). Kockobackas korta anslutning norrut till förbifarten är senare och hör inte till den gamla vägen. Ändarna mot dagens väg är inte granskade efter grundkartan 1985."
+    }
+   ],
+   "inputHash": "468ee92eb7212ddad41a03bf9aabc518d1371bc0f4e79361df4ef35101d7b710",
+   "traceGeometryId": "geometry:lemland:gamla-lemlandsvagen:johans",
+   "traceGeometryHash": "9431ddbdc7ec53b3cfcbd48dcb07c08eac080943717df51059ed4cab1bc5d6b5"
+  },
+  {
+   "id": "road:lemland:gamla-lemlandsvagen:mangard-soderby",
+   "name": "Gamla Lemlandsvägen · Mangård–Söderby (Kommunrundan, Norra Söderbyvägen)",
+   "modernNames": [
+    "Kommunrundan",
+    "Norra Söderbyvägen"
+   ],
+   "phases": [
+    {
+     "from": 1917,
+     "to": 1995,
+     "pieces": [
+      {
+       "way": "way/173992646",
+       "range": [
+        0,
+        15
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/932105680",
+       "range": [
+        0,
+        3
+       ],
+       "reverse": true
+      },
+      {
+       "trace": true
+      },
+      {
+       "way": "way/551271209",
+       "range": [
+        0,
+        5
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/611965363",
+       "range": [
+        0,
+        8
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/611965361",
+       "range": [
+        0,
+        1
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/179382606",
+       "range": [
+        0,
+        21
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/1180076498",
+       "range": [
+        0,
+        9
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/611965359",
+       "range": [
+        0,
+        4
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/611965360",
+       "range": [
+        0,
+        2
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/179382608",
+       "range": [
+        0,
+        3
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/179382607",
+       "range": [
+        0,
+        3
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/179382609",
+       "range": [
+        0,
+        16
+       ],
+       "reverse": true
+      },
+      {
+       "trace": true
+      }
+     ],
+     "traceCheck": true,
+     "basis": "Den gamla vägen förbi Mangård, Frankbo, Nygård och Söderby till kyrkbyn. Där den finns kvar följer linjen Kommunrundan och Norra Söderbyvägen (OpenStreetMap), som går rakt över korsningen med Norrbyvägen; sträckan vid Frankbo och sista biten mot kyrkbyn är 1929 års spår, flyttat med den uppmätta kartförskjutningen."
+    },
+    {
+     "from": 1995,
+     "to": null,
+     "pieces": [
+      {
+       "way": "way/173992646",
+       "range": [
+        0,
+        15
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/932105680",
+       "range": [
+        0,
+        3
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/551271209",
+       "range": [
+        0,
+        5
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/611965363",
+       "range": [
+        0,
+        8
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/611965361",
+       "range": [
+        0,
+        1
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/179382606",
+       "range": [
+        0,
+        21
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/1180076498",
+       "range": [
+        0,
+        9
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/611965359",
+       "range": [
+        0,
+        4
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/611965360",
+       "range": [
+        0,
+        2
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/179382608",
+       "range": [
+        0,
+        3
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/179382607",
+       "range": [
+        0,
+        3
+       ],
+       "reverse": true
+      },
+      {
+       "way": "way/179382609",
+       "range": [
+        0,
+        16
+       ],
+       "reverse": true
+      }
+     ],
+     "basis": "Delarna finns kvar som Kommunrundan och Norra Söderbyvägen (OpenStreetMap 2014–2026). Sträckan vid Frankbo, som förbifarten 1968 skär av, och sista biten mot kyrkbyn saknas i OpenStreetMap och är inte granskade efter grundkartan 1985."
+    }
+   ],
+   "inputHash": "1bd865010f246c03faf499d78d30562f2b5e936bb04e1b1438dec2253985eac3",
+   "traceGeometryId": "geometry:lemland:gamla-lemlandsvagen:mangard-soderby",
+   "traceGeometryHash": "04bb3b10c627a8a20ccfcc3fe0be9d05a0df60531f6df3cbd66e460d9ac99566"
+  }
+ ]
+}

@@ -37,11 +37,16 @@ test('in 1929 the main road is the old road: the old pieces join today\'s unchan
  assert.ok(dist(line(old['mangard-soderby']).at(-1),at(ids.F3,2026).geometry.paths[0].at(-1))<0.5,'reaches the end of today\'s road');
 });
 
-test('old road pieces stay open until the edition after their last map, then unknown (not abandoned)',()=>{
+test('old road pieces stay open until the edition after their last map; after that only what survives is claimed',()=>{
+ // The later OpenStreetMap review (docs/lemland-old-road-osm.md) keeps the surviving parts open with partial
+ // coverage; Tomtebo–Solstrand has no surviving part and stays 'unknown' (not abandoned).
  for(const o of review.oldRoad.objects){
   assert.equal(at(o.id,1916).geometry,null);assert.equal(at(o.id,1917).state,'open');assert.equal(at(o.id,o.until-1).state,'open');
-  assert.equal(at(o.id,o.until).state,'unknown');assert.equal(at(o.id,2026).geometry,null);
+  assert.equal(at(o.id,o.until-1).geometryPeriod.coverage,'full');
+  if(model.objects.get(o.id).lemlandOldRoadOsm){assert.equal(at(o.id,o.until).state,'open');assert.equal(at(o.id,2026).geometryPeriod.coverage,'partial')}
+  else{assert.equal(at(o.id,o.until).state,'unknown');assert.equal(at(o.id,2026).geometry,null)}
   assert.ok(o.endSnapMeters.every(m=>m<=25));assert.equal(model.objects.get(o.id).lemlandsvagenMainRoad.constructionYear,null)}
+ assert.equal(review.oldRoad.objects.filter(o=>model.objects.get(o.id).lemlandOldRoadOsm).length,3);
  assert.deepEqual(review.oldRoad.objects.map(o=>o.until),[1985,1995,1995,1995]);
 });
 

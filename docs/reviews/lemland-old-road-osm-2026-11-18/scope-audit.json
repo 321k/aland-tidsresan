@@ -1,0 +1,37 @@
+{
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:lemland:gamla-lemlandsvagen:johans",
+   "road:lemland:gamla-lemlandsvagen:mangard-soderby",
+   "road:lemland:gamla-lemlandsvagen:ovre-bors-ostergard"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:lemland:gamla-lemlandsvagen:johans:osm-survivor",
+   "geometry:lemland:gamla-lemlandsvagen:johans:phase-1917",
+   "geometry:lemland:gamla-lemlandsvagen:mangard-soderby:osm-survivor",
+   "geometry:lemland:gamla-lemlandsvagen:mangard-soderby:phase-1917",
+   "geometry:lemland:gamla-lemlandsvagen:ovre-bors-ostergard:osm-survivor",
+   "geometry:lemland:gamla-lemlandsvagen:ovre-bors-ostergard:phase-1917",
+   "geometry:lemland:gamla-lemlandsvagen:ovre-bors-ostergard:phase-1968"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:lemland-old-road-osm"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStagesUnchanged": true,
+ "otherTopLevelUnchanged": true,
+ "recordedAt": [
+  "2026-11-17",
+  "2026-11-18"
+ ]
+}

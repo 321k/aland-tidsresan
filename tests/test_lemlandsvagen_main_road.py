@@ -2,6 +2,7 @@ import copy, gzip, json, sys, unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from lemlandsvagen_main_road import apply_lemlandsvagen_main_road
+from lemland_old_road_osm import apply_lemland_old_road_osm
 
 REVIEW = 'data/lemlandsvagen-main-road.json'
 
@@ -33,6 +34,10 @@ class LemlandsvagenMainRoadTests(unittest.TestCase):
 
     def test_review_applies_once_and_matches_the_build(self):
         catalog = copy.deepcopy(self.pristine); apply_lemlandsvagen_main_road(self.read, catalog)
+        with self.assertRaises(ValueError):
+            apply_lemlandsvagen_main_road(self.read, copy.deepcopy(catalog))
+        # The build then runs the old-road OpenStreetMap review on three of the old-road objects (7 more geometries).
+        apply_lemland_old_road_osm(self.read, catalog)
         catalog = json.loads(json.dumps(catalog, ensure_ascii=False))
         ids = self.ids(); mine = {o['id']: o for o in catalog['objects'] if o['id'] in ids}
         self.assertEqual(len(mine), 13)
@@ -40,9 +45,7 @@ class LemlandsvagenMainRoadTests(unittest.TestCase):
         others = lambda c: [o for o in c['objects'] if o['id'] not in ids]
         self.assertEqual(others(catalog), others(self.pristine))
         self.assertEqual(catalog['cityStages'], self.pristine['cityStages'])
-        self.assertEqual(len(catalog['geometries']) - len(self.pristine['geometries']), 12)
-        with self.assertRaises(ValueError):
-            apply_lemlandsvagen_main_road(self.read, catalog)
+        self.assertEqual(len(catalog['geometries']) - len(self.pristine['geometries']), 12 + 7)
 
     def test_source_ownership_is_partitioned_exactly(self):
         catalog = copy.deepcopy(self.pristine); apply_lemlandsvagen_main_road(self.read, catalog)

@@ -1,0 +1,22 @@
+✔ initial loading blocks controls, fades after readiness, then releases focus and interaction (1.752708ms)
+✔ stalled downloads offer escape and late completion never reopens the screen (0.446333ms)
+✔ failed loading preserves its message, retries by reloading, and can recover (0.328209ms)
+✔ map readiness waits for initial layers, shoreline and painted layout (0.811084ms)
+✔ missing core data offers a failure state instead of revealing a blank map (1.217959ms)
+✔ report view restores controls after layers load and requests the reported shoreline year (1.070416ms)
+✔ progress reflects completed datasets, preserves errors and ignores late arrivals (0.432958ms)
+✔ preview waits only on explicit preview pages and still permits entering the map (0.32725ms)
+✔ reading or navigating updates keeps the ready map available until explicit entry (1.075709ms)
+✔ latest changes are visible immediately and navigation wraps without changing the building (0.40375ms)
+✔ loom reads the entire actual catalogue without mutating it or fabricating lifetimes (1107.205292ms)
+✔ one spotlight rotates, manual navigation wraps, and dismissal cancels rotation (0.634292ms)
+✔ reduced motion keeps the spotlight still while allowing manual selection (0.403292ms)
+✔ random initial buildings survive catalogue arrival without resetting the spotlight (407.771916ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1600.993667

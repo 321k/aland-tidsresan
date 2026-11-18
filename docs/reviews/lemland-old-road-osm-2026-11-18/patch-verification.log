@@ -1,0 +1,8 @@
+# Forward: apply to copies of the files without this batch's changes
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+scripts/build_temporal_objects.py: identical to working tree
+dist/index.html: identical to working tree
+# Reverse: dry run on the working tree
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
