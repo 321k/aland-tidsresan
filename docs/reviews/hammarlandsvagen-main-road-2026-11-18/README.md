@@ -79,3 +79,42 @@ Method and decisions: `docs/hammarlandsvagen-south.md`.
   review's earlier start from the object). See `patch-verification-south.log`.
 - **Runs:** all 586 JS tests pass (`logs/js-tests-south.log`). The south, north and QGIS reconciliation Python tests
   pass (36 tests).
+
+## Näfsby (third batch, same day)
+
+Method and decisions: `docs/hammarlandsvagen-nafsby.md`.
+- **Dated from 1929:** the old road through Näfsby, on five existing objects:
+  - Lillåkersgränd (its northern 85 m)
+  - way 1419026567 (then unknown 1968–1985)
+  - way 1419026568
+  - the old school road and its east part
+- **New object:** "Gamla Hammarlandsvägen · Näfsby", for the two vanished pieces.
+- **Västmyra:** its first 1929 cut now runs to 14 420 m (`prepare.py`: `nafsby-south` moved from 14 313).
+- **Evidence:**
+  - `renders/nafsby-village.jpg` and `nafsby-village-south.jpg`: 1929, 1944, 1968 and 1985
+  - `renders/nafsby-village-1968-1985.jpg`: the parallel stretch on the base maps
+  - `renders/nafsby-klaralund-*.jpg` and `nafsby-south-*.jpg`: the 1929 line with OSM 2026
+  - `renders/result-nafsby-1950-on-1929.jpg` and `result-nafsby-1975-on-1968.jpg`: what the map draws
+- **Scripts:** `village_window.py`, `trace_osm_window.py`, `drawn_in_year.py`, `prepare_nafsby.py`.
+- **Review data:** `data/hammarlandsvagen-nafsby.json`, written from
+  `data/map-scan-cache/review/hammarlandsvagen-main-road/before-nafsby.json.gz`.
+- **Snapshots:** the Python test replays the step on `before-nafsby-step.json.gz`, the catalogue built with the step
+  disabled.
+- **Scope:** `scope-audit-nafsby.json`, compared with the catalogue before this batch:
+  - added: 1 object, 6 geometries and 1 source
+  - changed: 6 objects (the five above and Västmyra) and Västmyra's 1929 cut geometry
+  - nothing else changed; no city stage changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-nafsby.test.cjs` and `tests/test_hammarlandsvagen_nafsby.py`. Each rejection was
+    checked to fail for its stated reason.
+  - updated: `tests/temporal-objects.test.cjs` counts the new object.
+- **`batch-nafsby.patch`:**
+  - `scripts/build_temporal_objects.py`: the hook and the asset copy
+  - `dist/index.html`: the card "Den gamla vägen genom Näfsby" and the regenerated preview
+  - `tests/temporal-objects.test.cjs`
+
+  See `patch-verification-nafsby.log`.
+- **Runs:**
+  - All 596 JS tests pass (`logs/js-tests-nafsby.log`).
+  - The Näfsby, south, north, QGIS reconciliation and rural road phase/replacement Python tests pass, 60 tests
+    (`logs/python-tests-nafsby.log`).

@@ -1,0 +1,40 @@
+{
+ "snapshot": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-nafsby.json.gz",
+ "objects": {
+  "added": [
+   "road:hammarland:gamla-hammarlandsvagen:nafsby"
+  ],
+  "removed": [],
+  "changed": [
+   "road:rural:hammarland-hammarlandsvagen-vastmyra",
+   "road:rural:hammarland-vastmyra-old-school-approach",
+   "road:rural:hammarland-vastmyra-old-school-approach-east",
+   "road:rural:hammarland-way-1419026567",
+   "road:rural:hammarland-way-1419026568",
+   "road:rural:hammarland-way-545279820"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:hammarland:gamla-hammarlandsvagen:nafsby",
+   "geometry:hammarlandsvagen-nafsby:hammarland-vastmyra-old-school-approach",
+   "geometry:hammarlandsvagen-nafsby:hammarland-vastmyra-old-school-approach-east",
+   "geometry:hammarlandsvagen-nafsby:hammarland-way-1419026567",
+   "geometry:hammarlandsvagen-nafsby:hammarland-way-1419026568",
+   "geometry:hammarlandsvagen-nafsby:hammarland-way-545279820"
+  ],
+  "removed": [],
+  "changed": [
+   "geometry:hammarlandsvagen-1929:hammarland-hammarlandsvagen-vastmyra"
+  ]
+ },
+ "sources": {
+  "added": [
+   "review:hammarlandsvagen-nafsby"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStagesChanged": false,
+ "otherTopLevelChanged": []
+}

@@ -27,7 +27,7 @@ evidence that the road existed in 1929, and the 1944 print of the same survey sh
 
 Distances are along today's road from the western edge of Mariehamn (the start of Hammarlandsvägen del 1).
 Boundaries are OSM junction nodes where the old road meets today's road. The one exception is 12.6 km, which is
-measured.
+measured, and so is 14.4 km (`nafsby-south`, moved from 14.3 km by the Näfsby review).
 
 | stretch | today's road | from |
 |---|---|---|
@@ -35,8 +35,8 @@ measured.
 | Drygsböle, 11.8–12.4 km | bypass; in 1929 no road runs on this line | 1968 |
 | Bolstad, 12.4–12.6 km | the 1929 road | 1929 |
 | Smedens–Björkgård, 12.6–14.1 km | new line 25–70 m east of the 1929 road (about 35 m east of the Smedens farm, which the 1929 road passed) | 1968 |
-| Björkgård–Mattas, 14.1–14.3 km | the 1929 road | 1929 |
-| Näfsby, 14.3–15.3 km | bypass east of the village; the old road went through Näfsby and past Klaralund, up to 115 m west | 1968 |
+| Björkgård–Mattas–Näfsby, 14.1–14.4 km | the 1929 road | 1929 |
+| Näfsby, 14.4–15.3 km | bypass east of the village; the old road went through Näfsby and past Klaralund, up to 115 m west | 1968 |
 | Korsbroström – Korsängen – Postad – church, 15.3–17.3 km | the 1929 road | 1929 |
 
 The objects keep their identity, evidence and later periods. Each gets an earlier open state and geometry period from
@@ -48,8 +48,8 @@ wholly on the Smedens line and keep 1968.
 The old line at Smedens is a new object, "Gamla Hammarlandsvägen · Smedens". It is read by hand on the 1929 map and is
 open 1929 until 1968, then `unknown`: the 1968 map does not draw it, and nothing of it is in OpenStreetMap.
 
-Before 1968 the main road therefore has two gaps, at Drygsböle and at Näfsby, where the old route is not yet an object
-(Open items).
+Before 1968 the main road had two gaps, at Drygsböle and at Näfsby, where the old route was not yet an object. The
+Näfsby gap is filled by `docs/hammarlandsvagen-nafsby.md`; Drygsböle is still open.
 
 ## Checks in the build step
 
@@ -74,9 +74,7 @@ catalogue.
   Ödanböle–Söderby on the 1968 map. The older main road ran from Sviby along Ullingsvägen and Ödanbölevägen. The 1928
   map prints it, and the 1944 and 1953 Kungsö maps print it as "Andelsl.". It is not in the catalogue as the historical
   main road. The 1917 route through Västansunda and Söderunda is still to be checked.
-- Näfsby: the old road through the village survives in part, as existing objects dated 1968 ("Västmyra · gamla
-  skolvägen", its east part, way 1419026568). Extend them back to 1929 and add the vanished parts, without duplicating
-  identities.
+- Näfsby: done, see `docs/hammarlandsvagen-nafsby.md`.
 - Drygsböle: the 1929 through-route between the lake shore and Bolstad is not clear on the map. It probably ran by the
   farm (today's Drygsbölevägen); this needs a closer look.
 - Kattby westwards (the 1959 object) lies outside the 1929 Hammarby sheet; check it on the neighbouring sheet.

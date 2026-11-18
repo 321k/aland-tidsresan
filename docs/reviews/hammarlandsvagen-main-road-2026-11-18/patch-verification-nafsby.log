@@ -1,0 +1,14 @@
+batch-nafsby.patch verification 2026-11-18T14:57:11Z
+== forward: before-copies + patch == current files
+ok scripts/build_temporal_objects.py
+ok dist/index.html
+ok tests/temporal-objects.test.cjs
+== reverse dry run on the working tree
+patching file 'dist/index.html'
+patching file 'scripts/build_temporal_objects.py'
+patching file 'tests/temporal-objects.test.cjs'
+reverse applies cleanly
+== other uncommitted work in these files stays outside the patch
+scripts/build_temporal_objects.py: untracked (the whole file is other uncommitted work); patch touches 3 lines
+dist/index.html: 148+/8- lines of other uncommitted work vs HEAD; patch touches 171 lines (the card, the renumbered labels, the preview)
+tests/temporal-objects.test.cjs: untracked (the whole file is other uncommitted work); patch touches 2 lines

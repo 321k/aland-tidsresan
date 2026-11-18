@@ -1,0 +1,211 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-18",
+ "source": {
+  "id": "review:hammarlandsvagen-nafsby",
+  "title": "Den gamla vägen genom Näfsby · granskning",
+  "url": "assets/hammarlandsvagen-nafsby.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929": "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+  "1944": "nls:9c72a692-bae4-473d-93bb-7bcdee1222e7",
+  "1968": "nls:101206:1968",
+  "1978": "nls:101206:1978"
+ },
+ "geometryPrefix": "geometry:hammarlandsvagen-nafsby:",
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där vägen är den gamla huvudvägen genom Näfsby på sockenkartan 1929.",
+ "method": "Den gamla huvudvägen genom Näfsby avläst på sockenkartan 1929 (Hammarby, karttiler 2,4 m/px; data/trace-nafsby-1929.json) och jämförd med utgåvan 1944, grundkartorna 1968–1995 och OpenStreetMap 2026 (renders/nafsby-*). Samma väg: kartans väg ligger inom omkring 25 m från den nutida vägen och har dess form.",
+ "early": [
+  {
+   "objectId": "road:rural:hammarland-way-545279820",
+   "inputHash": "83b48f72da5aaabd84425287979dbcf7ce1d91129cf12b480b2c890398cb1979",
+   "geometryId": "geometry:d9e2abfe85e6c9312de1",
+   "geometryHash": "20b77df93faa7543c9564c5db41e8a51fdbd7b24499be5ca05fbe61c2c563cc2",
+   "lengthMeters": 365.67,
+   "ranges": [
+    [
+     0.0,
+     85.0
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-way-1419026567",
+   "inputHash": "f4895ac4603e2e65860e89eba1d83b8054ae136775206dc2967f6c8f76a352c7",
+   "geometryId": "geometry:9c0d8b43ac7d2b5bb0f7",
+   "geometryHash": "1bb3c23c9a9ccf30ac7b593533f7492e12578c24c498e885032d159d35a25838",
+   "lengthMeters": 130.58,
+   "ranges": [
+    [
+     0.0,
+     130.6
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present",
+    "1968": "unclear",
+    "1978": "unclear"
+   },
+   "gapUntil": 1985
+  },
+  {
+   "objectId": "road:rural:hammarland-way-1419026568",
+   "inputHash": "08c4ba7a7aa852a3e2ced2dc02d712d995f9acf30716b5a3630ca354a42eb71f",
+   "geometryId": "geometry:d8c47bbbb031baa04e9c",
+   "geometryHash": "3f68e546c49214e861a6fddf55196bfd02289465fceb4cea55386bc03507a311",
+   "lengthMeters": 154.01,
+   "ranges": [
+    [
+     0.0,
+     154.0
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   },
+   "laterGeometry": true
+  },
+  {
+   "objectId": "road:rural:hammarland-vastmyra-old-school-approach-east",
+   "inputHash": "c244c5609790566ee8fa2fe37691ce2f0db5f101ab3829fdacab8c50fb8f092b",
+   "geometryId": "geometry:e3f8ffff51c82e4cf721",
+   "geometryHash": "470c009a0f7735e553801273484e6741c56512868f9e72d99a7f604bc114db46",
+   "lengthMeters": 106.78,
+   "ranges": [
+    [
+     0.0,
+     106.8
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   }
+  },
+  {
+   "objectId": "road:rural:hammarland-vastmyra-old-school-approach",
+   "inputHash": "0e356f13cf8367f8e1840857e181f37cf519960c71ab27b80c80b5910a0577e1",
+   "geometryId": "geometry:071a89dfa61109e53335",
+   "geometryHash": "ca2ad216f4c379243784f7798a6cd6a41908574e1b5d681e1f3783bc48da5f4b",
+   "lengthMeters": 264.44,
+   "ranges": [
+    [
+     0.0,
+     264.4
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   },
+   "pathIndex": 0
+  }
+ ],
+ "earlyBasis": {
+  "road:rural:hammarland-way-545279820": "De första omkring 85 m av Lillåkersgränd, från norr, är den gamla huvudvägen genom Näfsby som sockenkartan 1929 (och utgåvan 1944) ritar. Där svänger dagens gränd mot sydväst; den gamla vägen fortsatte mot sydost till dagens Hammarlandsväg.",
+  "road:rural:hammarland-way-1419026567": "Den gamla huvudvägen genom Näfsby, som sockenkartan 1929 (och utgåvan 1944) ritar här, längs västra sidan av dagens väg.",
+  "road:rural:hammarland-way-1419026568": "Den gamla huvudvägen genom Näfsby, från byn upp mot korsningen vid Krokgränd, som sockenkartan 1929 (och utgåvan 1944) ritar.",
+  "road:rural:hammarland-vastmyra-old-school-approach-east": "Den gamla huvudvägen genom Näfsby förbi Klaralund, som sockenkartan 1929 (och utgåvan 1944) ritar. Kartan ritar kröken vid Klaralund omkring 25 m söder om dagens väg, inom kartans lägesfel.",
+  "road:rural:hammarland-vastmyra-old-school-approach": "Den gamla huvudvägen genom Näfsby, från Klaralund norrut mot Korsbroström, som sockenkartan 1929 (och utgåvan 1944) ritar. Den korta anslutningen österut till dagens Hammarlandsväg (vägens andra del) är yngre och dateras inte här."
+ },
+ "gapBasis": {
+  "road:rural:hammarland-way-1419026567": "Grundkartorna 1968 och 1978 ritar bara en tunn linje längs den nya vägens västra kant här, inte säkert en väg; först 1985 är vägen ritad igen. Om den var i bruk däremellan är inte känt."
+ },
+ "oldRoad": {
+  "id": "road:hammarland:gamla-hammarlandsvagen:nafsby",
+  "name": "Gamla Hammarlandsvägen · Näfsby",
+  "routeId": "road:Gamla Hammarlandsvägen",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "until": 1968,
+  "maps": {
+   "1929": "present",
+   "1944": "present",
+   "1968": "absent"
+  },
+  "paths": [
+   [
+    [
+     19.775953,
+     60.1990023
+    ],
+    [
+     19.7748261,
+     60.1993855
+    ]
+   ],
+   [
+    [
+     19.768338,
+     60.204684
+    ],
+    [
+     19.767844,
+     60.2051496
+    ],
+    [
+     19.7677301,
+     60.2051854
+    ]
+   ]
+  ],
+  "lengthMeters": 141.8,
+  "referenceRange": [
+   14420,
+   null
+  ],
+  "endSnapMeters": [
+   19.6,
+   8.1,
+   2.6,
+   2.4
+  ],
+  "endSnapLimit": 25,
+  "endObjects": [
+   "road:rural:hammarland-hammarlandsvagen-vastmyra",
+   "road:rural:hammarland-way-545279820",
+   "road:rural:hammarland-vastmyra-old-school-approach"
+  ],
+  "basis": "De två korta bitar av den gamla huvudvägen genom Näfsby som inte finns kvar: där den lämnade dagens väg vid Mattas och gick in i byn mot Lillåkersgränd, och sista biten norr om Klaralund upp till dagens väg vid Korsbroström. Sockenkartan 1929 (och utgåvan 1944) ritar dem; grundkartan 1968 ritar ingen väg där, och inget av dem finns i OpenStreetMap. Resten av den gamla vägen finns kvar som mindre vägar i byn.",
+  "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (karttiler 2,4 m/px) och inte flyttad; ändarna är fästa vid dagens Hammarlandsväg, Lillåkersgränd och den gamla skolvägen.",
+  "afterNote": "Grundkartan 1968 ritar ingen väg här, och den finns inte i OpenStreetMap. Exakt när den togs ur bruk är inte känt."
+ },
+ "route": {
+  "order": [
+   "road:rural:hammarland-hammarlandsvagen-vastmyra",
+   "road:hammarland:gamla-hammarlandsvagen:nafsby",
+   "road:rural:hammarland-way-545279820",
+   "road:rural:hammarland-way-1419026567",
+   "road:rural:hammarland-way-1419026568",
+   "road:rural:hammarland-vastmyra-old-school-approach-east",
+   "road:rural:hammarland-vastmyra-old-school-approach",
+   "road:hammarland:gamla-hammarlandsvagen:nafsby",
+   "road:rural:hammarland-hammarlandsvagen-vastmyra"
+  ],
+  "endObjects": [
+   "road:rural:hammarland-hammarlandsvagen-vastmyra"
+  ],
+  "repeat": [
+   "road:hammarland:gamla-hammarlandsvagen:nafsby"
+  ],
+  "joinMeters": 2.0
+ }
+}

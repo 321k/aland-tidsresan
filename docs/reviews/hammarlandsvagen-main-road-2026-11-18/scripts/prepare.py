@@ -1,6 +1,8 @@
 """Write data/hammarlandsvagen-main-road.json: where today's Hammarlandsvägen between Söderby and the church is the
 road drawn on the 1929 Hammarby parish map, and the old line at Smedens. Decisions are from the visual review
 (renders/); boundaries are OSM junction nodes where the old road meets today's road, or measured points.
+nafsby-south was 14313 in the first version; the Näfsby review (renders/nafsby-*) moved it to 14420, the measured point
+where the 1929 road (10–20 m from today's road from Mattas on) turns off into the village street.
 Usage: prepare.py BEFORE_CATALOGUE.json.gz"""
 import sys, json, gzip
 sys.path.insert(0, 'scripts')
@@ -12,7 +14,7 @@ R = 'docs/reviews/hammarlandsvagen-main-road-2026-11-18'
 before = json.load(gzip.open(sys.argv[1])); O = {o['id']: o for o in before['objects']}; G = {g['id']: g for g in before['geometries']}
 ref = json.load(open(f'{R}/data/reference.json')); L = LineString(ref['metric'])
 B = {'soderby': 9005, 'drygsbole-south': 11824, 'drygsbole-north': 12405, 'bolstad': 12600, 'smedens-north': 14101,
-     'nafsby-south': 14313, 'nafsby-north': 15255}
+     'nafsby-south': 14420, 'nafsby-north': 15255}
 SAME = [('soderby', 'drygsbole-south'), ('drygsbole-north', 'bolstad'), ('smedens-north', 'nafsby-south'), ('nafsby-north', None)]
 CHURCH_END = 17262.3          # end of the church corridor object, where the Kattby-west object (1959) begins
 H1929, H1944 = 'nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08', 'nls:9c72a692-bae4-473d-93bb-7bcdee1222e7'
@@ -65,7 +67,7 @@ data = dict(
     earlyBasis={
         'road:rural:hammarland-way-345142933': 'Söderby–Långträsk och biten vid Bolstad är samma väg som sockenkartan 1929 ritar (strandvägen längs Långträsk). Förbifarten vid Drygsböle (11,8–12,4 km) och den nya linjen förbi Smedens finns inte 1929; söder om Söderby är vägen ny (först på grundkartan 1968).',
         'road:rural:hammarland-way-345143750': 'De sista omkring 100 m vid Björkgård är den gamla vägen; linjen förbi Smedens söder om den är ny.',
-        'road:rural:hammarland-hammarlandsvagen-vastmyra': 'Ändarna vid Mattas och vid Korsbroström är den gamla vägen. Mellan dem är dagens väg en förbifart öster om Näfsby; den gamla bygatan går genom byn och förbi Klaralund.',
+        'road:rural:hammarland-hammarlandsvagen-vastmyra': 'Ändarna är den gamla vägen: de första omkring 220 m från Mattas och biten vid Korsbroström. Mellan dem är dagens väg en förbifart öster om Näfsby; den gamla vägen gick genom byn och förbi Klaralund, där den finns kvar som mindre vägar (se Näfsbygranskningen).',
         'road:rural:hammarland-hammarlandsvagen-postad-korsangen': 'Samma väg som sockenkartan 1929 ritar, inom kartans lägesfel (5–20 m).',
         'road:rural:hammarland-hammarlandsvagen-church-corridor': 'Samma väg som sockenkartan 1929 ritar förbi kyrkan och in i Kattby.'},
     oldRoad=dict(id='road:hammarland:gamla-hammarlandsvagen:smedens', name='Gamla Hammarlandsvägen · Smedens', routeId='road:Gamla Hammarlandsvägen',
