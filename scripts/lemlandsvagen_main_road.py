@@ -196,7 +196,11 @@ def apply_lemlandsvagen_main_road(read, catalog):
         catalog['objects'].append(obj)
 
     # Långskata del 2: its first 300 m are the old road from 1917.
-    cov = dict(coverage='partial', canonicalRange=lr['canonicalRange']); lgid = lg['geometryPeriods'][0]['geometryId']
+    # The partial period draws only the old-road part: its own cut of Långskata's geometry (same coordinates).
+    cov = dict(coverage='partial', canonicalRange=lr['canonicalRange']); lgid = 'geometry:lemland:langskata-2-old-road'
+    catalog['geometries'].append(dict(id=lgid, representation='centerline', sourceIds=deepcopy(lg_geo['sourceIds']),
+                                      paths=[cut(lg_geo['paths'][0], lg_line, 0, lg_line.length * lr['canonicalRange'][1])],
+                                      note='Långskata del 2:s första 300 m, där den är den gamla Lemlandsvägen (samma koordinater som hela vägens geometri).'))
     ev = map_evidence(lg['id'], lr['maps'], lgid, lr['basis'], years=[1917, 1929, 1948, 1968, 1978], coverage=cov)
     refs = [e['id'] for e in ev]
     lg['evidence'] += ev

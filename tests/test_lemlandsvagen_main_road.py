@@ -45,7 +45,7 @@ class LemlandsvagenMainRoadTests(unittest.TestCase):
         others = lambda c: [o for o in c['objects'] if o['id'] not in ids]
         self.assertEqual(others(catalog), others(self.pristine))
         self.assertEqual(catalog['cityStages'], self.pristine['cityStages'])
-        self.assertEqual(len(catalog['geometries']) - len(self.pristine['geometries']), 12 + 7)
+        self.assertEqual(len(catalog['geometries']) - len(self.pristine['geometries']), 13 + 7)   # 12 + Långskata's early cut; + 7 OSM review
 
     def test_source_ownership_is_partitioned_exactly(self):
         catalog = copy.deepcopy(self.pristine); apply_lemlandsvagen_main_road(self.read, catalog)

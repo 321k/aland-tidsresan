@@ -1,0 +1,74 @@
+{
+ "objects": {
+  "added": [
+   "road:hammarland:gamla-hammarlandsvagen:smedens"
+  ],
+  "changed": [
+   "road:qgis:mariehamn:langskata-2-100km3",
+   "road:rural:hammarland-hammarlandsvagen-church-corridor",
+   "road:rural:hammarland-hammarlandsvagen-postad-korsangen",
+   "road:rural:hammarland-hammarlandsvagen-vastmyra",
+   "road:rural:hammarland-way-345142933",
+   "road:rural:hammarland-way-345143750"
+  ],
+  "removed": [],
+  "otherWork": {
+   "added": [
+    "building:erikssonska:north-1876",
+    "mh-history:societetshuset"
+   ],
+   "changed": [
+    "building:osm:way-35072386",
+    "building:osm:way-369774037",
+    "building:plan-1860:gastgifveri",
+    "mh-history:erikssonska"
+   ]
+  }
+ },
+ "geometries": {
+  "added": [
+   "geometry:hammarland:gamla-hammarlandsvagen:smedens",
+   "geometry:hammarlandsvagen-1929:hammarland-hammarlandsvagen-church-corridor",
+   "geometry:hammarlandsvagen-1929:hammarland-hammarlandsvagen-postad-korsangen",
+   "geometry:hammarlandsvagen-1929:hammarland-hammarlandsvagen-vastmyra",
+   "geometry:hammarlandsvagen-1929:hammarland-way-345142933",
+   "geometry:hammarlandsvagen-1929:hammarland-way-345143750",
+   "geometry:lemland:langskata-2-old-road"
+  ],
+  "changed": [],
+  "removed": [],
+  "otherWork": {
+   "added": [
+    "geometry:erikssonska:north",
+    "geometry:erikssonska:south",
+    "geometry:societetshuset:early-core",
+    "geometry:societetshuset:expanded"
+   ],
+   "changed": []
+  }
+ },
+ "sources": {
+  "added": [
+   "nls:9c72a692-bae4-473d-93bb-7bcdee1222e7",
+   "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+   "review:hammarlandsvagen-main-road"
+  ],
+  "changed": [],
+  "removed": [],
+  "otherWork": {
+   "added": [
+    "erikssonska:museum",
+    "review:erikssonska-outlines",
+    "review:societetshuset",
+    "socis:1958",
+    "socis:atlas",
+    "socis:demolition",
+    "socis:museum",
+    "socis:plan-context"
+   ],
+   "changed": []
+  }
+ },
+ "cityStagesUnchanged": true,
+ "note": "Before: data/map-scan-cache/review/hammarlandsvagen-main-road/before.json.gz (the deployed catalogue). otherWork: Erikssonska/Societetshuset changes by another session in the same working tree, not part of this batch."
+}

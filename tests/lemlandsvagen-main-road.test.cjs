@@ -50,8 +50,11 @@ test('old road pieces stay open until the edition after their last map; after th
  assert.deepEqual(review.oldRoad.objects.map(o=>o.until),[1985,1995,1995,1995]);
 });
 
-test('Långskata del 2: only its first 300 m are the old road before 1985',()=>{
- const id=review.langskata.objectId;
- for(const y of [1917,1948,1984]){const r=at(id,y);assert.equal(r.geometryPeriod.coverage,'partial');assert.deepEqual(r.geometryPeriod.canonicalRange,review.langskata.canonicalRange)}
+test('Långskata del 2: only its first 300 m are the old road before 1985, and only they are drawn',()=>{
+ const id=review.langskata.objectId,len=p=>p.slice(1).reduce((s,q,i)=>s+dist(p[i],q),0);
+ for(const y of [1917,1948,1984]){const r=at(id,y);assert.equal(r.geometryPeriod.coverage,'partial');assert.deepEqual(r.geometryPeriod.canonicalRange,review.langskata.canonicalRange);
+  const early=len(r.geometry.paths[0]);assert.ok(Math.abs(early-300)<5,`${y}: ${early} m drawn`)}
+ const whole=at(id,1985).geometry.paths[0],early=at(id,1917).geometry.paths[0];
+ assert.ok(early.every(p=>near(p,whole)<0.05),'the early part lies on the road itself');
   assert.notEqual(at(id,1985).geometryPeriod.coverage,'partial');assert.equal(at(id,1916).geometry,null);
 });

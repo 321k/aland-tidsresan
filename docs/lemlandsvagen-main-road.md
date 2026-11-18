@@ -48,7 +48,7 @@ Tomtebo–Solstrand, Övre-Börs–Östergård, Johans and Mangård–Söderby. 
 last base map that draws it (1985 or 1995), then `unknown`: not reviewed later, which does not mean it disappeared.
 Much of it survives as local roads in OpenStreetMap (Knutsbodavägen, Kockobacka, Kommunrundan, Norra Söderbyvägen);
 those parts were reconciled afterwards and stay open to today (`docs/lemland-old-road-osm.md`). Between the Johans piece and the Mangård piece, the first 300 m of
-Långskata del 2 are the old road; that object gets a partial 1917–1985 period, as other partially dated streets do.
+Långskata del 2 are the old road; that object gets a partial 1917–1985 period, as other partially dated streets do. (Until 2026-11-18 that period drew the whole of Långskata; it now has its own cut geometry, see `docs/hammarlandsvagen-main-road.md`.)
 
 The 1968 and 1978 maps draw the old road between Fridelund and Dragsvik straighter than 1929. Whether that is a
 straightening or generalisation is not settled; the 1929 line is kept. (Settled for the corner at Fridelund itself:
