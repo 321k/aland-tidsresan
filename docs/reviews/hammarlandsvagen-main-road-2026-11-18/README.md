@@ -408,3 +408,37 @@ Method and decisions: `docs/hammarlandsvagen-kyrkoby.md`.
   - Python, 79 tests (`logs/python-tests-kyrkoby.log`): 78 passed on the first run. One Marsund mutation marked only
     the Eckerö 1929 sheet unclear, which no longer moves the first year, because the Mörby 1929 sheet is now also
     cited. It now marks both sheets, and the Marsund tests pass on the rerun appended to the log.
+
+## Storby (twelfth batch, 2026-11-19)
+
+Method and decisions: `docs/hammarlandsvagen-storby.md`.
+- **Marsund connection:**
+  - its 1929 period gains 11.10 km to its end;
+  - until 1978 it leaves out the Storby bypass (10.23–11.10 km).
+- **New object:** "Gamla landsvägen · Storby", the main road until 1978, then its surviving village roads.
+- **Build step:** `apply_hammarlandsvagen_storby` (`_bypass` and `_old_roads`, run on a copy first).
+- **Scripts:**
+  - new: `prepare_storby.py`, `old_road_lib.py`, `mosaic_window.py`, and `snapshot_build.py`, which builds a step's
+    snapshot with the later steps that fingerprint the connection disabled.
+  - `prepare_overby.py` and `prepare_kyrkoby.py` were rerun for the changed connection; only their fingerprints
+    changed.
+- **Snapshots:** `before-storby.json.gz` (as deployed after the Kyrkoby batch), `before-storby-step.json.gz`, and the
+  rebuilt `before-overby-step.json.gz` and `before-kyrkoby-step.json.gz`.
+- **Scope:** `scope-audit-storby.json`:
+  - added: 1 object, 3 geometries and 2 sources
+  - changed: the Marsund object and its 1929 cut geometry
+  - 15 atlas intervals added, none removed
+  - nothing else changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-storby.test.cjs` and `tests/test_hammarlandsvagen_storby.py`, including that a
+    failing old road leaves the bypass split unapplied
+  - updated: the Marsund tests (eight stretches, the 1959–1978 geometry) and the object count
+- **`batch-storby.patch`:** the build hook and asset copy, the atlas link, the roads file, the loader card "Landsvägen
+  genom Storby by" with the preview, and the Marsund continuity and object count tests. See
+  `patch-verification-storby.log`.
+- **Runs:**
+  - All 616 JS tests pass (`logs/js-tests-storby.log`).
+  - Python, 82 tests (`logs/python-tests-storby.log`): 80 passed on the first run. The Marsund and Överby replay tests
+    compared their step with the built object, which now also carries the later Storby split. They now leave that out
+    (`tests/test_hammarlandsvagen_marsund.py`, `tests/test_hammarlandsvagen_overby.py`) and pass on the rerun appended
+    to the log.

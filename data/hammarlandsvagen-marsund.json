@@ -76,6 +76,10 @@
     [
      9850.0,
      10230.0
+    ],
+    [
+     11100.0,
+     11237.1
     ]
    ],
    "pathOrder": [
@@ -154,6 +158,11 @@
      2,
      1889.32,
      2269.32
+    ],
+    [
+     0,
+     624.38,
+     761.48
     ]
    ],
    "firstYear": 1929,
@@ -167,6 +176,6 @@
   }
  ],
  "earlyBasis": {
-  "road:marsund:eckero-hammarland": "Sju delar av förbindelsen är den gamla landsvägen som sockenkartan 1929 för Eckerö ritar, och utgåvan 1956 likadant: genom Frebbenby fram till Marsundsvägen (0–0,47 km), över det smala sundet vid Holmberg (3,69–3,88 km), vid Marby (5,7–6,0 km från Frebbenby), en kort bit mitt i Överby (6,3–6,4 km) från Överby genom Kyrkoby (7,1–8,2 km), vid Kristiansund (9,2–9,4 km) och från Bagars till Storby (9,85–10,23 km; sockenkartan 1929 för Mörby och utgåvan 1946), inom omkring 15 m från dagens väg. Från Frebbenby gick den gamla vägen västerut längs Marsundsvägen till färjan. Däremellan gick den gamla vägen i två slingor norrut genom Överby by, där dagens väg är en senare förbifart. Resten av förbindelsen, med bron över Marsund, visas fortfarande från 1959."
+  "road:marsund:eckero-hammarland": "Åtta delar av förbindelsen är den gamla landsvägen som sockenkartan 1929 för Eckerö ritar, och utgåvan 1956 likadant: genom Frebbenby fram till Marsundsvägen (0–0,47 km), över det smala sundet vid Holmberg (3,69–3,88 km), vid Marby (5,7–6,0 km från Frebbenby), en kort bit mitt i Överby (6,3–6,4 km) från Överby genom Kyrkoby (7,1–8,2 km), vid Kristiansund (9,2–9,4 km) från Bagars till Storby (9,85–10,23 km; sockenkartan 1929 för Mörby och utgåvan 1946) och i Storby (11,10 km till förbindelsens slut), inom omkring 15 m från dagens väg. Från Frebbenby gick den gamla vägen västerut längs Marsundsvägen till färjan. Däremellan gick den gamla vägen i två slingor norrut genom Överby by, där dagens väg är en senare förbifart. Resten av förbindelsen, med bron över Marsund, visas fortfarande från 1959."
  }
 }

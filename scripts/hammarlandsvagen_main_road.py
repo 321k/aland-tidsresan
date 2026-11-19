@@ -631,3 +631,84 @@ def _old_roads(read, catalog, path_):
             evidence=ev, sourceLinks=deepcopy(od['sourceLinks']),
             hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], oldRoad=True, review=src, mainRoadUntil=od['mainUntil'], mainRoadUntilBasis=od['mainUntilBasis'], constructionYear=None)))
     catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])
+
+
+def apply_hammarlandsvagen_storby(read, catalog):
+    """Storby (docs/hammarlandsvagen-storby.md): the connection without the Storby bypass until the first map that draws
+    it ('bypass', several cut pieces), and the old road through the village ('oldRoads', as in _old_roads). Both run
+    on a copy first; the catalogue changes only if both pass."""
+    trial = deepcopy(catalog)
+    _bypass(read, trial, 'data/hammarlandsvagen-storby.json')
+    _old_roads(read, trial, 'data/hammarlandsvagen-storby.json')
+    catalog.clear(); catalog.update(trial)
+
+
+def _bypass(read, catalog, path_):
+    """Split a road's open-ended period at the first map that draws a bypass. Before it, the road leaves out the bypass:
+    'removed' pieces [path, from, to] (metres along the path; a whole path or at least 50 m). 'pathOrder' gives the
+    canonical extents along the road. Maps: one marked absent in the split period, the first marked present ends it."""
+    review = read(path_); bp = review['bypass']; labels = review['maps']
+    objects = {o['id']: o for o in catalog['objects']}; geometries = {g['id']: g for g in catalog['geometries']}
+    year = lambda k: labels[k]['year']; src = review['source']['id']
+    m = objects.get(bp['objectId'])
+    if not m or fingerprint(m) != bp['inputHash']:
+        raise ValueError('Changed bypass input ' + bp['objectId'])
+    g = geometries.get(bp['geometryId']); period = next((gp for gp in m['geometryPeriods'] if gp['from'] == bp['from']), None)
+    # the period that starts at 'from' is split at 'until' (it may be open-ended or end later)
+    if not g or digest(g) != bp['geometryHash'] or not period or period['geometryId'] != g['id'] or not bp['from'] < bp['until'] < (period['to'] or 9999):
+        raise ValueError('Changed bypass geometry ' + bp['objectId'])
+    present = [year(k) for k, v in bp['maps'].items() if v == 'present']; absent = [year(k) for k, v in bp['maps'].items() if v == 'absent']
+    if not set(bp['maps']) <= set(labels) or not present or min(present) != bp['until'] or not absent or not all(bp['from'] <= y < bp['until'] for y in absent) \
+            or not review.get('bypassBasis'):
+        raise ValueError('Bypass dates do not follow its maps')
+    order = bp['pathOrder']
+    if sorted(order) != list(range(len(g['paths']))):
+        raise ValueError('Invalid path order ' + bp['objectId'])
+    lines = {i: metric(g['paths'][i]) for i in order}
+    cuts = {}
+    for i, a, b in bp['removed']:
+        L = lines[i].length; whole = a == 0 and abs(b - L) < 0.1
+        if not (0 <= a < b <= L + 0.1) or (b - a < 50 and not whole) or i in cuts:
+            raise ValueError('Invalid bypass piece ' + bp['objectId'])
+        cuts[i] = (a, min(b, L))
+    paths, offset, at = [], {}, 0.0
+    for i in order:
+        offset[i] = at; at += lines[i].length
+    for i, p in enumerate(g['paths']):
+        if i not in cuts:
+            paths.append(deepcopy(p)); continue
+        a, b = cuts[i]
+        for s, e in ((0.0, a), (b, lines[i].length)):
+            if e - s > 1.0:
+                paths.append(cut(p, lines[i], s, e))
+    removed = sorted([offset[i] + a, offset[i] + b] for i, (a, b) in cuts.items())
+    merged = []
+    for a, b in removed:
+        if merged and a - merged[-1][1] < 0.5: merged[-1][1] = b
+        else: merged.append([a, b])
+    canon, start = [], 0.0
+    for a, b in merged:
+        if a - start > 0.5: canon.append([round(start / at, 6), round(a / at, 6)])
+        start = b
+    if at - start > 0.5: canon.append([round(start / at, 6), 1])
+    # a geometry already cut elsewhere: the extents along the whole road are given by the review (checked for order)
+    if 'canonicalRanges' in bp:
+        canon = bp['canonicalRanges']
+        if not canon or any(not 0 <= a < b <= 1 for a, b in canon) or any(x[1] >= y[0] for x, y in zip(canon, canon[1:])):
+            raise ValueError('Invalid bypass extents ' + bp['objectId'])
+
+    gid = review['geometryPrefix'] + 'without-bypass'
+    catalog['geometries'].append(dict(id=gid, representation='centerline', paths=paths, sourceIds=deepcopy(g['sourceIds']), note=review['bypassGeometryNote']))
+    ev = []
+    for k in sorted(bp['maps'], key=lambda k: (year(k), k)):
+        y = year(k); outcome = bp['maps'][k]
+        ev.append(dict(id=f"{m['id']}:{review['geometryPrefix'].split(':')[1]}-map-{k}", sourceId=labels[k]['sourceId'], describes={'from': y, 'to': y + 1}, observationType='printed-map-review',
+                       interpretation=True, outcome=outcome, supports=['state'] if outcome != 'present' else ['geometry', 'identity', 'state'], constructionYear=None, reviewId=src, note=review['bypassBasis']))
+    m['evidence'] += ev
+    period['from'] = bp['until']
+    period['evidenceIds'] = list(period.get('evidenceIds', [])) + [x['id'] for x in ev if x['outcome'] == 'present']
+    k = m['geometryPeriods'].index(period)
+    cov = dict(coverage='partial', canonicalRanges=canon) if len(canon) > 1 else dict(coverage='partial', canonicalRange=canon[0])
+    m['geometryPeriods'].insert(k, dict(geometryId=gid, **{'from': bp['from'], 'to': bp['until']}, certainty='inferred', evidenceIds=[x['id'] for x in ev if x['outcome'] == 'absent'],
+                                        basis=review['bypassBasis'], **cov))
+    m.setdefault('bypassReviews', []).append(dict(review=src, reviewedAt=review['reviewedAt'], firstMapYear=bp['until'], previousFrom=bp['from'], removed=bp['removed'], constructionYear=None))

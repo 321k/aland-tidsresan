@@ -1,0 +1,692 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "source": {
+  "id": "review:hammarlandsvagen-storby",
+  "title": "Gamla landsvägen genom Storby · granskning",
+  "url": "assets/hammarlandsvagen-storby.json"
+ },
+ "sources": [
+  {
+   "id": "road:eckero:gamla-landsvagen-storby:survey",
+   "title": "OpenStreetMap · vägarna genom Storby by",
+   "url": "https://www.openstreetmap.org/way/433455766",
+   "issuedAt": "2026"
+  }
+ ],
+ "maps": {
+  "1929": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1929-morby": {
+   "sourceId": "nls:map-38157016",
+   "year": 1929
+  },
+  "1946": {
+   "sourceId": "nls:map-38157019",
+   "year": 1946
+  },
+  "1968-101203": {
+   "sourceId": "nls:101203:1968",
+   "year": 1968
+  },
+  "1968": {
+   "sourceId": "nls:102101:1968",
+   "year": 1968
+  },
+  "1978": {
+   "sourceId": "nls:102101:1978",
+   "year": 1978
+  }
+ },
+ "geometryPrefix": "geometry:hammarlandsvagen-storby:",
+ "bypass": {
+  "objectId": "road:marsund:eckero-hammarland",
+  "inputHash": "a43f536fe8b1c008d7828145a761c70dc4d3268e7bc03ef7286d4df002ebfc24",
+  "geometryId": "geometry:hammarlandsvagen-overby:marsund-without-bypass",
+  "geometryHash": "cccaa080096555ad25510e840c73be5fb422a35aa64900d1ff7f67a4b617fbde",
+  "from": 1959,
+  "until": 1978,
+  "pathOrder": [
+   20,
+   19,
+   18,
+   17,
+   16,
+   15,
+   14,
+   13,
+   12,
+   11,
+   10,
+   9,
+   8,
+   7,
+   6,
+   3,
+   4,
+   5,
+   2,
+   1,
+   0
+  ],
+  "removed": [
+   [
+    0,
+    0.0,
+    624.38
+   ],
+   [
+    1,
+    0.0,
+    176.07
+   ],
+   [
+    2,
+    2269.32,
+    2338.87
+   ]
+  ],
+  "canonicalRanges": [
+   [
+    0.0,
+    0.537503
+   ],
+   [
+    0.56064,
+    0.572209
+   ],
+   [
+    0.630053,
+    0.910373
+   ],
+   [
+    0.987795,
+    1.0
+   ]
+  ],
+  "maps": {
+   "1968": "absent",
+   "1978": "present"
+  }
+ },
+ "bypassBasis": "Förbifarten norr om Storby by (10,23–11,10 km från Frebbenby) finns inte på grundkartan 1968, där huvudvägen ännu går genom byn via Kars. Grundkartan 1978 ritar den som huvudväg. Fram till dess visas förbindelsen här utan förbifarten; den gamla vägen genom byn är ett eget objekt.",
+ "bypassGeometryNote": "Förbindelsens egen geometri (samma koordinater) utan förbifarterna vid Överby och Storby.",
+ "connection": "road:marsund:eckero-hammarland",
+ "connectionHash": "d0d6d2a10413620eca07a7e31fc04f9779bf1733aa396f3a8cf960fd807a7b8a",
+ "oldRoads": [
+  {
+   "id": "road:eckero:gamla-landsvagen:storby",
+   "name": "Gamla landsvägen · Storby",
+   "routeId": "road:Gamla landsvägen Eckerö",
+   "modernRoadClass": "secondary",
+   "roadWidth": 4,
+   "firstYear": 1929,
+   "mainUntil": 1978,
+   "surveySourceId": "road:eckero:gamla-landsvagen-storby:survey",
+   "maps": {
+    "1929": "present",
+    "1929-morby": "present",
+    "1946": "present",
+    "1968-101203": "present",
+    "1968": "present"
+   },
+   "mainUntilBasis": "Grundkartan 1978 ritar förbifarten som huvudväg; 1968 går huvudvägen ännu genom byn.",
+   "paths": [
+    [
+     [
+      19.574565031984093,
+      60.22480807005002
+     ],
+     [
+      19.574561,
+      60.224355
+     ],
+     [
+      19.574278,
+      60.224284
+     ],
+     [
+      19.57413,
+      60.224247
+     ],
+     [
+      19.573993,
+      60.224211
+     ],
+     [
+      19.573875,
+      60.224167
+     ],
+     [
+      19.573778,
+      60.22413
+     ],
+     [
+      19.573669,
+      60.224072
+     ],
+     [
+      19.573576,
+      60.224009
+     ],
+     [
+      19.573326,
+      60.223808
+     ],
+     [
+      19.573036,
+      60.223567
+     ],
+     [
+      19.572794,
+      60.22336
+     ],
+     [
+      19.572571,
+      60.223184
+     ],
+     [
+      19.572251,
+      60.222932
+     ],
+     [
+      19.571982,
+      60.222724
+     ],
+     [
+      19.571771,
+      60.222564
+     ],
+     [
+      19.571597,
+      60.222446
+     ],
+     [
+      19.571344,
+      60.222304
+     ],
+     [
+      19.57106,
+      60.22215
+     ],
+     [
+      19.570865,
+      60.222042
+     ],
+     [
+      19.570706,
+      60.221941
+     ],
+     [
+      19.570519,
+      60.221739
+     ],
+     [
+      19.570258,
+      60.221564
+     ],
+     [
+      19.569717,
+      60.221416
+     ],
+     [
+      19.569195,
+      60.221351
+     ],
+     [
+      19.56887,
+      60.221298
+     ],
+     [
+      19.567965,
+      60.221286
+     ],
+     [
+      19.567294,
+      60.221305
+     ],
+     [
+      19.566642,
+      60.221333
+     ],
+     [
+      19.566045,
+      60.221453
+     ],
+     [
+      19.565485,
+      60.221573
+     ],
+     [
+      19.565095,
+      60.221712
+     ],
+     [
+      19.564666,
+      60.221879
+     ],
+     [
+      19.564601,
+      60.221901
+     ],
+     [
+      19.564219,
+      60.222036
+     ],
+     [
+      19.563703,
+      60.222166
+     ],
+     [
+      19.563571,
+      60.222194
+     ],
+     [
+      19.563214,
+      60.22227
+     ],
+     [
+      19.563072,
+      60.222301
+     ],
+     [
+      19.562664,
+      60.222352
+     ],
+     [
+      19.561879,
+      60.222452
+     ],
+     [
+      19.56173,
+      60.222466
+     ],
+     [
+      19.561421,
+      60.222495
+     ],
+     [
+      19.560497,
+      60.222781
+     ],
+     [
+      19.560484,
+      60.222974
+     ],
+     [
+      19.560426,
+      60.22307
+     ],
+     [
+      19.560264,
+      60.223073
+     ],
+     [
+      19.56,
+      60.223073
+     ],
+     [
+      19.559897,
+      60.223036
+     ],
+     [
+      19.559824,
+      60.222985
+     ],
+     [
+      19.559745,
+      60.222919
+     ],
+     [
+      19.559254382806028,
+      60.2232145653351
+     ]
+    ]
+   ],
+   "lengthMeters": 1157.5,
+   "laterPaths": [
+    [
+     [
+      19.574561,
+      60.224355
+     ],
+     [
+      19.574278,
+      60.224284
+     ],
+     [
+      19.57413,
+      60.224247
+     ],
+     [
+      19.573993,
+      60.224211
+     ],
+     [
+      19.573875,
+      60.224167
+     ],
+     [
+      19.573778,
+      60.22413
+     ],
+     [
+      19.573669,
+      60.224072
+     ],
+     [
+      19.573576,
+      60.224009
+     ],
+     [
+      19.573326,
+      60.223808
+     ],
+     [
+      19.573036,
+      60.223567
+     ],
+     [
+      19.572794,
+      60.22336
+     ],
+     [
+      19.572571,
+      60.223184
+     ],
+     [
+      19.572251,
+      60.222932
+     ],
+     [
+      19.571982,
+      60.222724
+     ],
+     [
+      19.571771,
+      60.222564
+     ],
+     [
+      19.571597,
+      60.222446
+     ],
+     [
+      19.571344,
+      60.222304
+     ],
+     [
+      19.57106,
+      60.22215
+     ],
+     [
+      19.570865,
+      60.222042
+     ],
+     [
+      19.570706,
+      60.221941
+     ],
+     [
+      19.570519,
+      60.221739
+     ]
+    ],
+    [
+     [
+      19.570258,
+      60.221564
+     ],
+     [
+      19.569717,
+      60.221416
+     ],
+     [
+      19.569195,
+      60.221351
+     ],
+     [
+      19.56887,
+      60.221298
+     ],
+     [
+      19.567965,
+      60.221286
+     ],
+     [
+      19.567294,
+      60.221305
+     ],
+     [
+      19.566642,
+      60.221333
+     ],
+     [
+      19.566045,
+      60.221453
+     ],
+     [
+      19.565485,
+      60.221573
+     ]
+    ],
+    [
+     [
+      19.565095,
+      60.221712
+     ],
+     [
+      19.564666,
+      60.221879
+     ],
+     [
+      19.564601,
+      60.221901
+     ],
+     [
+      19.564219,
+      60.222036
+     ],
+     [
+      19.563703,
+      60.222166
+     ],
+     [
+      19.563571,
+      60.222194
+     ],
+     [
+      19.563214,
+      60.22227
+     ],
+     [
+      19.563072,
+      60.222301
+     ],
+     [
+      19.562664,
+      60.222352
+     ],
+     [
+      19.561879,
+      60.222452
+     ],
+     [
+      19.56173,
+      60.222466
+     ],
+     [
+      19.561421,
+      60.222495
+     ]
+    ],
+    [
+     [
+      19.560497,
+      60.222781
+     ],
+     [
+      19.560484,
+      60.222974
+     ],
+     [
+      19.560426,
+      60.22307
+     ],
+     [
+      19.560264,
+      60.223073
+     ],
+     [
+      19.56,
+      60.223073
+     ],
+     [
+      19.559897,
+      60.223036
+     ],
+     [
+      19.559824,
+      60.222985
+     ],
+     [
+      19.559745,
+      60.222919
+     ]
+    ]
+   ],
+   "laterCanonicalRanges": [
+    [
+     0.04361,
+     0.366178
+    ],
+    [
+     0.387152,
+     0.625755
+    ],
+    [
+     0.648727,
+     0.842857
+    ],
+    [
+     0.894964,
+     0.963106
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/433455766",
+     "sourceVertexRange": [
+      0,
+      20
+     ],
+     "sourceVertexCount": 21,
+     "basis": "Den del av vägen som ligger på den gamla landsvägen genom Storby (sockenkartan 1929)."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/169259850",
+     "sourceVertexRange": [
+      0,
+      8
+     ],
+     "sourceVertexCount": 16,
+     "basis": "Den del av vägen som ligger på den gamla landsvägen genom Storby (sockenkartan 1929)."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/59428545",
+     "sourceVertexRange": [
+      3,
+      14
+     ],
+     "sourceVertexCount": 16,
+     "basis": "Den del av vägen som ligger på den gamla landsvägen genom Storby (sockenkartan 1929)."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1466505940",
+     "sourceVertexRange": [
+      1,
+      8
+     ],
+     "sourceVertexCount": 9,
+     "basis": "Den del av vägen som ligger på den gamla landsvägen genom Storby (sockenkartan 1929)."
+    }
+   ],
+   "trace": [
+    [
+     20476422.082035027,
+     6679195.609455209
+    ],
+    [
+     20476403.206810586,
+     6679139.364007649
+    ],
+    [
+     20476352.297399376,
+     6679059.220344214
+    ],
+    [
+     20476291.378039595,
+     6678989.202275124
+    ],
+    [
+     20476240.600885056,
+     6678929.177324792
+    ],
+    [
+     20476205.003974207,
+     6678879.112374318
+    ],
+    [
+     20476179.61539694,
+     6678849.099899151
+    ],
+    [
+     20476118.993614674,
+     6678824.348934544
+    ],
+    [
+     20476048.36188384,
+     6678809.723564283
+    ],
+    [
+     20475977.829345513,
+     6678810.187228849
+    ],
+    [
+     20475917.505140763,
+     6678830.703368723
+    ],
+    [
+     20475847.217277277,
+     6678868.386652529
+    ],
+    [
+     20475776.949252296,
+     6678909.087743301
+    ],
+    [
+     20475706.701065816,
+     6678952.8066410385
+    ],
+    [
+     20475636.399976667,
+     6678988.478053534
+    ],
+    [
+     20475572.377527915,
+     6679023.637242291
+    ]
+   ],
+   "sameRoadMeters": 20,
+   "basis": "Den gamla landsvägen genom Storby by: från dagens väg söderut till Kars och sedan västerut genom byn (Hinders) tillbaka till dagens väg. Sockenkartorna 1929 (Eckerö och Mörby) och utgåvan 1946 ritar den, och grundkartorna 1968 ritar den som huvudväg.",
+   "traceBasis": "Mittlinjen är avläst för hand på sockenkartorna 1929 (Eckerö och Mörby sammanfogade, rutnät 50 m) där inget finns kvar, och följer OpenStreetMap där vägen finns kvar (inom 20 m). Ändarna är fästa vid förbindelsens delar från 1929.",
+   "laterBasis": "Efter förbifarten (grundkartan 1978) visas bara de delar som finns kvar i dag som vägar i byn, med samma koordinater."
+  }
+ ],
+ "method": "Storby by på sockenkartorna 1012 03 Eckerö 1929 och 1021 01 Mörby 1929 (sammanfogade, rutnät 50 m), utgåvan 1946 (Bovik), grundkartorna 1968–1993 (blad 101203, 102101) och OpenStreetMap 2026 (renders/storby-*)."
+}

@@ -43,8 +43,17 @@ class HammarlandsvagenOverbyTests(unittest.TestCase):
         key = lambda c: {x['id']: x for x in c['objects']}
         # the atlas review links the old road too, in a later pass of the build
         atlas = lambda o: {**o, 'evidence': [e for e in o['evidence'] if not e['id'].endswith(ATLAS)]}
+        # The Storby review (a later step) splits the connection's 1959–1985 period again; leave that out.
+        def without_storby(o):
+            if o['id'] != M: return o
+            o = copy.deepcopy(o); o.pop('bypassReviews', None)
+            dropped = {e['id'] for e in o['evidence'] if e.get('reviewId') == 'review:hammarlandsvagen-storby'}
+            o['evidence'] = [e for e in o['evidence'] if e['id'] not in dropped]
+            ps = o['geometryPeriods']; k = next(i for i, p in enumerate(ps) if p['geometryId'] == 'geometry:hammarlandsvagen-storby:without-bypass')
+            ps[k + 1]['from'] = ps[k]['from']; ps[k + 1]['evidenceIds'] = [i for i in ps[k + 1]['evidenceIds'] if i not in dropped]; del ps[k]
+            return o
         for i in (M, OLD):
-            self.assertEqual(atlas(key(catalog)[i]), atlas(key(self.built)[i]))
+            self.assertEqual(atlas(key(catalog)[i]), atlas(without_storby(key(self.built)[i])))
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in (M, OLD)], [o for o in self.pristine['objects'] if o['id'] != M])
         self.assertEqual(len(catalog['geometries']) - len(self.pristine['geometries']), 3)
         before, after = key(self.pristine)[M], key(catalog)[M]

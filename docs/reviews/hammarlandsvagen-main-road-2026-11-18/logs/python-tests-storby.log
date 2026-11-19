@@ -1,0 +1,143 @@
+test_bypass_checks (tests.test_hammarlandsvagen_storby.StorbyTests.test_bypass_checks) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_storby.StorbyTests.test_review_applies_once_and_matches_the_build) ... ok
+test_the_old_road_is_checked_before_the_split_is_kept (tests.test_hammarlandsvagen_storby.StorbyTests.test_the_old_road_is_checked_before_the_split_is_kept) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_kyrkoby.KyrkobyTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_kyrkoby.KyrkobyTests.test_review_applies_once_and_matches_the_build) ... ok
+test_an_owned_source_cannot_be_owned_again (tests.test_hammarlandsvagen_holmberg.HolmbergTests.test_an_owned_source_cannot_be_owned_again) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_holmberg.HolmbergTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_holmberg.HolmbergTests.test_review_applies_once_and_matches_the_build) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_ferry_west.MarbyTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_ferry_west.MarbyTests.test_review_applies_once_and_matches_the_build) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_ferry_west.ShoreTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_ferry_west.ShoreTests.test_review_applies_once_and_matches_the_build) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_frebbenby.HammarlandsvagenFrebbenbyTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_frebbenby.HammarlandsvagenFrebbenbyTests.test_review_applies_once_and_matches_the_build) ... ok
+test_bypass_checks (tests.test_hammarlandsvagen_overby.HammarlandsvagenOverbyTests.test_bypass_checks) ... ok
+test_old_road_checks (tests.test_hammarlandsvagen_overby.HammarlandsvagenOverbyTests.test_old_road_checks) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_overby.HammarlandsvagenOverbyTests.test_review_applies_once_and_matches_the_build) ... FAIL
+test_changed_cuts_are_rejected_before_any_change (tests.test_hammarlandsvagen_marsund.HammarlandsvagenMarsundTests.test_changed_cuts_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_marsund.HammarlandsvagenMarsundTests.test_review_applies_once_and_matches_the_build) ... FAIL
+test_late_link_needs_its_object (tests.test_hammarlandsvagen_atlas.HammarlandsvagenAtlasTests.test_late_link_needs_its_object) ... ok
+test_late_links_are_marked_and_split_between_passes (tests.test_hammarlandsvagen_atlas.HammarlandsvagenAtlasTests.test_late_links_are_marked_and_split_between_passes) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_main_road.HammarlandsvagenMainRoadTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_existing_periods_are_kept_and_only_preceded (tests.test_hammarlandsvagen_main_road.HammarlandsvagenMainRoadTests.test_existing_periods_are_kept_and_only_preceded) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_main_road.HammarlandsvagenMainRoadTests.test_review_applies_once_and_matches_the_build) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_south.HammarlandsvagenSouthTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_south.HammarlandsvagenSouthTests.test_review_applies_once_and_matches_the_build) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_nafsby.HammarlandsvagenNafsbyTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_old_line_and_route_checks (tests.test_hammarlandsvagen_nafsby.HammarlandsvagenNafsbyTests.test_old_line_and_route_checks) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_nafsby.HammarlandsvagenNafsbyTests.test_review_applies_once_and_matches_the_build) ... ok
+test_changed_inputs_are_rejected_before_any_change (tests.test_hammarlandsvagen_kattby.HammarlandsvagenKattbyTests.test_changed_inputs_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_kattby.HammarlandsvagenKattbyTests.test_review_applies_once_and_matches_the_build) ... ok
+test_actual_sources_keep_all_original_coordinates (tests.test_regional_road_review.RegionalRoadReviewTests.test_actual_sources_keep_all_original_coordinates) ... ok
+test_context_never_dates_or_owns_a_road (tests.test_regional_road_review.RegionalRoadReviewTests.test_context_never_dates_or_owns_a_road) ... ok
+test_missing_and_changed_sources_fail_closed (tests.test_regional_road_review.RegionalRoadReviewTests.test_missing_and_changed_sources_fail_closed) ... ok
+test_changed_inputs_fail_without_mutating_catalogue (tests.test_atlas_road_continuity.AtlasContinuityTests.test_changed_inputs_fail_without_mutating_catalogue) ... ok
+test_extension_keeps_later_phases_ownership_and_original_evidence (tests.test_atlas_road_continuity.AtlasContinuityTests.test_extension_keeps_later_phases_ownership_and_original_evidence) ... ok
+test_modern_identity_cannot_be_claimed_by_two_roads (tests.test_atlas_road_continuity.AtlasContinuityTests.test_modern_identity_cannot_be_claimed_by_two_roads) ... ok
+test_all_corridors_reviewed_and_no_objects_or_geometries_created (tests.test_atlas_road_dating.AtlasDatingTests.test_all_corridors_reviewed_and_no_objects_or_geometries_created) ... ok
+test_changed_source_decision_geometry_or_output_is_rejected (tests.test_atlas_road_dating.AtlasDatingTests.test_changed_source_decision_geometry_or_output_is_rejected) ... ok
+test_dates_extend_only_earliest_phase_and_preserve_later_changes (tests.test_atlas_road_dating.AtlasDatingTests.test_dates_extend_only_earliest_phase_and_preserve_later_changes) ... ok
+test_later_crossings_and_reroutings_not_backdated (tests.test_atlas_road_dating.AtlasDatingTests.test_later_crossings_and_reroutings_not_backdated) ... ok
+test_missing_corridor_or_unreviewed_target_rejected (tests.test_atlas_road_dating.AtlasDatingTests.test_missing_corridor_or_unreviewed_target_rejected) ... ok
+test_replay_and_detachment_are_exact_and_non_mutating (tests.test_atlas_road_dating.AtlasDatingTests.test_replay_and_detachment_are_exact_and_non_mutating) ... ok
+test_changed_reference_and_conflicting_owner_fail_closed (tests.test_marsund_road_continuity.MarsundReviewTests.test_changed_reference_and_conflicting_owner_fail_closed) ... ok
+test_changed_snapshot_interval_cannot_claim_unrelated_road (tests.test_marsund_road_continuity.MarsundReviewTests.test_changed_snapshot_interval_cannot_claim_unrelated_road) ... ok
+test_existing_review_is_not_silently_overwritten (tests.test_marsund_road_continuity.MarsundReviewTests.test_existing_review_is_not_silently_overwritten) ... ok
+test_opening_and_approximation_are_separate_and_compilation_is_idempotent (tests.test_marsund_road_continuity.MarsundReviewTests.test_opening_and_approximation_are_separate_and_compilation_is_idempotent) ... ok
+test_changed_inputs_and_changed_applied_output_are_rejected (tests.test_road_date_assumptions.RoadDateAssumptionTests.test_changed_inputs_and_changed_applied_output_are_rejected) ... ok
+test_date_extension_keeps_identity_sources_and_full_extent (tests.test_road_date_assumptions.RoadDateAssumptionTests.test_date_extension_keeps_identity_sources_and_full_extent) ... ok
+test_incremental_evidence_order_matches_full_compilation (tests.test_road_date_assumptions.RoadDateAssumptionTests.test_incremental_evidence_order_matches_full_compilation) ... ok
+test_unrelated_geometry_is_rejected (tests.test_road_date_assumptions.RoadDateAssumptionTests.test_unrelated_geometry_is_rejected) ... ok
+test_100km_eckero_tjudo_stable_dates_identity_and_bounded_aliases (tests.test_qgis_road_reconciliation.ReconciliationTests.test_100km_eckero_tjudo_stable_dates_identity_and_bounded_aliases) ... ok
+test_100km_morby_geta_dates_connections_and_aliases (tests.test_qgis_road_reconciliation.ReconciliationTests.test_100km_morby_geta_dates_connections_and_aliases) ... ok
+test_applied_record_cannot_be_silently_edited (tests.test_qgis_road_reconciliation.ReconciliationTests.test_applied_record_cannot_be_silently_edited) ... ok
+test_batch4_preserves_partial_roads_and_separate_cycleways (tests.test_qgis_road_reconciliation.ReconciliationTests.test_batch4_preserves_partial_roads_and_separate_cycleways) ... ok
+test_batch5_jomala_keeps_dates_aliases_and_excluded_connections (tests.test_qgis_road_reconciliation.ReconciliationTests.test_batch5_jomala_keeps_dates_aliases_and_excluded_connections) ... ok
+test_changed_branch_endpoint_requires_a_dated_real_neighbour (tests.test_qgis_road_reconciliation.ReconciliationTests.test_changed_branch_endpoint_requires_a_dated_real_neighbour) ... ok
+test_changed_source_and_observation_are_rejected (tests.test_qgis_road_reconciliation.ReconciliationTests.test_changed_source_and_observation_are_rejected) ... ok
+test_disconnected_identity_and_missing_reference_ownership_are_rejected (tests.test_qgis_road_reconciliation.ReconciliationTests.test_disconnected_identity_and_missing_reference_ownership_are_rejected) ... ok
+test_endpoint_connection_checks_neighbour_changes_inside_the_period (tests.test_qgis_road_reconciliation.ReconciliationTests.test_endpoint_connection_checks_neighbour_changes_inside_the_period) ... ok
+test_first_snapshot_must_cover_the_whole_road (tests.test_qgis_road_reconciliation.ReconciliationTests.test_first_snapshot_must_cover_the_whole_road) ... ok
+test_foglo_vardo_batch_keeps_crossings_bounded_and_cross_sheet_identity (tests.test_qgis_road_reconciliation.ReconciliationTests.test_foglo_vardo_batch_keeps_crossings_bounded_and_cross_sheet_identity) ... ok
+test_geometry_history_cannot_have_gaps_or_unreviewed_changes (tests.test_qgis_road_reconciliation.ReconciliationTests.test_geometry_history_cannot_have_gaps_or_unreviewed_changes) ... ok
+test_geometry_revisions_keep_identity_evidence_and_dated_joins (tests.test_qgis_road_reconciliation.ReconciliationTests.test_geometry_revisions_keep_identity_evidence_and_dated_joins) ... ok
+test_gottby_bomarsund_batch_preserves_bounded_evidence_and_identity (tests.test_qgis_road_reconciliation.ReconciliationTests.test_gottby_bomarsund_batch_preserves_bounded_evidence_and_identity) ... ok
+test_hagavagen_keeps_unreviewed_modern_remainder (tests.test_qgis_road_reconciliation.ReconciliationTests.test_hagavagen_keeps_unreviewed_modern_remainder) ... ok
+test_island_infill_batch_preserves_unique_length_connections_and_parallel_paths (tests.test_qgis_road_reconciliation.ReconciliationTests.test_island_infill_batch_preserves_unique_length_connections_and_parallel_paths) ... ok
+test_kavelbro_network_is_connected_before_and_after_bypass (tests.test_qgis_road_reconciliation.ReconciliationTests.test_kavelbro_network_is_connected_before_and_after_bypass) ... ok
+test_lemland_lumparland_batch_preserves_geometry_dates_and_distinct_roads (tests.test_qgis_road_reconciliation.ReconciliationTests.test_lemland_lumparland_batch_preserves_geometry_dates_and_distinct_roads) ... ok
+test_ownership_conflict_is_rejected (tests.test_qgis_road_reconciliation.ReconciliationTests.test_ownership_conflict_is_rejected) ... ok
+test_published_revision_cannot_be_dropped_or_silently_changed (tests.test_qgis_road_reconciliation.ReconciliationTests.test_published_revision_cannot_be_dropped_or_silently_changed) ... ok
+test_realigned_roads_keep_identity_and_connected_historical_phases (tests.test_qgis_road_reconciliation.ReconciliationTests.test_realigned_roads_keep_identity_and_connected_historical_phases) ... ok
+test_replay_preserves_old_objects_and_joins_reviewed_sections (tests.test_qgis_road_reconciliation.ReconciliationTests.test_replay_preserves_old_objects_and_joins_reviewed_sections) ... ok
+test_replay_rejects_a_changed_historical_geometry (tests.test_qgis_road_reconciliation.ReconciliationTests.test_replay_rejects_a_changed_historical_geometry) ... ok
+test_review_cuts_keep_partial_coverage_and_reject_invalid_vertices (tests.test_qgis_road_reconciliation.ReconciliationTests.test_review_cuts_keep_partial_coverage_and_reject_invalid_vertices) ... ok
+test_revision_rejects_stale_predecessor_and_lost_connection (tests.test_qgis_road_reconciliation.ReconciliationTests.test_revision_rejects_stale_predecessor_and_lost_connection) ... ok
+test_revision_requires_first_evidence_and_full_later_corroboration (tests.test_qgis_road_reconciliation.ReconciliationTests.test_revision_requires_first_evidence_and_full_later_corroboration) ... ok
+test_six_sheet_batch_preserves_dates_unique_length_and_distinct_names (tests.test_qgis_road_reconciliation.ReconciliationTests.test_six_sheet_batch_preserves_dates_unique_length_and_distinct_names) ... ok
+test_sund_later_extensions_and_unreviewed_hult_shortcut_are_not_backdated (tests.test_qgis_road_reconciliation.ReconciliationTests.test_sund_later_extensions_and_unreviewed_hult_shortcut_are_not_backdated) ... ok
+test_svartsmara_later_crossing_and_junction_do_not_backdate_older_roads (tests.test_qgis_road_reconciliation.ReconciliationTests.test_svartsmara_later_crossing_and_junction_do_not_backdate_older_roads) ... ok
+test_unclear_early_observations_cannot_backdate (tests.test_qgis_road_reconciliation.ReconciliationTests.test_unclear_early_observations_cannot_backdate) ... ok
+test_mesh_raster_matches_the_existing_registration_in_all_eight_triangles (tests.test_qgis_road_reconciliation.SaltvikProjectTests.test_mesh_raster_matches_the_existing_registration_in_all_eight_triangles) ... /Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_reconciliation.py:423: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  rr,cc=np.mgrid[row:row+15,col:col+15];xy=[ds.transform*(float(c)+.5,float(r)+.5) for r,c in zip(rr.ravel(),cc.ravel())];pix=np.array([inverse(p) for p in xy]);sample=np.stack([map_coordinates(src[:,:,b].astype(float),[pix[:,1]-.5,pix[:,0]-.5],order=1) for b in range(3)])
+ok
+
+======================================================================
+FAIL: test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_overby.HammarlandsvagenOverbyTests.test_review_applies_once_and_matches_the_build)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_hammarlandsvagen_overby.py", line 47, in test_review_applies_once_and_matches_the_build
+    self.assertEqual(atlas(key(catalog)[i]), atlas(key(self.built)[i]))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'id'[3079 chars]agen-overby:marsund-without-bypass', 'from': 1[48866 chars]one}} != {'id'[3079 chars]agen-storby:without-bypass', 'from': 1959, 'to[51049 chars]ne}]}
+Diff is 84715 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_marsund.HammarlandsvagenMarsundTests.test_review_applies_once_and_matches_the_build)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_hammarlandsvagen_marsund.py", line 49, in test_review_applies_once_and_matches_the_build
+    self.assertEqual(key(catalog)[OID], built)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'id'[3039 chars]}, {'from': 1959, 'to': None, 'evidenceIds': [[46616 chars]nd'}} != {'id'[3039 chars]}, {'geometryId': 'geometry:hammarlandsvagen-o[48026 chars]ne}]}
+Diff is 80971 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 82 tests in 521.977s
+
+FAILED (failures=2)
+   rejected: Changed Hammarlandsvägen input road:rural:hammarland-way-545279820
+   rejected: Changed Hammarlandsvägen geometry road:rural:hammarland-way-1419026567
+   rejected: Changed Hammarlandsvägen geometry road:rural:hammarland-way-1419026568
+   rejected: Changed Hammarlandsvägen geometry road:rural:hammarland-vastmyra-old-school-approach
+   rejected: The early period must end where the object now begins: road:rural:hammarland-way-1419026567
+   rejected: Invalid gap before the object begins: road:rural:hammarland-way-1419026567
+   rejected: Invalid gap before the object begins: road:rural:hammarland-way-1419026567
+   rejected: Invalid gap before the object begins: road:rural:hammarland-way-1419026567
+   rejected: Invalid same-road ranges road:rural:hammarland-way-545279820
+   rejected: Duplicate old-road identity road:rural:hammarland-way-545279820
+   rejected: Old line does not end on today's road: road:hammarland:gamla-hammarlandsvagen:nafsby
+   rejected: Old line does not end on today's road: road:hammarland:gamla-hammarlandsvagen:nafsby
+   rejected: Old road dates do not follow its maps
+   rejected: The old-road route breaks between road:rural:hammarland-vastmyra-old-school-approach and road:hammarland:gamla-hammarlandsvagen:nafsby (437.8 m)
+   rejected: The old-road route does not list each dated piece once
+   rejected: The old-road route breaks between road:hammarland:gamla-hammarlandsvagen:nafsby and road:rural:hammarland-way-1419026568 (211.3 m)
+   rejected: The old-road route breaks between road:hammarland:gamla-hammarlandsvagen:nafsby and road:rural:hammarland-way-545279820 (25.0 m)
+   rejected: Changed Hammarlandsvägen input road:rural:hammarland-hammarlandsvagen-kattby-west
+   rejected: The early period must end where the object now begins: road:rural:hammarland-hammarlandsvagen-kattby-west
+   rejected: First year is not the first map marked present: road:rural:hammarland-hammarlandsvagen-kattby-west
+   rejected: Unexpected map sources
+   rejected: The old-road route breaks between road:rural:hammarland-hammarlandsvagen-postad-korsangen and road:rural:hammarland-hammarlandsvagen-kattby-west (361.6 m)
+
+=== rerun after the Marsund and Överby replay comparisons leave out the later Storby split ===
+test_changed_cuts_are_rejected_before_any_change (tests.test_hammarlandsvagen_marsund.HammarlandsvagenMarsundTests.test_changed_cuts_are_rejected_before_any_change) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_marsund.HammarlandsvagenMarsundTests.test_review_applies_once_and_matches_the_build) ... ok
+test_bypass_checks (tests.test_hammarlandsvagen_overby.HammarlandsvagenOverbyTests.test_bypass_checks) ... ok
+test_old_road_checks (tests.test_hammarlandsvagen_overby.HammarlandsvagenOverbyTests.test_old_road_checks) ... ok
+test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_overby.HammarlandsvagenOverbyTests.test_review_applies_once_and_matches_the_build) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 50.005s
+
+OK

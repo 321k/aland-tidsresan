@@ -57,6 +57,5 @@ In 1929–1958 the road from Kyrkoby to the edge of Storby is now one connected 
 
 ## Open items
 
-- Storby (from 10.23 km): the old road through the village. The main road is still there on the 1968 map, and the
-  bypass is first drawn in 1978, so the connection needs a bypass split as at Överby.
+- Storby (from 10.23 km): done, see `docs/hammarlandsvagen-storby.md`.
 - The small hooks of about 15 m where the traces join today's line.

@@ -36,8 +36,9 @@ Kattby review (`nls:map-39091228`, `nls:map-37971493`). Distances below are alon
 | **9.20–9.40 km**, Kristiansund | **the old road** (Mörby 1929, Bovik 1946) | **1929** |
 | 9.40–9.85 km, Bagars | the old road straight through the village (`docs/hammarlandsvagen-kyrkoby.md`) | the old road is its own object |
 | **9.85–10.23 km** | **the old road, within about 15 m** | **1929** |
-| 10.23–10.8 km | the old road turns into Storby village | 1959 (open item) |
-| 10.8–11.2 km, Storby | the old road runs through the village, south of today's road | 1959 |
+| 10.23–11.10 km, Storby | the old road through the village (`docs/hammarlandsvagen-storby.md`); today's line is a bypass, first drawn in 1978 | the old road is its own object |
+| **11.10 km to the end** | **the old road** | **1929** |
+
 
 The 1956 edition draws the two dated stretches the same way. In Överby it still draws the road through the village,
 so the bypass is later than 1956.

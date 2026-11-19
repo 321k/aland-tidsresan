@@ -1,0 +1,39 @@
+{
+ "comparedWith": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-storby.json.gz (the catalogue as deployed after the Kyrkoby batch) and data/map-scan-cache/review/hammarlandsvagen-main-road/storby-before/historical-roads.json",
+ "catalogue": {
+  "objectsAdded": [
+   "road:eckero:gamla-landsvagen:storby"
+  ],
+  "objectsRemoved": [],
+  "objectsChanged": {
+   "road:marsund:eckero-hammarland": [
+    "bypassReviews",
+    "evidence",
+    "geometryPeriods",
+    "hammarlandsvagenMainRoad",
+    "states"
+   ]
+  },
+  "geometriesAdded": [
+   "geometry:eckero:gamla-landsvagen:storby",
+   "geometry:eckero:gamla-landsvagen:storby:surviving",
+   "geometry:hammarlandsvagen-storby:without-bypass"
+  ],
+  "geometriesChanged": [
+   "geometry:hammarlandsvagen-marsund:eckero-hammarland"
+  ],
+  "geometriesRemoved": [],
+  "sourcesAdded": [
+   "road:eckero:gamla-landsvagen-storby:survey",
+   "review:hammarlandsvagen-storby"
+  ],
+  "otherKeysChanged": []
+ },
+ "historicalRoads": {
+  "atlas-1894/atlas-1894-1": {
+   "intervalsAdded": 15,
+   "intervalsRemoved": 0,
+   "otherFields": []
+  }
+ }
+}

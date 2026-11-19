@@ -41,10 +41,13 @@ class HammarlandsvagenMarsundTests(unittest.TestCase):
         catalog = json.loads(json.dumps(self.apply(), ensure_ascii=False))
         key = lambda c: {x['id']: x for x in c['objects']}
         # The Överby review (a later step) splits this object's 1959 period and adds its own evidence; leave that out.
-        built = copy.deepcopy(key(self.built)[OID]); built.pop('overbyBypass')
-        built['evidence'] = [e for e in built['evidence'] if e.get('reviewId') != 'review:hammarlandsvagen-overby']
-        split, whole = built['geometryPeriods'][1], built['geometryPeriods'][2]
-        whole['from'] = split['from']; whole['evidenceIds'] = [i for i in whole['evidenceIds'] if ':overby-map-' not in i]
+        # Later reviews (Överby, Storby) split this object's 1959 period and add evidence; leave that out.
+        later = {'review:hammarlandsvagen-overby', 'review:hammarlandsvagen-storby'}
+        built = copy.deepcopy(key(self.built)[OID]); built.pop('overbyBypass'); built.pop('bypassReviews', None)
+        dropped = {e['id'] for e in built['evidence'] if e.get('reviewId') in later}
+        built['evidence'] = [e for e in built['evidence'] if e['id'] not in dropped]
+        whole = built['geometryPeriods'][-1]
+        whole['from'] = 1959; whole['evidenceIds'] = [i for i in whole['evidenceIds'] if i not in dropped]
         built['geometryPeriods'] = [built['geometryPeriods'][0], whole]
         self.assertEqual(key(catalog)[OID], built)
         self.assertEqual([o for o in catalog['objects'] if o['id'] != OID], [o for o in self.pristine['objects'] if o['id'] != OID])
