@@ -29,7 +29,8 @@ Kattby review (`nls:map-39091228`, `nls:map-37971493`). Distances below are alon
 | 3.0–4.4 km, Öra and the sound | 1929: no road. 1956: the new road is drawn, three years before the bridge opened, so the edition was updated | 1959 |
 | 4.4–5.7 km, Marby | no road on today's line; the old road ran further south, past Sundkvist | 1959 |
 | **5.70–6.04 km** | **the old road, within about 10 m (15 m at 5.7 km)** | **1929** |
-| 6.04–7.08 km, Överby | the old road went north through the village, 40–80 m from today's road. Part of it is today's Gamla Landsvägen (OSM way 641674806), which is not in the catalogue | 1959 |
+| 6.04–6.30 km, 6.43–7.08 km, Överby | the old road went in two loops north through the village; today's road is a bypass, first drawn as a road on the 1985 base map | the old road is its own object; see `docs/hammarlandsvagen-overby.md` |
+| **6.30–6.43 km**, mid-Överby | **the old road, within 2–15 m** (added with the Överby review) | **1929** |
 | **7.08–8.22 km**, Överby–Kyrkoby | **the old road, within 8–12 m** | **1929** |
 | 8.22–8.4 km | the old road bends about 50 m east around a hill | 1959 |
 | 8.4–9.0 km | the old road ("från Storby") goes off to the north-west | 1959 |
@@ -41,9 +42,9 @@ so the bypass is later than 1956.
 
 ## Result
 
-The object gets an earlier open state and geometry period from 1929 until 1959. The period draws only the two
-stretches: four cuts of the object's own paths (4, 3, 3, 2), with the same coordinates. The 1959 assumption and
-everything after it are unchanged.
+The object gets an earlier open state and geometry period from 1929 until 1959. The period draws only the three
+stretches: five cuts of the object's own paths (4, 3, 3, 3, 2), with the same coordinates. The 1959 assumption is
+unchanged, except in Överby: the Överby review (`docs/hammarlandsvagen-overby.md`) leaves the bypass out until 1985.
 
 ## Change to the build step
 
@@ -59,8 +60,8 @@ the atlas review already names the object, and `scripts/build_historical_roads.p
 
 ## Open items
 
-- Överby village (6.04–7.08 km): the old road through the village, partly today's Gamla Landsvägen, needs its own
-  object. Then the road from Marby to Kyrkoby is connected in 1929–1958.
+- Överby village: done, see `docs/hammarlandsvagen-overby.md`. The road from Marby to Kyrkoby is connected in
+  1929–1985.
 - Frebbenby–Marsund: the old road to the ferry along today's Marsundsvägen, and the ferry itself.
 - Marby east of 5.7 km (past Sundkvist), north of Kyrkoby (8.2–9.0 km) and Storby (10.8 km on): the old road is a
   separate line beside today's road.

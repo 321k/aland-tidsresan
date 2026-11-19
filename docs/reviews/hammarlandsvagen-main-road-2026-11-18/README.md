@@ -217,3 +217,49 @@ Method and decisions: `docs/hammarlandsvagen-marsund.md`.
   - All 603 JS tests pass (`logs/js-tests-marsund.log`).
   - The Marsund, atlas, Hammarlandsvägen (all four), regional review, atlas continuity and dating, Marsund continuity
     and road date assumption Python tests pass, 34 tests (`logs/python-tests-marsund.log`).
+
+## The old road through Överby (seventh batch, 2026-11-19)
+
+Method and decisions: `docs/hammarlandsvagen-overby.md`.
+- **New object:** "Gamla landsvägen · Överby", open from 1929.
+  - 1929–1985, the main road: its two loops north of today's road.
+  - From 1985: the parts that survive as Brinkbacken and Gamla Landsvägen, which it owns in OSM.
+- **Marsund connection:**
+  - its 1929 period gains 6.30–6.43 km (`prepare_marsund.py`)
+  - its 1959 period is split: until 1985 it leaves out the Överby bypass, which is first drawn as a road on the 1985
+    base map (1978: an uncased overprint)
+- **Evidence:** `renders/overby-*.jpg` and `result-overby-1950-1975-1990.jpg`; `data/trace-overby-1929.json`.
+- **Scripts:** `grid_window.py`, `overby_trace.py`, `overby_base_maps.py`, `overby_loops.py`, `prepare_overby.py`.
+- **Snapshots:**
+  - `before-overby.json.gz`: the catalogue as deployed after the Marsund batch
+  - `before-overby-step.json.gz`: the catalogue built with this step disabled; the review data is written from it,
+    and the Python test replays the step on it
+  - `overby-before/`: the patched files before this batch
+- **Scope:** `scope-audit-overby.json`:
+  - added: 1 object, 3 geometries and 2 sources (the review and the OSM survey)
+  - changed: the Marsund object and its 1929 cut geometry
+  - 19 replacement intervals added on `atlas-1894-1`, none removed
+  - nothing else changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-overby.test.cjs` and `tests/test_hammarlandsvagen_overby.py`. Each rejection is
+    checked for its stated reason. One of them found a missing check, now fixed: a map marked absent before 1985 was
+    not rejected.
+  - updated:
+    - `tests/hammarlandsvagen-marsund.test.cjs`, `tests/test_hammarlandsvagen_marsund.py`: three stretches, and the
+      whole line from 1985
+    - `tests/marsund-road-continuity.test.cjs`: the bypass-free geometry in 1959–1984
+    - `tests/temporal-objects.test.cjs`: counts the new object
+    - `tests/test_hammarlandsvagen_atlas.py`: its snapshot predates the Överby link, so that link is left out of its
+      replay
+- **`batch-overby.patch`:**
+  - `scripts/build_temporal_objects.py`: the hook and the asset copy
+  - `data/regional-road-review.json`: the atlas link
+  - `dist/assets/historical-roads.json`
+  - `dist/index.html`: the card "Gamla landsvägen genom Överby" and the preview
+  - `tests/marsund-road-continuity.test.cjs` and `tests/temporal-objects.test.cjs`
+
+  See `patch-verification-overby.log`.
+- **Runs:**
+  - All 606 JS tests pass (`logs/js-tests-overby.log`).
+  - The Överby, Marsund, atlas, Hammarlandsvägen (all four), regional review, atlas continuity and dating, Marsund
+    continuity and road date assumption Python tests pass, 37 tests (`logs/python-tests-overby.log`).

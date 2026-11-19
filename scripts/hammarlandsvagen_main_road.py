@@ -284,3 +284,153 @@ def _apply(read, catalog, path_):
             evidence=ev, sourceLinks=[],
             hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], oldRoad=True, referenceRange=od['referenceRange'], endSnapMeters=od['endSnapMeters'], constructionYear=None)))
     catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])
+
+
+def apply_hammarlandsvagen_overby(read, catalog):
+    """The old road through Överby (docs/hammarlandsvagen-overby.md). The 1929 parish map and the base maps 1968 and
+    1978 draw the main road north through the village; today's bypass is first a road on the 1985 base map (1978: an
+    uncased overprint). Two changes, both checked before either is made:
+    - 'bypass': the Marsund connection's period from 1959 is split. Until the first map that draws the bypass, it
+      leaves out the bypass pieces of one of its paths (cuts of the same coordinates); from then on, as before.
+    - 'oldRoad': a new object for the two loops of the old road, the main road until the bypass, with its own trace
+      where nothing survives and the OSM coordinates of Gamla Landsvägen and Brinkbacken where they do. After the
+      bypass it is only those surviving parts, the same coordinates, and owns them in OSM (partial source links)."""
+    review = read('data/hammarlandsvagen-overby.json')
+    objects = {o['id']: o for o in catalog['objects']}; geometries = {g['id']: g for g in catalog['geometries']}
+    sources = {s['id'] for s in catalog['sources']}; src = review['source']['id']
+    if review['schemaVersion'] != 1 or src in sources:
+        raise ValueError('Överby review already applied')
+    labels = review['maps']
+    if any(l['sourceId'] not in sources for l in labels.values()) or any(x['id'] in sources for x in review['sources']) \
+            or review['oldRoad']['surveySourceId'] not in {x['id'] for x in review['sources']}:
+        raise ValueError('Unexpected map sources')
+    year = lambda k: labels[k]['year']
+
+    def follows(maps_, first, until, what):
+        if not set(maps_) <= set(labels):
+            raise ValueError('Unknown map in ' + what)
+        present = [year(k) for k, v in maps_.items() if v == 'present']
+        absent = [year(k) for k, v in maps_.items() if v == 'absent']
+        return present, absent
+
+    # The bypass split.
+    bp = review['bypass']; m = objects.get(bp['objectId'])
+    if not m or fingerprint(m) != bp['inputHash']:
+        raise ValueError('Changed Marsund input ' + bp['objectId'])
+    g = geometries.get(bp['geometryId']); period = next((gp for gp in m['geometryPeriods'] if gp['from'] == bp['from']), None)
+    if not g or digest(g) != bp['geometryHash'] or not period or period['geometryId'] != g['id'] or period['to'] is not None:
+        raise ValueError('Changed Marsund geometry ' + bp['objectId'])
+    present, absent = follows(bp['maps'], bp['from'], bp['until'], 'bypass')
+    if not present or min(present) != bp['until'] or not absent or not all(bp['from'] <= y < bp['until'] for y in absent) \
+            or any(v == 'unclear' and not bp['from'] <= year(k) < bp['until'] for k, v in bp['maps'].items()) or not review['bypassBasis']:
+        raise ValueError('Bypass dates do not follow its maps')
+    order = bp['pathOrder']; pi = bp['pathIndex']
+    if sorted(order) != list(range(len(g['paths']))) or pi not in order:
+        raise ValueError('Invalid path order ' + bp['objectId'])
+    lines = {i: metric(g['paths'][i]) for i in order}; line = lines[pi]
+    if abs(line.length - bp['pathLength']) > 0.05:
+        raise ValueError('Changed Marsund path length')
+    keep = bp['keep']
+    if keep[0][0] != 0 or abs(keep[-1][1] - line.length) > 0.1 or any(b <= a for a, b in keep) or any(x[1] + 50 > y[0] for x, y in zip(keep, keep[1:])):
+        raise ValueError('Invalid kept ranges of the Marsund path')
+    split_paths = []
+    for i, p in enumerate(g['paths']):
+        split_paths += [cut(p, line, a, b) for a, b in keep] if i == pi else [deepcopy(p)]
+    offset, at = {}, 0.0
+    for i in order:
+        offset[i] = at; at += lines[i].length
+    removed = [[offset[pi] + x[1], offset[pi] + y[0]] for x, y in zip(keep, keep[1:])]
+    canon, start = [], 0.0
+    for a, b in removed:
+        canon.append([round(start / at, 6), round(a / at, 6)]); start = b
+    canon.append([round(start / at, 6), 1])
+
+    # The old road.
+    od = review['oldRoad']
+    if od['id'] in objects:
+        raise ValueError('Duplicate old-road identity ' + od['id'])
+    present, absent = follows(od['maps'], od['firstYear'], od['mainUntil'], 'old road')
+    if not present or min(present) != od['firstYear'] or od['mainUntil'] != bp['until'] or absent:      # open from its first map to today
+        raise ValueError('Old road dates do not follow its maps')
+    early = m['geometryPeriods'][0]
+    if early['from'] != od['firstYear'] or early['to'] != bp['from']:
+        raise ValueError('The Marsund connection has no early period from ' + str(od['firstYear']))
+    olds = [metric(p) for p in od['paths']]
+    if abs(sum(l.length for l in olds) - od['lengthMeters']) > 0.5:
+        raise ValueError('Changed old line ' + od['id'])
+    ends = lambda paths: [Point(metric(p).coords[i]) for p in paths for i in (0, -1)]
+    for name, paths in (('the 1929 stretches', geometries[early['geometryId']]['paths']), ('the connection without the bypass', split_paths)):
+        targets = ends(paths)
+        if any(min(t.distance(e) for t in targets) > END_LIMIT for e in ends(od['paths'])):
+            raise ValueError(f'Old road does not join {name}: ' + od['id'])
+    trace = LineString(od['trace'])
+    modern = {f['id']: f for f in read('dist/assets/modern.json.gz')['features']}
+    if len(od['laterPaths']) != len(od['sourceLinks']):
+        raise ValueError('Each surviving part needs one source link')
+    for later, link in zip(od['laterPaths'], od['sourceLinks']):
+        f = modern.get(link['featureId']); a, b = link['sourceVertexRange']
+        if not f or link['datasetId'] != 'osm-2026' or len(f['paths']) != 1 or link['sourceVertexCount'] != len(f['paths'][0]) \
+                or not (type(a) is int and type(b) is int and 0 <= a < b < len(f['paths'][0])):
+            raise ValueError('Invalid surviving part ' + link['featureId'])
+        run = f['paths'][0][a:b + 1]
+        if later not in (run, run[::-1]):
+            raise ValueError('A surviving part is not its OSM way: ' + link['featureId'])
+        if not any(later == p[k:k + len(later)] for p in od['paths'] for k in range(len(p) - len(later) + 1)):
+            raise ValueError('A surviving part moves at the bypass: ' + link['featureId'])
+        if max(trace.distance(Point(q)) for q in metric(later).coords) > od['sameRoadMeters']:
+            raise ValueError('A surviving part is not on the 1929 road: ' + link['featureId'])
+    for o in catalog['objects']:
+        if o['kind'] != 'roadSegment' or o['id'] == m['id']: continue
+        for gp in o['geometryPeriods']:
+            if gp['from'] < od['mainUntil'] and od['firstYear'] < (gp['to'] or 9999):
+                for p in geometries[gp['geometryId']]['paths']:
+                    for old in olds:
+                        hit = metric(p).intersection(old.buffer(OVERLAP_BUFFER)) if len(p) > 1 else None
+                        if hit is not None and max([h.length for h in getattr(hit, 'geoms', [hit])] + [0]) > OVERLAP_LIMIT:
+                            raise ValueError('Old line runs along ' + o['id'])
+    for p in geometries[early['geometryId']]['paths'] + split_paths:
+        for old in olds:
+            hit = metric(p).intersection(old.buffer(OVERLAP_BUFFER))
+            if max([h.length for h in getattr(hit, 'geoms', [hit])] + [0]) > OVERLAP_LIMIT:
+                raise ValueError('Old line runs along the Marsund connection')
+
+    # All checks passed. Change the catalogue.
+    catalog['sources'] += [deepcopy(x) for x in review['sources']] + [deepcopy(review['source'])]
+
+    def evidence(oid, maps_, gid, note):
+        ev = []
+        for k in sorted(maps_, key=lambda k: (year(k), k)):
+            outcome = maps_[k]; y = year(k)
+            e = dict(id=f'{oid}:overby-map-{k}', sourceId=labels[k]['sourceId'], describes={'from': y, 'to': y + 1}, observationType='printed-map-review',
+                     interpretation=True, outcome=outcome, supports=['geometry', 'identity', 'state'] if outcome == 'present' else ['state'], constructionYear=None, reviewId=src, note=note)
+            if outcome == 'present' and gid:
+                e.update(matchedGeometryId=gid)
+            ev.append(e)
+        return ev
+
+    gid = review['geometryPrefix'] + 'marsund-without-bypass'
+    catalog['geometries'].append(dict(id=gid, representation='centerline', paths=split_paths, sourceIds=deepcopy(g['sourceIds']), note=review['bypassGeometryNote']))
+    ev = evidence(m['id'], bp['maps'], None, review['bypassBasis'])
+    m['evidence'] += ev
+    refs = [x['id'] for x in ev if x['outcome'] == 'absent']
+    period['from'] = bp['until']
+    period['evidenceIds'] = list(period.get('evidenceIds', [])) + [x['id'] for x in ev if x['outcome'] == 'present']
+    k = m['geometryPeriods'].index(period)
+    m['geometryPeriods'].insert(k, dict(geometryId=gid, **{'from': bp['from'], 'to': bp['until']}, certainty='inferred', evidenceIds=refs,
+                                        basis=review['bypassBasis'], coverage='partial', canonicalRanges=canon))
+    m['overbyBypass'] = dict(review=src, reviewedAt=review['reviewedAt'], firstMapYear=bp['until'], previousFrom=bp['from'], pathIndex=pi, keep=keep, constructionYear=None)
+
+    oid = od['id']; g1, g2 = 'geometry:' + oid.split(':', 1)[1], 'geometry:' + oid.split(':', 1)[1] + ':surviving'
+    catalog['geometries'].append(dict(id=g1, representation='centerline', paths=deepcopy(od['paths']), sourceIds=[labels['1929-eckero']['sourceId']], note=od['traceBasis']))
+    catalog['geometries'].append(dict(id=g2, representation='centerline', paths=deepcopy(od['laterPaths']), sourceIds=[od['surveySourceId']], note=od['laterBasis']))
+    ev = evidence(oid, od['maps'], g1, od['basis'])
+    main = [x['id'] for x in ev if x['outcome'] == 'present' and x['describes']['from'] < od['mainUntil']]
+    after = [x['id'] for x in ev if x['describes']['from'] >= od['mainUntil']]
+    catalog['objects'].append(dict(
+        id=oid, name=od['name'], kind='roadSegment', independentRoad=True, ruralRoad=True, modernRoadClass=od['modernRoadClass'], roadWidth=od['roadWidth'], routeId=od['routeId'],
+        states=[dict(state='open', **{'from': od['firstYear'], 'to': None}, certainty='inferred', evidenceIds=main, note=od['basis'])],
+        geometryPeriods=[dict(geometryId=g1, **{'from': od['firstYear'], 'to': od['mainUntil']}, certainty='inferred', evidenceIds=main, coverage='full', canonicalRange=[0, 1], basis=od['traceBasis']),
+                         dict(geometryId=g2, **{'from': od['mainUntil'], 'to': None}, certainty='inferred', evidenceIds=after, coverage='partial', canonicalRanges=od['laterCanonicalRanges'], basis=od['laterBasis'])],
+        evidence=ev, sourceLinks=deepcopy(od['sourceLinks']),
+        hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], oldRoad=True, review=src, mainRoadUntil=od['mainUntil'], constructionYear=None)))
+    catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])

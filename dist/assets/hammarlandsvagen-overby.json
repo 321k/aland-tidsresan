@@ -1,0 +1,609 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "source": {
+  "id": "review:hammarlandsvagen-overby",
+  "title": "Gamla landsvägen genom Överby · granskning",
+  "url": "assets/hammarlandsvagen-overby.json"
+ },
+ "sources": [
+  {
+   "id": "road:eckero:gamla-landsvagen-overby:survey",
+   "title": "OpenStreetMap · Gamla Landsvägen och Brinkbacken i Överby",
+   "url": "https://www.openstreetmap.org/way/641674806",
+   "issuedAt": "2026"
+  }
+ ],
+ "maps": {
+  "1929-eckero": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1956-eckero": {
+   "sourceId": "nls:map-37971493",
+   "year": 1956
+  },
+  "1968": {
+   "sourceId": "nls:101203:1968",
+   "year": 1968
+  },
+  "1978": {
+   "sourceId": "nls:101203:1978",
+   "year": 1978
+  },
+  "1985": {
+   "sourceId": "nls:101203:1985",
+   "year": 1985
+  }
+ },
+ "geometryPrefix": "geometry:hammarlandsvagen-overby:",
+ "method": "Den gamla landsvägen genom Överby avläst för hand på sockenkartan 1929 för Eckerö (rutnät 50 m, renders/overby-grid-1929.jpg; data/trace-overby-1929.json) och jämförd med utgåvan 1956, grundkartorna 1968, 1978 och 1985 (blad 101203) och OpenStreetMap 2026 (renders/overby-*).",
+ "bypass": {
+  "objectId": "road:marsund:eckero-hammarland",
+  "inputHash": "30d798a691d771346d4eb0424e8987ae327d6ded570456b3594163ebcfaa613c",
+  "geometryId": "geometry:01d9f4aa521eeba8e620",
+  "geometryHash": "fc9a27a99a78cba0f6f1cfe9acc28b713d07ec8baa43079fbf6bcd1421858204",
+  "from": 1959,
+  "until": 1985,
+  "pathOrder": [
+   18,
+   17,
+   16,
+   15,
+   14,
+   13,
+   12,
+   11,
+   10,
+   9,
+   8,
+   7,
+   6,
+   5,
+   4,
+   3,
+   2,
+   1,
+   0
+  ],
+  "pathIndex": 3,
+  "pathLength": 1996.7,
+  "keep": [
+   [
+    0.0,
+    76.02
+   ],
+   [
+    336.02,
+    466.02
+   ],
+   [
+    1116.02,
+    1996.7
+   ]
+  ],
+  "maps": {
+   "1968": "absent",
+   "1978": "unclear",
+   "1985": "present"
+  }
+ },
+ "bypassBasis": "Förbifarten söder om Överby by (6,0–6,3 och 6,4–7,1 km från Frebbenby) finns inte på grundkartan 1968, där huvudvägen ännu går genom byn. Grundkartan 1978 ritar den som ett rött band utan kantlinjer, inte som en väg (påtryck; troligen planerad eller under byggnad). Först grundkartan 1985 ritar den som väg. Fram till dess visas förbindelsen här utan förbifarten; den gamla vägen genom byn är ett eget objekt.",
+ "bypassGeometryNote": "Förbindelsens egen geometri (samma koordinater) utan förbifarten söder om Överby by.",
+ "oldRoad": {
+  "id": "road:eckero:gamla-landsvagen:overby",
+  "name": "Gamla landsvägen · Överby",
+  "routeId": "road:Gamla landsvägen Eckerö",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "mainUntil": 1985,
+  "surveySourceId": "road:eckero:gamla-landsvagen-overby:survey",
+  "maps": {
+   "1929-eckero": "present",
+   "1956-eckero": "present",
+   "1968": "present",
+   "1978": "present",
+   "1985": "present"
+  },
+  "paths": [
+   [
+    [
+     19.636204834171906,
+     60.21454834512035
+    ],
+    [
+     19.635209,
+     60.214848
+    ],
+    [
+     19.635024,
+     60.214992
+    ],
+    [
+     19.634847,
+     60.215055
+    ],
+    [
+     19.634585,
+     60.215083
+    ],
+    [
+     19.634246,
+     60.215082
+    ],
+    [
+     19.634028,
+     60.215067
+    ],
+    [
+     19.63376,
+     60.215008
+    ],
+    [
+     19.633629,
+     60.214945
+    ],
+    [
+     19.6332094,
+     60.2149341
+    ],
+    [
+     19.6326644,
+     60.2146183
+    ],
+    [
+     19.6321192,
+     60.2143475
+    ],
+    [
+     19.631635482542375,
+     60.2140230484669
+    ]
+   ],
+   [
+    [
+     19.629348292980243,
+     60.2137658195172
+    ],
+    [
+     19.6286673,
+     60.2139596
+    ],
+    [
+     19.6281223,
+     60.2140317
+    ],
+    [
+     19.6275773,
+     60.214104
+    ],
+    [
+     19.627426,
+     60.214265
+    ],
+    [
+     19.627087,
+     60.214192
+    ],
+    [
+     19.62661,
+     60.214165
+    ],
+    [
+     19.62617,
+     60.214139
+    ],
+    [
+     19.625811,
+     60.214101
+    ],
+    [
+     19.625548,
+     60.214053
+    ],
+    [
+     19.625376,
+     60.213984
+    ],
+    [
+     19.62514,
+     60.213909
+    ],
+    [
+     19.624872,
+     60.213851
+    ],
+    [
+     19.624668,
+     60.213837
+    ],
+    [
+     19.624405,
+     60.21384
+    ],
+    [
+     19.623842,
+     60.213872
+    ],
+    [
+     19.623472,
+     60.213893
+    ],
+    [
+     19.623209,
+     60.213901
+    ],
+    [
+     19.622962,
+     60.213883
+    ],
+    [
+     19.622721,
+     60.213848
+    ],
+    [
+     19.62219,
+     60.213766
+    ],
+    [
+     19.621696,
+     60.213699
+    ],
+    [
+     19.621315,
+     60.213662
+    ],
+    [
+     19.620983,
+     60.213648
+    ],
+    [
+     19.62065,
+     60.213638
+    ],
+    [
+     19.620462,
+     60.213608
+    ],
+    [
+     19.620258,
+     60.213566
+    ],
+    [
+     19.620097,
+     60.21352
+    ],
+    [
+     19.619851,
+     60.213417
+    ],
+    [
+     19.6195837,
+     60.2135351
+    ],
+    [
+     19.6190387,
+     60.2133998
+    ],
+    [
+     19.6184937,
+     60.2132192
+    ],
+    [
+     19.6180394,
+     60.2129935
+    ],
+    [
+     19.6176763,
+     60.2127679
+    ],
+    [
+     19.61787631029093,
+     60.21256265584134
+    ]
+   ]
+  ],
+  "lengthMeters": 1075.1,
+  "laterPaths": [
+   [
+    [
+     19.635209,
+     60.214848
+    ],
+    [
+     19.635024,
+     60.214992
+    ],
+    [
+     19.634847,
+     60.215055
+    ],
+    [
+     19.634585,
+     60.215083
+    ],
+    [
+     19.634246,
+     60.215082
+    ],
+    [
+     19.634028,
+     60.215067
+    ],
+    [
+     19.63376,
+     60.215008
+    ],
+    [
+     19.633629,
+     60.214945
+    ]
+   ],
+   [
+    [
+     19.627426,
+     60.214265
+    ],
+    [
+     19.627087,
+     60.214192
+    ],
+    [
+     19.62661,
+     60.214165
+    ],
+    [
+     19.62617,
+     60.214139
+    ],
+    [
+     19.625811,
+     60.214101
+    ],
+    [
+     19.625548,
+     60.214053
+    ],
+    [
+     19.625376,
+     60.213984
+    ],
+    [
+     19.62514,
+     60.213909
+    ],
+    [
+     19.624872,
+     60.213851
+    ],
+    [
+     19.624668,
+     60.213837
+    ],
+    [
+     19.624405,
+     60.21384
+    ],
+    [
+     19.623842,
+     60.213872
+    ],
+    [
+     19.623472,
+     60.213893
+    ],
+    [
+     19.623209,
+     60.213901
+    ],
+    [
+     19.622962,
+     60.213883
+    ],
+    [
+     19.622721,
+     60.213848
+    ],
+    [
+     19.62219,
+     60.213766
+    ],
+    [
+     19.621696,
+     60.213699
+    ],
+    [
+     19.621315,
+     60.213662
+    ],
+    [
+     19.620983,
+     60.213648
+    ],
+    [
+     19.62065,
+     60.213638
+    ],
+    [
+     19.620462,
+     60.213608
+    ],
+    [
+     19.620258,
+     60.213566
+    ],
+    [
+     19.620097,
+     60.21352
+    ],
+    [
+     19.619851,
+     60.213417
+    ]
+   ]
+  ],
+  "laterCanonicalRanges": [
+   [
+    0.060012,
+    0.156102
+   ],
+   [
+    0.41954,
+    0.82969
+   ]
+  ],
+  "sourceLinks": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/1140848345",
+    "sourceVertexRange": [
+     1,
+     8
+    ],
+    "sourceVertexCount": 10,
+    "basis": "Den del av vägen som ligger på den gamla landsvägen genom Överby (sockenkartan 1929); resten av vägen är yngre."
+   },
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/641674806",
+    "sourceVertexRange": [
+     7,
+     31
+    ],
+    "sourceVertexCount": 32,
+    "basis": "Den del av vägen som ligger på den gamla landsvägen genom Överby (sockenkartan 1929); resten av vägen är yngre."
+   }
+  ],
+  "trace": [
+   [
+    20479827.12,
+    6678058.0
+   ],
+   [
+    20479776.83,
+    6678070.35
+   ],
+   [
+    20479726.54,
+    6678082.7
+   ],
+   [
+    20479691.33,
+    6678090.94
+   ],
+   [
+    20479666.06,
+    6678076.0
+   ],
+   [
+    20479635.65,
+    6678040.98
+   ],
+   [
+    20479605.26,
+    6678010.98
+   ],
+   [
+    20479574.91,
+    6677986.01
+   ],
+   [
+    20479544.6,
+    6677971.1
+   ],
+   [
+    20479514.33,
+    6677961.22
+   ],
+   [
+    20479481.06,
+    6677955.37
+   ],
+   [
+    20479443.83,
+    6677961.62
+   ],
+   [
+    20479413.65,
+    6677968.83
+   ],
+   [
+    20479383.48,
+    6677977.04
+   ],
+   [
+    20479353.31,
+    6677985.26
+   ],
+   [
+    20479323.13,
+    6677992.46
+   ],
+   [
+    20479297.97,
+    6677994.62
+   ],
+   [
+    20479267.71,
+    6677987.75
+   ],
+   [
+    20479232.42,
+    6677980.91
+   ],
+   [
+    20479192.09,
+    6677973.09
+   ],
+   [
+    20479141.67,
+    6677963.32
+   ],
+   [
+    20479091.26,
+    6677955.56
+   ],
+   [
+    20479040.86,
+    6677948.81
+   ],
+   [
+    20478990.46,
+    6677941.05
+   ],
+   [
+    20478940.05,
+    6677932.28
+   ],
+   [
+    20478909.79,
+    6677924.41
+   ],
+   [
+    20478879.49,
+    6677909.5
+   ],
+   [
+    20478849.16,
+    6677889.56
+   ],
+   [
+    20478823.83,
+    6677864.56
+   ],
+   [
+    20478803.55,
+    6677839.54
+   ],
+   [
+    20478783.26,
+    6677814.51
+   ]
+  ],
+  "sameRoadMeters": 20,
+  "basis": "Den gamla landsvägen genom Överby by, i två slingor norr om dagens väg: förbi Henrikas (dagens Brinkbacken) och genom byn (dagens Gamla Landsvägen). Sockenkartan 1929 och utgåvan 1956 ritar den, och grundkartorna 1968 och 1978 ritar den som huvudväg. Grundkartan 1985 ritar förbifarten som huvudväg och den gamla vägen som mindre väg.",
+  "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (rutnät 50 m) där inget finns kvar, och följer Brinkbacken och Gamla Landsvägen (OpenStreetMap) där de ligger på den gamla vägen, inom 17 m. Ändarna är fästa vid förbindelsens delar från 1929.",
+  "laterBasis": "Efter förbifarten (grundkartan 1985) visas bara de delar som finns kvar i dag: Brinkbacken och Gamla Landsvägen, med samma koordinater som tidigare. Grundkartan 1985 ritar mer av den gamla vägen som mindre väg; de delarna finns inte i OpenStreetMap."
+ }
+}

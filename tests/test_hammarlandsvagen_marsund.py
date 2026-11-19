@@ -40,7 +40,13 @@ class HammarlandsvagenMarsundTests(unittest.TestCase):
     def test_review_applies_once_and_matches_the_build(self):
         catalog = json.loads(json.dumps(self.apply(), ensure_ascii=False))
         key = lambda c: {x['id']: x for x in c['objects']}
-        self.assertEqual(key(catalog)[OID], key(self.built)[OID])
+        # The Överby review (a later step) splits this object's 1959 period and adds its own evidence; leave that out.
+        built = copy.deepcopy(key(self.built)[OID]); built.pop('overbyBypass')
+        built['evidence'] = [e for e in built['evidence'] if e.get('reviewId') != 'review:hammarlandsvagen-overby']
+        split, whole = built['geometryPeriods'][1], built['geometryPeriods'][2]
+        whole['from'] = split['from']; whole['evidenceIds'] = [i for i in whole['evidenceIds'] if ':overby-map-' not in i]
+        built['geometryPeriods'] = [built['geometryPeriods'][0], whole]
+        self.assertEqual(key(catalog)[OID], built)
         self.assertEqual([o for o in catalog['objects'] if o['id'] != OID], [o for o in self.pristine['objects'] if o['id'] != OID])
         self.assertEqual(len(catalog['geometries']) - len(self.pristine['geometries']), 1)
         o, b = key(catalog)[OID], key(self.pristine)[OID]

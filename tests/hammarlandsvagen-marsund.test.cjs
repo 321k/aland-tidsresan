@@ -10,20 +10,20 @@ const v=year=>({year,zoom:1,scale:1,meta:{world:40075016.7},cityGrid:grid});
 const oid='road:marsund:eckero-hammarland',review=read('data/hammarlandsvagen-marsund.json');
 const near=(p,q)=>Math.hypot((p[0]-q[0])*55600,(p[1]-q[1])*111200)<0.05;
 
-test('Marby and Överby–Kyrkoby are drawn from 1929 with the connection’s own coordinates',()=>{
+test('Marby, mid-Överby and Överby–Kyrkoby are drawn from 1929 with the connection’s own coordinates',()=>{
  assert.equal(model.resolveObject(oid,1928).geometry,null);
- const early=model.resolveObject(oid,1950),later=model.resolveObject(oid,1959).geometry;
+ const early=model.resolveObject(oid,1950),later=model.resolveObject(oid,1985).geometry;
  assert.equal(early.geometryPeriod.from,1929);assert.equal(early.geometryPeriod.to,1959);assert.ok(grid.ownsRoadObject(oid,v(1950)));
  // Each cut lies on the 1959 line: its ends are on that line's path.
  const e=review.early[0];assert.equal(early.geometry.paths.length,e.pathRanges.length);
  early.geometry.paths.forEach((p,k)=>{const src=later.paths[e.pathRanges[k][0]];
   for(const q of p)assert.ok(src.some(s=>near(s,q))||p.indexOf(q)===0||p.indexOf(q)===p.length-1);});
- // Two stretches, about 340 m and 1 140 m: the cuts on paths 4/3 and 3/2 continue across the path boundary.
+ // Three stretches, about 340 m, 130 m and 1 140 m: the cuts on paths 4/3 and 3/2 continue across the path boundary.
  const len=p=>p.slice(1).reduce((n,q,i)=>n+Math.hypot((q[0]-p[i][0])*55600,(q[1]-p[i][1])*111200),0);
- const total=early.geometry.paths.reduce((n,p)=>n+len(p),0);assert.ok(Math.abs(total-1480)<10,total);
- assert.ok(near(early.geometry.paths[0].at(-1),early.geometry.paths[1][0]));assert.ok(near(early.geometry.paths[2].at(-1),early.geometry.paths[3][0]));
- assert.deepEqual(early.geometryPeriod.canonicalRanges.length,2);
- // The bridge and everything after 1959 are unchanged.
+ const total=early.geometry.paths.reduce((n,p)=>n+len(p),0);assert.ok(Math.abs(total-1610)<10,total);
+ assert.ok(near(early.geometry.paths[0].at(-1),early.geometry.paths[1][0]));assert.ok(near(early.geometry.paths[3].at(-1),early.geometry.paths[4][0]));
+ assert.deepEqual(early.geometryPeriod.canonicalRanges.length,3);
+ // The bridge is open from 1959; the whole line (19 paths) from 1985, when the Överby bypass is first drawn.
  assert.equal(model.resolveObject(oid,1959).state,'open');assert.equal(later.paths.length,19);
 });
 

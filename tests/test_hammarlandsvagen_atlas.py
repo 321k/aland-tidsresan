@@ -19,6 +19,12 @@ class HammarlandsvagenAtlasTests(unittest.TestCase):
     def setUpClass(cls):
         cls.review, cls.document = read('data/regional-road-review.json'), read('dist/assets/historical-roads.json')
         cls.pristine = read(SNAPSHOT) if SNAPSHOT.exists() else None
+        # The snapshot predates later late links (the old road through Överby, tests/test_hammarlandsvagen_overby.py);
+        # replay only the links whose objects it has.
+        if cls.pristine:
+            have = {o['id'] for o in cls.pristine['objects']}
+            for t in cls.review['traces']:
+                t['replacements'] = [l for l in t['replacements'] if not l.get('afterStep') or l['objectId'] in have]
 
     def setUp(self):
         if self.pristine is None:

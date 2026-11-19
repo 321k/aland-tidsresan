@@ -1,0 +1,39 @@
+{
+ "comparedWith": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-overby.json.gz (the catalogue as deployed after the Marsund batch) and data/map-scan-cache/review/hammarlandsvagen-main-road/overby-before/historical-roads.json",
+ "catalogue": {
+  "objectsAdded": [
+   "road:eckero:gamla-landsvagen:overby"
+  ],
+  "objectsRemoved": [],
+  "objectsChanged": {
+   "road:marsund:eckero-hammarland": [
+    "evidence",
+    "geometryPeriods",
+    "hammarlandsvagenMainRoad",
+    "overbyBypass",
+    "states"
+   ]
+  },
+  "geometriesAdded": [
+   "geometry:eckero:gamla-landsvagen:overby",
+   "geometry:eckero:gamla-landsvagen:overby:surviving",
+   "geometry:hammarlandsvagen-overby:marsund-without-bypass"
+  ],
+  "geometriesChanged": [
+   "geometry:hammarlandsvagen-marsund:eckero-hammarland"
+  ],
+  "geometriesRemoved": [],
+  "sourcesAdded": [
+   "road:eckero:gamla-landsvagen-overby:survey",
+   "review:hammarlandsvagen-overby"
+  ],
+  "otherKeysChanged": []
+ },
+ "historicalRoads": {
+  "atlas-1894/atlas-1894-1": {
+   "intervalsAdded": 19,
+   "intervalsRemoved": 0,
+   "otherFields": []
+  }
+ }
+}
