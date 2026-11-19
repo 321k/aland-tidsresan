@@ -104,7 +104,7 @@ def _apply(read, catalog, path_):
     maps = {int(k): l['sourceId'] for k, l in labels.items() if k.isdigit()}
     prefix = review.get('geometryPrefix', 'geometry:hammarlandsvagen-1929:')
 
-    plans = []
+    plans, stages = [], {}
     for e in review['early']:
         o = objects.get(e['objectId'])
         if not o or fingerprint(o) != e['inputHash']:
@@ -146,6 +146,16 @@ def _apply(read, catalog, path_):
         parts = [cut(path, line, a, b) for a, b in rs]
         full = whole and len(g['paths']) == 1
         plans.append((e, o, g, parts, full, [[round(a / line.length, 6), round(min(b, line.length) / line.length, 6)] for a, b in rs]))
+        # 'laterStage': from a later map the old road is longer on this object (it moved onto more of it). A second early
+        # period from that map's year, with its own ranges, until the object's first year. That map must be marked present.
+        st = e.get('laterStage')
+        if st:
+            r2 = st['ranges']; y2 = st['firstYear']
+            if not (e['firstYear'] < y2 < e['until']) or e.get('gapUntil') or not any(labels[k]['year'] == y2 and v == 'present' for k, v in e['maps'].items() if k in labels) \
+                    or not r2 or any(a < 0 or b > line.length + 0.1 or b - a < 50 for a, b in r2) or any(x[1] >= y[0] for x, y in zip(r2, r2[1:])) \
+                    or not review['laterStageBasis'].get(e['objectId']):
+                raise ValueError('Invalid later stage ' + e['objectId'])
+            stages[e['objectId']] = ([cut(path, line, a, b) for a, b in r2], [[round(a / line.length, 6), round(min(b, line.length) / line.length, 6)] for a, b in r2])
 
     # The same-road objects follow each other along the road (the reference line) in the reviewed order.
     # Together the cuts cover each reviewed same-road interval of today's road exactly once, without gaps.
@@ -258,21 +268,31 @@ def _apply(read, catalog, path_):
         ev = map_evidence(oid, e['maps'], gid, basis, cov)
         refs = [x['id'] for x in ev if x['outcome'] == 'present' and x['describes']['from'] == e['firstYear']]
         o['evidence'] += ev
+        if oid in stages:
+            parts2, ranges2 = stages[oid]; y2 = e['laterStage']['firstYear']; gid2 = f'{gid}:{y2}'; basis2 = review['laterStageBasis'][oid]
+            cov2 = dict(coverage='partial', canonicalRange=ranges2[0]) if len(ranges2) == 1 else dict(coverage='partial', canonicalRanges=ranges2)
+            catalog['geometries'].append(dict(id=gid2, representation='centerline', paths=deepcopy(parts2), sourceIds=deepcopy(g['sourceIds']), note=review['laterStageNote']))
+            for x in ev:
+                if x['outcome'] == 'present' and x['describes']['from'] >= y2:
+                    x.update(matchedGeometryId=gid2, **cov2); x.pop('canonicalRange', None) if 'canonicalRanges' in cov2 else x.pop('canonicalRanges', None)
+            refs2 = [x['id'] for x in ev if x['outcome'] == 'present' and x['describes']['from'] == y2]
+            o['geometryPeriods'].insert(0, dict(geometryId=gid2, **{'from': y2, 'to': e['until']}, certainty='inferred', evidenceIds=refs2, basis=basis2, **cov2))
         if e.get('gapUntil'):
             gnote = review['gapBasis'][oid]
             gev = [x['id'] for x in ev if x['outcome'] == 'unclear']
             o['states'].insert(0, dict(state='unknown', **{'from': e['until'], 'to': e['gapUntil']}, certainty='inferred', evidenceIds=gev, note=gnote))
         o['states'].insert(0, dict(state='open', **{'from': e['firstYear'], 'to': e['until']}, certainty='inferred', evidenceIds=refs, note=basis))
-        o['geometryPeriods'].insert(0, dict(geometryId=gid, **{'from': e['firstYear'], 'to': e['until']}, certainty='inferred', evidenceIds=refs, basis=basis, **cov))
+        o['geometryPeriods'].insert(0, dict(geometryId=gid, **{'from': e['firstYear'], 'to': e['laterStage']['firstYear'] if oid in stages else e['until']}, certainty='inferred', evidenceIds=refs, basis=basis, **cov))
         o['hammarlandsvagenMainRoad'] = dict(reviewedAt=review['reviewedAt'], previousFirstYear=e.get('gapUntil', e['until']), ranges=e['ranges'], constructionYear=None,
                                              **({'pathIndex': e['pathIndex']} if 'pathIndex' in e else {}),
                                              **({'pathRanges': e['pathRanges']} if 'pathRanges' in e else {}),
+                                             **({'laterStage': e['laterStage']} if oid in stages else {}),
                                              **({'unknownFrom': e['until']} if e.get('gapUntil') else {}),
                                              **({'review': src} if path_ != 'data/hammarlandsvagen-main-road.json' else {}))
 
     if od:
         oid = od['id']; gid = 'geometry:' + oid.split(':', 1)[1]
-        catalog['geometries'].append(dict(id=gid, representation='centerline', paths=deepcopy(od_paths), sourceIds=[maps[1929]], note=od['traceBasis']))
+        catalog['geometries'].append(dict(id=gid, representation='centerline', paths=deepcopy(od_paths), sourceIds=[maps[1929]] if 1929 in maps else [labels[k]['sourceId'] for k, v in od['maps'].items() if v == 'present' and k in labels and labels[k]['year'] == od['firstYear']][:1], note=od['traceBasis']))
         ev = map_evidence(oid, od['maps'], gid, od['basis'], dict(coverage='full', canonicalRange=[0, 1]))
         refs = [x['id'] for x in ev if x['outcome'] == 'present']
         later = dict(id=oid + ':after-maps', sourceId=src, describes={'from': od['until'], 'to': None}, supports=['state'], observationType='interpretation', interpretation=True,
@@ -292,6 +312,17 @@ def apply_hammarlandsvagen_frebbenby(read, catalog):
     """Marsundsvägen from Frebbenby to the old ferry pier: the road to the Marsund ferry on the 1929 parish map
     (docs/hammarlandsvagen-frebbenby.md)."""
     _apply(read, catalog, 'data/hammarlandsvagen-frebbenby.json')
+
+
+def apply_hammarlandsvagen_marby(read, catalog):
+    """The old road on the Eckerö side of the ferry, Marby–Klemes–Nissas: Marbyvägen and the vanished link at Sundkvist
+    (docs/hammarlandsvagen-ferry-west.md)."""
+    _apply(read, catalog, 'data/hammarlandsvagen-marby.json')
+
+
+def apply_hammarlandsvagen_shore(read, catalog):
+    """The vanished shore road from the narrow sound south to Nissas, 1929–1956 (docs/hammarlandsvagen-ferry-west.md)."""
+    _apply(read, catalog, 'data/hammarlandsvagen-shore.json')
 
 
 def apply_hammarlandsvagen_overby(read, catalog):

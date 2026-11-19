@@ -1,0 +1,133 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "source": {
+  "id": "review:hammarlandsvagen-shore",
+  "title": "Strandvägen vid Holmbergssundet · granskning",
+  "url": "assets/hammarlandsvagen-shore.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-eckero": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1956-eckero": {
+   "sourceId": "nls:map-37971493",
+   "year": 1956
+  }
+ },
+ "early": [],
+ "earlyBasis": {},
+ "method": "Strandvägen avläst för hand på sockenkartan 1012 03 Eckerö 1929 (rutnät 50 m) och jämförd med utgåvan 1956 och OpenStreetMap 2026 (renders/ferry-landing-grid-1929-osm.jpg, shore-road-grid-1929.jpg, marbyvagen-north-1929-1956.jpg).",
+ "oldRoad": {
+  "id": "road:eckero:gamla-landsvagen:strandvagen",
+  "name": "Gamla landsvägen · strandvägen vid Holmbergssundet",
+  "routeId": "road:Gamla landsvägen Eckerö",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "until": 1956,
+  "maps": {
+   "1929-eckero": "present",
+   "1956-eckero": "absent"
+  },
+  "paths": [
+   [
+    [
+     19.672892295426497,
+     60.21653792296714
+    ],
+    [
+     19.6729121,
+     60.2158737
+    ],
+    [
+     19.673071,
+     60.2154281
+    ],
+    [
+     19.6731072,
+     60.2147065
+    ],
+    [
+     19.6731253,
+     60.2139848
+    ],
+    [
+     19.6731071,
+     60.2132632
+    ],
+    [
+     19.673089,
+     60.2125416
+    ],
+    [
+     19.6730165,
+     60.21182
+    ],
+    [
+     19.6728895,
+     60.2110983
+    ],
+    [
+     19.6726902,
+     60.2103767
+    ],
+    [
+     19.6725089,
+     60.2094747
+    ],
+    [
+     19.672382,
+     60.2087531
+    ],
+    [
+     19.6722914,
+     60.2082118
+    ],
+    [
+     19.6721464,
+     60.2076706
+    ],
+    [
+     19.6719289,
+     60.2073098
+    ],
+    [
+     19.671346996451184,
+     60.206783331044285
+    ]
+   ]
+  ],
+  "lengthMeters": 1100.4,
+  "referenceRange": [
+   3880,
+   null
+  ],
+  "endSnapMeters": [
+   0.0,
+   0.0
+  ],
+  "endSnapLimit": 1,
+  "endObjects": [
+   "road:marsund:eckero-hammarland",
+   "road:qgis:eckero:marbyvagen-100km1"
+  ],
+  "basis": "Landsvägen från färjan gick efter det smala sundet söderut längs stranden till Nissas, 45–80 m öster om dagens Marbyvägen. Sockenkartan 1929 ritar den; utgåvan 1956 ritar i stället vägen på Marbyvägens linje, och strandvägen inte alls. Inget av den finns i OpenStreetMap.",
+  "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (rutnät 50 m) och inte flyttad; ändarna är fästa vid förbindelsens del från 1929 vid sundet och vid Marbyvägen vid Nissas.",
+  "afterNote": "Utgåvan 1956 ritar ingen väg här. Exakt när den togs ur bruk är inte känt."
+ },
+ "route": {
+  "order": [
+   "road:marsund:eckero-hammarland",
+   "road:eckero:gamla-landsvagen:strandvagen",
+   "road:qgis:eckero:marbyvagen-100km1"
+  ],
+  "endObjects": [
+   "road:marsund:eckero-hammarland",
+   "road:qgis:eckero:marbyvagen-100km1"
+  ],
+  "joinMeters": 2.0
+ }
+}

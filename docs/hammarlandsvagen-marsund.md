@@ -26,7 +26,7 @@ Kattby review (`nls:map-39091228`, `nls:map-37971493`). Distances below are alon
 |---|---|---|
 | **0–0.47 km**, Frebbenby | **the old road, within about 13 m**; it then ran west along today's Marsundsvägen to the ferry (`docs/hammarlandsvagen-frebbenby.md`) | **1929** |
 | 0.4–3.0 km | no road on today's line (part is off the sheet) | 1959 |
-| 3.0–4.4 km, Öra and the sound | 1929: no road. 1956: the new road is drawn, three years before the bridge opened, so the edition was updated | 1959 |
+| 3.0–4.4 km, Öra and the sound | 1929: no road on today's line except over the narrow sound at Holmberg (3.69–3.88 km, dated 1929; `docs/hammarlandsvagen-ferry-west.md`). 1956: the new road is drawn, three years before the bridge opened, so the edition was updated | 1959 |
 | 4.4–5.7 km, Marby | no road on today's line; the old road ran further south, past Sundkvist | 1959 |
 | **5.70–6.04 km** | **the old road, within about 10 m (15 m at 5.7 km)** | **1929** |
 | 6.04–6.30 km, 6.43–7.08 km, Överby | the old road went in two loops north through the village; today's road is a bypass, first drawn as a road on the 1985 base map | the old road is its own object; see `docs/hammarlandsvagen-overby.md` |

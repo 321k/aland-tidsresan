@@ -13,7 +13,7 @@ for k, v in {'eckero-1929': 'map-39091228', 'eckero-1956': 'map-37971493'}.items
 R = 'docs/reviews/hammarlandsvagen-main-road-2026-11-18'
 L = LineString(json.load(open(os.environ.get('REF', f'{R}/data/marsund-reference.json')))['metric'])
 key, d, h, S, out = sys.argv[1], float(sys.argv[2]), float(sys.argv[3]), int(sys.argv[4]), sys.argv[5]
-cx, cy = L.interpolate(d).coords[0]
+cx, cy = (tuple(float(v) for v in os.environ['CENTER'].split(',')) if os.environ.get('CENTER') else L.interpolate(d).coords[0])   # CENTER=E,N overrides
 im, f = tile_window(key, 15, cx, cy, h, S); dr = ImageDraw.Draw(im)
 for E in range(int(cx - h) // 50 * 50, int(cx + h) + 50, 50):
     dr.line([f(E, cy - h), f(E, cy + h)], fill=(0, 120, 255) if E % 100 else (0, 0, 200), width=1)

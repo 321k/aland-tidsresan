@@ -13,7 +13,7 @@ from shapely.geometry import LineString
 before = json.load(gzip.open(sys.argv[1])); O = {o['id']: o for o in before['objects']}; G = {g['id']: g for g in before['geometries']}
 E29, E56 = 'nls:map-39091228', 'nls:map-37971493'
 M = 'road:marsund:eckero-hammarland'
-STRETCHES = [(0.0, None), (5700.0, 6040.0), (6300.0, 6430.0), (7080.0, 8220.0)]   # metres from Frebbenby along the object (paths 18 … 0); None: the end of path 16
+STRETCHES = [(0.0, None), (3690.0, 3880.0), (5700.0, 6040.0), (6300.0, 6430.0), (7080.0, 8220.0)]   # metres from Frebbenby along the object (paths 18 … 0); None: the end of path 16
 o = O[M]; gid = o['geometryPeriods'][0]['geometryId']; g = G[gid]
 order = list(reversed(range(len(g['paths']))))
 lines = {i: LineString([TO_METRIC(*p) for p in g['paths'][i]]) for i in order}
@@ -42,5 +42,5 @@ data = dict(
     geometryNote='Delar av objektets egen geometri (samma koordinater) där dagens väg är den väg sockenkartan 1929 för Eckerö ritar: vid Marby och från Överby till Kyrkoby.',
     method='Marsundsförbindelsen jämförd med sockenkartan 1012 03 Eckerö 1929 och utgåvan 1956 (karttiler 2,4 m/px) och OpenStreetMap 2026, var 1,1 km och närmare var 400 m (renders/marsund-*.jpg). Samma väg: kartans väg har dagens form inom omkring 25 m.',
     early=early,
-    earlyBasis={M: 'Fyra delar av förbindelsen är den gamla landsvägen som sockenkartan 1929 för Eckerö ritar, och utgåvan 1956 likadant: genom Frebbenby fram till Marsundsvägen (0–0,47 km), vid Marby (5,7–6,0 km från Frebbenby), en kort bit mitt i Överby (6,3–6,4 km) och från Överby genom Kyrkoby (7,1–8,2 km), inom omkring 15 m från dagens väg. Från Frebbenby gick den gamla vägen västerut längs Marsundsvägen till färjan. Däremellan gick den gamla vägen i två slingor norrut genom Överby by, där dagens väg är en senare förbifart. Resten av förbindelsen, med bron över Marsund, visas fortfarande från 1959.'})
+    earlyBasis={M: 'Fem delar av förbindelsen är den gamla landsvägen som sockenkartan 1929 för Eckerö ritar, och utgåvan 1956 likadant: genom Frebbenby fram till Marsundsvägen (0–0,47 km), över det smala sundet vid Holmberg (3,69–3,88 km), vid Marby (5,7–6,0 km från Frebbenby), en kort bit mitt i Överby (6,3–6,4 km) och från Överby genom Kyrkoby (7,1–8,2 km), inom omkring 15 m från dagens väg. Från Frebbenby gick den gamla vägen västerut längs Marsundsvägen till färjan. Däremellan gick den gamla vägen i två slingor norrut genom Överby by, där dagens väg är en senare förbifart. Resten av förbindelsen, med bron över Marsund, visas fortfarande från 1959.'})
 json.dump(data, open('data/hammarlandsvagen-marsund.json', 'w'), ensure_ascii=False, indent=1)

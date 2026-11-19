@@ -1,0 +1,46 @@
+{
+ "comparedWith": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-ferry-west.json.gz (the catalogue as deployed after the Frebbenby batch) and data/map-scan-cache/review/hammarlandsvagen-main-road/ferry-west-before/historical-roads.json",
+ "catalogue": {
+  "objectsAdded": [
+   "road:eckero:gamla-landsvagen:strandvagen",
+   "road:eckero:gamla-landsvagen:sundkvist"
+  ],
+  "objectsRemoved": [],
+  "objectsChanged": {
+   "road:marsund:eckero-hammarland": [
+    "evidence",
+    "geometryPeriods",
+    "hammarlandsvagenMainRoad",
+    "states"
+   ],
+   "road:qgis:eckero:marbyvagen-100km1": [
+    "evidence",
+    "geometryPeriods",
+    "hammarlandsvagenMainRoad",
+    "states"
+   ]
+  },
+  "geometriesAdded": [
+   "geometry:eckero:gamla-landsvagen:strandvagen",
+   "geometry:eckero:gamla-landsvagen:sundkvist",
+   "geometry:hammarlandsvagen-marby:marbyvagen-100km1",
+   "geometry:hammarlandsvagen-marby:marbyvagen-100km1:1956"
+  ],
+  "geometriesChanged": [
+   "geometry:hammarlandsvagen-marsund:eckero-hammarland"
+  ],
+  "geometriesRemoved": [],
+  "sourcesAdded": [
+   "review:hammarlandsvagen-marby",
+   "review:hammarlandsvagen-shore"
+  ],
+  "otherKeysChanged": []
+ },
+ "historicalRoads": {
+  "atlas-1894/atlas-1894-1": {
+   "intervalsAdded": 5,
+   "intervalsRemoved": 0,
+   "otherFields": []
+  }
+ }
+}

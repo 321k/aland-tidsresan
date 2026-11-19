@@ -1,0 +1,162 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "source": {
+  "id": "review:hammarlandsvagen-marby",
+  "title": "Landsvägen vid Marby och Klemes · granskning",
+  "url": "assets/hammarlandsvagen-marby.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-eckero": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1956-eckero": {
+   "sourceId": "nls:map-37971493",
+   "year": 1956
+  },
+  "1968": {
+   "sourceId": "nls:101203:1968",
+   "year": 1968
+  },
+  "1978": {
+   "sourceId": "nls:101203:1978",
+   "year": 1978
+  }
+ },
+ "geometryPrefix": "geometry:hammarlandsvagen-marby:",
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där Marbyvägen är landsvägen från Marsundsfärjan på sockenkartan 1929.",
+ "laterStageNote": "Del av objektets egen geometri (samma koordinater) där Marbyvägen är landsvägen på sockenkartans utgåva 1956.",
+ "method": "Marbyvägen och vägen vid Sundkvist jämförda med sockenkartan 1012 03 Eckerö 1929 och utgåvan 1956 (karttiler 2,4 m/px, rutnät 50 m), grundkartorna 1968 och 1978 (blad 101203) och OpenStreetMap 2026 (renders/marbyvagen-*.jpg, sundkvist-*.jpg, ferry-route-1968-1978.jpg).",
+ "early": [
+  {
+   "objectId": "road:qgis:eckero:marbyvagen-100km1",
+   "inputHash": "5471b7720c43277234af757158d8dff762da17ad11be24030af1b2dd68c2f58d",
+   "geometryId": "geometry:qgis:053869dae5a2b5384801",
+   "geometryHash": "a7854e2b745eb99e6349853ef908bcfef96a4ba29f2268c675717821097d2a94",
+   "lengthMeters": 3084.56,
+   "ranges": [
+    [
+     200.0,
+     2000.0
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1968,
+   "laterStage": {
+    "firstYear": 1956,
+    "ranges": [
+     [
+      200.0,
+      3084.6
+     ]
+    ]
+   },
+   "maps": {
+    "1929-eckero": "present",
+    "1956-eckero": "present"
+   }
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:eckero:marbyvagen-100km1": "Marbyvägen från Sundkvist förbi Klemes till Nissas är landsvägen från Marsundsfärjan som sockenkartan 1929 ritar, inom omkring 10 m från dagens väg (förbi Klemes inom omkring 30 m, med samma form). Norr om Nissas gick vägen 1929 längs stranden; Marbyvägen där var en stig."
+ },
+ "laterStageBasis": {
+  "road:qgis:eckero:marbyvagen-100km1": "Utgåvan 1956 ritar landsvägen på Marbyvägens hela sträckning från Sundkvist norrut till det smala sundet; strandvägen ritas inte längre. Den korta grenen norrut till dagens väg vid Sundkvist ritas först 1968."
+ },
+ "oldRoad": {
+  "id": "road:eckero:gamla-landsvagen:sundkvist",
+  "name": "Gamla landsvägen · Sundkvist",
+  "routeId": "road:Gamla landsvägen Eckerö",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "until": 1968,
+  "maps": {
+   "1929-eckero": "present",
+   "1956-eckero": "present",
+   "1968": "absent"
+  },
+  "paths": [
+   [
+    [
+     19.6421921022949,
+     60.21417888528409
+    ],
+    [
+     19.6426936,
+     60.2138811
+    ],
+    [
+     19.6432366,
+     60.2136552
+    ],
+    [
+     19.64387,
+     60.2132937
+    ],
+    [
+     19.644413,
+     60.2130677
+    ],
+    [
+     19.644956,
+     60.2129322
+    ],
+    [
+     19.6456799,
+     60.212887
+    ],
+    [
+     19.6462229,
+     60.2127514
+    ],
+    [
+     19.6474336,
+     60.21197
+    ],
+    [
+     19.6480691,
+     60.2116092
+    ],
+    [
+     19.6487045,
+     60.2113386
+    ],
+    [
+     19.649464,
+     60.2111328
+    ]
+   ]
+  ],
+  "lengthMeters": 540.7,
+  "referenceRange": [
+   5700,
+   null
+  ],
+  "endSnapMeters": [
+   0.0,
+   0.0
+  ],
+  "endSnapLimit": 1,
+  "endObjects": [
+   "road:marsund:eckero-hammarland",
+   "road:qgis:eckero:marbyvagen-100km1"
+  ],
+  "basis": "Landsvägen från Sundkvist nordväst till Marby, där den gick in på dagens väg. Sockenkartan 1929 och utgåvan 1956 ritar den, 15–50 m söder om dagens väg. Grundkartan 1968 ritar den inte; då gick vägen via Marbyvägens gren norrut och dagens väg genom Marby.",
+  "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (rutnät 50 m, renders/sundkvist-marby-grid-1929.jpg och sundkvist-grid-1929.jpg); ändarna är fästa vid förbindelsens del från 1929 vid Marby och vid Marbyvägen.",
+  "afterNote": "Grundkartan 1968 ritar ingen väg här. Exakt när den togs ur bruk är inte känt."
+ },
+ "route": {
+  "order": [
+   "road:marsund:eckero-hammarland",
+   "road:eckero:gamla-landsvagen:sundkvist",
+   "road:qgis:eckero:marbyvagen-100km1"
+  ],
+  "endObjects": [
+   "road:marsund:eckero-hammarland"
+  ],
+  "joinMeters": 2.0
+ }
+}

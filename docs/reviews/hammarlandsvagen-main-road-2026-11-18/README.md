@@ -303,3 +303,47 @@ Method and decisions: `docs/hammarlandsvagen-frebbenby.md`.
   - The Frebbenby, Överby, Marsund, atlas, Hammarlandsvägen (all four), regional review, atlas continuity and dating,
     Marsund continuity, road date assumption and QGIS road reconciliation Python tests pass, 70 tests
     (`logs/python-tests-frebbenby.log`).
+
+## The road from the ferry to Marby (ninth batch, 2026-11-19)
+
+Method and decisions: `docs/hammarlandsvagen-ferry-west.md`.
+- **Dated from 1929:**
+  - the Marsund connection over the narrow sound, 3.69–3.88 km (`prepare_marsund.py`)
+  - Marbyvägen, 200–2 000 m (from 1929), and from 200 m to its north end (from 1956)
+  - new objects: "Gamla landsvägen · Sundkvist" (1929–1968) and "Gamla landsvägen · strandvägen vid
+    Holmbergssundet" (1929–1956)
+- **Build step:** `laterStage`, a second early period from a later map.
+- **Atlas review:** Marbyvägen and the two new objects are late links.
+- **Snapshots:**
+  - `before-ferry-west.json.gz`: the catalogue as deployed after the Frebbenby batch
+  - `before-marby-step.json.gz` and `before-shore-step.json.gz`: the catalogue built with each step disabled
+  - `before-overby-step.json.gz`: rebuilt for the changed Marsund review. Only the Överby data's input fingerprint
+    changed.
+- **Scope:** `scope-audit-ferry-west.json`:
+  - added: 2 objects, 4 geometries and 2 sources
+  - changed: the Marsund object and its 1929 cut geometry, and Marbyvägen
+  - 5 replacement intervals added on `atlas-1894-1`, none removed
+  - nothing else changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-ferry-west.test.cjs` and `tests/test_hammarlandsvagen_ferry_west.py`. Each rejection
+    is checked for its stated reason; two meaningless mutations (a reversed route, which the check rightly accepts)
+    were replaced.
+  - updated:
+    - the Marsund tests: five stretches
+    - `tests/marsund-road-continuity.test.cjs`: the schematic crossing kept until 1959 is now checked at atlas
+      vertex 8, the sound. Vertex 6, at Marby, is replaced from 1929 by the dated road.
+    - `tests/temporal-objects.test.cjs`: counts the two new objects
+    - `tests/test_hammarlandsvagen_atlas.py`: replays only its own two late links
+- **`batch-ferry-west.patch`:**
+  - `scripts/build_temporal_objects.py`: the two hooks and asset copies
+  - `data/regional-road-review.json`: the three late links
+  - `dist/assets/historical-roads.json`
+  - `dist/index.html`: the card "Landsvägen från färjan till Marby" and the preview
+  - `tests/marsund-road-continuity.test.cjs` and `tests/temporal-objects.test.cjs`
+
+  See `patch-verification-ferry-west.log`.
+- **Runs:**
+  - All 610 JS tests pass (`logs/js-tests-ferry-west.log`).
+  - The ferry-west, Frebbenby, Överby, Marsund, atlas, Hammarlandsvägen (all four), regional review, atlas continuity
+    and dating, Marsund continuity, road date assumption and QGIS road reconciliation Python tests pass, 74 tests
+    (`logs/python-tests-ferry-west.log`).
