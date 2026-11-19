@@ -1,0 +1,94 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "source": {
+  "id": "review:hammarlandsvagen-marsund",
+  "title": "Marsundsförbindelsen vid Marby och Kyrkoby · granskning",
+  "url": "assets/hammarlandsvagen-marsund.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-eckero": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1956-eckero": {
+   "sourceId": "nls:map-37971493",
+   "year": 1956
+  }
+ },
+ "geometryPrefix": "geometry:hammarlandsvagen-marsund:",
+ "geometryNote": "Delar av objektets egen geometri (samma koordinater) där dagens väg är den väg sockenkartan 1929 för Eckerö ritar: vid Marby och från Överby till Kyrkoby.",
+ "method": "Marsundsförbindelsen jämförd med sockenkartan 1012 03 Eckerö 1929 och utgåvan 1956 (karttiler 2,4 m/px) och OpenStreetMap 2026, var 1,1 km och närmare var 400 m (renders/marsund-*.jpg). Samma väg: kartans väg har dagens form inom omkring 25 m.",
+ "early": [
+  {
+   "objectId": "road:marsund:eckero-hammarland",
+   "inputHash": "871059e714abb7e02444bbe25d966eca1f8b7812e50078f19e59a2fa1253721e",
+   "geometryId": "geometry:01d9f4aa521eeba8e620",
+   "geometryHash": "fc9a27a99a78cba0f6f1cfe9acc28b713d07ec8baa43079fbf6bcd1421858204",
+   "lengthMeters": 11237.15,
+   "ranges": [
+    [
+     5700.0,
+     6040.0
+    ],
+    [
+     7080.0,
+     8220.0
+    ]
+   ],
+   "pathOrder": [
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "pathRanges": [
+    [
+     4,
+     2296.32,
+     2560.3
+    ],
+    [
+     3,
+     0.0,
+     76.02
+    ],
+    [
+     3,
+     1116.02,
+     1996.7
+    ],
+    [
+     2,
+     0.0,
+     259.32
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1959,
+   "maps": {
+    "1929-eckero": "present",
+    "1956-eckero": "present"
+   }
+  }
+ ],
+ "earlyBasis": {
+  "road:marsund:eckero-hammarland": "Två delar av förbindelsen är den gamla landsvägen genom Eckerö som sockenkartan 1929 ritar, och utgåvan 1956 likadant: vid Marby (5,7–6,0 km från Frebbenby) och från Överby genom Kyrkoby (7,1–8,2 km), inom omkring 10 m från dagens väg. Mellan dem gick den gamla vägen norrut genom Överby by, där dagens väg är en senare förbifart. Resten av förbindelsen, med bron över Marsund, visas fortfarande från 1959."
+ }
+}

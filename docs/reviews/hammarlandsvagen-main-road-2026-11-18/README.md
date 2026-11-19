@@ -180,3 +180,40 @@ Method and decisions: `docs/hammarlandsvagen-main-road.md`, "Also fixed: the 189
     road date assumption Python tests pass, 32 tests (`logs/python-tests-atlas.log`).
   - `tests/test_emkarby_road_continuity.py` has one failure, the same before this change ("Changed applied
     Emkarby review" is raised where "shared road" is expected). It is not part of this batch.
+
+## The Marsund connection at Marby and Kyrkoby (sixth batch, 2026-11-19)
+
+Method and decisions: `docs/hammarlandsvagen-marsund.md`.
+- **Dated from 1929:** two stretches of "Eckerö–Hammarland · Marsundsförbindelsen", where today's road is the old road
+  on the 1929 Eckerö parish map and its 1956 edition:
+  - Marby, 5.70–6.04 km from Frebbenby
+  - Överby–Kyrkoby, 7.08–8.22 km
+- **Unchanged:** the rest stays 1959, the bridge assumption. Through Överby village the old road ran north of today's
+  bypass and is not yet in the catalogue.
+- **Build step:** `_apply` gains `pathRanges` and `pathOrder`, for cuts on an object of several paths.
+- **Evidence:** `renders/marsund-*.jpg`, `marsund-close-*.jpg` and `result-marsund-1950.jpg`.
+  `data/marsund-reference.json` is the object as one line; `scripts/kattby_windows.py` takes it as `REF`.
+- **Scripts:** `prepare_marsund.py`.
+- **Snapshot:** `before-marsund.json.gz`, the catalogue as deployed after the atlas fix. The review data is written from
+  it, and the Python test replays the step on it (the build with the step disabled is the same).
+- **Scope:** `scope-audit-marsund.json`:
+  - changed: 1 object
+  - added: 1 geometry and 1 source (the review)
+  - 4 replacement intervals added on `atlas-1894-1` (`dist/assets/historical-roads.json` rebuilt)
+  - nothing else changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-marsund.test.cjs` and `tests/test_hammarlandsvagen_marsund.py`. Each rejection is
+    checked for its stated reason.
+  - updated: `tests/marsund-road-continuity.test.cjs`. Before 1959 the connection now draws the two stretches, not
+    nothing.
+- **`batch-marsund.patch`:**
+  - `scripts/build_temporal_objects.py`: the hook and the asset copy
+  - `dist/index.html`: the card "Landsvägen genom Eckerö från 1929" and the preview
+  - `dist/assets/historical-roads.json`
+  - `tests/marsund-road-continuity.test.cjs`
+
+  See `patch-verification-marsund.log`.
+- **Runs:**
+  - All 603 JS tests pass (`logs/js-tests-marsund.log`).
+  - The Marsund, atlas, Hammarlandsvägen (all four), regional review, atlas continuity and dating, Marsund continuity
+    and road date assumption Python tests pass, 34 tests (`logs/python-tests-marsund.log`).

@@ -12,7 +12,8 @@ Smedens, Näfsby; first on the 1968 base map). Those stay as they are.
   'unknown': the 1968 map does not draw it, and nothing of it survives in OpenStreetMap).
 The same step applies the southern review (data/hammarlandsvagen-south.json) and the old road through Näfsby
 (data/hammarlandsvagen-nafsby.json: the smaller roads it survives as, and its vanished pieces as one old-road object),
-and Kattby westwards (data/hammarlandsvagen-kattby.json).
+Kattby westwards (data/hammarlandsvagen-kattby.json) and the Marsund connection at Marby–Kyrkoby
+(data/hammarlandsvagen-marsund.json).
 All checks run before any change. Map years are first evidence, not construction years.
 """
 from copy import deepcopy
@@ -49,6 +50,45 @@ def apply_hammarlandsvagen_nafsby(read, catalog):
     _apply(read, catalog, 'data/hammarlandsvagen-nafsby.json')
 
 
+def apply_hammarlandsvagen_marsund(read, catalog):
+    """The Marsund connection, Marby–Kyrkoby in Eckerö: where today's road is the road on the 1929 parish map
+    (docs/hammarlandsvagen-marsund.md)."""
+    _apply(read, catalog, 'data/hammarlandsvagen-marsund.json')
+
+
+def _path_cuts(e, o, g):
+    """Cuts on a geometry of several paths. 'pathOrder' lists the paths in order along the road; each must start where
+    the one before it ends. 'pathRanges' are [path, from, to] in metres along that path, in order along the road.
+    Cuts that run on across a path boundary form one stretch; the stretches must be 'ranges' (metres along the whole
+    object in path order). Each cut is at least 50 m."""
+    order = e['pathOrder']; n = len(g['paths'])
+    if sorted(order) != list(range(n)):
+        raise ValueError('Invalid path order ' + e['objectId'])
+    lines = {i: metric(g['paths'][i]) for i in order}
+    for x, y in zip(order, order[1:]):
+        if Point(lines[x].coords[-1]).distance(Point(lines[y].coords[0])) > SAME_ROAD_GAP:
+            raise ValueError(f'Paths {x} and {y} do not follow each other: ' + e['objectId'])
+    offset, at = {}, 0.0
+    for i in order:
+        offset[i] = at; at += lines[i].length
+    parts, spans = [], []
+    for i, a, b in e['pathRanges']:
+        if i not in lines or a < 0 or b > lines[i].length + 0.1 or b - a < 50:
+            raise ValueError('Invalid path cut ' + e['objectId'])
+        parts.append(cut(g['paths'][i], lines[i], a, b)); spans.append([offset[i] + a, offset[i] + min(b, lines[i].length)])
+    stretches = []
+    for a, b in spans:
+        if stretches and a < stretches[-1][1] - 0.1:
+            raise ValueError('Path cuts are not in order along the road ' + e['objectId'])
+        if stretches and a - stretches[-1][1] < 0.1:
+            stretches[-1][1] = b
+        else:
+            stretches.append([a, b])
+    if len(stretches) != len(e['ranges']) or any(abs(s - r) > 0.5 for x, y in zip(stretches, e['ranges']) for s, r in zip(x, y)):
+        raise ValueError('Path cuts do not make the reviewed ranges ' + e['objectId'])
+    return (e, o, g, parts, False, [[round(a / at, 6), round(b / at, 6)] for a, b in stretches])
+
+
 def _apply(read, catalog, path_):
     review = read(path_)
     objects = {o['id']: o for o in catalog['objects']}; geometries = {g['id']: g for g in catalog['geometries']}
@@ -71,9 +111,10 @@ def _apply(read, catalog, path_):
         # The early period normally cuts the object's first geometry. 'laterGeometry': a later geometry of the same
         # object, where the old road is longer than what the first map after it draws (that map is then the gap below).
         own = [gp['geometryId'] for gp in o['geometryPeriods']] if e.get('laterGeometry') else [o['geometryPeriods'][0]['geometryId']]
-        # A geometry of several paths is dated whole ('wholeGeometry'), or on one of its paths ('pathIndex').
+        # A geometry of several paths is dated whole ('wholeGeometry'), on one of its paths ('pathIndex'), or by cuts
+        # on its paths ('pathRanges', see _path_cuts).
         multi = len(g['paths']) != 1 and 'pathIndex' not in e; pi = e.get('pathIndex', 0)
-        if digest(g) != e['geometryHash'] or g['id'] not in own or (multi and not e.get('wholeGeometry')) or not 0 <= pi < len(g['paths']):
+        if digest(g) != e['geometryHash'] or g['id'] not in own or (multi and not (e.get('wholeGeometry') or 'pathRanges' in e)) or not 0 <= pi < len(g['paths']):
             raise ValueError('Changed Hammarlandsvägen geometry ' + e['objectId'])
         path = g['paths'][pi]; line = metric(path) if not multi else None
         length = sum(metric(p).length for p in g['paths']) if multi else line.length
@@ -91,7 +132,9 @@ def _apply(read, catalog, path_):
         if not set(e['maps']) <= set(labels) or min(labels[k]['year'] for k, v in e['maps'].items() if v == 'present') != e['firstYear']:
             raise ValueError('First year is not the first map marked present: ' + e['objectId'])
         rs = e['ranges']
-        if multi:       # a geometry of several paths is only ever dated whole
+        if multi and 'pathRanges' in e:
+            plans.append(_path_cuts(e, o, g)); continue
+        if multi:       # a geometry of several paths is dated whole, or by explicit cuts on its paths ('pathRanges')
             if rs != [[0.0, round(length, 1)]]:
                 raise ValueError('Invalid same-road ranges ' + e['objectId'])
             plans.append((e, o, g, deepcopy(g['paths']), True, [[0, 1]])); continue
@@ -221,6 +264,7 @@ def _apply(read, catalog, path_):
         o['geometryPeriods'].insert(0, dict(geometryId=gid, **{'from': e['firstYear'], 'to': e['until']}, certainty='inferred', evidenceIds=refs, basis=basis, **cov))
         o['hammarlandsvagenMainRoad'] = dict(reviewedAt=review['reviewedAt'], previousFirstYear=e.get('gapUntil', e['until']), ranges=e['ranges'], constructionYear=None,
                                              **({'pathIndex': e['pathIndex']} if 'pathIndex' in e else {}),
+                                             **({'pathRanges': e['pathRanges']} if 'pathRanges' in e else {}),
                                              **({'unknownFrom': e['until']} if e.get('gapUntil') else {}),
                                              **({'review': src} if path_ != 'data/hammarlandsvagen-main-road.json' else {}))
 

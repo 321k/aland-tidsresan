@@ -12,7 +12,8 @@ EXTRA = {'eckero-1929': 'map-39091228', 'eckero-1956': 'map-37971493'}
 for k, v in EXTRA.items():
     maps.MAPS[k] = {'tiles_url': f'https://historicmaps2.vanhatkartat.fi/maps/mml/{v}/{{z}}/{{x}}/{{y}}.png'}
 R = 'docs/reviews/hammarlandsvagen-main-road-2026-11-18'
-L = LineString(json.load(open(f'{R}/data/reference.json'))['metric'])
+import os
+L = LineString(json.load(open(os.environ.get('REF', f'{R}/data/reference.json')))['metric'])   # REF: another reference line
 d, h, S, out = float(sys.argv[1]), float(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
 YEAR = int(sys.argv[5]) if len(sys.argv) > 5 else None   # optional: draw what the catalogue shows that year (magenta)
 cx, cy = L.interpolate(d).coords[0]

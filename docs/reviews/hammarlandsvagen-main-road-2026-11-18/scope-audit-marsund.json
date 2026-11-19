@@ -1,0 +1,31 @@
+{
+ "comparedWith": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-marsund.json.gz (the catalogue as deployed after the atlas fix) and data/map-scan-cache/review/hammarlandsvagen-main-road/marsund-before/historical-roads.json",
+ "catalogue": {
+  "objectsAdded": [],
+  "objectsRemoved": [],
+  "objectsChanged": {
+   "road:marsund:eckero-hammarland": [
+    "states",
+    "geometryPeriods",
+    "evidence"
+   ]
+  },
+  "geometriesAdded": [
+   "geometry:hammarlandsvagen-marsund:eckero-hammarland"
+  ],
+  "geometriesChanged": [],
+  "sourcesAdded": [
+   "review:hammarlandsvagen-marsund"
+  ],
+  "otherKeysChanged": [
+   "recordedAt"
+  ]
+ },
+ "historicalRoads": {
+  "atlas-1894/atlas-1894-1": {
+   "intervalsAdded": 4,
+   "intervalsRemoved": 0,
+   "otherFields": []
+  }
+ }
+}

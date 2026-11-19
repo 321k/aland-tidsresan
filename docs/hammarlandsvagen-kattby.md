@@ -46,6 +46,5 @@ Drygsböle (see `docs/hammarlandsvagen-nafsby.md`).
 
 ## Open items
 
-- West of the object (from 18.6 km) the Marsund connection to Eckerö is also shown from 1959 only. The Eckerö 1929
-  sheet draws the road continuing west. Before the bridge there was a ferry, so whether the road reached the sound
-  needs its own look.
+- West of the object (from 18.6 km), the Marsund connection: Marby and Överby–Kyrkoby are dated from 1929, see
+  `docs/hammarlandsvagen-marsund.md`. The rest, with the old road to the ferry, is still open.
