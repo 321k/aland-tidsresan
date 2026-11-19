@@ -8,7 +8,7 @@ from maps import tile_window
 from mariehamn_frame_1942 import TO_METRIC
 from shapely.geometry import LineString, box
 from PIL import Image, ImageDraw
-for k, v in {'eckero-1929': 'map-39091228', 'eckero-1956': 'map-37971493'}.items():
+for k, v in {'eckero-1929': 'map-39091228', 'eckero-1956': 'map-37971493', 'morby-1929': 'map-38157016', 'bovik-1946': 'map-38157019'}.items():
     maps.MAPS[k] = {'tiles_url': f'https://historicmaps2.vanhatkartat.fi/maps/mml/{v}/{{z}}/{{x}}/{{y}}.png'}
 R = 'docs/reviews/hammarlandsvagen-main-road-2026-11-18'
 L = LineString(json.load(open(os.environ.get('REF', f'{R}/data/marsund-reference.json')))['metric'])

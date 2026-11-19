@@ -63,7 +63,7 @@ class HammarlandsvagenMarsundTests(unittest.TestCase):
         self.rejected(lambda r: e(r)['pathRanges'].insert(0, e(r)['pathRanges'].pop(2)), 'not in order')
         self.rejected(lambda r: e(r)['ranges'][1].__setitem__(1, 8300.0), 'do not make the reviewed ranges')
         self.rejected(lambda r: e(r)['pathRanges'].pop(1), 'do not make the reviewed ranges')     # Frebbenby runs on over path 17 (36 m)
-        self.rejected(lambda r: e(r)['maps'].update({'1929-eckero': 'unclear'}), 'First year')
+        self.rejected(lambda r: e(r)['maps'].update({'1929-eckero': 'unclear', '1929-morby': 'unclear'}), 'First year')   # both 1929 sheets
 
 
 if __name__ == '__main__':

@@ -377,3 +377,34 @@ Method and decisions: `docs/hammarlandsvagen-holmberg.md`.
   - The Holmberg, ferry-west, Frebbenby, Överby, Marsund, atlas, Hammarlandsvägen (all four), regional review,
     atlas continuity and dating, Marsund continuity, road date assumption and QGIS road reconciliation Python tests
     pass, 77 tests (`logs/python-tests-holmberg.log`).
+
+## Kyrkoby to Bagars (eleventh batch, 2026-11-19)
+
+Method and decisions: `docs/hammarlandsvagen-kyrkoby.md`.
+- **Marsund connection:** its 1929 period gains 9.20–9.40 km and 9.85–10.23 km. The Mörby 1929 and Bovik 1946 sheets
+  are added as sources.
+- **New objects** "Gamla landsvägen · Kyrkoby–Böle" and "Gamla landsvägen · Bagars": the main road until 1959, then
+  their surviving OSM parts.
+- **Build step:** `_old_roads`, for several old roads with surviving parts and no bypass split.
+- **Atlas review:** both objects are late links.
+- **Snapshots:**
+  - `before-kyrkoby.json.gz`: as deployed after the Holmberg batch
+  - `before-kyrkoby-step.json.gz`: built with this step disabled
+  - `before-overby-step.json.gz`: rebuilt for the changed Marsund review. Only the Överby data's input fingerprint
+    changed.
+- **Scope:** `scope-audit-kyrkoby.json`:
+  - added: 2 objects, 4 geometries and 4 sources
+  - changed: the Marsund object and its 1929 cut geometry
+  - 7 atlas intervals added, none removed
+  - nothing else changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-kyrkoby.test.cjs` and `tests/test_hammarlandsvagen_kyrkoby.py`
+  - updated: the Marsund tests (seven stretches) and the object count
+- **`batch-kyrkoby.patch`:** the build hook and asset copy, the atlas links, the roads file, the loader card "Landsvägen
+  norr om Kyrkoby och genom Bagars" with the preview, and the Marsund continuity and object count tests. See
+  `patch-verification-kyrkoby.log`.
+- **Runs:**
+  - All 614 JS tests pass (`logs/js-tests-kyrkoby.log`).
+  - Python, 79 tests (`logs/python-tests-kyrkoby.log`): 78 passed on the first run. One Marsund mutation marked only
+    the Eckerö 1929 sheet unclear, which no longer moves the first year, because the Mörby 1929 sheet is now also
+    cited. It now marks both sheets, and the Marsund tests pass on the rerun appended to the log.

@@ -1,0 +1,42 @@
+{
+ "comparedWith": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-kyrkoby.json.gz (the catalogue as deployed after the Holmberg batch) and data/map-scan-cache/review/hammarlandsvagen-main-road/kyrkoby-before/historical-roads.json",
+ "catalogue": {
+  "objectsAdded": [
+   "road:eckero:gamla-landsvagen:bagars",
+   "road:eckero:gamla-landsvagen:kyrkoby-bole"
+  ],
+  "objectsRemoved": [],
+  "objectsChanged": {
+   "road:marsund:eckero-hammarland": [
+    "evidence",
+    "geometryPeriods",
+    "hammarlandsvagenMainRoad",
+    "states"
+   ]
+  },
+  "geometriesAdded": [
+   "geometry:eckero:gamla-landsvagen:bagars",
+   "geometry:eckero:gamla-landsvagen:bagars:surviving",
+   "geometry:eckero:gamla-landsvagen:kyrkoby-bole",
+   "geometry:eckero:gamla-landsvagen:kyrkoby-bole:surviving"
+  ],
+  "geometriesChanged": [
+   "geometry:hammarlandsvagen-marsund:eckero-hammarland"
+  ],
+  "geometriesRemoved": [],
+  "sourcesAdded": [
+   "nls:map-38157016",
+   "nls:map-38157019",
+   "road:eckero:gamla-landsvagen-kyrkoby:survey",
+   "review:hammarlandsvagen-kyrkoby"
+  ],
+  "otherKeysChanged": []
+ },
+ "historicalRoads": {
+  "atlas-1894/atlas-1894-1": {
+   "intervalsAdded": 7,
+   "intervalsRemoved": 0,
+   "otherFields": []
+  }
+ }
+}

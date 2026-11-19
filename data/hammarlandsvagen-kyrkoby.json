@@ -1,0 +1,538 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "connection": "road:marsund:eckero-hammarland",
+ "connectionHash": "e0bcdd823d64cb7582f494e5ff70fe14ad5cbe2ec6f22864ba4ba606f9e658e1",
+ "source": {
+  "id": "review:hammarlandsvagen-kyrkoby",
+  "title": "Gamla landsvägen vid Kyrkoby och Bagars · granskning",
+  "url": "assets/hammarlandsvagen-kyrkoby.json"
+ },
+ "sources": [
+  {
+   "id": "road:eckero:gamla-landsvagen-kyrkoby:survey",
+   "title": "OpenStreetMap · Södra Bölevägen och vägen genom Bagars",
+   "url": "https://www.openstreetmap.org/way/638460377",
+   "issuedAt": "2026"
+  }
+ ],
+ "maps": {
+  "1929": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1946": {
+   "sourceId": "nls:map-38157019",
+   "year": 1946
+  },
+  "1929-morby": {
+   "sourceId": "nls:map-38157016",
+   "year": 1929
+  },
+  "1956": {
+   "sourceId": "nls:map-37971493",
+   "year": 1956
+  }
+ },
+ "oldRoads": [
+  {
+   "id": "road:eckero:gamla-landsvagen:kyrkoby-bole",
+   "name": "Gamla landsvägen · Kyrkoby–Böle",
+   "routeId": "road:Gamla landsvägen Eckerö",
+   "modernRoadClass": "secondary",
+   "roadWidth": 4,
+   "firstYear": 1929,
+   "mainUntil": 1959,
+   "surveySourceId": "road:eckero:gamla-landsvagen-kyrkoby:survey",
+   "maps": {
+    "1929": "present",
+    "1929-morby": "present",
+    "1946": "present",
+    "1956": "present"
+   },
+   "mainUntilBasis": "Förbindelsens antagande: dagens väg visas från 1959, då bron över Marsund öppnades; grundkartan 1968 ritar den som huvudväg. Mellan utgåvorna 1946/1956 och 1968 finns ingen karta här.",
+   "paths": [
+    [
+     [
+      19.60140898475107,
+      60.21784911960204
+     ],
+     [
+      19.6016498,
+      60.2182166
+     ],
+     [
+      19.6015291,
+      60.2185784
+     ],
+     [
+      19.601046,
+      60.21888
+     ],
+     [
+      19.6003213,
+      60.2191213
+     ],
+     [
+      19.5995965,
+      60.2191937
+     ],
+     [
+      19.5986302,
+      60.2195133
+     ],
+     [
+      19.5974223,
+      60.220026
+     ],
+     [
+      19.5964559,
+      60.2204783
+     ],
+     [
+      19.5956103,
+      60.2209005
+     ],
+     [
+      19.59505,
+      60.221148
+     ],
+     [
+      19.594656,
+      60.221308
+     ],
+     [
+      19.594195,
+      60.221545
+     ],
+     [
+      19.593787,
+      60.221753
+     ],
+     [
+      19.593503,
+      60.221897
+     ],
+     [
+      19.593503,
+      60.221897
+     ],
+     [
+      19.593251,
+      60.221953
+     ],
+     [
+      19.592997,
+      60.222076
+     ],
+     [
+      19.592471,
+      60.222406
+     ],
+     [
+      19.591887,
+      60.222917
+     ],
+     [
+      19.591476,
+      60.223394
+     ],
+     [
+      19.591305,
+      60.223605
+     ],
+     [
+      19.591015,
+      60.223825
+     ],
+     [
+      19.590809,
+      60.224056
+     ],
+     [
+      19.590771,
+      60.224238
+     ],
+     [
+      19.590779,
+      60.224428
+     ],
+     [
+      19.590846,
+      60.224596
+     ],
+     [
+      19.590659,
+      60.224894
+     ],
+     [
+      19.59130694969311,
+      60.22506135906515
+     ]
+    ]
+   ],
+   "lengthMeters": 1093.7,
+   "laterPaths": [
+    [
+     [
+      19.59505,
+      60.221148
+     ],
+     [
+      19.594656,
+      60.221308
+     ],
+     [
+      19.594195,
+      60.221545
+     ],
+     [
+      19.593787,
+      60.221753
+     ],
+     [
+      19.593503,
+      60.221897
+     ]
+    ],
+    [
+     [
+      19.593503,
+      60.221897
+     ],
+     [
+      19.593251,
+      60.221953
+     ],
+     [
+      19.592997,
+      60.222076
+     ],
+     [
+      19.592471,
+      60.222406
+     ],
+     [
+      19.591887,
+      60.222917
+     ],
+     [
+      19.591476,
+      60.223394
+     ],
+     [
+      19.591305,
+      60.223605
+     ],
+     [
+      19.591015,
+      60.223825
+     ],
+     [
+      19.590809,
+      60.224056
+     ],
+     [
+      19.590771,
+      60.224238
+     ],
+     [
+      19.590779,
+      60.224428
+     ],
+     [
+      19.590846,
+      60.224596
+     ],
+     [
+      19.590659,
+      60.224894
+     ]
+    ]
+   ],
+   "laterCanonicalRanges": [
+    [
+     0.502901,
+     0.963004
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/638460378",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "basis": "Den del av vägen som ligger på den gamla landsvägen (sockenkartan 1929); resten av vägen är yngre eller annan."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/638460377",
+     "sourceVertexRange": [
+      5,
+      17
+     ],
+     "sourceVertexCount": 18,
+     "basis": "Den del av vägen som ligger på den gamla landsvägen (sockenkartan 1929); resten av vägen är yngre eller annan."
+    }
+   ],
+   "trace": [
+    [
+     20477905.099438574,
+     6678410.994415192
+    ],
+    [
+     20477918.697890814,
+     6678451.8534051
+    ],
+    [
+     20477912.248479176,
+     6678492.211466984
+    ],
+    [
+     20477885.671664715,
+     6678525.972580872
+    ],
+    [
+     20477845.66291209,
+     6678553.095884979
+    ],
+    [
+     20477805.53933472,
+     6678561.404495707
+    ],
+    [
+     20477752.192964256,
+     6678597.344916739
+    ],
+    [
+     20477685.586892746,
+     6678654.869568058
+    ],
+    [
+     20477632.33074173,
+     6678705.59296246
+    ],
+    [
+     20477585.749550954,
+     6678752.915728401
+    ],
+    [
+     20477519.18448828,
+     6678817.1599130705
+    ],
+    [
+     20477472.603297506,
+     6678864.482679012
+    ],
+    [
+     20477439.37202722,
+     6678905.004188035
+    ],
+    [
+     20477392.913862955,
+     6678972.485554025
+    ],
+    [
+     20477353.233181026,
+     6679053.365124931
+    ],
+    [
+     20477340.422919445,
+     6679100.5101399245
+    ],
+    [
+     20477330.620014183,
+     6679140.821558363
+    ],
+    [
+     20477320.817108918,
+     6679181.132976801
+    ],
+    [
+     20477350.097985473,
+     6679217.967220645
+    ]
+   ],
+   "sameRoadMeters": 20,
+   "basis": "Den gamla landsvägen norr om Kyrkoby (\"från Storby\"), väster om dagens raka väg: runt en kulle vid Furuboda och sedan nordväst till Kristiansund. Sockenkartorna 1929 (Eckerö och Mörby) och utgåvorna 1946 och 1956 ritar den. En del av den är dagens Södra Bölevägen.",
+   "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (rutnät 50 m) där inget finns kvar, och följer OpenStreetMap där vägen finns kvar (inom 20 m). Ändarna är fästa vid förbindelsens delar från 1929.",
+   "laterBasis": "Efter att dagens raka väg tagit över visas bara de delar som finns kvar i dag (Södra Bölevägen), med samma koordinater."
+  },
+  {
+   "id": "road:eckero:gamla-landsvagen:bagars",
+   "name": "Gamla landsvägen · Bagars",
+   "routeId": "road:Gamla landsvägen Eckerö",
+   "modernRoadClass": "secondary",
+   "roadWidth": 4,
+   "firstYear": 1929,
+   "mainUntil": 1959,
+   "surveySourceId": "road:eckero:gamla-landsvagen-kyrkoby:survey",
+   "maps": {
+    "1929-morby": "present",
+    "1946": "present"
+   },
+   "mainUntilBasis": "Förbindelsens antagande: dagens väg visas från 1959, då bron över Marsund öppnades; grundkartan 1968 ritar den som huvudväg. Mellan utgåvorna 1946/1956 och 1968 finns ingen karta här.",
+   "paths": [
+    [
+     [
+      19.5884945379008,
+      60.226169967021164
+     ],
+     [
+      19.5872891,
+      60.2260776
+     ],
+     [
+      19.58633,
+      60.225842
+     ],
+     [
+      19.58553,
+      60.225893
+     ],
+     [
+      19.585063,
+      60.22593
+     ],
+     [
+      19.58479,
+      60.225928
+     ],
+     [
+      19.584474,
+      60.225928
+     ],
+     [
+      19.584141,
+      60.225928
+     ],
+     [
+      19.583841,
+      60.225976
+     ],
+     [
+      19.5836556,
+      60.2260776
+     ],
+     [
+      19.5827473,
+      60.2261994
+     ],
+     [
+      19.5818389,
+      60.2263076
+     ],
+     [
+      19.5809305,
+      60.2263617
+     ],
+     [
+      19.58062011595554,
+      60.226391377052906
+     ]
+    ]
+   ],
+   "lengthMeters": 453.7,
+   "laterPaths": [
+    [
+     [
+      19.58633,
+      60.225842
+     ],
+     [
+      19.58553,
+      60.225893
+     ],
+     [
+      19.585063,
+      60.22593
+     ],
+     [
+      19.58479,
+      60.225928
+     ],
+     [
+      19.584474,
+      60.225928
+     ],
+     [
+      19.584141,
+      60.225928
+     ],
+     [
+      19.583841,
+      60.225976
+     ]
+    ]
+   ],
+   "laterCanonicalRanges": [
+    [
+     0.279612,
+     0.586983
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/642668321",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 8,
+     "basis": "Den del av vägen som ligger på den gamla landsvägen (sockenkartan 1929); resten av vägen är yngre eller annan."
+    }
+   ],
+   "trace": [
+    [
+     20477195.00456633,
+     6679342.450739643
+    ],
+    [
+     20477128.13475715,
+     6679332.575584429
+    ],
+    [
+     20477077.741552744,
+     6679324.34851481
+    ],
+    [
+     20477027.38310006,
+     6679321.649602854
+    ],
+    [
+     20476977.06255834,
+     6679324.981408346
+    ],
+    [
+     20476926.776768338,
+     6679333.841371501
+    ],
+    [
+     20476876.52257081,
+     6679347.72693253
+    ],
+    [
+     20476826.25889554,
+     6679360.104814197
+    ],
+    [
+     20476775.957309302,
+     6679366.451978414
+    ],
+    [
+     20476758.776935205,
+     6679369.865562548
+    ]
+   ],
+   "sameRoadMeters": 20,
+   "basis": "Den gamla landsvägen rakt genom Bagars, söder om dagens båge. Sockenkartan 1929 (Mörby) och utgåvan 1946 ritar den.",
+   "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (rutnät 50 m) där inget finns kvar, och följer OpenStreetMap där vägen finns kvar (inom 20 m). Ändarna är fästa vid förbindelsens delar från 1929.",
+   "laterBasis": "Efter att dagens väg tagit över visas bara den del som finns kvar i dag, med samma koordinater."
+  }
+ ],
+ "method": "De gamla vägarna avlästa för hand på sockenkartorna 1012 03 Eckerö 1929 och 1021 01 Mörby 1929 (rutnät 50 m) och jämförda med utgåvan 1946 (Bovik), grundkartorna 1968–1993 (blad 101203, 102101) och OpenStreetMap 2026."
+}

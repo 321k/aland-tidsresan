@@ -5,7 +5,7 @@ sys.path.insert(0, __file__.rsplit('/', 1)[0]); sys.path.insert(0, 'scripts')
 import numpy as np, maps
 from maps import tile_window
 from shapely.geometry import LineString
-for k, v in {'eckero-1929': 'map-39091228', 'eckero-1956': 'map-37971493'}.items():
+for k, v in {'eckero-1929': 'map-39091228', 'eckero-1956': 'map-37971493', 'morby-1929': 'map-38157016', 'bovik-1946': 'map-38157019'}.items():
     maps.MAPS[k] = {'tiles_url': f'https://historicmaps2.vanhatkartat.fi/maps/mml/{v}/{{z}}/{{x}}/{{y}}.png'}
 R = 'docs/reviews/hammarlandsvagen-main-road-2026-11-18'
 
