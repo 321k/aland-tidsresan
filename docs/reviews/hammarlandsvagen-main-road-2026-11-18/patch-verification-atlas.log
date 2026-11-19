@@ -1,0 +1,13 @@
+batch-atlas.patch, 2026-11-18
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/hammarlandsvagen-main-road/atlas-before/ to the working tree):
+- scripts/build_temporal_objects.py (untracked)
+- scripts/regional_road_review.py (untracked)
+- data/regional-road-review.json (untracked)
+- dist/assets/historical-roads.json (tracked, modified)
+- dist/index.html (tracked, modified)
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; all five results are byte-identical
+to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to all five files.

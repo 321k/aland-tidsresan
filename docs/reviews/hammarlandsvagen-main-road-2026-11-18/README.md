@@ -149,3 +149,34 @@ Method and decisions: `docs/hammarlandsvagen-kattby.md`.
   - All 599 JS tests pass (`logs/js-tests-kattby.log`).
   - The Kattby, Näfsby, south, north, Marsund continuity, road date assumption and QGIS reconciliation Python tests
     pass, 49 tests (`logs/python-tests-kattby.log`).
+
+## The 1894 atlas line (fifth change, same day)
+
+Method and decisions: `docs/hammarlandsvagen-main-road.md`, "Also fixed: the 1894 atlas line beside the 1929 road".
+- **Problem:** between Kattby and Smedens, the schematic 1894 atlas line was drawn in 1929–1967 beside the old road
+  dated by the four batches above (`renders/atlas-1894-in-1950.jpg`).
+- **Fix:**
+  - `data/regional-road-review.json` names the old Smedens and Näfsby lines and the five Näfsby objects.
+  - `scripts/regional_road_review.py` takes `links='early'|'late'|'all'`.
+  - `scripts/build_temporal_objects.py` runs the review early, and again late after the Kattby step.
+  - `dist/assets/historical-roads.json` is rebuilt with `scripts/build_historical_roads.py`.
+- **Snapshots:** in `data/map-scan-cache/review/hammarlandsvagen-main-road/`: `before-atlas.json.gz` (the
+  catalogue as deployed after the Kattby batch) and `atlas-before/` (the files before this change).
+- **Scope:** `scope-audit-atlas.json`:
+  - 23 replacement intervals added on `atlas-1894-1`, none removed
+  - 7 objects gain one `regional-context` evidence each
+  - nothing else changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-atlas.test.cjs` (the drawn atlas line by year; it fails on the old roads file for
+    both stated reasons) and `tests/test_hammarlandsvagen_atlas.py` (the early/late split, replayed on the snapshot).
+  - updated: the replay comparisons in `tests/test_hammarlandsvagen_main_road.py` and
+    `tests/test_hammarlandsvagen_nafsby.py` leave out the atlas review's evidence, which another step adds.
+- **`batch-atlas.patch`:** `scripts/build_temporal_objects.py`, `scripts/regional_road_review.py`,
+  `data/regional-road-review.json`, `dist/assets/historical-roads.json` and `dist/index.html` (the card "Atlasens
+  väg 1894 ersatt längs Hammarlandsvägen" and the preview). See `patch-verification-atlas.log`.
+- **Runs:**
+  - All 601 JS tests pass (`logs/js-tests-atlas.log`).
+  - The atlas, Hammarlandsvägen (all four), regional review, atlas continuity and dating, Marsund continuity and
+    road date assumption Python tests pass, 32 tests (`logs/python-tests-atlas.log`).
+  - `tests/test_emkarby_road_continuity.py` has one failure, the same before this change ("Changed applied
+    Emkarby review" is raised where "shared road" is expected). It is not part of this batch.

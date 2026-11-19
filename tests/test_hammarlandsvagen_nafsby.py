@@ -37,7 +37,9 @@ class HammarlandsvagenNafsbyTests(unittest.TestCase):
         catalog = json.loads(json.dumps(self.apply(), ensure_ascii=False))
         ids = [e['objectId'] for e in self.review['early']] + [self.review['oldRoad']['id']]
         key = lambda c, k: {x['id']: x for x in c[k]}
-        self.assertEqual({i: key(catalog, 'objects')[i] for i in ids}, {i: key(self.built, 'objects')[i] for i in ids})
+        # The 1894 atlas review links these objects too (data/regional-road-review.json), outside this step.
+        atlas = lambda o: {**o, 'evidence': [e for e in o['evidence'] if not e['id'].endswith(':regional-context:atlas-1894-1')]}
+        self.assertEqual({i: atlas(key(catalog, 'objects')[i]) for i in ids}, {i: atlas(key(self.built, 'objects')[i]) for i in ids})
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in ids], [o for o in self.pristine['objects'] if o['id'] not in ids])
         self.assertEqual(len(catalog['geometries']) - len(self.pristine['geometries']), len(ids))
         self.assertEqual(catalog['cityStages'], self.pristine['cityStages'])

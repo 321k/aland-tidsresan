@@ -1,0 +1,96 @@
+{
+ "comparedWith": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-atlas.json.gz (the catalogue as deployed after the Kattby batch) and data/map-scan-cache/review/hammarlandsvagen-main-road/atlas-before/historical-roads.json",
+ "catalogue": {
+  "objectsAdded": [],
+  "objectsRemoved": [],
+  "objectsChanged": {
+   "road:rural:hammarland-vastmyra-old-school-approach": {
+    "fields": [
+     "evidence"
+    ],
+    "evidenceAdded": [
+     "road:rural:hammarland-vastmyra-old-school-approach:regional-context:atlas-1894-1"
+    ],
+    "evidenceRemoved": []
+   },
+   "road:rural:hammarland-vastmyra-old-school-approach-east": {
+    "fields": [
+     "evidence"
+    ],
+    "evidenceAdded": [
+     "road:rural:hammarland-vastmyra-old-school-approach-east:regional-context:atlas-1894-1"
+    ],
+    "evidenceRemoved": []
+   },
+   "road:rural:hammarland-way-1419026568": {
+    "fields": [
+     "evidence"
+    ],
+    "evidenceAdded": [
+     "road:rural:hammarland-way-1419026568:regional-context:atlas-1894-1"
+    ],
+    "evidenceRemoved": []
+   },
+   "road:rural:hammarland-way-545279820": {
+    "fields": [
+     "evidence"
+    ],
+    "evidenceAdded": [
+     "road:rural:hammarland-way-545279820:regional-context:atlas-1894-1"
+    ],
+    "evidenceRemoved": []
+   },
+   "road:rural:hammarland-way-1419026567": {
+    "fields": [
+     "evidence"
+    ],
+    "evidenceAdded": [
+     "road:rural:hammarland-way-1419026567:regional-context:atlas-1894-1"
+    ],
+    "evidenceRemoved": []
+   },
+   "road:hammarland:gamla-hammarlandsvagen:smedens": {
+    "fields": [
+     "evidence"
+    ],
+    "evidenceAdded": [
+     "road:hammarland:gamla-hammarlandsvagen:smedens:regional-context:atlas-1894-1"
+    ],
+    "evidenceRemoved": []
+   },
+   "road:hammarland:gamla-hammarlandsvagen:nafsby": {
+    "fields": [
+     "evidence"
+    ],
+    "evidenceAdded": [
+     "road:hammarland:gamla-hammarlandsvagen:nafsby:regional-context:atlas-1894-1"
+    ],
+    "evidenceRemoved": []
+   }
+  },
+  "otherKeysChanged": []
+ },
+ "historicalRoads": {
+  "featuresChanged": {
+   "atlas-1894/atlas-1894-1": {
+    "intervalsAdded": 23,
+    "intervalsRemoved": 0,
+    "objects": [
+     "road:hammarland:gamla-hammarlandsvagen:nafsby",
+     "road:hammarland:gamla-hammarlandsvagen:smedens",
+     "road:rural:hammarland-hammarlandsvagen-church-corridor",
+     "road:rural:hammarland-hammarlandsvagen-kattby-west",
+     "road:rural:hammarland-hammarlandsvagen-postad-korsangen",
+     "road:rural:hammarland-hammarlandsvagen-vastmyra",
+     "road:rural:hammarland-vastmyra-old-school-approach",
+     "road:rural:hammarland-vastmyra-old-school-approach-east",
+     "road:rural:hammarland-way-1419026567",
+     "road:rural:hammarland-way-1419026568",
+     "road:rural:hammarland-way-345143750",
+     "road:rural:hammarland-way-545279820"
+    ]
+   }
+  },
+  "otherFieldsChanged": []
+ }
+}

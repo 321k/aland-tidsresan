@@ -68,6 +68,31 @@ to the whole Långskata geometry, and `canonicalRange` is metadata only, so all 
 now has its own cut geometry (`geometry:lemland:langskata-2-old-road`), like every other partial period in the
 catalogue.
 
+## Also fixed: the 1894 atlas line beside the 1929 road
+
+The 1894 atlas draws Storby–Hammarland–Godby as one schematic line (`atlas-1894-1`). It is hidden only where a dated
+road replaces it in that year: `data/regional-road-review.json` names the road objects, and
+`scripts/build_historical_roads.py` writes an interval of the atlas line for each geometry of each named object. The
+intervals match on geometry id.
+
+The four batches above added 1929 geometries, but `build_historical_roads.py` was not rerun, and the old roads through
+Näfsby and Smedens were not named. So between Kattby and Smedens the atlas line was still drawn in 1929–1967, about
+300–500 m from the dated old road (`renders/atlas-1894-in-1950.jpg`).
+
+Fix (2026-11-18):
+- The review names the old Smedens and Näfsby lines and the five Näfsby objects.
+- The Smedens and Näfsby lines are created by build steps that run after the review. Their links are marked
+  `afterStep`. The build runs the review with `links='early'`, which leaves those links out, and again with
+  `links='late'` straight after the Kattby step. The late run only adds those two objects' evidence; it does not
+  re-sort evidence that later steps have appended (re-sorting changed the Alvin-dated objects' fingerprints).
+- `build_historical_roads.py` was rerun.
+
+Atlas vertices 10–13.6 are now hidden in 1929–1958. In 1900–1928 the drawn line is unchanged (18.1 km). In
+1929–1958 it is 14.6 km instead of 18.1, and in 1959–1967 it is 3.3 km instead of 6.7, the same as from 1968.
+Scope (`docs/reviews/hammarlandsvagen-main-road-2026-11-18/scope-audit-atlas.json`):
+- 23 intervals added on `atlas-1894-1`, none removed, no other change to the roads file.
+- 7 objects gain one `regional-context` evidence each. Nothing else in the catalogue changed.
+
 ## Open items
 
 - Southern half, Mariehamn–Söderby: today's road is new there, with the Gottby straight first on the 1978 map and
