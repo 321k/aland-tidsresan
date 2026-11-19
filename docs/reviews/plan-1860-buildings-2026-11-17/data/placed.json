@@ -1,0 +1,1220 @@
+[
+ {
+  "key": "lasarett",
+  "name": "Lasarettet",
+  "label": "Lasaret",
+  "px": [
+   [
+    420,
+    279.4
+   ],
+   [
+    430,
+    280.4
+   ],
+   [
+    430,
+    287.6
+   ],
+   [
+    484,
+    287.6
+   ],
+   [
+    480.6,
+    311
+   ],
+   [
+    470,
+    310
+   ],
+   [
+    470,
+    306
+   ],
+   [
+    444,
+    306
+   ],
+   [
+    429,
+    303
+   ],
+   [
+    417.4,
+    302.6
+   ]
+  ],
+  "cell": [
+   "Norragatan i planen",
+   "Norra esplanadens gata",
+   "Västra kvarterens gata",
+   "Planerad gata väster om esplanaden"
+  ],
+  "extrapolation": 0.96,
+  "area": 1135,
+  "lonlat": [
+   [
+    19.9287079,
+    60.0992954
+   ],
+   [
+    19.9288736,
+    60.0992998
+   ],
+   [
+    19.9289043,
+    60.0992365
+   ],
+   [
+    19.9297762,
+    60.0993078
+   ],
+   [
+    19.9298165,
+    60.0991037
+   ],
+   [
+    19.9296419,
+    60.0990973
+   ],
+   [
+    19.9296255,
+    60.0991316
+   ],
+   [
+    19.9292074,
+    60.0990949
+   ],
+   [
+    19.9289537,
+    60.0990997
+   ],
+   [
+    19.9287656,
+    60.0990866
+   ]
+  ]
+ },
+ {
+  "key": "lasarett-nw",
+  "name": "Lasarettets nordvästra flygel",
+  "label": "Lasaret",
+  "px": [
+   [
+    387,
+    258
+   ],
+   [
+    417,
+    264
+   ],
+   [
+    416,
+    272
+   ],
+   [
+    398,
+    270
+   ],
+   [
+    396,
+    294
+   ],
+   [
+    384,
+    293
+   ]
+  ],
+  "cell": [
+   "Norragatan i planen",
+   "Norra esplanadens gata",
+   "Västra kvarterens gata",
+   "Planerad gata väster om esplanaden"
+  ],
+  "extrapolation": 1.09,
+  "area": 538,
+  "lonlat": [
+   [
+    19.928081,
+    60.0994442
+   ],
+   [
+    19.928593,
+    60.0994282
+   ],
+   [
+    19.9286114,
+    60.0993558
+   ],
+   [
+    19.9283118,
+    60.0993502
+   ],
+   [
+    19.9283846,
+    60.0991324
+   ],
+   [
+    19.9281873,
+    60.0991243
+   ]
+  ]
+ },
+ {
+  "key": "lasarett-ne",
+  "name": "Lasarettets nordöstra flygel",
+  "label": "Lasaret",
+  "px": [
+   [
+    493,
+    275
+   ],
+   [
+    519,
+    277
+   ],
+   [
+    514,
+    313
+   ],
+   [
+    505,
+    312
+   ],
+   [
+    507,
+    284
+   ],
+   [
+    492,
+    283
+   ]
+  ],
+  "cell": [
+   "Norragatan i planen",
+   "Norra esplanadens gata",
+   "Västra kvarterens gata",
+   "Planerad gata väster om esplanaden"
+  ],
+  "extrapolation": 1.07,
+  "area": 428,
+  "lonlat": [
+   [
+    19.9298708,
+    60.0994264
+   ],
+   [
+    19.9303008,
+    60.0994409
+   ],
+   [
+    19.9303621,
+    60.0991332
+   ],
+   [
+    19.9302132,
+    60.0991292
+   ],
+   [
+    19.930134,
+    60.0993674
+   ],
+   [
+    19.929887,
+    60.0993571
+   ]
+  ]
+ },
+ {
+  "key": "lasarett-sw",
+  "name": "Lasarettets sydvästra byggnad",
+  "label": "Lasaret",
+  "px": [
+   [
+    378.6,
+    320.4
+   ],
+   [
+    409,
+    324
+   ],
+   [
+    407.4,
+    340.4
+   ],
+   [
+    377.4,
+    337
+   ]
+  ],
+  "cell": [
+   "Norragatan i planen",
+   "Norra esplanadens gata",
+   "Västra kvarterens gata",
+   "Planerad gata väster om esplanaden"
+  ],
+  "extrapolation": 0.61,
+  "area": 466,
+  "lonlat": [
+   [
+    19.9282217,
+    60.0988693
+   ],
+   [
+    19.9287229,
+    60.0988847
+   ],
+   [
+    19.9287678,
+    60.0987371
+   ],
+   [
+    19.9282756,
+    60.098718
+   ]
+  ]
+ },
+ {
+  "key": "lasarett-se",
+  "name": "Lasarettets sydöstra byggnad",
+  "label": "Lasaret",
+  "px": [
+   [
+    481.6,
+    334.6
+   ],
+   [
+    510,
+    339.6
+   ],
+   [
+    508.6,
+    352.4
+   ],
+   [
+    480,
+    349
+   ]
+  ],
+  "cell": [
+   "Norragatan i planen",
+   "Norra esplanadens gata",
+   "Västra kvarterens gata",
+   "Planerad gata väster om esplanaden"
+  ],
+  "extrapolation": 0.6,
+  "area": 343,
+  "lonlat": [
+   [
+    19.9299281,
+    60.0989045
+   ],
+   [
+    19.9304026,
+    60.0989055
+   ],
+   [
+    19.9304305,
+    60.0987967
+   ],
+   [
+    19.9299605,
+    60.0987799
+   ]
+  ]
+ },
+ {
+  "key": "radhus",
+  "name": "Rådhuset",
+  "label": "Rådhus",
+  "px": [
+   [
+    309,
+    518.6
+   ],
+   [
+    327.6,
+    520.6
+   ],
+   [
+    326.6,
+    533
+   ],
+   [
+    328.6,
+    534.2
+   ],
+   [
+    326.6,
+    548
+   ],
+   [
+    321.6,
+    549.4
+   ],
+   [
+    321,
+    562
+   ],
+   [
+    303,
+    559.4
+   ]
+  ],
+  "cell": [
+   "Norra esplanadens gata",
+   "Storagatans planerade stråk",
+   "Västra strandens planerade gata",
+   "Västra kvarterens gata"
+  ],
+  "extrapolation": 0.11,
+  "area": 401,
+  "lonlat": [
+   [
+    19.9280649,
+    60.0969206
+   ],
+   [
+    19.9283381,
+    60.0969375
+   ],
+   [
+    19.9283634,
+    60.0968717
+   ],
+   [
+    19.9283959,
+    60.0968685
+   ],
+   [
+    19.9284114,
+    60.096794
+   ],
+   [
+    19.9283442,
+    60.096779
+   ],
+   [
+    19.9283759,
+    60.0967127
+   ],
+   [
+    19.9281094,
+    60.0966978
+   ]
+  ]
+ },
+ {
+  "key": "tullkammare-v",
+  "name": "Tullkammaren, västra längan",
+  "label": "Tullkammare och bostäder för tjenstemän",
+  "px": [
+   [
+    197.5,
+    630
+   ],
+   [
+    212.5,
+    631.5
+   ],
+   [
+    210,
+    671.25
+   ],
+   [
+    194.5,
+    669.5
+   ]
+  ],
+  "cell": [
+   "Storagatans planerade stråk",
+   "Södragatans planerade stråk",
+   "Västra strandens planerade gata",
+   "Västra kvarterens gata"
+  ],
+  "extrapolation": 0,
+  "area": 453,
+  "lonlat": [
+   [
+    19.9268515,
+    60.0960572
+   ],
+   [
+    19.9270733,
+    60.0960738
+   ],
+   [
+    19.9271995,
+    60.0957586
+   ],
+   [
+    19.9269672,
+    60.0957449
+   ]
+  ]
+ },
+ {
+  "key": "tullkammare-o",
+  "name": "Tullkammaren, östra längan",
+  "label": "Tullkammare och bostäder för tjenstemän",
+  "px": [
+   [
+    281.25,
+    640.75
+   ],
+   [
+    310,
+    644.5
+   ],
+   [
+    307,
+    676.25
+   ],
+   [
+    278.25,
+    673
+   ]
+  ],
+  "cell": [
+   "Storagatans planerade stråk",
+   "Södragatans planerade stråk",
+   "Västra strandens planerade gata",
+   "Västra kvarterens gata"
+  ],
+  "extrapolation": 0,
+  "area": 717,
+  "lonlat": [
+   [
+    19.9280998,
+    60.0961309
+   ],
+   [
+    19.9285287,
+    60.0961556
+   ],
+   [
+    19.9286261,
+    60.0958926
+   ],
+   [
+    19.9281961,
+    60.0958666
+   ]
+  ]
+ },
+ {
+  "key": "packhus",
+  "name": "Packhus och nederlagsmagasin",
+  "label": "Packhus och Nederlags Magasiner",
+  "px": [
+   [
+    196.25,
+    685.5
+   ],
+   [
+    307.5,
+    688.25
+   ],
+   [
+    306.25,
+    805
+   ],
+   [
+    191.25,
+    802
+   ]
+  ],
+  "cell": [
+   "Södragatans planerade stråk",
+   "Södra kvarterens tvärgata",
+   "Västra strandens planerade gata",
+   "Västra kvarterens gata"
+  ],
+  "extrapolation": 0.33,
+  "area": 9619,
+  "lonlat": [
+   [
+    19.927056,
+    60.0956123
+   ],
+   [
+    19.9287199,
+    60.0957617
+   ],
+   [
+    19.9291556,
+    60.0948788
+   ],
+   [
+    19.9274596,
+    60.0947238
+   ]
+  ]
+ },
+ {
+  "key": "prestgard",
+  "name": "Prästgården",
+  "label": "Prest gård",
+  "px": [
+   [
+    727,
+    549
+   ],
+   [
+    761,
+    551
+   ],
+   [
+    760,
+    567
+   ],
+   [
+    726,
+    564
+   ]
+  ],
+  "cell": [
+   "Norragatan i planen",
+   "Norra esplanadens gata",
+   "Västra esplanadens gata",
+   "Östra esplanadens gata"
+  ],
+  "extrapolation": 0,
+  "area": 349,
+  "lonlat": [
+   [
+    19.9344408,
+    60.0974485
+   ],
+   [
+    19.9348028,
+    60.0974879
+   ],
+   [
+    19.9348496,
+    60.0973338
+   ],
+   [
+    19.9344769,
+    60.0973039
+   ]
+  ]
+ },
+ {
+  "key": "prestgard-n",
+  "name": "Prästgårdens norra byggnad",
+  "label": "Prest gård",
+  "px": [
+   [
+    734,
+    500.4
+   ],
+   [
+    768,
+    504.4
+   ],
+   [
+    766.8,
+    518.4
+   ],
+   [
+    759,
+    517.6
+   ],
+   [
+    759.8,
+    510
+   ],
+   [
+    742,
+    508.4
+   ],
+   [
+    741.2,
+    515.6
+   ],
+   [
+    733.6,
+    514.8
+   ]
+  ],
+  "cell": [
+   "Norragatan i planen",
+   "Norra esplanadens gata",
+   "Västra esplanadens gata",
+   "Östra esplanadens gata"
+  ],
+  "extrapolation": 0,
+  "area": 214,
+  "lonlat": [
+   [
+    19.9343626,
+    60.0979236
+   ],
+   [
+    19.9347086,
+    60.0979436
+   ],
+   [
+    19.9347461,
+    60.0978082
+   ],
+   [
+    19.9346656,
+    60.0978025
+   ],
+   [
+    19.9346475,
+    60.0978763
+   ],
+   [
+    19.9344663,
+    60.0978611
+   ],
+   [
+    19.9344813,
+    60.0977911
+   ],
+   [
+    19.9344027,
+    60.0977857
+   ]
+  ]
+ },
+ {
+  "key": "kyrka",
+  "name": "Kyrkan",
+  "label": "Kyrka",
+  "px": [
+   [
+    712.6,
+    589.4
+   ],
+   [
+    730,
+    590
+   ],
+   [
+    730,
+    587
+   ],
+   [
+    746,
+    588
+   ],
+   [
+    746.4,
+    594
+   ],
+   [
+    761,
+    595.4
+   ],
+   [
+    771,
+    604
+   ],
+   [
+    770,
+    610
+   ],
+   [
+    761,
+    609.6
+   ],
+   [
+    760,
+    618
+   ],
+   [
+    728,
+    615
+   ],
+   [
+    727,
+    612.4
+   ],
+   [
+    709,
+    611
+   ],
+   [
+    700,
+    607
+   ],
+   [
+    700,
+    594
+   ],
+   [
+    712.4,
+    594.8
+   ]
+  ],
+  "cell": [
+   "Norra esplanadens gata",
+   "Storagatans planerade stråk",
+   "Västra esplanadens gata",
+   "Östra esplanadens gata"
+  ],
+  "extrapolation": 0.19,
+  "area": 468,
+  "lonlat": [
+   [
+    19.934414,
+    60.0971247
+   ],
+   [
+    19.9346016,
+    60.0971421
+   ],
+   [
+    19.9345923,
+    60.0971556
+   ],
+   [
+    19.934767,
+    60.0971695
+   ],
+   [
+    19.934789,
+    60.097143
+   ],
+   [
+    19.9349492,
+    60.0971535
+   ],
+   [
+    19.9350795,
+    60.0971261
+   ],
+   [
+    19.935085,
+    60.0970979
+   ],
+   [
+    19.9349887,
+    60.0970894
+   ],
+   [
+    19.9350014,
+    60.0970503
+   ],
+   [
+    19.9346578,
+    60.0970273
+   ],
+   [
+    19.9346393,
+    60.0970379
+   ],
+   [
+    19.9344467,
+    60.0970237
+   ],
+   [
+    19.9343393,
+    60.0970314
+   ],
+   [
+    19.9342955,
+    60.0970896
+   ],
+   [
+    19.9344296,
+    60.0971003
+   ]
+  ]
+ },
+ {
+  "key": "skolhus",
+  "name": "Skolhuset",
+  "label": "Skolhus",
+  "px": [
+   [
+    714.7,
+    641.3
+   ],
+   [
+    746.3,
+    646.7
+   ],
+   [
+    744.2,
+    659.7
+   ],
+   [
+    712.5,
+    655.8
+   ]
+  ],
+  "cell": [
+   "Norra esplanadens gata",
+   "Storagatans planerade stråk",
+   "Västra esplanadens gata",
+   "Östra esplanadens gata"
+  ],
+  "extrapolation": 0.08,
+  "area": 135,
+  "lonlat": [
+   [
+    19.9346026,
+    60.096894
+   ],
+   [
+    19.93494,
+    60.0969051
+   ],
+   [
+    19.9349555,
+    60.0968441
+   ],
+   [
+    19.934626,
+    60.0968264
+   ]
+  ]
+ },
+ {
+  "key": "gastgifveri",
+  "name": "Gästgiveri och societetshus",
+  "label": "Gästgifveri och Societet",
+  "px": [
+   [
+    1385,
+    664.3
+   ],
+   [
+    1403.3,
+    666.7
+   ],
+   [
+    1415,
+    680
+   ],
+   [
+    1423.3,
+    698.3
+   ],
+   [
+    1427.7,
+    708.3
+   ],
+   [
+    1421.7,
+    723.3
+   ],
+   [
+    1410,
+    736.7
+   ],
+   [
+    1391.7,
+    743.3
+   ],
+   [
+    1375.7,
+    744.3
+   ],
+   [
+    1375.7,
+    734.3
+   ],
+   [
+    1395,
+    731
+   ],
+   [
+    1404.3,
+    720
+   ],
+   [
+    1408.3,
+    708.3
+   ],
+   [
+    1405,
+    688.3
+   ],
+   [
+    1397.7,
+    676.7
+   ],
+   [
+    1385,
+    674.3
+   ]
+  ],
+  "cell": [
+   "Norra esplanadens gata",
+   "Storagatans planerade stråk",
+   "Torggatans planerade stråk",
+   "Östra strandens gata"
+  ],
+  "extrapolation": 0.78,
+  "area": 1314,
+  "lonlat": [
+   [
+    19.9442887,
+    60.0978008
+   ],
+   [
+    19.9445909,
+    60.097827
+   ],
+   [
+    19.9448398,
+    60.0977491
+   ],
+   [
+    19.9450611,
+    60.0976169
+   ],
+   [
+    19.9451812,
+    60.0975416
+   ],
+   [
+    19.945157,
+    60.0974055
+   ],
+   [
+    19.9450296,
+    60.0972782
+   ],
+   [
+    19.9447577,
+    60.0972038
+   ],
+   [
+    19.9444963,
+    60.0971795
+   ],
+   [
+    19.944451,
+    60.0972559
+   ],
+   [
+    19.9447548,
+    60.0973054
+   ],
+   [
+    19.944856,
+    60.0974065
+   ],
+   [
+    19.9448658,
+    60.0975073
+   ],
+   [
+    19.9447182,
+    60.0976611
+   ],
+   [
+    19.9445474,
+    60.0977361
+   ],
+   [
+    19.9443332,
+    60.0977259
+   ]
+  ]
+ },
+ {
+  "key": "skjul-torghandel",
+  "name": "Skjul för torghandel vid Handelstorget",
+  "label": "Skjul för Torghandel",
+  "px": [
+   [
+    1244.4,
+    738
+   ],
+   [
+    1345,
+    753.3
+   ],
+   [
+    1342.3,
+    769
+   ],
+   [
+    1243,
+    754.6
+   ]
+  ],
+  "cell": [
+   "Storagatans planerade stråk",
+   "Södragatans planerade stråk",
+   "Torggatans planerade stråk",
+   "Östra strandens gata"
+  ],
+  "extrapolation": 0.11,
+  "area": 1248,
+  "lonlat": [
+   [
+    19.9423492,
+    60.0970351
+   ],
+   [
+    19.9440021,
+    60.0970562
+   ],
+   [
+    19.9440176,
+    60.096931
+   ],
+   [
+    19.9424106,
+    60.0969142
+   ]
+  ]
+ },
+ {
+  "key": "skjul-fisktorget",
+  "name": "Skjul för torghandel vid Fisktorget",
+  "label": "Skjul för torghandel",
+  "px": [
+   [
+    1495,
+    676.7
+   ],
+   [
+    1511.7,
+    680
+   ],
+   [
+    1508.3,
+    761.7
+   ],
+   [
+    1483.3,
+    760
+   ]
+  ],
+  "cell": [
+   "Norra esplanadens gata",
+   "Storagatans planerade stråk",
+   "Torggatans planerade stråk",
+   "Östra strandens gata"
+  ],
+  "extrapolation": 2.04,
+  "area": 1839,
+  "lonlat": [
+   [
+    19.9460955,
+    60.0979751
+   ],
+   [
+    19.9463778,
+    60.0979878
+   ],
+   [
+    19.9467931,
+    60.0971572
+   ],
+   [
+    19.9463671,
+    60.0971497
+   ]
+  ]
+ },
+ {
+  "key": "wardshus",
+  "name": "Värdshuset i parken",
+  "label": "Wärdshus",
+  "px": [
+   [
+    1403,
+    990
+   ],
+   [
+    1417,
+    991.6
+   ],
+   [
+    1415.6,
+    1019
+   ],
+   [
+    1400,
+    1018
+   ]
+  ],
+  "cell": [
+   "Södragatans planerade stråk",
+   "Södra kvarterens tvärgata",
+   "Torggatans planerade stråk",
+   "Östra strandens gata"
+  ],
+  "extrapolation": 0.66,
+  "area": 302,
+  "lonlat": [
+   [
+    19.9456505,
+    60.0952306
+   ],
+   [
+    19.9458598,
+    60.095225
+   ],
+   [
+    19.9459376,
+    60.0950054
+   ],
+   [
+    19.9457056,
+    60.0950063
+   ]
+  ]
+ },
+ {
+  "key": "simskola",
+  "name": "Simskolan",
+  "label": "Simskola",
+  "px": [
+   [
+    1570.8,
+    1150.8
+   ],
+   [
+    1645,
+    1155
+   ],
+   [
+    1643.3,
+    1186.7
+   ],
+   [
+    1570,
+    1185
+   ]
+  ],
+  "cell": [
+   "Södra kvarterens tvärgata",
+   "Planens södra gränsgata",
+   "Torggatans planerade stråk",
+   "Östra strandens gata"
+  ],
+  "extrapolation": 2.79,
+  "area": 1929,
+  "lonlat": [
+   [
+    19.9487469,
+    60.0939793
+   ],
+   [
+    19.9498613,
+    60.0939647
+   ],
+   [
+    19.949972,
+    60.0936895
+   ],
+   [
+    19.948879,
+    60.0936891
+   ]
+  ]
+ }
+]

@@ -1,0 +1,81 @@
+{
+ "baseline": "catalogue as built 2026-11-19 with this step removed (data/map-scan-cache/review/plan-1860-buildings/before.json.gz)",
+ "summary": {
+  "objects": {
+   "added": 53,
+   "removed": 0,
+   "changed": 0
+  },
+  "geometries": {
+   "added": 53,
+   "removed": 0,
+   "changed": 0
+  },
+  "sources": {
+   "added": 1,
+   "removed": 0,
+   "changed": 0
+  },
+  "cityStages": {
+   "added": 0,
+   "removed": 0,
+   "changed": 0
+  }
+ },
+ "note": "Later steps may add relationships to these objects (the Societetshuset step links the gästgifveri); compared without them.",
+ "added": [
+  "building:plan-1860:gastgifveri",
+  "building:plan-1860:husrad-e1-left",
+  "building:plan-1860:husrad-e1-right",
+  "building:plan-1860:husrad-e1-top",
+  "building:plan-1860:husrad-e2-left",
+  "building:plan-1860:husrad-e2-right",
+  "building:plan-1860:husrad-e3-ne",
+  "building:plan-1860:husrad-e3-nw",
+  "building:plan-1860:husrad-e3-s",
+  "building:plan-1860:husrad-ht-left",
+  "building:plan-1860:husrad-ht-right",
+  "building:plan-1860:husrad-ht-top",
+  "building:plan-1860:husrad-nb-n",
+  "building:plan-1860:husrad-nb-s",
+  "building:plan-1860:husrad-nc-n",
+  "building:plan-1860:husrad-nc-s",
+  "building:plan-1860:husrad-nd-n",
+  "building:plan-1860:husrad-nd-s",
+  "building:plan-1860:husrad-ne-n",
+  "building:plan-1860:husrad-ne-s",
+  "building:plan-1860:husrad-nw-left",
+  "building:plan-1860:husrad-nw-right",
+  "building:plan-1860:husrad-nw-top",
+  "building:plan-1860:husrad-nw2-bottom",
+  "building:plan-1860:husrad-nw2-left",
+  "building:plan-1860:husrad-nw2-right",
+  "building:plan-1860:husrad-sb-n",
+  "building:plan-1860:husrad-sc-n",
+  "building:plan-1860:husrad-sc-s",
+  "building:plan-1860:husrad-sd-n",
+  "building:plan-1860:husrad-sd-s",
+  "building:plan-1860:husrad-se-n",
+  "building:plan-1860:husrad-se-s",
+  "building:plan-1860:husrad-sw-left",
+  "building:plan-1860:husrad-sw-right",
+  "building:plan-1860:husrad-sw-top",
+  "building:plan-1860:kyrka",
+  "building:plan-1860:lasarett",
+  "building:plan-1860:lasarett-ne",
+  "building:plan-1860:lasarett-nw",
+  "building:plan-1860:lasarett-se",
+  "building:plan-1860:lasarett-sw",
+  "building:plan-1860:packhus",
+  "building:plan-1860:prestgard",
+  "building:plan-1860:prestgard-n",
+  "building:plan-1860:radhus",
+  "building:plan-1860:simskola",
+  "building:plan-1860:skjul-fisktorget",
+  "building:plan-1860:skjul-torghandel",
+  "building:plan-1860:skolhus",
+  "building:plan-1860:tullkammare-o",
+  "building:plan-1860:tullkammare-v",
+  "building:plan-1860:wardshus"
+ ]
+}

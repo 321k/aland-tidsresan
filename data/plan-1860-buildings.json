@@ -1,0 +1,1553 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-17",
+ "source": {
+  "id": "review:plan-1860-buildings",
+  "title": "Planerade byggnader i stadsplanen 1860 · granskning",
+  "url": "assets/plan-1860-buildings.json"
+ },
+ "planDatasetId": "plan-1860",
+ "planImage": "assets/mariehamn-plan-1860.png",
+ "pixelSpace": "reference.viewSize of the plan-1860 set in data/mariehamn-city-traces.json (1824×1368)",
+ "basis": "Byggnaden är ritad på G. Th. Chiewitz stadsplan 1860. Den visas som planerad, inte som byggd: planen är inte belägg för att huset uppfördes. Läget följer det tolkade gatunätet 1860: konturen är förd från planens gatukorsningar till samma korsningar på kartan, så huset ligger i samma kvarter som på planen. Läget kan avvika 10–20 m.",
+ "controlStreets": {
+  "eastWest": [
+   [
+    "Norragatan i planen",
+    [
+     "Norragatan",
+     "Norragatan i planen"
+    ]
+   ],
+   [
+    "Norra esplanadens gata",
+    [
+     "Norra Esplanadgatan",
+     "Norra Esplanadgatan · före kyrkan"
+    ]
+   ],
+   [
+    "Storagatans planerade stråk",
+    [
+     "Storagatan"
+    ]
+   ],
+   [
+    "Södragatans planerade stråk",
+    [
+     "Södragatans planerade stråk"
+    ]
+   ],
+   [
+    "Södra kvarterens tvärgata",
+    [
+     "Mariegatan",
+     "Södra kvarterens tvärgata"
+    ]
+   ],
+   [
+    "Planens södra gränsgata",
+    [
+     "Skillnadsgatan",
+     "Planens södra gränsgata"
+    ]
+   ]
+  ],
+  "northSouth": [
+   [
+    "Västra strandens planerade gata",
+    [
+     "Västra strandens planerade gata"
+    ]
+   ],
+   [
+    "Västra kvarterens gata",
+    [
+     "Västra kvarterens gata"
+    ]
+   ],
+   [
+    "Planerad gata väster om esplanaden",
+    [
+     "Planerad gata väster om esplanaden",
+     "Neptunigatan"
+    ]
+   ],
+   [
+    "Västra esplanadens gata",
+    [
+     "Västra Esplanadgatan",
+     "Västra Esplanadgatan · anslutningen vid Storagatan"
+    ]
+   ],
+   [
+    "Östra esplanadens gata",
+    [
+     "Östra Esplanadgatan"
+    ]
+   ],
+   [
+    "Planerad gata öster om esplanaden",
+    [
+     "Planerad gata öster om esplanaden",
+     "Ålandsvägen"
+    ]
+   ],
+   [
+    "Torggatans planerade stråk",
+    [
+     "Torggatans planerade stråk",
+     "Torggatan"
+    ]
+   ],
+   [
+    "Östra strandens gata",
+    [
+     "Östra strandens gata",
+     "Strandgatan"
+    ]
+   ]
+  ]
+ },
+ "maxExtrapolationCells": 3,
+ "buildings": [
+  {
+   "key": "lasarett",
+   "name": "Lasarettet",
+   "planLabel": "Lasaret",
+   "pixels": [
+    [
+     420,
+     279.4
+    ],
+    [
+     430,
+     280.4
+    ],
+    [
+     430,
+     287.6
+    ],
+    [
+     484,
+     287.6
+    ],
+    [
+     480.6,
+     311
+    ],
+    [
+     470,
+     310
+    ],
+    [
+     470,
+     306
+    ],
+    [
+     444,
+     306
+    ],
+    [
+     429,
+     303
+    ],
+    [
+     417.4,
+     302.6
+    ]
+   ],
+   "note": "Lasarettet med två flyglar och två mindre byggnader runt en trädgård."
+  },
+  {
+   "key": "lasarett-nw",
+   "name": "Lasarettets nordvästra flygel",
+   "planLabel": "Lasaret",
+   "pixels": [
+    [
+     387,
+     258
+    ],
+    [
+     417,
+     264
+    ],
+    [
+     416,
+     272
+    ],
+    [
+     398,
+     270
+    ],
+    [
+     396,
+     294
+    ],
+    [
+     384,
+     293
+    ]
+   ]
+  },
+  {
+   "key": "lasarett-ne",
+   "name": "Lasarettets nordöstra flygel",
+   "planLabel": "Lasaret",
+   "pixels": [
+    [
+     493,
+     275
+    ],
+    [
+     519,
+     277
+    ],
+    [
+     514,
+     313
+    ],
+    [
+     505,
+     312
+    ],
+    [
+     507,
+     284
+    ],
+    [
+     492,
+     283
+    ]
+   ]
+  },
+  {
+   "key": "lasarett-sw",
+   "name": "Lasarettets sydvästra byggnad",
+   "planLabel": "Lasaret",
+   "pixels": [
+    [
+     378.6,
+     320.4
+    ],
+    [
+     409,
+     324
+    ],
+    [
+     407.4,
+     340.4
+    ],
+    [
+     377.4,
+     337
+    ]
+   ]
+  },
+  {
+   "key": "lasarett-se",
+   "name": "Lasarettets sydöstra byggnad",
+   "planLabel": "Lasaret",
+   "pixels": [
+    [
+     481.6,
+     334.6
+    ],
+    [
+     510,
+     339.6
+    ],
+    [
+     508.6,
+     352.4
+    ],
+    [
+     480,
+     349
+    ]
+   ]
+  },
+  {
+   "key": "radhus",
+   "name": "Rådhuset",
+   "planLabel": "Rådhus",
+   "pixels": [
+    [
+     309,
+     518.6
+    ],
+    [
+     327.6,
+     520.6
+    ],
+    [
+     326.6,
+     533
+    ],
+    [
+     328.6,
+     534.2
+    ],
+    [
+     326.6,
+     548
+    ],
+    [
+     321.6,
+     549.4
+    ],
+    [
+     321,
+     562
+    ],
+    [
+     303,
+     559.4
+    ]
+   ]
+  },
+  {
+   "key": "tullkammare-v",
+   "name": "Tullkammaren, västra längan",
+   "planLabel": "Tullkammare och bostäder för tjenstemän",
+   "pixels": [
+    [
+     197.5,
+     630
+    ],
+    [
+     212.5,
+     631.5
+    ],
+    [
+     210,
+     671.25
+    ],
+    [
+     194.5,
+     669.5
+    ]
+   ]
+  },
+  {
+   "key": "tullkammare-o",
+   "name": "Tullkammaren, östra längan",
+   "planLabel": "Tullkammare och bostäder för tjenstemän",
+   "pixels": [
+    [
+     281.25,
+     640.75
+    ],
+    [
+     310,
+     644.5
+    ],
+    [
+     307,
+     676.25
+    ],
+    [
+     278.25,
+     673
+    ]
+   ]
+  },
+  {
+   "key": "packhus",
+   "name": "Packhus och nederlagsmagasin",
+   "planLabel": "Packhus och Nederlags Magasiner",
+   "pixels": [
+    [
+     196.25,
+     685.5
+    ],
+    [
+     307.5,
+     688.25
+    ],
+    [
+     306.25,
+     805
+    ],
+    [
+     191.25,
+     802
+    ]
+   ],
+   "note": "Planens randade fält för packhus och nederlagsmagasin; ritas här som ett område, inte som enskilda magasin."
+  },
+  {
+   "key": "prestgard",
+   "name": "Prästgården",
+   "planLabel": "Prest gård",
+   "pixels": [
+    [
+     727,
+     549
+    ],
+    [
+     761,
+     551
+    ],
+    [
+     760,
+     567
+    ],
+    [
+     726,
+     564
+    ]
+   ]
+  },
+  {
+   "key": "prestgard-n",
+   "name": "Prästgårdens norra byggnad",
+   "planLabel": "Prest gård",
+   "pixels": [
+    [
+     734,
+     500.4
+    ],
+    [
+     768,
+     504.4
+    ],
+    [
+     766.8,
+     518.4
+    ],
+    [
+     759,
+     517.6
+    ],
+    [
+     759.8,
+     510
+    ],
+    [
+     742,
+     508.4
+    ],
+    [
+     741.2,
+     515.6
+    ],
+    [
+     733.6,
+     514.8
+    ]
+   ]
+  },
+  {
+   "key": "kyrka",
+   "name": "Kyrkan",
+   "planLabel": "Kyrka",
+   "pixels": [
+    [
+     712.6,
+     589.4
+    ],
+    [
+     730,
+     590
+    ],
+    [
+     730,
+     587
+    ],
+    [
+     746,
+     588
+    ],
+    [
+     746.4,
+     594
+    ],
+    [
+     761,
+     595.4
+    ],
+    [
+     771,
+     604
+    ],
+    [
+     770,
+     610
+    ],
+    [
+     761,
+     609.6
+    ],
+    [
+     760,
+     618
+    ],
+    [
+     728,
+     615
+    ],
+    [
+     727,
+     612.4
+    ],
+    [
+     709,
+     611
+    ],
+    [
+     700,
+     607
+    ],
+    [
+     700,
+     594
+    ],
+    [
+     712.4,
+     594.8
+    ]
+   ],
+   "note": "Planens kyrka mitt i esplanaden. Den kyrka som byggdes 1927 ligger på en annan plats."
+  },
+  {
+   "key": "skolhus",
+   "name": "Skolhuset",
+   "planLabel": "Skolhus",
+   "pixels": [
+    [
+     714.7,
+     641.3
+    ],
+    [
+     746.3,
+     646.7
+    ],
+    [
+     744.2,
+     659.7
+    ],
+    [
+     712.5,
+     655.8
+    ]
+   ]
+  },
+  {
+   "key": "gastgifveri",
+   "name": "Gästgiveri och societetshus",
+   "planLabel": "Gästgifveri och Societet",
+   "pixels": [
+    [
+     1385,
+     664.3
+    ],
+    [
+     1403.3,
+     666.7
+    ],
+    [
+     1415,
+     680
+    ],
+    [
+     1423.3,
+     698.3
+    ],
+    [
+     1427.7,
+     708.3
+    ],
+    [
+     1421.7,
+     723.3
+    ],
+    [
+     1410,
+     736.7
+    ],
+    [
+     1391.7,
+     743.3
+    ],
+    [
+     1375.7,
+     744.3
+    ],
+    [
+     1375.7,
+     734.3
+    ],
+    [
+     1395,
+     731
+    ],
+    [
+     1404.3,
+     720
+    ],
+    [
+     1408.3,
+     708.3
+    ],
+    [
+     1405,
+     688.3
+    ],
+    [
+     1397.7,
+     676.7
+    ],
+    [
+     1385,
+     674.3
+    ]
+   ]
+  },
+  {
+   "key": "skjul-torghandel",
+   "name": "Skjul för torghandel vid Handelstorget",
+   "planLabel": "Skjul för Torghandel",
+   "pixels": [
+    [
+     1244.4,
+     738
+    ],
+    [
+     1345,
+     753.3
+    ],
+    [
+     1342.3,
+     769
+    ],
+    [
+     1243,
+     754.6
+    ]
+   ]
+  },
+  {
+   "key": "skjul-fisktorget",
+   "name": "Skjul för torghandel vid Fisktorget",
+   "planLabel": "Skjul för torghandel",
+   "pixels": [
+    [
+     1495,
+     676.7
+    ],
+    [
+     1511.7,
+     680
+    ],
+    [
+     1508.3,
+     761.7
+    ],
+    [
+     1483.3,
+     760
+    ]
+   ]
+  },
+  {
+   "key": "wardshus",
+   "name": "Värdshuset i parken",
+   "planLabel": "Wärdshus",
+   "pixels": [
+    [
+     1403,
+     990
+    ],
+    [
+     1417,
+     991.6
+    ],
+    [
+     1415.6,
+     1019
+    ],
+    [
+     1400,
+     1018
+    ]
+   ]
+  },
+  {
+   "key": "simskola",
+   "name": "Simskolan",
+   "planLabel": "Simskola",
+   "pixels": [
+    [
+     1570.8,
+     1150.8
+    ],
+    [
+     1645,
+     1155
+    ],
+    [
+     1643.3,
+     1186.7
+    ],
+    [
+     1570,
+     1185
+    ]
+   ],
+   "note": "Simskolan ute i vattnet vid stranden; kontur av planens ram."
+  }
+ ],
+ "houseRows": [
+  {
+   "key": "husrad-nb-n",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i västra kvarteret norr om esplanaden",
+   "pixels": [
+    [
+     371,
+     370
+    ],
+    [
+     501,
+     383
+    ],
+    [
+     501,
+     399
+    ],
+    [
+     371,
+     384
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nb-s",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i västra kvarteret norr om esplanaden",
+   "pixels": [
+    [
+     352,
+     490
+    ],
+    [
+     485,
+     502
+    ],
+    [
+     485,
+     520
+    ],
+    [
+     352,
+     507
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nc-n",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i andra kvarteret norr om esplanaden",
+   "pixels": [
+    [
+     519,
+     389
+    ],
+    [
+     729,
+     421
+    ],
+    [
+     729,
+     438
+    ],
+    [
+     519,
+     404
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nc-s",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i andra kvarteret norr om esplanaden",
+   "pixels": [
+    [
+     505,
+     513
+    ],
+    [
+     735,
+     548
+    ],
+    [
+     735,
+     562
+    ],
+    [
+     505,
+     527
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nd-n",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i tredje kvarteret norr om esplanaden",
+   "pixels": [
+    [
+     797,
+     432
+    ],
+    [
+     1012,
+     463
+    ],
+    [
+     1012,
+     478
+    ],
+    [
+     797,
+     448
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nd-s",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i tredje kvarteret norr om esplanaden",
+   "pixels": [
+    [
+     788,
+     567
+    ],
+    [
+     1010,
+     597
+    ],
+    [
+     1010,
+     610
+    ],
+    [
+     788,
+     580
+    ]
+   ]
+  },
+  {
+   "key": "husrad-ne-n",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i östra kvarteret norr om esplanaden",
+   "pixels": [
+    [
+     1040,
+     468
+    ],
+    [
+     1243,
+     500
+    ],
+    [
+     1243,
+     516
+    ],
+    [
+     1040,
+     483
+    ]
+   ]
+  },
+  {
+   "key": "husrad-ne-s",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i östra kvarteret norr om esplanaden",
+   "pixels": [
+    [
+     1015,
+     582
+    ],
+    [
+     1245,
+     617
+    ],
+    [
+     1245,
+     633
+    ],
+    [
+     1015,
+     601
+    ]
+   ]
+  },
+  {
+   "key": "husrad-sb-n",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i västra kvarteret söder om esplanaden",
+   "pixels": [
+    [
+     340,
+     587
+    ],
+    [
+     468,
+     604
+    ],
+    [
+     468,
+     618
+    ],
+    [
+     340,
+     601
+    ]
+   ]
+  },
+  {
+   "key": "husrad-sc-n",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i andra kvarteret söder om esplanaden",
+   "pixels": [
+    [
+     490,
+     606
+    ],
+    [
+     722,
+     637
+    ],
+    [
+     722,
+     652
+    ],
+    [
+     490,
+     621
+    ]
+   ]
+  },
+  {
+   "key": "husrad-sc-s",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i andra kvarteret söder om esplanaden",
+   "pixels": [
+    [
+     480,
+     736
+    ],
+    [
+     692,
+     763
+    ],
+    [
+     692,
+     779
+    ],
+    [
+     480,
+     752
+    ]
+   ]
+  },
+  {
+   "key": "husrad-sd-n",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i tredje kvarteret söder om esplanaden",
+   "pixels": [
+    [
+     757,
+     655
+    ],
+    [
+     992,
+     684
+    ],
+    [
+     992,
+     698
+    ],
+    [
+     757,
+     670
+    ]
+   ]
+  },
+  {
+   "key": "husrad-sd-s",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i tredje kvarteret söder om esplanaden",
+   "pixels": [
+    [
+     745,
+     779
+    ],
+    [
+     990,
+     808
+    ],
+    [
+     990,
+     822
+    ],
+    [
+     745,
+     793
+    ]
+   ]
+  },
+  {
+   "key": "husrad-se-n",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i östra kvarteret söder om esplanaden",
+   "pixels": [
+    [
+     1003,
+     689
+    ],
+    [
+     1228,
+     724
+    ],
+    [
+     1228,
+     740
+    ],
+    [
+     1003,
+     705
+    ]
+   ]
+  },
+  {
+   "key": "husrad-se-s",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i östra kvarteret söder om esplanaden",
+   "pixels": [
+    [
+     993,
+     817
+    ],
+    [
+     1225,
+     849
+    ],
+    [
+     1225,
+     863
+    ],
+    [
+     993,
+     833
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nw-top",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i norra halvan av kvarteret vid Hamntorget",
+   "pixels": [
+    [
+     241,
+     350
+    ],
+    [
+     350,
+     362
+    ],
+    [
+     350,
+     377
+    ],
+    [
+     241,
+     363
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nw-left",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "västra raden i norra halvan av kvarteret vid Hamntorget",
+   "pixels": [
+    [
+     240,
+     364
+    ],
+    [
+     251,
+     364
+    ],
+    [
+     249,
+     407
+    ],
+    [
+     238,
+     406
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nw-right",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "östra raden i norra halvan av kvarteret vid Hamntorget",
+   "pixels": [
+    [
+     332,
+     376
+    ],
+    [
+     350,
+     378
+    ],
+    [
+     347,
+     425
+    ],
+    [
+     329,
+     423
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nw2-left",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "västra raden i södra halvan av kvarteret vid Hamntorget",
+   "pixels": [
+    [
+     223,
+     421
+    ],
+    [
+     246,
+     423
+    ],
+    [
+     244,
+     470
+    ],
+    [
+     221,
+     468
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nw2-bottom",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i södra halvan av kvarteret vid Hamntorget",
+   "pixels": [
+    [
+     221,
+     470
+    ],
+    [
+     321,
+     482
+    ],
+    [
+     320,
+     500
+    ],
+    [
+     219,
+     487
+    ]
+   ]
+  },
+  {
+   "key": "husrad-nw2-right",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "östra raden i södra halvan av kvarteret vid Hamntorget",
+   "pixels": [
+    [
+     322,
+     432
+    ],
+    [
+     341,
+     434
+    ],
+    [
+     339,
+     503
+    ],
+    [
+     320,
+     501
+    ]
+   ]
+  },
+  {
+   "key": "husrad-sw-top",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i kvarteret vid tullkammaren",
+   "pixels": [
+    [
+     206,
+     567
+    ],
+    [
+     320,
+     580
+    ],
+    [
+     320,
+     592
+    ],
+    [
+     206,
+     581
+    ]
+   ]
+  },
+  {
+   "key": "husrad-sw-left",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "västra raden i kvarteret vid tullkammaren",
+   "pixels": [
+    [
+     206,
+     581
+    ],
+    [
+     220,
+     582
+    ],
+    [
+     219,
+     615
+    ],
+    [
+     205,
+     614
+    ]
+   ]
+  },
+  {
+   "key": "husrad-sw-right",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "östra raden i kvarteret vid tullkammaren",
+   "pixels": [
+    [
+     300,
+     591
+    ],
+    [
+     316,
+     593
+    ],
+    [
+     314,
+     627
+    ],
+    [
+     298,
+     626
+    ]
+   ]
+  },
+  {
+   "key": "husrad-e1-top",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i norra kvarteret vid Strandgatan",
+   "pixels": [
+    [
+     1303,
+     347
+    ],
+    [
+     1403,
+     352
+    ],
+    [
+     1403,
+     363
+    ],
+    [
+     1303,
+     360
+    ]
+   ]
+  },
+  {
+   "key": "husrad-e1-left",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "västra raden i norra kvarteret vid Strandgatan",
+   "pixels": [
+    [
+     1298,
+     361
+    ],
+    [
+     1316,
+     362
+    ],
+    [
+     1316,
+     398
+    ],
+    [
+     1298,
+     397
+    ]
+   ]
+  },
+  {
+   "key": "husrad-e1-right",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "östra raden i norra kvarteret vid Strandgatan",
+   "pixels": [
+    [
+     1384,
+     364
+    ],
+    [
+     1403,
+     364
+    ],
+    [
+     1403,
+     408
+    ],
+    [
+     1384,
+     408
+    ]
+   ]
+  },
+  {
+   "key": "husrad-e2-left",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "västra raden i mellersta kvarteret vid Strandgatan",
+   "pixels": [
+    [
+     1287,
+     410
+    ],
+    [
+     1302,
+     410
+    ],
+    [
+     1290,
+     568
+    ],
+    [
+     1272,
+     568
+    ]
+   ]
+  },
+  {
+   "key": "husrad-e2-right",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "östra raden i mellersta kvarteret vid Strandgatan",
+   "pixels": [
+    [
+     1377,
+     427
+    ],
+    [
+     1388,
+     427
+    ],
+    [
+     1380,
+     583
+    ],
+    [
+     1365,
+     583
+    ]
+   ]
+  },
+  {
+   "key": "husrad-ht-top",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "norra raden i kvarteret vid Handelstorget",
+   "pixels": [
+    [
+     1232,
+     812
+    ],
+    [
+     1332,
+     817
+    ],
+    [
+     1332,
+     826
+    ],
+    [
+     1232,
+     822
+    ]
+   ]
+  },
+  {
+   "key": "husrad-ht-left",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "västra raden i kvarteret vid Handelstorget",
+   "pixels": [
+    [
+     1232,
+     822
+    ],
+    [
+     1252,
+     822
+    ],
+    [
+     1252,
+     877
+    ],
+    [
+     1232,
+     877
+    ]
+   ]
+  },
+  {
+   "key": "husrad-ht-right",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "östra raden i kvarteret vid Handelstorget",
+   "pixels": [
+    [
+     1372,
+     763
+    ],
+    [
+     1388,
+     763
+    ],
+    [
+     1388,
+     880
+    ],
+    [
+     1372,
+     880
+    ]
+   ]
+  },
+  {
+   "key": "husrad-e3-nw",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "nordvästra raden i södra kvarteret vid Strandgatan",
+   "pixels": [
+    [
+     1264,
+     582
+    ],
+    [
+     1299,
+     586
+    ],
+    [
+     1299,
+     595
+    ],
+    [
+     1280,
+     593
+    ],
+    [
+     1279,
+     604
+    ],
+    [
+     1263,
+     603
+    ]
+   ]
+  },
+  {
+   "key": "husrad-e3-ne",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "nordöstra raden i södra kvarteret vid Strandgatan",
+   "pixels": [
+    [
+     1341,
+     592
+    ],
+    [
+     1366,
+     595
+    ],
+    [
+     1366,
+     614
+    ],
+    [
+     1341,
+     612
+    ]
+   ]
+  },
+  {
+   "key": "husrad-e3-s",
+   "name": "Planerad husrad",
+   "planLabel": "rosa husrad, tomtindelad",
+   "location": "södra raden i södra kvarteret vid Strandgatan",
+   "pixels": [
+    [
+     1262,
+     605
+    ],
+    [
+     1362,
+     616
+    ],
+    [
+     1361,
+     633
+    ],
+    [
+     1261,
+     622
+    ]
+   ]
+  }
+ ],
+ "houseRowsNote": "Planens rosa husrader längs kvartersgatorna, en per kvarterssida. De är indelade i tomter med tunna linjer; tomterna är inte egna objekt. Södra raden i kvarteret söder om esplanaden närmast Wärdshusberget ritas inte; där ligger berget.",
+ "controlStreetsNote": "Stadiet ritar planens gator norr om Storagatan som de verkliga gatorna: planerad gata väster om esplanaden som Neptunigatan, öster om esplanaden som Ålandsvägen och Östra strandens gata (på planen ”Strand gatan”) som Strandgatan."
+}

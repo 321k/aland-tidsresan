@@ -1,0 +1,20 @@
+
+ ⛅️ wrangler 4.149.0 (update available 4.165.0)
+───────────────────────────────────────────────
+🌀 Building list of assets...
+✨ Read 327 files from the assets directory /Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/dist
+🌀 Starting asset upload...
+No updated asset files to upload. Proceeding with deployment...
+Total Upload: 20.51 KiB / gzip: 6.28 KiB
+Worker Startup Time: 2 ms
+Your Worker has access to the following bindings:
+Binding                                                        Resource          
+env.LIVE_VESSELS (605a333e6df5434daad0e00cd3e2b341)            KV Namespace      
+env.ISSUE_RATE_LIMIT (3 requests/60s)                          Rate Limit        
+env.ISSUE_GLOBAL_LIMIT (20 requests/60s)                       Rate Limit        
+env.ASSETS                                                     Assets            
+
+Uploaded aland-tidsresan (11.26 sec)
+Deployed aland-tidsresan triggers (5.03 sec)
+  xn--land-poa.erikedin.com (custom domain)
+Current Version ID: c8ea9327-66a4-443a-adf6-b5964a97afaa
