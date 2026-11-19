@@ -195,7 +195,11 @@ def _apply(read, catalog, path_):
             raise ValueError('Changed old line ' + od['id'])
         year = lambda k: labels[k]['year'] if k in labels else int(k)
         present, absent = ([year(y) for y, v in od['maps'].items() if v == want] for want in ('present', 'absent'))
-        if not all(k in labels or k.isdigit() for k in od['maps']) or not present or not absent or min(present) != od['firstYear'] or od['until'] != min(absent):
+        # 'untilBasis': no later map is marked absent, the old line ends at a map marked unclear (it may still be drawn as
+        # a lesser road there); the stated basis says why the old road is not claimed after it.
+        unclear = [year(y) for y, v in od['maps'].items() if v == 'unclear']
+        ends = min(absent) if absent else (min(unclear) if unclear and od.get('untilBasis') else None)
+        if not all(k in labels or k.isdigit() for k in od['maps']) or not present or ends is None or min(present) != od['firstYear'] or od['until'] != ends:
             raise ValueError('Old road dates do not follow its maps')
         today = [metric(p) for oid in od.get('endObjects', ['road:rural:hammarland-way-345142933', 'road:rural:hammarland-way-345143750'])
                  for p in geometries[objects[oid]['geometryPeriods'][0]['geometryId']]['paths']]
@@ -571,8 +575,10 @@ def _old_roads(read, catalog, path_):
     m = objects.get(review['connection'])
     if not m or fingerprint(m) != review['connectionHash']:
         raise ValueError('Changed connection ' + review['connection'])
-    early = geometries[m['geometryPeriods'][0]['geometryId']]['paths']
-    later = [metric(p) for gp in m['geometryPeriods'][1:] for p in geometries[gp['geometryId']]['paths']]
+    # 'connectionEarlyPeriods': how many of the connection's first periods are its early (old-road) periods (default 1)
+    k = review.get('connectionEarlyPeriods', 1)
+    early = [p for gp in m['geometryPeriods'][:k] for p in geometries[gp['geometryId']]['paths']]
+    later = [metric(p) for gp in m['geometryPeriods'][k:] for p in geometries[gp['geometryId']]['paths']]
     modern = {f['id']: f for f in read('dist/assets/modern.json.gz')['features']}
     owned = {(l['datasetId'], l['featureId'], tuple(l.get('sourceVertexRange') or ())) for o in catalog['objects'] for l in o.get('sourceLinks', [])}
     survey = {x['id'] for x in review['sources']}

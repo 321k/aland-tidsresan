@@ -1,0 +1,163 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:langnasvagen:",
+ "source": {
+  "id": "review:langnasvagen",
+  "title": "Långnäsvägen vid Skag och Södergård · granskning",
+  "url": "assets/langnasvagen.json"
+ },
+ "sources": [],
+ "maps": {
+  "1917": {
+   "sourceId": "nls:92062c61-d68d-43ef-b581-e9bdcdc8e0ba",
+   "year": 1917
+  },
+  "1929": {
+   "sourceId": "nls:map-39093010",
+   "year": 1929
+  },
+  "1968": {
+   "sourceId": "nls:101211:1968",
+   "year": 1968
+  }
+ },
+ "early": [
+  {
+   "objectId": "road:qgis:lumparland:langnasvagen-100km3",
+   "inputHash": "825407f5f0c3f43d95586387ee5fb5d14af9433a40a6e7ab305ad3c7e94b69f3",
+   "geometryId": "geometry:qgis:954f3c7d967e0c01eca8",
+   "geometryHash": "b3c39fe89f89fdc6d843b1c5b866f025f6f77eb1852b0873ed15a3b479d6e75f",
+   "lengthMeters": 5177.8,
+   "firstYear": 1917,
+   "until": 1968,
+   "maps": {
+    "1917": "present",
+    "1929": "present"
+   },
+   "ranges": [
+    [
+     1090.0,
+     1980.0
+    ],
+    [
+     2370.0,
+     3220.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1929,
+    "ranges": [
+     [
+      0.0,
+      600.0
+     ],
+     [
+      1090.0,
+      1980.0
+     ],
+     [
+      2370.0,
+      3220.0
+     ]
+    ]
+   }
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:lumparland:langnasvagen-100km3": "Dagens väg från Skag österut till Södergård och vidare norrut längs Krokstadviken till Sjögård är vägen på Senatens karta 1917 och sockenkartan 1929 (inom kartbladets fel, upp till 30 m). Undantagen: vid Skag gick vägen rakt norrut till ett skarpt hörn i byn, och vid Södergård gick den nordost genom byn. Dagens kurva vid Skag och sträckningen över åkrarna vid Södergård ritas första gången på grundkartan 1968. Norr om Sjögård gick vägen 1929 norrut genom Nyabonds; dagens väg därifrån ritas första gången 1968."
+ },
+ "laterStageNote": "Del av objektets egen geometri (samma koordinater) där dagens väg är vägen på sockenkartan 1929, nu också från sundet vid Bergören till Skag.",
+ "laterStageBasis": {
+  "road:qgis:lumparland:langnasvagen-100km3": "Sockenkartan 1929 ritar vägen över sundet från Bergören och vidare till Skag. Senatens karta 1917 ritar ingen väg över sundet."
+ },
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där dagens väg är vägen på Senatens karta 1917 och sockenkartan 1929.",
+ "oldRoad": {
+  "id": "road:lumparland:gamla-landsvagen:sodergard",
+  "name": "Gamla landsvägen · Södergård",
+  "routeId": "road:Gamla landsvägen Lumparland",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1917,
+  "until": 1968,
+  "maps": {
+   "1917": "present",
+   "1929": "present",
+   "1968": "unclear"
+  },
+  "untilBasis": "Grundkartan 1968 ritar dagens väg som huvudväg; den gamla linjen ritas där bara delvis, som en mindre väg längs åkerkanterna. Den granskas inte längre fram.",
+  "paths": [
+   [
+    [
+     20.2525856,
+     60.0851392
+    ],
+    [
+     20.2528718,
+     60.085378
+    ],
+    [
+     20.2534369,
+     60.0857151
+    ],
+    [
+     20.2545669,
+     60.086317
+    ],
+    [
+     20.2556969,
+     60.0869583
+    ],
+    [
+     20.2562282,
+     60.0872616
+    ],
+    [
+     20.2569742,
+     60.0875593
+    ],
+    [
+     20.2580365,
+     60.0878625
+    ],
+    [
+     20.2590876,
+     60.0881264
+    ],
+    [
+     20.2596372,
+     60.0883532
+    ]
+   ]
+  ],
+  "lengthMeters": 538.4,
+  "referenceRange": [
+   1770.0,
+   2370.0
+  ],
+  "endSnapMeters": [
+   0.0,
+   0.0
+  ],
+  "endSnapLimit": 1,
+  "endObjects": [
+   "road:qgis:lumparland:langnasvagen-100km3"
+  ],
+  "basis": "Den gamla landsvägen nordost genom Södergård, från korsningen med vägen söderut mot Åkerlund till Krokstadviken. Sockenkartan 1929 ritar den; Senatens karta 1917 ritar vägen här men är för grov för formen. Inget av den finns i OpenStreetMap.",
+  "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (rutnät 50 m) och flyttad söderut, 30 m vid korsningen och inget vid Krokstadviken (kartbladets fel mätt mot dagens väg). Ändarna ligger på dagens väg.",
+  "afterNote": "Grundkartan 1968 ritar dagens väg som huvudväg och den gamla linjen bara delvis, som en mindre väg. Senare kartor är inte granskade för den, och den finns inte i OpenStreetMap; det betyder inte att den försvann 1968."
+ },
+ "route": {
+  "order": [
+   "road:qgis:lumparland:langnasvagen-100km3",
+   "road:lumparland:gamla-landsvagen:sodergard",
+   "road:qgis:lumparland:langnasvagen-100km3"
+  ],
+  "repeat": [
+   "road:qgis:lumparland:langnasvagen-100km3"
+  ],
+  "joinMeters": 1.0
+ },
+ "method": "Dagens väg jämförd för hand med Senatens karta 1917, sockenkartan 1012 11 Lumparland 1929 (rutnät 50 m) och grundkartorna 1968, 1978, 1985 och 1995 (blad 101211), med OpenStreetMap 2026 inritat (renders/)."
+}

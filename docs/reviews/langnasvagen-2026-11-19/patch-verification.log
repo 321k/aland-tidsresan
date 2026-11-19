@@ -1,0 +1,12 @@
+batch-langnasvagen.patch, 2026-11-19
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/langnasvagen/before/ to the working tree):
+- scripts/build_temporal_objects.py (untracked)
+- dist/index.html (tracked, modified)
+- tests/temporal-objects.test.cjs (untracked)
+- tests/qgis-roads.test.cjs (untracked)
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; all four results are byte-identical
+to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to all four files.

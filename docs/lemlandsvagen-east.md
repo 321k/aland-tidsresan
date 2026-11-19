@@ -72,5 +72,5 @@ Checks, all before any change:
 - **Skolsvängen:** the loop ends 15 m from today's road, where a cycle path now runs between them, and the old link
   is not drawn. The 1929 map draws it merging into today's line within the sheet error.
 - **The road beyond the sound** (Långnäsvägen, dated from 1968): the 1929 map continues the road over the sound to
-  Skag. That is the next batch.
+  Skag. Done 2026-11-19, see `docs/langnasvagen.md`.
 - **The 1894 atlas:** it has not been compared here. The atlas replacement intervals are unchanged by this step.

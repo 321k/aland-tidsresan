@@ -1,0 +1,41 @@
+{
+ "before": "build before the step (data/map-scan-cache/review/langnasvagen/before-langnasvagen-step.json.gz)",
+ "after": "dist/assets/temporal-objects.json.gz",
+ "objects": {
+  "added": [
+   "road:lumparland:gamla-landsvagen:skag",
+   "road:lumparland:gamla-landsvagen:sodergard"
+  ],
+  "removed": [],
+  "changed": [
+   "road:qgis:lumparland:langnasvagen-100km3"
+  ],
+  "countBefore": 36272,
+  "countAfter": 36274
+ },
+ "geometries": {
+  "added": [
+   "geometry:langnasvagen:langnasvagen-100km3",
+   "geometry:langnasvagen:langnasvagen-100km3:1929",
+   "geometry:lumparland:gamla-landsvagen:skag",
+   "geometry:lumparland:gamla-landsvagen:skag:surviving",
+   "geometry:lumparland:gamla-landsvagen:sodergard"
+  ],
+  "removed": [],
+  "changed": [],
+  "countBefore": 47351,
+  "countAfter": 47356
+ },
+ "sources": {
+  "added": [
+   "review:langnasvagen",
+   "review:langnasvagen-skag",
+   "road:lumparland:gamla-landsvagen-skag:survey"
+  ],
+  "removed": [],
+  "changed": [],
+  "countBefore": 5450,
+  "countAfter": 5453
+ },
+ "otherTopLevelKeysChanged": []
+}

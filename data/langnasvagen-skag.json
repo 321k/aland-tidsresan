@@ -1,0 +1,228 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "connection": "road:qgis:lumparland:langnasvagen-100km3",
+ "connectionHash": "305a5bdc68ad6e496b26848182bedf3a969bee6e0a0e444d025b6894e70cf523",
+ "connectionEarlyPeriods": 2,
+ "source": {
+  "id": "review:langnasvagen-skag",
+  "title": "Gamla landsvägen vid Skag · granskning",
+  "url": "assets/langnasvagen-skag.json"
+ },
+ "sources": [
+  {
+   "id": "road:lumparland:gamla-landsvagen-skag:survey",
+   "title": "OpenStreetMap · vägen vid Skag",
+   "url": "https://www.openstreetmap.org/way/349946241",
+   "issuedAt": "2026"
+  }
+ ],
+ "maps": {
+  "1929": {
+   "sourceId": "nls:map-39093010",
+   "year": 1929
+  }
+ },
+ "oldRoads": [
+  {
+   "id": "road:lumparland:gamla-landsvagen:skag",
+   "name": "Gamla landsvägen · Skag",
+   "routeId": "road:Gamla landsvägen Lumparland",
+   "modernRoadClass": "secondary",
+   "roadWidth": 4,
+   "firstYear": 1929,
+   "mainUntil": 1968,
+   "surveySourceId": "road:lumparland:gamla-landsvagen-skag:survey",
+   "maps": {
+    "1929": "present"
+   },
+   "mainUntilBasis": "Grundkartan 1968 ritar dagens kurva som huvudväg och inget hörn i byn. Mellan 1929 och 1968 finns ingen karta här.",
+   "paths": [
+    [
+     [
+      20.2340877,
+      60.0823167
+     ],
+     [
+      20.2343839,
+      60.082772
+     ],
+     [
+      20.2346536,
+      60.083208
+     ],
+     [
+      20.2349684,
+      60.083644
+     ],
+     [
+      20.2352381,
+      60.08408
+     ],
+     [
+      20.235303,
+      60.084212
+     ],
+     [
+      20.235328,
+      60.084425
+     ],
+     [
+      20.235358,
+      60.084541
+     ],
+     [
+      20.235439,
+      60.08463
+     ],
+     [
+      20.235734,
+      60.084779
+     ],
+     [
+      20.23589,
+      60.084869
+     ],
+     [
+      20.236313,
+      60.085069
+     ],
+     [
+      20.2368569,
+      60.0850117
+     ],
+     [
+      20.2375764,
+      60.0849699
+     ],
+     [
+      20.2384759,
+      60.0849237
+     ],
+     [
+      20.2393754,
+      60.0848864
+     ],
+     [
+      20.2403789,
+      60.084894
+     ]
+    ]
+   ],
+   "lengthMeters": 566.2,
+   "laterPaths": [
+    [
+     [
+      20.235303,
+      60.084212
+     ],
+     [
+      20.235328,
+      60.084425
+     ],
+     [
+      20.235358,
+      60.084541
+     ],
+     [
+      20.235439,
+      60.08463
+     ],
+     [
+      20.235734,
+      60.084779
+     ],
+     [
+      20.23589,
+      60.084869
+     ],
+     [
+      20.236313,
+      60.085069
+     ]
+    ]
+   ],
+   "laterCanonicalRanges": [
+    [
+     0.391744,
+     0.597896
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/349946241",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "basis": "Den del av stigen som ligger på den gamla landsvägen (sockenkartan 1929)."
+    }
+   ],
+   "trace": [
+    [
+     20513029.611436035,
+     6663267.041226629
+    ],
+    [
+     20513045.92016006,
+     6663317.822193432
+    ],
+    [
+     20513060.761475362,
+     6663366.453502291
+    ],
+    [
+     20513078.10621849,
+     6663415.093748063
+    ],
+    [
+     20513092.947533797,
+     6663463.725056922
+    ],
+    [
+     20513103.819214907,
+     6663502.299256517
+    ],
+    [
+     20513116.21087788,
+     6663535.857413158
+    ],
+    [
+     20513132.652838297,
+     6663556.876356102
+    ],
+    [
+     20513152.644410588,
+     6663565.354297969
+    ],
+    [
+     20513182.671204396,
+     6663567.842301361
+    ],
+    [
+     20513222.736804742,
+     6663563.336085259
+    ],
+    [
+     20513272.817908924,
+     6663558.363476297
+    ],
+    [
+     20513322.89542807,
+     6663554.395148355
+    ],
+    [
+     20513378.745943878,
+     6663555.43555607
+    ]
+   ],
+   "sameRoadMeters": 20,
+   "basis": "Den gamla landsvägen från sundet vid Bergören rakt norrut till ett skarpt hörn i Skag by och sedan österut. Sockenkartan 1929 ritar den. Senatens karta 1917 ritar ingen väg över sundet. En del av den är i dag en stig.",
+   "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (rutnät 50 m), flyttad söderut upp till 18 m öster om hörnet (kartbladets fel mätt mot dagens väg), och följer OpenStreetMap där stigen ligger på den. Ändarna ligger på dagens vägs delar från 1929.",
+   "laterBasis": "Efter att dagens kurva tagit över visas bara den del som finns kvar i dag (en stig), med samma koordinater."
+  }
+ ],
+ "method": "Den gamla vägen avläst för hand på sockenkartan 1012 11 Lumparland 1929 (rutnät 50 m, renders/skag-close-1929.jpg) och jämförd med grundkartan 1968 och OpenStreetMap 2026."
+}
