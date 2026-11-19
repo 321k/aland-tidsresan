@@ -1,0 +1,43 @@
+{
+ "before": "build of e0261bd without this step (data/map-scan-cache/review/lemlandsvagen-east/before-lemlandsvagen-east-step.json.gz)",
+ "after": "dist/assets/temporal-objects.json.gz",
+ "objects": {
+  "added": [
+   "road:lumparland:fiskartorpsvagen"
+  ],
+  "removed": [],
+  "changed": [
+   "road:qgis:lumparland:klubbensvagen-100km4",
+   "road:qgis:lumparland:lemlandsvagen-100km3",
+   "road:qgis:lumparland:skolsvangen-100km6"
+  ],
+  "countBefore": 36271,
+  "countAfter": 36272
+ },
+ "geometries": {
+  "added": [
+   "geometry:lemlandsvagen-east:klubbensvagen-100km4",
+   "geometry:lemlandsvagen-east:lemlandsvagen-100km3",
+   "geometry:lemlandsvagen-east:lemlandsvagen-100km3:1929",
+   "geometry:lemlandsvagen-east:skolsvangen-100km6",
+   "geometry:lumparland:fiskartorpsvagen"
+  ],
+  "removed": [],
+  "changed": [],
+  "countBefore": 47346,
+  "countAfter": 47351
+ },
+ "sources": {
+  "added": [
+   "nls:map-39093010",
+   "review:lemlandsvagen-east",
+   "road:lumparland:fiskartorpsvagen:survey"
+  ],
+  "removed": [],
+  "changed": [],
+  "countBefore": 5447,
+  "countAfter": 5450
+ },
+ "otherTopLevelKeysChanged": [],
+ "historicalRoadsChanged": false
+}

@@ -1,0 +1,11 @@
+batch-lemlandsvagen-east.patch, 2026-11-19
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/lemlandsvagen-east/before/ to the working tree):
+- scripts/build_temporal_objects.py (untracked): the build hook and the asset copy line
+- dist/index.html (tracked, modified): the loader card "1 av 95" and the renumbering
+- tests/temporal-objects.test.cjs (untracked): the object count (+1, Fiskartorpsvägen)
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; all three results are byte-identical
+to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to all three files.

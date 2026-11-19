@@ -288,7 +288,7 @@ def _apply(read, catalog, path_):
             o['states'].insert(0, dict(state='unknown', **{'from': e['until'], 'to': e['gapUntil']}, certainty='inferred', evidenceIds=gev, note=gnote))
         o['states'].insert(0, dict(state='open', **{'from': e['firstYear'], 'to': e['until']}, certainty='inferred', evidenceIds=refs, note=basis))
         o['geometryPeriods'].insert(0, dict(geometryId=gid, **{'from': e['firstYear'], 'to': e['laterStage']['firstYear'] if oid in stages else e['until']}, certainty='inferred', evidenceIds=refs, basis=basis, **cov))
-        o['hammarlandsvagenMainRoad'] = dict(reviewedAt=review['reviewedAt'], previousFirstYear=e.get('gapUntil', e['until']), ranges=e['ranges'], constructionYear=None,
+        o[review.get('reviewProperty', 'hammarlandsvagenMainRoad')] = dict(reviewedAt=review['reviewedAt'], previousFirstYear=e.get('gapUntil', e['until']), ranges=e['ranges'], constructionYear=None,
                                              **({'pathIndex': e['pathIndex']} if 'pathIndex' in e else {}),
                                              **({'pathRanges': e['pathRanges']} if 'pathRanges' in e else {}),
                                              **({'laterStage': e['laterStage']} if oid in stages else {}),
@@ -490,7 +490,16 @@ def apply_hammarlandsvagen_holmberg(read, catalog):
     1956 edition. Öravägen is a new object from its OSM way, which it owns in the 2014, 2021, 2025 and 2026 extracts.
     Öravägen's checks run first; then _apply checks the old road before anything changes."""
     path_ = 'data/hammarlandsvagen-holmberg.json'
-    review = read(path_); nr = review['newRoad']
+    review = read(path_)
+    _new_road_check(read, catalog, review)
+    _apply(read, catalog, path_)
+    _new_road_add(catalog, review)
+
+
+def _new_road_check(read, catalog, review):
+    """A new road object from its OSM way ('newRoad'): dated by its maps, owned whole in every OSM extract that has it.
+    'missingExtracts' (with 'missingExtractsBasis'): extracts that do not have the way; each is checked to lack it."""
+    nr = review['newRoad']
     objects = {o['id']: o for o in catalog['objects']}; sources = {s['id'] for s in catalog['sources']}
     labels = review['maps']
     if nr['id'] in objects or nr['surveySourceId'] in sources:
@@ -499,8 +508,14 @@ def apply_hammarlandsvagen_holmberg(read, catalog):
     if not set(nr['maps']) <= set(labels) or not present or min(present) != nr['firstYear'] or any(v == 'absent' for v in nr['maps'].values()):
         raise ValueError('New road dates do not follow its maps')
     owned = {(l['datasetId'], l['featureId']) for o in catalog['objects'] for l in o.get('sourceLinks', [])}
-    if {l['datasetId'] for l in nr['sourceLinks']} != set(SNAPSHOTS):
+    linked, missing = {l['datasetId'] for l in nr['sourceLinks']}, set(nr.get('missingExtracts', []))
+    if linked | missing != set(SNAPSHOTS) or linked & missing or 'osm-2026' in missing or (missing and not nr.get('missingExtractsBasis')):
         raise ValueError('The new road must be owned in every OSM extract')
+    way = next(l['featureId'] for l in nr['sourceLinks'] if l['datasetId'] == 'osm-2026').split('/', 1)[1]
+    for d in sorted(missing):
+        file, prefix = SNAPSHOTS[d]
+        if any(x['id'] == prefix + way for x in read(file)['features']):
+            raise ValueError('The new road is in the ' + d + ' extract')
     for l in nr['sourceLinks']:
         file, prefix = SNAPSHOTS[l['datasetId']]
         f = next((x for x in read(file)['features'] if x['id'] == l['featureId']), None)
@@ -513,8 +528,9 @@ def apply_hammarlandsvagen_holmberg(read, catalog):
         if l['datasetId'] == 'osm-2026' and f['paths'] != nr['paths']:
             raise ValueError('The new road is not its OSM way')
 
-    _apply(read, catalog, path_)
 
+def _new_road_add(catalog, review):
+    nr = review['newRoad']; labels = review['maps']
     gid = 'geometry:' + nr['id'].split(':', 1)[1]
     catalog['sources'].append(deepcopy(review['newRoadSource']))
     catalog['geometries'].append(dict(id=gid, representation='centerline', paths=deepcopy(nr['paths']), sourceIds=[nr['surveySourceId']], note=nr['geometryNote']))
@@ -532,7 +548,7 @@ def apply_hammarlandsvagen_holmberg(read, catalog):
         states=[dict(state='open', **{'from': nr['firstYear'], 'to': None}, certainty='inferred', evidenceIds=first, note=nr['basis'])],
         geometryPeriods=[dict(geometryId=gid, **{'from': nr['firstYear'], 'to': None}, certainty='inferred', evidenceIds=first, coverage='full', canonicalRange=[0, 1], basis=nr['geometryNote'])],
         evidence=ev, sourceLinks=[{k: v for k, v in l.items() if k != 'input'} for l in nr['sourceLinks']],
-        hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], review=review['source']['id'], newFromOsm=True, constructionYear=None)))
+        **{review.get('reviewProperty', 'hammarlandsvagenMainRoad'): dict(reviewedAt=review['reviewedAt'], review=review['source']['id'], newFromOsm=True, constructionYear=None)}))
 
 
 def apply_hammarlandsvagen_kyrkoby(read, catalog):

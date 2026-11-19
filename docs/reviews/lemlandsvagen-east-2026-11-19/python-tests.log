@@ -1,0 +1,6 @@
+FFF.....
+[2026-11-19] The full discover run was stopped partway (it is slow). Its three early failures (test_aerial_observations)
+also fail on the catalogue before this step, as do the five test_qgis_road_review failures in
+python-tests-targeted.log (stale QGIS pilot packet: "Persistent road changed"). Both checked by running them on
+data/map-scan-cache/review/lemlandsvagen-east/before-lemlandsvagen-east-step.json.gz. The batch's own tests and its
+dependents (test_lemlandsvagen_east, test_hammarlandsvagen_holmberg, the Lemland and QGIS reconciliation tests) pass.

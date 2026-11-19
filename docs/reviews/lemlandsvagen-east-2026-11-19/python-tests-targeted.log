@@ -1,0 +1,86 @@
+............/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/city_continuity.py:14: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  result = result.symmetric_difference(transform(project, Polygon(ring)).buffer(0))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/building_continuity_review.py:36: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  merged = transform(unproject, unary_union([shape(geometries[p['geometryId']]) for p in records]))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/building_followups.py:18: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  geographic = transform(unproject, polygon)
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/museum_street_alignment.py:43: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  old = transform(project, Polygon(geometries[gid]['paths'][0], geometries[gid]['paths'][1:]))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/museum_street_alignment.py:44: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  new = transform(project, Polygon(d['paths'][0], d['paths'][1:]))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/museum_street_alignment.py:63: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  ref = transform(project, Polygon(geometries[d['matchedGeometryId']]['paths'][0]))
+/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/museum_street_alignment.py:64: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  registered = transform(project, Polygon(d['paths'][0]))
+.........................................../Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_reconciliation.py:423: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  rr,cc=np.mgrid[row:row+15,col:col+15];xy=[ds.transform*(float(c)+.5,float(r)+.5) for r,c in zip(rr.ravel(),cc.ravel())];pix=np.array([inverse(p) for p in xy]);sample=np.stack([map_coordinates(src[:,:,b].astype(float),[pix[:,1]-.5,pix[:,0]-.5],order=1) for b in range(3)])
+.E.F.EFF
+======================================================================
+ERROR: test_imported_observations_cannot_be_silently_rewritten (tests.test_qgis_road_review.QgisRoadReviewTests.test_imported_observations_cannot_be_silently_rewritten)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_review.py", line 76, in test_imported_observations_cannot_be_silently_rewritten
+    self.accept();ledger=self.path/'ledger.json';import_review(self.path,ledger)
+                                                 ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/qgis_road_review.py", line 284, in import_review
+    batch=validate(workspace);ledger_path=Path(ledger_path)
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/qgis_road_review.py", line 260, in validate
+    if oid and (oid not in objects or object_hash(objects[oid])!=target['objectHash']):raise ValueError('Persistent road changed; refresh review packet')
+                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Persistent road changed; refresh review packet
+
+======================================================================
+ERROR: test_round_trip_evidence_keeps_identity_dates_geometry_and_sources (tests.test_qgis_road_review.QgisRoadReviewTests.test_round_trip_evidence_keeps_identity_dates_geometry_and_sources)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_review.py", line 35, in test_round_trip_evidence_keeps_identity_dates_geometry_and_sources
+    self.accept();batch=validate(self.path);self.assertEqual(len(batch['records']),1)
+                        ~~~~~~~~^^^^^^^^^^^
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/qgis_road_review.py", line 260, in validate
+    if oid and (oid not in objects or object_hash(objects[oid])!=target['objectHash']):raise ValueError('Persistent road changed; refresh review packet')
+                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Persistent road changed; refresh review packet
+
+======================================================================
+FAIL: test_no_observation_can_imply_demolition_and_review_notes_are_required (tests.test_qgis_road_review.QgisRoadReviewTests.test_no_observation_can_imply_demolition_and_review_notes_are_required)
+----------------------------------------------------------------------
+ValueError: Persistent road changed; refresh review packet
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_review.py", line 71, in test_no_observation_can_imply_demolition_and_review_notes_are_required
+    with self.assertRaisesRegex(ValueError,'end date'):validate(self.path)
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "end date" does not match "Persistent road changed; refresh review packet"
+
+======================================================================
+FAIL: test_route_change_is_an_explicit_proposal_and_does_not_replace_world_geometry (tests.test_qgis_road_review.QgisRoadReviewTests.test_route_change_is_an_explicit_proposal_and_does_not_replace_world_geometry)
+----------------------------------------------------------------------
+ValueError: Persistent road changed; refresh review packet
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_review.py", line 62, in test_route_change_is_an_explicit_proposal_and_does_not_replace_world_geometry
+    with self.assertRaisesRegex(ValueError,'proposal'):validate(self.path)
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "proposal" does not match "Persistent road changed; refresh review packet"
+
+======================================================================
+FAIL: test_stale_identity_registration_and_geometry_are_rejected (tests.test_qgis_road_review.QgisRoadReviewTests.test_stale_identity_registration_and_geometry_are_rejected)
+----------------------------------------------------------------------
+ValueError: Persistent road changed; refresh review packet
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_review.py", line 58, in test_stale_identity_registration_and_geometry_are_rejected
+    with self.assertRaisesRegex(ValueError,'retain reference|sheet coverage'):validate(self.path)
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "retain reference|sheet coverage" does not match "Persistent road changed; refresh review packet"
+
+----------------------------------------------------------------------
+Ran 63 tests in 539.366s
+
+FAILED (failures=3, errors=2)

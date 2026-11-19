@@ -1,0 +1,276 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "reviewProperty": "lemlandsvagenMainRoad",
+ "geometryPrefix": "geometry:lemlandsvagen-east:",
+ "source": {
+  "id": "review:lemlandsvagen-east",
+  "title": "Lemlandsvägen öster om kyrkbyn · granskning",
+  "url": "assets/lemlandsvagen-east.json"
+ },
+ "sources": [
+  {
+   "id": "nls:map-39093010",
+   "title": "Lantmäteriverket · sockenkarta 1012 11 Lumparland · 1929",
+   "issuedAt": "1929",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_vari/map-39093010_500-20000-101211_pitajankartta_1929_karttalehti_101211_lumparland_v2.tif"
+  }
+ ],
+ "maps": {
+  "1917": {
+   "sourceId": "nls:92062c61-d68d-43ef-b581-e9bdcdc8e0ba",
+   "year": 1917
+  },
+  "1929": {
+   "sourceId": "nls:map-39093010",
+   "year": 1929
+  },
+  "1968": {
+   "sourceId": "nls:101211:1968",
+   "year": 1968
+  }
+ },
+ "early": [
+  {
+   "objectId": "road:qgis:lumparland:lemlandsvagen-100km3",
+   "inputHash": "d95c182e39b6a92e011efdf1dad5ea997995089c715e5c4144e5a1572e745c5c",
+   "geometryId": "geometry:qgis:2a03bf526f5f3daa4070",
+   "geometryHash": "5bc5d693883d5659634787d1e2ce10d5eec068971917309da545bf00dea62bc7",
+   "lengthMeters": 7291.3,
+   "firstYear": 1917,
+   "until": 1968,
+   "maps": {
+    "1917": "present",
+    "1929": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     2275.7
+    ],
+    [
+     2622.5,
+     5939.4
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1929,
+    "ranges": [
+     [
+      0.0,
+      2275.7
+     ],
+     [
+      2622.5,
+      5939.4
+     ],
+     [
+      6753.3,
+      7291.3
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:lumparland:skolsvangen-100km6",
+   "inputHash": "a925bf1f8906b3710a1e50afd980c6ae035170a7edbf1c4be82fbd7aec99dcf2",
+   "geometryId": "geometry:qgis:0ffaec258d9baaf0c0fc",
+   "geometryHash": "29bdbb11cac4395847ef6d4ea56341f0c97b96dec8cd49cb51db714822d2acb6",
+   "lengthMeters": 457.7,
+   "firstYear": 1917,
+   "until": 1968,
+   "maps": {
+    "1917": "present",
+    "1929": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     430.6
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:lumparland:klubbensvagen-100km4",
+   "inputHash": "8849bb34afdd0ea5f5f55af82c2bdd53c23db1a900765fc8d1145b48edbdd183",
+   "geometryId": "geometry:qgis:0cacd489e556349d2bcc",
+   "geometryHash": "2e3895d059c392b4bc7cd3ae88d5467848592fcde51de0489457c5be67023082",
+   "lengthMeters": 1086.3,
+   "firstYear": 1917,
+   "until": 1968,
+   "maps": {
+    "1917": "present",
+    "1929": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1086.3
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:lumparland:lemlandsvagen-100km3": "Dagens väg från kyrkbyn genom Norrböle, Rörstorp och Granboda är vägen på Senatens karta 1917 och sockenkartan 1929 (inom 25 m, kartbladets fel). Undantagen: vid Simons gick vägen i en båge norrut (dagens Skolsvängen), och öster om Granboda gick den österut längs dagens Klubbensvägen och sedan norrut (Fiskartorpsvägen). Dagens raka väg vid Simons och diagonalen mot Bergören ritas första gången på grundkartan 1968.",
+  "road:qgis:lumparland:skolsvangen-100km6": "Den gamla landsvägen i en båge norrut förbi Simons. Sockenkartan 1929 ritar den som landsvägen; Senatens karta 1917 ritar vägen här men är för grov för formen. Grundkartan 1968 ritar dagens raka väg söder om den. Bågen slutar 15 m från dagens väg (dagens gång- och cykelväg ligger emellan); den sista anslutningen ritas inte.",
+  "road:qgis:lumparland:klubbensvagen-100km4": "Den gamla landsvägen österut från Granboda mot Delsviken. Senatens karta 1917 ritar vägen fram till stranden vid Delsviken, sockenkartan 1929 ritar den med svängen norrut (Fiskartorpsvägen) mot Bergören. Grundkartan 1968 ritar dagens diagonal som huvudväg."
+ },
+ "laterStageNote": "Del av objektets egen geometri (samma koordinater) där dagens väg är vägen på sockenkartan 1929, nu också över Bergören till sundet.",
+ "laterStageBasis": {
+  "road:qgis:lumparland:lemlandsvagen-100km3": "Sockenkartan 1929 ritar vägen över Bergören och över sundet mot Skag. Senatens karta 1917 ritar ingen väg dit; där slutar vägen vid stranden vid Delsviken."
+ },
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där dagens väg är vägen på Senatens karta 1917 och sockenkartan 1929.",
+ "route": {
+  "order": [
+   "road:qgis:lumparland:lemlandsvagen-100km3",
+   "road:qgis:lumparland:skolsvangen-100km6",
+   "road:qgis:lumparland:lemlandsvagen-100km3",
+   "road:qgis:lumparland:klubbensvagen-100km4"
+  ],
+  "repeat": [
+   "road:qgis:lumparland:lemlandsvagen-100km3"
+  ],
+  "joinMeters": 1.0
+ },
+ "statedGaps": [
+  {
+   "objectId": "road:qgis:lumparland:skolsvangen-100km6",
+   "end": -1,
+   "meters": 15.9,
+   "basis": "Skolsvängens båge slutar 15 m från dagens väg; dagens gång- och cykelväg ligger emellan. Den gamla anslutningen ritas inte."
+  }
+ ],
+ "newRoadSource": {
+  "id": "road:lumparland:fiskartorpsvagen:survey",
+  "title": "OpenStreetMap · Fiskartorpsvägen",
+  "url": "https://www.openstreetmap.org/way/349946211",
+  "issuedAt": "2026"
+ },
+ "newRoad": {
+  "id": "road:lumparland:fiskartorpsvagen",
+  "name": "Fiskartorpsvägen",
+  "routeId": "road:route:fiskartorpsvagen",
+  "modernRoadClass": "unclassified",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "surveySourceId": "road:lumparland:fiskartorpsvagen:survey",
+  "maps": {
+   "1929": "present",
+   "1968": "present"
+  },
+  "paths": [
+   [
+    [
+     20.216416,
+     60.079263
+    ],
+    [
+     20.216454,
+     60.079081
+    ],
+    [
+     20.216446,
+     60.078936
+    ],
+    [
+     20.216358,
+     60.078774
+    ],
+    [
+     20.215973,
+     60.078456
+    ],
+    [
+     20.215864,
+     60.078347
+    ],
+    [
+     20.215721,
+     60.078084
+    ],
+    [
+     20.215641,
+     60.077966
+    ],
+    [
+     20.215526,
+     60.07783
+    ],
+    [
+     20.215434,
+     60.077697
+    ],
+    [
+     20.21536,
+     60.077556
+    ],
+    [
+     20.215303,
+     60.077383
+    ],
+    [
+     20.21523,
+     60.077054
+    ],
+    [
+     20.215219,
+     60.07691
+    ],
+    [
+     20.215191,
+     60.076794
+    ],
+    [
+     20.21518,
+     60.076694
+    ],
+    [
+     20.21515,
+     60.076585
+    ]
+   ]
+  ],
+  "sourceLinks": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/349946211",
+    "sourceVertexRange": [
+     0,
+     16
+    ],
+    "sourceVertexCount": 17,
+    "input": "135a4e05119db86dd7295045ba9578f30f09bd8d215efacb302aecae4bbf6940",
+    "basis": "Fiskartorpsvägen, den gamla landsvägens sträcka norrut från Klubbensvägen till dagens väg vid Bergören, som den kartlagts detta år."
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-349946211",
+    "sourceVertexRange": [
+     0,
+     16
+    ],
+    "sourceVertexCount": 17,
+    "input": "135a4e05119db86dd7295045ba9578f30f09bd8d215efacb302aecae4bbf6940",
+    "basis": "Fiskartorpsvägen, den gamla landsvägens sträcka norrut från Klubbensvägen till dagens väg vid Bergören, som den kartlagts detta år."
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-349946211",
+    "sourceVertexRange": [
+     0,
+     16
+    ],
+    "sourceVertexCount": 17,
+    "input": "135a4e05119db86dd7295045ba9578f30f09bd8d215efacb302aecae4bbf6940",
+    "basis": "Fiskartorpsvägen, den gamla landsvägens sträcka norrut från Klubbensvägen till dagens väg vid Bergören, som den kartlagts detta år."
+   }
+  ],
+  "missingExtracts": [
+   "osm-2014"
+  ],
+  "missingExtractsBasis": "OpenStreetMap 2014 har inte vägen; att den saknas i utdraget är inte belägg för att den saknades.",
+  "basis": "Den gamla landsvägens sträcka norrut från Klubbensvägen till dagens väg vid Bergören. Sockenkartan 1929 ritar den som landsvägen och grundkartan 1968 som en mindre väg bredvid dagens diagonal. Senatens karta 1917 ritar ingen väg här. Dagens mittlinje (OpenStreetMap) används som stabilt läge.",
+  "geometryNote": "Fiskartorpsvägens mittlinje i OpenStreetMap 2026, använd som stabilt läge från 1929."
+ },
+ "method": "Dagens väg jämförd för hand med Senatens karta 1917, sockenkartan 1012 11 Lumparland 1929 (rutnät 50 m) och grundkartorna 1968, 1985 och 1995 (blad 101211), med OpenStreetMap 2026 inritat (renders/). Ingen linje är avläst för hand: de tidiga perioderna är delar av objektens egna geometrier, avskurna vid korsningarna."
+}

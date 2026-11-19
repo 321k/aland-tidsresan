@@ -70,3 +70,5 @@ a straightening, see `docs/lemland-old-road-osm.md`.)
 - Use the 1929 line to place Lemlandsvägen on the 1894 atlas and the circa-1800 map; both left del 1 deferred
   because of the reroutings found here. Önningebyvägen is already dated from circa 1800, and section B continues it.
 - Repeat for the other main roads (Godbyvägen, Eckerövägen, Getavägen, Saltviksvägen).
+- East of the church village (road:qgis:lumparland:lemlandsvagen-100km3): done 2026-11-19, see
+  `docs/lemlandsvagen-east.md`.
