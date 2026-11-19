@@ -1,0 +1,39 @@
+{
+ "comparedWith": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-frebbenby.json.gz (the catalogue as deployed after the Överby batch) and data/map-scan-cache/review/hammarlandsvagen-main-road/frebbenby-before/historical-roads.json",
+ "catalogue": {
+  "objectsAdded": [],
+  "objectsRemoved": [],
+  "objectsChanged": {
+   "road:marsund:eckero-hammarland": [
+    "evidence",
+    "geometryPeriods",
+    "hammarlandsvagenMainRoad",
+    "states"
+   ],
+   "road:qgis:eckero:marsundsvagen-100km4": [
+    "evidence",
+    "geometryPeriods",
+    "hammarlandsvagenMainRoad",
+    "states"
+   ]
+  },
+  "geometriesAdded": [
+   "geometry:hammarlandsvagen-frebbenby:marsundsvagen-100km4"
+  ],
+  "geometriesChanged": [
+   "geometry:hammarlandsvagen-marsund:eckero-hammarland"
+  ],
+  "geometriesRemoved": [],
+  "sourcesAdded": [
+   "review:hammarlandsvagen-frebbenby"
+  ],
+  "otherKeysChanged": []
+ },
+ "historicalRoads": {
+  "atlas-1894/atlas-1894-1": {
+   "intervalsAdded": 3,
+   "intervalsRemoved": 0,
+   "otherFields": []
+  }
+ }
+}

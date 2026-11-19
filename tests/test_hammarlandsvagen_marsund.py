@@ -59,10 +59,10 @@ class HammarlandsvagenMarsundTests(unittest.TestCase):
         self.rejected(lambda r: e(r).update(inputHash='changed'), 'Changed Hammarlandsvägen input')
         self.rejected(lambda r: e(r).pop('pathRanges'), 'Changed Hammarlandsvägen geometry')   # 19 paths: never implicit
         self.rejected(lambda r: e(r)['pathOrder'].reverse(), 'do not follow each other')          # paths must chain
-        self.rejected(lambda r: e(r)['pathRanges'][1].__setitem__(2, 40.0), 'Invalid path cut')    # each cut at least 50 m
+        self.rejected(lambda r: e(r)['pathRanges'][1].__setitem__(2, 30.0), 'Invalid path cut')    # under 50 m only as a whole path
         self.rejected(lambda r: e(r)['pathRanges'].insert(0, e(r)['pathRanges'].pop(2)), 'not in order')
         self.rejected(lambda r: e(r)['ranges'][1].__setitem__(1, 8300.0), 'do not make the reviewed ranges')
-        self.rejected(lambda r: e(r)['pathRanges'].pop(1), 'do not make the reviewed ranges')     # Marby must reach 6 040 m
+        self.rejected(lambda r: e(r)['pathRanges'].pop(1), 'do not make the reviewed ranges')     # Frebbenby runs on over path 17 (36 m)
         self.rejected(lambda r: e(r)['maps'].update({'1929-eckero': 'unclear'}), 'First year')
 
 

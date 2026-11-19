@@ -20,7 +20,11 @@ T = LineString(json.load(open(f'{R}/data/trace-overby-1929.json'))['trace'])
 modern = {f['id']: f for f in json.load(gzip.open('dist/assets/modern.json.gz'))['features']}
 met = lambda p: [TO_METRIC(*q) for q in p]
 geo = lambda q: [round(v, 7) for v in TO_GEO(*q)]
-P6040, P6300, P6430, P7080 = early[1][-1], early[2][0], early[2][-1], early[3][0]
+REF = LineString(json.load(open(f'{R}/data/marsund-reference.json'))['metric'])
+ends_ = [q for p in early for q in (p[0], p[-1])]
+at = lambda d: min(ends_, key=lambda q: Point(TO_METRIC(*q)).distance(REF.interpolate(d)))      # the cut end at d m along the connection
+P6040, P6300, P6430, P7080 = at(6040), at(6300), at(6430), at(7080)
+assert all(Point(TO_METRIC(*q)).distance(REF.interpolate(d)) < 1 for q, d in ((P6040, 6040), (P6300, 6300), (P6430, 6430), (P7080, 7080)))
 for name, p in (('6040', P6040), ('6300', P6300), ('6430', P6430), ('7080', P7080)):
     print(name, 'on trace at', round(T.project(Point(TO_METRIC(*p)))), 'off', round(T.distance(Point(TO_METRIC(*p))), 1))
 

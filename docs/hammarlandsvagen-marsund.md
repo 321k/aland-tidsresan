@@ -24,7 +24,7 @@ Kattby review (`nls:map-39091228`, `nls:map-37971493`). Distances below are alon
 
 | from Frebbenby | 1929 and 1956 maps | result |
 |---|---|---|
-| 0–0.4 km | the old road; it then ran west along today's Marsundsvägen to the ferry | not dated here (open item) |
+| **0–0.47 km**, Frebbenby | **the old road, within about 13 m**; it then ran west along today's Marsundsvägen to the ferry (`docs/hammarlandsvagen-frebbenby.md`) | **1929** |
 | 0.4–3.0 km | no road on today's line (part is off the sheet) | 1959 |
 | 3.0–4.4 km, Öra and the sound | 1929: no road. 1956: the new road is drawn, three years before the bridge opened, so the edition was updated | 1959 |
 | 4.4–5.7 km, Marby | no road on today's line; the old road ran further south, past Sundkvist | 1959 |
@@ -62,7 +62,7 @@ the atlas review already names the object, and `scripts/build_historical_roads.p
 
 - Överby village: done, see `docs/hammarlandsvagen-overby.md`. The road from Marby to Kyrkoby is connected in
   1929–1985.
-- Frebbenby–Marsund: the old road to the ferry along today's Marsundsvägen, and the ferry itself.
+- Frebbenby–Marsund: done, see `docs/hammarlandsvagen-frebbenby.md`. The ferry route itself is still open.
 - Marby east of 5.7 km (past Sundkvist), north of Kyrkoby (8.2–9.0 km) and Storby (10.8 km on): the old road is a
   separate line beside today's road.
 - 9.0–10.8 km: needs the neighbouring parish sheet.

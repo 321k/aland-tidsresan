@@ -263,3 +263,43 @@ Method and decisions: `docs/hammarlandsvagen-overby.md`.
   - All 606 JS tests pass (`logs/js-tests-overby.log`).
   - The Överby, Marsund, atlas, Hammarlandsvägen (all four), regional review, atlas continuity and dating, Marsund
     continuity and road date assumption Python tests pass, 37 tests (`logs/python-tests-overby.log`).
+
+## The road to the Marsund ferry (eighth batch, 2026-11-19)
+
+Method and decisions: `docs/hammarlandsvagen-frebbenby.md`.
+- **Dated from 1929:**
+  - the Marsund connection through Frebbenby, 0–0.47 km (`prepare_marsund.py`)
+  - Marsundsvägen from Frebbenby to the old ferry pier, its first 1 040 m (it was dated from 1994)
+- **Build step:** `_path_cuts` allows a whole path under 50 m inside a longer stretch.
+- **Evidence:** `renders/marsundsvagen-*.jpg`, `frebbenby-grid-*.jpg` and `result-frebbenby-1950.jpg`.
+  `data/marsundsvagen-reference.json` is Marsundsvägen as one line.
+- **Scripts:** `prepare_frebbenby.py` and `marsundsvagen_base_maps.py`. `prepare_overby.py` now finds its join points
+  by distance along the connection, because the Marsund cuts gained three paths at the front.
+- **Snapshots:**
+  - `before-frebbenby.json.gz`: the catalogue as deployed after the Överby batch
+  - `before-frebbenby-step.json.gz`: the catalogue built with this step disabled; the Python test replays the step on
+    it
+  - `before-overby-step.json.gz`: rebuilt with the changed Marsund review. Only the Överby data's input fingerprint
+    changed.
+- **Scope:** `scope-audit-frebbenby.json`:
+  - changed: Marsundsvägen, and the Marsund object and its 1929 cut geometry
+  - added: 1 geometry and 1 source (the review)
+  - 3 replacement intervals added on `atlas-1894-1`, none removed
+  - nothing else changed.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-frebbenby.test.cjs` and `tests/test_hammarlandsvagen_frebbenby.py`. Each rejection is
+    checked for its stated reason.
+  - updated: `tests/hammarlandsvagen-marsund.test.cjs`, `tests/test_hammarlandsvagen_marsund.py` and
+    `tests/marsund-road-continuity.test.cjs` (four stretches, eight cuts).
+- **`batch-frebbenby.patch`:**
+  - `scripts/build_temporal_objects.py`: the hook and the asset copy
+  - `dist/assets/historical-roads.json`
+  - `dist/index.html`: the card "Vägen till Marsundsfärjan" and the preview
+  - `tests/marsund-road-continuity.test.cjs`
+
+  See `patch-verification-frebbenby.log`.
+- **Runs:**
+  - All 608 JS tests pass (`logs/js-tests-frebbenby.log`).
+  - The Frebbenby, Överby, Marsund, atlas, Hammarlandsvägen (all four), regional review, atlas continuity and dating,
+    Marsund continuity, road date assumption and QGIS road reconciliation Python tests pass, 70 tests
+    (`logs/python-tests-frebbenby.log`).

@@ -1,0 +1,15 @@
+batch-frebbenby.patch, 2026-11-19
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/hammarlandsvagen-main-road/frebbenby-before/ to the working tree):
+- scripts/build_temporal_objects.py (untracked)
+- dist/assets/historical-roads.json (tracked, modified)
+- dist/index.html (tracked, modified)
+- tests/marsund-road-continuity.test.cjs (untracked)
+
+data/regional-road-review.json and tests/temporal-objects.test.cjs are byte-identical to their before-copies (cmp)
+and are not in the patch.
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; all four results are byte-identical
+to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to all four files.

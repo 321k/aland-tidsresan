@@ -40,7 +40,7 @@
  "method": "Den gamla landsvägen genom Överby avläst för hand på sockenkartan 1929 för Eckerö (rutnät 50 m, renders/overby-grid-1929.jpg; data/trace-overby-1929.json) och jämförd med utgåvan 1956, grundkartorna 1968, 1978 och 1985 (blad 101203) och OpenStreetMap 2026 (renders/overby-*).",
  "bypass": {
   "objectId": "road:marsund:eckero-hammarland",
-  "inputHash": "30d798a691d771346d4eb0424e8987ae327d6ded570456b3594163ebcfaa613c",
+  "inputHash": "261dd32d7fac27d601d90bf712753df8cc899b2339b7c57335c42592899f3af6",
   "geometryId": "geometry:01d9f4aa521eeba8e620",
   "geometryHash": "fc9a27a99a78cba0f6f1cfe9acc28b713d07ec8baa43079fbf6bcd1421858204",
   "from": 1959,

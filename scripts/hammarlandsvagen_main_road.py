@@ -60,7 +60,7 @@ def _path_cuts(e, o, g):
     """Cuts on a geometry of several paths. 'pathOrder' lists the paths in order along the road; each must start where
     the one before it ends. 'pathRanges' are [path, from, to] in metres along that path, in order along the road.
     Cuts that run on across a path boundary form one stretch; the stretches must be 'ranges' (metres along the whole
-    object in path order). Each cut is at least 50 m."""
+    object in path order). Each cut is at least 50 m, unless it is a whole path within a longer stretch."""
     order = e['pathOrder']; n = len(g['paths'])
     if sorted(order) != list(range(n)):
         raise ValueError('Invalid path order ' + e['objectId'])
@@ -73,7 +73,8 @@ def _path_cuts(e, o, g):
         offset[i] = at; at += lines[i].length
     parts, spans = [], []
     for i, a, b in e['pathRanges']:
-        if i not in lines or a < 0 or b > lines[i].length + 0.1 or b - a < 50:
+        whole_path = i in lines and a == 0 and abs(b - lines[i].length) < 0.1
+        if i not in lines or a < 0 or b > lines[i].length + 0.1 or (b - a < 50 and not whole_path):
             raise ValueError('Invalid path cut ' + e['objectId'])
         parts.append(cut(g['paths'][i], lines[i], a, b)); spans.append([offset[i] + a, offset[i] + min(b, lines[i].length)])
     stretches = []
@@ -84,7 +85,8 @@ def _path_cuts(e, o, g):
             stretches[-1][1] = b
         else:
             stretches.append([a, b])
-    if len(stretches) != len(e['ranges']) or any(abs(s - r) > 0.5 for x, y in zip(stretches, e['ranges']) for s, r in zip(x, y)):
+    if len(stretches) != len(e['ranges']) or any(b - a < 50 for a, b in stretches) \
+            or any(abs(s - r) > 0.5 for x, y in zip(stretches, e['ranges']) for s, r in zip(x, y)):
         raise ValueError('Path cuts do not make the reviewed ranges ' + e['objectId'])
     return (e, o, g, parts, False, [[round(a / at, 6), round(b / at, 6)] for a, b in stretches])
 
@@ -284,6 +286,12 @@ def _apply(read, catalog, path_):
             evidence=ev, sourceLinks=[],
             hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], oldRoad=True, referenceRange=od['referenceRange'], endSnapMeters=od['endSnapMeters'], constructionYear=None)))
     catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])
+
+
+def apply_hammarlandsvagen_frebbenby(read, catalog):
+    """Marsundsvägen from Frebbenby to the old ferry pier: the road to the Marsund ferry on the 1929 parish map
+    (docs/hammarlandsvagen-frebbenby.md)."""
+    _apply(read, catalog, 'data/hammarlandsvagen-frebbenby.json')
 
 
 def apply_hammarlandsvagen_overby(read, catalog):

@@ -1,0 +1,83 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "source": {
+  "id": "review:hammarlandsvagen-frebbenby",
+  "title": "Vägen till Marsundsfärjan · granskning",
+  "url": "assets/hammarlandsvagen-frebbenby.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-eckero": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1956-eckero": {
+   "sourceId": "nls:map-37971493",
+   "year": 1956
+  },
+  "1968": {
+   "sourceId": "nls:101203:1968",
+   "year": 1968
+  },
+  "1978": {
+   "sourceId": "nls:101203:1978",
+   "year": 1978
+  },
+  "1985": {
+   "sourceId": "nls:101203:1985",
+   "year": 1985
+  }
+ },
+ "geometryPrefix": "geometry:hammarlandsvagen-frebbenby:",
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där Marsundsvägen är den gamla vägen till färjan över Marsund på sockenkartan 1929.",
+ "method": "Marsundsvägen jämförd med sockenkartan 1012 03 Eckerö 1929 och utgåvan 1956 (karttiler 2,4 m/px, rutnät 50 m), grundkartorna 1968, 1978 och 1985 (blad 101203) och OpenStreetMap 2026 (renders/marsundsvagen-*.jpg, frebbenby-grid-*.jpg).",
+ "early": [
+  {
+   "objectId": "road:qgis:eckero:marsundsvagen-100km4",
+   "inputHash": "ac5c3e28505b2334f0c71f98a6f6e6e1421f597b1a8e4788dd38d0b9d08843d9",
+   "geometryId": "geometry:qgis:e15e47b4c17122f8e546",
+   "geometryHash": "8ed15fd4322f6063ff7ada5a258109761f292680f0a0974bd3df5e796968360d",
+   "lengthMeters": 1619.07,
+   "ranges": [
+    [
+     0.0,
+     1040.0
+    ]
+   ],
+   "firstYear": 1929,
+   "until": 1994,
+   "maps": {
+    "1929-eckero": "present",
+    "1956-eckero": "present",
+    "1968": "present",
+    "1978": "present",
+    "1985": "present"
+   }
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:eckero:marsundsvagen-100km4": "Marsundsvägens första 1 040 m, från Frebbenby västerut och längs stranden till den gamla färjebryggan, är vägen till färjan över Marsund som sockenkartan 1929 och utgåvan 1956 ritar; de ritar också färjeleden över sundet vid bryggan. Kartorna ritar vägen inom omkring 15 m från dagens, och i kröken vid Marsund inom omkring 25 m. Grundkartan 1968 ritar den fortfarande som landsväg, och 1978 och 1985 som väg. Söder om bryggan är Marsundsvägen yngre och visas som tidigare."
+ },
+ "route": {
+  "order": [
+   "road:rural:hammarland-hammarlandsvagen-kattby-west",
+   "road:marsund:eckero-hammarland",
+   "road:qgis:eckero:marsundsvagen-100km4"
+  ],
+  "endObjects": [
+   "road:rural:hammarland-hammarlandsvagen-kattby-west",
+   "road:marsund:eckero-hammarland"
+  ],
+  "joinMeters": 2.0,
+  "gaps": [
+   {
+    "between": [
+     "road:marsund:eckero-hammarland",
+     "road:qgis:eckero:marsundsvagen-100km4"
+    ],
+    "meters": 26.7
+   }
+  ]
+ }
+}
