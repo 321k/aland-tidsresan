@@ -1,0 +1,23 @@
+{
+ "comparedWith": "data/map-scan-cache/review/hammarlandsvagen-main-road/before-holmberg.json.gz (the catalogue as deployed after the ferry-west batch) and data/map-scan-cache/review/hammarlandsvagen-main-road/holmberg-before/historical-roads.json",
+ "catalogue": {
+  "objectsAdded": [
+   "road:eckero:gamla-landsvagen:holmberg",
+   "road:eckero:oravagen"
+  ],
+  "objectsRemoved": [],
+  "objectsChanged": {},
+  "geometriesAdded": [
+   "geometry:eckero:gamla-landsvagen:holmberg",
+   "geometry:eckero:oravagen"
+  ],
+  "geometriesChanged": [],
+  "geometriesRemoved": [],
+  "sourcesAdded": [
+   "review:hammarlandsvagen-holmberg",
+   "road:eckero:oravagen:survey"
+  ],
+  "otherKeysChanged": []
+ },
+ "historicalRoads": {}
+}

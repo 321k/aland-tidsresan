@@ -46,4 +46,4 @@ The 1894 atlas line is 734 m away here and needs no link.
 - Marsundsvägen south of the pier: the 1968 map draws it as a road, but the QGIS review dated it as one segment from
   1994. This review leaves that as it is.
 - The ferry route itself. The road on the Eckerö side from the narrow sound to Marby: done, see
-  `docs/hammarlandsvagen-ferry-west.md`; the road across Holmberg is still open.
+  `docs/hammarlandsvagen-ferry-west.md` and `docs/hammarlandsvagen-holmberg.md`.

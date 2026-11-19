@@ -24,7 +24,7 @@ Waypoints were read on the grids and converted with `scripts/grid_trace.py`.
 
 Before the bridge, the ferry ("M. färja" on the 1929 Eckerö parish map) crossed Marsund from the pier at the end of
 Marsundsvägen to a pier on Holmberg. From there the 1929 road went:
-1. West across Holmberg to the narrow sound. Not dated in this batch (open item).
+1. West across Holmberg to the narrow sound (`docs/hammarlandsvagen-holmberg.md`).
 2. **Over the narrow sound on today's line**, 3.69–3.88 km from Frebbenby, within about 25 m.
 3. **South along the shore of the sound to Nissas**: 1.1 km, 45–80 m east of today's Marbyvägen. On the same map,
    Marbyvägen's line there is a footpath.
@@ -71,7 +71,6 @@ In 1929–1955 the road from the narrow sound to Marby is one connected line. In
 
 ## Open items
 
-- The road across Holmberg from the narrow sound to the ferry pier. Partly today's road to Örliden; it needs the
-  Överby treatment (surviving parts owned in OSM).
+- The road across Holmberg from the narrow sound to the ferry pier: done, see `docs/hammarlandsvagen-holmberg.md`.
 - 1956–1958: the 30 m between the crossing stretch and Marbyvägen.
 - The ferry route itself.

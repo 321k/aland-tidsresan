@@ -1,0 +1,238 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "source": {
+  "id": "review:hammarlandsvagen-holmberg",
+  "title": "Vägen över Holmberg till färjan · granskning",
+  "url": "assets/hammarlandsvagen-holmberg.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-eckero": {
+   "sourceId": "nls:map-39091228",
+   "year": 1929
+  },
+  "1956-eckero": {
+   "sourceId": "nls:map-37971493",
+   "year": 1956
+  },
+  "1968": {
+   "sourceId": "nls:101203:1968",
+   "year": 1968
+  },
+  "1978": {
+   "sourceId": "nls:101203:1978",
+   "year": 1978
+  },
+  "1985": {
+   "sourceId": "nls:101203:1985",
+   "year": 1985
+  }
+ },
+ "early": [],
+ "earlyBasis": {},
+ "method": "Vägen över Holmberg avläst för hand på sockenkartan 1012 03 Eckerö 1929 (rutnät 50 m) och jämförd med utgåvan 1956, grundkartorna 1968, 1978 och 1985 (blad 101203) och OpenStreetMap 2014–2026 (renders/holmberg-*).",
+ "oldRoad": {
+  "id": "road:eckero:gamla-landsvagen:holmberg",
+  "name": "Gamla landsvägen · Holmberg",
+  "routeId": "road:Gamla landsvägen Eckerö",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "until": 1956,
+  "maps": {
+   "1929-eckero": "present",
+   "1956-eckero": "absent"
+  },
+  "paths": [
+   [
+    [
+     19.675965786598535,
+     60.217286776193895
+    ],
+    [
+     19.6765004,
+     60.2169195
+    ],
+    [
+     19.6777714,
+     60.2168745
+    ],
+    [
+     19.6795871,
+     60.2168068
+    ],
+    [
+     19.6814027,
+     60.2167527
+    ],
+    [
+     19.6832184,
+     60.2166941
+    ],
+    [
+     19.6837631,
+     60.2166806
+    ]
+   ]
+  ],
+  "lengthMeters": 454.0,
+  "referenceRange": [
+   3690,
+   null
+  ],
+  "endSnapMeters": [
+   0.0,
+   0.0
+  ],
+  "endSnapLimit": 1,
+  "endObjects": [
+   "road:marsund:eckero-hammarland"
+  ],
+  "freeEnds": [
+   [
+    0,
+    -1
+   ]
+  ],
+  "freeEndBasis": "Vägens östra ände är färjebryggan på Holmbergs östra strand; där fortsatte vägen med färjan över Marsund till bryggan vid Marsundsvägen.",
+  "basis": "Landsvägen från färjan över Marsund gick från bryggan på Holmbergs östra strand rakt västerut till det smala sundet. Sockenkartan 1929 ritar den. Utgåvan 1956 ritar i stället vägen söderut till en ny brygga vid Örliden (dagens Öravägen); vägen fram till den gamla bryggan ritas inte. Inget av den finns i OpenStreetMap.",
+  "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1929 (rutnät 50 m) och inte flyttad; den västra änden är fäst vid förbindelsens del från 1929 vid sundet, den östra är färjebryggan.",
+  "afterNote": "Utgåvan 1956 ritar ingen väg fram till den gamla bryggan. Exakt när den togs ur bruk är inte känt."
+ },
+ "route": {
+  "order": [
+   "road:marsund:eckero-hammarland",
+   "road:eckero:gamla-landsvagen:holmberg"
+  ],
+  "endObjects": [
+   "road:marsund:eckero-hammarland"
+  ],
+  "joinMeters": 2.0
+ },
+ "newRoadSource": {
+  "id": "road:eckero:oravagen:survey",
+  "title": "OpenStreetMap · Öravägen",
+  "url": "https://www.openstreetmap.org/way/169282417",
+  "issuedAt": "2026"
+ },
+ "newRoad": {
+  "id": "road:eckero:oravagen",
+  "name": "Öravägen",
+  "routeId": "road:route:oravagen",
+  "modernRoadClass": "residential",
+  "roadWidth": 4,
+  "firstYear": 1956,
+  "surveySourceId": "road:eckero:oravagen:survey",
+  "maps": {
+   "1956-eckero": "present",
+   "1968": "present",
+   "1978": "present",
+   "1985": "present"
+  },
+  "paths": [
+   [
+    [
+     19.684523,
+     60.21501
+    ],
+    [
+     19.684343,
+     60.215043
+    ],
+    [
+     19.68413,
+     60.215131
+    ],
+    [
+     19.683822,
+     60.215337
+    ],
+    [
+     19.683237,
+     60.215728
+    ],
+    [
+     19.68189,
+     60.216629
+    ],
+    [
+     19.681324,
+     60.217007
+    ],
+    [
+     19.68097,
+     60.217132
+    ],
+    [
+     19.680642,
+     60.217196
+    ],
+    [
+     19.679259,
+     60.217325
+    ],
+    [
+     19.677194,
+     60.217471
+    ],
+    [
+     19.67703,
+     60.217505
+    ],
+    [
+     19.676813,
+     60.217598
+    ]
+   ]
+  ],
+  "sourceLinks": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/169282417",
+    "sourceVertexRange": [
+     0,
+     12
+    ],
+    "sourceVertexCount": 13,
+    "input": "70a8fe6a22d0f35980ea9d3325ead69bfbbd52075ab6ae6e06ff8173f7d68a02",
+    "basis": "Öravägen, vägen till bryggan vid Örliden, som den kartlagts detta år."
+   },
+   {
+    "datasetId": "osm-2014",
+    "featureId": "road-2014-169282417",
+    "sourceVertexRange": [
+     0,
+     2
+    ],
+    "sourceVertexCount": 3,
+    "input": "04fe6f1e0b683efbc207b920ec58c48c6d626f5a69fad76c848501968b19aca8",
+    "basis": "Öravägen, vägen till bryggan vid Örliden, som den kartlagts detta år."
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-169282417",
+    "sourceVertexRange": [
+     0,
+     11
+    ],
+    "sourceVertexCount": 12,
+    "input": "9d1fec85f9af28b2de6f1e1d2635edeec2879ef4f8e7679f913a3d170e3312a4",
+    "basis": "Öravägen, vägen till bryggan vid Örliden, som den kartlagts detta år."
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-169282417",
+    "sourceVertexRange": [
+     0,
+     11
+    ],
+    "sourceVertexCount": 12,
+    "input": "9d1fec85f9af28b2de6f1e1d2635edeec2879ef4f8e7679f913a3d170e3312a4",
+    "basis": "Öravägen, vägen till bryggan vid Örliden, som den kartlagts detta år."
+   }
+  ],
+  "basis": "Vägen från det smala sundet över Holmberg till bryggan vid Örliden. Utgåvan 1956 ritar den första gången, och grundkartorna 1968 och 1978 ritar den som huvudväg till bryggan; 1985 är den en mindre väg. Dagens mittlinje (OpenStreetMap) används som stabilt läge; vid korsningen med dagens väg är den yngre.",
+  "geometryNote": "Öravägens mittlinje i OpenStreetMap 2026, använd som stabilt läge från 1956."
+ }
+}

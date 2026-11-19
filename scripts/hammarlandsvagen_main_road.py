@@ -199,9 +199,14 @@ def _apply(read, catalog, path_):
             raise ValueError('Old road dates do not follow its maps')
         today = [metric(p) for oid in od.get('endObjects', ['road:rural:hammarland-way-345142933', 'road:rural:hammarland-way-345143750'])
                  for p in geometries[objects[oid]['geometryPeriods'][0]['geometryId']]['paths']]
-        for pt in (Point(o_.coords[i]) for o_ in olds for i in (0, -1)):
-            if min(t.distance(pt) for t in today) > END_LIMIT:
-                raise ValueError('Old line does not end on today\'s road: ' + od['id'])
+        # 'freeEnds': [path, 0 | -1] ends that are not on a road (a ferry pier), each with a stated reason.
+        free = [tuple(x) for x in od.get('freeEnds', [])]
+        if free and (not all(len(x) == 2 and 0 <= x[0] < len(olds) and x[1] in (0, -1) for x in free) or not od.get('freeEndBasis')):
+            raise ValueError('Invalid free end ' + od['id'])
+        for k, o_ in enumerate(olds):
+            for i in (0, -1):
+                if (k, i) not in free and min(t.distance(Point(o_.coords[i])) for t in today) > END_LIMIT:
+                    raise ValueError('Old line does not end on today\'s road: ' + od['id'])
         early_lines = [metric(p) for pl in plans for p in pl[3]]
         for o in catalog['objects']:
             if o['kind'] != 'roadSegment': continue
@@ -473,3 +478,58 @@ def apply_hammarlandsvagen_overby(read, catalog):
         evidence=ev, sourceLinks=deepcopy(od['sourceLinks']),
         hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], oldRoad=True, review=src, mainRoadUntil=od['mainUntil'], constructionYear=None)))
     catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])
+
+
+SNAPSHOTS = {'osm-2026': ('dist/assets/modern.json.gz', 'way/'), 'osm-2014': ('dist/assets/roads-2014.json.gz', 'road-2014-'),
+             'osm-2021': ('dist/assets/roads-2021.json.gz', 'road-2021-'), 'osm-2025': ('dist/assets/roads-2025.json.gz', 'road-2025-')}
+
+
+def apply_hammarlandsvagen_holmberg(read, catalog):
+    """Holmberg (docs/hammarlandsvagen-holmberg.md): the 1929 road from the narrow sound straight across Holmberg to the
+    ferry pier (an old-road object, through _apply), and Öravägen, the road to the later pier at Örliden, first on the
+    1956 edition. Öravägen is a new object from its OSM way, which it owns in the 2014, 2021, 2025 and 2026 extracts.
+    Öravägen's checks run first; then _apply checks the old road before anything changes."""
+    path_ = 'data/hammarlandsvagen-holmberg.json'
+    review = read(path_); nr = review['newRoad']
+    objects = {o['id']: o for o in catalog['objects']}; sources = {s['id'] for s in catalog['sources']}
+    labels = review['maps']
+    if nr['id'] in objects or nr['surveySourceId'] in sources:
+        raise ValueError('Duplicate new road ' + nr['id'])
+    present = [labels[k]['year'] for k, v in nr['maps'].items() if v == 'present']
+    if not set(nr['maps']) <= set(labels) or not present or min(present) != nr['firstYear'] or any(v == 'absent' for v in nr['maps'].values()):
+        raise ValueError('New road dates do not follow its maps')
+    owned = {(l['datasetId'], l['featureId']) for o in catalog['objects'] for l in o.get('sourceLinks', [])}
+    if {l['datasetId'] for l in nr['sourceLinks']} != set(SNAPSHOTS):
+        raise ValueError('The new road must be owned in every OSM extract')
+    for l in nr['sourceLinks']:
+        file, prefix = SNAPSHOTS[l['datasetId']]
+        f = next((x for x in read(file)['features'] if x['id'] == l['featureId']), None)
+        a, b = l['sourceVertexRange']
+        if not f or not l['featureId'].startswith(prefix) or len(f['paths']) != 1 or digest(f['paths']) != l['input'] \
+                or l['sourceVertexCount'] != len(f['paths'][0]) or [a, b] != [0, len(f['paths'][0]) - 1]:
+            raise ValueError('Changed or partial OSM source ' + l['featureId'])
+        if (l['datasetId'], l['featureId']) in owned:
+            raise ValueError('OSM source already owned: ' + l['featureId'])
+        if l['datasetId'] == 'osm-2026' and f['paths'] != nr['paths']:
+            raise ValueError('The new road is not its OSM way')
+
+    _apply(read, catalog, path_)
+
+    gid = 'geometry:' + nr['id'].split(':', 1)[1]
+    catalog['sources'].append(deepcopy(review['newRoadSource']))
+    catalog['geometries'].append(dict(id=gid, representation='centerline', paths=deepcopy(nr['paths']), sourceIds=[nr['surveySourceId']], note=nr['geometryNote']))
+    ev = []
+    for k in sorted(nr['maps'], key=lambda k: labels[k]['year']):
+        y = labels[k]['year']; outcome = nr['maps'][k]
+        e = dict(id=f"{nr['id']}:map-{k}", sourceId=labels[k]['sourceId'], describes={'from': y, 'to': y + 1}, observationType='printed-map-review', interpretation=True,
+                 outcome=outcome, supports=['geometry', 'identity', 'state'] if outcome == 'present' else ['state'], constructionYear=None, reviewId=review['source']['id'], note=nr['basis'])
+        if outcome == 'present':
+            e.update(matchedGeometryId=gid, coverage='full', canonicalRange=[0, 1])
+        ev.append(e)
+    first = [x['id'] for x in ev if x['describes']['from'] == nr['firstYear']]
+    catalog['objects'].append(dict(
+        id=nr['id'], name=nr['name'], kind='roadSegment', independentRoad=True, ruralRoad=True, modernRoadClass=nr['modernRoadClass'], roadWidth=nr['roadWidth'], routeId=nr['routeId'],
+        states=[dict(state='open', **{'from': nr['firstYear'], 'to': None}, certainty='inferred', evidenceIds=first, note=nr['basis'])],
+        geometryPeriods=[dict(geometryId=gid, **{'from': nr['firstYear'], 'to': None}, certainty='inferred', evidenceIds=first, coverage='full', canonicalRange=[0, 1], basis=nr['geometryNote'])],
+        evidence=ev, sourceLinks=[{k: v for k, v in l.items() if k != 'input'} for l in nr['sourceLinks']],
+        hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], review=review['source']['id'], newFromOsm=True, constructionYear=None)))

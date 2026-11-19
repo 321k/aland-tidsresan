@@ -1,0 +1,13 @@
+batch-holmberg.patch, 2026-11-19
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/hammarlandsvagen-main-road/holmberg-before/ to the working tree):
+- scripts/build_temporal_objects.py (untracked)
+- dist/index.html (tracked, modified)
+- tests/temporal-objects.test.cjs (untracked)
+
+dist/assets/historical-roads.json is byte-identical to its before-copy (cmp) and is not in the patch.
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; all three results are byte-identical
+to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to all three files.

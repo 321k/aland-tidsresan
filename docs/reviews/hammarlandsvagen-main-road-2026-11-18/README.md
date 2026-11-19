@@ -347,3 +347,33 @@ Method and decisions: `docs/hammarlandsvagen-ferry-west.md`.
   - The ferry-west, Frebbenby, Överby, Marsund, atlas, Hammarlandsvägen (all four), regional review, atlas continuity
     and dating, Marsund continuity, road date assumption and QGIS road reconciliation Python tests pass, 74 tests
     (`logs/python-tests-ferry-west.log`).
+
+## Holmberg and Öravägen (tenth batch, 2026-11-19)
+
+Method and decisions: `docs/hammarlandsvagen-holmberg.md`.
+- **New objects:**
+  - "Gamla landsvägen · Holmberg", 1929–1956: the road from the narrow sound to the ferry pier
+  - "Öravägen", from 1956, from its OSM way, owned in the 2014–2026 extracts
+- **Build step:** `freeEnds` for an old road's pier end. `apply_hammarlandsvagen_holmberg` checks the new OSM-based
+  object first, then runs `_apply` for the old road.
+- **Evidence:** `renders/holmberg-road-*.jpg` and `result-holmberg-1950-1957-1970.jpg`.
+- **Snapshots:** `before-holmberg.json.gz` and `before-holmberg-step.json.gz` are the same here, the catalogue as
+  deployed after the ferry-west batch.
+- **Scope:** `scope-audit-holmberg.json`:
+  - added: 2 objects, 2 geometries and 2 sources (the review and the OSM survey)
+  - nothing else changed; the roads file is unchanged.
+- **Tests:**
+  - new: `tests/hammarlandsvagen-holmberg.test.cjs` and `tests/test_hammarlandsvagen_holmberg.py`. Each rejection is
+    checked for its stated reason.
+  - updated: `tests/temporal-objects.test.cjs` counts the two new objects.
+- **`batch-holmberg.patch`:**
+  - `scripts/build_temporal_objects.py`: the hook and the asset copy
+  - `dist/index.html`: the card "Vägen över Holmberg till färjan" and the preview
+  - `tests/temporal-objects.test.cjs`
+
+  See `patch-verification-holmberg.log`.
+- **Runs:**
+  - All 612 JS tests pass (`logs/js-tests-holmberg.log`).
+  - The Holmberg, ferry-west, Frebbenby, Överby, Marsund, atlas, Hammarlandsvägen (all four), regional review,
+    atlas continuity and dating, Marsund continuity, road date assumption and QGIS road reconciliation Python tests
+    pass, 77 tests (`logs/python-tests-holmberg.log`).
