@@ -1,0 +1,180 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-20",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:getavagen-1929:",
+ "source": {
+  "id": "review:getavagen-saltvik",
+  "title": "Getavägen i Saltvik och Finström på sockenkartan 1929 · granskning",
+  "url": "assets/getavagen-saltvik.json"
+ },
+ "sources": [
+  {
+   "id": "nls:map-38157483",
+   "title": "Lantmäteriverket · sockenkarta 1021 07 Saltvik · 1929",
+   "issuedAt": "1929",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_vari/map-38157483_500-20000-102107_pitajankartta_1929_karttalehti_102107_maarianhamina-saltvik_v2.tif"
+  },
+  {
+   "id": "nls:map-38147682",
+   "title": "Lantmäteriverket · sockenkarta 1021 07 Saltvik · 1944 (svartvit utgåva)",
+   "issuedAt": "1944",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_mv/map-38147682_500-20000-102107_pitajankartta_mv_1944_karttalehti_102107_saltvik_v2.tif"
+  }
+ ],
+ "maps": {
+  "1929": {
+   "sourceId": "nls:map-38157483",
+   "year": 1929
+  },
+  "1944": {
+   "sourceId": "nls:map-38147682",
+   "year": 1944
+  }
+ },
+ "early": [
+  {
+   "objectId": "road:qgis:saltvik:kyrkvagen-batch4",
+   "inputHash": "e83af86f1ff57f907a6a00404a34a305f0c091d8760980e475beacd194294088",
+   "geometryId": "geometry:qgis:229553e2eb7616460bed",
+   "geometryHash": "1c70e0e62ffdbdfd0f268347acbc17c5874ce56c0c436ba2f651a31e89e91fde",
+   "lengthMeters": 655.5,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     655.5
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:getavagen-godby-norra-bladgransen",
+   "inputHash": "f05b4ec567c1b0a3a1fa94c2c8da25de0ca34d14e866bdeaae4c519abddf0ddd",
+   "geometryId": "geometry:qgis:5db2a682feb0abdfe84c",
+   "geometryHash": "66e22fd49821f10b0b8dbe19cdcbbd0af7d6672ec8ab020f43b3f42cf7b2313b",
+   "lengthMeters": 10391.3,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   },
+   "ranges": [
+    [
+     569.7,
+     4852.0
+    ],
+    [
+     5658.0,
+     10391.3
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:bartsgardavagen",
+   "inputHash": "d88d3d6ea268b6205c7e0abeb990ca54bfdac5b075f4dd9a6535586fe2cea4d4",
+   "geometryId": "geometry:qgis:10fafef740a298cad061",
+   "geometryHash": "a8f89dc6150cff1336d92a278a8fda68c27d70787434cb5b27b05978636dca19",
+   "lengthMeters": 1271.8,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1271.8
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:kroklundsvagen",
+   "inputHash": "695ccc41a864937decc7da5dd7292da66bdb2649635d548fa54625a6048cba0e",
+   "geometryId": "geometry:qgis:6b327ce827f5e71027cf",
+   "geometryHash": "41e7104aab7cd454db7e9170f42a391e8e6ac86d1c3f7e829e443d48baa9a43f",
+   "lengthMeters": 3710.3,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     3710.3
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:saltviksvagen-1-batch4",
+   "inputHash": "ca4abc0f728d95a9aed9eb99e78df4b1de9c2a640c121550b961d56a0b7f5096",
+   "geometryId": "geometry:qgis:ad694dd9ad95a5bf998c",
+   "geometryHash": "98d17235698f54ad6182019e723402e06674e597160ee3a8bcdc7e393a5e15e0",
+   "lengthMeters": 2717.3,
+   "firstYear": 1929,
+   "until": 1993,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   },
+   "ranges": [
+    [
+     1776.1,
+     2717.3
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:gamla-getavagen",
+   "inputHash": "49f571c0dd42ba90bc11fcc11658ecc904d006cf45cb04a48d8026ea6eb1cfce",
+   "geometryId": "geometry:qgis:72c5616acae50e13fe80",
+   "geometryHash": "dfafa7a70e165a392b8fe9e6151ec012ecb4911c82fbdd38ea3f24b54308d295",
+   "lengthMeters": 1317.7,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929": "present",
+    "1944": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1317.7
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:saltvik:getavagen-godby-norra-bladgransen": "Dagens väg är vägen på sockenkartan 1929 och utgåvan 1944 från Kyrkvägen vid Godby till Bartsgårda, och från Pålsbölevägen vid Bartsgårda norrut (inom kartans lägesfel). Diagonalen ut ur Godby och den raka sträckan över åkrarna vid Bartsgårda ritas första gången på grundkartan 1968. Mellan Tallnäs och Avanåker var vägen 1929 en mindre väg; huvudvägen gick österut över Bartsgård, Ödkarby och Sålis.",
+  "road:qgis:saltvik:kyrkvagen-batch4": "Den gamla vägen in i Godby by. Sockenkartan 1929 och utgåvan 1944 ritar den som vägen norrut från byn; dagens diagonal finns inte på dem.",
+  "road:qgis:saltvik:bartsgardavagen": "Den gamla huvudvägen norrut genom Bartsgårda till Mellangård. Sockenkartan 1929 och utgåvan 1944 ritar den som landsvägen; dagens raka sträcka väster om den finns inte på dem.",
+  "road:qgis:saltvik:kroklundsvagen": "Den gamla huvudvägen från Mellangård nordost och norrut genom Bartsgårda och Ödkarby till Sålis. Sockenkartan 1929 och utgåvan 1944 ritar den som landsvägen.",
+  "road:qgis:saltvik:saltviksvagen-1-batch4": "Den västra delen, från Kroklundsvägen vid Sålis till dagens väg vid Avanåker, är den gamla huvudvägens fortsättning på sockenkartan 1929 och utgåvan 1944. Resten av vägen är inte granskad här.",
+  "road:qgis:saltvik:gamla-getavagen": "Strandvägen förbi Sjöstrand och Nötholma vid Avanåker. Sockenkartan 1929 och utgåvan 1944 ritar den."
+ },
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där vägen är vägen på sockenkartan 1929.",
+ "route": {
+  "order": [
+   "road:qgis:saltvik:kyrkvagen-batch4",
+   "road:qgis:saltvik:getavagen-godby-norra-bladgransen",
+   "road:qgis:saltvik:bartsgardavagen",
+   "road:qgis:saltvik:kroklundsvagen",
+   "road:qgis:saltvik:saltviksvagen-1-batch4",
+   "road:qgis:saltvik:getavagen-godby-norra-bladgransen",
+   "road:qgis:saltvik:gamla-getavagen"
+  ],
+  "repeat": [
+   "road:qgis:saltvik:getavagen-godby-norra-bladgransen"
+  ],
+  "joinMeters": 1.0
+ },
+ "method": "Dagens vägar jämförda för hand med sockenkartan 1021 07 Saltvik 1929 (rutnät 50 m, karttiler), utgåvan 1944 och grundkartorna 1968 (blad 102107), med OpenStreetMap 2026 inritat (docs/reviews/getavagen-2026-11-20/renders/)."
+}

@@ -1,0 +1,35 @@
+{
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:qgis:saltvik:bartsgardavagen",
+   "road:qgis:saltvik:gamla-getavagen",
+   "road:qgis:saltvik:getavagen-godby-norra-bladgransen",
+   "road:qgis:saltvik:kroklundsvagen",
+   "road:qgis:saltvik:kyrkvagen-batch4",
+   "road:qgis:saltvik:saltviksvagen-1-batch4"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:getavagen-1929:bartsgardavagen",
+   "geometry:getavagen-1929:gamla-getavagen",
+   "geometry:getavagen-1929:getavagen-godby-norra-bladgransen",
+   "geometry:getavagen-1929:kroklundsvagen",
+   "geometry:getavagen-1929:kyrkvagen-batch4",
+   "geometry:getavagen-1929:saltviksvagen-1-batch4"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "nls:map-38147682",
+   "nls:map-38157483",
+   "review:getavagen-saltvik"
+  ],
+  "removed": [],
+  "changed": []
+ }
+}

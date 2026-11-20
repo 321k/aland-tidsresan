@@ -1,0 +1,24 @@
+..E/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_reconciliation.py:423: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  rr,cc=np.mgrid[row:row+15,col:col+15];xy=[ds.transform*(float(c)+.5,float(r)+.5) for r,c in zip(rr.ravel(),cc.ravel())];pix=np.array([inverse(p) for p in xy]);sample=np.stack([map_coordinates(src[:,:,b].astype(float),[pix[:,1]-.5,pix[:,0]-.5],order=1) for b in range(3)])
+...
+======================================================================
+ERROR: setUpClass (tests.test_qgis_road_reconciliation.ReconciliationTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_qgis_road_reconciliation.py", line 13, in setUpClass
+    cls.base=detach_review(read('dist/assets/temporal-objects.json.gz'))[0];ids={d['objectId'] for d in cls.review['roads']}
+             ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/scripts/alvin_road_dating.py", line 31, in detach_review
+    raise ValueError('Changed Alvin dating output or predecessor')
+ValueError: Changed Alvin dating output or predecessor
+
+----------------------------------------------------------------------
+Ran 5 tests in 36.585s
+
+FAILED (errors=1)
+
+[2026-11-20] test_qgis_road_reconciliation fails in setUpClass ("Changed Alvin dating output or predecessor") already on
+the catalogue before this step and before the Postad/remnant batch (data/map-scan-cache/review/hammarlandsvagen-main-road/
+current-before-postad.json.gz): 27 Alvin-dated objects there no longer match the Alvin step's recorded output, because
+later steps (the atlas review among them) add evidence to them. None of this step's six objects is Alvin-dated.
+test_getavagen_saltvik and test_road_remnants pass.

@@ -1,0 +1,10 @@
+batch-getavagen-saltvik.patch, 2026-11-20
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/getavagen/before/ to the working tree):
+- scripts/build_temporal_objects.py (untracked): the hook after apply_road_remnants and the asset copy
+- dist/index.html (tracked, modified): the loader card "1 av 99", the renumbering and the loader preview
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; both results are byte-identical to the
+working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to both files.
