@@ -1,0 +1,9 @@
+batch-blocks-1920.patch, 2026-11-20
+
+File (also holds other uncommitted work): scripts/build_temporal_objects.py (untracked): the hook after apply_blocks_1985.
+The patch is the diff from the copy in data/map-scan-cache/review/blocks-1920/before/.
+Forward: applied to a copy with `patch -p1 --forward`; byte-identical to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly.
+
+Tests: tests/mariehamn-blocks-1920.test.cjs, tests/test_mariehamn_blocks_1920.py, and the city-grid, 1985 block and loader tests (25 JS, 4 Python) pass.
+The 1985 step's replay snapshot (local cache) was rebuilt with this step in place.

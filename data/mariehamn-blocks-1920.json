@@ -1,0 +1,25 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-19",
+ "before": {
+  "stageId": "city-reconstruction-1871",
+  "blocksHash": "828ad9dc1a5ba9e3e23a77f35d555a17650a45a148d8e7099f98463ff9e09fce"
+ },
+ "after": {
+  "stageId": "city-reconstruction-1942",
+  "blocksHash": "c82724bcef256614d37071d470061948285da5610283e49782042f2d74cd2b60"
+ },
+ "carryFrom": 1920,
+ "carryThrough": 1941,
+ "stageIds": [
+  "city-reconstruction-1920",
+  "city-reconstruction-1927"
+ ],
+ "streetMarginMeters": 4,
+ "minPieceSquareMeters": 150,
+ "expectedSquareMeters": {
+  "city-reconstruction-1920": 71194,
+  "city-reconstruction-1927": 71194
+ },
+ "note": "Kvarteret ritas i stadsplanens rekonstruktion 1871 och på kartan 1942. 1920-talets museikarta sluter inte gatorna runt det, men inget tyder på att kvarteret försvann. Fyllnaden är en tolkning av kvarterets utsträckning, inte belägg för enskilda hus."
+}

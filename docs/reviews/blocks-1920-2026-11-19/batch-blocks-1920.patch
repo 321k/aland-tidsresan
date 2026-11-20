@@ -1,0 +1,11 @@
+--- a/scripts/build_temporal_objects.py
++++ b/scripts/build_temporal_objects.py
+@@ -445,6 +445,8 @@
+             catalog = compile_ceders(read, catalog)
+             from mariehamn_blocks_1985 import apply_blocks_1985
+             apply_blocks_1985(read, catalog)
++            from mariehamn_blocks_1920 import apply_blocks_1920
++            apply_blocks_1920(read, catalog)
+             from plan_1860_buildings import apply_plan_1860_buildings
+             apply_plan_1860_buildings(read, catalog)
+             from lemlandsvagen_main_road import apply_lemlandsvagen_main_road
