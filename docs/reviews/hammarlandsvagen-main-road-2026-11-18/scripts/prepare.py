@@ -14,8 +14,12 @@ R = 'docs/reviews/hammarlandsvagen-main-road-2026-11-18'
 before = json.load(gzip.open(sys.argv[1])); O = {o['id']: o for o in before['objects']}; G = {g['id']: g for g in before['geometries']}
 ref = json.load(open(f'{R}/data/reference.json')); L = LineString(ref['metric'])
 B = {'soderby': 9005, 'drygsbole-south': 11824, 'drygsbole-north': 12405, 'bolstad': 12600, 'smedens-north': 14101,
-     'nafsby-south': 14420, 'nafsby-north': 15255}
-SAME = [('soderby', 'drygsbole-south'), ('drygsbole-north', 'bolstad'), ('smedens-north', 'nafsby-south'), ('nafsby-north', None)]
+     'nafsby-south': 14420, 'nafsby-north': 15255, 'postad-curve': 15520.3, 'postad-rejoin': 15976.0}
+# Postad (2026-11-20): the 1929 and 1944 maps draw the road in a curve up to 70 m east of today's straight line between
+# 'postad-curve' (where Korsberg's old road leaves, an OSM junction) and 'postad-rejoin'; the heritage register's road
+# remnant Ha 17.8 is that curve. It is the Postad review's old road (data/hammarlandsvagen-postad.json).
+SAME = [('soderby', 'drygsbole-south'), ('drygsbole-north', 'bolstad'), ('smedens-north', 'nafsby-south'), ('nafsby-north', 'postad-curve'),
+        ('postad-rejoin', None)]
 CHURCH_END = 17262.3          # end of the church corridor object, where the Kattby-west object (1959) begins
 H1929, H1944 = 'nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08', 'nls:9c72a692-bae4-473d-93bb-7bcdee1222e7'
 objs = ['road:rural:hammarland-way-345142933', 'road:rural:hammarland-way-345143750', 'road:rural:hammarland-hammarlandsvagen-vastmyra',
@@ -68,7 +72,7 @@ data = dict(
         'road:rural:hammarland-way-345142933': 'Söderby–Långträsk och biten vid Bolstad är samma väg som sockenkartan 1929 ritar (strandvägen längs Långträsk). Förbifarten vid Drygsböle (11,8–12,4 km) och den nya linjen förbi Smedens finns inte 1929; söder om Söderby är vägen ny (först på grundkartan 1968).',
         'road:rural:hammarland-way-345143750': 'De sista omkring 100 m vid Björkgård är den gamla vägen; linjen förbi Smedens söder om den är ny.',
         'road:rural:hammarland-hammarlandsvagen-vastmyra': 'Ändarna är den gamla vägen: de första omkring 220 m från Mattas och biten vid Korsbroström. Mellan dem är dagens väg en förbifart öster om Näfsby; den gamla vägen gick genom byn och förbi Klaralund, där den finns kvar som mindre vägar (se Näfsbygranskningen).',
-        'road:rural:hammarland-hammarlandsvagen-postad-korsangen': 'Samma väg som sockenkartan 1929 ritar, inom kartans lägesfel (5–20 m).',
+        'road:rural:hammarland-hammarlandsvagen-postad-korsangen': 'Samma väg som sockenkartan 1929 ritar, inom kartans lägesfel (5–20 m), utom vid Postad: där gick vägen 1929 och 1944 i en båge upp till 70 m öster om dagens raka linje (fornlämningen Ha 17.8, Äldre väg vid Korsberg). Den raka linjen där ritas första gången 1968.',
         'road:rural:hammarland-hammarlandsvagen-church-corridor': 'Samma väg som sockenkartan 1929 ritar förbi kyrkan och in i Kattby.'},
     oldRoad=dict(id='road:hammarland:gamla-hammarlandsvagen:smedens', name='Gamla Hammarlandsvägen · Smedens', routeId='road:Gamla Hammarlandsvägen',
                  modernRoadClass='secondary', roadWidth=4, firstYear=1929, until=1968,

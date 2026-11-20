@@ -17,6 +17,10 @@ class LangnasvagenTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.built = read('dist/assets/temporal-objects.json.gz')
+        # The road-remnant step (scripts/road_remnants.py) runs later and adds register evidence; this step is compared without it.
+        for o in cls.built['objects']:
+            if o.pop('registerRemnants', None) is not None:
+                o['evidence'] = [e for e in o['evidence'] if e.get('observationType') != 'heritage-register']
         cls.pristine = read(SNAPSHOT) if SNAPSHOT.exists() else None
         cls.a, cls.b = read(A), read(B)
 

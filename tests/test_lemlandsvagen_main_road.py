@@ -12,6 +12,10 @@ class LemlandsvagenMainRoadTests(unittest.TestCase):
     def setUpClass(cls):
         cls.read = staticmethod(lambda p: json.loads(gzip.decompress(Path(p).read_bytes()) if p.endswith('.gz') else Path(p).read_bytes()))
         cls.built = cls.read('dist/assets/temporal-objects.json.gz')
+        # The road-remnant step (scripts/road_remnants.py) runs later and adds register evidence; this step is compared without it.
+        for o in cls.built['objects']:
+            if o.pop('registerRemnants', None) is not None:
+                o['evidence'] = [e for e in o['evidence'] if e.get('observationType') != 'heritage-register']
         snapshot = Path('data/map-scan-cache/review/lemlandsvagen-main-road/before.json.gz')
         cls.pristine = cls.read(str(snapshot)) if snapshot.exists() else None
         cls.review = cls.read(REVIEW)

@@ -17,7 +17,7 @@ Kattby westwards (data/hammarlandsvagen-kattby.json) and the Marsund connection 
 All checks run before any change. Map years are first evidence, not construction years.
 """
 from copy import deepcopy
-from shapely.geometry import LineString, Point
+from shapely.geometry import LineString, Point, MultiLineString, Polygon
 from mariehamn_frame_1942 import fingerprint, digest, TO_METRIC
 from lemlandsvagen_main_road import cut
 
@@ -572,13 +572,18 @@ def _old_roads(read, catalog, path_):
     if any(l['sourceId'] not in sources for l in labels.values()):
         raise ValueError('Unexpected map sources')
     year = lambda k: labels[k]['year']
-    m = objects.get(review['connection'])
-    if not m or fingerprint(m) != review['connectionHash']:
-        raise ValueError('Changed connection ' + review['connection'])
-    # 'connectionEarlyPeriods': how many of the connection's first periods are its early (old-road) periods (default 1)
-    k = review.get('connectionEarlyPeriods', 1)
-    early = [p for gp in m['geometryPeriods'][:k] for p in geometries[gp['geometryId']]['paths']]
-    later = [metric(p) for gp in m['geometryPeriods'][k:] for p in geometries[gp['geometryId']]['paths']]
+    # 'connectionEarlyPeriods': how many of the connection's first periods are its early (old-road) periods (default 1).
+    # 'connections': several connections [{id, hash, earlyPeriods}], for old roads that join more than one object.
+    conns = review.get('connections') or [dict(id=review['connection'], hash=review['connectionHash'], earlyPeriods=review.get('connectionEarlyPeriods', 1))]
+    early, later = [], []
+    for c in conns:
+        m = objects.get(c['id'])
+        if not m or fingerprint(m) != c['hash']:
+            raise ValueError('Changed connection ' + c['id'])
+        k = c['earlyPeriods']
+        early += [p for gp in m['geometryPeriods'][:k] for p in geometries[gp['geometryId']]['paths']]
+        later += [metric(p) for gp in m['geometryPeriods'][k:] for p in geometries[gp['geometryId']]['paths']]
+    conn_ids = {c['id'] for c in conns}
     modern = {f['id']: f for f in read('dist/assets/modern.json.gz')['features']}
     owned = {(l['datasetId'], l['featureId'], tuple(l.get('sourceVertexRange') or ())) for o in catalog['objects'] for l in o.get('sourceLinks', [])}
     survey = {x['id'] for x in review['sources']}
@@ -594,11 +599,16 @@ def _old_roads(read, catalog, path_):
         olds = [metric(p) for p in od['paths']]
         if abs(sum(l.length for l in olds) - od['lengthMeters']) > 0.5:
             raise ValueError('Changed old line ' + od['id'])
-        ends = [Point(l.coords[i]) for l in olds for i in (0, -1)]
+        # 'freeEnds': [path, 0 | -1] ends that are not on a road (a ferry pier), with a stated 'freeEndBasis'
+        free = [tuple(x) for x in od.get('freeEnds', [])]
+        if free and (not od.get('freeEndBasis') or not all(len(x) == 2 and 0 <= x[0] < len(olds) and x[1] in (0, -1) for x in free)):
+            raise ValueError('Invalid free end ' + od['id'])
+        ends = [Point(l.coords[i]) for j, l in enumerate(olds) for i in (0, -1) if (j, i) not in free]
         e1 = [Point(TO_METRIC(*p[i])) for p in early for i in (0, -1)]
-        if any(min(t.distance(e) for t in e1) > END_LIMIT for e in ends) or any(min(l.distance(e) for l in later) > END_LIMIT for e in ends):
+        if not ends or any(min(t.distance(e) for t in e1) > END_LIMIT for e in ends) or any(min(l.distance(e) for l in later) > END_LIMIT for e in ends):
             raise ValueError('Old road does not join the connection: ' + od['id'])
-        trace = LineString(od['trace'])
+        # 'traces': one trace per path, for an old road of several paths
+        trace = MultiLineString(od['traces']) if 'traces' in od else LineString(od['trace'])
         if len(od['laterPaths']) != len(od['sourceLinks']) or not od['laterPaths']:
             raise ValueError('Each surviving part needs one source link: ' + od['id'])
         for lp, link in zip(od['laterPaths'], od['sourceLinks']):
@@ -616,7 +626,7 @@ def _old_roads(read, catalog, path_):
             if any(o_[0] == 'osm-2026' and o_[1] == link['featureId'] and (not o_[2] or max(o_[2][0], a) < min(o_[2][1], b)) for o_ in owned):
                 raise ValueError('OSM source already owned: ' + link['featureId'])
         for o in catalog['objects']:
-            if o['kind'] != 'roadSegment' or o['id'] == m['id']: continue
+            if o['kind'] != 'roadSegment' or o['id'] in conn_ids: continue
             for gp in o['geometryPeriods']:
                 if gp['from'] < od['mainUntil'] and od['firstYear'] < (gp['to'] or 9999):
                     for p in geometries[gp['geometryId']]['paths']:
@@ -648,10 +658,13 @@ def _old_roads(read, catalog, path_):
             id=oid, name=od['name'], kind='roadSegment', independentRoad=True, ruralRoad=True, modernRoadClass=od['modernRoadClass'], roadWidth=od['roadWidth'], routeId=od['routeId'],
             states=[dict(state='open', **{'from': od['firstYear'], 'to': None}, certainty='inferred', evidenceIds=main, note=od['basis'])],
             geometryPeriods=[dict(geometryId=g1, **{'from': od['firstYear'], 'to': od['mainUntil']}, certainty='inferred', evidenceIds=main, coverage='full', canonicalRange=[0, 1], basis=od['traceBasis']),
-                             dict(geometryId=g2, **{'from': od['mainUntil'], 'to': None}, certainty='inferred', evidenceIds=after, coverage='partial',
-                                  **({'canonicalRanges': od['laterCanonicalRanges']} if len(od['laterCanonicalRanges']) > 1 else {'canonicalRange': od['laterCanonicalRanges'][0]}), basis=od['laterBasis'])],
+                             dict(geometryId=g2, **{'from': od['mainUntil'], 'to': None}, certainty='inferred', evidenceIds=after,
+                                  # an old road that survives whole keeps full coverage
+                                  **(dict(coverage='full', canonicalRange=[0, 1]) if od['laterCanonicalRanges'] == [[0, 1]] else dict(coverage='partial',
+                                     **({'canonicalRanges': od['laterCanonicalRanges']} if len(od['laterCanonicalRanges']) > 1 else {'canonicalRange': od['laterCanonicalRanges'][0]}))),
+                                  basis=od['laterBasis'])],
             evidence=ev, sourceLinks=deepcopy(od['sourceLinks']),
-            hammarlandsvagenMainRoad=dict(reviewedAt=review['reviewedAt'], oldRoad=True, review=src, mainRoadUntil=od['mainUntil'], mainRoadUntilBasis=od['mainUntilBasis'], constructionYear=None)))
+            **{review.get('reviewProperty', 'hammarlandsvagenMainRoad'): dict(reviewedAt=review['reviewedAt'], oldRoad=True, review=src, mainRoadUntil=od['mainUntil'], mainRoadUntilBasis=od['mainUntilBasis'], constructionYear=None)}))
     catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])
 
 
@@ -734,3 +747,74 @@ def _bypass(read, catalog, path_):
     m['geometryPeriods'].insert(k, dict(geometryId=gid, **{'from': bp['from'], 'to': bp['until']}, certainty='inferred', evidenceIds=[x['id'] for x in ev if x['outcome'] == 'absent'],
                                         basis=review['bypassBasis'], **cov))
     m.setdefault('bypassReviews', []).append(dict(review=src, reviewedAt=review['reviewedAt'], firstMapYear=bp['until'], previousFrom=bp['from'], removed=bp['removed'], constructionYear=None))
+
+
+def apply_hammarlandsvagen_postad(read, catalog):
+    """Postad (docs/hammarlandsvagen-postad.md): the 1929 and 1944 maps draw the road in a curve east of today's straight
+    line; the heritage register's road remnant Ha 17.8 is that curve. Its surviving north-west end is the existing object
+    'Äldre väg vid Korsberg' (from 1968), so that object gets an early period 1929–1968 with the whole curve: its own
+    vertices where it survives, the register outline's centre line where it does not. The main-road review leaves the
+    curve's span out of today's road for 1929–1967. All checks run before any change."""
+    review = read('data/hammarlandsvagen-postad.json')
+    objects = {o['id']: o for o in catalog['objects']}; geometries = {g['id']: g for g in catalog['geometries']}
+    sources = {s['id'] for s in catalog['sources']}; src = review['source']['id']; labels = review['maps']
+    if review['schemaVersion'] != 1 or src in sources or any(s['id'] in sources for s in review['sources']):
+        raise ValueError('Postad review already applied')
+    if any(l['sourceId'] not in sources | {s['id'] for s in review['sources']} for l in labels.values()):
+        raise ValueError('Unexpected map sources')
+    o = objects.get(review['objectId']); m = objects.get(review['connection'])
+    if not o or fingerprint(o) != review['inputHash'] or not m or fingerprint(m) != review['connectionHash']:
+        raise ValueError('Changed Postad input')
+    g = geometries[o['geometryPeriods'][0]['geometryId']]
+    if digest(g) != review['geometryHash'] or len(g['paths']) != 1 or o['states'][0]['from'] != review['until'] or o['geometryPeriods'][0]['from'] != review['until']:
+        raise ValueError('Changed Postad geometry')
+    present = [labels[k]['year'] for k, v in review['outcomes'].items() if v == 'present']
+    if not set(review['outcomes']) <= set(labels) or not present or min(present) != review['firstYear'] or any(v == 'absent' for v in review['outcomes'].values()) \
+            or not review['firstYear'] < review['until']:
+        raise ValueError('Postad dates do not follow its maps')
+    path = review['path']; k = review['survivingVertices']; line = metric(path)
+    if abs(line.length - review['lengthMeters']) > 0.5 or k < 2 or path[:k] != g['paths'][0][:k]:
+        raise ValueError('The old curve does not keep the surviving road ' + o['id'])
+    # its ends rest on today's road as the main-road review dates it for 1929–1967
+    early = [metric(p) for gp in m['geometryPeriods'] if gp['from'] <= review['firstYear'] < (gp['to'] or 9999) for p in geometries[gp['geometryId']]['paths']]
+    for q in (path[0], path[-1]):
+        if min(Point(e.coords[i]).distance(Point(TO_METRIC(*q))) for e in early for i in (0, -1)) > END_LIMIT:
+            raise ValueError('The old curve does not join today\'s road at Postad')
+    # the register outline: the curve runs inside it (10 m) for at least the stated length
+    rem = next((f for f in read('dist/assets/heritage-boundaries.geojson')['features'] if f['properties']['code'] == review['remnant']['code']), None)
+    if not rem or digest(rem['geometry']['coordinates']) != review['remnant']['outlineHash']:
+        raise ValueError('Changed register outline ' + review['remnant']['code'])
+    outline = Polygon([TO_METRIC(*q) for q in rem['geometry']['coordinates'][0]]).buffer(10)
+    if line.intersection(outline).length < review['remnant']['minInsideMeters']:
+        raise ValueError('The old curve leaves the register outline')
+    for x in catalog['objects']:
+        if x['kind'] != 'roadSegment' or x['id'] in (o['id'], m['id']): continue
+        for gp in x['geometryPeriods']:
+            if gp['from'] < review['until'] and review['firstYear'] < (gp['to'] or 9999):
+                for p in geometries[gp['geometryId']]['paths']:
+                    hit = metric(p).intersection(line.buffer(OVERLAP_BUFFER)) if len(p) > 1 else None
+                    if hit is not None and max([h.length for h in getattr(hit, 'geoms', [hit])] + [0]) > OVERLAP_LIMIT:
+                        raise ValueError('The old curve runs along ' + x['id'])
+
+    # All checks passed. Change the catalogue.
+    catalog['sources'] += [deepcopy(s) for s in review['sources']] + [deepcopy(review['source'])]
+    oid = o['id']; gid = 'geometry:hammarlandsvagen-postad:' + oid.rsplit(':', 1)[1]
+    catalog['geometries'].append(dict(id=gid, representation='centerline', paths=[deepcopy(path)], sourceIds=[labels['1929']['sourceId'], review['remnant']['sourceId']], note=review['traceBasis']))
+    ev = []
+    for key in sorted(review['outcomes'], key=lambda key: labels[key]['year']):
+        y = labels[key]['year']; outcome = review['outcomes'][key]
+        e = dict(id=f'{oid}:postad-map-{key}', sourceId=labels[key]['sourceId'], describes={'from': y, 'to': y + 1}, observationType='printed-map-review', interpretation=True,
+                 outcome=outcome, supports=['geometry', 'identity', 'state'] if outcome == 'present' else ['state'], constructionYear=None, reviewId=src, note=review['basis'])
+        if outcome == 'present':
+            e.update(matchedGeometryId=gid, coverage='full', canonicalRange=[0, 1])
+        ev.append(e)
+    ev.append(dict(id=f"{oid}:register-{review['remnant']['code'].replace(' ', '-')}", sourceId=review['remnant']['sourceId'], describes=deepcopy(review['remnant']['describes']),
+                   observationType='heritage-register', interpretation=True, outcome='present', supports=['geometry', 'identity'], constructionYear=None, reviewId=src,
+                   note=review['remnant']['note'], matchedGeometryId=gid))
+    refs = [x['id'] for x in ev if x['outcome'] == 'present']
+    o['evidence'] += ev
+    o['states'].insert(0, dict(state='open', **{'from': review['firstYear'], 'to': review['until']}, certainty='inferred', evidenceIds=refs, note=review['basis']))
+    o['geometryPeriods'].insert(0, dict(geometryId=gid, **{'from': review['firstYear'], 'to': review['until']}, certainty='inferred', evidenceIds=refs, coverage='full',
+                                        canonicalRange=[0, 1], basis=review['traceBasis']))
+    o['mainRoadReview'] = dict(reviewedAt=review['reviewedAt'], review=src, previousFirstYear=review['until'], oldRoad=True, constructionYear=None)
+    catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])

@@ -1,0 +1,50 @@
+{
+ "before": "build before this batch (data/map-scan-cache/review/hammarlandsvagen-main-road/current-before-postad.json.gz)",
+ "after": "dist/assets/temporal-objects.json.gz",
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:emkarbyvagen",
+   "road:lemland:gamla-lemlandsvagen:mangard-soderby",
+   "road:lumparland:gamla-landsvagen:skag",
+   "road:qgis:lumparland:langnasvagen-100km3",
+   "road:qgis:lumparland:lemlandsvagen-100km3",
+   "road:qgis:saltvik:sundsvagen-haraldsby-kulla",
+   "road:rural:hammarland-hammarlandsvagen-kattby-west",
+   "road:rural:hammarland-hammarlandsvagen-postad-korsangen",
+   "road:rural:hammarland-korsberg-old-road"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:hammarlandsvagen-postad:hammarland-korsberg-old-road"
+  ],
+  "removed": [],
+  "changed": [
+   "geometry:hammarlandsvagen-1929:hammarland-hammarlandsvagen-postad-korsangen"
+  ]
+ },
+ "sources": {
+  "added": [
+   "heritage-register:Ha 12.5",
+   "heritage-register:Ha 17.8",
+   "heritage-register:Jo 23.6",
+   "heritage-register:Jo 23.7",
+   "heritage-register:Le 16.16",
+   "heritage-register:Le 18.7",
+   "heritage-register:Lu 2.1",
+   "heritage-register:Lu 6.1",
+   "heritage-register:Sa 10.14",
+   "heritage-register:Su 1.5",
+   "heritage-register:Su 13.16",
+   "review:hammarlandsvagen-postad",
+   "review:road-remnants"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "otherTopLevelKeysChanged": [
+  "recordedAt"
+ ]
+}

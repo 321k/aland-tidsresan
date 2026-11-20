@@ -1,0 +1,160 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-20",
+ "source": {
+  "id": "review:hammarlandsvagen-postad",
+  "title": "Gamla landsvägen vid Postad · granskning",
+  "url": "assets/hammarlandsvagen-postad.json"
+ },
+ "sources": [
+  {
+   "id": "heritage-register:Ha 17.8",
+   "title": "Ålands landskapsregering · fornlämningsregistret · Ha 17.8 Väglämning – Postad",
+   "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ha+17.8%27&outFields=%2A&returnGeometry=false&f=pjson",
+   "issuedAt": "2026"
+  }
+ ],
+ "maps": {
+  "1929": {
+   "sourceId": "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+   "year": 1929
+  },
+  "1944": {
+   "sourceId": "nls:9c72a692-bae4-473d-93bb-7bcdee1222e7",
+   "year": 1944
+  }
+ },
+ "objectId": "road:rural:hammarland-korsberg-old-road",
+ "inputHash": "668936ad10d50d06c4f8e53fcbfefed81eaff6453669f18fb8ce697b6373da53",
+ "geometryHash": "519b605c7eb0048e5c21cd07d588aca4733c4a6e00c0e26f6b05d50627a44c18",
+ "connection": "road:rural:hammarland-hammarlandsvagen-postad-korsangen",
+ "connectionHash": "705063db30d619c5a1ed50c51cc637e1abc7f180ba8bc3af2df84aeb19347544",
+ "outcomes": {
+  "1929": "present",
+  "1944": "present"
+ },
+ "firstYear": 1929,
+ "until": 1968,
+ "survivingVertices": 12,
+ "path": [
+  [
+   19.764437,
+   60.206912
+  ],
+  [
+   19.76452,
+   60.206965
+  ],
+  [
+   19.764549,
+   60.206996
+  ],
+  [
+   19.764556,
+   60.207016
+  ],
+  [
+   19.764532,
+   60.207081
+  ],
+  [
+   19.764424,
+   60.207266
+  ],
+  [
+   19.764322,
+   60.207426
+  ],
+  [
+   19.764269,
+   60.207666
+  ],
+  [
+   19.764156,
+   60.207831
+  ],
+  [
+   19.76392,
+   60.208047
+  ],
+  [
+   19.76348,
+   60.208298
+  ],
+  [
+   19.763164,
+   60.208479
+  ],
+  [
+   19.7627821,
+   60.208501
+  ],
+  [
+   19.762477,
+   60.2085783
+  ],
+  [
+   19.7621736,
+   60.208657
+  ],
+  [
+   19.7618904,
+   60.2087522
+  ],
+  [
+   19.761617,
+   60.2088548
+  ],
+  [
+   19.7613435,
+   60.2089574
+  ],
+  [
+   19.761073,
+   60.209062
+  ],
+  [
+   19.7607998,
+   60.2091647
+  ],
+  [
+   19.7605225,
+   60.2092647
+  ],
+  [
+   19.7602396,
+   60.2093607
+  ],
+  [
+   19.7599484,
+   60.2094499
+  ],
+  [
+   19.7596333,
+   60.2095159
+  ],
+  [
+   19.7593145,
+   60.2095779
+  ],
+  [
+   19.758461577564148,
+   60.209717012374426
+  ]
+ ],
+ "lengthMeters": 497.4,
+ "remnant": {
+  "code": "Ha 17.8",
+  "sourceId": "heritage-register:Ha 17.8",
+  "outlineHash": "001af54caa44ae78c4b9753f386dee02d6246c0e37bffa5d6154e7927b79c638",
+  "minInsideMeters": 451,
+  "describes": {
+   "from": 2026,
+   "to": 2027
+  },
+  "note": "Fornlämningsregistret: ett cirka 450 m långt vägavsnitt i NV–SO-riktning, del av den tidigmoderna postvägen genom Åland, varaktigt övergivet i NV. Registrets avgränsning följer bågen som sockenkartorna 1929 och 1944 ritar."
+ },
+ "basis": "Den gamla landsvägen vid Postad gick i en båge upp till 70 m öster om dagens raka linje. Sockenkartan 1929 och utgåvan 1944 ritar den som landsvägen; fornlämningsregistret har den som en del av den tidigmoderna postvägen (Ha 17.8). Den raka linjen ritas första gången på grundkartan 1968; därefter finns bara bågens nordvästra del kvar, som Äldre väg vid Korsberg.",
+ "traceBasis": "Vägens egna koordinater där den finns kvar (Äldre väg vid Korsberg), och därefter mittlinjen av fornlämningsregistrets avgränsning (inmätt), fram till dagens väg där 1929 års sträcka fortsätter.",
+ "method": "Fornlämningsregistrets avgränsning jämförd med sockenkartan 1012 06 Hammarby 1929, dess utgåva 1944 och katalogens vägar (docs/reviews/road-remnants-2026-11-20/renders/ha-17-8-*)."
+}

@@ -95,6 +95,10 @@ Scope (`docs/reviews/hammarlandsvagen-main-road-2026-11-18/scope-audit-atlas.jso
 
 ## Open items
 
+- Postad (corrected 2026-11-20, `docs/hammarlandsvagen-postad.md`): the 1929 and 1944 maps draw the road in a curve up
+  to 70 m east of today's straight line between 15.52 and 15.98 km (the register's road remnant Ha 17.8). Postad–Korsängen
+  now leaves that span out for 1929–1967, and the old curve is the early period of "Äldre väg vid Korsberg".
+
 - Southern half, Mariehamn–Söderby: today's road is new there, with the Gottby straight first on the 1978 map and
   Ödanböle–Söderby on the 1968 map. The older main road ran from Sviby along Ullingsvägen and Ödanbölevägen. The 1928
   map prints it, and the 1944 and 1953 Kungsö maps print it as "Andelsl.". It is not in the catalogue as the historical

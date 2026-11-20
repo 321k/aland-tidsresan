@@ -55,6 +55,10 @@ test('in 1950 the same-road stretches meet each other and the Smedens line end t
  const b750=p('road:rural:hammarland-way-345143750')[0],v=p('road:rural:hammarland-hammarlandsvagen-vastmyra')[0];
  assert.ok(Math.min(dist(b750[0],sm.at(-1)),dist(b750.at(-1),sm.at(-1)))<1,'Smedens line meets the Björkgård piece');
  assert.ok(Math.min(...[b750[0],b750.at(-1)].flatMap(a=>[v[0],v.at(-1)].map(c=>dist(a,c))))<1,'Björkgård piece runs on into Västmyra');
- const pk=p('road:rural:hammarland-hammarlandsvagen-postad-korsangen')[0],ch=p('road:rural:hammarland-hammarlandsvagen-church-corridor')[0];
- assert.ok(Math.min(...[pk[0],pk.at(-1)].flatMap(a=>[ch[0],ch.at(-1)].map(c=>dist(a,c))))<1);
+ // Postad (2026-11-20): today's road leaves out the old curve at Postad (Äldre väg vid Korsberg, register remnant Ha 17.8),
+ // so it is two pieces in 1950; the curve joins them, and the second runs on into the church corridor.
+ const pks=p('road:rural:hammarland-hammarlandsvagen-postad-korsangen'),ch=p('road:rural:hammarland-hammarlandsvagen-church-corridor')[0],cv=p('road:rural:hammarland-korsberg-old-road')[0];
+ assert.equal(pks.length,2);const ends=pks.flatMap(x=>[x[0],x.at(-1)]);
+ for(const e of [cv[0],cv.at(-1)])assert.ok(ends.some(c=>dist(e,c)<1),'the Postad curve joins today\'s road');
+ assert.ok(Math.min(...ends.flatMap(a=>[ch[0],ch.at(-1)].map(c=>dist(a,c))))<1);
 });

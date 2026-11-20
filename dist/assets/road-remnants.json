@@ -1,0 +1,164 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-20",
+ "source": {
+  "id": "review:road-remnants",
+  "title": "Vägrester i fornlämningsregistret · granskning",
+  "url": "assets/road-remnants.json"
+ },
+ "remnants": [
+  {
+   "code": "Lu 6.1",
+   "sourceId": "heritage-register:Lu 6.1",
+   "objectId": "road:lumparland:gamla-landsvagen:skag",
+   "inputHash": "7052e1911ea254c00eac2b99743e13ec23621457f863f4c5fda77e6cf819fd68",
+   "outlineHash": "d7524ebb34abe6ec3ce1cb68becd354369ce339e937e2abb3c5e7daa0ee931ee",
+   "year": 1950,
+   "distanceMeters": 0.0,
+   "maxDistanceMeters": 5.0,
+   "supports": [
+    "geometry",
+    "identity"
+   ],
+   "minInsideMeters": 98,
+   "note": "Fornlämningsregistret: ett cirka 120 m långt fossilt vägavsnitt, del av landsvägen mellan Jomala och Föglö. Det är hörnet i Skag by på den gamla vägen som sockenkartan 1929 ritar; spåret följer det."
+  },
+  {
+   "code": "Lu 2.1",
+   "sourceId": "heritage-register:Lu 2.1",
+   "objectId": "road:qgis:lumparland:langnasvagen-100km3",
+   "inputHash": "305a5bdc68ad6e496b26848182bedf3a969bee6e0a0e444d025b6894e70cf523",
+   "outlineHash": "c68dc2d12f2f84eec637db2960cbbc067d9294befacf129b22706f9a9c4e4ad0",
+   "year": 1920,
+   "distanceMeters": 10.2,
+   "maxDistanceMeters": 15.2,
+   "supports": [
+    "identity"
+   ],
+   "note": "Fornlämningsregistret: två korta fossila vägavsnitt (cirka 20 och 35 m), del av landsvägen mellan Jomala och Föglö, omkring 10 m norr om dagens väg vid 1,45 km. Sockenkartan 1929 ritar vägen där; samma väg inom kartans lägesfel."
+  },
+  {
+   "code": "Le 16.16",
+   "sourceId": "heritage-register:Le 16.16",
+   "objectId": "road:qgis:lumparland:lemlandsvagen-100km3",
+   "inputHash": "fe656e69dc836e750f5a63de9fb6468600aed1295a44981110a8c1ee7e7c4267",
+   "outlineHash": "d97a624a53c55a56ea34506473ec7c6b81d8c3f6271a14998a83d613b5725444",
+   "year": 1920,
+   "distanceMeters": 30.3,
+   "maxDistanceMeters": 35.3,
+   "supports": [
+    "identity"
+   ],
+   "note": "Fornlämningsregistret: fossilt vägavsnitt från 1700-talets landsväg, omkring 30 m söder om dagens väg vid 3,4 km öster om kyrkbyn. Sockenkartan 1929 ritar vägen mellan dem; samma vägstråk, den gamla vägbanken låg något söder om dagens."
+  },
+  {
+   "code": "Le 18.7",
+   "sourceId": "heritage-register:Le 18.7",
+   "objectId": "road:lemland:gamla-lemlandsvagen:mangard-soderby",
+   "inputHash": "4398d7c57470b5b4755a460b2098b73440ba14b10309f561a3ef421b128e06eb",
+   "outlineHash": "566f7ddf60285cda73b3e6de98f212497655f49f5bb62ee97db0c823b7430802",
+   "year": 1920,
+   "distanceMeters": 0.0,
+   "maxDistanceMeters": 5.0,
+   "supports": [
+    "geometry",
+    "identity"
+   ],
+   "minInsideMeters": 49,
+   "note": "Fornlämningsregistret: ett cirka 60 m långt fossilt vägavsnitt, del av landsvägen mellan Jomala och Föglö. Det ligger på den gamla vägen genom Söderby som sockenkartan 1929 ritar."
+  },
+  {
+   "code": "Ha 12.5",
+   "sourceId": "heritage-register:Ha 12.5",
+   "objectId": "road:rural:hammarland-hammarlandsvagen-kattby-west",
+   "inputHash": "bd119b7ff624955eabb7d4d03b2f3ed4988012fcd4d8bce2daf4f3c627a93b90",
+   "outlineHash": "a7963f5cf28141bedce32f81d4ec62431b85ca771db49904020d21dc022c83bf",
+   "year": 1950,
+   "distanceMeters": 20.1,
+   "maxDistanceMeters": 25.1,
+   "supports": [
+    "identity"
+   ],
+   "note": "Fornlämningsregistret: ett cirka 40 m långt vägavsnitt av den tidigmoderna postvägen, omkring 20 m söder om vägen väster om Kattby; samma vägstråk."
+  },
+  {
+   "code": "Jo 23.6",
+   "sourceId": "heritage-register:Jo 23.6",
+   "objectId": "road:emkarbyvagen",
+   "inputHash": "921791e95a34df3ba2ce780c00c4708ffac419fa6ab8d47c598a653b1f93531b",
+   "outlineHash": "6530f13fd366e978986bdbc659249eb7c2794cd51ffa92f74976633055d8b914",
+   "year": 1850,
+   "distanceMeters": 17.3,
+   "maxDistanceMeters": 22.3,
+   "supports": [
+    "identity"
+   ],
+   "note": "Fornlämningsregistret: ett cirka 100 m långt fossilt vägavsnitt av den tidigmoderna postvägen vid Ringsböle (delvis undersökt arkeologiskt 2016), intill Emkarbyvägen."
+  },
+  {
+   "code": "Jo 23.7",
+   "sourceId": "heritage-register:Jo 23.7",
+   "objectId": "road:emkarbyvagen",
+   "inputHash": "921791e95a34df3ba2ce780c00c4708ffac419fa6ab8d47c598a653b1f93531b",
+   "outlineHash": "45f05c022770f01af272b7ec97ddfc89f108bed4902c7bee13fb019d1c0780e9",
+   "year": 2026,
+   "distanceMeters": 7.9,
+   "maxDistanceMeters": 12.9,
+   "supports": [
+    "identity"
+   ],
+   "note": "Fornlämningsregistret: ett cirka 70 m långt fossilt vägavsnitt av den tidigmoderna postvägen vid Ringsböle, intill Emkarbyvägen."
+  },
+  {
+   "code": "Sa 10.14",
+   "sourceId": "heritage-register:Sa 10.14",
+   "objectId": "road:qgis:saltvik:sundsvagen-haraldsby-kulla",
+   "inputHash": "920d8a4a67af738d06e3f2a8aa343c24cd228e77e343ad6d4eaf9240999fae1e",
+   "outlineHash": "5d5e833085b9ecc2680350fd74c9ae63a9761aafaa50e4c772683d487d7aeef1",
+   "year": 1850,
+   "distanceMeters": 13.5,
+   "maxDistanceMeters": 18.5,
+   "supports": [
+    "identity"
+   ],
+   "note": "Fornlämningsregistret: ett 80 m långt fossilt vägavsnitt av den tidigmoderna postvägen vid Haraldsby, intill Sundsvägen."
+  },
+  {
+   "code": "Su 13.16",
+   "sourceId": "heritage-register:Su 13.16",
+   "objectId": "road:qgis:saltvik:sundsvagen-haraldsby-kulla",
+   "inputHash": "920d8a4a67af738d06e3f2a8aa343c24cd228e77e343ad6d4eaf9240999fae1e",
+   "outlineHash": "be16ae6a37b15f81bb97aca9e3b37ae1e5da1bef67734575eee894c324a75eb3",
+   "year": 1850,
+   "distanceMeters": 10.4,
+   "maxDistanceMeters": 15.4,
+   "supports": [
+    "identity"
+   ],
+   "note": "Fornlämningsregistret: ett 80 m långt fossilt vägavsnitt av den tidigmoderna postvägen vid Kulla, en 6–7 m bred jordvall intill Sundsvägen."
+  },
+  {
+   "code": "Su 1.5",
+   "sourceId": "heritage-register:Su 1.5",
+   "objectId": "road:qgis:saltvik:sundsvagen-haraldsby-kulla",
+   "inputHash": "920d8a4a67af738d06e3f2a8aa343c24cd228e77e343ad6d4eaf9240999fae1e",
+   "outlineHash": "f5331241581480075157ef16f601e4f9975d234deced25af776f39d7ef51bd2c",
+   "year": 1850,
+   "distanceMeters": 16.7,
+   "maxDistanceMeters": 21.7,
+   "supports": [
+    "identity"
+   ],
+   "note": "Fornlämningsregistret: ett 80 m långt fossilt vägavsnitt av den tidigmoderna postvägen vid Berg, en 6–10 m bred jordvall intill Sundsvägen."
+  }
+ ],
+ "notMatched": {
+  "Ha 17.8": "Postad: används av data/hammarlandsvagen-postad.json för den gamla bågen.",
+  "Fi 8.17": "Gamla färjvägen vid Godby, i bruk till 1761; ingen väg i katalogen för den.",
+  "Jo 18.11": "Vägen till Kungsöbatteriet, anlagd 1916; inte en del av de granskade huvudvägarna.",
+  "Ma 33": "Väg i Mariehamn belagd 1764; inte granskad här.",
+  "Ma 37": "Väg från första världskriget; inte granskad här.",
+  "Ma 47": "Väg från första världskriget; inte granskad här."
+ },
+ "method": "Registrets avgränsningar jämförda med sockenkartorna 1929 och katalogens daterade vägar (docs/reviews/road-remnants-2026-11-20/renders/)."
+}

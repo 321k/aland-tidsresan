@@ -1,0 +1,55 @@
+....F.F..F..F.F...
+======================================================================
+FAIL: test_review_applies_once_and_matches_the_build (tests.test_hammarlandsvagen_kattby.HammarlandsvagenKattbyTests.test_review_applies_once_and_matches_the_build)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_hammarlandsvagen_kattby.py", line 40, in test_review_applies_once_and_matches_the_build
+    self.assertEqual(key(catalog)[oid], key(self.built)[oid])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'id'[35912 chars], 1]}], 'sourceLinks': [{'datasetId': 'osm-201[20678 chars]by'}} != {'id'[35912 chars], 1]}, {'id': 'road:rural:hammarland-hammarlan[21273 chars].1}]}
+Diff is 139397 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_review_applies_once_and_matches_the_build (tests.test_lemlandsvagen_east.LemlandsvagenEastTests.test_review_applies_once_and_matches_the_build)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_lemlandsvagen_east.py", line 46, in test_review_applies_once_and_matches_the_build
+    self.assertEqual(key(catalog)[i], key(self.built)[i])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'id'[61956 chars].0]]}], 'sourceLinks': [{'datasetId': 'osm-202[10228 chars]st'}} != {'id'[61956 chars].0]]}, {'id': 'road:qgis:lumparland:lemlandsva[10905 chars].3}]}
+Diff is 107980 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_review_applies_once_and_matches_the_build (tests.test_langnasvagen.LangnasvagenTests.test_review_applies_once_and_matches_the_build)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_langnasvagen.py", line 44, in test_review_applies_once_and_matches_the_build
+    self.assertEqual(key(catalog)[i], key(self.built)[i])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'id'[48658 chars]91]]}], 'sourceLinks': [{'datasetId': 'osm-202[6086 chars]en'}} != {'id'[48658 chars]91]]}, {'id': 'road:qgis:lumparland:langnasvag[6749 chars].2}]}
+Diff is 81663 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_review_applies_once_and_matches_the_build (tests.test_lemland_old_road_osm.LemlandOldRoadOsmTests.test_review_applies_once_and_matches_the_build)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_lemland_old_road_osm.py", line 39, in test_review_applies_once_and_matches_the_build
+    self.assertEqual({i: key(catalog, 'objects')[i] for i in ids}, {i: key(self.built, 'objects')[i] for i in ids})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'roa[41066 chars]år.'}], 'sourceLinks': [{'datasetId': 'osm-202[11473 chars]ne}}} != {'roa[41066 chars]år.'}, {'id': 'road:lemland:gamla-lemlandsvage[12109 chars]0}]}}
+Diff is 354226 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_review_applies_once_and_matches_the_build (tests.test_lemlandsvagen_main_road.LemlandsvagenMainRoadTests.test_review_applies_once_and_matches_the_build)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/test_lemlandsvagen_main_road.py", line 44, in test_review_applies_once_and_matches_the_build
+    self.assertEqual(mine, {o['id']: o for o in self.built['objects'] if o['id'] in ids})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'roa[225788 chars]år.'}], 'sourceLinks': [{'datasetId': 'osm-202[11473 chars]ne}}} != {'roa[225788 chars]år.'}, {'id': 'road:lemland:gamla-lemlandsvage[12109 chars]0}]}}
+Diff is 1521659 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 18 tests in 226.307s
+
+FAILED (failures=5)

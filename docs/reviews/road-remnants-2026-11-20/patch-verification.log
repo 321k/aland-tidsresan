@@ -1,0 +1,13 @@
+batch-road-remnants.patch, 2026-11-20
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/road-remnants/before/ to the working tree):
+- scripts/build_temporal_objects.py (untracked): the Postad and remnant steps after apply_sundsvagen, and their asset copies
+- dist/index.html (tracked, modified): the loader card "1 av 98", the renumbering and the loader preview
+- data/regional-road-review.json (untracked): the late atlas link for the Korsberg road
+
+The before-copies already contain the uncommitted Sundsvägen batch (its hook and card).
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; all three results are byte-identical
+to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to all three files.

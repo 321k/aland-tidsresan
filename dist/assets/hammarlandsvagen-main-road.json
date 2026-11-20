@@ -34,7 +34,9 @@
   "bolstad": 12600,
   "smedens-north": 14101,
   "nafsby-south": 14420,
-  "nafsby-north": 15255
+  "nafsby-north": 15255,
+  "postad-curve": 15520.3,
+  "postad-rejoin": 15976.0
  },
  "reference": [
   [
@@ -1181,6 +1183,10 @@
   ],
   [
    15255,
+   15520.3
+  ],
+  [
+   15976.0,
    17262.3
   ]
  ],
@@ -1275,6 +1281,10 @@
    "ranges": [
     [
      0.0,
+     119.3
+    ],
+    [
+     575.0,
      1487.9
     ]
    ],
@@ -1313,7 +1323,7 @@
   "road:rural:hammarland-way-345142933": "Söderby–Långträsk och biten vid Bolstad är samma väg som sockenkartan 1929 ritar (strandvägen längs Långträsk). Förbifarten vid Drygsböle (11,8–12,4 km) och den nya linjen förbi Smedens finns inte 1929; söder om Söderby är vägen ny (först på grundkartan 1968).",
   "road:rural:hammarland-way-345143750": "De sista omkring 100 m vid Björkgård är den gamla vägen; linjen förbi Smedens söder om den är ny.",
   "road:rural:hammarland-hammarlandsvagen-vastmyra": "Ändarna är den gamla vägen: de första omkring 220 m från Mattas och biten vid Korsbroström. Mellan dem är dagens väg en förbifart öster om Näfsby; den gamla vägen gick genom byn och förbi Klaralund, där den finns kvar som mindre vägar (se Näfsbygranskningen).",
-  "road:rural:hammarland-hammarlandsvagen-postad-korsangen": "Samma väg som sockenkartan 1929 ritar, inom kartans lägesfel (5–20 m).",
+  "road:rural:hammarland-hammarlandsvagen-postad-korsangen": "Samma väg som sockenkartan 1929 ritar, inom kartans lägesfel (5–20 m), utom vid Postad: där gick vägen 1929 och 1944 i en båge upp till 70 m öster om dagens raka linje (fornlämningen Ha 17.8, Äldre väg vid Korsberg). Den raka linjen där ritas första gången 1968.",
   "road:rural:hammarland-hammarlandsvagen-church-corridor": "Samma väg som sockenkartan 1929 ritar förbi kyrkan och in i Kattby."
  },
  "oldRoad": {
