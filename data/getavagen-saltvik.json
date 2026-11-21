@@ -127,7 +127,7 @@
    },
    "ranges": [
     [
-     1776.1,
+     500.0,
      2717.3
     ]
    ]
@@ -157,7 +157,7 @@
   "road:qgis:saltvik:kyrkvagen-batch4": "Den gamla vägen in i Godby by. Sockenkartan 1929 och utgåvan 1944 ritar den som vägen norrut från byn; dagens diagonal finns inte på dem.",
   "road:qgis:saltvik:bartsgardavagen": "Den gamla huvudvägen norrut genom Bartsgårda till Mellangård. Sockenkartan 1929 och utgåvan 1944 ritar den som landsvägen; dagens raka sträcka väster om den finns inte på dem.",
   "road:qgis:saltvik:kroklundsvagen": "Den gamla huvudvägen från Mellangård nordost och norrut genom Bartsgårda och Ödkarby till Sålis. Sockenkartan 1929 och utgåvan 1944 ritar den som landsvägen.",
-  "road:qgis:saltvik:saltviksvagen-1-batch4": "Den västra delen, från Kroklundsvägen vid Sålis till dagens väg vid Avanåker, är den gamla huvudvägens fortsättning på sockenkartan 1929 och utgåvan 1944. Resten av vägen är inte granskad här.",
+  "road:qgis:saltvik:saltviksvagen-1-batch4": "Från Västergård söderut till Sålis och västerut till dagens väg vid Avanåker är vägen på sockenkartan 1929 och utgåvan 1944; väster om Kroklundsvägen är den den gamla huvudvägens fortsättning. Den diagonala sträckan genom Västergård norrut är yngre: 1929 gick vägen där norrut till bladkanten.",
   "road:qgis:saltvik:gamla-getavagen": "Strandvägen förbi Sjöstrand och Nötholma vid Avanåker. Sockenkartan 1929 och utgåvan 1944 ritar den."
  },
  "geometryNote": "Del av objektets egen geometri (samma koordinater) där vägen är vägen på sockenkartan 1929.",

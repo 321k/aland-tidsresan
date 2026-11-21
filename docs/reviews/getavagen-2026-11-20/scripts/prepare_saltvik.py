@@ -9,6 +9,9 @@ Read on renders/ref-*-1929.jpg, candidates-*-1929.jpg, bartsgarda-*.jpg, godby-1
   along Saltviksvägen back to today's road at Avanåker (8 814 m). The road through Tallnäs and Ödkarby that today's road
   follows was a lesser road then.
 - Gamla Getavägen, the shore road past Sjöstrand and Nötholma, and Kyrkvägen into Godby village are 1929 roads.
+- Saltviksvägen east of Sålis (added 2026-11-21, docs/saltviksvagen.md): the 1929 road is today's road from Kroklundsvägen
+  east and north to Västergård, where it leaves today's diagonal, turns east past Bygge and runs north to the sheet edge (read on
+  docs/reviews/saltviksvagen-2026-11-21/renders/del1-*.jpg, del1n-*.jpg, vg-*.jpg and vgz-*.jpg).
 No line is traced by hand: every early geometry is the object's own geometry, or a cut of it at the junctions."""
 import sys, json, gzip
 sys.path.insert(0, 'scripts')
@@ -25,14 +28,16 @@ g = line(GE)
 on = lambda i, e: g.project(Point(line(i).coords[e]))
 kyrk, barts, pals = on(KY, -1), on(BA, 0), g.project(Point(TO_METRIC(*geo('road:qgis:saltvik:palsbolevagen-norra')['paths'][0][0])))
 S = line(SA); krok_end = S.project(Point(line(KR).coords[0]))
-print('Getavägen', r(kyrk), r(barts), r(pals), r(g.length), '; Saltviksvägen from', r(krok_end), 'of', r(S.length))
+# where the 1929 road leaves today's line at Västergård (docs/reviews/saltviksvagen-2026-11-21/renders/vgz-saltvik-1929.jpg)
+vastergard = S.project(Point(20498928.0, 6689125.8))   # the 1929 road turns east past Bygge here, then north
+print('Getavägen', r(kyrk), r(barts), r(pals), r(g.length), '; Saltviksvägen from', r(vastergard), '(Kroklundsvägen', r(krok_end), ') of', r(S.length))
 S29, S44 = 'nls:map-38157483', 'nls:map-38147682'
 def entry(oid, ranges):
     gg = geo(oid); L = line(oid)
     return dict(objectId=oid, inputHash=fingerprint(O[oid]), geometryId=gg['id'], geometryHash=digest(gg), lengthMeters=r(L.length),
                 firstYear=1929, until=O[oid]['states'][0]['from'], maps={'1929': 'present', '1944': 'present'}, ranges=ranges)
 early = [entry(KY, [[0.0, r(line(KY).length)]]), entry(GE, [[r(kyrk), r(barts)], [r(pals), r(g.length)]]), entry(BA, [[0.0, r(line(BA).length)]]),
-         entry(KR, [[0.0, r(line(KR).length)]]), entry(SA, [[r(krok_end), r(S.length)]]), entry(GA, [[0.0, r(line(GA).length)]])]
+         entry(KR, [[0.0, r(line(KR).length)]]), entry(SA, [[r(vastergard), r(S.length)]]), entry(GA, [[0.0, r(line(GA).length)]])]
 data = dict(
     schemaVersion=1, reviewedAt='2026-11-20', reviewProperty='mainRoadReview', geometryPrefix='geometry:getavagen-1929:',
     source=dict(id='review:getavagen-saltvik', title='Getavägen i Saltvik och Finström på sockenkartan 1929 · granskning', url='assets/getavagen-saltvik.json'),
@@ -47,7 +52,7 @@ data = dict(
         KY: 'Den gamla vägen in i Godby by. Sockenkartan 1929 och utgåvan 1944 ritar den som vägen norrut från byn; dagens diagonal finns inte på dem.',
         BA: 'Den gamla huvudvägen norrut genom Bartsgårda till Mellangård. Sockenkartan 1929 och utgåvan 1944 ritar den som landsvägen; dagens raka sträcka väster om den finns inte på dem.',
         KR: 'Den gamla huvudvägen från Mellangård nordost och norrut genom Bartsgårda och Ödkarby till Sålis. Sockenkartan 1929 och utgåvan 1944 ritar den som landsvägen.',
-        SA: 'Den västra delen, från Kroklundsvägen vid Sålis till dagens väg vid Avanåker, är den gamla huvudvägens fortsättning på sockenkartan 1929 och utgåvan 1944. Resten av vägen är inte granskad här.',
+        SA: 'Från Västergård söderut till Sålis och västerut till dagens väg vid Avanåker är vägen på sockenkartan 1929 och utgåvan 1944; väster om Kroklundsvägen är den den gamla huvudvägens fortsättning. Den diagonala sträckan genom Västergård norrut är yngre: 1929 gick vägen där norrut till bladkanten.',
         GA: 'Strandvägen förbi Sjöstrand och Nötholma vid Avanåker. Sockenkartan 1929 och utgåvan 1944 ritar den.'},
     geometryNote='Del av objektets egen geometri (samma koordinater) där vägen är vägen på sockenkartan 1929.',
     route=dict(order=[KY, GE, BA, KR, SA, GE, GA], repeat=[GE], joinMeters=1.0),

@@ -1,0 +1,44 @@
+{
+ "objects": {
+  "added": [
+   "road:tjudo:gamla-saltviksvagen:andelsby"
+  ],
+  "removed": [],
+  "changed": [
+   "road:qgis:saltvik:kavelbrovagen",
+   "road:qgis:saltvik:saltviksvagen-1-batch4",
+   "road:qgis:saltvik:saltviksvagen-2-batch4",
+   "road:qgis:saltvik:saltviksvagen-antbole-nygard",
+   "road:qgis:saltvik:saltviksvagen-kavelbro-norr",
+   "road:qgis:saltvik:saltviksvagen-kvarnbo-kavelbro",
+   "road:qgis:tjudo:daglosavagen-100km1",
+   "road:qgis:tjudo:saltviksvagen-100km1"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:saltviksvagen-1927:daglosavagen-100km1",
+   "geometry:saltviksvagen-1927:kavelbrovagen",
+   "geometry:saltviksvagen-1927:saltviksvagen-100km1",
+   "geometry:saltviksvagen-1927:saltviksvagen-2-batch4",
+   "geometry:saltviksvagen-1927:saltviksvagen-antbole-nygard",
+   "geometry:saltviksvagen-1927:saltviksvagen-kavelbro-norr",
+   "geometry:saltviksvagen-1927:saltviksvagen-kvarnbo-kavelbro",
+   "geometry:tjudo:gamla-saltviksvagen:andelsby"
+  ],
+  "removed": [],
+  "changed": [
+   "geometry:getavagen-1929:saltviksvagen-1-batch4"
+  ]
+ },
+ "sources": {
+  "added": [
+   "review:saltviksvagen-east"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "otherKeysChanged": [
+  "recordedAt"
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-21",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:saltviksvagen-1927:",
+ "source": {
+  "id": "review:saltviksvagen-east",
+  "title": "Saltviksvägen från Tjudö till Kvarnbo på sockenkartorna 1927 och 1929 · granskning",
+  "url": "assets/saltviksvagen-east.json"
+ },
+ "sources": [],
+ "maps": {
+  "1927-tjudo": {
+   "sourceId": "nls:map-38157484",
+   "year": 1927
+  },
+  "1941-daglosa": {
+   "sourceId": "nls:map-38147690",
+   "year": 1941
+  },
+  "1929-saltvik": {
+   "sourceId": "nls:map-38157483",
+   "year": 1929
+  },
+  "1944-saltvik": {
+   "sourceId": "nls:map-38147682",
+   "year": 1944
+  },
+  "1968-tjudo": {
+   "sourceId": "nls:102108:1968",
+   "year": 1968
+  },
+  "1978-tjudo": {
+   "sourceId": "nls:102108:1978",
+   "year": 1978
+  },
+  "1984-tjudo": {
+   "sourceId": "nls:102108:1984",
+   "year": 1984
+  },
+  "1968-saltvik": {
+   "sourceId": "nls:102107:1968",
+   "year": 1968
+  }
+ },
+ "early": [
+  {
+   "objectId": "road:qgis:tjudo:saltviksvagen-100km1",
+   "inputHash": "0d62cfbf08e1f1190effe787dda5717fee519d43ed734ebbae262bd479fa34c5",
+   "geometryId": "geometry:qgis:5bcfae9e4c820c3dc56c",
+   "geometryHash": "29eed6a22083d0dea9bbe694f59e19de0126200ad8b63d2a6d449e61e7a47404",
+   "lengthMeters": 3652.9,
+   "firstYear": 1927,
+   "until": 1968,
+   "maps": {
+    "1927-tjudo": "present",
+    "1941-daglosa": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1825.4
+    ],
+    [
+     2262.0,
+     3652.9
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:tjudo:daglosavagen-100km1",
+   "inputHash": "b11cbb9f2ea1a0b29c8749fade8f732625b6c9c4c367aa40ffa6f942dec914b8",
+   "geometryId": "geometry:qgis:7a252b138169d1a17f93",
+   "geometryHash": "4c3b26623cec5055cf9a1b8bd6c33f17fed9954958ab9096896d852813fecb70",
+   "lengthMeters": 4552.1,
+   "firstYear": 1927,
+   "until": 1968,
+   "maps": {
+    "1927-tjudo": "present",
+    "1941-daglosa": "present"
+   },
+   "ranges": [
+    [
+     4351.6,
+     4552.1
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:saltviksvagen-2-batch4",
+   "inputHash": "c84a657835438e9adf478de2d02d6d2c26fd992c7940fe019311ff6f4b3f14f4",
+   "geometryId": "geometry:qgis:bb8635317c3cb00951f1",
+   "geometryHash": "74541f151f0bec9e0735b171e2cd0907967f1eedb24cd6bfcd27b2ec149a7308",
+   "lengthMeters": 20.0,
+   "firstYear": 1927,
+   "until": 1993,
+   "maps": {
+    "1927-tjudo": "present",
+    "1929-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     20.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:saltviksvagen-antbole-nygard",
+   "inputHash": "041c76111f57225e20da8abe8f54903ae8966dfde432bd2b81ae0bf8d0c59cc0",
+   "geometryId": "geometry:qgis:history:c6566bc15eb219f73f30",
+   "geometryHash": "1400d7fb9fe1be2a6a776ede7f47f84a53f69b399091a96fb8a8ab8687729483",
+   "lengthMeters": 2904.9,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     2904.9
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:saltviksvagen-kavelbro-norr",
+   "inputHash": "661ec8e6a3b5b16ed8e4a663bba2a8a2d09eb3641cd573ca6b32752e5d4753ed",
+   "geometryId": "geometry:qgis:712e8ff9521ea9643c42",
+   "geometryHash": "5436330cd26fbac054794e980d02af0c4ad9e1d9da96bd77de32bcd9c94c7a50",
+   "lengthMeters": 629.9,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     629.9
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:kavelbrovagen",
+   "inputHash": "49674e897486ca75c897d516a5716404fc577286e52e209188400ad056b247d8",
+   "geometryId": "geometry:qgis:a5e7d92ccd0ae989cc47",
+   "geometryHash": "e174523e558f958568fe71040f656a737045a0a88f42979c06315b34f6dba823",
+   "lengthMeters": 325.3,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present",
+    "1968-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     325.3
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:saltviksvagen-kvarnbo-kavelbro",
+   "inputHash": "e6cae19dcd5d77361d2eacf3226489bc67ed689679322f1e23f8afabba4e8049",
+   "geometryId": "geometry:qgis:6a83d814ec37ffac1798",
+   "geometryHash": "2e79479e4d64d5ec0ffd2197439ce096f87168dbaf8e3fe7ee408479612a1ed7",
+   "lengthMeters": 1218.4,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1218.4
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:tjudo:saltviksvagen-100km1": "Dagens väg genom Tjudö är vägen på sockenkartan 1927 och utgåvan 1941 (inom kartans lägesfel), utom vid Andelsby: där gick vägen norrut längs dagens Dåglösavägen och sedan i en båge österut till Nygård. Dagens diagonal där ritas första gången på grundkartan 1968.",
+  "road:qgis:tjudo:daglosavagen-100km1": "Vägens första 200 m från Andelsby by var en del av landsvägen till Saltvik: sockenkartan 1927 och utgåvan 1941 ritar landsvägen norrut här innan den svänger österut. Resten av Dåglösavägen är inte granskad här.",
+  "road:qgis:saltvik:saltviksvagen-2-batch4": "En kort bit av dagens väg vid bladgränsen mellan sockenkartorna 1927 (Tjudö–Dåglösa) och 1929 (Saltvik); båda ritar landsvägen här.",
+  "road:qgis:saltvik:saltviksvagen-antbole-nygard": "Dagens väg från Ödkarby förbi Prästgården, Lagmansby och Antböle är vägen på sockenkartan 1929 och utgåvan 1944. Vid Ödkarby och Prästgården ligger kartans väg 20–40 m österut med samma form, liksom på grundkartan 1968: ett lägesfel, inte en annan väg.",
+  "road:qgis:saltvik:saltviksvagen-kavelbro-norr": "Dagens väg norr om Kavelbro är vägen på sockenkartan 1929 och utgåvan 1944.",
+  "road:qgis:saltvik:kavelbrovagen": "Den gamla landsvägen genom kurvan vid Kavelbro. Sockenkartan 1929, utgåvan 1944 och grundkartan 1968 ritar landsvägen här; den raka förbifarten ritas först 1978.",
+  "road:qgis:saltvik:saltviksvagen-kvarnbo-kavelbro": "Dagens väg från Kavelbro till Kvarnbo är vägen på sockenkartan 1929 och utgåvan 1944."
+ },
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där vägen är vägen på sockenkartorna 1927 och 1929.",
+ "oldRoad": {
+  "id": "road:tjudo:gamla-saltviksvagen:andelsby",
+  "name": "Gamla Saltviksvägen · Andelsby",
+  "routeId": "road:Gamla Saltviksvägen",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1927,
+  "until": 1984,
+  "maps": {
+   "1927-tjudo": "present",
+   "1941-daglosa": "present",
+   "1968-tjudo": "present",
+   "1978-tjudo": "present",
+   "1984-tjudo": "absent"
+  },
+  "paths": [
+   [
+    [
+     20.0109363,
+     60.3225505
+    ],
+    [
+     20.0120425,
+     60.3226536
+    ],
+    [
+     20.0129461,
+     60.3227433
+    ],
+    [
+     20.0138497,
+     60.322833
+    ],
+    [
+     20.0145727,
+     60.3228599
+    ],
+    [
+     20.0152052,
+     60.3228151
+    ],
+    [
+     20.0158377,
+     60.3227253
+    ],
+    [
+     20.0163799,
+     60.3225638
+    ],
+    [
+     20.0169221,
+     60.3223395
+    ],
+    [
+     20.0173739,
+     60.3221152
+    ],
+    [
+     20.017916,
+     60.3219627
+    ],
+    [
+     20.0188311,
+     60.3218219
+    ]
+   ]
+  ],
+  "lengthMeters": 472.4,
+  "referenceRange": [
+   1390,
+   1830
+  ],
+  "endSnapMeters": [
+   11.2,
+   7.7
+  ],
+  "endSnapLimit": 25,
+  "endObjects": [
+   "road:qgis:tjudo:saltviksvagen-100km1",
+   "road:qgis:tjudo:daglosavagen-100km1"
+  ],
+  "todayRoadName": "Saltviksvägen",
+  "basis": "Landsvägen från Andelsby gick först norrut längs dagens Dåglösavägen och sedan i en båge österut till Nygård, upp till 150 m norr om dagens diagonal. Sockenkartan 1927 och utgåvan 1941 ritar den som landsvägen; grundkartorna 1968 och 1978 ritar den som en mindre väg bredvid dagens diagonal; grundkartan 1984 ritar den inte.",
+  "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1927 (rutnät 50 m) och inte flyttad; ändarna är fästa vid Dåglösavägen och dagens väg där bågen lämnar och möter dem.",
+  "afterNote": "Grundkartan 1984 ritar inte bågen vid Andelsby, och nästan inget av den finns i OpenStreetMap. Exakt när den togs ur bruk är inte känt."
+ },
+ "route": {
+  "order": [
+   "road:qgis:saltvik:saltviksvagen-1-batch4",
+   "road:qgis:tjudo:saltviksvagen-100km1",
+   "road:qgis:tjudo:daglosavagen-100km1",
+   "road:tjudo:gamla-saltviksvagen:andelsby",
+   "road:qgis:tjudo:saltviksvagen-100km1",
+   "road:qgis:saltvik:saltviksvagen-2-batch4",
+   "road:qgis:saltvik:saltviksvagen-antbole-nygard",
+   "road:qgis:saltvik:saltviksvagen-kavelbro-norr",
+   "road:qgis:saltvik:kavelbrovagen",
+   "road:qgis:saltvik:saltviksvagen-kvarnbo-kavelbro"
+  ],
+  "endObjects": [
+   "road:qgis:saltvik:saltviksvagen-1-batch4"
+  ],
+  "repeat": [
+   "road:qgis:tjudo:saltviksvagen-100km1"
+  ],
+  "joinMeters": 1.0,
+  "gaps": [
+   {
+    "between": [
+     "road:qgis:saltvik:saltviksvagen-1-batch4",
+     "road:qgis:tjudo:saltviksvagen-100km1"
+    ],
+    "meters": 488.0,
+    "basis": "Västergård–Laby: sockenkartan 1929 ritar vägen från Västergård österut förbi Bygge och norrut till bladkanten; Tjudö-objektet börjar vid bladkanten på kartan 1927. Alla kartor har bladkant i remsan däremellan (1927/1929, 1941/1944, 1968), så hur vägen gick där är inte ritat. Den diagonala sträckan genom Västergård ritas första gången 1978."
+   }
+  ]
+ },
+ "method": "Dagens väg jämförd för hand med sockenkartorna 1021 08 Tjudö–Dåglösa 1927 och 1021 07 Saltvik 1929 (rutnät 50 m), utgåvorna 1941 och 1944 och grundkartorna 1968, 1978, 1984 och 1993 (blad 102108, 102107), med OpenStreetMap 2026 inritat (docs/reviews/saltviksvagen-2026-11-21/renders/)."
+}

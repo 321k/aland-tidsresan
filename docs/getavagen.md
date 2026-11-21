@@ -34,7 +34,9 @@ Six existing objects gain an early period from 1929. Each is the object's own ge
 junctions:
 - Getavägen: 0.57–4.85 km and 5.66 km to the end, 1929–1968;
 - Kyrkvägen, Bartsgårdavägen, Kroklundsvägen and Gamla Getavägen: whole, 1929–1968;
-- Saltviksvägen · del 1: from Kroklundsvägen to today's road, 1929–1993. The rest of that road is not reviewed.
+- Saltviksvägen · del 1: from Västergård over Sålis to today's road, 1929–1993. Until 2026-11-21 this period started
+  at Kroklundsvägen; the Saltviksvägen review (`docs/saltviksvagen.md`) extended it east and north to Västergård,
+  where the 1929 road leaves today's diagonal.
 
 There is no new object: each old road is a road that exists today and keeps its identity. The route check joins them
 within 1 m: Kyrkvägen → Getavägen → Bartsgårdavägen → Kroklundsvägen → Saltviksvägen → Getavägen → Gamla Getavägen. In
@@ -84,4 +86,4 @@ sheet is from 1929, so in 1927–1928 only the Tjudö and Geta part is drawn.
 
 - Getavägen · del 2 (100 m, a residential stretch in Geta) is not reviewed.
 - Pålsbölevägen, the road from Grönlunda, is also a 1929 road; it is not part of the main road and is not dated here.
-- The eastern part of Saltviksvägen is not reviewed.
+- The eastern part of Saltviksvägen: done 2026-11-21, see `docs/saltviksvagen.md`.
