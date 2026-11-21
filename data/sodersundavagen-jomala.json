@@ -1,0 +1,374 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-21",
+ "reviewProperty": "mainRoadReview",
+ "source": {
+  "id": "review:sodersundavagen-jomala",
+  "title": "Den gamla vägen till Jomala kyrka genom Ulvsby · granskning",
+  "url": "assets/sodersundavagen-jomala.json"
+ },
+ "sources": [
+  {
+   "id": "road:jomala:gamla-sodersundavagen:survey",
+   "title": "OpenStreetMap · Drittel-Mattes Gränd och S:t Olofs vägen, Jomala",
+   "url": "https://www.openstreetmap.org/way/294650123",
+   "issuedAt": "2026"
+  }
+ ],
+ "maps": {
+  "1929-hammarby": {
+   "sourceId": "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+   "year": 1929
+  },
+  "1944-nafsby": {
+   "sourceId": "nls:9c72a692-bae4-473d-93bb-7bcdee1222e7",
+   "year": 1944
+  },
+  "1928-jomala": {
+   "sourceId": "nls:9c76c492-3fb4-43dd-8cc7-eb03d2a00ecd",
+   "year": 1928
+  },
+  "1955-jomala": {
+   "sourceId": "nls:9c72a694-4f10-4780-beb7-d5d0d63ff0eb",
+   "year": 1955
+  },
+  "1968-jomala": {
+   "sourceId": "nls:101209:1968",
+   "year": 1968
+  },
+  "1978-jomala": {
+   "sourceId": "nls:101209:1978",
+   "year": 1978
+  },
+  "1985-jomala": {
+   "sourceId": "nls:101209:1985",
+   "year": 1985
+  },
+  "1995-jomala": {
+   "sourceId": "nls:101209:1995",
+   "year": 1995
+  },
+  "1968-hammarby": {
+   "sourceId": "nls:101206:1968",
+   "year": 1968
+  },
+  "1978-hammarby": {
+   "sourceId": "nls:101206:1978",
+   "year": 1978
+  },
+  "1985-hammarby": {
+   "sourceId": "nls:101206:1985",
+   "year": 1985
+  },
+  "1995-hammarby": {
+   "sourceId": "nls:101206:1995",
+   "year": 1995
+  }
+ },
+ "connections": [
+  {
+   "id": "road:rural:hammarland-way-86548779",
+   "hash": "0a49d21700f64b91cde566a93463c33668c1dfb900b944b5b0585e548a86a53e",
+   "earlyPeriods": 1
+  }
+ ],
+ "oldRoads": [
+  {
+   "id": "road:jomala:gamla-sodersundavagen:jomala-kyrkby",
+   "name": "Gamla Södersundavägen · Jomala kyrkby",
+   "routeId": "road:Gamla Södersundavägen",
+   "modernRoadClass": "secondary",
+   "roadWidth": 4,
+   "firstYear": 1928,
+   "mainUntil": 1995,
+   "surveySourceId": "road:jomala:gamla-sodersundavagen:survey",
+   "maps": {
+    "1928-jomala": "present",
+    "1955-jomala": "present",
+    "1968-jomala": "present",
+    "1978-jomala": "present",
+    "1985-jomala": "present",
+    "1995-jomala": "present"
+   },
+   "mainUntilBasis": "Grundkartan 1995 ritar dagens raka väg och Nya Godbyvägen som huvudväg; 1985 går vägen till kyrkan ännu i bågen genom Ulvsby.",
+   "paths": [
+    [
+     [
+      19.932652039080086,
+      60.15500692382579
+     ],
+     [
+      19.9330197,
+      60.1550286
+     ],
+     [
+      19.9336132,
+      60.1553879
+     ],
+     [
+      19.9342246,
+      60.1557472
+     ],
+     [
+      19.934548,
+      60.155793
+     ],
+     [
+      19.934795,
+      60.155943
+     ],
+     [
+      19.935267,
+      60.156022
+     ],
+     [
+      19.935968,
+      60.155992
+     ],
+     [
+      19.936337,
+      60.155947
+     ],
+     [
+      19.936856,
+      60.155884
+     ],
+     [
+      19.938692,
+      60.155503
+     ],
+     [
+      19.939411,
+      60.155428
+     ],
+     [
+      19.940054,
+      60.15543
+     ],
+     [
+      19.9409416,
+      60.1553106
+     ],
+     [
+      19.9418422,
+      60.1551494
+     ],
+     [
+      19.9426527,
+      60.1549703
+     ],
+     [
+      19.943383,
+      60.154772
+     ],
+     [
+      19.943534,
+      60.154776
+     ],
+     [
+      19.944169,
+      60.154793
+     ],
+     [
+      19.947108,
+      60.154841
+     ],
+     [
+      19.947377,
+      60.154848
+     ],
+     [
+      19.947535,
+      60.154847
+     ],
+     [
+      19.947622,
+      60.154848
+     ]
+    ]
+   ],
+   "lengthMeters": 904.9,
+   "laterPaths": [
+    [
+     [
+      19.934548,
+      60.155793
+     ],
+     [
+      19.934795,
+      60.155943
+     ],
+     [
+      19.935267,
+      60.156022
+     ],
+     [
+      19.935968,
+      60.155992
+     ],
+     [
+      19.936337,
+      60.155947
+     ],
+     [
+      19.936856,
+      60.155884
+     ],
+     [
+      19.938692,
+      60.155503
+     ],
+     [
+      19.939411,
+      60.155428
+     ],
+     [
+      19.940054,
+      60.15543
+     ]
+    ],
+    [
+     [
+      19.943383,
+      60.154772
+     ],
+     [
+      19.943534,
+      60.154776
+     ],
+     [
+      19.944169,
+      60.154793
+     ],
+     [
+      19.947108,
+      60.154841
+     ],
+     [
+      19.947377,
+      60.154848
+     ],
+     [
+      19.947535,
+      60.154847
+     ],
+     [
+      19.947622,
+      60.154848
+     ]
+    ]
+   ],
+   "laterCanonicalRanges": [
+    [
+     0.158674,
+     0.519019
+    ],
+    [
+     0.739632,
+     1.0
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/294650123",
+     "sourceVertexRange": [
+      1,
+      9
+     ],
+     "sourceVertexCount": 10,
+     "basis": "Drittel-Mattes Gränd, den gamla vägens båge genom Ulvsby, som den kartlagts i dag. Vägens första bit från dagens Södersundavägen är en senare anslutning och ingår inte."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1165936573",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "basis": "S:t Olofs vägen, den gamla vägens sista sträcka fram till Godbyvägen vid kyrkan, som den kartlagts i dag."
+    }
+   ],
+   "trace": [
+    [
+     20496253,
+     6671320
+    ],
+    [
+     20496280,
+     6671347
+    ],
+    [
+     20496313,
+     6671387
+    ],
+    [
+     20496347,
+     6671427
+    ],
+    [
+     20496380,
+     6671450
+    ],
+    [
+     20496407,
+     6671457
+    ],
+    [
+     20496460,
+     6671447
+    ],
+    [
+     20496540,
+     6671427
+    ],
+    [
+     20496613,
+     6671403
+    ],
+    [
+     20496673,
+     6671392
+    ],
+    [
+     20496720,
+     6671386
+    ],
+    [
+     20496750,
+     6671365
+    ],
+    [
+     20496810,
+     6671350
+    ],
+    [
+     20496900,
+     6671350
+    ],
+    [
+     20497000,
+     6671352
+    ],
+    [
+     20497090,
+     6671352
+    ]
+   ],
+   "sameRoadMeters": 35,
+   "endsOn": [
+    {
+     "path": 0,
+     "end": -1,
+     "objectId": "road:qgis:jomala:godbyvagen-batch5",
+     "basis": "Vägen slutar vid Godbyvägen vid Jomala kyrka, mitt på det objektet."
+    }
+   ],
+   "basis": "Den gamla vägen från Hammarland till Jomala kyrka: från Södersundavägen vid Ulvsby i en båge norrut förbi Al, längs dagens Drittel-Mattes Gränd, och sedan österut förbi Häggblom längs dagens S:t Olofs vägen till kyrkan. Sockenkartan 1928 och utgåvan 1955 ritar den, och grundkartorna 1968, 1978 och 1985 ritar den som huvudväg.",
+   "traceBasis": "Mittlinjen följer OpenStreetMap där vägen finns kvar (Drittel-Mattes Gränd, S:t Olofs vägen) och är avläst för hand på sockenkartan 1928 (rutnät 50 m) där inget finns kvar. Kartans väg ligger upp till 30 m norr om S:t Olofs vägen, med samma form.",
+   "laterBasis": "Efter dagens raka väg (grundkartan 1995) visas bara de delar som finns kvar i dag: Drittel-Mattes Gränd och S:t Olofs vägen, med samma koordinater."
+  }
+ ],
+ "method": "Dagens vägar jämförda för hand med sockenkartorna 1012 06 Hammarby 1929 (och trycket Näfsby–Emkarby 1944) och 1012 09 Jomala 1928 och 1955 (rutnät 50 m) och grundkartorna 1012 09 1968–1995, med OpenStreetMap 2026 inritat (docs/reviews/hammarland-jomala-2026-11-21/renders/)."
+}

@@ -104,6 +104,8 @@ Scope (`docs/reviews/hammarlandsvagen-main-road-2026-11-18/scope-audit-atlas.jso
   map prints it, and the 1944 and 1953 Kungsö maps print it as "Andelsl.". It is not in the catalogue as the historical
   main road. The 1917 route through Västansunda and Söderunda is still to be checked.
 - Näfsby: done, see `docs/hammarlandsvagen-nafsby.md`.
-- Drygsböle: the 1929 through-route between the lake shore and Bolstad is not clear on the map. It probably ran by the
-  farm (today's Drygsbölevägen); this needs a closer look.
+- Drygsböle: the 1929 through-route between the lake shore and Bolstad is not clear on the map. A closer look
+  (2026-11-21, plain tiles without overlays) found the same: the 1929 map and its 1944 print draw a track along the
+  shore up to about 11.1 km and the farm road from Bolstad to Drygsböle, but no road on the bypass line and no link
+  between the farm and the shore. Still open.
 - Kattby westwards: done, on the 1929 Eckerö sheet; see `docs/hammarlandsvagen-kattby.md`.

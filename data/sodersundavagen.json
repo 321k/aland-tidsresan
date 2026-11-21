@@ -1,0 +1,161 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-21",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:sodersundavagen-1929:",
+ "source": {
+  "id": "review:sodersundavagen",
+  "title": "Södersundavägen mot Jomala kyrka på sockenkartorna 1928 och 1929 · granskning",
+  "url": "assets/sodersundavagen.json"
+ },
+ "sources": [
+  {
+   "id": "nls:9c76c492-3fb4-43dd-8cc7-eb03d2a00ecd",
+   "title": "Lantmäteriverket · sockenkarta 1012 09 Jomala · 1928",
+   "issuedAt": "1928",
+   "url": "https://api.vanhatkartat.fi/api/maps/9c76c492-3fb4-43dd-8cc7-eb03d2a00ecd/image"
+  },
+  {
+   "id": "nls:9c72a694-4f10-4780-beb7-d5d0d63ff0eb",
+   "title": "Lantmäteriverket · sockenkarta 1012 09 Jomala · 1955 (svartvit utgåva)",
+   "issuedAt": "1955",
+   "url": "https://api.vanhatkartat.fi/api/maps/9c72a694-4f10-4780-beb7-d5d0d63ff0eb/image"
+  }
+ ],
+ "maps": {
+  "1929-hammarby": {
+   "sourceId": "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+   "year": 1929
+  },
+  "1944-nafsby": {
+   "sourceId": "nls:9c72a692-bae4-473d-93bb-7bcdee1222e7",
+   "year": 1944
+  },
+  "1928-jomala": {
+   "sourceId": "nls:9c76c492-3fb4-43dd-8cc7-eb03d2a00ecd",
+   "year": 1928
+  },
+  "1955-jomala": {
+   "sourceId": "nls:9c72a694-4f10-4780-beb7-d5d0d63ff0eb",
+   "year": 1955
+  },
+  "1968-jomala": {
+   "sourceId": "nls:101209:1968",
+   "year": 1968
+  },
+  "1978-jomala": {
+   "sourceId": "nls:101209:1978",
+   "year": 1978
+  },
+  "1985-jomala": {
+   "sourceId": "nls:101209:1985",
+   "year": 1985
+  },
+  "1995-jomala": {
+   "sourceId": "nls:101209:1995",
+   "year": 1995
+  },
+  "1968-hammarby": {
+   "sourceId": "nls:101206:1968",
+   "year": 1968
+  },
+  "1978-hammarby": {
+   "sourceId": "nls:101206:1978",
+   "year": 1978
+  },
+  "1985-hammarby": {
+   "sourceId": "nls:101206:1985",
+   "year": 1985
+  },
+  "1995-hammarby": {
+   "sourceId": "nls:101206:1995",
+   "year": 1995
+  }
+ },
+ "early": [
+  {
+   "objectId": "road:rural:hammarland-way-86548779",
+   "inputHash": "6812e1ccd37137e9f5c7c1cd7315fbdfd61f758c6ced3e3724984bdd24d16e2d",
+   "geometryId": "geometry:ea3a0b936a7c7bd496f5",
+   "geometryHash": "7fcf52026f68770308af36e85cf939cdc3d4d8f5a152601e61e4e75357dd7e59",
+   "lengthMeters": 3579.2,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-hammarby": "present",
+    "1944-nafsby": "present"
+   },
+   "ranges": [
+    [
+     211.9,
+     3495.4
+    ]
+   ],
+   "laterGeometry": true
+  }
+ ],
+ "earlyBasis": {
+  "road:rural:hammarland-way-86548779": "Södersundavägen från Södersunda förbi Ulvsby är vägen på sockenkartan 1929 (Hammarby) och 1944 års tryck av samma kartläggning (Näfsby–Emkarby), inom 20–40 m och med samma form; sockenkartan 1928 för Jomala ritar den östra delen likadant. Den raka östligaste biten är yngre: där gick vägen i en båge norrut. Den västligaste biten är förbifarten vid Mattas från 1995."
+ },
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där vägen är vägen på sockenkartorna 1928 och 1929.",
+ "coverage": [
+  {
+   "objectId": "road:rural:hammarland-way-86548779",
+   "inputHash": "05f79da6f9e6ec1a738086b534144f65491f36c7f00d470ce92b203a6d05e20e",
+   "wholeGeometryId": "geometry:ea3a0b936a7c7bd496f5",
+   "wholeGeometryHash": "7fcf52026f68770308af36e85cf939cdc3d4d8f5a152601e61e4e75357dd7e59",
+   "geometryNote": "Del av objektets egen geometri (samma koordinater), från Mattas genom Ulvsby fram till bågen mot Jomala kyrka.",
+   "periods": [
+    {
+     "from": 1968,
+     "to": 1978,
+     "geometryId": "geometry:ab39fbfec2605516e5cd",
+     "range": [
+      211.9,
+      3495.4
+     ],
+     "maps": {
+      "1968-jomala": "present"
+     },
+     "basis": "Grundkartorna 1012 06 och 1012 09 ritar vägen från Södersunda genom Ulvsby fram till bågen mot kyrkan; den raka östligaste biten mot Nya Godbyvägen ritas först 1995. Tidigare visades bara delen på bladet 1012 06."
+    },
+    {
+     "from": 1978,
+     "to": 1985,
+     "geometryId": "geometry:ab39fbfec2605516e5cd",
+     "range": [
+      211.9,
+      3495.4
+     ],
+     "maps": {
+      "1978-jomala": "present"
+     },
+     "basis": "Grundkartorna 1012 06 och 1012 09 ritar vägen från Södersunda genom Ulvsby fram till bågen mot kyrkan; den raka östligaste biten mot Nya Godbyvägen ritas först 1995. Tidigare visades bara delen på bladet 1012 06."
+    },
+    {
+     "from": 1985,
+     "to": 1995,
+     "geometryId": "geometry:ab39fbfec2605516e5cd",
+     "range": [
+      211.9,
+      3495.4
+     ],
+     "maps": {
+      "1985-jomala": "present"
+     },
+     "basis": "Grundkartorna 1012 06 och 1012 09 ritar vägen från Södersunda genom Ulvsby fram till bågen mot kyrkan; den raka östligaste biten mot Nya Godbyvägen ritas först 1995. Tidigare visades bara delen på bladet 1012 06."
+    },
+    {
+     "from": 1995,
+     "to": 2021,
+     "geometryId": "geometry:730875783bc0fbda1b62",
+     "maps": {
+      "1995-jomala": "present"
+     },
+     "basis": "Grundkartan 1012 09 1995 ritar hela dagens väg, med den raka östligaste biten mot Nya Godbyvägen. Tidigare visades bara delen på bladet 1012 06."
+    }
+   ]
+  }
+ ],
+ "method": "Dagens vägar jämförda för hand med sockenkartorna 1012 06 Hammarby 1929 (och trycket Näfsby–Emkarby 1944) och 1012 09 Jomala 1928 och 1955 (rutnät 50 m) och grundkartorna 1012 09 1968–1995, med OpenStreetMap 2026 inritat (docs/reviews/hammarland-jomala-2026-11-21/renders/)."
+}

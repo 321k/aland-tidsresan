@@ -1,0 +1,12 @@
+batch-sodersundavagen.patch, 2026-11-21
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/sodersundavagen/before/ to the working tree):
+- scripts/build_temporal_objects.py (untracked): the hook after apply_saltviksvagen_east and the two asset copies
+- dist/index.html (tracked, modified): the loader card "1 av 102", the renumbering and the loader preview
+- tests/temporal-objects.test.cjs (untracked): the object count (+1, the old road to Jomala church)
+- tests/rural-map-review.test.cjs (untracked): Södersundavägen's 1985 west end compared within 0.1 m
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; all four results are byte-identical
+to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to all four files.

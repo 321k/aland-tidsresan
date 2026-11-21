@@ -604,7 +604,17 @@ def _old_roads(read, catalog, path_):
         free = [tuple(x) for x in od.get('freeEnds', [])]
         if free and (not od.get('freeEndBasis') or not all(len(x) == 2 and 0 <= x[0] < len(olds) and x[1] in (0, -1) for x in free)):
             raise ValueError('Invalid free end ' + od['id'])
-        ends = [Point(l.coords[i]) for j, l in enumerate(olds) for i in (0, -1) if (j, i) not in free]
+        # 'endsOn': [{path, end, objectId, basis}] ends that join another road partway along it (not the connection): each
+        # lies within END_LIMIT of that road in every one of its periods from the old road's first year on.
+        on = {(x['path'], x['end']): x for x in od.get('endsOn', [])}
+        if any(k in free or not (0 <= k[0] < len(olds) and k[1] in (0, -1)) or not x.get('basis') or x['objectId'] not in objects for k, x in on.items()):
+            raise ValueError('Invalid end on another road ' + od['id'])
+        for (j, i), x in on.items():
+            o2 = objects[x['objectId']]; e = Point(olds[j].coords[i])
+            periods = [gp for gp in o2['geometryPeriods'] if (gp['to'] or 9999) > od['firstYear']]
+            if not periods or any(min(metric(p).distance(e) for p in geometries[gp['geometryId']]['paths'] if len(p) > 1) > END_LIMIT for gp in periods):
+                raise ValueError('Old road does not end on ' + x['objectId'])
+        ends = [Point(l.coords[i]) for j, l in enumerate(olds) for i in (0, -1) if (j, i) not in free and (j, i) not in on]
         e1 = [Point(TO_METRIC(*p[i])) for p in early for i in (0, -1)]
         if not ends or any(min(t.distance(e) for t in e1) > END_LIMIT for e in ends) or any(min(l.distance(e) for l in later) > END_LIMIT for e in ends):
             raise ValueError('Old road does not join the connection: ' + od['id'])

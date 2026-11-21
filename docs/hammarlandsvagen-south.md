@@ -54,8 +54,8 @@ only part of its way, and the early period does too, as the 1968–1994 periods 
 
 ## Open items
 
-- Södersundavägen north-east of Mattas towards Jomala (way 86548779 and three unowned OSM pieces). The 1929 road
-  continues there, but Södersunda skolväg (way 160987684) is a different line, 30–60 m away.
+- Södersundavägen north-east of Mattas towards Jomala: done 2026-11-21, see `docs/sodersundavagen.md`. The 190 m
+  between the old bend at Mattas and Södersundavägen are still in no object.
 - Ödanbölevägen: only its southernmost few hundred metres are on the 1928 sheet; the rest is a post-1929 addition.
   It stays 1968.
 - The 1917 route: Furubacksvägen versus Krossvägen, which the Senate atlas cannot separate.
