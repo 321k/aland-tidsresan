@@ -1,0 +1,35 @@
+{
+ "objects": {
+  "added": [
+   "road:tjudo:gamla-getavagen:fenell"
+  ],
+  "removed": [],
+  "changed": [
+   "road:qgis:geta:getavagen-1-200km2",
+   "road:qgis:geta:skraddarsvagen-200km2",
+   "road:qgis:tjudo:getavagen-100km1"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:getavagen-1927:getavagen-1-200km2",
+   "geometry:getavagen-1927:getavagen-100km1",
+   "geometry:getavagen-1927:getavagen-100km1:1968",
+   "geometry:getavagen-1927:skraddarsvagen-200km2",
+   "geometry:tjudo:gamla-getavagen:fenell"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "nls:map-38138095",
+   "nls:map-38147690",
+   "nls:map-38157399",
+   "nls:map-38157484",
+   "review:getavagen-tjudo-geta"
+  ],
+  "removed": [],
+  "changed": []
+ }
+}

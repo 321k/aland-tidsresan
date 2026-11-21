@@ -1,0 +1,11 @@
+batch-getavagen-tjudo-geta.patch, 2026-11-20
+
+Files (each also holds other uncommitted work; the patch is the diff from the copies in
+data/map-scan-cache/review/getavagen/before-tg/ to the working tree):
+- scripts/build_temporal_objects.py (untracked): the hook after apply_getavagen_saltvik and the asset copy
+- dist/index.html (tracked, modified): the loader card "1 av 100", the renumbering and the loader preview
+- tests/temporal-objects.test.cjs (untracked): the object count (+1, the Fenell loop)
+
+Forward: applied to copies of the before-files with `patch -p1 --forward`; all three results are byte-identical
+to the working tree (cmp).
+Reverse: `patch -p1 -R --dry-run` on the working tree applies cleanly to all three files.

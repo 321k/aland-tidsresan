@@ -19,3 +19,12 @@ Snapshot (local review cache): `data/map-scan-cache/review/getavagen/before-geta
 - `scope-audit-saltvik.json`
 - `batch-getavagen-saltvik.patch` and `patch-verification.log`: the build hook and the loader card "1 av 99"
 - `node-tests.log`, `python-tests.log`
+
+## Tjudö and Geta
+
+- `scripts/prepare_tjudo_geta.py CATALOGUE_BEFORE.json.gz`: writes `data/getavagen-tjudo-geta.json`. The Fenell loop is
+  traced on `renders/fenell-tjudo-1927.jpg`; the pixel positions were read on a 700 px contact sheet and are scaled up.
+- Snapshot: `data/map-scan-cache/review/getavagen/before-getavagen-tjudo-geta-step.json.gz`
+- `scope-audit-tjudo-geta.json`
+- `batch-getavagen-tjudo-geta.patch`: the hook, the loader card "1 av 100" and the object count (+1)
+- `node-tests-tjudo-geta.log`, `python-tests-tjudo-geta.log`

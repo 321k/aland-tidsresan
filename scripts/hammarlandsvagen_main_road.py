@@ -228,7 +228,8 @@ def _apply(read, catalog, path_):
                     raise ValueError('Old line repeats a same-road stretch')
         modern = read('dist/assets/modern.json.gz')['features']
         for f in modern:
-            if f.get('kind') != 'road' or f.get('name') == 'Hammarlandsvägen' or f.get('class') in ('footway', 'path', 'cycleway', 'steps'):
+            # today's road itself, which the old line's ends merge into ('todayRoadName', default Hammarlandsvägen)
+            if f.get('kind') != 'road' or f.get('name') == od.get('todayRoadName', 'Hammarlandsvägen') or f.get('class') in ('footway', 'path', 'cycleway', 'steps'):
                 continue
             for p in f['paths']:
                 if len(p) > 1 and any(metric(p).intersection(old.buffer(SURVIVOR_BUFFER)).length > SURVIVOR_LIMIT for old in olds):

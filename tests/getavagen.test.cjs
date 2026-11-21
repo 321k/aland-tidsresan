@@ -29,3 +29,17 @@ test('from 1968 today\'s Getavägen is whole; the old roads stay as they are map
  assert.equal(model.resolveObject(SA,1975).geometry.paths.length,1,'Saltviksvägen keeps its dated western stretch until 1993');
  assert.equal(model.objects.get(GE).mainRoadReview.constructionYear,null);
 });
+
+const TJ='road:qgis:tjudo:getavagen-100km1',GD='road:qgis:geta:getavagen-1-200km2',SK='road:qgis:geta:skraddarsvagen-200km2',FEN='road:tjudo:gamla-getavagen:fenell';
+test('Tjudö and Geta: from 1927 the old loop past Lignell and the curve at Östergeta (Skräddarsvägen)',()=>{
+ for(const year of [1927,1950,1967]){
+  const g=id=>model.resolveObject(id,year).geometry;
+  for(const id of [TJ,GD,SK,FEN])assert.ok(grid.ownsRoadObject(id,v(year)),id+' '+year);
+  assert.equal(g(GD).paths.length,2,'today\'s straight at Östergeta is younger');
+  for(const [a,b] of [[FEN,TJ],[TJ,GD],[GD,SK]])assert.ok(meets(g(a),g(b)),a+' meets '+b+' in '+year);
+ }
+ assert.ok(meets(model.resolveObject(FEN,1950).geometry,model.resolveObject(GE,1950).geometry),'the loop runs on from the Saltvik stretch');
+ assert.equal(model.resolveObject(TJ,1968).geometry.paths.length,1,'the diagonal at Fenell from 1968');
+ assert.equal(model.resolveObject(FEN,1975).state,'open');assert.equal(model.resolveObject(FEN,1984).state,'unknown');
+ assert.equal(model.resolveObject(GD,1984).geometry.paths.length,1);
+});

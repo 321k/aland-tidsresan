@@ -1,0 +1,258 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-20",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:getavagen-1927:",
+ "source": {
+  "id": "review:getavagen-tjudo-geta",
+  "title": "Getavägen i Tjudö och Geta på sockenkartorna 1927 · granskning",
+  "url": "assets/getavagen-tjudo-geta.json"
+ },
+ "sources": [
+  {
+   "id": "nls:map-38157484",
+   "title": "Lantmäteriverket · sockenkarta 1021 08 Tjudö–Dåglösa · 1927",
+   "issuedAt": "1927",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_vari/map-38157484_500-20000-102108_pitajankartta_1927_karttalehti_102108_tjudo-daglosa_v2.tif"
+  },
+  {
+   "id": "nls:map-38157399",
+   "title": "Lantmäteriverket · sockenkarta 1021 05 Geta · 1927",
+   "issuedAt": "1927",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_vari/map-38157399_500-20000-102105_pitajankartta_1927_karttalehti_102105_geta_v2.tif"
+  },
+  {
+   "id": "nls:map-38147690",
+   "title": "Lantmäteriverket · sockenkarta 1021 08 Dåglösa · 1941",
+   "issuedAt": "1941",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_mv/map-38147690_500-20000-102108_pitajankartta_mv_1941_karttalehti_102108_daglosa_v2.tif"
+  },
+  {
+   "id": "nls:map-38138095",
+   "title": "Lantmäteriverket · sockenkarta 1021 05 Geta · 1941",
+   "issuedAt": "1941",
+   "url": "https://www.nic.funet.fi/index/geodata/mml/pitajakartta_20k/reunaton/gauss-kryger_mv/map-38138095_500-20000-102105_pitajankartta_mv_1941_karttalehti_102105_geta_v2.tif"
+  }
+ ],
+ "maps": {
+  "1927-tjudo": {
+   "sourceId": "nls:map-38157484",
+   "year": 1927
+  },
+  "1927-geta": {
+   "sourceId": "nls:map-38157399",
+   "year": 1927
+  },
+  "1941-daglosa": {
+   "sourceId": "nls:map-38147690",
+   "year": 1941
+  },
+  "1941-geta": {
+   "sourceId": "nls:map-38138095",
+   "year": 1941
+  },
+  "1968": {
+   "sourceId": "nls:102108:1968",
+   "year": 1968
+  },
+  "1978": {
+   "sourceId": "nls:102108:1978",
+   "year": 1978
+  },
+  "1984": {
+   "sourceId": "nls:102108:1984",
+   "year": 1984
+  },
+  "1968-geta": {
+   "sourceId": "nls:102105:1968",
+   "year": 1968
+  }
+ },
+ "early": [
+  {
+   "objectId": "road:qgis:tjudo:getavagen-100km1",
+   "inputHash": "e4e81d155891f0cd4548ca2f09877170ff4c19420d39dc400915c7c3b544dbc7",
+   "geometryId": "geometry:qgis:977c14d3e0f492846c99",
+   "geometryHash": "87f1ef4d0202f583eb449bcde64524d47b9c95aea9990abb6bc6e310c690232c",
+   "lengthMeters": 6692.2,
+   "firstYear": 1927,
+   "until": 1984,
+   "maps": {
+    "1927-tjudo": "present",
+    "1941-daglosa": "present",
+    "1968": "present"
+   },
+   "ranges": [
+    [
+     768.7,
+     6692.2
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1968,
+    "ranges": [
+     [
+      0.0,
+      6692.2
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:geta:getavagen-1-200km2",
+   "inputHash": "f9a7478a868e799fc0a897ca325ecbba7391c92c2442d7deb609cab50d5dbdfa",
+   "geometryId": "geometry:qgis:a97eada31a34dc5bb793",
+   "geometryHash": "ce256d64996e4039b810f9c289a2f29a06485fadfa0764d3af2e5bc6655a6d89",
+   "lengthMeters": 3952.0,
+   "firstYear": 1927,
+   "until": 1984,
+   "maps": {
+    "1927-geta": "present",
+    "1941-geta": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1222.4
+    ],
+    [
+     1699.6,
+     3952.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:geta:skraddarsvagen-200km2",
+   "inputHash": "bcee38ccdd5631a95736df2577e07717c5880eff9ed29b7b2213ad813b7c6ad4",
+   "geometryId": "geometry:qgis:90eb17297fede0da1d5f",
+   "geometryHash": "700b8b5dadc0226288f19b27b864303a5ab1e866013606245ebc2fd5492b4d3e",
+   "lengthMeters": 637.7,
+   "firstYear": 1927,
+   "until": 1984,
+   "maps": {
+    "1927-geta": "present",
+    "1941-geta": "present",
+    "1968-geta": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     637.7
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:tjudo:getavagen-100km1": "Dagens väg genom Tjudö är vägen på sockenkartan 1927 och utgåvan 1941 (inom kartans lägesfel), utom vid Fenell och Dala: där gick vägen i en båge österut förbi Lignell. Dagens diagonal där ritas första gången på grundkartan 1968.",
+  "road:qgis:geta:getavagen-1-200km2": "Dagens väg genom Geta är vägen på sockenkartan 1927 och utgåvan 1941, utom vid Östergeta: där gick vägen i en kurva österut, dagens Skräddarsvägen. Dagens raka sträcka där ritas första gången på grundkartan 1984.",
+  "road:qgis:geta:skraddarsvagen-200km2": "Den gamla huvudvägen i kurvan vid Östergeta. Sockenkartan 1927, utgåvan 1941 och grundkartan 1968 ritar den som landsvägen; dagens raka sträcka ritas först 1984."
+ },
+ "laterStageNote": "Objektets hela geometri: diagonalen vid Fenell ritas från grundkartan 1968.",
+ "laterStageBasis": {
+  "road:qgis:tjudo:getavagen-100km1": "Grundkartan 1968 ritar dagens diagonal vid Fenell som huvudväg; den gamla bågen förbi Lignell ritas där som en mindre väg."
+ },
+ "geometryNote": "Del av objektets egen geometri (samma koordinater) där vägen är vägen på sockenkartan 1927.",
+ "oldRoad": {
+  "id": "road:tjudo:gamla-getavagen:fenell",
+  "name": "Gamla Getavägen · Fenell",
+  "routeId": "road:Gamla Getavägen",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1927,
+  "until": 1984,
+  "maps": {
+   "1927-tjudo": "present",
+   "1941-daglosa": "present",
+   "1968": "present",
+   "1978": "present",
+   "1984": "absent"
+  },
+  "paths": [
+   [
+    [
+     19.9390159,
+     60.3168851
+    ],
+    [
+     19.9391713,
+     60.3173049
+    ],
+    [
+     19.9392179,
+     60.3181145
+    ],
+    [
+     19.9391716,
+     60.3189242
+    ],
+    [
+     19.9387069,
+     60.3193868
+    ],
+    [
+     19.9375451,
+     60.3198495
+    ],
+    [
+     19.9363833,
+     60.3201734
+    ],
+    [
+     19.9349891,
+     60.3204857
+    ],
+    [
+     19.9335949,
+     60.3206014
+    ],
+    [
+     19.9322007,
+     60.3206823
+    ],
+    [
+     19.9308065,
+     60.3207517
+    ],
+    [
+     19.9284087,
+     60.3213267
+    ]
+   ]
+  ],
+  "lengthMeters": 906.4,
+  "referenceRange": [
+   10600,
+   11160
+  ],
+  "endSnapMeters": [
+   0.0,
+   0.0
+  ],
+  "endSnapLimit": 1,
+  "endObjects": [
+   "road:qgis:tjudo:getavagen-100km1"
+  ],
+  "todayRoadName": "Getavägen",
+  "basis": "Landsvägen vid Fenell och Dala gick i en båge österut förbi Lignell, upp till 170 m från dagens diagonal. Sockenkartan 1927 och utgåvan 1941 ritar den som landsvägen; grundkartorna 1968 och 1978 ritar den som en mindre väg bredvid dagens diagonal; grundkartan 1984 ritar den inte.",
+  "traceBasis": "Mittlinjen är avläst för hand på sockenkartan 1927 (rutnät 50 m) och inte flyttad; ändarna är fästa vid dagens väg där bågen lämnar och möter den.",
+  "afterNote": "Grundkartan 1984 ritar inte bågen förbi Lignell, och nästan inget av den finns i OpenStreetMap. Exakt när den togs ur bruk är inte känt."
+ },
+ "route": {
+  "order": [
+   "road:qgis:saltvik:getavagen-godby-norra-bladgransen",
+   "road:tjudo:gamla-getavagen:fenell",
+   "road:qgis:tjudo:getavagen-100km1",
+   "road:qgis:geta:getavagen-1-200km2",
+   "road:qgis:geta:skraddarsvagen-200km2",
+   "road:qgis:geta:getavagen-1-200km2"
+  ],
+  "endObjects": [
+   "road:qgis:saltvik:getavagen-godby-norra-bladgransen"
+  ],
+  "repeat": [
+   "road:qgis:geta:getavagen-1-200km2"
+  ],
+  "joinMeters": 1.0
+ },
+ "method": "Dagens väg jämförd för hand med sockenkartorna 1021 08 Tjudö–Dåglösa och 1021 05 Geta 1927 (rutnät 50 m), utgåvorna 1941 och grundkartorna 1968, 1978, 1984 och 1993 (blad 102108, 102105), med OpenStreetMap 2026 inritat (docs/reviews/getavagen-2026-11-20/renders/)."
+}
