@@ -54,8 +54,8 @@ only part of its way, and the early period does too, as the 1968–1994 periods 
 
 ## Open items
 
-- Södersundavägen north-east of Mattas towards Jomala: done 2026-11-21, see `docs/sodersundavagen.md`. The 190 m
-  between the old bend at Mattas and Södersundavägen are still in no object.
+- Södersundavägen north-east of Mattas towards Jomala: done 2026-11-21, see `docs/sodersundavagen.md`. The link
+  from the old bend at Mattas to Södersundavägen: done 2026-11-23, see `docs/mattas-link.md`.
 - Ödanbölevägen: only its southernmost few hundred metres are on the 1928 sheet; the rest is a post-1929 addition.
   It stays 1968.
 - The 1917 route: Furubacksvägen versus Krossvägen, which the Senate atlas cannot separate.

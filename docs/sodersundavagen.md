@@ -71,9 +71,7 @@ Tests:
 
 ## Open items
 
-- Mattas to Södersundavägen: the 1929 and 1968 maps draw the road on from the old bend (way 160987689) north-east to
-  Södersundavägen. The last 190 m are in no object, and the maps join Södersundavägen 40–60 m south-east of where its
-  1968–1995 geometry begins. This gap was already there in 1968–1995. Nothing of it is in OSM.
+- Mattas to Södersundavägen: done 2026-11-23, see `docs/mattas-link.md`.
 
 - Today's straight from Södersundavägen's east end to Nya Godbyvägen (OSM ways 1422779921 and 963752543, 390 m) is in
   no object. From 1995 the road there is not drawn.

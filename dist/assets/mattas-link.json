@@ -1,0 +1,205 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:mattas-link:",
+ "source": {
+  "id": "review:mattas-link",
+  "title": "Vägen från Mattas till Södersundavägen på sockenkartan 1929 och grundkartorna · granskning",
+  "url": "assets/mattas-link.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-hammarby": {
+   "sourceId": "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+   "year": 1929
+  },
+  "1944-nafsby": {
+   "sourceId": "nls:9c72a692-bae4-473d-93bb-7bcdee1222e7",
+   "year": 1944
+  },
+  "1968-hammarby": {
+   "sourceId": "nls:101206:1968",
+   "year": 1968
+  },
+  "1978-hammarby": {
+   "sourceId": "nls:101206:1978",
+   "year": 1978
+  },
+  "1985-hammarby": {
+   "sourceId": "nls:101206:1985",
+   "year": 1985
+  },
+  "1995-hammarby": {
+   "sourceId": "nls:101206:1995",
+   "year": 1995
+  }
+ },
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m. Bågens vägar (OSM 495221553 och 160987689) ligger på kartornas väg i alla utgåvor, vilket visar att registreringen stämmer här.",
+ "early": [
+  {
+   "objectId": "road:rural:hammarland-way-495221553",
+   "inputHash": "9b6dc3f9c0b6e1cdd43758ced94fa26edfdf9f742905cdcfd77ef326ffd77baa",
+   "geometryId": "geometry:3203cecf42f31b44d17c",
+   "geometryHash": "54b22b4f642bf96b97b12e6a6d9273aa6fc888aead6ac0d44083ccd3d5ce4b0c",
+   "lengthMeters": 159.5,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-hammarby": "present",
+    "1944-nafsby": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     159.5
+    ]
+   ]
+  },
+  {
+   "objectId": "road:rural:hammarland-way-160987689",
+   "inputHash": "0d5e2958d5d7d9c12186f70a403a0f51655b70c023296f8821a877c36daada0e",
+   "geometryId": "geometry:6d3b7221e0b5f2683cae",
+   "geometryHash": "9c14926b2e7a731b63b222a3c6d7e86fe06412b9c38962c8a3901c8cb3190254",
+   "lengthMeters": 120.2,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-hammarby": "present",
+    "1944-nafsby": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     120.2
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:rural:hammarland-way-495221553": "Den gamla vägens båge norrut från Mattas, på sockenkartan 1929 och 1944 års tryck av samma kartläggning. Objektet var daterat först från grundkartan 1968.",
+  "road:rural:hammarland-way-160987689": "Den gamla vägens båge norrut från Mattas och början av den raka sträckan mot nordost, på sockenkartan 1929 och 1944 års tryck. Objektet var daterat först från grundkartan 1968."
+ },
+ "geometryNote": "Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartan 1929.",
+ "oldRoad": {
+  "id": "road:hammarland:gamla-sodersundavagen:mattas",
+  "name": "Gamla Södersundavägen · Mattas",
+  "routeId": "road:Gamla Södersundavägen",
+  "modernRoadClass": "secondary",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "until": 1995,
+  "maps": {
+   "1929-hammarby": "present",
+   "1944-nafsby": "present",
+   "1968-hammarby": "present",
+   "1978-hammarby": "present",
+   "1985-hammarby": "present",
+   "1995-hammarby": "unclear"
+  },
+  "untilBasis": "Grundkartan 1995 ritar dagens väg genom Mattas (förbifarten) som huvudväg; om den gamla sträckan ännu ritas som mindre väg går inte att avgöra säkert, och den finns inte i OpenStreetMap.",
+  "path": [
+   [
+    19.878201,
+    60.156541
+   ],
+   [
+    19.8793021,
+    60.157019
+   ],
+   [
+    19.8803267,
+    60.1574956
+   ],
+   [
+    19.8815856,
+    60.1579366
+   ],
+   [
+    19.883223,
+    60.1584467
+   ]
+  ],
+  "lengthMeters": 351.6,
+  "referenceRange": [
+   0,
+   null
+  ],
+  "endSnapMeters": [
+   0.0,
+   0.0
+  ],
+  "endSnapLimit": 1,
+  "endObjects": [
+   "road:rural:hammarland-way-160987689",
+   "road:rural:hammarland-way-86548779"
+  ],
+  "todayRoadName": "Södersundavägen",
+  "basis": "Den gamla vägen från bågen vid Mattas rakt mot nordost till Södersundavägen. Sockenkartan 1929, 1944 års tryck och grundkartorna 1968, 1978 och 1985 ritar den. Grundkartan 1995 ritar förbifarten genom Mattas som huvudväg. Inget av den finns i OpenStreetMap.",
+  "traceBasis": "Mittlinjen är avläst för hand på grundkartan 1968 (rutnät 100 m), som stämmer med sockenkartan 1929. Den västra änden är bågens ände (way 160987689), den östra en punkt på Södersundavägen.",
+  "afterNote": "Grundkartan 1995 ritar förbifarten som huvudväg. Exakt när den gamla sträckan togs ur bruk är inte känt."
+ },
+ "coverage": [
+  {
+   "objectId": "road:rural:hammarland-way-86548779",
+   "wholeGeometryId": "geometry:ea3a0b936a7c7bd496f5",
+   "wholeGeometryHash": "7fcf52026f68770308af36e85cf939cdc3d4d8f5a152601e61e4e75357dd7e59",
+   "periods": [
+    {
+     "from": 1929,
+     "to": 1968,
+     "geometryId": "geometry:sodersundavagen-1929:hammarland-way-86548779",
+     "range": [
+      211.9,
+      3316.6
+     ],
+     "maps": {
+      "1929-hammarby": "present"
+     },
+     "basis": "Vägen från Södersunda genom Ulvsby fram till bågen mot kyrkan, från korsningen med den gamla vägen från Mattas. De västligaste 170 m av objektets linje är förbifarten från 1995; ingen karta före 1995 ritar en väg där."
+    },
+    {
+     "from": 1968,
+     "to": 1978,
+     "geometryId": "geometry:sodersundavagen-1929:hammarland-way-86548779:coverage-212-3495",
+     "range": [
+      211.9,
+      3316.6
+     ],
+     "maps": {
+      "1968-hammarby": "present"
+     },
+     "basis": "Vägen från Södersunda genom Ulvsby fram till bågen mot kyrkan, från korsningen med den gamla vägen från Mattas. De västligaste 170 m av objektets linje är förbifarten från 1995; ingen karta före 1995 ritar en väg där."
+    },
+    {
+     "from": 1978,
+     "to": 1985,
+     "geometryId": "geometry:sodersundavagen-1929:hammarland-way-86548779:coverage-212-3495",
+     "range": [
+      211.9,
+      3316.6
+     ],
+     "maps": {
+      "1978-hammarby": "present"
+     },
+     "basis": "Vägen från Södersunda genom Ulvsby fram till bågen mot kyrkan, från korsningen med den gamla vägen från Mattas. De västligaste 170 m av objektets linje är förbifarten från 1995; ingen karta före 1995 ritar en väg där."
+    },
+    {
+     "from": 1985,
+     "to": 1995,
+     "geometryId": "geometry:sodersundavagen-1929:hammarland-way-86548779:coverage-212-3495",
+     "range": [
+      211.9,
+      3316.6
+     ],
+     "maps": {
+      "1985-hammarby": "present"
+     },
+     "basis": "Vägen från Södersunda genom Ulvsby fram till bågen mot kyrkan, från korsningen med den gamla vägen från Mattas. De västligaste 170 m av objektets linje är förbifarten från 1995; ingen karta före 1995 ritar en väg där."
+    }
+   ],
+   "geometryNote": "Del av objektets egen geometri (samma koordinater), från korsningen med den gamla vägen från Mattas genom Ulvsby fram till bågen mot Jomala kyrka.",
+   "inputHash": "0a49d21700f64b91cde566a93463c33668c1dfb900b944b5b0585e548a86a53e"
+  }
+ ]
+}

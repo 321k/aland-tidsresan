@@ -1,0 +1,36 @@
+{
+ "objects": {
+  "added": [
+   "road:hammarland:gamla-sodersundavagen:mattas"
+  ],
+  "removed": [],
+  "changed": [
+   "road:rural:hammarland-way-160987689",
+   "road:rural:hammarland-way-495221553",
+   "road:rural:hammarland-way-86548779"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:hammarland:gamla-sodersundavagen:mattas",
+   "geometry:mattas-link:hammarland-way-160987689",
+   "geometry:mattas-link:hammarland-way-495221553",
+   "geometry:mattas-link:hammarland-way-86548779:coverage-212-3317"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:mattas-link"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "other": []
+}
