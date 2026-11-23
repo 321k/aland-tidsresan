@@ -1,0 +1,28 @@
+== 1900: 2862 road segments
+  Storby → Frebbenby: straight 8.8 km, by road 2.9 km; stops 8113 m / 180 m off; 1 objects, first years [1894]; latest-dated 1894
+  Frebbenby → Emkarby: straight 9.3 km, NOT CONNECTED; the two road networks come within 4441 m; stops 180 m / 22 m off
+  Emkarby → Haraldsby: straight 8.5 km, NOT CONNECTED; the two road networks come within 8206 m; stops 22 m / 1165 m off
+  Haraldsby → Kastelholm: straight 3.5 km, by road 3.3 km; stops 1165 m / 299 m off; 4 objects, first years [1800]; latest-dated 1800
+  Kastelholm → Gamla Skarpans: straight 7.4 km, NOT CONNECTED; the two road networks come within 4237 m; stops 299 m / 2471 m off
+  Gamla Skarpans → Vargata: straight 8.5 km, NOT CONNECTED; the two road networks come within 10112 m; stops 2471 m / 1382 m off
+== 1929: 6779 road segments
+  Storby → Frebbenby: straight 8.8 km, NOT CONNECTED; the two road networks come within 1423 m; stops 329 m / 100 m off
+  Frebbenby → Emkarby: straight 9.3 km, NOT CONNECTED; the two road networks come within 34 m; stops 100 m / 22 m off
+  Emkarby → Haraldsby: straight 8.5 km, NOT CONNECTED; the two road networks come within 8206 m; stops 22 m / 1165 m off
+  Haraldsby → Kastelholm: straight 3.5 km, by road 3.3 km; stops 1165 m / 299 m off; 4 objects, first years [1800]; latest-dated 1800
+  Kastelholm → Gamla Skarpans: straight 7.4 km, NOT CONNECTED; the two road networks come within 181 m; stops 299 m / 76 m off
+  Gamla Skarpans → Vargata: straight 8.5 km, NOT CONNECTED; the two road networks come within 8154 m; stops 76 m / 1382 m off
+== 1968: 28022 road segments
+  Storby → Frebbenby: straight 8.8 km, by road 10.9 km; stops 329 m / 100 m off; 7 objects, first years [1929]; latest-dated 1929
+  Frebbenby → Emkarby: straight 9.3 km, by road 11.4 km; stops 100 m / 22 m off; 9 objects, first years [1800, 1929, 1968]; latest-dated 1968
+  Emkarby → Haraldsby: straight 8.5 km, NOT CONNECTED; the two road networks come within 5052 m; stops 22 m / 54 m off
+  Haraldsby → Kastelholm: straight 3.5 km, by road 4.1 km; stops 54 m / 17 m off; 5 objects, first years [1800, 1968]; latest-dated 1968
+  Kastelholm → Gamla Skarpans: straight 7.4 km, NOT CONNECTED; the two road networks come within 181 m; stops 17 m / 76 m off
+  Gamla Skarpans → Vargata: straight 8.5 km, NOT CONNECTED; the two road networks come within 7258 m; stops 76 m / 1382 m off
+== 2026: 76449 road segments
+  Storby → Frebbenby: straight 8.8 km, by road 10.6 km; stops 329 m / 100 m off; 1 objects, first years [1929]; latest-dated 1929
+  Frebbenby → Emkarby: straight 9.3 km, by road 11.1 km; stops 100 m / 22 m off; 25 objects, first years [1800, 1929, 1968, 1985]; latest-dated 1985
+  Emkarby → Haraldsby: straight 8.5 km, by road 26.0 km; stops 22 m / 54 m off; 23 objects, first years [1800, 1927, 1929, 1968, 1978, 1993]; latest-dated 1993
+  Haraldsby → Kastelholm: straight 3.5 km, by road 4.1 km; stops 54 m / 45 m off; 4 objects, first years [1800, 1968]; latest-dated 1968
+  Kastelholm → Gamla Skarpans: straight 7.4 km, NOT CONNECTED; the two road networks come within 97 m; stops 45 m / 76 m off
+  Gamla Skarpans → Vargata: straight 8.5 km, NOT CONNECTED; the two road networks come within 651 m; stops 76 m / 36 m off

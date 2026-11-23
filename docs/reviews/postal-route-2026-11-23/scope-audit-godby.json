@@ -1,0 +1,46 @@
+{
+ "objects": {
+  "added": [
+   "road:finstrom:godby-korsningen",
+   "road:finstrom:sundsvagen:godby-farjsundet",
+   "road:jomala:godbyvagen:bjorkang",
+   "road:jomala:godbyvagen:golby-junction",
+   "road:jomala:postgardsvagen"
+  ],
+  "removed": [],
+  "changed": [
+   "road:emkarbyvagen"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:finstrom:godby-korsningen",
+   "geometry:finstrom:sundsvagen:godby-farjsundet",
+   "geometry:jomala:godbyvagen:bjorkang",
+   "geometry:jomala:godbyvagen:golby-junction",
+   "geometry:jomala:postgardsvagen",
+   "geometry:postal-route-godby:emkarbyvagen:1968-1978",
+   "geometry:postal-route-godby:emkarbyvagen:1978-2021"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:postal-route-godby",
+   "road:finstrom:godby-korsningen:survey",
+   "road:finstrom:sundsvagen:godby-farjsundet:survey",
+   "road:jomala:godbyvagen:bjorkang:survey",
+   "road:jomala:godbyvagen:golby-junction:survey",
+   "road:jomala:postgardsvagen:survey"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "other": []
+}

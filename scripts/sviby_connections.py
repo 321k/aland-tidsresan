@@ -67,7 +67,8 @@ def _check(read, catalog, review):
             others = [r for _, ds, fid, r in owned if ds == l['datasetId'] and fid == l['featureId']]
             if any(r is None or max(a, r[0]) < min(b, r[1]) for r in others):
                 raise ValueError('OSM source already owned: ' + l['featureId'])
-            if (a != 0 and not any(r[1] == a for r in others)) or (b != len(f['paths'][0]) - 1 and not any(r[0] == b for r in others)):
+            # 'partialBasis': a stated reason to own only part of a way whose rest stays unowned (an arc of a roundabout)
+            if ((a != 0 and not any(r[1] == a for r in others)) or (b != len(f['paths'][0]) - 1 and not any(r[0] == b for r in others))) and not l.get('partialBasis'):
                 raise ValueError('A partial piece does not abut the owned rest of its way: ' + l['featureId'])
             owned.append((nr['id'], l['datasetId'], l['featureId'], [a, b]))
         if not {l['datasetId'] for l in nr['sourceLinks']} <= set(SNAPSHOTS) or not any(l['datasetId'] == 'osm-2026' for l in nr['sourceLinks']):
@@ -134,7 +135,7 @@ def _add(catalog, review):
                 e.update(matchedGeometryId=gid, coverage=nr.get('coverage', {}).get(k, 'full'), canonicalRange=nr.get('canonicalRanges', {}).get(k, [0, 1]))
             ev.append(e)
         first = [x['id'] for x in ev if x['describes']['from'] == nr['firstYear'] and x['outcome'] == 'present']
-        links = [{k: v for k, v in l.items() if k not in ('input', 'reverse')} for l in nr['sourceLinks']]
+        links = [{k: v for k, v in l.items() if k not in ('input', 'reverse', 'partialBasis')} for l in nr['sourceLinks']]
         catalog['objects'].append(dict(
             id=nr['id'], name=nr['name'], kind='roadSegment', independentRoad=True, ruralRoad=True, modernRoadClass=nr['modernRoadClass'], roadWidth=nr['roadWidth'], routeId=nr['routeId'],
             states=[dict(state='open', **{'from': nr['firstYear'], 'to': None}, certainty='inferred', evidenceIds=first, note=nr['basis'])],

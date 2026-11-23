@@ -1,0 +1,1099 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "maps": {
+  "1968-jomala": {
+   "sourceId": "nls:101209:1968",
+   "year": 1968
+  },
+  "1978-jomala": {
+   "sourceId": "nls:101209:1978",
+   "year": 1978
+  },
+  "1985-jomala": {
+   "sourceId": "nls:101209:1985",
+   "year": 1985
+  },
+  "1995-jomala": {
+   "sourceId": "nls:101209:1995",
+   "year": 1995
+  },
+  "1968-godby": {
+   "sourceId": "nls:102107:1968",
+   "year": 1968
+  },
+  "1978-godby": {
+   "sourceId": "nls:102107:1978",
+   "year": 1978
+  },
+  "1985-godby": {
+   "sourceId": "nls:102107:1985",
+   "year": 1985
+  },
+  "1993-godby": {
+   "sourceId": "nls:102107:1993",
+   "year": 1993
+  }
+ },
+ "geometryPrefix": "geometry:postal-route-godby:",
+ "stagePrefix": "postal-route-godby",
+ "source": {
+  "id": "review:postal-route-godby",
+  "title": "Postvägen från Emkarby genom Gölby och Godby till Färjsundet på grundkartorna · granskning",
+  "url": "assets/postal-route-godby.json"
+ },
+ "method": "Grundkartorna 1012 09 och 1021 07 (1968–1995) har lagts över dagens vägar med ett rutnät på 100 m. Där katalogens vägar bryts längs postvägen har kartan avgjort vilken väg som ritas.",
+ "surveySources": [
+  {
+   "id": "road:jomala:postgardsvagen:survey",
+   "title": "OpenStreetMap · Postgårdsvägen",
+   "url": "https://www.openstreetmap.org/way/1299708900",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:jomala:godbyvagen:golby-junction:survey",
+   "title": "OpenStreetMap · Godbyvägen · vid Gölby",
+   "url": "https://www.openstreetmap.org/way/731250732",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:jomala:godbyvagen:bjorkang:survey",
+   "title": "OpenStreetMap · Godbyvägen · vid Björkäng",
+   "url": "https://www.openstreetmap.org/way/963762444",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:finstrom:godby-korsningen:survey",
+   "title": "OpenStreetMap · Godbyvägen · korsningen i Godby",
+   "url": "https://www.openstreetmap.org/way/1133392114",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:finstrom:sundsvagen:godby-farjsundet:survey",
+   "title": "OpenStreetMap · Sundsvägen · Godby–Färjsundet",
+   "url": "https://www.openstreetmap.org/way/35979864",
+   "issuedAt": "2026"
+  }
+ ],
+ "extend": [
+  {
+   "objectId": "road:emkarbyvagen",
+   "inputHash": "921791e95a34df3ba2ce780c00c4708ffac419fa6ab8d47c598a653b1f93531b",
+   "wholeGeometryId": "geometry:e76742ec1a46df8ce6ea",
+   "wholeGeometryHash": "6ba2a5e5b5a37e1872142d8bbc8f38e67ada4083c101ac1eb07733c38a594b39",
+   "periods": [
+    {
+     "from": 1968,
+     "to": 1978,
+     "geometryId": "geometry:1ed743bde36c0e86aeff",
+     "geometryHash": "22007ada706f5e7e7e2cc2e85c4bde7d1b005fa10324c6f1d3c406b15c7b6bc4",
+     "range": [
+      8702.9,
+      10227.7
+     ],
+     "maps": {
+      "1968-jomala": "present"
+     },
+     "bend": {
+      "leaveAt": 8860.0,
+      "rejoinAt": 9422.9,
+      "points": [
+       [
+        19.9172305,
+        60.2040843
+       ],
+       [
+        19.9181343,
+        60.2036491
+       ],
+       [
+        19.9197573,
+        60.2036052
+       ],
+       [
+        19.9215606,
+        60.2035704
+       ],
+       [
+        19.922549,
+        60.203516
+       ],
+       [
+        19.923347,
+        60.203473
+       ],
+       [
+        19.923713,
+        60.203411
+       ],
+       [
+        19.92389,
+        60.203368
+       ],
+       [
+        19.924504,
+        60.203139
+       ],
+       [
+        19.92499,
+        60.202928
+       ],
+       [
+        19.925362,
+        60.202714
+       ],
+       [
+        19.925463,
+        60.202653
+       ],
+       [
+        19.925688,
+        60.202493
+       ],
+       [
+        19.925909,
+        60.202268
+       ],
+       [
+        19.926063,
+        60.202048
+       ],
+       [
+        19.926249,
+        60.201839
+       ],
+       [
+        19.9261545,
+        60.2017542
+       ]
+      ],
+      "basis": "Grundkartan 1968 ritar vägen från Tingsbacka österut längs N 6 676 760 och i en båge längs dagens Tingsgränd (OSM 1141053639) till Buskböle; dagens raka väg ritas först 1978. Bågen är avläst för hand på kartan 1968 fram till Tingsgränd och följer sedan dess koordinater."
+     },
+     "note": "Österut från Tingsbacka till Bergens, där vägen 1968 svängde österut längs dagens Postgårdsvägen (grundkartan 1012 09, 1968)."
+    },
+    {
+     "from": 1978,
+     "to": 2021,
+     "geometryId": "geometry:2db0d5b29025d49cfe6a",
+     "geometryHash": "f46b655e036cde3edbc6ae0cdc9e5e8344c040c576f7401dfeee9d472d0024d0",
+     "range": [
+      8702.9,
+      10715.6
+     ],
+     "maps": {
+      "1978-jomala": "present",
+      "1985-jomala": "present",
+      "1995-jomala": "present"
+     },
+     "note": "Österut från Tingsbacka på dagens raka väg och i den nya kurvan från Bergens till Godbyvägen vid Gölby (grundkartorna 1012 09, 1978–1995)."
+    }
+   ]
+  }
+ ],
+ "newRoads": [
+  {
+   "id": "road:jomala:postgardsvagen",
+   "name": "Postgårdsvägen",
+   "routeId": "road:route:postvagen",
+   "modernRoadClass": "residential",
+   "roadWidth": 4,
+   "firstYear": 1968,
+   "surveySourceId": "road:jomala:postgardsvagen:survey",
+   "maps": {
+    "1968-jomala": "present",
+    "1978-jomala": "present",
+    "1985-jomala": "present",
+    "1995-jomala": "present"
+   },
+   "start": "road:emkarbyvagen",
+   "end": "road:atlas1894:godbyvagen",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.935799,
+      60.196388
+     ],
+     [
+      19.936393,
+      60.196549
+     ],
+     [
+      19.936448,
+      60.19656
+     ],
+     [
+      19.936492,
+      60.196564
+     ],
+     [
+      19.936538,
+      60.196563
+     ],
+     [
+      19.936582,
+      60.196559
+     ],
+     [
+      19.93665,
+      60.196549
+     ],
+     [
+      19.936724,
+      60.196533
+     ],
+     [
+      19.936802,
+      60.196512
+     ],
+     [
+      19.937528,
+      60.196292
+     ],
+     [
+      19.937887,
+      60.196202
+     ],
+     [
+      19.938254,
+      60.196122
+     ],
+     [
+      19.938625,
+      60.196056
+     ],
+     [
+      19.939024,
+      60.195994
+     ],
+     [
+      19.939349,
+      60.195962
+     ],
+     [
+      19.939828,
+      60.195976
+     ],
+     [
+      19.940156,
+      60.196009
+     ],
+     [
+      19.940208,
+      60.196014
+     ],
+     [
+      19.940893,
+      60.196118
+     ],
+     [
+      19.9415,
+      60.196207
+     ],
+     [
+      19.941666,
+      60.196231
+     ],
+     [
+      19.941809,
+      60.196243
+     ],
+     [
+      19.941925,
+      60.196246
+     ],
+     [
+      19.942048,
+      60.196245
+     ],
+     [
+      19.942166,
+      60.19624
+     ],
+     [
+      19.94223,
+      60.196232
+     ],
+     [
+      19.942289,
+      60.196222
+     ],
+     [
+      19.942344,
+      60.196208
+     ],
+     [
+      19.942395,
+      60.196191
+     ],
+     [
+      19.942447,
+      60.196168
+     ],
+     [
+      19.942503,
+      60.19614
+     ],
+     [
+      19.942875,
+      60.195912
+     ],
+     [
+      19.943154,
+      60.195656
+     ],
+     [
+      19.943445,
+      60.195394
+     ],
+     [
+      19.943773,
+      60.195134
+     ],
+     [
+      19.944053,
+      60.194931
+     ],
+     [
+      19.944341,
+      60.194773
+     ],
+     [
+      19.9446,
+      60.194676
+     ],
+     [
+      19.944887,
+      60.194608
+     ],
+     [
+      19.945114,
+      60.19459
+     ],
+     [
+      19.945382,
+      60.194595
+     ],
+     [
+      19.946375,
+      60.19458
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1299708900",
+     "sourceVertexRange": [
+      0,
+      3
+     ],
+     "sourceVertexCount": 4,
+     "input": "8947c3f0d97c2305832bbe03fded2ddb7ded83f28b0a712f5d49a1de81bad23b",
+     "basis": "Den gamla huvudvägen från Bergens österut till Godbyvägen vid Gölby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1299708900",
+     "sourceVertexRange": [
+      0,
+      3
+     ],
+     "sourceVertexCount": 4,
+     "input": "8947c3f0d97c2305832bbe03fded2ddb7ded83f28b0a712f5d49a1de81bad23b",
+     "basis": "Den gamla huvudvägen från Bergens österut till Godbyvägen vid Gölby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1299708897",
+     "sourceVertexRange": [
+      0,
+      16
+     ],
+     "sourceVertexCount": 17,
+     "input": "eb8b8efc6d31d7f25c008ddf651c2a0c5e08010ffb57a41657205e3e333945cd",
+     "basis": "Den gamla huvudvägen från Bergens österut till Godbyvägen vid Gölby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1299708897",
+     "sourceVertexRange": [
+      0,
+      15
+     ],
+     "sourceVertexCount": 16,
+     "input": "7dd840c69ba428e5d93f0a51e64e50d5b68c9fc4003e9649a8480baff85693c3",
+     "basis": "Den gamla huvudvägen från Bergens österut till Godbyvägen vid Gölby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/162622255",
+     "sourceVertexRange": [
+      0,
+      22
+     ],
+     "sourceVertexCount": 23,
+     "input": "b80e8505f8a7d1058dc29dbb5fae01f21b8de8a67fafde8bca37b591792bb796",
+     "basis": "Den gamla huvudvägen från Bergens österut till Godbyvägen vid Gölby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-162622255",
+     "sourceVertexRange": [
+      0,
+      22
+     ],
+     "sourceVertexCount": 23,
+     "input": "b80e8505f8a7d1058dc29dbb5fae01f21b8de8a67fafde8bca37b591792bb796",
+     "basis": "Den gamla huvudvägen från Bergens österut till Godbyvägen vid Gölby, som den kartlagts detta år."
+    }
+   ],
+   "basis": "Den gamla huvudvägen från Bergens österut till Godbyvägen vid Gölby. Grundkartan 1968 ritar den som huvudväg; från 1978 går huvudvägen i den nya kurvan söder om den, och Postgårdsvägen blir en lokal väg.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (1299708900, 1299708897, 162622255), använd som stabilt läge från 1968."
+  },
+  {
+   "id": "road:jomala:godbyvagen:golby-junction",
+   "name": "Godbyvägen · vid Gölby",
+   "routeId": "road:route:postvagen",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 4,
+   "firstYear": 1968,
+   "surveySourceId": "road:jomala:godbyvagen:golby-junction:survey",
+   "maps": {
+    "1968-jomala": "present",
+    "1978-jomala": "present"
+   },
+   "start": "road:atlas1894:godbyvagen",
+   "end": "road:atlas1894:godbyvagen",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.958206,
+      60.202029
+     ],
+     [
+      19.957973,
+      60.201867
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/731250732",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "ce638921d68dd1fc0390fc2434ccbe9ee60c745dcf287503fb996c69740e0bbc",
+     "basis": "En kort bit av Godbyvägen vid Gölby, mellan två delar av den daterade vägen, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-731250732",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "ce638921d68dd1fc0390fc2434ccbe9ee60c745dcf287503fb996c69740e0bbc",
+     "basis": "En kort bit av Godbyvägen vid Gölby, mellan två delar av den daterade vägen, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-731250732",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "ce638921d68dd1fc0390fc2434ccbe9ee60c745dcf287503fb996c69740e0bbc",
+     "basis": "En kort bit av Godbyvägen vid Gölby, mellan två delar av den daterade vägen, som den kartlagts detta år."
+    }
+   ],
+   "basis": "En kort bit av Godbyvägen vid Gölby, mellan två delar av den daterade vägen. Grundkartorna ritar vägen här.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (731250732), använd som stabilt läge från 1968."
+  },
+  {
+   "id": "road:jomala:godbyvagen:bjorkang",
+   "name": "Godbyvägen · vid Björkäng",
+   "routeId": "road:route:postvagen",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 4,
+   "firstYear": 1968,
+   "surveySourceId": "road:jomala:godbyvagen:bjorkang:survey",
+   "maps": {
+    "1968-jomala": "present",
+    "1978-jomala": "present"
+   },
+   "start": "road:atlas1894:godbyvagen",
+   "end": "road:atlas1894:godbyvagen",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.978846,
+      60.215313
+     ],
+     [
+      19.979026,
+      60.215403
+     ],
+     [
+      19.979382,
+      60.215516
+     ],
+     [
+      19.979497,
+      60.215553
+     ],
+     [
+      19.979566,
+      60.215583
+     ],
+     [
+      19.979658,
+      60.215627
+     ],
+     [
+      19.979715,
+      60.215663
+     ],
+     [
+      19.979747,
+      60.215697
+     ],
+     [
+      19.97977,
+      60.215733
+     ],
+     [
+      19.979787,
+      60.215771
+     ],
+     [
+      19.979796,
+      60.215816
+     ],
+     [
+      19.9798,
+      60.215853
+     ],
+     [
+      19.979796,
+      60.215892
+     ],
+     [
+      19.979788,
+      60.215921
+     ],
+     [
+      19.979782,
+      60.215937
+     ],
+     [
+      19.979771,
+      60.21595
+     ],
+     [
+      19.979757,
+      60.215966
+     ],
+     [
+      19.979741,
+      60.21598
+     ],
+     [
+      19.979722,
+      60.215993
+     ],
+     [
+      19.979607,
+      60.216057
+     ],
+     [
+      19.979544,
+      60.216092
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/963762444",
+     "sourceVertexRange": [
+      0,
+      20
+     ],
+     "sourceVertexCount": 21,
+     "input": "45a130e93a6c33d38113e880c6a7b2a73b238f6fbebfcf598158fbb72bc4ece5",
+     "basis": "Godbyvägens bit vid Björkäng, mellan två delar av den daterade vägen, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-963762444",
+     "sourceVertexRange": [
+      0,
+      20
+     ],
+     "sourceVertexCount": 21,
+     "input": "45a130e93a6c33d38113e880c6a7b2a73b238f6fbebfcf598158fbb72bc4ece5",
+     "basis": "Godbyvägens bit vid Björkäng, mellan två delar av den daterade vägen, som den kartlagts detta år."
+    }
+   ],
+   "basis": "Godbyvägens bit vid Björkäng, mellan två delar av den daterade vägen. Grundkartorna 1968 och 1978 ritar huvudvägen här.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (963762444), använd som stabilt läge från 1968."
+  },
+  {
+   "id": "road:finstrom:godby-korsningen",
+   "name": "Godbyvägen · korsningen i Godby",
+   "routeId": "road:route:postvagen",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 4,
+   "firstYear": 1968,
+   "surveySourceId": "road:finstrom:godby-korsningen:survey",
+   "maps": {
+    "1968-godby": "present",
+    "1978-godby": "present",
+    "1985-godby": "present",
+    "1993-godby": "present"
+   },
+   "start": "road:atlas1894:godbyvagen",
+   "end": "road:qgis:saltvik:von-knorringsvagen-2-batch4",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.987218,
+      60.229429
+     ],
+     [
+      19.987516,
+      60.229585
+     ],
+     [
+      19.987717,
+      60.229861
+     ],
+     [
+      19.987706,
+      60.2299
+     ],
+     [
+      19.987714,
+      60.229939
+     ],
+     [
+      19.98774,
+      60.229976
+     ],
+     [
+      19.987782,
+      60.230009
+     ],
+     [
+      19.987838,
+      60.230037
+     ],
+     [
+      19.987905,
+      60.230058
+     ],
+     [
+      19.98798,
+      60.23007
+     ],
+     [
+      19.988058,
+      60.230074
+     ],
+     [
+      19.988135,
+      60.230069
+     ],
+     [
+      19.988209,
+      60.230056
+     ],
+     [
+      19.988274,
+      60.230035
+     ],
+     [
+      19.988329,
+      60.230007
+     ],
+     [
+      19.988369,
+      60.229973
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1133392114",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "b1ba1cf69415bd1ad389149832a7d1c5c18140c857d90f6d524f767ed249d5d1",
+     "basis": "Godbyvägens anslutning till von Knorringsvägen i Godby centrum, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1133392114",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "b1ba1cf69415bd1ad389149832a7d1c5c18140c857d90f6d524f767ed249d5d1",
+     "basis": "Godbyvägens anslutning till von Knorringsvägen i Godby centrum, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1193284944",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "10ce7dd67324c467e4361e40b188d1ffce218a83a4078629c1d9d449fc82afc1",
+     "basis": "Godbyvägens anslutning till von Knorringsvägen i Godby centrum, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1193284944",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "10ce7dd67324c467e4361e40b188d1ffce218a83a4078629c1d9d449fc82afc1",
+     "basis": "Godbyvägens anslutning till von Knorringsvägen i Godby centrum, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1193284948",
+     "sourceVertexRange": [
+      13,
+      26
+     ],
+     "sourceVertexCount": 29,
+     "input": "5436a06f2c76376de32dd166ebf5900b45929afd6baa1be237bf61900d1d47c8",
+     "basis": "Godbyvägens anslutning till von Knorringsvägen i Godby centrum, som den kartlagts detta år.",
+     "reverse": true,
+     "partialBasis": "Bågen av dagens rondell i Godby mellan Godbyvägen och von Knorringsvägen; rondellens övriga bågar hör till andra vägar och ägs inte här. 1968 var platsen en vägkorsning."
+    }
+   ],
+   "basis": "Godbyvägens anslutning till von Knorringsvägen i Godby centrum. Grundkartorna ritar vägkorsningen; i dag ligger en rondell där, och linjen följer dess båge.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (1133392114, 1193284944, 1193284948), använd som stabilt läge från 1968."
+  },
+  {
+   "id": "road:finstrom:sundsvagen:godby-farjsundet",
+   "name": "Sundsvägen · Godby–Färjsundet",
+   "routeId": "road:route:postvagen",
+   "modernRoadClass": "primary",
+   "roadWidth": 6,
+   "firstYear": 1968,
+   "surveySourceId": "road:finstrom:sundsvagen:godby-farjsundet:survey",
+   "maps": {
+    "1968-godby": "present",
+    "1978-godby": "present",
+    "1985-godby": "present",
+    "1993-godby": "present"
+   },
+   "start": "road:qgis:saltvik:von-knorringsvagen-1-batch4",
+   "end": "road:qgis:saltvik:sundsvagen-varsundet-haraldsby",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      20.009574,
+      60.23468
+     ],
+     [
+      20.009758,
+      60.234643
+     ],
+     [
+      20.009942,
+      60.23457
+     ],
+     [
+      20.011882,
+      60.235782
+     ],
+     [
+      20.012815,
+      60.236443
+     ],
+     [
+      20.013159,
+      60.236698
+     ],
+     [
+      20.013733,
+      60.237085
+     ],
+     [
+      20.014217,
+      60.237326
+     ],
+     [
+      20.014475,
+      60.23745
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/35979864",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "6d81ed8a02fdc61dc943b7b2e94a3b6d152a2323fd8c100bf423ff12bbbd3c60",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-35979864",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "6d81ed8a02fdc61dc943b7b2e94a3b6d152a2323fd8c100bf423ff12bbbd3c60",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-35979864",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "6d81ed8a02fdc61dc943b7b2e94a3b6d152a2323fd8c100bf423ff12bbbd3c60",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-35979864",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "37eceb6e21fb34f73ca7057cf820335e3c30809c7d7c541c402f9824eb06be88",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/118461526",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "41495e02bcdb15ce2618ede3ca6ba3eeffd8626d564d25c992c02bf085760b89",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-118461526",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "41495e02bcdb15ce2618ede3ca6ba3eeffd8626d564d25c992c02bf085760b89",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-118461526",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "41495e02bcdb15ce2618ede3ca6ba3eeffd8626d564d25c992c02bf085760b89",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-118461526",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "ad91362a56ec21482e77cf8d84bb72e1243772c5dd502ac73bdebabc15e84b30",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/172146731",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "ffc905b8ca00e9cfa26326303ea4eec12f11716647fdec2d4f7b930a681af8b2",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-172146731",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "ffc905b8ca00e9cfa26326303ea4eec12f11716647fdec2d4f7b930a681af8b2",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-172146731",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "ffc905b8ca00e9cfa26326303ea4eec12f11716647fdec2d4f7b930a681af8b2",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-172146731",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "ffc905b8ca00e9cfa26326303ea4eec12f11716647fdec2d4f7b930a681af8b2",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/35165557",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "1ee2e3283c764e8440faf4920d6b9db5065f2e3fc3b6d3d11afc3a3bc9984217",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-35165557",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "1ee2e3283c764e8440faf4920d6b9db5065f2e3fc3b6d3d11afc3a3bc9984217",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-35165557",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "1ee2e3283c764e8440faf4920d6b9db5065f2e3fc3b6d3d11afc3a3bc9984217",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-35165557",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "1ee2e3283c764e8440faf4920d6b9db5065f2e3fc3b6d3d11afc3a3bc9984217",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/172146730",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "e441695166aa8a6ad53c43676a9bf9f5fe2a8f2f1a026fdbd4ec2a033dd0fc24",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-172146730",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "2d3d7168845eed9513f3982bacf7a5d23ed16a9b8f02a8ca3f748062a55f3092",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-172146730",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "2d3d7168845eed9513f3982bacf7a5d23ed16a9b8f02a8ca3f748062a55f3092",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-172146730",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "2d3d7168845eed9513f3982bacf7a5d23ed16a9b8f02a8ca3f748062a55f3092",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/65650237",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "bd832466040ae30b483051c818acd3acd0f422cc63a07e13bdf8daa3418d2a2d",
+     "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet, som den kartlagts detta år."
+    }
+   ],
+   "basis": "Huvudvägen från von Knorringsvägens östra ände i Godby nordost till bron över Färjsundet. Grundkartorna 1968–1993 ritar den.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (35979864, 118461526, 172146731, 35165557, 172146730, 65650237), använd som stabilt läge från 1968."
+  }
+ ],
+ "stageFeatures": []
+}

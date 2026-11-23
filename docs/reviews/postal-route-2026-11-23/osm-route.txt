@@ -1,0 +1,116 @@
+Storby → Frebbenby: 11.4 km on 26 OSM ways
+   way/25208110     Sandmovägen                  tertiary     seg 45-54  UNOWNED
+   way/1066815067   Sandmovägen                  tertiary     seg 0-1  UNOWNED
+   way/174570487    Eckerövägen                  primary      seg 0-3  UNOWNED
+   way/174570484    Eckerövägen                  primary      seg 0-3  UNOWNED
+   way/172716458    Väg eller stig               primary      seg 0-4  UNOWNED
+   way/174570483    Eckerövägen                  primary      seg 0-5  UNOWNED
+   way/1182793512   Eckerövägen                  primary      seg 0-4  UNOWNED
+   way/347944788    Eckerövägen                  primary      seg 0-23 marsund:eckero-hammarland (1929) None
+   way/174572355    Eckerövägen                  primary      seg 0-3 marsund:eckero-hammarland (1929) None
+   way/347944775    Eckerövägen                  primary      seg 0-40 marsund:eckero-hammarland (1929) None
+   way/347944791    Eckerövägen                  primary      seg 0-49 marsund:eckero-hammarland (1929) None
+   way/174572346    Eckerövägen                  primary      seg 0-62 marsund:eckero-hammarland (1929) None
+   way/345143747    Eckerövägen                  primary      seg 0-10 marsund:eckero-hammarland (1929) None
+   way/170825383    Eckerövägen                  primary      seg 0-2 marsund:eckero-hammarland (1929) None
+   way/59426977     Eckerövägen                  primary      seg 0-3 marsund:eckero-hammarland (1929) None
+   way/59426978     Väg eller stig               primary      seg 0-1 marsund:eckero-hammarland (1929) None
+   way/170825382    Hammarlandsvägen             primary      seg 0-4 marsund:eckero-hammarland (1929) None
+   way/406501253    Hammarlandsvägen             primary      seg 0-6 marsund:eckero-hammarland (1929) None
+   way/296587505    Hammarlandsvägen             primary      seg 0-9 marsund:eckero-hammarland (1929) None
+   way/69731998     Hammarlandsvägen             primary      seg 0-7 marsund:eckero-hammarland (1929) None
+   way/174570458    Hammarlandsvägen             primary      seg 0-12 marsund:eckero-hammarland (1929) None
+   way/1421137749   Hammarlandsvägen             primary      seg 0-1 marsund:eckero-hammarland (1929) None
+   way/69739595     Hammarlandsvägen             primary      seg 0-2 marsund:eckero-hammarland (1929) None
+   way/166084541    Hammarlandsvägen             primary      seg 0-3 marsund:eckero-hammarland (1929) None
+   way/35731248     Mörbyvägen                   unclassified seg 34-37 qgis:morby:morbyvagen-100km2 (1968) [0.0, 9.18753232] partly owned
+   way/424226284    Väg eller stig               service      seg 0-1  UNOWNED
+Frebbenby → Emkarby: 11.6 km on 19 OSM ways
+   way/424226284    Väg eller stig               service      seg 0-1  UNOWNED
+   way/35731248     Mörbyvägen                   unclassified seg 34-37 qgis:morby:morbyvagen-100km2 (1968) [0.0, 9.18753232] partly owned
+   way/1299491825   Hammarlandsvägen             primary      seg 0-1 marsund:eckero-hammarland (1929) None
+   way/69739592     Hammarlandsvägen             primary      seg 0-4 marsund:eckero-hammarland (1929) None
+   way/69739598     Hammarlandsvägen             primary      seg 0-16 rural:hammarland-hammarlandsvagen-kattby (1929) None
+   way/1299491890   Hammarlandsvägen             primary      seg 0-10 rural:hammarland-hammarlandsvagen-church (1929) None
+   way/345143755    Hammarlandsvägen             primary      seg 0-16 rural:hammarland-hammarlandsvagen-postad (1929) None
+   way/345143748    Hammarlandsvägen             primary      seg 0-39 rural:hammarland-hammarlandsvagen-vastmy (1929) None
+   way/345143750    Hammarlandsvägen             primary      seg 0-11 rural:hammarland-way-345143750 (1929) None
+   way/345143754    Hammarlandsvägen             primary      seg 0-4 rural:hammarland-way-345143754 (1968) None
+   way/69739600     Hammarlandsvägen             primary      seg 0-2 rural:hammarland-way-69739600 (1968) None
+   way/1086414537   Emkarbyvägen                 secondary    seg 0-3 emkarbyvagen (1800) None
+   way/1086414536   Emkarbyvägen                 secondary    seg 0-2 emkarbyvagen (1800) None
+   way/37044759     Emkarbyvägen                 secondary    seg 0-47 emkarbyvagen (1800) None
+   way/296587513    Emkarbyvägen                 secondary    seg 0-53 emkarbyvagen (1800) None
+   way/296587501    Emkarbyvägen                 secondary    seg 0-52 emkarbyvagen (1800) None
+   way/1086414538   Emkarbyvägen                 secondary    seg 0-4 emkarbyvagen (1800) None
+   way/1423025263   Emkarbyvägen                 secondary    seg 0-1 emkarbyvagen (1800) None
+   way/1086414539   Emkarbyvägen                 secondary    seg 0-43 emkarbyvagen (1800) None
+Emkarby → Haraldsby: 11.6 km on 27 OSM ways
+   way/1086414539   Emkarbyvägen                 secondary    seg 43-54 emkarbyvagen (1800) None
+   way/1378646633   Emkarbyvägen                 secondary    seg 0-26 emkarbyvagen (1800) None
+   way/1378646632   Emkarbyvägen                 secondary    seg 0-2 emkarbyvagen (1800) None
+   way/296587502    Emkarbyvägen                 secondary    seg 0-109 emkarbyvagen (1800) None
+   way/1299708900   Postgårdsvägen               residential  seg 0-3  UNOWNED
+   way/1299708897   Postgårdsvägen               residential  seg 0-16  UNOWNED
+   way/162622255    Postgårdsvägen               residential  seg 0-22  UNOWNED
+   way/1288978415   Godbyvägen                   secondary    seg 0-29 atlas1894:godbyvagen (1800) None
+   way/118461527    Nya Godbyvägen               primary      seg 0-4 qgis:jomala:nya-godbyvagen-1-100km4 (1995) [0.0, 4.0]
+   way/169282411    Nya Godbyvägen               primary      seg 0-1 qgis:jomala:nya-godbyvagen-1-100km4 (1995) [0.0, 1.0]
+   way/169282410    Nya Godbyvägen               primary      seg 0-37 qgis:jomala:nya-godbyvagen-1-100km4 (1995) [0.0, 37.0]
+   way/70984644     Nya Godbyvägen               primary      seg 0-10 qgis:jomala:nya-godbyvagen-1-100km4 (1995) [0.0, 10.0]
+   way/70984645     Nya Godbyvägen               primary      seg 0-20 qgis:jomala:nya-godbyvagen-1-100km4 (1995) [0.0, 20.0]
+   way/613969817    Nya Godbyvägen               primary      seg 0-9  UNOWNED
+   way/613969818    Nya Godbyvägen               primary      seg 0-6  UNOWNED
+   way/613969811    Nya Godbyvägen               primary      seg 0-5  UNOWNED
+   way/613969824    Sundsvägen                   primary      seg 0-6  UNOWNED
+   way/38922203     Sundsvägen                   primary      seg 0-14  UNOWNED
+   way/291358570    Sundsvägen                   primary      seg 0-1  UNOWNED
+   way/118461526    Sundsvägen                   primary      seg 0-1  UNOWNED
+   way/172146731    Sundsvägen                   primary      seg 0-2  UNOWNED
+   way/35165557     Sundsvägen                   primary      seg 0-1  UNOWNED
+   way/172146730    Sundsvägen                   primary      seg 0-1  UNOWNED
+   way/65650237     Sundsvägen                   primary      seg 0-1  UNOWNED
+   way/35165555     Sundsvägen                   primary      seg 0-1 qgis:saltvik:sundsvagen-varsundet-harald (1968) [0.0, 1.0]
+   way/35165554     Sundsvägen                   primary      seg 0-4 qgis:saltvik:sundsvagen-varsundet-harald (1968) [0.0, 14.0]
+   way/142807388    Väg eller stig               residential  seg 0-2  UNOWNED
+Haraldsby → Kastelholm: 4.4 km on 16 OSM ways
+   way/142807388    Väg eller stig               residential  seg 0-2  UNOWNED
+   way/35165554     Sundsvägen                   primary      seg 4-14 qgis:saltvik:sundsvagen-varsundet-harald (1968) [0.0, 14.0]
+   way/71080967     Sundsvägen                   primary      seg 0-8 qgis:saltvik:sundsvagen-varsundet-harald (1968) [0.0, 8.0]
+   way/613971495    Sundsvägen                   primary      seg 0-16 qgis:saltvik:sundsvagen-varsundet-harald (1968) [0.0, 16.0]
+   way/71080972     Sundsvägen                   primary      seg 0-2 qgis:saltvik:sundsvagen-haraldsby-vagska (1800) [0.0, 2.0]
+   way/613971496    Sundsvägen                   primary      seg 0-2 qgis:saltvik:sundsvagen-haraldsby-vagska (1800) [0.0, 2.0]
+   way/613971498    Sundsvägen                   primary      seg 0-1 qgis:saltvik:sundsvagen-haraldsby-vagska (1800) [0.0, 1.0]
+   way/613971497    Sundsvägen                   primary      seg 0-2 qgis:saltvik:sundsvagen-haraldsby-vagska (1800) [0.0, 2.0]
+   way/613971492    Sundsvägen                   primary      seg 0-1 qgis:saltvik:sundsvagen-haraldsby-vagska (1800) [0.0, 1.0]
+   way/294778473    Sundsvägen                   primary      seg 0-8 qgis:saltvik:sundsvagen-haraldsby-kulla (1800) [0.0, 8.0]
+   way/71080969     Sundsvägen                   primary      seg 0-51 qgis:saltvik:sundsvagen-haraldsby-kulla (1800) [0.0, 51.0]
+   way/54052714     Slottsvägen                  tertiary     seg 0-30 qgis:saltvik:slottsvagen-norra (1968) [0.0, 30.0]
+   way/54052715     Slottsvägen                  tertiary     seg 0-1 qgis:saltvik:slottsvagen-norra (1968) [0.0, 1.0]
+   way/1091096403   Slottsvägen                  tertiary     seg 0-8 qgis:saltvik:slottsvagen-norra (1968) [0.0, 8.0]
+   way/38922208     Slottsvägen                  tertiary     seg 18-19 qgis:saltvik:slottsvagen-sodra (1968) [0.0, 19.0]
+   way/70023252     Väg eller stig               service      seg 0-1  UNOWNED
+Kastelholm → Gamla Skarpans: 8.1 km on 22 OSM ways
+   way/70023252     Väg eller stig               service      seg 1-6  UNOWNED
+   way/38922208     Slottsvägen                  tertiary     seg 0-16 qgis:saltvik:slottsvagen-sodra (1968) [0.0, 19.0]
+   way/38922209     Tosarbyvägen                 tertiary     seg 0-2  UNOWNED
+   way/362492476    Tosarbyvägen                 tertiary     seg 0-3  UNOWNED
+   way/25170723     Tosarbyvägen                 tertiary     seg 0-1  UNOWNED
+   way/71081797     Sundsvägen                   primary      seg 0-66 qgis:saltvik:sundsvagen-lappbole-bladgra (1800) [0.0, 4.9854703]; qgis:bomarsund:sundsvagen-2-100km5 (1928) [6.67665921, 66.0] partly owned
+   way/976365157    Sundsvägen                   primary      seg 0-2 qgis:bomarsund:sundsvagen-2-100km5 (1928) [0.0, 2.0]
+   way/70025078     Sundsvägen                   primary      seg 0-4 qgis:bomarsund:sundsvagen-2-100km5 (1928) [0.0, 4.0]
+   way/615021066    Sundsvägen                   primary      seg 0-6  UNOWNED
+   way/615021068    Sundsvägen                   primary      seg 0-1  UNOWNED
+   way/615021062    Sundsvägen                   primary      seg 0-1  UNOWNED
+   way/615021067    Sundsvägen                   primary      seg 0-4  UNOWNED
+   way/615021065    Sundsvägen                   primary      seg 0-5  UNOWNED
+   way/613972003    Sundsvägen                   primary      seg 0-4  UNOWNED
+   way/614875755    Sundsvägen                   primary      seg 0-1  UNOWNED
+   way/613971993    Sundsvägen                   primary      seg 0-4 qgis:bomarsund:sundsvagen-3-100km5 (1978) [0.0, 4.0]
+   way/614875759    Sundsvägen                   primary      seg 0-5  UNOWNED
+   way/613971997    Sundsvägen                   primary      seg 0-6  UNOWNED
+   way/291358573    Sundsvägen                   primary      seg 0-5 qgis:bomarsund:sundsvagen-1-100km5 (1928) [0.0, 5.0]
+   way/70023954     Sundsvägen                   primary      seg 0-9 qgis:bomarsund:sundsvagen-1-100km5 (1928) [0.0, 9.0]
+   way/291358576    Sundsvägen                   primary      seg 0-17 qgis:bomarsund:sundsvagen-1-100km5 (1928) [0.0, 17.0]
+   way/979901893    Sundsvägen                   primary      seg 0-1 qgis:bomarsund:sundsvagen-1-100km5 (1928) [0.0, 7.0]
+Gamla Skarpans → Vargata: no OSM road route (a crossing by water)
