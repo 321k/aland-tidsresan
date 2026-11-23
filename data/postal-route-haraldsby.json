@@ -1,0 +1,147 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "postalRouteHaraldsbyReview",
+ "geometryPrefix": "geometry:postal-route-haraldsby:",
+ "source": {
+  "id": "review:postal-route-haraldsby",
+  "title": "Postvägen över Färjsundet och genom Haraldsby på sockenkartorna 1929 och 1944 · granskning",
+  "url": "assets/postal-route-haraldsby.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-saltvik": {
+   "sourceId": "nls:map-38157483",
+   "year": 1929
+  },
+  "1944-saltvik": {
+   "sourceId": "nls:map-38147682",
+   "year": 1944
+  }
+ },
+ "method": "Sockenkartorna för Saltvik 1929 och 1944 har lagts över katalogens vägar med ett rutnät på 100 m och jämförts med grundkartorna 1968–1993, som är inpassade på sitt tryckta rutnät. Sockenkartorna ligger 30–90 m fel här; vägarnas sträckning, inte deras exakta läge, är belägget.",
+ "early": [
+  {
+   "objectId": "road:finstrom:sundsvagen:godby-farjsundet",
+   "inputHash": "a4d0a6f6e1696347c498645792b8f7068d77ac4a60b2517520a8403ec9dd7f2b",
+   "geometryId": "geometry:finstrom:sundsvagen:godby-farjsundet",
+   "geometryHash": "f71b1917c654e3122b99b304e9d0842a42ca0f6b0cb75500b5bb44faf957bfaf",
+   "lengthMeters": 432.2,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     432.2
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:sundsvagen-varsundet-haraldsby",
+   "inputHash": "eed09204e435455802b72fb872480e69d097dfa8a6b8124c170c551917b91dec",
+   "geometryId": "geometry:qgis:c6946fbf6d6e9f8f183b",
+   "geometryHash": "ef4d853cbafff6cf7dbadbe0ff1ea2ef40c1ee72cc84a44ca0404bf803847f3f",
+   "lengthMeters": 1653.9,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     196.9,
+     757.8
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:haraldsbyvagen-sodra-anslutningen",
+   "inputHash": "db9416ee6f5de6fabe996103063c02f29c42bfbe8dfde89e43322eaf825cc932",
+   "geometryId": "geometry:qgis:fe8a51def8d4b65e8f47",
+   "geometryHash": "ac895d05ce8d6bfc62de06213e6f948a76e0480205b3bb7725e07d8c76ccf4e7",
+   "lengthMeters": 60.7,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     60.7
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:haraldsbyvagen",
+   "inputHash": "7ab770fafe30d738cacb02879259bbaff03b574553c627ef3030ed7991f0b0c2",
+   "geometryId": "geometry:qgis:revision:e7842619f9b39e46893e",
+   "geometryHash": "b24ab8894d4caab67bff8e51087c62dcb6a91d9f6773a5c3e53ef43bebf4961f",
+   "lengthMeters": 1506.0,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     910.1
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:gamla-sundsvagen-vaster",
+   "inputHash": "a4c052eab9d079f5d82f678a592c441a953eec8ce0d5a2f2162ea02de4a36b2f",
+   "geometryId": "geometry:qgis:history:c643ce43bd01add37a15",
+   "geometryHash": "4662d60499c559dc798d03879bb85198025d80129f5aa089a8bd796a253bc4eb",
+   "lengthMeters": 470.4,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     470.4
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:gamla-sundsvagen-oster",
+   "inputHash": "88299cfeb2fe67e17f2b67758df8d86a7d622b3d3111c1bcb2ba66769ad5a094",
+   "geometryId": "geometry:qgis:history:b53ba072070cbfc38521",
+   "geometryHash": "9cce17957398a42ab0037e2dd7cf1f9164419c1fa59a79710e0850b8d77fa3c3",
+   "lengthMeters": 319.0,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     319.0
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:finstrom:sundsvagen:godby-farjsundet": "Huvudvägen från Godby till färjläget vid Färjsundet. Sockenkartan för Saltvik 1929 ritar den 60–80 m nordväst om dagens raka väg; längs von Knorringsvägen ligger samma blad 50–70 m nordväst om katalogens väg, så det är samma linje sedd genom bladets förskjutning. Utgåvan 1944 är inpassad omkring 90 m annorlunda här och används inte. Bron öppnades 1937; före den gick färjan.",
+  "road:qgis:saltvik:sundsvagen-varsundet-haraldsby": "Vägen från färjläget på östra sidan av Färjsundet till Vårsundet, där Haraldsbyvägen tar av. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar den på samma sträckning, 30–50 m från objektet som bladet ligger. Resten av objektet, över Östervik, är senare.",
+  "road:qgis:saltvik:haraldsbyvagen-sodra-anslutningen": "Den korta anslutningen vid Vårsundet där vägen till Haraldsby by tar av. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar vägskälet här.",
+  "road:qgis:saltvik:haraldsbyvagen": "Huvudvägen från Vårsundet norrut genom Västerdal och Enelund in i Haraldsby by till Östergård. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar den på samma sträckning som grundkartan 1968, 30–80 m från objektet som bladet ligger. Delen norr om Östergård granskas inte här.",
+  "road:qgis:saltvik:gamla-sundsvagen-vaster": "Huvudvägen från Östergård österut och i kurvan förbi Högbacka. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar samma sträckning som grundkartorna 1968–1993, 30–80 m från objektet som bladet ligger.",
+  "road:qgis:saltvik:gamla-sundsvagen-oster": "Huvudvägen från kurvan vid Högbacka österut till Sundsvägen. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar samma sträckning som grundkartorna 1968–1993, 30–80 m från objektet som bladet ligger."
+ },
+ "geometryNote": "Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartan."
+}

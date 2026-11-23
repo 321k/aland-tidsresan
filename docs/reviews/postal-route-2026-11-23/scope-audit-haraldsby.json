@@ -1,0 +1,39 @@
+{
+ "sources": {
+  "added": [
+   "review:postal-route-haraldsby"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "geometries": {
+  "added": [
+   "geometry:postal-route-haraldsby:gamla-sundsvagen-oster",
+   "geometry:postal-route-haraldsby:gamla-sundsvagen-vaster",
+   "geometry:postal-route-haraldsby:godby-farjsundet",
+   "geometry:postal-route-haraldsby:haraldsbyvagen",
+   "geometry:postal-route-haraldsby:haraldsbyvagen-sodra-anslutningen",
+   "geometry:postal-route-haraldsby:sundsvagen-varsundet-haraldsby"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:finstrom:sundsvagen:godby-farjsundet",
+   "road:qgis:saltvik:gamla-sundsvagen-oster",
+   "road:qgis:saltvik:gamla-sundsvagen-vaster",
+   "road:qgis:saltvik:haraldsbyvagen",
+   "road:qgis:saltvik:haraldsbyvagen-sodra-anslutningen",
+   "road:qgis:saltvik:sundsvagen-varsundet-haraldsby"
+  ]
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "historical-roads.json": "unchanged"
+}

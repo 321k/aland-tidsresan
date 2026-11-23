@@ -86,4 +86,4 @@ The route builder joins a road end to another road within 40 m, so the leg now r
 - **Lappböle sheet edge:** no map earlier than 1968 covers the 181 m gap (`docs/postal-route-sund.md`).
 - **Storby harbour:** the 1929 Eckerö map does not reach it.
 
-Until these are done, Emkarby → Haraldsby and Haraldsby → Skarpans are drawn from the 1968 base maps.
+Färjsundet and Haraldsby are done in `docs/postal-route-haraldsby.md`.

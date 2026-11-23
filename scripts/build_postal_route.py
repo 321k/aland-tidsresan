@@ -5,7 +5,10 @@ objects as they are in the earliest year when they connect the two stations: the
 geometry open that year (vertices joined within SNAP m), shortest path between the road points nearest the stations.
 A station must lie within STATION_LIMIT m of a road that year. Where a road ends within JOIN m of a vertex of another
 road (a junction the maps draw, where one object follows today's road and the other the older line beside it), the
-two are joined by a straight connector; each join used is listed with the leg. Candidate years are the years in which some road period
+two are joined by a straight connector; each join used is listed with the leg. A ferry crossing in the stations file
+('crossings') joins the roads nearest its two landings in years before the bridge ('until'). Among the roads open that
+year, segments that are not on the object's geometry of any period beginning by 'preferEarlyRoads.until' cost 'factor'
+times their length, so the line keeps to the roads of the parish maps where they connect. Candidate years are the years in which some road period
 begins, from 1800 to 2026. The route itself is older (1638–1911); before the leg's year the line shows where the road
 ran when it was first mapped, not a reconstruction. Sea legs stay schematic.
 
@@ -29,7 +32,10 @@ def load():
     return cat, stations
 
 
-def segments(cat, box, year):
+def segments(cat, box, year, early_until=None):
+    """(a, b, object id, early) for each segment of the roads open in year, and the paths' end points. 'early': the
+    segment lies (within 3 m) on the object's geometry of some period beginning by early_until."""
+    from shapely.geometry import LineString, Point
     G = {g['id']: g for g in cat['geometries']}
     x0, y0, x1, y1 = box
     out, ends = [], []
@@ -40,29 +46,34 @@ def segments(cat, box, year):
         gp = next((g for g in o['geometryPeriods'] if g['from'] <= year < (g['to'] or 9999)), None)
         if not st or st['state'] != 'open' or not gp:
             continue
+        olds = None
         for p in G[gp['geometryId']]['paths']:
             m = [TO_METRIC(*q) for q in p]
             if not any(x0 <= x <= x1 and y0 <= y <= y1 for x, y in m):
                 continue
+            if olds is None:
+                olds = [LineString([TO_METRIC(*q) for q in pp]) for g in o['geometryPeriods'] if early_until and g['from'] <= early_until
+                        and next((s for s in o['states'] if s['from'] <= g['from'] < (s['to'] or 9999)), {}).get('state') == 'open'
+                        for pp in G[g['geometryId']]['paths'] if len(pp) > 1]
             for a, b in zip(m, m[1:]):
                 if a != b:
-                    out.append((a, b, o['id']))
+                    out.append((a, b, o['id'], any(l.distance(Point(a)) < 3 and l.distance(Point(b)) < 3 for l in olds)))
             ends += [(m[0], o['id']), (m[-1], o['id'])]
     return out, ends
 
 
-def route(network, s, t):
+def route(network, s, t, crossings=(), prefer=None):
     """Shortest path on the snapped segment graph from the road point nearest s to the one nearest t."""
     segs, ends = network
     key = lambda p: (round(p[0] / SNAP), round(p[1] / SNAP))
     nodes, adj, owners = {}, {}, {}
-    for a, b, oid in segs:
+    for a, b, oid, early in segs:
         owners.setdefault(key(a), set()).add(oid); owners.setdefault(key(b), set()).add(oid)
         ka, kb = key(a), key(b)
         nodes.setdefault(ka, a); nodes.setdefault(kb, b)
         if ka == kb:
             continue
-        d = math.dist(a, b)
+        d = math.dist(a, b) * (prefer['factor'] if prefer and not early else 1)
         adj.setdefault(ka, []).append((kb, d, oid, a, b)); adj.setdefault(kb, []).append((ka, d, oid, b, a))
     if not nodes:
         return None
@@ -79,8 +90,14 @@ def route(network, s, t):
             continue
         k = min(cands, key=lambda k: math.dist(nodes[k], e)); d = math.dist(nodes[k], e)
         if d <= JOIN:
-            adj.setdefault(ke, []).append((k, d, 'join', e, nodes[k])); adj.setdefault(k, []).append((ke, d, 'join', nodes[k], e))
+            w = d * (prefer['factor'] if prefer else 1)     # a join is not a mapped road: it costs as a later piece does
+            adj.setdefault(ke, []).append((k, w, 'join', e, nodes[k])); adj.setdefault(k, []).append((ke, w, 'join', nodes[k], e))
     near = lambda p: min(nodes, key=lambda k: math.dist(nodes[k], p))
+    for c in crossings:                 # a ferry: the road points nearest its two landings, if both are near a road
+        p, q = TO_METRIC(*c['from']), TO_METRIC(*c['to']); kp, kq = near(p), near(q)
+        if math.dist(nodes[kp], p) <= STATION_LIMIT and math.dist(nodes[kq], q) <= STATION_LIMIT and kp != kq:
+            d = math.dist(nodes[kp], nodes[kq])
+            adj.setdefault(kp, []).append((kq, d, 'ferry:' + c['id'], nodes[kp], nodes[kq])); adj.setdefault(kq, []).append((kp, d, 'ferry:' + c['id'], nodes[kq], nodes[kp]))
     ks, kt = near(s), near(t)
     if math.dist(nodes[ks], s) > STATION_LIMIT or math.dist(nodes[kt], t) > STATION_LIMIT:
         return None
@@ -97,17 +114,20 @@ def route(network, s, t):
     if kt not in dist:
         return None
     # The path is made of the traversed segments' own coordinates (consecutive segments meet within SNAP).
-    pts, objs, joins, u = [], [], [], kt
+    pts, objs, joins, ferries, u, length = [], [], [], [], kt, 0
     while u != ks:
         u, oid, a, b = prev[u]
+        length += math.dist(a, b)
         if not pts or pts[-1] != b:
             pts.append(b)
         pts.append(a)
         if oid == 'join':
-            joins.append(round(math.dist(a, b), 1)); continue
+            joins.append([round(math.dist(a, b), 1)] + [round(c, 6) for c in TO_GEO((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)]); continue
+        if oid.startswith('ferry:'):
+            ferries.append(oid[6:]); continue
         if not objs or objs[-1] != oid:
             objs.append(oid)
-    return pts[::-1], objs[::-1], dist[kt], joins[::-1]
+    return pts[::-1], objs[::-1], length, joins[::-1], ferries[::-1]
 
 
 def build():
@@ -123,10 +143,10 @@ def build():
         if leg['by'] == 'road':
             box = (min(s[0], t[0]) - MARGIN, min(s[1], t[1]) - MARGIN, max(s[0], t[0]) + MARGIN, max(s[1], t[1]) + MARGIN)
             for year in years:
-                r = route(segments(cat, box, year), s, t)
+                r = route(segments(cat, box, year, (data.get('preferEarlyRoads') or {}).get('until')), s, t, [c for c in data.get('crossings', []) if year < c['until']], data.get('preferEarlyRoads'))
                 if r:
-                    pts, objs, length, joins = r
-                    out.update(year=year, lengthMeters=round(length), objects=[dict(id=o, name=names[o]) for o in objs], joinsMeters=joins,
+                    pts, objs, length, joins, ferries = r
+                    out.update(year=year, lengthMeters=round(length), objects=[dict(id=o, name=names[o]) for o in objs], joinsMeters=[j[0] for j in joins], joinsAt=[j[1:] for j in joins], ferries=ferries,
                                path=[[round(c, 6) for c in TO_GEO(*s)]] + [[round(c, 6) for c in TO_GEO(*p)] for p in pts] + [[round(c, 6) for c in TO_GEO(*t)]])
                     break
             else:
@@ -134,7 +154,7 @@ def build():
         else:
             out.update(note=leg.get('note', ''))
         legs.append(out)
-        print(leg['from'], '→', leg['to'], out.get('year'), out.get('lengthMeters'), len(out.get('objects', [])), 'objects, joins', out.get('joinsMeters'))
+        print(leg['from'], '→', leg['to'], out.get('year'), out.get('lengthMeters'), len(out.get('objects', [])), 'objects, joins', out.get('joinsMeters'), 'ferries', out.get('ferries'))
     js = ('/* Generated by scripts/build_postal_route.py from data/postal-route-stations.json and the road catalogue. */\n'
           'window.POSTAL_ROUTE_STATIONS=' + json.dumps(data['stations'], ensure_ascii=False, separators=(',', ':')) + ';\n'
           'window.POSTAL_ROUTE_ROADS=' + json.dumps(legs, ensure_ascii=False, separators=(',', ':')) + ';\n')

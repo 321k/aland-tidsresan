@@ -51,8 +51,8 @@ For each road leg the script works as follows:
 |---|---|---|---|
 | Storby → Frebbenby | 1968 | 12.0 km | none |
 | Frebbenby → Emkarby | 1929 | 11.8 km | one, 34 m (the Smedens junction at Drygsböle) |
-| Emkarby → Haraldsby | 1968 | 11.5 km | none |
-| Haraldsby → Skarpans | 1968 | 12.5 km | none |
+| Emkarby → Haraldsby | 1929 | 11.5 km | none; the Färjsundet ferry |
+| Haraldsby → Skarpans | 1968 | 12.9 km | none; through Haraldsby village |
 | Skarpans → Vargata | by boat | schematic | none |
 
 **What the line means.** It shows where the road ran when the maps first draw it connected, not a reconstruction of
@@ -61,7 +61,9 @@ the 18th-century road. The texts in `dist/explorer.js` and the info panel in `di
 **Why some legs are not earlier:**
 - **Storby → Frebbenby:** the 1929 Eckerö map does not reach the harbour, so the road to the post house is dated from
   1968. Before the bridge (1959) the road also crossed Marsund by ferry, which is not a road object.
-- **Emkarby → Haraldsby and Haraldsby → Skarpans:** see the open items in `docs/postal-route-1929.md`.
+- **Haraldsby → Skarpans:** no map earlier than 1968 covers the Lappböle sheet edge (`docs/postal-route-sund.md`).
+
+The ferry crossing and the preference for the parish maps' roads are described in `docs/postal-route-haraldsby.md`.
 
 ## Drawing
 

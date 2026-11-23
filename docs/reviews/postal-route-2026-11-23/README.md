@@ -178,3 +178,16 @@ Files:
 - `scope-audit-1929.json`;
 - `batch-postal-route-roads.patch` with `patch-verification-roads.log`;
 - `node-tests-roads.log`.
+
+## Färjsundet and Haraldsby on the parish maps: done 2026-11-23
+
+See `docs/postal-route-haraldsby.md`. Emkarby → Haraldsby now runs on 1929 roads with the Färjsundet ferry, and
+Haraldsby → Skarpans runs through the village.
+
+Files:
+- `scripts/prepare_haraldsby.py`;
+- the renders `farj-2944.jpg`, `h*-cat.jpg`, `h-sheet.jpg`, `hog*`, `lapp29.jpg`, `lapp44.jpg`, `lapp28b.jpg`,
+  `lapp-parish.jpg` and `route-haraldsby-68.jpg`;
+- `scope-audit-haraldsby.json`;
+- `batch-postal-route-haraldsby.patch` with `patch-verification-haraldsby.log`;
+- `node-tests-haraldsby.log`.

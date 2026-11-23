@@ -39,8 +39,16 @@ class PostalRouteGodbyTests(unittest.TestCase):
     def test_review_applies_once_and_matches_the_build(self):
         catalog = json.loads(json.dumps(self.apply(), ensure_ascii=False))
         key = lambda c: {x['id']: x for x in c['objects']}
+        # Later reviews (docs/postal-route-1929.md, docs/postal-route-haraldsby.md) date some of these objects earlier from
+        # the parish maps; from 1968 on the build still holds exactly what this review made, and all of its evidence.
+        G0 = {g['id']: g for g in catalog['geometries']}; GB = {g['id']: g for g in self.built['geometries']}
+        since = lambda o, k: [x for x in o[k] if x['from'] >= 1968]
         for i in (EM,) + NEW:
-            self.assertEqual(key(catalog)[i], key(self.built)[i])
+            mine, built = key(catalog)[i], key(self.built)[i]
+            self.assertEqual(since(mine, 'states'), since(built, 'states'))
+            self.assertEqual(since(mine, 'geometryPeriods'), since(built, 'geometryPeriods'))
+            self.assertEqual([G0[p['geometryId']] for p in since(mine, 'geometryPeriods')], [GB[p['geometryId']] for p in since(built, 'geometryPeriods')])
+            self.assertLessEqual({e['id'] for e in mine['evidence']}, {e['id'] for e in built['evidence']})
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in (EM,) + NEW], [o for o in self.pristine['objects'] if o['id'] not in (EM,) + NEW])
         em, before = key(catalog)[EM], key(self.pristine)[EM]
         G = {g['id']: g for g in catalog['geometries']}

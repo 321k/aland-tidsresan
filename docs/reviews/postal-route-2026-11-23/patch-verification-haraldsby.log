@@ -1,0 +1,11 @@
+== forward on before-copies
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+patching file 'tests/qgis-roads.test.cjs'
+identical: scripts/build_temporal_objects.py
+identical: dist/index.html
+identical: tests/qgis-roads.test.cjs
+== reverse dry run on working tree
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+patching file 'tests/qgis-roads.test.cjs'
