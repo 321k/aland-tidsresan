@@ -55,7 +55,7 @@ For each road leg the script works as follows:
 | Emkarby → Haraldsby | 1929 | 11.7 km | none; the Färjsundet ferry |
 | Haraldsby → Skarpans | 1968 | 13.1 km | none; through Haraldsby village |
 | Haraldsby → Delvik (1638–1669) | 1985 | 14.7 km | none |
-| Skarpans → Vargata, Delvik → Vargata | by boat, with road parts | see `docs/postal-route-crossings.md` | none |
+| Skarpans → Vargata, Delvik → Vargata, Vargata → Kumlinge | by boat, with road parts | see `docs/postal-route-crossings.md` | none |
 
 **What the line means.** It shows where the road ran when the maps first draw it connected, not a reconstruction of
 the 18th-century road. The texts in `dist/explorer.js` and the info panel in `dist/index.html` say so.
@@ -82,3 +82,5 @@ The ferry crossings (Marsund and Färjsundet; the route never uses the later bri
   - every inner point lies on an object open in the leg's year;
   - the Åland stops are the stations, in order.
 - `tests/transport-routes.test.cjs` (in the patch): the stop list now names the stations.
+
+The route is clickable, and three stations are tied to a building, site or registry entry: see `docs/postal-route-crossings.md`.

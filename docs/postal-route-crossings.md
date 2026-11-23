@@ -138,3 +138,74 @@ Tests:
 - **Pier sites:** the exact sites of the post piers at Delvik and Bomarsund.
 - **East landing at Färjsundet:** where the pre-1761 ferry landed on the east shore.
 - **Delvik on the maps:** the roads to Delvik on a map earlier than 1985.
+
+## Vårdö to Kumlinge (added 2026-11-23)
+
+**Sources:**
+- Swedish Wikipedia, [Vårdö](https://sv.wikipedia.org/wiki/V%C3%A5rd%C3%B6):
+  - the postal road went from Vargata brygga (Båthusviken) through Vargata to Hullvik in Vårdö by;
+  - its last original stretch runs from Holmsklint to Hullvik;
+  - a memorial stone to postmen was raised at Hullvik in 1983.
+- [Postvägen Stockholm–Åbo](https://sv.wikipedia.org/wiki/Postv%C3%A4gen_Stockholm%E2%80%93%C3%85bo): at Vårdö the
+  rowing "took over at Delet towards Kumlinge".
+
+**Where Hullvik is.** No source gives a position. It is placed from Ålands kulturarvsregister: Vå 14.3 and Vå 14.4,
+sea marks "on the south side of the inlet to Hullvik", about 200 m south of the bay.
+
+**The leg Vargata → Kumlinge** (1638–1911):
+
+| part | how | dated from |
+|---|---|---|
+| Vargata → Hullvik | Vårdövägen, Vårdöbyvägen and Postrotevägen (OSM's name for the Holmsklint–Hullvik stretch) to the head of the bay | 1971 |
+| Hullvik → Kumlinge | boat over Delet, 20.4 km (`boat_path.py`) | — |
+| landing → Kumlinge | Södra postvägen, Kumlingevägen and Krokarnavägen | 1985 |
+
+- **The road to Hullvik** ends 78 m from the water.
+- **The landing on Kumlinge** is the south-west end of Södra postvägen, 21 m from the shore. No source names it. The
+  street names "Södra postvägen" and "Norra postvägen" on Kumlinge are the evidence for the line across the island.
+- **Render:** `crossing-delet.png`.
+
+**The Kumlinge station** is the gästgiveri remains at Krokarna (Ku 4.5) on Norra postvägen; see below. The leg from
+Kumlinge on to Brändö stays schematic.
+
+## Stations on buildings, and the clickable route
+
+**Stations tied to a building or site** (`objectId` or `registryId` in `data/postal-route-stations.json`):
+
+| station | tied to | basis |
+|---|---|---|
+| Storby | `building:osm:way-342899630`, Eckerö Post- och Tullhus (1828) | the post and customs house at the start of the route |
+| Skarpans | `bom-gamla-skarpans`, Gamla Skarpans (site) | where the road ended at Skarpgården (Granlund). The post office moved to Nya Skarpans in 1842; this is not drawn |
+| Kumlinge | registry Ku 4.5, Krokarna | foundations of a gästgiveri (krog) on Norra postvägen. That it was the post's stop is an interpretation |
+
+The other stations stay at village points, each with a stated note:
+- **Frebbenby, Emkarby, Haraldsby:** no source identifies the gästgiveri building.
+- **Vargata:** two candidates, neither certain.
+  - the farm "Post" on the 1971–1978 base maps;
+  - "gästgivargården å Västergårds" (1854, per Granlund).
+- **Delvik:** the post pier, not a building.
+
+**The clickable route** (in `dist/explorer.js`):
+- **Hit-testing:** `drawPostal` records every line it draws and every station marker, and `postalHit` hit-tests them
+  after the map's point hits, within 9 px of a station and 8 px of a line.
+- **Leg stories:** clicking a leg opens its story. It shows:
+  - the leg's period;
+  - for each road part, the year and length, and the roads as buttons that open each object;
+  - the ferries with their basis;
+  - the boat note and the sources.
+  The selected leg is drawn thicker.
+- **Sea lines without a reviewed leg** (Grisslehamn–Signilskär, Kumlinge–Brändö and so on) open a short story saying
+  they are schematic.
+- **Station stories:** clicking a station opens its story, with a button for its building or site. The "Visa all
+  objektdata" link goes to that object's page (`dist/object-link.js`). Legs get no such link.
+- **Data:** the builder also writes `window.POSTAL_ROUTE_INFO` (the sources and the ferry crossings) for the stories.
+
+**Checked in the app:**
+- clicking the Delet line opens the Vargata–Kumlinge story;
+- clicking Storby opens the station;
+- its button opens the post and customs house.
+
+**Tests:** `tests/postal-route-click.test.cjs`:
+- the Kumlinge leg;
+- clicking a leg, a sea line and a station;
+- the stations' objects and positions.

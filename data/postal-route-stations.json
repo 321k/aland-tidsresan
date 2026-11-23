@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "reviewedAt": "2026-11-23",
- "note": "The post stations (gästgiverier) of the postal road across Åland, in order from Storby to Vargata. Before 1670 the boat to Vårdö left from Delvik, from 1670 from Bomarsund near Skarpans; 'from'/'to' give the years a station is on the route. Positions: the post and customs house at Storby (OSM building way 342899630), the OSM village points for Frebbenby, Emkarby, Haraldsby and Vargata, and the catalogue's Gamla Skarpans. The village point is not the station building, whose site is not known here. Survey: docs/reviews/postal-route-2026-11-23/README.md.",
+ "note": "The post stations (gästgiverier) of the postal road across Åland, in order from Storby to Vargata and Kumlinge. Before 1670 the boat to Vårdö left from Delvik, from 1670 from Bomarsund near Skarpans; 'from'/'to' give the years a station is on the route. Positions: the post and customs house at Storby (OSM building way 342899630), the OSM village points for Frebbenby, Emkarby, Haraldsby and Vargata, and the catalogue's Gamla Skarpans. The village point is not the station building, whose site is not known here. Survey: docs/reviews/postal-route-2026-11-23/README.md.",
  "sources": [
   {
    "id": "aland-postvagen",
@@ -27,6 +27,26 @@
    "id": "registry-fi-8-17",
    "title": "Ålands kulturarvsregister · Fi 8.17 · Väglämning – Godby",
    "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Fi+8.17%27&outFields=%2A&returnGeometry=false&f=pjson"
+  },
+  {
+   "id": "wikipedia-vardo",
+   "title": "Wikipedia (sv) · Vårdö: postvägen från Vargata brygga (Båthusviken) genom Vargata till Hullvik i Vårdö by",
+   "url": "https://sv.wikipedia.org/wiki/V%C3%A5rd%C3%B6"
+  },
+  {
+   "id": "wikipedia-postvagen-sv",
+   "title": "Wikipedia (sv) · Postvägen Stockholm–Åbo: vid Vårdö tog rodden över vid Delet mot Kumlinge",
+   "url": "https://sv.wikipedia.org/wiki/Postv%C3%A4gen_Stockholm%E2%80%93%C3%85bo"
+  },
+  {
+   "id": "registry-va-14",
+   "title": "Ålands kulturarvsregister · Vå 14.3 och Vå 14.4 · sjömärken på södra sidan av inloppet till Hullvik",
+   "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27V%C3%A5+14.4%27&outFields=%2A&returnGeometry=false&f=pjson"
+  },
+  {
+   "id": "registry-ku-4-5",
+   "title": "Ålands kulturarvsregister · Ku 4.5 · Krokarna: grunder efter ett gästgiveri (krog)",
+   "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ku+4.5%27&outFields=%2A&returnGeometry=false&f=pjson"
   }
  ],
  "stations": [
@@ -35,28 +55,33 @@
    "name": "Storby",
    "lon": 19.543682,
    "lat": 60.220194,
-   "position": "Post- och tullhuset vid hamnen (OSM byggnad 342899630)"
+   "position": "Post- och tullhuset vid hamnen (OSM byggnad 342899630)",
+   "objectId": "building:osm:way-342899630",
+   "identified": "Eckerö post- och tullhus, uppfört 1828 vid postvägens början i Storby."
   },
   {
    "id": "frebbenby",
    "name": "Frebbenby",
    "lon": 19.7118011,
    "lat": 60.2193573,
-   "position": "Byns punkt i OpenStreetMap"
+   "position": "Byns punkt i OpenStreetMap",
+   "note": "Gästgiveriets byggnad är inte identifierad i källorna; stationen visas vid byns punkt."
   },
   {
    "id": "emkarby",
    "name": "Emkarby",
    "lon": 19.8792041,
    "lat": 60.2110448,
-   "position": "Byns punkt i OpenStreetMap"
+   "position": "Byns punkt i OpenStreetMap",
+   "note": "Gästgiveriets byggnad är inte identifierad i källorna; stationen visas vid byns punkt."
   },
   {
    "id": "haraldsby",
    "name": "Haraldsby",
    "lon": 20.0201646,
    "lat": 60.240469,
-   "position": "Byns punkt i OpenStreetMap"
+   "position": "Byns punkt i OpenStreetMap",
+   "note": "Gästgiveriets byggnad är inte identifierad i källorna; stationen visas vid byns punkt."
   },
   {
    "id": "delvik",
@@ -64,7 +89,8 @@
    "lon": 20.211197,
    "lat": 60.246827,
    "to": 1669,
-   "position": "Postbryggan i Delvik (\"Deele Wijken\" på Hans Hanssons karta 1650), vid Delviksvägens ände vid stranden"
+   "position": "Postbryggan i Delvik (\"Deele Wijken\" på Hans Hanssons karta 1650), vid Delviksvägens ände vid stranden",
+   "note": "Postbryggan, inte en byggnad."
   },
   {
    "id": "skarpans",
@@ -72,14 +98,27 @@
    "lon": 20.2110829,
    "lat": 60.2150034,
    "position": "Gamla Skarpans i katalogen",
-   "from": 1670
+   "from": 1670,
+   "objectId": "bom-gamla-skarpans",
+   "identified": "Gamla Skarpans, där vägen slutade vid Skarpgården (Granlund). Postkontoret flyttade 1842 till Nya Skarpans vid Bomarsund (bom-nya-skarpans); här visas stationen vid Gamla Skarpans."
   },
   {
    "id": "vargata",
    "name": "Vargata",
    "lon": 20.3509256,
    "lat": 60.2463982,
-   "position": "Byns punkt i OpenStreetMap"
+   "position": "Byns punkt i OpenStreetMap",
+   "identified": null,
+   "note": "Två kandidater, ingen säkert belagd byggnad: gården \"Post\" norr om Östergård på grundkartorna 1971–1978, och \"gästgivargården å Västergårds i Vargata\" (1854, enligt Granlund). Stationen visas vid byns punkt."
+  },
+  {
+   "id": "kumlinge",
+   "name": "Kumlinge",
+   "lon": 20.779576,
+   "lat": 60.290142,
+   "position": "Krokarna: grunderna efter ett gästgiveri (krog) vid Norra postvägen (fornlämningsregistret Ku 4.5)",
+   "registryId": "Ku 4.5",
+   "identified": "Grunderna efter gästgiveriet i Krokarna, där Norra postvägen går mot Brändö. Registret kallar platsen gästgiveri (krog); att det var postens hållplats är en tolkning."
   }
  ],
  "legs": [
@@ -283,6 +322,102 @@
     ]
    ],
    "note": "Från Skarpans till postbryggan vid Bomarsund (bryggan i viken där vägen förbi ruinerna slutar på sockenkartan 1928) och med båt över Vargata fjärden till Båthusviken i Vargata. Linjen följer vattnet närmaste vägen; den verkliga leden är inte känd."
+  },
+  {
+   "from": "vargata",
+   "to": "kumlinge",
+   "by": "boat",
+   "years": [
+    1638,
+    1911
+   ],
+   "departure": [
+    20.400516,
+    60.254781
+   ],
+   "landing": [
+    20.757326,
+    60.252559
+   ],
+   "water": [
+    [
+     20.400523,
+     60.254777
+    ],
+    [
+     20.40524,
+     60.256558
+    ],
+    [
+     20.415013,
+     60.258144
+    ],
+    [
+     20.524107,
+     60.257937
+    ],
+    [
+     20.529204,
+     60.26043
+    ],
+    [
+     20.531736,
+     60.2606
+    ],
+    [
+     20.684903,
+     60.259898
+    ],
+    [
+     20.686333,
+     60.259173
+    ],
+    [
+     20.713786,
+     60.259028
+    ],
+    [
+     20.719146,
+     60.256306
+    ],
+    [
+     20.733593,
+     60.256227
+    ],
+    [
+     20.737173,
+     60.254771
+    ],
+    [
+     20.738979,
+     60.254761
+    ],
+    [
+     20.740809,
+     60.255828
+    ],
+    [
+     20.742976,
+     60.255816
+    ],
+    [
+     20.749063,
+     60.253448
+    ],
+    [
+     20.755203,
+     60.253413
+    ],
+    [
+     20.756643,
+     60.253226
+    ],
+    [
+     20.757332,
+     60.252557
+    ]
+   ],
+   "note": "Från Vargata genom Vårdö by på Postrotevägen till Hullvik, med båt över Delet till Södra postvägen på Kumlinge och genom Kumlinge by längs Norra postvägen till gästgiveriet i Krokarna. Linjen över Delet följer vattnet närmaste vägen; den verkliga leden är inte känd."
   }
  ],
  "crossings": [

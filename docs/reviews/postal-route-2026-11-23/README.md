@@ -221,3 +221,12 @@ Files:
 - `scope-audit-crossings.json`;
 - `batch-postal-route-crossings.patch` with `patch-verification-crossings.log`;
 - `node-tests-crossings.log`.
+
+## Vårdö to Kumlinge, stations on buildings, clickable route: done 2026-11-23
+
+See `docs/postal-route-crossings.md` (the last two sections).
+
+Files:
+- the renders `vardo71.jpg`, `vargata-post71.jpg` and `crossing-delet.png`;
+- `batch-postal-route-kumlinge.patch` with `patch-verification-kumlinge.log`;
+- `node-tests-kumlinge.log`.
