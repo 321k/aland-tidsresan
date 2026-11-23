@@ -75,7 +75,7 @@ owns. Output: `osm-route.txt`. `scripts/which_sheet.py` lists the registered bas
 | Frebbenby → Emkarby | connected | — |
 | Emkarby → Haraldsby | breaks for 5 km (2.8 km in 1995) | Postgårdsvägen, Nya Godbyvägen and Sundsvägen from Godby to Färjsundet and Haraldsby are unowned. Registered base maps: 101209 and 102107 (1968–1993). |
 | Haraldsby → Kastelholm | connected | — |
-| Kastelholm → Skarpans | breaks for 181 m (1968) and 97 m (1995–) | Tosarbyvägen and several Sundsvägen ways are unowned. These are the Sundsvägen review's open gaps at Klippan (`docs/sundsvagen.md`). |
+| Kastelholm → Skarpans | breaks for 181 m (1968) and 97 m (1995–) | Tosarbyvägen and several Sundsvägen ways are unowned. These are the Sundsvägen review's open gaps at Klippan (`docs/sundsvagen.md`). Done 2026-11-23, see below. |
 | Skarpans → Vargata | the sound | Prästö and Vårdö: registered base maps 101212, 101403 and 102301 (1968–1995). Prästö is an open item in the Sundsvägen review. |
 
 Notes:
@@ -151,3 +151,16 @@ See `docs/postal-route-storby.md`. Sheet 1012 15 is registered from the cached s
 `data/registrations-101215.json`. Also added: `scripts/prepare_storby.py`, the renders `harbour-101215-*` and `reg/`,
 `scope-audit-storby.json`, `batch-postal-route-storby.patch` with `patch-verification-storby.log`, and
 `node-tests-storby.log`.
+
+## Kastelholm → Skarpans on the base maps: done 2026-11-23
+
+See `docs/postal-route-sund.md`. The leg now connects on dated roads from 1968. Three short Sundsvägen pieces were
+added: at the Lappböle sheet edge from 1968, and on both sides of Klippan from 1978. The 1968 straight road at Klippan
+is left to the Sundsvägen review. The Tosarbyvägen hole came from the Kastelholm stop point, off the route.
+
+Files:
+- `scripts/prepare_sund.py`;
+- the renders `lappbole-*`, `lappz-*`, `lappj-*`, `klippan-*`, `klippw-*`, `klippe-*` and `klipp-we-sheet.jpg`;
+- `scope-audit-sund.json`;
+- `batch-postal-route-sund.patch` with `patch-verification-sund.log`;
+- `node-tests-sund.log`.

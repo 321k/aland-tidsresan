@@ -1,0 +1,35 @@
+{
+ "sources": {
+  "added": [
+   "review:postal-route-sund",
+   "road:sund:sundsvagen:klippan-ost:survey",
+   "road:sund:sundsvagen:klippan-vast:survey",
+   "road:sund:sundsvagen:lappbole-bladkant:survey"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "geometries": {
+  "added": [
+   "geometry:sund:sundsvagen:klippan-ost",
+   "geometry:sund:sundsvagen:klippan-vast",
+   "geometry:sund:sundsvagen:lappbole-bladkant"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "objects": {
+  "added": [
+   "road:sund:sundsvagen:klippan-ost",
+   "road:sund:sundsvagen:klippan-vast",
+   "road:sund:sundsvagen:lappbole-bladkant"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ }
+}

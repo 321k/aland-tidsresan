@@ -1,0 +1,564 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "maps": {
+  "1968-lappbole": {
+   "sourceId": "nls:102110:1968",
+   "year": 1968
+  },
+  "1978-lappbole": {
+   "sourceId": "nls:102110:1978",
+   "year": 1978
+  },
+  "1985-lappbole": {
+   "sourceId": "nls:102110:1985",
+   "year": 1985
+  },
+  "1993-lappbole": {
+   "sourceId": "nls:102110:1993",
+   "year": 1993
+  },
+  "1968-klippan": {
+   "sourceId": "nls:101212:1968",
+   "year": 1968
+  },
+  "1978-klippan": {
+   "sourceId": "nls:101212:1978",
+   "year": 1978
+  },
+  "1985-klippan": {
+   "sourceId": "nls:101212:1985",
+   "year": 1985
+  },
+  "1994-klippan": {
+   "sourceId": "nls:101212:1994",
+   "year": 1994
+  }
+ },
+ "stagePrefix": "postal-route-sund",
+ "source": {
+  "id": "review:postal-route-sund",
+  "title": "Sundsvägens luckor vid Lappböle och Klippan på grundkartorna · granskning",
+  "url": "assets/postal-route-sund.json"
+ },
+ "method": "Grundkartbladen 1021 10 (Lappböle) och 1012 12 (Klippan), 1968–1994, med dagens vägar och ett rutnät på 100 m ovanpå.",
+ "surveySources": [
+  {
+   "id": "road:sund:sundsvagen:lappbole-bladkant:survey",
+   "title": "OpenStreetMap · Sundsvägen vid Lappböle",
+   "url": "https://www.openstreetmap.org/way/71081797",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:sund:sundsvagen:klippan-vast:survey",
+   "title": "OpenStreetMap · Sundsvägen vid Klippan",
+   "url": "https://www.openstreetmap.org/way/615021065",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:sund:sundsvagen:klippan-ost:survey",
+   "title": "OpenStreetMap · Sundsvägen öster om Klippan",
+   "url": "https://www.openstreetmap.org/way/614875759",
+   "issuedAt": "2026"
+  }
+ ],
+ "newRoads": [
+  {
+   "id": "road:sund:sundsvagen:lappbole-bladkant",
+   "name": "Sundsvägen · Lappböle vid bladkanten",
+   "routeId": "road:route:sundsvagen",
+   "modernRoadClass": "primary",
+   "roadWidth": 3,
+   "firstYear": 1968,
+   "surveySourceId": "road:sund:sundsvagen:lappbole-bladkant:survey",
+   "maps": {
+    "1968-lappbole": "present",
+    "1978-lappbole": "present",
+    "1985-lappbole": "present",
+    "1993-lappbole": "present"
+   },
+   "start": "road:qgis:saltvik:sundsvagen-lappbole-bladgransen",
+   "end": "road:qgis:bomarsund:sundsvagen-2-100km5",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      20.0942952069822,
+      60.2295902888108
+     ],
+     [
+      20.094305,
+      60.229585
+     ],
+     [
+      20.095016,
+      60.229143
+     ],
+     [
+      20.09626308292403,
+      60.228289056076974
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/71081797",
+     "sourceVertexRange": [
+      4.9854703,
+      6.67665921
+     ],
+     "sourceVertexCount": 67,
+     "input": "5921a2e63df431b52c1694cb574e43431797d67157a64a73b251eb760061bbf0",
+     "basis": "Sundsvägen vid bladkanten i Lappböle, mellan Saltviksdelen och del 2, som den kartlagts detta år."
+    }
+   ],
+   "basis": "Sundsvägen sydost om Lappböle, mellan Saltviksdelen (som slutar vid en bladkant) och del 2. Grundkartan 1021 10 ritar vägen i dagens läge 1968, 1978, 1985 och 1993. Före 1968 är biten okänd; den lämnas tom.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (Sundsvägen, way 71081797 mellan de två ägda delarna), använd som stabilt läge från 1968."
+  },
+  {
+   "id": "road:sund:sundsvagen:klippan-vast",
+   "name": "Sundsvägen · Klippan",
+   "routeId": "road:route:sundsvagen",
+   "modernRoadClass": "primary",
+   "roadWidth": 3,
+   "firstYear": 1978,
+   "surveySourceId": "road:sund:sundsvagen:klippan-vast:survey",
+   "maps": {
+    "1978-klippan": "present",
+    "1985-klippan": "present",
+    "1994-klippan": "present"
+   },
+   "start": "road:qgis:bomarsund:sundsvagen-2-100km5",
+   "end": "road:qgis:bomarsund:sundsvagen-3-100km5",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      20.159689,
+      60.223588
+     ],
+     [
+      20.160025,
+      60.223582
+     ],
+     [
+      20.160093,
+      60.223581
+     ],
+     [
+      20.160178,
+      60.223582
+     ],
+     [
+      20.160241,
+      60.223585
+     ],
+     [
+      20.160318,
+      60.223593
+     ],
+     [
+      20.160383,
+      60.223601
+     ],
+     [
+      20.160567,
+      60.223605
+     ],
+     [
+      20.160681,
+      60.223607
+     ],
+     [
+      20.160988,
+      60.223608
+     ],
+     [
+      20.161089,
+      60.223609
+     ],
+     [
+      20.161161,
+      60.223612
+     ],
+     [
+      20.161209,
+      60.223615
+     ],
+     [
+      20.161922,
+      60.223614
+     ],
+     [
+      20.162477,
+      60.223609
+     ],
+     [
+      20.162823,
+      60.223606
+     ],
+     [
+      20.163509,
+      60.2236
+     ],
+     [
+      20.163751,
+      60.223596
+     ],
+     [
+      20.163988,
+      60.223577
+     ],
+     [
+      20.164012,
+      60.223577
+     ],
+     [
+      20.164043,
+      60.223577
+     ],
+     [
+      20.164325,
+      60.223591
+     ],
+     [
+      20.164467,
+      60.223581
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/615021066",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "614f40b0db85c67c7b1fd27a9f4cc3a5de325bb47ee8fe44a3c315c8a97a756c",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-615021066",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "dfde2d21c7476bea3352b15856915c13a89db3ca98bade27593d64e2fcb880ad",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-615021066",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "dfde2d21c7476bea3352b15856915c13a89db3ca98bade27593d64e2fcb880ad",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/615021068",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "85afe45151eedfc8ab09e4a7ed4693fdbd40a49f086be6a279a010322ce28798",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-615021068",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "23a790fda06e700b75bca2324ee00fce45f6391af95989713e714fac690621b4",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-615021068",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "23a790fda06e700b75bca2324ee00fce45f6391af95989713e714fac690621b4",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/615021062",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "11ac1dfb1c64c057fc45d10bd5f97cf8cb70759b19bf78d718040b2919e9a42d",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-615021062",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "7cc594ac1a62a3d130c2d0802d9710125e46acce58961b1e77a53d766e0faf3d",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-615021062",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "7cc594ac1a62a3d130c2d0802d9710125e46acce58961b1e77a53d766e0faf3d",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/615021067",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "5ae3ac40ac89d06d6b3045c975a1e10424326ece6b60fb2c5181015f5268e8a1",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-615021067",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "ce7200dc84a26340b90533e8884096b70bbd36dc1b4c7dfbb119bf24ce13da87",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-615021067",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "ce7200dc84a26340b90533e8884096b70bbd36dc1b4c7dfbb119bf24ce13da87",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/615021065",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "42a0465017f3598179ba5d9483b68b4cfc76dd9874457cfa15088132f39542d7",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-615021065",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "aa04e2c3ead3c096acef7008d10ce728bb548adc63bd13fd679a1c06933c93b3",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-615021065",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "aa04e2c3ead3c096acef7008d10ce728bb548adc63bd13fd679a1c06933c93b3",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/613972003",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "5ebd56701a12ef1a611b8ef2f33ed5d5bac2d333408f7cee5655bb1eaa2c1ec6",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/614875755",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "9db975f7ce944244ca500e072f8fc5fc1341c81d55d20f2f21dd903df156a7f1",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-614875755",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "e4012bb60aca09dff2c3e92cb74ce979e718dccc6f70e3197603240f783e6b28",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-614875755",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "e4012bb60aca09dff2c3e92cb74ce979e718dccc6f70e3197603240f783e6b28",
+     "basis": "Sundsvägen raka sträckan vid Klippan mellan del 2 och del 3, som den kartlagts detta år."
+    }
+   ],
+   "basis": "Den raka Sundsvägen vid Klippan mellan del 2 och del 3. Grundkartan 1012 12 ritar den 1978, 1985 och 1994. Grundkartan 1968 ritar redan den raka vägen här, men katalogen följer Sundsvägsgranskningen, som låter den gamla landsvägen förbi Klippan vara huvudvägen till 1978 och daterar del 2 och del 3 från 1978. Biten dateras därför här från 1978, liksom grannarna; 1968 är en öppen fråga för Sundsvägsgranskningen (docs/postal-route-sund.md).",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (sju bitar av Sundsvägen, de östgående vid korsningen med Svensbölevägen), använd som stabilt läge från 1978."
+  },
+  {
+   "id": "road:sund:sundsvagen:klippan-ost",
+   "name": "Sundsvägen · öster om Klippan",
+   "routeId": "road:route:sundsvagen",
+   "modernRoadClass": "primary",
+   "roadWidth": 3,
+   "firstYear": 1978,
+   "surveySourceId": "road:sund:sundsvagen:klippan-ost:survey",
+   "maps": {
+    "1978-klippan": "present",
+    "1985-klippan": "present",
+    "1994-klippan": "present"
+   },
+   "start": "road:qgis:bomarsund:sundsvagen-3-100km5",
+   "end": "road:qgis:bomarsund:sundsvagen-1-100km5",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      20.16978,
+      60.223543
+     ],
+     [
+      20.16989,
+      60.223541
+     ],
+     [
+      20.170039,
+      60.223537
+     ],
+     [
+      20.170114,
+      60.223535
+     ],
+     [
+      20.17045,
+      60.223524
+     ],
+     [
+      20.170739,
+      60.223508
+     ],
+     [
+      20.170895,
+      60.223486
+     ],
+     [
+      20.171006,
+      60.223471
+     ],
+     [
+      20.171109,
+      60.223461
+     ],
+     [
+      20.171204,
+      60.223456
+     ],
+     [
+      20.17135,
+      60.223452
+     ],
+     [
+      20.171526,
+      60.223449
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/614875759",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "c0b75ebdf6d98612e91accc8ceae5808bc9ed07f3da6383e6dd4476a147d9ac1",
+     "basis": "Sundsvägen vid Klippan mellan del 3 och del 1, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-614875759",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "c0b75ebdf6d98612e91accc8ceae5808bc9ed07f3da6383e6dd4476a147d9ac1",
+     "basis": "Sundsvägen vid Klippan mellan del 3 och del 1, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-614875759",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "c0b75ebdf6d98612e91accc8ceae5808bc9ed07f3da6383e6dd4476a147d9ac1",
+     "basis": "Sundsvägen vid Klippan mellan del 3 och del 1, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/613971997",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "f57fbee2df6290c3a7577053e1d086b5107bd1ddee14bd2f56e9e36829ac8f2f",
+     "basis": "Sundsvägen vid Klippan mellan del 3 och del 1, som den kartlagts detta år."
+    }
+   ],
+   "basis": "Sundsvägen från korsningen vid Klippanvägen österut till del 1. Grundkartan 1012 12 ritar den 1978, 1985 och 1994. Före 1978 hör sträckan till den gamla landsvägen Hallbacka–Klippan.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (två bitar av Sundsvägen, den östgående vid korsningen), använd som stabilt läge från 1978."
+  }
+ ],
+ "stageFeatures": []
+}
