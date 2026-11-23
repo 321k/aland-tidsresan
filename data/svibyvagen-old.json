@@ -1,0 +1,196 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "source": {
+  "id": "review:svibyvagen-old",
+  "title": "Den gamla vägen genom Sviby på sockenkartorna 1928–1953 · granskning",
+  "url": "assets/svibyvagen-old.json"
+ },
+ "sources": [
+  {
+   "id": "road:jomala:gamla-vagen:sviby:survey",
+   "title": "OpenStreetMap · vägen vid flygfältet i Sviby, Jomala",
+   "url": "https://www.openstreetmap.org/way/162795209",
+   "issuedAt": "2026"
+  }
+ ],
+ "maps": {
+  "1928-hammarudda": {
+   "sourceId": "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "year": 1928
+  },
+  "1944-kungso": {
+   "sourceId": "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "year": 1944
+  },
+  "1953-kungso": {
+   "sourceId": "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "year": 1953
+  },
+  "1978-gottby": {
+   "sourceId": "nls:101205:1978",
+   "year": 1978
+  }
+ },
+ "connections": [
+  {
+   "id": "road:qgis:gottby:utangsvagen-100km5",
+   "hash": "12dd7d111fb2e474b4a3cef355ad7e69f307e98a15ad7add396d0d6d85fb0ed8",
+   "earlyPeriods": 1
+  }
+ ],
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m. Sockenkartan 1929 ligger 50–80 m fel vid sin västra kant; utgåvan 1948 av samma blad och bladen 1928–1953 för Kungsö ligger inom 10–30 m.",
+ "oldRoads": [
+  {
+   "id": "road:jomala:gamla-vagen:sviby",
+   "name": "Gamla vägen genom Sviby",
+   "routeId": "road:route:hammarland-sviby",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 4,
+   "firstYear": 1928,
+   "mainUntil": 1978,
+   "surveySourceId": "road:jomala:gamla-vagen:sviby:survey",
+   "maps": {
+    "1928-hammarudda": "present",
+    "1944-kungso": "present",
+    "1953-kungso": "present",
+    "1978-gottby": "present"
+   },
+   "mainUntilBasis": "Grundkartan 1978 ritar flygfältet över vägens västra hälft och Flygfältsvägen bredvid den; bara vägens första 200 m öster om Utängsvägen ritas, fram till flygfältets stängsel. Bladet 1012 05 har ingen grundkarta från 1968, så när vägen bröts mellan 1953 och 1978 är inte känt.",
+   "paths": [
+    [
+     [
+      19.89759092311314,
+      60.12594999152942
+     ],
+     [
+      19.898115,
+      60.125729
+     ],
+     [
+      19.898292,
+      60.125729
+     ],
+     [
+      19.898477,
+      60.125704
+     ],
+     [
+      19.898655,
+      60.125672
+     ],
+     [
+      19.899238,
+      60.12554
+     ],
+     [
+      19.900189,
+      60.125326
+     ],
+     [
+      19.9082589,
+      60.1238958
+     ],
+     [
+      19.9118584,
+      60.1232161
+     ],
+     [
+      19.9154577,
+      60.1225452
+     ],
+     [
+      19.9172396,
+      60.1223992
+     ]
+    ]
+   ],
+   "lengthMeters": 1166.7,
+   "laterPaths": [
+    [
+     [
+      19.898115,
+      60.125729
+     ],
+     [
+      19.898292,
+      60.125729
+     ],
+     [
+      19.898477,
+      60.125704
+     ],
+     [
+      19.898655,
+      60.125672
+     ],
+     [
+      19.899238,
+      60.12554
+     ],
+     [
+      19.900189,
+      60.125326
+     ]
+    ]
+   ],
+   "laterCanonicalRanges": [
+    [
+     0.032692,
+     0.139479
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/162795209",
+     "sourceVertexRange": [
+      15,
+      20
+     ],
+     "sourceVertexCount": 21,
+     "basis": "Vägen vid flygfältets stängsel, den gamla vägens första bit öster om Utängsvägen, som den kartlagts i dag. Resten av vägen (åt sydväst) är en senare väg runt flygfältet och ingår inte."
+    }
+   ],
+   "trace": [
+    [
+     20494307.309742592,
+     6668109.742194348
+    ],
+    [
+     20494600,
+     6668000
+    ],
+    [
+     20494900,
+     6667880
+    ],
+    [
+     20495100,
+     6667804
+    ],
+    [
+     20495300,
+     6667729
+    ],
+    [
+     20495399.03896058,
+     6667712.602575355
+    ]
+   ],
+   "sameRoadMeters": 20,
+   "endsOn": [
+    {
+     "path": 0,
+     "end": -1,
+     "objectId": "road:qgis:gottby:norra-svibyvagen-100km5",
+     "basis": "Vägen slutar i en trevägskorsning på Norra Svibyvägen, nära det objektets södra ände."
+    }
+   ],
+   "basis": "Vägen från Hammarland gick från Utängsvägens östra ände rakt österut genom Sviby till Norra Svibyvägen. Sockenkartan 1928 och utgåvorna 1944 och 1953 ritar den. Sockenkartan 1929 för Mariehamn ritar ingen direkt väg vidare österut mot Svibyvägen; vägen mot staden gick norrut längs Norra Svibyvägen och sedan Kasbergsvägen.",
+   "traceBasis": "Mittlinjen följer OpenStreetMap där vägen finns kvar (vägen vid flygfältets stängsel) och är avläst för hand på sockenkartan 1928 och utgåvan 1953 (rutnät 100 m), som stämmer inom 20 m, där inget finns kvar. Den västra änden är Utängsvägens östra ände, den östra en punkt på Norra Svibyvägen.",
+   "laterBasis": "Efter flygfältet (grundkartan 1978) visas bara vägens första bit öster om Utängsvägen, som finns kvar vid flygfältets stängsel, med samma koordinater."
+  }
+ ]
+}

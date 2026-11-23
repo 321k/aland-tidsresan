@@ -1,0 +1,117 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:svibyvagen-1929:",
+ "source": {
+  "id": "review:svibyvagen-kasberg",
+  "title": "Kasbergsvägen vid Talläsen på sockenkartan 1929 och grundkartorna · granskning",
+  "url": "assets/svibyvagen-kasberg.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-mariehamn": {
+   "sourceId": "nls:9c76c492-0456-43c6-9478-b2aa0034b26c",
+   "year": 1929
+  },
+  "1948-mariehamn": {
+   "sourceId": "nls:9c72a694-1238-40a8-a8ca-33c754332810",
+   "year": 1948
+  },
+  "1968-mariehamn": {
+   "sourceId": "nls:101208:1968",
+   "year": 1968
+  },
+  "1978-mariehamn": {
+   "sourceId": "nls:101208:1978",
+   "year": 1978
+  },
+  "1985-mariehamn": {
+   "sourceId": "nls:101208:1985",
+   "year": 1985
+  }
+ },
+ "early": [
+  {
+   "objectId": "road:qgis:mariehamn:kasbergsvagen-200km2",
+   "inputHash": "0478575871d22b2272fc7229ad136fcf2fa2c951aecbe393d844a3b4237d3be2",
+   "geometryId": "geometry:qgis:373e69cf855740a40d60",
+   "geometryHash": "e10558bef054b0d4623df0af32963104bf405de17604523ba827e4ab89926d4a",
+   "lengthMeters": 826.3,
+   "firstYear": 1929,
+   "until": 1985,
+   "maps": {
+    "1929-mariehamn": "present",
+    "1948-mariehamn": "present",
+    "1968-mariehamn": "present",
+    "1978-mariehamn": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     475.0
+    ],
+    [
+     625.0,
+     826.3
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:mariehamn:kasbergsvagen-200km2": "Kasbergsvägen från Norra Svibyvägen förbi Talläsen mot Kasbergsgatan är vägen på sockenkartan 1929 och utgåvan 1948 och på grundkartorna 1968 och 1978, utom vid Talläsen. Där gick vägen i en vinkel österut och sedan söderut; den raka diagonalen ritas först 1985."
+ },
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m. Sockenkartan 1929 ligger 50–80 m fel vid sin västra kant; utgåvan 1948 av samma blad och bladen 1928–1953 för Kungsö ligger inom 10–30 m.",
+ "geometryNote": "Delar av objektets egen geometri (samma koordinater) där vägen är vägen på sockenkartan 1929.",
+ "oldRoad": {
+  "id": "road:jomala:gamla-kasbergsvagen:tallasen",
+  "name": "Gamla Kasbergsvägen · Talläsen",
+  "routeId": "road:route:kasbergsvagen",
+  "modernRoadClass": "residential",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "until": 1985,
+  "maps": {
+   "1929-mariehamn": "present",
+   "1948-mariehamn": "present",
+   "1968-mariehamn": "present",
+   "1978-mariehamn": "present",
+   "1985-mariehamn": "absent"
+  },
+  "path": [
+   [
+    19.9209684,
+    60.1266631
+   ],
+   [
+    19.9226974,
+    60.1265617
+   ],
+   [
+    19.9228784,
+    60.1260951
+   ],
+   [
+    19.922749,
+    60.1256564
+   ]
+  ],
+  "lengthMeters": 199.1,
+  "referenceRange": [
+   0,
+   null
+  ],
+  "endSnapMeters": [
+   0.0,
+   0.0
+  ],
+  "endSnapLimit": 1,
+  "endObjects": [
+   "road:qgis:mariehamn:kasbergsvagen-200km2"
+  ],
+  "todayRoadName": "Kasbergsvägen",
+  "basis": "Vid Talläsen gick Kasbergsvägen i en vinkel: österut och sedan söderut längs backen. Sockenkartan 1929, utgåvan 1948 och grundkartorna 1968 och 1978 ritar vinkeln. Grundkartan 1985 ritar i stället dagens raka diagonal. Den gamla vinkeln finns inte i OpenStreetMap.",
+  "traceBasis": "Mittlinjen är avläst för hand på grundkartan 1968 och flyttad 18 m österut, kartans avvikelse från dagens väg där de två sammanfaller. Båda ändarna ligger på dagens Kasbergsvägen.",
+  "afterNote": "Grundkartan 1985 ritar inte vinkeln. Exakt när den togs ur bruk är inte känt."
+ }
+}

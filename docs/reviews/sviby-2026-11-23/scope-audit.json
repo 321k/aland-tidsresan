@@ -1,0 +1,42 @@
+{
+ "objects": {
+  "added": [
+   "road:jomala:gamla-kasbergsvagen:tallasen",
+   "road:jomala:gamla-vagen:sviby",
+   "road:jomala:kasbergsgatan"
+  ],
+  "removed": [],
+  "changed": [
+   "road:qgis:gottby:norra-svibyvagen-100km5",
+   "road:qgis:mariehamn:kasbergsvagen-200km2",
+   "road:qgis:mariehamn:svibyvagen-1-200km2"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:jomala:gamla-kasbergsvagen:tallasen",
+   "geometry:jomala:gamla-vagen:sviby",
+   "geometry:jomala:gamla-vagen:sviby:surviving",
+   "geometry:jomala:kasbergsgatan",
+   "geometry:svibyvagen-1929:kasbergsvagen-200km2",
+   "geometry:svibyvagen-1929:norra-svibyvagen-100km5",
+   "geometry:svibyvagen-1929:svibyvagen-1-200km2"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:svibyvagen",
+   "review:svibyvagen-kasberg",
+   "review:svibyvagen-old",
+   "road:jomala:gamla-vagen:sviby:survey",
+   "road:jomala:kasbergsgatan:survey"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "other": [
+  "recordedAt"
+ ]
+}

@@ -59,5 +59,6 @@ only part of its way, and the early period does too, as the 1968–1994 periods 
 - Ödanbölevägen: only its southernmost few hundred metres are on the 1928 sheet; the rest is a post-1929 addition.
   It stays 1968.
 - The 1917 route: Furubacksvägen versus Krossvägen, which the Senate atlas cannot separate.
-- The route from Mariehamn to Sviby, east of the 1928 sheet.
+- The route from Mariehamn to Sviby: done 2026-11-23, see `docs/svibyvagen.md`. In 1929 it ran from Utängsvägen through
+  Sviby to Norra Svibyvägen, and on to the town by Kasbergsvägen and Svibyvägen.
 - The 1968 Gottby sheet (101205): is the Gottby straight older than 1978?

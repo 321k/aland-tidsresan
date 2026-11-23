@@ -1,0 +1,13 @@
+== forward on before-copies
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+patching file 'tests/temporal-objects.test.cjs'
+identical: scripts/build_temporal_objects.py
+identical: dist/index.html
+identical: tests/temporal-objects.test.cjs
+== reverse dry run on working tree
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+patching file 'tests/temporal-objects.test.cjs'
+== stat
+214

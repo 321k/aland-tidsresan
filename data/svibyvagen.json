@@ -1,0 +1,244 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:svibyvagen-1929:",
+ "source": {
+  "id": "review:svibyvagen",
+  "title": "Vägen från Hammarland genom Sviby mot Mariehamn på sockenkartorna 1928 och 1929 · granskning",
+  "url": "assets/svibyvagen.json"
+ },
+ "sources": [],
+ "maps": {
+  "1928-hammarudda": {
+   "sourceId": "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "year": 1928
+  },
+  "1929-mariehamn": {
+   "sourceId": "nls:9c76c492-0456-43c6-9478-b2aa0034b26c",
+   "year": 1929
+  },
+  "1944-kungso": {
+   "sourceId": "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "year": 1944
+  },
+  "1953-kungso": {
+   "sourceId": "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "year": 1953
+  },
+  "1968-mariehamn": {
+   "sourceId": "nls:101208:1968",
+   "year": 1968
+  },
+  "1978-mariehamn": {
+   "sourceId": "nls:101208:1978",
+   "year": 1978
+  },
+  "1985-mariehamn": {
+   "sourceId": "nls:101208:1985",
+   "year": 1985
+  },
+  "1995-mariehamn": {
+   "sourceId": "nls:101208:1995",
+   "year": 1995
+  }
+ },
+ "early": [
+  {
+   "objectId": "road:qgis:gottby:norra-svibyvagen-100km5",
+   "inputHash": "fcbe0a1c29f58945b1fd38de0ab0df7d22d2f970b82b24373ac81e239a37ed06",
+   "geometryId": "geometry:qgis:91c26b237c79eac19dc3",
+   "geometryHash": "987626d0a3fa3b04245daad6e9f43c8f0c22a4edd82a27af8cba97b9dc9bf220",
+   "lengthMeters": 1441.4,
+   "firstYear": 1928,
+   "until": 1978,
+   "maps": {
+    "1928-hammarudda": "present",
+    "1929-mariehamn": "present",
+    "1944-kungso": "present",
+    "1953-kungso": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1441.4
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:mariehamn:svibyvagen-1-200km2",
+   "inputHash": "360d1c0ccf44efcf9cafdc187d3cff6b2a2a2e4b8cbf518427621fe9aeb8ac96",
+   "geometryId": "geometry:qgis:70427ba3e9debebeff79",
+   "geometryHash": "6df130deaa14a8f82ceea081f608af1cb33fe43b1313b1abbc2413229fa84d9c",
+   "lengthMeters": 933.4,
+   "firstYear": 1929,
+   "until": 1937,
+   "maps": {
+    "1929-mariehamn": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     933.4
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:gottby:norra-svibyvagen-100km5": "Norra Svibyvägen är vägen på sockenkartan 1928 (Hammarudda–Kungsö) och dess utgåvor 1944 och 1953 (Kungsö), i hela sin längd och inom 10–20 m. Sockenkartan 1929 för Mariehamn kallar den \"Svibyväg\". Bladet 1012 05 har ingen grundkarta från 1968, så objektet var daterat först från 1978.",
+  "road:qgis:mariehamn:svibyvagen-1-200km2": "Svibyvägen från Kasbergsgatan mot staden är vägen på sockenkartan 1929 (Maarianhamina) och dess utgåva 1948, med samma form. Den var daterad först från stadskartan 1937."
+ },
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m. Sockenkartan 1929 ligger 50–80 m fel vid sin västra kant; utgåvan 1948 av samma blad och bladen 1928–1953 för Kungsö ligger inom 10–30 m.",
+ "geometryNote": "Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartorna 1928 och 1929.",
+ "newRoadSource": {
+  "id": "road:jomala:kasbergsgatan:survey",
+  "title": "OpenStreetMap · Kasbergsgatan",
+  "url": "https://www.openstreetmap.org/way/490727406",
+  "issuedAt": "2026"
+ },
+ "newRoad": {
+  "id": "road:jomala:kasbergsgatan",
+  "name": "Kasbergsgatan",
+  "routeId": "road:route:kasbergsgatan",
+  "modernRoadClass": "residential",
+  "roadWidth": 4,
+  "firstYear": 1929,
+  "surveySourceId": "road:jomala:kasbergsgatan:survey",
+  "maps": {
+   "1929-mariehamn": "present",
+   "1968-mariehamn": "present",
+   "1978-mariehamn": "present",
+   "1985-mariehamn": "present",
+   "1995-mariehamn": "present"
+  },
+  "paths": [
+   [
+    [
+     19.923794,
+     60.123943
+    ],
+    [
+     19.924036,
+     60.123447
+    ],
+    [
+     19.924154,
+     60.12322
+    ],
+    [
+     19.924198,
+     60.123124
+    ],
+    [
+     19.924267,
+     60.122991
+    ],
+    [
+     19.924301,
+     60.122931
+    ],
+    [
+     19.924334,
+     60.122873
+    ],
+    [
+     19.924399,
+     60.122765
+    ],
+    [
+     19.924515,
+     60.122594
+    ],
+    [
+     19.924547,
+     60.122547
+    ],
+    [
+     19.924718,
+     60.122321
+    ],
+    [
+     19.924871,
+     60.122113
+    ],
+    [
+     19.924909,
+     60.122057
+    ],
+    [
+     19.924936,
+     60.122006
+    ],
+    [
+     19.924944,
+     60.121982
+    ],
+    [
+     19.924946,
+     60.121966
+    ],
+    [
+     19.924944,
+     60.121951
+    ],
+    [
+     19.924938,
+     60.121936
+    ],
+    [
+     19.924927,
+     60.121918
+    ],
+    [
+     19.92489,
+     60.121883
+    ],
+    [
+     19.924809,
+     60.121825
+    ]
+   ]
+  ],
+  "sourceLinks": [
+   {
+    "datasetId": "osm-2026",
+    "featureId": "way/490727406",
+    "sourceVertexRange": [
+     0,
+     20
+    ],
+    "sourceVertexCount": 21,
+    "input": "3c0c8dcfd69d785c7f172a4a1076b83194757632b4ccb534999d16c88305660b",
+    "basis": "Kasbergsgatan, vägen från Kasbergsvägen till Svibyvägen, som den kartlagts detta år."
+   },
+   {
+    "datasetId": "osm-2021",
+    "featureId": "road-2021-490727406",
+    "sourceVertexRange": [
+     0,
+     19
+    ],
+    "sourceVertexCount": 20,
+    "input": "50bc29644c5b4d69bf3e1ebc79499b3e17fc18194471afa19c908d287513546a",
+    "basis": "Kasbergsgatan, vägen från Kasbergsvägen till Svibyvägen, som den kartlagts detta år."
+   },
+   {
+    "datasetId": "osm-2025",
+    "featureId": "road-2025-490727406",
+    "sourceVertexRange": [
+     0,
+     20
+    ],
+    "sourceVertexCount": 21,
+    "input": "3c0c8dcfd69d785c7f172a4a1076b83194757632b4ccb534999d16c88305660b",
+    "basis": "Kasbergsgatan, vägen från Kasbergsvägen till Svibyvägen, som den kartlagts detta år."
+   }
+  ],
+  "missingExtracts": [
+   "osm-2014"
+  ],
+  "missingExtractsBasis": "I OpenStreetMap 2014 var sträckan en del av Kasbergsvägen (way 23110460), som den raden hör till.",
+  "basis": "Vägen från Kasbergsvägen söderut till Svibyvägen. Sockenkartan 1929 och utgåvan 1948 ritar den som en del av vägen från Kasberget mot staden, och grundkartorna 1968–1995 ritar den. Dagens mittlinje (OpenStreetMap) används som stabilt läge.",
+  "geometryNote": "Kasbergsgatans mittlinje i OpenStreetMap 2026, använd som stabilt läge från 1929."
+ }
+}
