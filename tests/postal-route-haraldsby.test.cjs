@@ -23,7 +23,7 @@ test('from 1929 the road runs on Hamnvägen and along the shore to the Färjsund
 
 test('the postal route crosses Marsund and Färjsundet by ferry and runs through Haraldsby village',()=>{
  const w={};vm.createContext(w);w.window=w;vm.runInContext(fs.readFileSync('dist/postal-route-roads.js','utf8'),w);
- const legs=JSON.parse(JSON.stringify(w.POSTAL_ROUTE_ROADS)),eh=legs.find(l=>l.from==='emkarby'),hs=legs.find(l=>l.from==='haraldsby');
+ const legs=JSON.parse(JSON.stringify(w.POSTAL_ROUTE_ROADS)),eh=legs.find(l=>l.from==='emkarby'&&l.years[0]===1761),hs=legs.find(l=>l.from==='haraldsby'&&l.to==='skarpans');
  assert.equal(eh.year,1929);assert.deepEqual(eh.ferries,['farjsundet']);
  assert.ok(['road:qgis:saltvik:hamnvagen-batch4','road:saltvik:farjvagen:farjsundet'].every(id=>eh.objects.some(o=>o.id===id)));
  assert.ok(!eh.objects.some(o=>o.id==='road:finstrom:sundsvagen:godby-farjsundet'||o.id==='road:historical-dates:farjsund'),'not over the 1937 bridge');

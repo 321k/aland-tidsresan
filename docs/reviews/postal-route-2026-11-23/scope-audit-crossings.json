@@ -1,0 +1,31 @@
+{
+ "sources": {
+  "added": [
+   "review:postal-route-1761",
+   "review:postal-route-1761:fi-8-17",
+   "review:postal-route-1761:postal-1638"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "geometries": {
+  "added": [
+   "geometry:finstrom:gamla-farjvagen:farjsundet"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "objects": {
+  "added": [
+   "road:finstrom:gamla-farjvagen:farjsundet"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "historical-roads.json": "unchanged"
+}

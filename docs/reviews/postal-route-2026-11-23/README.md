@@ -206,3 +206,18 @@ Files:
 - the renders `hamn-*`, `shore*` and `route-*`;
 - `batch-postal-route-ferries.patch` with `patch-verification-ferries.log`;
 - `node-tests-ferries.log`.
+
+## The crossings at Färjsundet and to Vårdö: done 2026-11-23
+
+See `docs/postal-route-crossings.md`.
+- **Färjsundet:** the route crosses at the old ferry place (registry Fi 8.17) until 1760, and at the northern landing
+  from 1761.
+- **Vårdö:** the boat leaves from Delvik until 1669 and from the Bomarsund pier from 1670, to Båthusviken in Vargata.
+
+Files:
+- the scripts `prepare_1761.py` and `boat_path.py`;
+- `data/registry-fi-8-17.json`;
+- the renders `crossing-*.png`, `route-east.png` and `skarp*`;
+- `scope-audit-crossings.json`;
+- `batch-postal-route-crossings.patch` with `patch-verification-crossings.log`;
+- `node-tests-crossings.log`.

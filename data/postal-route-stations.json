@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "reviewedAt": "2026-11-23",
- "note": "The post stations (gästgiverier) of the postal road across Åland, in order from Storby to Vargata. Positions: the post and customs house at Storby (OSM building way 342899630), the OSM village points for Frebbenby, Emkarby, Haraldsby and Vargata, and the catalogue's Gamla Skarpans. The village point is not the station building, whose site is not known here. Survey: docs/reviews/postal-route-2026-11-23/README.md.",
+ "note": "The post stations (gästgiverier) of the postal road across Åland, in order from Storby to Vargata. Before 1670 the boat to Vårdö left from Delvik, from 1670 from Bomarsund near Skarpans; 'from'/'to' give the years a station is on the route. Positions: the post and customs house at Storby (OSM building way 342899630), the OSM village points for Frebbenby, Emkarby, Haraldsby and Vargata, and the catalogue's Gamla Skarpans. The village point is not the station building, whose site is not known here. Survey: docs/reviews/postal-route-2026-11-23/README.md.",
  "sources": [
   {
    "id": "aland-postvagen",
@@ -12,6 +12,21 @@
    "id": "wikipedia-mail-route",
    "title": "Wikipedia · Stockholm–Turku mail route",
    "url": "https://en.wikipedia.org/wiki/Stockholm%E2%80%93Turku_mail_route"
+  },
+  {
+   "id": "granlund-delvik",
+   "title": "Johan Granlund · Stora landsvägen över Åland – postvägen ned till kaj i Delvik (2017)",
+   "url": "http://granlundslada.blogspot.com/2017/06/stora-landsvagen-over-aland-ned-till.html"
+  },
+  {
+   "id": "granlund-finby",
+   "title": "Johan Granlund · Vy över Finby samt karta över Bomarsundsområdet år 1650 (2013)",
+   "url": "http://granlundslada.blogspot.com/2013/01/vy-over-finby.html"
+  },
+  {
+   "id": "registry-fi-8-17",
+   "title": "Ålands kulturarvsregister · Fi 8.17 · Väglämning – Godby",
+   "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Fi+8.17%27&outFields=%2A&returnGeometry=false&f=pjson"
   }
  ],
  "stations": [
@@ -44,11 +59,20 @@
    "position": "Byns punkt i OpenStreetMap"
   },
   {
+   "id": "delvik",
+   "name": "Delvik",
+   "lon": 20.211197,
+   "lat": 60.246827,
+   "to": 1669,
+   "position": "Postbryggan i Delvik (\"Deele Wijken\" på Hans Hanssons karta 1650), vid Delviksvägens ände vid stranden"
+  },
+  {
    "id": "skarpans",
    "name": "Skarpans",
    "lon": 20.2110829,
    "lat": 60.2150034,
-   "position": "Gamla Skarpans i katalogen"
+   "position": "Gamla Skarpans i katalogen",
+   "from": 1670
   },
   {
    "id": "vargata",
@@ -62,28 +86,203 @@
   {
    "from": "storby",
    "to": "frebbenby",
-   "by": "road"
+   "by": "road",
+   "years": [
+    1638,
+    1911
+   ],
+   "crossings": [
+    "marsund"
+   ]
   },
   {
    "from": "frebbenby",
    "to": "emkarby",
-   "by": "road"
+   "by": "road",
+   "years": [
+    1638,
+    1911
+   ],
+   "crossings": []
   },
   {
    "from": "emkarby",
    "to": "haraldsby",
-   "by": "road"
+   "by": "road",
+   "years": [
+    1638,
+    1760
+   ],
+   "crossings": [
+    "farjsundet-1761"
+   ],
+   "note": "Färjan från det gamla färjstället söder om dagens bro, i bruk till 1761 (Fi 8.17)."
+  },
+  {
+   "from": "emkarby",
+   "to": "haraldsby",
+   "by": "road",
+   "years": [
+    1761,
+    1911
+   ],
+   "crossings": [
+    "farjsundet"
+   ],
+   "note": "Färjan från färjstället norr om dagens bro, från 1761."
+  },
+  {
+   "from": "haraldsby",
+   "to": "delvik",
+   "by": "road",
+   "years": [
+    1638,
+    1669
+   ],
+   "crossings": [],
+   "note": "Till postbryggan i Delvik, som Hans Hanssons karta 1650 ritar som vägens slut."
+  },
+  {
+   "from": "delvik",
+   "to": "vargata",
+   "by": "boat",
+   "years": [
+    1638,
+    1669
+   ],
+   "landing": [
+    20.327576,
+    60.241812
+   ],
+   "water": [
+    [
+     20.211199,
+     60.24683
+    ],
+    [
+     20.214436,
+     60.244851
+    ],
+    [
+     20.217299,
+     60.240897
+    ],
+    [
+     20.233494,
+     60.23351
+    ],
+    [
+     20.301714,
+     60.233193
+    ],
+    [
+     20.302433,
+     60.232832
+    ],
+    [
+     20.314704,
+     60.232624
+    ],
+    [
+     20.317243,
+     60.233874
+    ],
+    [
+     20.317276,
+     60.237285
+    ],
+    [
+     20.326345,
+     60.241751
+    ],
+    [
+     20.327574,
+     60.24181
+    ]
+   ],
+   "note": "Båten från Delvik över Vargata fjärden till Båthusviken i Vargata. Linjen följer vattnet närmaste vägen; den verkliga leden är inte känd."
   },
   {
    "from": "haraldsby",
    "to": "skarpans",
-   "by": "road"
+   "by": "road",
+   "years": [
+    1670,
+    1911
+   ],
+   "crossings": []
   },
   {
    "from": "skarpans",
    "to": "vargata",
    "by": "boat",
-   "note": "Båtöverfarten från Bomarsund till Vårdö. Linjen är schematisk."
+   "years": [
+    1670,
+    1911
+   ],
+   "departure": [
+    20.241495,
+    60.214629
+   ],
+   "landing": [
+    20.327576,
+    60.241812
+   ],
+   "water": [
+    [
+     20.241495,
+     60.214629
+    ],
+    [
+     20.242941,
+     60.215066
+    ],
+    [
+     20.242948,
+     60.215964
+    ],
+    [
+     20.244396,
+     60.216679
+    ],
+    [
+     20.24513,
+     60.218293
+    ],
+    [
+     20.250561,
+     60.220796
+    ],
+    [
+     20.250574,
+     60.222591
+    ],
+    [
+     20.262167,
+     60.228313
+    ],
+    [
+     20.3062,
+     60.228398
+    ],
+    [
+     20.317079,
+     60.233758
+    ],
+    [
+     20.317112,
+     60.237169
+    ],
+    [
+     20.326183,
+     60.241814
+    ],
+    [
+     20.327574,
+     60.24181
+    ]
+   ],
+   "note": "Från Skarpans till postbryggan vid Bomarsund (bryggan i viken där vägen förbi ruinerna slutar på sockenkartan 1928) och med båt över Vargata fjärden till Båthusviken i Vargata. Linjen följer vattnet närmaste vägen; den verkliga leden är inte känd."
   }
  ],
  "crossings": [
@@ -113,7 +312,21 @@
     60.238616
    ],
    "until": 1937,
-   "basis": "Färjan över Färjsundet, som sockenkartan för Saltvik 1929 ritar. Västra färjläget är slutet av vägen längs stranden (road:saltvik:farjvagen:farjsundet); det östra är där vägen från Vårsundet når stranden, vid brons östra ände. Bron (road:historical-dates:farjsund) invigdes 4 juli 1937."
+   "basis": "Färjan över Färjsundet från 1761, då ett nytt färjställe anlades norr om dagens bro (Fi 8.17), som sockenkartan för Saltvik 1929 ritar. Västra färjläget är slutet av vägen längs stranden (road:saltvik:farjvagen:farjsundet); det östra är där vägen från Vårsundet når stranden, vid brons östra ände. Bron (road:historical-dates:farjsund) invigdes 4 juli 1937."
+  },
+  {
+   "id": "farjsundet-1761",
+   "name": "Färjsundet (till 1761)",
+   "from": [
+    20.0163535,
+    60.2367117
+   ],
+   "to": [
+    20.017155,
+    60.238616
+   ],
+   "until": 1761,
+   "basis": "Det gamla färjstället söder om dagens bro (Fi 8.17), i bruk till 1761. Var färjan landade på östra stranden är inte känt; linjen går till där vägen från Vårsundet når stranden."
   }
  ],
  "preferEarlyRoads": {

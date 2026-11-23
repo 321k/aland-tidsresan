@@ -1,0 +1,141 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "postalRoute1761Review",
+ "geometryPrefix": "geometry:postal-route-1761:",
+ "source": {
+  "id": "review:postal-route-1761",
+  "title": "Den gamla färjvägen vid Färjsundet, till 1761 · granskning",
+  "url": "assets/postal-route-1761.json"
+ },
+ "sources": [
+  {
+   "id": "review:postal-route-1761:fi-8-17",
+   "title": "Ålands kulturarvsregister · Fi 8.17 · Väglämning – Godby",
+   "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Fi+8.17%27&outFields=%2A&returnGeometry=false&f=pjson",
+   "issuedAt": null
+  },
+  {
+   "id": "review:postal-route-1761:postal-1638",
+   "title": "Postvägen över Åland inrättades 1638 (Ålands landskapsregering; Wikipedia, Stockholm–Turku mail route)",
+   "url": "https://aland.se/besok/sevardheter/postvagen-over-aland/",
+   "issuedAt": null
+  }
+ ],
+ "maps": {
+  "1638-postal": {
+   "sourceId": "review:postal-route-1761:postal-1638",
+   "year": 1638
+  },
+  "1761-registry": {
+   "sourceId": "review:postal-route-1761:fi-8-17",
+   "year": 1761
+  }
+ },
+ "observationTypes": {
+  "1638-postal": "historical-source",
+  "1761-registry": "heritage-register"
+ },
+ "method": "Registrets avgränsning av Fi 8.17 har lagts över katalogens vägar och grundkartan 1968 med ett rutnät på 100 m.",
+ "early": [],
+ "earlyBasis": {},
+ "oldRoad": {
+  "id": "road:finstrom:gamla-farjvagen:farjsundet",
+  "name": "Gamla färjvägen · Färjsundet",
+  "routeId": "road:route:postvagen",
+  "modernRoadClass": "tertiary",
+  "roadWidth": 4,
+  "firstYear": 1638,
+  "until": 1761,
+  "maps": {
+   "1638-postal": "present",
+   "1761-registry": "absent"
+  },
+  "path": [
+   [
+    20.009574,
+    60.23468
+   ],
+   [
+    20.009758,
+    60.234643
+   ],
+   [
+    20.009942,
+    60.23457
+   ],
+   [
+    20.011341016863305,
+    60.23544402496821
+   ],
+   [
+    20.0115156,
+    60.2353749
+   ],
+   [
+    20.0120571,
+    60.2354736
+   ],
+   [
+    20.0125264,
+    60.2355902
+   ],
+   [
+    20.0132304,
+    60.2356799
+   ],
+   [
+    20.0139705,
+    60.2357606
+   ],
+   [
+    20.0145481,
+    60.2358323
+   ],
+   [
+    20.0150716,
+    60.23594
+   ],
+   [
+    20.0154327,
+    60.2361464
+   ],
+   [
+    20.0157036,
+    60.2363887
+   ],
+   [
+    20.0160286,
+    60.2365861
+   ],
+   [
+    20.0163535,
+    60.2367117
+   ]
+  ],
+  "lengthMeters": 481.1,
+  "referenceRange": [
+   0,
+   481.1
+  ],
+  "endSnapMeters": [
+   0.0,
+   0.0
+  ],
+  "endSnapLimit": 1,
+  "endObjects": [
+   "road:qgis:saltvik:von-knorringsvagen-1-batch4"
+  ],
+  "freeEnds": [
+   [
+    0,
+    -1
+   ]
+  ],
+  "freeEndBasis": "Det gamla färjstället på västra stranden av Färjsundet, söder om dagens bro (Fi 8.17).",
+  "todayRoadName": "Sundsvägen",
+  "basis": "Postvägens nedfart till det gamla färjstället vid Färjsundet: enligt fornlämningsregistret (Fi 8.17) en serpentinväg i en brant klyfta, med lämningar av postvägen västerut fram till dagens huvudväg. Den var i bruk till 1761, då ett nytt färjställe anlades norr om dagens bro. När den började användas är inte känt; den visas från postvägens inrättande 1638.",
+  "traceBasis": "Från von Knorringsvägens ände längs dagens huvudväg (dess egna koordinater), där registret säger att postvägens lämningar fortsätter, och sedan längs mitten av registrets avgränsning av Fi 8.17 ned till stranden. Registrets avgränsning omfattar serpentinkurvorna; mittlinjen återger dem inte i detalj.",
+  "afterNote": "Från 1761 gick färjan från det nya färjstället norr om dagens bro (Färjvägen). Vägen finns kvar som fornlämning."
+ }
+}
