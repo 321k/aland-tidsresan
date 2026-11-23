@@ -1,0 +1,300 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:main-roads-saltvik:",
+ "source": {
+  "id": "review:main-roads-saltvik",
+  "title": "Huvudvägarna på grundkartorna i norra och västra Saltvik och i Geta · granskning",
+  "url": "assets/main-roads-saltvik.json"
+ },
+ "sources": [],
+ "maps": {
+  "1968-svartsmara": {
+   "sourceId": "nls:102104:1968",
+   "year": 1968
+  },
+  "1978-svartsmara": {
+   "sourceId": "nls:102104:1978",
+   "year": 1978
+  },
+  "1984-svartsmara": {
+   "sourceId": "nls:102104:1984",
+   "year": 1984
+  },
+  "1968-geta": {
+   "sourceId": "nls:102105:1968",
+   "year": 1968
+  },
+  "1978-geta": {
+   "sourceId": "nls:102105:1978",
+   "year": 1978
+  },
+  "1984-geta": {
+   "sourceId": "nls:102105:1984",
+   "year": 1984
+  },
+  "1968-tjudo": {
+   "sourceId": "nls:102108:1968",
+   "year": 1968
+  },
+  "1978-tjudo": {
+   "sourceId": "nls:102108:1978",
+   "year": 1978
+  },
+  "1984-tjudo": {
+   "sourceId": "nls:102108:1984",
+   "year": 1984
+  },
+  "1968-hamnsund": {
+   "sourceId": "nls:102111:1968",
+   "year": 1968
+  },
+  "1978-hamnsund": {
+   "sourceId": "nls:102111:1978",
+   "year": 1978
+  },
+  "1984-hamnsund": {
+   "sourceId": "nls:102111:1984",
+   "year": 1984
+  },
+  "1968-saltvik": {
+   "sourceId": "nls:102107:1968",
+   "year": 1968
+  },
+  "1978-saltvik": {
+   "sourceId": "nls:102107:1978",
+   "year": 1978
+  }
+ },
+ "method": "Grundkartorna 1021 04, 05, 08 och 11 (1968, 1978, 1984). Vägobjektens linje har jämförts med kartans röda huvudvägssymbol (inom 12 m, docs/reviews/main-roads-2026-11-23/scripts/match_editions.py) och granskats för ögat längs hela linjen.",
+ "early": [
+  {
+   "objectId": "road:qgis:tjudo:tjudovagen-100km1",
+   "inputHash": "0bd5f0354ec2231afab5b692f80b656ee692e19d93683398dc986b2bb7dbb8ce",
+   "geometryId": "geometry:qgis:19fa7935e443e2d6828a",
+   "geometryHash": "c5b30ee525ca0fa18659ad43269468aeb8d91e6eb06abc5dee1d3c00027b5d53",
+   "lengthMeters": 6805.9,
+   "firstYear": 1968,
+   "until": 1984,
+   "maps": {
+    "1968-tjudo": "present",
+    "1968-saltvik": "present",
+    "1978-tjudo": "present",
+    "1978-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     6805.9
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:tjudo:hamnsundsvagen-1-100km1",
+   "inputHash": "9d87216f8018c9116165a678085271d961c93a23134ca01ef1a313ee84fbccf9",
+   "geometryId": "geometry:qgis:fee2472cb41a921b7efb",
+   "geometryHash": "42a3d2b566042f8e10604e23aef5fe96ad9e6344028c1afe477409ac61868aa6",
+   "lengthMeters": 547.3,
+   "firstYear": 1968,
+   "until": 1984,
+   "maps": {
+    "1968-tjudo": "present",
+    "1978-tjudo": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     547.3
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:tjudo:hamnsundsvagen-2-100km1",
+   "inputHash": "ff164e328e1f93082f5a1f70fecb761a13b0df0e82f6c807e790016f6e3fa62b",
+   "geometryId": "geometry:qgis:60a9a6fdd2b7e8a1aa02",
+   "geometryHash": "62441840b3e8baecd449001dffcc5699c30048af2c76b9a433de88cda5710bc3",
+   "lengthMeters": 3613.1,
+   "firstYear": 1968,
+   "until": 1984,
+   "maps": {
+    "1968-tjudo": "present",
+    "1968-hamnsund": "present",
+    "1978-tjudo": "present",
+    "1978-hamnsund": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     3613.1
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:tjudo:hamnsundsvagen-3-100km1",
+   "inputHash": "588e5d3b094b96ad1da37ad9c0b841b343a46b4e73ff3bfa85418f339e911575",
+   "geometryId": "geometry:qgis:863b45faaef3fd0e5ba7",
+   "geometryHash": "d366afd842cda4405119202833f457b0b3e369ca299983c4d02d0d4575018481",
+   "lengthMeters": 810.2,
+   "firstYear": 1968,
+   "until": 1984,
+   "maps": {
+    "1968-tjudo": "present",
+    "1978-tjudo": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     290.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1978,
+    "ranges": [
+     [
+      0.0,
+      810.2
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:svartsmara:skarpnatovagen-3",
+   "inputHash": "711ff51cc9ae328f2273620251455d4e87f916d39bb00c64b14680d132830f8b",
+   "geometryId": "geometry:qgis:de7201bb20326a05358b",
+   "geometryHash": "0ac4c55bdee078d3be1541ae314ff57da28ddfdf6a39312e4ef931a2f48cde3d",
+   "lengthMeters": 3305.9,
+   "firstYear": 1968,
+   "until": 1984,
+   "maps": {
+    "1968-svartsmara": "present",
+    "1978-svartsmara": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     3305.9
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:geta:sodravagen-2-200km2",
+   "inputHash": "372daea3f4798f78241e8dadb476778f28eadb88da7ce0c8504e24530d8eb222",
+   "geometryId": "geometry:qgis:7442f4cf5ee680ba36f7",
+   "geometryHash": "fd36d01ba92a535c22c13a5d498903f8b1f786901b921899948fecf8457da4d2",
+   "lengthMeters": 10449.6,
+   "firstYear": 1968,
+   "until": 1984,
+   "maps": {
+    "1968-geta": "present",
+    "1978-geta": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     2210.0
+    ],
+    [
+     2600.0,
+     5950.0
+    ],
+    [
+     6340.0,
+     10449.6
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:tjudo:tobolevagen-100km1",
+   "inputHash": "b002853bc302169092973acc664df3f001c46fe842b4c4126971785481b750aa",
+   "geometryId": "geometry:qgis:4a2625a8090c0791c20e",
+   "geometryHash": "3c4795cf2e7b05e3d7139797af4cd8a1ce133609408490dc254ca6e4584a9ba4",
+   "lengthMeters": 5112.7,
+   "firstYear": 1968,
+   "until": 1978,
+   "maps": {
+    "1968-tjudo": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     2120.0
+    ],
+    [
+     2540.0,
+     4340.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:hamnsund:hamnsundsvagen-200km2",
+   "inputHash": "df5bc69f89fcbe830996e8a5cf6151d229c6ef5f5c2026e7b8f84dca8e47cc19",
+   "geometryId": "geometry:qgis:f9c104b54f4c117d11ae",
+   "geometryHash": "27b5dc953f77360afc1d5317a63d4c8ed994da125b9c710c8edda884e0415c6a",
+   "lengthMeters": 2864.2,
+   "firstYear": 1968,
+   "until": 1993,
+   "maps": {
+    "1968-hamnsund": "present",
+    "1978-hamnsund": "present",
+    "1984-hamnsund": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1700.0
+    ],
+    [
+     1940.0,
+     2864.2
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:geta:finnovagen-100km4",
+   "inputHash": "b357be9d0bec3b07e4ab392df3024445aa5532b6234aae0428ead57ed073a48c",
+   "geometryId": "geometry:qgis:1668bca015589c64a3d0",
+   "geometryHash": "2195498b5f3953b2abb67e1f7aa3c8db20a9198678729600a03be388d0ad14da",
+   "lengthMeters": 3873.6,
+   "firstYear": 1968,
+   "until": 1993,
+   "maps": {
+    "1968-geta": "present",
+    "1978-geta": "present",
+    "1984-geta": "present"
+   },
+   "ranges": [
+    [
+     1100.0,
+     3873.6
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1984,
+    "ranges": [
+     [
+      590.0,
+      3873.6
+     ]
+    ]
+   }
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:tjudo:tjudovagen-100km1": "Tjudövägen ritas på grundkartorna 1021 07 och 1021 08 från 1968 som huvudväg (röd) på samma linje som i dag, i hela sin längd; vid korsningen vid Backas går kartans väg i en något annan kurva, inom 30 m.",
+  "road:qgis:tjudo:hamnsundsvagen-1-100km1": "Hamnsundsvägen ritas på grundkartan 1021 08 från 1968 som huvudväg på samma linje som i dag.",
+  "road:qgis:tjudo:hamnsundsvagen-2-100km1": "Hamnsundsvägen ritas på grundkartorna 1021 08 och 1021 11 från 1968 som huvudväg på samma linje som i dag; två korta kurvor ligger inom 20 m.",
+  "road:qgis:tjudo:hamnsundsvagen-3-100km1": "Hamnsundsvägen: grundkartan 1968 ritar de första 290 m som huvudväg på samma linje som i dag, och utgåvan 1978 hela sträckan.",
+  "road:qgis:svartsmara:skarpnatovagen-3": "Skarpnåtövägen ritas på grundkartan 1021 04 från 1968 som huvudväg längs samma sträckning som i dag; kartans väg följer några kurvor upp till 30 m från dagens rätade linje.",
+  "road:qgis:geta:sodravagen-2-200km2": "Södravägen ritas på grundkartan 1021 05 från 1968 som huvudväg på samma linje som i dag, utom vid Bolstaholm och vid Östergård, där kartans väg går i äldre bågar 100–150 m från dagens raka väg (inte daterade här). Vid Tallbacka följer kartans väg några kurvor upp till 30 m från dagens linje.",
+  "road:qgis:tjudo:tobolevagen-100km1": "Tobölevägen ritas på grundkartan 1021 08 från 1968 som huvudväg på samma linje som i dag, utom vid Norrgård, där kartans väg går i en båge västerut (inte daterad här). Den sista sträckan längs sjön vid Skaffan finns inte på kartan 1968.",
+  "road:qgis:hamnsund:hamnsundsvagen-200km2": "Hamnsundsvägen ritas på grundkartan 1021 11 från 1968 som huvudväg på samma linje som i dag, utom vid Kroken, där kartans väg går i en båge omkring 60 m österut (inte daterad här).",
+  "road:qgis:geta:finnovagen-100km4": "Finnövägen ritas på grundkartan 1021 05 från 1968 som huvudväg på samma linje som i dag från Långvik västerut; vid Danbo går kartans väg i en båge 40–60 m från dagens linje fram till utgåvan 1984, som ritar dagens linje därifrån. Vägens första del vid Gräggnäs ligger på annan linje på alla utgåvor."
+ },
+ "laterStageBasis": {
+  "road:qgis:tjudo:hamnsundsvagen-3-100km1": "Hamnsundsvägen: grundkartan 1968 ritar de första 290 m som huvudväg på samma linje som i dag, och utgåvan 1978 hela sträckan.",
+  "road:qgis:geta:finnovagen-100km4": "Finnövägen ritas på grundkartan 1021 05 från 1968 som huvudväg på samma linje som i dag från Långvik västerut; vid Danbo går kartans väg i en båge 40–60 m från dagens linje fram till utgåvan 1984, som ritar dagens linje därifrån. Vägens första del vid Gräggnäs ligger på annan linje på alla utgåvor."
+ },
+ "laterStageNote": "Del av objektets egen geometri (samma koordinater), där vägen är huvudvägen på den senare utgåvan.",
+ "geometryNote": "Del av objektets egen geometri (samma koordinater), där dagens väg är den huvudväg grundkartan ritar."
+}

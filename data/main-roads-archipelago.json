@@ -1,0 +1,496 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:main-roads-archipelago:",
+ "source": {
+  "id": "review:main-roads-archipelago",
+  "title": "Huvudvägarna på grundkartorna i skärgården · granskning",
+  "url": "assets/main-roads-archipelago.json"
+ },
+ "sources": [],
+ "maps": {
+  "1968-104103": {
+   "sourceId": "nls:104103:1968",
+   "year": 1968
+  },
+  "1970-101401": {
+   "sourceId": "nls:101401:1970",
+   "year": 1970
+  },
+  "1970-101403": {
+   "sourceId": "nls:101403:1970",
+   "year": 1970
+  },
+  "1970-101404": {
+   "sourceId": "nls:101404:1970",
+   "year": 1970
+  },
+  "1970-101405": {
+   "sourceId": "nls:101405:1970",
+   "year": 1970
+  },
+  "1970-101409": {
+   "sourceId": "nls:101409:1970",
+   "year": 1970
+  },
+  "1971-102301": {
+   "sourceId": "nls:102301:1971",
+   "year": 1971
+  },
+  "1971-102308": {
+   "sourceId": "nls:102308:1971",
+   "year": 1971
+  },
+  "1971-102312": {
+   "sourceId": "nls:102312:1971",
+   "year": 1971
+  },
+  "1978-101401": {
+   "sourceId": "nls:101401:1978",
+   "year": 1978
+  },
+  "1978-101404": {
+   "sourceId": "nls:101404:1978",
+   "year": 1978
+  },
+  "1984-104103": {
+   "sourceId": "nls:104103:1984",
+   "year": 1984
+  }
+ },
+ "method": "Grundkartorna 1014 01, 03, 04, 05, 09, 1023 01, 08, 12 och 1041 03 (1968–1971, och 1978 eller 1984 för en senare etapp). Vägobjektens linje har jämförts med kartans röda huvudvägssymbol (inom 12 m, docs/reviews/main-roads-2026-11-23/scripts/match_editions.py) och granskats för ögat längs hela linjen.",
+ "early": [
+  {
+   "objectId": "road:qgis:sonnboda:foglovagen-200km1",
+   "inputHash": "5d868682963a188b2cb1157feb0d6719a0c38dc3b7b737eda1baf50efb99b099",
+   "geometryId": "geometry:qgis:d0b275eb411530d6d076",
+   "geometryHash": "dfa4f2f019e720571fb97bc783b9053b80525da17d1ea7cfccddfa438c2a0081",
+   "lengthMeters": 9911.6,
+   "firstYear": 1970,
+   "until": 1985,
+   "maps": {
+    "1970-101404": "present",
+    "1978-101404": "present"
+   },
+   "ranges": [
+    [
+     160.0,
+     880.0
+    ],
+    [
+     1470.0,
+     7460.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1978,
+    "ranges": [
+     [
+      0.0,
+      7470.0
+     ]
+    ]
+   },
+   "geometryName": "sonnboda-foglovagen-200km1"
+  },
+  {
+   "objectId": "road:qgis:degerby:foglovagen-200km1",
+   "inputHash": "efd0aca069c30b518f8d9a2bdde6ccc4ab0753bb1ee94aee79e784488106a1ea",
+   "geometryId": "geometry:qgis:639ba61a00eb22f2e005",
+   "geometryHash": "ecf45d6c63173273ae97642a0b6ef8ab8ece33c6ff37b2d7baa877eab2774fd7",
+   "lengthMeters": 5847.7,
+   "firstYear": 1970,
+   "until": 1978,
+   "maps": {
+    "1970-101401": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     4170.0
+    ],
+    [
+     4820.0,
+     5840.0
+    ]
+   ],
+   "geometryName": "degerby-foglovagen-200km1"
+  },
+  {
+   "objectId": "road:qgis:degerby:hummersovagen-200km1",
+   "inputHash": "a4272ee63be2269da1277bb9da144a1f079cee9599907ec99a54d343aec12283",
+   "geometryId": "geometry:qgis:e673c285afdcaf18c38f",
+   "geometryHash": "10c69b14efc69d43e1015826bde3f347d34d36d0c12ec489fa943d67458630cf",
+   "lengthMeters": 5211.8,
+   "firstYear": 1970,
+   "until": 1995,
+   "maps": {
+    "1970-101401": "present",
+    "1978-101401": "present"
+   },
+   "ranges": [
+    [
+     30.0,
+     4100.0
+    ],
+    [
+     4250.0,
+     4970.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1978,
+    "ranges": [
+     [
+      30.0,
+      4100.0
+     ],
+     [
+      4250.0,
+      5211.8
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:fisko:fiskovagen-1-200km2",
+   "inputHash": "0317809a77db422de47c88681a339e3b42c85f72de4ce050e7a50f4475b13f03",
+   "geometryId": "geometry:qgis:41d4f1c2bcd3e5ea6789",
+   "geometryHash": "abb27a5554c06e1ef34a681597d8d392f7cd638b7ac44a9e00030de6526d1102",
+   "lengthMeters": 7624.2,
+   "firstYear": 1971,
+   "until": 1985,
+   "maps": {
+    "1971-102312": "present"
+   },
+   "ranges": [
+    [
+     2320.0,
+     6400.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:overo:overovagen-1-200km1",
+   "inputHash": "0a45303cff976ebef558da6f5d28d86e2bf505abb2506f52bcc69690135e4e40",
+   "geometryId": "geometry:qgis:2532e1fdfc9a8c3fa1f7",
+   "geometryHash": "f7279e60c9cc0219fb0a7215ddffc2651f719eb93cc703168fe3dddc0c9222cc",
+   "lengthMeters": 5057.3,
+   "firstYear": 1970,
+   "until": 1985,
+   "maps": {
+    "1970-101405": "present"
+   },
+   "ranges": [
+    [
+     1050.0,
+     5050.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:vardo:sandovagen-200km1",
+   "inputHash": "aa732726024ba727b1331d8883b17df0879ed6fbc0f3f5c1a994b3ee0ee289f5",
+   "geometryId": "geometry:qgis:b4142d325a58078f8503",
+   "geometryHash": "303a02b5dcf9a7a18f558e682cc0638b9411335a25b3e2a40383ebb294e807b4",
+   "lengthMeters": 5074.5,
+   "firstYear": 1971,
+   "until": 1978,
+   "maps": {
+    "1971-102301": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     3640.0
+    ],
+    [
+     4450.0,
+     4630.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:ava:brandovagen-1-200km2",
+   "inputHash": "d909fb74f16b94cf81608dd94fdbde8168ffea742d38a23899f851dcf27e0ba4",
+   "geometryId": "geometry:qgis:25df615746a4f419c5a0",
+   "geometryHash": "13d6262c0f2ef7823921f971917d7d8c413799ec75d5784becea98258c6b930c",
+   "lengthMeters": 9923.7,
+   "firstYear": 1968,
+   "until": 1991,
+   "maps": {
+    "1968-104103": "present",
+    "1984-104103": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     2510.0
+    ],
+    [
+     7630.0,
+     8980.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1984,
+    "ranges": [
+     [
+      0.0,
+      2520.0
+     ],
+     [
+      3300.0,
+      4560.0
+     ],
+     [
+      5350.0,
+      9910.0
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:enklinge:enklingevagen-200km2",
+   "inputHash": "94a8046c1a8a41e8426fb975349481235fab62533c6d6edfc4626e00cda26fc8",
+   "geometryId": "geometry:qgis:bb54b950a02854cfa9b0",
+   "geometryHash": "fddff79f49a67c118fce9f096ed83e6411426d7867988d73c9c7ddfe8cb37f8f",
+   "lengthMeters": 5377.5,
+   "firstYear": 1971,
+   "until": 1985,
+   "maps": {
+    "1971-102308": "present"
+   },
+   "ranges": [
+    [
+     2180.0,
+     5370.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:overo:overovagen-2-200km1",
+   "inputHash": "2134fa2b316cbc35d019cad3a1713ce5362128c9d5aad30d7dd2b4ebaeb6cd4e",
+   "geometryId": "geometry:qgis:7af8b4ef78f46214383e",
+   "geometryHash": "74ee8f65a03f41861f34da7024b28ac0d8967430d7013ed956d12b9ef19554a4",
+   "lengthMeters": 3155.0,
+   "firstYear": 1970,
+   "until": 1985,
+   "maps": {
+    "1970-101405": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     760.0
+    ],
+    [
+     1010.0,
+     1270.0
+    ],
+    [
+     1390.0,
+     3150.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:tofto:ango-bussovagen-200km1",
+   "inputHash": "bf2c96da0c4d5436b84997b2914c1eab8020408ec565cb79c2d7c643de5887be",
+   "geometryId": "geometry:qgis:9411ce11bb87e214e0ca",
+   "geometryHash": "f6dbffd86706d6702f7bbff67be2527df5f6666b78534a43dac16816e8e49eae",
+   "lengthMeters": 3701.0,
+   "firstYear": 1970,
+   "until": 1985,
+   "maps": {
+    "1970-101403": "present"
+   },
+   "ranges": [
+    [
+     10.0,
+     2810.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:ava:brandovagen-2-200km2",
+   "inputHash": "79a6661ad4124c620d15928d612949d39b1d9823043c1055e80b11f694d7537f",
+   "geometryId": "geometry:qgis:49a9767b9d94425bf286",
+   "geometryHash": "573c141b2dffb8772615a109bb5a14aa801c7fbb3ef94a13799aa752f3c0d764",
+   "lengthMeters": 2665.2,
+   "firstYear": 1968,
+   "until": 1991,
+   "maps": {
+    "1968-104103": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1730.0
+    ],
+    [
+     1880.0,
+     2665.2
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:overo:notovagen-200km1",
+   "inputHash": "cfc4e51946a874876d99526d362f9bece61d401c30f8813292cd147a17361816",
+   "geometryId": "geometry:qgis:ac65460d4bba9949f861",
+   "geometryHash": "eb49dd5497f2cc40981e2dfce7c6fb1d98fa74c7af3afda775ae35abe44c7c89",
+   "lengthMeters": 2702.5,
+   "firstYear": 1970,
+   "until": 1985,
+   "maps": {
+    "1970-101405": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1970.0
+    ],
+    [
+     2330.0,
+     2702.5
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:sonnboda:naversholmavagen-200km1",
+   "inputHash": "eaaba9d7373d7fd9295a7c1a91299c20fc6d888135e8d42ea0fb7c13b60ba051",
+   "geometryId": "geometry:qgis:0e3e1a2d88aa860bf4e9",
+   "geometryHash": "242380d26917c77bf902290965c09f4123b6ea44462500f98d5a3f476ae53a47",
+   "lengthMeters": 4605.3,
+   "firstYear": 1970,
+   "until": 1995,
+   "maps": {
+    "1970-101404": "present",
+    "1978-101404": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     2640.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1978,
+    "ranges": [
+     [
+      0.0,
+      3400.0
+     ],
+     [
+      3510.0,
+      4180.0
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:overo:ulversovagen-100km6",
+   "inputHash": "5fa22a6a24ffdcfda591264fad5616916fda6599da794284ba9e2063179a31c9",
+   "geometryId": "geometry:qgis:b5164b11d97b7fa82a49",
+   "geometryHash": "3e84544eb7fc0d03d60b52fcf306aa92cf36c0e4cd3d5db9de1d307eccc0ec68",
+   "lengthMeters": 2338.5,
+   "firstYear": 1970,
+   "until": 1995,
+   "maps": {
+    "1970-101405": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1060.0
+    ],
+    [
+     2050.0,
+     2338.5
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:sonnboda:bofjardsvagen-1-200km1",
+   "inputHash": "a275b6b1cd44322b3006e4f79b7658ab1db743a8b75023f6726b545d8741483e",
+   "geometryId": "geometry:qgis:7ef08f3955f94df99c86",
+   "geometryHash": "1f04a5ea752814d65095d171f22fcc5921a89845bd16a19f06d1aac0b28fb3eb",
+   "lengthMeters": 1965.3,
+   "firstYear": 1970,
+   "until": 1995,
+   "maps": {
+    "1970-101404": "present",
+    "1978-101404": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1280.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1978,
+    "ranges": [
+     [
+      0.0,
+      1660.0
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:seglinge:seglingevagen-200km2",
+   "inputHash": "35888a7aabe5b11d3fd74fff28b899f31b1b5040d202528dcffaf40a2a26865c",
+   "geometryId": "geometry:qgis:52e59a8df7a547a3530d",
+   "geometryHash": "99c8f42ff9b503b051817147bb3242578b8b0e8b0bb58a5e6b4a946dd1dca408",
+   "lengthMeters": 1658.4,
+   "firstYear": 1970,
+   "until": 1985,
+   "maps": {
+    "1970-101409": "present"
+   },
+   "ranges": [
+    [
+     30.0,
+     740.0
+    ],
+    [
+     910.0,
+     1180.0
+    ],
+    [
+     1460.0,
+     1658.4
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:sonnboda:foglovagen-200km1": "Föglövägen genom Sonnboda ritas på grundkartan 1014 04 från 1970 som huvudväg på samma linje som i dag, utom vid Henriks, där kartans väg går i en båge (inte daterad här); den sista sträckan mot Geta saknas 1970.",
+  "road:qgis:degerby:foglovagen-200km1": "Föglövägen från Degerby ritas på grundkartan 1014 01 från 1970 som huvudväg på samma linje som i dag, utom vid Alkär, där kartans väg går i en båge (inte daterad här).",
+  "road:qgis:degerby:hummersovagen-200km1": "Hummersövägen ritas på grundkartan 1014 01 från 1970 som huvudväg på samma linje som i dag, utom en kort båge och den sista sträckan.",
+  "road:qgis:fisko:fiskovagen-1-200km2": "Fiskövägen ritas på grundkartan 1023 12 från 1971 som huvudväg på samma linje som i dag över mitten av sträckan; ändarna saknas på kartan.",
+  "road:qgis:overo:overovagen-1-200km1": "Överövägen ritas på grundkartan 1014 05 från 1970 som huvudväg på samma linje som i dag från 1 050 m till slutet.",
+  "road:qgis:vardo:sandovagen-200km1": "Sandövägen ritas på grundkartan 1023 01 från 1971 som huvudväg på samma linje som i dag; vid Tällholm saknas en kort sträcka och vägen ut mot Alören.",
+  "road:qgis:ava:brandovagen-1-200km2": "Brändövägen ritas på grundkartan 1041 03 från 1968 som huvudväg på samma linje som i dag vid Åva och vid Djurholm–Finnkors; utgåvan 1984 ritar även sträckorna över Andersör och Nötö.",
+  "road:qgis:enklinge:enklingevagen-200km2": "Enklingevägen ritas på grundkartan 1023 08 från 1971 som huvudväg på samma linje som i dag från byn söderut till Bovik och färjfästet; den norra delen saknas.",
+  "road:qgis:overo:overovagen-2-200km1": "Överövägen ritas på grundkartan 1014 05 från 1970 som huvudväg på samma linje som i dag, utom två korta sträckor.",
+  "road:qgis:tofto:ango-bussovagen-200km1": "Ängö-Bussövägen ritas på grundkartan 1014 03 från 1970 som huvudväg på samma linje som i dag från Ängö till Bussö by; den sista sträckan österut saknas.",
+  "road:qgis:ava:brandovagen-2-200km2": "Brändövägen ritas på grundkartan 1041 03 från 1968 som huvudväg på samma linje som i dag, utom en kort sträcka.",
+  "road:qgis:overo:notovagen-200km1": "Nötövägen ritas på grundkartan 1014 05 från 1970 som huvudväg på samma linje som i dag, utom en kort sträcka.",
+  "road:qgis:sonnboda:naversholmavagen-200km1": "Näversholmavägen ritas på grundkartan 1014 04 från 1970 som huvudväg till Näversholm och från utgåvan 1978 vidare mot Bondbacka; sträckan mot Andholm saknas.",
+  "road:qgis:overo:ulversovagen-100km6": "Ulversövägen ritas på grundkartan 1014 05 från 1970 som huvudväg på samma linje som i dag, utom mittdelen.",
+  "road:qgis:sonnboda:bofjardsvagen-1-200km1": "Bofjärdsvägen ritas på grundkartan 1014 04 från 1970 som huvudväg från Sonnboda, och längre ut från utgåvan 1978.",
+  "road:qgis:seglinge:seglingevagen-200km2": "Seglingevägen ritas på grundkartan 1014 09 från 1970 som huvudväg på samma linje som i dag, utom två korta sträckor vid Månsas."
+ },
+ "laterStageBasis": {
+  "road:qgis:sonnboda:foglovagen-200km1": "Föglövägen genom Sonnboda ritas på grundkartan 1014 04 från 1970 som huvudväg på samma linje som i dag, utom vid Henriks, där kartans väg går i en båge (inte daterad här); den sista sträckan mot Geta saknas 1970.",
+  "road:qgis:degerby:hummersovagen-200km1": "Hummersövägen ritas på grundkartan 1014 01 från 1970 som huvudväg på samma linje som i dag, utom en kort båge och den sista sträckan.",
+  "road:qgis:ava:brandovagen-1-200km2": "Brändövägen ritas på grundkartan 1041 03 från 1968 som huvudväg på samma linje som i dag vid Åva och vid Djurholm–Finnkors; utgåvan 1984 ritar även sträckorna över Andersör och Nötö.",
+  "road:qgis:sonnboda:naversholmavagen-200km1": "Näversholmavägen ritas på grundkartan 1014 04 från 1970 som huvudväg till Näversholm och från utgåvan 1978 vidare mot Bondbacka; sträckan mot Andholm saknas.",
+  "road:qgis:sonnboda:bofjardsvagen-1-200km1": "Bofjärdsvägen ritas på grundkartan 1014 04 från 1970 som huvudväg från Sonnboda, och längre ut från utgåvan 1978."
+ },
+ "laterStageNote": "Del av objektets egen geometri (samma koordinater), där vägen är huvudvägen på den senare utgåvan.",
+ "geometryNote": "Del av objektets egen geometri (samma koordinater), där dagens väg är den huvudväg grundkartan ritar."
+}

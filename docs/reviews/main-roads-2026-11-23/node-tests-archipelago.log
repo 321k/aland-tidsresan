@@ -1,0 +1,4396 @@
+TAP version 13
+# Subtest: aerial observations belong to persistent objects and expose all ten dated outcomes
+ok 1 - aerial observations belong to persistent objects and expose all ten dated outcomes
+  ---
+  duration_ms: 5.446458
+  type: 'test'
+  ...
+# Subtest: aerial reconstruction preserves original phases while distinguishing construction and finished roofs
+ok 2 - aerial reconstruction preserves original phases while distinguishing construction and finished roofs
+  ---
+  duration_ms: 0.173708
+  type: 'test'
+  ...
+# Subtest: future photo geometry needs an explicit inference and positive evidence
+ok 3 - future photo geometry needs an explicit inference and positive evidence
+  ---
+  duration_ms: 5745.944667
+  type: 'test'
+  ...
+# Subtest: additional outline interpretations preserve the original aerial review and count distinct photo years
+ok 4 - additional outline interpretations preserve the original aerial review and count distinct photo years
+  ---
+  duration_ms: 4.245542
+  type: 'test'
+  ...
+# Subtest: circa-1800 roads use earlier detailed geometry and retain all subsequent history
+not ok 5 - circa-1800 roads use earlier detailed geometry and retain all subsequent history
+  ---
+  duration_ms: 41.812083
+  type: 'test'
+  location: '/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/alvin-road-dating.test.cjs:9:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - 'circa'
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 'circa'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/alvin-road-dating.test.cjs:15:36)
+    Test.runInAsyncScope (node:async_hooks:226:14)
+    Test.run (node:internal/test_runner/test:1118:25)
+    Test.start (node:internal/test_runner/test:1015:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17)
+  ...
+# Subtest: later realignments and modern water crossings keep their dates
+ok 6 - later realignments and modern water crossings keep their dates
+  ---
+  duration_ms: 0.4975
+  type: 'test'
+  ...
+# Subtest: schematic Alvin traces remain inspectable but cannot duplicate the normal dated roads
+ok 7 - schematic Alvin traces remain inspectable but cannot duplicate the normal dated roads
+  ---
+  duration_ms: 71.498833
+  type: 'test'
+  ...
+# Subtest: early roads do not bring the city plan, museum yards or stale hit targets into 1800
+ok 8 - early roads do not bring the city plan, museum yards or stale hit targets into 1800
+  ---
+  duration_ms: 0.245584
+  type: 'test'
+  ...
+# Subtest: 1894 evidence is not a construction date, and persistent geometry survives every later source switch
+ok 9 - 1894 evidence is not a construction date, and persistent geometry survives every later source switch
+  ---
+  duration_ms: 53.774041
+  type: 'test'
+  ...
+# Subtest: modern and historical snapshot aliases resolve to the same object, retaining unmatched source remainders
+ok 10 - modern and historical snapshot aliases resolve to the same object, retaining unmatched source remainders
+  ---
+  duration_ms: 0.480041
+  type: 'test'
+  ...
+# Subtest: atlas lines retire only when the corresponding persistent road is visible; unresolved corridors remain
+ok 11 - atlas lines retire only when the corresponding persistent road is visible; unresolved corridors remain
+  ---
+  duration_ms: 0.986208
+  type: 'test'
+  ...
+# Subtest: Emkarbyvägen correspondence reaches its dated eastern end without swallowing the whole regional route
+ok 12 - Emkarbyvägen correspondence reaches its dated eastern end without swallowing the whole regional route
+  ---
+  duration_ms: 1.153625
+  type: 'test'
+  ...
+# Subtest: atlas dating starts in 1894 with later detailed geometry and keeps one identity through source changes
+ok 13 - atlas dating starts in 1894 with later detailed geometry and keeps one identity through source changes
+  ---
+  duration_ms: 22.357875
+  type: 'test'
+  ...
+# Subtest: atlas dates do not flatten real later reroutings or backdate deferred bridge routes
+ok 14 - atlas dates do not flatten real later reroutings or backdate deferred bridge routes
+  ---
+  duration_ms: 1.7515
+  type: 'test'
+  ...
+# Subtest: dated atlas roads are selectable at every zoom without showing the schematic source lines
+ok 15 - dated atlas roads are selectable at every zoom without showing the schematic source lines
+  ---
+  duration_ms: 27.839
+  type: 'test'
+  ...
+# Subtest: Bomarsund buildings do not predate their documented start or overview attestation
+ok 16 - Bomarsund buildings do not predate their documented start or overview attestation
+  ---
+  duration_ms: 0.669583
+  type: 'test'
+  ...
+# Subtest: unfinished hospital and magazine never become complete buildings
+ok 17 - unfinished hospital and magazine never become complete buildings
+  ---
+  duration_ms: 0.0585
+  type: 'test'
+  ...
+# Subtest: 1854 and present day preserve fortress ruins but hide expired settlements by default
+ok 18 - 1854 and present day preserve fortress ruins but hide expired settlements by default
+  ---
+  duration_ms: 0.09025
+  type: 'test'
+  ...
+# Subtest: the main plan and other mapped areas retain source geometry, while symbols are explicitly schematic
+ok 19 - the main plan and other mapped areas retain source geometry, while symbols are explicitly schematic
+  ---
+  duration_ms: 0.833375
+  type: 'test'
+  ...
+# Subtest: hit targets cover a building polygon and its label, and distant clicks miss
+ok 20 - hit targets cover a building polygon and its label, and distant clicks miss
+  ---
+  duration_ms: 0.952917
+  type: 'test'
+  ...
+# Subtest: overview suppresses tiny detailed plans while zoom reveals map geometry and clickable labels
+ok 21 - overview suppresses tiny detailed plans while zoom reveals map geometry and clickable labels
+  ---
+  duration_ms: 1.545375
+  type: 'test'
+  ...
+# Subtest: photo wall plan is reproducible, closed, and keeps the archived OSM exterior
+ok 22 - photo wall plan is reproducible, closed, and keeps the archived OSM exterior
+  ---
+  duration_ms: 7.163125
+  type: 'test'
+  ...
+# Subtest: fortress renderer draws every wall section and mapped tower outlines
+ok 23 - fortress renderer draws every wall section and mapped tower outlines
+  ---
+  duration_ms: 0.480291
+  type: 'test'
+  ...
+# Subtest: photo evidence supports geometry separately from fortress chronology
+ok 24 - photo evidence supports geometry separately from fortress chronology
+  ---
+  duration_ms: 2307.674917
+  type: 'test'
+  ...
+# Subtest: Ceders main house and newer barn receive their own construction dates
+ok 25 - Ceders main house and newer barn receive their own construction dates
+  ---
+  duration_ms: 1.144208
+  type: 'test'
+  ...
+# Subtest: Lillstugan keeps its construction interval and excludes the later northern extension
+ok 26 - Lillstugan keeps its construction interval and excludes the later northern extension
+  ---
+  duration_ms: 0.407
+  type: 'test'
+  ...
+# Subtest: documentary dates are not fabricated map observations
+ok 27 - documentary dates are not fabricated map observations
+  ---
+  duration_ms: 0.166
+  type: 'test'
+  ...
+# Subtest: site links lead to identified buildings and unresolved neighbours remain unchanged
+ok 28 - site links lead to identified buildings and unresolved neighbours remain unchanged
+  ---
+  duration_ms: 10.808375
+  type: 'test'
+  ...
+# Subtest: church review covers every mapped worship building, including unnamed and misclassified records
+ok 29 - church review covers every mapped worship building, including unnamed and misclassified records
+  ---
+  duration_ms: 284.064042
+  type: 'test'
+  ...
+# Subtest: modern church buildings begin at construction or inauguration, not OSM collection dates
+ok 30 - modern church buildings begin at construction or inauguration, not OSM collection dates
+  ---
+  duration_ms: 1.123917
+  type: 'test'
+  ...
+# Subtest: medieval dating remains approximate and later rebuilding does not erase the older church
+ok 31 - medieval dating remains approximate and later rebuilding does not erase the older church
+  ---
+  duration_ms: 0.515834
+  type: 'test'
+  ...
+# Subtest: dated churches render before the modern survey without inventing earlier map observations
+ok 32 - dated churches render before the modern survey without inventing earlier map observations
+  ---
+  duration_ms: 237.765
+  type: 'test'
+  ...
+# Subtest: register site dating is distinguished from the present building and linked to research
+ok 33 - register site dating is distinguished from the present building and linked to research
+  ---
+  duration_ms: 5.066541
+  type: 'test'
+  ...
+# Subtest: every rendered roof has a canonical identity, including the rest of Åland
+ok 34 - every rendered roof has a canonical identity, including the rest of Åland
+  ---
+  duration_ms: 367.858083
+  type: 'test'
+  ...
+# Subtest: unavailable catalogue never falls back to source snapshots
+ok 35 - unavailable catalogue never falls back to source snapshots
+  ---
+  duration_ms: 14.081042
+  type: 'test'
+  ...
+# Subtest: source-only symbols cannot bypass the catalogue
+ok 36 - source-only symbols cannot bypass the catalogue
+  ---
+  duration_ms: 149.628667
+  type: 'test'
+  ...
+# Subtest: named houses and library stories attach to exactly one physical object
+ok 37 - named houses and library stories attach to exactly one physical object
+  ---
+  duration_ms: 338.265167
+  type: 'test'
+  ...
+# Subtest: known demolition removes the original without transferring identity to its replacement
+ok 38 - known demolition removes the original without transferring identity to its replacement
+  ---
+  duration_ms: 111.228875
+  type: 'test'
+  ...
+# Subtest: unmatched museum objects retain identity and shape across all source changes
+ok 39 - unmatched museum objects retain identity and shape across all source changes
+  ---
+  duration_ms: 494.691625
+  type: 'test'
+  ...
+# Subtest: building visibility follows object state and layer controls
+ok 40 - building visibility follows object state and layer controls
+  ---
+  duration_ms: 522.552833
+  type: 'test'
+  ...
+# Subtest: canonical hit targets remain selectable and disappear when zoomed out
+ok 41 - canonical hit targets remain selectable and disappear when zoomed out
+  ---
+  duration_ms: 615.178042
+  type: 'test'
+  ...
+# Subtest: source collections remain inspectable and link to their physical buildings
+ok 42 - source collections remain inspectable and link to their physical buildings
+  ---
+  duration_ms: 32.803291
+  type: 'test'
+  ...
+# Subtest: reviewed neighborhood roofs use merged identities and dated replacements in the real layer
+ok 43 - reviewed neighborhood roofs use merged identities and dated replacements in the real layer
+  ---
+  duration_ms: 730.822958
+  type: 'test'
+  ...
+# Subtest: city grid changes only at source boundaries and never backdates the built city
+ok 44 - city grid changes only at source boundaries and never backdates the built city
+  ---
+  duration_ms: 114.933209
+  type: 'test'
+  ...
+# Subtest: traced grids have connected intersections, finite geometry and source metadata
+ok 45 - traced grids have connected intersections, finite geometry and source metadata
+  ---
+  duration_ms: 63.166792
+  type: 'test'
+  ...
+# Subtest: city geometry and hit targets disappear outside its period or when disabled
+ok 46 - city geometry and hit targets disappear outside its period or when disabled
+  ---
+  duration_ms: 527.139375
+  type: 'test'
+  ...
+# Subtest: feature stories distinguish planned streets, inferred blocks and undated roof symbols
+ok 47 - feature stories distinguish planned streets, inferred blocks and undated roof symbols
+  ---
+  duration_ms: 532.739125
+  type: 'test'
+  ...
+# Subtest: aligned esplanade parks explain the interpretation and link their original map
+ok 48 - aligned esplanade parks explain the interpretation and link their original map
+  ---
+  duration_ms: 1158.09875
+  type: 'test'
+  ...
+# Subtest: established modern city streets retain identical geometry between 2014 and 2023
+ok 49 - established modern city streets retain identical geometry between 2014 and 2023
+  ---
+  duration_ms: 101.508958
+  type: 'test'
+  ...
+# Subtest: unified recent streets replace underlying roads within the city at every zoom
+ok 50 - unified recent streets replace underlying roads within the city at every zoom
+  ---
+  duration_ms: 52.16925
+  type: 'test'
+  ...
+# Subtest: city-plan transform maps interpreted controls and preserves map orientation
+ok 51 - city-plan transform maps interpreted controls and preserves map orientation
+  ---
+  duration_ms: 1.354542
+  type: 'test'
+  ...
+# Subtest: 1860 comparison stays explicitly a plan when viewing today and has independent loading state
+ok 52 - 1860 comparison stays explicitly a plan when viewing today and has independent loading state
+  ---
+  duration_ms: 0.455792
+  type: 'test'
+  ...
+# Subtest: museum map preserves decade dating and source when compared with today
+ok 53 - museum map preserves decade dating and source when compared with today
+  ---
+  duration_ms: 0.267125
+  type: 'test'
+  ...
+# Subtest: failed remote museum image keeps source guidance and does not replace the 1860 image
+ok 54 - failed remote museum image keeps source guidance and does not replace the 1860 image
+  ---
+  duration_ms: 1.10975
+  type: 'test'
+  ...
+# Subtest: eleven road identities and all source links converge on one persistent, selectable Emkarbyvägen
+ok 55 - eleven road identities and all source links converge on one persistent, selectable Emkarbyvägen
+  ---
+  duration_ms: 114.159834
+  type: 'test'
+  ...
+# Subtest: older bends survive until the mapped straightening; the eastern part is drawn only where the maps were reviewed
+ok 56 - older bends survive until the mapped straightening; the eastern part is drawn only where the maps were reviewed
+  ---
+  duration_ms: 1.244167
+  type: 'test'
+  ...
+# Subtest: surviving old bends belong to the main road before 1978 without duplicate local lines
+ok 57 - surviving old bends belong to the main road before 1978 without duplicate local lines
+  ---
+  duration_ms: 9.771959
+  type: 'test'
+  ...
+# Subtest: dated, curated and uncertain archaeology are filtered separately
+ok 58 - dated, curated and uncertain archaeology are filtered separately
+  ---
+  duration_ms: 2.229708
+  type: 'test'
+  ...
+# Subtest: modern geometry never renders at historical dates
+ok 59 - modern geometry never renders at historical dates
+  ---
+  duration_ms: 0.49675
+  type: 'test'
+  ...
+# Subtest: reviewed outer-island context follows its evidence date without repainting the sea or earlier eras
+ok 60 - reviewed outer-island context follows its evidence date without repainting the sea or earlier eras
+  ---
+  duration_ms: 0.996833
+  type: 'test'
+  ...
+# Subtest: published datasets have unique objects, real geometry and expected counts
+ok 61 - published datasets have unique objects, real geometry and expected counts
+  ---
+  duration_ms: 292.6425
+  type: 'test'
+  ...
+# Subtest: expired sites disappear at period boundaries and gaps, with older traces opt-in
+ok 62 - expired sites disappear at period boundaries and gaps, with older traces opt-in
+  ---
+  duration_ms: 9.698375
+  type: 'test'
+  ...
+# Subtest: searching an expired settlement jumps to its period without enabling old traces
+ok 63 - searching an expired settlement jumps to its period without enabling old traces
+  ---
+  duration_ms: 0.916792
+  type: 'test'
+  ...
+# Subtest: broad registry dates do not turn the present into an archaeology map
+ok 64 - broad registry dates do not turn the present into an archaeology map
+  ---
+  duration_ms: 1.907584
+  type: 'test'
+  ...
+# Subtest: land-context dates apply to map availability and are explained separately from evidence
+ok 65 - land-context dates apply to map availability and are explained separately from evidence
+  ---
+  duration_ms: 11.897334
+  type: 'test'
+  ...
+# Subtest: Bomarsund registry fortification uses 1832 construction, not the Sentid lower bound
+ok 66 - Bomarsund registry fortification uses 1832 construction, not the Sentid lower bound
+  ---
+  duration_ms: 0.282542
+  type: 'test'
+  ...
+# Subtest: 1929–1967 the old main road runs from Godby village over Bartsgårda, Ödkarby and Sålis to Avanåker
+ok 67 - 1929–1967 the old main road runs from Godby village over Bartsgårda, Ödkarby and Sålis to Avanåker
+  ---
+  duration_ms: 3.122917
+  type: 'test'
+  ...
+# Subtest: from 1968 today's Getavägen is whole; the old roads stay as they are mapped today
+ok 68 - from 1968 today's Getavägen is whole; the old roads stay as they are mapped today
+  ---
+  duration_ms: 0.686708
+  type: 'test'
+  ...
+# Subtest: Tjudö and Geta: from 1927 the old loop past Lignell and the curve at Östergeta (Skräddarsvägen)
+ok 69 - Tjudö and Geta: from 1927 the old loop past Lignell and the curve at Östergeta (Skräddarsvägen)
+  ---
+  duration_ms: 0.837
+  type: 'test'
+  ...
+# Subtest: the 1894 atlas line is not drawn beside the 1929 Hammarlandsvägen (Kattby–Smedens)
+ok 70 - the 1894 atlas line is not drawn beside the 1929 Hammarlandsvägen (Kattby–Smedens)
+  ---
+  duration_ms: 31.777875
+  type: 'test'
+  ...
+# Subtest: the old Näfsby and Smedens lines and the Näfsby roads retire the atlas line through their 1929 geometry
+ok 71 - the old Näfsby and Smedens lines and the Näfsby roads retire the atlas line through their 1929 geometry
+  ---
+  duration_ms: 0.880416
+  type: 'test'
+  ...
+# Subtest: in 1929–1955 the road from the narrow sound runs along the shore, past Klemes and Sundkvist to Marby, as one line
+ok 72 - in 1929–1955 the road from the narrow sound runs along the shore, past Klemes and Sundkvist to Marby, as one line
+  ---
+  duration_ms: 14.679166
+  type: 'test'
+  ...
+# Subtest: from 1956 the road runs on Marbyvägen to the sound and the shore road is gone; the link at Sundkvist until 1968
+ok 73 - from 1956 the road runs on Marbyvägen to the sound and the shore road is gone; the link at Sundkvist until 1968
+  ---
+  duration_ms: 1.303834
+  type: 'test'
+  ...
+# Subtest: Marsundsvägen to the ferry pier is drawn from 1929, the rest of it still from 1994
+ok 74 - Marsundsvägen to the ferry pier is drawn from 1929, the rest of it still from 1994
+  ---
+  duration_ms: 2.840375
+  type: 'test'
+  ...
+# Subtest: in 1929–1958 the road runs from Kattby west through Frebbenby to Marsundsvägen, with the 27 m junction link
+ok 75 - in 1929–1958 the road runs from Kattby west through Frebbenby to Marsundsvägen, with the 27 m junction link
+  ---
+  duration_ms: 0.3145
+  type: 'test'
+  ...
+# Subtest: 1929–1955: the road from the narrow sound runs straight across Holmberg to the ferry pier
+ok 76 - 1929–1955: the road from the narrow sound runs straight across Holmberg to the ferry pier
+  ---
+  duration_ms: 4.197958
+  type: 'test'
+  ...
+# Subtest: Öravägen from 1956, with its OSM line, owning the way in every extract so it is drawn once
+ok 77 - Öravägen from 1956, with its OSM line, owning the way in every extract so it is drawn once
+  ---
+  duration_ms: 306.498375
+  type: 'test'
+  ...
+# Subtest: Kattby westwards is drawn from the 1929 parish maps, not only from the 1959 bridge assumption
+ok 78 - Kattby westwards is drawn from the 1929 parish maps, not only from the 1959 bridge assumption
+  ---
+  duration_ms: 5.282792
+  type: 'test'
+  ...
+# Subtest: in 1929–1958 the road runs on from the church corridor without a gap
+ok 79 - in 1929–1958 the road runs on from the church corridor without a gap
+  ---
+  duration_ms: 0.283833
+  type: 'test'
+  ...
+# Subtest: the Eckerö sheets are cited as their own sources
+ok 80 - the Eckerö sheets are cited as their own sources
+  ---
+  duration_ms: 1.027625
+  type: 'test'
+  ...
+# Subtest: 1929–1958: from Kyrkoby the road runs on the old lines and the connection’s stretches, one connected line to Storby
+ok 81 - 1929–1958: from Kyrkoby the road runs on the old lines and the connection’s stretches, one connected line to Storby
+  ---
+  duration_ms: 4.156
+  type: 'test'
+  ...
+# Subtest: from 1959 only the surviving parts are drawn, with their old coordinates, owned in OSM
+ok 82 - from 1959 only the surviving parts are drawn, with their old coordinates, owned in OSM
+  ---
+  duration_ms: 5.761917
+  type: 'test'
+  ...
+# Subtest: the same-road stretches are drawn from 1929, the rest of each object only from its own first map
+ok 83 - the same-road stretches are drawn from 1929, the rest of each object only from its own first map
+  ---
+  duration_ms: 2.1665
+  type: 'test'
+  ...
+# Subtest: the bypasses at Drygsböle, Smedens and Näfsby still begin with the 1968 base map
+ok 84 - the bypasses at Drygsböle, Smedens and Näfsby still begin with the 1968 base map
+  ---
+  duration_ms: 1.262833
+  type: 'test'
+  ...
+# Subtest: the old line at Smedens is its own road, open 1929 until the 1968 map, then not claimed
+ok 85 - the old line at Smedens is its own road, open 1929 until the 1968 map, then not claimed
+  ---
+  duration_ms: 0.842291
+  type: 'test'
+  ...
+# Subtest: in 1950 the same-road stretches meet each other and the Smedens line end to end
+ok 86 - in 1950 the same-road stretches meet each other and the Smedens line end to end
+  ---
+  duration_ms: 0.150834
+  type: 'test'
+  ...
+# Subtest: the connection’s eight 1929 stretches, Frebbenby to Storby, are drawn with its own coordinates
+ok 87 - the connection’s eight 1929 stretches, Frebbenby to Storby, are drawn with its own coordinates
+  ---
+  duration_ms: 1.584375
+  type: 'test'
+  ...
+# Subtest: the 1894 atlas line is hidden where the 1929 stretches replace it, and only from 1929
+ok 88 - the 1894 atlas line is hidden where the 1929 stretches replace it, and only from 1929
+  ---
+  duration_ms: 5.562167
+  type: 'test'
+  ...
+# Subtest: the old road through Näfsby is drawn from 1929 on the smaller roads it survives as
+ok 89 - the old road through Näfsby is drawn from 1929 on the smaller roads it survives as
+  ---
+  duration_ms: 38.382708
+  type: 'test'
+  ...
+# Subtest: Lillåkersgränd is old road only for its northern 85 m, and the old school road without its younger branch
+ok 90 - Lillåkersgränd is old road only for its northern 85 m, and the old school road without its younger branch
+  ---
+  duration_ms: 0.12775
+  type: 'test'
+  ...
+# Subtest: the parallel stretch is unknown 1968–1985: the base maps draw only a thin line there
+ok 91 - the parallel stretch is unknown 1968–1985: the base maps draw only a thin line there
+  ---
+  duration_ms: 0.08025
+  type: 'test'
+  ...
+# Subtest: the vanished pieces are one old-road object: open 1929–1968, then unknown
+ok 92 - the vanished pieces are one old-road object: open 1929–1968, then unknown
+  ---
+  duration_ms: 0.070792
+  type: 'test'
+  ...
+# Subtest: in 1950 the main road through Näfsby is one connected line from Mattas to Korsbroström
+ok 93 - in 1950 the main road through Näfsby is one connected line from Mattas to Korsbroström
+  ---
+  duration_ms: 0.360667
+  type: 'test'
+  ...
+# Subtest: the 1968 picture is unchanged: the vanished pieces and the parallel stretch are not drawn
+ok 94 - the 1968 picture is unchanged: the vanished pieces and the parallel stretch are not drawn
+  ---
+  duration_ms: 18.413584
+  type: 'test'
+  ...
+# Subtest: the main road runs through Överby village until the 1985 bypass, as one connected line
+ok 95 - the main road runs through Överby village until the 1985 bypass, as one connected line
+  ---
+  duration_ms: 1.660875
+  type: 'test'
+  ...
+# Subtest: after the bypass only Brinkbacken and Gamla Landsvägen remain, with the same coordinates, owned in OSM
+ok 96 - after the bypass only Brinkbacken and Gamla Landsvägen remain, with the same coordinates, owned in OSM
+  ---
+  duration_ms: 218.880625
+  type: 'test'
+  ...
+# Subtest: the 1894 atlas line is hidden beside the old road through Överby
+ok 97 - the 1894 atlas line is hidden beside the old road through Överby
+  ---
+  duration_ms: 6.445
+  type: 'test'
+  ...
+# Subtest: the older roads are drawn from the first parish map that prints them, until their previous first year
+ok 98 - the older roads are drawn from the first parish map that prints them, until their previous first year
+  ---
+  duration_ms: 7.792084
+  type: 'test'
+  ...
+# Subtest: the east route Söderby–Västansunda–Mattas is connected in 1929 except the known gap at Burs
+ok 99 - the east route Söderby–Västansunda–Mattas is connected in 1929 except the known gap at Burs
+  ---
+  duration_ms: 0.533166
+  type: 'test'
+  ...
+# Subtest: Natbacken: only 4.1–5.5 km of Hammarlandsvägen del 1 is drawn before 1978, Utängsvägen whole from 1928
+ok 100 - Natbacken: only 4.1–5.5 km of Hammarlandsvägen del 1 is drawn before 1978, Utängsvägen whole from 1928
+  ---
+  duration_ms: 0.070417
+  type: 'test'
+  ...
+# Subtest: until 1978 the main road runs through Storby village; the connection leaves out the bypass
+ok 101 - until 1978 the main road runs through Storby village; the connection leaves out the bypass
+  ---
+  duration_ms: 3.205125
+  type: 'test'
+  ...
+# Subtest: from 1978 only the village roads that survive are drawn, owned in OSM
+ok 102 - from 1978 only the village roads that survive are drawn, owned in OSM
+  ---
+  duration_ms: 1.595875
+  type: 'test'
+  ...
+# Subtest: every archaeological record has a real source boundary
+ok 103 - every archaeological record has a real source boundary
+  ---
+  duration_ms: 63.768583
+  type: 'test'
+  ...
+# Subtest: areas replace icons and retain all source parts and holes, including at overview zoom
+ok 104 - areas replace icons and retain all source parts and holes, including at overview zoom
+  ---
+  duration_ms: 1.066167
+  type: 'test'
+  ...
+# Subtest: edges are clickable with a screen-space tolerance after zoom and pan
+ok 105 - edges are clickable with a screen-space tolerance after zoom and pan
+  ---
+  duration_ms: 0.116292
+  type: 'test'
+  ...
+# Subtest: an offscreen representative point cannot hide the visible area
+ok 106 - an offscreen representative point cannot hide the visible area
+  ---
+  duration_ms: 0.09125
+  type: 'test'
+  ...
+# Subtest: date, traces, category, search and layer filters remove both drawing and hit targets
+ok 107 - date, traces, category, search and layer filters remove both drawing and hit targets
+  ---
+  duration_ms: 0.276916
+  type: 'test'
+  ...
+# Subtest: smaller nested areas remain selectable
+ok 108 - smaller nested areas remain selectable
+  ---
+  duration_ms: 0.095792
+  type: 'test'
+  ...
+# Subtest: all thirteen groups have map objects with sourced historical events
+ok 109 - all thirteen groups have map objects with sourced historical events
+  ---
+  duration_ms: 0.748917
+  type: 'test'
+  ...
+# Subtest: main-house construction, fire and reopening are separate dates
+ok 110 - main-house construction, fire and reopening are separate dates
+  ---
+  duration_ms: 0.189667
+  type: 'test'
+  ...
+# Subtest: school wings and joined buildings do not appear in their earliest phases
+ok 111 - school wings and joined buildings do not appear in their earliest phases
+  ---
+  duration_ms: 0.186542
+  type: 'test'
+  ...
+# Subtest: Bjärström first mention is not a construction year and renders before Mariehamn exists
+ok 112 - Bjärström first mention is not a construction year and renders before Mariehamn exists
+  ---
+  duration_ms: 1.23775
+  type: 'test'
+  ...
+# Subtest: isolated bridge extensions stop when the parent road takes over
+not ok 113 - isolated bridge extensions stop when the parent road takes over
+  ---
+  duration_ms: 2.478416
+  type: 'test'
+  location: '/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/historical-dates.test.cjs:42:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    bridge date must not backdate its whole parent road
+    + actual - expected
+    
+    + {
+    +   id: 'geometry:postal-route-haraldsby:sundsvagen-varsundet-haraldsby',
+    +   note: 'Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartan.',
+    +   paths: [
+    +     [
+    +       [
+    +         20.017149822070596,
+    +         60.238613747214295
+    +       ],
+    +       [
+    +         20.017155,
+    +         60.238616
+    +       ],
+    +       [
+    +         20.018047,
+    +         60.238963
+    +       ],
+    +       [
+    +         20.019256,
+    +         60.239439
+    +       ],
+    +       [
+    +         20.020276,
+    +         60.239876
+    +       ],
+    +       [
+    +         20.020488,
+    +         60.239967
+    +       ],
+    +       [
+    +         20.020702,
+    +         60.240063
+    +       ],
+    +       [
+    +         20.021727,
+    +         60.240525
+    +       ],
+    +       [
+    +         20.022371,
+    +         60.240814
+    +       ],
+    +       [
+    +         20.023118,
+    +         60.241111
+    +       ],
+    +       [
+    +         20.023432,
+    +         60.241217
+    +       ],
+    +       [
+    +         20.023872,
+    +         60.241351
+    +       ],
+    +       [
+    +         20.024215,
+    +         60.24145
+    +       ],
+    +       [
+    +         20.024542,
+    +         60.241543
+    +       ],
+    +       [
+    +         20.024662,
+    +         60.241577
+    +       ],
+    +       [
+    +         20.025109141147365,
+    +         60.241703641283564
+    +       ]
+    +     ]
+    +   ],
+    +   representation: 'centerline',
+    +   sourceIds: [
+    +     'road:qgis:saltvik:sundsvagen-varsundet-haraldsby:survey'
+    +   ]
+    + }
+    - null
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: ~
+  actual:
+    id: 'geometry:postal-route-haraldsby:sundsvagen-varsundet-haraldsby'
+    representation: 'centerline'
+    paths:
+      0:
+        0:
+          0: 20.017149822070596
+          1: 60.238613747214295
+        1:
+          0: 20.017155
+          1: 60.238616
+        2:
+          0: 20.018047
+          1: 60.238963
+        3:
+          0: 20.019256
+          1: 60.239439
+        4:
+          0: 20.020276
+          1: 60.239876
+        5:
+          0: 20.020488
+          1: 60.239967
+        6:
+          0: 20.020702
+          1: 60.240063
+        7:
+          0: 20.021727
+          1: 60.240525
+        8:
+          0: 20.022371
+          1: 60.240814
+        9:
+          0: 20.023118
+          1: 60.241111
+        10:
+          0: 20.023432
+          1: 60.241217
+        11:
+          0: 20.023872
+          1: 60.241351
+        12:
+          0: 20.024215
+          1: 60.24145
+        13:
+          0: 20.024542
+          1: 60.241543
+        14:
+          0: 20.024662
+          1: 60.241577
+        15:
+          0: 20.025109141147365
+          1: 60.241703641283564
+    sourceIds:
+      0: 'road:qgis:saltvik:sundsvagen-varsundet-haraldsby:survey'
+    note: 'Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartan.'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/historical-dates.test.cjs:49:10)
+    Test.runInAsyncScope (node:async_hooks:226:14)
+    Test.run (node:internal/test_runner/test:1118:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+    Test.postRun (node:internal/test_runner/test:1247:19)
+    Test.run (node:internal/test_runner/test:1175:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:787:7)
+  ...
+# Subtest: historical road ownership suppresses duplicate modern and snapshot lines
+ok 114 - historical road ownership suppresses duplicate modern and snapshot lines
+  ---
+  duration_ms: 0.164541
+  type: 'test'
+  ...
+# Subtest: Ceders retains a site overview alongside the identified building outlines
+ok 115 - Ceders retains a site overview alongside the identified building outlines
+  ---
+  duration_ms: 26.364042
+  type: 'test'
+  ...
+# Subtest: dated history is readable, sourced and escaped
+ok 116 - dated history is readable, sourced and escaped
+  ---
+  duration_ms: 0.137792
+  type: 'test'
+  ...
+# Subtest: road sources follow time without backdating current or later snapshots
+ok 117 - road sources follow time without backdating current or later snapshots
+  ---
+  duration_ms: 1.220583
+  type: 'test'
+  ...
+# Subtest: curated road geometry is finite, sourced and keeps sea crossings separate
+ok 118 - curated road geometry is finite, sourced and keeps sea crossings separate
+  ---
+  duration_ms: 0.880958
+  type: 'test'
+  ...
+# Subtest: historical OSM snapshots contain roads throughout Åland, not current building footprints
+ok 119 - historical OSM snapshots contain roads throughout Åland, not current building footprints
+  ---
+  duration_ms: 300.686292
+  type: 'test'
+  ...
+# Subtest: old road lines and hit targets are removed when time or layer changes
+ok 120 - old road lines and hit targets are removed when time or layer changes
+  ---
+  duration_ms: 1.891958
+  type: 'test'
+  ...
+# Subtest: a pending newer source does not leave old roads on the map
+ok 121 - a pending newer source does not leave old roads on the map
+  ---
+  duration_ms: 0.607333
+  type: 'test'
+  ...
+# Subtest: prebuilt spatial index returns the same features as a full scan
+ok 122 - prebuilt spatial index returns the same features as a full scan
+  ---
+  duration_ms: 0.72825
+  type: 'test'
+  ...
+# Subtest: city grid replaces old city lines while atlas traces remain review-only
+ok 123 - city grid replaces old city lines while atlas traces remain review-only
+  ---
+  duration_ms: 1.056125
+  type: 'test'
+  ...
+# Subtest: all 28 schematic traces retain originals and explicit review outcomes
+ok 124 - all 28 schematic traces retain originals and explicit review outcomes
+  ---
+  duration_ms: 28.457125
+  type: 'test'
+  ...
+# Subtest: schematic retirement follows actual dated geometry and replacement-layer visibility
+ok 125 - schematic retirement follows actual dated geometry and replacement-layer visibility
+  ---
+  duration_ms: 18.681667
+  type: 'test'
+  ...
+# Subtest: source retirement merges shared intervals and retains city clipping
+ok 126 - source retirement merges shared intervals and retains city clipping
+  ---
+  duration_ms: 0.330042
+  type: 'test'
+  ...
+# Subtest: removed schematic segments have no stale click target after a year change
+ok 127 - removed schematic segments have no stale click target after a year change
+  ---
+  duration_ms: 0.319375
+  type: 'test'
+  ...
+# Subtest: 1894 atlas is review-only at every zoom and leaves no clickable ghosts
+ok 128 - 1894 atlas is review-only at every zoom and leaves no clickable ghosts
+  ---
+  duration_ms: 1.09525
+  type: 'test'
+  ...
+# Subtest: reported Geta and Sund lakes remain visible through 2025
+ok 129 - reported Geta and Sund lakes remain visible through 2025
+  ---
+  duration_ms: 5.836292
+  type: 'test'
+  ...
+# Subtest: lake context follows the displayed shoreline during loading, preserves islands and culls offscreen water
+ok 130 - lake context follows the displayed shoreline during loading, preserves islands and culls offscreen water
+  ---
+  duration_ms: 5.042
+  type: 'test'
+  ...
+# Subtest: a relocation does not place a building at its current address before arrival
+ok 131 - a relocation does not place a building at its current address before arrival
+  ---
+  duration_ms: 0.633791
+  type: 'test'
+  ...
+# Subtest: demolition leaves a site marker without extending the physical building lifetime
+ok 132 - demolition leaves a site marker without extending the physical building lifetime
+  ---
+  duration_ms: 0.057292
+  type: 'test'
+  ...
+# Subtest: period boundaries and conflicting building dates never become exact evidence
+ok 133 - period boundaries and conflicting building dates never become exact evidence
+  ---
+  duration_ms: 0.058542
+  type: 'test'
+  ...
+# Subtest: a monument dates to its erection, not the event it commemorates
+ok 134 - a monument dates to its erection, not the event it commemorates
+  ---
+  duration_ms: 0.086291
+  type: 'test'
+  ...
+# Subtest: prehistoric evidence does not imply uninterrupted occupation
+ok 135 - prehistoric evidence does not imply uninterrupted occupation
+  ---
+  duration_ms: 0.239167
+  type: 'test'
+  ...
+# Subtest: every shoreline model year resolves to a real geometry asset; nearest model is explicit
+ok 136 - every shoreline model year resolves to a real geometry asset; nearest model is explicit
+  ---
+  duration_ms: 1273.88075
+  type: 'test'
+  ...
+# Subtest: archive map centre uses the official Finnish grid, within 1 metre of independent pyproj controls
+ok 137 - archive map centre uses the official Finnish grid, within 1 metre of independent pyproj controls
+  ---
+  duration_ms: 0.422583
+  type: 'test'
+  ...
+# Subtest: historical building records have usable attribution and preserve official multi-area boundaries
+ok 138 - historical building records have usable attribution and preserve official multi-area boundaries
+  ---
+  duration_ms: 25.574917
+  type: 'test'
+  ...
+# Subtest: broad Stone Age periods do not put settlements under the model sea in 5000 BC
+ok 139 - broad Stone Age periods do not put settlements under the model sea in 5000 BC
+  ---
+  duration_ms: 0.3865
+  type: 'test'
+  ...
+# Subtest: Hindersböle gård, Berggård and the fox farms are uncertain dated places at their reviewed points, never construction years
+ok 140 - Hindersböle gård, Berggård and the fox farms are uncertain dated places at their reviewed points, never construction years
+  ---
+  duration_ms: 1.512875
+  type: 'test'
+  ...
+# Subtest: all five sourced visits occur once in playback while existing same-year stories remain
+ok 141 - all five sourced visits occur once in playback while existing same-year stories remain
+  ---
+  duration_ms: 5.786417
+  type: 'test'
+  ...
+# Subtest: unknown visit locations use an overview; documented regions use broad camera views
+ok 142 - unknown visit locations use an overview; documented regions use broad camera views
+  ---
+  duration_ms: 2.502
+  type: 'test'
+  ...
+# Subtest: visit picker clears selected objects and city mode, selects the year and opens its story
+ok 143 - visit picker clears selected objects and city mode, selects the year and opens its story
+  ---
+  duration_ms: 3.031208
+  type: 'test'
+  ...
+# Subtest: only located visits produce one-year event markers with source-backed archive records
+ok 144 - only located visits produce one-year event markers with source-backed archive records
+  ---
+  duration_ms: 4.372792
+  type: 'test'
+  ...
+# Subtest: both the pin and its label open the same event; changing years clears old pointer hits
+ok 145 - both the pin and its label open the same event; changing years clears old pointer hits
+  ---
+  duration_ms: 2.27575
+  type: 'test'
+  ...
+# Subtest: each journey has exactly ten unique stops and retains its full historical span
+ok 146 - each journey has exactly ten unique stops and retains its full historical span
+  ---
+  duration_ms: 6.977292
+  type: 'test'
+  ...
+# Subtest: forward and backward navigation visits only the ten curated stops in each mode
+ok 147 - forward and backward navigation visits only the ten curated stops in each mode
+  ---
+  duration_ms: 2.529916
+  type: 'test'
+  ...
+# Subtest: removed stops remain directly reachable with their dated stories and camera targets intact
+ok 148 - removed stops remain directly reachable with their dated stories and camera targets intact
+  ---
+  duration_ms: 2.82575
+  type: 'test'
+  ...
+# Subtest: the full main and city catalogues play in order, with readable time at every exact event year
+ok 149 - the full main and city catalogues play in order, with readable time at every exact event year
+  ---
+  duration_ms: 7.930458
+  type: 'test'
+  ...
+# Subtest: the postal opening is a 1638 stop and the route and playback camera are ready that year
+ok 150 - the postal opening is a 1638 stop and the route and playback camera are ready that year
+  ---
+  duration_ms: 3.240667
+  type: 'test'
+  ...
+# Subtest: Kobba roofs appear at their own historical boundaries, without a 2026 source-layer jump
+ok 151 - Kobba roofs appear at their own historical boundaries, without a 2026 source-layer jump
+  ---
+  duration_ms: 433.693375
+  type: 'test'
+  ...
+# Subtest: original beacon and replica share a place, not a lifetime or source ownership
+ok 152 - original beacon and replica share a place, not a lifetime or source ownership
+  ---
+  duration_ms: 2186.019542
+  type: 'test'
+  ...
+# Subtest: historical dating preserves measured source geometry and distinguishes unknown outbuilding dates
+ok 153 - historical dating preserves measured source geometry and distinguishes unknown outbuilding dates
+  ---
+  duration_ms: 0.166917
+  type: 'test'
+  ...
+# Subtest: landmarks retain identity and geometry through source years, with no premature outline
+ok 154 - landmarks retain identity and geometry through source years, with no premature outline
+  ---
+  duration_ms: 0.855834
+  type: 'test'
+  ...
+# Subtest: Jomala keeps its west tower and nave fixed when the east end is rebuilt
+ok 155 - Jomala keeps its west tower and nave fixed when the east end is rebuilt
+  ---
+  duration_ms: 0.095208
+  type: 'test'
+  ...
+# Subtest: OSM and heritage representations resolve to the same landmark without duplicate mapped roofs
+ok 156 - OSM and heritage representations resolve to the same landmark without duplicate mapped roofs
+  ---
+  duration_ms: 0.088209
+  type: 'test'
+  ...
+# Subtest: landmark footprint hit targets follow the visible geometry and offscreen shapes have none
+ok 157 - landmark footprint hit targets follow the visible geometry and offscreen shapes have none
+  ---
+  duration_ms: 0.833083
+  type: 'test'
+  ...
+# Subtest: tour camera frames reviewed outlines at their historical year
+ok 158 - tour camera frames reviewed outlines at their historical year
+  ---
+  duration_ms: 0.170333
+  type: 'test'
+  ...
+# Subtest: batched shoreline paths retain islands, holes, all coordinates and empty classes
+ok 159 - batched shoreline paths retain islands, holes, all coordinates and empty classes
+  ---
+  duration_ms: 1.671333
+  type: 'test'
+  ...
+# Subtest: coast batching retains projected rings, independent polygon bounds and overview
+ok 160 - coast batching retains projected rings, independent polygon bounds and overview
+  ---
+  duration_ms: 0.933916
+  type: 'test'
+  ...
+# Subtest: 1917–1928: Skag–Södergård–Sjögård, with the old road through Södergård; no crossing yet
+ok 161 - 1917–1928: Skag–Södergård–Sjögård, with the old road through Södergård; no crossing yet
+  ---
+  duration_ms: 1.926667
+  type: 'test'
+  ...
+# Subtest: 1929–1967: from the crossing at Bergören over the Skag corner, joined to Lemlandsvägen
+ok 162 - 1929–1967: from the crossing at Bergören over the Skag corner, joined to Lemlandsvägen
+  ---
+  duration_ms: 0.487083
+  type: 'test'
+  ...
+# Subtest: from 1968 today's road; the Skag corner survives as a track, Södergård is not claimed
+ok 163 - from 1968 today's road; the Skag corner survives as a track, Södergård is not claimed
+  ---
+  duration_ms: 266.550625
+  type: 'test'
+  ...
+# Subtest: the surviving old road is open to today, drawn only where it survives; the rest is not claimed after 1985
+ok 164 - the surviving old road is open to today, drawn only where it survives; the rest is not claimed after 1985
+  ---
+  duration_ms: 2.103917
+  type: 'test'
+  ...
+# Subtest: the road does not move when the source changes: the surviving line is the same line it had before 1995
+ok 165 - the road does not move when the source changes: the surviving line is the same line it had before 1995
+  ---
+  duration_ms: 4.539834
+  type: 'test'
+  ...
+# Subtest: each phase keeps to its 1929 trace; the raw trace is kept unchanged as evidence
+ok 166 - each phase keeps to its 1929 trace; the raw trace is kept unchanged as evidence
+  ---
+  duration_ms: 80.554542
+  type: 'test'
+  ...
+# Subtest: Övre-Börs: the 1929/1948 corner at Fridelund, the eased curve from 1968
+ok 167 - Övre-Börs: the 1929/1948 corner at Fridelund, the eased curve from 1968
+  ---
+  duration_ms: 1.390417
+  type: 'test'
+  ...
+# Subtest: the old-road objects own their OpenStreetMap ranges in every snapshot, and no copy is left beside them
+ok 168 - the old-road objects own their OpenStreetMap ranges in every snapshot, and no copy is left beside them
+  ---
+  duration_ms: 59.793917
+  type: 'test'
+  ...
+# Subtest: in 1929 the old road still joins its neighbours: today's road, Långskata and the other old pieces
+ok 169 - in 1929 the old road still joins its neighbours: today's road, Långskata and the other old pieces
+  ---
+  duration_ms: 0.160292
+  type: 'test'
+  ...
+# Subtest: from 1917 the road east of the church village runs through Simons (Skolsvängen) and Granboda (Klubbensvägen)
+ok 170 - from 1917 the road east of the church village runs through Simons (Skolsvängen) and Granboda (Klubbensvägen)
+  ---
+  duration_ms: 5.923709
+  type: 'test'
+  ...
+# Subtest: from 1929 the road turns north on Fiskartorpsvägen and crosses Bergören to the sound
+ok 171 - from 1929 the road turns north on Fiskartorpsvägen and crosses Bergören to the sound
+  ---
+  duration_ms: 0.260792
+  type: 'test'
+  ...
+# Subtest: from 1968 today's road takes over; the old roads stay as they are mapped today
+ok 172 - from 1968 today's road takes over; the old roads stay as they are mapped today
+  ---
+  duration_ms: 230.206917
+  type: 'test'
+  ...
+# Subtest: today's Lemlandsvägen is eight sections that meet end to end; each starts at the first map that draws it
+ok 173 - today's Lemlandsvägen is eight sections that meet end to end; each starts at the first map that draws it
+  ---
+  duration_ms: 1.942542
+  type: 'test'
+  ...
+# Subtest: the original object keeps its identity, 1985 start and evidence for the Knutsboda–Dragsvik bypass
+ok 174 - the original object keeps its identity, 1985 start and evidence for the Knutsboda–Dragsvik bypass
+  ---
+  duration_ms: 2.078625
+  type: 'test'
+  ...
+# Subtest: in 1929 the main road is the old road: the old pieces join today's unchanged sections
+ok 175 - in 1929 the main road is the old road: the old pieces join today's unchanged sections
+  ---
+  duration_ms: 0.622708
+  type: 'test'
+  ...
+# Subtest: old road pieces stay open until the edition after their last map; after that only what survives is claimed
+ok 176 - old road pieces stay open until the edition after their last map; after that only what survives is claimed
+  ---
+  duration_ms: 0.407333
+  type: 'test'
+  ...
+# Subtest: Långskata del 2: only its first 300 m are the old road before 1985, and only they are drawn
+ok 177 - Långskata del 2: only its first 300 m are the old road before 1985, and only they are drawn
+  ---
+  duration_ms: 0.965584
+  type: 'test'
+  ...
+# Subtest: the artificial cut is closed in schematic pre-canal context, with no changes outside the local area
+ok 178 - the artificial cut is closed in schematic pre-canal context, with no changes outside the local area
+  ---
+  duration_ms: 125.1915
+  type: 'test'
+  ...
+# Subtest: the canal opens at 1882 even within the same 1800 model snapshot and in reverse playback
+ok 179 - the canal opens at 1882 even within the same 1800 model snapshot and in reverse playback
+  ---
+  duration_ms: 1.466375
+  type: 'test'
+  ...
+# Subtest: canal construction, opening and modern bridge have separate historical phases
+ok 180 - canal construction, opening and modern bridge have separate historical phases
+  ---
+  duration_ms: 3.631041
+  type: 'test'
+  ...
+# Subtest: canal story uses the selected phase and can be found by name before construction
+ok 181 - canal story uses the selected phase and can be found by name before construction
+  ---
+  duration_ms: 3.003375
+  type: 'test'
+  ...
+# Subtest: trails do not join reception gaps, future points or invalid coordinates
+ok 182 - trails do not join reception gaps, future points or invalid coordinates
+  ---
+  duration_ms: 2.30025
+  type: 'test'
+  ...
+# Subtest: missing coordinates and old positions cannot become current markers
+ok 183 - missing coordinates and old positions cannot become current markers
+  ---
+  duration_ms: 0.148833
+  type: 'test'
+  ...
+# Subtest: public feed reads only fixed KV snapshot and never calls external services
+ok 184 - public feed reads only fixed KV snapshot and never calls external services
+  ---
+  duration_ms: 40.027917
+  type: 'test'
+  ...
+# Subtest: MMSI-only ferries can be selected independently and port IDs stay distinct
+ok 185 - MMSI-only ferries can be selected independently and port IDs stay distinct
+  ---
+  duration_ms: 0.285083
+  type: 'test'
+  ...
+# Subtest: aircraft use distinct identities and expire after ten minutes
+ok 186 - aircraft use distinct identities and expire after ten minutes
+  ---
+  duration_ms: 0.205958
+  type: 'test'
+  ...
+# Subtest: aircraft endpoint reads its fixed KV key without a warehouse call
+ok 187 - aircraft endpoint reads its fixed KV key without a warehouse call
+  ---
+  duration_ms: 0.956459
+  type: 'test'
+  ...
+# Subtest: aircraft fetch failure does not hide working vessel feed
+ok 188 - aircraft fetch failure does not hide working vessel feed
+  ---
+  duration_ms: 1.700625
+  type: 'test'
+  ...
+# Subtest: aircraft markers can be selected in the live year and disappear in historical views
+ok 189 - aircraft markers can be selected in the live year and disappear in historical views
+  ---
+  duration_ms: 0.583292
+  type: 'test'
+  ...
+# Subtest: the archipelago main roads are on the first base maps (1968–1971), on their own later line
+ok 190 - the archipelago main roads are on the first base maps (1968–1971), on their own later line
+  ---
+  duration_ms: 2.441542
+  type: 'test'
+  ...
+# Subtest: the postal route lands on Brändö on the road the 1984 edition draws
+ok 191 - the postal route lands on Brändö on the road the 1984 edition draws
+  ---
+  duration_ms: 1.836458
+  type: 'test'
+  ...
+# Subtest: the main roads of northern Saltvik and Geta are on the base maps from 1968, on their own later line
+ok 192 - the main roads of northern Saltvik and Geta are on the base maps from 1968, on their own later line
+  ---
+  duration_ms: 1.224959
+  type: 'test'
+  ...
+# Subtest: anonymous submission creates one issue with server credentials and full frozen context
+ok 193 - anonymous submission creates one issue with server credentials and full frozen context
+  ---
+  duration_ms: 41.182583
+  type: 'test'
+  ...
+# Subtest: method, origin, content type, malformed input and oversized streamed bodies are rejected
+ok 194 - method, origin, content type, malformed input and oversized streamed bodies are rejected
+  ---
+  duration_ms: 2.352958
+  type: 'test'
+  ...
+# Subtest: untrusted context and external object URLs cannot enter generated reports
+ok 195 - untrusted context and external object URLs cannot enter generated reports
+  ---
+  duration_ms: 0.700958
+  type: 'test'
+  ...
+# Subtest: rate limits and missing configuration never call GitHub
+ok 196 - rate limits and missing configuration never call GitHub
+  ---
+  duration_ms: 0.302959
+  type: 'test'
+  ...
+# Subtest: GitHub failures are safe and never produce a success receipt
+ok 197 - GitHub failures are safe and never produce a success receipt
+  ---
+  duration_ms: 1.008916
+  type: 'test'
+  ...
+# Subtest: ordinary assets still serve and API paths never fall back to HTML
+ok 198 - ordinary assets still serve and API paths never fall back to HTML
+  ---
+  duration_ms: 0.183791
+  type: 'test'
+  ...
+# Subtest: reported coordinates invert the real map projection with pan, zoom and viewport offsets
+ok 199 - reported coordinates invert the real map projection with pan, zoom and viewport offsets
+  ---
+  duration_ms: 1.427625
+  type: 'test'
+  ...
+# Subtest: report links round-trip year, location, zoom, background and all layer switches
+ok 200 - report links round-trip year, location, zoom, background and all layer switches
+  ---
+  duration_ms: 1.266625
+  type: 'test'
+  ...
+# Subtest: report preserves Unicode and context without labels, assignees or credentials
+ok 201 - report preserves Unicode and context without labels, assignees or credentials
+  ---
+  duration_ms: 1.474083
+  type: 'test'
+  ...
+# Subtest: right-click freezes context; cancelling sends nothing and successful submission shows a receipt
+ok 202 - right-click freezes context; cancelling sends nothing and successful submission shows a receipt
+  ---
+  duration_ms: 1.175583
+  type: 'test'
+  ...
+# Subtest: mobile point-picking and keyboard reporting can be cancelled and preserve normal map clicks
+ok 203 - mobile point-picking and keyboard reporting can be cancelled and preserve normal map clicks
+  ---
+  duration_ms: 0.366917
+  type: 'test'
+  ...
+# Subtest: a stationary touch opens feedback once at the held location and consumes its release
+ok 204 - a stationary touch opens feedback once at the held location and consumes its release
+  ---
+  duration_ms: 0.433042
+  type: 'test'
+  ...
+# Subtest: taps, pans, pinches, cancelled pointers and leaving the app never open feedback
+ok 205 - taps, pans, pinches, cancelled pointers and leaving the app never open feedback
+  ---
+  duration_ms: 1.512959
+  type: 'test'
+  ...
+# Subtest: native touch menus share the hold action without reopening it after release
+ok 206 - native touch menus share the hold action without reopening it after release
+  ---
+  duration_ms: 0.37075
+  type: 'test'
+  ...
+# Subtest: long press cooperates with the actual map handlers: tap selects, pan and pinch still move the map
+ok 207 - long press cooperates with the actual map handlers: tap selects, pan and pinch still move the map
+  ---
+  duration_ms: 1.876958
+  type: 'test'
+  ...
+# Subtest: empty and oversized reports are rejected without truncating the user draft
+ok 208 - empty and oversized reports are rejected without truncating the user draft
+  ---
+  duration_ms: 0.526125
+  type: 'test'
+  ...
+# Subtest: actual point-picking handler consumes the click without selecting a different map object
+ok 209 - actual point-picking handler consumes the click without selecting a different map object
+  ---
+  duration_ms: 1.128541
+  type: 'test'
+  ...
+# Subtest: HTML posts on the site and explains account-free public submission
+ok 210 - HTML posts on the site and explains account-free public submission
+  ---
+  duration_ms: 0.6215
+  type: 'test'
+  ...
+# Subtest: a pending submission cannot be duplicated or closed; failure retains the draft for retry
+ok 211 - a pending submission cannot be duplicated or closed; failure retains the draft for retry
+  ---
+  duration_ms: 0.465542
+  type: 'test'
+  ...
+# Subtest: long Unicode descriptions no longer depend on a GitHub URL length limit
+ok 212 - long Unicode descriptions no longer depend on a GitHub URL length limit
+  ---
+  duration_ms: 0.299708
+  type: 'test'
+  ...
+# Subtest: unconfirmed responses do not show success or discard the draft
+ok 213 - unconfirmed responses do not show success or discard the draft
+  ---
+  duration_ms: 0.143042
+  type: 'test'
+  ...
+# Subtest: HTML error pages retain the complete draft and context without exposing parse errors or retrying
+ok 214 - HTML error pages retain the complete draft and context without exposing parse errors or retrying
+  ---
+  duration_ms: 35.256958
+  type: 'test'
+  ...
+# Subtest: malformed JSON and mismatched issue receipts never claim successful delivery
+ok 215 - malformed JSON and mismatched issue receipts never claim successful delivery
+  ---
+  duration_ms: 0.659125
+  type: 'test'
+  ...
+# Subtest: map context uses the clicked canonical object, not a previously selected object
+ok 216 - map context uses the clicked canonical object, not a previously selected object
+  ---
+  duration_ms: 0.814084
+  type: 'test'
+  ...
+# Subtest: 60 Hz passes; 30 Hz fails even with very fast drawing
+ok 217 - 60 Hz passes; 30 Hz fails even with very fast drawing
+  ---
+  duration_ms: 1.223125
+  type: 'test'
+  ...
+# Subtest: multiple redraws at one rendering opportunity only count once
+ok 218 - multiple redraws at one rendering opportunity only count once
+  ---
+  duration_ms: 1.80175
+  type: 'test'
+  ...
+# Subtest: a trailing freeze fails the stall check rather than disappearing from statistics
+ok 219 - a trailing freeze fails the stall check rather than disappearing from statistics
+  ---
+  duration_ms: 0.261167
+  type: 'test'
+  ...
+# Subtest: missing or stale requested-year maps never get credited as responses
+ok 220 - missing or stale requested-year maps never get credited as responses
+  ---
+  duration_ms: 0.177375
+  type: 'test'
+  ...
+# Subtest: no frames, hidden tabs and unanswered inputs cannot pass
+ok 221 - no frames, hidden tabs and unanswered inputs cannot pass
+  ---
+  duration_ms: 1.093416
+  type: 'test'
+  ...
+# Subtest: discrete year changes score latency without scoring gaps between actions
+ok 222 - discrete year changes score latency without scoring gaps between actions
+  ---
+  duration_ms: 0.171708
+  type: 'test'
+  ...
+# Subtest: quantiles use nearest rank and unavailable measurements stay null
+ok 223 - quantiles use nearest rank and unavailable measurements stay null
+  ---
+  duration_ms: 0.081292
+  type: 'test'
+  ...
+# Subtest: year fade finishes cleanly and never draws the live map on animation frames
+ok 224 - year fade finishes cleanly and never draws the live map on animation frames
+  ---
+  duration_ms: 1.223459
+  type: 'test'
+  ...
+# Subtest: rapid scrubbing captures the visible blend and stale completion cannot hide the new fade
+ok 225 - rapid scrubbing captures the visible blend and stale completion cannot hide the new fade
+  ---
+  duration_ms: 0.349208
+  type: 'test'
+  ...
+# Subtest: reduced motion and camera redraws have no transition overlay
+ok 226 - reduced motion and camera redraws have no transition overlay
+  ---
+  duration_ms: 0.293667
+  type: 'test'
+  ...
+# Subtest: story can be dismissed without reopening on every time update in the same stop
+ok 227 - story can be dismissed without reopening on every time update in the same stop
+  ---
+  duration_ms: 3.183375
+  type: 'test'
+  ...
+# Subtest: playback hides the popup until playback stops, including after continuous mode
+ok 228 - playback hides the popup until playback stops, including after continuous mode
+  ---
+  duration_ms: 0.851958
+  type: 'test'
+  ...
+# Subtest: menu and popup never compete; opening archive closes menu first
+ok 229 - menu and popup never compete; opening archive closes menu first
+  ---
+  duration_ms: 0.983459
+  type: 'test'
+  ...
+# Subtest: secondary controls are retained in one menu and story lives over the map
+ok 230 - secondary controls are retained in one menu and story lives over the map
+  ---
+  duration_ms: 1.141083
+  type: 'test'
+  ...
+# Subtest: mobile notes stay collapsed on load, time changes, place selection and playback stops
+ok 231 - mobile notes stay collapsed on load, time changes, place selection and playback stops
+  ---
+  duration_ms: 1.75125
+  type: 'test'
+  ...
+# Subtest: mobile preview follows the story text and clears when a story has no paragraph
+ok 232 - mobile preview follows the story text and clears when a story has no paragraph
+  ---
+  duration_ms: 0.5205
+  type: 'test'
+  ...
+# Subtest: mobile sheet follows vertical drags, cancels safely and leaves year scrubbing alone
+ok 233 - mobile sheet follows vertical drags, cancels safely and leaves year scrubbing alone
+  ---
+  duration_ms: 0.563167
+  type: 'test'
+  ...
+# Subtest: mobile sheet supports keyboard buttons and Escape, and restores desktop placement
+ok 234 - mobile sheet supports keyboard buttons and Escape, and restores desktop placement
+  ---
+  duration_ms: 0.404833
+  type: 'test'
+  ...
+# Subtest: changing time clears an unmigrated selected place and opens the stop story instead
+ok 235 - changing time clears an unmigrated selected place and opens the stop story instead
+  ---
+  duration_ms: 0.665333
+  type: 'test'
+  ...
+# Subtest: current address round-trips through the existing shared-view reader and retains other URL/history state
+ok 236 - current address round-trips through the existing shared-view reader and retains other URL/history state
+  ---
+  duration_ms: 1.835833
+  type: 'test'
+  ...
+# Subtest: idle frames do no URL work and a burst of camera changes produces one settled write
+ok 237 - idle frames do no URL work and a burst of camera changes produces one settled write
+  ---
+  duration_ms: 0.857666
+  type: 'test'
+  ...
+# Subtest: dragging and scrubbing defer writes; playback is capped at one update per second
+ok 238 - dragging and scrubbing defer writes; playback is capped at one update per second
+  ---
+  duration_ms: 0.590125
+  type: 'test'
+  ...
+# Subtest: leaving flushes the latest view and hidden pages stop sampling until resumed
+ok 239 - leaving flushes the latest view and hidden pages stop sampling until resumed
+  ---
+  duration_ms: 0.200459
+  type: 'test'
+  ...
+# Subtest: history navigation restores the incoming view without overwriting it with stale state
+ok 240 - history navigation restores the incoming view without overwriting it with stale state
+  ---
+  duration_ms: 0.130667
+  type: 'test'
+  ...
+# Subtest: unavailable history and invalid transient positions cannot break map interactions
+ok 241 - unavailable history and invalid transient positions cannot break map interactions
+  ---
+  duration_ms: 0.15775
+  type: 'test'
+  ...
+# Subtest: URL syncing mounts after restoration and stays outside all rendering and gesture paths
+ok 242 - URL syncing mounts after restoration and stays outside all rendering and gesture paths
+  ---
+  duration_ms: 0.57325
+  type: 'test'
+  ...
+# Subtest: photo-dated alleys stay in one position and render once through source changes
+ok 243 - photo-dated alleys stay in one position and render once through source changes
+  ---
+  duration_ms: 44.307916
+  type: 'test'
+  ...
+# Subtest: Klockargränd keeps the earlier combined OSM record and separately dated branches
+ok 244 - Klockargränd keeps the earlier combined OSM record and separately dated branches
+  ---
+  duration_ms: 0.343375
+  type: 'test'
+  ...
+# Subtest: Diktargränd remains two disconnected dead ends
+ok 245 - Diktargränd remains two disconnected dead ends
+  ---
+  duration_ms: 0.104208
+  type: 'test'
+  ...
+# Subtest: the rejected 1942 trace is drawn nowhere but its original pixels are kept
+ok 246 - the rejected 1942 trace is drawn nowhere but its original pixels are kept
+  ---
+  duration_ms: 21.2365
+  type: 'test'
+  ...
+# Subtest: raw approach traces are gone; only short reviewed gaps remain, and only 1942–1967
+ok 247 - raw approach traces are gone; only short reviewed gaps remain, and only 1942–1967
+  ---
+  duration_ms: 1.4385
+  type: 'test'
+  ...
+# Subtest: objects the 1942 photo shows start in 1942 with their own centre line; later dates are kept
+ok 248 - objects the 1942 photo shows start in 1942 with their own centre line; later dates are kept
+  ---
+  duration_ms: 7.624417
+  type: 'test'
+  ...
+# Subtest: the two long gaps use centre lines retraced from the photo, joined to their objects
+ok 249 - the two long gaps use centre lines retraced from the photo, joined to their objects
+  ---
+  duration_ms: 0.318
+  type: 'test'
+  ...
+# Subtest: excluded objects are not backdated and only reviewed objects carry the 1942 photo
+ok 250 - excluded objects are not backdated and only reviewed objects carry the 1942 photo
+  ---
+  duration_ms: 1.9725
+  type: 'test'
+  ...
+# Subtest: blocks drawn in 1871 and 1942 stay block fill through the 1920s stages
+ok 251 - blocks drawn in 1871 and 1942 stay block fill through the 1920s stages
+  ---
+  duration_ms: 1.457709
+  type: 'test'
+  ...
+# Subtest: carried pieces never cover a block, park or square of the same stage
+ok 252 - carried pieces never cover a block, park or square of the same stage
+  ---
+  duration_ms: 9.572292
+  type: 'test'
+  ...
+# Subtest: the built-up areas of 1968–1982 stay block fill from 1985 until the modern blocks of 2014
+ok 253 - the built-up areas of 1968–1982 stay block fill from 1985 until the modern blocks of 2014
+  ---
+  duration_ms: 2.824458
+  type: 'test'
+  ...
+# Subtest: carried pieces never cover a derived block of the same stage
+ok 254 - carried pieces never cover a derived block of the same stage
+  ---
+  duration_ms: 5.131333
+  type: 'test'
+  ...
+# Subtest: the review is complete, sourced and keeps 1978 out of the building evidence
+ok 255 - the review is complete, sourced and keeps 1978 out of the building evidence
+  ---
+  duration_ms: 12.960916
+  type: 'test'
+  ...
+# Subtest: a dated building appears in its first map year with its earliest outline and is unchanged later
+ok 256 - a dated building appears in its first map year with its earliest outline and is unchanged later
+  ---
+  duration_ms: 25.698666
+  type: 'test'
+  ...
+# Subtest: every later edition shows the building; only 1985 may be unclear between 1968 and 1995
+ok 257 - every later edition shows the building; only 1985 may be unclear between 1968 and 1995
+  ---
+  duration_ms: 4.085542
+  type: 'test'
+  ...
+# Subtest: the city layer draws dated houses in their map years and never before
+ok 258 - the city layer draws dated houses in their map years and never before
+  ---
+  duration_ms: 131.031584
+  type: 'test'
+  ...
+# Subtest: houses rejected on the contact sheets are never dated, and each rejection has a reason and a sheet
+ok 259 - houses rejected on the contact sheets are never dated, and each rejection has a reason and a sheet
+  ---
+  duration_ms: 17.043416
+  type: 'test'
+  ...
+# Subtest: in the centre, a dated house never overlaps a printed-map symbol object, and hatched 1968 blocks date nothing
+ok 260 - in the centre, a dated house never overlaps a printed-map symbol object, and hatched 1968 blocks date nothing
+  ---
+  duration_ms: 134.719083
+  type: 'test'
+  ...
+# Subtest: modern-only outlines in Ytternäs and Dalen get a reconstruction that starts at their map year
+ok 261 - modern-only outlines in Ytternäs and Dalen get a reconstruction that starts at their map year
+  ---
+  duration_ms: 1.796083
+  type: 'test'
+  ...
+# Subtest: the r1 recheck dates earlier-unclear buildings only where the earlier drawing was judged by eye
+ok 262 - the r1 recheck dates earlier-unclear buildings only where the earlier drawing was judged by eye
+  ---
+  duration_ms: 1.709625
+  type: 'test'
+  ...
+# Subtest: the r2 recheck dates inconsistent buildings only where every later edition draws the same building
+ok 263 - the r2 recheck dates inconsistent buildings only where every later edition draws the same building
+  ---
+  duration_ms: 0.535417
+  type: 'test'
+  ...
+# Subtest: Mariehamn buildings with no map symbol are dated from the 1991–2015 photos
+ok 264 - Mariehamn buildings with no map symbol are dated from the 1991–2015 photos
+  ---
+  duration_ms: 46.667709
+  type: 'test'
+  ...
+# Subtest: buildings whose outline meets an open or hatched symbol on the 1985 or 1995 map are not photo-dated
+ok 265 - buildings whose outline meets an open or hatched symbol on the 1985 or 1995 map are not photo-dated
+  ---
+  duration_ms: 3.160417
+  type: 'test'
+  ...
+# Subtest: a photo-dated building starts at its first photo with that photo as evidence, keeps its outline and later history
+ok 266 - a photo-dated building starts at its first photo with that photo as evidence, keeps its outline and later history
+  ---
+  duration_ms: 11.622625
+  type: 'test'
+  ...
+# Subtest: the city layer draws photo-dated buildings from their first photo year and never before
+ok 267 - the city layer draws photo-dated buildings from their first photo year and never before
+  ---
+  duration_ms: 256.890083
+  type: 'test'
+  ...
+# Subtest: the church road streets start at the parish map (Norrbölevägen at the 1952 photo); later history is kept
+ok 268 - the church road streets start at the parish map (Norrbölevägen at the 1952 photo); later history is kept
+  ---
+  duration_ms: 17.576041
+  type: 'test'
+  ...
+# Subtest: only the hook of Mellangårdsvägen and the east end of Fridhemsvägen are church road before the whole streets
+ok 269 - only the hook of Mellangårdsvägen and the east end of Fridhemsvägen are church road before the whole streets
+  ---
+  duration_ms: 0.262458
+  type: 'test'
+  ...
+# Subtest: the traced old road joins Mellangårdsvägen and Fridhemsvägen and is gone on the 1975 photo
+ok 270 - the traced old road joins Mellangårdsvägen and Fridhemsvägen and is gone on the 1975 photo
+  ---
+  duration_ms: 7.5075
+  type: 'test'
+  ...
+# Subtest: earlier base-map readings are rechecked, not deleted
+ok 271 - earlier base-map readings are rechecked, not deleted
+  ---
+  duration_ms: 0.249291
+  type: 'test'
+  ...
+# Subtest: central Strandgatan has a stable planned/open identity, without backdating its northern extension
+ok 272 - central Strandgatan has a stable planned/open identity, without backdating its northern extension
+  ---
+  duration_ms: 53.3815
+  type: 'test'
+  ...
+# Subtest: whole original traces survive as evidence while only the middle is replaced
+ok 273 - whole original traces survive as evidence while only the middle is replaced
+  ---
+  duration_ms: 0.818333
+  type: 'test'
+  ...
+# Subtest: OSM redraws keep the older building identity, all evidence and one stable roof
+ok 274 - OSM redraws keep the older building identity, all evidence and one stable roof
+  ---
+  duration_ms: 1.2825
+  type: 'test'
+  ...
+# Subtest: hatched-block buildings north of Nygatan are dated from the 1942–1975 photos
+ok 275 - hatched-block buildings north of Nygatan are dated from the 1942–1975 photos
+  ---
+  duration_ms: 2.73925
+  type: 'test'
+  ...
+# Subtest: an early-photo building starts at its first photo with that photo as evidence and keeps its later history
+ok 276 - an early-photo building starts at its first photo with that photo as evidence and keeps its later history
+  ---
+  duration_ms: 1.147375
+  type: 'test'
+  ...
+# Subtest: deferred and curated buildings keep their previous start
+ok 277 - deferred and curated buildings keep their previous start
+  ---
+  duration_ms: 0.327417
+  type: 'test'
+  ...
+# Subtest: no coarse 1942 city trace is drawn any more, and their original pixels are kept
+ok 278 - no coarse 1942 city trace is drawn any more, and their original pixels are kept
+  ---
+  duration_ms: 17.394208
+  type: 'test'
+  ...
+# Subtest: Södra stadsgatan is rejected without a replacement; it duplicated Skillnadsgatan
+ok 279 - Södra stadsgatan is rejected without a replacement; it duplicated Skillnadsgatan
+  ---
+  duration_ms: 0.104375
+  type: 'test'
+  ...
+# Subtest: streets the 1942 photo shows start in 1942 on their own centre lines; their later history is unchanged
+ok 280 - streets the 1942 photo shows start in 1942 on their own centre lines; their later history is unchanged
+  ---
+  duration_ms: 10.952083
+  type: 'test'
+  ...
+# Subtest: the Strandgatan gap is the photo retrace from the core to Parkgatan, only before 1968
+ok 281 - the Strandgatan gap is the photo retrace from the core to Parkgatan, only before 1968
+  ---
+  duration_ms: 1.353333
+  type: 'test'
+  ...
+# Subtest: junction totals: only the Ålandsplan ring and its approaches add length
+ok 282 - junction totals: only the Ålandsplan ring and its approaches add length
+  ---
+  duration_ms: 5.588167
+  type: 'test'
+  ...
+# Subtest: each junction starts at its first reviewed edition and keeps one stable geometry to 2026
+ok 283 - each junction starts at its first reviewed edition and keeps one stable geometry to 2026
+  ---
+  duration_ms: 61.705166
+  type: 'test'
+  ...
+# Subtest: every modern member and city-stage copy has exactly one owner
+ok 284 - every modern member and city-stage copy has exactly one owner
+  ---
+  duration_ms: 51.22125
+  type: 'test'
+  ...
+# Subtest: each junction joins the road network drawn in its first edition
+ok 285 - each junction joins the road network drawn in its first edition
+  ---
+  duration_ms: 69.768625
+  type: 'test'
+  ...
+# Subtest: junction dates follow the editions: east leg 1968, west leg 1978, second carriageway 1995
+ok 286 - junction dates follow the editions: east leg 1968, west leg 1978, second carriageway 1995
+  ---
+  duration_ms: 0.36175
+  type: 'test'
+  ...
+# Subtest: the unchanged western corridor starts in 1968 with one stable geometry
+ok 287 - the unchanged western corridor starts in 1968 with one stable geometry
+  ---
+  duration_ms: 0.776584
+  type: 'test'
+  ...
+# Subtest: Strandnäs is connected in 1968 and the road stays continuous after the split
+ok 288 - Strandnäs is connected in 1968 and the road stays continuous after the split
+  ---
+  duration_ms: 0.148291
+  type: 'test'
+  ...
+# Subtest: the original rural object keeps identity, dates, evidence and original geometry
+ok 289 - the original rural object keeps identity, dates, evidence and original geometry
+  ---
+  duration_ms: 0.69025
+  type: 'test'
+  ...
+# Subtest: every reviewed modern range has exactly one owner and no city copy is drawn twice
+ok 290 - every reviewed modern range has exactly one owner and no city copy is drawn twice
+  ---
+  duration_ms: 29.6435
+  type: 'test'
+  ...
+# Subtest: follow-up roads start at their first reviewed edition and keep one stable geometry per phase
+ok 291 - follow-up roads start at their first reviewed edition and keep one stable geometry per phase
+  ---
+  duration_ms: 42.411334
+  type: 'test'
+  ...
+# Subtest: every modern member has exactly one owner and later lanes do not double-count
+ok 292 - every modern member has exactly one owner and later lanes do not double-count
+  ---
+  duration_ms: 57.113791
+  type: 'test'
+  ...
+# Subtest: Godbyvägen's 1968 Strandnäs crossing is reconstructed and its remnant keeps the identity
+ok 293 - Godbyvägen's 1968 Strandnäs crossing is reconstructed and its remnant keeps the identity
+  ---
+  duration_ms: 815.209166
+  type: 'test'
+  ...
+# Subtest: Nya Godbyvägen turns into Godbyvägen in 1985 and continues north from 1995 without moving
+ok 294 - Nya Godbyvägen turns into Godbyvägen in 1985 and continues north from 1995 without moving
+  ---
+  duration_ms: 0.190209
+  type: 'test'
+  ...
+# Subtest: removed and reconstructed alignments preserve their raw scan traces as source geometry
+ok 295 - removed and reconstructed alignments preserve their raw scan traces as source geometry
+  ---
+  duration_ms: 0.165167
+  type: 'test'
+  ...
+# Subtest: Åsvägen, roundabouts and later streets are dated separately from older neighbours
+ok 296 - Åsvägen, roundabouts and later streets are dated separately from older neighbours
+  ---
+  duration_ms: 0.218792
+  type: 'test'
+  ...
+# Subtest: larger city roads start at their reviewed map evidence and keep stable geometry through all source changes
+ok 297 - larger city roads start at their reviewed map evidence and keep stable geometry through all source changes
+  ---
+  duration_ms: 62.754084
+  type: 'test'
+  ...
+# Subtest: all normalized road sources have one owner, including the parallel Godbyvägen records
+ok 298 - all normalized road sources have one owner, including the parallel Godbyvägen records
+  ---
+  duration_ms: 18.62475
+  type: 'test'
+  ...
+# Subtest: renamed and shorter original records remain evidence without shortening the persistent road
+ok 299 - renamed and shorter original records remain evidence without shortening the persistent road
+  ---
+  duration_ms: 0.780666
+  type: 'test'
+  ...
+# Subtest: Neptunigatan confirmations add evidence without resetting older phases or identities
+ok 300 - Neptunigatan confirmations add evidence without resetting older phases or identities
+  ---
+  duration_ms: 0.252709
+  type: 'test'
+  ...
+# Subtest: new bypass evidence is not silently applied to changed junctions and deferred extensions
+ok 301 - new bypass evidence is not silently applied to changed junctions and deferred extensions
+  ---
+  duration_ms: 0.124625
+  type: 'test'
+  ...
+# Subtest: dated map roads have one identity and stable positions across later source editions
+ok 302 - dated map roads have one identity and stable positions across later source editions
+  ---
+  duration_ms: 37.891875
+  type: 'test'
+  ...
+# Subtest: Mek-Mattesgränd retains its short mapped dead end until the later source attests the continuation
+ok 303 - Mek-Mattesgränd retains its short mapped dead end until the later source attests the continuation
+  ---
+  duration_ms: 0.431791
+  type: 'test'
+  ...
+# Subtest: modern source features render once under their persistent road identity
+ok 304 - modern source features render once under their persistent road identity
+  ---
+  duration_ms: 31.211042
+  type: 'test'
+  ...
+# Subtest: 15 museum-map houses are merged into the later house, 16 end at their successor, 18 pairs are deferred
+ok 305 - 15 museum-map houses are merged into the later house, 16 end at their successor, 18 pairs are deferred
+  ---
+  duration_ms: 35.811084
+  type: 'test'
+  ...
+# Subtest: a merged house is one object from 1920 with its own outline, the museum evidence and alias, and its later history
+ok 306 - a merged house is one object from 1920 with its own outline, the museum evidence and alias, and its later history
+  ---
+  duration_ms: 17.439834
+  type: 'test'
+  ...
+# Subtest: a replaced museum house ends where its successor is first evidenced and never overlaps it on the map
+ok 307 - a replaced museum house ends where its successor is first evidenced and never overlaps it on the map
+  ---
+  duration_ms: 1.23625
+  type: 'test'
+  ...
+# Subtest: no merged house overlaps a museum house any more, apart from deferred pairs
+ok 308 - no merged house overlaps a museum house any more, apart from deferred pairs
+  ---
+  duration_ms: 451.740708
+  type: 'test'
+  ...
+# Subtest: every museum house left open by the overlap review is decided: 24 merges, 33 endings, 17 deferred
+ok 309 - every museum house left open by the overlap review is decided: 24 merges, 33 endings, 17 deferred
+  ---
+  duration_ms: 4.883
+  type: 'test'
+  ...
+# Subtest: the reported Storagatan-area duplicates resolve to one house each
+ok 310 - the reported Storagatan-area duplicates resolve to one house each
+  ---
+  duration_ms: 9.239292
+  type: 'test'
+  ...
+# Subtest: merged houses keep their own outline and later history; two museum houses may join one longer building
+ok 311 - merged houses keep their own outline and later history; two museum houses may join one longer building
+  ---
+  duration_ms: 7.311416
+  type: 'test'
+  ...
+# Subtest: an ending rests on an empty footprint on the map and ends at its survey year, not a demolition year
+ok 312 - an ending rests on an empty footprint on the map and ends at its survey year, not a demolition year
+  ---
+  duration_ms: 1.490292
+  type: 'test'
+  ...
+# Subtest: Hamngatan and Parkgatan are shown from the museum decade on their own centre lines, with photo evidence for 1942
+ok 313 - Hamngatan and Parkgatan are shown from the museum decade on their own centre lines, with photo evidence for 1942
+  ---
+  duration_ms: 3.041542
+  type: 'test'
+  ...
+# Subtest: the museum drawing covers only the north part of Parkgatan south-east; the photo shows it whole from 1942
+ok 314 - the museum drawing covers only the north part of Parkgatan south-east; the photo shows it whole from 1942
+  ---
+  duration_ms: 0.26775
+  type: 'test'
+  ...
+# Subtest: Hamngatan north of the junction is one persistent street that owns the modern lines
+ok 315 - Hamngatan north of the junction is one persistent street that owns the modern lines
+  ---
+  duration_ms: 53.852333
+  type: 'test'
+  ...
+# Subtest: the coarse museum drawings are source traces of one street each, not second streets
+ok 316 - the coarse museum drawings are source traces of one street each, not second streets
+  ---
+  duration_ms: 81.844417
+  type: 'test'
+  ...
+# Subtest: bounded founding streets appear once through every source transition
+ok 317 - bounded founding streets appear once through every source transition
+  ---
+  duration_ms: 32.005583
+  type: 'test'
+  ...
+# Subtest: Strandgatan 19 keeps its identity while only the eastern wing is removed
+ok 318 - Strandgatan 19 keeps its identity while only the eastern wing is removed
+  ---
+  duration_ms: 0.453041
+  type: 'test'
+  ...
+# Subtest: the 1984 police building survives its 2020–2022 expansion; neighbours end in 2018
+ok 319 - the 1984 police building survives its 2020–2022 expansion; neighbours end in 2018
+  ---
+  duration_ms: 0.259917
+  type: 'test'
+  ...
+# Subtest: the shore road is Sjöpromenaden from the museum decade, with the 1942 photo as evidence
+ok 320 - the shore road is Sjöpromenaden from the museum decade, with the 1942 photo as evidence
+  ---
+  duration_ms: 10.269041
+  type: 'test'
+  ...
+# Subtest: the long northern part is shown before 1968 only where the 1942 photo shows the road
+ok 321 - the long northern part is shown before 1968 only where the 1942 photo shows the road
+  ---
+  duration_ms: 0.341625
+  type: 'test'
+  ...
+# Subtest: the coarse museum drawing is a source trace, not a second street
+ok 322 - the coarse museum drawing is a source trace, not a second street
+  ---
+  duration_ms: 60.331875
+  type: 'test'
+  ...
+# Subtest: reviewed identities retain source evidence, old links and one roof across map changes
+ok 323 - reviewed identities retain source evidence, old links and one roof across map changes
+  ---
+  duration_ms: 3.383208
+  type: 'test'
+  ...
+# Subtest: a photographed replacement ends the museum house as the three distinct successors appear
+ok 324 - a photographed replacement ends the museum house as the three distinct successors appear
+  ---
+  duration_ms: 0.5925
+  type: 'test'
+  ...
+# Subtest: the first southern pass deferred Postiljonsgränd without merging identities
+ok 325 - the first southern pass deferred Postiljonsgränd without merging identities
+  ---
+  duration_ms: 0.189917
+  type: 'test'
+  ...
+# Subtest: southern cores remain planned until 1871 and fixed through later sources
+ok 326 - southern cores remain planned until 1871 and fixed through later sources
+  ---
+  duration_ms: 83.041
+  type: 'test'
+  ...
+# Subtest: western Mariegatan sources belong to three persistent objects without duplicate render features
+ok 327 - western Mariegatan sources belong to three persistent objects without duplicate render features
+  ---
+  duration_ms: 10.488709
+  type: 'test'
+  ...
+# Subtest: whole source traces remain evidence and their unmatched ends stay outside object ownership
+ok 328 - whole source traces remain evidence and their unmatched ends stay outside object ownership
+  ---
+  duration_ms: 0.423667
+  type: 'test'
+  ...
+# Subtest: pass totals are reported once by first edition and never as confirmations
+ok 329 - pass totals are reported once by first edition and never as confirmations
+  ---
+  duration_ms: 1.272291
+  type: 'test'
+  ...
+# Subtest: each street starts at its first reviewed edition and keeps one stable geometry to 2026
+ok 330 - each street starts at its first reviewed edition and keeps one stable geometry to 2026
+  ---
+  duration_ms: 35.045834
+  type: 'test'
+  ...
+# Subtest: every modern member and city-stage copy has exactly one owner
+ok 331 - every modern member and city-stage copy has exactly one owner
+  ---
+  duration_ms: 30.979792
+  type: 'test'
+  ...
+# Subtest: Mellangårdsvägen: the base maps 1968 and 1978 draw only its southern part, and the church road review shows the whole street from the 1962 photo
+ok 332 - Mellangårdsvägen: the base maps 1968 and 1978 draw only its southern part, and the church road review shows the whole street from the 1962 photo
+  ---
+  duration_ms: 0.301875
+  type: 'test'
+  ...
+# Subtest: reviewed streets join the road network drawn in their first edition
+ok 333 - reviewed streets join the road network drawn in their first edition
+  ---
+  duration_ms: 999.924875
+  type: 'test'
+  ...
+# Subtest: Hindersböle: the older lanes keep 1968, the grid starts in 1985 and the field streets in 1995
+ok 334 - Hindersböle: the older lanes keep 1968, the grid starts in 1985 and the field streets in 1995
+  ---
+  duration_ms: 0.254916
+  type: 'test'
+  ...
+# Subtest: pass totals are reported once by first edition; parallel lanes add nothing
+ok 335 - pass totals are reported once by first edition; parallel lanes add nothing
+  ---
+  duration_ms: 16.36075
+  type: 'test'
+  ...
+# Subtest: each street starts at its first reviewed edition and keeps one stable geometry to 2026
+ok 336 - each street starts at its first reviewed edition and keeps one stable geometry to 2026
+  ---
+  duration_ms: 71.985125
+  type: 'test'
+  ...
+# Subtest: every modern member and city-stage copy has exactly one owner
+ok 337 - every modern member and city-stage copy has exactly one owner
+  ---
+  duration_ms: 51.905417
+  type: 'test'
+  ...
+# Subtest: partial streets show only the reviewed part before their full edition
+ok 338 - partial streets show only the reviewed part before their full edition
+  ---
+  duration_ms: 2.506208
+  type: 'test'
+  ...
+# Subtest: reviewed streets join the road network drawn in their first edition
+ok 339 - reviewed streets join the road network drawn in their first edition
+  ---
+  duration_ms: 1305.046
+  type: 'test'
+  ...
+# Subtest: Klintvägen's new connection and Stenhuggarvägen join the network that was already there
+ok 340 - Klintvägen's new connection and Stenhuggarvägen join the network that was already there
+  ---
+  duration_ms: 0.181708
+  type: 'test'
+  ...
+# Subtest: dating rules: single 1968 lines, thin 1978 overprint and black 1995 lines never start a street
+ok 341 - dating rules: single 1968 lines, thin 1978 overprint and black 1995 lines never start a street
+  ---
+  duration_ms: 0.700042
+  type: 'test'
+  ...
+# Subtest: pass totals are reported once by first edition; junction pieces add nothing
+ok 342 - pass totals are reported once by first edition; junction pieces add nothing
+  ---
+  duration_ms: 1.485292
+  type: 'test'
+  ...
+# Subtest: each street starts at its first reviewed edition and keeps one stable geometry to 2026
+ok 343 - each street starts at its first reviewed edition and keeps one stable geometry to 2026
+  ---
+  duration_ms: 91.60925
+  type: 'test'
+  ...
+# Subtest: every modern member and city-stage copy has exactly one owner
+ok 344 - every modern member and city-stage copy has exactly one owner
+  ---
+  duration_ms: 66.347083
+  type: 'test'
+  ...
+# Subtest: reviewed streets join the road network drawn in their first edition
+ok 345 - reviewed streets join the road network drawn in their first edition
+  ---
+  duration_ms: 589.519667
+  type: 'test'
+  ...
+# Subtest: the Stenliden block is anchored through the 1978 junction and the 1985 link
+ok 346 - the Stenliden block is anchored through the 1978 junction and the 1985 link
+  ---
+  duration_ms: 0.145667
+  type: 'test'
+  ...
+# Subtest: gap pieces take their neighbours' first edition only when the map shows them
+ok 347 - gap pieces take their neighbours' first edition only when the map shows them
+  ---
+  duration_ms: 0.094791
+  type: 'test'
+  ...
+# Subtest: 125 printed-map symbol houses in the centre are shown from the 1968 edition; hatched blocks date nothing
+ok 348 - 125 printed-map symbol houses in the centre are shown from the 1968 edition; hatched blocks date nothing
+  ---
+  duration_ms: 9.371291
+  type: 'test'
+  ...
+# Subtest: a dated symbol house starts in 1968 with the map as evidence, keeps its outline and its later history
+ok 349 - a dated symbol house starts in 1968 with the map as evidence, keeps its outline and its later history
+  ---
+  duration_ms: 10.102125
+  type: 'test'
+  ...
+# Subtest: the city layer draws the symbol houses from 1968 and never before
+ok 350 - the city layer draws the symbol houses from 1968 and never before
+  ---
+  duration_ms: 183.476625
+  type: 'test'
+  ...
+# Subtest: panning translates markers without turning triangles into clusters and back
+ok 351 - panning translates markers without turning triangles into clusters and back
+  ---
+  duration_ms: 3.126541
+  type: 'test'
+  ...
+# Subtest: a visible cluster keeps its members when one point crosses the viewport edge
+ok 352 - a visible cluster keeps its members when one point crosses the viewport edge
+  ---
+  duration_ms: 0.128458
+  type: 'test'
+  ...
+# Subtest: zooming and filtering still change which places are grouped
+ok 353 - zooming and filtering still change which places are grouped
+  ---
+  duration_ms: 0.111208
+  type: 'test'
+  ...
+# Subtest: hover and small click movements do not move or redraw the map
+ok 354 - hover and small click movements do not move or redraw the map
+  ---
+  duration_ms: 0.876625
+  type: 'test'
+  ...
+# Subtest: a missed mouse release cannot leave the map dragging on hover
+ok 355 - a missed mouse release cannot leave the map dragging on hover
+  ---
+  duration_ms: 1.268667
+  type: 'test'
+  ...
+# Subtest: capture loss, cancellation and window blur end an interrupted drag
+ok 356 - capture loss, cancellation and window blur end an interrupted drag
+  ---
+  duration_ms: 2.726792
+  type: 'test'
+  ...
+# Subtest: expired markers, clusters, boundaries and list entries disappear together
+ok 357 - expired markers, clusters, boundaries and list entries disappear together
+  ---
+  duration_ms: 0.569417
+  type: 'test'
+  ...
+# Subtest: two-finger pan and pinch retain the map point under the moving midpoint
+ok 358 - two-finger pan and pinch retain the map point under the moving midpoint
+  ---
+  duration_ms: 1.228208
+  type: 'test'
+  ...
+# Subtest: cancelling a pinch leaves no phantom touch or later hover redraw
+ok 359 - cancelling a pinch leaves no phantom touch or later hover redraw
+  ---
+  duration_ms: 0.9245
+  type: 'test'
+  ...
+# Subtest: manual pan and zoom stop automatic playback before changing the camera
+ok 360 - manual pan and zoom stop automatic playback before changing the camera
+  ---
+  duration_ms: 0.916625
+  type: 'test'
+  ...
+# Subtest: Marsund fixed connection appears in 1959 and keeps one geometry across later snapshots
+ok 361 - Marsund fixed connection appears in 1959 and keeps one geometry across later snapshots
+  ---
+  duration_ms: 63.985292
+  type: 'test'
+  ...
+# Subtest: modern and historical source records belong to the same connection without deleting originals
+ok 362 - modern and historical source records belong to the same connection without deleting originals
+  ---
+  duration_ms: 381.621125
+  type: 'test'
+  ...
+# Subtest: old regional crossing is retained before the bridge opens and retires only where replaced
+ok 363 - old regional crossing is retained before the bridge opens and retires only where replaced
+  ---
+  duration_ms: 2.61625
+  type: 'test'
+  ...
+# Subtest: Kattby west joins Marsund in 1959 without shrinking at later source boundaries
+ok 364 - Kattby west joins Marsund in 1959 without shrinking at later source boundaries
+  ---
+  duration_ms: 0.186542
+  type: 'test'
+  ...
+# Subtest: 1929–1994 Mattas, the old bend and the link to Södersundavägen are one line
+ok 365 - 1929–1994 Mattas, the old bend and the link to Södersundavägen are one line
+  ---
+  duration_ms: 3.817708
+  type: 'test'
+  ...
+# Subtest: from 1929 the road runs from Norra Möckelövägen along Lönnelund to Möckelö as one line
+ok 366 - from 1929 the road runs from Norra Möckelövägen along Lönnelund to Möckelö as one line
+  ---
+  duration_ms: 7.472334
+  type: 'test'
+  ...
+# Subtest: Mjölkdalsvägen branches off Möckelövägen at the Gustavsberg corner from 1928; Småholmavägen stays at 1978
+ok 367 - Mjölkdalsvägen branches off Möckelövägen at the Gustavsberg corner from 1928; Småholmavägen stays at 1978
+  ---
+  duration_ms: 0.564917
+  type: 'test'
+  ...
+# Subtest: modern spatial index matches a full geometry scan, including grid boundaries
+ok 368 - modern spatial index matches a full geometry scan, including grid boundaries
+  ---
+  duration_ms: 2.889584
+  type: 'test'
+  ...
+# Subtest: modern roads stay visible at every scale while buildings keep their detail threshold
+ok 369 - modern roads stay visible at every scale while buildings keep their detail threshold
+  ---
+  duration_ms: 0.128541
+  type: 'test'
+  ...
+# Subtest: Åland extract contains buildings and roads near mainland and archipelago settlements
+ok 370 - Åland extract contains buildings and roads near mainland and archipelago settlements
+  ---
+  duration_ms: 289.5515
+  type: 'test'
+  ...
+# Subtest: coast rendering skips distant islands when zoomed in
+ok 371 - coast rendering skips distant islands when zoomed in
+  ---
+  duration_ms: 0.244666
+  type: 'test'
+  ...
+# Subtest: compressed map data works with raw gzip and server-decoded responses
+ok 372 - compressed map data works with raw gzip and server-decoded responses
+  ---
+  duration_ms: 85.379125
+  type: 'test'
+  ...
+# Subtest: resizing the map keeps the selected geographic centre
+ok 373 - resizing the map keeps the selected geographic centre
+  ---
+  duration_ms: 0.855209
+  type: 'test'
+  ...
+# Subtest: stroke batching retains every path, caches stable views and invalidates changed source remainders
+ok 374 - stroke batching retains every path, caches stable views and invalidates changed source remainders
+  ---
+  duration_ms: 0.265166
+  type: 'test'
+  ...
+# Subtest: changing viewport edges only rebuilds affected road stroke groups
+ok 375 - changing viewport edges only rebuilds affected road stroke groups
+  ---
+  duration_ms: 0.09775
+  type: 'test'
+  ...
+# Subtest: Nygatan has one identity across the 1942 trace and later source segments
+ok 376 - Nygatan has one identity across the 1942 trace and later source segments
+  ---
+  duration_ms: 0.86175
+  type: 'test'
+  ...
+# Subtest: the 1942 street stays fixed while the east extension appears only in 1978
+ok 377 - the 1942 street stays fixed while the east extension appears only in 1978
+  ---
+  duration_ms: 2.110833
+  type: 'test'
+  ...
+# Subtest: only one Nygatan is rendered in every interpreted city stage
+ok 378 - only one Nygatan is rendered in every interpreted city stage
+  ---
+  duration_ms: 48.639959
+  type: 'test'
+  ...
+# Subtest: Pommern history distinguishes port presence from an unverified historical berth
+ok 379 - Pommern history distinguishes port presence from an unverified historical berth
+  ---
+  duration_ms: 0.355834
+  type: 'test'
+  ...
+# Subtest: the museum cross-street becomes Nygatan while retaining its original trace and decade dating
+ok 380 - the museum cross-street becomes Nygatan while retaining its original trace and decade dating
+  ---
+  duration_ms: 29.662292
+  type: 'test'
+  ...
+# Subtest: 1871 planning evidence supplies an explicit opening assumption without backdating the extension
+ok 381 - 1871 planning evidence supplies an explicit opening assumption without backdating the extension
+  ---
+  duration_ms: 0.371167
+  type: 'test'
+  ...
+# Subtest: the museum duplicate of Nygatan stays a source trace on Nygatan, not a street
+ok 382 - the museum duplicate of Nygatan stays a source trace on Nygatan, not a street
+  ---
+  duration_ms: 49.834709
+  type: 'test'
+  ...
+# Subtest: object dossier preserves every field and all referenced original and interpreted geometries
+ok 383 - object dossier preserves every field and all referenced original and interpreted geometries
+  ---
+  duration_ms: 535.659041
+  type: 'test'
+  ...
+# Subtest: every description category has a stable, encoded data link carrying the viewed year
+ok 384 - every description category has a stable, encoded data link carrying the viewed year
+  ---
+  duration_ms: 4.137625
+  type: 'test'
+  ...
+# Subtest: safe links and geometry comparison never execute data as markup
+ok 385 - safe links and geometry comparison never execute data as markup
+  ---
+  duration_ms: 0.4515
+  type: 'test'
+  ...
+# Subtest: source record links resolve independently, without inventing persistent object histories
+ok 386 - source record links resolve independently, without inventing persistent object histories
+  ---
+  duration_ms: 853.171458
+  type: 'test'
+  ...
+# Subtest: repeated panel updates create just one accessible navigation action
+ok 387 - repeated panel updates create just one accessible navigation action
+  ---
+  duration_ms: 0.261333
+  type: 'test'
+  ...
+# Subtest: Strandgatan 1942 data links load the reconstructed segment and its selected stage
+ok 388 - Strandgatan 1942 data links load the reconstructed segment and its selected stage
+  ---
+  duration_ms: 3.365583
+  type: 'test'
+  ...
+# Subtest: every reconstructed city-stage description resolves to a dossier without losing its source context
+ok 389 - every reconstructed city-stage description resolves to a dossier without losing its source context
+  ---
+  duration_ms: 230.82875
+  type: 'test'
+  ...
+# Subtest: ofreden events exist in the real timeline, sorted with valid sources and place links
+ok 390 - ofreden events exist in the real timeline, sorted with valid sources and place links
+  ---
+  duration_ms: 1.561125
+  type: 'test'
+  ...
+# Subtest: event places only show during attested years and the layer can hide them
+ok 391 - event places only show during attested years and the layer can hide them
+  ---
+  duration_ms: 20.3925
+  type: 'test'
+  ...
+# Subtest: registry evidence uses the attested interval and does not duplicate active curated places
+ok 392 - registry evidence uses the attested interval and does not duplicate active curated places
+  ---
+  duration_ms: 7.994375
+  type: 'test'
+  ...
+# Subtest: searching from the present opens the historical event without enabling archaeology traces
+ok 393 - searching from the present opens the historical event without enabling archaeology traces
+  ---
+  duration_ms: 0.592667
+  type: 'test'
+  ...
+# Subtest: sources preserve location and dating limitations rather than inventing footprints or lifetimes
+ok 394 - sources preserve location and dating limitations rather than inventing footprints or lifetimes
+  ---
+  duration_ms: 0.438792
+  type: 'test'
+  ...
+# Subtest: native timestamp includes dispatch delay and separates fade completion
+ok 395 - native timestamp includes dispatch delay and separates fade completion
+  ---
+  duration_ms: 1.474959
+  type: 'test'
+  ...
+# Subtest: stale or incomplete maps do not resolve input
+ok 396 - stale or incomplete maps do not resolve input
+  ---
+  duration_ms: 0.160084
+  type: 'test'
+  ...
+# Subtest: coalesced gestures retain superseded and unresolved records
+ok 397 - coalesced gestures retain superseded and unresolved records
+  ---
+  duration_ms: 0.109458
+  type: 'test'
+  ...
+# Subtest: Play waits for an asynchronously changed map; no-op gestures are explicit
+ok 398 - Play waits for an asynchronously changed map; no-op gestures are explicit
+  ---
+  duration_ms: 0.096834
+  type: 'test'
+  ...
+# Subtest: names have their own identities, and evidence never becomes an invented creation date
+ok 399 - names have their own identities, and evidence never becomes an invented creation date
+  ---
+  duration_ms: 2.991208
+  type: 'test'
+  ...
+# Subtest: historical spellings find the persistent name; timeline retains later evidence and shows uncertainty
+ok 400 - historical spellings find the persistent name; timeline retains later evidence and shows uncertainty
+  ---
+  duration_ms: 1.733417
+  type: 'test'
+  ...
+# Subtest: only painted name labels are clickable; time, layer and collision changes remove old hit targets
+ok 401 - only painted name labels are clickable; time, layer and collision changes remove old hit targets
+  ---
+  duration_ms: 2.191
+  type: 'test'
+  ...
+# Subtest: name identity survives a global year change, including before its appearance
+ok 402 - name identity survives a global year change, including before its appearance
+  ---
+  duration_ms: 2.214208
+  type: 'test'
+  ...
+# Subtest: name links have a supported independent dataset
+ok 403 - name links have a supported independent dataset
+  ---
+  duration_ms: 2.731041
+  type: 'test'
+  ...
+# Subtest: current spellings have historical dates, merge matching evidence, and preserve later variants
+ok 404 - current spellings have historical dates, merge matching evidence, and preserve later variants
+  ---
+  duration_ms: 3.229167
+  type: 'test'
+  ...
+# Subtest: name archive shows current-form estimates without treating them as source observations
+ok 405 - name archive shows current-form estimates without treating them as source observations
+  ---
+  duration_ms: 1.841291
+  type: 'test'
+  ...
+# Subtest: map names follow dated spellings at boundaries and retain modern names after later variants
+ok 406 - map names follow dated spellings at boundaries and retain modern names after later variants
+  ---
+  duration_ms: 0.673125
+  type: 'test'
+  ...
+# Subtest: painted text and its hit box update with the year without changing clickable identity
+ok 407 - painted text and its hit box update with the year without changing clickable identity
+  ---
+  duration_ms: 0.598834
+  type: 'test'
+  ...
+# Subtest: every named building and house row of the 1860 plan is a planned city building, only in 1860
+ok 408 - every named building and house row of the 1860 plan is a planned city building, only in 1860
+  ---
+  duration_ms: 2.96275
+  type: 'test'
+  ...
+# Subtest: evidence points to the plan with its traced pixels and placement; the plan is not a construction date
+ok 409 - evidence points to the plan with its traced pixels and placement; the plan is not a construction date
+  ---
+  duration_ms: 10.335792
+  type: 'test'
+  ...
+# Subtest: placed outlines keep plausible sizes, and the hospital and church sit where the plan puts them
+ok 410 - placed outlines keep plausible sizes, and the hospital and church sit where the plan puts them
+  ---
+  duration_ms: 0.896792
+  type: 'test'
+  ...
+# Subtest: house rows are block-side groups that sit in the reconstructed blocks, both rows of a plan block in the same block
+ok 411 - house rows are block-side groups that sit in the reconstructed blocks, both rows of a plan block in the same block
+  ---
+  duration_ms: 1.621209
+  type: 'test'
+  ...
+# Subtest: the plan north street is folded into Norragatan: no stage draws it as a street of its own
+ok 412 - the plan north street is folded into Norragatan: no stage draws it as a street of its own
+  ---
+  duration_ms: 3.692833
+  type: 'test'
+  ...
+# Subtest: city-reconstruction-1860: the plan streets that ended on it end on Norragatan and keep their earlier lines
+ok 413 - city-reconstruction-1860: the plan streets that ended on it end on Norragatan and keep their earlier lines
+  ---
+  duration_ms: 0.893291
+  type: 'test'
+  ...
+# Subtest: city-reconstruction-1861: the plan streets that ended on it end on Norragatan and keep their earlier lines
+ok 414 - city-reconstruction-1861: the plan streets that ended on it end on Norragatan and keep their earlier lines
+  ---
+  duration_ms: 0.111458
+  type: 'test'
+  ...
+# Subtest: city-reconstruction-1871: the plan streets that ended on it end on Norragatan and keep their earlier lines
+ok 415 - city-reconstruction-1871: the plan streets that ended on it end on Norragatan and keep their earlier lines
+  ---
+  duration_ms: 0.097583
+  type: 'test'
+  ...
+# Subtest: flight pulls back before travelling and arrives exactly at its destination
+ok 416 - flight pulls back before travelling and arrives exactly at its destination
+  ---
+  duration_ms: 2.360917
+  type: 'test'
+  ...
+# Subtest: nearby stops pan directly without pulling back, while distant stops still establish context
+ok 417 - nearby stops pan directly without pulling back, while distant stops still establish context
+  ---
+  duration_ms: 0.260667
+  type: 'test'
+  ...
+# Subtest: repeated city overview stops keep the map completely still throughout playback
+ok 418 - repeated city overview stops keep the map completely still throughout playback
+  ---
+  duration_ms: 0.676708
+  type: 'test'
+  ...
+# Subtest: city landmark transitions adjust zoom only towards the destination, without an extra excursion
+ok 419 - city landmark transitions adjust zoom only towards the destination, without an extra excursion
+  ---
+  duration_ms: 1.578
+  type: 'test'
+  ...
+# Subtest: resuming mid-interval begins at the current camera, not the previous marker
+ok 420 - resuming mid-interval begins at the current camera, not the previous marker
+  ---
+  duration_ms: 0.254667
+  type: 'test'
+  ...
+# Subtest: reduced motion holds the view until an instantaneous arrival
+ok 421 - reduced motion holds the view until an instantaneous arrival
+  ---
+  duration_ms: 0.091167
+  type: 'test'
+  ...
+# Subtest: an early camera arrival holds the destination through the rest of the timeline interval
+ok 422 - an early camera arrival holds the destination through the rest of the timeline interval
+  ---
+  duration_ms: 0.150667
+  type: 'test'
+  ...
+# Subtest: Bomarsund framing uses the main fortress outline during construction and destruction
+ok 423 - Bomarsund framing uses the main fortress outline during construction and destruction
+  ---
+  duration_ms: 1.640792
+  type: 'test'
+  ...
+# Subtest: the app follows each event camera cue and holds it until the next event
+ok 424 - the app follows each event camera cue and holds it until the next event
+  ---
+  duration_ms: 0.809
+  type: 'test'
+  ...
+# Subtest: source snapshots keep a shared city overview, while Österleden follows its road
+ok 425 - source snapshots keep a shared city overview, while Österleden follows its road
+  ---
+  duration_ms: 0.180916
+  type: 'test'
+  ...
+# Subtest: story destinations use existing records, including wrecks, routes and city landmarks
+ok 426 - story destinations use existing records, including wrecks, routes and city landmarks
+  ---
+  duration_ms: 0.125625
+  type: 'test'
+  ...
+# Subtest: slow shoreline loading preserves the visible land and honestly labels its year
+ok 427 - slow shoreline loading preserves the visible land and honestly labels its year
+  ---
+  duration_ms: 17.309667
+  type: 'test'
+  ...
+# Subtest: playback prefetches ahead, deduplicates downloads and only advances when ready
+ok 428 - playback prefetches ahead, deduplicates downloads and only advances when ready
+  ---
+  duration_ms: 1.105292
+  type: 'test'
+  ...
+# Subtest: out-of-order responses never replace the requested shoreline
+ok 429 - out-of-order responses never replace the requested shoreline
+  ---
+  duration_ms: 0.83075
+  type: 'test'
+  ...
+# Subtest: failed loads retain the previous coast and do not trap playback forever
+ok 430 - failed loads retain the previous coast and do not trap playback forever
+  ---
+  duration_ms: 1.703958
+  type: 'test'
+  ...
+# Subtest: returning to the ice age clears the later shoreline fallback
+ok 431 - returning to the ice age clears the later shoreline fallback
+  ---
+  duration_ms: 0.977625
+  type: 'test'
+  ...
+# Subtest: buffering freezes time and camera, then resumes without catching up
+ok 432 - buffering freezes time and camera, then resumes without catching up
+  ---
+  duration_ms: 2.25575
+  type: 'test'
+  ...
+# Subtest: pausing during buffering prevents a queued frame from advancing
+ok 433 - pausing during buffering prevents a queued frame from advancing
+  ---
+  duration_ms: 0.898208
+  type: 'test'
+  ...
+# Subtest: all Bomarsund highlights arrive in order, with an automatic pause only at 1854
+ok 434 - all Bomarsund highlights arrive in order, with an automatic pause only at 1854
+  ---
+  duration_ms: 0.899292
+  type: 'test'
+  ...
+# Subtest: city playback includes intermediate stories but pauses only at its own milestone
+ok 435 - city playback includes intermediate stories but pauses only at its own milestone
+  ---
+  duration_ms: 1.577875
+  type: 'test'
+  ...
+# Subtest: continuous playback visits every highlight and ends at the final year
+ok 436 - continuous playback visits every highlight and ends at the final year
+  ---
+  duration_ms: 1.509208
+  type: 'test'
+  ...
+# Subtest: starting a journey clears selection and supplies the full event catalogue
+ok 437 - starting a journey clears selection and supplies the full event catalogue
+  ---
+  duration_ms: 0.934666
+  type: 'test'
+  ...
+# Subtest: coverage gaps leave the sea background visible by default at historical and modern years
+ok 438 - coverage gaps leave the sea background visible by default at historical and modern years
+  ---
+  duration_ms: 0.8005
+  type: 'test'
+  ...
+# Subtest: coverage gaps remain available as an optional inspection layer
+ok 439 - coverage gaps remain available as an optional inspection layer
+  ---
+  duration_ms: 0.684292
+  type: 'test'
+  ...
+# Subtest: early ice covers the viewport without drawing the clipped raster ice boundary
+ok 440 - early ice covers the viewport without drawing the clipped raster ice boundary
+  ---
+  duration_ms: 0.871542
+  type: 'test'
+  ...
+# Subtest: schematic ice thaws continuously with no jump at the first available model
+ok 441 - schematic ice thaws continuously with no jump at the first available model
+  ---
+  duration_ms: 1.883208
+  type: 'test'
+  ...
+# Subtest: play and resume advance on the first ready frame without an opening hold
+ok 442 - play and resume advance on the first ready frame without an opening hold
+  ---
+  duration_ms: 3.173333
+  type: 'test'
+  ...
+# Subtest: starting at the final event finishes on the first frame instead of waiting
+ok 443 - starting at the final event finishes on the first frame instead of waiting
+  ---
+  duration_ms: 1.00825
+  type: 'test'
+  ...
+# Subtest: camera advances on every display frame at 60 and 120 Hz without changing journey speed
+ok 444 - camera advances on every display frame at 60 and 120 Hz without changing journey speed
+  ---
+  duration_ms: 3.622542
+  type: 'test'
+  ...
+# Subtest: uneven display intervals advance smoothly, and a buffered gap never catches up
+ok 445 - uneven display intervals advance smoothly, and a buffered gap never catches up
+  ---
+  duration_ms: 0.673833
+  type: 'test'
+  ...
+# Subtest: the road from Emkarby through Gölby to Godby is on the parish maps 1928 and 1929, on its own later line
+ok 446 - the road from Emkarby through Gölby to Godby is on the parish maps 1928 and 1929, on its own later line
+  ---
+  duration_ms: 1.953583
+  type: 'test'
+  ...
+# Subtest: the postal route from Frebbenby to Emkarby runs on the 1929 roads
+ok 447 - the postal route from Frebbenby to Emkarby runs on the 1929 roads
+  ---
+  duration_ms: 8.821875
+  type: 'test'
+  ...
+# Subtest: Vårdö to Kumlinge: by road through Vårdö by to Hullvik, by boat over Delet, by Södra postvägen to Kumlinge by
+ok 448 - Vårdö to Kumlinge: by road through Vårdö by to Hullvik, by boat over Delet, by Södra postvägen to Kumlinge by
+  ---
+  duration_ms: 7.191834
+  type: 'test'
+  ...
+# Subtest: the postal route is clickable: a leg opens its story with its roads, a station its place
+ok 449 - the postal route is clickable: a leg opens its story with its roads, a station its place
+  ---
+  duration_ms: 21.271042
+  type: 'test'
+  ...
+# Subtest: stations tied to a building or site point at catalogue objects, at their position
+ok 450 - stations tied to a building or site point at catalogue objects, at their position
+  ---
+  duration_ms: 11.274375
+  type: 'test'
+  ...
+# Subtest: Kumlinge to Brändö: along Norra postvägen, by boat past Gravstensgrundet (the wreck of 1773), by road into Brändö by
+ok 451 - Kumlinge to Brändö: along Norra postvägen, by boat past Gravstensgrundet (the wreck of 1773), by road into Brändö by
+  ---
+  duration_ms: 1.696417
+  type: 'test'
+  ...
+# Subtest: the route is drawn at every zoom, also over the Bomarsund fortress detail
+ok 452 - the route is drawn at every zoom, also over the Bomarsund fortress detail
+  ---
+  duration_ms: 3.358041
+  type: 'test'
+  ...
+# Subtest: the old ferry road at Färjsundet (Fi 8.17) is the road until 1761 and the route crosses there until then
+ok 453 - the old ferry road at Färjsundet (Fi 8.17) is the road until 1761 and the route crosses there until then
+  ---
+  duration_ms: 9.429291
+  type: 'test'
+  ...
+# Subtest: the boat to Vårdö leaves from Delvik before 1670 and from the Bomarsund pier after, to Båthusviken in Vargata
+ok 454 - the boat to Vårdö leaves from Delvik before 1670 and from the Bomarsund pier after, to Båthusviken in Vargata
+  ---
+  duration_ms: 0.994375
+  type: 'test'
+  ...
+# Subtest: the map draws each year's legs: road parts solid, boat lines dashed, the old Färjsundet ferry place until 1760
+ok 455 - the map draws each year's legs: road parts solid, boat lines dashed, the old Färjsundet ferry place until 1760
+  ---
+  duration_ms: 5.33825
+  type: 'test'
+  ...
+# Subtest: from 1968 the postal road runs from Emkarbyvägen through Gölby and Godby to the Färjsundet bridge
+ok 456 - from 1968 the postal road runs from Emkarbyvägen through Gölby and Godby to the Färjsundet bridge
+  ---
+  duration_ms: 2.086875
+  type: 'test'
+  ...
+# Subtest: Emkarbyvägen draws its eastern part from 1968: round the old bend to Bergens until 1977, then on the 1978 line
+ok 457 - Emkarbyvägen draws its eastern part from 1968: round the old bend to Bergens until 1977, then on the 1978 line
+  ---
+  duration_ms: 0.186416
+  type: 'test'
+  ...
+# Subtest: from 1929 the road runs on Hamnvägen and along the shore to the Färjsundet landing, and from the far landing through Haraldsby
+ok 458 - from 1929 the road runs on Hamnvägen and along the shore to the Färjsundet landing, and from the far landing through Haraldsby
+  ---
+  duration_ms: 0.9395
+  type: 'test'
+  ...
+# Subtest: the postal route crosses Marsund and Färjsundet by ferry and runs through Haraldsby village
+ok 459 - the postal route crosses Marsund and Färjsundet by ferry and runs through Haraldsby village
+  ---
+  duration_ms: 3.523291
+  type: 'test'
+  ...
+# Subtest: every leg between two post stations follows roads mapped by its year, ferries and boat lines
+ok 460 - every leg between two post stations follows roads mapped by its year, ferries and boat lines
+  ---
+  duration_ms: 92.45875
+  type: 'test'
+  ...
+# Subtest: the Åland stops are the post stations of the year, in order, between the sea crossings
+ok 461 - the Åland stops are the post stations of the year, in order, between the sea crossings
+  ---
+  duration_ms: 0.216834
+  type: 'test'
+  ...
+# Subtest: from 1968 the road leads from the Storby post and customs house to the Marsund connection at Labbas
+ok 462 - from 1968 the road leads from the Storby post and customs house to the Marsund connection at Labbas
+  ---
+  duration_ms: 2.005792
+  type: 'test'
+  ...
+# Subtest: Sundsvägen is continuous at the Lappböle sheet edge from 1968 and at Klippan from 1978
+ok 463 - Sundsvägen is continuous at the Lappböle sheet edge from 1968 and at Klippan from 1978
+  ---
+  duration_ms: 2.511167
+  type: 'test'
+  ...
+# Subtest: 1971–1984 Vårdövägen runs into Vargata and round the bend past the Post farm; the straight is first on the 1985 map
+ok 464 - 1971–1984 Vårdövägen runs into Vargata and round the bend past the Post farm; the straight is first on the 1985 map
+  ---
+  duration_ms: 1.733208
+  type: 'test'
+  ...
+# Subtest: Postiljonsgränd preserves the cleared historical house as a distinct ended identity
+ok 465 - Postiljonsgränd preserves the cleared historical house as a distinct ended identity
+  ---
+  duration_ms: 1.664625
+  type: 'test'
+  ...
+# Subtest: earlier photographic presence updates dates without shifting or flattening existing geometry phases
+ok 466 - earlier photographic presence updates dates without shifting or flattening existing geometry phases
+  ---
+  duration_ms: 0.194416
+  type: 'test'
+  ...
+# Subtest: Postiljonsgränd keeps all previous evidence, source ownership and aliases
+ok 467 - Postiljonsgränd keeps all previous evidence, source ownership and aliases
+  ---
+  duration_ms: 0.216875
+  type: 'test'
+  ...
+# Subtest: coarse 2014 Södravägen is fully replaced without erasing source history or changing dates
+ok 468 - coarse 2014 Södravägen is fully replaced without erasing source history or changing dates
+  ---
+  duration_ms: 49.411208
+  type: 'test'
+  ...
+# Subtest: Reviewed roads appear at reviewed dates and keep geometry stable within reviewed phases
+ok 469 - Reviewed roads appear at reviewed dates and keep geometry stable within reviewed phases
+  ---
+  duration_ms: 37.823583
+  type: 'test'
+  ...
+# Subtest: Saltvik modern source fragments are replaced once at every zoom; sheet remainder survives
+ok 470 - Saltvik modern source fragments are replaced once at every zoom; sheet remainder survives
+  ---
+  duration_ms: 532.199
+  type: 'test'
+  ...
+# Subtest: real route changes keep one identity and preserve the older geometry until the evidence boundary
+ok 471 - real route changes keep one identity and preserve the older geometry until the evidence boundary
+  ---
+  duration_ms: 0.472542
+  type: 'test'
+  ...
+# Subtest: Kavelbro adds the 1978 bypass while the old connected curve stays visible
+ok 472 - Kavelbro adds the 1978 bypass while the old connected curve stays visible
+  ---
+  duration_ms: 0.153334
+  type: 'test'
+  ...
+# Subtest: Haraldsby and Kvarnbovägen change their shared junction together without duplicating objects
+ok 473 - Haraldsby and Kvarnbovägen change their shared junction together without duplicating objects
+  ---
+  duration_ms: 263.907375
+  type: 'test'
+  ...
+# Subtest: Sundsvägen stays connected through Kulla’s realignment; western roads and sheet remainders survive
+ok 474 - Sundsvägen stays connected through Kulla’s realignment; western roads and sheet remainders survive
+  ---
+  duration_ms: 0.958083
+  type: 'test'
+  ...
+# Subtest: Gamla Sundsvägen reconnects historically and Kulla branches follow their dated neighbour
+ok 475 - Gamla Sundsvägen reconnects historically and Kulla branches follow their dated neighbour
+  ---
+  duration_ms: 305.638375
+  type: 'test'
+  ...
+# Subtest: 50 km batch preserves dated curves and joins Norra Sundsvägen across map sheets
+ok 476 - 50 km batch preserves dated curves and joins Norra Sundsvägen across map sheets
+  ---
+  duration_ms: 0.56775
+  type: 'test'
+  ...
+# Subtest: Sund coastal extensions use their evidence dates and Hultvägen keeps its unreviewed shortcut
+ok 477 - Sund coastal extensions use their evidence dates and Hultvägen keeps its unreviewed shortcut
+  ---
+  duration_ms: 318.359709
+  type: 'test'
+  ...
+# Subtest: archipelago crossings use their first mapped road evidence and retain stable later geometry
+ok 478 - archipelago crossings use their first mapped road evidence and retain stable later geometry
+  ---
+  duration_ms: 0.606208
+  type: 'test'
+  ...
+# Subtest: renamed Järsö sources share an identity while Geta cycleways remain separate
+ok 479 - renamed Järsö sources share an identity while Geta cycleways remain separate
+  ---
+  duration_ms: 0.20975
+  type: 'test'
+  ...
+# Subtest: the parking area cannot render as a roof or demolition trace in any source year
+ok 480 - the parking area cannot render as a roof or demolition trace in any source year
+  ---
+  duration_ms: 534.35225
+  type: 'test'
+  ...
+# Subtest: Övernässtugan separates a tentative 1730s origin from the 1838 residence evidence
+ok 481 - Övernässtugan separates a tentative 1730s origin from the 1838 residence evidence
+  ---
+  duration_ms: 115.754042
+  type: 'test'
+  ...
+# Subtest: 1929–1967 the road at Postad runs in the old curve (register remnant Ha 17.8), not on today's straight line
+ok 482 - 1929–1967 the road at Postad runs in the old curve (register remnant Ha 17.8), not on today's straight line
+  ---
+  duration_ms: 2.138875
+  type: 'test'
+  ...
+# Subtest: register road remnants are evidence on the roads they lie on, without changing their dates
+ok 483 - register road remnants are evidence on the roads they lie on, without changing their dates
+  ---
+  duration_ms: 0.576417
+  type: 'test'
+  ...
+# Subtest: dated street identities and alignments do not change with zoom or fortress detail
+ok 484 - dated street identities and alignments do not change with zoom or fortress detail
+  ---
+  duration_ms: 1572.516375
+  type: 'test'
+  ...
+# Subtest: schematic originals never reappear when zoom crosses a former layer threshold
+ok 485 - schematic originals never reappear when zoom crosses a former layer threshold
+  ---
+  duration_ms: 12.428333
+  type: 'test'
+  ...
+# Subtest: unmatched historical and modern minor roads remain drawn and clickable at every scale
+ok 486 - unmatched historical and modern minor roads remain drawn and clickable at every scale
+  ---
+  duration_ms: 11.606583
+  type: 'test'
+  ...
+# Subtest: road preparation reuses a fixed year but refreshes when dates, model or projection change
+ok 487 - road preparation reuses a fixed year but refreshes when dates, model or projection change
+  ---
+  duration_ms: 0.252583
+  type: 'test'
+  ...
+# Subtest: reviewed rural buildings keep one object and roof from their first map evidence through modern surveys
+ok 488 - reviewed rural buildings keep one object and roof from their first map evidence through modern surveys
+  ---
+  duration_ms: 810.238458
+  type: 'test'
+  ...
+# Subtest: Sund follow-up retains distinct first observations and does not turn the 1978 road update into a roof survey
+ok 489 - Sund follow-up retains distinct first observations and does not turn the 1978 road update into a roof survey
+  ---
+  duration_ms: 0.355708
+  type: 'test'
+  ...
+# Subtest: Signilskär keeps later observations out of 1968 and reconciles three distinct harbour buildings
+ok 490 - Signilskär keeps later observations out of 1968 and reconciles three distinct harbour buildings
+  ---
+  duration_ms: 0.9865
+  type: 'test'
+  ...
+# Subtest: printed evidence remains separately inspectable without becoming another roof
+ok 491 - printed evidence remains separately inspectable without becoming another roof
+  ---
+  duration_ms: 2.122083
+  type: 'test'
+  ...
+# Subtest: unmatched historical symbols render as one persistent, clickable building per identity
+ok 492 - unmatched historical symbols render as one persistent, clickable building per identity
+  ---
+  duration_ms: 14830.041875
+  type: 'test'
+  ...
+# Subtest: Märket lighthouse uses its documented opening with one stable roof and separate map evidence
+ok 493 - Märket lighthouse uses its documented opening with one stable roof and separate map evidence
+  ---
+  duration_ms: 0.283042
+  type: 'test'
+  ...
+# Subtest: reviewed farm roads have one clickable line; source ownership follows year and layer visibility
+not ok 494 - reviewed farm roads have one clickable line; source ownership follows year and layer visibility
+  ---
+  duration_ms: 97.263083
+  type: 'test'
+  location: '/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/rural-map-review.test.cjs:103:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + {
+    +   id: 'geometry:hammarlandsvagen-postad:hammarland-korsberg-old-road',
+    +   note: 'Vägens egna koordinater där den finns kvar (Äldre väg vid Korsberg), och därefter mittlinjen av fornlämningsregistrets avgränsning (inmätt), fram till dagens väg där 1929 års sträcka fortsätter.',
+    +   paths: [
+    +     [
+    +       [
+    +         19.764437,
+    +         60.206912
+    +       ],
+    +       [
+    +         19.76452,
+    +         60.206965
+    +       ],
+    +       [
+    +         19.764549,
+    +         60.206996
+    +       ],
+    +       [
+    +         19.764556,
+    +         60.207016
+    +       ],
+    +       [
+    +         19.764532,
+    +         60.207081
+    +       ],
+    +       [
+    +         19.764424,
+    +         60.207266
+    +       ],
+    +       [
+    +         19.764322,
+    +         60.207426
+    +       ],
+    +       [
+    +         19.764269,
+    +         60.207666
+    +       ],
+    +       [
+    +         19.764156,
+    +         60.207831
+    +       ],
+    +       [
+    +         19.76392,
+    +         60.208047
+    +       ],
+    +       [
+    +         19.76348,
+    +         60.208298
+    +       ],
+    +       [
+    +         19.763164,
+    +         60.208479
+    +       ],
+    +       [
+    +         19.7627821,
+    +         60.208501
+    +       ],
+    +       [
+    +         19.762477,
+    +         60.2085783
+    +       ],
+    +       [
+    +         19.7621736,
+    +         60.208657
+    +       ],
+    +       [
+    +         19.7618904,
+    +         60.2087522
+    +       ],
+    +       [
+    +         19.761617,
+    +         60.2088548
+    +       ],
+    +       [
+    +         19.7613435,
+    +         60.2089574
+    +       ],
+    +       [
+    +         19.761073,
+    +         60.209062
+    +       ],
+    +       [
+    +         19.7607998,
+    +         60.2091647
+    +       ],
+    +       [
+    +         19.7605225,
+    +         60.2092647
+    +       ],
+    +       [
+    +         19.7602396,
+    +         60.2093607
+    +       ],
+    +       [
+    +         19.7599484,
+    +         60.2094499
+    +       ],
+    +       [
+    +         19.7596333,
+    +         60.2095159
+    +       ],
+    +       [
+    +         19.7593145,
+    +         60.2095779
+    +       ],
+    +       [
+    +         19.758461577564148,
+    +         60.209717012374426
+    +       ]
+    +     ]
+    +   ],
+    +   representation: 'centerline',
+    +   sourceIds: [
+    +     'nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08',
+    +     'heritage-register:Ha 17.8'
+    +   ]
+    + }
+    - null
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: ~
+  actual:
+    id: 'geometry:hammarlandsvagen-postad:hammarland-korsberg-old-road'
+    representation: 'centerline'
+    paths:
+      0:
+        0:
+          0: 19.764437
+          1: 60.206912
+        1:
+          0: 19.76452
+          1: 60.206965
+        2:
+          0: 19.764549
+          1: 60.206996
+        3:
+          0: 19.764556
+          1: 60.207016
+        4:
+          0: 19.764532
+          1: 60.207081
+        5:
+          0: 19.764424
+          1: 60.207266
+        6:
+          0: 19.764322
+          1: 60.207426
+        7:
+          0: 19.764269
+          1: 60.207666
+        8:
+          0: 19.764156
+          1: 60.207831
+        9:
+          0: 19.76392
+          1: 60.208047
+        10:
+          0: 19.76348
+          1: 60.208298
+        11:
+          0: 19.763164
+          1: 60.208479
+        12:
+          0: 19.7627821
+          1: 60.208501
+        13:
+          0: 19.762477
+          1: 60.2085783
+        14:
+          0: 19.7621736
+          1: 60.208657
+        15:
+          0: 19.7618904
+          1: 60.2087522
+        16:
+          0: 19.761617
+          1: 60.2088548
+        17:
+          0: 19.7613435
+          1: 60.2089574
+        18:
+          0: 19.761073
+          1: 60.209062
+        19:
+          0: 19.7607998
+          1: 60.2091647
+        20:
+          0: 19.7605225
+          1: 60.2092647
+        21:
+          0: 19.7602396
+          1: 60.2093607
+        22:
+          0: 19.7599484
+          1: 60.2094499
+        23:
+          0: 19.7596333
+          1: 60.2095159
+        24:
+          0: 19.7593145
+          1: 60.2095779
+        25:
+          0: 19.758461577564148
+          1: 60.209717012374426
+    sourceIds:
+      0: 'nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08'
+      1: 'heritage-register:Ha 17.8'
+    note: 'Vägens egna koordinater där den finns kvar (Äldre väg vid Korsberg), och därefter mittlinjen av fornlämningsregistrets avgränsning (inmätt), fram till dagens väg där 1929 års sträcka fortsätter.'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/rural-map-review.test.cjs:109:10)
+    Test.runInAsyncScope (node:async_hooks:226:14)
+    Test.run (node:internal/test_runner/test:1118:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+    Test.postRun (node:internal/test_runner/test:1247:19)
+    Test.run (node:internal/test_runner/test:1175:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:787:7)
+  ...
+# Subtest: modern-first presence review dates stable roads without claiming an older traced alignment
+ok 495 - modern-first presence review dates stable roads without claiming an older traced alignment
+  ---
+  duration_ms: 1.111875
+  type: 'test'
+  ...
+# Subtest: adjacent Hammarland cells extend existing roads without replacing their original evidence
+ok 496 - adjacent Hammarland cells extend existing roads without replacing their original evidence
+  ---
+  duration_ms: 0.5325
+  type: 'test'
+  ...
+# Subtest: Enskär has one road identity with partial historical coverage and the complete modern path
+ok 497 - Enskär has one road identity with partial historical coverage and the complete modern path
+  ---
+  duration_ms: 101.236833
+  type: 'test'
+  ...
+# Subtest: actual snapshot and current layers exclude consumed rural roads but preserve unreviewed neighbours
+ok 498 - actual snapshot and current layers exclude consumed rural roads but preserve unreviewed neighbours
+  ---
+  duration_ms: 1894.964417
+  type: 'test'
+  ...
+# Subtest: Prästgården gains reviewed extent without changing road identity or moving existing vertices
+ok 499 - Prästgården gains reviewed extent without changing road identity or moving existing vertices
+  ---
+  duration_ms: 0.195542
+  type: 'test'
+  ...
+# Subtest: Saltvik separates secure 1993 matches from ambiguous earlier identities
+ok 500 - Saltvik separates secure 1993 matches from ambiguous earlier identities
+  ---
+  duration_ms: 0.112125
+  type: 'test'
+  ...
+# Subtest: undated spatial references cannot bypass property dates without explicit source and identity evidence
+ok 501 - undated spatial references cannot bypass property dates without explicit source and identity evidence
+  ---
+  duration_ms: 472.2165
+  type: 'test'
+  ...
+# Subtest: partial source ownership clips only the reviewed road and preserves clickable remainder and original data
+ok 502 - partial source ownership clips only the reviewed road and preserves clickable remainder and original data
+  ---
+  duration_ms: 294.188875
+  type: 'test'
+  ...
+# Subtest: multiple road owners can share a source only through disjoint reviewed portions
+ok 503 - multiple road owners can share a source only through disjoint reviewed portions
+  ---
+  duration_ms: 404.121417
+  type: 'test'
+  ...
+# Subtest: partial road clipping preserves both ends and gaps, and follows which owners are visible
+ok 504 - partial road clipping preserves both ends and gaps, and follows which owners are visible
+  ---
+  duration_ms: 0.323833
+  type: 'test'
+  ...
+# Subtest: Ljungheda and Syllöda keep a connected stable road across differently split surveys
+ok 505 - Ljungheda and Syllöda keep a connected stable road across differently split surveys
+  ---
+  duration_ms: 62.959041
+  type: 'test'
+  ...
+# Subtest: Östra Sundskär preserves two 1968 buildings and introduces only the third at its 1985 evidence boundary
+ok 506 - Östra Sundskär preserves two 1968 buildings and introduces only the third at its 1985 evidence boundary
+  ---
+  duration_ms: 0.190542
+  type: 'test'
+  ...
+# Subtest: Kattby roads share the 2014 source without double ownership or premature residential streets
+ok 507 - Kattby roads share the 2014 source without double ownership or premature residential streets
+  ---
+  duration_ms: 8.150542
+  type: 'test'
+  ...
+# Subtest: Kattby farm follow-up keeps three distinct sheds and dates the southern one only from 1985
+ok 508 - Kattby farm follow-up keeps three distinct sheds and dates the southern one only from 1985
+  ---
+  duration_ms: 0.144083
+  type: 'test'
+  ...
+# Subtest: church approach expands from printed evidence in 1985 while retaining its identity and later aliases
+ok 509 - church approach expands from printed evidence in 1985 while retaining its identity and later aliases
+  ---
+  duration_ms: 7.764417
+  type: 'test'
+  ...
+# Subtest: church-side source-only buildings retain distinct dates, including a later 1995 building
+ok 510 - church-side source-only buildings retain distinct dates, including a later 1995 building
+  ---
+  duration_ms: 0.145584
+  type: 'test'
+  ...
+# Subtest: re-entering surveyed roads render separate clickable paths under one object identity
+ok 511 - re-entering surveyed roads render separate clickable paths under one object identity
+  ---
+  duration_ms: 166.915125
+  type: 'test'
+  ...
+# Subtest: disjoint source coverage rejects overlap, gaps disguised as full coverage and ambiguous formats
+ok 512 - disjoint source coverage rejects overlap, gaps disguised as full coverage and ambiguous formats
+  ---
+  duration_ms: 0.244
+  type: 'test'
+  ...
+# Subtest: Erssons historical alignments resolve and render under the same road identities
+ok 513 - Erssons historical alignments resolve and render under the same road identities
+  ---
+  duration_ms: 5.425958
+  type: 'test'
+  ...
+# Subtest: eastern Hammarland roads keep stable identities without premature extensions
+ok 514 - eastern Hammarland roads keep stable identities without premature extensions
+  ---
+  duration_ms: 0.161292
+  type: 'test'
+  ...
+# Subtest: a realigned farm access stays one road and replaces its former line only in 1995
+ok 515 - a realigned farm access stays one road and replaces its former line only in 1995
+  ---
+  duration_ms: 0.276833
+  type: 'test'
+  ...
+# Subtest: Orrskär keeps one identity through successive shoreline approaches and the later house access
+ok 516 - Orrskär keeps one identity through successive shoreline approaches and the later house access
+  ---
+  duration_ms: 0.441833
+  type: 'test'
+  ...
+# Subtest: long-road contacts do not backdate later extensions or claim unreviewed source remainders
+ok 517 - long-road contacts do not backdate later extensions or claim unreviewed source remainders
+  ---
+  duration_ms: 0.196584
+  type: 'test'
+  ...
+# Subtest: Näset field-edge track uses fractional historical endpoints and one stable identity
+ok 518 - Näset field-edge track uses fractional historical endpoints and one stable identity
+  ---
+  duration_ms: 0.342625
+  type: 'test'
+  ...
+# Subtest: Strandäng woodland road preserves its older curve, shorter1985phase and later full route on one identity
+ok 519 - Strandäng woodland road preserves its older curve, shorter1985phase and later full route on one identity
+  ---
+  duration_ms: 0.398542
+  type: 'test'
+  ...
+# Subtest: Skarvbolstad source-only paths have one stable, clickable road with every original observation retained
+ok 520 - Skarvbolstad source-only paths have one stable, clickable road with every original observation retained
+  ---
+  duration_ms: 68.64275
+  type: 'test'
+  ...
+# Subtest: Skarvbolstad branch shares its junction and partial1995evidence does not shorten the whole path
+ok 521 - Skarvbolstad branch shares its junction and partial1995evidence does not shorten the whole path
+  ---
+  duration_ms: 0.16125
+  type: 'test'
+  ...
+# Subtest: new1985field paths retain one identity, partial earlier evidence and exact later-road junction
+ok 522 - new1985field paths retain one identity, partial earlier evidence and exact later-road junction
+  ---
+  duration_ms: 10.298209
+  type: 'test'
+  ...
+# Subtest: Björkbo western farm approach belongs to its existing road through the main-road change
+ok 523 - Björkbo western farm approach belongs to its existing road through the main-road change
+  ---
+  duration_ms: 0.325833
+  type: 'test'
+  ...
+# Subtest: four audited Hammarland paths preserve dated evidence, stable identity and exact road joins
+ok 524 - four audited Hammarland paths preserve dated evidence, stable identity and exact road joins
+  ---
+  duration_ms: 0.958666
+  type: 'test'
+  ...
+# Subtest: Tallbacka road replaces the old shed by1995 without erasing evidence or neighboring houses
+ok 525 - Tallbacka road replaces the old shed by1995 without erasing evidence or neighboring houses
+  ---
+  duration_ms: 123.678
+  type: 'test'
+  ...
+# Subtest: church diagonal and later churchyard bend belong to one road with a bounded realignment
+ok 526 - church diagonal and later churchyard bend belong to one road with a bounded realignment
+  ---
+  duration_ms: 0.814291
+  type: 'test'
+  ...
+# Subtest: Neglinge connection survives coverage changes and farm tracks retain their first observed dates
+ok 527 - Neglinge connection survives coverage changes and farm tracks retain their first observed dates
+  ---
+  duration_ms: 1.315917
+  type: 'test'
+  ...
+# Subtest: Laine extends in1985 without moving the earlier approach or creating a new road identity
+ok 528 - Laine extends in1985 without moving the earlier approach or creating a new road identity
+  ---
+  duration_ms: 0.645417
+  type: 'test'
+  ...
+# Subtest: Korskulla keeps its1968 southern path and modern identity as later branches connect
+ok 529 - Korskulla keeps its1968 southern path and modern identity as later branches connect
+  ---
+  duration_ms: 101.517042
+  type: 'test'
+  ...
+# Subtest: Torp review preserves older route evidence, uncertain editions and split source tails
+ok 530 - Torp review preserves older route evidence, uncertain editions and split source tails
+  ---
+  duration_ms: 57.321041
+  type: 'test'
+  ...
+# Subtest: southern Hammarland coverage joins stay exact and partial quarry evidence does not backdate full spurs
+ok 531 - southern Hammarland coverage joins stay exact and partial quarry evidence does not backdate full spurs
+  ---
+  duration_ms: 393.501542
+  type: 'test'
+  ...
+# Subtest: Boda and Drygsböle road review preserves split aliases and bounded historical coverage
+ok 532 - Boda and Drygsböle road review preserves split aliases and bounded historical coverage
+  ---
+  duration_ms: 270.588625
+  type: 'test'
+  ...
+# Subtest: Bondtorp adjoining aliases remove only reviewed source intervals and keep historical road extent stable
+ok 533 - Bondtorp adjoining aliases remove only reviewed source intervals and keep historical road extent stable
+  ---
+  duration_ms: 30.763083
+  type: 'test'
+  ...
+# Subtest: southern Bondtorp dates only evidenced pieces until later maps confirm extensions
+ok 534 - southern Bondtorp dates only evidenced pieces until later maps confirm extensions
+  ---
+  duration_ms: 99.736583
+  type: 'test'
+  ...
+# Subtest: Östanträsk split source aliases meet without duplicate routes and retain unreviewed tails
+ok 535 - Östanträsk split source aliases meet without duplicate routes and retain unreviewed tails
+  ---
+  duration_ms: 267.710958
+  type: 'test'
+  ...
+# Subtest: Byttböle preserves disjoint historical arms and does not backdate their shortcut
+ok 536 - Byttböle preserves disjoint historical arms and does not backdate their shortcut
+  ---
+  duration_ms: 109.084875
+  type: 'test'
+  ...
+# Subtest: Österängen retains older road continuity when the 1995 map depicts a smaller extent
+ok 537 - Österängen retains older road continuity when the 1995 map depicts a smaller extent
+  ---
+  duration_ms: 86.762791
+  type: 'test'
+  ...
+# Subtest: Boda and Byttböle split old source ways into adjoining persistent owners
+ok 538 - Boda and Byttböle split old source ways into adjoining persistent owners
+  ---
+  duration_ms: 139.960084
+  type: 'test'
+  ...
+# Subtest: Vestansunda quarry coverage expands by evidenced arms without backdating the intervening branch
+ok 539 - Vestansunda quarry coverage expands by evidenced arms without backdating the intervening branch
+  ---
+  duration_ms: 96.353084
+  type: 'test'
+  ...
+# Subtest: Vestansunda through-track retains older continuity despite the 1995 map omission
+ok 540 - Vestansunda through-track retains older continuity despite the 1995 map omission
+  ---
+  duration_ms: 148.320667
+  type: 'test'
+  ...
+# Subtest: Vestansunda split source ways preserve a single shared boundary and unclaimed tails
+ok 541 - Vestansunda split source ways preserve a single shared boundary and unclaimed tails
+  ---
+  duration_ms: 200.003084
+  type: 'test'
+  ...
+# Subtest: Svinryggen pond evidence dates the final arm of a closed loop without wrapping coverage
+ok 542 - Svinryggen pond evidence dates the final arm of a closed loop without wrapping coverage
+  ---
+  duration_ms: 89.35
+  type: 'test'
+  ...
+# Subtest: Dalbacka keeps separately evidenced road arms without inferring the boundary shortcut
+ok 543 - Dalbacka keeps separately evidenced road arms without inferring the boundary shortcut
+  ---
+  duration_ms: 96.004667
+  type: 'test'
+  ...
+# Subtest: old Norrbygatan has one source owner per interval and does not backdate the marsh crossing
+ok 544 - old Norrbygatan has one source owner per interval and does not backdate the marsh crossing
+  ---
+  duration_ms: 95.185792
+  type: 'test'
+  ...
+# Subtest: Vargsunda tracks retain earlier continuity while partial branches keep their own evidence dates
+ok 545 - Vargsunda tracks retain earlier continuity while partial branches keep their own evidence dates
+  ---
+  duration_ms: 102.672834
+  type: 'test'
+  ...
+# Subtest: Norrgård farm and lakeside approaches share a source cut without duplicate roads
+ok 546 - Norrgård farm and lakeside approaches share a source cut without duplicate roads
+  ---
+  duration_ms: 25.687375
+  type: 'test'
+  ...
+# Subtest: Södersunda retains the old bend before the bypass and dates the school connection separately
+ok 547 - Södersunda retains the old bend before the bypass and dates the school connection separately
+  ---
+  duration_ms: 107.01725
+  type: 'test'
+  ...
+# Subtest: Moren keeps two evidenced arms separate until the connecting track is confirmed
+ok 548 - Moren keeps two evidenced arms separate until the connecting track is confirmed
+  ---
+  duration_ms: 96.521833
+  type: 'test'
+  ...
+# Subtest: 1929–1967 Saltviksvägen runs from Laby round the Andelsby curve and along the shore over Kavelbro to Kvarnbo
+ok 549 - 1929–1967 Saltviksvägen runs from Laby round the Andelsby curve and along the shore over Kavelbro to Kvarnbo
+  ---
+  duration_ms: 4.49525
+  type: 'test'
+  ...
+# Subtest: from 1968 the diagonal at Andelsby; the old curve is drawn until 1984 and Dåglösavägen whole
+ok 550 - from 1968 the diagonal at Andelsby; the old curve is drawn until 1984 and Dåglösavägen whole
+  ---
+  duration_ms: 0.102667
+  type: 'test'
+  ...
+# Subtest: group stories use their existing physical roofs with no extra map icon or duplicate list entry
+ok 551 - group stories use their existing physical roofs with no extra map icon or duplicate list entry
+  ---
+  duration_ms: 547.882875
+  type: 'test'
+  ...
+# Subtest: Erikssonska has dated, clickable house phases instead of a legacy marker
+ok 552 - Erikssonska has dated, clickable house phases instead of a legacy marker
+  ---
+  duration_ms: 418.039834
+  type: 'test'
+  ...
+# Subtest: zooming out never brings the duplicate group icons back
+ok 553 - zooming out never brings the duplicate group icons back
+  ---
+  duration_ms: 133.204833
+  type: 'test'
+  ...
+# Subtest: group roof stories obey search, historic layer and category filters
+ok 554 - group roof stories obey search, historic layer and category filters
+  ---
+  duration_ms: 424.385875
+  type: 'test'
+  ...
+# Subtest: Gula läkarvillorna uses its physical footprint from 1953, including the reported 1970 view
+ok 555 - Gula läkarvillorna uses its physical footprint from 1953, including the reported 1970 view
+  ---
+  duration_ms: 311.299917
+  type: 'test'
+  ...
+# Subtest: reported duplicate houses resolve once and superseded symbols only render as traces
+ok 556 - reported duplicate houses resolve once and superseded symbols only render as traces
+  ---
+  duration_ms: 201.806708
+  type: 'test'
+  ...
+# Subtest: school street correction selects the 1952 stage in the reported 1964 view
+ok 557 - school street correction selects the 1952 stage in the reported 1964 view
+  ---
+  duration_ms: 22.934958
+  type: 'test'
+  ...
+# Subtest: Societetshuset has one identity, an early core, an expansion, and a dated demolition
+ok 558 - Societetshuset has one identity, an early core, an expansion, and a dated demolition
+  ---
+  duration_ms: 1.79075
+  type: 'test'
+  ...
+# Subtest: the May 1975 photo remains positive evidence despite the annual demolition boundary
+ok 559 - the May 1975 photo remains positive evidence despite the annual demolition boundary
+  ---
+  duration_ms: 2.679542
+  type: 'test'
+  ...
+# Subtest: the original proposal stays unbuilt and the successor does not become the same physical house
+ok 560 - the original proposal stays unbuilt and the successor does not become the same physical house
+  ---
+  duration_ms: 0.322166
+  type: 'test'
+  ...
+# Subtest: the historical building renderer exposes one selectable roof and its story, with no roof after demolition
+ok 561 - the historical building renderer exposes one selectable roof and its story, with no roof after demolition
+  ---
+  duration_ms: 43.260459
+  type: 'test'
+  ...
+# Subtest: 1929–1994 Södersundavägen over Ulvsby round the loop to Jomala church is one line
+ok 562 - 1929–1994 Södersundavägen over Ulvsby round the loop to Jomala church is one line
+  ---
+  duration_ms: 8.318083
+  type: 'test'
+  ...
+# Subtest: from 1995 today's straight; the loop keeps Drittel-Mattes Gränd and S:t Olofs vägen
+ok 563 - from 1995 today's straight; the loop keeps Drittel-Mattes Gränd and S:t Olofs vägen
+  ---
+  duration_ms: 0.512291
+  type: 'test'
+  ...
+# Subtest: initial loading blocks controls, fades after readiness, then releases focus and interaction
+ok 564 - initial loading blocks controls, fades after readiness, then releases focus and interaction
+  ---
+  duration_ms: 2.924042
+  type: 'test'
+  ...
+# Subtest: stalled downloads offer escape and late completion never reopens the screen
+ok 565 - stalled downloads offer escape and late completion never reopens the screen
+  ---
+  duration_ms: 0.55775
+  type: 'test'
+  ...
+# Subtest: failed loading preserves its message, retries by reloading, and can recover
+ok 566 - failed loading preserves its message, retries by reloading, and can recover
+  ---
+  duration_ms: 0.421625
+  type: 'test'
+  ...
+# Subtest: map readiness waits for initial layers, shoreline and painted layout
+ok 567 - map readiness waits for initial layers, shoreline and painted layout
+  ---
+  duration_ms: 0.947208
+  type: 'test'
+  ...
+# Subtest: missing core data offers a failure state instead of revealing a blank map
+ok 568 - missing core data offers a failure state instead of revealing a blank map
+  ---
+  duration_ms: 3.026292
+  type: 'test'
+  ...
+# Subtest: report view restores controls after layers load and requests the reported shoreline year
+ok 569 - report view restores controls after layers load and requests the reported shoreline year
+  ---
+  duration_ms: 2.544292
+  type: 'test'
+  ...
+# Subtest: progress reflects completed datasets, preserves errors and ignores late arrivals
+ok 570 - progress reflects completed datasets, preserves errors and ignores late arrivals
+  ---
+  duration_ms: 1.0105
+  type: 'test'
+  ...
+# Subtest: preview waits only on explicit preview pages and still permits entering the map
+ok 571 - preview waits only on explicit preview pages and still permits entering the map
+  ---
+  duration_ms: 0.662708
+  type: 'test'
+  ...
+# Subtest: reading or navigating updates keeps the ready map available until explicit entry
+ok 572 - reading or navigating updates keeps the ready map available until explicit entry
+  ---
+  duration_ms: 2.385917
+  type: 'test'
+  ...
+# Subtest: latest changes are visible immediately and navigation wraps without changing the building
+ok 573 - latest changes are visible immediately and navigation wraps without changing the building
+  ---
+  duration_ms: 0.769792
+  type: 'test'
+  ...
+# Subtest: loom reads the entire actual catalogue without mutating it or fabricating lifetimes
+ok 574 - loom reads the entire actual catalogue without mutating it or fabricating lifetimes
+  ---
+  duration_ms: 2891.833667
+  type: 'test'
+  ...
+# Subtest: one spotlight rotates, manual navigation wraps, and dismissal cancels rotation
+ok 575 - one spotlight rotates, manual navigation wraps, and dismissal cancels rotation
+  ---
+  duration_ms: 0.750333
+  type: 'test'
+  ...
+# Subtest: reduced motion keeps the spotlight still while allowing manual selection
+ok 576 - reduced motion keeps the spotlight still while allowing manual selection
+  ---
+  duration_ms: 0.467916
+  type: 'test'
+  ...
+# Subtest: random initial buildings survive catalogue arrival without resetting the spotlight
+ok 577 - random initial buildings survive catalogue arrival without resetting the spotlight
+  ---
+  duration_ms: 695.603458
+  type: 'test'
+  ...
+# Subtest: linked stories use existing mapped buildings and an anchor inside their footprint
+ok 578 - linked stories use existing mapped buildings and an anchor inside their footprint
+  ---
+  duration_ms: 0.710709
+  type: 'test'
+  ...
+# Subtest: modern footprints replace legacy markers without showing modern geometry in the past
+ok 579 - modern footprints replace legacy markers without showing modern geometry in the past
+  ---
+  duration_ms: 0.510958
+  type: 'test'
+  ...
+# Subtest: the replaced library symbol has no invisible legacy click target
+ok 580 - the replaced library symbol has no invisible legacy click target
+  ---
+  duration_ms: 0.467584
+  type: 'test'
+  ...
+# Subtest: clicking a linked footprint opens its historical story
+ok 581 - clicking a linked footprint opens its historical story
+  ---
+  duration_ms: 0.901
+  type: 'test'
+  ...
+# Subtest: 1928–1967: the old main road is one line, from the sheet edge to the ferry and on to Prästö
+ok 582 - 1928–1967: the old main road is one line, from the sheet edge to the ferry and on to Prästö
+  ---
+  duration_ms: 2.588083
+  type: 'test'
+  ...
+# Subtest: 1968: today's road at Finby and over the bridge at Bomarsund; Berghyddan and Svensböle still the main road until 1978
+ok 583 - 1968: today's road at Finby and over the bridge at Bomarsund; Berghyddan and Svensböle still the main road until 1978
+  ---
+  duration_ms: 0.352916
+  type: 'test'
+  ...
+# Subtest: from 1978 the old roads keep only their surviving parts, owned in OSM
+ok 584 - from 1978 the old roads keep only their surviving parts, owned in OSM
+  ---
+  duration_ms: 7.080334
+  type: 'test'
+  ...
+# Subtest: from 1929 Norra Svibyvägen joins Kasbergsvägen and runs on along the shore as Norra Möckelövägen
+ok 585 - from 1929 Norra Svibyvägen joins Kasbergsvägen and runs on along the shore as Norra Möckelövägen
+  ---
+  duration_ms: 1.545958
+  type: 'test'
+  ...
+# Subtest: from 1942 the road east to Svibyvägen replaces the 1942 photo stub
+ok 586 - from 1942 the road east to Svibyvägen replaces the 1942 photo stub
+  ---
+  duration_ms: 0.521459
+  type: 'test'
+  ...
+# Subtest: 1929–1977 Utängsvägen through Sviby, Norra Svibyvägen, Kasbergsvägen round the corner, Kasbergsgatan and Svibyvägen are one line
+ok 587 - 1929–1977 Utängsvägen through Sviby, Norra Svibyvägen, Kasbergsvägen round the corner, Kasbergsgatan and Svibyvägen are one line
+  ---
+  duration_ms: 1.45825
+  type: 'test'
+  ...
+# Subtest: from 1978 the airport; from 1985 today's diagonal at Talläsen
+ok 588 - from 1978 the airport; from 1985 today's diagonal at Talläsen
+  ---
+  duration_ms: 0.094083
+  type: 'test'
+  ...
+# Subtest: all named houses and fortress places have persistent identities and independent physical states
+ok 589 - all named houses and fortress places have persistent identities and independent physical states
+  ---
+  duration_ms: 1234.994833
+  type: 'test'
+  ...
+# Subtest: reviewed road observations use a fixed reference line without replacing originals
+ok 590 - reviewed road observations use a fixed reference line without replacing originals
+  ---
+  duration_ms: 877.0365
+  type: 'test'
+  ...
+# Subtest: a physical rerouting changes geometry at its validity boundary, with the same identity
+ok 591 - a physical rerouting changes geometry at its validity boundary, with the same identity
+  ---
+  duration_ms: 847.096875
+  type: 'test'
+  ...
+# Subtest: missing observations do not demolish an object; missing validity periods remain unknown
+ok 592 - missing observations do not demolish an object; missing validity periods remain unknown
+  ---
+  duration_ms: 860.345041
+  type: 'test'
+  ...
+# Subtest: street rendering follows geometry validity even between map snapshot years
+ok 593 - street rendering follows geometry validity even between map snapshot years
+  ---
+  duration_ms: 859.884541
+  type: 'test'
+  ...
+# Subtest: a replacement at the same site has its own identity and explicit relationship
+ok 594 - a replacement at the same site has its own identity and explicit relationship
+  ---
+  duration_ms: 914.228083
+  type: 'test'
+  ...
+# Subtest: invalid periods, ambiguous identity links and missing provenance are rejected atomically
+ok 595 - invalid periods, ambiguous identity links and missing provenance are rejected atomically
+  ---
+  duration_ms: 792.974166
+  type: 'test'
+  ...
+# Subtest: house renderer consumes resolved identity and emits one selectable house through source changes
+ok 596 - house renderer consumes resolved identity and emits one selectable house through source changes
+  ---
+  duration_ms: 1341.424667
+  type: 'test'
+  ...
+# Subtest: OSM metadata is attributed separately and cannot silently replace historical dating
+ok 597 - OSM metadata is attributed separately and cannot silently replace historical dating
+  ---
+  duration_ms: 1853.890625
+  type: 'test'
+  ...
+# Subtest: timeline selection follows a persistent house or road and respects demolition visibility
+ok 598 - timeline selection follows a persistent house or road and respects demolition visibility
+  ---
+  duration_ms: 909.708541
+  type: 'test'
+  ...
+# Subtest: relocated houses exist before their current site without acquiring its coordinates
+ok 599 - relocated houses exist before their current site without acquiring its coordinates
+  ---
+  duration_ms: 852.724917
+  type: 'test'
+  ...
+# Subtest: fortress migration preserves cemeteries, unfinished construction and trace visibility
+ok 600 - fortress migration preserves cemeteries, unfinished construction and trace visibility
+  ---
+  duration_ms: 862.464875
+  type: 'test'
+  ...
+# Subtest: Bomarsund comparison buttons retain the selected place when it is still visible
+ok 601 - Bomarsund comparison buttons retain the selected place when it is still visible
+  ---
+  duration_ms: 944.905167
+  type: 'test'
+  ...
+# Subtest: partial road extents and source gaps never inherit the modern whole segment
+ok 602 - partial road extents and source gaps never inherit the modern whole segment
+  ---
+  duration_ms: 828.930917
+  type: 'test'
+  ...
+# Subtest: Torggatan keeps the reviewed older bend and its source under one identity
+ok 603 - Torggatan keeps the reviewed older bend and its source under one identity
+  ---
+  duration_ms: 805.248167
+  type: 'test'
+  ...
+# Subtest: a known road remains selected through unknown coverage without creating a map feature
+ok 604 - a known road remains selected through unknown coverage without creating a map feature
+  ---
+  duration_ms: 778.611209
+  type: 'test'
+  ...
+# Subtest: source aliases preserve changed labels and several old records within one identity
+ok 605 - source aliases preserve changed labels and several old records within one identity
+  ---
+  duration_ms: 766.838958
+  type: 'test'
+  ...
+# Subtest: invalid coverage cannot replace a working catalogue
+ok 606 - invalid coverage cannot replace a working catalogue
+  ---
+  duration_ms: 5246.283375
+  type: 'test'
+  ...
+# Subtest: Österleden uses historical evidence before OSM without inventing construction geometry
+ok 607 - Österleden uses historical evidence before OSM without inventing construction geometry
+  ---
+  duration_ms: 721.724625
+  type: 'test'
+  ...
+# Subtest: independently dated roads draw once across snapshot boundaries and retain selection
+ok 608 - independently dated roads draw once across snapshot boundaries and retain selection
+  ---
+  duration_ms: 1083.304958
+  type: 'test'
+  ...
+# Subtest: printed-map houses use a trusted footprint while retaining dated original observations
+ok 609 - printed-map houses use a trusted footprint while retaining dated original observations
+  ---
+  duration_ms: 763.645083
+  type: 'test'
+  ...
+# Subtest: the separate Styrmansgatan extension has map evidence from 1978, never an invented opening year
+ok 610 - the separate Styrmansgatan extension has map evidence from 1978, never an invented opening year
+  ---
+  duration_ms: 740.332833
+  type: 'test'
+  ...
+# Subtest: postwar area coverage preserves roofs until individual building coverage is available
+ok 611 - postwar area coverage preserves roofs until individual building coverage is available
+  ---
+  duration_ms: 923.856375
+  type: 'test'
+  ...
+# Subtest: source boundaries never retire provisional buildings or change their identities
+ok 612 - source boundaries never retire provisional buildings or change their identities
+  ---
+  duration_ms: 1040.8705
+  type: 'test'
+  ...
+# Subtest: new street identities keep their positions from reviewed 1968 evidence through modern snapshots
+ok 613 - new street identities keep their positions from reviewed 1968 evidence through modern snapshots
+  ---
+  duration_ms: 858.2825
+  type: 'test'
+  ...
+# Subtest: last-known symbols and built-up areas retain their inspector through source gaps without claiming demolition
+ok 614 - last-known symbols and built-up areas retain their inspector through source gaps without claiming demolition
+  ---
+  duration_ms: 692.699792
+  type: 'test'
+  ...
+# Subtest: invalid postwar stage coverage or identity cannot replace a working catalogue
+ok 615 - invalid postwar stage coverage or identity cannot replace a working catalogue
+  ---
+  duration_ms: 3671.248291
+  type: 'test'
+  ...
+# Subtest: reviewed duplicate source identities resolve to one roof through all their source years
+ok 616 - reviewed duplicate source identities resolve to one roof through all their source years
+  ---
+  duration_ms: 1260.727583
+  type: 'test'
+  ...
+# Subtest: a compound source keeps a selectable history but renders only its two physical buildings
+ok 617 - a compound source keeps a selectable history but renders only its two physical buildings
+  ---
+  duration_ms: 935.023875
+  type: 'test'
+  ...
+# Subtest: reviewed external duplicate ways are owned once by the persistent roof layer
+ok 618 - reviewed external duplicate ways are owned once by the persistent roof layer
+  ---
+  duration_ms: 902.473208
+  type: 'test'
+  ...
+# Subtest: all 2013 properties survive the 2014 boundary with stable identity and appearance
+ok 619 - all 2013 properties survive the 2014 boundary with stable identity and appearance
+  ---
+  duration_ms: 1011.5115
+  type: 'test'
+  ...
+# Subtest: linked properties consume source records and preserve selection in both timeline directions
+ok 620 - linked properties consume source records and preserve selection in both timeline directions
+  ---
+  duration_ms: 974.917792
+  type: 'test'
+  ...
+# Subtest: unreviewed later buildings are not backdated and reviewed groups retain all their roofs
+ok 621 - unreviewed later buildings are not backdated and reviewed groups retain all their roofs
+  ---
+  duration_ms: 965.769666
+  type: 'test'
+  ...
+# Subtest: invalid property observation dates cannot replace the current model
+ok 622 - invalid property observation dates cannot replace the current model
+  ---
+  duration_ms: 2354.41925
+  type: 'test'
+  ...
+# Subtest: source gaps use the same solid building style in both years
+ok 623 - source gaps use the same solid building style in both years
+  ---
+  duration_ms: 908.882208
+  type: 'test'
+  ...
+# Subtest: explicit date estimates allow earlier geometry without inventing observations
+ok 624 - explicit date estimates allow earlier geometry without inventing observations
+  ---
+  duration_ms: 2354.016292
+  type: 'test'
+  ...
+# Subtest: archived mapping dates remove the 2013–2014 building coverage discontinuity
+ok 625 - archived mapping dates remove the 2013–2014 building coverage discontinuity
+  ---
+  duration_ms: 867.029708
+  type: 'test'
+  ...
+# Subtest: reviewed replacements retire old roofs while preserving their inspectable identities and traces
+ok 626 - reviewed replacements retire old roofs while preserving their inspectable identities and traces
+  ---
+  duration_ms: 1031.783834
+  type: 'test'
+  ...
+# Subtest: Telegrafen construction is distinct from the finished gallery and preserves the old exchange
+ok 627 - Telegrafen construction is distinct from the finished gallery and preserves the old exchange
+  ---
+  duration_ms: 880.206708
+  type: 'test'
+  ...
+# Subtest: merged historical symbols and OSM aliases select a single persistent group
+ok 628 - merged historical symbols and OSM aliases select a single persistent group
+  ---
+  duration_ms: 2385.10775
+  type: 'test'
+  ...
+# Subtest: large landmark roofs remain fixed through every source boundary
+ok 629 - large landmark roofs remain fixed through every source boundary
+  ---
+  duration_ms: 1408.821666
+  type: 'test'
+  ...
+# Subtest: museum properties replace coarse symbols once and survive source coverage changes
+ok 630 - museum properties replace coarse symbols once and survive source coverage changes
+  ---
+  duration_ms: 1293.822916
+  type: 'test'
+  ...
+# Subtest: museum replacements have separate identities and explicit demolition traces
+ok 631 - museum replacements have separate identities and explicit demolition traces
+  ---
+  duration_ms: 894.086708
+  type: 'test'
+  ...
+# Subtest: museum yards are independent selectable sites and never become roofs
+ok 632 - museum yards are independent selectable sites and never become roofs
+  ---
+  duration_ms: 839.564709
+  type: 'test'
+  ...
+# Subtest: founding streets change from proposal to inferred use in 1861 without resetting their identities
+ok 633 - founding streets change from proposal to inferred use in 1861 without resetting their identities
+  ---
+  duration_ms: 733.127708
+  type: 'test'
+  ...
+# Subtest: Esplanad source traces are preserved but replaced once in the interpreted map
+ok 634 - Esplanad source traces are preserved but replaced once in the interpreted map
+  ---
+  duration_ms: 773.516875
+  type: 'test'
+  ...
+# Subtest: Norra Esplanadgatan crosses the future church site until the interpreted 1927 closure
+ok 635 - Norra Esplanadgatan crosses the future church site until the interpreted 1927 closure
+  ---
+  duration_ms: 713.69775
+  type: 'test'
+  ...
+# Subtest: the western Esplanad junction stays connected and consumes its modern cycleway once
+ok 636 - the western Esplanad junction stays connected and consumes its modern cycleway once
+  ---
+  duration_ms: 717.095875
+  type: 'test'
+  ...
+# Subtest: follow-up identities resolve old links and photographed endings control real roofs
+ok 637 - follow-up identities resolve old links and photographed endings control real roofs
+  ---
+  duration_ms: 1128.746334
+  type: 'test'
+  ...
+# Subtest: museum street alignment keeps source links on one physical object across time
+ok 638 - museum street alignment keeps source links on one physical object across time
+  ---
+  duration_ms: 737.6085
+  type: 'test'
+  ...
+# Subtest: connected buildings share identities while photographed extensions replace older neighbours
+ok 639 - connected buildings share identities while photographed extensions replace older neighbours
+  ---
+  duration_ms: 1344.322875
+  type: 'test'
+  ...
+# Subtest: Sitkoff neighbourhood roofs remain fixed across the 2020–2021 source boundary
+ok 640 - Sitkoff neighbourhood roofs remain fixed across the 2020–2021 source boundary
+  ---
+  duration_ms: 942.703042
+  type: 'test'
+  ...
+# Subtest: the resolved 1860 plan has stable roads and parks, all visibly planned, before opening in 1861
+ok 641 - the resolved 1860 plan has stable roads and parks, all visibly planned, before opening in 1861
+  ---
+  duration_ms: 721.745625
+  type: 'test'
+  ...
+# Subtest: city blocks have one fill in every year: plans and built-up areas differ only by their outline
+ok 642 - city blocks have one fill in every year: plans and built-up areas differ only by their outline
+  ---
+  duration_ms: 1111.751375
+  type: 'test'
+  ...
+# Subtest: Hindersböle gård, Berggård and the fox farms are point-only places that end at their documented or photographed end
+ok 643 - Hindersböle gård, Berggård and the fox farms are point-only places that end at their documented or photographed end
+  ---
+  duration_ms: 693.09125
+  type: 'test'
+  ...
+# Subtest: zoom loads finer source data while preserving the geographic center
+ok 644 - zoom loads finer source data while preserving the geographic center
+  ---
+  duration_ms: 3.560667
+  type: 'test'
+  ...
+# Subtest: a slow contour response cannot restore the previous historical shoreline
+ok 645 - a slow contour response cannot restore the previous historical shoreline
+  ---
+  duration_ms: 1.229291
+  type: 'test'
+  ...
+# Subtest: the contour worker preserves island holes and removes submerged land
+ok 646 - the contour worker preserves island holes and removes submerged land
+  ---
+  duration_ms: 2.615917
+  type: 'test'
+  ...
+# Subtest: postal line ends after 1911 and is not restored by older-traces mode
+ok 647 - postal line ends after 1911 and is not restored by older-traces mode
+  ---
+  duration_ms: 1.411458
+  type: 'test'
+  ...
+# Subtest: shipping routes obey their individual evidence intervals and layer switch
+ok 648 - shipping routes obey their individual evidence intervals and layer switch
+  ---
+  duration_ms: 0.757667
+  type: 'test'
+  ...
+# Subtest: hidden routes leave no clickable line; visible line supports clicks and distant misses
+ok 649 - hidden routes leave no clickable line; visible line supports clicks and distant misses
+  ---
+  duration_ms: 0.324791
+  type: 'test'
+  ...
+# Subtest: discontinued services disappear, Birka gap is preserved and cable filters work
+ok 650 - discontinued services disappear, Birka gap is preserved and cable filters work
+  ---
+  duration_ms: 0.136666
+  type: 'test'
+  ...
+# Subtest: selected overlapping route wins hit testing and filtered routes leave no hits
+ok 651 - selected overlapping route wins hit testing and filtered routes leave no hits
+  ---
+  duration_ms: 1.488959
+  type: 'test'
+  ...
+# Subtest: curated route data has evidence, finite geometry and ports close to the mapped line
+ok 652 - curated route data has evidence, finite geometry and ports close to the mapped line
+  ---
+  duration_ms: 2.815459
+  type: 'test'
+  ...
+# Subtest: Danish itinerary has an approximate source period, not an invented service lifetime
+ok 653 - Danish itinerary has an approximate source period, not an invented service lifetime
+  ---
+  duration_ms: 0.187042
+  type: 'test'
+  ...
+# Subtest: medieval route story uses places and a sailing question instead of modern ferry ports
+ok 654 - medieval route story uses places and a sailing question instead of modern ferry ports
+  ---
+  duration_ms: 0.227042
+  type: 'test'
+  ...
+# Subtest: medieval line is clickable only inside its period and matching filter
+ok 655 - medieval line is clickable only inside its period and matching filter
+  ---
+  duration_ms: 0.151333
+  type: 'test'
+  ...
+# Subtest: postal route reaches Sweden and mainland Finland and switches harbour in 1756
+ok 656 - postal route reaches Sweden and mainland Finland and switches harbour in 1756
+  ---
+  duration_ms: 0.947958
+  type: 'test'
+  ...
+# Subtest: wrecks are absent before sinking, even with the older-wreck layer enabled
+ok 657 - wrecks are absent before sinking, even with the older-wreck layer enabled
+  ---
+  duration_ms: 1.678833
+  type: 'test'
+  ...
+# Subtest: events are visible at their year and disappear afterwards unless explicitly enabled
+ok 658 - events are visible at their year and disappear afterwards unless explicitly enabled
+  ---
+  duration_ms: 8.230167
+  type: 'test'
+  ...
+# Subtest: Champagne sinking uses an explicit estimate while the exact year remains unknown
+ok 659 - Champagne sinking uses an explicit estimate while the exact year remains unknown
+  ---
+  duration_ms: 0.267291
+  type: 'test'
+  ...
+# Subtest: six distinct events separate sinkings from discoveries, preserving uncertainty
+ok 660 - six distinct events separate sinkings from discoveries, preserving uncertainty
+  ---
+  duration_ms: 0.141542
+  type: 'test'
+  ...
+# Subtest: curated wreck positions match original public registry points and attribution
+ok 661 - curated wreck positions match original public registry points and attribution
+  ---
+  duration_ms: 0.402958
+  type: 'test'
+  ...
+# Subtest: searching for a wreck opens its event without turning on archaeology or wreck layers
+ok 662 - searching for a wreck opens its event without turning on archaeology or wreck layers
+  ---
+  duration_ms: 0.445375
+  type: 'test'
+  ...
+# Subtest: ship symbols get a clickable map marker rather than a present-day footprint
+ok 663 - ship symbols get a clickable map marker rather than a present-day footprint
+  ---
+  duration_ms: 0.491125
+  type: 'test'
+  ...
+# Subtest: selecting a building during a wreck year does not attach the wreck dates or sources
+ok 664 - selecting a building during a wreck year does not attach the wreck dates or sources
+  ---
+  duration_ms: 0.557375
+  type: 'test'
+  ...
+# Subtest: wreck search navigation and detail dates retain the approximate sinking label
+ok 665 - wreck search navigation and detail dates retain the approximate sinking label
+  ---
+  duration_ms: 1.825708
+  type: 'test'
+  ...
+1..665
+# tests 665
+# suites 0
+# pass 662
+# fail 3
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 88463.405042
+exit 1

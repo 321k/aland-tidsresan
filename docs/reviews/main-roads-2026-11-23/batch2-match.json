@@ -1,0 +1,1024 @@
+{
+ "road:qgis:sonnboda:foglovagen-200km1": {
+  "name": "Föglövägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101404:1970"
+      ]
+     ],
+     "length": 9911.6,
+     "read": 9930,
+     "ranges": [
+      [
+       160,
+       880
+      ],
+      [
+       1260,
+       1310
+      ],
+      [
+       1470,
+       6300
+      ],
+      [
+       6400,
+       7460
+      ]
+     ],
+     "matched": 6660
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101404:1978"
+      ]
+     ],
+     "length": 9911.6,
+     "read": 9930,
+     "ranges": [
+      [
+       0,
+       1090
+      ],
+      [
+       1150,
+       6300
+      ],
+      [
+       6390,
+       7470
+      ]
+     ],
+     "matched": 7320
+    }
+   ]
+  ]
+ },
+ "road:qgis:degerby:foglovagen-200km1": {
+  "name": "Föglövägen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101401:1970"
+      ],
+      [
+       1970,
+       "nls:101404:1970"
+      ]
+     ],
+     "length": 5847.7,
+     "read": 5860,
+     "ranges": [
+      [
+       0,
+       4170
+      ],
+      [
+       4820,
+       5840
+      ]
+     ],
+     "matched": 5190
+    }
+   ]
+  ]
+ },
+ "road:qgis:degerby:hummersovagen-200km1": {
+  "name": "Hummersövägen",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101401:1970"
+      ]
+     ],
+     "length": 5211.8,
+     "read": 5230,
+     "ranges": [
+      [
+       30,
+       4100
+      ],
+      [
+       4250,
+       4970
+      ],
+      [
+       5130,
+       5211.8
+      ]
+     ],
+     "matched": 4871.8
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101401:1978"
+      ]
+     ],
+     "length": 5211.8,
+     "read": 5230,
+     "ranges": [
+      [
+       30,
+       4100
+      ],
+      [
+       4250,
+       5010
+      ],
+      [
+       5110,
+       5211.8
+      ]
+     ],
+     "matched": 4931.8
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101401:1985"
+      ]
+     ],
+     "length": 5211.8,
+     "read": 5230,
+     "ranges": [
+      [
+       0,
+       4090
+      ],
+      [
+       4240,
+       5211.8
+      ]
+     ],
+     "matched": 5061.8
+    }
+   ]
+  ]
+ },
+ "road:qgis:fisko:fiskovagen-1-200km2": {
+  "name": "Fiskövägen · del 1",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:104103:1968"
+      ],
+      [
+       1971,
+       "nls:102312:1971"
+      ]
+     ],
+     "length": 7624.2,
+     "read": 7640,
+     "ranges": [
+      [
+       2320,
+       6400
+      ]
+     ],
+     "matched": 4080
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104103:1984"
+      ]
+     ],
+     "length": 7624.2,
+     "read": 10,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "road:qgis:overo:overovagen-1-200km1": {
+  "name": "Överövägen · del 1",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101405:1970"
+      ]
+     ],
+     "length": 5057.3,
+     "read": 5070,
+     "ranges": [
+      [
+       1050,
+       1190
+      ],
+      [
+       1260,
+       5050
+      ]
+     ],
+     "matched": 3930
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101405:1978"
+      ]
+     ],
+     "length": 5057.3,
+     "read": 5070,
+     "ranges": [
+      [
+       1040,
+       1190
+      ],
+      [
+       1270,
+       5050
+      ]
+     ],
+     "matched": 3930
+    }
+   ]
+  ]
+ },
+ "road:qgis:vardo:sandovagen-200km1": {
+  "name": "Sandövägen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1971,
+       "nls:102301:1971"
+      ]
+     ],
+     "length": 5074.5,
+     "read": 5090,
+     "ranges": [
+      [
+       0,
+       3640
+      ],
+      [
+       4450,
+       4630
+      ]
+     ],
+     "matched": 3820
+    }
+   ]
+  ]
+ },
+ "road:qgis:ava:brandovagen-1-200km2": {
+  "name": "Brändövägen · del 1",
+  "firstYear": 1991,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:104103:1968"
+      ],
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 9923.7,
+     "read": 9940,
+     "ranges": [
+      [
+       0,
+       1100
+      ],
+      [
+       1180,
+       2510
+      ],
+      [
+       7630,
+       8980
+      ]
+     ],
+     "matched": 3780
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ],
+      [
+       1984,
+       "nls:104103:1984"
+      ]
+     ],
+     "length": 9923.7,
+     "read": 9940,
+     "ranges": [
+      [
+       40,
+       170
+      ],
+      [
+       290,
+       670
+      ],
+      [
+       830,
+       1090
+      ],
+      [
+       1190,
+       2320
+      ],
+      [
+       2380,
+       2520
+      ],
+      [
+       3300,
+       4560
+      ],
+      [
+       5350,
+       9910
+      ]
+     ],
+     "matched": 7860
+    }
+   ]
+  ]
+ },
+ "road:qgis:enklinge:enklingevagen-200km2": {
+  "name": "Enklingevägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1971,
+       "nls:102307:1971"
+      ],
+      [
+       1971,
+       "nls:102308:1971"
+      ]
+     ],
+     "length": 5377.5,
+     "read": 5390,
+     "ranges": [
+      [
+       2180,
+       5370
+      ]
+     ],
+     "matched": 3190
+    }
+   ]
+  ]
+ },
+ "road:qgis:overo:overovagen-2-200km1": {
+  "name": "Överövägen · del 2",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101404:1970"
+      ],
+      [
+       1970,
+       "nls:101405:1970"
+      ]
+     ],
+     "length": 3155.0,
+     "read": 3170,
+     "ranges": [
+      [
+       0,
+       760
+      ],
+      [
+       1010,
+       1270
+      ],
+      [
+       1390,
+       3150
+      ]
+     ],
+     "matched": 2780
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101404:1978"
+      ],
+      [
+       1978,
+       "nls:101405:1978"
+      ]
+     ],
+     "length": 3155.0,
+     "read": 3170,
+     "ranges": [
+      [
+       0,
+       780
+      ],
+      [
+       990,
+       1270
+      ],
+      [
+       1430,
+       3150
+      ]
+     ],
+     "matched": 2780
+    }
+   ]
+  ]
+ },
+ "road:qgis:tofto:ango-bussovagen-200km1": {
+  "name": "Ängö-Bussövägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101403:1970"
+      ]
+     ],
+     "length": 3701.0,
+     "read": 3720,
+     "ranges": [
+      [
+       10,
+       2810
+      ]
+     ],
+     "matched": 2800
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101403:1978"
+      ]
+     ],
+     "length": 3701.0,
+     "read": 3720,
+     "ranges": [
+      [
+       10,
+       2810
+      ]
+     ],
+     "matched": 2800
+    }
+   ]
+  ]
+ },
+ "road:qgis:ava:brandovagen-2-200km2": {
+  "name": "Brändövägen · del 2",
+  "firstYear": 1991,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:104103:1968"
+      ]
+     ],
+     "length": 2665.2,
+     "read": 2680,
+     "ranges": [
+      [
+       0,
+       1240
+      ],
+      [
+       1300,
+       1730
+      ],
+      [
+       1880,
+       2665.2
+      ]
+     ],
+     "matched": 2455.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104103:1984"
+      ]
+     ],
+     "length": 2665.2,
+     "read": 2680,
+     "ranges": [
+      [
+       180,
+       1720
+      ],
+      [
+       1900,
+       2060
+      ],
+      [
+       2380,
+       2610
+      ]
+     ],
+     "matched": 1930
+    }
+   ]
+  ]
+ },
+ "road:qgis:overo:notovagen-200km1": {
+  "name": "Nötövägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101405:1970"
+      ]
+     ],
+     "length": 2702.5,
+     "read": 2720,
+     "ranges": [
+      [
+       0,
+       1970
+      ],
+      [
+       2110,
+       2170
+      ],
+      [
+       2330,
+       2702.5
+      ]
+     ],
+     "matched": 2402.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101405:1978"
+      ]
+     ],
+     "length": 2702.5,
+     "read": 2720,
+     "ranges": [
+      [
+       0,
+       1970
+      ],
+      [
+       2120,
+       2180
+      ],
+      [
+       2330,
+       2702.5
+      ]
+     ],
+     "matched": 2402.5
+    }
+   ]
+  ]
+ },
+ "road:qgis:sonnboda:naversholmavagen-200km1": {
+  "name": "Näversholmavägen",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101404:1970"
+      ]
+     ],
+     "length": 4605.3,
+     "read": 4620,
+     "ranges": [
+      [
+       0,
+       2640
+      ]
+     ],
+     "matched": 2640
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101404:1978"
+      ]
+     ],
+     "length": 4605.3,
+     "read": 4620,
+     "ranges": [
+      [
+       0,
+       2640
+      ],
+      [
+       2740,
+       3400
+      ],
+      [
+       3510,
+       3810
+      ],
+      [
+       3880,
+       3950
+      ],
+      [
+       4020,
+       4180
+      ]
+     ],
+     "matched": 3830
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101404:1985"
+      ]
+     ],
+     "length": 4605.3,
+     "read": 4620,
+     "ranges": [
+      [
+       0,
+       2780
+      ]
+     ],
+     "matched": 2780
+    }
+   ]
+  ]
+ },
+ "road:qgis:overo:ulversovagen-100km6": {
+  "name": "Ulversövägen",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101405:1970"
+      ]
+     ],
+     "length": 2338.5,
+     "read": 2350,
+     "ranges": [
+      [
+       0,
+       1060
+      ],
+      [
+       1830,
+       1910
+      ],
+      [
+       2050,
+       2338.5
+      ]
+     ],
+     "matched": 1428.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101405:1978"
+      ]
+     ],
+     "length": 2338.5,
+     "read": 2350,
+     "ranges": [
+      [
+       0,
+       1050
+      ],
+      [
+       1750,
+       1910
+      ],
+      [
+       2050,
+       2338.5
+      ]
+     ],
+     "matched": 1498.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101405:1985"
+      ]
+     ],
+     "length": 2338.5,
+     "read": 2350,
+     "ranges": [
+      [
+       0,
+       1060
+      ],
+      [
+       1830,
+       1910
+      ],
+      [
+       2050,
+       2338.5
+      ]
+     ],
+     "matched": 1428.5
+    }
+   ]
+  ]
+ },
+ "road:qgis:sonnboda:bofjardsvagen-1-200km1": {
+  "name": "Bofjärdsvägen · del 1",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101404:1970"
+      ]
+     ],
+     "length": 1965.3,
+     "read": 1980,
+     "ranges": [
+      [
+       0,
+       1280
+      ]
+     ],
+     "matched": 1280
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101404:1978"
+      ]
+     ],
+     "length": 1965.3,
+     "read": 1980,
+     "ranges": [
+      [
+       0,
+       1660
+      ]
+     ],
+     "matched": 1660
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101404:1985"
+      ]
+     ],
+     "length": 1965.3,
+     "read": 1980,
+     "ranges": [
+      [
+       0,
+       1240
+      ]
+     ],
+     "matched": 1240
+    }
+   ]
+  ]
+ },
+ "road:qgis:seglinge:seglingevagen-200km2": {
+  "name": "Seglingevägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101409:1970"
+      ]
+     ],
+     "length": 1658.4,
+     "read": 1670,
+     "ranges": [
+      [
+       30,
+       740
+      ],
+      [
+       910,
+       1180
+      ],
+      [
+       1460,
+       1658.4
+      ]
+     ],
+     "matched": 1178.4
+    }
+   ]
+  ]
+ },
+ "road:qgis:tofto:vardovagen-200km1": {
+  "name": "Vårdövägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101403:1970"
+      ]
+     ],
+     "length": 4136.2,
+     "read": 4150,
+     "ranges": [
+      [
+       440,
+       770
+      ],
+      [
+       890,
+       1070
+      ],
+      [
+       1220,
+       1650
+      ]
+     ],
+     "matched": 940
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101403:1978"
+      ]
+     ],
+     "length": 4136.2,
+     "read": 4150,
+     "ranges": [
+      [
+       360,
+       1070
+      ],
+      [
+       1210,
+       2310
+      ],
+      [
+       2380,
+       2730
+      ],
+      [
+       2920,
+       3020
+      ],
+      [
+       4020,
+       4080
+      ]
+     ],
+     "matched": 2320
+    }
+   ]
+  ]
+ },
+ "road:qgis:bjorko:bjorkovagen-1-200km2": {
+  "name": "Björkövägen · del 1",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1971,
+       "nls:102310:1971"
+      ]
+     ],
+     "length": 2722.7,
+     "read": 2740,
+     "ranges": [
+      [
+       2520,
+       2590
+      ]
+     ],
+     "matched": 70
+    }
+   ]
+  ]
+ }
+}

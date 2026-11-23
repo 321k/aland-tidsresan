@@ -1,0 +1,706 @@
+[
+ {
+  "objectId": "road:qgis:geta:sodravagen-2-200km2",
+  "name": "Södravägen · del 2",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 9161,
+  "roads": [
+   "Södravägen"
+  ],
+  "editions": [
+   "nls:102105:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tjudo:tjudovagen-100km1",
+  "name": "Tjudövägen",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 6724,
+  "roads": [
+   "Tjudövägen"
+  ],
+  "editions": [
+   "nls:102107:1968",
+   "nls:102108:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-71082200",
+  "name": "Svartsmaravägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2021
+   ],
+   [
+    2021,
+    null
+   ]
+  ],
+  "redM": 4149,
+  "roads": [
+   "Svartsmaravägen"
+  ],
+  "editions": [
+   "nls:102104:1968",
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tjudo:tobolevagen-100km1",
+  "name": "Tobölevägen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 3906,
+  "roads": [
+   "Tobölevägen"
+  ],
+  "editions": [
+   "nls:102108:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tjudo:hamnsundsvagen-2-100km1",
+  "name": "Hamnsundsvägen · del 2",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 3526,
+  "roads": [
+   "Hamnsundsvägen"
+  ],
+  "editions": [
+   "nls:102108:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:svartsmara:skarpnatovagen-3",
+  "name": "Skarpnåtövägen · del 3",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 3029,
+  "roads": [
+   "Skarpnåtövägen"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:geta:finnovagen-100km4",
+  "name": "Finnövägen",
+  "firstYear": 1993,
+  "periods": [
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 3002,
+  "roads": [
+   "Finnövägen",
+   "Södravägen"
+  ],
+  "editions": [
+   "nls:102105:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:hamnsund:hamnsundsvagen-200km2",
+  "name": "Hamnsundsvägen",
+  "firstYear": 1993,
+  "periods": [
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 2626,
+  "roads": [
+   "Hamnsundsvägen"
+  ],
+  "editions": [
+   "nls:102111:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-skarpnatovagen-south",
+  "name": "Skarpnåtövägen · södra delen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 2621,
+  "roads": [
+   "Bovikvägen",
+   "Skarpnåtövägen",
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "(no object today)",
+  "name": null,
+  "firstYear": null,
+  "periods": null,
+  "redM": 1511,
+  "roads": [
+   "Bovikvägen",
+   "Tosarbyvägen",
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:102104:1968",
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:svartsmaravagen-batch4",
+  "name": "Svartsmaravägen",
+  "firstYear": 1993,
+  "periods": [
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 975,
+  "roads": [
+   "Svartsmaravägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:saltviksvagen-1-batch4",
+  "name": "Saltviksvägen · del 1",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1993
+   ],
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 801,
+  "roads": [
+   "Saltviksvägen",
+   "Väg eller stig",
+   "Ödkarbyvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:svartsmara:skarpnatovagen-1",
+  "name": "Skarpnåtövägen · del 1",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 761,
+  "roads": [
+   "Skarpnåtövägen"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tjudo:hamnsundsvagen-1-100km1",
+  "name": "Hamnsundsvägen · del 1",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 485,
+  "roads": [
+   "Hamnsundsvägen"
+  ],
+  "editions": [
+   "nls:102108:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tjudo:saltviksvagen-100km1",
+  "name": "Saltviksvägen",
+  "firstYear": 1927,
+  "periods": [
+   [
+    1927,
+    1968
+   ],
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 297,
+  "roads": [
+   "Hagavägen"
+  ],
+  "editions": [
+   "nls:102108:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tjudo:hamnsundsvagen-3-100km1",
+  "name": "Hamnsundsvägen · del 3",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 238,
+  "roads": [
+   "Hamnsundsvägen"
+  ],
+  "editions": [
+   "nls:102108:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:hjortovagen",
+  "name": "Hjortövägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 224,
+  "roads": [
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:getavagen-godby-norra-bladgransen",
+  "name": "Getavägen · Godby–norra bladgränsen",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 150,
+  "roads": [
+   "Tjudövägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:svartsmara:bergovagen-2",
+  "name": "Bergövägen · del 2",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 138,
+  "roads": [
+   "Bergövägen"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:saltviksvagen-antbole-nygard",
+  "name": "Saltviksvägen · Antböle–Nygård",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 107,
+  "roads": [
+   "Saltviksvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:slottsvagen-sodra",
+  "name": "Slottsvägen · södra anslutningen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 103,
+  "roads": [
+   "Slottsvägen",
+   "Tosarbyvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:svartsmara:mellanakersvagen-1",
+  "name": "Mellanåkersvägen · del 1",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 81,
+  "roads": [
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:sundsvagen-lappbole-bladgransen",
+  "name": "Sundsvägen · Lappböle till bladgränsen",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    1968
+   ],
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 61,
+  "roads": [
+   "Tosarbyvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:geta:getavagen-1-200km2",
+  "name": "Getavägen · del 1",
+  "firstYear": 1927,
+  "periods": [
+   [
+    1927,
+    1984
+   ],
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 61,
+  "roads": [
+   "Getavägen"
+  ],
+  "editions": [
+   "nls:102105:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:vasterviksvagen-batch4",
+  "name": "Västerviksvägen",
+  "firstYear": 1993,
+  "periods": [
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 52,
+  "roads": [
+   "Västerviksvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:sundsvagen-kulla-aldre-kurva",
+  "name": "Sundsvägen · Kullas östra kurva",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    1968
+   ],
+   [
+    1968,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 45,
+  "roads": [
+   "Sundsvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:hagavagen",
+  "name": "Hagavägen · granskad del",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 39,
+  "roads": [
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:geta:sodravagen-1-200km2",
+  "name": "Södravägen · del 1",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 22,
+  "roads": [
+   "Södravägen"
+  ],
+  "editions": [
+   "nls:102105:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:palsbolevagen-norra",
+  "name": "Pålsbölevägen · norra delen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 13,
+  "roads": [
+   "Pålsbölevägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:haraldsbyvagen",
+  "name": "Haraldsbyvägen",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 13,
+  "roads": [
+   "Haraldsbyvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:norra-sundsvagen-sundby-bladgransen",
+  "name": "Norra Sundsvägen · Sundby till bladgränsen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1985
+   ],
+   [
+    1985,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 12,
+  "roads": [
+   "Norra Sundsvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:saltviksvagen-kavelbro-forbifart",
+  "name": "Saltviksvägen · Kavelbro förbifart",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 12,
+  "roads": [
+   "Saltviksvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:svartsmara:mellanakersvagen-2",
+  "name": "Mellanåkersvägen · del 2",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 11,
+  "roads": [
+   "Bovikvägen"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ }
+]

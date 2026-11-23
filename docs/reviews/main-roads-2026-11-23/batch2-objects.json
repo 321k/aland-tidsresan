@@ -1,0 +1,478 @@
+[
+ {
+  "objectId": "road:qgis:sonnboda:foglovagen-200km1",
+  "name": "Föglövägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 6615,
+  "roads": [
+   "Föglövägen",
+   "Överövägen"
+  ],
+  "editions": [
+   "nls:101404:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:degerby:foglovagen-200km1",
+  "name": "Föglövägen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 5072,
+  "roads": [
+   "Föglövägen",
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:101401:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:degerby:hummersovagen-200km1",
+  "name": "Hummersövägen",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 4804,
+  "roads": [
+   "Hummersövägen"
+  ],
+  "editions": [
+   "nls:101401:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:fisko:fiskovagen-1-200km2",
+  "name": "Fiskövägen · del 1",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 4135,
+  "roads": [
+   "Fiskövägen"
+  ],
+  "editions": [
+   "nls:102312:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:overo:overovagen-1-200km1",
+  "name": "Överövägen · del 1",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 4030,
+  "roads": [
+   "Överövägen"
+  ],
+  "editions": [
+   "nls:101405:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:vardo:sandovagen-200km1",
+  "name": "Sandövägen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 3961,
+  "roads": [
+   "Sandövägen"
+  ],
+  "editions": [
+   "nls:102301:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:ava:brandovagen-1-200km2",
+  "name": "Brändövägen · del 1",
+  "firstYear": 1991,
+  "periods": [
+   [
+    1991,
+    null
+   ]
+  ],
+  "redM": 3838,
+  "roads": [
+   "Brändövägen",
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:104103:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:enklinge:enklingevagen-200km2",
+  "name": "Enklingevägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 3259,
+  "roads": [
+   "Enklingevägen"
+  ],
+  "editions": [
+   "nls:102307:1971",
+   "nls:102308:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:overo:overovagen-2-200km1",
+  "name": "Överövägen · del 2",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 3078,
+  "roads": [
+   "Överövägen"
+  ],
+  "editions": [
+   "nls:101404:1970",
+   "nls:101405:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tofto:ango-bussovagen-200km1",
+  "name": "Ängö-Bussövägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 2800,
+  "roads": [
+   "Ängö-Bussövägen"
+  ],
+  "editions": [
+   "nls:101403:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:ava:brandovagen-2-200km2",
+  "name": "Brändövägen · del 2",
+  "firstYear": 1991,
+  "periods": [
+   [
+    1991,
+    null
+   ]
+  ],
+  "redM": 2546,
+  "roads": [
+   "Brändövägen"
+  ],
+  "editions": [
+   "nls:104103:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:overo:notovagen-200km1",
+  "name": "Nötövägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 2440,
+  "roads": [
+   "Nötövägen"
+  ],
+  "editions": [
+   "nls:101405:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:sonnboda:naversholmavagen-200km1",
+  "name": "Näversholmavägen",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 2419,
+  "roads": [
+   "Näversholmavägen"
+  ],
+  "editions": [
+   "nls:101404:1970"
+  ]
+ },
+ {
+  "objectId": "(no object today)",
+  "name": null,
+  "firstYear": null,
+  "periods": null,
+  "redM": 2103,
+  "roads": [
+   "Brändövägen",
+   "Enklingevägen",
+   "Kungshamnsvägen",
+   "Väg eller stig",
+   "Överövägen"
+  ],
+  "editions": [
+   "nls:101404:1970",
+   "nls:102307:1971",
+   "nls:104102:1969"
+  ]
+ },
+ {
+  "objectId": "road:qgis:overo:ulversovagen-100km6",
+  "name": "Ulversövägen",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 1379,
+  "roads": [
+   "Ulversövägen"
+  ],
+  "editions": [
+   "nls:101405:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:sonnboda:bofjardsvagen-1-200km1",
+  "name": "Bofjärdsvägen · del 1",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 1257,
+  "roads": [
+   "Bofjärdsvägen"
+  ],
+  "editions": [
+   "nls:101404:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:seglinge:seglingevagen-200km2",
+  "name": "Seglingevägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 1069,
+  "roads": [
+   "Seglingevägen"
+  ],
+  "editions": [
+   "nls:101409:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tofto:vardovagen-200km1",
+  "name": "Vårdövägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 968,
+  "roads": [
+   "Vårdövägen"
+  ],
+  "editions": [
+   "nls:101403:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:kumlinge:visingsvagen-200km2",
+  "name": "Visingsvägen",
+  "firstYear": 1971,
+  "periods": [
+   [
+    1971,
+    null
+   ]
+  ],
+  "redM": 631,
+  "roads": [
+   "Kungshamnsvägen"
+  ],
+  "editions": [
+   "nls:102307:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:kumlinge:kumlingevagen-200km2",
+  "name": "Kumlingevägen",
+  "firstYear": 1971,
+  "periods": [
+   [
+    1971,
+    null
+   ]
+  ],
+  "redM": 270,
+  "roads": [
+   "Kungshamnsvägen"
+  ],
+  "editions": [
+   "nls:102307:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:bjorko:bjorkovagen-1-200km2",
+  "name": "Björkövägen · del 1",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 186,
+  "roads": [
+   "Björkövägen"
+  ],
+  "editions": [
+   "nls:102310:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:kumlinge:esplundsvagen-200km2",
+  "name": "Esplundsvägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 76,
+  "roads": [
+   "Enklingevägen"
+  ],
+  "editions": [
+   "nls:102307:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:kumlinge:vasterviksvagen-200km2",
+  "name": "Västerviksvägen",
+  "firstYear": 1971,
+  "periods": [
+   [
+    1971,
+    null
+   ]
+  ],
+  "redM": 70,
+  "roads": [
+   "Kungshamnsvägen"
+  ],
+  "editions": [
+   "nls:102307:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:brando:brandovagen-1-200km2",
+  "name": "Brändövägen · del 1",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 55,
+  "roads": [
+   "Brändövägen",
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:104102:1969"
+  ]
+ },
+ {
+  "objectId": "road:qgis:brando:samnasvag-200km2",
+  "name": "Samnäsväg",
+  "firstYear": 1991,
+  "periods": [
+   [
+    1991,
+    null
+   ]
+  ],
+  "redM": 47,
+  "roads": [
+   "Brändövägen",
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:104102:1969"
+  ]
+ },
+ {
+  "objectId": "road:qgis:lappo:bjorkovagen-200km2",
+  "name": "Björkövägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 47,
+  "roads": [
+   "Björkövägen"
+  ],
+  "editions": [
+   "nls:102311:1971"
+  ]
+ }
+]

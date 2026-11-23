@@ -269,8 +269,13 @@ def _apply(read, catalog, path_):
             ev.append(e)
         return ev
 
+    # 'geometryName': the new geometry's name after the prefix, where two objects share the last part of their ids.
+    taken = {x['id'] for x in catalog['geometries']}
     for e, o, g, parts, full, ranges in plans:
-        oid = e['objectId']; gid = prefix + oid.rsplit(':', 1)[1]
+        oid = e['objectId']; gid = prefix + e.get('geometryName', oid.rsplit(':', 1)[1])
+        if gid in taken or (oid in stages and f"{gid}:{e['laterStage']['firstYear']}" in taken):
+            raise ValueError('Duplicate geometry id ' + gid)
+        taken |= {gid, f"{gid}:{e['laterStage']['firstYear']}"} if oid in stages else {gid}
         cov = dict(coverage='full', canonicalRange=[0, 1]) if full else (dict(coverage='partial', canonicalRange=ranges[0]) if len(ranges) == 1 else dict(coverage='partial', canonicalRanges=ranges))
         catalog['geometries'].append(dict(id=gid, representation='centerline', paths=deepcopy(parts), sourceIds=deepcopy(g['sourceIds']),
                                           note=review.get('geometryNote', 'Del av objektets egen geometri (samma koordinater) där dagens väg är den väg sockenkartan 1929 ritar.')))

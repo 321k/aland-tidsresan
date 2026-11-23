@@ -1,0 +1,62 @@
+{
+ "before": "data/map-scan-cache/review/main-roads-archipelago/before-main-roads-archipelago-step.json.gz",
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:qgis:ava:brandovagen-1-200km2",
+   "road:qgis:ava:brandovagen-2-200km2",
+   "road:qgis:degerby:foglovagen-200km1",
+   "road:qgis:degerby:hummersovagen-200km1",
+   "road:qgis:enklinge:enklingevagen-200km2",
+   "road:qgis:fisko:fiskovagen-1-200km2",
+   "road:qgis:overo:notovagen-200km1",
+   "road:qgis:overo:overovagen-1-200km1",
+   "road:qgis:overo:overovagen-2-200km1",
+   "road:qgis:overo:ulversovagen-100km6",
+   "road:qgis:seglinge:seglingevagen-200km2",
+   "road:qgis:sonnboda:bofjardsvagen-1-200km1",
+   "road:qgis:sonnboda:foglovagen-200km1",
+   "road:qgis:sonnboda:naversholmavagen-200km1",
+   "road:qgis:tofto:ango-bussovagen-200km1",
+   "road:qgis:vardo:sandovagen-200km1"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:main-roads-archipelago:ango-bussovagen-200km1",
+   "geometry:main-roads-archipelago:bofjardsvagen-1-200km1",
+   "geometry:main-roads-archipelago:bofjardsvagen-1-200km1:1978",
+   "geometry:main-roads-archipelago:brandovagen-1-200km2",
+   "geometry:main-roads-archipelago:brandovagen-1-200km2:1984",
+   "geometry:main-roads-archipelago:brandovagen-2-200km2",
+   "geometry:main-roads-archipelago:degerby-foglovagen-200km1",
+   "geometry:main-roads-archipelago:enklingevagen-200km2",
+   "geometry:main-roads-archipelago:fiskovagen-1-200km2",
+   "geometry:main-roads-archipelago:hummersovagen-200km1",
+   "geometry:main-roads-archipelago:hummersovagen-200km1:1978",
+   "geometry:main-roads-archipelago:naversholmavagen-200km1",
+   "geometry:main-roads-archipelago:naversholmavagen-200km1:1978",
+   "geometry:main-roads-archipelago:notovagen-200km1",
+   "geometry:main-roads-archipelago:overovagen-1-200km1",
+   "geometry:main-roads-archipelago:overovagen-2-200km1",
+   "geometry:main-roads-archipelago:sandovagen-200km1",
+   "geometry:main-roads-archipelago:seglingevagen-200km2",
+   "geometry:main-roads-archipelago:sonnboda-foglovagen-200km1",
+   "geometry:main-roads-archipelago:sonnboda-foglovagen-200km1:1978",
+   "geometry:main-roads-archipelago:ulversovagen-100km6"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:main-roads-archipelago"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "changedOutsideReview": [],
+ "otherKeys": [],
+ "atlasRoadsUnchanged": true
+}

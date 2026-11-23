@@ -1,0 +1,669 @@
+{
+ "road:qgis:geta:sodravagen-2-200km2": {
+  "name": "Södravägen · del 2",
+  "firstYear": 1984,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102105:1968"
+      ]
+     ],
+     "length": 10449.6,
+     "read": 10460,
+     "ranges": [
+      [
+       0,
+       2240
+      ],
+      [
+       2540,
+       10449.6
+      ]
+     ],
+     "matched": 10149.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102105:1978"
+      ]
+     ],
+     "length": 10449.6,
+     "read": 10460,
+     "ranges": [
+      [
+       0,
+       2480
+      ],
+      [
+       2540,
+       10449.6
+      ]
+     ],
+     "matched": 10389.6
+    }
+   ]
+  ]
+ },
+ "road:qgis:tjudo:tjudovagen-100km1": {
+  "name": "Tjudövägen",
+  "firstYear": 1984,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ],
+      [
+       1968,
+       "nls:102108:1968"
+      ]
+     ],
+     "length": 6805.9,
+     "read": 6820,
+     "ranges": [
+      [
+       0,
+       6805.9
+      ]
+     ],
+     "matched": 6805.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ],
+      [
+       1978,
+       "nls:102108:1978"
+      ]
+     ],
+     "length": 6805.9,
+     "read": 6820,
+     "ranges": [
+      [
+       0,
+       6805.9
+      ]
+     ],
+     "matched": 6805.9
+    }
+   ]
+  ]
+ },
+ "road:qgis:tjudo:tobolevagen-100km1": {
+  "name": "Tobölevägen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102108:1968"
+      ]
+     ],
+     "length": 5112.7,
+     "read": 5130,
+     "ranges": [
+      [
+       0,
+       2170
+      ],
+      [
+       2510,
+       4380
+      ]
+     ],
+     "matched": 4040
+    }
+   ]
+  ]
+ },
+ "road:qgis:tjudo:hamnsundsvagen-1-100km1": {
+  "name": "Hamnsundsvägen · del 1",
+  "firstYear": 1984,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ],
+      [
+       1968,
+       "nls:102108:1968"
+      ]
+     ],
+     "length": 547.3,
+     "read": 560,
+     "ranges": [
+      [
+       0,
+       547.3
+      ]
+     ],
+     "matched": 547.3
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ],
+      [
+       1978,
+       "nls:102108:1978"
+      ]
+     ],
+     "length": 547.3,
+     "read": 560,
+     "ranges": [
+      [
+       0,
+       547.3
+      ]
+     ],
+     "matched": 547.3
+    }
+   ]
+  ]
+ },
+ "road:qgis:tjudo:hamnsundsvagen-2-100km1": {
+  "name": "Hamnsundsvägen · del 2",
+  "firstYear": 1984,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ],
+      [
+       1968,
+       "nls:102108:1968"
+      ],
+      [
+       1968,
+       "nls:102111:1968"
+      ]
+     ],
+     "length": 3613.1,
+     "read": 3630,
+     "ranges": [
+      [
+       0,
+       3613.1
+      ]
+     ],
+     "matched": 3613.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ],
+      [
+       1978,
+       "nls:102108:1978"
+      ],
+      [
+       1978,
+       "nls:102111:1978"
+      ]
+     ],
+     "length": 3613.1,
+     "read": 3630,
+     "ranges": [
+      [
+       0,
+       3613.1
+      ]
+     ],
+     "matched": 3613.1
+    }
+   ]
+  ]
+ },
+ "road:qgis:tjudo:hamnsundsvagen-3-100km1": {
+  "name": "Hamnsundsvägen · del 3",
+  "firstYear": 1984,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102108:1968"
+      ],
+      [
+       1968,
+       "nls:102111:1968"
+      ]
+     ],
+     "length": 810.2,
+     "read": 830,
+     "ranges": [
+      [
+       0,
+       290
+      ]
+     ],
+     "matched": 290
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102108:1978"
+      ],
+      [
+       1978,
+       "nls:102111:1978"
+      ]
+     ],
+     "length": 810.2,
+     "read": 830,
+     "ranges": [
+      [
+       0,
+       810.2
+      ]
+     ],
+     "matched": 810.2
+    }
+   ]
+  ]
+ },
+ "road:qgis:svartsmara:skarpnatovagen-1": {
+  "name": "Skarpnåtövägen · del 1",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102104:1968"
+      ]
+     ],
+     "length": 1719.0,
+     "read": 1730,
+     "ranges": [
+      [
+       0,
+       260
+      ],
+      [
+       480,
+       1400
+      ],
+      [
+       1590,
+       1719.0
+      ]
+     ],
+     "matched": 1309.0
+    }
+   ]
+  ]
+ },
+ "road:qgis:svartsmara:skarpnatovagen-3": {
+  "name": "Skarpnåtövägen · del 3",
+  "firstYear": 1984,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102104:1968"
+      ]
+     ],
+     "length": 3305.9,
+     "read": 3320,
+     "ranges": [
+      [
+       0,
+       3305.9
+      ]
+     ],
+     "matched": 3305.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102104:1978"
+      ]
+     ],
+     "length": 3305.9,
+     "read": 3320,
+     "ranges": [
+      [
+       0,
+       3305.9
+      ]
+     ],
+     "matched": 3305.9
+    }
+   ]
+  ]
+ },
+ "road:qgis:geta:finnovagen-100km4": {
+  "name": "Finnövägen",
+  "firstYear": 1993,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102105:1968"
+      ]
+     ],
+     "length": 3873.6,
+     "read": 3890,
+     "ranges": [
+      [
+       350,
+       460
+      ],
+      [
+       540,
+       3873.6
+      ]
+     ],
+     "matched": 3443.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102105:1978"
+      ]
+     ],
+     "length": 3873.6,
+     "read": 3890,
+     "ranges": [
+      [
+       350,
+       470
+      ],
+      [
+       530,
+       3873.6
+      ]
+     ],
+     "matched": 3463.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:102105:1984"
+      ]
+     ],
+     "length": 3873.6,
+     "read": 3890,
+     "ranges": [
+      [
+       240,
+       470
+      ],
+      [
+       540,
+       3873.6
+      ]
+     ],
+     "matched": 3563.6
+    }
+   ]
+  ]
+ },
+ "road:qgis:hamnsund:hamnsundsvagen-200km2": {
+  "name": "Hamnsundsvägen",
+  "firstYear": 1993,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102111:1968"
+      ]
+     ],
+     "length": 2864.2,
+     "read": 2880,
+     "ranges": [
+      [
+       0,
+       1760
+      ],
+      [
+       1850,
+       2864.2
+      ]
+     ],
+     "matched": 2774.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102111:1978"
+      ]
+     ],
+     "length": 2864.2,
+     "read": 2880,
+     "ranges": [
+      [
+       0,
+       1760
+      ],
+      [
+       1850,
+       2864.2
+      ]
+     ],
+     "matched": 2774.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:102111:1984"
+      ]
+     ],
+     "length": 2864.2,
+     "read": 2880,
+     "ranges": [
+      [
+       0,
+       1760
+      ],
+      [
+       1870,
+       2864.2
+      ]
+     ],
+     "matched": 2754.2
+    }
+   ]
+  ]
+ },
+ "road:qgis:saltvik:svartsmaravagen-batch4": {
+  "name": "Svartsmaravägen",
+  "firstYear": 1993,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 1810.2,
+     "read": 1830,
+     "ranges": [
+      [
+       0,
+       730
+      ],
+      [
+       940,
+       1810.2
+      ]
+     ],
+     "matched": 1600.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 1810.2,
+     "read": 1830,
+     "ranges": [
+      [
+       0,
+       740
+      ],
+      [
+       890,
+       1810.2
+      ]
+     ],
+     "matched": 1660.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 1810.2,
+     "read": 1830,
+     "ranges": [
+      [
+       0,
+       740
+      ],
+      [
+       860,
+       1810.2
+      ]
+     ],
+     "matched": 1690.2
+    }
+   ]
+  ]
+ },
+ "road:qgis:svartsmara:bergovagen-2": {
+  "name": "Bergövägen · del 2",
+  "firstYear": 1984,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102104:1968"
+      ]
+     ],
+     "length": 4096.5,
+     "read": 4110,
+     "ranges": [
+      [
+       0,
+       170
+      ],
+      [
+       3820,
+       3900
+      ]
+     ],
+     "matched": 250
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102104:1978"
+      ]
+     ],
+     "length": 4096.5,
+     "read": 4110,
+     "ranges": [
+      [
+       0,
+       170
+      ],
+      [
+       470,
+       880
+      ],
+      [
+       1050,
+       4070
+      ]
+     ],
+     "matched": 3600
+    }
+   ]
+  ]
+ }
+}

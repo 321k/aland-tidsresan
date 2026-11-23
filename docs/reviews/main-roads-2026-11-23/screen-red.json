@@ -1,0 +1,2887 @@
+[
+ {
+  "name": "Södravägen",
+  "sheet": "102105",
+  "firstEdition": "nls:102105:1968",
+  "totalM": 11296,
+  "gapM": 10989,
+  "redM": 9233,
+  "noRedM": 1755,
+  "unreadM": 0,
+  "ways": [
+   "way/182478619",
+   "way/614151532"
+  ],
+  "at": [
+   20494099,
+   6695608
+  ]
+ },
+ {
+  "name": "Överövägen",
+  "sheet": "101405",
+  "firstEdition": "nls:101405:1970",
+  "totalM": 8206,
+  "gapM": 8206,
+  "redM": 7083,
+  "noRedM": 1124,
+  "unreadM": 0,
+  "ways": [
+   "way/1183926493",
+   "way/1183926494",
+   "way/1183926496",
+   "way/1183926497",
+   "way/1463792840",
+   "way/160439651",
+   "way/190475504",
+   "way/190475507",
+   "way/190475508",
+   "way/296478360",
+   "way/296478361",
+   "way/490782129",
+   "way/881255357",
+   "way/881255358"
+  ],
+  "at": [
+   20528788,
+   6665950
+  ]
+ },
+ {
+  "name": "Tjudövägen",
+  "sheet": "102108",
+  "firstEdition": "nls:102108:1968",
+  "totalM": 6805,
+  "gapM": 6782,
+  "redM": 6697,
+  "noRedM": 85,
+  "unreadM": 0,
+  "ways": [
+   "way/67356921"
+  ],
+  "at": [
+   20496738,
+   6689401
+  ]
+ },
+ {
+  "name": "Föglövägen",
+  "sheet": "101404",
+  "firstEdition": "nls:101404:1970",
+  "totalM": 9909,
+  "gapM": 9654,
+  "redM": 6460,
+  "noRedM": 3194,
+  "unreadM": 0,
+  "ways": [
+   "way/296478363",
+   "way/517013951",
+   "way/517013952",
+   "way/517014019",
+   "way/517014020"
+  ],
+  "at": [
+   20525555,
+   6659416
+  ]
+ },
+ {
+  "name": "Brändövägen",
+  "sheet": "104103",
+  "firstEdition": "nls:104103:1968",
+  "totalM": 12588,
+  "gapM": 12465,
+  "redM": 6369,
+  "noRedM": 6096,
+  "unreadM": 0,
+  "ways": [
+   "way/1307734042",
+   "way/165893547",
+   "way/165893551",
+   "way/324801518",
+   "way/324801519",
+   "way/324801520",
+   "way/324801521",
+   "way/548250246"
+  ],
+  "at": [
+   20557898,
+   6702310
+  ]
+ },
+ {
+  "name": "Skarpnåtövägen",
+  "sheet": "102104",
+  "firstEdition": "nls:102104:1968",
+  "totalM": 11552,
+  "gapM": 8751,
+  "redM": 6176,
+  "noRedM": 2575,
+  "unreadM": 0,
+  "ways": [
+   "way/1067036914",
+   "way/1067036918",
+   "way/1067036922",
+   "way/1067038811",
+   "way/1067038814",
+   "way/54052700"
+  ],
+  "at": [
+   20487107,
+   6679264
+  ]
+ },
+ {
+  "name": "Föglövägen",
+  "sheet": "101401",
+  "firstEdition": "nls:101401:1970",
+  "totalM": 5850,
+  "gapM": 5673,
+  "redM": 5060,
+  "noRedM": 614,
+  "unreadM": 0,
+  "ways": [
+   "way/140187894",
+   "way/1430529876",
+   "way/189253871",
+   "way/190689561",
+   "way/296478362",
+   "way/296478363"
+  ],
+  "at": [
+   20522394,
+   6657361
+  ]
+ },
+ {
+  "name": "Hummersövägen",
+  "sheet": "101401",
+  "firstEdition": "nls:101401:1970",
+  "totalM": 5212,
+  "gapM": 5072,
+  "redM": 4804,
+  "noRedM": 268,
+  "unreadM": 0,
+  "ways": [
+   "way/162511398",
+   "way/162511399",
+   "way/188500403",
+   "way/532063035",
+   "way/532063036",
+   "way/756506924",
+   "way/756506925"
+  ],
+  "at": [
+   20522986,
+   6656173
+  ]
+ },
+ {
+  "name": "Hamnsundsvägen",
+  "sheet": "102108",
+  "firstEdition": "nls:102108:1968",
+  "totalM": 4982,
+  "gapM": 4890,
+  "redM": 4248,
+  "noRedM": 642,
+  "unreadM": 0,
+  "ways": [
+   "way/25217368"
+  ],
+  "at": [
+   20503257,
+   6689524
+  ]
+ },
+ {
+  "name": "Fiskövägen",
+  "sheet": "102312",
+  "firstEdition": "nls:102312:1971",
+  "totalM": 7622,
+  "gapM": 7622,
+  "redM": 4135,
+  "noRedM": 3487,
+  "unreadM": 0,
+  "ways": [
+   "way/1291803551",
+   "way/165892823",
+   "way/165892824",
+   "way/165892825",
+   "way/165892826",
+   "way/165892827",
+   "way/165892829",
+   "way/165892830",
+   "way/165893541",
+   "way/165893543",
+   "way/165893549"
+  ],
+  "at": [
+   20552190,
+   6702776
+  ]
+ },
+ {
+  "name": "Svartsmaravägen",
+  "sheet": "102104",
+  "firstEdition": "nls:102104:1968",
+  "totalM": 5092,
+  "gapM": 4860,
+  "redM": 4098,
+  "noRedM": 763,
+  "unreadM": 0,
+  "ways": [
+   "way/71082200"
+  ],
+  "at": [
+   20492183,
+   6679351
+  ]
+ },
+ {
+  "name": "Sandövägen",
+  "sheet": "102301",
+  "firstEdition": "nls:102301:1971",
+  "totalM": 5727,
+  "gapM": 5691,
+  "redM": 3961,
+  "noRedM": 1729,
+  "unreadM": 0,
+  "ways": [
+   "way/355204404"
+  ],
+  "at": [
+   20521625,
+   6684464
+  ]
+ },
+ {
+  "name": "Tobölevägen",
+  "sheet": "102108",
+  "firstEdition": "nls:102108:1968",
+  "totalM": 5113,
+  "gapM": 5074,
+  "redM": 3906,
+  "noRedM": 1168,
+  "unreadM": 0,
+  "ways": [
+   "way/65617746"
+  ],
+  "at": [
+   20501060,
+   6689978
+  ]
+ },
+ {
+  "name": "Enklingevägen",
+  "sheet": "102308",
+  "firstEdition": "nls:102308:1971",
+  "totalM": 5370,
+  "gapM": 5370,
+  "redM": 3228,
+  "noRedM": 2142,
+  "unreadM": 0,
+  "ways": [
+   "way/1203445202",
+   "way/171438101",
+   "way/190689563"
+  ],
+  "at": [
+   20542623,
+   6693791
+  ]
+ },
+ {
+  "name": "Ängösundsvägen",
+  "sheet": "101211",
+  "firstEdition": "nls:101211:1968",
+  "totalM": 3675,
+  "gapM": 3547,
+  "redM": 2988,
+  "noRedM": 559,
+  "unreadM": 0,
+  "ways": [
+   "way/1183971779",
+   "way/1548092317",
+   "way/1548092318",
+   "way/1548092319",
+   "way/220072031",
+   "way/611965354"
+  ],
+  "at": [
+   20515024,
+   6669620
+  ]
+ },
+ {
+  "name": "Finnövägen",
+  "sheet": "102105",
+  "firstEdition": "nls:102105:1968",
+  "totalM": 3874,
+  "gapM": 3664,
+  "redM": 2952,
+  "noRedM": 712,
+  "unreadM": 0,
+  "ways": [
+   "way/290985605",
+   "way/67354888"
+  ],
+  "at": [
+   20491053,
+   6695671
+  ]
+ },
+ {
+  "name": "Ängö-Bussövägen",
+  "sheet": "101403",
+  "firstEdition": "nls:101403:1970",
+  "totalM": 3701,
+  "gapM": 3701,
+  "redM": 2800,
+  "noRedM": 901,
+  "unreadM": 0,
+  "ways": [
+   "way/1441707292",
+   "way/1441707293",
+   "way/1441707294",
+   "way/1441707295",
+   "way/1442135396",
+   "way/220115075",
+   "way/615300512"
+  ],
+  "at": [
+   20517709,
+   6671908
+  ]
+ },
+ {
+  "name": "Hamnsundsvägen",
+  "sheet": "102111",
+  "firstEdition": "nls:102111:1968",
+  "totalM": 2857,
+  "gapM": 2857,
+  "redM": 2626,
+  "noRedM": 231,
+  "unreadM": 0,
+  "ways": [
+   "way/25217368"
+  ],
+  "at": [
+   20505043,
+   6692685
+  ]
+ },
+ {
+  "name": "Mångstektavägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 5022,
+  "gapM": 3180,
+  "redM": 2625,
+  "noRedM": 555,
+  "unreadM": 0,
+  "ways": [
+   "way/1229055974",
+   "way/1466041637",
+   "way/70025082"
+  ],
+  "at": [
+   20511205,
+   6681570
+  ]
+ },
+ {
+  "name": "Torpvägen",
+  "sheet": "101203",
+  "firstEdition": "nls:101203:1968",
+  "totalM": 6255,
+  "gapM": 6003,
+  "redM": 2461,
+  "noRedM": 3542,
+  "unreadM": 0,
+  "ways": [
+   "way/36362945",
+   "way/636485900",
+   "way/69730772",
+   "way/69730773",
+   "way/86548856"
+  ],
+  "at": [
+   20475915,
+   6678872
+  ]
+ },
+ {
+  "name": "Nötövägen",
+  "sheet": "101405",
+  "firstEdition": "nls:101405:1970",
+  "totalM": 2703,
+  "gapM": 2665,
+  "redM": 2440,
+  "noRedM": 226,
+  "unreadM": 0,
+  "ways": [
+   "way/1461447693",
+   "way/1461447694",
+   "way/440826773",
+   "way/440826780",
+   "way/440826802"
+  ],
+  "at": [
+   20528795,
+   6664669
+  ]
+ },
+ {
+  "name": "Näversholmavägen",
+  "sheet": "101404",
+  "firstEdition": "nls:101404:1970",
+  "totalM": 4224,
+  "gapM": 3948,
+  "redM": 2419,
+  "noRedM": 1528,
+  "unreadM": 0,
+  "ways": [
+   "way/189114847"
+  ],
+  "at": [
+   20526799,
+   6659416
+  ]
+ },
+ {
+  "name": "Svinövägen",
+  "sheet": "101211",
+  "firstEdition": "nls:101211:1968",
+  "totalM": 2461,
+  "gapM": 2322,
+  "redM": 2216,
+  "noRedM": 107,
+  "unreadM": 0,
+  "ways": [
+   "way/172867046",
+   "way/172867047",
+   "way/35838355",
+   "way/611723898",
+   "way/611965355"
+  ],
+  "at": [
+   20514353,
+   6663630
+  ]
+ },
+ {
+  "name": "Ringsbölevägen",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 2837,
+  "gapM": 2726,
+  "redM": 2071,
+  "noRedM": 655,
+  "unreadM": 0,
+  "ways": [
+   "way/557084450"
+  ],
+  "at": [
+   20495320,
+   6675594
+  ]
+ },
+ {
+  "name": "Kungshamnsvägen",
+  "sheet": "102307",
+  "firstEdition": "nls:102307:1971",
+  "totalM": 2341,
+  "gapM": 2235,
+  "redM": 1963,
+  "noRedM": 272,
+  "unreadM": 0,
+  "ways": [
+   "way/1291807287",
+   "way/142810130",
+   "way/738205660"
+  ],
+  "at": [
+   20543586,
+   6682996
+  ]
+ },
+ {
+  "name": "Norrbygatan",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 1659,
+  "gapM": 1601,
+  "redM": 1601,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/296445822"
+  ],
+  "at": [
+   20489736,
+   6669235
+  ]
+ },
+ {
+  "name": "Södra Överbyvägen",
+  "sheet": "101203",
+  "firstEdition": "nls:101203:1968",
+  "totalM": 1610,
+  "gapM": 1586,
+  "redM": 1448,
+  "noRedM": 138,
+  "unreadM": 0,
+  "ways": [
+   "way/638808637"
+  ],
+  "at": [
+   20479131,
+   6676494
+  ]
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 1662,
+  "gapM": 1434,
+  "redM": 1414,
+  "noRedM": 21,
+  "unreadM": 0,
+  "ways": [
+   "way/65617754"
+  ],
+  "at": [
+   20499054,
+   6688391
+  ]
+ },
+ {
+  "name": "Skeppsviksvägen",
+  "sheet": "101203",
+  "firstEdition": "nls:101203:1968",
+  "totalM": 2538,
+  "gapM": 2538,
+  "redM": 1391,
+  "noRedM": 1148,
+  "unreadM": 0,
+  "ways": [
+   "way/67357621"
+  ],
+  "at": [
+   20476669,
+   6675261
+  ]
+ },
+ {
+  "name": "Bistorpvägen",
+  "sheet": "101211",
+  "firstEdition": "nls:101211:1968",
+  "totalM": 1409,
+  "gapM": 1385,
+  "redM": 1385,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/349909843"
+  ],
+  "at": [
+   20506815,
+   6662033
+  ]
+ },
+ {
+  "name": "Ulversövägen",
+  "sheet": "101405",
+  "firstEdition": "nls:101405:1970",
+  "totalM": 2339,
+  "gapM": 2233,
+  "redM": 1379,
+  "noRedM": 853,
+  "unreadM": 0,
+  "ways": [
+   "way/188977988"
+  ],
+  "at": [
+   20529244,
+   6665398
+  ]
+ },
+ {
+  "name": "Norra Svibyvägen",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 1545,
+  "gapM": 1545,
+  "redM": 1376,
+  "noRedM": 169,
+  "unreadM": 0,
+  "ways": [
+   "way/1165936570",
+   "way/25219921",
+   "way/715061838",
+   "way/715061839"
+  ],
+  "at": [
+   20496214,
+   6670056
+  ]
+ },
+ {
+  "name": "Bofjärdsvägen",
+  "sheet": "101404",
+  "firstEdition": "nls:101404:1970",
+  "totalM": 1257,
+  "gapM": 1257,
+  "redM": 1257,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/1461434368",
+   "way/189092603"
+  ],
+  "at": [
+   20527695,
+   6659308
+  ]
+ },
+ {
+  "name": "Tellholmsvägen",
+  "sheet": "101203",
+  "firstEdition": "nls:101203:1968",
+  "totalM": 1325,
+  "gapM": 1258,
+  "redM": 1109,
+  "noRedM": 150,
+  "unreadM": 0,
+  "ways": [
+   "way/350331479"
+  ],
+  "at": [
+   20485319,
+   6671079
+  ]
+ },
+ {
+  "name": "Sonrödavägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 1339,
+  "gapM": 1239,
+  "redM": 1080,
+  "noRedM": 159,
+  "unreadM": 0,
+  "ways": [
+   "way/38810657",
+   "way/71083924"
+  ],
+  "at": [
+   20506827,
+   6684578
+  ]
+ },
+ {
+  "name": "Lemlandsvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 13123,
+  "gapM": 1685,
+  "redM": 1076,
+  "noRedM": 609,
+  "unreadM": 0,
+  "ways": [
+   "way/146899081",
+   "way/34717769",
+   "way/376582772",
+   "way/376582774",
+   "way/45478307"
+  ],
+  "at": [
+   20501778,
+   6662000
+  ]
+ },
+ {
+  "name": "Seglingevägen",
+  "sheet": "101409",
+  "firstEdition": "nls:101409:1970",
+  "totalM": 1501,
+  "gapM": 1501,
+  "redM": 1069,
+  "noRedM": 432,
+  "unreadM": 0,
+  "ways": [
+   "way/38809547"
+  ],
+  "at": [
+   20539348,
+   6678248
+  ]
+ },
+ {
+  "name": "Svartsmaravägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 1927,
+  "gapM": 1834,
+  "redM": 1026,
+  "noRedM": 808,
+  "unreadM": 0,
+  "ways": [
+   "way/1378639792",
+   "way/1378646635",
+   "way/1378646636",
+   "way/25220860",
+   "way/71082200"
+  ],
+  "at": [
+   20496197,
+   6683690
+  ]
+ },
+ {
+  "name": "Vårdövägen",
+  "sheet": "101403",
+  "firstEdition": "nls:101403:1970",
+  "totalM": 4140,
+  "gapM": 4043,
+  "redM": 968,
+  "noRedM": 3075,
+  "unreadM": 0,
+  "ways": [
+   "way/1017820697",
+   "way/1017820698",
+   "way/1017820699",
+   "way/166823192",
+   "way/25170380",
+   "way/291358584",
+   "way/615021048",
+   "way/615021076",
+   "way/615021077"
+  ],
+  "at": [
+   20515878,
+   6677066
+  ]
+ },
+ {
+  "name": "Klockargränd",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 1018,
+  "gapM": 951,
+  "redM": 943,
+  "noRedM": 8,
+  "unreadM": 0,
+  "ways": [
+   "way/1165936569",
+   "way/1423016201",
+   "way/143791594",
+   "way/963760099"
+  ],
+  "at": [
+   20496882,
+   6670535
+  ]
+ },
+ {
+  "name": "Lumpovägen",
+  "sheet": "101212",
+  "firstEdition": "nls:101212:1968",
+  "totalM": 943,
+  "gapM": 922,
+  "redM": 922,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/126362398"
+  ],
+  "at": [
+   20512866,
+   6670147
+  ]
+ },
+ {
+  "name": "Persbyvägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 918,
+  "gapM": 918,
+  "redM": 918,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/84014439"
+  ],
+  "at": [
+   20510660,
+   6680997
+  ]
+ },
+ {
+  "name": "Narmovägen",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 1242,
+  "gapM": 1220,
+  "redM": 897,
+  "noRedM": 323,
+  "unreadM": 0,
+  "ways": [
+   "way/268161997"
+  ],
+  "at": [
+   20499559,
+   6669751
+  ]
+ },
+ {
+  "name": "Södra Söderbyvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 2257,
+  "gapM": 959,
+  "redM": 785,
+  "noRedM": 174,
+  "unreadM": 0,
+  "ways": [
+   "way/36745218"
+  ],
+  "at": [
+   20504814,
+   6661566
+  ]
+ },
+ {
+  "name": "Södersundavägen",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 871,
+  "gapM": 765,
+  "redM": 765,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/1183971791",
+   "way/1422779918"
+  ],
+  "at": [
+   20491815,
+   6669282
+  ]
+ },
+ {
+  "name": "Norrbyvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 1115,
+  "gapM": 1013,
+  "redM": 752,
+  "noRedM": 261,
+  "unreadM": 0,
+  "ways": [
+   "way/1167251029",
+   "way/1167251030",
+   "way/178706288",
+   "way/36744857"
+  ],
+  "at": [
+   20504722,
+   6662094
+  ]
+ },
+ {
+  "name": "Bovikvägen",
+  "sheet": "102101",
+  "firstEdition": "nls:102101:1968",
+  "totalM": 5954,
+  "gapM": 886,
+  "redM": 685,
+  "noRedM": 201,
+  "unreadM": 0,
+  "ways": [
+   "way/296587509"
+  ],
+  "at": [
+   20484668,
+   6679745
+  ]
+ },
+ {
+  "name": "Stickvägen",
+  "sheet": "101211",
+  "firstEdition": "nls:101211:1968",
+  "totalM": 948,
+  "gapM": 856,
+  "redM": 644,
+  "noRedM": 212,
+  "unreadM": 0,
+  "ways": [
+   "way/1183971780",
+   "way/1548092320",
+   "way/220072032"
+  ],
+  "at": [
+   20514631,
+   6666767
+  ]
+ },
+ {
+  "name": "Jomala Torpvägen",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 1778,
+  "gapM": 749,
+  "redM": 643,
+  "noRedM": 107,
+  "unreadM": 0,
+  "ways": [
+   "way/155327042"
+  ],
+  "at": [
+   20495379,
+   6669292
+  ]
+ },
+ {
+  "name": "Nya Godbyvägen",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 11287,
+  "gapM": 11074,
+  "redM": 611,
+  "noRedM": 10463,
+  "unreadM": 0,
+  "ways": [
+   "way/118461527",
+   "way/169282410",
+   "way/169282411",
+   "way/172865125",
+   "way/172865128",
+   "way/262968061",
+   "way/578528955",
+   "way/613969813",
+   "way/613969816",
+   "way/613969817",
+   "way/613969818",
+   "way/70759478",
+   "way/70759518",
+   "way/70759523",
+   "way/70759529",
+   "way/70984641",
+   "way/70984644",
+   "way/70984645",
+   "way/963760097",
+   "way/963760098",
+   "way/963760100",
+   "way/963760101"
+  ],
+  "at": [
+   20496438,
+   6669403
+  ]
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "102104",
+  "firstEdition": "nls:102104:1968",
+  "totalM": 631,
+  "gapM": 608,
+  "redM": 608,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/54052704"
+  ],
+  "at": [
+   20485238,
+   6681199
+  ]
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "104102",
+  "firstEdition": "nls:104102:1969",
+  "totalM": 1516,
+  "gapM": 1516,
+  "redM": 596,
+  "noRedM": 920,
+  "unreadM": 0,
+  "ways": [
+   "way/1355323682",
+   "way/1355323683",
+   "way/37711324"
+  ],
+  "at": [
+   20558756,
+   6694636
+  ]
+ },
+ {
+  "name": "Hammarlandsvägen",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 6640,
+  "gapM": 595,
+  "redM": 595,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/345142933"
+  ],
+  "at": [
+   20491140,
+   6668884
+  ]
+ },
+ {
+  "name": "Tosarbyvägen",
+  "sheet": "101212",
+  "firstEdition": "nls:101212:1968",
+  "totalM": 610,
+  "gapM": 560,
+  "redM": 560,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/122099799"
+  ],
+  "at": [
+   20505276,
+   6678800
+  ]
+ },
+ {
+  "name": "Överövägen",
+  "sheet": "101404",
+  "firstEdition": "nls:101404:1970",
+  "totalM": 575,
+  "gapM": 575,
+  "redM": 556,
+  "noRedM": 18,
+  "unreadM": 0,
+  "ways": [
+   "way/190475507"
+  ],
+  "at": [
+   20527972,
+   6659832
+  ]
+ },
+ {
+  "name": "Bovikvägen",
+  "sheet": "101203",
+  "firstEdition": "nls:101203:1968",
+  "totalM": 566,
+  "gapM": 542,
+  "redM": 542,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/296587509"
+  ],
+  "at": [
+   20484996,
+   6679195
+  ]
+ },
+ {
+  "name": "Sundsvägen",
+  "sheet": "101212",
+  "firstEdition": "nls:101212:1968",
+  "totalM": 10804,
+  "gapM": 2389,
+  "redM": 527,
+  "noRedM": 1862,
+  "unreadM": 0,
+  "ways": [
+   "way/162510529",
+   "way/613971993",
+   "way/613972003",
+   "way/613972006",
+   "way/614875755",
+   "way/615021055",
+   "way/615021056",
+   "way/615021057",
+   "way/615021062",
+   "way/615021065",
+   "way/615021066",
+   "way/615021068",
+   "way/615021069",
+   "way/70025078",
+   "way/71081797",
+   "way/976365157"
+  ],
+  "at": [
+   20508008,
+   6678771
+  ]
+ },
+ {
+  "name": "Järsövägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 3651,
+  "gapM": 3623,
+  "redM": 480,
+  "noRedM": 3143,
+  "unreadM": 0,
+  "ways": [
+   "way/1099634463",
+   "way/1099634464",
+   "way/158304932",
+   "way/161723325",
+   "way/161723327",
+   "way/161723330",
+   "way/161723333",
+   "way/161723336",
+   "way/161723338",
+   "way/161723339",
+   "way/65198706",
+   "way/932420776",
+   "way/932427453"
+  ],
+  "at": [
+   20497391,
+   6662258
+  ]
+ },
+ {
+  "name": "Flygfältsvägen",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 1932,
+  "gapM": 1872,
+  "redM": 476,
+  "noRedM": 1395,
+  "unreadM": 0,
+  "ways": [
+   "way/1469991359",
+   "way/165401317",
+   "way/165401319",
+   "way/183926070",
+   "way/35073114",
+   "way/35073118",
+   "way/35073264",
+   "way/35073266",
+   "way/43519997",
+   "way/620207171",
+   "way/620207172",
+   "way/620207174",
+   "way/620208404",
+   "way/620208405",
+   "way/932410601"
+  ],
+  "at": [
+   20494958,
+   6667959
+  ]
+ },
+ {
+  "name": "Bovikvägen",
+  "sheet": "102104",
+  "firstEdition": "nls:102104:1968",
+  "totalM": 495,
+  "gapM": 434,
+  "redM": 434,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/1067038810"
+  ],
+  "at": [
+   20485639,
+   6682584
+  ]
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "101312",
+  "firstEdition": "nls:101312:1971",
+  "totalM": 1104,
+  "gapM": 1000,
+  "redM": 384,
+  "noRedM": 617,
+  "unreadM": 0,
+  "ways": [
+   "way/1179913718",
+   "way/1475038322",
+   "way/672386484",
+   "way/745671649"
+  ],
+  "at": [
+   20552805,
+   6648787
+  ]
+ },
+ {
+  "name": "Björbyvagen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 2271,
+  "gapM": 330,
+  "redM": 330,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/70574479"
+  ],
+  "at": [
+   20507019,
+   6682941
+  ]
+ },
+ {
+  "name": "Emkarbyvägen",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 8707,
+  "gapM": 2651,
+  "redM": 305,
+  "noRedM": 2345,
+  "unreadM": 0,
+  "ways": [
+   "way/1086414536",
+   "way/1086414537",
+   "way/1086414538",
+   "way/1086414539",
+   "way/1378646633",
+   "way/296587501",
+   "way/296587502",
+   "way/296587513",
+   "way/37044759"
+  ],
+  "at": [
+   20489660,
+   6675772
+  ]
+ },
+ {
+  "name": "Hagavägen",
+  "sheet": "102108",
+  "firstEdition": "nls:102108:1968",
+  "totalM": 338,
+  "gapM": 297,
+  "redM": 297,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/65617749",
+   "way/71082818"
+  ],
+  "at": [
+   20500589,
+   6689642
+  ]
+ },
+ {
+  "name": "Saltviksvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 7740,
+  "gapM": 973,
+  "redM": 295,
+  "noRedM": 678,
+  "unreadM": 0,
+  "ways": [
+   "way/1299952940",
+   "way/290978435",
+   "way/71082814"
+  ],
+  "at": [
+   20499291,
+   6689407
+  ]
+ },
+ {
+  "name": "Norra Svibyvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 308,
+  "gapM": 288,
+  "redM": 288,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/1074525463",
+   "way/715061838"
+  ],
+  "at": [
+   20495479,
+   6669351
+  ]
+ },
+ {
+  "name": "Eliasvägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 336,
+  "gapM": 284,
+  "redM": 284,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/355197649"
+  ],
+  "at": [
+   20507243,
+   6682757
+  ]
+ },
+ {
+  "name": "Norra Torpvägen",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 304,
+  "gapM": 257,
+  "redM": 257,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/536065739"
+  ],
+  "at": [
+   20494217,
+   6669078
+  ]
+ },
+ {
+  "name": "Enklingevägen",
+  "sheet": "102307",
+  "firstEdition": "nls:102307:1971",
+  "totalM": 343,
+  "gapM": 343,
+  "redM": 253,
+  "noRedM": 90,
+  "unreadM": 0,
+  "ways": [
+   "way/190689563"
+  ],
+  "at": [
+   20541500,
+   6690053
+  ]
+ },
+ {
+  "name": "Flakavägen",
+  "sheet": "101211",
+  "firstEdition": "nls:101211:1968",
+  "totalM": 527,
+  "gapM": 496,
+  "redM": 238,
+  "noRedM": 258,
+  "unreadM": 0,
+  "ways": [
+   "way/121989699",
+   "way/121989700"
+  ],
+  "at": [
+   20505524,
+   6661321
+  ]
+ },
+ {
+  "name": "Ödkarbyvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 271,
+  "gapM": 242,
+  "redM": 201,
+  "noRedM": 41,
+  "unreadM": 0,
+  "ways": [
+   "way/54052710"
+  ],
+  "at": [
+   20498888,
+   6688549
+  ]
+ },
+ {
+  "name": "Tosarbyvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 313,
+  "gapM": 197,
+  "redM": 197,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/122099799",
+   "way/362492476",
+   "way/38922209"
+  ],
+  "at": [
+   20505028,
+   6679702
+  ]
+ },
+ {
+  "name": "Björsby Bygata",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 616,
+  "gapM": 564,
+  "redM": 192,
+  "noRedM": 372,
+  "unreadM": 0,
+  "ways": [
+   "way/1312758320",
+   "way/172801461"
+  ],
+  "at": [
+   20497885,
+   6674707
+  ]
+ },
+ {
+  "name": "Björkövägen",
+  "sheet": "102310",
+  "firstEdition": "nls:102310:1971",
+  "totalM": 4146,
+  "gapM": 4146,
+  "redM": 186,
+  "noRedM": 3960,
+  "unreadM": 0,
+  "ways": [
+   "way/1083438816",
+   "way/1183386568",
+   "way/1183386569",
+   "way/1183386570",
+   "way/156680279",
+   "way/156683142",
+   "way/229466186",
+   "way/229466187",
+   "way/229715966"
+  ],
+  "at": [
+   20554771,
+   6689683
+  ]
+ },
+ {
+  "name": "Tjudövägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 224,
+  "gapM": 177,
+  "redM": 177,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/67356921"
+  ],
+  "at": [
+   20496754,
+   6689219
+  ]
+ },
+ {
+  "name": "Godbyvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 3130,
+  "gapM": 151,
+  "redM": 151,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/1033525982",
+   "way/107295226",
+   "way/43378002",
+   "way/43448260"
+  ],
+  "at": [
+   20496704,
+   6666867
+  ]
+ },
+ {
+  "name": "Kuggviksvägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 1403,
+  "gapM": 1379,
+  "redM": 149,
+  "noRedM": 1229,
+  "unreadM": 0,
+  "ways": [
+   "way/481230496"
+  ],
+  "at": [
+   20508885,
+   6688531
+  ]
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "102101",
+  "firstEdition": "nls:102101:1968",
+  "totalM": 614,
+  "gapM": 398,
+  "redM": 147,
+  "noRedM": 251,
+  "unreadM": 0,
+  "ways": [
+   "way/54052704"
+  ],
+  "at": [
+   20485044,
+   6681204
+  ]
+ },
+ {
+  "name": "Bergövägen",
+  "sheet": "102104",
+  "firstEdition": "nls:102104:1968",
+  "totalM": 9971,
+  "gapM": 4075,
+  "redM": 138,
+  "noRedM": 3937,
+  "unreadM": 0,
+  "ways": [
+   "way/41845140",
+   "way/41845141",
+   "way/41845142"
+  ],
+  "at": [
+   20490492,
+   6684097
+  ]
+ },
+ {
+  "name": "Valborgsvägen",
+  "sheet": "101211",
+  "firstEdition": "nls:101211:1968",
+  "totalM": 170,
+  "gapM": 170,
+  "redM": 114,
+  "noRedM": 57,
+  "unreadM": 0,
+  "ways": [
+   "way/36745164"
+  ],
+  "at": [
+   20505605,
+   6661716
+  ]
+ },
+ {
+  "name": "Emkarbyvägen",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 2394,
+  "gapM": 1146,
+  "redM": 107,
+  "noRedM": 1039,
+  "unreadM": 0,
+  "ways": [
+   "way/1086414540",
+   "way/296587502"
+  ],
+  "at": [
+   20495471,
+   6676790
+  ]
+ },
+ {
+  "name": "Nya Godbyvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 3039,
+  "gapM": 3039,
+  "redM": 106,
+  "noRedM": 2933,
+  "unreadM": 0,
+  "ways": [
+   "way/158304933",
+   "way/158304937",
+   "way/161453836",
+   "way/175130453",
+   "way/35304990",
+   "way/40102862",
+   "way/40103274",
+   "way/40103275",
+   "way/40103319",
+   "way/40103437",
+   "way/40103454",
+   "way/44108119",
+   "way/49360041",
+   "way/49360674",
+   "way/515072596",
+   "way/626556101",
+   "way/626556102",
+   "way/626556103",
+   "way/626556104",
+   "way/645414161",
+   "way/645414162",
+   "way/645414164",
+   "way/645414165",
+   "way/676049873",
+   "way/70750970",
+   "way/70750975",
+   "way/70750977",
+   "way/70750978",
+   "way/70750983",
+   "way/70759478"
+  ],
+  "at": [
+   20496388,
+   6668759
+  ]
+ },
+ {
+  "name": "Gunnarsbyvägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 1188,
+  "gapM": 1155,
+  "redM": 105,
+  "noRedM": 1050,
+  "unreadM": 0,
+  "ways": [
+   "way/1229055976",
+   "way/1229055977",
+   "way/84014598"
+  ],
+  "at": [
+   20509902,
+   6680086
+  ]
+ },
+ {
+  "name": "Brändövägen",
+  "sheet": "104102",
+  "firstEdition": "nls:104102:1969",
+  "totalM": 8321,
+  "gapM": 8264,
+  "redM": 95,
+  "noRedM": 8169,
+  "unreadM": 0,
+  "ways": [
+   "way/1026964987",
+   "way/1420100307",
+   "way/165893551",
+   "way/172998015",
+   "way/172998016",
+   "way/324799396",
+   "way/324799397",
+   "way/324801516",
+   "way/324801517",
+   "way/446395017",
+   "way/54057242",
+   "way/54057243",
+   "way/54057245",
+   "way/54057246",
+   "way/615024783"
+  ],
+  "at": [
+   20558744,
+   6694654
+  ]
+ },
+ {
+  "name": "Hultvägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 3192,
+  "gapM": 259,
+  "redM": 95,
+  "noRedM": 164,
+  "unreadM": 0,
+  "ways": [
+   "way/1479619533"
+  ],
+  "at": [
+   20511988,
+   6682368
+  ]
+ },
+ {
+  "name": "Södersundavägen",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 5027,
+  "gapM": 518,
+  "redM": 93,
+  "noRedM": 425,
+  "unreadM": 0,
+  "ways": [
+   "way/1422779919",
+   "way/1422779920",
+   "way/86548779"
+  ],
+  "at": [
+   20493428,
+   6671713
+  ]
+ },
+ {
+  "name": "Rökerirondellen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 326,
+  "gapM": 209,
+  "redM": 90,
+  "noRedM": 119,
+  "unreadM": 0,
+  "ways": [
+   "way/160422223",
+   "way/161453835",
+   "way/23103970",
+   "way/40096482",
+   "way/40096521",
+   "way/40096577",
+   "way/40096578",
+   "way/44108100",
+   "way/44108116",
+   "way/626556105"
+  ],
+  "at": [
+   20496701,
+   6666865
+  ]
+ },
+ {
+  "name": "Jomala Torpvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 84,
+  "gapM": 84,
+  "redM": 84,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/155327042"
+  ],
+  "at": [
+   20495445,
+   6669250
+  ]
+ },
+ {
+  "name": "Eckerövägen",
+  "sheet": "101203",
+  "firstEdition": "nls:101203:1968",
+  "totalM": 7051,
+  "gapM": 1026,
+  "redM": 77,
+  "noRedM": 949,
+  "unreadM": 0,
+  "ways": [
+   "way/347944788",
+   "way/347944791"
+  ],
+  "at": [
+   20479638,
+   6677989
+  ]
+ },
+ {
+  "name": "Hammarlandsvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 716,
+  "gapM": 77,
+  "redM": 77,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/34667559",
+   "way/40095250"
+  ],
+  "at": [
+   20496042,
+   6666760
+  ]
+ },
+ {
+  "name": "Österleden",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 2035,
+  "gapM": 2002,
+  "redM": 76,
+  "noRedM": 1926,
+  "unreadM": 0,
+  "ways": [
+   "way/1033525983",
+   "way/1298976676",
+   "way/172854787",
+   "way/172854792",
+   "way/172865148",
+   "way/174570473",
+   "way/174570474",
+   "way/23103244",
+   "way/43377918",
+   "way/43448262",
+   "way/52888882",
+   "way/61319837",
+   "way/86552381"
+  ],
+  "at": [
+   20496792,
+   6666598
+  ]
+ },
+ {
+  "name": "Lumpouddvägen",
+  "sheet": "101212",
+  "firstEdition": "nls:101212:1968",
+  "totalM": 2997,
+  "gapM": 2946,
+  "redM": 74,
+  "noRedM": 2872,
+  "unreadM": 0,
+  "ways": [
+   "way/126362395"
+  ],
+  "at": [
+   20513352,
+   6669661
+  ]
+ },
+ {
+  "name": "Eckerövägen",
+  "sheet": "102101",
+  "firstEdition": "nls:102101:1968",
+  "totalM": 1823,
+  "gapM": 497,
+  "redM": 71,
+  "noRedM": 426,
+  "unreadM": 0,
+  "ways": [
+   "way/174572355",
+   "way/347944775",
+   "way/347944788"
+  ],
+  "at": [
+   20476106,
+   6679106
+  ]
+ },
+ {
+  "name": "Michaelsvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 194,
+  "gapM": 168,
+  "redM": 66,
+  "noRedM": 102,
+  "unreadM": 0,
+  "ways": [
+   "way/161723474",
+   "way/161723475",
+   "way/35073283"
+  ],
+  "at": [
+   20496527,
+   6668767
+  ]
+ },
+ {
+  "name": "Norra Torpvägen",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 2373,
+  "gapM": 169,
+  "redM": 65,
+  "noRedM": 104,
+  "unreadM": 0,
+  "ways": [
+   "way/536065739"
+  ],
+  "at": [
+   20492730,
+   6670710
+  ]
+ },
+ {
+  "name": "Ödanbölevägen",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 489,
+  "gapM": 435,
+  "redM": 63,
+  "noRedM": 372,
+  "unreadM": 0,
+  "ways": [
+   "way/155327037"
+  ],
+  "at": [
+   20491390,
+   6669273
+  ]
+ },
+ {
+  "name": "Getavägen",
+  "sheet": "102105",
+  "firstEdition": "nls:102105:1968",
+  "totalM": 3961,
+  "gapM": 409,
+  "redM": 61,
+  "noRedM": 348,
+  "unreadM": 0,
+  "ways": [
+   "way/614154522",
+   "way/636525834"
+  ],
+  "at": [
+   20493914,
+   6695821
+  ]
+ },
+ {
+  "name": "Västra rondellen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 182,
+  "gapM": 64,
+  "redM": 58,
+  "noRedM": 6,
+  "unreadM": 0,
+  "ways": [
+   "way/345139186",
+   "way/345139188",
+   "way/44108099",
+   "way/44108108"
+  ],
+  "at": [
+   20496049,
+   6666702
+  ]
+ },
+ {
+  "name": "Västerviksvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 659,
+  "gapM": 619,
+  "redM": 52,
+  "noRedM": 567,
+  "unreadM": 0,
+  "ways": [
+   "way/162510523"
+  ],
+  "at": [
+   20501601,
+   6681753
+  ]
+ },
+ {
+  "name": "Björkövägen",
+  "sheet": "102311",
+  "firstEdition": "nls:102311:1971",
+  "totalM": 2108,
+  "gapM": 2108,
+  "redM": 47,
+  "noRedM": 2061,
+  "unreadM": 0,
+  "ways": [
+   "way/156683142"
+  ],
+  "at": [
+   20551308,
+   6690417
+  ]
+ },
+ {
+  "name": "Ringsbölevägen",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 671,
+  "gapM": 391,
+  "redM": 47,
+  "noRedM": 345,
+  "unreadM": 0,
+  "ways": [
+   "way/557084450"
+  ],
+  "at": [
+   20495225,
+   6675771
+  ]
+ },
+ {
+  "name": "Järsövägen",
+  "sheet": "101207",
+  "firstEdition": "nls:101207:1968",
+  "totalM": 3940,
+  "gapM": 3940,
+  "redM": 46,
+  "noRedM": 3894,
+  "unreadM": 0,
+  "ways": [
+   "way/215223017",
+   "way/215837601",
+   "way/377129770",
+   "way/626549153",
+   "way/65198706",
+   "way/932427446",
+   "way/932427451"
+  ],
+  "at": [
+   20499643,
+   6656692
+  ]
+ },
+ {
+  "name": "Sundsvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 7746,
+  "gapM": 1853,
+  "redM": 45,
+  "noRedM": 1807,
+  "unreadM": 0,
+  "ways": [
+   "way/1515386819",
+   "way/1515571173",
+   "way/218135157",
+   "way/291358570",
+   "way/38922203",
+   "way/613969824",
+   "way/613969825",
+   "way/71081799"
+  ],
+  "at": [
+   20504047,
+   6680862
+  ]
+ },
+ {
+  "name": "Slottsvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 1768,
+  "gapM": 292,
+  "redM": 36,
+  "noRedM": 256,
+  "unreadM": 0,
+  "ways": [
+   "way/38922208"
+  ],
+  "at": [
+   20504723,
+   6679779
+  ]
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 90,
+  "gapM": 34,
+  "redM": 34,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/34561605"
+  ],
+  "at": [
+   20494426,
+   6666009
+  ]
+ },
+ {
+  "name": "Sandmovägen",
+  "sheet": "101203",
+  "firstEdition": "nls:101203:1968",
+  "totalM": 61,
+  "gapM": 43,
+  "redM": 22,
+  "noRedM": 22,
+  "unreadM": 0,
+  "ways": [
+   "way/25208110"
+  ],
+  "at": [
+   20475240,
+   6679005
+  ]
+ },
+ {
+  "name": "Långbergsödavägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 4440,
+  "gapM": 191,
+  "redM": 22,
+  "noRedM": 170,
+  "unreadM": 0,
+  "ways": [
+   "way/38810658"
+  ],
+  "at": [
+   20505642,
+   6685266
+  ]
+ },
+ {
+  "name": "Västra Utfarten",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 1653,
+  "gapM": 21,
+  "redM": 21,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/43378155",
+   "way/56131935"
+  ],
+  "at": [
+   20496048,
+   6666699
+  ]
+ },
+ {
+  "name": "Södersundavägen",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 1832,
+  "gapM": 504,
+  "redM": 21,
+  "noRedM": 483,
+  "unreadM": 0,
+  "ways": [
+   "way/1422779921",
+   "way/86548779",
+   "way/963752543"
+  ],
+  "at": [
+   20496309,
+   6671332
+  ]
+ },
+ {
+  "name": "Narmovägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 733,
+  "gapM": 712,
+  "redM": 21,
+  "noRedM": 691,
+  "unreadM": 0,
+  "ways": [
+   "way/268161997"
+  ],
+  "at": [
+   20499289,
+   6668791
+  ]
+ },
+ {
+  "name": "Sjukhusvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 689,
+  "gapM": 19,
+  "redM": 19,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/40385841"
+  ],
+  "at": [
+   20496609,
+   6666836
+  ]
+ },
+ {
+  "name": "Bagargatan",
+  "sheet": "102101",
+  "firstEdition": "nls:102101:1968",
+  "totalM": 186,
+  "gapM": 136,
+  "redM": 15,
+  "noRedM": 122,
+  "unreadM": 0,
+  "ways": [
+   "way/174570465",
+   "way/174570466",
+   "way/174570467"
+  ],
+  "at": [
+   20475313,
+   6679070
+  ]
+ },
+ {
+  "name": "Bocknäsvägen",
+  "sheet": "101210",
+  "firstEdition": "nls:101210:1968",
+  "totalM": 2322,
+  "gapM": 2282,
+  "redM": 15,
+  "noRedM": 2266,
+  "unreadM": 0,
+  "ways": [
+   "way/188593106"
+  ],
+  "at": [
+   20509002,
+   6655881
+  ]
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "104103",
+  "firstEdition": "nls:104103:1968",
+  "totalM": 15,
+  "gapM": 15,
+  "redM": 15,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/1307734043"
+  ],
+  "at": [
+   20559229,
+   6708239
+  ]
+ },
+ {
+  "name": "Haraldsbyvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 1451,
+  "gapM": 122,
+  "redM": 13,
+  "noRedM": 109,
+  "unreadM": 0,
+  "ways": [
+   "way/23103515"
+  ],
+  "at": [
+   20501742,
+   6681602
+  ]
+ },
+ {
+  "name": "Pålsbölevägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 4860,
+  "gapM": 259,
+  "redM": 13,
+  "noRedM": 245,
+  "unreadM": 0,
+  "ways": [
+   "way/33104282"
+  ],
+  "at": [
+   20496954,
+   6684699
+  ]
+ },
+ {
+  "name": "Solbergsrondellen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 93,
+  "gapM": 13,
+  "redM": 13,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/376582778"
+  ],
+  "at": [
+   20498906,
+   6666607
+  ]
+ },
+ {
+  "name": "Norra Sundsvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 1073,
+  "gapM": 123,
+  "redM": 12,
+  "noRedM": 111,
+  "unreadM": 0,
+  "ways": [
+   "way/122099805"
+  ],
+  "at": [
+   20504623,
+   6680627
+  ]
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "101401",
+  "firstEdition": "nls:101401:1970",
+  "totalM": 12,
+  "gapM": 12,
+  "redM": 12,
+  "noRedM": 0,
+  "unreadM": 0,
+  "ways": [
+   "way/958526440"
+  ],
+  "at": [
+   20521507,
+   6657682
+  ]
+ },
+ {
+  "name": "Valborgsvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 282,
+  "gapM": 260,
+  "redM": 9,
+  "noRedM": 251,
+  "unreadM": 0,
+  "ways": [
+   "way/36745164"
+  ],
+  "at": [
+   20505306,
+   6661719
+  ]
+ },
+ {
+  "name": "Solbergsvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 786,
+  "gapM": 786,
+  "redM": 5,
+  "noRedM": 781,
+  "unreadM": 0,
+  "ways": [
+   "way/1153723634",
+   "way/1153723635",
+   "way/376577222",
+   "way/376582766",
+   "way/376582777"
+  ],
+  "at": [
+   20498900,
+   6666609
+  ]
+ },
+ {
+  "name": "Norra Sundsvägen",
+  "sheet": "102110",
+  "firstEdition": "nls:102110:1968",
+  "totalM": 9236,
+  "gapM": 276,
+  "redM": 0,
+  "noRedM": 276,
+  "unreadM": 0,
+  "ways": [
+   "way/976365156"
+  ],
+  "at": null
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "101409",
+  "firstEdition": "nls:101409:1970",
+  "totalM": 59,
+  "gapM": 27,
+  "redM": 0,
+  "noRedM": 27,
+  "unreadM": 0,
+  "ways": [
+   "way/23103978"
+  ],
+  "at": null
+ },
+ {
+  "name": "Havsgatan",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 600,
+  "gapM": 156,
+  "redM": 0,
+  "noRedM": 156,
+  "unreadM": 0,
+  "ways": [
+   "way/158304935",
+   "way/216534708",
+   "way/25215821",
+   "way/398624237",
+   "way/685473991"
+  ],
+  "at": null
+ },
+ {
+  "name": "Getavägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 10826,
+  "gapM": 250,
+  "redM": 0,
+  "noRedM": 250,
+  "unreadM": 0,
+  "ways": [
+   "way/1069660487",
+   "way/1193284943",
+   "way/1193284947",
+   "way/1193284948",
+   "way/172865113",
+   "way/172865114",
+   "way/35165998",
+   "way/613969823",
+   "way/860667768",
+   "way/860667934"
+  ],
+  "at": null
+ },
+ {
+  "name": "Nygatan",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 546,
+  "gapM": 93,
+  "redM": 0,
+  "noRedM": 93,
+  "unreadM": 0,
+  "ways": [
+   "way/44108125"
+  ],
+  "at": null
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "102312",
+  "firstEdition": "nls:102312:1971",
+  "totalM": 1014,
+  "gapM": 1014,
+  "redM": 0,
+  "noRedM": 1014,
+  "unreadM": 0,
+  "ways": [
+   "way/37532644"
+  ],
+  "at": null
+ },
+ {
+  "name": "Långbergsödavägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 1801,
+  "gapM": 46,
+  "redM": 0,
+  "noRedM": 46,
+  "unreadM": 0,
+  "ways": [
+   "way/38810658"
+  ],
+  "at": null
+ },
+ {
+  "name": "Bolstavägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 588,
+  "gapM": 545,
+  "redM": 0,
+  "noRedM": 545,
+  "unreadM": 0,
+  "ways": [
+   "way/1298822075",
+   "way/158304934",
+   "way/165358615",
+   "way/165358616",
+   "way/244377190",
+   "way/40103316",
+   "way/44108112"
+  ],
+  "at": null
+ },
+ {
+  "name": "Möckelövägen",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 3689,
+  "gapM": 249,
+  "redM": 0,
+  "noRedM": 249,
+  "unreadM": 0,
+  "ways": [
+   "way/1105056493",
+   "way/1332867119",
+   "way/43519999"
+  ],
+  "at": null
+ },
+ {
+  "name": "Skarpnåtövägen",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 2290,
+  "gapM": 134,
+  "redM": 0,
+  "noRedM": 134,
+  "unreadM": 0,
+  "ways": [
+   "way/54052700"
+  ],
+  "at": null
+ },
+ {
+  "name": "Vestmyravägen",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 2282,
+  "gapM": 71,
+  "redM": 0,
+  "noRedM": 71,
+  "unreadM": 0,
+  "ways": [
+   "way/59428578"
+  ],
+  "at": null
+ },
+ {
+  "name": "Kvarnbovägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 3867,
+  "gapM": 469,
+  "redM": 0,
+  "noRedM": 469,
+  "unreadM": 0,
+  "ways": [
+   "way/136991119",
+   "way/613971494",
+   "way/976365151"
+  ],
+  "at": null
+ },
+ {
+  "name": "Gamla Sundsvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 236,
+  "gapM": 15,
+  "redM": 0,
+  "noRedM": 15,
+  "unreadM": 0,
+  "ways": [
+   "way/70573537"
+  ],
+  "at": null
+ },
+ {
+  "name": "Österövägen",
+  "sheet": "102302",
+  "firstEdition": "nls:102302:1971",
+  "totalM": 3013,
+  "gapM": 2988,
+  "redM": 0,
+  "noRedM": 2988,
+  "unreadM": 0,
+  "ways": [
+   "way/70582217",
+   "way/70582241",
+   "way/70582242"
+  ],
+  "at": null
+ },
+ {
+  "name": "Väg eller stig",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 88,
+  "gapM": 88,
+  "redM": 0,
+  "noRedM": 88,
+  "unreadM": 0,
+  "ways": [
+   "way/626556096",
+   "way/626556097",
+   "way/626556098",
+   "way/626556099",
+   "way/626556100",
+   "way/70750980"
+  ],
+  "at": null
+ },
+ {
+  "name": "Nya Godbyvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 319,
+  "gapM": 319,
+  "redM": 0,
+  "noRedM": 319,
+  "unreadM": 0,
+  "ways": [
+   "way/613969811",
+   "way/613969818",
+   "way/70984642",
+   "way/860667468"
+  ],
+  "at": null
+ },
+ {
+  "name": "Svartsmaravägen",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 1646,
+  "gapM": 601,
+  "redM": 0,
+  "noRedM": 601,
+  "unreadM": 0,
+  "ways": [
+   "way/71082200"
+  ],
+  "at": null
+ },
+ {
+  "name": "Torpvägen",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 9656,
+  "gapM": 85,
+  "redM": 0,
+  "noRedM": 85,
+  "unreadM": 0,
+  "ways": [
+   "way/86548856"
+  ],
+  "at": null
+ },
+ {
+  "name": "Norra Söderbyvägen",
+  "sheet": "101208",
+  "firstEdition": "nls:101208:1968",
+  "totalM": 1850,
+  "gapM": 125,
+  "redM": 0,
+  "noRedM": 125,
+  "unreadM": 0,
+  "ways": [
+   "way/611965363",
+   "way/86553205"
+  ],
+  "at": null
+ },
+ {
+  "name": "Kyrkvägen",
+  "sheet": "101211",
+  "firstEdition": "nls:101211:1968",
+  "totalM": 237,
+  "gapM": 215,
+  "redM": 0,
+  "noRedM": 215,
+  "unreadM": 0,
+  "ways": [
+   "way/126366076"
+  ],
+  "at": null
+ },
+ {
+  "name": "Fiskövägen",
+  "sheet": "104103",
+  "firstEdition": "nls:104103:1968",
+  "totalM": 3003,
+  "gapM": 2952,
+  "redM": 0,
+  "noRedM": 2952,
+  "unreadM": 0,
+  "ways": [
+   "way/165893537",
+   "way/165893538",
+   "way/165893539",
+   "way/165893540",
+   "way/165893541",
+   "way/165893542",
+   "way/165893544",
+   "way/165893545",
+   "way/165893546",
+   "way/165893548",
+   "way/165893550"
+  ],
+  "at": null
+ },
+ {
+  "name": "Norra Svibyvägen",
+  "sheet": "101205",
+  "firstEdition": "nls:101205:1978",
+  "totalM": 1546,
+  "gapM": 71,
+  "redM": 0,
+  "noRedM": 71,
+  "unreadM": 0,
+  "ways": [
+   "way/166080084"
+  ],
+  "at": null
+ },
+ {
+  "name": "Vårdövägen",
+  "sheet": "102301",
+  "firstEdition": "nls:102301:1971",
+  "totalM": 3584,
+  "gapM": 254,
+  "redM": 0,
+  "noRedM": 254,
+  "unreadM": 0,
+  "ways": [
+   "way/296585218"
+  ],
+  "at": null
+ },
+ {
+  "name": "Tingebergsväg",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 139,
+  "gapM": 110,
+  "redM": 0,
+  "noRedM": 110,
+  "unreadM": 0,
+  "ways": [
+   "way/173634197"
+  ],
+  "at": null
+ },
+ {
+  "name": "Norrbygatan",
+  "sheet": "101206",
+  "firstEdition": "nls:101206:1968",
+  "totalM": 830,
+  "gapM": 340,
+  "redM": 0,
+  "noRedM": 340,
+  "unreadM": 0,
+  "ways": [
+   "way/296445822"
+  ],
+  "at": null
+ },
+ {
+  "name": "Västeränganäsvägen",
+  "sheet": "101210",
+  "firstEdition": "nls:101210:1968",
+  "totalM": 2597,
+  "gapM": 2580,
+  "redM": 0,
+  "noRedM": 2580,
+  "unreadM": 0,
+  "ways": [
+   "way/350314266"
+  ],
+  "at": null
+ },
+ {
+  "name": "Östra Ytterbyvägen",
+  "sheet": "101209",
+  "firstEdition": "nls:101209:1968",
+  "totalM": 374,
+  "gapM": 349,
+  "redM": 0,
+  "noRedM": 349,
+  "unreadM": 0,
+  "ways": [
+   "way/350318096"
+  ],
+  "at": null
+ },
+ {
+  "name": "Sandövägen",
+  "sheet": "102302",
+  "firstEdition": "nls:102302:1971",
+  "totalM": 320,
+  "gapM": 320,
+  "redM": 0,
+  "noRedM": 320,
+  "unreadM": 0,
+  "ways": [
+   "way/355204404"
+  ],
+  "at": null
+ },
+ {
+  "name": "Svensbölevägen",
+  "sheet": "101212",
+  "firstEdition": "nls:101212:1968",
+  "totalM": 1240,
+  "gapM": 3,
+  "redM": 0,
+  "noRedM": 3,
+  "unreadM": 0,
+  "ways": [
+   "way/615021064"
+  ],
+  "at": null
+ },
+ {
+  "name": "Skinnarskärsbron",
+  "sheet": "104102",
+  "firstEdition": "nls:104102:1969",
+  "totalM": 188,
+  "gapM": 188,
+  "redM": 0,
+  "noRedM": 188,
+  "unreadM": 0,
+  "ways": [
+   "way/446395018"
+  ],
+  "at": null
+ },
+ {
+  "name": "Kuggviksvägen",
+  "sheet": "102111",
+  "firstEdition": "nls:102111:1968",
+  "totalM": 920,
+  "gapM": 920,
+  "redM": 0,
+  "noRedM": 920,
+  "unreadM": 0,
+  "ways": [
+   "way/481230496"
+  ],
+  "at": null
+ },
+ {
+  "name": "Gesterbyvägen",
+  "sheet": "102107",
+  "firstEdition": "nls:102107:1968",
+  "totalM": 917,
+  "gapM": 47,
+  "redM": 0,
+  "noRedM": 47,
+  "unreadM": 0,
+  "ways": [
+   "way/614782728"
+  ],
+  "at": null
+ },
+ {
+  "name": "Industrivägen",
+  "sheet": "101203",
+  "firstEdition": "nls:101203:1968",
+  "totalM": 785,
+  "gapM": 728,
+  "redM": 0,
+  "noRedM": 728,
+  "unreadM": 0,
+  "ways": [
+   "way/636520886"
+  ],
+  "at": null
+ },
+ {
+  "name": "Bölevägen",
+  "sheet": "102101",
+  "firstEdition": "nls:102101:1968",
+  "totalM": 362,
+  "gapM": 297,
+  "redM": 0,
+  "noRedM": 297,
+  "unreadM": 0,
+  "ways": [
+   "way/638446676"
+  ],
+  "at": null
+ }
+]

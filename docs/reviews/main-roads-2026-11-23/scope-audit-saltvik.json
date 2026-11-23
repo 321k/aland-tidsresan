@@ -1,0 +1,47 @@
+{
+ "sources": {
+  "added": [
+   "review:main-roads-saltvik"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "geometries": {
+  "added": [
+   "geometry:main-roads-saltvik:finnovagen-100km4",
+   "geometry:main-roads-saltvik:finnovagen-100km4:1984",
+   "geometry:main-roads-saltvik:hamnsundsvagen-1-100km1",
+   "geometry:main-roads-saltvik:hamnsundsvagen-2-100km1",
+   "geometry:main-roads-saltvik:hamnsundsvagen-200km2",
+   "geometry:main-roads-saltvik:hamnsundsvagen-3-100km1",
+   "geometry:main-roads-saltvik:hamnsundsvagen-3-100km1:1978",
+   "geometry:main-roads-saltvik:skarpnatovagen-3",
+   "geometry:main-roads-saltvik:sodravagen-2-200km2",
+   "geometry:main-roads-saltvik:tjudovagen-100km1",
+   "geometry:main-roads-saltvik:tobolevagen-100km1"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:qgis:geta:finnovagen-100km4",
+   "road:qgis:geta:sodravagen-2-200km2",
+   "road:qgis:hamnsund:hamnsundsvagen-200km2",
+   "road:qgis:svartsmara:skarpnatovagen-3",
+   "road:qgis:tjudo:hamnsundsvagen-1-100km1",
+   "road:qgis:tjudo:hamnsundsvagen-2-100km1",
+   "road:qgis:tjudo:hamnsundsvagen-3-100km1",
+   "road:qgis:tjudo:tjudovagen-100km1",
+   "road:qgis:tjudo:tobolevagen-100km1"
+  ]
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "historical-roads.json": "unchanged"
+}
