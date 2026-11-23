@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "reviewedAt": "2026-11-23",
- "note": "The post stations (gästgiverier) of the postal road across Åland, in order from Storby to Vargata and Kumlinge. Before 1670 the boat to Vårdö left from Delvik, from 1670 from Bomarsund near Skarpans; 'from'/'to' give the years a station is on the route. Positions: the post and customs house at Storby (OSM building way 342899630), the OSM village points for Frebbenby, Emkarby, Haraldsby and Vargata, and the catalogue's Gamla Skarpans. The village point is not the station building, whose site is not known here. Survey: docs/reviews/postal-route-2026-11-23/README.md.",
+ "note": "The post stations (gästgiverier) of the postal road across Åland, in order from Storby to Vargata, Kumlinge and Brändö. Before 1670 the boat to Vårdö left from Delvik, from 1670 from Bomarsund near Skarpans; 'from'/'to' give the years a station is on the route. Positions: the post and customs house at Storby (OSM building way 342899630), the OSM village points for Frebbenby, Emkarby, Haraldsby and Vargata, and the catalogue's Gamla Skarpans. The village point is not the station building, whose site is not known here. Survey: docs/reviews/postal-route-2026-11-23/README.md.",
  "sources": [
   {
    "id": "aland-postvagen",
@@ -47,6 +47,21 @@
    "id": "registry-ku-4-5",
    "title": "Ålands kulturarvsregister · Ku 4.5 · Krokarna: grunder efter ett gästgiveri (krog)",
    "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Ku+4.5%27&outFields=%2A&returnGeometry=false&f=pjson"
+  },
+  {
+   "id": "wikipedia-gravstensgrundet",
+   "title": "Wikipedia (sv) · Gravstensgrundet: postbåten förliste här 1773 under en seglats längs postvägen mellan Kumlinge och Brändö",
+   "url": "https://sv.wikipedia.org/wiki/Gravstensgrundet"
+  },
+  {
+   "id": "registry-br-8-4",
+   "title": "Ålands kulturarvsregister · Br 8.4 · Gravstensgrundet, minnessten över löjtnant Taube 1773",
+   "url": "https://kartor.regeringen.ax/arcgis/rest/services/Kulturarv/Fornminnen/MapServer/1/query?where=FornID+%3D+%27Br+8.4%27&outFields=%2A&returnGeometry=false&f=pjson"
+  },
+  {
+   "id": "wikipedia-suuri-postitie",
+   "title": "Wikipedia (fi) · Suuri Postitie: över Lappvesi och Teili mellan Kumlinge och Brändö",
+   "url": "https://fi.wikipedia.org/wiki/Suuri_Postitie"
   }
  ],
  "stations": [
@@ -114,11 +129,18 @@
   {
    "id": "kumlinge",
    "name": "Kumlinge",
-   "lon": 20.779576,
-   "lat": 60.290142,
-   "position": "Krokarna: grunderna efter ett gästgiveri (krog) vid Norra postvägen (fornlämningsregistret Ku 4.5)",
-   "registryId": "Ku 4.5",
-   "identified": "Grunderna efter gästgiveriet i Krokarna, där Norra postvägen går mot Brändö. Registret kallar platsen gästgiveri (krog); att det var postens hållplats är en tolkning."
+   "lon": 20.7813,
+   "lat": 60.261574,
+   "position": "Kumlinge by, vid postvägen (Kumlingevägen) mitt i byn, där grundkartan 1971 ritar byn",
+   "note": "Gästgiveriets byggnad är inte identifierad. Grunderna efter ett gästgiveri (krog) i Krokarna (fornlämningsregistret Ku 4.5) ligger vid en sidoväg nordväst om postvägen, inte på den, och används därför inte som hållplats."
+  },
+  {
+   "id": "brando",
+   "name": "Brändö",
+   "lon": 21.043381,
+   "lat": 60.412351,
+   "position": "Brändö by, vid Brändövägen närmast byns läge (60°24′42″N 21°02′43″Ö, Wikipedia)",
+   "note": "Gästgiveriets byggnad är inte identifierad; stationen visas vid byn."
   }
  ],
  "legs": [
@@ -417,7 +439,211 @@
      60.252557
     ]
    ],
-   "note": "Från Vargata genom Vårdö by på Postrotevägen till Hullvik, med båt över Delet till Södra postvägen på Kumlinge och genom Kumlinge by längs Norra postvägen till gästgiveriet i Krokarna. Linjen över Delet följer vattnet närmaste vägen; den verkliga leden är inte känd."
+   "note": "Från Vargata genom Vårdö by på Postrotevägen till Hullvik, med båt över Delet till Södra postvägen på Kumlinge och vidare till Kumlinge by. Linjen över Delet följer vattnet närmaste vägen; den verkliga leden är inte känd."
+  },
+  {
+   "from": "kumlinge",
+   "to": "brando",
+   "by": "boat",
+   "years": [
+    1638,
+    1911
+   ],
+   "departure": [
+    20.803266,
+    60.287696
+   ],
+   "landing": [
+    21.037355,
+    60.408148
+   ],
+   "water": [
+    [
+     20.80327,
+     60.287697
+    ],
+    [
+     20.804722,
+     60.287921
+    ],
+    [
+     20.805348,
+     60.298688
+    ],
+    [
+     20.814868,
+     60.303298
+    ],
+    [
+     20.814885,
+     60.304016
+    ],
+    [
+     20.815984,
+     60.304548
+    ],
+    [
+     20.82358,
+     60.304501
+    ],
+    [
+     20.826515,
+     60.306098
+    ],
+    [
+     20.826714,
+     60.313996
+    ],
+    [
+     20.879873,
+     60.339505
+    ],
+    [
+     20.881321,
+     60.339495
+    ],
+    [
+     20.887559,
+     60.342505
+    ],
+    [
+     20.887965,
+     60.344118
+    ],
+    [
+     20.91183,
+     60.355625
+    ],
+    [
+     20.912278,
+     60.358674
+    ],
+    [
+     20.913767,
+     60.3601
+    ],
+    [
+     20.913828,
+     60.362254
+    ],
+    [
+     20.929996,
+     60.37004
+    ],
+    [
+     20.940506,
+     60.369966
+    ],
+    [
+     20.955949,
+     60.377396
+    ],
+    [
+     20.957762,
+     60.377383
+    ],
+    [
+     20.959233,
+     60.37809
+    ],
+    [
+     20.960677,
+     60.377901
+    ],
+    [
+     20.960462,
+     60.377364
+    ],
+    [
+     20.961559,
+     60.377661
+    ],
+    [
+     20.961612,
+     60.379456
+    ],
+    [
+     20.967865,
+     60.382462
+    ],
+    [
+     20.970771,
+     60.38262
+    ],
+    [
+     20.972611,
+     60.383505
+    ],
+    [
+     20.976236,
+     60.383478
+    ],
+    [
+     20.986535,
+     60.388249
+    ],
+    [
+     20.986595,
+     60.390223
+    ],
+    [
+     20.988782,
+     60.390566
+    ],
+    [
+     20.991369,
+     60.392162
+    ],
+    [
+     20.991462,
+     60.395214
+    ],
+    [
+     20.994039,
+     60.396451
+    ],
+    [
+     20.994067,
+     60.397348
+    ],
+    [
+     20.996276,
+     60.398409
+    ],
+    [
+     20.998161,
+     60.400729
+    ],
+    [
+     21.014363,
+     60.408325
+    ],
+    [
+     21.017327,
+     60.410277
+    ],
+    [
+     21.017372,
+     60.411713
+    ],
+    [
+     21.020331,
+     60.413486
+    ],
+    [
+     21.025412,
+     60.413447
+    ],
+    [
+     21.034336,
+     60.40871
+    ],
+    [
+     21.037349,
+     60.408148
+    ]
+   ],
+   "note": "Från Kumlinge by längs Norra postvägen till stranden vid Ramsholm och med båt förbi Gravstensgrundet, där postbåten förliste 1773, till Brändö by. Var båten lade ut och lade till är inte känt; linjen följer vattnet närmaste vägen."
   }
  ],
  "crossings": [

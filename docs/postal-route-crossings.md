@@ -158,15 +158,14 @@ sea marks "on the south side of the inlet to Hullvik", about 200 m south of the 
 |---|---|---|
 | Vargata → Hullvik | Vårdövägen, Vårdöbyvägen and Postrotevägen (OSM's name for the Holmsklint–Hullvik stretch) to the head of the bay | 1971 |
 | Hullvik → Kumlinge | boat over Delet, 20.4 km (`boat_path.py`) | — |
-| landing → Kumlinge | Södra postvägen, Kumlingevägen and Krokarnavägen | 1985 |
+| landing → Kumlinge by | Södra postvägen and Kumlingevägen | 1971 |
 
 - **The road to Hullvik** ends 78 m from the water.
 - **The landing on Kumlinge** is the south-west end of Södra postvägen, 21 m from the shore. No source names it. The
   street names "Södra postvägen" and "Norra postvägen" on Kumlinge are the evidence for the line across the island.
 - **Render:** `crossing-delet.png`.
 
-**The Kumlinge station** is the gästgiveri remains at Krokarna (Ku 4.5) on Norra postvägen; see below. The leg from
-Kumlinge on to Brändö stays schematic.
+**The Kumlinge station** is in Kumlinge by; see the next section.
 
 ## Stations on buildings, and the clickable route
 
@@ -176,7 +175,12 @@ Kumlinge on to Brändö stays schematic.
 |---|---|---|
 | Storby | `building:osm:way-342899630`, Eckerö Post- och Tullhus (1828) | the post and customs house at the start of the route |
 | Skarpans | `bom-gamla-skarpans`, Gamla Skarpans (site) | where the road ended at Skarpgården (Granlund). The post office moved to Nya Skarpans in 1842; this is not drawn |
-| Kumlinge | registry Ku 4.5, Krokarna | foundations of a gästgiveri (krog) on Norra postvägen. That it was the post's stop is an interpretation |
+
+**Correction.** The previous batch put the Kumlinge station at the gästgiveri remains at Krokarna (Ku 4.5). The 1971 map
+(`renders/kumlinge-n71.jpg`) shows that the postal road runs from Kumlinge by north and then east along Norra
+postvägen to the shore at Ramsholm. Krokarna lies on a side road to the north-west, so the station is in Kumlinge by
+instead, on Kumlingevägen where the 1971 map draws the village (`renders/kumlinge-by71.jpg`). The milestone's place is
+not known.
 
 The other stations stay at village points, each with a stated note:
 - **Frebbenby, Emkarby, Haraldsby:** no source identifies the gästgiveri building.
@@ -209,3 +213,38 @@ The other stations stay at village points, each with a stated note:
 - the Kumlinge leg;
 - clicking a leg, a sea line and a station;
 - the stations' objects and positions.
+
+
+## Kumlinge to Brändö (added 2026-11-23)
+
+**Sources:**
+- Swedish Wikipedia, [Gravstensgrundet](https://sv.wikipedia.org/wiki/Gravstensgrundet), and Ålands kulturarvsregister
+  Br 8.4: in November 1773 an open sailing boat with ten people was wrecked at Gravstensgrundet, "under a sailing along
+  the postal road between Kumlinge and Brändö". Lieutenant Taube and 7 others drowned.
+- The Finnish [Suuri Postitie](https://fi.wikipedia.org/wiki/Suuri_Postitie) names the waters crossed: Lappvesi and
+  Teili.
+- No source names the piers or a post station on Brändö.
+
+**The leg Kumlinge → Brändö** (1638–1911):
+
+| part | how | dated from |
+|---|---|---|
+| Kumlinge by → the shore at Ramsholm | Kumlingevägen and Norra postvägen, to its east end, 13 m from the water | 1971 |
+| the boat | 21.3 km past Gravstensgrundet (the line passes within 150 m of the registry point) | — |
+| the landing → Brändö by | Brändövägen | 1991 |
+
+- **The landing** is on Brändö's west shore, the shore point nearest Brändö by that lies within reach of a dated road.
+- **The Brändö station** is on Brändövägen nearest Wikipedia's coordinates for Brändö by. Kyrkväg, beside the old
+  stop, is a separate piece of road 283 m away and does not connect.
+- **Render:** `crossing-brando.png`.
+
+The crossing from Brändö over Skiftet to Vartsala stays schematic.
+
+## The route at every zoom
+
+`drawPostal` returned early in the Bomarsund fortress detail view, which turns on from 1832 at zoom 12 and above
+whenever the fortress is on screen. So the route vanished around Skarpans and Bomarsund. It is now drawn at every zoom.
+
+Tests (`tests/postal-route-click.test.cjs`):
+- the Brändö leg;
+- drawing with `fortressDetail` set.

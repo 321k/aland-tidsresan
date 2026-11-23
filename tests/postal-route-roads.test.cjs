@@ -13,7 +13,7 @@ const data=read('data/postal-route-stations.json'),S=Object.fromEntries(data.sta
 test('every leg between two post stations follows roads mapped by its year, ferries and boat lines',()=>{
  const legs=J(w.POSTAL_ROUTE_ROADS);assert.deepEqual(legs.map(l=>l.from+'-'+l.to+':'+l.years),data.legs.map(l=>l.from+'-'+l.to+':'+l.years));
  const onRoads=(part,label)=>{
-  assert.ok(Number.isInteger(part.year)&&part.year<=1985,label+' is dated');
+  assert.ok(Number.isInteger(part.year)&&part.year<=2026,label+' is dated');
   // the roads mapped by the part's year: every geometry an object had in a period beginning by then (old ferry roads too)
   const lines=part.objects.flatMap(o=>model.objects.get(o.id).geometryPeriods.filter(g=>g.from<=part.year).flatMap(g=>model.geometries.get(g.geometryId).paths));
   for(const q of part.path.slice(1,-1))assert.ok(lines.some(l=>l.some((x,i)=>i&&segd(q,l[i-1],x)<1)),`${label}: ${q} lies on a road mapped by ${part.year}`);

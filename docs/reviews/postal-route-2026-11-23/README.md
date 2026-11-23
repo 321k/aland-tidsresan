@@ -230,3 +230,10 @@ Files:
 - the renders `vardo71.jpg`, `vargata-post71.jpg` and `crossing-delet.png`;
 - `batch-postal-route-kumlinge.patch` with `patch-verification-kumlinge.log`;
 - `node-tests-kumlinge.log`.
+
+## Kumlinge to Brändö, the route at every zoom: done 2026-11-23
+
+See `docs/postal-route-crossings.md`. Files:
+- the renders `kumlinge-n71.jpg`, `kumlinge-by71.jpg` and `crossing-brando.png`;
+- `batch-postal-route-brando.patch` with `patch-verification-brando.log`;
+- `node-tests-brando.log`.
