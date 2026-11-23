@@ -24,8 +24,9 @@ Evidence: `docs/reviews/sviby-2026-11-23/renders/`, read on these maps:
 - **Norra Svibyvägen:** the north–south road is today's Norra Svibyvägen, over its whole length. The 1929 sheet labels
   it "Svibyväg". Sheet 1012 05 has no 1968 base map, so the object was dated only from 1978.
 - **Towards the town:** the 1929 and 1948 maps draw no direct road from the junction east to Svibyvägen; that road (the
-  airport road) is first on the 1968 map. In 1929 the road to the town ran north along Norra Svibyvägen, then south-east
-  along Kasbergsvägen, Kasbergsgatan and Svibyvägen. Kasbergsvägen follows the 1929 road except at Talläsen:
+  airport road) is first on the 1942 aerial photo (`docs/sviby-connections.md`). In 1929 the road to the town ran north
+  along Norra Svibyvägen, then south-east along Kasbergsvägen, Kasbergsgatan and Svibyvägen. Kasbergsvägen follows the
+  1929 road except at Talläsen:
   - On the 1929, 1948, 1968 and 1978 maps, the road there turns east and then south along the slope. This is a corner up
     to 63 m from today's diagonal.
   - The 1985 map draws the diagonal, so the object was dated from 1985.
@@ -71,8 +72,6 @@ Tests:
 
 ## Open items
 
-- **The junction at Kasberget:** Kasbergsvägen's object begins 90 m east of Norra Svibyvägen. The piece between them,
-  the start of way 1066273698 and Bäckvägen, is drawn in 1929 but is in no object. Way 1066273698 is partly owned by
-  Kasbergsvägen, so adding it needs a split.
-- **The airport road** from the junction east to Svibyvägen, first on the 1968 map, has no object.
+- **The junction at Kasberget:** done, see `docs/sviby-connections.md`.
+- **The road east to Svibyvägen:** done, see `docs/sviby-connections.md`. It is on the 1942 aerial photo.
 - **Into the town:** the town end of Svibyvägen. The 1929 streets of Mariehamn are dated by the town reviews.

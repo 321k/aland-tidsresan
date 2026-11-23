@@ -1,0 +1,589 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m. Flygfotot 1942 är granskat i infartsgranskningen 1942 (data/mariehamn-approaches-1942.json).",
+ "maps": {
+  "1928-hammarudda": {
+   "sourceId": "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "year": 1928
+  },
+  "1929-mariehamn": {
+   "sourceId": "nls:9c76c492-0456-43c6-9478-b2aa0034b26c",
+   "year": 1929
+  },
+  "1942-photo": {
+   "sourceId": "mariehamn-aerial-1942",
+   "year": 1942,
+   "observationType": "aerial",
+   "observedAt": "1942-07-25",
+   "imageCoverage": "visible"
+  },
+  "1944-kungso": {
+   "sourceId": "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "year": 1944
+  },
+  "1948-mariehamn": {
+   "sourceId": "nls:9c72a694-1238-40a8-a8ca-33c754332810",
+   "year": 1948
+  },
+  "1953-kungso": {
+   "sourceId": "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "year": 1953
+  },
+  "1968-mariehamn": {
+   "sourceId": "nls:101208:1968",
+   "year": 1968
+  },
+  "1978-mariehamn": {
+   "sourceId": "nls:101208:1978",
+   "year": 1978
+  },
+  "1985-mariehamn": {
+   "sourceId": "nls:101208:1985",
+   "year": 1985
+  },
+  "1995-mariehamn": {
+   "sourceId": "nls:101208:1995",
+   "year": 1995
+  },
+  "1978-gottby": {
+   "sourceId": "nls:101205:1978",
+   "year": 1978
+  },
+  "1985-gottby": {
+   "sourceId": "nls:101205:1985",
+   "year": 1985
+  }
+ },
+ "source": {
+  "id": "review:sviby-connections",
+  "title": "Vägarna vid Sviby: Kasbergsvägens början, vägen mot Svibyvägen och Norra Möckelövägens norra del · granskning",
+  "url": "assets/sviby-connections.json"
+ },
+ "surveySources": [
+  {
+   "id": "road:jomala:sviby:vagen-mot-svibyvagen:survey",
+   "title": "OpenStreetMap · vägen från Norra Svibyvägen till Svibyvägen",
+   "url": "https://www.openstreetmap.org/way/35304978",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:jomala:kasbergsvagen:norra-svibyvagen:survey",
+   "title": "OpenStreetMap · Bäckvägen och Kasbergsvägen vid Norra Svibyvägen",
+   "url": "https://www.openstreetmap.org/way/1066273698",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:jomala:norra-mockelovagen:norra-delen:survey",
+   "title": "OpenStreetMap · gång- och cykelvägen mellan Norra Svibyvägen och Norra Möckelövägen",
+   "url": "https://www.openstreetmap.org/way/35072855",
+   "issuedAt": "2026"
+  }
+ ],
+ "newRoads": [
+  {
+   "id": "road:jomala:sviby:vagen-mot-svibyvagen",
+   "name": "Vägen mot Svibyvägen · Sviby",
+   "routeId": "road:route:sviby-svibyvagen",
+   "modernRoadClass": "residential",
+   "roadWidth": 4,
+   "firstYear": 1942,
+   "surveySourceId": "road:jomala:sviby:vagen-mot-svibyvagen:survey",
+   "maps": {
+    "1929-mariehamn": "absent",
+    "1942-photo": "present",
+    "1968-mariehamn": "present",
+    "1978-mariehamn": "present",
+    "1985-mariehamn": "present",
+    "1995-mariehamn": "present"
+   },
+   "coverage": {
+    "1942-photo": "partial"
+   },
+   "canonicalRanges": {
+    "1942-photo": [
+     0.460787,
+     1
+    ]
+   },
+   "start": "road:qgis:gottby:norra-svibyvagen-100km5",
+   "end": "road:qgis:mariehamn:svibyvagen-1-200km2",
+   "joinMeters": 10,
+   "paths": [
+    [
+     [
+      19.917304,
+      60.121885
+     ],
+     [
+      19.917444,
+      60.121883
+     ],
+     [
+      19.91764,
+      60.121884
+     ],
+     [
+      19.920057,
+      60.121928
+     ],
+     [
+      19.920353,
+      60.121934
+     ],
+     [
+      19.921833,
+      60.121961
+     ],
+     [
+      19.921947,
+      60.121963
+     ],
+     [
+      19.922522,
+      60.121975
+     ],
+     [
+      19.922957,
+      60.121984
+     ],
+     [
+      19.923181,
+      60.121986
+     ],
+     [
+      19.923524,
+      60.121996
+     ],
+     [
+      19.923795,
+      60.121999
+     ],
+     [
+      19.924123,
+      60.121992
+     ],
+     [
+      19.924374,
+      60.121952
+     ],
+     [
+      19.924502,
+      60.12192
+     ],
+     [
+      19.924677,
+      60.121874
+     ],
+     [
+      19.924809,
+      60.121825
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1193557303",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "b797d2a85a194ddb39f2bdc27da0dc2b91576278b8f945bb5a902ec16bd5e889",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1108057940",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "174c66b27e8198b6fae0401f337fae4e48babd99cdf824fe0b590baa03f76023",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1108057939",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "6fa511be51ba94d24c00ffd182f9c1588f7b958bc3c7b8f3b6b5eca92df41868",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1180462200",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "5e85a464edd3edfd6066e1509bf2b87788f34b3fa1f86f19cbdbb000eaf009b3",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/35304978",
+     "sourceVertexRange": [
+      0,
+      11
+     ],
+     "sourceVertexCount": 12,
+     "input": "c249c79293d273d185fc645c105e4da056226f1c1684b8a52edb03784a8c7bee",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1193557303",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "b797d2a85a194ddb39f2bdc27da0dc2b91576278b8f945bb5a902ec16bd5e889",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1108057940",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "174c66b27e8198b6fae0401f337fae4e48babd99cdf824fe0b590baa03f76023",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1108057939",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "6fa511be51ba94d24c00ffd182f9c1588f7b958bc3c7b8f3b6b5eca92df41868",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1180462200",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "5e85a464edd3edfd6066e1509bf2b87788f34b3fa1f86f19cbdbb000eaf009b3",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-35304978",
+     "sourceVertexRange": [
+      0,
+      11
+     ],
+     "sourceVertexCount": 12,
+     "input": "c249c79293d273d185fc645c105e4da056226f1c1684b8a52edb03784a8c7bee",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-35304978",
+     "sourceVertexRange": [
+      0,
+      7
+     ],
+     "sourceVertexCount": 8,
+     "input": "2cf4db842e40055675d7dece517231c3fa05ee9604ae9bca564ecc0c8c5e3228",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-35304978",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "021220f34771c4367cacb2733ce1d716195fb16f75986c4f7655d9cfdc6c1e74",
+     "basis": "Vägen från Norra Svibyvägen österut till Svibyvägen, som den kartlagts detta år.",
+     "reverse": true
+    }
+   ],
+   "basis": "Vägen från Norra Svibyvägens södra ände rakt österut till Svibyvägen. Sockenkartan 1929 ritar den inte (inte heller utgåvan 1948, ett oreviderat tryck av samma kartläggning). Flygfotot den 25 juli 1942 visar den från fotots västra kant till Svibyvägen; de västligaste 190 metrarna ligger utanför fotot, men vägen fortsätter dit och har ingen annan anslutning. Grundkartan 1968 ritar hela vägen, som vägen till flygstationen. I dag är den västra delen en gång- och cykelväg.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (fem vägar i följd), använd som stabilt läge från 1942. OpenStreetMap 2014 och 2021 har den som en enda väg (35304978)."
+  },
+  {
+   "id": "road:jomala:kasbergsvagen:norra-svibyvagen",
+   "name": "Kasbergsvägen · vid Norra Svibyvägen",
+   "routeId": "road:route:kasbergsvagen",
+   "modernRoadClass": "residential",
+   "roadWidth": 4,
+   "firstYear": 1928,
+   "surveySourceId": "road:jomala:kasbergsvagen:norra-svibyvagen:survey",
+   "maps": {
+    "1928-hammarudda": "present",
+    "1944-kungso": "present",
+    "1953-kungso": "present",
+    "1978-gottby": "present",
+    "1985-gottby": "present"
+   },
+   "start": "road:qgis:gottby:norra-svibyvagen-100km5",
+   "end": "road:qgis:mariehamn:kasbergsvagen-200km2",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.915487,
+      60.130761
+     ],
+     [
+      19.915831,
+      60.130741
+     ],
+     [
+      19.915879,
+      60.13074
+     ],
+     [
+      19.916035,
+      60.130739
+     ],
+     [
+      19.91627,
+      60.130745
+     ],
+     [
+      19.91631,
+      60.130638
+     ],
+     [
+      19.916343,
+      60.130574
+     ],
+     [
+      19.916372,
+      60.130519
+     ],
+     [
+      19.916774,
+      60.130371
+     ],
+     [
+      19.91709480054392,
+      60.13026105427368
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/940586838",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "ac4ff92e36124467cc9e97d07f3e19abd15315ab3a578f5d149d1c80fb1b3361",
+     "basis": "Vägen från Norra Svibyvägen till Kasbergsvägen, som den kartlagts detta år; delen före Kasbergsvägens objekt."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1066273698",
+     "sourceVertexRange": [
+      0,
+      4.50203528
+     ],
+     "sourceVertexCount": 9,
+     "input": "586ed229bf5f0a356409e308740b83e17fd403be303a210168da2ca27060c272",
+     "basis": "Vägen från Norra Svibyvägen till Kasbergsvägen, som den kartlagts detta år; delen före Kasbergsvägens objekt."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-940586838",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "ac4ff92e36124467cc9e97d07f3e19abd15315ab3a578f5d149d1c80fb1b3361",
+     "basis": "Vägen från Norra Svibyvägen till Kasbergsvägen, som den kartlagts detta år; delen före Kasbergsvägens objekt."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1066273698",
+     "sourceVertexRange": [
+      0,
+      4.50203528
+     ],
+     "sourceVertexCount": 9,
+     "input": "586ed229bf5f0a356409e308740b83e17fd403be303a210168da2ca27060c272",
+     "basis": "Vägen från Norra Svibyvägen till Kasbergsvägen, som den kartlagts detta år; delen före Kasbergsvägens objekt."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-23110460",
+     "sourceVertexRange": [
+      0,
+      4.50203528
+     ],
+     "sourceVertexCount": 23,
+     "input": "2c7ca6a1892811bcd78b27d589f7ee90f833f2e825c7b9d025aaea9fb40cb05f",
+     "basis": "Vägen från Norra Svibyvägen till Kasbergsvägen, som den kartlagts detta år; delen före Kasbergsvägens objekt."
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-23110460",
+     "sourceVertexRange": [
+      0,
+      2.15471931
+     ],
+     "sourceVertexCount": 21,
+     "input": "000a87b551f4abe6ec5eb8d4aadacec1c6d77b11a61bb7c4f81d83a775371405",
+     "basis": "Vägen från Norra Svibyvägen till Kasbergsvägen, som den kartlagts detta år; delen före Kasbergsvägens objekt."
+    }
+   ],
+   "basis": "Kasbergsvägens början vid Norra Svibyvägen. Sockenkartan 1928 och utgåvorna 1944 och 1953 (Kungsö) ritar vägen från Norra Svibyvägen åt sydost till bladkanten, där sockenkartan 1929 för Mariehamn fortsätter den som Kasbergsvägen. Grundkartorna 1978 och 1985 ritar den som huvudväg. I dag är den Bäckvägens västligaste bit och början av Kasbergsvägen, fram till där Kasbergsvägens objekt börjar.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (Bäckvägen, way 940586838, och början av way 1066273698), använd som stabilt läge från 1928. Kartans väg ligger inom bladets fel, 20–45 m."
+  },
+  {
+   "id": "road:jomala:norra-mockelovagen:norra-delen",
+   "name": "Norra Möckelövägen · norra delen",
+   "routeId": "road:route:norra-mockelovagen",
+   "modernRoadClass": "cycleway",
+   "roadWidth": 3,
+   "firstYear": 1929,
+   "surveySourceId": "road:jomala:norra-mockelovagen:norra-delen:survey",
+   "maps": {
+    "1929-mariehamn": "present",
+    "1948-mariehamn": "present",
+    "1968-mariehamn": "present",
+    "1978-mariehamn": "present",
+    "1985-mariehamn": "present",
+    "1995-mariehamn": "present"
+   },
+   "start": "road:jomala:sviby:vagen-mot-svibyvagen",
+   "end": "road:mariehamn:major-followup:norra-mockelovagen",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.917444,
+      60.121883
+     ],
+     [
+      19.917441,
+      60.121786
+     ],
+     [
+      19.917499,
+      60.121668
+     ],
+     [
+      19.917703,
+      60.121381
+     ],
+     [
+      19.917816,
+      60.121117
+     ],
+     [
+      19.917812,
+      60.121059
+     ],
+     [
+      19.917797,
+      60.120806
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/35072855",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "9a5dc8e6604fe6df2f831046a54d00b09708d3ff267fbf9e0cb0dcf2480abd48",
+     "basis": "Den gamla vägen från Norra Svibyvägen söderut mot Norra Möckelövägen, som den kartlagts detta år (i dag en gång- och cykelväg).",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-35072855",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "9a5dc8e6604fe6df2f831046a54d00b09708d3ff267fbf9e0cb0dcf2480abd48",
+     "basis": "Den gamla vägen från Norra Svibyvägen söderut mot Norra Möckelövägen, som den kartlagts detta år (i dag en gång- och cykelväg).",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-35072855",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "a88e1f985f5207187cd21b2cda0de1ea096dddfee10ce7e0bf3a5a21c580ff0f",
+     "basis": "Den gamla vägen från Norra Svibyvägen söderut mot Norra Möckelövägen, som den kartlagts detta år (i dag en gång- och cykelväg).",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-35072855",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "a60da61fbcb21cc9e0db76cec22880f409b11ca189daafc0a0e7aca360bcec6f",
+     "basis": "Den gamla vägen från Norra Svibyvägen söderut mot Norra Möckelövägen, som den kartlagts detta år (i dag en gång- och cykelväg).",
+     "reverse": true
+    }
+   ],
+   "basis": "Den gamla vägen från Norra Svibyvägen söderut längs Svibyvikens västra strand. Sockenkartan 1929 (där den heter \"Svibyväg\") och utgåvan 1948 ritar den, liksom grundkartorna 1968–1995. I dag är den en gång- och cykelväg; Norra Svibyvägen svänger i stället åt sydväst.",
+   "geometryNote": "Gång- och cykelvägens mittlinje i OpenStreetMap 2026 (way 35072855), använd som stabilt läge från 1929."
+  }
+ ],
+ "stageFeatures": [
+  {
+   "stageId": "city-reconstruction-1942",
+   "featureId": "city-reconstruction-1942:city-1942-street-0:approach-gap:0",
+   "featureHash": "42a7a6f6d3018f883d9631eea8a5d974f1c8fd2a95106734c73e23f6894d1b87",
+   "replacedBy": "road:jomala:sviby:vagen-mot-svibyvagen",
+   "maxDistanceMeters": 35,
+   "basis": "Infartsgranskningens bit från flygfotots västra kant till Svibyvägen; vägen själv ritas nu med sin egen mittlinje, ansluten till Norra Svibyvägen."
+  },
+  {
+   "stageId": "city-reconstruction-1952",
+   "featureId": "city-reconstruction-1942:city-1942-street-0:approach-gap:0",
+   "featureHash": "42a7a6f6d3018f883d9631eea8a5d974f1c8fd2a95106734c73e23f6894d1b87",
+   "replacedBy": "road:jomala:sviby:vagen-mot-svibyvagen",
+   "maxDistanceMeters": 35,
+   "basis": "Infartsgranskningens bit från flygfotots västra kant till Svibyvägen; vägen själv ritas nu med sin egen mittlinje, ansluten till Norra Svibyvägen."
+  }
+ ]
+}

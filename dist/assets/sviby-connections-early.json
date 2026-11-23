@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:sviby-connections-1929:",
+ "source": {
+  "id": "review:sviby-connections-early",
+  "title": "Norra Möckelövägen på sockenkartan 1929 · granskning",
+  "url": "assets/sviby-connections-early.json"
+ },
+ "sources": [],
+ "maps": {
+  "1929-mariehamn": {
+   "sourceId": "nls:9c76c492-0456-43c6-9478-b2aa0034b26c",
+   "year": 1929
+  },
+  "1948-mariehamn": {
+   "sourceId": "nls:9c72a694-1238-40a8-a8ca-33c754332810",
+   "year": 1948
+  }
+ },
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m. Flygfotot 1942 är granskat i infartsgranskningen 1942 (data/mariehamn-approaches-1942.json).",
+ "early": [
+  {
+   "objectId": "road:mariehamn:major-followup:norra-mockelovagen",
+   "inputHash": "2636aa54fb60361ca331224b4fb4b1f6332e9a6649728dc9d75186d9ac36693d",
+   "geometryId": "geometry:city-major-followup:norra-mockelovagen:phase-0",
+   "geometryHash": "aa2a4027c39fcc027e5fce5d755238521ef63d3c0152ada60de4677fda55f035",
+   "lengthMeters": 801.6,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-mariehamn": "present",
+    "1948-mariehamn": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     801.6
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:mariehamn:major-followup:norra-mockelovagen": "Norra Möckelövägen längs Svibyvikens västra strand är vägen på sockenkartan 1929 (\"Svibyväg\") och utgåvan 1948, i hela sin längd och inom 20–40 m. Objektet var daterat först från grundkartan 1968."
+ },
+ "geometryNote": "Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartan 1929."
+}

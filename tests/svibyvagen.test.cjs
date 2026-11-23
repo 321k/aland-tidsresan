@@ -12,15 +12,14 @@ const segd=(p,a,b)=>{const ax=(b[0]-a[0])*55600,ay=(b[1]-a[1])*111200,px=(p[0]-a
 const ends=g=>g.paths.flatMap(p=>[p[0],p.at(-1)]);
 const near=(a,b)=>ends(a).some(p=>b.paths.some(q=>q.some((x,i)=>i&&segd(p,q[i-1],x)<1)));
 const UT='road:qgis:gottby:utangsvagen-100km5',NS='road:qgis:gottby:norra-svibyvagen-100km5',KB='road:qgis:mariehamn:kasbergsvagen-200km2',SV='road:qgis:mariehamn:svibyvagen-1-200km2';
-const OLD='road:jomala:gamla-vagen:sviby',CORNER='road:jomala:gamla-kasbergsvagen:tallasen',KG='road:jomala:kasbergsgatan';
+const JN='road:jomala:kasbergsvagen:norra-svibyvagen',OLD='road:jomala:gamla-vagen:sviby',CORNER='road:jomala:gamla-kasbergsvagen:tallasen',KG='road:jomala:kasbergsgatan';
 
-test('1929–1977 Utängsvägen through Sviby, Norra Svibyvägen, Kasbergsvägen round the corner, Kasbergsgatan and Svibyvägen are one line, except the 90 m junction at Kasberget',()=>{
+test('1929–1977 Utängsvägen through Sviby, Norra Svibyvägen, Kasbergsvägen round the corner, Kasbergsgatan and Svibyvägen are one line',()=>{
  for(const year of [1929,1950,1975]){
   const g=id=>model.resolveObject(id,year).geometry;
-  for(const id of [UT,OLD,NS,KB,CORNER,KG,SV])assert.ok(grid.ownsRoadObject(id,v(year)),id+' '+year);
+  for(const id of [UT,OLD,NS,JN,KB,CORNER,KG,SV])assert.ok(grid.ownsRoadObject(id,v(year)),id+' '+year);
   assert.ok(near(g(OLD),g(UT))&&near(g(OLD),g(NS)),'the Sviby road joins Utängsvägen and Norra Svibyvägen in '+year);
-  // the 90 m junction piece (the start of way 1066273698 and Bäckvägen) is in no object yet: a stated gap
-  const gap=Math.min(...g(NS).paths.flatMap(q=>q.map(x=>d(g(KB).paths[0][0],x))));assert.ok(gap>50&&gap<110,'Kasbergsvägen ends 90 m from Norra Svibyvägen in '+year+': '+gap);
+  assert.ok(near(g(JN),g(NS))&&near(g(JN),g(KB)),'the junction piece joins Norra Svibyvägen and Kasbergsvägen in '+year);
   assert.ok(near(g(CORNER),g(KB)),'the corner joins Kasbergsvägen in '+year);
   assert.ok(near(g(KG),g(KB))&&near(g(KG),g(SV)),'Kasbergsgatan joins Kasbergsvägen and Svibyvägen in '+year);
   assert.equal(g(KB).paths.length,2,'Kasbergsvägen leaves out the diagonal before 1985');

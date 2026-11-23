@@ -1,0 +1,43 @@
+{
+ "objects": {
+  "added": [
+   "road:jomala:kasbergsvagen:norra-svibyvagen",
+   "road:jomala:norra-mockelovagen:norra-delen",
+   "road:jomala:sviby:vagen-mot-svibyvagen"
+  ],
+  "removed": [],
+  "changed": [
+   "road:mariehamn:major-followup:norra-mockelovagen"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:jomala:kasbergsvagen:norra-svibyvagen",
+   "geometry:jomala:norra-mockelovagen:norra-delen",
+   "geometry:jomala:sviby:vagen-mot-svibyvagen",
+   "geometry:sviby-connections-1929:norra-mockelovagen"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:sviby-connections",
+   "review:sviby-connections-early",
+   "road:jomala:kasbergsvagen:norra-svibyvagen:survey",
+   "road:jomala:norra-mockelovagen:norra-delen:survey",
+   "road:jomala:sviby:vagen-mot-svibyvagen:survey"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "city-reconstruction-1942",
+   "city-reconstruction-1952"
+  ]
+ },
+ "other": []
+}
