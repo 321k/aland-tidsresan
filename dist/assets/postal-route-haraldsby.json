@@ -17,25 +17,36 @@
   "1944-saltvik": {
    "sourceId": "nls:map-38147682",
    "year": 1944
+  },
+  "1968-saltvik": {
+   "sourceId": "nls:102107:1968",
+   "year": 1968
+  },
+  "1978-saltvik": {
+   "sourceId": "nls:102107:1978",
+   "year": 1978
   }
  },
  "method": "Sockenkartorna för Saltvik 1929 och 1944 har lagts över katalogens vägar med ett rutnät på 100 m och jämförts med grundkartorna 1968–1993, som är inpassade på sitt tryckta rutnät. Sockenkartorna ligger 30–90 m fel här; vägarnas sträckning, inte deras exakta läge, är belägget.",
  "early": [
   {
-   "objectId": "road:finstrom:sundsvagen:godby-farjsundet",
-   "inputHash": "a4d0a6f6e1696347c498645792b8f7068d77ac4a60b2517520a8403ec9dd7f2b",
-   "geometryId": "geometry:finstrom:sundsvagen:godby-farjsundet",
-   "geometryHash": "f71b1917c654e3122b99b304e9d0842a42ca0f6b0cb75500b5bb44faf957bfaf",
-   "lengthMeters": 432.2,
+   "objectId": "road:qgis:saltvik:hamnvagen-batch4",
+   "inputHash": "df2ba0e051f9ad01961ae020bd97c5b661b306d8007fb2481f11179c43a58eba",
+   "geometryId": "geometry:qgis:08770f5cfa489dddb0e4",
+   "geometryHash": "5f23b52a0399622a32408c0fa0a90c9b1b971ced14bdd2f6ed8a3dd5d3df2885",
+   "lengthMeters": 639.5,
    "firstYear": 1929,
-   "until": 1968,
+   "until": 1985,
    "maps": {
-    "1929-saltvik": "present"
+    "1929-saltvik": "present",
+    "1944-saltvik": "present",
+    "1968-saltvik": "present",
+    "1978-saltvik": "present"
    },
    "ranges": [
     [
      0.0,
-     432.2
+     639.5
     ]
    ]
   },
@@ -136,7 +147,7 @@
   }
  ],
  "earlyBasis": {
-  "road:finstrom:sundsvagen:godby-farjsundet": "Huvudvägen från Godby till färjläget vid Färjsundet. Sockenkartan för Saltvik 1929 ritar den 60–80 m nordväst om dagens raka väg; längs von Knorringsvägen ligger samma blad 50–70 m nordväst om katalogens väg, så det är samma linje sedd genom bladets förskjutning. Utgåvan 1944 är inpassad omkring 90 m annorlunda här och används inte. Bron öppnades 1937; före den gick färjan.",
+  "road:qgis:saltvik:hamnvagen-batch4": "Vägen från Sundsvägen norrut på västra sidan av Färjsundet till stranden, där vägen till färjläget tar av. Sockenkartan för Saltvik 1929 och svartvita utgåvan 1944 ritar den som huvudväg till färjan, och grundkartorna 1968 och 1978 ritar den i rött. Dagens raka väg till bron finns inte i utgåvan 1944; på det färglagda bladet 1929 är den bara inritad i rött, utan svart linje, och hör till bron 1937.",
   "road:qgis:saltvik:sundsvagen-varsundet-haraldsby": "Vägen från färjläget på östra sidan av Färjsundet till Vårsundet, där Haraldsbyvägen tar av. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar den på samma sträckning, 30–50 m från objektet som bladet ligger. Resten av objektet, över Östervik, är senare.",
   "road:qgis:saltvik:haraldsbyvagen-sodra-anslutningen": "Den korta anslutningen vid Vårsundet där vägen till Haraldsby by tar av. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar vägskälet här.",
   "road:qgis:saltvik:haraldsbyvagen": "Huvudvägen från Vårsundet norrut genom Västerdal och Enelund in i Haraldsby by till Östergård. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar den på samma sträckning som grundkartan 1968, 30–80 m från objektet som bladet ligger. Delen norr om Östergård granskas inte här.",

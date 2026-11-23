@@ -10,15 +10,17 @@ const m=(p,q)=>Math.hypot((p[0]-q[0])*55600,(p[1]-q[1])*111200);
 const segd=(p,a,b)=>{const ax=(b[0]-a[0])*55600,ay=(b[1]-a[1])*111200,px=(p[0]-a[0])*55600,py=(p[1]-a[1])*111200,t=Math.max(0,Math.min(1,(px*ax+py*ay)/(ax*ax+ay*ay||1)));return Math.hypot(px-t*ax,py-t*ay)};
 const data=read('data/postal-route-stations.json'),S=Object.fromEntries(data.stations.map(s=>[s.id,s]));
 
-test('every land leg between two post stations follows roads that are dated in the leg year',()=>{
+test('every land leg between two post stations follows roads mapped by the leg year, and ferries',()=>{
  const legs=J(w.POSTAL_ROUTE_ROADS);assert.deepEqual(legs.map(l=>l.from+'-'+l.to),data.legs.map(l=>l.from+'-'+l.to));
  for(const leg of legs.filter(l=>l.by==='road')){
   assert.ok(Number.isInteger(leg.year)&&leg.year<=1968,leg.from+'-'+leg.to+' is dated by 1968');
   const p=leg.path,a=S[leg.from],b=S[leg.to];
   assert.deepEqual(p[0],[a.lon,a.lat].map(x=>+x.toFixed(6)));assert.deepEqual(p.at(-1),[b.lon,b.lat].map(x=>+x.toFixed(6)));
   assert.ok(m(p[0],p[1])<=150&&m(p.at(-2),p.at(-1))<=150,'stations lie by the road');
-  const lines=leg.objects.flatMap(o=>model.resolveObject(o.id,leg.year)?.geometry?.paths||[]);
-  for(const q of p.slice(1,-1))assert.ok(lines.some(l=>l.some((x,i)=>i&&segd(q,l[i-1],x)<1)),`${leg.from}-${leg.to}: ${q} lies on a road open in ${leg.year}`);
+  // the roads mapped by the leg year: every geometry an object had in a period beginning by then (old ferry roads too)
+  const lines=leg.objects.flatMap(o=>model.objects.get(o.id).geometryPeriods.filter(g=>g.from<=leg.year).flatMap(g=>model.geometries.get(g.geometryId).paths));
+  for(const q of p.slice(1,-1))assert.ok(lines.some(l=>l.some((x,i)=>i&&segd(q,l[i-1],x)<1)),`${leg.from}-${leg.to}: ${q} lies on a road mapped by ${leg.year}`);
+  for(const f of leg.ferries)assert.ok(data.crossings.some(c=>c.id===f));
  }
  assert.equal(legs.at(-1).by,'boat');assert.equal(legs.at(-1).path,undefined);
 });

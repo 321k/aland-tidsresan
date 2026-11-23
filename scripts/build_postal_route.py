@@ -1,12 +1,14 @@
 """The postal route across Åland on dated roads (docs/postal-route-roads.md).
 
 For each land leg between two post stations (data/postal-route-stations.json), the route follows the catalogue's road
-objects as they are in the earliest year when they connect the two stations: the graph of every road segment's
-geometry open that year (vertices joined within SNAP m), shortest path between the road points nearest the stations.
+objects in the earliest year when they connect the two stations: the graph of every geometry the roads had while open
+in a period beginning by that year (vertices joined within SNAP m), including old roads that closed before it, and the
+shortest path between the road points nearest the stations.
 A station must lie within STATION_LIMIT m of a road that year. Where a road ends within JOIN m of a vertex of another
 road (a junction the maps draw, where one object follows today's road and the other the older line beside it), the
 two are joined by a straight connector; each join used is listed with the leg. A ferry crossing in the stations file
-('crossings') joins the roads nearest its two landings in years before the bridge ('until'). Among the roads open that
+('crossings') joins the roads nearest its two landings; the postal route (to 1911) is older than every bridge that
+replaced a ferry ('until' is the bridge's year), so the ferry is used whatever year dates the roads. Among the roads open that
 year, segments that are not on the object's geometry of any period beginning by 'preferEarlyRoads.until' cost 'factor'
 times their length, so the line keeps to the roads of the parish maps where they connect. Candidate years are the years in which some road period
 begins, from 1800 to 2026. The route itself is older (1638–1911); before the leg's year the line shows where the road
@@ -42,12 +44,18 @@ def segments(cat, box, year, early_until=None):
     for o in cat['objects']:
         if o.get('kind') != 'roadSegment':
             continue
-        st = next((s for s in o['states'] if s['from'] <= year < (s['to'] or 9999)), None)
-        gp = next((g for g in o['geometryPeriods'] if g['from'] <= year < (g['to'] or 9999)), None)
-        if not st or st['state'] != 'open' or not gp:
+        # Every geometry the object had while open, in any period beginning by this year: a road that closed before it
+        # (the old road to a ferry pier) was still the road of the postal route.
+        gps = [g for g in o['geometryPeriods'] if g['from'] <= year
+               and next((s for s in o['states'] if s['from'] <= g['from'] < (s['to'] or 9999)), {}).get('state') == 'open']
+        if not gps:
             continue
         olds = None
-        for p in G[gp['geometryId']]['paths']:
+        paths = {}
+        for g in gps:
+            for i, p in enumerate(G[g['geometryId']]['paths']):
+                paths.setdefault(json.dumps(p), p)
+        for p in paths.values():
             m = [TO_METRIC(*q) for q in p]
             if not any(x0 <= x <= x1 and y0 <= y <= y1 for x, y in m):
                 continue
@@ -143,7 +151,7 @@ def build():
         if leg['by'] == 'road':
             box = (min(s[0], t[0]) - MARGIN, min(s[1], t[1]) - MARGIN, max(s[0], t[0]) + MARGIN, max(s[1], t[1]) + MARGIN)
             for year in years:
-                r = route(segments(cat, box, year, (data.get('preferEarlyRoads') or {}).get('until')), s, t, [c for c in data.get('crossings', []) if year < c['until']], data.get('preferEarlyRoads'))
+                r = route(segments(cat, box, year, (data.get('preferEarlyRoads') or {}).get('until')), s, t, data.get('crossings', []), data.get('preferEarlyRoads'))
                 if r:
                     pts, objs, length, joins, ferries = r
                     out.update(year=year, lengthMeters=round(length), objects=[dict(id=o, name=names[o]) for o in objs], joinsMeters=[j[0] for j in joins], joinsAt=[j[1:] for j in joins], ferries=ferries,

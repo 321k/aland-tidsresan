@@ -1,0 +1,217 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "maps": {
+  "1929-saltvik": {
+   "sourceId": "nls:map-38157483",
+   "year": 1929
+  },
+  "1944-saltvik": {
+   "sourceId": "nls:map-38147682",
+   "year": 1944
+  },
+  "1968-saltvik": {
+   "sourceId": "nls:102107:1968",
+   "year": 1968
+  },
+  "1978-saltvik": {
+   "sourceId": "nls:102107:1978",
+   "year": 1978
+  }
+ },
+ "stagePrefix": "postal-route-farjsundet",
+ "source": {
+  "id": "review:postal-route-farjsundet",
+  "title": "Vägen till färjläget vid Färjsundet på sockenkartorna och grundkartorna · granskning",
+  "url": "assets/postal-route-farjsundet-shore.json"
+ },
+ "method": "Sockenkartorna för Saltvik 1929 och 1944 och grundkartorna 1021 07 från 1968 och 1978 har lagts över dagens vägar med ett rutnät på 100 m.",
+ "surveySources": [
+  {
+   "id": "road:saltvik:farjvagen:farjsundet:survey",
+   "title": "OpenStreetMap · vägen längs stranden vid Färjsundet",
+   "url": "https://www.openstreetmap.org/way/960124939",
+   "issuedAt": "2026"
+  }
+ ],
+ "newRoads": [
+  {
+   "id": "road:saltvik:farjvagen:farjsundet",
+   "name": "Färjvägen · Färjsundet",
+   "routeId": "road:route:postvagen",
+   "modernRoadClass": "service",
+   "roadWidth": 3,
+   "firstYear": 1929,
+   "surveySourceId": "road:saltvik:farjvagen:farjsundet:survey",
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present",
+    "1968-saltvik": "present",
+    "1978-saltvik": "present"
+   },
+   "start": "road:qgis:saltvik:hamnvagen-batch4",
+   "end": null,
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      20.008504,
+      60.238561
+     ],
+     [
+      20.008748,
+      60.238673
+     ],
+     [
+      20.009062,
+      60.238793
+     ],
+     [
+      20.009397,
+      60.238932
+     ],
+     [
+      20.009726,
+      60.239137
+     ],
+     [
+      20.009881,
+      60.239206
+     ],
+     [
+      20.010025,
+      60.239243
+     ],
+     [
+      20.010164,
+      60.239269
+     ],
+     [
+      20.010242,
+      60.239277
+     ],
+     [
+      20.010392,
+      60.239277
+     ],
+     [
+      20.010548,
+      60.239268
+     ],
+     [
+      20.010709,
+      60.239251
+     ],
+     [
+      20.010788,
+      60.239243
+     ],
+     [
+      20.010948,
+      60.239215
+     ],
+     [
+      20.011182,
+      60.239149
+     ],
+     [
+      20.01135,
+      60.23907
+     ],
+     [
+      20.011524,
+      60.238952
+     ],
+     [
+      20.01157,
+      60.23884
+     ],
+     [
+      20.011696,
+      60.238701
+     ],
+     [
+      20.011823,
+      60.238575
+     ],
+     [
+      20.011973,
+      60.23844
+     ],
+     [
+      20.01212,
+      60.238283
+     ],
+     [
+      20.01222,
+      60.238168
+     ],
+     [
+      20.012302,
+      60.23811
+     ],
+     [
+      20.012388,
+      60.23807
+     ],
+     [
+      20.012472,
+      60.238042
+     ],
+     [
+      20.012597,
+      60.238015
+     ],
+     [
+      20.012814,
+      60.23798
+     ],
+     [
+      20.013052,
+      60.237952
+     ],
+     [
+      20.01323,
+      60.237941
+     ],
+     [
+      20.013363,
+      60.237944
+     ],
+     [
+      20.013575,
+      60.237955
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/960124939",
+     "sourceVertexRange": [
+      0,
+      31
+     ],
+     "sourceVertexCount": 32,
+     "input": "d9ab6721b56014fffebcd40643aa5688121b0a2041e5425de42f88d2f88d51af",
+     "basis": "Vägen längs stranden till det gamla färjläget vid Färjsundet, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-960124939",
+     "sourceVertexRange": [
+      0,
+      31
+     ],
+     "sourceVertexCount": 32,
+     "input": "d9ab6721b56014fffebcd40643aa5688121b0a2041e5425de42f88d2f88d51af",
+     "basis": "Vägen längs stranden till det gamla färjläget vid Färjsundet, som den kartlagts detta år."
+    }
+   ],
+   "freeEndBasis": "Det gamla färjläget på västra stranden av Färjsundet. Färjan gick här tills bron öppnades 4 juli 1937.",
+   "basis": "Vägen från Hamnvägens norra del österut längs stranden till färjläget vid Färjsundet. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar den som huvudvägen till färjan; grundkartorna 1968 och 1978 ritar den i rött till stranden. I dag finns den kvar som en mindre väg.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (way 960124939), som följer vägen på grundkartorna 1968 och 1978 inom omkring 10 m, använd som stabilt läge från 1929."
+  }
+ ],
+ "stageFeatures": []
+}

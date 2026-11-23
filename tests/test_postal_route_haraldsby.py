@@ -1,13 +1,14 @@
 import copy, gzip, json, sys, unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from postal_route_haraldsby import apply_postal_route_haraldsby, REVIEW
+from postal_route_haraldsby import apply_postal_route_haraldsby, REVIEW, SHORE as SHORE_REVIEW
 
 # The catalogue built with this step disabled, kept in the local review cache.
 SNAPSHOT = Path('data/map-scan-cache/review/postal-route-haraldsby/before-postal-route-haraldsby-step.json.gz')
 P = 'road:qgis:saltvik:'
-EARLY = ['road:finstrom:sundsvagen:godby-farjsundet', P + 'sundsvagen-varsundet-haraldsby', P + 'haraldsbyvagen-sodra-anslutningen', P + 'haraldsbyvagen',
+EARLY = [P + 'hamnvagen-batch4', P + 'sundsvagen-varsundet-haraldsby', P + 'haraldsbyvagen-sodra-anslutningen', P + 'haraldsbyvagen',
          P + 'gamla-sundsvagen-vaster', P + 'gamla-sundsvagen-oster']
+SHORE = 'road:saltvik:farjvagen:farjsundet'
 
 
 def read(p):
@@ -42,7 +43,11 @@ class PostalRouteHaraldsbyTests(unittest.TestCase):
         key = lambda c: {x['id']: x for x in c['objects']}
         for i in EARLY:
             self.assertEqual(key(catalog)[i], key(self.built)[i]); self.assertEqual(key(catalog)[i]['states'][0]['from'], 1929)
-        self.assertEqual([o for o in catalog['objects'] if o['id'] not in EARLY], [o for o in self.pristine['objects'] if o['id'] not in EARLY])
+        self.assertEqual(key(catalog)[SHORE], key(self.built)[SHORE]); self.assertEqual(key(catalog)[SHORE]['states'][0]['from'], 1929)
+        self.assertNotIn(SHORE, key(self.pristine))
+        self.assertEqual([o for o in catalog['objects'] if o['id'] not in EARLY + [SHORE]], [o for o in self.pristine['objects'] if o['id'] not in EARLY])
+        # the straight road to the bridge is not the 1929 road (a red-only line on the 1929 sheet, absent in 1944)
+        self.assertEqual(key(catalog)['road:finstrom:sundsvagen:godby-farjsundet'], key(self.pristine)['road:finstrom:sundsvagen:godby-farjsundet'])
         with self.assertRaises(ValueError):
             self.apply(catalog=catalog)
 
@@ -50,6 +55,7 @@ class PostalRouteHaraldsbyTests(unittest.TestCase):
         self.rejected('Changed Hammarlandsvägen input', lambda x: x['early'][3].update(inputHash='changed'))
         self.rejected('Invalid same-road ranges', lambda x: x['early'][1].update(ranges=[[196.9, 220.0]]))
         self.rejected('First year is not the first map', lambda x: x['early'][0].update(firstYear=1944))
+        self.rejected('The early period must end where the object now begins', lambda x: x['early'][0].update(until=1968))
 
 
 if __name__ == '__main__':

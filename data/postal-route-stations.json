@@ -88,18 +88,32 @@
  ],
  "crossings": [
   {
+   "id": "marsund",
+   "name": "Marsund",
+   "from": [
+    19.6837631,
+    60.2166806
+   ],
+   "to": [
+    19.69397,
+    60.216827
+   ],
+   "until": 1959,
+   "basis": "Färjan över Marsund (\"M. färja\" på sockenkartan för Eckerö 1929) från bryggan på Holmbergs östra strand (road:eckero:gamla-landsvagen:holmberg) till bryggan vid Marsundsvägens ände (road:qgis:eckero:marsundsvagen-100km4, 1929). Bron öppnades 1959."
+  },
+  {
    "id": "farjsundet",
    "name": "Färjsundet",
    "from": [
-    20.014475,
-    60.23745
+    20.013575,
+    60.237955
    ],
    "to": [
     20.017155,
     60.238616
    ],
    "until": 1937,
-   "basis": "Färjan över Färjsundet, som sockenkartan för Saltvik 1929 ritar med vägar till färjlägena på båda sidor. Bron (road:historical-dates:farjsund) invigdes 4 juli 1937; ändarna är brons ändar, inom 50–60 m från färjlägena på grundkartan 1968."
+   "basis": "Färjan över Färjsundet, som sockenkartan för Saltvik 1929 ritar. Västra färjläget är slutet av vägen längs stranden (road:saltvik:farjvagen:farjsundet); det östra är där vägen från Vårsundet når stranden, vid brons östra ände. Bron (road:historical-dates:farjsund) invigdes 4 juli 1937."
   }
  ],
  "preferEarlyRoads": {

@@ -191,3 +191,18 @@ Files:
 - `scope-audit-haraldsby.json`;
 - `batch-postal-route-haraldsby.patch` with `patch-verification-haraldsby.log`;
 - `node-tests-haraldsby.log`.
+
+## Ferries instead of later bridges: done 2026-11-23
+
+The route had used the Marsund bridge (1959) and Färjsundsbron (1937). It now crosses both sounds by ferry:
+- **Marsund:** from Holmberg.
+- **Färjsundet:** from the old landing, reached by Hamnvägen and the shore road, both from 1929.
+
+The straight road to Färjsundsbron, dated from 1929 in the previous batch, is back to 1968: on the 1929 sheet it is a
+red-only later addition. See `docs/postal-route-haraldsby.md`.
+
+Files:
+- `scripts/prepare_farjsundet_shore.py`;
+- the renders `hamn-*`, `shore*` and `route-*`;
+- `batch-postal-route-ferries.patch` with `patch-verification-ferries.log`;
+- `node-tests-ferries.log`.

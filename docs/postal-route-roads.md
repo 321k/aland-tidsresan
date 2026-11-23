@@ -33,7 +33,8 @@ holds `window.POSTAL_ROUTE_STATIONS` and `window.POSTAL_ROUTE_ROADS`.
 
 For each road leg the script works as follows:
 
-1. **The network for a year.** The graph is every road object's geometry open that year, within 4 km of the leg.
+1. **The network for a year.** The graph is every geometry the roads had while open in a period beginning by that year,
+   within 4 km of the leg. This includes old roads that closed before it.
    - Vertices within 15 m are joined.
    - A road end within 40 m of a vertex of another road is joined by a straight connector. This covers a junction the
      maps draw where one object follows today's road and the other the older line beside it.
@@ -49,10 +50,10 @@ For each road leg the script works as follows:
 
 | leg | year | length | connectors |
 |---|---|---|---|
-| Storby → Frebbenby | 1968 | 12.0 km | none |
+| Storby → Frebbenby | 1968 | 12.4 km | one, 27 m (the Marsundsvägen junction at Frebbenby); the Marsund ferry |
 | Frebbenby → Emkarby | 1929 | 11.8 km | one, 34 m (the Smedens junction at Drygsböle) |
-| Emkarby → Haraldsby | 1929 | 11.5 km | none; the Färjsundet ferry |
-| Haraldsby → Skarpans | 1968 | 12.9 km | none; through Haraldsby village |
+| Emkarby → Haraldsby | 1929 | 11.7 km | none; the Färjsundet ferry |
+| Haraldsby → Skarpans | 1968 | 13.1 km | none; through Haraldsby village |
 | Skarpans → Vargata | by boat | schematic | none |
 
 **What the line means.** It shows where the road ran when the maps first draw it connected, not a reconstruction of
@@ -60,10 +61,10 @@ the 18th-century road. The texts in `dist/explorer.js` and the info panel in `di
 
 **Why some legs are not earlier:**
 - **Storby → Frebbenby:** the 1929 Eckerö map does not reach the harbour, so the road to the post house is dated from
-  1968. Before the bridge (1959) the road also crossed Marsund by ferry, which is not a road object.
+  1968.
 - **Haraldsby → Skarpans:** no map earlier than 1968 covers the Lappböle sheet edge (`docs/postal-route-sund.md`).
 
-The ferry crossing and the preference for the parish maps' roads are described in `docs/postal-route-haraldsby.md`.
+The ferry crossings (Marsund and Färjsundet; the route never uses the later bridges) and the preference for the parish maps' roads are described in `docs/postal-route-haraldsby.md`.
 
 ## Drawing
 

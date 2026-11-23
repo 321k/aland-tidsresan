@@ -21,8 +21,7 @@ test('from 1968 the postal road runs from Emkarbyvägen through Gölby and Godby
   assert.ok(near(g(KO),g(GB))&&near(g(KO),g(VK2)),'the Godby junction joins Godbyvägen and von Knorringsvägen in '+year);
   assert.ok(near(g(SF),g(VK1)),'Sundsvägen leaves von Knorringsvägen in '+year);
  }
- // the Saltvik parish map dates the road to the Färjsundet landing from 1929 (docs/postal-route-haraldsby.md)
- assert.equal(model.resolveObject(SF,1928).geometry,null,SF);
+ assert.equal(model.resolveObject(SF,1967).geometry,null,SF);
  // the parish maps date the others earlier (docs/postal-route-1929.md): Postgårdsvägen and the Gölby pieces from 1928,
  // the Godby crossroads from 1929
  for(const id of [PG,GJ,BJ])assert.equal(model.resolveObject(id,1927).geometry,null,id);assert.equal(model.resolveObject(KO,1928).geometry,null,KO);

@@ -1,11 +1,10 @@
 """Write data/postal-route-haraldsby.json. Usage: prepare_haraldsby.py CATALOGUE_BEFORE.json.gz
 
 Read on ../renders:
-- farj-2944.jpg, farj-29-68.jpg: the 1929 Saltvik sheet draws the main road from Godby north-east to the ferry landing
-  at Färjsundet, 60–80 m north-west of today's straight road; along von Knorringsvägen the same sheet lies 50–70 m
-  north-west of the catalogue road, so this is the same line seen through the sheet's offset. The 1944 tile is placed
-  about 90 m differently and is not used here. The 1968 base map draws today's straight road and the 1937 bridge, and
-  the old shore road ending at the former landing.
+- hamn-sheet.jpg (1929, 1944, 1968 over OSM) and shore-sheet.jpg (1968, 1978): the road to the Färjsundet ferry ran
+  north on today's Hamnvägen and along the shore to the landing (OSM track 960124939). The black-and-white 1944 edition
+  has no road on the line of today's straight road to the bridge; the coloured 1929 sheet has it only as a red line
+  without black linework, a later addition for the bridge of 1937. (An earlier reading took it for the 1929 road.)
 - h-sheet.jpg (1929, 1944, 1968 with the catalogue's geometry): from the landing the 1929 and 1944 sheets draw the road
   north-east to Vårsundet, north through Västerdal and Enelund into Haraldsby, east past Östergård and in a curve past
   Högbacka to Sundsvägen: the course of Vårsundet–Haraldsby (to the Haraldsbyvägen junction), Haraldsbyvägen (to
@@ -22,27 +21,28 @@ from postal_route_haraldsby import apply_postal_route_haraldsby, REVIEW
 
 cat = json.load(gzip.open(sys.argv[1])); O = {o['id']: o for o in cat['objects']}; G = {g['id']: g for g in cat['geometries']}
 S = {s['id'] for s in cat['sources']}
-L = {'1929-saltvik': dict(sourceId='nls:map-38157483', year=1929), '1944-saltvik': dict(sourceId='nls:map-38147682', year=1944)}
+L = {'1929-saltvik': dict(sourceId='nls:map-38157483', year=1929), '1944-saltvik': dict(sourceId='nls:map-38147682', year=1944),
+     '1968-saltvik': dict(sourceId='nls:102107:1968', year=1968), '1978-saltvik': dict(sourceId='nls:102107:1978', year=1978)}
 assert all(l['sourceId'] in S for l in L.values())
 P = 'road:qgis:saltvik:'
 
-def early(oid, maps, upto=None, start=None):
+def early(oid, maps, upto=None, start=None, until=1968):
     o = O[oid]; gp = o['geometryPeriods'][0]; g = G[gp['geometryId']]; line = metric(g['paths'][0]); n = round(line.length, 1)
-    assert len(g['paths']) == 1 and o['states'][0]['from'] == 1968 == gp['from'], oid
+    assert len(g['paths']) == 1 and o['states'][0]['from'] == until == gp['from'], oid
     a = round(line.project(Point(start)), 1) if start else 0.0
     b = round(line.project(Point(upto)), 1) if upto else n
-    return dict(objectId=oid, inputHash=fingerprint(o), geometryId=g['id'], geometryHash=digest(g), lengthMeters=n, firstYear=1929, until=1968,
+    return dict(objectId=oid, inputHash=fingerprint(o), geometryId=g['id'], geometryHash=digest(g), lengthMeters=n, firstYear=1929, until=until,
                 maps={k: 'present' for k in maps}, ranges=[[a, b]])
 
 BOTH = ['1929-saltvik', '1944-saltvik']
-E = [early('road:finstrom:sundsvagen:godby-farjsundet', ['1929-saltvik']),
+E = [early(P + 'hamnvagen-batch4', BOTH + ['1968-saltvik', '1978-saltvik'], until=1985),
      early(P + 'sundsvagen-varsundet-haraldsby', BOTH, start=(20500950.0, 6680658.0), upto=(20501391.0, 6681002.0)),
      early(P + 'haraldsbyvagen-sodra-anslutningen', BOTH),
      early(P + 'haraldsbyvagen', BOTH, upto=(20501905.0, 6681714.0)),
      early(P + 'gamla-sundsvagen-vaster', BOTH),
      early(P + 'gamla-sundsvagen-oster', BOTH)]
 basis = {
-    'road:finstrom:sundsvagen:godby-farjsundet': 'Huvudvägen från Godby till färjläget vid Färjsundet. Sockenkartan för Saltvik 1929 ritar den 60–80 m nordväst om dagens raka väg; längs von Knorringsvägen ligger samma blad 50–70 m nordväst om katalogens väg, så det är samma linje sedd genom bladets förskjutning. Utgåvan 1944 är inpassad omkring 90 m annorlunda här och används inte. Bron öppnades 1937; före den gick färjan.',
+    P + 'hamnvagen-batch4': 'Vägen från Sundsvägen norrut på västra sidan av Färjsundet till stranden, där vägen till färjläget tar av. Sockenkartan för Saltvik 1929 och svartvita utgåvan 1944 ritar den som huvudväg till färjan, och grundkartorna 1968 och 1978 ritar den i rött. Dagens raka väg till bron finns inte i utgåvan 1944; på det färglagda bladet 1929 är den bara inritad i rött, utan svart linje, och hör till bron 1937.',
     P + 'sundsvagen-varsundet-haraldsby': 'Vägen från färjläget på östra sidan av Färjsundet till Vårsundet, där Haraldsbyvägen tar av. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar den på samma sträckning, 30–50 m från objektet som bladet ligger. Resten av objektet, över Östervik, är senare.',
     P + 'haraldsbyvagen-sodra-anslutningen': 'Den korta anslutningen vid Vårsundet där vägen till Haraldsby by tar av. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar vägskälet här.',
     P + 'haraldsbyvagen': 'Huvudvägen från Vårsundet norrut genom Västerdal och Enelund in i Haraldsby by till Östergård. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar den på samma sträckning som grundkartan 1968, 30–80 m från objektet som bladet ligger. Delen norr om Östergård granskas inte här.',
