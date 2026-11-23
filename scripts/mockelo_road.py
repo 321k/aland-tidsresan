@@ -14,3 +14,16 @@ EARLY, MAIN = 'data/mockelo-road-early.json', 'data/mockelo-road.json'
 
 def apply_mockelo_road(read, catalog):
     apply_connections(read, catalog, EARLY, MAIN)
+
+
+MJOLKDAL = 'data/mjolkdalsvagen.json'
+
+
+def apply_mjolkdalsvagen(read, catalog):
+    """Mjölkdalsvägen from 1928 (docs/mockelo-road.md): the main-road helper (_apply) on a copy, which replaces the
+    catalogue only if every check passes."""
+    from copy import deepcopy
+    from hammarlandsvagen_main_road import _apply
+    trial = deepcopy(catalog)
+    _apply(read, trial, MJOLKDAL)
+    catalog.clear(); catalog.update(trial)

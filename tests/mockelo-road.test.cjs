@@ -22,3 +22,15 @@ test('from 1929 the road runs from Norra Möckelövägen along Lönnelund to Mö
  assert.equal(model.resolveObject(MV,1927).geometry,null);
  assert.equal(model.resolveObject(MV,1950).geometry.id,'geometry:mockelo-road-1928:mockelovagen-100km5');
 });
+
+test('Mjölkdalsvägen branches off Möckelövägen at the Gustavsberg corner from 1928; Småholmavägen stays at 1978',()=>{
+ const MJ='road:qgis:gottby:mjolkdalsvagen-100km5',SM='road:qgis:gottby:smaholmavagen-1-100km5';
+ for(const year of [1928,1953,1975]){
+  const g=id=>model.resolveObject(id,year).geometry;
+  assert.ok(grid.ownsRoadObject(MJ,v(year)),MJ+' '+year);
+  assert.ok(near(g(MJ),g(MV)),'Mjölkdalsvägen meets Möckelövägen in '+year);
+ }
+ assert.equal(model.resolveObject(MJ,1927).geometry,null);
+ assert.equal(model.resolveObject(SM,1977).geometry,null);
+ assert.equal(model.resolveObject(SM,1978).state,'open');
+});

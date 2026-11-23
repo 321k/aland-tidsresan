@@ -1,0 +1,56 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:mjolkdalsvagen-1928:",
+ "source": {
+  "id": "review:mjolkdalsvagen",
+  "title": "Mjölkdalsvägen på sockenkartan 1928 · granskning",
+  "url": "assets/mjolkdalsvagen.json"
+ },
+ "sources": [],
+ "maps": {
+  "1928-hammarudda": {
+   "sourceId": "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "year": 1928
+  },
+  "1944-kungso": {
+   "sourceId": "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "year": 1944
+  },
+  "1953-kungso": {
+   "sourceId": "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "year": 1953
+  }
+ },
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m.",
+ "early": [
+  {
+   "objectId": "road:qgis:gottby:mjolkdalsvagen-100km5",
+   "inputHash": "fb8e7e346f150b189c6cfe8617ba48180f080ee8b2d80d79de7f975aee0c1aac",
+   "geometryId": "geometry:qgis:2c60a8218b6198ca6bab",
+   "geometryHash": "7f248850a23c7e0402a43db9b19e3e469f1f5b090624210c5abde915d7585668",
+   "lengthMeters": 1001.4,
+   "firstYear": 1928,
+   "until": 1978,
+   "maps": {
+    "1928-hammarudda": "present",
+    "1944-kungso": "present",
+    "1953-kungso": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1001.4
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:gottby:mjolkdalsvagen-100km5": "Mjölkdalsvägen från Möckelövägen vid Gustavsberg åt sydost och sedan söderut längs stranden är vägen på sockenkartan 1928 och utgåvorna 1944 och 1953 (Kungsö), i hela sin längd och inom 20–40 m. Bladet 1012 05 har ingen grundkarta från 1968, så objektet var daterat först från 1978."
+ },
+ "geometryNote": "Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartan 1928.",
+ "notChanged": {
+  "road:qgis:gottby:smaholmavagen-1-100km5": "Sockenkartan 1928 och utgåvorna 1944 och 1953 ritar ingen väg här, bara åker och en prickad stig i en annan riktning mot Skomakars. Grundkartan 1978 är den första som ritar vägen; objektet behåller 1978."
+ }
+}

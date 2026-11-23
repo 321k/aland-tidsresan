@@ -59,8 +59,28 @@ Scope (`docs/reviews/mockelo-2026-11-23/scope-audit.json`):
 
 Tests: `tests/test_mockelo_road.py` and `tests/mockelo-road.test.cjs`.
 
-## Open items
+## The branches at the Gustavsberg corner (reviewed 2026-11-23)
 
-- Mjölkdalsvägen, from the Gustavsberg corner south-east along the shore, may be on the 1928 sheet in part. It stays at
-  1978.
-- The road west from the Gustavsberg corner towards Hammarland (Småholmavägen) is not reviewed.
+Build step: `apply_mjolkdalsvagen` in `scripts/mockelo_road.py`, straight after `apply_mockelo_road`. Review data:
+`data/mjolkdalsvagen.json` (copied to `dist/assets/`), written by
+`docs/reviews/mockelo-2026-11-23/scripts/prepare_branches.py`. Renders: `docs/reviews/mockelo-2026-11-23/renders/branches/`.
+
+- **Mjölkdalsvägen:** the road on the 1928 sheet and its 1944 and 1953 Kungsö editions, over its whole length and within
+  20–40 m. It runs from Möckelövägen at the Gustavsberg corner south-east, then south along the shore. It is now dated
+  from 1928; it was 1978, because sheet 1012 05 has no 1968 base map (`mj-cat-sheet.jpg`, `mj-k1944-cat.jpg`).
+- **Småholmavägen:** not on the 1928, 1944 or 1953 maps. Along its line they draw fields, and a dotted path on another
+  line towards Skomakars. The 1978 base map is the first to draw it, so it keeps 1978 (`smz-sheet.jpg`). The review
+  file records this under `notChanged`.
+
+The step uses the main-road helper (`_apply`) on a copy of the catalogue, with its checks:
+- input fingerprint and geometry digest;
+- the review applies once;
+- the first year is the first map marked present;
+- the range covers the whole object.
+
+Scope (`docs/reviews/mockelo-2026-11-23/scope-audit-branches.json`):
+- objects: 1 changed;
+- geometries: 1 added (the early period's geometry, the same coordinates);
+- sources: 1 added.
+
+Tests: `tests/test_mjolkdalsvagen.py` and `tests/mockelo-road.test.cjs`.

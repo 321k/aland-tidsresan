@@ -1,0 +1,29 @@
+{
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:qgis:gottby:mjolkdalsvagen-100km5"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:mjolkdalsvagen-1928:mjolkdalsvagen-100km5"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:mjolkdalsvagen"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "other": []
+}
