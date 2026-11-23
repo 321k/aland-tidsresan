@@ -1,0 +1,540 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m. Bladen 1012 05 (Kungsö) och 1012 08 (Mariehamn) möts vid E 20 495 400; vägen korsar skarven vid Lönnelund.",
+ "maps": {
+  "1928-hammarudda": {
+   "sourceId": "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "year": 1928
+  },
+  "1929-mariehamn": {
+   "sourceId": "nls:9c76c492-0456-43c6-9478-b2aa0034b26c",
+   "year": 1929
+  },
+  "1944-kungso": {
+   "sourceId": "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "year": 1944
+  },
+  "1948-mariehamn": {
+   "sourceId": "nls:9c72a694-1238-40a8-a8ca-33c754332810",
+   "year": 1948
+  },
+  "1953-kungso": {
+   "sourceId": "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "year": 1953
+  },
+  "1968-mariehamn": {
+   "sourceId": "nls:101208:1968",
+   "year": 1968
+  },
+  "1978-gottby": {
+   "sourceId": "nls:101205:1978",
+   "year": 1978
+  }
+ },
+ "stagePrefix": "mockelo-road",
+ "source": {
+  "id": "review:mockelo-road",
+  "title": "Vägen från Svibyviken till Möckelö på sockenkartorna 1928 och 1929 · granskning",
+  "url": "assets/mockelo-road.json"
+ },
+ "surveySources": [
+  {
+   "id": "road:jomala:mockelovagen:lonnelund:survey",
+   "title": "OpenStreetMap · Lönnelundsgatan och gång- och cykelvägen till Norra Möckelövägen",
+   "url": "https://www.openstreetmap.org/way/166080087",
+   "issuedAt": "2026"
+  }
+ ],
+ "newRoads": [
+  {
+   "id": "road:jomala:mockelovagen:lonnelund",
+   "name": "Möckelövägen · vid Lönnelund",
+   "routeId": "road:route:mockelovagen",
+   "modernRoadClass": "residential",
+   "roadWidth": 4,
+   "firstYear": 1928,
+   "surveySourceId": "road:jomala:mockelovagen:lonnelund:survey",
+   "maps": {
+    "1928-hammarudda": "present",
+    "1929-mariehamn": "present",
+    "1944-kungso": "present",
+    "1948-mariehamn": "present",
+    "1953-kungso": "present",
+    "1968-mariehamn": "present",
+    "1978-gottby": "present"
+   },
+   "start": "road:mariehamn:major-followup:norra-mockelovagen",
+   "end": "road:qgis:gottby:mockelovagen-100km5",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.918326,
+      60.113745
+     ],
+     [
+      19.918355,
+      60.1136
+     ],
+     [
+      19.918224,
+      60.113584
+     ],
+     [
+      19.918245,
+      60.113531
+     ],
+     [
+      19.918269,
+      60.113471
+     ],
+     [
+      19.918263,
+      60.113423
+     ],
+     [
+      19.918187,
+      60.112998
+     ],
+     [
+      19.918177,
+      60.112919
+     ],
+     [
+      19.918198,
+      60.112407
+     ],
+     [
+      19.918171,
+      60.112086
+     ],
+     [
+      19.91817,
+      60.111964
+     ],
+     [
+      19.918173,
+      60.111619
+     ],
+     [
+      19.918176,
+      60.111533
+     ],
+     [
+      19.918177,
+      60.111476
+     ],
+     [
+      19.91817,
+      60.111274
+     ],
+     [
+      19.9181,
+      60.111109
+     ],
+     [
+      19.917968,
+      60.110978
+     ],
+     [
+      19.917819,
+      60.11087
+     ],
+     [
+      19.917593,
+      60.110767
+     ],
+     [
+      19.917503,
+      60.110735
+     ],
+     [
+      19.917389,
+      60.110693
+     ],
+     [
+      19.917215,
+      60.110629
+     ],
+     [
+      19.916556,
+      60.110409
+     ],
+     [
+      19.916148,
+      60.110308
+     ],
+     [
+      19.915475,
+      60.110182
+     ],
+     [
+      19.914568,
+      60.109948
+     ],
+     [
+      19.913632,
+      60.110014
+     ],
+     [
+      19.913503,
+      60.109809
+     ],
+     [
+      19.91324,
+      60.109487
+     ],
+     [
+      19.913054,
+      60.109345
+     ],
+     [
+      19.912572,
+      60.109146
+     ],
+     [
+      19.912315,
+      60.109045
+     ],
+     [
+      19.912024,
+      60.10893
+     ],
+     [
+      19.911149,
+      60.108579
+     ],
+     [
+      19.910725,
+      60.108396
+     ],
+     [
+      19.910528,
+      60.108311
+     ],
+     [
+      19.910237,
+      60.108201
+     ],
+     [
+      19.910152,
+      60.108172
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1066273699",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "86866685e89de0d87dbd27cbe778f30210fc5730ab6fabcb414a4e22e81a431b",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1193325547",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "e6dab4384f3a2f71598223206f7048aa7386875ef805e40990f63172e1a98418",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1066273700",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "71abf1239126d457ef05008b69d12dd944e9e0e6ae5120711b3066a12e35c717",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/54446881",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "f0395f0d637a348573cb43b4ca4fd406429c5c1bd0c384519a94898998e90415",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/35105818",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "8470bffea62519f4f02b7d6b5f1cb0ee46fd76118ca75de89b42e448601bf1f7",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/166080087",
+     "sourceVertexRange": [
+      0,
+      17
+     ],
+     "sourceVertexCount": 18,
+     "input": "bbcb8e0f786cf8344917f01fe066b7a4f3a8b69a45ac1f96f57f00de442fa7e4",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/35105743",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "144a9074b33d96d5eaf0cb79d5f4574b5f4032df63161ba78c4ea54e34022e6a",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/166080081",
+     "sourceVertexRange": [
+      0,
+      11
+     ],
+     "sourceVertexCount": 12,
+     "input": "39266fbe688be2c756f54d326c8ed72c34bf4e9e3b5fbdf0932aafeb4ed027ca",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1066273699",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "1c956e039bf934ac32a7ffb2cb1273a33855ea1828f7f3d1cf13938e9fcca013",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1193325547",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "e6dab4384f3a2f71598223206f7048aa7386875ef805e40990f63172e1a98418",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1066273700",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "71abf1239126d457ef05008b69d12dd944e9e0e6ae5120711b3066a12e35c717",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-54446881",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "f0395f0d637a348573cb43b4ca4fd406429c5c1bd0c384519a94898998e90415",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-35105818",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "8470bffea62519f4f02b7d6b5f1cb0ee46fd76118ca75de89b42e448601bf1f7",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-166080087",
+     "sourceVertexRange": [
+      0,
+      17
+     ],
+     "sourceVertexCount": 18,
+     "input": "bbcb8e0f786cf8344917f01fe066b7a4f3a8b69a45ac1f96f57f00de442fa7e4",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-35105743",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "144a9074b33d96d5eaf0cb79d5f4574b5f4032df63161ba78c4ea54e34022e6a",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-166080081",
+     "sourceVertexRange": [
+      0,
+      9.29748164
+     ],
+     "sourceVertexCount": 12,
+     "input": "39266fbe688be2c756f54d326c8ed72c34bf4e9e3b5fbdf0932aafeb4ed027ca",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-54446881",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "4e9995ef6991b62f97393571fab529d5c4611bf7a27bbee421e1c237717d1aa9",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-35105818",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "325dbb7807ca93e71cf2dc6b3339150cb386e73073c8f0f0c765e06fd1a6e27f",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-166080087",
+     "sourceVertexRange": [
+      0,
+      16
+     ],
+     "sourceVertexCount": 17,
+     "input": "1decc3ebc1b9ceecbbc5b43f1e7098430198977e9705566db500ec9b48619b5a",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-35105743",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "144a9074b33d96d5eaf0cb79d5f4574b5f4032df63161ba78c4ea54e34022e6a",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-166080081",
+     "sourceVertexRange": [
+      0,
+      11.0
+     ],
+     "sourceVertexCount": 15,
+     "input": "0061cdbf2e8fafbd2d769f0b58ec2c96e32bf7875205ad6fedb926fbfc8a0065",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-54446881",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "06329fcd9b645c3e47896f4d66c210cbc6817835028c76af7d2dfecc2a2145e0",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-35105818",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "5d8266081229a004194261073d95b9d6f14974ce300b8a12e487a4578e363efa",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-166080087",
+     "sourceVertexRange": [
+      0,
+      16
+     ],
+     "sourceVertexCount": 17,
+     "input": "1decc3ebc1b9ceecbbc5b43f1e7098430198977e9705566db500ec9b48619b5a",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-35105743",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "144a9074b33d96d5eaf0cb79d5f4574b5f4032df63161ba78c4ea54e34022e6a",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-166080081",
+     "sourceVertexRange": [
+      0,
+      9.0
+     ],
+     "sourceVertexCount": 13,
+     "input": "4821b839407ec2f624618597d2961d5d009fb42149dc521fe7004445e0f76865",
+     "basis": "Vägen från Norra Möckelövägen längs stranden och Lönnelundsgatan till Möckelövägen, som den kartlagts detta år."
+    }
+   ],
+   "basis": "Vägen från Svibyviken till Möckelö: från Norra Möckelövägens södra ände söderut längs stranden och sedan åt sydväst till Möckelövägen. Sockenkartan 1928 och utgåvorna 1944 och 1953 (Kungsö) ritar delen väster om bladskarven, sockenkartan 1929 och utgåvan 1948 (Mariehamn) delen längs stranden, och grundkartorna 1968 (\"t. Möckelö\") och 1978 hela vägen. Hammarlandsvägen korsar den sedan 1960-talet. I dag är den Lönnelundsgatan och gång- och cykelvägen över Hammarlandsvägen.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (åtta vägar i följd), använd som stabilt läge från 1928. Kartornas väg ligger inom 20–35 m."
+  }
+ ]
+}

@@ -37,7 +37,7 @@ def _check(read, catalog, review):
     objects = {o['id']: o for o in catalog['objects']}; geometries = {g['id']: g for g in catalog['geometries']}
     sources = {s['id'] for s in catalog['sources']}; labels = review['maps']
     if review['schemaVersion'] != 1 or review['source']['id'] in sources:
-        raise ValueError('Sviby connections review already applied')
+        raise ValueError('Connections review already applied')
     if any(l['sourceId'] not in sources for l in labels.values()):
         raise ValueError('Unexpected map sources')
     files = {}
@@ -145,7 +145,7 @@ def _add(catalog, review):
     for x in review.get('stageFeatures', []):
         stage = stages[x['stageId']]; o = objects[x['replacedBy']]
         i = next(i for i, f in enumerate(stage['features']) if f['id'] == x['featureId'])
-        old = stage['features'][i]; fid = f"{x['stageId']}:sviby-connections:{o['id']}"
+        old = stage['features'][i]; fid = f"{x['stageId']}:{review.get('stagePrefix', 'sviby-connections')}:{o['id']}"
         stage['features'][i] = dict(id=fid, objectId=o['id'], name=o['name'], kind=old['kind'], width=8, sourceFeatureId=old['id'], paths=deepcopy(o_paths(catalog, o)))
         o['sourceLinks'].append(dict(datasetId=x['stageId'], featureId=fid))
     catalog['recordedAt'] = max(catalog['recordedAt'], review['reviewedAt'])
@@ -156,9 +156,14 @@ def o_paths(catalog, o):
 
 
 def apply_sviby_connections(read, catalog):
+    apply_connections(read, catalog, EARLY, MAIN)
+
+
+def apply_connections(read, catalog, early, main):
+    """The step for any pair of review files of this form (docs/mockelo-road.md uses it too)."""
     trial = deepcopy(catalog)
-    _apply(read, trial, EARLY)
-    review = read(MAIN)
+    _apply(read, trial, early)
+    review = read(main)
     _check(read, trial, review)
     _add(trial, review)
     catalog.clear(); catalog.update(trial)

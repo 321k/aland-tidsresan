@@ -1,0 +1,53 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:mockelo-road-1928:",
+ "source": {
+  "id": "review:mockelo-road-early",
+  "title": "Möckelövägen på sockenkartan 1928 · granskning",
+  "url": "assets/mockelo-road-early.json"
+ },
+ "sources": [],
+ "maps": {
+  "1928-hammarudda": {
+   "sourceId": "nls:9c76c491-898b-4b0b-9331-7af223831264",
+   "year": 1928
+  },
+  "1944-kungso": {
+   "sourceId": "nls:9c72a692-458e-4804-af82-e6ac6dbf73fe",
+   "year": 1944
+  },
+  "1953-kungso": {
+   "sourceId": "nls:9c72a692-80ff-433c-950e-1cf484176101",
+   "year": 1953
+  }
+ },
+ "method": "Kartorna har lagts över varandra och över dagens vägar med ett rutnät på 100 m. Bladen 1012 05 (Kungsö) och 1012 08 (Mariehamn) möts vid E 20 495 400; vägen korsar skarven vid Lönnelund.",
+ "early": [
+  {
+   "objectId": "road:qgis:gottby:mockelovagen-100km5",
+   "inputHash": "72e82114fcc7620edcaac6d576a10d9c0030c3508e12bc0d4abdf3680693fb36",
+   "geometryId": "geometry:qgis:e118b7dd2b9e3b392b4d",
+   "geometryHash": "a3535b7983e22408028947ac1dba911a466a95920647f103ed07a6aea3c8b283",
+   "lengthMeters": 3089.1,
+   "firstYear": 1928,
+   "until": 1978,
+   "maps": {
+    "1928-hammarudda": "present",
+    "1944-kungso": "present",
+    "1953-kungso": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     3089.1
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:gottby:mockelovagen-100km5": "Möckelövägen från Lönnelund förbi Gustavsberg, Pellas, Södergård, Strömbäck och Sunnvik till Möckelö är vägen på sockenkartan 1928 och utgåvorna 1944 och 1953, i hela sin längd och inom 10–20 m. Bladet 1012 05 har ingen grundkarta från 1968, så objektet var daterat först från 1978."
+ },
+ "geometryNote": "Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartan 1928."
+}

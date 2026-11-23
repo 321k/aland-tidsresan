@@ -81,5 +81,5 @@ Tests:
 
 ## Open items
 
-- South of Norra Möckelövägen, the 1929 road ran on along the shore towards Möckelö. That has not been reviewed.
+- South of Norra Möckelövägen: done, see `docs/mockelo-road.md`.
 - The 1942 trace remainder at the other gaps is unchanged.

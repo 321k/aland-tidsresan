@@ -1,0 +1,34 @@
+{
+ "objects": {
+  "added": [
+   "road:jomala:mockelovagen:lonnelund"
+  ],
+  "removed": [],
+  "changed": [
+   "road:qgis:gottby:mockelovagen-100km5"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:jomala:mockelovagen:lonnelund",
+   "geometry:mockelo-road-1928:mockelovagen-100km5"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:mockelo-road",
+   "review:mockelo-road-early",
+   "road:jomala:mockelovagen:lonnelund:survey"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "other": []
+}
