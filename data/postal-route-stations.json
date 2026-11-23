@@ -1,0 +1,24 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "note": "The post stations (gästgiverier) of the postal road across Åland, in order from Storby to Vargata. Positions: the post and customs house at Storby (OSM building way 342899630), the OSM village points for Frebbenby, Emkarby, Haraldsby and Vargata, and the catalogue's Gamla Skarpans. The village point is not the station building, whose site is not known here. Survey: docs/reviews/postal-route-2026-11-23/README.md.",
+ "sources": [
+  {"id": "aland-postvagen", "title": "Ålands landskapsregering · Postvägen över Åland", "url": "https://aland.se/besok/sevardheter/postvagen-over-aland/"},
+  {"id": "wikipedia-mail-route", "title": "Wikipedia · Stockholm–Turku mail route", "url": "https://en.wikipedia.org/wiki/Stockholm%E2%80%93Turku_mail_route"}
+ ],
+ "stations": [
+  {"id": "storby", "name": "Storby", "lon": 19.543682, "lat": 60.220194, "position": "Post- och tullhuset vid hamnen (OSM byggnad 342899630)"},
+  {"id": "frebbenby", "name": "Frebbenby", "lon": 19.7118011, "lat": 60.2193573, "position": "Byns punkt i OpenStreetMap"},
+  {"id": "emkarby", "name": "Emkarby", "lon": 19.8792041, "lat": 60.2110448, "position": "Byns punkt i OpenStreetMap"},
+  {"id": "haraldsby", "name": "Haraldsby", "lon": 20.0201646, "lat": 60.240469, "position": "Byns punkt i OpenStreetMap"},
+  {"id": "skarpans", "name": "Skarpans", "lon": 20.2110829, "lat": 60.2150034, "position": "Gamla Skarpans i katalogen"},
+  {"id": "vargata", "name": "Vargata", "lon": 20.3509256, "lat": 60.2463982, "position": "Byns punkt i OpenStreetMap"}
+ ],
+ "legs": [
+  {"from": "storby", "to": "frebbenby", "by": "road"},
+  {"from": "frebbenby", "to": "emkarby", "by": "road"},
+  {"from": "emkarby", "to": "haraldsby", "by": "road"},
+  {"from": "haraldsby", "to": "skarpans", "by": "road"},
+  {"from": "skarpans", "to": "vargata", "by": "boat", "note": "Båtöverfarten från Bomarsund till Vårdö. Linjen är schematisk."}
+ ]
+}

@@ -1,0 +1,80 @@
+# Postal route on the dated roads
+
+The postal route across Åland (1638–1911) used to be drawn as straight lines between 15 representative places
+(`window.POSTAL_ROUTE` in `dist/archive.js`). On the main island it now follows the catalogue's roads between the post
+stations. This completes the plan in `docs/reviews/postal-route-2026-11-23/README.md`.
+
+## Stations
+
+`data/postal-route-stations.json` lists the post stations (gästgiverier) the sources name, in order:
+- Storby: the post and customs house by the harbour;
+- Frebbenby;
+- Emkarby;
+- Haraldsby;
+- Skarpans;
+- Vargata, where the route ended on Vårdö.
+
+The file also lists the legs between them: four by road and the boat crossing from Skarpans to Vargata.
+
+**Positions:**
+- Storby: the post and customs house (OSM building 342899630);
+- Frebbenby, Emkarby, Haraldsby and Vargata: the OSM village points;
+- Skarpans: the catalogue's Gamla Skarpans.
+
+A village point is not the station building, whose site is not known here.
+
+In `dist/archive.js` these six stations replace the representative stops Eckerö, Marsund, Boda, Färjsundet,
+Kastelholm, Bomarsund, Vargata and Vårdö. The stops in Sweden, in the archipelago and in Finland are unchanged.
+
+## Building the road legs
+
+`scripts/build_postal_route.py`, run after `build_temporal_objects.py`, writes `dist/postal-route-roads.js`. That file
+holds `window.POSTAL_ROUTE_STATIONS` and `window.POSTAL_ROUTE_ROADS`.
+
+For each road leg the script works as follows:
+
+1. **The network for a year.** The graph is every road object's geometry open that year, within 4 km of the leg.
+   - Vertices within 15 m are joined.
+   - A road end within 40 m of a vertex of another road is joined by a straight connector. This covers a junction the
+     maps draw where one object follows today's road and the other the older line beside it.
+2. **Which year.** The candidate years are the years in which some road period begins, from 1800 on. The leg takes the
+   first year in which:
+   - both stations lie within 150 m of a road;
+   - the network connects them.
+3. **The line.** The shortest path in that year's network, made of the road segments' own coordinates. The leg records:
+   - the year;
+   - the length;
+   - the objects it runs on;
+   - any connectors used.
+
+| leg | year | length | connectors |
+|---|---|---|---|
+| Storby → Frebbenby | 1968 | 12.0 km | none |
+| Frebbenby → Emkarby | 1929 | 11.8 km | one, 34 m (the Smedens junction at Drygsböle) |
+| Emkarby → Haraldsby | 1968 | 11.5 km | none |
+| Haraldsby → Skarpans | 1968 | 12.5 km | none |
+| Skarpans → Vargata | by boat | schematic | none |
+
+**What the line means.** It shows where the road ran when the maps first draw it connected, not a reconstruction of
+the 18th-century road. The texts in `dist/explorer.js` and the info panel in `dist/index.html` say so.
+
+**Why some legs are not earlier:**
+- **Storby → Frebbenby:** the 1929 Eckerö map does not reach the harbour, so the road to the post house is dated from
+  1968. Before the bridge (1959) the road also crossed Marsund by ferry, which is not a road object.
+- **Emkarby → Haraldsby and Haraldsby → Skarpans:** see the open items in `docs/postal-route-1929.md`.
+
+## Drawing
+
+`drawPostal` in `dist/explorer.js` draws:
+- **land legs between two stations:** solid, along the road path;
+- **everything else:** straight and dashed, as before (the sea crossings, and any leg without a road path).
+
+`dist/index.html` loads `postal-route-roads.js` before `archive.js`.
+
+## Tests
+
+- `tests/postal-route-roads.test.cjs`:
+  - every road leg starts and ends at its stations, within 150 m of the road;
+  - every inner point lies on an object open in the leg's year;
+  - the Åland stops are the stations, in order.
+- `tests/transport-routes.test.cjs` (in the patch): the stop list now names the stations.

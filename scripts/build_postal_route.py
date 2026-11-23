@@ -1,0 +1,145 @@
+"""The postal route across Åland on dated roads (docs/postal-route-roads.md).
+
+For each land leg between two post stations (data/postal-route-stations.json), the route follows the catalogue's road
+objects as they are in the earliest year when they connect the two stations: the graph of every road segment's
+geometry open that year (vertices joined within SNAP m), shortest path between the road points nearest the stations.
+A station must lie within STATION_LIMIT m of a road that year. Where a road ends within JOIN m of a vertex of another
+road (a junction the maps draw, where one object follows today's road and the other the older line beside it), the
+two are joined by a straight connector; each join used is listed with the leg. Candidate years are the years in which some road period
+begins, from 1800 to 2026. The route itself is older (1638–1911); before the leg's year the line shows where the road
+ran when it was first mapped, not a reconstruction. Sea legs stay schematic.
+
+Writes dist/postal-route-roads.js (window.POSTAL_ROUTE_ROADS). Run after build_temporal_objects.py.
+"""
+import gzip, heapq, json, math, sys
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'scripts'))
+from mariehamn_frame_1942 import TO_METRIC, TO_GEO
+
+SNAP = 15
+STATION_LIMIT = 150
+JOIN = 40
+MARGIN = 4000
+
+
+def load():
+    cat = json.load(gzip.open(ROOT / 'dist/assets/temporal-objects.json.gz'))
+    stations = json.load(open(ROOT / 'data/postal-route-stations.json'))
+    return cat, stations
+
+
+def segments(cat, box, year):
+    G = {g['id']: g for g in cat['geometries']}
+    x0, y0, x1, y1 = box
+    out, ends = [], []
+    for o in cat['objects']:
+        if o.get('kind') != 'roadSegment':
+            continue
+        st = next((s for s in o['states'] if s['from'] <= year < (s['to'] or 9999)), None)
+        gp = next((g for g in o['geometryPeriods'] if g['from'] <= year < (g['to'] or 9999)), None)
+        if not st or st['state'] != 'open' or not gp:
+            continue
+        for p in G[gp['geometryId']]['paths']:
+            m = [TO_METRIC(*q) for q in p]
+            if not any(x0 <= x <= x1 and y0 <= y <= y1 for x, y in m):
+                continue
+            for a, b in zip(m, m[1:]):
+                if a != b:
+                    out.append((a, b, o['id']))
+            ends += [(m[0], o['id']), (m[-1], o['id'])]
+    return out, ends
+
+
+def route(network, s, t):
+    """Shortest path on the snapped segment graph from the road point nearest s to the one nearest t."""
+    segs, ends = network
+    key = lambda p: (round(p[0] / SNAP), round(p[1] / SNAP))
+    nodes, adj, owners = {}, {}, {}
+    for a, b, oid in segs:
+        owners.setdefault(key(a), set()).add(oid); owners.setdefault(key(b), set()).add(oid)
+        ka, kb = key(a), key(b)
+        nodes.setdefault(ka, a); nodes.setdefault(kb, b)
+        if ka == kb:
+            continue
+        d = math.dist(a, b)
+        adj.setdefault(ka, []).append((kb, d, oid, a, b)); adj.setdefault(kb, []).append((ka, d, oid, b, a))
+    if not nodes:
+        return None
+    # Joins: a road end to the nearest vertex of another road within JOIN m, if they are not already joined.
+    from shapely.strtree import STRtree
+    from shapely.geometry import Point
+    vkeys = list(nodes); tree = STRtree([Point(nodes[k]) for k in vkeys])
+    for e, oid in ends:
+        ke = key(e)
+        cands = [vkeys[i] for i in tree.query(Point(e).buffer(JOIN))]
+        cands = [k for k in cands if k != ke and not (owners[k] & owners.get(ke, set())) and oid not in owners[k]
+                 and not any(v == k for v, *_ in adj.get(ke, []))]
+        if not cands:
+            continue
+        k = min(cands, key=lambda k: math.dist(nodes[k], e)); d = math.dist(nodes[k], e)
+        if d <= JOIN:
+            adj.setdefault(ke, []).append((k, d, 'join', e, nodes[k])); adj.setdefault(k, []).append((ke, d, 'join', nodes[k], e))
+    near = lambda p: min(nodes, key=lambda k: math.dist(nodes[k], p))
+    ks, kt = near(s), near(t)
+    if math.dist(nodes[ks], s) > STATION_LIMIT or math.dist(nodes[kt], t) > STATION_LIMIT:
+        return None
+    dist, prev, heap = {ks: 0}, {}, [(0, ks)]
+    while heap:
+        d, u = heapq.heappop(heap)
+        if u == kt:
+            break
+        if d > dist[u]:
+            continue
+        for v, w, oid, a, b in adj.get(u, []):
+            if d + w < dist.get(v, 1e18):
+                dist[v] = d + w; prev[v] = (u, oid, a, b); heapq.heappush(heap, (d + w, v))
+    if kt not in dist:
+        return None
+    # The path is made of the traversed segments' own coordinates (consecutive segments meet within SNAP).
+    pts, objs, joins, u = [], [], [], kt
+    while u != ks:
+        u, oid, a, b = prev[u]
+        if not pts or pts[-1] != b:
+            pts.append(b)
+        pts.append(a)
+        if oid == 'join':
+            joins.append(round(math.dist(a, b), 1)); continue
+        if not objs or objs[-1] != oid:
+            objs.append(oid)
+    return pts[::-1], objs[::-1], dist[kt], joins[::-1]
+
+
+def build():
+    cat, data = load()
+    st = {s['id']: s for s in data['stations']}
+    years = sorted({gp['from'] for o in cat['objects'] if o.get('kind') == 'roadSegment' for gp in o['geometryPeriods'] if 1800 <= gp['from'] <= 2026})
+    names = {o['id']: o.get('name') or o['id'] for o in cat['objects']}
+    legs = []
+    for leg in data['legs']:
+        a, b = st[leg['from']], st[leg['to']]
+        s, t = TO_METRIC(a['lon'], a['lat']), TO_METRIC(b['lon'], b['lat'])
+        out = dict(**{'from': leg['from'], 'to': leg['to']}, by=leg['by'])
+        if leg['by'] == 'road':
+            box = (min(s[0], t[0]) - MARGIN, min(s[1], t[1]) - MARGIN, max(s[0], t[0]) + MARGIN, max(s[1], t[1]) + MARGIN)
+            for year in years:
+                r = route(segments(cat, box, year), s, t)
+                if r:
+                    pts, objs, length, joins = r
+                    out.update(year=year, lengthMeters=round(length), objects=[dict(id=o, name=names[o]) for o in objs], joinsMeters=joins,
+                               path=[[round(c, 6) for c in TO_GEO(*s)]] + [[round(c, 6) for c in TO_GEO(*p)] for p in pts] + [[round(c, 6) for c in TO_GEO(*t)]])
+                    break
+            else:
+                out.update(year=None, note='Inga daterade vägar förbinder stationerna.')
+        else:
+            out.update(note=leg.get('note', ''))
+        legs.append(out)
+        print(leg['from'], '→', leg['to'], out.get('year'), out.get('lengthMeters'), len(out.get('objects', [])), 'objects, joins', out.get('joinsMeters'))
+    js = ('/* Generated by scripts/build_postal_route.py from data/postal-route-stations.json and the road catalogue. */\n'
+          'window.POSTAL_ROUTE_STATIONS=' + json.dumps(data['stations'], ensure_ascii=False, separators=(',', ':')) + ';\n'
+          'window.POSTAL_ROUTE_ROADS=' + json.dumps(legs, ensure_ascii=False, separators=(',', ':')) + ';\n')
+    (ROOT / 'dist/postal-route-roads.js').write_text(js)
+
+
+if __name__ == '__main__':
+    build()

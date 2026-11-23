@@ -21,11 +21,15 @@ test('from 1968 the postal road runs from Emkarbyvägen through Gölby and Godby
   assert.ok(near(g(KO),g(GB))&&near(g(KO),g(VK2)),'the Godby junction joins Godbyvägen and von Knorringsvägen in '+year);
   assert.ok(near(g(SF),g(VK1)),'Sundsvägen leaves von Knorringsvägen in '+year);
  }
- for(const id of [PG,GJ,BJ,KO,SF])assert.equal(model.resolveObject(id,1967).geometry,null,id);
+ assert.equal(model.resolveObject(SF,1967).geometry,null,SF);
+ // the parish maps date the others earlier (docs/postal-route-1929.md): Postgårdsvägen and the Gölby pieces from 1928,
+ // the Godby crossroads from 1929
+ for(const id of [PG,GJ,BJ])assert.equal(model.resolveObject(id,1927).geometry,null,id);assert.equal(model.resolveObject(KO,1928).geometry,null,KO);
 });
 
 test('Emkarbyvägen draws its eastern part from 1968: round the old bend to Bergens until 1977, then on the 1978 line',()=>{
- const g68=model.resolveObject(EM,1970).geometry,g78=model.resolveObject(EM,1980).geometry,g67=model.resolveObject(EM,1967).geometry;
+ // before 1928 Emkarbyvägen ends at Tingsbacka; from 1928 the parish map adds the same bend (docs/postal-route-1929.md)
+ const g68=model.resolveObject(EM,1970).geometry,g78=model.resolveObject(EM,1980).geometry,g67=model.resolveObject(EM,1927).geometry;
  assert.equal(g68.paths.length,g67.paths.length+1);assert.equal(g78.paths.length,g67.paths.length+1);
  const end68=g68.paths.at(-1).at(-1),end78=g78.paths.at(-1).at(-1);
  assert.ok(segd(end68,...model.resolveObject(PG,1970).geometry.paths[0].slice(0,2))<1,'in 1968–1977 it ends at Postgårdsvägen');

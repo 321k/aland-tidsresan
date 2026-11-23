@@ -1,0 +1,10 @@
+✖ circa-1800 roads use earlier detailed geometry and retain all subsequent history (51.701417ms)
+✖ isolated bridge extensions stop when the parent road takes over (2.220167ms)
+✖ reviewed farm roads have one clickable line; source ownership follows year and layer visibility (90.751709ms)
+ℹ tests 652
+ℹ pass 649
+ℹ fail 3
+✖ failing tests:
+✖ circa-1800 roads use earlier detailed geometry and retain all subsequent history (51.701417ms)
+✖ isolated bridge extensions stop when the parent road takes over (2.220167ms)
+✖ reviewed farm roads have one clickable line; source ownership follows year and layer visibility (90.751709ms)

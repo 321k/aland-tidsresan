@@ -164,3 +164,17 @@ Files:
 - `scope-audit-sund.json`;
 - `batch-postal-route-sund.patch` with `patch-verification-sund.log`;
 - `node-tests-sund.log`.
+
+## The route on the roads, and the parish maps 1928–1929: done 2026-11-23
+
+See `docs/postal-route-roads.md` and `docs/postal-route-1929.md`. The route is drawn on dated roads between the post
+stations: Frebbenby → Emkarby from 1929, the other land legs from 1968. Still open: the 1929 roads at Färjsundet and
+through Haraldsby, the Lappböle sheet edge before 1968, and the Storby harbour before 1968.
+
+Files:
+- `scripts/prepare_1929.py`;
+- `route_survey.py`, which now takes `VERBOSE=1` to list the objects on each leg;
+- the renders `p29-*`, `p44-*`, `b68-farjz.jpg` and `farj-29-68.jpg`;
+- `scope-audit-1929.json`;
+- `batch-postal-route-roads.patch` with `patch-verification-roads.log`;
+- `node-tests-roads.log`.

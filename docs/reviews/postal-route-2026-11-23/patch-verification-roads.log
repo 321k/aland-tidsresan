@@ -1,0 +1,29 @@
+== forward on before-copies
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+patching file 'dist/archive.js'
+patching file 'dist/explorer.js'
+patching file 'tests/transport-routes.test.cjs'
+patching file 'dist/assets/historical-roads.json'
+patching file 'tests/emkarby-road-continuity.test.cjs'
+patching file 'tests/qgis-roads.test.cjs'
+patching file 'tests/hammarlandsvagen-atlas.test.cjs'
+identical: scripts/build_temporal_objects.py
+identical: dist/index.html
+identical: dist/archive.js
+identical: dist/explorer.js
+identical: tests/transport-routes.test.cjs
+identical: dist/assets/historical-roads.json
+identical: tests/emkarby-road-continuity.test.cjs
+identical: tests/qgis-roads.test.cjs
+identical: tests/hammarlandsvagen-atlas.test.cjs
+== reverse dry run on working tree
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+patching file 'dist/archive.js'
+patching file 'dist/explorer.js'
+patching file 'tests/transport-routes.test.cjs'
+patching file 'dist/assets/historical-roads.json'
+patching file 'tests/emkarby-road-continuity.test.cjs'
+patching file 'tests/qgis-roads.test.cjs'
+patching file 'tests/hammarlandsvagen-atlas.test.cjs'

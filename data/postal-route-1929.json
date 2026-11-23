@@ -1,0 +1,260 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "postalRoute1929Review",
+ "geometryPrefix": "geometry:postal-route-1929:",
+ "source": {
+  "id": "review:postal-route-1929",
+  "title": "Postvägen genom Gölby och Godby på sockenkartorna 1928 och 1929 · granskning",
+  "url": "assets/postal-route-1929.json"
+ },
+ "sources": [],
+ "maps": {
+  "1928-jomala": {
+   "sourceId": "nls:9c76c492-3fb4-43dd-8cc7-eb03d2a00ecd",
+   "year": 1928
+  },
+  "1929-saltvik": {
+   "sourceId": "nls:map-38157483",
+   "year": 1929
+  },
+  "1929-hammarby": {
+   "sourceId": "nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08",
+   "year": 1929
+  },
+  "1944-saltvik": {
+   "sourceId": "nls:map-38147682",
+   "year": 1944
+  }
+ },
+ "method": "Sockenkartorna för Jomala 1928, Saltvik 1929 (och utgåvan 1944) och Hammarby 1929 har lagts över katalogens vägar med ett rutnät på 100 m.",
+ "early": [
+  {
+   "objectId": "road:jomala:postgardsvagen",
+   "inputHash": "d42c0e7c5b94add57b77935b983d24607f50977dbab258f3a5702ab32b19a5f1",
+   "geometryId": "geometry:jomala:postgardsvagen",
+   "geometryHash": "b9f488cf5fd5ec387012edf62dc0aadfbe25f692bd32d875d817f48deab37936",
+   "lengthMeters": 701.6,
+   "firstYear": 1928,
+   "until": 1968,
+   "maps": {
+    "1928-jomala": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     701.6
+    ]
+   ]
+  },
+  {
+   "objectId": "road:jomala:godbyvagen:golby-junction",
+   "inputHash": "1d05a82124f5bdaa8386709b6d91e7488b1a63dcd81319dd61f80d16fc39d7b1",
+   "geometryId": "geometry:jomala:godbyvagen:golby-junction",
+   "geometryHash": "6d5e84b652061786164a51ae93ac7811d02e829616e18c5a65fb04c4cf9c98ea",
+   "lengthMeters": 22.2,
+   "firstYear": 1928,
+   "until": 1968,
+   "maps": {
+    "1928-jomala": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     22.2
+    ]
+   ]
+  },
+  {
+   "objectId": "road:jomala:godbyvagen:bjorkang",
+   "inputHash": "f1226a6771e5932468b8564cdbbc3496eb2045d259006ba92c7f1db5f6db536d",
+   "geometryId": "geometry:jomala:godbyvagen:bjorkang",
+   "geometryHash": "a70d7a80c02ac57386893f31b4c83257330acf5f52d822f0481fc073a7ca50f5",
+   "lengthMeters": 115.6,
+   "firstYear": 1928,
+   "until": 1968,
+   "maps": {
+    "1928-jomala": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     115.6
+    ]
+   ]
+  },
+  {
+   "objectId": "road:finstrom:godby-korsningen",
+   "inputHash": "677bc057aec62f93cc9a63b02503369e4c47cdcbd87b07b1bb491fe7523e966e",
+   "geometryId": "geometry:finstrom:godby-korsningen",
+   "geometryHash": "5eb85e1ce97ae3fa114be9235da94684f9cd65565caa95417e0020b5908856c5",
+   "lengthMeters": 113.4,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     113.4
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:saltvik:von-knorringsvagen-1-batch4",
+   "inputHash": "0f54d3f423a7e2aa26ede2fd740b9790fd9ea29945e4023ffd0dd974cd46c81b",
+   "geometryId": "geometry:qgis:38f182f727d1ccec195e",
+   "geometryHash": "09be22a918adff801c7ba034d965e0b49279700dd77174432b035277f492aa06",
+   "lengthMeters": 1355.5,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-saltvik": "present",
+    "1944-saltvik": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     1355.5
+    ]
+   ]
+  },
+  {
+   "objectId": "road:rural:hammarland-way-459195076",
+   "inputHash": "cb559cc81d0466375286dc11d000695c86c031b5d15d53fd5989035c8b156712",
+   "geometryId": "geometry:b43ab7e85471aa874824",
+   "geometryHash": "2e140a3211c24d0d6d77f7043f09ee82cf7059fd1f86ea03b79a44d1e18ac3a3",
+   "lengthMeters": 41.0,
+   "firstYear": 1929,
+   "until": 1968,
+   "maps": {
+    "1929-hammarby": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     41.0
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:jomala:postgardsvagen": "Huvudvägen från Bergens österut förbi Fagerholm och Norrgård till Godbyvägen vid Gölby. Sockenkartan för Jomala 1928 ritar den på samma linje, inom 10–20 m.",
+  "road:jomala:godbyvagen:golby-junction": "Godbyvägen vid bäcken i Gölby, där Postgårdsvägen tar av. Sockenkartan 1928 ritar vägen här.",
+  "road:jomala:godbyvagen:bjorkang": "Godbyvägen vid Björkäng. Sockenkartan 1928 ritar vägen rakt norrut 20–40 m väster om biten, inom kartans fel här; biten är vägen på kartan.",
+  "road:finstrom:godby-korsningen": "Korsningen i Godby, där Godbyvägen möter vägen mot Färjsundet. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar vägen här, 30–40 m västerut som hela von Knorringsvägen: bladets förskjutning.",
+  "road:qgis:saltvik:von-knorringsvagen-1-batch4": "Huvudvägen från korsningen i Godby mot nordost förbi Östergård och Andersby. Sockenkartan för Saltvik 1929 och utgåvan 1944 ritar den på samma linje, inom 20–40 m.",
+  "road:rural:hammarland-way-459195076": "En kort bit av huvudvägen i Hammarland mellan två delar av Emkarbyvägen. Sockenkartan för Hammarby 1929 ritar vägen här."
+ },
+ "geometryNote": "Objektets egen geometri (samma koordinater), där vägen är vägen på sockenkartan.",
+ "split": [
+  {
+   "objectId": "road:emkarbyvagen",
+   "geometryId": "geometry:1ed743bde36c0e86aeff",
+   "from": 1894,
+   "to": 1968,
+   "at": 1928
+  }
+ ],
+ "extend": [
+  {
+   "objectId": "road:emkarbyvagen",
+   "inputHash": "7d92fb19f8710f28e867ddcdf91b4b89c1f4ce2d7716a441835cb2f96783e750",
+   "wholeGeometryId": "geometry:e76742ec1a46df8ce6ea",
+   "wholeGeometryHash": "6ba2a5e5b5a37e1872142d8bbc8f38e67ada4083c101ac1eb07733c38a594b39",
+   "periods": [
+    {
+     "from": 1928,
+     "to": 1968,
+     "geometryId": "geometry:1ed743bde36c0e86aeff",
+     "geometryHash": "22007ada706f5e7e7e2cc2e85c4bde7d1b005fa10324c6f1d3c406b15c7b6bc4",
+     "range": [
+      8702.9,
+      10227.7
+     ],
+     "maps": {
+      "1928-jomala": "present"
+     },
+     "bend": {
+      "leaveAt": 8860.0,
+      "rejoinAt": 9422.9,
+      "points": [
+       [
+        19.9172305,
+        60.2040843
+       ],
+       [
+        19.9181343,
+        60.2036491
+       ],
+       [
+        19.9197573,
+        60.2036052
+       ],
+       [
+        19.9215606,
+        60.2035704
+       ],
+       [
+        19.922549,
+        60.203516
+       ],
+       [
+        19.923347,
+        60.203473
+       ],
+       [
+        19.923713,
+        60.203411
+       ],
+       [
+        19.92389,
+        60.203368
+       ],
+       [
+        19.924504,
+        60.203139
+       ],
+       [
+        19.92499,
+        60.202928
+       ],
+       [
+        19.925362,
+        60.202714
+       ],
+       [
+        19.925463,
+        60.202653
+       ],
+       [
+        19.925688,
+        60.202493
+       ],
+       [
+        19.925909,
+        60.202268
+       ],
+       [
+        19.926063,
+        60.202048
+       ],
+       [
+        19.926249,
+        60.201839
+       ],
+       [
+        19.9261545,
+        60.2017542
+       ]
+      ],
+      "basis": "Sockenkartan för Jomala 1928 ritar huvudvägen från Tingsbacka österut och i en båge till Buskböle, på samma linje som grundkartan 1968 (10–30 m). Bågen är samma väg som i perioden från 1968."
+     },
+     "note": "Österut från Tingsbacka i bågen förbi Buskböle till Bergens, där vägen svängde österut längs dagens Postgårdsvägen (sockenkartan för Jomala 1928). Perioden från 1894 delas vid 1928; före 1928 visas sträckan inte."
+    }
+   ]
+  }
+ ]
+}

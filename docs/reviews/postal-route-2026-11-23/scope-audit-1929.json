@@ -1,0 +1,41 @@
+{
+ "sources": {
+  "added": [
+   "review:postal-route-1929"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "geometries": {
+  "added": [
+   "geometry:postal-route-1929:bjorkang",
+   "geometry:postal-route-1929:emkarbyvagen:1928-1968",
+   "geometry:postal-route-1929:godby-korsningen",
+   "geometry:postal-route-1929:golby-junction",
+   "geometry:postal-route-1929:hammarland-way-459195076",
+   "geometry:postal-route-1929:postgardsvagen",
+   "geometry:postal-route-1929:von-knorringsvagen-1-batch4"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:emkarbyvagen",
+   "road:finstrom:godby-korsningen",
+   "road:jomala:godbyvagen:bjorkang",
+   "road:jomala:godbyvagen:golby-junction",
+   "road:jomala:postgardsvagen",
+   "road:qgis:saltvik:von-knorringsvagen-1-batch4",
+   "road:rural:hammarland-way-459195076"
+  ]
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "historical-roads.json": "atlas-1894-1 replacementIntervals: the 1929 pieces now replace the atlas line"
+}

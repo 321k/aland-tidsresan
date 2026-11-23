@@ -71,6 +71,7 @@ for year in map(int, sys.argv[1:]):
                 if not used or used[-1] != oid: used.append(oid)
             used = used[::-1]
             firsts = sorted({info[o][1] for o in used})
+            if __import__("os").environ.get("VERBOSE"): print("    " + " → ".join(f"{o} ({info[o][1]})" for o in used))
             print(f'  {n1} → {n2}: straight {straight/1000:.1f} km, by road {dist[t]/1000:.1f} km; stops {ds:.0f} m / {dt:.0f} m off; {len(used)} objects, first years {firsts[:6]}{"…" if len(firsts)>6 else ""}; latest-dated {max([info[o][1] for o in used], default=None)}')
         else:
             reach = [k for k in dist]; rp = [Point(nodes[k]) for k in reach]
