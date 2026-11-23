@@ -1,0 +1,37 @@
+{
+ "objects": {
+  "added": [
+   "road:eckero:eckerovagen:storby-hamn",
+   "road:eckero:sandmovagen:posthuset"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "geometries": {
+  "added": [
+   "geometry:eckero:eckerovagen:storby-hamn",
+   "geometry:eckero:sandmovagen:posthuset"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "nls:101215:1968",
+   "nls:101215:1978",
+   "nls:101215:1985",
+   "nls:101215:1994",
+   "review:postal-route-storby",
+   "road:eckero:eckerovagen:storby-hamn:survey",
+   "road:eckero:sandmovagen:posthuset:survey"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "other": []
+}

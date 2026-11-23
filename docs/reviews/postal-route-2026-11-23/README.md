@@ -125,3 +125,29 @@ Renders: `vardo-ov-1985.jpg`, `tofto-sheet.jpg` (1970, 1978), `toftos-sheet.jpg`
 See `docs/postal-route-vardo.md`. Added for this step: `scripts/prepare_vardo.py`, the renders `vbend-*`,
 `scope-audit-vardo.json`, `batch-postal-route-vardo.patch` with `patch-verification-vardo.log`, and
 `node-tests-vardo.log`.
+
+## Storby end (first look, 2026-11-23)
+
+- **The start is the post and customs house.** The route should start at the post and customs house by Storby harbour
+  (`building:osm:way-342899630`, E 20 474 707 N 6 678 693), not at the village point.
+- **Connections.** From Labbas to Frebbenby the catalogue's roads already connect in 1968 and 2000. From the post house
+  nothing is dated: Eckerövägen's west end (OSM 25208185 and the junction pieces 174570487, 174570484, 172716458,
+  174570483, 1182793512) and the access on Sandmovägen belong to no object in any year.
+- **Which maps cover the harbour.**
+  - The harbour lies on base-map sheet 1012 15, which NLS printed together with 0034 15 (1968, 1978, 1985) and with
+    1012 03 (1994).
+  - The scans are in the local cache, but only the 1994 one is registered, and its mesh covers just the 1012 03 part.
+  - The 1929 Eckerö parish map (map-39091228) and its 1956 edition also stop at about E 20 475 200.
+  - No source in `data/historical-map-sources.json` covers the post house.
+- **The 1994 scan, extrapolated** (`renders/harbour-1994.jpg`), marks "Post/Posti" at the post house and draws
+  Eckerövägen from Labbas round to it, 10–20 m from OSM. `scripts/rural_registration.py` does not allow evidence from
+  outside a registered frame, so this is only a screening.
+- **To document the stretch:** register sheet 1012 15 from the cached scans (1968, 1978, 1985, 1994) on its printed grid.
+
+## Storby on the base maps: done 2026-11-23
+
+See `docs/postal-route-storby.md`. Sheet 1012 15 is registered from the cached scans with these scripts:
+`scripts/grid_crosses.py` and `scripts/make_registration.py`, writing `data/data-reg-*.json` and
+`data/registrations-101215.json`. Also added: `scripts/prepare_storby.py`, the renders `harbour-101215-*` and `reg/`,
+`scope-audit-storby.json`, `batch-postal-route-storby.patch` with `patch-verification-storby.log`, and
+`node-tests-storby.log`.

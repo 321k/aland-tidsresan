@@ -86,6 +86,10 @@ def _check(read, catalog, review):
         # Its ends rest (within 1 m) on the roads it joins, in every period of theirs from its first year on.
         for oid, i in ((nr['start'], 0), (nr['end'], -1)):
             e = Point(line.coords[i])
+            if oid is None:                                         # a stated free end (a quay, a house the road leads to)
+                if not nr.get('freeStartBasis' if i == 0 else 'freeEndBasis'):
+                    raise ValueError('A free end needs a stated basis: ' + nr['id'])
+                continue
             if oid in new_lines:                                    # another new road of this review, listed before
                 if new_lines[oid].distance(e) > END_LIMIT:
                     raise ValueError(f"The new road does not join {oid}: {nr['id']}")

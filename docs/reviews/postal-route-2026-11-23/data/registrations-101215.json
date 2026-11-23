@@ -1,0 +1,574 @@
+{
+ "schemaVersion": 1,
+ "note": "Registreringar av grundkartblad 1012 15 för postvägsgranskningen; används av window.py och som kartkällor i data/postal-route-storby.json.",
+ "sources": [
+  {
+   "id": "nls:101215:1968",
+   "sheet": "003415_101215",
+   "title": "Lantmäteriverket · Skeppsvik/Eckerö 1012 15 · 1968",
+   "year": 1968,
+   "originalUrl": "https://vanhatpainetutkartat.maanmittauslaitos.fi/mml_vanhat_kartat/Painetut_kartat/21_Peruskartta_20k/0/0034/003415/003415_101215_1968.jpg",
+   "originalSha256": "f81c1def6d03fc7f8995da3aa56e968b1ead56a1054a5fe56a4dfdc9f5486a95",
+   "imageSize": [
+    6850,
+    7387
+   ],
+   "registration": {
+    "method": "printed-grid-mesh",
+    "crs": "EPSG:2391",
+    "pixelFrame": [
+     [
+      3789.7,
+      714.1
+     ],
+     [
+      6145.5,
+      656.7
+     ],
+     [
+      6257.4,
+      5394.0
+     ],
+     [
+      3901.6,
+      5451.4
+     ]
+    ],
+    "metricFrame": [
+     [
+      1416000,
+      6680000
+     ],
+     [
+      1420000,
+      6680000
+     ],
+     [
+      1420000,
+      6672000
+     ],
+     [
+      1416000,
+      6672000
+     ]
+    ],
+    "pixelGrid": [
+     [
+      [
+       3789.7,
+       714.1
+      ],
+      [
+       4967.6,
+       685.4
+      ],
+      [
+       6145.5,
+       656.7
+      ]
+     ],
+     [
+      [
+       3845.6,
+       3082.7
+      ],
+      [
+       5023.6,
+       3054.0
+      ],
+      [
+       6201.5,
+       3025.3
+      ]
+     ],
+     [
+      [
+       3901.6,
+       5451.4
+      ],
+      [
+       5079.5,
+       5422.7
+      ],
+      [
+       6257.4,
+       5394.0
+      ]
+     ]
+    ],
+    "checkPoints": [
+     {
+      "pixel": [
+       4392.2,
+       1291.0
+      ],
+      "metric": [
+       1417000,
+       6679000
+      ]
+     },
+     {
+      "pixel": [
+       4981.5,
+       1277.2
+      ],
+      "metric": [
+       1418000,
+       6679000
+      ]
+     },
+     {
+      "pixel": [
+       4448.0,
+       3660.8
+      ],
+      "metric": [
+       1417000,
+       6675000
+      ]
+     },
+     {
+      "pixel": [
+       5051.1,
+       4237.5
+      ],
+      "metric": [
+       1418000,
+       6674000
+      ]
+     }
+    ],
+    "nodeBasis": "Noderna är placerade med en affin anpassning av 18 tryckta kilometerkryss (största avvikelse 3.77 m); 1 420 000- och 6 680 000-linjerna ligger vid eller strax utanför kartramen."
+   },
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.maanmittauslaitos.fi/asioi-verkossa/vanhat-painetut-kartat",
+   "attribution": "© Lantmäteriverket, grundkarta 1012 15, 1968. Manuella tolkningar."
+  },
+  {
+   "id": "nls:101215:1978",
+   "sheet": "003415_101215",
+   "title": "Lantmäteriverket · Skeppsvik/Eckerö 1012 15 · 1978",
+   "year": 1978,
+   "originalUrl": "https://vanhatpainetutkartat.maanmittauslaitos.fi/mml_vanhat_kartat/Painetut_kartat/21_Peruskartta_20k/0/0034/003415/003415_101215_1978.jpg",
+   "originalSha256": "6928428a60fd8d0c7881a70fe892e12478ac5f586f0110728201769259f2f570",
+   "imageSize": [
+    6850,
+    7390
+   ],
+   "registration": {
+    "method": "printed-grid-mesh",
+    "crs": "EPSG:2391",
+    "pixelFrame": [
+     [
+      3772.6,
+      716.6
+     ],
+     [
+      6124.9,
+      658.3
+     ],
+     [
+      6235.8,
+      5394.1
+     ],
+     [
+      3883.5,
+      5452.4
+     ]
+    ],
+    "metricFrame": [
+     [
+      1416000,
+      6680000
+     ],
+     [
+      1420000,
+      6680000
+     ],
+     [
+      1420000,
+      6672000
+     ],
+     [
+      1416000,
+      6672000
+     ]
+    ],
+    "pixelGrid": [
+     [
+      [
+       3772.6,
+       716.6
+      ],
+      [
+       4948.8,
+       687.5
+      ],
+      [
+       6124.9,
+       658.3
+      ]
+     ],
+     [
+      [
+       3828.1,
+       3084.5
+      ],
+      [
+       5004.2,
+       3055.4
+      ],
+      [
+       6180.4,
+       3026.2
+      ]
+     ],
+     [
+      [
+       3883.5,
+       5452.4
+      ],
+      [
+       5059.7,
+       5423.2
+      ],
+      [
+       6235.8,
+       5394.1
+      ]
+     ]
+    ],
+    "checkPoints": [
+     {
+      "pixel": [
+       4375.1,
+       1294.1
+      ],
+      "metric": [
+       1417000,
+       6679000
+      ]
+     },
+     {
+      "pixel": [
+       4964.3,
+       1279.8
+      ],
+      "metric": [
+       1418000,
+       6679000
+      ]
+     },
+     {
+      "pixel": [
+       4431.5,
+       3661.6
+      ],
+      "metric": [
+       1417000,
+       6675000
+      ]
+     },
+     {
+      "pixel": [
+       5029.8,
+       4238.4
+      ],
+      "metric": [
+       1418000,
+       6674000
+      ]
+     }
+    ],
+    "nodeBasis": "Noderna är placerade med en affin anpassning av 15 tryckta kilometerkryss (största avvikelse 3.93 m); 1 420 000- och 6 680 000-linjerna ligger vid eller strax utanför kartramen."
+   },
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.maanmittauslaitos.fi/asioi-verkossa/vanhat-painetut-kartat",
+   "attribution": "© Lantmäteriverket, grundkarta 1012 15, 1978. Manuella tolkningar."
+  },
+  {
+   "id": "nls:101215:1985",
+   "sheet": "003415_101215",
+   "title": "Lantmäteriverket · Skeppsvik/Eckerö 1012 15 · 1985",
+   "year": 1985,
+   "originalUrl": "https://vanhatpainetutkartat.maanmittauslaitos.fi/mml_vanhat_kartat/Painetut_kartat/21_Peruskartta_20k/0/0034/003415/003415_101215_1985.jpg",
+   "originalSha256": "11ef6b7e8cf430ed5af50a53de5d4d62f9dea2576691144c424e889648814635",
+   "imageSize": [
+    8858,
+    7035
+   ],
+   "registration": {
+    "method": "printed-grid-mesh",
+    "crs": "EPSG:2391",
+    "pixelFrame": [
+     [
+      3961.6,
+      584.6
+     ],
+     [
+      6313.9,
+      530.8
+     ],
+     [
+      6418.2,
+      5268.0
+     ],
+     [
+      4065.9,
+      5321.7
+     ]
+    ],
+    "metricFrame": [
+     [
+      1416000,
+      6680000
+     ],
+     [
+      1420000,
+      6680000
+     ],
+     [
+      1420000,
+      6672000
+     ],
+     [
+      1416000,
+      6672000
+     ]
+    ],
+    "pixelGrid": [
+     [
+      [
+       3961.6,
+       584.6
+      ],
+      [
+       5137.7,
+       557.7
+      ],
+      [
+       6313.9,
+       530.8
+      ]
+     ],
+     [
+      [
+       4013.7,
+       2953.2
+      ],
+      [
+       5189.9,
+       2926.3
+      ],
+      [
+       6366.0,
+       2899.4
+      ]
+     ],
+     [
+      [
+       4065.9,
+       5321.7
+      ],
+      [
+       5242.0,
+       5294.8
+      ],
+      [
+       6418.2,
+       5268.0
+      ]
+     ]
+    ],
+    "checkPoints": [
+     {
+      "pixel": [
+       4575.8,
+       1754.7
+      ],
+      "metric": [
+       1417000,
+       6678000
+      ]
+     },
+     {
+      "pixel": [
+       5152.6,
+       1150.4
+      ],
+      "metric": [
+       1418000,
+       6679000
+      ]
+     },
+     {
+      "pixel": [
+       4614.9,
+       3531.2
+      ],
+      "metric": [
+       1417000,
+       6675000
+      ]
+     },
+     {
+      "pixel": [
+       5217.6,
+       4110.8
+      ],
+      "metric": [
+       1418000,
+       6674000
+      ]
+     }
+    ],
+    "nodeBasis": "Noderna är placerade med en affin anpassning av 17 tryckta kilometerkryss (största avvikelse 3.53 m); 1 420 000- och 6 680 000-linjerna ligger vid eller strax utanför kartramen."
+   },
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.maanmittauslaitos.fi/asioi-verkossa/vanhat-painetut-kartat",
+   "attribution": "© Lantmäteriverket, grundkarta 1012 15, 1985. Manuella tolkningar."
+  },
+  {
+   "id": "nls:101215:1994",
+   "sheet": "101203_101215",
+   "title": "Lantmäteriverket · Skeppsvik/Eckerö 1012 15 · 1994",
+   "year": 1994,
+   "originalUrl": "https://vanhatpainetutkartat.maanmittauslaitos.fi/mml_vanhat_kartat/Painetut_kartat/21_Peruskartta_20k/1/1012/101203/101203_101215_1994.jpg",
+   "originalSha256": "3f12a2786d83f2eb26e1800109e3d949ac422ffee96261d01ee46cbd688ae98b",
+   "imageSize": [
+    10512,
+    6918
+   ],
+   "registration": {
+    "method": "printed-grid-mesh",
+    "crs": "EPSG:2391",
+    "pixelFrame": [
+     [
+      1630.1,
+      308.9
+     ],
+     [
+      3998.4,
+      328.6
+     ],
+     [
+      3956.5,
+      5063.9
+     ],
+     [
+      1588.2,
+      5044.2
+     ]
+    ],
+    "metricFrame": [
+     [
+      1416000,
+      6680000
+     ],
+     [
+      1420000,
+      6680000
+     ],
+     [
+      1420000,
+      6672000
+     ],
+     [
+      1416000,
+      6672000
+     ]
+    ],
+    "pixelGrid": [
+     [
+      [
+       1630.1,
+       308.9
+      ],
+      [
+       2814.3,
+       318.8
+      ],
+      [
+       3998.4,
+       328.6
+      ]
+     ],
+     [
+      [
+       1609.2,
+       2676.6
+      ],
+      [
+       2793.3,
+       2686.4
+      ],
+      [
+       3977.5,
+       2696.3
+      ]
+     ],
+     [
+      [
+       1588.2,
+       5044.2
+      ],
+      [
+       2772.4,
+       5054.0
+      ],
+      [
+       3956.5,
+       5063.9
+      ]
+     ]
+    ],
+    "checkPoints": [
+     {
+      "pixel": [
+       2217.0,
+       906.2
+      ],
+      "metric": [
+       1417000,
+       6679000
+      ]
+     },
+     {
+      "pixel": [
+       2810.6,
+       910.7
+      ],
+      "metric": [
+       1418000,
+       6679000
+      ]
+     },
+     {
+      "pixel": [
+       2195.3,
+       3274.2
+      ],
+      "metric": [
+       1417000,
+       6675000
+      ]
+     },
+     {
+      "pixel": [
+       2782.9,
+       3870.2
+      ],
+      "metric": [
+       1418000,
+       6674000
+      ]
+     }
+    ],
+    "nodeBasis": "Noderna är placerade med en affin anpassning av 38 tryckta kilometerkryss (största avvikelse 3.99 m); 1 420 000- och 6 680 000-linjerna ligger vid eller strax utanför kartramen."
+   },
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.maanmittauslaitos.fi/asioi-verkossa/vanhat-painetut-kartat",
+   "attribution": "© Lantmäteriverket, grundkarta 1012 15, 1994. Manuella tolkningar."
+  }
+ ]
+}

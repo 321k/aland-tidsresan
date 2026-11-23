@@ -7,6 +7,11 @@ import maps
 from mariehamn_frame_1942 import TO_METRIC
 from shapely.geometry import LineString, box
 from PIL import ImageDraw
+import os as _os
+if _os.environ.get('SHEETS_EXTRA'):                                # extra registered scans (a review's registrations file)
+    maps.SHEETS.update({x['id']: x for x in json.load(open(_os.environ['SHEETS_EXTRA']))['sources']})
+if sys.argv[1].startswith('map-'):                               # a paituli parish map by its map id (tile server)
+    maps.MAPS[sys.argv[1]] = {'tiles_url': f'https://historicmaps2.vanhatkartat.fi/maps/mml/{sys.argv[1]}/{{z}}/{{x}}/{{y}}.png'}
 key, cx, cy, h, S, year, out = sys.argv[1], float(sys.argv[2]), float(sys.argv[3]), float(sys.argv[4]), int(sys.argv[5]), int(sys.argv[6]), sys.argv[7]
 im, f = (maps.scan_window(key, cx, cy, h, S) if key.startswith('nls:') else maps.tile_window(key, int(__import__('os').environ.get('Z', 15)), cx, cy, h, S)); dr = ImageDraw.Draw(im)
 step = 100 if h <= 800 else 200

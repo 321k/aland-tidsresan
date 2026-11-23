@@ -1,0 +1,538 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "maps": {
+  "1968-storby": {
+   "sourceId": "nls:101215:1968",
+   "year": 1968
+  },
+  "1978-storby": {
+   "sourceId": "nls:101215:1978",
+   "year": 1978
+  },
+  "1985-storby": {
+   "sourceId": "nls:101215:1985",
+   "year": 1985
+  },
+  "1994-storby": {
+   "sourceId": "nls:101215:1994",
+   "year": 1994
+  },
+  "1968-eckero": {
+   "sourceId": "nls:101203:1968",
+   "year": 1968
+  },
+  "1978-eckero": {
+   "sourceId": "nls:101203:1978",
+   "year": 1978
+  },
+  "1985-eckero": {
+   "sourceId": "nls:101203:1985",
+   "year": 1985
+  }
+ },
+ "stagePrefix": "postal-route-storby",
+ "mapSources": [
+  {
+   "id": "nls:101215:1968",
+   "title": "Lantmäteriverket · Skeppsvik/Eckerö 1012 15 · 1968",
+   "year": 1968,
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.maanmittauslaitos.fi/asioi-verkossa/vanhat-painetut-kartat",
+   "attribution": "© Lantmäteriverket, grundkarta 1012 15, 1968. Manuella tolkningar.",
+   "url": "https://vanhatpainetutkartat.maanmittauslaitos.fi/mml_vanhat_kartat/Painetut_kartat/21_Peruskartta_20k/0/0034/003415/003415_101215_1968.jpg",
+   "issuedAt": "1968"
+  },
+  {
+   "id": "nls:101215:1978",
+   "title": "Lantmäteriverket · Skeppsvik/Eckerö 1012 15 · 1978",
+   "year": 1978,
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.maanmittauslaitos.fi/asioi-verkossa/vanhat-painetut-kartat",
+   "attribution": "© Lantmäteriverket, grundkarta 1012 15, 1978. Manuella tolkningar.",
+   "url": "https://vanhatpainetutkartat.maanmittauslaitos.fi/mml_vanhat_kartat/Painetut_kartat/21_Peruskartta_20k/0/0034/003415/003415_101215_1978.jpg",
+   "issuedAt": "1978"
+  },
+  {
+   "id": "nls:101215:1985",
+   "title": "Lantmäteriverket · Skeppsvik/Eckerö 1012 15 · 1985",
+   "year": 1985,
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.maanmittauslaitos.fi/asioi-verkossa/vanhat-painetut-kartat",
+   "attribution": "© Lantmäteriverket, grundkarta 1012 15, 1985. Manuella tolkningar.",
+   "url": "https://vanhatpainetutkartat.maanmittauslaitos.fi/mml_vanhat_kartat/Painetut_kartat/21_Peruskartta_20k/0/0034/003415/003415_101215_1985.jpg",
+   "issuedAt": "1985"
+  },
+  {
+   "id": "nls:101215:1994",
+   "title": "Lantmäteriverket · Skeppsvik/Eckerö 1012 15 · 1994",
+   "year": 1994,
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://www.maanmittauslaitos.fi/asioi-verkossa/vanhat-painetut-kartat",
+   "attribution": "© Lantmäteriverket, grundkarta 1012 15, 1994. Manuella tolkningar.",
+   "url": "https://vanhatpainetutkartat.maanmittauslaitos.fi/mml_vanhat_kartat/Painetut_kartat/21_Peruskartta_20k/1/1012/101203/101203_101215_1994.jpg",
+   "issuedAt": "1994"
+  }
+ ],
+ "source": {
+  "id": "review:postal-route-storby",
+  "title": "Postvägens början vid post- och tullhuset i Storby på grundkartorna · granskning",
+  "url": "assets/postal-route-storby.json"
+ },
+ "method": "Grundkartbladet 1012 15 är registrerat på sitt tryckta KKJ-rutnät (kilometerkryss, största avvikelse 4 m; docs/reviews/postal-route-2026-11-23/data/registrations-101215.json) och lagt över dagens vägar med ett rutnät på 100 m, tillsammans med bladet 1012 03.",
+ "surveySources": [
+  {
+   "id": "road:eckero:eckerovagen:storby-hamn:survey",
+   "title": "OpenStreetMap · Eckerövägen i Storby",
+   "url": "https://www.openstreetmap.org/way/25208185",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:eckero:sandmovagen:posthuset:survey",
+   "title": "OpenStreetMap · Sandmovägen vid post- och tullhuset",
+   "url": "https://www.openstreetmap.org/way/1066815068",
+   "issuedAt": "2026"
+  }
+ ],
+ "newRoads": [
+  {
+   "id": "road:eckero:eckerovagen:storby-hamn",
+   "name": "Eckerövägen · Storby hamn–Labbas",
+   "routeId": "road:route:postvagen",
+   "modernRoadClass": "primary",
+   "roadWidth": 6,
+   "firstYear": 1968,
+   "surveySourceId": "road:eckero:eckerovagen:storby-hamn:survey",
+   "maps": {
+    "1968-storby": "present",
+    "1978-storby": "present",
+    "1985-storby": "present",
+    "1994-storby": "present",
+    "1968-eckero": "present",
+    "1978-eckero": "present",
+    "1985-eckero": "present"
+   },
+   "start": null,
+   "freeStartBasis": "Vägskälet vid Krogarviken, där vägen till post- och tullhuset tar av och huvudvägen fortsätter mot Berghamns hamn (inte granskad här).",
+   "end": "road:marsund:eckero-hammarland",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.544475,
+      60.221589
+     ],
+     [
+      19.545375,
+      60.221621
+     ],
+     [
+      19.545925,
+      60.221727
+     ],
+     [
+      19.546191,
+      60.221811
+     ],
+     [
+      19.546453,
+      60.221888
+     ],
+     [
+      19.547262,
+      60.222154
+     ],
+     [
+      19.54823,
+      60.222445
+     ],
+     [
+      19.549513,
+      60.222734
+     ],
+     [
+      19.549857,
+      60.222812
+     ],
+     [
+      19.550077,
+      60.22285
+     ],
+     [
+      19.550442,
+      60.222914
+     ],
+     [
+      19.550951,
+      60.22299
+     ],
+     [
+      19.55147,
+      60.223062
+     ],
+     [
+      19.552207,
+      60.22315
+     ],
+     [
+      19.552522,
+      60.22319
+     ],
+     [
+      19.553037,
+      60.223257
+     ],
+     [
+      19.553276,
+      60.223286
+     ],
+     [
+      19.553307,
+      60.22329
+     ],
+     [
+      19.554,
+      60.223371
+     ],
+     [
+      19.554026,
+      60.223374
+     ],
+     [
+      19.554228,
+      60.223375
+     ],
+     [
+      19.554375,
+      60.223372
+     ],
+     [
+      19.554499,
+      60.223362
+     ],
+     [
+      19.55454,
+      60.223356
+     ],
+     [
+      19.554582,
+      60.223356
+     ],
+     [
+      19.554623,
+      60.223363
+     ],
+     [
+      19.554657,
+      60.223376
+     ],
+     [
+      19.554764,
+      60.223393
+     ],
+     [
+      19.55489,
+      60.223412
+     ],
+     [
+      19.555039,
+      60.223425
+     ],
+     [
+      19.555132,
+      60.223433
+     ],
+     [
+      19.555229,
+      60.223447
+     ],
+     [
+      19.555464,
+      60.223449
+     ],
+     [
+      19.555841,
+      60.223444
+     ],
+     [
+      19.55618,
+      60.223434
+     ],
+     [
+      19.556808,
+      60.223385
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/25208185",
+     "sourceVertexRange": [
+      0,
+      16
+     ],
+     "sourceVertexCount": 29,
+     "input": "3bc5a9e03968bc073c99fb636a54d8ba87b58d5d9a7ed8c1930cf2c0e558a0e4",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år.",
+     "reverse": true,
+     "partialBasis": "Resten av vägen (vertex 16–28) är vägen vidare mot Berghamns hamn, som inte granskas här."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/174570487",
+     "sourceVertexRange": [
+      0,
+      3
+     ],
+     "sourceVertexCount": 4,
+     "input": "32d0623543a43b719d99226ccd2d4f82ebde73dd9825dd0ae7321e801e0dc69c",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-174570487",
+     "sourceVertexRange": [
+      0,
+      3
+     ],
+     "sourceVertexCount": 4,
+     "input": "32d0623543a43b719d99226ccd2d4f82ebde73dd9825dd0ae7321e801e0dc69c",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-174570487",
+     "sourceVertexRange": [
+      0,
+      3
+     ],
+     "sourceVertexCount": 4,
+     "input": "32d0623543a43b719d99226ccd2d4f82ebde73dd9825dd0ae7321e801e0dc69c",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/174570484",
+     "sourceVertexRange": [
+      0,
+      3
+     ],
+     "sourceVertexCount": 4,
+     "input": "74c3ef1dc1ba67476a7b31a892b6cc7a8b64db1e1f200e5e2d90ad8da7d51202",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-174570484",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "8d49b3c5a6cfbc6a88ceb68acd11b25043b1df601d010463f844cf2df13b0bbf",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-174570484",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "16dd13f578ba96b72ebb611fee5012be1edcb4686db131570ad81a799f34cdfc",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2014",
+     "featureId": "road-2014-174570484",
+     "sourceVertexRange": [
+      0,
+      1
+     ],
+     "sourceVertexCount": 2,
+     "input": "b215f1a187b98ee4308a8d89b1c318d55817186957d552d895edf295d36716f0",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/172716458",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "7664fdb54de8e42c422e7f309cd7cca255bfaee4a347da45892375a8401f4d30",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-172716458",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "7664fdb54de8e42c422e7f309cd7cca255bfaee4a347da45892375a8401f4d30",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-172716458",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "03cbfae45c25a8c042c236a2bb3852e5cdd4c1cb076781f92fd28607f11b217b",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/174570483",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "5f22b8a37940f0107ba05f9e78b12b1fa11e6fd8985809add9fc20acdeb8a567",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-174570483",
+     "sourceVertexRange": [
+      0,
+      5
+     ],
+     "sourceVertexCount": 6,
+     "input": "5f22b8a37940f0107ba05f9e78b12b1fa11e6fd8985809add9fc20acdeb8a567",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-174570483",
+     "sourceVertexRange": [
+      0,
+      9
+     ],
+     "sourceVertexCount": 10,
+     "input": "a1695e72d924b1a5075e31a6c25f170f9f6c6dc9cc8dfc493be4071504ea8b56",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1182793512",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "482893b81ead80605d2e6c2646d89780e81505530b43022f3ae5b282e0de5775",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1182793512",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "818444cf374103013dc17939794590dace512c44190975d945ebecc500052fa0",
+     "basis": "Huvudvägen från Labbas till vägskälet vid Krogarviken i Storby, som den kartlagts detta år.",
+     "reverse": true
+    }
+   ],
+   "basis": "Huvudvägen i Storby från Labbas sydväst förbi Krogarviken till vägskälet vid post- och tullhuset. Grundkartorna 1012 15 och 1012 03 ritar den 1968, 1978, 1985 och 1994. Den saknades i katalogen eftersom bladet 1012 15 inte var registrerat.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (Eckerövägen, way 25208185 till vägskälet, och fyra anslutningsbitar), använd som stabilt läge från 1968."
+  },
+  {
+   "id": "road:eckero:sandmovagen:posthuset",
+   "name": "Sandmovägen · vid post- och tullhuset",
+   "routeId": "road:route:postvagen",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 4,
+   "firstYear": 1968,
+   "surveySourceId": "road:eckero:sandmovagen:posthuset:survey",
+   "maps": {
+    "1968-storby": "present",
+    "1978-storby": "present",
+    "1985-storby": "present",
+    "1994-storby": "present"
+   },
+   "start": "road:eckero:eckerovagen:storby-hamn",
+   "end": null,
+   "freeEndBasis": "Post- och tullhuset i Storby (building:osm:way-342899630), postvägens början på Åland; vägen fortsätter som Sandmovägens slinga (inte granskad här).",
+   "joinMeters": 1,
+   "paths": [
+    [
+     [
+      19.544475,
+      60.221589
+     ],
+     [
+      19.5444,
+      60.221437
+     ],
+     [
+      19.544241,
+      60.221139
+     ],
+     [
+      19.543758,
+      60.220802
+     ],
+     [
+      19.543454,
+      60.220588
+     ]
+    ]
+   ],
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1066815068",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "6ba7dbb4830ed6a0b3dca49433111285f56d9e84b271fbee1444f79532435b8f",
+     "basis": "Vägen från vägskälet vid Krogarviken förbi post- och tullhuset, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1066815068",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 3,
+     "input": "6ba7dbb4830ed6a0b3dca49433111285f56d9e84b271fbee1444f79532435b8f",
+     "basis": "Vägen från vägskälet vid Krogarviken förbi post- och tullhuset, som den kartlagts detta år."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/25208110",
+     "sourceVertexRange": [
+      0,
+      2
+     ],
+     "sourceVertexCount": 55,
+     "input": "2b64d4a4012b03cb1f872e6f96c8718aa64e4876d575b364b24aad2e72f66297",
+     "basis": "Vägen från vägskälet vid Krogarviken förbi post- och tullhuset, som den kartlagts detta år.",
+     "partialBasis": "Resten av vägen är Sandmovägens slinga österut, som inte granskas här."
+    }
+   ],
+   "basis": "Vägen från vägskälet vid Krogarviken söderut förbi post- och tullhuset (\"Post Tull\", \"Post Posti\"). Grundkartorna 1012 15 ritar den 1968–1994.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (Sandmovägen, way 1066815068 och början av way 25208110), använd som stabilt läge från 1968."
+  }
+ ],
+ "stageFeatures": []
+}
