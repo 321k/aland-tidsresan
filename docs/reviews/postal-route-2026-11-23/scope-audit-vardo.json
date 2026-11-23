@@ -1,0 +1,29 @@
+{
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:qgis:vardo:vardovagen-200km1"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:postal-route-vardo:vardovagen-200km1"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:postal-route-vardo"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStages": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "other": []
+}

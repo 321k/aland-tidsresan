@@ -1,0 +1,52 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:postal-route-vardo:",
+ "source": {
+  "id": "review:postal-route-vardo",
+  "title": "Vårdövägen genom Vargata på grundkartorna 1971 och 1978 · granskning",
+  "url": "assets/postal-route-vardo.json"
+ },
+ "sources": [],
+ "maps": {
+  "1971-vardo": {
+   "sourceId": "nls:102301:1971",
+   "year": 1971
+  },
+  "1978-vardo": {
+   "sourceId": "nls:102301:1978",
+   "year": 1978
+  }
+ },
+ "method": "Grundkartan 1023 01 (1971, 1978, 1985, 1995) har lagts över dagens vägar med ett rutnät på 100 m.",
+ "early": [
+  {
+   "objectId": "road:qgis:vardo:vardovagen-200km1",
+   "inputHash": "2589675061f9b269c2f17d2be609c2d4165363da57baf5c8b1bc63d0a26de663",
+   "geometryId": "geometry:qgis:2164e4356df71520ec9b",
+   "geometryHash": "1e6ae0bffb3ddb515daf8408c554f2b760b1c7f2589673f1f3c647ec84d24f33",
+   "lengthMeters": 3587.6,
+   "firstYear": 1971,
+   "until": 1985,
+   "maps": {
+    "1971-vardo": "present",
+    "1978-vardo": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     2096.3
+    ],
+    [
+     2401.5,
+     3587.6
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:vardo:vardovagen-200km1": "Vårdövägen från färjläget vid Kumnäs in i Vargata och österut från Drottning Kristinas gata är vägen på grundkartorna 1971 och 1978. Däremellan gick vägen i en båge norrut förbi gården Post vid Västergård–Östergård, längs dagens Drottning Kristinas gata (daterad från 1971); dagens raka väg genom Vargata ritas först 1985."
+ },
+ "geometryNote": "Delar av objektets egen geometri (samma koordinater) där vägen är vägen på grundkartorna 1971 och 1978."
+}

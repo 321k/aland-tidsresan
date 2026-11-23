@@ -1,0 +1,1218 @@
+✔ aerial observations belong to persistent objects and expose all ten dated outcomes (3.791792ms)
+✔ aerial reconstruction preserves original phases while distinguishing construction and finished roofs (0.172416ms)
+✔ future photo geometry needs an explicit inference and positive evidence (2684.929375ms)
+✔ additional outline interpretations preserve the original aerial review and count distinct photo years (0.373458ms)
+✖ circa-1800 roads use earlier detailed geometry and retain all subsequent history (59.277416ms)
+✔ later realignments and modern water crossings keep their dates (0.236625ms)
+✔ schematic Alvin traces remain inspectable but cannot duplicate the normal dated roads (65.369042ms)
+✔ early roads do not bring the city plan, museum yards or stale hit targets into 1800 (0.414625ms)
+✔ 1894 evidence is not a construction date, and persistent geometry survives every later source switch (71.948625ms)
+✔ modern and historical snapshot aliases resolve to the same object, retaining unmatched source remainders (0.195792ms)
+✔ atlas lines retire only when the corresponding persistent road is visible; unresolved corridors remain (0.395375ms)
+✔ Emkarbyvägen correspondence reaches its dated eastern end without swallowing the whole regional route (0.63325ms)
+✔ atlas dating starts in 1894 with later detailed geometry and keeps one identity through source changes (44.84025ms)
+✔ atlas dates do not flatten real later reroutings or backdate deferred bridge routes (0.25175ms)
+✔ dated atlas roads are selectable at every zoom without showing the schematic source lines (27.866542ms)
+✔ Bomarsund buildings do not predate their documented start or overview attestation (1.543708ms)
+✔ unfinished hospital and magazine never become complete buildings (0.141375ms)
+✔ 1854 and present day preserve fortress ruins but hide expired settlements by default (0.2055ms)
+✔ the main plan and other mapped areas retain source geometry, while symbols are explicitly schematic (1.080208ms)
+✔ hit targets cover a building polygon and its label, and distant clicks miss (1.340333ms)
+✔ overview suppresses tiny detailed plans while zoom reveals map geometry and clickable labels (1.398166ms)
+✔ photo wall plan is reproducible, closed, and keeps the archived OSM exterior (6.687833ms)
+✔ fortress renderer draws every wall section and mapped tower outlines (0.261625ms)
+✔ photo evidence supports geometry separately from fortress chronology (1551.349083ms)
+✔ Ceders main house and newer barn receive their own construction dates (0.732458ms)
+✔ Lillstugan keeps its construction interval and excludes the later northern extension (0.141167ms)
+✔ documentary dates are not fabricated map observations (0.067084ms)
+✔ site links lead to identified buildings and unresolved neighbours remain unchanged (3.476ms)
+✔ church review covers every mapped worship building, including unnamed and misclassified records (253.382042ms)
+✔ modern church buildings begin at construction or inauguration, not OSM collection dates (0.29925ms)
+✔ medieval dating remains approximate and later rebuilding does not erase the older church (0.475916ms)
+✔ dated churches render before the modern survey without inventing earlier map observations (204.037916ms)
+✔ register site dating is distinguished from the present building and linked to research (4.156875ms)
+✔ every rendered roof has a canonical identity, including the rest of Åland (392.901042ms)
+✔ unavailable catalogue never falls back to source snapshots (24.924125ms)
+✔ source-only symbols cannot bypass the catalogue (151.565209ms)
+✔ named houses and library stories attach to exactly one physical object (255.516167ms)
+✔ known demolition removes the original without transferring identity to its replacement (88.477958ms)
+✔ unmatched museum objects retain identity and shape across all source changes (335.604333ms)
+✔ building visibility follows object state and layer controls (218.13175ms)
+✔ canonical hit targets remain selectable and disappear when zoomed out (110.541458ms)
+✔ source collections remain inspectable and link to their physical buildings (42.111625ms)
+✔ reviewed neighborhood roofs use merged identities and dated replacements in the real layer (423.796666ms)
+✔ city grid changes only at source boundaries and never backdates the built city (126.25775ms)
+✔ traced grids have connected intersections, finite geometry and source metadata (54.230625ms)
+✔ city geometry and hit targets disappear outside its period or when disabled (61.04875ms)
+✔ feature stories distinguish planned streets, inferred blocks and undated roof symbols (211.207916ms)
+✔ aligned esplanade parks explain the interpretation and link their original map (1222.216292ms)
+✔ established modern city streets retain identical geometry between 2014 and 2023 (115.200541ms)
+✔ unified recent streets replace underlying roads within the city at every zoom (34.173292ms)
+✔ city-plan transform maps interpreted controls and preserves map orientation (0.594083ms)
+✔ 1860 comparison stays explicitly a plan when viewing today and has independent loading state (0.204458ms)
+✔ museum map preserves decade dating and source when compared with today (0.121625ms)
+✔ failed remote museum image keeps source guidance and does not replace the 1860 image (0.451042ms)
+✔ eleven road identities and all source links converge on one persistent, selectable Emkarbyvägen (32.078667ms)
+✔ older bends survive until the mapped straightening; the eastern part is drawn from 1968 only where the base maps were reviewed (0.347583ms)
+✔ surviving old bends belong to the main road before 1978 without duplicate local lines (1.102041ms)
+✔ dated, curated and uncertain archaeology are filtered separately (1.593ms)
+✔ modern geometry never renders at historical dates (0.273417ms)
+✔ reviewed outer-island context follows its evidence date without repainting the sea or earlier eras (0.892208ms)
+✔ published datasets have unique objects, real geometry and expected counts (236.53525ms)
+✔ expired sites disappear at period boundaries and gaps, with older traces opt-in (1.638334ms)
+✔ searching an expired settlement jumps to its period without enabling old traces (0.853792ms)
+✔ broad registry dates do not turn the present into an archaeology map (0.626167ms)
+✔ land-context dates apply to map availability and are explained separately from evidence (12.676083ms)
+✔ Bomarsund registry fortification uses 1832 construction, not the Sentid lower bound (0.3375ms)
+✔ 1929–1967 the old main road runs from Godby village over Bartsgårda, Ödkarby and Sålis to Avanåker (1.284042ms)
+✔ from 1968 today's Getavägen is whole; the old roads stay as they are mapped today (0.1045ms)
+✔ Tjudö and Geta: from 1927 the old loop past Lignell and the curve at Östergeta (Skräddarsvägen) (0.186667ms)
+✔ the 1894 atlas line is not drawn beside the 1929 Hammarlandsvägen (Kattby–Smedens) (19.041125ms)
+✔ the old Näfsby and Smedens lines and the Näfsby roads retire the atlas line through their 1929 geometry (0.175709ms)
+✔ in 1929–1955 the road from the narrow sound runs along the shore, past Klemes and Sundkvist to Marby, as one line (0.948792ms)
+✔ from 1956 the road runs on Marbyvägen to the sound and the shore road is gone; the link at Sundkvist until 1968 (0.168917ms)
+✔ Marsundsvägen to the ferry pier is drawn from 1929, the rest of it still from 1994 (0.977709ms)
+✔ in 1929–1958 the road runs from Kattby west through Frebbenby to Marsundsvägen, with the 27 m junction link (0.147541ms)
+✔ 1929–1955: the road from the narrow sound runs straight across Holmberg to the ferry pier (0.995708ms)
+✔ Öravägen from 1956, with its OSM line, owning the way in every extract so it is drawn once (249.7485ms)
+✔ Kattby westwards is drawn from the 1929 parish maps, not only from the 1959 bridge assumption (5.032416ms)
+✔ in 1929–1958 the road runs on from the church corridor without a gap (0.41825ms)
+✔ the Eckerö sheets are cited as their own sources (1.295166ms)
+✔ 1929–1958: from Kyrkoby the road runs on the old lines and the connection’s stretches, one connected line to Storby (0.881958ms)
+✔ from 1959 only the surviving parts are drawn, with their old coordinates, owned in OSM (1.072833ms)
+✔ the same-road stretches are drawn from 1929, the rest of each object only from its own first map (4.157917ms)
+✔ the bypasses at Drygsböle, Smedens and Näfsby still begin with the 1968 base map (0.903667ms)
+✔ the old line at Smedens is its own road, open 1929 until the 1968 map, then not claimed (0.788334ms)
+✔ in 1950 the same-road stretches meet each other and the Smedens line end to end (0.132875ms)
+✔ the connection’s eight 1929 stretches, Frebbenby to Storby, are drawn with its own coordinates (1.489042ms)
+✔ the 1894 atlas line is hidden where the 1929 stretches replace it, and only from 1929 (1.714958ms)
+✔ the old road through Näfsby is drawn from 1929 on the smaller roads it survives as (3.76425ms)
+✔ Lillåkersgränd is old road only for its northern 85 m, and the old school road without its younger branch (0.094375ms)
+✔ the parallel stretch is unknown 1968–1985: the base maps draw only a thin line there (0.068375ms)
+✔ the vanished pieces are one old-road object: open 1929–1968, then unknown (0.063167ms)
+✔ in 1950 the main road through Näfsby is one connected line from Mattas to Korsbroström (0.326833ms)
+✔ the 1968 picture is unchanged: the vanished pieces and the parallel stretch are not drawn (28.667291ms)
+✔ the main road runs through Överby village until the 1985 bypass, as one connected line (3.318167ms)
+✔ after the bypass only Brinkbacken and Gamla Landsvägen remain, with the same coordinates, owned in OSM (228.237583ms)
+✔ the 1894 atlas line is hidden beside the old road through Överby (5.612666ms)
+✔ the older roads are drawn from the first parish map that prints them, until their previous first year (5.107667ms)
+✔ the east route Söderby–Västansunda–Mattas is connected in 1929 except the known gap at Burs (0.579291ms)
+✔ Natbacken: only 4.1–5.5 km of Hammarlandsvägen del 1 is drawn before 1978, Utängsvägen whole from 1928 (0.076333ms)
+✔ until 1978 the main road runs through Storby village; the connection leaves out the bypass (2.319333ms)
+✔ from 1978 only the village roads that survive are drawn, owned in OSM (1.408458ms)
+✔ every archaeological record has a real source boundary (36.19725ms)
+✔ areas replace icons and retain all source parts and holes, including at overview zoom (1.674916ms)
+✔ edges are clickable with a screen-space tolerance after zoom and pan (0.2065ms)
+✔ an offscreen representative point cannot hide the visible area (0.175417ms)
+✔ date, traces, category, search and layer filters remove both drawing and hit targets (0.551042ms)
+✔ smaller nested areas remain selectable (0.194333ms)
+✔ all thirteen groups have map objects with sourced historical events (0.806125ms)
+✔ main-house construction, fire and reopening are separate dates (9.966041ms)
+✔ school wings and joined buildings do not appear in their earliest phases (7.582334ms)
+✔ Bjärström first mention is not a construction year and renders before Mariehamn exists (5.591167ms)
+✖ isolated bridge extensions stop when the parent road takes over (4.816375ms)
+✔ historical road ownership suppresses duplicate modern and snapshot lines (0.385167ms)
+✔ Ceders retains a site overview alongside the identified building outlines (14.446583ms)
+✔ dated history is readable, sourced and escaped (0.132791ms)
+✔ road sources follow time without backdating current or later snapshots (2.300625ms)
+✔ curated road geometry is finite, sourced and keeps sea crossings separate (0.2455ms)
+✔ historical OSM snapshots contain roads throughout Åland, not current building footprints (149.573625ms)
+✔ old road lines and hit targets are removed when time or layer changes (3.773292ms)
+✔ a pending newer source does not leave old roads on the map (0.284459ms)
+✔ prebuilt spatial index returns the same features as a full scan (0.299583ms)
+✔ city grid replaces old city lines while atlas traces remain review-only (0.456042ms)
+✔ all 28 schematic traces retain originals and explicit review outcomes (0.068708ms)
+✔ schematic retirement follows actual dated geometry and replacement-layer visibility (0.2375ms)
+✔ source retirement merges shared intervals and retains city clipping (0.254542ms)
+✔ removed schematic segments have no stale click target after a year change (0.265375ms)
+✔ 1894 atlas is review-only at every zoom and leaves no clickable ghosts (2.405166ms)
+✔ reported Geta and Sund lakes remain visible through 2025 (7.074875ms)
+✔ lake context follows the displayed shoreline during loading, preserves islands and culls offscreen water (3.640791ms)
+✔ a relocation does not place a building at its current address before arrival (1.062833ms)
+✔ demolition leaves a site marker without extending the physical building lifetime (0.188792ms)
+✔ period boundaries and conflicting building dates never become exact evidence (0.12825ms)
+✔ a monument dates to its erection, not the event it commemorates (0.356084ms)
+✔ prehistoric evidence does not imply uninterrupted occupation (0.484833ms)
+✔ every shoreline model year resolves to a real geometry asset; nearest model is explicit (714.587375ms)
+✔ archive map centre uses the official Finnish grid, within 1 metre of independent pyproj controls (0.414084ms)
+✔ historical building records have usable attribution and preserve official multi-area boundaries (18.136375ms)
+✔ broad Stone Age periods do not put settlements under the model sea in 5000 BC (0.347584ms)
+✔ Hindersböle gård, Berggård and the fox farms are uncertain dated places at their reviewed points, never construction years (1.873ms)
+✔ all five sourced visits occur once in playback while existing same-year stories remain (3.738083ms)
+✔ unknown visit locations use an overview; documented regions use broad camera views (2.025708ms)
+✔ visit picker clears selected objects and city mode, selects the year and opens its story (2.142042ms)
+✔ only located visits produce one-year event markers with source-backed archive records (4.040625ms)
+✔ both the pin and its label open the same event; changing years clears old pointer hits (1.126ms)
+✔ each journey has exactly ten unique stops and retains its full historical span (4.2115ms)
+✔ forward and backward navigation visits only the ten curated stops in each mode (1.872709ms)
+✔ removed stops remain directly reachable with their dated stories and camera targets intact (1.688708ms)
+✔ the full main and city catalogues play in order, with readable time at every exact event year (8.036625ms)
+✔ the postal opening is a 1638 stop and the route and playback camera are ready that year (2.741ms)
+✔ Kobba roofs appear at their own historical boundaries, without a 2026 source-layer jump (418.129291ms)
+✔ original beacon and replica share a place, not a lifetime or source ownership (1960.294375ms)
+✔ historical dating preserves measured source geometry and distinguishes unknown outbuilding dates (0.191875ms)
+✔ landmarks retain identity and geometry through source years, with no premature outline (1.154417ms)
+✔ Jomala keeps its west tower and nave fixed when the east end is rebuilt (0.268917ms)
+✔ OSM and heritage representations resolve to the same landmark without duplicate mapped roofs (1.441875ms)
+✔ landmark footprint hit targets follow the visible geometry and offscreen shapes have none (1.156458ms)
+✔ tour camera frames reviewed outlines at their historical year (0.1975ms)
+✔ batched shoreline paths retain islands, holes, all coordinates and empty classes (2.57875ms)
+✔ coast batching retains projected rings, independent polygon bounds and overview (0.865875ms)
+✔ 1917–1928: Skag–Södergård–Sjögård, with the old road through Södergård; no crossing yet (1.883667ms)
+✔ 1929–1967: from the crossing at Bergören over the Skag corner, joined to Lemlandsvägen (0.282209ms)
+✔ from 1968 today's road; the Skag corner survives as a track, Södergård is not claimed (184.344333ms)
+✔ the surviving old road is open to today, drawn only where it survives; the rest is not claimed after 1985 (0.951917ms)
+✔ the road does not move when the source changes: the surviving line is the same line it had before 1995 (8.8545ms)
+✔ each phase keeps to its 1929 trace; the raw trace is kept unchanged as evidence (55.041917ms)
+✔ Övre-Börs: the 1929/1948 corner at Fridelund, the eased curve from 1968 (3.405833ms)
+✔ the old-road objects own their OpenStreetMap ranges in every snapshot, and no copy is left beside them (76.561916ms)
+✔ in 1929 the old road still joins its neighbours: today's road, Långskata and the other old pieces (0.134625ms)
+✔ from 1917 the road east of the church village runs through Simons (Skolsvängen) and Granboda (Klubbensvägen) (2.519333ms)
+✔ from 1929 the road turns north on Fiskartorpsvägen and crosses Bergören to the sound (0.5375ms)
+✔ from 1968 today's road takes over; the old roads stay as they are mapped today (201.875459ms)
+✔ today's Lemlandsvägen is eight sections that meet end to end; each starts at the first map that draws it (1.587792ms)
+✔ the original object keeps its identity, 1985 start and evidence for the Knutsboda–Dragsvik bypass (0.97775ms)
+✔ in 1929 the main road is the old road: the old pieces join today's unchanged sections (0.279625ms)
+✔ old road pieces stay open until the edition after their last map; after that only what survives is claimed (0.140334ms)
+✔ Långskata del 2: only its first 300 m are the old road before 1985, and only they are drawn (0.402541ms)
+✔ the artificial cut is closed in schematic pre-canal context, with no changes outside the local area (133.503041ms)
+✔ the canal opens at 1882 even within the same 1800 model snapshot and in reverse playback (0.794625ms)
+✔ canal construction, opening and modern bridge have separate historical phases (2.812542ms)
+✔ canal story uses the selected phase and can be found by name before construction (2.1025ms)
+✔ trails do not join reception gaps, future points or invalid coordinates (3.462333ms)
+✔ missing coordinates and old positions cannot become current markers (0.333084ms)
+✔ public feed reads only fixed KV snapshot and never calls external services (43.118042ms)
+✔ MMSI-only ferries can be selected independently and port IDs stay distinct (0.197708ms)
+✔ aircraft use distinct identities and expire after ten minutes (0.122917ms)
+✔ aircraft endpoint reads its fixed KV key without a warehouse call (0.455375ms)
+✔ aircraft fetch failure does not hide working vessel feed (0.540125ms)
+✔ aircraft markers can be selected in the live year and disappear in historical views (0.261958ms)
+✔ anonymous submission creates one issue with server credentials and full frozen context (41.548834ms)
+✔ method, origin, content type, malformed input and oversized streamed bodies are rejected (1.262792ms)
+✔ untrusted context and external object URLs cannot enter generated reports (0.911958ms)
+✔ rate limits and missing configuration never call GitHub (0.291958ms)
+✔ GitHub failures are safe and never produce a success receipt (0.962458ms)
+✔ ordinary assets still serve and API paths never fall back to HTML (0.241292ms)
+✔ reported coordinates invert the real map projection with pan, zoom and viewport offsets (0.769917ms)
+✔ report links round-trip year, location, zoom, background and all layer switches (0.695333ms)
+✔ report preserves Unicode and context without labels, assignees or credentials (0.834417ms)
+✔ right-click freezes context; cancelling sends nothing and successful submission shows a receipt (0.612042ms)
+✔ mobile point-picking and keyboard reporting can be cancelled and preserve normal map clicks (0.221375ms)
+✔ a stationary touch opens feedback once at the held location and consumes its release (1.016375ms)
+✔ taps, pans, pinches, cancelled pointers and leaving the app never open feedback (0.864209ms)
+✔ native touch menus share the hold action without reopening it after release (0.265416ms)
+✔ long press cooperates with the actual map handlers: tap selects, pan and pinch still move the map (1.608167ms)
+✔ empty and oversized reports are rejected without truncating the user draft (0.318667ms)
+✔ actual point-picking handler consumes the click without selecting a different map object (1.033708ms)
+✔ HTML posts on the site and explains account-free public submission (0.783333ms)
+✔ a pending submission cannot be duplicated or closed; failure retains the draft for retry (0.390417ms)
+✔ long Unicode descriptions no longer depend on a GitHub URL length limit (0.230208ms)
+✔ unconfirmed responses do not show success or discard the draft (0.187333ms)
+✔ HTML error pages retain the complete draft and context without exposing parse errors or retrying (35.787292ms)
+✔ malformed JSON and mismatched issue receipts never claim successful delivery (1.686666ms)
+✔ map context uses the clicked canonical object, not a previously selected object (0.818875ms)
+✔ 60 Hz passes; 30 Hz fails even with very fast drawing (1.054333ms)
+✔ multiple redraws at one rendering opportunity only count once (0.615ms)
+✔ a trailing freeze fails the stall check rather than disappearing from statistics (0.113458ms)
+✔ missing or stale requested-year maps never get credited as responses (0.084417ms)
+✔ no frames, hidden tabs and unanswered inputs cannot pass (0.747459ms)
+✔ discrete year changes score latency without scoring gaps between actions (0.169333ms)
+✔ quantiles use nearest rank and unavailable measurements stay null (0.143792ms)
+✔ year fade finishes cleanly and never draws the live map on animation frames (1.793292ms)
+✔ rapid scrubbing captures the visible blend and stale completion cannot hide the new fade (0.416458ms)
+✔ reduced motion and camera redraws have no transition overlay (0.345292ms)
+✔ story can be dismissed without reopening on every time update in the same stop (1.706833ms)
+✔ playback hides the popup until playback stops, including after continuous mode (0.427583ms)
+✔ menu and popup never compete; opening archive closes menu first (0.901417ms)
+✔ secondary controls are retained in one menu and story lives over the map (0.8645ms)
+✔ mobile notes stay collapsed on load, time changes, place selection and playback stops (1.35875ms)
+✔ mobile preview follows the story text and clears when a story has no paragraph (0.793583ms)
+✔ mobile sheet follows vertical drags, cancels safely and leaves year scrubbing alone (0.978625ms)
+✔ mobile sheet supports keyboard buttons and Escape, and restores desktop placement (0.729459ms)
+✔ changing time clears an unmigrated selected place and opens the stop story instead (1.107833ms)
+✔ current address round-trips through the existing shared-view reader and retains other URL/history state (3.9645ms)
+✔ idle frames do no URL work and a burst of camera changes produces one settled write (1.422417ms)
+✔ dragging and scrubbing defer writes; playback is capped at one update per second (0.568792ms)
+✔ leaving flushes the latest view and hidden pages stop sampling until resumed (0.190583ms)
+✔ history navigation restores the incoming view without overwriting it with stale state (0.133625ms)
+✔ unavailable history and invalid transient positions cannot break map interactions (0.142667ms)
+✔ URL syncing mounts after restoration and stays outside all rendering and gesture paths (2.228458ms)
+✔ photo-dated alleys stay in one position and render once through source changes (42.815167ms)
+✔ Klockargränd keeps the earlier combined OSM record and separately dated branches (0.129791ms)
+✔ Diktargränd remains two disconnected dead ends (0.069ms)
+✔ the rejected 1942 trace is drawn nowhere but its original pixels are kept (45.990625ms)
+✔ raw approach traces are gone; only short reviewed gaps remain, and only 1942–1967 (2.443834ms)
+✔ objects the 1942 photo shows start in 1942 with their own centre line; later dates are kept (33.79525ms)
+✔ the two long gaps use centre lines retraced from the photo, joined to their objects (0.211167ms)
+✔ excluded objects are not backdated and only reviewed objects carry the 1942 photo (2.270916ms)
+✔ blocks drawn in 1871 and 1942 stay block fill through the 1920s stages (1.486042ms)
+✔ carried pieces never cover a block, park or square of the same stage (10.018ms)
+✔ the built-up areas of 1968–1982 stay block fill from 1985 until the modern blocks of 2014 (3.011583ms)
+✔ carried pieces never cover a derived block of the same stage (8.175084ms)
+✔ the review is complete, sourced and keeps 1978 out of the building evidence (16.349875ms)
+✔ a dated building appears in its first map year with its earliest outline and is unchanged later (33.211292ms)
+✔ every later edition shows the building; only 1985 may be unclear between 1968 and 1995 (5.007041ms)
+✔ the city layer draws dated houses in their map years and never before (96.48325ms)
+✔ houses rejected on the contact sheets are never dated, and each rejection has a reason and a sheet (13.3135ms)
+✔ in the centre, a dated house never overlaps a printed-map symbol object, and hatched 1968 blocks date nothing (102.955917ms)
+✔ modern-only outlines in Ytternäs and Dalen get a reconstruction that starts at their map year (0.836375ms)
+✔ the r1 recheck dates earlier-unclear buildings only where the earlier drawing was judged by eye (0.387417ms)
+✔ the r2 recheck dates inconsistent buildings only where every later edition draws the same building (3.814125ms)
+✔ Mariehamn buildings with no map symbol are dated from the 1991–2015 photos (18.223625ms)
+✔ buildings whose outline meets an open or hatched symbol on the 1985 or 1995 map are not photo-dated (5.200333ms)
+✔ a photo-dated building starts at its first photo with that photo as evidence, keeps its outline and later history (20.91675ms)
+✔ the city layer draws photo-dated buildings from their first photo year and never before (272.731ms)
+✔ the church road streets start at the parish map (Norrbölevägen at the 1952 photo); later history is kept (9.173625ms)
+✔ only the hook of Mellangårdsvägen and the east end of Fridhemsvägen are church road before the whole streets (0.349666ms)
+✔ the traced old road joins Mellangårdsvägen and Fridhemsvägen and is gone on the 1975 photo (16.155667ms)
+✔ earlier base-map readings are rechecked, not deleted (0.511333ms)
+✔ central Strandgatan has a stable planned/open identity, without backdating its northern extension (27.955333ms)
+✔ whole original traces survive as evidence while only the middle is replaced (1.472834ms)
+✔ OSM redraws keep the older building identity, all evidence and one stable roof (0.498167ms)
+✔ hatched-block buildings north of Nygatan are dated from the 1942–1975 photos (1.878334ms)
+✔ an early-photo building starts at its first photo with that photo as evidence and keeps its later history (1.025375ms)
+✔ deferred and curated buildings keep their previous start (0.097833ms)
+✔ no coarse 1942 city trace is drawn any more, and their original pixels are kept (27.944958ms)
+✔ Södra stadsgatan is rejected without a replacement; it duplicated Skillnadsgatan (0.099042ms)
+✔ streets the 1942 photo shows start in 1942 on their own centre lines; their later history is unchanged (34.203541ms)
+✔ the Strandgatan gap is the photo retrace from the core to Parkgatan, only before 1968 (0.257875ms)
+✔ junction totals: only the Ålandsplan ring and its approaches add length (1.170709ms)
+✔ each junction starts at its first reviewed edition and keeps one stable geometry to 2026 (37.731ms)
+✔ every modern member and city-stage copy has exactly one owner (52.462667ms)
+✔ each junction joins the road network drawn in its first edition (79.24675ms)
+✔ junction dates follow the editions: east leg 1968, west leg 1978, second carriageway 1995 (0.15925ms)
+✔ the unchanged western corridor starts in 1968 with one stable geometry (25.077292ms)
+✔ Strandnäs is connected in 1968 and the road stays continuous after the split (5.822375ms)
+✔ the original rural object keeps identity, dates, evidence and original geometry (3.265167ms)
+✔ every reviewed modern range has exactly one owner and no city copy is drawn twice (60.029333ms)
+✔ follow-up roads start at their first reviewed edition and keep one stable geometry per phase (126.515875ms)
+✔ every modern member has exactly one owner and later lanes do not double-count (211.848916ms)
+✔ Godbyvägen's 1968 Strandnäs crossing is reconstructed and its remnant keeps the identity (630.668458ms)
+✔ Nya Godbyvägen turns into Godbyvägen in 1985 and continues north from 1995 without moving (0.375917ms)
+✔ removed and reconstructed alignments preserve their raw scan traces as source geometry (0.333541ms)
+✔ Åsvägen, roundabouts and later streets are dated separately from older neighbours (0.6415ms)
+✔ larger city roads start at their reviewed map evidence and keep stable geometry through all source changes (147.653958ms)
+✔ all normalized road sources have one owner, including the parallel Godbyvägen records (31.235791ms)
+✔ renamed and shorter original records remain evidence without shortening the persistent road (2.08075ms)
+✔ Neptunigatan confirmations add evidence without resetting older phases or identities (0.500583ms)
+✔ new bypass evidence is not silently applied to changed junctions and deferred extensions (0.229917ms)
+✔ dated map roads have one identity and stable positions across later source editions (24.920084ms)
+✔ Mek-Mattesgränd retains its short mapped dead end until the later source attests the continuation (0.30125ms)
+✔ modern source features render once under their persistent road identity (36.353833ms)
+✔ 15 museum-map houses are merged into the later house, 16 end at their successor, 18 pairs are deferred (8.051708ms)
+✔ a merged house is one object from 1920 with its own outline, the museum evidence and alias, and its later history (2.137333ms)
+✔ a replaced museum house ends where its successor is first evidenced and never overlaps it on the map (0.5975ms)
+✔ no merged house overlaps a museum house any more, apart from deferred pairs (217.735958ms)
+✔ every museum house left open by the overlap review is decided: 24 merges, 33 endings, 17 deferred (3.746583ms)
+✔ the reported Storagatan-area duplicates resolve to one house each (4.416792ms)
+✔ merged houses keep their own outline and later history; two museum houses may join one longer building (0.384208ms)
+✔ an ending rests on an empty footprint on the map and ends at its survey year, not a demolition year (0.445625ms)
+✔ Hamngatan and Parkgatan are shown from the museum decade on their own centre lines, with photo evidence for 1942 (5.538459ms)
+✔ the museum drawing covers only the north part of Parkgatan south-east; the photo shows it whole from 1942 (0.311584ms)
+✔ Hamngatan north of the junction is one persistent street that owns the modern lines (30.5325ms)
+✔ the coarse museum drawings are source traces of one street each, not second streets (65.762708ms)
+✔ bounded founding streets appear once through every source transition (37.986208ms)
+✔ Strandgatan 19 keeps its identity while only the eastern wing is removed (0.224083ms)
+✔ the 1984 police building survives its 2020–2022 expansion; neighbours end in 2018 (0.7355ms)
+✔ the shore road is Sjöpromenaden from the museum decade, with the 1942 photo as evidence (1.237292ms)
+✔ the long northern part is shown before 1968 only where the 1942 photo shows the road (0.141042ms)
+✔ the coarse museum drawing is a source trace, not a second street (38.956875ms)
+✔ reviewed identities retain source evidence, old links and one roof across map changes (1.493708ms)
+✔ a photographed replacement ends the museum house as the three distinct successors appear (0.252875ms)
+✔ the first southern pass deferred Postiljonsgränd without merging identities (0.055375ms)
+✔ southern cores remain planned until 1871 and fixed through later sources (50.07075ms)
+✔ western Mariegatan sources belong to three persistent objects without duplicate render features (18.314542ms)
+✔ whole source traces remain evidence and their unmatched ends stay outside object ownership (1.849084ms)
+✔ pass totals are reported once by first edition and never as confirmations (5.485375ms)
+✔ each street starts at its first reviewed edition and keeps one stable geometry to 2026 (63.494875ms)
+✔ every modern member and city-stage copy has exactly one owner (14.880375ms)
+✔ Mellangårdsvägen: the base maps 1968 and 1978 draw only its southern part, and the church road review shows the whole street from the 1962 photo (0.221417ms)
+✔ reviewed streets join the road network drawn in their first edition (657.0195ms)
+✔ Hindersböle: the older lanes keep 1968, the grid starts in 1985 and the field streets in 1995 (0.2505ms)
+✔ pass totals are reported once by first edition; parallel lanes add nothing (1.322958ms)
+✔ each street starts at its first reviewed edition and keeps one stable geometry to 2026 (91.469166ms)
+✔ every modern member and city-stage copy has exactly one owner (53.637ms)
+✔ partial streets show only the reviewed part before their full edition (0.271208ms)
+✔ reviewed streets join the road network drawn in their first edition (869.157709ms)
+✔ Klintvägen's new connection and Stenhuggarvägen join the network that was already there (0.161417ms)
+✔ dating rules: single 1968 lines, thin 1978 overprint and black 1995 lines never start a street (0.810041ms)
+✔ pass totals are reported once by first edition; junction pieces add nothing (1.250667ms)
+✔ each street starts at its first reviewed edition and keeps one stable geometry to 2026 (52.527042ms)
+✔ every modern member and city-stage copy has exactly one owner (18.632417ms)
+✔ reviewed streets join the road network drawn in their first edition (333.658708ms)
+✔ the Stenliden block is anchored through the 1978 junction and the 1985 link (0.152125ms)
+✔ gap pieces take their neighbours' first edition only when the map shows them (0.091042ms)
+✔ 125 printed-map symbol houses in the centre are shown from the 1968 edition; hatched blocks date nothing (4.888667ms)
+✔ a dated symbol house starts in 1968 with the map as evidence, keeps its outline and its later history (1.5855ms)
+✔ the city layer draws the symbol houses from 1968 and never before (74.57825ms)
+✔ panning translates markers without turning triangles into clusters and back (2.99675ms)
+✔ a visible cluster keeps its members when one point crosses the viewport edge (0.13175ms)
+✔ zooming and filtering still change which places are grouped (0.108541ms)
+✔ hover and small click movements do not move or redraw the map (0.804209ms)
+✔ a missed mouse release cannot leave the map dragging on hover (1.274917ms)
+✔ capture loss, cancellation and window blur end an interrupted drag (2.927417ms)
+✔ expired markers, clusters, boundaries and list entries disappear together (0.260958ms)
+✔ two-finger pan and pinch retain the map point under the moving midpoint (0.641625ms)
+✔ cancelling a pinch leaves no phantom touch or later hover redraw (0.484625ms)
+✔ manual pan and zoom stop automatic playback before changing the camera (0.474625ms)
+✔ Marsund fixed connection appears in 1959 and keeps one geometry across later snapshots (43.912583ms)
+✔ modern and historical source records belong to the same connection without deleting originals (209.064ms)
+✔ old regional crossing is retained before the bridge opens and retires only where replaced (2.214083ms)
+✔ Kattby west joins Marsund in 1959 without shrinking at later source boundaries (0.17ms)
+✔ 1929–1994 Mattas, the old bend and the link to Södersundavägen are one line (1.750375ms)
+✔ from 1929 the road runs from Norra Möckelövägen along Lönnelund to Möckelö as one line (2.745709ms)
+✔ Mjölkdalsvägen branches off Möckelövägen at the Gustavsberg corner from 1928; Småholmavägen stays at 1978 (0.899333ms)
+✔ modern spatial index matches a full geometry scan, including grid boundaries (1.728625ms)
+✔ modern roads stay visible at every scale while buildings keep their detail threshold (0.098917ms)
+✔ Åland extract contains buildings and roads near mainland and archipelago settlements (261.216125ms)
+✔ coast rendering skips distant islands when zoomed in (0.236542ms)
+✔ compressed map data works with raw gzip and server-decoded responses (43.340209ms)
+✔ resizing the map keeps the selected geographic centre (1.405417ms)
+✔ stroke batching retains every path, caches stable views and invalidates changed source remainders (0.469917ms)
+✔ changing viewport edges only rebuilds affected road stroke groups (0.186667ms)
+✔ Nygatan has one identity across the 1942 trace and later source segments (2.905417ms)
+✔ the 1942 street stays fixed while the east extension appears only in 1978 (1.362792ms)
+✔ only one Nygatan is rendered in every interpreted city stage (26.361625ms)
+✔ Pommern history distinguishes port presence from an unverified historical berth (0.454917ms)
+✔ the museum cross-street becomes Nygatan while retaining its original trace and decade dating (24.279417ms)
+✔ 1871 planning evidence supplies an explicit opening assumption without backdating the extension (0.393333ms)
+✔ the museum duplicate of Nygatan stays a source trace on Nygatan, not a street (40.738875ms)
+✔ object dossier preserves every field and all referenced original and interpreted geometries (427.747375ms)
+✔ every description category has a stable, encoded data link carrying the viewed year (1.315125ms)
+✔ safe links and geometry comparison never execute data as markup (7.227875ms)
+✔ source record links resolve independently, without inventing persistent object histories (624.764084ms)
+✔ repeated panel updates create just one accessible navigation action (2.951708ms)
+✔ Strandgatan 1942 data links load the reconstructed segment and its selected stage (1.98ms)
+✔ every reconstructed city-stage description resolves to a dossier without losing its source context (163.971417ms)
+✔ ofreden events exist in the real timeline, sorted with valid sources and place links (2.666333ms)
+✔ event places only show during attested years and the layer can hide them (14.843583ms)
+✔ registry evidence uses the attested interval and does not duplicate active curated places (9.752ms)
+✔ searching from the present opens the historical event without enabling archaeology traces (0.87975ms)
+✔ sources preserve location and dating limitations rather than inventing footprints or lifetimes (6.946ms)
+✔ native timestamp includes dispatch delay and separates fade completion (0.636875ms)
+✔ stale or incomplete maps do not resolve input (0.060791ms)
+✔ coalesced gestures retain superseded and unresolved records (0.057083ms)
+✔ Play waits for an asynchronously changed map; no-op gestures are explicit (0.052166ms)
+✔ names have their own identities, and evidence never becomes an invented creation date (2.250916ms)
+✔ historical spellings find the persistent name; timeline retains later evidence and shows uncertainty (1.208166ms)
+✔ only painted name labels are clickable; time, layer and collision changes remove old hit targets (0.742084ms)
+✔ name identity survives a global year change, including before its appearance (0.854292ms)
+✔ name links have a supported independent dataset (1.062792ms)
+✔ current spellings have historical dates, merge matching evidence, and preserve later variants (2.022125ms)
+✔ name archive shows current-form estimates without treating them as source observations (1.619875ms)
+✔ map names follow dated spellings at boundaries and retain modern names after later variants (0.544333ms)
+✔ painted text and its hit box update with the year without changing clickable identity (0.507916ms)
+✔ every named building and house row of the 1860 plan is a planned city building, only in 1860 (3.701375ms)
+✔ evidence points to the plan with its traced pixels and placement; the plan is not a construction date (6.017208ms)
+✔ placed outlines keep plausible sizes, and the hospital and church sit where the plan puts them (0.736416ms)
+✔ house rows are block-side groups that sit in the reconstructed blocks, both rows of a plan block in the same block (2.61975ms)
+✔ the plan north street is folded into Norragatan: no stage draws it as a street of its own (9.597375ms)
+✔ city-reconstruction-1860: the plan streets that ended on it end on Norragatan and keep their earlier lines (1.8255ms)
+✔ city-reconstruction-1861: the plan streets that ended on it end on Norragatan and keep their earlier lines (0.353917ms)
+✔ city-reconstruction-1871: the plan streets that ended on it end on Norragatan and keep their earlier lines (0.263791ms)
+✔ flight pulls back before travelling and arrives exactly at its destination (2.806334ms)
+✔ nearby stops pan directly without pulling back, while distant stops still establish context (0.223167ms)
+✔ repeated city overview stops keep the map completely still throughout playback (1.177708ms)
+✔ city landmark transitions adjust zoom only towards the destination, without an extra excursion (0.821ms)
+✔ resuming mid-interval begins at the current camera, not the previous marker (0.172417ms)
+✔ reduced motion holds the view until an instantaneous arrival (0.208459ms)
+✔ an early camera arrival holds the destination through the rest of the timeline interval (0.163916ms)
+✔ Bomarsund framing uses the main fortress outline during construction and destruction (1.319666ms)
+✔ the app follows each event camera cue and holds it until the next event (1.100834ms)
+✔ source snapshots keep a shared city overview, while Österleden follows its road (0.249917ms)
+✔ story destinations use existing records, including wrecks, routes and city landmarks (0.131ms)
+✔ slow shoreline loading preserves the visible land and honestly labels its year (15.953833ms)
+✔ playback prefetches ahead, deduplicates downloads and only advances when ready (1.341209ms)
+✔ out-of-order responses never replace the requested shoreline (1.07875ms)
+✔ failed loads retain the previous coast and do not trap playback forever (1.761792ms)
+✔ returning to the ice age clears the later shoreline fallback (0.470084ms)
+✔ buffering freezes time and camera, then resumes without catching up (1.0395ms)
+✔ pausing during buffering prevents a queued frame from advancing (5.330125ms)
+✔ all Bomarsund highlights arrive in order, with an automatic pause only at 1854 (1.10325ms)
+✔ city playback includes intermediate stories but pauses only at its own milestone (0.740583ms)
+✔ continuous playback visits every highlight and ends at the final year (2.897416ms)
+✔ starting a journey clears selection and supplies the full event catalogue (1.301ms)
+✔ coverage gaps leave the sea background visible by default at historical and modern years (0.557167ms)
+✔ coverage gaps remain available as an optional inspection layer (0.391708ms)
+✔ early ice covers the viewport without drawing the clipped raster ice boundary (2.37175ms)
+✔ schematic ice thaws continuously with no jump at the first available model (2.591708ms)
+✔ play and resume advance on the first ready frame without an opening hold (4.536875ms)
+✔ starting at the final event finishes on the first frame instead of waiting (0.941417ms)
+✔ camera advances on every display frame at 60 and 120 Hz without changing journey speed (4.77475ms)
+✔ uneven display intervals advance smoothly, and a buffered gap never catches up (0.631584ms)
+✔ from 1968 the postal road runs from Emkarbyvägen through Gölby and Godby to the Färjsundet bridge (6.216875ms)
+✔ Emkarbyvägen draws its eastern part from 1968: round the old bend to Bergens until 1977, then on the 1978 line (1.35425ms)
+✔ 1971–1984 Vårdövägen runs into Vargata and round the bend past the Post farm; the straight is first on the 1985 map (0.790291ms)
+✔ Postiljonsgränd preserves the cleared historical house as a distinct ended identity (5.485833ms)
+✔ earlier photographic presence updates dates without shifting or flattening existing geometry phases (0.422458ms)
+✔ Postiljonsgränd keeps all previous evidence, source ownership and aliases (0.309417ms)
+✔ coarse 2014 Södravägen is fully replaced without erasing source history or changing dates (61.906958ms)
+✔ Reviewed roads appear at reviewed dates and keep geometry stable within reviewed phases (16.687041ms)
+✔ Saltvik modern source fragments are replaced once at every zoom; sheet remainder survives (981.225958ms)
+✔ real route changes keep one identity and preserve the older geometry until the evidence boundary (0.396583ms)
+✔ Kavelbro adds the 1978 bypass while the old connected curve stays visible (0.129459ms)
+✔ Haraldsby and Kvarnbovägen change their shared junction together without duplicating objects (286.80025ms)
+✔ Sundsvägen stays connected through Kulla’s realignment; western roads and sheet remainders survive (230.897167ms)
+✔ Gamla Sundsvägen reconnects historically and Kulla branches follow their dated neighbour (202.866875ms)
+✔ 50 km batch preserves dated curves and joins Norra Sundsvägen across map sheets (0.263083ms)
+✔ Sund coastal extensions use their evidence dates and Hultvägen keeps its unreviewed shortcut (236.210125ms)
+✔ archipelago crossings use their first mapped road evidence and retain stable later geometry (0.512375ms)
+✔ renamed Järsö sources share an identity while Geta cycleways remain separate (0.18425ms)
+✔ the parking area cannot render as a roof or demolition trace in any source year (1379.974917ms)
+✔ Övernässtugan separates a tentative 1730s origin from the 1838 residence evidence (26.458917ms)
+✔ 1929–1967 the road at Postad runs in the old curve (register remnant Ha 17.8), not on today's straight line (0.9225ms)
+✔ register road remnants are evidence on the roads they lie on, without changing their dates (0.346917ms)
+✔ dated street identities and alignments do not change with zoom or fortress detail (1105.865666ms)
+✔ schematic originals never reappear when zoom crosses a former layer threshold (6.647292ms)
+✔ unmatched historical and modern minor roads remain drawn and clickable at every scale (12.846958ms)
+✔ road preparation reuses a fixed year but refreshes when dates, model or projection change (0.249417ms)
+✔ reviewed rural buildings keep one object and roof from their first map evidence through modern surveys (535.144959ms)
+✔ Sund follow-up retains distinct first observations and does not turn the 1978 road update into a roof survey (0.150042ms)
+✔ Signilskär keeps later observations out of 1968 and reconciles three distinct harbour buildings (0.119208ms)
+✔ printed evidence remains separately inspectable without becoming another roof (4.911209ms)
+✔ unmatched historical symbols render as one persistent, clickable building per identity (14573.987333ms)
+✔ Märket lighthouse uses its documented opening with one stable roof and separate map evidence (0.272833ms)
+✖ reviewed farm roads have one clickable line; source ownership follows year and layer visibility (100.359ms)
+✔ modern-first presence review dates stable roads without claiming an older traced alignment (1.407917ms)
+✔ adjacent Hammarland cells extend existing roads without replacing their original evidence (0.629542ms)
+✔ Enskär has one road identity with partial historical coverage and the complete modern path (100.803542ms)
+✔ actual snapshot and current layers exclude consumed rural roads but preserve unreviewed neighbours (2145.5695ms)
+✔ Prästgården gains reviewed extent without changing road identity or moving existing vertices (0.215ms)
+✔ Saltvik separates secure 1993 matches from ambiguous earlier identities (0.1245ms)
+✔ undated spatial references cannot bypass property dates without explicit source and identity evidence (490.543541ms)
+✔ partial source ownership clips only the reviewed road and preserves clickable remainder and original data (275.045584ms)
+✔ multiple road owners can share a source only through disjoint reviewed portions (454.305792ms)
+✔ partial road clipping preserves both ends and gaps, and follows which owners are visible (0.459709ms)
+✔ Ljungheda and Syllöda keep a connected stable road across differently split surveys (74.579917ms)
+✔ Östra Sundskär preserves two 1968 buildings and introduces only the third at its 1985 evidence boundary (0.175916ms)
+✔ Kattby roads share the 2014 source without double ownership or premature residential streets (23.361417ms)
+✔ Kattby farm follow-up keeps three distinct sheds and dates the southern one only from 1985 (0.275125ms)
+✔ church approach expands from printed evidence in 1985 while retaining its identity and later aliases (2.633583ms)
+✔ church-side source-only buildings retain distinct dates, including a later 1995 building (0.102208ms)
+✔ re-entering surveyed roads render separate clickable paths under one object identity (176.971375ms)
+✔ disjoint source coverage rejects overlap, gaps disguised as full coverage and ambiguous formats (0.252ms)
+✔ Erssons historical alignments resolve and render under the same road identities (6.139959ms)
+✔ eastern Hammarland roads keep stable identities without premature extensions (0.1485ms)
+✔ a realigned farm access stays one road and replaces its former line only in 1995 (0.263917ms)
+✔ Orrskär keeps one identity through successive shoreline approaches and the later house access (0.412458ms)
+✔ long-road contacts do not backdate later extensions or claim unreviewed source remainders (0.193917ms)
+✔ Näset field-edge track uses fractional historical endpoints and one stable identity (0.341667ms)
+✔ Strandäng woodland road preserves its older curve, shorter1985phase and later full route on one identity (0.421708ms)
+✔ Skarvbolstad source-only paths have one stable, clickable road with every original observation retained (64.411625ms)
+✔ Skarvbolstad branch shares its junction and partial1995evidence does not shorten the whole path (0.137542ms)
+✔ new1985field paths retain one identity, partial earlier evidence and exact later-road junction (9.286333ms)
+✔ Björkbo western farm approach belongs to its existing road through the main-road change (0.325916ms)
+✔ four audited Hammarland paths preserve dated evidence, stable identity and exact road joins (1.85375ms)
+✔ Tallbacka road replaces the old shed by1995 without erasing evidence or neighboring houses (116.457875ms)
+✔ church diagonal and later churchyard bend belong to one road with a bounded realignment (0.402583ms)
+✔ Neglinge connection survives coverage changes and farm tracks retain their first observed dates (0.44825ms)
+✔ Laine extends in1985 without moving the earlier approach or creating a new road identity (0.31775ms)
+✔ Korskulla keeps its1968 southern path and modern identity as later branches connect (100.088458ms)
+✔ Torp review preserves older route evidence, uncertain editions and split source tails (55.581084ms)
+✔ southern Hammarland coverage joins stay exact and partial quarry evidence does not backdate full spurs (512.384125ms)
+✔ Boda and Drygsböle road review preserves split aliases and bounded historical coverage (316.827208ms)
+✔ Bondtorp adjoining aliases remove only reviewed source intervals and keep historical road extent stable (31.618792ms)
+✔ southern Bondtorp dates only evidenced pieces until later maps confirm extensions (92.524166ms)
+✔ Östanträsk split source aliases meet without duplicate routes and retain unreviewed tails (259.548958ms)
+✔ Byttböle preserves disjoint historical arms and does not backdate their shortcut (105.992667ms)
+✔ Österängen retains older road continuity when the 1995 map depicts a smaller extent (102.641833ms)
+✔ Boda and Byttböle split old source ways into adjoining persistent owners (162.058916ms)
+✔ Vestansunda quarry coverage expands by evidenced arms without backdating the intervening branch (110.775625ms)
+✔ Vestansunda through-track retains older continuity despite the 1995 map omission (180.96725ms)
+✔ Vestansunda split source ways preserve a single shared boundary and unclaimed tails (235.831583ms)
+✔ Svinryggen pond evidence dates the final arm of a closed loop without wrapping coverage (108.818875ms)
+✔ Dalbacka keeps separately evidenced road arms without inferring the boundary shortcut (108.024291ms)
+✔ old Norrbygatan has one source owner per interval and does not backdate the marsh crossing (103.152875ms)
+✔ Vargsunda tracks retain earlier continuity while partial branches keep their own evidence dates (87.083459ms)
+✔ Norrgård farm and lakeside approaches share a source cut without duplicate roads (26.534833ms)
+✔ Södersunda retains the old bend before the bypass and dates the school connection separately (113.355667ms)
+✔ Moren keeps two evidenced arms separate until the connecting track is confirmed (93.537792ms)
+✔ 1929–1967 Saltviksvägen runs from Laby round the Andelsby curve and along the shore over Kavelbro to Kvarnbo (1.342416ms)
+✔ from 1968 the diagonal at Andelsby; the old curve is drawn until 1984 and Dåglösavägen whole (0.099708ms)
+✔ group stories use their existing physical roofs with no extra map icon or duplicate list entry (498.344292ms)
+✔ Erikssonska has dated, clickable house phases instead of a legacy marker (631.878292ms)
+✔ zooming out never brings the duplicate group icons back (120.380417ms)
+✔ group roof stories obey search, historic layer and category filters (490.998334ms)
+✔ Gula läkarvillorna uses its physical footprint from 1953, including the reported 1970 view (261.154ms)
+✔ reported duplicate houses resolve once and superseded symbols only render as traces (233.137291ms)
+✔ school street correction selects the 1952 stage in the reported 1964 view (30.638459ms)
+✔ Societetshuset has one identity, an early core, an expansion, and a dated demolition (0.89125ms)
+✔ the May 1975 photo remains positive evidence despite the annual demolition boundary (1.569ms)
+✔ the original proposal stays unbuilt and the successor does not become the same physical house (0.122042ms)
+✔ the historical building renderer exposes one selectable roof and its story, with no roof after demolition (55.08425ms)
+✔ 1929–1994 Södersundavägen over Ulvsby round the loop to Jomala church is one line (2.395708ms)
+✔ from 1995 today's straight; the loop keeps Drittel-Mattes Gränd and S:t Olofs vägen (0.243542ms)
+✔ initial loading blocks controls, fades after readiness, then releases focus and interaction (2.668667ms)
+✔ stalled downloads offer escape and late completion never reopens the screen (0.479917ms)
+✔ failed loading preserves its message, retries by reloading, and can recover (0.339ms)
+✔ map readiness waits for initial layers, shoreline and painted layout (1.384791ms)
+✔ missing core data offers a failure state instead of revealing a blank map (2.791041ms)
+✔ report view restores controls after layers load and requests the reported shoreline year (2.20475ms)
+✔ progress reflects completed datasets, preserves errors and ignores late arrivals (0.943083ms)
+✔ preview waits only on explicit preview pages and still permits entering the map (0.653125ms)
+✔ reading or navigating updates keeps the ready map available until explicit entry (3.675959ms)
+✔ latest changes are visible immediately and navigation wraps without changing the building (0.504333ms)
+✔ loom reads the entire actual catalogue without mutating it or fabricating lifetimes (2342.470625ms)
+✔ one spotlight rotates, manual navigation wraps, and dismissal cancels rotation (1.19125ms)
+✔ reduced motion keeps the spotlight still while allowing manual selection (0.547584ms)
+✔ random initial buildings survive catalogue arrival without resetting the spotlight (659.915292ms)
+✔ linked stories use existing mapped buildings and an anchor inside their footprint (0.6485ms)
+✔ modern footprints replace legacy markers without showing modern geometry in the past (0.45775ms)
+✔ the replaced library symbol has no invisible legacy click target (0.448375ms)
+✔ clicking a linked footprint opens its historical story (0.847291ms)
+✔ 1928–1967: the old main road is one line, from the sheet edge to the ferry and on to Prästö (3.46875ms)
+✔ 1968: today's road at Finby and over the bridge at Bomarsund; Berghyddan and Svensböle still the main road until 1978 (0.327667ms)
+✔ from 1978 the old roads keep only their surviving parts, owned in OSM (2.0135ms)
+✔ from 1929 Norra Svibyvägen joins Kasbergsvägen and runs on along the shore as Norra Möckelövägen (1.263667ms)
+✔ from 1942 the road east to Svibyvägen replaces the 1942 photo stub (0.210792ms)
+✔ 1929–1977 Utängsvägen through Sviby, Norra Svibyvägen, Kasbergsvägen round the corner, Kasbergsgatan and Svibyvägen are one line (1.654625ms)
+✔ from 1978 the airport; from 1985 today's diagonal at Talläsen (0.109916ms)
+✔ all named houses and fortress places have persistent identities and independent physical states (1260.773834ms)
+✔ reviewed road observations use a fixed reference line without replacing originals (853.564ms)
+✔ a physical rerouting changes geometry at its validity boundary, with the same identity (786.814875ms)
+✔ missing observations do not demolish an object; missing validity periods remain unknown (989.702791ms)
+✔ street rendering follows geometry validity even between map snapshot years (852.531459ms)
+✔ a replacement at the same site has its own identity and explicit relationship (928.2355ms)
+✔ invalid periods, ambiguous identity links and missing provenance are rejected atomically (813.511292ms)
+✔ house renderer consumes resolved identity and emits one selectable house through source changes (1537.203625ms)
+✔ OSM metadata is attributed separately and cannot silently replace historical dating (1768.749958ms)
+✔ timeline selection follows a persistent house or road and respects demolition visibility (760.104167ms)
+✔ relocated houses exist before their current site without acquiring its coordinates (723.447916ms)
+✔ fortress migration preserves cemeteries, unfinished construction and trace visibility (758.336584ms)
+✔ Bomarsund comparison buttons retain the selected place when it is still visible (835.206708ms)
+✔ partial road extents and source gaps never inherit the modern whole segment (805.359167ms)
+✔ Torggatan keeps the reviewed older bend and its source under one identity (825.842333ms)
+✔ a known road remains selected through unknown coverage without creating a map feature (859.694125ms)
+✔ source aliases preserve changed labels and several old records within one identity (760.136458ms)
+✔ invalid coverage cannot replace a working catalogue (5669.8745ms)
+✔ Österleden uses historical evidence before OSM without inventing construction geometry (735.394209ms)
+✔ independently dated roads draw once across snapshot boundaries and retain selection (1241.752541ms)
+✔ printed-map houses use a trusted footprint while retaining dated original observations (803.628041ms)
+✔ the separate Styrmansgatan extension has map evidence from 1978, never an invented opening year (796.776ms)
+✔ postwar area coverage preserves roofs until individual building coverage is available (977.716833ms)
+✔ source boundaries never retire provisional buildings or change their identities (986.015458ms)
+✔ new street identities keep their positions from reviewed 1968 evidence through modern snapshots (758.716ms)
+✔ last-known symbols and built-up areas retain their inspector through source gaps without claiming demolition (659.662917ms)
+✔ invalid postwar stage coverage or identity cannot replace a working catalogue (3219.853583ms)
+✔ reviewed duplicate source identities resolve to one roof through all their source years (1201.45825ms)
+✔ a compound source keeps a selectable history but renders only its two physical buildings (861.712709ms)
+✔ reviewed external duplicate ways are owned once by the persistent roof layer (805.413583ms)
+✔ all 2013 properties survive the 2014 boundary with stable identity and appearance (936.549583ms)
+✔ linked properties consume source records and preserve selection in both timeline directions (878.284708ms)
+✔ unreviewed later buildings are not backdated and reviewed groups retain all their roofs (854.8615ms)
+✔ invalid property observation dates cannot replace the current model (2111.418041ms)
+✔ source gaps use the same solid building style in both years (840.753959ms)
+✔ explicit date estimates allow earlier geometry without inventing observations (2236.618417ms)
+✔ archived mapping dates remove the 2013–2014 building coverage discontinuity (842.39875ms)
+✔ reviewed replacements retire old roofs while preserving their inspectable identities and traces (958.264958ms)
+✔ Telegrafen construction is distinct from the finished gallery and preserves the old exchange (806.6605ms)
+✔ merged historical symbols and OSM aliases select a single persistent group (2321.85225ms)
+✔ large landmark roofs remain fixed through every source boundary (1225.348833ms)
+✔ museum properties replace coarse symbols once and survive source coverage changes (1192.594709ms)
+✔ museum replacements have separate identities and explicit demolition traces (832.779833ms)
+✔ museum yards are independent selectable sites and never become roofs (940.167209ms)
+✔ founding streets change from proposal to inferred use in 1861 without resetting their identities (646.052042ms)
+✔ Esplanad source traces are preserved but replaced once in the interpreted map (635.331417ms)
+✔ Norra Esplanadgatan crosses the future church site until the interpreted 1927 closure (630.50425ms)
+✔ the western Esplanad junction stays connected and consumes its modern cycleway once (631.05125ms)
+✔ follow-up identities resolve old links and photographed endings control real roofs (997.246917ms)
+✔ museum street alignment keeps source links on one physical object across time (614.108625ms)
+✔ connected buildings share identities while photographed extensions replace older neighbours (1138.629125ms)
+✔ Sitkoff neighbourhood roofs remain fixed across the 2020–2021 source boundary (819.896334ms)
+✔ the resolved 1860 plan has stable roads and parks, all visibly planned, before opening in 1861 (645.036375ms)
+✔ city blocks have one fill in every year: plans and built-up areas differ only by their outline (914.633125ms)
+✔ Hindersböle gård, Berggård and the fox farms are point-only places that end at their documented or photographed end (636.150459ms)
+✔ zoom loads finer source data while preserving the geographic center (2.187792ms)
+✔ a slow contour response cannot restore the previous historical shoreline (0.489291ms)
+✔ the contour worker preserves island holes and removes submerged land (1.948875ms)
+✔ postal line ends after 1911 and is not restored by older-traces mode (1.499667ms)
+✔ shipping routes obey their individual evidence intervals and layer switch (0.681041ms)
+✔ hidden routes leave no clickable line; visible line supports clicks and distant misses (0.292958ms)
+✔ discontinued services disappear, Birka gap is preserved and cable filters work (0.123333ms)
+✔ selected overlapping route wins hit testing and filtered routes leave no hits (1.060791ms)
+✔ curated route data has evidence, finite geometry and ports close to the mapped line (2.451792ms)
+✔ Danish itinerary has an approximate source period, not an invented service lifetime (0.16375ms)
+✔ medieval route story uses places and a sailing question instead of modern ferry ports (0.211875ms)
+✔ medieval line is clickable only inside its period and matching filter (0.123917ms)
+✔ postal route reaches Sweden and mainland Finland and switches harbour in 1756 (0.912375ms)
+✔ wrecks are absent before sinking, even with the older-wreck layer enabled (6.568333ms)
+✔ events are visible at their year and disappear afterwards unless explicitly enabled (7.761667ms)
+✔ Champagne sinking uses an explicit estimate while the exact year remains unknown (0.218791ms)
+✔ six distinct events separate sinkings from discoveries, preserving uncertainty (0.133333ms)
+✔ curated wreck positions match original public registry points and attribution (0.327333ms)
+✔ searching for a wreck opens its event without turning on archaeology or wreck layers (0.448375ms)
+✔ ship symbols get a clickable map marker rather than a present-day footprint (0.48425ms)
+✔ selecting a building during a wreck year does not attach the wreck dates or sources (0.527667ms)
+✔ wreck search navigation and detail dates retain the approximate sinking label (0.366584ms)
+ℹ tests 646
+ℹ suites 0
+ℹ pass 643
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 77996.995208
+
+✖ failing tests:
+
+test at tests/alvin-road-dating.test.cjs:9:1
+✖ circa-1800 roads use earlier detailed geometry and retain all subsequent history (59.277416ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 'circa'
+  
+      at TestContext.<anonymous> (/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/alvin-road-dating.test.cjs:15:36)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.start (node:internal/test_runner/test:1015:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:358:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'circa',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/historical-dates.test.cjs:42:1
+✖ isolated bridge extensions stop when the parent road takes over (4.816375ms)
+  AssertionError [ERR_ASSERTION]: bridge date must not backdate its whole parent road
+  + actual - expected
+  
+  + {
+  +   id: 'geometry:sundsvagen:sundsvagen-1-100km5',
+  +   note: 'Del av objektets egen geometri (samma koordinater) där dagens väg är vägen på sockenkartan 1928.',
+  +   paths: [
+  +     [
+  +       [
+  +         20.171526,
+  +         60.223449
+  +       ],
+  +       [
+  +         20.171704,
+  +         60.223428
+  +       ],
+  +       [
+  +         20.17204,
+  +         60.22339
+  +       ],
+  +       [
+  +         20.172546,
+  +         60.22332
+  +       ],
+  +       [
+  +         20.173007,
+  +         60.223246
+  +       ],
+  +       [
+  +         20.173429,
+  +         60.22317
+  +       ],
+  +       [
+  +         20.173938,
+  +         60.223058
+  +       ],
+  +       [
+  +         20.175901,
+  +         60.222586
+  +       ],
+  +       [
+  +         20.17679,
+  +         60.222363
+  +       ],
+  +       [
+  +         20.178308,
+  +         60.221982
+  +       ],
+  +       [
+  +         20.178902,
+  +         60.221833
+  +       ],
+  +       [
+  +         20.17972,
+  +         60.221628
+  +       ],
+  +       [
+  +         20.18021,
+  +         60.221506
+  +       ],
+  +       [
+  +         20.18322,
+  +         60.220757
+  +       ],
+  +       [
+  +         20.183571,
+  +         60.22067
+  +       ],
+  +       [
+  +         20.186115,
+  +         60.220052
+  +       ],
+  +       [
+  +         20.186758,
+  +         60.219905
+  +       ],
+  +       [
+  +         20.186849,
+  +         60.219885
+  +       ],
+  +       [
+  +         20.187442,
+  +         60.21975
+  +       ],
+  +       [
+  +         20.187442422389502,
+  +         60.21974990244118
+  +       ]
+  +     ],
+  +     [
+  +       [
+  +         20.205421453173006,
+  +         60.21564735583313
+  +       ],
+  +       [
+  +         20.205555,
+  +         60.215619
+  +       ],
+  +       [
+  +         20.206629,
+  +         60.21539
+  +       ],
+  +       [
+  +         20.207616,
+  +         60.215186
+  +       ],
+  +       [
+  +         20.208903,
+  +         60.214931
+  +       ],
+  +       [
+  +         20.20981,
+  +         60.214759
+  +       ],
+  +       [
+  +         20.216426,
+  +         60.21351
+  +       ],
+  +       [
+  +         20.217135,
+  +         60.213376
+  +       ],
+  +       [
+  +         20.21883,
+  +         60.213027
+  +       ],
+  +       [
+  +         20.21887,
+  +         60.213018
+  +       ],
+  +       [
+  +         20.221158,
+  +         60.212567
+  +       ],
+  +       [
+  +         20.222494,
+  +         60.212283
+  +       ],
+  +       [
+  +         20.222933,
+  +         60.212184
+  +       ],
+  +       [
+  +         20.223296,
+  +         60.212104
+  +       ],
+  +       [
+  +         20.224021,
+  +         60.211944
+  +       ],
+  +       [
+  +         20.224328,
+  +         60.211876
+  +       ],
+  +       [
+  +         20.224488,
+  +         60.21184
+  +       ],
+  +       [
+  +         20.224966,
+  +         60.211737
+  +       ],
+  +       [
+  +         20.225172,
+  +         60.211694
+  +       ],
+  +       [
+  +         20.225372,
+  +         60.211657
+  +       ],
+  +       [
+  +         20.22558,
+  +         60.211618
+  +       ],
+  +       [
+  +         20.226067256519336,
+  +         60.21153746173234
+  +       ]
+  +     ],
+  +     [
+  +       [
+  +         20.2486339936987,
+  +         60.20892800257431
+  +       ],
+  +       [
+  +         20.248634,
+  +         60.208928
+  +       ],
+  +       [
+  +         20.249642,
+  +         60.208609
+  +       ],
+  +       [
+  +         20.250637,
+  +         60.208352
+  +       ],
+  +       [
+  +         20.25094,
+  +         60.208269
+  +       ],
+  +       [
+  +         20.252101,
+  +         60.207958
+  +       ],
+  +       [
+  +         20.252737,
+  +         60.207788
+  +       ],
+  +       [
+  +         20.252871,
+  +         60.207752
+  +       ],
+  +       [
+  +         20.25422,
+  +         60.207385
+  +       ],
+  +       [
+  +         20.254431,
+  +         60.207331
+  +       ],
+  +       [
+  +         20.254661,
+  +         60.207274
+  +       ],
+  +       [
+  +         20.254863,
+  +         60.207232
+  +       ],
+  +       [
+  +         20.255051,
+  +         60.207194
+  +       ],
+  +       [
+  +         20.255286,
+  +         60.207152
+  +       ],
+  +       [
+  +         20.255682,
+  +         60.207097
+  +       ],
+  +       [
+  +         20.255959,
+  +         60.207066
+  +       ],
+  +       [
+  +         20.256356,
+  +         60.20704
+  +       ],
+  +       [
+  +         20.2567,
+  +         60.207028
+  +       ],
+  +       [
+  +         20.257078,
+  +         60.207022
+  +       ],
+  +       [
+  +         20.2573,
+  +         60.207017
+  +       ],
+  +       [
+  +         20.257782,
+  +         60.20701
+  +       ],
+  +       [
+  +         20.257797,
+  +         60.207009
+  +       ],
+  +       [
+  +         20.258261,
+  +         60.207002
+  +       ],
+  +       [
+  +         20.258769,
+  +         60.206994
+  +       ],
+  +       [
+  +         20.259373,
+  +         60.206982
+  +       ],
+  +       [
+  +         20.259993,
+  +         60.206968
+  +       ],
+  +       [
+  +         20.260769,
+  +         60.206954
+  +       ],
+  +       [
+  +         20.261306,
+  +         60.206944
+  +       ],
+  +       [
+  +         20.262137,
+  +         60.206927
+  +       ],
+  +       [
+  +         20.262416,
+  +         60.206924
+  +       ],
+  +       [
+  +         20.26284,
+  +         60.206916
+  +       ],
+  +       [
+  +         20.263437,
+  +         60.206919
+  +       ],
+  +       [
+  +         20.263674,
+  +         60.206925
+  +       ],
+  +       [
+  +         20.263967,
+  +         60.206938
+  +       ],
+  +       [
+  +         20.264308,
+  +         60.206962
+  +       ],
+  +       [
+  +         20.264514,
+  +         60.20698
+  +       ],
+  +       [
+  +         20.264909,
+  +         60.207033
+  +       ],
+  +       [
+  +         20.264988,
+  +         60.207046
+  +       ],
+  +       [
+  +         20.265078,
+  +         60.207062
+  +       ],
+  +       [
+  +         20.265125,
+  +         60.207071
+  +       ],
+  +       [
+  +         20.265344,
+  +         60.207113
+  +       ],
+  +       [
+  +         20.26568,
+  +         60.20719
+  +       ],
+  +       [
+  +         20.265914,
+  +         60.207245
+  +       ],
+  +       [
+  +         20.266132,
+  +         60.207303
+  +       ],
+  +       [
+  +         20.266382,
+  +         60.207377
+  +       ],
+  +       [
+  +         20.266604,
+  +         60.207456
+  +       ],
+  +       [
+  +         20.266898,
+  +         60.207582
+  +       ],
+  +       [
+  +         20.267208,
+  +         60.207706
+  +       ],
+  +       [
+  +         20.267613541331958,
+  +         60.20787880455771
+  +       ]
+  +     ]
+  +   ],
+  +   representation: 'centerline',
+  +   sourceIds: [
+  +     'road:qgis:bomarsund:sundsvagen-1-100km5:survey'
+  +   ]
+  + }
+  - null
+  
+      at TestContext.<anonymous> (/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/historical-dates.test.cjs:49:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: { id: 'geometry:sundsvagen:sundsvagen-1-100km5', representation: 'centerline', paths: [ [Array], [Array], [Array] ], sourceIds: [ 'road:qgis:bomarsund:sundsvagen-1-100km5:survey' ], note: 'Del av objektets egen geometri (samma koordinater) där dagens väg är vägen på sockenkartan 1928.' },
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rural-map-review.test.cjs:103:1
+✖ reviewed farm roads have one clickable line; source ownership follows year and layer visibility (100.359ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + {
+  +   id: 'geometry:hammarlandsvagen-postad:hammarland-korsberg-old-road',
+  +   note: 'Vägens egna koordinater där den finns kvar (Äldre väg vid Korsberg), och därefter mittlinjen av fornlämningsregistrets avgränsning (inmätt), fram till dagens väg där 1929 års sträcka fortsätter.',
+  +   paths: [
+  +     [
+  +       [
+  +         19.764437,
+  +         60.206912
+  +       ],
+  +       [
+  +         19.76452,
+  +         60.206965
+  +       ],
+  +       [
+  +         19.764549,
+  +         60.206996
+  +       ],
+  +       [
+  +         19.764556,
+  +         60.207016
+  +       ],
+  +       [
+  +         19.764532,
+  +         60.207081
+  +       ],
+  +       [
+  +         19.764424,
+  +         60.207266
+  +       ],
+  +       [
+  +         19.764322,
+  +         60.207426
+  +       ],
+  +       [
+  +         19.764269,
+  +         60.207666
+  +       ],
+  +       [
+  +         19.764156,
+  +         60.207831
+  +       ],
+  +       [
+  +         19.76392,
+  +         60.208047
+  +       ],
+  +       [
+  +         19.76348,
+  +         60.208298
+  +       ],
+  +       [
+  +         19.763164,
+  +         60.208479
+  +       ],
+  +       [
+  +         19.7627821,
+  +         60.208501
+  +       ],
+  +       [
+  +         19.762477,
+  +         60.2085783
+  +       ],
+  +       [
+  +         19.7621736,
+  +         60.208657
+  +       ],
+  +       [
+  +         19.7618904,
+  +         60.2087522
+  +       ],
+  +       [
+  +         19.761617,
+  +         60.2088548
+  +       ],
+  +       [
+  +         19.7613435,
+  +         60.2089574
+  +       ],
+  +       [
+  +         19.761073,
+  +         60.209062
+  +       ],
+  +       [
+  +         19.7607998,
+  +         60.2091647
+  +       ],
+  +       [
+  +         19.7605225,
+  +         60.2092647
+  +       ],
+  +       [
+  +         19.7602396,
+  +         60.2093607
+  +       ],
+  +       [
+  +         19.7599484,
+  +         60.2094499
+  +       ],
+  +       [
+  +         19.7596333,
+  +         60.2095159
+  +       ],
+  +       [
+  +         19.7593145,
+  +         60.2095779
+  +       ],
+  +       [
+  +         19.758461577564148,
+  +         60.209717012374426
+  +       ]
+  +     ]
+  +   ],
+  +   representation: 'centerline',
+  +   sourceIds: [
+  +     'nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08',
+  +     'heritage-register:Ha 17.8'
+  +   ]
+  + }
+  - null
+  
+      at TestContext.<anonymous> (/Users/erikedin/Documents/ChatGPT/Åland history/aland-tidsresan/tests/rural-map-review.test.cjs:109:10)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1118:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:787:18)
+      at Test.postRun (node:internal/test_runner/test:1247:19)
+      at Test.run (node:internal/test_runner/test:1175:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:787:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { id: 'geometry:hammarlandsvagen-postad:hammarland-korsberg-old-road', representation: 'centerline', paths: [ [Array] ], sourceIds: [ 'nls:9c72eaa7-cd73-4f92-91b0-dc36524bef08', 'heritage-register:Ha 17.8' ], note: 'Vägens egna koordinater där den finns kvar (Äldre väg vid Korsberg), och därefter mittlinjen av fornlämningsregistrets avgränsning (inmätt), fram till dagens väg där 1929 års sträcka fortsätter.' },
+    expected: null,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

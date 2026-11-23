@@ -98,3 +98,30 @@ See `docs/postal-route-godby.md`. Added for this step:
 - renders: `gf-*`, `h1`–`h3`, `ext*`, `bend-*`, `golby-1968.jpg`;
 - `scope-audit-godby.json`, `batch-postal-route-godby.patch` with its `patch-verification-godby.log`, and
   `node-tests-godby.log`.
+
+## Vårdö on the base maps (first look, 2026-11-23)
+
+Renders: `vardo-ov-1985.jpg`, `tofto-sheet.jpg` (1970, 1978), `toftos-sheet.jpg` (1970, 1978, 1985) and
+`vargata-sheet.jpg` (1971, 1978). Today's Vårdövägen is two objects, both dated only from 1985: the Töftö part
+(`road:qgis:tofto:vardovagen-200km1`) and the Vårdö part (`road:qgis:vardo:vardovagen-200km1`).
+
+- **The crossing from Prästö moved.**
+  - In 1970 and 1978 the ferry landed at Färjhamn on Töftö's north-west shore. From there the main road ran past
+    Södergård to Töftö village.
+  - Today's landing on the south shore is a dashed (planned) road in 1978, and the main road from 1985.
+- **Töftö to Vårdö.**
+  - In 1970 the road from Töftö village runs north-east past Påvals and no further.
+  - In 1978 it continues north past Storsved to the shore facing Gersholm and Kumnäs; the map notes a ferry to Vårdö.
+  - The bridge via Gersholm is first on the 1985 map.
+- **Vargata.** In 1971 and 1978 the road from the Kumnäs landing ran north into Vargata and then in a bend north
+  through Västergård and Östergård, past the farm marked "Post". Today's straight road through Vargata is first on the
+  1985 map, which is why the earlier review dated the object from 1985.
+- **The postal road itself crossed by boat.** The sources give the crossing from Bomarsund to Vårdö (aland.se mentions
+  the boat fare in the 1770s), and the route ended at Vargata, where the "Post" farm stands on the base maps. The road
+  across Töftö and the bridges belong to the 20th-century road network, not to the postal route.
+
+## Vargata on the base maps: done 2026-11-23
+
+See `docs/postal-route-vardo.md`. Added for this step: `scripts/prepare_vardo.py`, the renders `vbend-*`,
+`scope-audit-vardo.json`, `batch-postal-route-vardo.patch` with `patch-verification-vardo.log`, and
+`node-tests-vardo.log`.
