@@ -1,4 +1,4 @@
-"""Contact sheet of an object's geometry (green, its earliest or a given period) over a registered base-map scan, in
+"""(env CAT: read another catalogue copy, as written by unowned.py.) Contact sheet of an object's geometry (green, its earliest or a given period) over a registered base-map scan, in
 windows of ±HALF m every STEP m along the line, with a 100 m grid; other catalogue roads open in YEAR in red.
 Usage: along.py OBJECT_ID SHEET_ID YEAR OUT.jpg [GEOMETRY_PERIOD_INDEX] [RANGES_JSON]
 With RANGES_JSON (a list per path of [a, b] metres), matched ranges are drawn green and the rest magenta."""
@@ -15,7 +15,7 @@ oid, sid, year, out = sys.argv[1], sys.argv[2], int(sys.argv[3]), sys.argv[4]
 pi = int(sys.argv[5]) if len(sys.argv) > 5 else -1
 RANGES = json.loads(sys.argv[6]) if len(sys.argv) > 6 else None
 from shapely.ops import substring
-cat = json.load(gzip.open('dist/assets/temporal-objects.json.gz')); G = {g['id']: g for g in cat['geometries']}; O = {o['id']: o for o in cat['objects']}
+cat = json.load(gzip.open(os.environ.get('CAT', 'dist/assets/temporal-objects.json.gz'))); G = {g['id']: g for g in cat['geometries']}; O = {o['id']: o for o in cat['objects']}
 o = O[oid]; g = G[o['geometryPeriods'][pi]['geometryId']]
 mine = [LineString([TO_METRIC(*q) for q in p]) for p in g['paths'] if len(p) > 1]
 others = []

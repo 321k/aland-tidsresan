@@ -1,0 +1,5652 @@
+{
+ "cand:way/1291807287": {
+  "name": "Kungshamnsvägen",
+  "firstYear": 2026,
+  "paths": 3,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1971,
+       "nls:102307:1971"
+      ]
+     ],
+     "length": 498.6,
+     "read": 510,
+     "ranges": [
+      [
+       0,
+       320
+      ]
+     ],
+     "matched": 320
+    },
+    {
+     "editions": [
+      [
+       1971,
+       "nls:102307:1971"
+      ]
+     ],
+     "length": 585.9,
+     "read": 600,
+     "ranges": [
+      [
+       50,
+       585.9
+      ]
+     ],
+     "matched": 535.9
+    },
+    {
+     "editions": [
+      [
+       1971,
+       "nls:102307:1971"
+      ]
+     ],
+     "length": 1256.1,
+     "read": 1270,
+     "ranges": [
+      [
+       0,
+       1050
+      ],
+      [
+       1130,
+       1256.1
+      ]
+     ],
+     "matched": 1176.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102307:1985"
+      ]
+     ],
+     "length": 498.6,
+     "read": 510,
+     "ranges": [
+      [
+       0,
+       320
+      ]
+     ],
+     "matched": 320
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102307:1985"
+      ]
+     ],
+     "length": 585.9,
+     "read": 600,
+     "ranges": [
+      [
+       50,
+       585.9
+      ]
+     ],
+     "matched": 535.9
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102307:1985"
+      ]
+     ],
+     "length": 1256.1,
+     "read": 1270,
+     "ranges": [
+      [
+       0,
+       1256.1
+      ]
+     ],
+     "matched": 1256.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1991,
+       "nls:102307:1991"
+      ]
+     ],
+     "length": 498.6,
+     "read": 510,
+     "ranges": [
+      [
+       0,
+       410
+      ]
+     ],
+     "matched": 410
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:102307:1991"
+      ]
+     ],
+     "length": 585.9,
+     "read": 600,
+     "ranges": [
+      [
+       50,
+       585.9
+      ]
+     ],
+     "matched": 535.9
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:102307:1991"
+      ]
+     ],
+     "length": 1256.1,
+     "read": 1270,
+     "ranges": [
+      [
+       0,
+       1256.1
+      ]
+     ],
+     "matched": 1256.1
+    }
+   ]
+  ]
+ },
+ "cand:way/1469991359": {
+  "name": "Flygfältsvägen",
+  "firstYear": 2026,
+  "paths": 15,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 13.8,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 729.0,
+     "read": 740,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 629.9,
+     "read": 640,
+     "ranges": [
+      [
+       220,
+       629.9
+      ]
+     ],
+     "matched": 409.9
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 26.6,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 28.1,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 32.2,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 48.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 53.3,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 117.1,
+     "read": 130,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 56.0,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 14.5,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 33.2,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 15.4,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 48.1,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 26.4,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 13.8,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 729.0,
+     "read": 740,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 629.9,
+     "read": 640,
+     "ranges": [
+      [
+       220,
+       629.9
+      ]
+     ],
+     "matched": 409.9
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 26.6,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 28.1,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 32.2,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 48.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 53.3,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 117.1,
+     "read": 130,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 56.0,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 14.5,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 33.2,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 15.4,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 48.1,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 26.4,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 13.8,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 729.0,
+     "read": 740,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 629.9,
+     "read": 640,
+     "ranges": [
+      [
+       230,
+       629.9
+      ]
+     ],
+     "matched": 399.9
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 26.6,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 28.1,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 32.2,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 48.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 53.3,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       53.3
+      ]
+     ],
+     "matched": 53.3
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 117.1,
+     "read": 130,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 56.0,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 14.5,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 33.2,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 15.4,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 48.1,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 26.4,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/1026964987": {
+  "name": "Brändövägen",
+  "firstYear": 2026,
+  "paths": 9,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 328.9,
+     "read": 340,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 323.3,
+     "read": 340,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 36.8,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 74.3,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 48.3,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 577.5,
+     "read": 590,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 114.8,
+     "read": 130,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 30.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 71.0,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 328.9,
+     "read": 340,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 323.3,
+     "read": 340,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 36.8,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 74.3,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 48.3,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 577.5,
+     "read": 590,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 114.8,
+     "read": 130,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 30.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 71.0,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 328.9,
+     "read": 340,
+     "ranges": [
+      [
+       0,
+       328.9
+      ]
+     ],
+     "matched": 328.9
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 323.3,
+     "read": 340,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 36.8,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 74.3,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 48.3,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 577.5,
+     "read": 590,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 114.8,
+     "read": 130,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 30.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 71.0,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/65617754": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 1513.6,
+     "read": 1530,
+     "ranges": [
+      [
+       0,
+       1513.6
+      ]
+     ],
+     "matched": 1513.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 1513.6,
+     "read": 1530,
+     "ranges": [
+      [
+       0,
+       1260
+      ],
+      [
+       1350,
+       1513.6
+      ]
+     ],
+     "matched": 1423.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 1513.6,
+     "read": 1530,
+     "ranges": [
+      [
+       0,
+       1513.6
+      ]
+     ],
+     "matched": 1513.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 1513.6,
+     "read": 1530,
+     "ranges": [
+      [
+       0,
+       1513.6
+      ]
+     ],
+     "matched": 1513.6
+    }
+   ]
+  ]
+ },
+ "cand:way/1515386819": {
+  "name": "Sundsvägen",
+  "firstYear": 2026,
+  "paths": 6,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 20.8,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 46.1,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 77.8,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 1080.1,
+     "read": 1100,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 139.5,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 73.5,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 20.8,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 46.1,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 77.8,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 1080.1,
+     "read": 1100,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 139.5,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 73.5,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 20.8,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 46.1,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 77.8,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 1080.1,
+     "read": 1100,
+     "ranges": [
+      [
+       0,
+       130
+      ],
+      [
+       840,
+       1000
+      ]
+     ],
+     "matched": 290
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 139.5,
+     "read": 150,
+     "ranges": [
+      [
+       0,
+       139.5
+      ]
+     ],
+     "matched": 139.5
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 73.5,
+     "read": 90,
+     "ranges": [
+      [
+       0,
+       73.5
+      ]
+     ],
+     "matched": 73.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 20.8,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 46.1,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 77.8,
+     "read": 90,
+     "ranges": [
+      [
+       0,
+       77.8
+      ]
+     ],
+     "matched": 77.8
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 1080.1,
+     "read": 1100,
+     "ranges": [
+      [
+       630,
+       1080.1
+      ]
+     ],
+     "matched": 450.1
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 139.5,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 73.5,
+     "read": 90,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/349909843": {
+  "name": "Bistorpvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ]
+     ],
+     "length": 1409.1,
+     "read": 1420,
+     "ranges": [
+      [
+       0,
+       1409.1
+      ]
+     ],
+     "matched": 1409.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101211:1978"
+      ]
+     ],
+     "length": 1409.1,
+     "read": 1420,
+     "ranges": [
+      [
+       0,
+       1409.1
+      ]
+     ],
+     "matched": 1409.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101211:1985"
+      ]
+     ],
+     "length": 1409.1,
+     "read": 1420,
+     "ranges": [
+      [
+       0,
+       1409.1
+      ]
+     ],
+     "matched": 1409.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101211:1995"
+      ]
+     ],
+     "length": 1409.1,
+     "read": 1420,
+     "ranges": [
+      [
+       0,
+       1409.1
+      ]
+     ],
+     "matched": 1409.1
+    }
+   ]
+  ]
+ },
+ "cand:way/38810657": {
+  "name": "Sonrödavägen",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102110:1968"
+      ]
+     ],
+     "length": 972.0,
+     "read": 990,
+     "ranges": [
+      [
+       0,
+       830
+      ]
+     ],
+     "matched": 830
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102110:1968"
+      ]
+     ],
+     "length": 349.3,
+     "read": 360,
+     "ranges": [
+      [
+       40,
+       349.3
+      ]
+     ],
+     "matched": 309.3
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102110:1978"
+      ]
+     ],
+     "length": 972.0,
+     "read": 990,
+     "ranges": [
+      [
+       0,
+       820
+      ]
+     ],
+     "matched": 820
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102110:1978"
+      ]
+     ],
+     "length": 349.3,
+     "read": 360,
+     "ranges": [
+      [
+       30,
+       349.3
+      ]
+     ],
+     "matched": 319.3
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102110:1985"
+      ]
+     ],
+     "length": 972.0,
+     "read": 990,
+     "ranges": [
+      [
+       0,
+       870
+      ]
+     ],
+     "matched": 870
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102110:1985"
+      ]
+     ],
+     "length": 349.3,
+     "read": 360,
+     "ranges": [
+      [
+       50,
+       349.3
+      ]
+     ],
+     "matched": 299.3
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102110:1993"
+      ]
+     ],
+     "length": 972.0,
+     "read": 990,
+     "ranges": [
+      [
+       0,
+       820
+      ]
+     ],
+     "matched": 820
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102110:1993"
+      ]
+     ],
+     "length": 349.3,
+     "read": 360,
+     "ranges": [
+      [
+       20,
+       349.3
+      ]
+     ],
+     "matched": 329.3
+    }
+   ]
+  ]
+ },
+ "cand:way/636520886": {
+  "name": "Industrivägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101203:1968"
+      ]
+     ],
+     "length": 1099.7,
+     "read": 790,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101203:1978"
+      ]
+     ],
+     "length": 1099.7,
+     "read": 790,
+     "ranges": [
+      [
+       390,
+       520
+      ]
+     ],
+     "matched": 130
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101203:1985"
+      ]
+     ],
+     "length": 1099.7,
+     "read": 790,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1994,
+       "nls:101203:1994"
+      ]
+     ],
+     "length": 1099.7,
+     "read": 790,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/54052704": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102101:1968"
+      ],
+      [
+       1968,
+       "nls:102104:1968"
+      ]
+     ],
+     "length": 1071.7,
+     "read": 1090,
+     "ranges": [
+      [
+       270,
+       1071.7
+      ]
+     ],
+     "matched": 801.7
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102101:1978"
+      ],
+      [
+       1978,
+       "nls:102104:1978"
+      ]
+     ],
+     "length": 1071.7,
+     "read": 1090,
+     "ranges": [
+      [
+       270,
+       1071.7
+      ]
+     ],
+     "matched": 801.7
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:102101:1984"
+      ],
+      [
+       1984,
+       "nls:102104:1984"
+      ]
+     ],
+     "length": 1071.7,
+     "read": 1090,
+     "ranges": [
+      [
+       280,
+       1071.7
+      ]
+     ],
+     "matched": 791.7
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102101:1993"
+      ],
+      [
+       1993,
+       "nls:102104:1993"
+      ]
+     ],
+     "length": 1071.7,
+     "read": 1090,
+     "ranges": [
+      [
+       0,
+       1071.7
+      ]
+     ],
+     "matched": 1071.7
+    }
+   ]
+  ]
+ },
+ "cand:way/37532644": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1971,
+       "nls:102312:1971"
+      ]
+     ],
+     "length": 1014.5,
+     "read": 1030,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102312:1985"
+      ]
+     ],
+     "length": 1014.5,
+     "read": 1030,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1991,
+       "nls:102312:1991"
+      ]
+     ],
+     "length": 1014.5,
+     "read": 1030,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/36745218": {
+  "name": "Södra Söderbyvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 1003.3,
+     "read": 1020,
+     "ranges": [
+      [
+       210,
+       910
+      ]
+     ],
+     "matched": 700
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 1003.3,
+     "read": 1020,
+     "ranges": [
+      [
+       210,
+       920
+      ]
+     ],
+     "matched": 710
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 1003.3,
+     "read": 1020,
+     "ranges": [
+      [
+       100,
+       1003.3
+      ]
+     ],
+     "matched": 903.3
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 1003.3,
+     "read": 1020,
+     "ranges": [
+      [
+       100,
+       1003.3
+      ]
+     ],
+     "matched": 903.3
+    }
+   ]
+  ]
+ },
+ "cand:way/1423016201": {
+  "name": "Klockargränd",
+  "firstYear": 2026,
+  "paths": 3,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 293.6,
+     "read": 310,
+     "ranges": [
+      [
+       0,
+       293.6
+      ]
+     ],
+     "matched": 293.6
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 579.4,
+     "read": 590,
+     "ranges": [
+      [
+       0,
+       579.4
+      ]
+     ],
+     "matched": 579.4
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 80.6,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       80.6
+      ]
+     ],
+     "matched": 80.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 293.6,
+     "read": 310,
+     "ranges": [
+      [
+       0,
+       293.6
+      ]
+     ],
+     "matched": 293.6
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 579.4,
+     "read": 590,
+     "ranges": [
+      [
+       0,
+       579.4
+      ]
+     ],
+     "matched": 579.4
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 80.6,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       80.6
+      ]
+     ],
+     "matched": 80.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 293.6,
+     "read": 310,
+     "ranges": [
+      [
+       0,
+       120
+      ],
+      [
+       180,
+       293.6
+      ]
+     ],
+     "matched": 233.6
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 579.4,
+     "read": 590,
+     "ranges": [
+      [
+       0,
+       579.4
+      ]
+     ],
+     "matched": 579.4
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 80.6,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       80.6
+      ]
+     ],
+     "matched": 80.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 293.6,
+     "read": 310,
+     "ranges": [
+      [
+       0,
+       293.6
+      ]
+     ],
+     "matched": 293.6
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 579.4,
+     "read": 590,
+     "ranges": [
+      [
+       0,
+       579.4
+      ]
+     ],
+     "matched": 579.4
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 80.6,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       80.6
+      ]
+     ],
+     "matched": 80.6
+    }
+   ]
+  ]
+ },
+ "cand:way/1355323682": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 463.3,
+     "read": 480,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 456.6,
+     "read": 470,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 463.3,
+     "read": 480,
+     "ranges": [
+      [
+       0,
+       463.3
+      ]
+     ],
+     "matched": 463.3
+    },
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 456.6,
+     "read": 470,
+     "ranges": [
+      [
+       0,
+       456.6
+      ]
+     ],
+     "matched": 456.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 463.3,
+     "read": 480,
+     "ranges": [
+      [
+       0,
+       463.3
+      ]
+     ],
+     "matched": 463.3
+    },
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 456.6,
+     "read": 470,
+     "ranges": [
+      [
+       0,
+       456.6
+      ]
+     ],
+     "matched": 456.6
+    }
+   ]
+  ]
+ },
+ "cand:way/1153723634": {
+  "name": "Solbergsvägen",
+  "firstYear": 2026,
+  "paths": 3,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 108.5,
+     "read": 120,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 146.1,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 487.8,
+     "read": 500,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 108.5,
+     "read": 120,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 146.1,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 487.8,
+     "read": 500,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 108.5,
+     "read": 120,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 146.1,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 487.8,
+     "read": 500,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 108.5,
+     "read": 120,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 146.1,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 487.8,
+     "read": 500,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/1179913718": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1971,
+       "nls:101312:1971"
+      ]
+     ],
+     "length": 487.8,
+     "read": 500,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1971,
+       "nls:101312:1971"
+      ]
+     ],
+     "length": 163.6,
+     "read": 180,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101312:1985"
+      ]
+     ],
+     "length": 487.8,
+     "read": 500,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101312:1985"
+      ]
+     ],
+     "length": 163.6,
+     "read": 180,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101312:1995"
+      ]
+     ],
+     "length": 487.8,
+     "read": 500,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101312:1995"
+      ]
+     ],
+     "length": 163.6,
+     "read": 180,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/1312758320": {
+  "name": "Björsby Bygata",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 139.1,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 477.1,
+     "read": 490,
+     "ranges": [
+      [
+       30,
+       130
+      ],
+      [
+       190,
+       250
+      ]
+     ],
+     "matched": 160
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 139.1,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 477.1,
+     "read": 490,
+     "ranges": [
+      [
+       0,
+       130
+      ],
+      [
+       190,
+       390
+      ]
+     ],
+     "matched": 330
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 139.1,
+     "read": 150,
+     "ranges": [
+      [
+       0,
+       139.1
+      ]
+     ],
+     "matched": 139.1
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 477.1,
+     "read": 490,
+     "ranges": [
+      [
+       60,
+       477.1
+      ]
+     ],
+     "matched": 417.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 139.1,
+     "read": 150,
+     "ranges": [
+      [
+       0,
+       139.1
+      ]
+     ],
+     "matched": 139.1
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 477.1,
+     "read": 490,
+     "ranges": [
+      [
+       0,
+       477.1
+      ]
+     ],
+     "matched": 477.1
+    }
+   ]
+  ]
+ },
+ "cand:way/37711324": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 596.0,
+     "read": 610,
+     "ranges": [
+      [
+       0,
+       596.0
+      ]
+     ],
+     "matched": 596.0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 596.0,
+     "read": 610,
+     "ranges": [
+      [
+       0,
+       596.0
+      ]
+     ],
+     "matched": 596.0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 596.0,
+     "read": 610,
+     "ranges": [
+      [
+       0,
+       596.0
+      ]
+     ],
+     "matched": 596.0
+    }
+   ]
+  ]
+ },
+ "cand:way/1067038810": {
+  "name": "Bovikvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102104:1968"
+      ]
+     ],
+     "length": 483.5,
+     "read": 500,
+     "ranges": [
+      [
+       20,
+       483.5
+      ]
+     ],
+     "matched": 463.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102104:1978"
+      ]
+     ],
+     "length": 483.5,
+     "read": 500,
+     "ranges": [
+      [
+       0,
+       483.5
+      ]
+     ],
+     "matched": 483.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:102104:1984"
+      ]
+     ],
+     "length": 483.5,
+     "read": 500,
+     "ranges": [
+      [
+       0,
+       483.5
+      ]
+     ],
+     "matched": 483.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102104:1993"
+      ]
+     ],
+     "length": 483.5,
+     "read": 500,
+     "ranges": [
+      [
+       0,
+       483.5
+      ]
+     ],
+     "matched": 483.5
+    }
+   ]
+  ]
+ },
+ "cand:way/36745164": {
+  "name": "Valborgsvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ],
+      [
+       1968,
+       "nls:101211:1968"
+      ]
+     ],
+     "length": 452.9,
+     "read": 470,
+     "ranges": [
+      [
+       50,
+       170
+      ]
+     ],
+     "matched": 120
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ],
+      [
+       1978,
+       "nls:101211:1978"
+      ]
+     ],
+     "length": 452.9,
+     "read": 470,
+     "ranges": [
+      [
+       0,
+       170
+      ]
+     ],
+     "matched": 170
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ],
+      [
+       1985,
+       "nls:101211:1985"
+      ]
+     ],
+     "length": 452.9,
+     "read": 470,
+     "ranges": [
+      [
+       180,
+       452.9
+      ]
+     ],
+     "matched": 272.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ],
+      [
+       1995,
+       "nls:101211:1995"
+      ]
+     ],
+     "length": 452.9,
+     "read": 470,
+     "ranges": [
+      [
+       0,
+       452.9
+      ]
+     ],
+     "matched": 452.9
+    }
+   ]
+  ]
+ },
+ "cand:way/672386484": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1971,
+       "nls:101312:1971"
+      ]
+     ],
+     "length": 116.9,
+     "read": 130,
+     "ranges": [
+      [
+       0,
+       116.9
+      ]
+     ],
+     "matched": 116.9
+    },
+    {
+     "editions": [
+      [
+       1971,
+       "nls:101312:1971"
+      ]
+     ],
+     "length": 301.7,
+     "read": 320,
+     "ranges": [
+      [
+       0,
+       301.7
+      ]
+     ],
+     "matched": 301.7
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101312:1985"
+      ]
+     ],
+     "length": 116.9,
+     "read": 130,
+     "ranges": [
+      [
+       0,
+       116.9
+      ]
+     ],
+     "matched": 116.9
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101312:1985"
+      ]
+     ],
+     "length": 301.7,
+     "read": 320,
+     "ranges": [
+      [
+       0,
+       301.7
+      ]
+     ],
+     "matched": 301.7
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101312:1995"
+      ]
+     ],
+     "length": 116.9,
+     "read": 130,
+     "ranges": [
+      [
+       0,
+       116.9
+      ]
+     ],
+     "matched": 116.9
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101312:1995"
+      ]
+     ],
+     "length": 301.7,
+     "read": 320,
+     "ranges": [
+      [
+       0,
+       301.7
+      ]
+     ],
+     "matched": 301.7
+    }
+   ]
+  ]
+ },
+ "cand:way/1422779921": {
+  "name": "Södersundavägen",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 186.1,
+     "read": 200,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 202.3,
+     "read": 220,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 186.1,
+     "read": 200,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 202.3,
+     "read": 220,
+     "ranges": [
+      [
+       0,
+       50
+      ]
+     ],
+     "matched": 50
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 186.1,
+     "read": 200,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 202.3,
+     "read": 220,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 186.1,
+     "read": 200,
+     "ranges": [
+      [
+       0,
+       186.1
+      ]
+     ],
+     "matched": 186.1
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 202.3,
+     "read": 220,
+     "ranges": [
+      [
+       0,
+       202.3
+      ]
+     ],
+     "matched": 202.3
+    }
+   ]
+  ]
+ },
+ "cand:way/1086414540": {
+  "name": "Emkarbyvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 385.4,
+     "read": 400,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 385.4,
+     "read": 400,
+     "ranges": [
+      [
+       0,
+       385.4
+      ]
+     ],
+     "matched": 385.4
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 385.4,
+     "read": 400,
+     "ranges": [
+      [
+       0,
+       385.4
+      ]
+     ],
+     "matched": 385.4
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 385.4,
+     "read": 400,
+     "ranges": [
+      [
+       0,
+       385.4
+      ]
+     ],
+     "matched": 385.4
+    }
+   ]
+  ]
+ },
+ "cand:way/350318096": {
+  "name": "Östra Ytterbyvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 374.5,
+     "read": 390,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 374.5,
+     "read": 390,
+     "ranges": [
+      [
+       130,
+       374.5
+      ]
+     ],
+     "matched": 244.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 374.5,
+     "read": 390,
+     "ranges": [
+      [
+       0,
+       374.5
+      ]
+     ],
+     "matched": 374.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 374.5,
+     "read": 390,
+     "ranges": [
+      [
+       0,
+       374.5
+      ]
+     ],
+     "matched": 374.5
+    }
+   ]
+  ]
+ },
+ "cand:way/638446676": {
+  "name": "Bölevägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102101:1968"
+      ]
+     ],
+     "length": 361.9,
+     "read": 380,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102101:1978"
+      ]
+     ],
+     "length": 361.9,
+     "read": 380,
+     "ranges": [
+      [
+       0,
+       361.9
+      ]
+     ],
+     "matched": 361.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:102101:1984"
+      ]
+     ],
+     "length": 361.9,
+     "read": 380,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102101:1993"
+      ]
+     ],
+     "length": 361.9,
+     "read": 380,
+     "ranges": [
+      [
+       0,
+       361.9
+      ]
+     ],
+     "matched": 361.9
+    }
+   ]
+  ]
+ },
+ "cand:way/70574479": {
+  "name": "Björbyvagen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102110:1968"
+      ]
+     ],
+     "length": 361.2,
+     "read": 380,
+     "ranges": [
+      [
+       0,
+       361.2
+      ]
+     ],
+     "matched": 361.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102110:1978"
+      ]
+     ],
+     "length": 361.2,
+     "read": 380,
+     "ranges": [
+      [
+       0,
+       361.2
+      ]
+     ],
+     "matched": 361.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102110:1985"
+      ]
+     ],
+     "length": 361.2,
+     "read": 380,
+     "ranges": [
+      [
+       0,
+       361.2
+      ]
+     ],
+     "matched": 361.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102110:1993"
+      ]
+     ],
+     "length": 361.2,
+     "read": 380,
+     "ranges": [
+      [
+       0,
+       361.2
+      ]
+     ],
+     "matched": 361.2
+    }
+   ]
+  ]
+ },
+ "cand:way/355197649": {
+  "name": "Eliasvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102110:1968"
+      ]
+     ],
+     "length": 316.6,
+     "read": 330,
+     "ranges": [
+      [
+       0,
+       316.6
+      ]
+     ],
+     "matched": 316.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102110:1978"
+      ]
+     ],
+     "length": 316.6,
+     "read": 330,
+     "ranges": [
+      [
+       0,
+       316.6
+      ]
+     ],
+     "matched": 316.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102110:1985"
+      ]
+     ],
+     "length": 316.6,
+     "read": 330,
+     "ranges": [
+      [
+       0,
+       316.6
+      ]
+     ],
+     "matched": 316.6
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102110:1993"
+      ]
+     ],
+     "length": 316.6,
+     "read": 330,
+     "ranges": [
+      [
+       0,
+       316.6
+      ]
+     ],
+     "matched": 316.6
+    }
+   ]
+  ]
+ },
+ "cand:way/54052710": {
+  "name": "Ödkarbyvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 270.9,
+     "read": 290,
+     "ranges": [
+      [
+       30,
+       90
+      ],
+      [
+       160,
+       270.9
+      ]
+     ],
+     "matched": 170.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 270.9,
+     "read": 290,
+     "ranges": [
+      [
+       0,
+       100
+      ],
+      [
+       180,
+       270.9
+      ]
+     ],
+     "matched": 190.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 270.9,
+     "read": 290,
+     "ranges": [
+      [
+       0,
+       270.9
+      ]
+     ],
+     "matched": 270.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 270.9,
+     "read": 290,
+     "ranges": [
+      [
+       0,
+       270.9
+      ]
+     ],
+     "matched": 270.9
+    }
+   ]
+  ]
+ },
+ "cand:way/1332867119": {
+  "name": "Möckelövägen",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 87.6,
+     "read": 100,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 166.5,
+     "read": 180,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 87.6,
+     "read": 100,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 166.5,
+     "read": 180,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 87.6,
+     "read": 100,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 166.5,
+     "read": 180,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/126366076": {
+  "name": "Kyrkvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ]
+     ],
+     "length": 237.0,
+     "read": 250,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101211:1978"
+      ]
+     ],
+     "length": 237.0,
+     "read": 250,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101211:1985"
+      ]
+     ],
+     "length": 237.0,
+     "read": 250,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101211:1995"
+      ]
+     ],
+     "length": 237.0,
+     "read": 250,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/1069660487": {
+  "name": "Getavägen",
+  "firstYear": 2026,
+  "paths": 8,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 40.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 22.5,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 25.0,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 32.4,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 34.8,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 31.7,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 32.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 7.9,
+     "read": 20,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 40.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 22.5,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 25.0,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 32.4,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 34.8,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 31.7,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 32.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 7.9,
+     "read": 20,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 40.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 22.5,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 25.0,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 32.4,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 34.8,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 31.7,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 32.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 7.9,
+     "read": 20,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 40.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 22.5,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 25.0,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 32.4,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 34.8,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 31.7,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 32.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 7.9,
+     "read": 20,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/446395018": {
+  "name": "Skinnarskärsbron",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1969,
+       "nls:104102:1969"
+      ]
+     ],
+     "length": 188.2,
+     "read": 200,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:104102:1984"
+      ]
+     ],
+     "length": 188.2,
+     "read": 200,
+     "ranges": [
+      [
+       0,
+       188.2
+      ]
+     ],
+     "matched": 188.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1991,
+       "nls:104102:1991"
+      ]
+     ],
+     "length": 188.2,
+     "read": 200,
+     "ranges": [
+      [
+       0,
+       188.2
+      ]
+     ],
+     "matched": 188.2
+    }
+   ]
+  ]
+ },
+ "cand:way/70984642": {
+  "name": "Nya Godbyvägen",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 140.2,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 28.9,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 140.2,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 28.9,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 140.2,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       90
+      ]
+     ],
+     "matched": 90
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 28.9,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 140.2,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       140.2
+      ]
+     ],
+     "matched": 140.2
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 28.9,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/362492476": {
+  "name": "Tosarbyvägen",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 83.9,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       83.9
+      ]
+     ],
+     "matched": 83.9
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 80.9,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       80.9
+      ]
+     ],
+     "matched": 80.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 83.9,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       83.9
+      ]
+     ],
+     "matched": 83.9
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 80.9,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       80.9
+      ]
+     ],
+     "matched": 80.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 83.9,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       83.9
+      ]
+     ],
+     "matched": 83.9
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 80.9,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       80.9
+      ]
+     ],
+     "matched": 80.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 83.9,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       83.9
+      ]
+     ],
+     "matched": 83.9
+    },
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 80.9,
+     "read": 100,
+     "ranges": [
+      [
+       0,
+       80.9
+      ]
+     ],
+     "matched": 80.9
+    }
+   ]
+  ]
+ },
+ "cand:way/1422779918": {
+  "name": "Södersundavägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 163.5,
+     "read": 180,
+     "ranges": [
+      [
+       20,
+       163.5
+      ]
+     ],
+     "matched": 143.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 163.5,
+     "read": 180,
+     "ranges": [
+      [
+       0,
+       163.5
+      ]
+     ],
+     "matched": 163.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 163.5,
+     "read": 180,
+     "ranges": [
+      [
+       0,
+       163.5
+      ]
+     ],
+     "matched": 163.5
+    }
+   ]
+  ]
+ },
+ "cand:way/86553205": {
+  "name": "Norra Söderbyvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 149.3,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 149.3,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 149.3,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       149.3
+      ]
+     ],
+     "matched": 149.3
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 149.3,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       149.3
+      ]
+     ],
+     "matched": 149.3
+    }
+   ]
+  ]
+ },
+ "cand:way/65617749": {
+  "name": "Hagavägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102108:1968"
+      ]
+     ],
+     "length": 148.2,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       148.2
+      ]
+     ],
+     "matched": 148.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102108:1978"
+      ]
+     ],
+     "length": 148.2,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       148.2
+      ]
+     ],
+     "matched": 148.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:102108:1984"
+      ]
+     ],
+     "length": 148.2,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       148.2
+      ]
+     ],
+     "matched": 148.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102108:1993"
+      ]
+     ],
+     "length": 148.2,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       148.2
+      ]
+     ],
+     "matched": 148.2
+    }
+   ]
+  ]
+ },
+ "cand:way/174570465": {
+  "name": "Bagargatan",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102101:1968"
+      ]
+     ],
+     "length": 148.3,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102101:1978"
+      ]
+     ],
+     "length": 148.3,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1984,
+       "nls:102101:1984"
+      ]
+     ],
+     "length": 148.3,
+     "read": 160,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102101:1993"
+      ]
+     ],
+     "length": 148.3,
+     "read": 160,
+     "ranges": [
+      [
+       0,
+       148.3
+      ]
+     ],
+     "matched": 148.3
+    }
+   ]
+  ]
+ },
+ "cand:way/173634197": {
+  "name": "Tingebergsväg",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 138.9,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 138.9,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 138.9,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101209:1995"
+      ]
+     ],
+     "length": 138.9,
+     "read": 150,
+     "ranges": [
+      [
+       0,
+       138.9
+      ]
+     ],
+     "matched": 138.9
+    }
+   ]
+  ]
+ },
+ "cand:way/613969811": {
+  "name": "Nya Godbyvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102107:1968"
+      ]
+     ],
+     "length": 110.4,
+     "read": 130,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102107:1978"
+      ]
+     ],
+     "length": 110.4,
+     "read": 130,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:102107:1985"
+      ]
+     ],
+     "length": 110.4,
+     "read": 130,
+     "ranges": [
+      [
+       0,
+       110.4
+      ]
+     ],
+     "matched": 110.4
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1993,
+       "nls:102107:1993"
+      ]
+     ],
+     "length": 110.4,
+     "read": 130,
+     "ranges": [
+      [
+       0,
+       110.4
+      ]
+     ],
+     "matched": 110.4
+    }
+   ]
+  ]
+ },
+ "cand:way/166080084": {
+  "name": "Norra Svibyvägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 106.9,
+     "read": 120,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 106.9,
+     "read": 120,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 106.9,
+     "read": 120,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/161723474": {
+  "name": "Michaelsvägen",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 39.9,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 40.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 39.9,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 40.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 39.9,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 40.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 39.9,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 40.2,
+     "read": 60,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/615021055": {
+  "name": "Sundsvägen",
+  "firstYear": 2026,
+  "paths": 3,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101212:1968"
+      ]
+     ],
+     "length": 19.6,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101212:1968"
+      ]
+     ],
+     "length": 21.1,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101212:1968"
+      ]
+     ],
+     "length": 38.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101212:1978"
+      ]
+     ],
+     "length": 19.6,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101212:1978"
+      ]
+     ],
+     "length": 21.1,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101212:1978"
+      ]
+     ],
+     "length": 38.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101212:1985"
+      ]
+     ],
+     "length": 19.6,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101212:1985"
+      ]
+     ],
+     "length": 21.1,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101212:1985"
+      ]
+     ],
+     "length": 38.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1994,
+       "nls:101212:1994"
+      ]
+     ],
+     "length": 19.6,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1994,
+       "nls:101212:1994"
+      ]
+     ],
+     "length": 21.1,
+     "read": 40,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1994,
+       "nls:101212:1994"
+      ]
+     ],
+     "length": 38.1,
+     "read": 50,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/34561605": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101205:1978"
+      ]
+     ],
+     "length": 65.1,
+     "read": 80,
+     "ranges": [
+      [
+       0,
+       65.1
+      ]
+     ],
+     "matched": 65.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101205:1985"
+      ]
+     ],
+     "length": 65.1,
+     "read": 80,
+     "ranges": [
+      [
+       0,
+       65.1
+      ]
+     ],
+     "matched": 65.1
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101205:1995"
+      ]
+     ],
+     "length": 65.1,
+     "read": 80,
+     "ranges": [
+      [
+       0,
+       65.1
+      ]
+     ],
+     "matched": 65.1
+    }
+   ]
+  ]
+ },
+ "cand:way/25215821": {
+  "name": "Havsgatan",
+  "firstYear": 2026,
+  "paths": 2,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 59.0,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 4.1,
+     "read": 20,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 59.0,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 4.1,
+     "read": 20,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 59.0,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 4.1,
+     "read": 20,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 59.0,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       59.0
+      ]
+     ],
+     "matched": 59.0
+    },
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101208:1995"
+      ]
+     ],
+     "length": 4.1,
+     "read": 20,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/23103978": {
+  "name": "Väg eller stig",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1970,
+       "nls:101409:1970"
+      ]
+     ],
+     "length": 59.1,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101409:1985"
+      ]
+     ],
+     "length": 59.1,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "cand:way/121989699": {
+  "name": "Flakavägen",
+  "firstYear": 2026,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ]
+     ],
+     "length": 51.2,
+     "read": 70,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101211:1978"
+      ]
+     ],
+     "length": 51.2,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       51.2
+      ]
+     ],
+     "matched": 51.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101211:1985"
+      ]
+     ],
+     "length": 51.2,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       51.2
+      ]
+     ],
+     "matched": 51.2
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1995,
+       "nls:101211:1995"
+      ]
+     ],
+     "length": 51.2,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       51.2
+      ]
+     ],
+     "matched": 51.2
+    }
+   ]
+  ]
+ }
+}

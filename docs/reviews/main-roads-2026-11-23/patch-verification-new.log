@@ -1,0 +1,11 @@
+forward on before-copies:
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+patching file 'tests/temporal-objects.test.cjs'
+scripts/build_temporal_objects.py identical to working tree
+dist/index.html identical to working tree
+tests/temporal-objects.test.cjs identical to working tree
+reverse dry run on working tree:
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/index.html'
+patching file 'tests/temporal-objects.test.cjs'

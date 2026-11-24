@@ -1,0 +1,56 @@
+{
+ "before": "data/map-scan-cache/review/main-roads-new/before-main-roads-new-step.json.gz",
+ "objects": {
+  "added": [
+   "road:main-roads-new:brando:langang-farjfastet",
+   "road:main-roads-new:jomala:klockargrand",
+   "road:main-roads-new:kokar:pavals",
+   "road:main-roads-new:kumlinge:kungshamnsvagen",
+   "road:main-roads-new:lumparland:bistorpvagen",
+   "road:main-roads-new:saltvik:odkarbyvagen-haga",
+   "road:main-roads-new:sund:bjorbyvagen-trygghem",
+   "road:main-roads-new:sund:eliasvagen",
+   "road:main-roads-new:sund:sonrodavagen",
+   "road:main-roads-new:svartsmara:bovikvagen"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "geometries": {
+  "added": [
+   "geometry:main-roads-new:brando:langang-farjfastet",
+   "geometry:main-roads-new:jomala:klockargrand",
+   "geometry:main-roads-new:kokar:pavals",
+   "geometry:main-roads-new:kumlinge:kungshamnsvagen",
+   "geometry:main-roads-new:lumparland:bistorpvagen",
+   "geometry:main-roads-new:saltvik:odkarbyvagen-haga",
+   "geometry:main-roads-new:sund:bjorbyvagen-trygghem",
+   "geometry:main-roads-new:sund:eliasvagen",
+   "geometry:main-roads-new:sund:sonrodavagen",
+   "geometry:main-roads-new:svartsmara:bovikvagen"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:main-roads-new",
+   "road:main-roads-new:brando:langang-farjfastet:survey",
+   "road:main-roads-new:jomala:klockargrand:survey",
+   "road:main-roads-new:kokar:pavals:survey",
+   "road:main-roads-new:kumlinge:kungshamnsvagen:survey",
+   "road:main-roads-new:lumparland:bistorpvagen:survey",
+   "road:main-roads-new:saltvik:odkarbyvagen-haga:survey",
+   "road:main-roads-new:sund:bjorbyvagen-trygghem:survey",
+   "road:main-roads-new:sund:eliasvagen:survey",
+   "road:main-roads-new:sund:sonrodavagen:survey",
+   "road:main-roads-new:svartsmara:bovikvagen:survey"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStagesChanged": false,
+ "otherKeysChanged": [],
+ "historicalRoadsUnchanged": true,
+ "postalRouteUnchanged": true
+}

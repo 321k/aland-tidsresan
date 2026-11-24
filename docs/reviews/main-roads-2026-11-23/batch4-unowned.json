@@ -1,0 +1,975 @@
+[
+ {
+  "id": "cand:way/1291807287",
+  "name": "Kungshamnsvägen",
+  "ways": [
+   "way/1291807287",
+   "way/142810130",
+   "way/738205660"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102307"
+  ],
+  "firstYear": 1971,
+  "length": 2341,
+  "nearToday": 101,
+  "at": [
+   20543292,
+   6683059
+  ]
+ },
+ {
+  "id": "cand:way/1469991359",
+  "name": "Flygfältsvägen",
+  "ways": [
+   "way/1469991359",
+   "way/165401317",
+   "way/165401319",
+   "way/183926070",
+   "way/35073114",
+   "way/35073118",
+   "way/35073264",
+   "way/35073266",
+   "way/43519997",
+   "way/620207171",
+   "way/620207172",
+   "way/620207174",
+   "way/620208404",
+   "way/620208405",
+   "way/932410601"
+  ],
+  "classes": [
+   "primary"
+  ],
+  "sheets": [
+   "101205"
+  ],
+  "firstYear": 1978,
+  "length": 1872,
+  "nearToday": 0,
+  "at": [
+   20494921,
+   6667995
+  ]
+ },
+ {
+  "id": "cand:way/1026964987",
+  "name": "Brändövägen",
+  "ways": [
+   "way/1026964987",
+   "way/1420100307",
+   "way/172998015",
+   "way/172998016",
+   "way/324799396",
+   "way/324799397",
+   "way/54057242",
+   "way/54057245",
+   "way/615024783"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "104102"
+  ],
+  "firstYear": 1969,
+  "length": 1605,
+  "nearToday": 77,
+  "at": [
+   20558603,
+   6694552
+  ]
+ },
+ {
+  "id": "cand:way/65617754",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/65617754"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102107"
+  ],
+  "firstYear": 1968,
+  "length": 1514,
+  "nearToday": 75,
+  "at": [
+   20499567,
+   6687896
+  ]
+ },
+ {
+  "id": "cand:way/1515386819",
+  "name": "Sundsvägen",
+  "ways": [
+   "way/1515386819",
+   "way/1515571173",
+   "way/291358570",
+   "way/38922203",
+   "way/613969824",
+   "way/613969825"
+  ],
+  "classes": [
+   "primary"
+  ],
+  "sheets": [
+   "102107"
+  ],
+  "firstYear": 1968,
+  "length": 1438,
+  "nearToday": 25,
+  "at": [
+   20499581,
+   6679598
+  ]
+ },
+ {
+  "id": "cand:way/349909843",
+  "name": "Bistorpvägen",
+  "ways": [
+   "way/349909843"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101211"
+  ],
+  "firstYear": 1968,
+  "length": 1409,
+  "nearToday": 101,
+  "at": [
+   20506557,
+   6662634
+  ]
+ },
+ {
+  "id": "cand:way/38810657",
+  "name": "Sonrödavägen",
+  "ways": [
+   "way/38810657",
+   "way/71083924"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102110"
+  ],
+  "firstYear": 1968,
+  "length": 1321,
+  "nearToday": 85,
+  "at": [
+   20506504,
+   6684826
+  ]
+ },
+ {
+  "id": "cand:way/636520886",
+  "name": "Industrivägen",
+  "ways": [
+   "way/636520886"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "101203"
+  ],
+  "firstYear": 1968,
+  "length": 1100,
+  "nearToday": 76,
+  "at": [
+   20475489,
+   6677288
+  ]
+ },
+ {
+  "id": "cand:way/54052704",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/54052704"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102104"
+  ],
+  "firstYear": 1968,
+  "length": 1072,
+  "nearToday": 104,
+  "at": [
+   20485298,
+   6681191
+  ]
+ },
+ {
+  "id": "cand:way/37532644",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/37532644"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102312"
+  ],
+  "firstYear": 1971,
+  "length": 1014,
+  "nearToday": 25,
+  "at": [
+   20551445,
+   6705154
+  ]
+ },
+ {
+  "id": "cand:way/36745218",
+  "name": "Södra Söderbyvägen",
+  "ways": [
+   "way/36745218"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101208"
+  ],
+  "firstYear": 1968,
+  "length": 1003,
+  "nearToday": 35,
+  "at": [
+   20504773,
+   6661273
+  ]
+ },
+ {
+  "id": "cand:way/1423016201",
+  "name": "Klockargränd",
+  "ways": [
+   "way/1423016201",
+   "way/143791594",
+   "way/963760099"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101209"
+  ],
+  "firstYear": 1968,
+  "length": 954,
+  "nearToday": 60,
+  "at": [
+   20497032,
+   6670627
+  ]
+ },
+ {
+  "id": "cand:way/1355323682",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/1355323682",
+   "way/1355323683"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "104102"
+  ],
+  "firstYear": 1969,
+  "length": 920,
+  "nearToday": 25,
+  "at": [
+   20557795,
+   6696066
+  ]
+ },
+ {
+  "id": "cand:way/1153723634",
+  "name": "Solbergsvägen",
+  "ways": [
+   "way/1153723634",
+   "way/1153723635",
+   "way/376577222"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "101208"
+  ],
+  "firstYear": 1968,
+  "length": 743,
+  "nearToday": 0,
+  "at": [
+   20498566,
+   6667178
+  ]
+ },
+ {
+  "id": "cand:way/1179913718",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/1179913718",
+   "way/1475038322"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "101312"
+  ],
+  "firstYear": 1971,
+  "length": 651,
+  "nearToday": 26,
+  "at": [
+   20551717,
+   6649273
+  ]
+ },
+ {
+  "id": "cand:way/1312758320",
+  "name": "Björsby Bygata",
+  "ways": [
+   "way/1312758320",
+   "way/172801461"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101209"
+  ],
+  "firstYear": 1968,
+  "length": 616,
+  "nearToday": 102,
+  "at": [
+   20497386,
+   6674695
+  ]
+ },
+ {
+  "id": "cand:way/37711324",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/37711324"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "104102"
+  ],
+  "firstYear": 1969,
+  "length": 596,
+  "nearToday": 30,
+  "at": [
+   20558925,
+   6694859
+  ]
+ },
+ {
+  "id": "cand:way/1067038810",
+  "name": "Bovikvägen",
+  "ways": [
+   "way/1067038810"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102104"
+  ],
+  "firstYear": 1968,
+  "length": 483,
+  "nearToday": 51,
+  "at": [
+   20485433,
+   6682567
+  ]
+ },
+ {
+  "id": "cand:way/36745164",
+  "name": "Valborgsvägen",
+  "ways": [
+   "way/36745164"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "101208"
+  ],
+  "firstYear": 1968,
+  "length": 453,
+  "nearToday": 25,
+  "at": [
+   20505445,
+   6661703
+  ]
+ },
+ {
+  "id": "cand:way/672386484",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/672386484",
+   "way/745671649"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "101312"
+  ],
+  "firstYear": 1971,
+  "length": 419,
+  "nearToday": 50,
+  "at": [
+   20552833,
+   6648785
+  ]
+ },
+ {
+  "id": "cand:way/1422779921",
+  "name": "Södersundavägen",
+  "ways": [
+   "way/1422779921",
+   "way/963752543"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101209"
+  ],
+  "firstYear": 1968,
+  "length": 388,
+  "nearToday": 50,
+  "at": [
+   20496560,
+   6671307
+  ]
+ },
+ {
+  "id": "cand:way/1086414540",
+  "name": "Emkarbyvägen",
+  "ways": [
+   "way/1086414540"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101209"
+  ],
+  "firstYear": 1968,
+  "length": 385,
+  "nearToday": 50,
+  "at": [
+   20496884,
+   6675456
+  ]
+ },
+ {
+  "id": "cand:way/350318096",
+  "name": "Östra Ytterbyvägen",
+  "ways": [
+   "way/350318096"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101209"
+  ],
+  "firstYear": 1968,
+  "length": 374,
+  "nearToday": 50,
+  "at": [
+   20500880,
+   6672261
+  ]
+ },
+ {
+  "id": "cand:way/638446676",
+  "name": "Bölevägen",
+  "ways": [
+   "way/638446676"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102101"
+  ],
+  "firstYear": 1968,
+  "length": 362,
+  "nearToday": 78,
+  "at": [
+   20477425,
+   6679387
+  ]
+ },
+ {
+  "id": "cand:way/70574479",
+  "name": "Björbyvagen",
+  "ways": [
+   "way/70574479"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102110"
+  ],
+  "firstYear": 1968,
+  "length": 361,
+  "nearToday": 34,
+  "at": [
+   20506993,
+   6682795
+  ]
+ },
+ {
+  "id": "cand:way/355197649",
+  "name": "Eliasvägen",
+  "ways": [
+   "way/355197649"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102110"
+  ],
+  "firstYear": 1968,
+  "length": 317,
+  "nearToday": 31,
+  "at": [
+   20507177,
+   6682880
+  ]
+ },
+ {
+  "id": "cand:way/54052710",
+  "name": "Ödkarbyvägen",
+  "ways": [
+   "way/54052710"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102107"
+  ],
+  "firstYear": 1968,
+  "length": 271,
+  "nearToday": 27,
+  "at": [
+   20498937,
+   6688474
+  ]
+ },
+ {
+  "id": "cand:way/1332867119",
+  "name": "Möckelövägen",
+  "ways": [
+   "way/1332867119",
+   "way/43519999"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101205"
+  ],
+  "firstYear": 1978,
+  "length": 254,
+  "nearToday": 25,
+  "at": [
+   20495212,
+   6666540
+  ]
+ },
+ {
+  "id": "cand:way/126366076",
+  "name": "Kyrkvägen",
+  "ways": [
+   "way/126366076"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "101211"
+  ],
+  "firstYear": 1968,
+  "length": 237,
+  "nearToday": 27,
+  "at": [
+   20514392,
+   6667205
+  ]
+ },
+ {
+  "id": "cand:way/1069660487",
+  "name": "Getavägen",
+  "ways": [
+   "way/1069660487",
+   "way/1193284947",
+   "way/172865113",
+   "way/172865114",
+   "way/35165998",
+   "way/613969823",
+   "way/860667768",
+   "way/860667934"
+  ],
+  "classes": [
+   "primary"
+  ],
+  "sheets": [
+   "102107"
+  ],
+  "firstYear": 1968,
+  "length": 227,
+  "nearToday": 0,
+  "at": [
+   20499438,
+   6679576
+  ]
+ },
+ {
+  "id": "cand:way/446395018",
+  "name": "Skinnarskärsbron",
+  "ways": [
+   "way/446395018"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "104102"
+  ],
+  "firstYear": 1969,
+  "length": 188,
+  "nearToday": 25,
+  "at": [
+   20557150,
+   6696455
+  ]
+ },
+ {
+  "id": "cand:way/70984642",
+  "name": "Nya Godbyvägen",
+  "ways": [
+   "way/70984642",
+   "way/860667468"
+  ],
+  "classes": [
+   "primary"
+  ],
+  "sheets": [
+   "102107"
+  ],
+  "firstYear": 1968,
+  "length": 169,
+  "nearToday": 23,
+  "at": [
+   20499391,
+   6679472
+  ]
+ },
+ {
+  "id": "cand:way/362492476",
+  "name": "Tosarbyvägen",
+  "ways": [
+   "way/362492476",
+   "way/38922209"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102107"
+  ],
+  "firstYear": 1968,
+  "length": 165,
+  "nearToday": 34,
+  "at": [
+   20505030,
+   6679755
+  ]
+ },
+ {
+  "id": "cand:way/1422779918",
+  "name": "Södersundavägen",
+  "ways": [
+   "way/1422779918"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101205"
+  ],
+  "firstYear": 1978,
+  "length": 164,
+  "nearToday": 51,
+  "at": [
+   20491382,
+   6668747
+  ]
+ },
+ {
+  "id": "cand:way/86553205",
+  "name": "Norra Söderbyvägen",
+  "ways": [
+   "way/86553205"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "101208"
+  ],
+  "firstYear": 1968,
+  "length": 149,
+  "nearToday": 50,
+  "at": [
+   20505290,
+   6661871
+  ]
+ },
+ {
+  "id": "cand:way/65617749",
+  "name": "Hagavägen",
+  "ways": [
+   "way/65617749"
+  ],
+  "classes": [
+   "tertiary"
+  ],
+  "sheets": [
+   "102108"
+  ],
+  "firstYear": 1968,
+  "length": 148,
+  "nearToday": 25,
+  "at": [
+   20500581,
+   6689701
+  ]
+ },
+ {
+  "id": "cand:way/174570465",
+  "name": "Bagargatan",
+  "ways": [
+   "way/174570465"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "102101"
+  ],
+  "firstYear": 1968,
+  "length": 148,
+  "nearToday": 25,
+  "at": [
+   20475336,
+   6679143
+  ]
+ },
+ {
+  "id": "cand:way/173634197",
+  "name": "Tingebergsväg",
+  "ways": [
+   "way/173634197"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101209"
+  ],
+  "firstYear": 1968,
+  "length": 139,
+  "nearToday": 25,
+  "at": [
+   20500714,
+   6672195
+  ]
+ },
+ {
+  "id": "cand:way/613969811",
+  "name": "Nya Godbyvägen",
+  "ways": [
+   "way/613969811"
+  ],
+  "classes": [
+   "primary"
+  ],
+  "sheets": [
+   "102107"
+  ],
+  "firstYear": 1968,
+  "length": 110,
+  "nearToday": 0,
+  "at": [
+   20499428,
+   6679495
+  ]
+ },
+ {
+  "id": "cand:way/166080084",
+  "name": "Norra Svibyvägen",
+  "ways": [
+   "way/166080084"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101205"
+  ],
+  "firstYear": 1978,
+  "length": 107,
+  "nearToday": 39,
+  "at": [
+   20495383,
+   6667606
+  ]
+ },
+ {
+  "id": "cand:way/161723474",
+  "name": "Michaelsvägen",
+  "ways": [
+   "way/161723474",
+   "way/161723475"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101208"
+  ],
+  "firstYear": 1968,
+  "length": 80,
+  "nearToday": 34,
+  "at": [
+   20496433,
+   6668763
+  ]
+ },
+ {
+  "id": "cand:way/615021055",
+  "name": "Sundsvägen",
+  "ways": [
+   "way/615021055",
+   "way/615021056",
+   "way/615021057"
+  ],
+  "classes": [
+   "primary"
+  ],
+  "sheets": [
+   "101212"
+  ],
+  "firstYear": 1968,
+  "length": 79,
+  "nearToday": 0,
+  "at": [
+   20515061,
+   6677307
+  ]
+ },
+ {
+  "id": "cand:way/34561605",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/34561605"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101205"
+  ],
+  "firstYear": 1978,
+  "length": 65,
+  "nearToday": 27,
+  "at": [
+   20494422,
+   6666011
+  ]
+ },
+ {
+  "id": "cand:way/25215821",
+  "name": "Havsgatan",
+  "ways": [
+   "way/25215821",
+   "way/398624237"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101208"
+  ],
+  "firstYear": 1968,
+  "length": 63,
+  "nearToday": 26,
+  "at": [
+   20496124,
+   6664272
+  ]
+ },
+ {
+  "id": "cand:way/23103978",
+  "name": "Väg eller stig",
+  "ways": [
+   "way/23103978"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101409"
+  ],
+  "firstYear": 1970,
+  "length": 59,
+  "nearToday": 29,
+  "at": [
+   20540279,
+   6678752
+  ]
+ },
+ {
+  "id": "cand:way/121989699",
+  "name": "Flakavägen",
+  "ways": [
+   "way/121989699"
+  ],
+  "classes": [
+   "secondary"
+  ],
+  "sheets": [
+   "101211"
+  ],
+  "firstYear": 1968,
+  "length": 51,
+  "nearToday": 25,
+  "at": [
+   20505670,
+   6661738
+  ]
+ }
+]

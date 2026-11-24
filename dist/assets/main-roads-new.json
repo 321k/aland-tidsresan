@@ -1,0 +1,2386 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-24",
+ "method": "Huvudvägar i OpenStreetMap 2026 (primary, secondary, tertiary) som inget objekt i katalogen har, jämförda med grundkartornas röda huvudvägssymbol i alla registrerade utgåvor och granskade för ögat.",
+ "maps": {
+  "1968-101209": {
+   "sourceId": "nls:101209:1968",
+   "year": 1968
+  },
+  "1968-101211": {
+   "sourceId": "nls:101211:1968",
+   "year": 1968
+  },
+  "1968-102104": {
+   "sourceId": "nls:102104:1968",
+   "year": 1968
+  },
+  "1968-102107": {
+   "sourceId": "nls:102107:1968",
+   "year": 1968
+  },
+  "1968-102110": {
+   "sourceId": "nls:102110:1968",
+   "year": 1968
+  },
+  "1969-104102": {
+   "sourceId": "nls:104102:1969",
+   "year": 1969
+  },
+  "1971-101312": {
+   "sourceId": "nls:101312:1971",
+   "year": 1971
+  },
+  "1971-102307": {
+   "sourceId": "nls:102307:1971",
+   "year": 1971
+  },
+  "1978-101209": {
+   "sourceId": "nls:101209:1978",
+   "year": 1978
+  },
+  "1978-101211": {
+   "sourceId": "nls:101211:1978",
+   "year": 1978
+  },
+  "1978-102104": {
+   "sourceId": "nls:102104:1978",
+   "year": 1978
+  },
+  "1978-102107": {
+   "sourceId": "nls:102107:1978",
+   "year": 1978
+  },
+  "1978-102110": {
+   "sourceId": "nls:102110:1978",
+   "year": 1978
+  },
+  "1984-102104": {
+   "sourceId": "nls:102104:1984",
+   "year": 1984
+  },
+  "1984-104102": {
+   "sourceId": "nls:104102:1984",
+   "year": 1984
+  },
+  "1985-101209": {
+   "sourceId": "nls:101209:1985",
+   "year": 1985
+  },
+  "1985-101211": {
+   "sourceId": "nls:101211:1985",
+   "year": 1985
+  },
+  "1985-101312": {
+   "sourceId": "nls:101312:1985",
+   "year": 1985
+  },
+  "1985-102107": {
+   "sourceId": "nls:102107:1985",
+   "year": 1985
+  },
+  "1985-102110": {
+   "sourceId": "nls:102110:1985",
+   "year": 1985
+  },
+  "1985-102307": {
+   "sourceId": "nls:102307:1985",
+   "year": 1985
+  },
+  "1991-102307": {
+   "sourceId": "nls:102307:1991",
+   "year": 1991
+  },
+  "1991-104102": {
+   "sourceId": "nls:104102:1991",
+   "year": 1991
+  },
+  "1993-102104": {
+   "sourceId": "nls:102104:1993",
+   "year": 1993
+  },
+  "1993-102107": {
+   "sourceId": "nls:102107:1993",
+   "year": 1993
+  },
+  "1993-102110": {
+   "sourceId": "nls:102110:1993",
+   "year": 1993
+  },
+  "1995-101209": {
+   "sourceId": "nls:101209:1995",
+   "year": 1995
+  },
+  "1995-101211": {
+   "sourceId": "nls:101211:1995",
+   "year": 1995
+  },
+  "1995-101312": {
+   "sourceId": "nls:101312:1995",
+   "year": 1995
+  }
+ },
+ "source": {
+  "id": "review:main-roads-new",
+  "title": "Huvudvägar som saknades i katalogen · granskning",
+  "url": "assets/main-roads-new.json"
+ },
+ "surveySources": [
+  {
+   "id": "road:main-roads-new:kumlinge:kungshamnsvagen:survey",
+   "title": "OpenStreetMap · Kungshamnsvägen · Kumlinge",
+   "url": "https://www.openstreetmap.org/way/1291807287",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:saltvik:odkarbyvagen-haga:survey",
+   "title": "OpenStreetMap · Ödkarbyvägen · Ödkarby–Haga",
+   "url": "https://www.openstreetmap.org/way/54052710",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:lumparland:bistorpvagen:survey",
+   "title": "OpenStreetMap · Bistorpvägen",
+   "url": "https://www.openstreetmap.org/way/349909843",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:sund:sonrodavagen:survey",
+   "title": "OpenStreetMap · Sonrödavägen",
+   "url": "https://www.openstreetmap.org/way/38810657",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:jomala:klockargrand:survey",
+   "title": "OpenStreetMap · Klockargränd",
+   "url": "https://www.openstreetmap.org/way/1423016201",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:brando:langang-farjfastet:survey",
+   "title": "OpenStreetMap · Vägen till färjfästet · Långäng",
+   "url": "https://www.openstreetmap.org/way/37711324",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:svartsmara:bovikvagen:survey",
+   "title": "OpenStreetMap · Bovikvägen",
+   "url": "https://www.openstreetmap.org/way/1067038810",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:kokar:pavals:survey",
+   "title": "OpenStreetMap · Vägen vid Påvals · Kökar",
+   "url": "https://www.openstreetmap.org/way/672386484",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:sund:bjorbyvagen-trygghem:survey",
+   "title": "OpenStreetMap · Björbyvägen · Strömsborg–Trygghem",
+   "url": "https://www.openstreetmap.org/way/70574479",
+   "issuedAt": "2026"
+  },
+  {
+   "id": "road:main-roads-new:sund:eliasvagen:survey",
+   "title": "OpenStreetMap · Eliasvägen",
+   "url": "https://www.openstreetmap.org/way/355197649",
+   "issuedAt": "2026"
+  }
+ ],
+ "newRoads": [
+  {
+   "id": "road:main-roads-new:kumlinge:kungshamnsvagen",
+   "name": "Kungshamnsvägen · Kumlinge",
+   "routeId": "road:route:kumlinge:kungshamnsvagen",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 3,
+   "firstYear": 1971,
+   "surveySourceId": "road:main-roads-new:kumlinge:kungshamnsvagen:survey",
+   "maps": {
+    "1971-102307": "present",
+    "1985-102307": "present",
+    "1991-102307": "present"
+   },
+   "start": "road:qgis:kumlinge:kumlingevagen-200km2",
+   "end": "road:qgis:kumlinge:vasterviksvagen-200km2",
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1291807287",
+     "sourceVertexRange": [
+      0,
+      14
+     ],
+     "sourceVertexCount": 15,
+     "input": "3702508f5cc5db62b70db42bccff4fed35c381d785e7a2b00d025db72afc7fca",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/142810130",
+     "sourceVertexRange": [
+      0,
+      15
+     ],
+     "sourceVertexCount": 16,
+     "input": "025422cce6d65f1dc0579b5711d3e932812ff5a3cb7ecefc7160a1f714c8c07d",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/738205660",
+     "sourceVertexRange": [
+      0,
+      26
+     ],
+     "sourceVertexCount": 27,
+     "input": "556aa2f69e490168038883dddebe52982c9ceaa82abf21e72016724186d13a19",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026.",
+     "reverse": true
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1291807287",
+     "sourceVertexRange": [
+      0,
+      14
+     ],
+     "sourceVertexCount": 15,
+     "input": "3702508f5cc5db62b70db42bccff4fed35c381d785e7a2b00d025db72afc7fca",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-142810130",
+     "sourceVertexRange": [
+      0,
+      15
+     ],
+     "sourceVertexCount": 16,
+     "input": "025422cce6d65f1dc0579b5711d3e932812ff5a3cb7ecefc7160a1f714c8c07d",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-738205660",
+     "sourceVertexRange": [
+      0,
+      26
+     ],
+     "sourceVertexCount": 27,
+     "input": "556aa2f69e490168038883dddebe52982c9ceaa82abf21e72016724186d13a19",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026.",
+     "reverse": true
+    }
+   ],
+   "paths": [
+    [
+     [
+      20.777973,
+      60.258748
+     ],
+     [
+      20.77947,
+      60.258249
+     ],
+     [
+      20.780459,
+      60.257921
+     ],
+     [
+      20.780821,
+      60.257854
+     ],
+     [
+      20.781141,
+      60.257836
+     ],
+     [
+      20.781913,
+      60.25786
+     ],
+     [
+      20.782024,
+      60.257861
+     ],
+     [
+      20.782399,
+      60.257861
+     ],
+     [
+      20.782695,
+      60.257819
+     ],
+     [
+      20.782759,
+      60.257808
+     ],
+     [
+      20.782881,
+      60.257777
+     ],
+     [
+      20.784498,
+      60.25732
+     ],
+     [
+      20.78509,
+      60.257237
+     ],
+     [
+      20.785647,
+      60.2572
+     ],
+     [
+      20.786142,
+      60.257209
+     ],
+     [
+      20.786356,
+      60.257221
+     ],
+     [
+      20.787109,
+      60.257266
+     ],
+     [
+      20.787368,
+      60.257267
+     ],
+     [
+      20.787566,
+      60.25725
+     ],
+     [
+      20.787883,
+      60.257213
+     ],
+     [
+      20.78822,
+      60.257163
+     ],
+     [
+      20.788427,
+      60.257123
+     ],
+     [
+      20.789015,
+      60.257014
+     ],
+     [
+      20.789472,
+      60.256892
+     ],
+     [
+      20.790496,
+      60.256576
+     ],
+     [
+      20.791506,
+      60.256207
+     ],
+     [
+      20.79231,
+      60.255843
+     ],
+     [
+      20.79308,
+      60.255457
+     ],
+     [
+      20.793892,
+      60.255068
+     ],
+     [
+      20.794836,
+      60.2546
+     ],
+     [
+      20.795343,
+      60.254453
+     ],
+     [
+      20.795836,
+      60.25443
+     ],
+     [
+      20.796287,
+      60.254462
+     ],
+     [
+      20.799548,
+      60.255081
+     ],
+     [
+      20.80102,
+      60.255172
+     ],
+     [
+      20.802336,
+      60.255734
+     ],
+     [
+      20.802954,
+      60.255722
+     ],
+     [
+      20.803625,
+      60.255634
+     ],
+     [
+      20.804102,
+      60.255487
+     ],
+     [
+      20.804186,
+      60.255438
+     ],
+     [
+      20.804329,
+      60.255355
+     ],
+     [
+      20.80456,
+      60.255068
+     ],
+     [
+      20.8048,
+      60.254814
+     ],
+     [
+      20.805101,
+      60.254699
+     ],
+     [
+      20.805487,
+      60.254605
+     ],
+     [
+      20.806668,
+      60.254372
+     ],
+     [
+      20.807518,
+      60.254259
+     ],
+     [
+      20.80874,
+      60.254194
+     ],
+     [
+      20.809325,
+      60.254221
+     ],
+     [
+      20.809892,
+      60.254331
+     ],
+     [
+      20.810437,
+      60.254472
+     ],
+     [
+      20.811039,
+      60.254577
+     ],
+     [
+      20.811447,
+      60.254567
+     ],
+     [
+      20.811864,
+      60.254519
+     ],
+     [
+      20.812742,
+      60.254252
+     ],
+     [
+      20.815197,
+      60.253958
+     ]
+    ]
+   ],
+   "lengthMeters": 2340.6,
+   "basis": "Grundkartan 1023 07 (1971) ritar vägen från Kumlingevägen österut förbi Skålberg och Bäckängen till Västerviksvägen i rött, som huvudväg, liksom utgåvorna 1985 och 1991. Vid Skålberg går den röda vägen på alla tre utgåvorna omkring 30 m norr om dagens linje, på omkring 200 m (1991 på omkring 150 m).",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (3 vägar i följd), använd som stabilt läge från 1971."
+  },
+  {
+   "id": "road:main-roads-new:saltvik:odkarbyvagen-haga",
+   "name": "Ödkarbyvägen · Ödkarby–Haga",
+   "routeId": "road:route:saltvik:odkarbyvagen-haga",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 3,
+   "firstYear": 1968,
+   "surveySourceId": "road:main-roads-new:saltvik:odkarbyvagen-haga:survey",
+   "maps": {
+    "1968-102107": "present",
+    "1978-102107": "present",
+    "1985-102107": "present",
+    "1993-102107": "present"
+   },
+   "start": null,
+   "end": "road:qgis:saltvik:hagavagen",
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/54052710",
+     "sourceVertexRange": [
+      0,
+      18
+     ],
+     "sourceVertexCount": 19,
+     "input": "f90cf8eee008865a63c6618c5375b8200c48be906185aa95be19f3d0b483375c",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/65617754",
+     "sourceVertexRange": [
+      0,
+      77
+     ],
+     "sourceVertexCount": 78,
+     "input": "c51b7225c5c0b61fd0944c2ccfac194d37b143ae17d581cb7e4c767773d0af29",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-54052710",
+     "sourceVertexRange": [
+      0,
+      18
+     ],
+     "sourceVertexCount": 19,
+     "input": "f90cf8eee008865a63c6618c5375b8200c48be906185aa95be19f3d0b483375c",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-54052710",
+     "sourceVertexRange": [
+      0,
+      18
+     ],
+     "sourceVertexCount": 19,
+     "input": "f90cf8eee008865a63c6618c5375b8200c48be906185aa95be19f3d0b483375c",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      19.979493,
+      60.309772
+     ],
+     [
+      19.979521,
+      60.309722
+     ],
+     [
+      19.97963,
+      60.309668
+     ],
+     [
+      19.979707,
+      60.309618
+     ],
+     [
+      19.979775,
+      60.309562
+     ],
+     [
+      19.979832,
+      60.309499
+     ],
+     [
+      19.979923,
+      60.30938
+     ],
+     [
+      19.980011,
+      60.309247
+     ],
+     [
+      19.980071,
+      60.309162
+     ],
+     [
+      19.980107,
+      60.30911
+     ],
+     [
+      19.980201,
+      60.309039
+     ],
+     [
+      19.980344,
+      60.308959
+     ],
+     [
+      19.980498,
+      60.308886
+     ],
+     [
+      19.981345,
+      60.308488
+     ],
+     [
+      19.981711,
+      60.308347
+     ],
+     [
+      19.981996,
+      60.308244
+     ],
+     [
+      19.982079,
+      60.308214
+     ],
+     [
+      19.982452,
+      60.308116
+     ],
+     [
+      19.982727,
+      60.308049
+     ],
+     [
+      19.983057,
+      60.307994
+     ],
+     [
+      19.983273,
+      60.307958
+     ],
+     [
+      19.983578,
+      60.307911
+     ],
+     [
+      19.98374,
+      60.307879
+     ],
+     [
+      19.983966,
+      60.307835
+     ],
+     [
+      19.984273,
+      60.307773
+     ],
+     [
+      19.984462,
+      60.30771
+     ],
+     [
+      19.984592,
+      60.307635
+     ],
+     [
+      19.984698,
+      60.30755
+     ],
+     [
+      19.98483,
+      60.307406
+     ],
+     [
+      19.984871,
+      60.307296
+     ],
+     [
+      19.984954,
+      60.306934
+     ],
+     [
+      19.98498,
+      60.306891
+     ],
+     [
+      19.984993,
+      60.306869
+     ],
+     [
+      19.985157,
+      60.306688
+     ],
+     [
+      19.985165,
+      60.30668
+     ],
+     [
+      19.985563,
+      60.306347
+     ],
+     [
+      19.985659,
+      60.306292
+     ],
+     [
+      19.985699,
+      60.30627
+     ],
+     [
+      19.985866,
+      60.306196
+     ],
+     [
+      19.986041,
+      60.306138
+     ],
+     [
+      19.986435,
+      60.306048
+     ],
+     [
+      19.987158,
+      60.305908
+     ],
+     [
+      19.987556,
+      60.305826
+     ],
+     [
+      19.987655,
+      60.305804
+     ],
+     [
+      19.987736,
+      60.305783
+     ],
+     [
+      19.987821,
+      60.305758
+     ],
+     [
+      19.987895,
+      60.305732
+     ],
+     [
+      19.987977,
+      60.305698
+     ],
+     [
+      19.989191,
+      60.305098
+     ],
+     [
+      19.989279,
+      60.305056
+     ],
+     [
+      19.989456,
+      60.304982
+     ],
+     [
+      19.989733,
+      60.304876
+     ],
+     [
+      19.989825,
+      60.304833
+     ],
+     [
+      19.990013,
+      60.304745
+     ],
+     [
+      19.990394,
+      60.304549
+     ],
+     [
+      19.990732,
+      60.304335
+     ],
+     [
+      19.990879,
+      60.304231
+     ],
+     [
+      19.991389,
+      60.303872
+     ],
+     [
+      19.991456,
+      60.303837
+     ],
+     [
+      19.991786,
+      60.303691
+     ],
+     [
+      19.992026,
+      60.303622
+     ],
+     [
+      19.992078,
+      60.303607
+     ],
+     [
+      19.992468,
+      60.303495
+     ],
+     [
+      19.992867,
+      60.303384
+     ],
+     [
+      19.992972,
+      60.303359
+     ],
+     [
+      19.993074,
+      60.303338
+     ],
+     [
+      19.993165,
+      60.303323
+     ],
+     [
+      19.993255,
+      60.303313
+     ],
+     [
+      19.993367,
+      60.303307
+     ],
+     [
+      19.993774,
+      60.303318
+     ],
+     [
+      19.994657,
+      60.303349
+     ],
+     [
+      19.995166,
+      60.303388
+     ],
+     [
+      19.995223,
+      60.303397
+     ],
+     [
+      19.995614,
+      60.303461
+     ],
+     [
+      19.996137,
+      60.303595
+     ],
+     [
+      19.996551,
+      60.3037
+     ],
+     [
+      19.996978,
+      60.303818
+     ],
+     [
+      19.997154,
+      60.303875
+     ],
+     [
+      19.997344,
+      60.30395
+     ],
+     [
+      19.997588,
+      60.304045
+     ],
+     [
+      19.999837,
+      60.305016
+     ],
+     [
+      20.000687,
+      60.305383
+     ],
+     [
+      20.001426,
+      60.305697
+     ],
+     [
+      20.001594,
+      60.305764
+     ],
+     [
+      20.001644,
+      60.305784
+     ],
+     [
+      20.001756,
+      60.305822
+     ],
+     [
+      20.00187,
+      60.305856
+     ],
+     [
+      20.002006,
+      60.305886
+     ],
+     [
+      20.002197,
+      60.305923
+     ],
+     [
+      20.002422,
+      60.305957
+     ],
+     [
+      20.002595,
+      60.305973
+     ],
+     [
+      20.002743,
+      60.305987
+     ],
+     [
+      20.002896,
+      60.305999
+     ],
+     [
+      20.003055,
+      60.306005
+     ],
+     [
+      20.003599,
+      60.306004
+     ],
+     [
+      20.003972,
+      60.305993
+     ]
+    ]
+   ],
+   "lengthMeters": 1784.5,
+   "basis": "Grundkartan 1021 07 (1968) ritar vägen från Ödkarby genom byn och över Haga slätten till Haga i rött, som huvudväg, liksom utgåvorna 1978, 1985 och 1993.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (2 vägar i följd), använd som stabilt läge från 1968.",
+   "freeStartBasis": "Vägen fortsätter här på en kort bit fram till korsningen med Saltviksvägen, som ingen väg i katalogen har."
+  },
+  {
+   "id": "road:main-roads-new:lumparland:bistorpvagen",
+   "name": "Bistorpvägen",
+   "routeId": "road:route:lumparland:bistorpvagen",
+   "modernRoadClass": "secondary",
+   "roadWidth": 3,
+   "firstYear": 1968,
+   "surveySourceId": "road:main-roads-new:lumparland:bistorpvagen:survey",
+   "maps": {
+    "1968-101211": "present",
+    "1978-101211": "present",
+    "1985-101211": "present",
+    "1995-101211": "present"
+   },
+   "start": "road:qgis:lumparland:lemlandsvagen-100km3",
+   "end": "road:qgis:lumparland:bistorpberget-100km4",
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/349909843",
+     "sourceVertexRange": [
+      0,
+      65
+     ],
+     "sourceVertexCount": 66,
+     "input": "a2c28c0f7d886a2afdc056945e6a86914fb2736803b29d0daac34fc8438ae44e",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-349909843",
+     "sourceVertexRange": [
+      0,
+      65
+     ],
+     "sourceVertexCount": 66,
+     "input": "a2c28c0f7d886a2afdc056945e6a86914fb2736803b29d0daac34fc8438ae44e",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-349909843",
+     "sourceVertexRange": [
+      0,
+      65
+     ],
+     "sourceVertexCount": 66,
+     "input": "a2c28c0f7d886a2afdc056945e6a86914fb2736803b29d0daac34fc8438ae44e",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      20.122643,
+      60.071093
+     ],
+     [
+      20.122145,
+      60.071692
+     ],
+     [
+      20.12179,
+      60.07215
+     ],
+     [
+      20.121674,
+      60.072284
+     ],
+     [
+      20.121375,
+      60.072602
+     ],
+     [
+      20.121235,
+      60.072764
+     ],
+     [
+      20.121041,
+      60.072959
+     ],
+     [
+      20.120947,
+      60.07308
+     ],
+     [
+      20.120614,
+      60.073439
+     ],
+     [
+      20.120501,
+      60.073619
+     ],
+     [
+      20.120379,
+      60.073965
+     ],
+     [
+      20.120335,
+      60.074151
+     ],
+     [
+      20.120244,
+      60.074466
+     ],
+     [
+      20.120176,
+      60.074678
+     ],
+     [
+      20.120138,
+      60.074855
+     ],
+     [
+      20.120044,
+      60.075107
+     ],
+     [
+      20.119993,
+      60.07521
+     ],
+     [
+      20.119913,
+      60.075344
+     ],
+     [
+      20.119669,
+      60.075696
+     ],
+     [
+      20.119616,
+      60.075742
+     ],
+     [
+      20.119436,
+      60.075872
+     ],
+     [
+      20.119235,
+      60.076009
+     ],
+     [
+      20.11916,
+      60.076053
+     ],
+     [
+      20.118948,
+      60.076193
+     ],
+     [
+      20.118789,
+      60.076272
+     ],
+     [
+      20.118588,
+      60.076364
+     ],
+     [
+      20.118098,
+      60.076619
+     ],
+     [
+      20.117939,
+      60.076698
+     ],
+     [
+      20.117571,
+      60.076914
+     ],
+     [
+      20.117392,
+      60.077038
+     ],
+     [
+      20.116722,
+      60.07755
+     ],
+     [
+      20.116531,
+      60.077679
+     ],
+     [
+      20.116411,
+      60.077784
+     ],
+     [
+      20.116267,
+      60.077883
+     ],
+     [
+      20.116172,
+      60.077956
+     ],
+     [
+      20.115982,
+      60.078066
+     ],
+     [
+      20.115852,
+      60.078127
+     ],
+     [
+      20.115641,
+      60.078214
+     ],
+     [
+      20.115225,
+      60.078366
+     ],
+     [
+      20.114874,
+      60.078482
+     ],
+     [
+      20.114628,
+      60.078568
+     ],
+     [
+      20.114453,
+      60.078623
+     ],
+     [
+      20.114239,
+      60.078708
+     ],
+     [
+      20.114098,
+      60.078775
+     ],
+     [
+      20.113944,
+      60.07887
+     ],
+     [
+      20.113676,
+      60.079039
+     ],
+     [
+      20.113479,
+      60.079177
+     ],
+     [
+      20.113302,
+      60.079269
+     ],
+     [
+      20.113159,
+      60.079371
+     ],
+     [
+      20.112928,
+      60.079503
+     ],
+     [
+      20.112506,
+      60.079762
+     ],
+     [
+      20.112339,
+      60.079883
+     ],
+     [
+      20.112206,
+      60.080014
+     ],
+     [
+      20.112083,
+      60.08015
+     ],
+     [
+      20.111914,
+      60.08032
+     ],
+     [
+      20.111763,
+      60.080459
+     ],
+     [
+      20.111617,
+      60.080604
+     ],
+     [
+      20.111465,
+      60.080765
+     ],
+     [
+      20.111372,
+      60.080891
+     ],
+     [
+      20.111275,
+      60.080987
+     ],
+     [
+      20.111238,
+      60.081047
+     ],
+     [
+      20.111127,
+      60.081189
+     ],
+     [
+      20.110945,
+      60.081477
+     ],
+     [
+      20.110872,
+      60.081545
+     ],
+     [
+      20.11062,
+      60.081746
+     ],
+     [
+      20.11053,
+      60.081847
+     ]
+    ]
+   ],
+   "lengthMeters": 1409.1,
+   "basis": "Grundkartan 1012 11 (1968) ritar vägen från Lemlandsvägen norrut genom Bistorp förbi Hinders och Västergård i rött, som huvudväg, liksom utgåvorna 1978, 1985 och 1995.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (1 väg), använd som stabilt läge från 1968."
+  },
+  {
+   "id": "road:main-roads-new:sund:sonrodavagen",
+   "name": "Sonrödavägen",
+   "routeId": "road:route:sund:sonrodavagen",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 3,
+   "firstYear": 1968,
+   "surveySourceId": "road:main-roads-new:sund:sonrodavagen:survey",
+   "maps": {
+    "1968-102110": "present",
+    "1978-102110": "present",
+    "1985-102110": "present",
+    "1993-102110": "present"
+   },
+   "start": "road:qgis:sund:bjorbyvagen-rosenberg",
+   "end": null,
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/38810657",
+     "sourceVertexRange": [
+      0,
+      32
+     ],
+     "sourceVertexCount": 33,
+     "input": "6f566b7f82d0b75f92690ab7985c8f77b1b38ffd7062ba29d1b3095756e9f3b7",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/71083924",
+     "sourceVertexRange": [
+      0,
+      26
+     ],
+     "sourceVertexCount": 27,
+     "input": "9449c75676022061d988c7c79087ce98ac3f1cded00e48c9402743dbe1008bed",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-38810657",
+     "sourceVertexRange": [
+      0,
+      32
+     ],
+     "sourceVertexCount": 33,
+     "input": "6f566b7f82d0b75f92690ab7985c8f77b1b38ffd7062ba29d1b3095756e9f3b7",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      20.123963,
+      60.27367
+     ],
+     [
+      20.123737,
+      60.273711
+     ],
+     [
+      20.123464,
+      60.273738
+     ],
+     [
+      20.12326,
+      60.273747
+     ],
+     [
+      20.122994,
+      60.273739
+     ],
+     [
+      20.122325,
+      60.27369
+     ],
+     [
+      20.121867,
+      60.273664
+     ],
+     [
+      20.121591,
+      60.273665
+     ],
+     [
+      20.121322,
+      60.27369
+     ],
+     [
+      20.120997,
+      60.273775
+     ],
+     [
+      20.120772,
+      60.273865
+     ],
+     [
+      20.120258,
+      60.274099
+     ],
+     [
+      20.120161,
+      60.274166
+     ],
+     [
+      20.120057,
+      60.27426
+     ],
+     [
+      20.119708,
+      60.274695
+     ],
+     [
+      20.119588,
+      60.274787
+     ],
+     [
+      20.118493,
+      60.275202
+     ],
+     [
+      20.11786,
+      60.275668
+     ],
+     [
+      20.117225,
+      60.276279
+     ],
+     [
+      20.117188,
+      60.276314
+     ],
+     [
+      20.116975,
+      60.27652
+     ],
+     [
+      20.116036,
+      60.277164
+     ],
+     [
+      20.115729,
+      60.277302
+     ],
+     [
+      20.115373,
+      60.277409
+     ],
+     [
+      20.114989,
+      60.27748
+     ],
+     [
+      20.114652,
+      60.277514
+     ],
+     [
+      20.114483,
+      60.277532
+     ],
+     [
+      20.114108,
+      60.277543
+     ],
+     [
+      20.113743,
+      60.277527
+     ],
+     [
+      20.112668,
+      60.277418
+     ],
+     [
+      20.111541,
+      60.277316
+     ],
+     [
+      20.110885,
+      60.277298
+     ],
+     [
+      20.110357,
+      60.277375
+     ],
+     [
+      20.110247,
+      60.277402
+     ],
+     [
+      20.11014,
+      60.277435
+     ],
+     [
+      20.110037,
+      60.277475
+     ],
+     [
+      20.109935,
+      60.277525
+     ],
+     [
+      20.109835,
+      60.277586
+     ],
+     [
+      20.109735,
+      60.277662
+     ],
+     [
+      20.109636,
+      60.277754
+     ],
+     [
+      20.109536,
+      60.277864
+     ],
+     [
+      20.109434,
+      60.277995
+     ],
+     [
+      20.109227,
+      60.278302
+     ],
+     [
+      20.109123,
+      60.278434
+     ],
+     [
+      20.10902,
+      60.278548
+     ],
+     [
+      20.108916,
+      60.278647
+     ],
+     [
+      20.108811,
+      60.278733
+     ],
+     [
+      20.108691,
+      60.27882
+     ],
+     [
+      20.108598,
+      60.278881
+     ],
+     [
+      20.108045,
+      60.279217
+     ],
+     [
+      20.107839,
+      60.279336
+     ],
+     [
+      20.107732,
+      60.279392
+     ],
+     [
+      20.107498,
+      60.279497
+     ],
+     [
+      20.107364,
+      60.279548
+     ],
+     [
+      20.107215,
+      60.279598
+     ],
+     [
+      20.106995,
+      60.279665
+     ],
+     [
+      20.106854,
+      60.279717
+     ],
+     [
+      20.106733,
+      60.279777
+     ],
+     [
+      20.106656,
+      60.27982
+     ]
+    ]
+   ],
+   "lengthMeters": 1321.3,
+   "basis": "Grundkartan 1021 10 (1968) ritar vägen från Björbyvägen västerut förbi Karlsro och norr om Sonröda träsk i rött, som huvudväg, liksom utgåvorna 1978, 1985 och 1993. Vid Karlsro, på omkring 100 m, går den röda vägen genom korsningen söder om dagens kurva.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (2 vägar i följd), använd som stabilt läge från 1968.",
+   "freeEndBasis": "Vägen fortsätter här på en kort bit (under 50 m) fram till korsningen, som ingen väg i katalogen har."
+  },
+  {
+   "id": "road:main-roads-new:jomala:klockargrand",
+   "name": "Klockargränd",
+   "routeId": "road:route:jomala:klockargrand",
+   "modernRoadClass": "secondary",
+   "roadWidth": 3,
+   "firstYear": 1968,
+   "surveySourceId": "road:main-roads-new:jomala:klockargrand:survey",
+   "maps": {
+    "1968-101209": "present",
+    "1978-101209": "present",
+    "1985-101209": "present",
+    "1995-101209": "present"
+   },
+   "start": null,
+   "end": null,
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1423016201",
+     "sourceVertexRange": [
+      0,
+      7
+     ],
+     "sourceVertexCount": 8,
+     "input": "d3814b8f36b07a004113d615a70752439730f240bd6c0044326c15a2c01a86c3",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/143791594",
+     "sourceVertexRange": [
+      0,
+      13
+     ],
+     "sourceVertexCount": 14,
+     "input": "6e6849c3397980d5d55c973bf76f90aa5fdccf466bb04c04e45f362117e5471f",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/963760099",
+     "sourceVertexRange": [
+      0,
+      4
+     ],
+     "sourceVertexCount": 5,
+     "input": "911195e4107c7dead47c11911112556df7fbc0d95affb46d9490ce28d57c2246",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      19.949027,
+      60.149061
+     ],
+     [
+      19.948583,
+      60.148969
+     ],
+     [
+      19.946347,
+      60.148526
+     ],
+     [
+      19.946302,
+      60.148517
+     ],
+     [
+      19.946168,
+      60.148491
+     ],
+     [
+      19.945143,
+      60.148292
+     ],
+     [
+      19.944655,
+      60.148137
+     ],
+     [
+      19.944289,
+      60.147947
+     ],
+     [
+      19.943454,
+      60.147548
+     ],
+     [
+      19.94315,
+      60.147441
+     ],
+     [
+      19.942618,
+      60.147284
+     ],
+     [
+      19.941942,
+      60.147136
+     ],
+     [
+      19.941607,
+      60.147031
+     ],
+     [
+      19.941336,
+      60.146922
+     ],
+     [
+      19.941029,
+      60.146737
+     ],
+     [
+      19.94064,
+      60.146454
+     ],
+     [
+      19.938812,
+      60.144896
+     ],
+     [
+      19.938472,
+      60.144652
+     ],
+     [
+      19.938171,
+      60.144479
+     ],
+     [
+      19.937776,
+      60.144314
+     ],
+     [
+      19.937389,
+      60.14421
+     ],
+     [
+      19.937065,
+      60.144155
+     ],
+     [
+      19.936709,
+      60.144105
+     ],
+     [
+      19.936365,
+      60.144089
+     ],
+     [
+      19.935972,
+      60.144103
+     ]
+    ]
+   ],
+   "lengthMeters": 953.6,
+   "basis": "Grundkartan 1012 09 (1968) ritar vägen från Godbyvägen vid posten sydväst mot Uppgård i rött, som huvudväg, liksom utgåvorna 1978, 1985 och 1995.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (3 vägar i följd), använd som stabilt läge från 1968.",
+   "freeStartBasis": "Vägen fortsätter här på en kort bit (under 50 m) fram till korsningen, som ingen väg i katalogen har.",
+   "freeEndBasis": "Vägen fortsätter här på en kort bit (under 50 m) fram till korsningen, som ingen väg i katalogen har."
+  },
+  {
+   "id": "road:main-roads-new:brando:langang-farjfastet",
+   "name": "Vägen till färjfästet · Långäng",
+   "routeId": "road:route:brando:langang-farjfastet",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 3,
+   "firstYear": 1969,
+   "surveySourceId": "road:main-roads-new:brando:langang-farjfastet:survey",
+   "maps": {
+    "1969-104102": "present",
+    "1984-104102": "present",
+    "1991-104102": "present"
+   },
+   "start": "road:qgis:brando:brandovagen-1-200km2",
+   "end": null,
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/37711324",
+     "sourceVertexRange": [
+      0,
+      14
+     ],
+     "sourceVertexCount": 15,
+     "input": "51ff433debe4be196feb92e444a7c7b865f95487576630473edb41bd36a3b080",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      21.064433,
+      60.35975
+     ],
+     [
+      21.065686,
+      60.360261
+     ],
+     [
+      21.065943,
+      60.360361
+     ],
+     [
+      21.066467,
+      60.360582
+     ],
+     [
+      21.066627,
+      60.360697
+     ],
+     [
+      21.067547,
+      60.361476
+     ],
+     [
+      21.067951,
+      60.362222
+     ],
+     [
+      21.068353,
+      60.362837
+     ],
+     [
+      21.068507,
+      60.362977
+     ],
+     [
+      21.068666,
+      60.36309
+     ],
+     [
+      21.068695,
+      60.36311
+     ],
+     [
+      21.068897,
+      60.36321
+     ],
+     [
+      21.069255,
+      60.36333
+     ],
+     [
+      21.069927,
+      60.363487
+     ],
+     [
+      21.070933,
+      60.363684
+     ]
+    ]
+   ],
+   "lengthMeters": 596.0,
+   "basis": "Grundkartan 1041 02 (1969) ritar vägen från Långäng norrut till färjfästet vid Norrviken i rött, som huvudväg, liksom utgåvorna 1984 och 1991.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (1 väg), använd som stabilt läge från 1969.",
+   "freeEndBasis": "Färjfästet vid Norrviken, som grundkartan 1969 ritar vid vägens ände."
+  },
+  {
+   "id": "road:main-roads-new:svartsmara:bovikvagen",
+   "name": "Bovikvägen",
+   "routeId": "road:route:svartsmara:bovikvagen",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 3,
+   "firstYear": 1968,
+   "surveySourceId": "road:main-roads-new:svartsmara:bovikvagen:survey",
+   "maps": {
+    "1968-102104": "present",
+    "1978-102104": "present",
+    "1984-102104": "present",
+    "1993-102104": "present"
+   },
+   "start": "road:qgis:svartsmara:skarpnatovagen-5",
+   "end": "road:qgis:svartsmara:mellanakersvagen-2",
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/1067038810",
+     "sourceVertexRange": [
+      0,
+      23
+     ],
+     "sourceVertexCount": 24,
+     "input": "5ef520cc5dc1f4342f232de101a003c000260dbb9d65b775bd2a1f3a353aaba4",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-1067038810",
+     "sourceVertexRange": [
+      0,
+      23
+     ],
+     "sourceVertexCount": 24,
+     "input": "5ef520cc5dc1f4342f232de101a003c000260dbb9d65b775bd2a1f3a353aaba4",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      19.74122,
+      60.25561
+     ],
+     [
+      19.740936,
+      60.255636
+     ],
+     [
+      19.740705,
+      60.255649
+     ],
+     [
+      19.74054,
+      60.255654
+     ],
+     [
+      19.74039,
+      60.255653
+     ],
+     [
+      19.740237,
+      60.255643
+     ],
+     [
+      19.740079,
+      60.255627
+     ],
+     [
+      19.740039,
+      60.25562
+     ],
+     [
+      19.739942,
+      60.255602
+     ],
+     [
+      19.739679,
+      60.255559
+     ],
+     [
+      19.739245,
+      60.255498
+     ],
+     [
+      19.739013,
+      60.255475
+     ],
+     [
+      19.738782,
+      60.255467
+     ],
+     [
+      19.738568,
+      60.255467
+     ],
+     [
+      19.737771,
+      60.255479
+     ],
+     [
+      19.736663,
+      60.25549
+     ],
+     [
+      19.735411,
+      60.255503
+     ],
+     [
+      19.734473,
+      60.255514
+     ],
+     [
+      19.734267,
+      60.255516
+     ],
+     [
+      19.733374,
+      60.255523
+     ],
+     [
+      19.733111,
+      60.255514
+     ],
+     [
+      19.732921,
+      60.255498
+     ],
+     [
+      19.732742,
+      60.255475
+     ],
+     [
+      19.732558,
+      60.255492
+     ]
+    ]
+   ],
+   "lengthMeters": 483.5,
+   "basis": "Grundkartan 1021 04 (1968) ritar vägen från Skarpnåtövägen västerut förbi Nybonds i rött, som huvudväg, liksom utgåvorna 1978, 1984 och 1993.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (1 väg), använd som stabilt läge från 1968."
+  },
+  {
+   "id": "road:main-roads-new:kokar:pavals",
+   "name": "Vägen vid Påvals · Kökar",
+   "routeId": "road:route:kokar:pavals",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 3,
+   "firstYear": 1971,
+   "surveySourceId": "road:main-roads-new:kokar:pavals:survey",
+   "maps": {
+    "1971-101312": "present",
+    "1985-101312": "present",
+    "1995-101312": "present"
+   },
+   "start": "road:qgis:kokar:kokarvagen-200km2",
+   "end": "road:qgis:kokar:valovagen-200km2",
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/672386484",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "f064c8752e1317a9c1e2b42ca6c1109d1c00b65e06b4ba22998c5fd0a804bda7",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/745671649",
+     "sourceVertexRange": [
+      0,
+      15
+     ],
+     "sourceVertexCount": 16,
+     "input": "13003d23c9e83b15b8df0cf66d35b78710bd93c207ed60265f4876090a43d6c1",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2021",
+     "featureId": "road-2021-672386484",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "f064c8752e1317a9c1e2b42ca6c1109d1c00b65e06b4ba22998c5fd0a804bda7",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-672386484",
+     "sourceVertexRange": [
+      0,
+      6
+     ],
+     "sourceVertexCount": 7,
+     "input": "f064c8752e1317a9c1e2b42ca6c1109d1c00b65e06b4ba22998c5fd0a804bda7",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-745671649",
+     "sourceVertexRange": [
+      0,
+      15
+     ],
+     "sourceVertexCount": 16,
+     "input": "13003d23c9e83b15b8df0cf66d35b78710bd93c207ed60265f4876090a43d6c1",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      20.944357,
+      59.949161
+     ],
+     [
+      20.944651,
+      59.949171
+     ],
+     [
+      20.945134,
+      59.949169
+     ],
+     [
+      20.945589,
+      59.949144
+     ],
+     [
+      20.945857,
+      59.949145
+     ],
+     [
+      20.94608,
+      59.949164
+     ],
+     [
+      20.94642,
+      59.949226
+     ],
+     [
+      20.946647,
+      59.949268
+     ],
+     [
+      20.947197,
+      59.949327
+     ],
+     [
+      20.947431,
+      59.949389
+     ],
+     [
+      20.947613,
+      59.949543
+     ],
+     [
+      20.947875,
+      59.949964
+     ],
+     [
+      20.947991,
+      59.95015
+     ],
+     [
+      20.948047,
+      59.950248
+     ],
+     [
+      20.948034,
+      59.950347
+     ],
+     [
+      20.947945,
+      59.950422
+     ],
+     [
+      20.947662,
+      59.950585
+     ],
+     [
+      20.947408,
+      59.95079
+     ],
+     [
+      20.947375,
+      59.950831
+     ],
+     [
+      20.947304,
+      59.950917
+     ],
+     [
+      20.947262,
+      59.951077
+     ],
+     [
+      20.947274,
+      59.951389
+     ]
+    ]
+   ],
+   "lengthMeters": 418.6,
+   "basis": "Grundkartan 1013 12 (1971) ritar vägen från Kökarvägen vid Påvals norrut till Valövägen i rött, som huvudväg, liksom utgåvorna 1985 och 1995.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (2 vägar i följd), använd som stabilt läge från 1971."
+  },
+  {
+   "id": "road:main-roads-new:sund:bjorbyvagen-trygghem",
+   "name": "Björbyvägen · Strömsborg–Trygghem",
+   "routeId": "road:route:bjorbyvagen-rosenberg",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 3,
+   "firstYear": 1968,
+   "surveySourceId": "road:main-roads-new:sund:bjorbyvagen-trygghem:survey",
+   "maps": {
+    "1968-102110": "present",
+    "1978-102110": "present",
+    "1985-102110": "present",
+    "1993-102110": "present"
+   },
+   "start": "road:qgis:sund:bjorbyvagen-rosenberg",
+   "end": null,
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/70574479",
+     "sourceVertexRange": [
+      0,
+      19
+     ],
+     "sourceVertexCount": 20,
+     "input": "ed862a9352f17ff89725d2a987e292fe0757441105c9b190f9c836543211e318",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-70574479",
+     "sourceVertexRange": [
+      0,
+      19
+     ],
+     "sourceVertexCount": 20,
+     "input": "ed862a9352f17ff89725d2a987e292fe0757441105c9b190f9c836543211e318",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      20.127142,
+      60.259177
+     ],
+     [
+      20.126918,
+      60.25911
+     ],
+     [
+      20.126629,
+      60.258983
+     ],
+     [
+      20.126501,
+      60.258909
+     ],
+     [
+      20.126411,
+      60.2588
+     ],
+     [
+      20.12635,
+      60.258706
+     ],
+     [
+      20.126296,
+      60.258606
+     ],
+     [
+      20.12624,
+      60.258476
+     ],
+     [
+      20.126197,
+      60.258324
+     ],
+     [
+      20.126194,
+      60.258162
+     ],
+     [
+      20.126226,
+      60.257986
+     ],
+     [
+      20.126307,
+      60.257752
+     ],
+     [
+      20.126409,
+      60.257474
+     ],
+     [
+      20.126438,
+      60.25731
+     ],
+     [
+      20.126484,
+      60.257124
+     ],
+     [
+      20.126484,
+      60.25698
+     ],
+     [
+      20.126427,
+      60.256799
+     ],
+     [
+      20.126385,
+      60.256622
+     ],
+     [
+      20.126399,
+      60.256269
+     ],
+     [
+      20.126405,
+      60.256122
+     ]
+    ]
+   ],
+   "lengthMeters": 361.2,
+   "basis": "Grundkartan 1021 10 (1968) ritar vägen från Trygghem söderut till Strömsborg i rött, som huvudväg, liksom utgåvorna 1978, 1985 och 1993.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (1 väg), använd som stabilt läge från 1968.",
+   "freeEndBasis": "Vägen fortsätter här på en kort bit (under 50 m) fram till korsningen, som ingen väg i katalogen har."
+  },
+  {
+   "id": "road:main-roads-new:sund:eliasvagen",
+   "name": "Eliasvägen",
+   "routeId": "road:route:sund:eliasvagen",
+   "modernRoadClass": "tertiary",
+   "roadWidth": 3,
+   "firstYear": 1968,
+   "surveySourceId": "road:main-roads-new:sund:eliasvagen:survey",
+   "maps": {
+    "1968-102110": "present",
+    "1978-102110": "present",
+    "1985-102110": "present",
+    "1993-102110": "present"
+   },
+   "start": null,
+   "end": "road:qgis:sund:bjorbyvagen-rosenberg",
+   "joinMeters": 1,
+   "sourceLinks": [
+    {
+     "datasetId": "osm-2026",
+     "featureId": "way/355197649",
+     "sourceVertexRange": [
+      0,
+      10
+     ],
+     "sourceVertexCount": 11,
+     "input": "8ec3024e27deea34e149bcb2525bbf79558d0330a67bc1f2d644f98d4d700437",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    },
+    {
+     "datasetId": "osm-2025",
+     "featureId": "road-2025-355197649",
+     "sourceVertexRange": [
+      0,
+      10
+     ],
+     "sourceVertexCount": 11,
+     "input": "8ec3024e27deea34e149bcb2525bbf79558d0330a67bc1f2d644f98d4d700437",
+     "basis": "Hela vägen i detta utdrag, med samma koordinater som 2026."
+    }
+   ],
+   "paths": [
+    [
+     [
+      20.131028,
+      60.257338
+     ],
+     [
+      20.130622,
+      60.257443
+     ],
+     [
+      20.13022,
+      60.257694
+     ],
+     [
+      20.129956,
+      60.258035
+     ],
+     [
+      20.129903,
+      60.258311
+     ],
+     [
+      20.12971,
+      60.258461
+     ],
+     [
+      20.129486,
+      60.258547
+     ],
+     [
+      20.128894,
+      60.258773
+     ],
+     [
+      20.128577,
+      60.258853
+     ],
+     [
+      20.127693,
+      60.259078
+     ],
+     [
+      20.127142,
+      60.259177
+     ]
+    ]
+   ],
+   "lengthMeters": 316.6,
+   "basis": "Grundkartan 1021 10 (1968) ritar vägen från Trygghem längs Björby träsk till Nybonds i rött, som huvudväg, liksom utgåvorna 1978, 1985 och 1993.",
+   "geometryNote": "Mittlinjen i OpenStreetMap 2026 (1 väg), använd som stabilt läge från 1968.",
+   "freeStartBasis": "Vägen fortsätter här på en kort bit (under 50 m) fram till korsningen, som ingen väg i katalogen har."
+  }
+ ],
+ "stageFeatures": []
+}

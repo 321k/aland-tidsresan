@@ -1,4 +1,4 @@
-"""match.py across sheets and editions: for an object, for each edition index (0 = first, 1 = second, …) of the
+"""(env CAT: read another catalogue copy, as written by unowned.py.) match.py across sheets and editions: for an object, for each edition index (0 = first, 1 = second, …) of the
 registered sheets it crosses, the ranges along its earliest geometry where the red main-road symbol lies under it. A
 step is read on the sheet whose metric frame contains it. Editions at or after the object's current first year are
 skipped. Usage: match_editions.py OUT.json OBJECT_ID [OBJECT_ID ...]"""
@@ -43,7 +43,7 @@ def run(path_ll, k, before):
     read = sum(STEP for _, h in hits if h is not None)
     return dict(editions=sorted(years), length=round(line.length, 1), read=read, ranges=runs, matched=round(sum(b - a for a, b in runs), 1))
 out = sys.argv[1]
-cat = json.load(gzip.open('dist/assets/temporal-objects.json.gz')); G = {g['id']: g for g in cat['geometries']}; O = {o['id']: o for o in cat['objects']}
+cat = json.load(gzip.open(os.environ.get('CAT', 'dist/assets/temporal-objects.json.gz'))); G = {g['id']: g for g in cat['geometries']}; O = {o['id']: o for o in cat['objects']}
 res = {}
 for oid in sys.argv[2:]:
     o = O[oid]; first = o['states'][0]['from']; g = G[o['geometryPeriods'][0]['geometryId']]
