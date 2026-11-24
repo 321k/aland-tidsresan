@@ -1,0 +1,1568 @@
+{
+ "road:qgis:lumparland:angosundsvagen-100km3": {
+  "name": "Ängösundsvägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ]
+     ],
+     "length": 3663.7,
+     "read": 3680,
+     "ranges": [
+      [
+       10,
+       310
+      ],
+      [
+       440,
+       610
+      ],
+      [
+       750,
+       950
+      ],
+      [
+       1410,
+       3660
+      ]
+     ],
+     "matched": 2920
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101211:1978"
+      ]
+     ],
+     "length": 3663.7,
+     "read": 3680,
+     "ranges": [
+      [
+       0,
+       610
+      ],
+      [
+       760,
+       960
+      ],
+      [
+       1160,
+       1320
+      ],
+      [
+       1410,
+       3663.7
+      ]
+     ],
+     "matched": 3223.7
+    }
+   ]
+  ]
+ },
+ "road:qgis:sund:mangstektavagen": {
+  "name": "Mångstektavägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102110:1968"
+      ]
+     ],
+     "length": 3430.0,
+     "read": 3450,
+     "ranges": [
+      [
+       120,
+       310
+      ],
+      [
+       380,
+       450
+      ],
+      [
+       510,
+       700
+      ],
+      [
+       810,
+       1500
+      ],
+      [
+       1810,
+       2150
+      ],
+      [
+       2380,
+       2570
+      ],
+      [
+       2640,
+       3410
+      ]
+     ],
+     "matched": 2440
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102110:1978"
+      ]
+     ],
+     "length": 3430.0,
+     "read": 3450,
+     "ranges": [
+      [
+       0,
+       3400
+      ]
+     ],
+     "matched": 3400
+    }
+   ]
+  ]
+ },
+ "road:qgis:lumparland:svinovagen-100km3": {
+  "name": "Svinövägen",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ]
+     ],
+     "length": 2461.0,
+     "read": 2480,
+     "ranges": [
+      [
+       0,
+       2320
+      ]
+     ],
+     "matched": 2320
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101211:1978"
+      ]
+     ],
+     "length": 2461.0,
+     "read": 2480,
+     "ranges": [
+      [
+       0,
+       2340
+      ]
+     ],
+     "matched": 2340
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101211:1985"
+      ]
+     ],
+     "length": 2461.0,
+     "read": 2480,
+     "ranges": [
+      [
+       0,
+       2300
+      ]
+     ],
+     "matched": 2300
+    }
+   ]
+  ]
+ },
+ "road:qgis:eckero:torpvagen-1-100km1": {
+  "name": "Torpvägen · del 1",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101203:1968"
+      ]
+     ],
+     "length": 5517.4,
+     "read": 5530,
+     "ranges": [
+      [
+       370,
+       790
+      ],
+      [
+       3920,
+       4080
+      ],
+      [
+       4220,
+       4340
+      ],
+      [
+       4470,
+       5517.4
+      ]
+     ],
+     "matched": 1747.4
+    }
+   ]
+  ]
+ },
+ "road:qgis:eckero:sodra-overbyvagen-200km2": {
+  "name": "Södra Överbyvägen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101203:1968"
+      ]
+     ],
+     "length": 4474.7,
+     "read": 4490,
+     "ranges": [
+      [
+       3010,
+       4474.7
+      ]
+     ],
+     "matched": 1464.7
+    }
+   ]
+  ]
+ },
+ "road:qgis:jomala:norra-svibyvagen-batch5": {
+  "name": "Norra Svibyvägen",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ],
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 1544.9,
+     "read": 1560,
+     "ranges": [
+      [
+       0,
+       650
+      ],
+      [
+       830,
+       1510
+      ]
+     ],
+     "matched": 1330
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ],
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 1544.9,
+     "read": 1560,
+     "ranges": [
+      [
+       0,
+       650
+      ],
+      [
+       830,
+       1510
+      ]
+     ],
+     "matched": 1330
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ],
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 1544.9,
+     "read": 1560,
+     "ranges": [
+      [
+       0,
+       1490
+      ]
+     ],
+     "matched": 1490
+    }
+   ]
+  ]
+ },
+ "road:qgis:eckero:skeppsviksvagen-100km1": {
+  "name": "Skeppsviksvägen",
+  "firstYear": 1994,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101203:1968"
+      ]
+     ],
+     "length": 2533.4,
+     "read": 2550,
+     "ranges": [
+      [
+       1050,
+       2130
+      ],
+      [
+       2320,
+       2533.4
+      ]
+     ],
+     "matched": 1293.4
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101203:1978"
+      ]
+     ],
+     "length": 2533.4,
+     "read": 2550,
+     "ranges": [
+      [
+       1040,
+       2533.4
+      ]
+     ],
+     "matched": 1493.4
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101203:1985"
+      ]
+     ],
+     "length": 2533.4,
+     "read": 2550,
+     "ranges": [
+      [
+       1050,
+       2533.4
+      ]
+     ],
+     "matched": 1483.4
+    }
+   ]
+  ]
+ },
+ "road:qgis:jomala:nya-godbyvagen-1-100km4": {
+  "name": "Nya Godbyvägen · del 1",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ],
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 11082.0,
+     "read": 11100,
+     "ranges": [
+      [
+       3290,
+       3340
+      ],
+      [
+       4050,
+       4150
+      ],
+      [
+       6920,
+       6970
+      ],
+      [
+       9630,
+       9690
+      ]
+     ],
+     "matched": 260
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ],
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 11082.0,
+     "read": 11100,
+     "ranges": [
+      [
+       3290,
+       3340
+      ],
+      [
+       4050,
+       4140
+      ],
+      [
+       6920,
+       6970
+      ],
+      [
+       9630,
+       9690
+      ]
+     ],
+     "matched": 250
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ],
+      [
+       1985,
+       "nls:101209:1985"
+      ]
+     ],
+     "length": 11082.0,
+     "read": 11100,
+     "ranges": [
+      [
+       4070,
+       4140
+      ],
+      [
+       6920,
+       6970
+      ],
+      [
+       9630,
+       10870
+      ],
+      [
+       10930,
+       11060
+      ]
+     ],
+     "matched": 1490
+    }
+   ]
+  ]
+ },
+ "road:qgis:bomarsund:lumpovagen-100km5": {
+  "name": "Lumpovägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ],
+      [
+       1968,
+       "nls:101212:1968"
+      ]
+     ],
+     "length": 1123.4,
+     "read": 1140,
+     "ranges": [
+      [
+       200,
+       1123.4
+      ]
+     ],
+     "matched": 923.4
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101211:1978"
+      ],
+      [
+       1978,
+       "nls:101212:1978"
+      ]
+     ],
+     "length": 1123.4,
+     "read": 1140,
+     "ranges": [
+      [
+       190,
+       1123.4
+      ]
+     ],
+     "matched": 933.4
+    }
+   ]
+  ]
+ },
+ "road:qgis:sund:persbyvagen": {
+  "name": "Persbyvägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102110:1968"
+      ]
+     ],
+     "length": 917.7,
+     "read": 930,
+     "ranges": [
+      [
+       0,
+       917.7
+      ]
+     ],
+     "matched": 917.7
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:102110:1978"
+      ]
+     ],
+     "length": 917.7,
+     "read": 930,
+     "ranges": [
+      [
+       0,
+       917.7
+      ]
+     ],
+     "matched": 917.7
+    }
+   ]
+  ]
+ },
+ "road:qgis:jomala:narmovagen-100km4": {
+  "name": "Narmovägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ],
+      [
+       1968,
+       "nls:101209:1968"
+      ]
+     ],
+     "length": 1249.4,
+     "read": 1260,
+     "ranges": [
+      [
+       340,
+       1249.4
+      ]
+     ],
+     "matched": 909.4
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ],
+      [
+       1978,
+       "nls:101209:1978"
+      ]
+     ],
+     "length": 1249.4,
+     "read": 1260,
+     "ranges": [
+      [
+       340,
+       1249.4
+      ]
+     ],
+     "matched": 909.4
+    }
+   ]
+  ]
+ },
+ "road:qgis:mariehamn:norrbyvagen-100km3": {
+  "name": "Norrbyvägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 1114.7,
+     "read": 1130,
+     "ranges": [
+      [
+       300,
+       1114.7
+      ]
+     ],
+     "matched": 814.7
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 1114.7,
+     "read": 1130,
+     "ranges": [
+      [
+       300,
+       1114.7
+      ]
+     ],
+     "matched": 814.7
+    }
+   ]
+  ]
+ },
+ "road:qgis:mariehamn:lemlandsvagen-2-100km3": {
+  "name": "Lemlandsvägen · del 2",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 868.9,
+     "read": 880,
+     "ranges": [
+      [
+       0,
+       540
+      ],
+      [
+       680,
+       868.9
+      ]
+     ],
+     "matched": 728.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 868.9,
+     "read": 880,
+     "ranges": [
+      [
+       0,
+       868.9
+      ]
+     ],
+     "matched": 868.9
+    }
+   ]
+  ]
+ },
+ "road:qgis:lumparland:stickvagen-100km4": {
+  "name": "Stickvägen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ]
+     ],
+     "length": 947.8,
+     "read": 960,
+     "ranges": [
+      [
+       270,
+       947.8
+      ]
+     ],
+     "matched": 677.8
+    }
+   ]
+  ]
+ },
+ "road:qgis:mariehamn:jarsovagen-100km3": {
+  "name": "Järsövägen",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101207:1968"
+      ],
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 3648.0,
+     "read": 3660,
+     "ranges": [
+      [
+       1220,
+       1610
+      ]
+     ],
+     "matched": 390
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101207:1978"
+      ],
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 3648.0,
+     "read": 3660,
+     "ranges": [
+      [
+       1210,
+       1690
+      ],
+      [
+       2580,
+       2740
+      ],
+      [
+       3010,
+       3250
+      ],
+      [
+       3510,
+       3648.0
+      ]
+     ],
+     "matched": 1018.0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101207:1985"
+      ],
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 3648.0,
+     "read": 3660,
+     "ranges": [
+      [
+       1230,
+       3648.0
+      ]
+     ],
+     "matched": 2418.0
+    }
+   ]
+  ]
+ },
+ "road:qgis:mariehamn:lemlandsvagen-1-100km3": {
+  "name": "Lemlandsvägen · Knutsboda–Dragsvik",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 960.0,
+     "read": 970,
+     "ranges": [
+      [
+       560,
+       960.0
+      ]
+     ],
+     "matched": 400.0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 960.0,
+     "read": 970,
+     "ranges": [
+      [
+       0,
+       960.0
+      ]
+     ],
+     "matched": 960.0
+    }
+   ]
+  ]
+ },
+ "road:qgis:bomarsund:sundsvagen-3-100km5": {
+  "name": "Sundsvägen · del 3",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101212:1968"
+      ]
+     ],
+     "length": 294.5,
+     "read": 310,
+     "ranges": [
+      [
+       0,
+       294.5
+      ]
+     ],
+     "matched": 294.5
+    }
+   ]
+  ]
+ },
+ "road:sund:sundsvagen:klippan-vast": {
+  "name": "Sundsvägen · Klippan",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101212:1968"
+      ]
+     ],
+     "length": 265.4,
+     "read": 280,
+     "ranges": [
+      [
+       80,
+       265.4
+      ]
+     ],
+     "matched": 185.4
+    }
+   ]
+  ]
+ },
+ "road:qgis:sund:gunnarsbyvagen": {
+  "name": "Gunnarsbyvägen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:102110:1968"
+      ]
+     ],
+     "length": 1188.0,
+     "read": 1200,
+     "ranges": [
+      [
+       0,
+       100
+      ]
+     ],
+     "matched": 100
+    }
+   ]
+  ]
+ },
+ "road:mariehamn:major-followup:rokerirondellen": {
+  "name": "Rökerirondellen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 326.4,
+     "read": 340,
+     "ranges": [
+      [
+       160,
+       260
+      ]
+     ],
+     "matched": 100
+    }
+   ]
+  ]
+ },
+ "road:qgis:lumparland:grytesbacka-100km4": {
+  "name": "Grytesbacka",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ]
+     ],
+     "length": 1391.3,
+     "read": 1410,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101211:1978"
+      ]
+     ],
+     "length": 1391.3,
+     "read": 1410,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "road:mariehamn:major-followup:godbyvagen-rokeri-approach": {
+  "name": "Godbyvägen · tillfart till Rökerirondellen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 77.6,
+     "read": 90,
+     "ranges": [
+      [
+       10,
+       77.6
+      ]
+     ],
+     "matched": 67.6
+    }
+   ]
+  ]
+ },
+ "road:mariehamn:major-followup:hammarlandsvagen-rondell-approach": {
+  "name": "Hammarlandsvägen · tillfart till Västra rondellen",
+  "firstYear": 1995,
+  "paths": 3,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 14.3,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 65.3,
+     "read": 80,
+     "ranges": [
+      [
+       0,
+       65.3
+      ]
+     ],
+     "matched": 65.3
+    },
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 51.8,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       51.8
+      ]
+     ],
+     "matched": 51.8
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 14.3,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 65.3,
+     "read": 80,
+     "ranges": [
+      [
+       0,
+       65.3
+      ]
+     ],
+     "matched": 65.3
+    },
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 51.8,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       51.8
+      ]
+     ],
+     "matched": 51.8
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 14.3,
+     "read": 30,
+     "ranges": [],
+     "matched": 0
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 65.3,
+     "read": 80,
+     "ranges": [
+      [
+       0,
+       65.3
+      ]
+     ],
+     "matched": 65.3
+    },
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 51.8,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       51.8
+      ]
+     ],
+     "matched": 51.8
+    }
+   ]
+  ]
+ },
+ "road:qgis:bomarsund:lumpouddvagen-100km5": {
+  "name": "Lumpouddvägen",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101211:1968"
+      ],
+      [
+       1968,
+       "nls:101212:1968"
+      ]
+     ],
+     "length": 3001.5,
+     "read": 3020,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101211:1978"
+      ],
+      [
+       1978,
+       "nls:101212:1978"
+      ]
+     ],
+     "length": 3001.5,
+     "read": 3020,
+     "ranges": [
+      [
+       0,
+       80
+      ],
+      [
+       250,
+       360
+      ],
+      [
+       1970,
+       2040
+      ],
+      [
+       2100,
+       2160
+      ],
+      [
+       2270,
+       2350
+      ]
+     ],
+     "matched": 400
+    }
+   ]
+  ]
+ },
+ "road:mariehamn:major-followup:godbyvagen-strandnas-curve": {
+  "name": "Godbyvägen · båge till Rökerirondellen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 130.0,
+     "read": 150,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "road:mariehamn:street-pass4:lovdalsvagen": {
+  "name": "Lövdalsvägen",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 383.3,
+     "read": 400,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 383.3,
+     "read": 400,
+     "ranges": [],
+     "matched": 0
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 383.3,
+     "read": 400,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "road:qgis:mariehamn:lemlandsvagen-4-100km3": {
+  "name": "Lemlandsvägen · del 4",
+  "firstYear": 1985,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 64.5,
+     "read": 80,
+     "ranges": [
+      [
+       0,
+       64.5
+      ]
+     ],
+     "matched": 64.5
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 64.5,
+     "read": 80,
+     "ranges": [
+      [
+       0,
+       64.5
+      ]
+     ],
+     "matched": 64.5
+    }
+   ]
+  ]
+ },
+ "road:mariehamn:major-followup:vastra-rondellen": {
+  "name": "Västra rondellen",
+  "firstYear": 1995,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 208.9,
+     "read": 220,
+     "ranges": [
+      [
+       130,
+       208.9
+      ]
+     ],
+     "matched": 78.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1978,
+       "nls:101208:1978"
+      ]
+     ],
+     "length": 208.9,
+     "read": 220,
+     "ranges": [
+      [
+       120,
+       208.9
+      ]
+     ],
+     "matched": 88.9
+    }
+   ],
+   [
+    {
+     "editions": [
+      [
+       1985,
+       "nls:101208:1985"
+      ]
+     ],
+     "length": 208.9,
+     "read": 220,
+     "ranges": [
+      [
+       130,
+       208.9
+      ]
+     ],
+     "matched": 78.9
+    }
+   ]
+  ]
+ },
+ "road:mariehamn:major:way-40103454": {
+  "name": "Nya Godbyvägen",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101208:1968"
+      ]
+     ],
+     "length": 802.3,
+     "read": 820,
+     "ranges": [],
+     "matched": 0
+    }
+   ]
+  ]
+ },
+ "road:qgis:eckero:torpvagen-2-100km1": {
+  "name": "Torpvägen · del 2",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101203:1968"
+      ]
+     ],
+     "length": 50.2,
+     "read": 70,
+     "ranges": [
+      [
+       0,
+       50.2
+      ]
+     ],
+     "matched": 50.2
+    }
+   ]
+  ]
+ },
+ "road:sund:sundsvagen:klippan-ost": {
+  "name": "Sundsvägen · öster om Klippan",
+  "firstYear": 1978,
+  "paths": 1,
+  "editions": [
+   [
+    {
+     "editions": [
+      [
+       1968,
+       "nls:101212:1968"
+      ]
+     ],
+     "length": 97.6,
+     "read": 110,
+     "ranges": [
+      [
+       0,
+       97.6
+      ]
+     ],
+     "matched": 97.6
+    }
+   ]
+  ]
+ }
+}

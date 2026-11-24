@@ -61,7 +61,9 @@ def scan_window(sheet_id, cx, cy, half, size):
     if sheet_id not in _scans:
         fwd, inv = registration_pair(s); crs = s['registration']['crs']
         proj = Transformer.from_crs(3874, crs, always_xy=True).transform
-        img = Image.open(f'data/map-scan-cache/{sheet}_{year}.jpg').convert('RGB')
+        # the cached original keeps its download name (e.g. 101207_1968_1978.jpg for the 1978 edition)
+        name = s.get('originalUrl', '').rsplit('/', 1)[-1] or f'{sheet}_{year}.jpg'
+        img = Image.open(f'data/map-scan-cache/{name}' if Path(f'data/map-scan-cache/{name}').exists() else f'data/map-scan-cache/{sheet}_{year}.jpg').convert('RGB')
         k = img.size[0] / s['imageSize'][0]
         _scans[sheet_id] = (img, lambda E, N: tuple(np.array(inv(proj(E, N))) * k))
     img, px = _scans[sheet_id]

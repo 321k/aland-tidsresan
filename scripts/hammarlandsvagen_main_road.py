@@ -298,7 +298,10 @@ def _apply(read, catalog, path_):
             o['states'].insert(0, dict(state='unknown', **{'from': e['until'], 'to': e['gapUntil']}, certainty='inferred', evidenceIds=gev, note=gnote))
         o['states'].insert(0, dict(state='open', **{'from': e['firstYear'], 'to': e['until']}, certainty='inferred', evidenceIds=refs, note=basis))
         o['geometryPeriods'].insert(0, dict(geometryId=gid, **{'from': e['firstYear'], 'to': e['laterStage']['firstYear'] if oid in stages else e['until']}, certainty='inferred', evidenceIds=refs, basis=basis, **cov))
+        # An earlier record of the same kind (the step that created the object) is kept under 'earlier'.
+        prior = o.get(review.get('reviewProperty', 'hammarlandsvagenMainRoad'))
         o[review.get('reviewProperty', 'hammarlandsvagenMainRoad')] = dict(reviewedAt=review['reviewedAt'], previousFirstYear=e.get('gapUntil', e['until']), ranges=e['ranges'], constructionYear=None,
+                                             **({'earlier': prior} if prior else {}),
                                              **({'pathIndex': e['pathIndex']} if 'pathIndex' in e else {}),
                                              **({'pathRanges': e['pathRanges']} if 'pathRanges' in e else {}),
                                              **({'laterStage': e['laterStage']} if oid in stages else {}),

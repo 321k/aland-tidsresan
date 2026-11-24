@@ -38,8 +38,17 @@ class PostalRouteSundTests(unittest.TestCase):
     def test_review_applies_once_and_matches_the_build(self):
         catalog = json.loads(json.dumps(self.apply(), ensure_ascii=False))
         key = lambda c: {x['id']: x for x in c['objects']}
-        for i, year in ((LAP, 1968), (KW, 1978), (KE, 1978)):
-            self.assertEqual(key(catalog)[i], key(self.built)[i]); self.assertEqual(key(catalog)[i]['states'][0]['from'], year)
+        self.assertEqual(key(catalog)[LAP], key(self.built)[LAP]); self.assertEqual(key(catalog)[LAP]['states'][0]['from'], 1968)
+        # The main-road review (docs/main-roads-mainland.md) later dates the Klippan pieces from 1968 on the 1968 sheet.
+        # From 1978 on the build still holds what this review made, and its record is kept under 'earlier'.
+        since = lambda o, k: [x for x in o[k] if x['from'] >= 1978]
+        for i in (KW, KE):
+            mine, built = key(catalog)[i], key(self.built)[i]
+            self.assertEqual(mine['states'][0]['from'], 1978)
+            for k in ('states', 'geometryPeriods'):
+                self.assertEqual([{**x, 'to': x['to']} for x in since(mine, k)], since(built, k))
+            self.assertTrue(all(e in built['evidence'] for e in mine['evidence']))
+            self.assertEqual(built['mainRoadReview']['earlier'], mine['mainRoadReview'])
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in (LAP, KW, KE)], self.pristine['objects'])
         with self.assertRaises(ValueError):
             self.apply(catalog=catalog)

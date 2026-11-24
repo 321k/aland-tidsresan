@@ -97,5 +97,6 @@ reverse (`patch-verification-sund.log`).
 - **For the Sundsvägen review:** the 1968 sheet 1012 12 draws the straight road at Klippan east of the Svensböle
   junction. That suggests del 3 and the Klippan piece date from 1968, with the old road along Klippanvägen a smaller
   road by then.
+  - Done in the main-road review (`docs/main-roads-mainland.md`): del 3 and both Klippan pieces are open from 1968.
 - **Lappböle before 1968:** an earlier map that covers the sheet edge.
 - **Earlier maps:** the whole leg on the parish maps.

@@ -1,0 +1,58 @@
+{
+ "before": "data/map-scan-cache/review/main-roads-mainland/before-main-roads-mainland-step.json.gz",
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:qgis:bomarsund:lumpovagen-100km5",
+   "road:qgis:bomarsund:sundsvagen-3-100km5",
+   "road:qgis:eckero:skeppsviksvagen-100km1",
+   "road:qgis:eckero:sodra-overbyvagen-200km2",
+   "road:qgis:eckero:torpvagen-1-100km1",
+   "road:qgis:jomala:narmovagen-100km4",
+   "road:qgis:jomala:norra-svibyvagen-batch5",
+   "road:qgis:lumparland:angosundsvagen-100km3",
+   "road:qgis:lumparland:stickvagen-100km4",
+   "road:qgis:lumparland:svinovagen-100km3",
+   "road:qgis:mariehamn:norrbyvagen-100km3",
+   "road:qgis:sund:mangstektavagen",
+   "road:qgis:sund:persbyvagen",
+   "road:sund:sundsvagen:klippan-ost",
+   "road:sund:sundsvagen:klippan-vast"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:main-roads-mainland:angosundsvagen-100km3",
+   "geometry:main-roads-mainland:angosundsvagen-100km3:1978",
+   "geometry:main-roads-mainland:klippan-ost",
+   "geometry:main-roads-mainland:klippan-vast",
+   "geometry:main-roads-mainland:lumpovagen-100km5",
+   "geometry:main-roads-mainland:mangstektavagen",
+   "geometry:main-roads-mainland:mangstektavagen:1978",
+   "geometry:main-roads-mainland:narmovagen-100km4",
+   "geometry:main-roads-mainland:norra-svibyvagen-batch5",
+   "geometry:main-roads-mainland:norrbyvagen-100km3",
+   "geometry:main-roads-mainland:persbyvagen",
+   "geometry:main-roads-mainland:skeppsviksvagen-100km1",
+   "geometry:main-roads-mainland:skeppsviksvagen-100km1:1978",
+   "geometry:main-roads-mainland:sodra-overbyvagen-200km2",
+   "geometry:main-roads-mainland:stickvagen-100km4",
+   "geometry:main-roads-mainland:sundsvagen-3-100km5",
+   "geometry:main-roads-mainland:svinovagen-100km3",
+   "geometry:main-roads-mainland:torpvagen-1-100km1"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:main-roads-mainland"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "changedOutsideReview": [],
+ "otherKeys": [],
+ "atlasRoadsUnchanged": true
+}

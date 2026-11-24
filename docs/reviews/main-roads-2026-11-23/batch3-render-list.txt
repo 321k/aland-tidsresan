@@ -1,0 +1,22 @@
+road:qgis:lumparland:angosundsvagen-100km3 nls:101211:1968 1968 [[[10,310],[440,610],[750,950],[1410,3660]]]
+road:qgis:lumparland:angosundsvagen-100km3 nls:101211:1978 1978 [[[0,610],[750,960],[1160,3663.7]]] L
+road:qgis:sund:mangstektavagen nls:102110:1968 1968 [[[120,700],[810,1500],[1810,2150],[2380,3410]]]
+road:qgis:sund:mangstektavagen nls:102110:1978 1978 [[[0,3410]]] L
+road:qgis:lumparland:svinovagen-100km3 nls:101211:1968 1968 [[[0,2320]]]
+road:qgis:eckero:torpvagen-1-100km1 nls:101203:1968 1968 [[[370,790],[3920,4080],[4470,5517.4]]]
+road:qgis:eckero:sodra-overbyvagen-200km2 nls:101203:1968 1968 [[[3010,4474.7]]]
+road:qgis:jomala:norra-svibyvagen-batch5 nls:101208:1968,nls:101209:1968 1968 [[[0,650],[830,1510]]]
+road:qgis:eckero:skeppsviksvagen-100km1 nls:101203:1968 1968 [[[1050,2130],[2320,2533.4]]]
+road:qgis:eckero:skeppsviksvagen-100km1 nls:101203:1978 1978 [[[1040,2533.4]]] L
+road:qgis:bomarsund:lumpovagen-100km5 nls:101211:1968,nls:101212:1968 1968 [[[200,1123.4]]]
+road:qgis:sund:persbyvagen nls:102110:1968 1968 [[[0,917.7]]]
+road:qgis:jomala:narmovagen-100km4 nls:101208:1968,nls:101209:1968 1968 [[[340,1249.4]]]
+road:qgis:mariehamn:norrbyvagen-100km3 nls:101208:1968 1968 [[[300,1114.7]]]
+road:qgis:mariehamn:lemlandsvagen-2-100km3 nls:101208:1968 1968 [[[0,540],[680,868.9]]]
+road:qgis:lumparland:stickvagen-100km4 nls:101211:1968 1968 [[[270,947.8]]]
+road:qgis:mariehamn:jarsovagen-100km3 nls:101207:1968,nls:101208:1968 1968 [[[1220,1610]]]
+road:qgis:mariehamn:jarsovagen-100km3 nls:101207:1978,nls:101208:1978 1978 [[[1210,1690],[2580,2740],[3010,3250]]] L
+road:qgis:mariehamn:lemlandsvagen-1-100km3 nls:101208:1968 1968 [[[560,960.0]]]
+road:qgis:mariehamn:lemlandsvagen-1-100km3 nls:101208:1978 1978 [[[0,960.0]]] L
+road:qgis:bomarsund:sundsvagen-3-100km5 nls:101212:1968 1968 [[[0,294.5]]]
+road:sund:sundsvagen:klippan-vast nls:101212:1968 1968 [[[80,265.4]]]

@@ -1,0 +1,425 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-23",
+ "reviewProperty": "mainRoadReview",
+ "geometryPrefix": "geometry:main-roads-mainland:",
+ "source": {
+  "id": "review:main-roads-mainland",
+  "title": "Huvudvägarna på grundkartorna i Lemland, Lumparland, Jomala, Eckerö och Sund · granskning",
+  "url": "assets/main-roads-mainland.json"
+ },
+ "sources": [],
+ "maps": {
+  "1968-101203": {
+   "sourceId": "nls:101203:1968",
+   "year": 1968
+  },
+  "1968-101208": {
+   "sourceId": "nls:101208:1968",
+   "year": 1968
+  },
+  "1968-101209": {
+   "sourceId": "nls:101209:1968",
+   "year": 1968
+  },
+  "1968-101211": {
+   "sourceId": "nls:101211:1968",
+   "year": 1968
+  },
+  "1968-101212": {
+   "sourceId": "nls:101212:1968",
+   "year": 1968
+  },
+  "1968-102110": {
+   "sourceId": "nls:102110:1968",
+   "year": 1968
+  },
+  "1978-101203": {
+   "sourceId": "nls:101203:1978",
+   "year": 1978
+  },
+  "1978-101211": {
+   "sourceId": "nls:101211:1978",
+   "year": 1978
+  },
+  "1978-102110": {
+   "sourceId": "nls:102110:1978",
+   "year": 1978
+  }
+ },
+ "method": "Grundkartorna 1012 03, 08, 09, 11, 12 och 1021 10 (1968, och 1978 för en senare etapp). Vägobjektens linje har jämförts med kartans röda huvudvägssymbol (inom 12 m, docs/reviews/main-roads-2026-11-23/scripts/match_editions.py) och granskats för ögat längs hela linjen.",
+ "early": [
+  {
+   "objectId": "road:qgis:lumparland:angosundsvagen-100km3",
+   "inputHash": "0c17ff7c63406072f600141c4dd1e8372dd8b300ac1f59cd6a5de7ebc15ebb31",
+   "geometryId": "geometry:qgis:d563cf0ed188453e4d9d",
+   "geometryHash": "17b40df26494b65577b1a4d848d69db329901af7138951a6e25b03b570ee6cac",
+   "lengthMeters": 3663.7,
+   "firstYear": 1968,
+   "until": 1985,
+   "maps": {
+    "1968-101211": "present",
+    "1978-101211": "present"
+   },
+   "ranges": [
+    [
+     10.0,
+     310.0
+    ],
+    [
+     440.0,
+     610.0
+    ],
+    [
+     750.0,
+     950.0
+    ],
+    [
+     1410.0,
+     3660.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1978,
+    "ranges": [
+     [
+      0.0,
+      610.0
+     ],
+     [
+      750.0,
+      960.0
+     ],
+     [
+      1160.0,
+      3663.7
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:sund:mangstektavagen",
+   "inputHash": "8a781ac011f0672e5c391030f423a52d8267259a32135230a51153739752b56f",
+   "geometryId": "geometry:qgis:a87dc505c818a057ca86",
+   "geometryHash": "4f138f038c27a74af96b2699766c1eac87ba6e549c6b09ea94ea7a30917f2cc4",
+   "lengthMeters": 3430.0,
+   "firstYear": 1968,
+   "until": 1985,
+   "maps": {
+    "1968-102110": "present",
+    "1978-102110": "present"
+   },
+   "ranges": [
+    [
+     120.0,
+     700.0
+    ],
+    [
+     810.0,
+     1500.0
+    ],
+    [
+     1810.0,
+     2150.0
+    ],
+    [
+     2380.0,
+     3410.0
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1978,
+    "ranges": [
+     [
+      0.0,
+      3410.0
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:lumparland:svinovagen-100km3",
+   "inputHash": "683639919d69ebed7f937e835d32aecc5862475fdcc5fa8eba1a2c518cd30678",
+   "geometryId": "geometry:qgis:d1cd3370252ab70ac606",
+   "geometryHash": "ee14d9d435069938a5aa8430c70c1eb4d95f9c44eba21a91ba9583e8c8dac752",
+   "lengthMeters": 2461.0,
+   "firstYear": 1968,
+   "until": 1995,
+   "maps": {
+    "1968-101211": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     2320.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:eckero:torpvagen-1-100km1",
+   "inputHash": "c65d370f6fcbec31474a7b6956274e5f8e8522a19cada65319afba25bc3342a6",
+   "geometryId": "geometry:qgis:5ed177c4a5570ecdd0da",
+   "geometryHash": "3f2f035a7273e7f1d92772d2bd9a28f43fef17aa0fe8446a655795ff108cf231",
+   "lengthMeters": 5517.4,
+   "firstYear": 1968,
+   "until": 1978,
+   "maps": {
+    "1968-101203": "present"
+   },
+   "ranges": [
+    [
+     370.0,
+     790.0
+    ],
+    [
+     3920.0,
+     4080.0
+    ],
+    [
+     4470.0,
+     5517.4
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:eckero:sodra-overbyvagen-200km2",
+   "inputHash": "44227fe47b0d765e5b0509e02b5fcee3534df298634f26a105da5f59369635d1",
+   "geometryId": "geometry:qgis:1e97c8a6d769397f8637",
+   "geometryHash": "654634a8e23fda4427d0e54b50201e2c79c4e3b38bc8cc921dde46de099ffa03",
+   "lengthMeters": 4474.7,
+   "firstYear": 1968,
+   "until": 1978,
+   "maps": {
+    "1968-101203": "present"
+   },
+   "ranges": [
+    [
+     3010.0,
+     4474.7
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:jomala:norra-svibyvagen-batch5",
+   "inputHash": "725a34ec3c9b972b5bc2e7b497f407e905ae1ae95a7cdda050756099812c6c62",
+   "geometryId": "geometry:qgis:8ba00bda207ac4440d98",
+   "geometryHash": "7c00973d7c8384d36eb2f92d485ba0221884ccec3431913d76026403f8151b4c",
+   "lengthMeters": 1544.9,
+   "firstYear": 1968,
+   "until": 1995,
+   "maps": {
+    "1968-101209": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     650.0
+    ],
+    [
+     830.0,
+     1510.0
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:eckero:skeppsviksvagen-100km1",
+   "inputHash": "9576ceb9dfca55af64016bbc167a4e3cff706c9dfce68bb19e0ec2cee5e65c9a",
+   "geometryId": "geometry:qgis:3cecea9c4f89a08392b9",
+   "geometryHash": "b22db87890f409b1f6514d5c063be8f3cf9bd84538a894eee1cef2cb8efc80ac",
+   "lengthMeters": 2533.4,
+   "firstYear": 1968,
+   "until": 1994,
+   "maps": {
+    "1968-101203": "present",
+    "1978-101203": "present"
+   },
+   "ranges": [
+    [
+     1050.0,
+     2130.0
+    ],
+    [
+     2320.0,
+     2533.4
+    ]
+   ],
+   "laterStage": {
+    "firstYear": 1978,
+    "ranges": [
+     [
+      1040.0,
+      2533.4
+     ]
+    ]
+   }
+  },
+  {
+   "objectId": "road:qgis:bomarsund:lumpovagen-100km5",
+   "inputHash": "e8b78f756331c6ba893d2904b93cb53ca6b29ab00b36be75283ffca01a1b33f6",
+   "geometryId": "geometry:qgis:d9ecede24f031f27d0c9",
+   "geometryHash": "0a2a05e45f0ce6aec90b82a813a6f47ab87b77157a3943b3b060c32ec48a4684",
+   "lengthMeters": 1123.4,
+   "firstYear": 1968,
+   "until": 1985,
+   "maps": {
+    "1968-101212": "present"
+   },
+   "ranges": [
+    [
+     200.0,
+     1123.4
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:sund:persbyvagen",
+   "inputHash": "15e2719809b76dd61ccc432fc487b55eced41396418dee02e9af3355a4b392bd",
+   "geometryId": "geometry:qgis:a0a42a9f7cd4be63e619",
+   "geometryHash": "1ae60c0f73d182596e9e49dbc57a6b669d23b74fbb645d85149c6ab322059321",
+   "lengthMeters": 917.7,
+   "firstYear": 1968,
+   "until": 1985,
+   "maps": {
+    "1968-102110": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     917.7
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:jomala:narmovagen-100km4",
+   "inputHash": "5b349f81045fc6188d1d2259720b2bbf582e85626768208ae335cc0a7ca7816c",
+   "geometryId": "geometry:qgis:cc95887defb82c9c98bc",
+   "geometryHash": "35aa0af87a94eafccbd786b8589ec3a3a056643aa6763126f87df92f80e03a7e",
+   "lengthMeters": 1249.4,
+   "firstYear": 1968,
+   "until": 1985,
+   "maps": {
+    "1968-101209": "present"
+   },
+   "ranges": [
+    [
+     340.0,
+     1249.4
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:mariehamn:norrbyvagen-100km3",
+   "inputHash": "7aca3dad145115dafeef6edb7714dd3b825a8e58a5e16b8449c2d9ee557d6534",
+   "geometryId": "geometry:qgis:47cb51eae5e9e430093e",
+   "geometryHash": "ec201b3c1246d3b688b15c110f6e9a79e8c3ada13be9902c63b670cf23a6db91",
+   "lengthMeters": 1114.7,
+   "firstYear": 1968,
+   "until": 1985,
+   "maps": {
+    "1968-101208": "present"
+   },
+   "ranges": [
+    [
+     300.0,
+     1114.7
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:lumparland:stickvagen-100km4",
+   "inputHash": "1e7bbc5fa2c937f9f1b23a9957c7dec8872aa6c81c98e9dbe34566104fdea40c",
+   "geometryId": "geometry:qgis:dcec2206aba51d52aee5",
+   "geometryHash": "570bd445d10cebb4b51acb3b0b21fe88c8afd2b07d6b985194443c0cb83ceb37",
+   "lengthMeters": 947.8,
+   "firstYear": 1968,
+   "until": 1978,
+   "maps": {
+    "1968-101211": "present"
+   },
+   "ranges": [
+    [
+     270.0,
+     947.8
+    ]
+   ]
+  },
+  {
+   "objectId": "road:qgis:bomarsund:sundsvagen-3-100km5",
+   "inputHash": "bd888a3cdb770b0f7d8c3c370c07ab3a329f00644b4fcf5e92ab844e8e616b96",
+   "geometryId": "geometry:qgis:576e79792887ffc6886d",
+   "geometryHash": "46e12d502e6cd12923bedb57e9de8997a90ab176445112ae7362f87a9e7254b5",
+   "lengthMeters": 294.5,
+   "firstYear": 1968,
+   "until": 1978,
+   "maps": {
+    "1968-101212": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     294.5
+    ]
+   ]
+  },
+  {
+   "objectId": "road:sund:sundsvagen:klippan-vast",
+   "inputHash": "75296bb0a644ece47933e134b7b825c0744474f4dc81ee607f850001dba8b1e0",
+   "geometryId": "geometry:sund:sundsvagen:klippan-vast",
+   "geometryHash": "654656325c6218d6188f7cb67106a4cdfc02c2bd75b3dd98d1d7ad390680e609",
+   "lengthMeters": 265.4,
+   "firstYear": 1968,
+   "until": 1978,
+   "maps": {
+    "1968-101212": "present"
+   },
+   "ranges": [
+    [
+     80.0,
+     265.4
+    ]
+   ]
+  },
+  {
+   "objectId": "road:sund:sundsvagen:klippan-ost",
+   "inputHash": "bcd3e30b8744763bb617b8ef9d0ab62462810f939a750f5e9c5e20aaf09ea1d2",
+   "geometryId": "geometry:sund:sundsvagen:klippan-ost",
+   "geometryHash": "e6022ab3cbaa89583fb90f5bea01ca94c69430235682c4ac03ca2fccf598a9a5",
+   "lengthMeters": 97.6,
+   "firstYear": 1968,
+   "until": 1978,
+   "maps": {
+    "1968-101212": "present"
+   },
+   "ranges": [
+    [
+     0.0,
+     97.6
+    ]
+   ]
+  }
+ ],
+ "earlyBasis": {
+  "road:qgis:lumparland:angosundsvagen-100km3": "Grundkartan 1012 11 från 1968: Ängösundsvägen ritas som huvudväg på samma linje som i dag, utom vid Åkerkulla, där kartans väg går i en båge strax intill (inte daterad här), och några korta stycken; utgåvan 1978 ritar mer av den.",
+  "road:qgis:sund:mangstektavagen": "Grundkartan 1021 10 från 1968: Mångstektavägen ritas som huvudväg på samma linje som i dag, utom vid Delvik och några korta stycken, där kartans väg går i bågar strax intill; utgåvan 1978 ritar den hela.",
+  "road:qgis:lumparland:svinovagen-100km3": "Grundkartan 1012 11 från 1968: Svinövägen ritas som huvudväg på samma linje som i dag, utom den sista biten ned till stranden.",
+  "road:qgis:eckero:torpvagen-1-100km1": "Grundkartan 1012 03 från 1968: Torpvägen ritas som huvudväg vid Backans och från Torp söderut; mittdelen genom skogen saknas på kartan.",
+  "road:qgis:eckero:sodra-overbyvagen-200km2": "Grundkartan 1012 03 från 1968: Södra Överbyvägen ritas som huvudväg på samma linje som i dag från Ekör till Överby; den västra delen saknas på kartan.",
+  "road:qgis:jomala:norra-svibyvagen-batch5": "Grundkartan 1012 09 från 1968: Norra Svibyvägen ritas som huvudväg på samma linje som i dag, utom i kurvan vid Svibyån, där kartans väg går i en snävare båge (inte daterad här).",
+  "road:qgis:eckero:skeppsviksvagen-100km1": "Grundkartan 1012 03 från 1968: Skeppsviksvägen ritas som huvudväg från Lund mot Skeppsvik, utom i en kurva där kartans väg går i en båge (inte daterad här); utgåvan 1978 ritar dagens linje där. Den första delen vid Torp saknas.",
+  "road:qgis:bomarsund:lumpovagen-100km5": "Grundkartan 1012 12 från 1968: Lumpovägen ritas som huvudväg på samma linje som i dag från Lumpo by; där vägen korsar kartbladets kant ritas den inte, men den ritas i rött på båda sidor.",
+  "road:qgis:sund:persbyvagen": "Grundkartan 1021 10 från 1968: Persbyvägen ritas som huvudväg på samma linje som i dag, i hela sin längd.",
+  "road:qgis:jomala:narmovagen-100km4": "Grundkartan 1012 09 från 1968: Narmovägen ritas som huvudväg på samma linje som i dag, utom den första delen.",
+  "road:qgis:mariehamn:norrbyvagen-100km3": "Grundkartan 1012 08 från 1968: Norrbyvägen ritas som huvudväg på samma linje som i dag genom Norrby, utom den första delen.",
+  "road:qgis:lumparland:stickvagen-100km4": "Grundkartan 1012 11 från 1968: Stickvägen ritas som huvudväg på samma linje som i dag, utom den första delen vid Klockars.",
+  "road:qgis:bomarsund:sundsvagen-3-100km5": "Grundkartan 1012 12 från 1968: Sundsvägen genom Finby ritas som huvudväg på samma linje som i dag, i hela sin längd.",
+  "road:sund:sundsvagen:klippan-vast": "Grundkartan 1012 12 från 1968: Sundsvägen vid Klippan ritas som huvudväg på samma linje som i dag, utom det första stycket, där vägen från Svensböle böjer in i den.",
+  "road:sund:sundsvagen:klippan-ost": "Grundkartan 1012 12 från 1968: Sundsvägen öster om Klippanvägen ritas som huvudväg på samma linje som i dag, i hela sin längd."
+ },
+ "laterStageBasis": {
+  "road:qgis:lumparland:angosundsvagen-100km3": "Grundkartan 1012 11 från 1968: Ängösundsvägen ritas som huvudväg på samma linje som i dag, utom vid Åkerkulla, där kartans väg går i en båge strax intill (inte daterad här), och några korta stycken; utgåvan 1978 ritar mer av den.",
+  "road:qgis:sund:mangstektavagen": "Grundkartan 1021 10 från 1968: Mångstektavägen ritas som huvudväg på samma linje som i dag, utom vid Delvik och några korta stycken, där kartans väg går i bågar strax intill; utgåvan 1978 ritar den hela.",
+  "road:qgis:eckero:skeppsviksvagen-100km1": "Grundkartan 1012 03 från 1968: Skeppsviksvägen ritas som huvudväg från Lund mot Skeppsvik, utom i en kurva där kartans väg går i en båge (inte daterad här); utgåvan 1978 ritar dagens linje där. Den första delen vid Torp saknas."
+ },
+ "laterStageNote": "Del av objektets egen geometri (samma koordinater), där vägen är huvudvägen på den senare utgåvan.",
+ "geometryNote": "Del av objektets egen geometri (samma koordinater), där dagens väg är den huvudväg grundkartan ritar."
+}

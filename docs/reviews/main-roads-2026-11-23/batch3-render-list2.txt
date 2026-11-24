@@ -1,0 +1,4 @@
+road:qgis:jomala:norra-svibyvagen-batch5 nls:101208:1968,nls:101209:1968 1968 [[[0,650],[830,1510]]]
+road:qgis:bomarsund:lumpovagen-100km5 nls:101211:1968,nls:101212:1968 1968 [[[200,1123.4]]]
+road:qgis:jomala:narmovagen-100km4 nls:101208:1968,nls:101209:1968 1968 [[[340,1249.4]]]
+road:qgis:mariehamn:jarsovagen-100km3 nls:101207:1968,nls:101208:1968 1968 [[[1220,1610]]]
