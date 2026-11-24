@@ -1,0 +1,52 @@
+{
+ "before": "data/map-scan-cache/review/main-roads-growing/before-main-roads-growing-step.json.gz",
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:rural:hammarland-bovikvagen-east",
+   "road:rural:hammarland-skarpnatovagen-south",
+   "road:rural:hammarland-way-350331479",
+   "road:rural:hammarland-way-557084450",
+   "road:rural:hammarland-way-71082200"
+  ]
+ },
+ "geometries": {
+  "added": [
+   "geometry:main-roads-growing:rural:hammarland-bovikvagen-east:1968",
+   "geometry:main-roads-growing:rural:hammarland-bovikvagen-east:1978",
+   "geometry:main-roads-growing:rural:hammarland-bovikvagen-east:1985",
+   "geometry:main-roads-growing:rural:hammarland-bovikvagen-east:1995",
+   "geometry:main-roads-growing:rural:hammarland-skarpnatovagen-south:1968",
+   "geometry:main-roads-growing:rural:hammarland-skarpnatovagen-south:1978",
+   "geometry:main-roads-growing:rural:hammarland-skarpnatovagen-south:1984",
+   "geometry:main-roads-growing:rural:hammarland-skarpnatovagen-south:1985",
+   "geometry:main-roads-growing:rural:hammarland-skarpnatovagen-south:1995",
+   "geometry:main-roads-growing:rural:hammarland-way-350331479:1968",
+   "geometry:main-roads-growing:rural:hammarland-way-350331479:1978",
+   "geometry:main-roads-growing:rural:hammarland-way-350331479:1985",
+   "geometry:main-roads-growing:rural:hammarland-way-350331479:1995",
+   "geometry:main-roads-growing:rural:hammarland-way-557084450:1968",
+   "geometry:main-roads-growing:rural:hammarland-way-557084450:1978",
+   "geometry:main-roads-growing:rural:hammarland-way-557084450:1985",
+   "geometry:main-roads-growing:rural:hammarland-way-557084450:1995",
+   "geometry:main-roads-growing:rural:hammarland-way-71082200:1968",
+   "geometry:main-roads-growing:rural:hammarland-way-71082200:1978",
+   "geometry:main-roads-growing:rural:hammarland-way-71082200:1985",
+   "geometry:main-roads-growing:rural:hammarland-way-71082200:1995"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:main-roads-growing"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStagesChanged": false,
+ "otherKeysChanged": [],
+ "historicalRoadsUnchanged": true,
+ "postalRouteUnchanged": true
+}

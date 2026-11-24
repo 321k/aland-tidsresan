@@ -54,3 +54,4 @@
 | 2 | 2, 3 and 5 (the archipelago) | `docs/main-roads-archipelago.md` | 235.4 → 182.8 km |
 | 3 | 4, 6, 7 and 8 (Lemland, Lumparland, Jomala, Eckerö, Hammarland, Sund) | `docs/main-roads-mainland.md` | 182.8 → 164.4 km |
 | 4 | main roads no object had (new objects from OSM, all areas) | `docs/main-roads-new.md` | 164.4 → 154.9 km; not covered even today 31.2 → 21.8 km |
+| 5 | roads that grow over time (the Hammarland review's objects, on the neighbouring sheets) | `docs/main-roads-growing.md` | 154.9 → 143.9 km |

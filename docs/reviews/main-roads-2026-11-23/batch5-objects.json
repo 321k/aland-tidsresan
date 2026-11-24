@@ -1,0 +1,2295 @@
+[
+ {
+  "objectId": "road:rural:hammarland-way-71082200",
+  "name": "Svartsmaravägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2021
+   ],
+   [
+    2021,
+    null
+   ]
+  ],
+  "redM": 4149,
+  "roads": [
+   "Svartsmaravägen"
+  ],
+  "editions": [
+   "nls:102104:1968",
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-skarpnatovagen-south",
+  "name": "Skarpnåtövägen · södra delen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 2586,
+  "roads": [
+   "Skarpnåtövägen",
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-557084450",
+  "name": "Ringsbölevägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2025
+   ],
+   [
+    2025,
+    null
+   ]
+  ],
+  "redM": 2117,
+  "roads": [
+   "Ringsbölevägen"
+  ],
+  "editions": [
+   "nls:101206:1968",
+   "nls:101209:1968"
+  ]
+ },
+ {
+  "objectId": "(no object today)",
+  "name": null,
+  "firstYear": null,
+  "periods": null,
+  "redM": 2002,
+  "roads": [
+   "Brändövägen",
+   "Enklingevägen",
+   "Flakavägen",
+   "Flygfältsvägen",
+   "Hultvägen",
+   "Kuggviksvägen",
+   "Sundsvägen",
+   "Södra Söderbyvägen",
+   "Tosarbyvägen",
+   "Valborgsvägen",
+   "Väg eller stig",
+   "Överövägen"
+  ],
+  "editions": [
+   "nls:101205:1978",
+   "nls:101208:1968",
+   "nls:101211:1968",
+   "nls:101212:1968",
+   "nls:101404:1970",
+   "nls:102104:1968",
+   "nls:102107:1968",
+   "nls:102110:1968",
+   "nls:102307:1971",
+   "nls:104102:1969"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-296445822",
+  "name": "Norrbygatan",
+  "firstYear": 1894,
+  "periods": [
+   [
+    1894,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2021
+   ],
+   [
+    2021,
+    null
+   ]
+  ],
+  "redM": 1601,
+  "roads": [
+   "Norrbygatan"
+  ],
+  "editions": [
+   "nls:101205:1978"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-bovikvagen-east",
+  "name": "Bovikvägen · östra delen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 1227,
+  "roads": [
+   "Bovikvägen"
+  ],
+  "editions": [
+   "nls:101203:1968",
+   "nls:102101:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-350331479",
+  "name": "Tellholmsvägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2021
+   ],
+   [
+    2021,
+    null
+   ]
+  ],
+  "redM": 1109,
+  "roads": [
+   "Tellholmsvägen"
+  ],
+  "editions": [
+   "nls:101203:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-155327042",
+  "name": "Jomala Torpvägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 995,
+  "roads": [
+   "Jomala Torpvägen",
+   "Norra Svibyvägen"
+  ],
+  "editions": [
+   "nls:101205:1978",
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:svartsmaravagen-batch4",
+  "name": "Svartsmaravägen",
+  "firstYear": 1993,
+  "periods": [
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 975,
+  "roads": [
+   "Svartsmaravägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tofto:vardovagen-200km1",
+  "name": "Vårdövägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 968,
+  "roads": [
+   "Vårdövägen"
+  ],
+  "editions": [
+   "nls:101403:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:svartsmara:skarpnatovagen-1",
+  "name": "Skarpnåtövägen · del 1",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 761,
+  "roads": [
+   "Skarpnåtövägen"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:mariehamn:lemlandsvagen-2-100km3",
+  "name": "Lemlandsvägen · del 2",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 679,
+  "roads": [
+   "Lemlandsvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-1183971791",
+  "name": "Södersundavägen",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 653,
+  "roads": [
+   "Södersundavägen"
+  ],
+  "editions": [
+   "nls:101205:1978"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-torpvagen-kattby-south",
+  "name": "Torpvägen · Kattby söderut",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 641,
+  "roads": [
+   "Torpvägen"
+  ],
+  "editions": [
+   "nls:101203:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:jomala:nya-godbyvagen-1-100km4",
+  "name": "Nya Godbyvägen · del 1",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 622,
+  "roads": [
+   "Björsby Bygata",
+   "Nya Godbyvägen"
+  ],
+  "editions": [
+   "nls:101209:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-345142933",
+  "name": "Hammarlandsvägen",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2021
+   ],
+   [
+    2021,
+    null
+   ]
+  ],
+  "redM": 595,
+  "roads": [
+   "Hammarlandsvägen"
+  ],
+  "editions": [
+   "nls:101205:1978"
+  ]
+ },
+ {
+  "objectId": "road:qgis:bomarsund:sundsvagen-2-100km5",
+  "name": "Sundsvägen · del 2",
+  "firstYear": 1928,
+  "periods": [
+   [
+    1928,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 557,
+  "roads": [
+   "Sundsvägen",
+   "Tosarbyvägen"
+  ],
+  "editions": [
+   "nls:101212:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:gottby:hammarlandsvagen-1-100km5",
+  "name": "Hammarlandsvägen · del 1",
+  "firstYear": 1928,
+  "periods": [
+   [
+    1928,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 483,
+  "roads": [
+   "Flygfältsvägen",
+   "Södersundavägen",
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:101205:1978"
+  ]
+ },
+ {
+  "objectId": "road:qgis:mariehamn:jarsovagen-100km3",
+  "name": "Järsövägen",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 480,
+  "roads": [
+   "Järsövägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:geta:finnovagen-100km4",
+  "name": "Finnövägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1984
+   ],
+   [
+    1984,
+    1993
+   ],
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 400,
+  "roads": [
+   "Finnövägen",
+   "Södravägen"
+  ],
+  "editions": [
+   "nls:102105:1968"
+  ]
+ },
+ {
+  "objectId": "road:lemland:lemlandsvagen:lindebo-kyrkby",
+  "name": "Lemlandsvägen · Lindebo–kyrkbyn",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 397,
+  "roads": [
+   "Södra Söderbyvägen",
+   "Valborgsvägen"
+  ],
+  "editions": [
+   "nls:101208:1968",
+   "nls:101211:1968"
+  ]
+ },
+ {
+  "objectId": "road:emkarbyvagen",
+  "name": "Emkarbyvägen",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    1928
+   ],
+   [
+    1928,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    2021
+   ],
+   [
+    2021,
+    null
+   ]
+  ],
+  "redM": 385,
+  "roads": [
+   "Emkarbyvägen"
+  ],
+  "editions": [
+   "nls:101206:1968",
+   "nls:101209:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:mariehamn:lemlandsvagen-1-100km3",
+  "name": "Lemlandsvägen · Knutsboda–Dragsvik",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 346,
+  "roads": [
+   "Lemlandsvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-536065739",
+  "name": "Norra Torpvägen",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 323,
+  "roads": [
+   "Norra Torpvägen"
+  ],
+  "editions": [
+   "nls:101205:1978",
+   "nls:101206:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:tjudo:saltviksvagen-100km1",
+  "name": "Saltviksvägen",
+  "firstYear": 1927,
+  "periods": [
+   [
+    1927,
+    1968
+   ],
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 297,
+  "roads": [
+   "Hagavägen"
+  ],
+  "editions": [
+   "nls:102108:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:overo:overovagen-2-200km1",
+  "name": "Överövägen · del 2",
+  "firstYear": 1970,
+  "periods": [
+   [
+    1970,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 199,
+  "roads": [
+   "Överövägen"
+  ],
+  "editions": [
+   "nls:101404:1970",
+   "nls:101405:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:bjorko:bjorkovagen-1-200km2",
+  "name": "Björkövägen · del 1",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 186,
+  "roads": [
+   "Björkövägen"
+  ],
+  "editions": [
+   "nls:102310:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:sund:mangstektavagen",
+  "name": "Mångstektavägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 181,
+  "roads": [
+   "Hultvägen",
+   "Mångstektavägen"
+  ],
+  "editions": [
+   "nls:102110:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:jomala:angsgatan-batch5",
+  "name": "Ängsgatan",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 180,
+  "roads": [
+   "Björsby Bygata"
+  ],
+  "editions": [
+   "nls:101209:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:saltviksvagen-1-batch4",
+  "name": "Saltviksvägen · del 1",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1993
+   ],
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 176,
+  "roads": [
+   "Saltviksvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:sonnboda:foglovagen-200km1",
+  "name": "Föglövägen",
+  "firstYear": 1970,
+  "periods": [
+   [
+    1970,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 169,
+  "roads": [
+   "Föglövägen",
+   "Överövägen"
+  ],
+  "editions": [
+   "nls:101404:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:eckero:torpvagen-1-100km1",
+  "name": "Torpvägen · del 1",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 153,
+  "roads": [
+   "Torpvägen"
+  ],
+  "editions": [
+   "nls:101203:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:getavagen-godby-norra-bladgransen",
+  "name": "Getavägen · Godby–norra bladgränsen",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 150,
+  "roads": [
+   "Tjudövägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:marsund:eckero-hammarland",
+  "name": "Eckerö–Hammarland · Marsundsförbindelsen",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1959
+   ],
+   [
+    1959,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 148,
+  "roads": [
+   "Eckerövägen"
+  ],
+  "editions": [
+   "nls:101203:1968",
+   "nls:102101:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:geta:sodravagen-2-200km2",
+  "name": "Södravägen · del 2",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1984
+   ],
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 140,
+  "roads": [
+   "Södravägen"
+  ],
+  "editions": [
+   "nls:102105:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:svartsmara:bergovagen-2",
+  "name": "Bergövägen · del 2",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 138,
+  "roads": [
+   "Bergövägen"
+  ],
+  "editions": [
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:overo:notovagen-200km1",
+  "name": "Nötövägen",
+  "firstYear": 1970,
+  "periods": [
+   [
+    1970,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 130,
+  "roads": [
+   "Nötövägen"
+  ],
+  "editions": [
+   "nls:101405:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:vardo:sandovagen-200km1",
+  "name": "Sandövägen",
+  "firstYear": 1971,
+  "periods": [
+   [
+    1971,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 128,
+  "roads": [
+   "Sandövägen"
+  ],
+  "editions": [
+   "nls:102301:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:sund:tengsodaviksvagen",
+  "name": "Tengsödaviksvägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 127,
+  "roads": [
+   "Kuggviksvägen"
+  ],
+  "editions": [
+   "nls:102110:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:morby:bovikvagen-100km2",
+  "name": "Bovikvägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 115,
+  "roads": [
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:102101:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:svartsmara:mellanakersvagen-1",
+  "name": "Mellanåkersvägen · del 1",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 113,
+  "roads": [
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:102101:1968",
+   "nls:102104:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:saltviksvagen-antbole-nygard",
+  "name": "Saltviksvägen · Antböle–Nygård",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 107,
+  "roads": [
+   "Saltviksvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:sund:gunnarsbyvagen",
+  "name": "Gunnarsbyvägen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 105,
+  "roads": [
+   "Gunnarsbyvägen"
+  ],
+  "editions": [
+   "nls:102110:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:slottsvagen-sodra",
+  "name": "Slottsvägen · södra anslutningen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 103,
+  "roads": [
+   "Slottsvägen",
+   "Tosarbyvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major-followup:rokerirondellen",
+  "name": "Rökerirondellen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 90,
+  "roads": [
+   "Rökerirondellen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:lumparland:angosundsvagen-100km3",
+  "name": "Ängösundsvägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 84,
+  "roads": [
+   "Ängösundsvägen"
+  ],
+  "editions": [
+   "nls:101211:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-86548779",
+  "name": "Södersundavägen",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2021
+   ],
+   [
+    2021,
+    null
+   ]
+  ],
+  "redM": 82,
+  "roads": [
+   "Södersundavägen"
+  ],
+  "editions": [
+   "nls:101206:1968",
+   "nls:101209:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major-followup:godbyvagen-rokeri-approach",
+  "name": "Godbyvägen · tillfart till Rökerirondellen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 78,
+  "roads": [
+   "Godbyvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major-followup:hammarlandsvagen-rondell-approach",
+  "name": "Hammarlandsvägen · tillfart till Västra rondellen",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 77,
+  "roads": [
+   "Hammarlandsvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:kumlinge:esplundsvagen-200km2",
+  "name": "Esplundsvägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 76,
+  "roads": [
+   "Enklingevägen"
+  ],
+  "editions": [
+   "nls:102307:1971"
+  ]
+ },
+ {
+  "objectId": "road:osterleden:storagatan-strandnas",
+  "name": "Österleden · Storagatan–Strandnäs",
+  "firstYear": 1975,
+  "periods": [
+   [
+    1978,
+    1982
+   ],
+   [
+    1982,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 76,
+  "roads": [
+   "Österleden"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:bomarsund:lumpouddvagen-100km5",
+  "name": "Lumpouddvägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 74,
+  "roads": [
+   "Lumpouddvägen"
+  ],
+  "editions": [
+   "nls:101212:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major-followup:godbyvagen-strandnas-curve",
+  "name": "Godbyvägen · båge till Rökerirondellen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 74,
+  "roads": [
+   "Godbyvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:degerby:hummersovagen-200km1",
+  "name": "Hummersövägen",
+  "firstYear": 1970,
+  "periods": [
+   [
+    1970,
+    1978
+   ],
+   [
+    1978,
+    1995
+   ],
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 70,
+  "roads": [
+   "Hummersövägen"
+  ],
+  "editions": [
+   "nls:101401:1970"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:street-pass4:lovdalsvagen",
+  "name": "Lövdalsvägen",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 66,
+  "roads": [
+   "Michaelsvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:mariehamn:lemlandsvagen-4-100km3",
+  "name": "Lemlandsvägen · del 4",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 64,
+  "roads": [
+   "Lemlandsvägen",
+   "Solbergsrondellen",
+   "Solbergsvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-155327037",
+  "name": "Ödanbölevägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 63,
+  "roads": [
+   "Ödanbölevägen"
+  ],
+  "editions": [
+   "nls:101205:1978"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:sundsvagen-lappbole-bladgransen",
+  "name": "Sundsvägen · Lappböle till bladgränsen",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    1968
+   ],
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 61,
+  "roads": [
+   "Tosarbyvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:fisko:fiskovagen-1-200km2",
+  "name": "Fiskövägen · del 1",
+  "firstYear": 1971,
+  "periods": [
+   [
+    1971,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 61,
+  "roads": [
+   "Fiskövägen"
+  ],
+  "editions": [
+   "nls:102312:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:geta:getavagen-1-200km2",
+  "name": "Getavägen · del 1",
+  "firstYear": 1927,
+  "periods": [
+   [
+    1927,
+    1984
+   ],
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 61,
+  "roads": [
+   "Getavägen"
+  ],
+  "editions": [
+   "nls:102105:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major-followup:vastra-rondellen",
+  "name": "Västra rondellen",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 58,
+  "roads": [
+   "Västra rondellen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major:way-40103454",
+  "name": "Nya Godbyvägen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 54,
+  "roads": [
+   "Nya Godbyvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:seglinge:seglingevagen-200km2",
+  "name": "Seglingevägen",
+  "firstYear": 1970,
+  "periods": [
+   [
+    1970,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 53,
+  "roads": [
+   "Seglingevägen"
+  ],
+  "editions": [
+   "nls:101409:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:vasterviksvagen-batch4",
+  "name": "Västerviksvägen",
+  "firstYear": 1993,
+  "periods": [
+   [
+    1993,
+    null
+   ]
+  ],
+  "redM": 52,
+  "roads": [
+   "Västerviksvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:ava:brandovagen-1-200km2",
+  "name": "Brändövägen · del 1",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1984
+   ],
+   [
+    1984,
+    1991
+   ],
+   [
+    1991,
+    null
+   ]
+  ],
+  "redM": 48,
+  "roads": [
+   "Brändövägen"
+  ],
+  "editions": [
+   "nls:104103:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:lappo:bjorkovagen-200km2",
+  "name": "Björkövägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 47,
+  "roads": [
+   "Björkövägen"
+  ],
+  "editions": [
+   "nls:102311:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:jarso:jarsovagen-200km2",
+  "name": "Järsövägen",
+  "firstYear": 1975,
+  "periods": [
+   [
+    1975,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 46,
+  "roads": [
+   "Järsövägen"
+  ],
+  "editions": [
+   "nls:101207:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:sundsvagen-kulla-aldre-kurva",
+  "name": "Sundsvägen · Kullas östra kurva",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    1968
+   ],
+   [
+    1968,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 45,
+  "roads": [
+   "Sundsvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:overo:overovagen-1-200km1",
+  "name": "Överövägen · del 1",
+  "firstYear": 1970,
+  "periods": [
+   [
+    1970,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 42,
+  "roads": [
+   "Överövägen"
+  ],
+  "editions": [
+   "nls:101405:1970"
+  ]
+ },
+ {
+  "objectId": "road:eckero:eckerovagen:storby-hamn",
+  "name": "Eckerövägen · Storby hamn–Labbas",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 36,
+  "roads": [
+   "Bagargatan",
+   "Sandmovägen"
+  ],
+  "editions": [
+   "nls:101203:1968",
+   "nls:102101:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major-followup:nya-godbyvagen-michaels-south",
+  "name": "Nya Godbyvägen",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 36,
+  "roads": [
+   "Nya Godbyvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:atlas1894:godbyvagen",
+  "name": "Godbyvägen",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    null
+   ]
+  ],
+  "redM": 27,
+  "roads": [
+   "Emkarbyvägen"
+  ],
+  "editions": [
+   "nls:101209:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:sund:norrgardsvagen-1",
+  "name": "Norrgårdsvägen · del 1",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    null
+   ]
+  ],
+  "redM": 25,
+  "roads": [
+   "Hultvägen"
+  ],
+  "editions": [
+   "nls:102110:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:geta:sodravagen-1-200km2",
+  "name": "Södravägen · del 1",
+  "firstYear": 1984,
+  "periods": [
+   [
+    1984,
+    null
+   ]
+  ],
+  "redM": 22,
+  "roads": [
+   "Södravägen"
+  ],
+  "editions": [
+   "nls:102105:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:lumparland:stickvagen-100km4",
+  "name": "Stickvägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 22,
+  "roads": [
+   "Stickvägen"
+  ],
+  "editions": [
+   "nls:101211:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:sund:langbergsodavagen-vastra-bladdelen",
+  "name": "Långbergsödavägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 22,
+  "roads": [
+   "Långbergsödavägen"
+  ],
+  "editions": [
+   "nls:102110:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:gottby:mockelovagen-100km5",
+  "name": "Möckelövägen",
+  "firstYear": 1928,
+  "periods": [
+   [
+    1928,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 21,
+  "roads": [
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:101205:1978"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-1422779919",
+  "name": "Södersundavägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 21,
+  "roads": [
+   "Södersundavägen"
+  ],
+  "editions": [
+   "nls:101206:1968"
+  ]
+ },
+ {
+  "objectId": "road:atlas1894:onningebyvagen",
+  "name": "Önningebyvägen",
+  "firstYear": 1800,
+  "periods": [
+   [
+    1800,
+    1894
+   ],
+   [
+    1894,
+    null
+   ]
+  ],
+  "redM": 21,
+  "roads": [
+   "Narmovägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:degerby:foglovagen-200km1",
+  "name": "Föglövägen",
+  "firstYear": 1970,
+  "periods": [
+   [
+    1970,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 20,
+  "roads": [
+   "Föglövägen"
+  ],
+  "editions": [
+   "nls:101401:1970"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major-followup:sjukhusvagen-rokeri-lane",
+  "name": "Sjukhusvägen · norra körfältet mot Rökerirondellen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 19,
+  "roads": [
+   "Sjukhusvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:enklinge:enklingevagen-200km2",
+  "name": "Enklingevägen",
+  "firstYear": 1971,
+  "periods": [
+   [
+    1971,
+    1985
+   ],
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 16,
+  "roads": [
+   "Enklingevägen"
+  ],
+  "editions": [
+   "nls:102308:1971"
+  ]
+ },
+ {
+  "objectId": "road:qgis:kokar:kokarvagen-200km2",
+  "name": "Kökarvägen",
+  "firstYear": 1971,
+  "periods": [
+   [
+    1971,
+    null
+   ]
+  ],
+  "redM": 16,
+  "roads": [
+   "Väg eller stig"
+  ],
+  "editions": [
+   "nls:101312:1971"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:major-followup:nya-godbyvagen-rokeri-approach",
+  "name": "Nya Godbyvägen · tillfart till Rökerirondellen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 16,
+  "roads": [
+   "Nya Godbyvägen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:lumparland:svinovagen-100km3",
+  "name": "Svinövägen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1995
+   ],
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 16,
+  "roads": [
+   "Svinövägen"
+  ],
+  "editions": [
+   "nls:101211:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:lemland:bocknasvagen-200km1",
+  "name": "Bocknäsvägen",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 15,
+  "roads": [
+   "Bocknäsvägen"
+  ],
+  "editions": [
+   "nls:101210:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:bomarsund:sundsvagen-1-100km5",
+  "name": "Sundsvägen · del 1",
+  "firstYear": 1928,
+  "periods": [
+   [
+    1928,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 15,
+  "roads": [
+   "Sundsvägen"
+  ],
+  "editions": [
+   "nls:101212:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:overo:ulversovagen-100km6",
+  "name": "Ulversövägen",
+  "firstYear": 1970,
+  "periods": [
+   [
+    1970,
+    1995
+   ],
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 15,
+  "roads": [
+   "Ulversövägen"
+  ],
+  "editions": [
+   "nls:101405:1970"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:palsbolevagen-norra",
+  "name": "Pålsbölevägen · norra delen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 13,
+  "roads": [
+   "Pålsbölevägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:haraldsbyvagen",
+  "name": "Haraldsbyvägen",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 13,
+  "roads": [
+   "Haraldsbyvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:street-pass4:klintvagen-approach",
+  "name": "Klintvägen",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 12,
+  "roads": [
+   "Västra Utfarten"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:norra-sundsvagen-sundby-bladgransen",
+  "name": "Norra Sundsvägen · Sundby till bladgränsen",
+  "firstYear": 1968,
+  "periods": [
+   [
+    1968,
+    1985
+   ],
+   [
+    1985,
+    2014
+   ],
+   [
+    2014,
+    null
+   ]
+  ],
+  "redM": 12,
+  "roads": [
+   "Norra Sundsvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:rural:hammarland-way-1422779920",
+  "name": "Södersundavägen",
+  "firstYear": 1929,
+  "periods": [
+   [
+    1929,
+    1968
+   ],
+   [
+    1968,
+    1978
+   ],
+   [
+    1978,
+    1985
+   ],
+   [
+    1985,
+    1995
+   ],
+   [
+    1995,
+    2021
+   ],
+   [
+    2021,
+    null
+   ]
+  ],
+  "redM": 12,
+  "roads": [
+   "Södersundavägen"
+  ],
+  "editions": [
+   "nls:101206:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:saltvik:saltviksvagen-kavelbro-forbifart",
+  "name": "Saltviksvägen · Kavelbro förbifart",
+  "firstYear": 1978,
+  "periods": [
+   [
+    1978,
+    null
+   ]
+  ],
+  "redM": 12,
+  "roads": [
+   "Saltviksvägen"
+  ],
+  "editions": [
+   "nls:102107:1968"
+  ]
+ },
+ {
+  "objectId": "road:mariehamn:street-pass4:vastra-utfarten-west",
+  "name": "Västra Utfarten",
+  "firstYear": 1995,
+  "periods": [
+   [
+    1995,
+    null
+   ]
+  ],
+  "redM": 9,
+  "roads": [
+   "Västra Utfarten"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ },
+ {
+  "objectId": "road:qgis:mariehamn:lemlandsvagen-5-100km3",
+  "name": "Lemlandsvägen · del 5",
+  "firstYear": 1985,
+  "periods": [
+   [
+    1985,
+    null
+   ]
+  ],
+  "redM": 5,
+  "roads": [
+   "Solbergsrondellen"
+  ],
+  "editions": [
+   "nls:101208:1968"
+  ]
+ }
+]
