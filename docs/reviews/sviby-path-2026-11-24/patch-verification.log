@@ -1,0 +1,14 @@
+forward on before-copies:
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/city-grid.js'
+patching file 'dist/temporal-objects.js'
+patching file 'dist/index.html'
+scripts/build_temporal_objects.py identical to working tree
+dist/city-grid.js identical to working tree
+dist/temporal-objects.js identical to working tree
+dist/index.html identical to working tree
+reverse dry run on working tree:
+patching file 'scripts/build_temporal_objects.py'
+patching file 'dist/city-grid.js'
+patching file 'dist/temporal-objects.js'
+patching file 'dist/index.html'

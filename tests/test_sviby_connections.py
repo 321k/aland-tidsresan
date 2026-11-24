@@ -10,6 +10,14 @@ JN, EW, SH = 'road:jomala:kasbergsvagen:norra-svibyvagen', 'road:jomala:sviby:va
 CHANGED = (NM, JN, EW, SH)
 
 
+def without_later(o):
+    """The object as this step leaves it: the Sviby paths step (docs/sviby-paths.md) later adds dated road classes and
+    their evidence to two of these roads."""
+    o = dict(o); o.pop('roadClassPeriods', None); o.pop('roadClassReview', None)
+    o['evidence'] = [e for e in o['evidence'] if e.get('reviewId') != 'review:sviby-paths']
+    return o
+
+
 def read(p):
     return json.loads(gzip.decompress(Path(p).read_bytes()) if str(p).endswith('.gz') else Path(p).read_bytes())
 
@@ -43,7 +51,7 @@ class SvibyConnectionsTests(unittest.TestCase):
         catalog = json.loads(json.dumps(self.apply(), ensure_ascii=False))
         key = lambda c: {x['id']: x for x in c['objects']}
         for i in CHANGED:
-            self.assertEqual(key(catalog)[i], key(self.built)[i])
+            self.assertEqual(key(catalog)[i], without_later(key(self.built)[i]))
         self.assertEqual([o for o in catalog['objects'] if o['id'] not in CHANGED], [o for o in self.pristine['objects'] if o['id'] not in CHANGED])
         self.assertEqual(catalog['cityStages'], self.built['cityStages'])
         k = key(catalog)

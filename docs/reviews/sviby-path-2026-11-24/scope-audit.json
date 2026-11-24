@@ -1,0 +1,28 @@
+{
+ "before": "data/map-scan-cache/review/sviby-paths/before-sviby-paths-step.json.gz",
+ "objects": {
+  "added": [],
+  "removed": [],
+  "changed": [
+   "road:jomala:norra-mockelovagen:norra-delen",
+   "road:jomala:sviby:vagen-mot-svibyvagen"
+  ]
+ },
+ "geometries": {
+  "added": [],
+  "removed": [],
+  "changed": []
+ },
+ "sources": {
+  "added": [
+   "review:sviby-paths",
+   "review:sviby-paths:osm-2014",
+   "review:sviby-paths:osm-2021",
+   "review:sviby-paths:osm-2025"
+  ],
+  "removed": [],
+  "changed": []
+ },
+ "cityStagesChanged": false,
+ "otherKeysChanged": []
+}

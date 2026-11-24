@@ -1,0 +1,248 @@
+{
+ "schemaVersion": 1,
+ "reviewedAt": "2026-11-24",
+ "source": {
+  "id": "review:sviby-paths",
+  "title": "Vägarna vid Sviby som blivit gång- och cykelvägar · granskning",
+  "url": "assets/sviby-paths.json"
+ },
+ "sources": [
+  {
+   "id": "review:sviby-paths:osm-2014",
+   "title": "OpenStreetMap · utdrag 2014 · vägarna vid Sviby",
+   "url": "https://www.openstreetmap.org/way/35304978/history",
+   "issuedAt": "2014"
+  },
+  {
+   "id": "review:sviby-paths:osm-2021",
+   "title": "OpenStreetMap · utdrag 2021 · vägarna vid Sviby",
+   "url": "https://www.openstreetmap.org/way/35304978/history",
+   "issuedAt": "2021"
+  },
+  {
+   "id": "review:sviby-paths:osm-2025",
+   "title": "OpenStreetMap · utdrag 2025 · vägarna vid Sviby",
+   "url": "https://www.openstreetmap.org/way/35304978/history",
+   "issuedAt": "2025"
+  }
+ ],
+ "method": "OpenStreetMap-utdragen 2014, 2021, 2025 och 2026 och Mariehamns flygfoton 1942–2021 (1 m per pixel) jämförda för ögat.",
+ "targets": [
+  {
+   "objectId": "road:jomala:sviby:vagen-mot-svibyvagen",
+   "inputHash": "b3256497874aef6aff2b485c3e9de5133d4f009a683d04950ce8b86dd84ea35c",
+   "evidence": [
+    {
+     "id": "road:jomala:sviby:vagen-mot-svibyvagen:osm-2014",
+     "sourceId": "review:sviby-paths:osm-2014",
+     "describes": {
+      "from": 2014,
+      "to": 2015
+     },
+     "observationType": "snapshot",
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "coverage": "full",
+     "canonicalRange": [
+      0,
+      1
+     ],
+     "note": "Hela vägen är en väg (35304978) av klassen residential, en vanlig väg."
+    },
+    {
+     "id": "road:jomala:sviby:vagen-mot-svibyvagen:osm-2021",
+     "sourceId": "review:sviby-paths:osm-2021",
+     "describes": {
+      "from": 2021,
+      "to": 2022
+     },
+     "observationType": "snapshot",
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "coverage": "full",
+     "canonicalRange": [
+      0,
+      1
+     ],
+     "note": "Hela vägen är fortfarande en väg (35304978) av klassen residential."
+    },
+    {
+     "id": "road:jomala:sviby:vagen-mot-svibyvagen:osm-2025",
+     "sourceId": "review:sviby-paths:osm-2025",
+     "describes": {
+      "from": 2025,
+      "to": 2026
+     },
+     "observationType": "snapshot",
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "coverage": "partial",
+     "canonicalRange": [
+      0,
+      0.5969
+     ],
+     "note": "De västra 252 metrarna, från Norra Svibyvägen, är nu fyra vägar av klassen cycleway, en gång- och cykelväg; resten fram till Svibyvägen är residential."
+    },
+    {
+     "id": "road:jomala:sviby:vagen-mot-svibyvagen:photo-2007",
+     "sourceId": "mariehamn-aerial-2007",
+     "describes": {
+      "from": 2007,
+      "to": 2008
+     },
+     "observationType": "aerial",
+     "observedAt": "2007-06-04",
+     "imageCoverage": "visible",
+     "outcome": "present",
+     "interpretation": true,
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "note": "En jämn grusväg i samma bredd i hela längden, från Norra Svibyvägen till Svibyvägen. När den västra delen stängdes för biltrafik syns inte på fotona."
+    },
+    {
+     "id": "road:jomala:sviby:vagen-mot-svibyvagen:photo-2015",
+     "sourceId": "mariehamn-aerial-2015",
+     "describes": {
+      "from": 2015,
+      "to": 2016
+     },
+     "observationType": "aerial",
+     "observedAt": "2015-05-20",
+     "imageCoverage": "visible",
+     "outcome": "present",
+     "interpretation": true,
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "note": "En jämn grusväg i samma bredd i hela längden, från Norra Svibyvägen till Svibyvägen. När den västra delen stängdes för biltrafik syns inte på fotona."
+    },
+    {
+     "id": "road:jomala:sviby:vagen-mot-svibyvagen:photo-2021",
+     "sourceId": "mariehamn-aerial-2021",
+     "describes": {
+      "from": 2021,
+      "to": 2022
+     },
+     "observationType": "aerial",
+     "observedAt": "2021-06-06",
+     "imageCoverage": "visible",
+     "outcome": "present",
+     "interpretation": true,
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "note": "En jämn grusväg i samma bredd i hela längden, från Norra Svibyvägen till Svibyvägen. När den västra delen stängdes för biltrafik syns inte på fotona."
+    }
+   ],
+   "roadClassPeriods": [
+    {
+     "from": 2025,
+     "to": null,
+     "class": "cycleway",
+     "canonicalRange": [
+      0,
+      0.5969
+     ],
+     "rangeWays": [
+      "way/1193557303",
+      "way/1108057940",
+      "way/1108057939",
+      "way/1180462200"
+     ],
+     "evidenceIds": [
+      "road:jomala:sviby:vagen-mot-svibyvagen:osm-2025"
+     ],
+     "basis": "Den västra delen, 252 m från Norra Svibyvägen, är en gång- och cykelväg i OpenStreetMap från utdraget 2025; 2014 och 2021 var hela vägen en vanlig väg. Flygfotona 2007–2021 visar samma grusväg i hela längden, så när den stängdes för biltrafik är inte känt; 2025 är första belägg."
+    }
+   ]
+  },
+  {
+   "objectId": "road:jomala:norra-mockelovagen:norra-delen",
+   "inputHash": "19ad7226e290b2d419550f4683d82238d30fad31501e7d96168f24338165e353",
+   "evidence": [
+    {
+     "id": "road:jomala:norra-mockelovagen:norra-delen:photo-1999",
+     "sourceId": "mariehamn-aerial-1999",
+     "describes": {
+      "from": 1999,
+      "to": 2000
+     },
+     "observationType": "aerial",
+     "observedAt": "1999-06-10",
+     "imageCoverage": "visible",
+     "outcome": "present",
+     "interpretation": true,
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "note": "En grusväg i full bredd från korsningen vid Norra Svibyvägen söderut, som på flygfotona 1952–1991."
+    },
+    {
+     "id": "road:jomala:norra-mockelovagen:norra-delen:photo-2007",
+     "sourceId": "mariehamn-aerial-2007",
+     "describes": {
+      "from": 2007,
+      "to": 2008
+     },
+     "observationType": "aerial",
+     "observedAt": "2007-06-04",
+     "imageCoverage": "visible",
+     "outcome": "different-structure",
+     "interpretation": true,
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "note": "Norra Svibyvägen svänger nu åt sydväst i en ny kurva; den gamla vägen söderut från korsningen är en smal stig."
+    },
+    {
+     "id": "road:jomala:norra-mockelovagen:norra-delen:osm-2014",
+     "sourceId": "review:sviby-paths:osm-2014",
+     "describes": {
+      "from": 2014,
+      "to": 2015
+     },
+     "observationType": "snapshot",
+     "supports": [
+      "state"
+     ],
+     "reviewId": "review:sviby-paths",
+     "coverage": "full",
+     "canonicalRange": [
+      0,
+      1
+     ],
+     "note": "Vägen är en gångväg (footway); 2025 en gång- och cykelväg (cycleway)."
+    }
+   ],
+   "roadClassPeriods": [
+    {
+     "from": 1929,
+     "to": 2007,
+     "class": "residential",
+     "evidenceIds": [
+      "road:jomala:norra-mockelovagen:norra-delen:map-1929-mariehamn",
+      "road:jomala:norra-mockelovagen:norra-delen:map-1948-mariehamn",
+      "road:jomala:norra-mockelovagen:norra-delen:map-1968-mariehamn",
+      "road:jomala:norra-mockelovagen:norra-delen:map-1978-mariehamn",
+      "road:jomala:norra-mockelovagen:norra-delen:map-1985-mariehamn",
+      "road:jomala:norra-mockelovagen:norra-delen:map-1995-mariehamn",
+      "road:jomala:norra-mockelovagen:norra-delen:photo-1999"
+     ],
+     "basis": "En väg på kartorna 1929–1995 och flygfotona 1952–1999. Flygfotot 2007 visar den som en smal stig, sedan Norra Svibyvägen fått en ny kurva åt sydväst; i OpenStreetMap är den en gångväg från utdraget 2014 och en gång- och cykelväg 2025. Från 2007 visas den som gång- och cykelväg."
+    }
+   ]
+  }
+ ]
+}
